@@ -4,11 +4,14 @@ import { db } from '@/lib/firebase';
 import { JobPosting } from '@/lib/types';
 import { notFound } from 'next/navigation';
 
-interface JobDetailsPageProps {
-  params: { id: string };
-}
+// Define the props type for the page, reflecting Next.js 15+ changes
+type Props = {
+  params: Promise<{ id: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
+};
 
-export default async function JobDetailsPage({ params: { id } }: JobDetailsPageProps) {
+export default async function JobDetailsPage({ params }: Props) {
+  const { id } = await params;
   let job: JobPosting | null = null;
 
   try {
@@ -19,7 +22,8 @@ export default async function JobDetailsPage({ params: { id } }: JobDetailsPageP
       job = {
         id: docSnap.id,
         ...(docSnap.data() as JobPosting),
-        postedDate: docSnap.data().postedDate.toDate(),
+        // Ensure postedDate is converted correctly
+        postedDate: docSnap.data().postedDate?.toDate ? docSnap.data().postedDate.toDate() : new Date(docSnap.data().postedDate),
       };
     } else {
       notFound();

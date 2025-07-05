@@ -1,8 +1,8 @@
 import Layout from '@/components/Layout';
 import { db } from '@/lib/firebase';
-// Corrected: Import modular functions from Firestore
 import { collection, query, where, getDocs, limit } from 'firebase/firestore';
 import { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 
 interface Article {
@@ -15,15 +15,17 @@ interface Article {
   imageUrl?: string;
 }
 
-interface ArticleDetailsPageProps {
-  params: {
-    slug: string;
-  };
-}
+// Define the props type for the page and metadata function, reflecting Next.js 15+ changes
+type Props = {
+  params: Promise<{ slug: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
+};
 
 // Generate dynamic metadata for each article
-export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {
-  const article = await getArticleBySlug(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  // Await the params promise to get the slug
+  const { slug } = await params;
+  const article = await getArticleBySlug(slug);
 
   if (!article) {
     return {
@@ -54,7 +56,6 @@ export async function generateMetadata({ params }: ArticleDetailsPageProps): Pro
 // Function to fetch article data by slug
 async function getArticleBySlug(slug: string): Promise<Article | null> {
   try {
-    // Corrected: Use modular query syntax
     const articlesCollectionRef = collection(db, 'articles');
     const q = query(articlesCollectionRef, where('slug', '==', slug), limit(1));
     const querySnapshot = await getDocs(q);
@@ -64,7 +65,7 @@ async function getArticleBySlug(slug: string): Promise<Article | null> {
     }
 
     const doc = querySnapshot.docs[0];
-    const data = doc.data(); // Get data once
+    const data = doc.data();
 
     return {
       id: doc.id,
@@ -81,8 +82,10 @@ async function getArticleBySlug(slug: string): Promise<Article | null> {
   }
 }
 
-export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {
-  const article = await getArticleBySlug(params.slug);
+export default async function ArticleDetailsPage({ params }: Props) {
+  // Await the params promise to get the slug
+  const { slug } = await params;
+  const article = await getArticleBySlug(slug);
 
   if (!article) {
     return (
@@ -105,7 +108,7 @@ export default async function ArticleDetailsPage({ params }: ArticleDetailsPageP
         <p className="mt-2 text-md text-gray-700">By {article.author} on {new Date(article.publishDate).toLocaleDateString()}</p>
         {article.imageUrl && (
           <div className="my-4">
-            <img src={article.imageUrl} alt={article.title} className="w-full h-auto rounded-lg" />
+            <Image src={article.imageUrl} alt={article.title} width={800} height={450} className="w-full h-auto rounded-lg object-cover" />
           </div>
         )}
         <div className="mt-6 prose max-w-none" dangerouslySetInnerHTML={{ __html: article.content }} />
@@ -113,5 +116,6 @@ export default async function ArticleDetailsPage({ params }: ArticleDetailsPageP
     </Layout>
   );
 }
+
 
 export const revalidate = 60;
