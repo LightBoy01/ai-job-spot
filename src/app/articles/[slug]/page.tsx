@@ -3,6 +3,7 @@ import { db } from '@/lib/firebase';
 // Corrected: Import modular functions from Firestore
 import { collection, query, where, getDocs, limit } from 'firebase/firestore';
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 interface Article {
   id: string;
