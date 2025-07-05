@@ -1,0 +1,8 @@
+{
+	"preferences": {
+		"typescript": true,
+		"srcDir": true,
+		"app": true,
+		"turbopack": true
+	}
+}

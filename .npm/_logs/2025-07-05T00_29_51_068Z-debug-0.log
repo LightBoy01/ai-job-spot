@@ -1,0 +1,23 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.3.0
+2 info using node@v24.2.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/ai-job-spot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm exec @next/codemod@latest new-link .
+8 verbose argv "exec" "--" "@next/codemod@latest" "new-link" "."
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-07-05T00_29_51_068Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-07-05T00_29_51_068Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:1089470464 maxSize:272367616 maxEntrySize:136183808
+14 http fetch GET 200 https://registry.npmjs.org/@next%2fcodemod 2587ms (cache updated)
+15 silly packumentCache heap:1089470464 maxSize:272367616 maxEntrySize:136183808
+16 silly packumentCache heap:1089470464 maxSize:272367616 maxEntrySize:136183808
+17 verbose cwd /data/data/com.termux/files/home/ai-job-spot
+18 verbose os Linux 5.4.254-android12-9-660873-gb555c87043d9-ab603
+19 verbose node v24.2.0
+20 verbose npm  v11.3.0
+21 verbose exit 1
+22 verbose code 1

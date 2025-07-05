@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@next/codemod": "^15.3.5"
+  },
+  "_npx": {
+    "packages": [
+      "@next/codemod@latest"
+    ]
+  }
+}
