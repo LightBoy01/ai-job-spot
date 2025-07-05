@@ -25,8 +25,7 @@ const JobCard = ({ job }: JobCardProps) => {
   return (
     // Wrap the entire card in a Next.js Link component for SEO and UX.
     // The `passHref` and `legacyBehavior` props ensure the <a> tag is generated correctly.
-    <Link href={`/jobs/${id}`} passHref legacyBehavior>
-      <a className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer">
+    <Link href={`/jobs/${id}`} passHref className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer">
         <div className="flex flex-col">
           {/* Job Title */}
           <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
@@ -61,7 +60,6 @@ const JobCard = ({ job }: JobCardProps) => {
             )}
           </div>
         </div>
-      </a>
     </Link>
   );
 };

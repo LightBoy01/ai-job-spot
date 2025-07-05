@@ -42,10 +42,8 @@ const Navbar = () => {
           
           {/* Site Title */}
           <div className="flex-shrink-0">
-            <Link href="/" legacyBehavior>
-              <a className="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors">
+            <Link href="/" className="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors">
                 AI Job Spot
-              </a>
             </Link>
           </div>
 
@@ -53,10 +51,8 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navLinks.map((link) => (
-                <Link key={link.href} href={link.href} legacyBehavior>
-                  <a className={getLinkClassName(link.href)}>
+                <Link key={link.href} href={link.href} className={getLinkClassName(link.href)}>
                     {link.label}
-                  </a>
                 </Link>
               ))}
             </div>
@@ -79,24 +75,21 @@ const Navbar = () => {
                 </svg>
               ) : (
               /* Icon when menu is open */
-                <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                (<svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
+                </svg>)
               )}
             </button>
           </div>
         </div>
       </div>
-
       {/* Mobile Menu Panel */}
       {isMobileMenuOpen && (
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
              {navLinks.map((link) => (
-                <Link key={link.href} href={link.href} legacyBehavior>
-                  <a className={`${getLinkClassName(link.href)} block`}> {/* block makes it take full width */}
+                <Link key={link.href} href={link.href} className={`${getLinkClassName(link.href)} block`}> {/* block makes it take full width */}
                     {link.label}
-                  </a>
                 </Link>
               ))}
           </div>

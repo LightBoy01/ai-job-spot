@@ -936,5 +936,600 @@
     "type": "user",
     "message": "Update on the job section;\n\nLatest AI Jobs\nAI Research Scientist\nGoogle\n\nMountain View, CA\nFull-time\n$150,000 - $250,000\nMachine Learning Engineer\nOpenAI\n\nSan Francisco, CA\nFull-time\n$160,000 - $260,000\nData Scientist\nMicrosoft\n\nRedmond, WA\nFull-time\n$130,000 - $220,000\nAI Ethics Specialist\nIBM\n\nArmonk, NY (Remote options available)\nFull-time\n$120,000 - $190,000\nRobotics Engineer\nBoston Dynamics\n\nWaltham, MA\nFull-time\n$140,000 - $230,000\nAd Placeholder (Dev Mode)\n\nFor the article section:\n\nRuntime Error\nServer\n\n\nTypeError: Cannot read properties of undefined (reading 'substring')\n\nsrc/app/articles/page.tsx (69:40) @ eval\n\n\n  67 |                 </p>\n  68 |                 <p className=\"mt-4 text-gray-600\">\n> 69 |                   {article.contentBody.substring(0, 150)}...\n     |                                        ^\n  70 |                 </p>\n  71 |                 <Link href={`/articles/${article.slug}`} legacyBehavior>\n  72 |                   <a className=\"mt-4 inline-block text-blue-600 hover:underline text-sm\">\nCall Stack\n8\n\nHide 6 ignore-listed frame(s)\neval\nsrc/app/articles/page.tsx (69:40)\nArticlesPage\nsrc/app/articles/page.tsx (56:23)\nresolveErrorDev\nnode_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js (1865:1)\nprocessFullStringRow\nnode_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js (2245:1)\nprocessFullBinaryRow\nnode_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js (2233:1)\nprogress\nnode_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js (2479:1)\nInnerLayoutRouter\nnode_modules/next/dist/client/components/layout-router.js (313:38)\nOuterLayoutRouter\nnode_modules/next/dist/client/components/layout-router.js (462:72)\n\nConsole Error\n\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n\nsrc/components/Navbar.tsx (45:13) @ Navbar\n\n\n  43 |           {/* Site Title */}\n  44 |           <div className=\"flex-shrink-0\">\n> 45 |             <Link href=\"/\" legacyBehavior>\n     |             ^\n  46 |               <a className=\"text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors\">\n  47 |                 AI Job Spot\n  48 |               </a>\nCall Stack\n8\n\nHide 5 ignore-listed frame(s)\ncreateConsoleError\nnode_modules/next/dist/client/components/errors/console-error.js (31:71)\nhandleConsoleError\nnode_modules/next/dist/client/components/errors/use-error-handler.js (52:53)\nconsole.error\nnode_modules/next/dist/client/components/globals/intercept-console-error.js (54:56)\nerrorOnce\nnode_modules/next/dist/shared/lib/utils/error-once.js (16:21)\nLinkComponent\nnode_modules/next/dist/client/app-dir/link.js (358:37)\nNavbar\nsrc/components/Navbar.tsx (45:13)\nLayout\nsrc/components/Layout.tsx (27:7)\nHomePage\nsrc/app/page.tsx (56:5)\n\n~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.23.43.22:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 10.6s\n ○ Compiling / ...\n ✓ Compiled / in 13.7s (1037 modules)\nError fetching jobs in HomePage: [Error [FirebaseError]: Missing or insufficient permissions.] {\n  code: 'permission-denied',\n  customData: undefined,\n  toString: [Function (anonymous)]\n}\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n GET / 200 in 18646ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 1533ms (685 modules)\n GET /favicon.ico 200 in 2038ms\n ○ Compiling /articles ...\n ✓ Compiled /articles in 1482ms (1055 modules)\nError fetching articles in ArticlesPage: [Error [FirebaseError]: Missing or insufficient permissions.] {\n  code: 'permission-denied',\n  customData: undefined,\n  toString: [Function (anonymous)]\n}\nError fetching articles in ArticlesPage: [Error [FirebaseError]: Missing or insufficient permissions.] {\n  code: 'permission-denied',\n  customData: undefined,\n  toString: [Function (anonymous)]\n}\nError fetching articles in ArticlesPage: [Error [FirebaseError]: Missing or insufficient permissions.] {\n  code: 'permission-denied',\n  customData: undefined,\n  toString: [Function (anonymous)]\n}\n GET /articles 200 in 618ms\n GET /articles 200 in 3718ms\n GET /articles 200 in 491ms\nError fetching jobs in HomePage: [Error [FirebaseError]: Missing or insufficient permissions.] {\n  code: 'permission-denied',\n  customData: undefined,\n  toString: [Function (anonymous)]\n}\n GET / 200 in 598ms\n[2025-07-04T23:59:44.477Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Listen' stream 0x3f0b403e error. Code: 1 Message: 1 CANCELLED: Disconnecting idle stream. Timed out waiting for new targets.\n[2025-07-05T00:00:05.965Z]  @firebase/firestore: Firestore (11.10.0): GrpcConnection RPC 'Listen' stream 0x53ee4ac3 error. Code: 1 Message: 1 CANCELLED: Disconnecting idle stream. Timed out waiting for new targets.\nError fetching jobs in HomePage: [Error [FirebaseError]: Missing or insufficient permissions.] {\n  code: 'permission-denied',\n  customData: undefined,\n  toString: [Function (anonymous)]\n}\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n GET / 200 in 1481ms\n GET /favicon.ico 200 in 196ms\n^C\n~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.23.43.22:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 9.1s\n ○ Compiling /articles ...\n ✓ Compiled /articles in 8.3s (1022 modules)\n ⨯ TypeError: Cannot read properties of undefined (reading 'substring')\n    at eval (src/app/articles/page.tsx:69:39)\n    at Array.map (<anonymous>)\n    at ArticlesPage (src/app/articles/page.tsx:56:22)\n  67 |                 </p>\n  68 |                 <p className=\"mt-4 text-gray-600\">\n> 69 |                   {article.contentBody.substring(0, 150)}...\n     |                                       ^\n  70 |                 </p>\n  71 |                 <Link href={`/articles/${article.slug}`} legacyBehavior>\n  72 |                   <a className=\"mt-4 inline-block text-blue-600 hover:underline text-sm\"> {\n  digest: '2015400222'\n}\n GET /articles 500 in 12684ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 1603ms (684 modules)\n GET /favicon.ico 200 in 2360ms\n GET /favicon.ico 200 in 31ms\n ○ Compiling / ...\n ✓ Compiled / in 2.1s (1041 modules)\n ⚠ Fast Refresh had to perform a full reload due to a runtime error.\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n GET / 200 in 5471ms\n ⨯ TypeError: Cannot read properties of undefined (reading 'substring')\n    at eval (src/app/articles/page.tsx:69:39)\n    at Array.map (<anonymous>)\n    at ArticlesPage (src/app/articles/page.tsx:56:22)\n  67 |                 </p>\n  68 |                 <p className=\"mt-4 text-gray-600\">\n> 69 |                   {article.contentBody.substring(0, 150)}...\n     |                                       ^\n  70 |                 </p>\n  71 |                 <Link href={`/articles/${article.slug}`} legacyBehavior>\n  72 |                   <a className=\"mt-4 inline-block text-blue-600 hover:underline text-sm\"> {\n  digest: '2015400222'\n}\n GET /articles 200 in 593ms\n GET / 200 in 974ms\n^C\n~/ai-job-spot",
     "timestamp": "2025-07-05T00:26:12.067Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 0,
+    "type": "user",
+    "message": "befr that, pls make sure to observe carefully and make search",
+    "timestamp": "2025-07-05T07:24:57.967Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 1,
+    "type": "user",
+    "message": "why isthe search taking long",
+    "timestamp": "2025-07-05T07:28:41.541Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 2,
+    "type": "user",
+    "message": "yes but observe carefully and take the neccesary precautions",
+    "timestamp": "2025-07-05T07:29:37.505Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 3,
+    "type": "user",
+    "message": "current errors; ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 10.6s\n ○ Compiling / ...\n ✓ Compiled / in 13.1s (1037 modules)\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n GET / 200 in 17761ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 1967ms (685 modules)\n GET /favicon.ico 200 in 2478ms\n ○ Compiling /articles ...\n ✓ Compiled /articles in 1689ms (1055 modules)\n ⨯ TypeError: Cannot read properties of undefined (reading 'substring')\n    at eval (src/app/articles/page.tsx:69:39)\n    at Array.map (<anonymous>)\n    at ArticlesPage (src/app/articles/page.tsx:56:22)\n  67 |                 </p>\n  68 |                 <p className=\"mt-4 text-gray-600\">\n> 69 |                   {article.contentBody.substring(0, 150)}...\n     |                                       ^\n  70 |                 </p>\n  71 |                 <Link href={`/articles/${article.slug}`} legacyBehavior>\n  72 |                   <a className=\"mt-4 inline-block text-blue-600 hover:underline text-sm\"> {\n  digest: '2866116348'\n}\n ⨯ TypeError: Cannot read properties of undefined (reading 'substring')\n    at eval (src/app/articles/page.tsx:69:39)\n    at Array.map (<anonymous>)\n    at ArticlesPage (src/app/articles/page.tsx:56:22)\n  67 |                 </p>\n  68 |                 <p className=\"mt-4 text-gray-600\">\n> 69 |                   {article.contentBody.substring(0, 150)}...\n     |                                       ^\n  70 |                 </p>\n  71 |                 <Link href={`/articles/${article.slug}`} legacyBehavior>\n  72 |                   <a className=\"mt-4 inline-block text-blue-600 hover:underline text-sm\"> {\n  digest: '2015400222'\n}\n GET /articles 200 in 4291ms\n GET /articles 200 in 986ms\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n GET / 200 in 819ms\n ⨯ TypeError: Cannot read properties of undefined (reading 'substring')\n    at eval (src/app/articles/page.tsx:69:39)\n    at Array.map (<anonymous>)\n    at ArticlesPage (src/app/articles/page.tsx:56:22)\n  67 |                 </p>\n  68 |                 <p className=\"mt-4 text-gray-600\">\n> 69 |                   {article.contentBody.substring(0, 150)}...\n     |                                       ^\n  70 |                 </p>\n  71 |                 <Link href={`/articles/${article.slug}`} legacyBehavior>\n  72 |                   <a className=\"mt-4 inline-block text-blue-600 hover:underline text-sm\"> {\n  digest: '2015400222'\n}\n GET /articles 200 in 391ms\n^C\n~/ai-job-spot $",
+    "timestamp": "2025-07-05T07:36:49.089Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 4,
+    "type": "user",
+    "message": "search abt the persisting issues first",
+    "timestamp": "2025-07-05T07:37:56.771Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 5,
+    "type": "user",
+    "message": "bfr that, which error is this; Debug Console (ctrl+o to       │\n│ close)                         │\n│                                │                │ ... first 459 lines hidden ... │\n│                                │                │    Symbol(gaxios-gaxios-error) │\n│    : '6.7.1'                   │                │    }",
+    "timestamp": "2025-07-05T07:41:37.768Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 6,
+    "type": "user",
+    "message": "Update on the latest run;\n\nLatest AI Jobs\nAI Research Scientist\nGoogle\n\nMountain View, CA\nAI\nResearch\nFull-time\nMachine Learning\n$150,000 - $250,000\nMachine Learning Engineer\nOpenAI\n\nSan Francisco, CA\nML\nEngineering\nFull-time\nDeep Learning\n$160,000 - $260,000\nData Scientist\nMicrosoft\n\nRedmond, WA\nData Science\nAnalytics\nFull-time\n$130,000 - $220,000\nAI Ethics Specialist\nIBM\n\nArmonk, NY (Remote options available)\nAI Ethics\nPolicy\nRemote\n$120,000 - $190,000\nRobotics Engineer\nBoston Dynamics\n\nWaltham, MA\nRobotics\nEngineering\nHardware\n$140,000 - $230,000\nAd Placeholder (Dev Mode)\n\n\nAI Articles & Guides\nThe Rise of Generative AI: A New Era of Creativity\nBy AI Job Spot Team on 7/3/2025\n\n...\n\nRead More\nThe Rise of Generative AI: A New Era of Creativity\nBy AI Job Spot Team on 7/3/2025\n\n...\n\nRead More\nNavigating the Ethical Landscape of Artificial Intelligence\nBy Dr. Emily Chen on 6/29/2025\n\n...\n\nRead More\nNavigating the Ethical Landscape of Artificial Intelligence\nBy Dr. Emily Chen on 6/29/2025\n\n...\n\nRead More\nAd Placeholder (Dev Mode)\n\n\n~/ai-job-spot $   npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 8.9s\n ○ Compiling /articles ...\n ✓ Compiled /articles in 11s (1036 modules)\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n GET /articles 200 in 15332ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 2.9s (684 modules)\n GET /favicon.ico 200 in 3369ms\n ○ Compiling / ...\n ✓ Compiled / in 1748ms (1055 modules)\n GET / 200 in 4581ms\n GET / 200 in 865ms\n^C\n~/ai-job-spot $",
+    "timestamp": "2025-07-05T07:47:42.288Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 7,
+    "type": "user",
+    "message": "pls.search to confirm",
+    "timestamp": "2025-07-05T07:48:33.061Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 8,
+    "type": "user",
+    "message": "observe carefully",
+    "timestamp": "2025-07-05T07:49:19.973Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 9,
+    "type": "user",
+    "message": "Result of latest run(won't the learn more link useful for search?);\n\n1/1\n\nNext.js 15.3.5\nWebpack\nConsole Error\n\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n\nsrc/components/Navbar.tsx (45:13) @ Navbar\n\n\n  43 |           {/* Site Title */}\n  44 |           <div className=\"flex-shrink-0\">\n> 45 |             <Link href=\"/\" legacyBehavior>\n     |             ^\n  46 |               <a className=\"text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors\">\n  47 |                 AI Job Spot\n  48 |               </a>\nCall Stack\n8\n\nHide 5 ignore-listed frame(s)\ncreateConsoleError\nnode_modules/next/dist/client/components/errors/console-error.js (31:71)\nhandleConsoleError\nnode_modules/next/dist/client/components/errors/use-error-handler.js (52:53)\nconsole.error\nnode_modules/next/dist/client/components/globals/intercept-console-error.js (54:56)\nerrorOnce\nnode_modules/next/dist/shared/lib/utils/error-once.js (16:21)\nLinkComponent\nnode_modules/next/dist/client/app-dir/link.js (358:37)\nNavbar\nsrc/components/Navbar.tsx (45:13)\nLayout\nsrc/components/Layout.tsx (27:7)\nHomePage\nsrc/app/page.tsx (25:5)",
+    "timestamp": "2025-07-05T07:54:50.037Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 10,
+    "type": "user",
+    "message": "This is the latest run;\n\nFor the job section:\n\nConsole Error\n\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n\nsrc/components/JobCard.tsx (28:5) @ JobCard\n\n\n  26 |     // Wrap the entire card in a Next.js Link component for SEO and UX.\n  27 |     // The `passHref` and `legacyBehavior` props ensure the <a> tag is generated correctly.\n> 28 |     <Link href={`/jobs/${id}`} passHref legacyBehavior>\n     |     ^\n  29 |       <a className=\"block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer\">\n  30 |         <div className=\"flex flex-col\">\n  31 |           {/* Job Title */}\nCall Stack\n8\n\nHide 5 ignore-listed frame(s)\ncreateConsoleError\nnode_modules/next/dist/client/components/errors/console-error.js (31:71)\nhandleConsoleError\nnode_modules/next/dist/client/components/errors/use-error-handler.js (52:53)\nconsole.error\nnode_modules/next/dist/client/components/globals/intercept-console-error.js (54:56)\nerrorOnce\nnode_modules/next/dist/shared/lib/utils/error-once.js (16:21)\nLinkComponent\nnode_modules/next/dist/client/app-dir/link.js (358:37)\nJobCard\nsrc/components/JobCard.tsx (28:5)\neval\nsrc/app/page.tsx (35:15)\nHomePage\nsrc/app/page.tsx (34:19)\n\n\nFor the article section:\n\nConsole Error\n\n`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:\n\nnpx @next/codemod@latest new-link .\n\nLearn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components\n\nsrc/app/articles/page.tsx (58:17) @ eval\n\n\n  56 |             {articles.map((article) => (\n  57 |               <div key={article.id} className=\"bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out\">\n> 58 |                 <Link href={`/articles/${article.slug}`} legacyBehavior>\n     |                 ^\n  59 |                   <a className=\"block\">\n  60 |                     <h2 className=\"text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors\">\n  61 |                       {article.title}\nCall Stack\n7\n\nHide 5 ignore-listed frame(s)\ncreateConsoleError\nnode_modules/next/dist/client/components/errors/console-error.js (31:71)\nhandleConsoleError\nnode_modules/next/dist/client/components/errors/use-error-handler.js (52:53)\nconsole.error\nnode_modules/next/dist/client/components/globals/intercept-console-error.js (54:56)\nerrorOnce\nnode_modules/next/dist/shared/lib/utils/error-once.js (16:21)\nLinkComponent\nnode_modules/next/dist/client/app-dir/link.js (358:37)\neval\nsrc/app/articles/page.tsx (58:17)\nArticlesPage\nsrc/app/articles/page.tsx (56:23)\n\nNote: won't the learn more and ignore list elp in search too",
+    "timestamp": "2025-07-05T08:03:15.472Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 11,
+    "type": "user",
+    "message": "latest error: ~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 9s\n ○ Compiling / ...\n ⨯ ./src/components/JobCard.tsx\nNonErrorEmittedError: (Emitted value instead of an instance of Error)   x Unexpected token `Link`. Expected jsx identifier\n    ,-[/data/data/com.termux/files/home/ai-job-spot/src/components/JobCard.tsx:28:1]\n 25 |   return (\n 26 |     // Wrap the entire card in a Next.js Link component for SEO and UX.\n 27 |     // The `passHref` and `legacyBehavior` props ensure the <a> tag is generated correctly.\n 28 |     <Link href={`/jobs/${id}`} passHref className=\"block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer\">\n    :      ^^^^\n 29 |         <div className=\"flex flex-col\">\n 30 |           {/* Job Title */}\n 31 |           <h3 className=\"text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors\">\n    `----\n\nCaused by:\n    0: failed to process js file\n    1: Syntax Error\nImport trace for requested module:\n./src/components/JobCard.tsx\n./src/app/page.tsx\n ⨯ ./src/components/JobCard.tsx\nNonErrorEmittedError: (Emitted value instead of an instance of Error)   x Unexpected token `Link`. Expected jsx identifier\n    ,-[/data/data/com.termux/files/home/ai-job-spot/src/components/JobCard.tsx:28:1]\n 25 |   return (\n 26 |     // Wrap the entire card in a Next.js Link component for SEO and UX.\n 27 |     // The `passHref` and `legacyBehavior` props ensure the <a> tag is generated correctly.\n 28 |     <Link href={`/jobs/${id}`} passHref className=\"block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer\">\n    :      ^^^^\n 29 |         <div className=\"flex flex-col\">\n 30 |           {/* Job Title */}\n 31 |           <h3 className=\"text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors\">\n    `----\n\nCaused by:\n    0: failed to process js file\n    1: Syntax Error\nImport trace for requested module:\n./src/components/JobCard.tsx\n./src/app/page.tsx\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/data/data'\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/data'\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/data/data'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/data'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/'\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/data/data'\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/data'\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/data'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/data/data'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/'\n ⨯ ./src/components/JobCard.tsx\nNonErrorEmittedError: (Emitted value instead of an instance of Error)   x Unexpected token `Link`. Expected jsx identifier\n    ,-[/data/data/com.termux/files/home/ai-job-spot/src/components/JobCard.tsx:28:1]\n 25 |   return (\n 26 |     // Wrap the entire card in a Next.js Link component for SEO and UX.\n 27 |     // The `passHref` and `legacyBehavior` props ensure the <a> tag is generated correctly.\n 28 |     <Link href={`/jobs/${id}`} passHref className=\"block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer\">\n    :      ^^^^\n 29 |         <div className=\"flex flex-col\">\n 30 |           {/* Job Title */}\n 31 |           <h3 className=\"text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors\">\n    `----\n\nCaused by:\n    0: failed to process js file\n    1: Syntax Error\nImport trace for requested module:\n./src/components/JobCard.tsx\n./src/app/page.tsx\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/data/data'\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/data'\nWatchpack Error (watcher): Error: EACCES: permission denied, watch '/'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/data/data'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/data'\nWatchpack Error (initial scan): Error: EACCES: permission denied, scandir '/'\n GET / 500 in 42919ms\n ✓ Compiled /_error in 3s (603 modules)\n ⨯ ./src/components/JobCard.tsx\nNonErrorEmittedError: (Emitted value instead of an instance of Error)   x Unexpected token `Link`. Expected jsx identifier\n    ,-[/data/data/com.termux/files/home/ai-job-spot/src/components/JobCard.tsx:28:1]\n 25 |   return (\n 26 |     // Wrap the entire card in a Next.js Link component for SEO and UX.\n 27 |     // The `passHref` and `legacyBehavior` props ensure the <a> tag is generated correctly.\n 28 |     <Link href={`/jobs/${id}`} passHref className=\"block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer\">\n    :      ^^^^\n 29 |         <div className=\"flex flex-col\">\n 30 |           {/* Job Title */}\n 31 |           <h3 className=\"text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors\">\n    `----\n\nCaused by:\n    0: failed to process js file\n    1: Syntax Error\nImport trace for requested module:\n./src/components/JobCard.tsx\n./src/app/page.tsx\n ○ Compiling /favicon.ico ...\n ⨯ ./src/components/JobCard.tsx\nNonErrorEmittedError: (Emitted value instead of an instance of Error)   x Unexpected token `Link`. Expected jsx identifier\n    ,-[/data/data/com.termux/files/home/ai-job-spot/src/components/JobCard.tsx:28:1]\n 25 |   return (\n 26 |     // Wrap the entire card in a Next.js Link component for SEO and UX.\n 27 |     // The `passHref` and `legacyBehavior` props ensure the <a> tag is generated correctly.\n 28 |     <Link href={`/jobs/${id}`} passHref className=\"block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer\">\n    :      ^^^^\n 29 |         <div className=\"flex flex-col\">\n 30 |           {/* Job Title */}\n 31 |           <h3 className=\"text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors\">\n    `----\n\nCaused by:\n    0: failed to process js file\n    1: Syntax Error\nImport trace for requested module:\n./src/components/JobCard.tsx\n./src/app/page.tsx\n GET /_next/static/webpack/259778d3495a9696.webpack.hot-update.json 500 in 1868ms\n ⚠ Fast Refresh had to perform a full reload due to a runtime error.\n GET / 500 in 73ms\n GET / 500 in 81ms\n GET / 500 in 83ms\n^C\n~/ai-job-spot $",
+    "timestamp": "2025-07-05T08:09:07.186Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 12,
+    "type": "user",
+    "message": "rview and confirm all bfr runnin",
+    "timestamp": "2025-07-05T08:18:06.726Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 13,
+    "type": "user",
+    "message": "Latest run \n\n\nAI Job Spot\nOpen main menu\nAI Articles & Guides\nThe Rise of Generative AI: A New Era of Creativity\nBy AI Job Spot Team on 7/3/2025\n\n...\n\nRead More\nThe Rise of Generative AI: A New Era of Creativity\nBy AI Job Spot Team on 7/3/2025\n\n...\n\nRead More\nNavigating the Ethical Landscape of Artificial Intelligence\nBy Dr. Emily Chen on 6/29/2025\n\n...\n\nRead More\nNavigating the Ethical Landscape of Artificial Intelligence\nBy Dr. Emily Chen on 6/29/2025\n\n...\n\nRead More\nAd Placeholder (Dev Mode)\n\n\n\nAI Job Spot\nOpen main menu\nLatest AI Jobs\nAI Research Scientist\nGoogle\n\nMountain View, CA\nAI\nResearch\nFull-time\nMachine Learning\n$150,000 - $250,000\nMachine Learning Engineer\nOpenAI\n\nSan Francisco, CA\nML\nEngineering\nFull-time\nDeep Learning\n$160,000 - $260,000\nData Scientist\nMicrosoft\n\nRedmond, WA\nData Science\nAnalytics\nFull-time\n$130,000 - $220,000\nAI Ethics Specialist\nIBM\n\nArmonk, NY (Remote options available)\nAI Ethics\nPolicy\nRemote\n$120,000 - $190,000\nRobotics Engineer\nBoston Dynamics\n\nWaltham, MA\nRobotics\nEngineering\nHardware\n$140,000 - $230,000\nAd Placeholder (Dev Mode)",
+    "timestamp": "2025-07-05T08:25:15.669Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 14,
+    "type": "user",
+    "message": "~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 8.9s\n ○ Compiling / ...\n ✓ Compiled / in 12.2s (1037 modules)\n GET / 200 in 17338ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 1225ms (685 modules)\n GET /favicon.ico 200 in 1759ms\n ○ Compiling /articles ...\n ✓ Compiled /articles in 1832ms (1055 modules)\n GET /articles 200 in 4479ms\n GET /articles 200 in 821ms\n GET / 200 in 581ms\n GET / 200 in 859ms\n GET /favicon.ico 200 in 84ms\n GET /articles 200 in 381ms\n GET / 200 in 709ms\n GET /articles 200 in 351ms\n^C\n~/ai-job-spot $",
+    "timestamp": "2025-07-05T08:27:19.004Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 15,
+    "type": "user",
+    "message": "so letsgo bck to the master plan",
+    "timestamp": "2025-07-05T08:28:09.545Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 16,
+    "type": "user",
+    "message": "okay but note: i havent applied fir adsense yet",
+    "timestamp": "2025-07-05T08:33:53.251Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 17,
+    "type": "user",
+    "message": "provide a personalizedinstruction based on our contextual plans",
+    "timestamp": "2025-07-05T08:35:43.820Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 18,
+    "type": "user",
+    "message": "yh lets move to the deployment plan based on our master plan (vercel...)",
+    "timestamp": "2025-07-05T08:42:09.104Z"
+  },
+  {
+    "sessionId": "535ac1a7-b88b-446e-98a9-505c2307c849",
+    "messageId": 19,
+    "type": "user",
+    "message": "alright lets start and if we can use github cli to fasten the process...",
+    "timestamp": "2025-07-05T08:48:42.650Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 0,
+    "type": "user",
+    "message": "/about",
+    "timestamp": "2025-07-05T09:23:39.758Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 1,
+    "type": "user",
+    "message": "‎Using the GEMINI.md file, There's the master plan for the 'ai-job-spot' Next.js project. We just finished setting up Firestore. What's the logical next major step based on the plan? Please act as my project manager and technical lead as well; always Use the /search tool if you need to find specific solutions, best practices as related to my termux env., or Termux-related commands for a given task. Remember to always do the testing and debugging for every implementation step, and specify the troubleshoot in Termux if issues arise (e.g., using 'npm run dev', checking logs, package issues, Android permissions).",
+    "timestamp": "2025-07-05T09:26:16.862Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 2,
+    "type": "user",
+    "message": "weve done all that the site is runnin locally already. and i would like to save the GEMINI.md file in my aijobspot directory fr easy access next time",
+    "timestamp": "2025-07-05T09:29:10.554Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 3,
+    "type": "user",
+    "message": "make sure u observe carefully bfr doing that",
+    "timestamp": "2025-07-05T09:30:18.650Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 4,
+    "type": "user",
+    "message": "why not just move to avoid duplicates around?",
+    "timestamp": "2025-07-05T09:31:24.654Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 5,
+    "type": "user",
+    "message": "confirm well if the indivual pages not there bfr and when i run the site on my local host, heres what i found; ~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 9s\n ○ Compiling /articles ...\n ✓ Compiled /articles in 8.9s (1022 modules)\n GET /articles 200 in 13902ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 959ms (684 modules)\n GET /favicon.ico 200 in 1446ms\n ○ Compiling /articles/[slug] ...\n ✓ Compiled /articles/[slug] in 2.9s (1043 modules)\n ○ Compiling / ...\n ✓ Compiled / in 2.3s (1046 modules)\n GET / 200 in 964ms\n GET / 200 in 5457ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:48)\n  78 |\n  79 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 80 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  81 |\n  82 |   if (!article) {\n  83 |     return (\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:48)\n  22 | // Generate dynamic metadata for each article\n  23 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 24 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  25 |\n  26 |   if (!article) {\n  27 |     return {\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\n GET /articles/the-rise-of-generative-ai 200 in 11423ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:48)\n  78 |\n  79 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 80 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  81 |\n  82 |   if (!article) {\n  83 |     return (\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:48)\n  22 | // Generate dynamic metadata for each article\n  23 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 24 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  25 |\n  26 |   if (!article) {\n  27 |     return {\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\n GET /articles/the-rise-of-generative-ai 200 in 530ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:48)\n  78 |\n  79 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 80 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  81 |\n  82 |   if (!article) {\n  83 |     return (\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:48)\n  22 | // Generate dynamic metadata for each article\n  23 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 24 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  25 |\n  26 |   if (!article) {\n  27 |     return {\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\n GET /articles/the-rise-of-generative-ai 200 in 258ms\n GET /articles 200 in 817ms\n GET /favicon.ico 200 in 117ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:48)\n  78 |\n  79 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 80 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  81 |\n  82 |   if (!article) {\n  83 |     return (\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:48)\n  22 | // Generate dynamic metadata for each article\n  23 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 24 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  25 |\n  26 |   if (!article) {\n  27 |     return {\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\n GET /articles/the-rise-of-generative-ai 200 in 296ms\n GET / 200 in 433ms\n ○ Compiling /jobs/[id] ...\n ✓ Compiled /jobs/[id] in 2.3s (1056 modules)\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/3BIjRzTCBirLaLfN5DkD 200 in 8337ms\n GET /jobs/3BIjRzTCBirLaLfN5DkD 200 in 671ms\n GET /jobs/3BIjRzTCBirLaLfN5DkD 200 in 510ms\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/1E9f5AtbRArGq9MPiHgH 200 in 559ms\n GET /articles 200 in 409ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:48)\n  78 |\n  79 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 80 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  81 |\n  82 |   if (!article) {\n  83 |     return (\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:48)\n  22 | // Generate dynamic metadata for each article\n  23 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 24 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  25 |\n  26 |   if (!article) {\n  27 |     return {\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\n GET /articles/the-rise-of-generative-ai 200 in 368ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:48)\n  78 |\n  79 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 80 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  81 |\n  82 |   if (!article) {\n  83 |     return (\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:80:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:48)\n  22 | // Generate dynamic metadata for each article\n  23 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 24 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  25 |\n  26 |   if (!article) {\n  27 |     return {\nError fetching article by slug: TypeError: _lib_firebase__WEBPACK_IMPORTED_MODULE_2__.db.collection is not a function\n    at getArticleBySlug (src/app/articles/[slug]/page.tsx:55:37)\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:24:24)\n  53 | async function getArticleBySlug(slug: string): Promise<Article | null> {\n  54 |   try {\n> 55 |     const articlesCollectionRef = db.collection('articles');\n     |                                     ^\n  56 |     const q = articlesCollectionRef.where('slug', '==', slug).limit(1);\n  57 |     const querySnapshot = await q.get();\n  58 |\n GET /articles/the-rise-of-generative-ai 200 in 1368ms\n GET /articles 200 in 826ms\n GET /favicon.ico 200 in 65ms\n^C\n~/ai-job-spot $",
+    "timestamp": "2025-07-05T09:44:32.130Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 6,
+    "type": "user",
+    "message": "okay make sure you do the corrections carefully",
+    "timestamp": "2025-07-05T09:47:08.488Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 7,
+    "type": "user",
+    "message": "update; ~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 9s\n ○ Compiling /articles ...\n ✓ Compiled /articles in 10.9s (1036 modules)\n GET /articles 200 in 15476ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 1009ms (684 modules)\n GET /favicon.ico 200 in 1553ms\n ○ Compiling /articles/[slug] ...\n ✓ Compiled /articles/[slug] in 3.7s (1057 modules)\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\n ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using \"http://localhost:3000\". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase\n GET /articles/the-rise-of-generative-ai 200 in 11641ms\n GET /articles/the-rise-of-generative-ai 200 in 934ms\n GET /articles/the-rise-of-generative-ai 200 in 675ms\n ○ Compiling /_not-found ...\n ✓ Compiled /_not-found in 1116ms (1047 modules)\n GET /images/generative-ai.jpg 404 in 1925ms\n ○ Compiling / ...\n ✓ Compiled / in 1334ms (1034 modules)\n GET / 200 in 3232ms\n ○ Compiling /jobs/[id] ...\n ✓ Compiled /jobs/[id] in 2.1s (1044 modules)\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/6efVTEC65G3PYBEK1OQg 200 in 8609ms\n GET /jobs/6efVTEC65G3PYBEK1OQg 200 in 881ms\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/6efVTEC65G3PYBEK1OQg 200 in 1071ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 1005ms (701 modules)\n GET /favicon.ico 200 in 1768ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\n GET / 200 in 2093ms\n ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using \"http://localhost:3000\". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase\n GET /articles/the-rise-of-generative-ai 200 in 678ms\n ○ Compiling /_not-found ...\n ✓ Compiled /_not-found in 1459ms (1060 modules)\n GET /images/generative-ai.jpg 404 in 2173ms\n GET /articles 200 in 1474ms\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/9HIccxPHBv7oYKa1T0kG 200 in 642ms\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/3BIjRzTCBirLaLfN5DkD 200 in 486ms\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/1E9f5AtbRArGq9MPiHgH 200 in 432ms\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/1E9f5AtbRArGq9MPiHgH 200 in 473ms\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:12:10)\n  10 |\n  11 | export default async function JobDetailsPage({ params }: JobDetailsPageProps) {\n> 12 |   const { id } = params;\n     |          ^\n  13 |   let job: JobPosting | null = null;\n  14 |\n  15 |   try {\n GET /jobs/6efVTEC65G3PYBEK1OQg 200 in 545ms\n GET /articles 200 in 407ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\n ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using \"http://localhost:3000\". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase\n GET /articles/ethical-considerations-in-ai 200 in 628ms\n GET /images/ethical-ai.jpg 404 in 237ms\n GET / 200 in 397ms\n^C\n~/ai-job-spot $ excellent thanks very much gemini",
+    "timestamp": "2025-07-05T09:55:18.570Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 8,
+    "type": "user",
+    "message": "befr that,make sure you obsearve carefully and if search is needed as related to my termux environment, do so befr the execution",
+    "timestamp": "2025-07-05T09:58:09.890Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 9,
+    "type": "user",
+    "message": "updated; ~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 9.1s\n ○ Compiling / ...\n ✓ Compiled / in 10.6s (1037 modules)\n GET / 200 in 15085ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 1255ms (685 modules)\n GET /favicon.ico 200 in 1793ms\n ○ Compiling /articles ...\n ✓ Compiled /articles in 1684ms (1055 modules)\n GET /articles 200 in 4570ms\n GET /articles 200 in 784ms\n ○ Compiling /articles/[slug] ...\n ✓ Compiled /articles/[slug] in 1881ms (1046 modules)\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\n ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using \"http://localhost:3000\". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase\n GET /articles/ethical-considerations-in-ai 200 in 8615ms\n ○ Compiling /_not-found ...\n ✓ Compiled /_not-found in 1210ms (1050 modules)\n GET /images/ethical-ai.jpg 404 in 1809ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\n ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using \"http://localhost:3000\". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase\n GET /articles/the-rise-of-generative-ai 200 in 1563ms\n GET /images/generative-ai.jpg 404 in 276ms\n ○ Compiling /jobs/[id] ...\n ✓ Compiled /jobs/[id] in 2.4s (1060 modules)\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:11:57)\n   9 | }\n  10 |\n> 11 | export default async function JobDetailsPage({ params: { id } }: JobDetailsPageProps) {\n     |                                                         ^\n  12 |   let job: JobPosting | null = null;\n  13 |\n  14 |   try {\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:11:57)\n   9 | }\n  10 |\n> 11 | export default async function JobDetailsPage({ params: { id } }: JobDetailsPageProps) {\n     |                                                         ^\n  12 |   let job: JobPosting | null = null;\n  13 |\n  14 |   try {\n GET /jobs/9HIccxPHBv7oYKa1T0kG 200 in 8670ms\n GET /jobs/9HIccxPHBv7oYKa1T0kG 200 in 747ms\n^C\n~/ai-job-spot $ im seein try turbopack should i?",
+    "timestamp": "2025-07-05T10:08:37.972Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 10,
+    "type": "user",
+    "message": "make sure you search and take neccessary precautions",
+    "timestamp": "2025-07-05T10:14:14.901Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 11,
+    "type": "user",
+    "message": "hello",
+    "timestamp": "2025-07-05T10:15:15.157Z"
+  },
+  {
+    "sessionId": "928b9fb4-045c-4758-a137-76d3ef0a056f",
+    "messageId": 12,
+    "type": "user",
+    "message": "/chat",
+    "timestamp": "2025-07-05T10:16:46.678Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 0,
+    "type": "user",
+    "message": "/chat",
+    "timestamp": "2025-07-05T10:17:35.343Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 1,
+    "type": "user",
+    "message": "/chat <list|save|resume> [tag]",
+    "timestamp": "2025-07-05T10:18:31.834Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 2,
+    "type": "user",
+    "message": "Using the GEMINI.md file, There's the master plan for the 'ai-job-spot' Next.js project. We just finished setting up Firestore. What's the logical next major step based on the plan? Please act as my project manager and technical lead as well; always Use the /search tool if you need to find specific solutions, best practices as related to my termux env., or Termux-related commands for a given task. Remember to always do the testing and debugging for every implementation step, and specify the troubleshoot in Termux if issues arise (e.g., using 'npm run dev', checking logs, package issues, Android permissions).",
+    "timestamp": "2025-07-05T10:19:13.752Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 3,
+    "type": "user",
+    "message": "weve built upto stage of testing locally",
+    "timestamp": "2025-07-05T10:20:58.264Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 4,
+    "type": "user",
+    "message": "weve tested;~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 9.1s\n ○ Compiling / ...\n ✓ Compiled / in 10.6s (1037 modules)\n GET / 200 in 15085ms\n ○ Compiling /favicon.ico ...\n ✓ Compiled /favicon.ico in 1255ms (685 modules)\n GET /favicon.ico 200 in 1793ms\n ○ Compiling /articles ...\n ✓ Compiled /articles in 1684ms (1055 modules)\n GET /articles 200 in 4570ms\n GET /articles 200 in 784ms\n ○ Compiling /articles/[slug] ...\n ✓ Compiled /articles/[slug] in 1881ms (1046 modules)\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\n ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using \"http://localhost:3000\". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase\n GET /articles/ethical-considerations-in-ai 200 in 8615ms\n ○ Compiling /_not-found ...\n ✓ Compiled /_not-found in 1210ms (1050 modules)\n GET /images/ethical-ai.jpg 404 in 1809ms\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at ArticleDetailsPage (src/app/articles/[slug]/page.tsx:84:48)\n  82 |\n  83 | export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {\n> 84 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  85 |\n  86 |   if (!article) {\n  87 |     return (\nError: Route \"/articles/[slug]\" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at Module.generateMetadata (src/app/articles/[slug]/page.tsx:25:48)\n  23 | // Generate dynamic metadata for each article\n  24 | export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {\n> 25 |   const article = await getArticleBySlug(params.slug);\n     |                                                ^\n  26 |\n  27 |   if (!article) {\n  28 |     return {\n ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using \"http://localhost:3000\". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase\n GET /articles/the-rise-of-generative-ai 200 in 1563ms\n GET /images/generative-ai.jpg 404 in 276ms\n ○ Compiling /jobs/[id] ...\n ✓ Compiled /jobs/[id] in 2.4s (1060 modules)\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:11:57)\n   9 | }\n  10 |\n> 11 | export default async function JobDetailsPage({ params: { id } }: JobDetailsPageProps) {\n     |                                                         ^\n  12 |   let job: JobPosting | null = null;\n  13 |\n  14 |   try {\nError: Route \"/jobs/[id]\" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis\n    at JobDetailsPage (src/app/jobs/[id]/page.tsx:11:57)\n   9 | }\n  10 |\n> 11 | export default async function JobDetailsPage({ params: { id } }: JobDetailsPageProps) {\n     |                                                         ^\n  12 |   let job: JobPosting | null = null;\n  13 |\n  14 |   try {\n GET /jobs/9HIccxPHBv7oYKa1T0kG 200 in 8670ms\n GET /jobs/9HIccxPHBv7oYKa1T0kG 200 in 747ms\n^C\n~/ai-job-spot $",
+    "timestamp": "2025-07-05T10:23:30.920Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 5,
+    "type": "user",
+    "message": "iv run the serve; ~/ai-job-spot $ npm run dev\n\n> ai-job-spot@0.1.0 dev\n> next dev\n\n   ▲ Next.js 15.3.5\n   - Local:        http://localhost:3000\n   - Network:      http://10.83.56.188:3000\n   - Environments: .env.local\n\n ✓ Starting...\n ✓ Ready in 9.2s\n ○ Compiling /articles ...\n ✓ Compiled /articles in 12.1s (1036 modules)\n GET /articles 200 in 16909ms\n GET /articles 200 in 1077ms\n GET /articles 200 in 801ms\n ○ Compiling / ...\n ✓ Compiled / in 1870ms (1039 modules)\n GET / 200 in 4329ms\n^C\n~/ai-job-spot $ I'm aswell seeing turbopack good to try?--turbopack",
+    "timestamp": "2025-07-05T10:31:20.921Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 6,
+    "type": "user",
+    "message": "review the project to confirm first",
+    "timestamp": "2025-07-05T10:35:17.925Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 7,
+    "type": "user",
+    "message": "if its not neccesary, as long as evrything is working well rn",
+    "timestamp": "2025-07-05T10:40:08.832Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 8,
+    "type": "user",
+    "message": "thread with professional care",
+    "timestamp": "2025-07-05T10:42:38.473Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 9,
+    "type": "user",
+    "message": "review the master plans fir the deployment strategy",
+    "timestamp": "2025-07-05T10:44:14.684Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 10,
+    "type": "user",
+    "message": "okay tho when we ran the server locally i was seeing the ads in dev mode (discuss) and abt the deployment; i have github cli on my termux if that can fasten it only i need to open vercel acount yet?",
+    "timestamp": "2025-07-05T10:46:54.420Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 11,
+    "type": "user",
+    "message": "since i havent apply fr adsense yet, can u firstly confirm if my project has been in git reposirtory? and should i wait to deploy the web app to gain traffic then aplly?",
+    "timestamp": "2025-07-05T10:50:51.487Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 12,
+    "type": "user",
+    "message": "lets do the step 1",
+    "timestamp": "2025-07-05T10:52:19.061Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 13,
+    "type": "user",
+    "message": "befr that do a ground check to confirm if this steps has been done befr",
+    "timestamp": "2025-07-05T10:53:54.283Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 14,
+    "type": "user",
+    "message": "okay and make sure the saftey one are kept safe too",
+    "timestamp": "2025-07-05T10:55:07.169Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 15,
+    "type": "user",
+    "message": "ill provde: username; LightBoy01 email: mikailnururrahmon@gmail.com but note; it seems iv tried this befr! pls check to confirm",
+    "timestamp": "2025-07-05T10:58:07.543Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 16,
+    "type": "user",
+    "message": "lets do it but i have already created the aijobspot repository during the project setup (early)",
+    "timestamp": "2025-07-05T11:01:34.526Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 17,
+    "type": "user",
+    "message": "https://github.com/LightBoy01/ai-job-spot.git",
+    "timestamp": "2025-07-05T11:03:03.768Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 18,
+    "type": "user",
+    "message": "i have my pat ready; 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",
+    "timestamp": "2025-07-05T11:05:20.871Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 19,
+    "type": "user",
+    "message": "make a search to confirm the issues and carful with the pat",
+    "timestamp": "2025-07-05T11:06:53.933Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 20,
+    "type": "user",
+    "message": "wbt installing vercel cli?",
+    "timestamp": "2025-07-05T11:15:54.889Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 21,
+    "type": "user",
+    "message": "iv logged in with github check",
+    "timestamp": "2025-07-05T11:22:48.403Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 22,
+    "type": "user",
+    "message": "can that be do from here if i provde the keys?",
+    "timestamp": "2025-07-05T11:27:19.651Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 23,
+    "type": "user",
+    "message": "pls do sore with max care; // Import the functions you need from the SDKs you need\nimport { initializeApp } from \"firebase/app\";\nimport { getAnalytics } from \"firebase/analytics\";\n// TODO: Add SDKs for Firebase products that you want to use\n// https://firebase.google.com/docs/web/setup#available-libraries\n\n// Your web app's Firebase configuration\n// For Firebase JS SDK v7.20.0 and later, measurementId is optional\nconst firebaseConfig = {\n  apiKey: \"AIzaSyD2uGx4BjrXszfsqStj0PCiqjkjIALN0k4\",\n  authDomain: \"ai-jobs-spot.firebaseapp.com\",\n  projectId: \"ai-jobs-spot\",\n  storageBucket: \"ai-jobs-spot.firebasestorage.app\",\n  messagingSenderId: \"755740105669\",\n  appId: \"1:755740105669:web:235be44c4a64dd240e09ac\",\n  measurementId: \"G-DCZTMCT8G8\"\n};\n\n// Initialize Firebase\nconst app = initializeApp(firebaseConfig);\nconst analytics = getAnalytics(app);",
+    "timestamp": "2025-07-05T11:29:20.379Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 24,
+    "type": "user",
+    "message": "i think you should just use vercel instead of the whole Vercel CLI 44.2.12 or is it not the issue? if not, pls gently observe bfr taking action",
+    "timestamp": "2025-07-05T11:32:30.904Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 25,
+    "type": "user",
+    "message": "make a careful obsearvation and search abt the issues bfr making crucial steps",
+    "timestamp": "2025-07-05T11:43:31.973Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 26,
+    "type": "user",
+    "message": "pls make a careful observation and rerun",
+    "timestamp": "2025-07-05T11:48:08.889Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 27,
+    "type": "user",
+    "message": "befr deploy ensure the keys and prerequisites are intact",
+    "timestamp": "2025-07-05T11:52:43.931Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 28,
+    "type": "user",
+    "message": "run it and make sure you observe with full memory",
+    "timestamp": "2025-07-05T11:55:54.934Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 29,
+    "type": "user",
+    "message": "This were the errors from log:\n‎Running build in Washington, D.C., USA (East) – iad1\n‎Build machine configuration: 2 cores, 8 GB\n‎Retrieving list of deployment files...\n‎Previous build caches not available\n‎Downloading 31 deployment files...\n‎Running \"vercel build\"\n‎Vercel CLI 44.2.10\n‎Installing dependencies...\n‎npm error code EBADPLATFORM\n‎npm error notsup Unsupported platform for lightningcss.android-arm64.node@1.29.3-1: wanted {\"os\":\"android\",\"cpu\":\"arm64\"} (current: {\"os\":\"linux\",\"cpu\":\"x64\"})\n‎npm error notsup Valid os:   android\n‎npm error notsup Actual os:  linux\n‎npm error notsup Valid cpu:  arm64\n‎npm error notsup Actual cpu: x64\n‎npm error A complete log of this run can be found in: /vercel/.npm/_logs/2025-07-05T11_41_04_905Z-debug-0.log\n‎Error: Command \"npm install\" exited with 1\n‎Exiting build container\n‎\n‎Ad the nojs version is 22, 20,& 18 I can only see there",
+    "timestamp": "2025-07-05T12:04:08.353Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 30,
+    "type": "user",
+    "message": "okay done and i also clicked overide button besides it",
+    "timestamp": "2025-07-05T12:11:48.349Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 31,
+    "type": "user",
+    "message": "befr that pls confirm if everthing is in place and will this new log report be of help? [13:25:30.764] Running build in Washington, D.C., USA (East) – iad1\n[13:25:30.765] Build machine configuration: 2 cores, 8 GB\n[13:25:30.780] Retrieving list of deployment files...\n[13:25:30.960] Previous build caches not available\n[13:25:31.118] Downloading 30 deployment files...\n[13:25:31.518] Running \"vercel build\"\n[13:25:31.983] Vercel CLI 44.2.10\n[13:25:32.439] Running \"install\" command: `npm install --no-save`...\n[13:26:06.136] npm error code EBADPLATFORM\n[13:26:06.137] npm error notsup Unsupported platform for lightningcss.android-arm64.node@1.29.3-1: wanted {\"os\":\"android\",\"cpu\":\"arm64\"} (current: {\"os\":\"linux\",\"cpu\":\"x64\"})\n[13:26:06.137] npm error notsup Valid os:   android\n[13:26:06.137] npm error notsup Actual os:  linux\n[13:26:06.138] npm error notsup Valid cpu:  arm64\n[13:26:06.138] npm error notsup Actual cpu: x64\n[13:26:06.139] npm error A complete log of this run can be found in: /vercel/.npm/_logs/2025-07-05T12_25_32_710Z-debug-0.log\n[13:26:06.182] Error: Command \"npm install --no-save\" exited with 1\n[13:26:06.389] \n[13:26:09.184] Exiting build container",
+    "timestamp": "2025-07-05T12:31:40.132Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 32,
+    "type": "user",
+    "message": "wait are you keeping record of all this whole thing for future purpose?",
+    "timestamp": "2025-07-05T12:34:28.393Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 33,
+    "type": "user",
+    "message": "okay continue keep track and after the successfull deployement we keep the whole thing from start of project to deployment in a record file....lets continue",
+    "timestamp": "2025-07-05T12:36:28.905Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 34,
+    "type": "user",
+    "message": "this is the log; [13:37:58.049] Running build in Washington, D.C., USA (East) – iad1\n[13:37:58.050] Build machine configuration: 2 cores, 8 GB\n[13:37:58.065] Retrieving list of deployment files...\n[13:37:58.197] Previous build caches not available\n[13:37:58.384] Downloading 31 deployment files...\n[13:37:58.805] Running \"vercel build\"\n[13:37:59.242] Vercel CLI 44.2.10\n[13:37:59.559] Running \"install\" command: `npm install --no-save`...\n[13:38:18.550] \n[13:38:18.550] added 534 packages, and audited 535 packages in 19s\n[13:38:18.551] \n[13:38:18.551] 151 packages are looking for funding\n[13:38:18.551]   run `npm fund` for details\n[13:38:18.552] \n[13:38:18.552] found 0 vulnerabilities\n[13:38:18.790] Detected Next.js version: 15.3.5\n[13:38:18.797] Running \"npm run build\"\n[13:38:19.036] \n[13:38:19.037] > ai-job-spot@0.1.0 build\n[13:38:19.037] > next build\n[13:38:19.037] \n[13:38:20.166] Attention: Next.js now collects completely anonymous telemetry regarding usage.\n[13:38:20.168] This information is used to shape Next.js' roadmap and prioritize features.\n[13:38:20.168] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:\n[13:38:20.169] https://nextjs.org/telemetry\n[13:38:20.169] \n[13:38:20.358]    ▲ Next.js 15.3.5\n[13:38:20.358] \n[13:38:20.479]    Creating an optimized production build ...\n[13:38:33.914]  ✓ Compiled successfully in 10.0s\n[13:38:33.921]    Linting and checking validity of types ...\n[13:38:37.996] \n[13:38:38.002] Failed to compile.\n[13:38:38.002] \n[13:38:38.003] ./src/app/articles/[slug]/page.tsx\n[13:38:38.003] 94:11  Error: Do not use an `<a>` element to navigate to `/articles/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages\n[13:38:38.003] 109:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element\n[13:38:38.003] \n[13:38:38.004] ./src/components/Adsense.tsx\n[13:38:38.004] 27:55  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n[13:38:38.004] 29:21  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n[13:38:38.004] 29:51  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any\n[13:38:38.004] \n[13:38:38.005] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules\n[13:38:38.024] Error: Command \"npm run build\" exited with 1\n[13:38:38.322] \n[13:38:41.270] Exiting build container",
+    "timestamp": "2025-07-05T12:43:41.217Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 35,
+    "type": "user",
+    "message": "take the well observed and carell neccesary aproach when solving each isuues step by step with professional track",
+    "timestamp": "2025-07-05T12:46:32.121Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 36,
+    "type": "user",
+    "message": "do this final check",
+    "timestamp": "2025-07-05T12:48:51.947Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 37,
+    "type": "user",
+    "message": "do the final grounding check",
+    "timestamp": "2025-07-05T12:51:55.207Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 38,
+    "type": "user",
+    "message": "one last time with search support bfr deployment",
+    "timestamp": "2025-07-05T12:52:57.985Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 39,
+    "type": "user",
+    "message": "you must follow the precautionary instructions ALWAYS so as to not make similar mistakes again. okay?! pls make sure you do this carefully; and this is the log supporting ur claim; [13:55:09.175] Running build in Washington, D.C., USA (East) – iad1\n[13:55:09.176] Build machine configuration: 2 cores, 8 GB\n[13:55:09.191] Retrieving list of deployment files...\n[13:55:09.375] Previous build caches not available\n[13:55:09.533] Downloading 31 deployment files...\n[13:55:09.947] Running \"vercel build\"\n[13:55:10.435] Vercel CLI 44.2.10\n[13:55:11.024] Running \"install\" command: `npm install --no-save`...\n[13:55:29.380] \n[13:55:29.380] added 534 packages, and audited 535 packages in 18s\n[13:55:29.381] \n[13:55:29.381] 151 packages are looking for funding\n[13:55:29.381]   run `npm fund` for details\n[13:55:29.382] \n[13:55:29.382] found 0 vulnerabilities\n[13:55:29.618] Detected Next.js version: 15.3.5\n[13:55:29.625] Running \"npm run build\"\n[13:55:29.868] \n[13:55:29.869] > ai-job-spot@0.1.0 build\n[13:55:29.869] > next build\n[13:55:29.869] \n[13:55:31.360] Attention: Next.js now collects completely anonymous telemetry regarding usage.\n[13:55:31.363] This information is used to shape Next.js' roadmap and prioritize features.\n[13:55:31.364] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:\n[13:55:31.365] https://nextjs.org/telemetry\n[13:55:31.366] \n[13:55:31.652]    ▲ Next.js 15.3.5\n[13:55:31.653] \n[13:55:31.753]    Creating an optimized production build ...\n[13:55:45.091]  ✓ Compiled successfully in 10.0s\n[13:55:45.096]    Linting and checking validity of types ...\n[13:55:49.189] \n[13:55:49.191] Failed to compile.\n[13:55:49.191] \n[13:55:49.191] ./src/app/articles/[slug]/page.tsx\n[13:55:49.191] 94:12  Error: 'Link' is not defined.  react/jsx-no-undef\n[13:55:49.191] 109:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element\n[13:55:49.191] \n[13:55:49.191] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules\n[13:55:49.222] Error: Command \"npm run build\" exited with 1\n[13:55:49.497] \n[13:55:52.528] Exiting build container",
+    "timestamp": "2025-07-05T13:04:34.351Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 40,
+    "type": "user",
+    "message": "observe and traceback your previous steps and verify first",
+    "timestamp": "2025-07-05T13:07:59.331Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 41,
+    "type": "user",
+    "message": "Before deploy carefully take the instructions here seriously;\n\nHere's the master plan for the 'ai-job-spot' Next.js project. My development environment is Termux on Android, and I'm deploying to Vercel via GitHub. I'm encountering build or runtime issues.\n\n**Your Goal:** Act as a dedicated senior developer and DevOps consultant. Perform a comprehensive, careful debugging analysis of the *entire project*, starting from recent build logs or any current errors I provide.\n\n**Key Requirements & Strategy:**\n\n1.  **Deep Search (Web Research):** Always leverage the `/search` tool for any unfamiliar errors, complex concepts, best practices for Next.js/Firebase/Termux, or common deployment pitfalls on Vercel.\n2.  **Step-by-Step Guidance:** Provide clear, actionable, and atomic debugging steps. Do not give large blocks of code without explanation.\n3.  **Termux-Specific Commands:** All commands provided must be executable within Termux (`npm`, `git`, `ls`, `cd`, `cat`, `nano`, `pkg`). No AcodeX.\n4.  **Local vs. Vercel Distinction:** Clearly differentiate between issues that are likely local (Termux development server) and those that manifest during the Vercel build/runtime.\n5.  **Vercel Pre-Deployment Debugging Checklist:**\n    * Before suggesting I redeploy, list specific areas or checks *within the Vercel dashboard* that could be potential debug points or solutions. This includes:\n        * **Vercel Project Settings > Environment Variables:** Verify all Firebase keys are present and correctly named (`NEXT_PUBLIC_FIREBASE_...`).\n        * **Vercel Project Settings > General > Node.js Version:** Check if the Node.js version is compatible with the project.\n        * **Vercel Project Settings > Git Integration:** Confirm the correct branch is linked and auto-deployment is enabled.\n        * **Vercel Deployment Logs:** Emphasize *where* in the Vercel dashboard to find detailed build logs for specific errors.\n        * **Vercel Functions/Serverless Logs:** If it's a runtime error after deployment, guide on checking serverless function logs.\n6.  **Code Inspection Focus:** If an error points to a specific file (e.g., `page.tsx`), guide me on how to use `nano` to inspect and modify that file.\n7.  **Testing After Each Fix:** For every suggested fix, provide clear instructions on how to test it locally in Termux (`npm run dev`) before redeployment.\n8.  **Re-Deployment Protocol:** Only advise `git add .`, `git commit -m \"...\"`, and `git push origin main` after a fix has been tested locally (if applicable) and you've considered Vercel-side checks.",
+    "timestamp": "2025-07-05T13:46:00.085Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 42,
+    "type": "user",
+    "message": "result; Linting and checking validity of types  .Failed to compile.\n\nsrc/app/articles/[slug]/page.tsx                  Type error: Type '{ params: { slug: string; }; searchParams?: { [key: string]: string | string[] | undefined; } | undefined; }' does not satisfy the constraint 'PageProps'.\n  Types of property 'params' are incompatible.\n    Type '{ slug: string; }' is missing the following properties from type 'Promise<any>': then, catch, finally, [Symbol.toStringTag]\nNext.js build worker exited with code: 1 and signal: null",
+    "timestamp": "2025-07-05T14:07:05.976Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 43,
+    "type": "user",
+    "message": "search and restore neccsarry thing remember we succefully launched the site locally bfr considering deployment",
+    "timestamp": "2025-07-05T14:10:01.891Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 44,
+    "type": "user",
+    "message": "revise master plan and try running locally and keep this prompt as a guide aswell; Before deploy carefully take the instructions here seriously;\n\nHere's the master plan for the 'ai-job-spot' Next.js project. My development environment is Termux on Android, and I'm deploying to Vercel via GitHub. I'm encountering build or runtime issues.\n\n**Your Goal:** Act as a dedicated senior developer and DevOps consultant. Perform a comprehensive, careful debugging analysis of the *entire project*, starting from recent build logs or any current errors I provide.\n\n**Key Requirements & Strategy:**\n\n1.  **Deep Search (Web Research):** Always leverage the `/search` tool for any unfamiliar errors, complex concepts, best practices for Next.js/Firebase/Termux, or common deployment pitfalls on Vercel.\n2.  **Step-by-Step Guidance:** Provide clear, actionable, and atomic debugging steps. Do not give large blocks of code without explanation.\n3.  **Termux-Specific Commands:** All commands provided must be executable within Termux (`npm`, `git`, `ls`, `cd`, `cat`, `nano`, `pkg`). No AcodeX.\n4.  **Local vs. Vercel Distinction:** Clearly differentiate between issues that are likely local (Termux development server) and those that manifest during the Vercel build/runtime.\n5.  **Vercel Pre-Deployment Debugging Checklist:**\n    * Before suggesting I redeploy, list specific areas or checks *within the Vercel dashboard* that could be potential debug points or solutions. This includes:\n        * **Vercel Project Settings > Environment Variables:** Verify all Firebase keys are present and correctly named (`NEXT_PUBLIC_FIREBASE_...`).\n        * **Vercel Project Settings > General > Node.js Version:** Check if the Node.js version is compatible with the project.\n        * **Vercel Project Settings > Git Integration:** Confirm the correct branch is linked and auto-deployment is enabled.\n        * **Vercel Deployment Logs:** Emphasize *where* in the Vercel dashboard to find detailed build logs for specific errors.\n        * **Vercel Functions/Serverless Logs:** If it's a runtime error after deployment, guide on checking serverless function logs.\n6.  **Code Inspection Focus:** If an error points to a specific file (e.g., `page.tsx`), guide me on how to use `nano` to inspect and modify that file.\n7.  **Testing After Each Fix:** For every suggested fix, provide clear instructions on how to test it locally in Termux (`npm run dev`) before redeployment.\n8.  **Re-Deployment Protocol:** Only advise `git add .`, `git commit -m \"...\"`, and `git push origin main` after a fix has been tested locally (if applicable) and you've considered Vercel-side checks.",
+    "timestamp": "2025-07-05T14:12:20.988Z"
+  },
+  {
+    "sessionId": "d71d4831-4440-4708-9d5e-ce434adefa4e",
+    "messageId": 0,
+    "type": "user",
+    "message": "revise the master plan on the GEMINI.md file in the aijobspot directory and make use of this guide to see whats next; Before deploy carefully take the instructions here seriously;\n\nHere's the master plan for the 'ai-job-spot' Next.js project. My development environment is Termux on Android, and I'm deploying to Vercel via GitHub. I'm encountering build or runtime issues.\n\n**Your Goal:** Act as a dedicated senior developer and DevOps consultant. Perform a comprehensive, careful debugging analysis of the *entire project*, starting from recent build logs or any current errors I provide.\n\n**Key Requirements & Strategy:**\n\n1.  **Deep Search (Web Research):** Always leverage the `/search` tool for any unfamiliar errors, complex concepts, best practices for Next.js/Firebase/Termux, or common deployment pitfalls on Vercel.\n2.  **Step-by-Step Guidance:** Provide clear, actionable, and atomic debugging steps. Do not give large blocks of code without explanation.\n3.  **Termux-Specific Commands:** All commands provided must be executable within Termux (`npm`, `git`, `ls`, `cd`, `cat`, `nano`, `pkg`). No AcodeX.\n4.  **Local vs. Vercel Distinction:** Clearly differentiate between issues that are likely local (Termux development server) and those that manifest during the Vercel build/runtime.\n5.  **Vercel Pre-Deployment Debugging Checklist:**\n    * Before suggesting I redeploy, list specific areas or checks *within the Vercel dashboard* that could be potential debug points or solutions. This includes:\n        * **Vercel Project Settings > Environment Variables:** Verify all Firebase keys are present and correctly named (`NEXT_PUBLIC_FIREBASE_...`).\n        * **Vercel Project Settings > General > Node.js Version:** Check if the Node.js version is compatible with the project.\n        * **Vercel Project Settings > Git Integration:** Confirm the correct branch is linked and auto-deployment is enabled.\n        * **Vercel Deployment Logs:** Emphasize *where* in the Vercel dashboard to find detailed build logs for specific errors.\n        * **Vercel Functions/Serverless Logs:** If it's a runtime error after deployment, guide on checking serverless function logs.\n6.  **Code Inspection Focus:** If an error points to a specific file (e.g., `page.tsx`), guide me on how to use `nano` to inspect and modify that file.\n7.  **Testing After Each Fix:** For every suggested fix, provide clear instructions on how to test it locally in Termux (`npm run dev`) before redeployment.\n8.  **Re-Deployment Protocol:** Only advise `git add .`, `git commit -m \"...\"`, and `git push origin main` after a fix has been tested locally (if applicable) and you've considered Vercel-side checks.",
+    "timestamp": "2025-07-05T14:17:56.199Z"
+  },
+  {
+    "sessionId": "d71d4831-4440-4708-9d5e-ce434adefa4e",
+    "messageId": 1,
+    "type": "user",
+    "message": "yh on my ai-job-spot project",
+    "timestamp": "2025-07-05T14:19:20.780Z"
+  },
+  {
+    "sessionId": "d71d4831-4440-4708-9d5e-ce434adefa4e",
+    "messageId": 2,
+    "type": "user",
+    "message": "do that",
+    "timestamp": "2025-07-05T14:19:47.549Z"
+  },
+  {
+    "sessionId": "d71d4831-4440-4708-9d5e-ce434adefa4e",
+    "messageId": 3,
+    "type": "user",
+    "message": "[14:09:12.383] Running build in Washington, D.C., USA (East) – iad1\n[14:09:12.383] Build machine configuration: 2 cores, 8 GB\n[14:09:12.443] Retrieving list of deployment files...\n[14:09:12.587] Previous build caches not available\n[14:09:12.767] Downloading 31 deployment files...\n[14:09:13.164] Running \"vercel build\"\n[14:09:13.591] Vercel CLI 44.2.10\n[14:09:14.008] Running \"install\" command: `npm install --no-save`...\n[14:09:32.463] \n[14:09:32.463] added 534 packages, and audited 535 packages in 18s\n[14:09:32.464] \n[14:09:32.464] 151 packages are looking for funding\n[14:09:32.464]   run `npm fund` for details\n[14:09:32.465] \n[14:09:32.465] found 0 vulnerabilities\n[14:09:32.723] Detected Next.js version: 15.3.5\n[14:09:32.730] Running \"npm run build\"\n[14:09:32.850] \n[14:09:32.851] > ai-job-spot@0.1.0 build\n[14:09:32.851] > next build\n[14:09:32.851] \n[14:09:33.990] Attention: Next.js now collects completely anonymous telemetry regarding usage.\n[14:09:33.990] This information is used to shape Next.js' roadmap and prioritize features.\n[14:09:33.990] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:\n[14:09:33.990] https://nextjs.org/telemetry\n[14:09:33.990] \n[14:09:34.171]    ▲ Next.js 15.3.5\n[14:09:34.171] \n[14:09:34.270]    Creating an optimized production build ...\n[14:09:47.062]  ✓ Compiled successfully in 8.0s\n[14:09:47.064]    Linting and checking validity of types ...\n[14:09:50.714] \n[14:09:50.714] ./src/app/articles/[slug]/page.tsx\n[14:09:50.714] 110:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element\n[14:09:50.714] \n[14:09:50.714] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules\n[14:09:51.741] Failed to compile.\n[14:09:51.741] \n[14:09:51.741] src/app/articles/[slug]/page.tsx\n[14:09:51.742] Type error: Type 'ArticleDetailsPageProps' does not satisfy the constraint 'PageProps'.\n[14:09:51.742]   Types of property 'params' are incompatible.\n[14:09:51.742]     Type '{ slug: string; }' is missing the following properties from type 'Promise<any>': then, catch, finally, [Symbol.toStringTag]\n[14:09:51.742] \n[14:09:51.759] Next.js build worker exited with code: 1 and signal: null\n[14:09:51.779] Error: Command \"npm run build\" exited with 1\n[14:09:52.040] \n[14:09:54.852] Exiting build container",
+    "timestamp": "2025-07-05T14:20:52.236Z"
+  },
+  {
+    "sessionId": "d71d4831-4440-4708-9d5e-ce434adefa4e",
+    "messageId": 4,
+    "type": "user",
+    "message": "yes",
+    "timestamp": "2025-07-05T14:22:31.699Z"
+  },
+  {
+    "sessionId": "352c2bb9-530b-4c03-92c4-5b080c0cfe0d",
+    "messageId": 45,
+    "type": "user",
+    "message": "save the record file as promised fr easy access fr nex time debugging lets rest fr no",
+    "timestamp": "2025-07-05T14:24:28.851Z"
+  },
+  {
+    "sessionId": "d71d4831-4440-4708-9d5e-ce434adefa4e",
+    "messageId": 5,
+    "type": "user",
+    "message": "bfr taking steps, ill like you to understand the situation on last time wrks; read and understand the debugging_session_record.md in this aijobspot directory",
+    "timestamp": "2025-07-05T14:26:48.210Z"
   }
 ]

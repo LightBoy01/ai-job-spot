@@ -6,10 +6,10 @@ import { notFound } from 'next/navigation';
 
 interface JobDetailsPageProps {
   params: { id: string };
+  searchParams: { [key: string]: string | string[] | undefined };
 }
 
-export default async function JobDetailsPage({ params }: JobDetailsPageProps) {
-  const { id } = params;
+export default async function JobDetailsPage({ params: { id } }: JobDetailsPageProps) {
   let job: JobPosting | null = null;
 
   try {

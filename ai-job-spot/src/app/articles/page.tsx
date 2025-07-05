@@ -36,7 +36,7 @@ export default async function ArticlesPage() {
       title: doc.data().title,
       author: doc.data().author,
       publishDate: doc.data().publishDate?.toDate().toISOString() || new Date().toISOString(),
-      contentBody: doc.data().contentBody,
+      contentBody: doc.data().contentBody || '',
     }));
   } catch (error) {
     console.error("Error fetching articles in ArticlesPage:", error);
@@ -55,23 +55,19 @@ export default async function ArticlesPage() {
           <div className="space-y-4">
             {articles.map((article) => (
               <div key={article.id} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                <Link href={`/articles/${article.slug}`} legacyBehavior>
-                  <a className="block">
-                    <h2 className="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
-                      {article.title}
-                    </h2>
-                  </a>
+                <Link href={`/articles/${article.slug}`} className="block">
+                  <h2 className="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
+                    {article.title}
+                  </h2>
                 </Link>
                 <p className="mt-2 text-gray-700 text-sm">
                   By {article.author} on {new Date(article.publishDate).toLocaleDateString()}
                 </p>
                 <p className="mt-4 text-gray-600">
-                  {article.content.substring(0, 150)}...
+                  {article.contentBody.substring(0, 150)}...
                 </p>
-                <Link href={`/articles/${article.slug}`} legacyBehavior>
-                  <a className="mt-4 inline-block text-blue-600 hover:underline text-sm">
+                <Link href={`/articles/${article.slug}`} className="mt-4 inline-block text-blue-600 hover:underline text-sm">
                     Read More
-                  </a>
                 </Link>
               </div>
             ))}

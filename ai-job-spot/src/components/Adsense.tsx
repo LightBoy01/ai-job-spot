@@ -16,22 +16,24 @@ interface AdsenseProps {
  * @param {string} props.adSlot - The Google AdSense ad slot ID from your AdSense account.
  * @returns {JSX.Element} The <ins> tag that AdSense uses to inject the ad.
  */
+declare global {
+  interface Window {
+    adsbygoogle: unknown[];
+  }
+}
+
 const Adsense = ({ adSlot }: AdsenseProps) => {
   const router = useRouter();
 
   useEffect(() => {
-    // This effect will run on component mount and every time the route changes.
-    // This is crucial for single-page applications like Next.js.
     try {
-      // Check if the adsbygoogle script is loaded
-      if (typeof window !== 'undefined' && (window as any).adsbygoogle) {
-        // Push an ad request to AdSense
-        ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+      if (typeof window !== 'undefined' && window.adsbygoogle) {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
       }
     } catch (err) {
       console.error("AdSense error:", err);
     }
-  }, [router.asPath]); // The dependency array ensures the ad reloads on page navigation
+  }, [router.asPath]);
 
   return (
     <ins
