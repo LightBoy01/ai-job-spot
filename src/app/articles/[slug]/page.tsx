@@ -91,9 +91,9 @@ export default async function ArticleDetailsPage({ params }: ArticleDetailsPageP
         <div className="text-center py-10">
           <h1 className="text-3xl font-bold text-gray-800">Article Not Found</h1>
           <p className="mt-4 text-gray-600">The article you are looking for does not exist or has been removed.</p>
-          <a href="/articles" className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors">
+          <Link href="/articles" className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors">
             Back to Articles
-          </a>
+          </Link>
         </div>
       </Layout>
     );
