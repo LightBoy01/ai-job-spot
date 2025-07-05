@@ -8,8 +8,7 @@ interface JobDetailsPageProps {
   params: { id: string };
 }
 
-export default async function JobDetailsPage({ params }: JobDetailsPageProps) {
-  const { id } = await params;
+export default async function JobDetailsPage({ params: { id } }: JobDetailsPageProps) {
   let job: JobPosting | null = null;
 
   try {

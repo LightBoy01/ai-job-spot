@@ -23,8 +23,7 @@ interface ArticleDetailsPageProps {
 
 // Generate dynamic metadata for each article
 export async function generateMetadata({ params }: ArticleDetailsPageProps): Promise<Metadata> {
-  const resolvedParams = await params;
-  const article = await getArticleBySlug(resolvedParams.slug);
+  const article = await getArticleBySlug(params.slug);
 
   if (!article) {
     return {
@@ -83,8 +82,7 @@ async function getArticleBySlug(slug: string): Promise<Article | null> {
 }
 
 export default async function ArticleDetailsPage({ params }: ArticleDetailsPageProps) {
-  const resolvedParams = await params;
-  const article = await getArticleBySlug(resolvedParams.slug);
+  const article = await getArticleBySlug(params.slug);
 
   if (!article) {
     return (
