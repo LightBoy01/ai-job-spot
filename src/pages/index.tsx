@@ -15,7 +15,6 @@ export default function Home({ jobs }: HomeProps) {
     <Layout>
       <Head>
         <title>AI Job Spot | Your Hub for the Latest AI Job Opportunities</title>
-        <meta name="google-site-verification" content="QtBmCN15P4nv_G2Epjp8u_cioyjIwRKGGhOiaLLuyXQ" />
         <meta
           name="description"
           content="Find the latest and most promising AI job opportunities, from machine learning engineers to data scientists. Your next career move in artificial intelligence starts here."
