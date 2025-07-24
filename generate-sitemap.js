@@ -3,10 +3,9 @@ const fs = require('fs');
 const path = require('path');
 
 
-const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
-
-
-
+const serviceAccountBase64 = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
+const serviceAccountJson = Buffer.from(serviceAccountBase64, 'base64').toString('utf8');
+const serviceAccount = JSON.parse(serviceAccountJson);
 
 
 admin.initializeApp({
