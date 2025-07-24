@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run sitemap",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "sitemap": "node generate-sitemap.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "@babel/runtime": "^7.27.6",
