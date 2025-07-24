@@ -2,15 +2,33 @@ const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 
+// Temporary file for Firebase service account key
+const TEMP_KEY_FILE = path.join(__dirname, 'temp_firebase_key.json');
 
-const serviceAccountBase64 = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
-const serviceAccountJson = Buffer.from(serviceAccountBase64, 'base64').toString('utf8');
-const serviceAccount = JSON.parse(serviceAccountJson);
+async function initializeFirebase() {
+  const serviceAccountBase64 = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
+  if (!serviceAccountBase64) {
+    throw new Error('FIREBASE_SERVICE_ACCOUNT_JSON environment variable is not set.');
+  }
 
+  try {
+    // Decode Base64 and write to a temporary file
+    const serviceAccountJson = Buffer.from(serviceAccountBase64, 'base64').toString('utf8');
+    fs.writeFileSync(TEMP_KEY_FILE, serviceAccountJson);
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
+    // Initialize Firebase Admin SDK using the temporary file
+    admin.initializeApp({
+      credential: admin.credential.applicationDefault(), // Use applicationDefault to pick up GOOGLE_APPLICATION_CREDENTIALS
+    });
+
+    // Set GOOGLE_APPLICATION_CREDENTIALS to the temporary file path
+    process.env.GOOGLE_APPLICATION_CREDENTIALS = TEMP_KEY_FILE;
+
+  } catch (error) {
+    console.error('Error initializing Firebase with temporary key file:', error);
+    throw error;
+  }
+}
 
 const db = admin.firestore();
 
@@ -75,4 +93,16 @@ async function generateSitemap() {
   console.log('Sitemap generated successfully!');
 }
 
-generateSitemap().catch(console.error);
+// Main execution flow
+initializeFirebase()
+  .then(generateSitemap)
+  .catch(error => {
+    console.error('Sitemap generation failed:', error);
+  })
+  .finally(() => {
+    // Clean up the temporary file
+    if (fs.existsSync(TEMP_KEY_FILE)) {
+      fs.unlinkSync(TEMP_KEY_FILE);
+      console.log('Cleaned up temporary Firebase key file.');
+    }
+  });
