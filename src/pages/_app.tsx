@@ -35,9 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <Head>
-        <meta name="google-site-verification" content="QtBmCN15P4nv_G2Epjp8u_cioyjIwRKGGhOiaLLuyXQ" />
-      </Head>
+      
       <Component {...pageProps} />
       <Analytics />
     </>
