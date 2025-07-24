@@ -24,9 +24,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen bg-neutral-50 font-sans">
-      <Head>
-        <meta name="google-site-verification" content="QtBmCN15P4nv_G2Epjp8u_cioyjIwRKGGhOiaLLuyXQ" />
-      </Head>
+      
       {/* The Navbar is rendered at the top of every page */}
       <Navbar />
 
