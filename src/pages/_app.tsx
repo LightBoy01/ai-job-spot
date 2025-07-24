@@ -10,19 +10,21 @@ import { app } from '../lib/firebase';
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const auth = getAuth(app);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(router.pathname.startsWith('/admin')); // Only load if it's an admin path
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
-      if (!user && router.pathname.startsWith('/admin') && router.pathname !== '/admin/login') {
-        router.push('/admin/login');
-      } else if (user && router.pathname === '/admin/login') {
-        router.push('/admin');
-      }
-      setLoading(false);
-    });
+    if (router.pathname.startsWith('/admin')) {
+      const unsubscribe = onAuthStateChanged(auth, (user) => {
+        if (!user && router.pathname !== '/admin/login') {
+          router.push('/admin/login');
+        } else if (user && router.pathname === '/admin/login') {
+          router.push('/admin');
+        }
+        setLoading(false);
+      });
 
-    return () => unsubscribe();
+      return () => unsubscribe();
+    }
   }, [router.pathname, auth, router]);
 
   if (loading) {
