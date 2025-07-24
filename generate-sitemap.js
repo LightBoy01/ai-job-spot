@@ -5,6 +5,8 @@ const path = require('path');
 // Temporary file for Firebase service account key
 const TEMP_KEY_FILE = path.join(__dirname, 'temp_firebase_key.json');
 
+let db; // Declare db outside to be accessible after initialization
+
 async function initializeFirebase() {
   const serviceAccountBase64 = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
   if (!serviceAccountBase64) {
@@ -24,25 +26,33 @@ async function initializeFirebase() {
     // Set GOOGLE_APPLICATION_CREDENTIALS to the temporary file path
     process.env.GOOGLE_APPLICATION_CREDENTIALS = TEMP_KEY_FILE;
 
+    db = admin.firestore(); // Initialize db AFTER app is initialized
+
   } catch (error) {
     console.error('Error initializing Firebase with temporary key file:', error);
     throw error;
   }
 }
 
-const db = admin.firestore();
-
 async function getJobs() {
+  // Ensure db is initialized before use
+  if (!db) {
+    throw new Error('Firestore DB not initialized. Call initializeFirebase() first.');
+  }
   const jobsSnapshot = await db.collection('jobs').orderBy('postedDate', 'desc').get();
   return jobsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 }
 
 async function getArticles() {
+  // Ensure db is initialized before use
+  if (!db) {
+    throw new Error('Firestore DB not initialized. Call initializeFirebase() first.');
+  }
   const articlesSnapshot = await db.collection('articles').orderBy('publishDate', 'desc').get();
   return articlesSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 }
 
-async function generateSitemap() {
+async function generateSitemapContent() {
   const baseUrl = 'https://www.ai-job-spot.com';
   const jobs = await getJobs();
   const articles = await getArticles();
@@ -95,7 +105,7 @@ async function generateSitemap() {
 
 // Main execution flow
 initializeFirebase()
-  .then(generateSitemap)
+  .then(generateSitemapContent) // Call generateSitemapContent after Firebase is initialized
   .catch(error => {
     console.error('Sitemap generation failed:', error);
   })
