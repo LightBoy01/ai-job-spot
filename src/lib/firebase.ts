@@ -1,15 +1,16 @@
 import { initializeApp, getApps, getApp, FirebaseApp } from 'firebase/app';
 import { getFirestore, Firestore } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration from the Firebase console.
-// We use process.env to keep your secrets safe and not commit them to git.
+// These are public-facing keys.
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY?.trim(),
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN?.trim(),
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID?.trim(),
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET?.trim(),
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID?.trim(),
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID?.trim(),
 };
 
 // Initialize Firebase only if it hasn't been initialized yet.
@@ -21,26 +22,8 @@ if (!getApps().length) {
   app = getApp();
 }
 
-// Get a reference to the Firestore database service
+// Get a reference to the client-side Firestore database service
 const db: Firestore = getFirestore(app);
+const auth = getAuth(app);
 
-import { collection, getDocs, query, orderBy } from 'firebase/firestore';
-import { JobPosting } from './types';
-
-export { db };
-
-export async function getJobs(): Promise<JobPosting[]> {
-  const jobsCollectionRef = collection(db, 'jobs');
-  const q = query(jobsCollectionRef, orderBy('postedDate', 'desc'));
-  const querySnapshot = await getDocs(q);
-
-  const jobs: JobPosting[] = [];
-  querySnapshot.forEach((doc) => {
-    jobs.push({
-      id: doc.id,
-      ...(doc.data() as JobPosting),
-      postedDate: doc.data().postedDate.toDate(), // Convert Firestore Timestamp to Date object
-    });
-  });
-  return jobs;
-}
+export { app, db, auth };

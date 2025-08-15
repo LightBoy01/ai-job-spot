@@ -1,8 +1,10 @@
 import Link from 'next/link';
-import { JobPosting } from '@/lib/types';
+import { SerializedJobPosting } from '@/lib/types';
+import { NEW_JOB_THRESHOLD_MS, EXPIRES_SOON_THRESHOLD_DAYS } from '@/lib/constants';
+import { formatDate } from '@/lib/dateUtils';
 
 interface JobCardProps {
-  job: JobPosting;
+  job: SerializedJobPosting;
 }
 
 /**
@@ -19,47 +21,70 @@ interface JobCardProps {
  * @returns {JSX.Element} The rendered JobCard component.
  */
 const JobCard = ({ job }: JobCardProps) => {
-  // Destructure all expected properties for clarity
-  const { id, title, company, location, salaryRange } = job;
+  const { id, title, company, location, salaryRange, postedDate, expirationDate } = job;
+
+  const now = new Date();
+  const isNew = (now.getTime() - new Date(postedDate).getTime()) < NEW_JOB_THRESHOLD_MS;
+
+  let daysUntilExpiration: number | null = null;
+  if (expirationDate) {
+    const expDate = new Date(expirationDate);
+    const diffTime = expDate.getTime() - now.getTime();
+    daysUntilExpiration = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  }
+
+  const showExpiresSoon = daysUntilExpiration !== null && daysUntilExpiration > 0 && daysUntilExpiration <= EXPIRES_SOON_THRESHOLD_DAYS;
 
   return (
-    // Wrap the entire card in a Next.js Link component for SEO and UX.
-    // The `passHref` and `legacyBehavior` props ensure the <a> tag is generated correctly.
-    <Link href={`/jobs/${id}`} passHref className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-pointer">
-        <div className="flex flex-col">
-          {/* Job Title */}
-          <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
-            {title}
-          </h3>
+    <Link href={`/jobs/${id}`} passHref className="block bg-neutral-50 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200 hover:border-primary-dark relative overflow-hidden">
+      {isNew && (
+        <span className="absolute top-0 right-0 bg-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg">NEW</span>
+      )}
+      <div className="flex flex-col">
+        <h3 className="text-2xl font-serif font-semibold text-neutral-800 group-hover:text-primary-dark transition-colors leading-tight mb-2">
+          {title}
+        </h3>
 
-          {/* Company Name */}
-          <p className="mt-1 text-md text-gray-700">
-            {company}
-          </p>
+        <p className="mt-2 text-lg text-neutral-700">
+          {company}
+        </p>
 
-          {/* Location */}
-          <div className="mt-4 flex items-center text-gray-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-            <span className="text-sm">{location}</span>
-          </div>
-
-          {/* Job Tags (Type and Salary) */}
-          <div className="mt-4 flex flex-wrap gap-2">
-            {job.tags.map((tag) => (
-              <span key={tag} className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">
-                {tag}
-              </span>
-            ))}
-            {salaryRange && (
-              <span className="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">
-                {salaryRange}
-              </span>
-            )}
-          </div>
+        <div className="mt-4 flex items-center text-neutral-600">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <span className="text-base">{location}</span>
         </div>
+
+        {expirationDate && (
+          <div className="mt-4 flex items-center text-neutral-600">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span className="text-sm">
+              {daysUntilExpiration !== null && daysUntilExpiration > 0
+                ? showExpiresSoon
+                  ? `Expires in ${daysUntilExpiration} day${daysUntilExpiration !== 1 ? 's' : ''}`
+                  : `Expires on ${formatDate(expirationDate)}`
+                : 'Expired'}
+            </span>
+          </div>
+        )}
+
+        <div className="mt-6 flex flex-wrap gap-3">
+          {(job.tags || []).map((tag) => (
+            <span key={tag} className="bg-secondary-light text-secondary-dark text-sm font-medium px-3 py-1 rounded-md">
+              {tag}
+            </span>
+          ))}
+          {salaryRange && (
+            <span key={salaryRange} className="bg-accent-light text-accent-dark text-sm font-medium px-3 py-1 rounded-md">
+              {salaryRange}
+            </span>
+          )}
+        </div>
+      </div>
     </Link>
   );
 };

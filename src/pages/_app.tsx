@@ -1,45 +1,35 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-
-import { Analytics } from '@vercel/analytics/next';
-import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
-import { onAuthStateChanged, getAuth } from 'firebase/auth';
-import { app } from '../lib/firebase';
+import { Toaster } from 'react-hot-toast';
+import '../lib/firebase'; // Explicitly import to ensure initialization
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const router = useRouter();
-  const auth = getAuth(app);
-  const [loading, setLoading] = useState(router.pathname.startsWith('/admin')); // Only load if it's an admin path
-
-  useEffect(() => {
-    if (router.pathname.startsWith('/admin')) {
-      const unsubscribe = onAuthStateChanged(auth, (user) => {
-        if (!user && router.pathname !== '/admin/login') {
-          router.push('/admin/login');
-        } else if (user && router.pathname === '/admin/login') {
-          router.push('/admin');
-        }
-        setLoading(false);
-      });
-
-      return () => unsubscribe();
-    }
-  }, [router.pathname, auth, router]);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-brand-charcoal text-brand-beige flex items-center justify-center">
-        <p className="text-xl">Loading...</p>
-      </div>
-    );
-  }
+  // You can optionally log the app here to confirm it's initialized
+  // console.log('Firebase app initialized in _app.tsx:', app);
 
   return (
     <>
-      
+      <Toaster
+        position="top-center"
+        reverseOrder={false}
+        toastOptions={{
+          className: '',
+          style: {
+            margin: '40px',
+            background: '#363636',
+            color: '#fff',
+            zIndex: 1,
+          },
+          duration: 5000,
+          success: {
+            duration: 3000,
+          },
+          error: {
+            duration: 5000,
+          },
+        }}
+      />
       <Component {...pageProps} />
-      <Analytics />
     </>
   );
 }

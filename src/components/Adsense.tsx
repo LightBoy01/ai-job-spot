@@ -5,6 +5,8 @@ import { useRouter } from 'next/router';
 
 interface AdsenseProps {
   adSlot: string;
+  dataAdFormat?: string;
+  dataFullWidthResponsive?: boolean;
 }
 
 /**
@@ -14,6 +16,8 @@ interface AdsenseProps {
  * 
  * @param {object} props - The component props.
  * @param {string} props.adSlot - The Google AdSense ad slot ID from your AdSense account.
+ * @param {string} [props.dataAdFormat] - The ad format (e.g., "auto", "rectangle").
+ * @param {boolean} [props.dataFullWidthResponsive] - Whether the ad should be full width responsive.
  * @returns {JSX.Element} The <ins> tag that AdSense uses to inject the ad.
  */
 declare global {
@@ -22,7 +26,7 @@ declare global {
   }
 }
 
-const Adsense = ({ adSlot }: AdsenseProps) => {
+const Adsense = ({ adSlot, dataAdFormat, dataFullWidthResponsive }: AdsenseProps) => {
   const router = useRouter();
 
   useEffect(() => {
@@ -33,7 +37,7 @@ const Adsense = ({ adSlot }: AdsenseProps) => {
     } catch (err) {
       console.error("AdSense error:", err);
     }
-  }, [router.asPath]);
+  }, [router.asPath, adSlot]); // Re-run effect when adSlot changes
 
   return (
     <ins
@@ -41,8 +45,8 @@ const Adsense = ({ adSlot }: AdsenseProps) => {
       style={{ display: 'block' }}
       data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_CLIENT} // Your AdSense publisher ID
       data-ad-slot={adSlot} // The specific ad unit slot ID
-      data-ad-format="auto"
-      data-full-width-responsive="true"
+      data-ad-format={dataAdFormat || "auto"}
+      data-full-width-responsive={dataFullWidthResponsive ? "true" : "false"}
     ></ins>
   );
 };

@@ -21,21 +21,20 @@ const AdContainer = ({ slot }: AdContainerProps) => {
 
   return (
     <div className="
-      w-full                 
-      min-h-[280px]          
-      p-4                    
-      border-2               
-      border-dashed          
-      border-gray-300 
-      bg-gray-50             
-      flex                   
-      items-center           
-      justify-center         
+      w-full
+      p-4
+      border-2
+      border-dashed
+      border-gray-300
+      bg-gray-50
+      flex
+      items-center
+      justify-center
       text-center
-      my-4                   // Added margin for spacing between multiple ad units
+      my-4
     ">
       {isProduction ? (
-        <Adsense adSlot={slot} />
+        <Adsense key={slot} adSlot={slot} dataAdFormat="auto" dataFullWidthResponsive={true} />
       ) : (
         <span className="text-gray-400 text-sm">Ad Placeholder (Dev Mode)</span>
       )}

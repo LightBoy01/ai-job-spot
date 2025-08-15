@@ -1,14 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack: (config) => {
-    config.watchOptions = {
-      poll: 1000,
-      aggregateTimeout: 300,
-      ignored: ['/data/**', '/storage/**', '**/.git/**', '**/node_modules/**'],
-    };
-    config.cache = false; // Disable Webpack cache
-    return config;
-  },
+  // The custom webpack configuration has been removed to rely on Next.js defaults,
+  // which are optimized for most environments, including Vercel.
+  // The previous polling setup was a workaround for a specific local development
+  // environment (like Termux) and is not needed for production builds.
 };
 
 module.exports = nextConfig;
