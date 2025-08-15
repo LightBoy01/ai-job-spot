@@ -1,13 +1,13 @@
 import Layout from '@/components/Layout';
 import JobCard from '@/components/JobCard';
 import AdContainer from '@/components/AdContainer';
-import { getJobs } from '@/lib/firebase';
-import { JobPosting } from '@/lib/types';
+import { getJobs } from '@/lib/firestoreClient';
+import { SerializedJobPosting } from '@/lib/types';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
 interface HomeProps {
-  jobs: JobPosting[];
+  jobs: SerializedJobPosting[];
 }
 
 export default function Home({ jobs }: HomeProps) {
@@ -50,18 +50,31 @@ export default function Home({ jobs }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
-  let jobs: JobPosting[] = [];
+  let jobs: SerializedJobPosting[] = [];
   try {
-    jobs = await getJobs();
+    const rawJobs = await getJobs();
     // Sort jobs by postedDate in descending order (newest first)
-    jobs.sort((a, b) => new Date(b.postedDate).getTime() - new Date(a.postedDate).getTime());
+    rawJobs.sort((a, b) => b.postedDate.getTime() - a.postedDate.getTime());
+    const now = new Date();
+    jobs = rawJobs.filter(job => {
+      // If expirationDate is not set, assume it's still active
+      if (!job.expirationDate) {
+        return true;
+      }
+      // Filter out jobs where expirationDate is in the past
+      return job.expirationDate.getTime() > now.getTime();
+    }).map(job => ({
+      ...job,
+      postedDate: job.postedDate.toISOString(),
+      expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
+    }));
   } catch (error) {
     console.error("Error fetching jobs:", error);
   }
 
   return {
     props: {
-      jobs: JSON.parse(JSON.stringify(jobs)), // Serialize Date objects
+      jobs,
     },
     revalidate: 60, // In seconds
   };

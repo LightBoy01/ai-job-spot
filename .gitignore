@@ -25,6 +25,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+*.log
 
 # local env files
 .env.local
@@ -44,9 +45,28 @@ next-env.d.ts
 
 # gemini
 Gemini.md
+GEMINI.md
 
 # service account key
 serviceAccountKey.json
+serviceAccountKey.local.json
 
 # package-lock.json
+# package-lock.json is often committed, but per user preference it's ignored.
 package-lock.json
+
+# Python virtual environment
+/data_pipelines_venv/
+
+# Scraping artifacts
+foorilla_*.html
+foorilla_*.json
+intelligent_scraper_*.log
+run_pipeline.log
+nohup.out
+geckodriver_direct.log
+pglite-debug.log
+
+# Archives and temporary files
+/archive/
+*.zip
