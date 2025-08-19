@@ -13,10 +13,10 @@ export interface JobPosting {
   expirationDate?: Date; // Optional expiration date for job postings
   applicationLink: string;
   tags: string[]; // e.g., ['AI', 'Machine Learning', 'Remote']
-  isNew?: boolean;
   jobLevel?: string; // e.g., P40
   employeeRole?: string; // e.g., Individual Contributor
   status?: 'draft' | 'pending_review' | 'published' | 'rejected'; // Workflow status
+  isNew?: boolean;
 }
 
 export interface Article {

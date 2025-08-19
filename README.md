@@ -1,86 +1,91 @@
 # AI Job Spot
 
-This is a Next.js project for "AI Job Spot," a central hub for the latest AI job opportunities. It's built with Next.js, Firebase Firestore, and Tailwind CSS, designed for SEO, performance, and monetization through Google AdSense.
+Welcome to AI Job Spot, a central hub for the latest AI job opportunities. This project is built with Next.js, Firebase, and Tailwind CSS, and is designed for high performance, security, and maintainability.
 
-## Getting Started
+## Table of Contents
 
-Follow these steps to set up and run the project locally, and deploy it to Vercel.
+- [Technology Stack](#technology-stack)
+- [Key Features](#key-features)
+- [Local Development Setup](#local-development-setup)
+- [Deployment to Vercel](#deployment-to-vercel)
 
-### 1. Project Initialization (if starting from scratch)
+## Technology Stack
 
-If you haven't already, you can initialize a Next.js project. For this project, we used:
+*   **Framework:** Next.js (React)
+*   **Database:** Firebase Firestore
+*   **Authentication:** Firebase Authentication
+*   **Styling:** Tailwind CSS
+*   **Deployment:** Vercel
+
+## Key Features
+
+*   **Static Site Generation (SSG) with ISR:** Public-facing pages are statically generated for maximum performance and SEO, with Incremental Static Regeneration to keep content fresh.
+*   **Secure Admin Panel:** A full-featured admin dashboard with CRUD functionality for jobs and articles.
+*   **Role-Based Access Control (RBAC):** Firestore rules and API middleware ensure only authenticated admins can perform write operations.
+*   **XSS Protection:** All user-generated content is sanitized on the server-side to prevent Cross-Site Scripting attacks.
+*   **Dynamic Sitemap:** A `sitemap.xml` is dynamically generated for optimal search engine crawling.
+
+## Local Development Setup
+
+### 1. Clone the Repository
 
 ```bash
-npx create-next-app@latest ai-job-spot --typescript --tailwind --eslint --app --src-dir --import-alias "@/*"
+git clone <your-repository-url>
+cd ai-job-spot
 ```
 
 ### 2. Install Dependencies
 
-Navigate into the project directory and install the necessary dependencies, including Firebase:
-
 ```bash
-cd ai-job-spot
 npm install
-npm install firebase
 ```
 
-### 3. Firebase Project Setup
+### 3. Configure Firebase
 
-1.  **Create a new Firebase Project:**
-    *   Go to the [Firebase Console](https://console.firebase.google.com/).
-    *   Click "Add project" and follow the steps to create a new project.
+1.  Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
+2.  Enable **Authentication** (with Email/Password provider) and **Firestore**.
+3.  Go to **Project Settings** > **Service Accounts** and generate a new private key. This will download a JSON file.
+4.  **Rename this file to `serviceAccountKey.local.json`** and place it in the root of your project. This file is listed in `.gitignore` and will not be committed.
 
-2.  **Register a Web App:**
-    *   In your Firebase project, click the "Web" icon (</>) to add a web app.
-    *   Follow the steps and register your app. You'll be given a `firebaseConfig` object.
+### 4. Set Up Environment Variables
 
-3.  **Enable Firestore Database:**
-    *   In the Firebase Console, navigate to "Firestore Database" from the left-hand menu.
-    *   Click "Create database" and choose "Start in production mode" (you can adjust security rules later).
-    *   Select a Cloud Firestore location near your users.
-
-### 4. Environment Variables (`.env.local`)
-
-Create a `.env.local` file in the root of your `ai-job-spot` project. This file will store your Firebase configuration keys. **Do not commit this file to Git.**
-
-Replace the placeholder values with your actual `firebaseConfig` values obtained from the Firebase Console:
+Create a file named `.env.local` in the project root. Add your Firebase web app configuration keys. You can find these in **Project Settings** > **General** > "Your apps".
 
 ```
-NEXT_PUBLIC_FIREBASE_API_KEY=YOUR_API_KEY
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=YOUR_AUTH_DOMAIN
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=YOUR_STORAGE_BUCKET
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID
-NEXT_PUBLIC_FIREBASE_APP_ID=YOUR_APP_ID
-NEXT_PUBLIC_ADSENSE_SIDEBAR_SLOT=YOUR_ADSENSE_SIDEBAR_SLOT
+# Public Firebase Keys (for client-side)
+NEXT_PUBLIC_FIREBASE_API_KEY="YOUR_API_KEY"
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="YOUR_AUTH_DOMAIN"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID="YOUR_PROJECT_ID"
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="YOUR_STORAGE_BUCKET"
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="YOUR_MESSAGING_SENDER_ID"
+NEXT_PUBLIC_FIREBASE_APP_ID="YOUR_APP_ID"
+
+# AdSense Keys (Optional)
+NEXT_PUBLIC_ADSENSE_PUBLISHER_ID="ca-pub-YOUR_ID"
+NEXT_PUBLIC_ADSENSE_JOB_LISTING_SLOT="YOUR_SLOT_ID"
+# ... other ad slots
 ```
 
-*   `NEXT_PUBLIC_ADSENSE_SIDEBAR_SLOT`: This is your Google AdSense ad slot ID for the sidebar. You'll get this from your AdSense account when you create an ad unit.
+### 5. Create an Admin User
 
-### 5. Deploy to Vercel
+1.  In the Firebase Console, go to **Authentication** > **Users** and add a new user with an email and password.
+2.  You will need to set a custom claim for this user to grant them admin privileges. This is typically done with a script (like the `setAdminClaim.js` in this project) or manually in your backend.
 
-1.  **Connect to Git:** Push your project to a Git repository (GitHub, GitLab, Bitbucket).
-2.  **Import Project in Vercel:**
-    *   Go to [Vercel](https://vercel.com/) and log in.
-    *   Click "Add New..." -> "Project" and import your Git repository.
-3.  **Configure Environment Variables in Vercel:**
-    *   During the Vercel project setup, or later in your project settings under "Environment Variables," add the same `NEXT_PUBLIC_FIREBASE_` and `NEXT_PUBLIC_ADSENSE_` variables with their respective values. These are crucial for your deployed application to connect to Firebase and display ads.
-
-### 6. Run the Application Locally
-
-Once all dependencies are installed and your `.env.local` file is set up, you can run the development server:
+### 6. Run the Application
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site. You can log in to the admin panel at [http://localhost:3000/admin](http://localhost:3000/admin).
 
-## Project Structure
+## Deployment to Vercel
 
-*   `src/app/`: Next.js App Router pages and layouts.
-*   `src/components/`: Reusable React components (e.g., `Navbar`, `JobCard`, `AdContainer`).
-*   `src/lib/firebase.ts`: Firebase initialization and data fetching logic.
-*   `src/lib/types.ts`: TypeScript interfaces for data structures.
-*   `public/`: Static assets.
+1.  Push your code to a GitHub repository.
+2.  Import the repository into Vercel.
+3.  In the Vercel project settings, add all the environment variables from your `.env.local` file.
+4.  You must also add the service account key as a server-side secret. Create a new environment variable named `FIREBASE_SERVICE_ACCOUNT_BASE64`.
+    *   **Value:** Copy the entire content of your `serviceAccountKey.local.json` file, encode it in Base64, and paste the resulting string. You can use an online tool or the following command:
+    *   `cat serviceAccountKey.local.json | base64`
 
+5.  Deploy. Vercel will handle the rest.
