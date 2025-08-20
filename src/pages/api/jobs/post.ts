@@ -1,63 +1,73 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { JobPosting } from '@/lib/types';
 import DOMPurify from 'isomorphic-dompurify';
-
-// Basic email validation regex
-const isValidEmail = (email: string) => {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-};
+import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 
 export default async function handler(
-  req: NextApiRequest,
+  req: AuthenticatedNextApiRequest, // Use AuthenticatedNextApiRequest
   res: NextApiResponse
 ) {
+  // Enforce admin authentication
+  if (!(await requireAdmin(req, res))) {
+    return;
+  }
+
   if (req.method !== 'POST') {
     res.setHeader('Allow', ['POST']);
     return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 
   try {
-    const {
-      title,
-      company,
-      location,
-      description,
-      applyLink,
-      posterEmail,
-      salaryRange,
-      tags,
-    } = req.body;
+    const jobData = req.body;
 
-    // --- Server-side Validation ---
-    if (!title || !company || !location || !description || !applyLink || !posterEmail) {
-      return res.status(400).json({ message: 'Missing required fields.' });
+    // --- Comprehensive Server-Side Validation ---
+    const errors: Record<string, string> = {};
+    if (!jobData.title || typeof jobData.title !== 'string') errors.title = 'Job Title is required.';
+    if (!jobData.company || typeof jobData.company !== 'string') errors.company = 'Company is required.';
+    if (!jobData.location || typeof jobData.location !== 'string') errors.location = 'Location is required.';
+    if (!jobData.description || typeof jobData.description !== 'string' || jobData.description === '<p><br></p>') errors.description = 'Job Description is required.';
+    if (!jobData.applicationLink) {
+      errors.applicationLink = 'Application Link is required.';
+    } else if (!/^https?:\/\/.+/.test(jobData.applicationLink)) {
+      errors.applicationLink = 'Please enter a valid URL for the Application Link.';
+    }
+    if (!jobData.postedDate) errors.postedDate = 'Posted Date is required.';
+
+    if (jobData.postedDate && jobData.expirationDate) {
+      if (new Date(jobData.expirationDate) <= new Date(jobData.postedDate)) {
+        errors.expirationDate = 'Expiration Date must be after Posted Date.';
+      }
     }
 
-    if (!isValidEmail(posterEmail)) {
-        return res.status(400).json({ message: 'Invalid email address provided.' });
+    if (Object.keys(errors).length > 0) {
+      return res.status(400).json({ message: 'Validation failed', details: errors });
     }
+    // --- End Validation ---
 
     // --- Data Sanitization & Preparation ---
-    const sanitizedDescription = DOMPurify.sanitize(description);
+    const sanitizedDescription = DOMPurify.sanitize(jobData.description);
     const newJobRef = adminDb.collection('jobs').doc();
     
-    const expiration = new Date();
-    expiration.setDate(expiration.getDate() + 30);
+    const postedDate = new Date(jobData.postedDate);
+    const expirationDate = jobData.expirationDate ? new Date(jobData.expirationDate) : new Date(postedDate.getTime() + 30 * 24 * 60 * 60 * 1000);
 
-    // Use standard Date objects. Firebase Admin SDK will convert them to Timestamps.
-    const newJob: Omit<JobPosting, 'id' | 'responsibilities' | 'qualifications' | 'preferredQualifications' | 'jobLevel' | 'employeeRole'> = {
-      title,
-      company,
-      location,
+    const newJob: Omit<JobPosting, 'id'> = {
+      title: jobData.title,
+      company: jobData.company,
+      location: jobData.location,
       description: sanitizedDescription,
-      applicationLink: applyLink,
-      postedDate: new Date(),
-      salaryRange: salaryRange || null,
-      tags: tags || [],
+      applicationLink: jobData.applicationLink,
+      postedDate: admin.firestore.Timestamp.fromDate(postedDate),
+      expirationDate: admin.firestore.Timestamp.fromDate(expirationDate),
+      salaryRange: jobData.salaryRange || null,
+      tags: jobData.tags ? jobData.tags.split(',').map((tag: string) => tag.trim()) : [],
       isNew: true,
-      expirationDate: expiration,
-      status: 'pending_review', // Set status to pending review
+      status: 'published', // Admin posts are published by default
+      jobLevel: jobData.jobLevel || null,
+      employeeRole: jobData.employeeRole || null,
+      responsibilities: jobData.responsibilities ? jobData.responsibilities.split('\n').map((r: string) => r.trim()) : [],
+      qualifications: jobData.qualifications ? jobData.qualifications.split('\n').map((q: string) => q.trim()) : [],
     };
 
     // --- Firestore Operation ---
@@ -66,8 +76,12 @@ export default async function handler(
     console.log(`New job posted with ID: ${newJobRef.id}`);
 
     // --- Trigger Revalidation ---
-    await res.revalidate('/');
-    await res.revalidate(`/jobs/${newJobRef.id}`);
+    try {
+      await res.revalidate('/');
+      await res.revalidate(`/jobs/${newJobRef.id}`);
+    } catch (revalError) {
+      console.error('Error during revalidation:', revalError);
+    }
     
     return res.status(201).json({ message: 'Job posted successfully!', jobId: newJobRef.id });
 

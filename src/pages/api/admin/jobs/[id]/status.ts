@@ -39,7 +39,6 @@ export default async function handler(
 
     // Revalidate pages to reflect the change
     await res.revalidate('/');
-    await res.revalidate('/jobs');
     await res.revalidate(`/jobs/${id}`);
 
     res.status(200).json({ message: `Job ${status} successfully.` });

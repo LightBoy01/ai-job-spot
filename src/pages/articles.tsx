@@ -32,7 +32,7 @@ export default function Articles({ articles }: ArticlesProps) {
         <meta property="og:title" content="AI Career Insights & Articles | AI Job Spot" />
         <meta property="og:description" content="Explore insightful articles and expert guides on the AI job market, career development, and the future of artificial intelligence." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.ai-job-spot.com/articles" />
+        <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/articles`} />
       </Head>
       <div className="container mx-auto px-4 py-12 font-serif">
         <h1 className="text-5xl font-bold text-neutral-800 mb-6 text-center leading-tight">Insights & Musings</h1>

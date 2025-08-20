@@ -1,8 +1,10 @@
+import React from 'react';
 import Layout from '@/components/Layout';
 import JobCard from '@/components/JobCard';
 import AdContainer from '@/components/AdContainer';
 import { getJobs } from '@/lib/firestoreClient';
 import { SerializedJobPosting } from '@/lib/types';
+import { NEW_JOB_THRESHOLD_MS } from '@/lib/constants';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
@@ -24,8 +26,10 @@ export default function Home({ jobs }: HomeProps) {
         <meta property="og:title" content="AI Job Spot | Your Hub for the Latest AI Job Opportunities" />
         <meta property="og:description" content="Find the latest and most promising AI job opportunities, from machine learning engineers to data scientists. Your next career move in artificial intelligence starts here." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.ai-job-spot.com" /> 
+        <meta property="og:url" content={process.env.NEXT_PUBLIC_SITE_URL} />
+         
       </Head>
+      
       <div className="max-w-6xl mx-auto px-4 py-12">
         <h1 className="lg:text-5xl md:text-4xl text-3xl font-serif font-bold text-primary-dark mb-12 text-center leading-tight !text-center">Latest AI Job Opportunities</h1>
         {jobs.length === 0 ? (
@@ -33,18 +37,19 @@ export default function Home({ jobs }: HomeProps) {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {jobs.map((job, index) => (
-              <>
-                <JobCard key={job.id} job={job} />
+              <React.Fragment key={job.id}>
+                <JobCard job={job} />
                 {(index + 1) % 3 === 0 && index !== jobs.length - 1 && (
                   <div className="lg:col-span-3">
                     <AdContainer slot={process.env.NEXT_PUBLIC_ADSENSE_JOB_LISTING_SLOT || ''} />
                   </div>
                 )}
-              </>
+              </React.Fragment>
             ))}
           </div>
         )}
       </div>
+      
     </Layout>
   );
 }
@@ -53,9 +58,16 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   let jobs: SerializedJobPosting[] = [];
   try {
     const rawJobs = await getJobs();
-    // Sort jobs by postedDate in descending order (newest first)
-    rawJobs.sort((a, b) => b.postedDate.getTime() - a.postedDate.getTime());
+
+    // Adjust isNew flag based on postedDate
     const now = new Date();
+    rawJobs.forEach(job => {
+      const posted = new Date(job.postedDate);
+      if ((now.getTime() - posted.getTime()) > NEW_JOB_THRESHOLD_MS) {
+        job.isNew = false;
+      }
+    });
+
     jobs = rawJobs.filter(job => {
       // If expirationDate is not set, assume it's still active
       if (!job.expirationDate) {
@@ -66,16 +78,16 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
     }).map(job => ({
       ...job,
       postedDate: job.postedDate.toISOString(),
-      expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
+      expirationDate: job.expirationDate instanceof Date ? job.expirationDate.toISOString() : null,
     }));
   } catch (error) {
     console.error("Error fetching jobs:", error);
+    jobs = [];
   }
 
   return {
     props: {
       jobs,
     },
-    revalidate: 60, // In seconds
   };
-};
+}

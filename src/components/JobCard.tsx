@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { SerializedJobPosting } from '@/lib/types';
-import { NEW_JOB_THRESHOLD_MS, EXPIRES_SOON_THRESHOLD_DAYS } from '@/lib/constants';
+import { EXPIRES_SOON_THRESHOLD_DAYS } from '@/lib/constants';
 import { formatDate } from '@/lib/dateUtils';
 
 interface JobCardProps {
@@ -21,10 +21,9 @@ interface JobCardProps {
  * @returns {JSX.Element} The rendered JobCard component.
  */
 const JobCard = ({ job }: JobCardProps) => {
-  const { id, title, company, location, salaryRange, postedDate, expirationDate } = job;
+  const { id, title, company, location, salaryRange, expirationDate, isNew } = job;
 
   const now = new Date();
-  const isNew = (now.getTime() - new Date(postedDate).getTime()) < NEW_JOB_THRESHOLD_MS;
 
   let daysUntilExpiration: number | null = null;
   if (expirationDate) {

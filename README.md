@@ -19,10 +19,12 @@ Welcome to AI Job Spot, a central hub for the latest AI job opportunities. This 
 
 ## Key Features
 
+*   **Post a Job Feature:** Allows users to submit job postings, integrated with secure payment processing via Paddle.
+*   **Rich Text Editor:** Provides a rich text editing experience for job descriptions and article content, enhancing user and admin content creation.
 *   **Static Site Generation (SSG) with ISR:** Public-facing pages are statically generated for maximum performance and SEO, with Incremental Static Regeneration to keep content fresh.
 *   **Secure Admin Panel:** A full-featured admin dashboard with CRUD functionality for jobs and articles.
 *   **Role-Based Access Control (RBAC):** Firestore rules and API middleware ensure only authenticated admins can perform write operations.
-*   **XSS Protection:** All user-generated content is sanitized on the server-side to prevent Cross-Site Scripting attacks.
+*   **Comprehensive XSS Protection:** All user-generated and admin-generated content (including rich text HTML) is rigorously sanitized on the server-side to prevent Cross-Site Scripting attacks.
 *   **Dynamic Sitemap:** A `sitemap.xml` is dynamically generated for optimal search engine crawling.
 
 ## Local Development Setup
@@ -44,8 +46,8 @@ npm install
 
 1.  Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
 2.  Enable **Authentication** (with Email/Password provider) and **Firestore**.
-3.  Go to **Project Settings** > **Service Accounts** and generate a new private key. This will download a JSON file.
-4.  **Rename this file to `serviceAccountKey.local.json`** and place it in the root of your project. This file is listed in `.gitignore` and will not be committed.
+3.  For **local development**, you will need a Firebase service account key. Go to **Project Settings** > **Service Accounts** and generate a new private key. This will download a JSON file.
+4.  **Rename this file to `serviceAccountKey.local.json`** and place it in the root of your project. This file is listed in `.gitignore` and will **not** be committed to version control.
 
 ### 4. Set Up Environment Variables
 
@@ -64,7 +66,21 @@ NEXT_PUBLIC_FIREBASE_APP_ID="YOUR_APP_ID"
 NEXT_PUBLIC_ADSENSE_PUBLISHER_ID="ca-pub-YOUR_ID"
 NEXT_PUBLIC_ADSENSE_JOB_LISTING_SLOT="YOUR_SLOT_ID"
 # ... other ad slots
+
+# Paddle Keys (for local testing of Post a Job feature)
+PADDLE_API_KEY="YOUR_PADDLE_API_KEY"
+PADDLE_PRICE_ID="YOUR_PADDLE_PRICE_ID"
+PADDLE_WEBHOOK_SECRET="YOUR_PADDLE_WEBHOOK_SECRET"
 ```
+
+### 5. Install New Dependencies
+
+If you pull the latest changes, ensure you install new dependencies:
+
+```bash
+npm install
+```
+This will install `isomorphic-dompurify` and any other new packages.
 
 ### 5. Create an Admin User
 
@@ -79,12 +95,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the site. You can log in to the admin panel at [http://localhost:3000/admin](http://localhost:3000/admin).
 
-## Deployment to Vercel
+### 4. Deploy to Vercel
 
 1.  Push your code to a GitHub repository.
 2.  Import the repository into Vercel.
-3.  In the Vercel project settings, add all the environment variables from your `.env.local` file.
-4.  You must also add the service account key as a server-side secret. Create a new environment variable named `FIREBASE_SERVICE_ACCOUNT_BASE64`.
+3.  In the Vercel project settings, add all the environment variables from your `.env.local` file, including the Paddle keys.
+4.  You must also add the Firebase service account key as a server-side secret. Create a new environment variable named `FIREBASE_SERVICE_ACCOUNT_BASE64`.
     *   **Value:** Copy the entire content of your `serviceAccountKey.local.json` file, encode it in Base64, and paste the resulting string. You can use an online tool or the following command:
     *   `cat serviceAccountKey.local.json | base64`
 

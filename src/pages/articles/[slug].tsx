@@ -54,7 +54,7 @@ export default function ArticlePage({ article }: ArticlePageProps) {
     );
   }
 
-  const { title, author, publishDate, contentBody, issueNo, volumeNo, slug } = article;
+  const { title, author, publishDate, contentBody, issueNo, volumeNo } = article;
 
   return (
     <Layout>
@@ -66,7 +66,7 @@ export default function ArticlePage({ article }: ArticlePageProps) {
         <meta property="og:title" content={`${title} | AI Job Spot`} />
         <meta property="og:description" content={`${contentBody.substring(0, 160)}...`} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://www.ai-job-spot.com/articles/${slug}`} />
+                <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`} />
       </Head>
       <div className="max-w-4xl mx-auto px-4 py-8">
         <h1 className="text-4xl font-serif font-extrabold text-primary-dark mb-4">{title}</h1>

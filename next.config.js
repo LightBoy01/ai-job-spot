@@ -1,9 +1,22 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // The custom webpack configuration has been removed to rely on Next.js defaults,
-  // which are optimized for most environments, including Vercel.
-  // The previous polling setup was a workaround for a specific local development
-  // environment (like Termux) and is not needed for production builds.
+  webpack: (config) => {
+    // See https://webpack.js.org/configuration/watch/#watchoptions-ignored
+    config.watchOptions.ignored = [
+        // Ignore all dotfiles
+        '**/.git/**',
+        // Ignore all node_modules
+        '**/node_modules/**',
+        // Ignore all .next folders
+        '**/.next/**',
+        // Ignore Vercel specific folders
+        '**/.vercel/**',
+        // Ignore Termux specific folders that cause EACCES errors
+        '/data/**',
+        '/data/data/**',
+    ];
+    return config;
+  },
 };
 
 module.exports = nextConfig;

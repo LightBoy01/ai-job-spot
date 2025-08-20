@@ -111,10 +111,11 @@ export const getServerSideProps: GetServerSideProps<AdminArticlesProps> = async 
   try {
     const articles = await getArticles();
     const serializedArticles = articles.map(article => {
-      const { publishDate, ...rest } = article;
+      const { publishDate, imageUrl, ...rest } = article;
       return {
         ...rest,
         publishDate: (publishDate && 'toDate' in publishDate) ? (publishDate as { toDate: () => Date }).toDate().toISOString() : new Date(publishDate).toISOString(),
+        imageUrl: imageUrl || null,
       };
     });
     return { props: { initialArticles: serializedArticles as unknown as SerializedArticle[] } };

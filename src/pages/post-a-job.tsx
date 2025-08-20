@@ -1,8 +1,8 @@
-
 import { useState } from 'react';
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import toast, { Toaster } from 'react-hot-toast';
+import RichTextEditor from '@/components/RichTextEditor';
 
 const PostAJobPage = () => {
   const [formState, setFormState] = useState({
@@ -16,22 +16,26 @@ const PostAJobPage = () => {
     tags: '',
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormState(prevState => ({ ...prevState, [name]: value }));
   };
 
+  const handleDescriptionChange = (content: string) => {
+    setFormState(prevState => ({ ...prevState, description: content }));
+  };
+
   const [isSubmitting, setIsSubmitting] = useState(false);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    const loadingToast = toast.loading('Submitting your job post...');
+    const loadingToast = toast.loading('Preparing your checkout...');
 
     try {
-      // Split tags string into an array, trim whitespace, and remove empty strings
       const tagsArray = formState.tags.split(',').map(tag => tag.trim()).filter(tag => tag);
 
-      const response = await fetch('/api/jobs/post', {
+      const response = await fetch('/api/jobs/initiate-payment', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -44,25 +48,16 @@ const PostAJobPage = () => {
 
       const data = await response.json();
 
-      if (response.ok) {
-        toast.success(data.message || 'Job posted successfully!', { id: loadingToast });
-        setFormState({
-          title: '',
-          company: '',
-          location: '',
-          description: '',
-          applyLink: '',
-          posterEmail: '',
-          salaryRange: '',
-          tags: '',
-        });
+      if (response.ok && data.checkoutUrl) {
+        toast.success('Redirecting to payment...', { id: loadingToast });
+        window.location.href = data.checkoutUrl;
       } else {
-        toast.error(data.message || 'Failed to post job.', { id: loadingToast });
+        throw new Error(data.error || 'Failed to create checkout session.');
       }
     } catch (error) {
       console.error('Submission error:', error);
-      toast.error('An unexpected error occurred.', { id: loadingToast });
-    } finally {
+      const message = error instanceof Error ? error.message : 'An unexpected error occurred.';
+      toast.error(message, { id: loadingToast });
       setIsSubmitting(false);
     }
   };
@@ -77,6 +72,10 @@ const PostAJobPage = () => {
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white sm:text-5xl sm:tracking-tight lg:text-6xl">Post a Job</h1>
           <p className="mt-5 max-w-xl mx-auto text-xl text-gray-500 dark:text-gray-400">Get your opportunity in front of the best AI talent in the industry.</p>
+          <div className="mt-8 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-inner inline-block">
+            <p className="text-3xl font-bold text-brand-gold dark:text-brand-gold-light">$99 USD</p>
+            <p className="text-base text-gray-500 dark:text-gray-400 mt-1">Your job will be featured for 30 days.</p>
+          </div>
         </div>
 
         <div className="mt-12 bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
@@ -100,8 +99,12 @@ const PostAJobPage = () => {
                 <input type="text" name="salaryRange" id="salaryRange" value={formState.salaryRange} onChange={handleInputChange} placeholder="e.g., $120,000 - $150,000" className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-brand-gold focus:ring-brand-gold sm:text-sm dark:bg-gray-700 dark:text-white" />
               </div>
               <div>
-                <label htmlFor="description" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Job Description (Supports HTML for formatting)</label>
-                <textarea name="description" id="description" value={formState.description} onChange={handleInputChange} required rows={8} className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-brand-gold focus:ring-brand-gold sm:text-sm dark:bg-gray-700 dark:text-white"></textarea>
+                <label htmlFor="description" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Job Description</label>
+                <RichTextEditor
+                  value={formState.description}
+                  onChange={handleDescriptionChange}
+                  placeholder="Provide a detailed job description..."
+                />
               </div>
               <div>
                 <label htmlFor="applyLink" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Application Link or Email</label>
@@ -117,7 +120,7 @@ const PostAJobPage = () => {
               </div>
               <div>
                 <button type="submit" disabled={isSubmitting} className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-brand-gold hover:bg-brand-gold-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-gold disabled:opacity-50 disabled:cursor-not-allowed">
-                  {isSubmitting ? 'Submitting...' : 'Post Job Listing'}
+                  {isSubmitting ? 'Proceeding...' : 'Proceed to Payment'}
                 </button>
               </div>
             </form>

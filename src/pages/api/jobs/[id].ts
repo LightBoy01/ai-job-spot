@@ -1,6 +1,7 @@
 
 import type { NextApiResponse } from 'next';
 import { adminDb } from '../../../lib/firebaseAdmin'; // Import adminDb
+import * as admin from 'firebase-admin';
 import { JobPosting } from '../../../lib/types';
 import DOMPurify from 'dompurify';
 import { JSDOM } from 'jsdom';
@@ -31,19 +32,54 @@ export default async function handler(
       try {
         const jobData: Partial<JobPosting> = req.body;
 
-        // Basic validation
-        if (Object.keys(jobData).length === 0) {
-          return res.status(400).json({ error: 'Request body cannot be empty' });
+        // --- Comprehensive Server-Side Validation ---
+        const errors: Record<string, string> = {};
+        if (jobData.title !== undefined && (typeof jobData.title !== 'string' || !jobData.title)) {
+          errors.title = 'Job Title must be a non-empty string.';
+        }
+        if (jobData.company !== undefined && (typeof jobData.company !== 'string' || !jobData.company)) {
+          errors.company = 'Company must be a non-empty string.';
+        }
+        if (jobData.location !== undefined && (typeof jobData.location !== 'string' || !jobData.location)) {
+          errors.location = 'Location must be a non-empty string.';
+        }
+        if (jobData.description !== undefined && (typeof jobData.description !== 'string' || jobData.description === '<p><br></p>')) {
+          errors.description = 'Job Description is required.';
+        }
+        if (jobData.applicationLink !== undefined) {
+          if (!jobData.applicationLink) {
+            errors.applicationLink = 'Application Link is required.';
+          } else if (!/^https?:\/\/.+/.test(jobData.applicationLink)) {
+            errors.applicationLink = 'Please enter a valid URL for the Application Link.';
+          }
+        }
+        if (jobData.postedDate && jobData.expirationDate) {
+          if (new Date(jobData.expirationDate) <= new Date(jobData.postedDate)) {
+            errors.expirationDate = 'Expiration Date must be after Posted Date.';
+          }
         }
 
-        const sanitizedDescription = jobData.description
-          ? purify.sanitize(jobData.description)
-          : undefined;
+        if (Object.keys(errors).length > 0) {
+          return res.status(400).json({ error: 'Validation failed', details: errors });
+        }
+        // --- End Validation ---
 
-        await jobRef.update({
-          ...jobData,
-          ...(sanitizedDescription && { description: sanitizedDescription }),
-        });
+        const updateData = { ...jobData };
+
+        if (updateData.description) {
+          updateData.description = purify.sanitize(updateData.description);
+        }
+        if (updateData.postedDate) {
+          updateData.postedDate = admin.firestore.Timestamp.fromDate(new Date(updateData.postedDate));
+        }
+        if (updateData.expirationDate) {
+          updateData.expirationDate = admin.firestore.Timestamp.fromDate(new Date(updateData.expirationDate));
+        }
+        if (typeof updateData.tags === 'string') {
+          updateData.tags = updateData.tags.split(',').map((tag: string) => tag.trim());
+        }
+
+        await jobRef.update(updateData);
 
         res.status(200).json({ message: 'Job posting updated successfully' });
       } catch (error) {

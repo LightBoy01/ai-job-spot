@@ -32,6 +32,7 @@ export default function JobPage({ job }: JobPageProps) {
         <meta property="og:title" content={`${job.title} at ${job.company} | AI Job Spot`} />
         <meta property="og:description" content={job.description} />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/jobs/${job.id}`} />
       </Head>
       <article className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <header className="mb-10 border-b border-neutral-200 pb-8">

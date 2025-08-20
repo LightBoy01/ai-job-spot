@@ -36,6 +36,7 @@ export interface Article {
 export interface SerializedJobPosting extends Omit<JobPosting, 'postedDate' | 'expirationDate'> {
   postedDate: string;
   expirationDate: string | null;
+  isNew?: boolean;
 }
 
 export interface SerializedArticle extends Omit<Article, 'publishDate'> {

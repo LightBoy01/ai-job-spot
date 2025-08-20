@@ -1,6 +1,7 @@
 
 import type { NextApiResponse } from 'next';
 import { adminDb } from '../../../lib/firebaseAdmin'; // Import adminDb
+import * as admin from 'firebase-admin';
 import { Article } from '../../../lib/types';
 import DOMPurify from 'dompurify';
 import { JSDOM } from 'jsdom';
@@ -31,19 +32,47 @@ export default async function handler(
       try {
         const articleData: Partial<Article> = req.body;
 
-        // Basic validation
-        if (Object.keys(articleData).length === 0) {
-          return res.status(400).json({ error: 'Request body cannot be empty' });
+        // --- Comprehensive Server-Side Validation ---
+        const errors: Record<string, string> = {};
+        if (articleData.title !== undefined && (typeof articleData.title !== 'string' || !articleData.title)) {
+          errors.title = 'Article Title must be a non-empty string.';
+        }
+        if (articleData.author !== undefined && (typeof articleData.author !== 'string' || !articleData.author)) {
+          errors.author = 'Author must be a non-empty string.';
+        }
+        if (articleData.slug !== undefined) {
+          if (typeof articleData.slug !== 'string' || !articleData.slug) {
+            errors.slug = 'URL Slug must be a non-empty string.';
+          } else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(articleData.slug)) {
+            errors.slug = 'URL Slug must be lowercase, alphanumeric, and use hyphens.';
+          }
+        }
+        if (articleData.contentBody !== undefined && (typeof articleData.contentBody !== 'string' || articleData.contentBody === '<p><br></p>')) {
+          errors.contentBody = 'Article Content is required.';
+        }
+        if (articleData.issueNo !== undefined && (typeof articleData.issueNo !== 'number' || articleData.issueNo <= 0)) {
+          errors.issueNo = 'Issue Number must be a positive number.';
+        }
+        if (articleData.volumeNo !== undefined && (typeof articleData.volumeNo !== 'number' || articleData.volumeNo <= 0)) {
+          errors.volumeNo = 'Volume Number must be a positive number.';
         }
 
-        const sanitizedContentBody = articleData.contentBody
-          ? purify.sanitize(articleData.contentBody)
-          : undefined;
+        if (Object.keys(errors).length > 0) {
+          return res.status(400).json({ error: 'Validation failed', details: errors });
+        }
+        // --- End Validation ---
 
-        await articleRef.update({
-          ...articleData,
-          ...(sanitizedContentBody && { contentBody: sanitizedContentBody }),
-        });
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const dataToUpdate: { [key: string]: any } = { ...articleData };
+
+        if (dataToUpdate.contentBody) {
+          dataToUpdate.contentBody = purify.sanitize(dataToUpdate.contentBody);
+        }
+        if (dataToUpdate.publishDate) {
+          dataToUpdate.publishDate = admin.firestore.Timestamp.fromDate(new Date(dataToUpdate.publishDate));
+        }
+
+        await articleRef.update(dataToUpdate);
 
         res.status(200).json({ message: 'Article updated successfully' });
       } catch (error) {
