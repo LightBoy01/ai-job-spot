@@ -1,11 +1,22 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '../../../lib/firebaseAdmin';
-import { SerializedJobPosting } from '../../../lib/types';
+import type { NextApiResponse } from 'next';
+import { adminDb } from '@/lib/firebaseAdmin';
+import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
+import { JobPosting, SerializedJobPosting } from '@/lib/types';
+import { DocumentSnapshot } from 'firebase-admin/firestore';
+
+export interface PaginatedJobsResponse {
+  jobs: SerializedJobPosting[];
+  lastDocId: string | null;
+}
 
 export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
+  req: AuthenticatedNextApiRequest,
+  res: NextApiResponse<PaginatedJobsResponse | { error: string }>
 ) {
+  if (!(await requireAdmin(req, res))) {
+    return;
+  }
+
   if (req.method !== 'GET') {
     res.setHeader('Allow', ['GET']);
     return res.status(405).end(`Method ${req.method} Not Allowed`);
@@ -13,62 +24,51 @@ export default async function handler(
 
   const { limit, startAfter } = req.query;
 
-  let query: FirebaseFirestore.Query = adminDb.collection('jobs')
-    .where('status', '==', 'published')
-    .orderBy('postedDate', 'desc');
+  const parsedLimit = typeof limit === 'string' ? parseInt(limit, 10) : 10; // Default limit
+  const startAfterDocId = typeof startAfter === 'string' ? startAfter : undefined;
 
-  if (limit && typeof limit === 'string') {
-    query = query.limit(parseInt(limit as string, 10));
-  } else {
-    query = query.limit(10); // Default limit
-  }
+  let query = adminDb.collection('jobs').orderBy('postedDate', 'desc');
 
-  if (startAfter && typeof startAfter === 'string') {
-    const startAfterDoc = await adminDb.collection('jobs').doc(startAfter).get();
-    if (startAfterDoc.exists) {
-      query = query.startAfter(startAfterDoc);
+  if (startAfterDocId) {
+    try {
+      const startAfterSnapshot = await adminDb.collection('jobs').doc(startAfterDocId).get();
+      if (startAfterSnapshot.exists) {
+        query = query.startAfter(startAfterSnapshot);
+      } else {
+        // If startAfter document doesn't exist, return empty results
+        return res.status(200).json({ jobs: [], lastDocId: null });
+      }
+    } catch (error) {
+      console.error('Error fetching startAfter document:', error);
+      return res.status(500).json({ error: 'Failed to fetch startAfter document' });
     }
   }
 
   try {
-    const snapshot = await query.get();
-    const jobs: SerializedJobPosting[] = [];
-    let lastDocId: string | null = null;
+    const snapshot = await query.limit(parsedLimit).get();
 
-    snapshot.forEach(doc => {
-      const data = doc.data();
-      // Filter out expired jobs on the server side
-      const now = new Date();
-      const expirationDate = data.expirationDate ? data.expirationDate.toDate() : null;
+    if (snapshot.empty) {
+      return res.status(200).json({ jobs: [], lastDocId: null });
+    }
 
-      if (!expirationDate || expirationDate.getTime() > now.getTime()) {
-        jobs.push({
-          id: doc.id,
-          title: data.title,
-          company: data.company,
-          location: data.location,
-          jobLevel: data.jobLevel || null,
-          employeeRole: data.employeeRole || null,
-          applicationLink: data.applicationLink,
-          postedDate: data.postedDate.toDate().toISOString(),
-          expirationDate: expirationDate ? expirationDate.toISOString() : null,
-          tags: data.tags || [],
-          status: data.status,
-          isNew: data.isNew || false,
-          salaryRange: data.salaryRange || null,
-          source: data.source || null,
-          description: data.description || '',
-          responsibilities: data.responsibilities || [],
-          qualifications: data.qualifications || [],
-          preferredQualifications: data.preferredQualifications || [],
-        });
-      }
-      lastDocId = doc.id;
+    const jobs = snapshot.docs.map(doc => {
+        const data = doc.data() as JobPosting;
+        return {
+            ...data,
+            id: doc.id,
+            postedDate: data.postedDate.toISOString(), // Ensure it's an ISO string
+            expirationDate: data.expirationDate ? data.expirationDate.toISOString() : null, // Ensure it's an ISO string
+        } as SerializedJobPosting;
     });
 
-    res.status(200).json({ jobs, lastDocId });
+    const lastVisible = snapshot.docs[snapshot.docs.length - 1];
+
+    return res.status(200).json({
+      jobs: jobs,
+      lastDocId: lastVisible ? lastVisible.id : null,
+    });
   } catch (error) {
     console.error('Error fetching paginated jobs:', error);
-    res.status(500).json({ error: 'Failed to fetch jobs' });
+    return res.status(500).json({ error: 'Internal Server Error' });
   }
 }

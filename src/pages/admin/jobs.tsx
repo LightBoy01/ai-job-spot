@@ -4,22 +4,99 @@ import { GetServerSideProps } from 'next';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
 import useAuth from '@/hooks/useAuth';
-import { getJobs } from '@/lib/firestoreClient';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import { formatDate } from '@/lib/dateUtils';
 
 interface AdminJobsProps {
   initialJobs: SerializedJobPosting[];
+  initialLastDocId: string | null;
 }
 
-const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs }) => {
+const PAGE_SIZE = 10; // Define page size
+
+const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) => {
   const { idToken } = useAuth();
   const [jobs, setJobs] = useState(initialJobs);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [jobToDeleteId, setJobToDeleteId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearching, setIsSearching] = useState(false);
+  const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
+  const [firstDocId, setFirstDocId] = useState<string | null>(null); // To track for previous page
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageHistory, setPageHistory] = useState<string[]>([]); // Stack to store firstDocId of each page
+
+  useEffect(() => {
+    // Reset pagination when search query changes or is cleared
+    if (!searchQuery) {
+      setJobs(initialJobs);
+      setLastDocId(initialLastDocId);
+      setFirstDocId(null);
+      setCurrentPage(1);
+      setPageHistory([]);
+    }
+  }, [searchQuery, initialJobs, initialLastDocId]);
+
+  const fetchJobs = async (startAfterId: string | null = null, direction: 'next' | 'prev' | 'initial' = 'initial') => {
+    if (!idToken) return;
+
+    setIsSearching(true); // Use isSearching to disable buttons during fetch
+    const toastId = toast.loading(direction === 'next' ? 'Loading next page...' : direction === 'prev' ? 'Loading previous page...' : 'Loading jobs...');
+
+    try {
+      let url = `/api/jobs/paginate?limit=${PAGE_SIZE}`;
+      if (startAfterId && direction === 'next') {
+        url += `&startAfter=${startAfterId}`;
+      } else if (startAfterId && direction === 'prev') {
+        // For previous, we need to fetch from the beginning up to the current firstDocId
+        // This is a simplified approach; a more robust solution would involve storing more history
+        // For simplicity, we'll just go back to the previous page's start ID
+        url = `/api/jobs/paginate?limit=${PAGE_SIZE}`;
+        if (pageHistory.length > 1) {
+          url += `&startAfter=${pageHistory[pageHistory.length - 2]}`;
+        }
+      }
+
+      const response = await fetch(url, {
+        headers: {
+          'Authorization': `Bearer ${idToken}`,
+        },
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to fetch jobs');
+      }
+
+      const data = await response.json();
+      setJobs(data.jobs);
+      setLastDocId(data.lastDocId);
+
+      if (data.jobs.length > 0) {
+        setFirstDocId(data.jobs[0].id);
+      } else {
+        setFirstDocId(null);
+      }
+
+      if (direction === 'next') {
+        setPageHistory(prev => [...prev, startAfterId || 'initial']);
+        setCurrentPage(prev => prev + 1);
+      } else if (direction === 'prev') {
+        setPageHistory(prev => prev.slice(0, prev.length - 1));
+        setCurrentPage(prev => prev - 1);
+      } else if (direction === 'initial' && data.jobs.length > 0) {
+        setPageHistory([data.jobs[0].id]);
+      }
+
+      toast.success('Jobs loaded.', { id: toastId });
+    } catch (error) {
+      console.error('Error fetching jobs:', error);
+      toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
+    } finally {
+      setIsSearching(false);
+    }
+  };
 
   const handleDeleteClick = (id: string) => {
     setJobToDeleteId(id);
@@ -45,7 +122,8 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs }) => {
       }
 
       toast.success('Job deleted successfully', { id: toastId });
-      setJobs(currentJobs => currentJobs.filter(job => job.id !== jobToDeleteId));
+      // Re-fetch jobs after deletion to update the list and pagination state
+      fetchJobs(pageHistory[pageHistory.length - 1] || null, 'initial');
     } catch (error) {
       console.error('Error deleting job:', error);
       toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
@@ -76,6 +154,10 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs }) => {
 
       const searchResults = await response.json();
       setJobs(searchResults);
+      setLastDocId(null); // Disable pagination after search
+      setFirstDocId(null);
+      setCurrentPage(1);
+      setPageHistory([]);
       toast.success(`${searchResults.length} job(s) found.`, { id: toastId });
     } catch (error) {
       console.error('Search error:', error);
@@ -87,7 +169,8 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs }) => {
 
   const handleClearSearch = () => {
     setSearchQuery('');
-    setJobs(initialJobs);
+    // Re-fetch initial jobs to reset pagination
+    fetchJobs(null, 'initial');
   };
 
   return (
@@ -159,6 +242,25 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs }) => {
             </tbody>
           </table>
         </div>
+
+        {/* Pagination Controls */}
+        <div className="flex justify-between items-center mt-6">
+          <button
+            onClick={() => fetchJobs(pageHistory[pageHistory.length - 2] || null, 'prev')}
+            disabled={currentPage === 1 || isSearching}
+            className="bg-neutral-200 text-neutral-800 py-2 px-4 rounded-md font-semibold hover:bg-neutral-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Previous
+          </button>
+          <span className="text-neutral-600">Page {currentPage}</span>
+          <button
+            onClick={() => fetchJobs(lastDocId, 'next')}
+            disabled={!lastDocId || isSearching}
+            className="bg-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Next
+          </button>
+        </div>
       </div>
 
       <ConfirmationModal
@@ -172,23 +274,24 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs }) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps<AdminJobsProps> = async () => {
-  // This should be protected by middleware or a higher-order component
-  // For now, we fetch the data and assume auth is handled on the client
+export const getServerSideProps: GetServerSideProps<AdminJobsProps> = async (context) => {
   try {
-    const { jobs } = await getJobs(); // Destructure to get the jobs array
-    const serializedJobs = jobs.map(job => {
-      const { postedDate, expirationDate, ...rest } = job;
-      return {
-        ...rest,
-        postedDate: (postedDate && 'toDate' in postedDate) ? (postedDate as { toDate: () => Date }).toDate().toISOString() : new Date(postedDate).toISOString(),
-        expirationDate: expirationDate ? ((expirationDate && 'toDate' in expirationDate) ? (expirationDate as { toDate: () => Date }).toDate().toISOString() : new Date(expirationDate).toISOString()) : null,
-      };
-    });
-    return { props: { initialJobs: serializedJobs as unknown as SerializedJobPosting[] } };
+    const PAGE_SIZE = 10; // Must match frontend PAGE_SIZE
+    const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
+    const host = context.req.headers.host;
+    const baseUrl = `${protocol}://${host}`;
+
+    const response = await fetch(`${baseUrl}/api/jobs/paginate?limit=${PAGE_SIZE}`);
+    
+    if (!response.ok) {
+      throw new Error(`Failed to fetch initial jobs: ${response.statusText}`);
+    }
+    const data = await response.json();
+
+    return { props: { initialJobs: data.jobs, initialLastDocId: data.lastDocId } };
   } catch (error) {
     console.error("Error fetching jobs for admin panel:", error);
-    return { props: { initialJobs: [] } };
+    return { props: { initialJobs: [], initialLastDocId: null } };
   }
 };
 
