@@ -16,8 +16,10 @@ const RichTextEditor: React.FC<RichTextEditorProps> = ({ value, onChange, placeh
     toolbar: [
       [{ 'header': '1' }, { 'header': '2' }, { 'font': ['Playfair Display', 'Lato', 'serif', 'sans-serif'] }],
       [{ size: ['small', false, 'large', 'huge'] }],
-      ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+      ['bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block'],
       [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' }],
+      [{ 'align': [] }],
+      [{ 'color': [] }, { 'background': [] }],
       ['link', 'image', 'video'],
       ['clean']
     ],
@@ -28,8 +30,9 @@ const RichTextEditor: React.FC<RichTextEditorProps> = ({ value, onChange, placeh
 
   const formats = [
     'header', 'font', 'size',
-    'bold', 'italic', 'underline', 'strike', 'blockquote',
+    'bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block',
     'list', 'bullet', 'indent',
+    'align', 'color', 'background',
     'link', 'image', 'video'
   ];
 
