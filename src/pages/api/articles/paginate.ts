@@ -1,8 +1,8 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
-import { db } from '@/lib/firebase';
-import { getArticles } from '@/lib/firestoreClient';
-import { SerializedArticle } from '@/lib/types';
-import { DocumentSnapshot, doc, getDoc } from 'firebase/firestore'; // Import doc and getDoc
+import type { NextApiResponse } from 'next';
+import { adminDb } from '@/lib/firebaseAdmin';
+import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
+import { Article, SerializedArticle } from '@/lib/types';
+import { DocumentSnapshot } from 'firebase-admin/firestore';
 
 export interface PaginatedArticlesResponse {
   articles: SerializedArticle[];
@@ -10,9 +10,13 @@ export interface PaginatedArticlesResponse {
 }
 
 export default async function handler(
-  req: NextApiRequest,
+  req: AuthenticatedNextApiRequest,
   res: NextApiResponse<PaginatedArticlesResponse | { error: string }>
 ) {
+  if (!(await requireAdmin(req, res))) {
+    return;
+  }
+
   if (req.method !== 'GET') {
     res.setHeader('Allow', ['GET']);
     return res.status(405).end(`Method ${req.method} Not Allowed`);
@@ -20,19 +24,18 @@ export default async function handler(
 
   const { limit, startAfter } = req.query;
 
-  const parsedLimit = typeof limit === 'string' ? parseInt(limit, 10) : undefined;
+  const parsedLimit = typeof limit === 'string' ? parseInt(limit, 10) : 10; // Default limit
   const startAfterDocId = typeof startAfter === 'string' ? startAfter : undefined;
 
-  let startAfterDoc: DocumentSnapshot | undefined = undefined;
+  let query = adminDb.collection('articles').orderBy('publishDate', 'desc');
 
   if (startAfterDocId) {
     try {
-      // Fetch the actual DocumentSnapshot using the client-side db
-      const docRef = doc(db, 'articles', startAfterDocId); // Correct usage of doc
-      const docSnap = await getDoc(docRef); // Use getDoc function
-      if (docSnap.exists()) {
-        startAfterDoc = docSnap;
+      const startAfterSnapshot = await adminDb.collection('articles').doc(startAfterDocId).get();
+      if (startAfterSnapshot.exists) {
+        query = query.startAfter(startAfterSnapshot);
       } else {
+        // If startAfter document doesn't exist, return empty results
         return res.status(200).json({ articles: [], lastDocId: null });
       }
     } catch (error) {
@@ -42,13 +45,25 @@ export default async function handler(
   }
 
   try {
-    const { articles, lastVisible } = await getArticles(parsedLimit, startAfterDoc);
+    const snapshot = await query.limit(parsedLimit).get();
+
+    if (snapshot.empty) {
+      return res.status(200).json({ articles: [], lastDocId: null });
+    }
+
+    const articles = snapshot.docs.map(doc => {
+        const data = doc.data() as Article;
+        return {
+            ...data,
+            id: doc.id,
+            publishDate: data.publishDate.toISOString(), // Ensure it's an ISO string
+        } as SerializedArticle;
+    });
+
+    const lastVisible = snapshot.docs[snapshot.docs.length - 1];
 
     return res.status(200).json({
-      articles: articles.map(article => ({
-        ...article,
-        publishDate: article.publishDate.toISOString(), // Ensure serialization
-      })),
+      articles: articles,
       lastDocId: lastVisible ? lastVisible.id : null,
     });
   } catch (error) {

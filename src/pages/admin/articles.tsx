@@ -4,22 +4,101 @@ import { GetServerSideProps } from 'next';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
 import useAuth from '@/hooks/useAuth';
-import { getArticles } from '@/lib/firestoreClient';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import { formatDate } from '@/lib/dateUtils';
 
 interface AdminArticlesProps {
   initialArticles: SerializedArticle[];
+  initialLastDocId: string | null;
 }
 
-const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
+const PAGE_SIZE = 10; // Define page size
+
+const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialLastDocId }) => {
   const { idToken } = useAuth();
   const [articles, setArticles] = useState(initialArticles);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [articleToDeleteId, setArticleToDeleteId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearching, setIsSearching] = useState(false);
+  const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
+  const [firstDocId, setFirstDocId] = useState<string | null>(null); // To track for previous page
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageHistory, setPageHistory] = useState<string[]>([]); // Stack to store firstDocId of each page
+
+  useEffect(() => {
+    // Reset pagination when search query changes or is cleared
+    if (!searchQuery) {
+      setArticles(initialArticles);
+      setLastDocId(initialLastDocId);
+      setFirstDocId(null);
+      setCurrentPage(1);
+      setPageHistory([]);
+    }
+  }, [searchQuery, initialArticles, initialLastDocId]);
+
+  const fetchArticles = async (startAfterId: string | null = null, direction: 'next' | 'prev' | 'initial' = 'initial') => {
+    if (!idToken) return;
+
+    setIsSearching(true); // Use isSearching to disable buttons during fetch
+    const toastId = toast.loading(direction === 'next' ? 'Loading next page...' : direction === 'prev' ? 'Loading previous page...' : 'Loading articles...');
+
+    try {
+      let url = `/api/articles/paginate?limit=${PAGE_SIZE}`;
+      if (startAfterId && direction === 'next') {
+        url += `&startAfter=${startAfterId}`;
+      } else if (startAfterId && direction === 'prev') {
+        // For previous, we need to fetch from the beginning up to the current firstDocId
+        // This is a simplified approach; a more robust solution would involve storing more history
+        // For now, we'll refetch initial if going back from page 2, or use history for deeper pages
+        // This part needs careful consideration for true bidirectional pagination with Firestore
+        // For simplicity, we'll just go back to the previous page's start ID
+        url = `/api/articles/paginate?limit=${PAGE_SIZE}`;
+        if (pageHistory.length > 1) {
+          url += `&startAfter=${pageHistory[pageHistory.length - 2]}`;
+        }
+      }
+
+      const response = await fetch(url, {
+        headers: {
+          'Authorization': `Bearer ${idToken}`,
+        },
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to fetch articles');
+      }
+
+      const data = await response.json();
+      setArticles(data.articles);
+      setLastDocId(data.lastDocId);
+
+      if (data.articles.length > 0) {
+        setFirstDocId(data.articles[0].id);
+      } else {
+        setFirstDocId(null);
+      }
+
+      if (direction === 'next') {
+        setPageHistory(prev => [...prev, startAfterId || 'initial']);
+        setCurrentPage(prev => prev + 1);
+      } else if (direction === 'prev') {
+        setPageHistory(prev => prev.slice(0, prev.length - 1));
+        setCurrentPage(prev => prev - 1);
+      } else if (direction === 'initial' && data.articles.length > 0) {
+        setPageHistory([data.articles[0].id]);
+      }
+
+      toast.success('Articles loaded.', { id: toastId });
+    } catch (error) {
+      console.error('Error fetching articles:', error);
+      toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
+    } finally {
+      setIsSearching(false);
+    }
+  };
 
   const handleDeleteClick = (id: string) => {
     setArticleToDeleteId(id);
@@ -45,7 +124,8 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
       }
 
       toast.success('Article deleted successfully', { id: toastId });
-      setArticles(currentArticles => currentArticles.filter(article => article.id !== articleToDeleteId));
+      // Re-fetch articles after deletion to update the list and pagination state
+      fetchArticles(pageHistory[pageHistory.length - 1] || null, 'initial');
     } catch (error) {
       console.error('Error deleting article:', error);
       toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
@@ -76,6 +156,10 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
 
       const searchResults = await response.json();
       setArticles(searchResults);
+      setLastDocId(null); // Disable pagination after search
+      setFirstDocId(null);
+      setCurrentPage(1);
+      setPageHistory([]);
       toast.success(`${searchResults.length} article(s) found.`, { id: toastId });
     } catch (error) {
       console.error('Search error:', error);
@@ -87,7 +171,8 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
 
   const handleClearSearch = () => {
     setSearchQuery('');
-    setArticles(initialArticles);
+    // Re-fetch initial articles to reset pagination
+    fetchArticles(null, 'initial');
   };
 
   return (
@@ -153,6 +238,25 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
             </tbody>
           </table>
         </div>
+
+        {/* Pagination Controls */}
+        <div className="flex justify-between items-center mt-6">
+          <button
+            onClick={() => fetchArticles(pageHistory[pageHistory.length - 2] || null, 'prev')}
+            disabled={currentPage === 1 || isSearching}
+            className="bg-neutral-200 text-neutral-800 py-2 px-4 rounded-md font-semibold hover:bg-neutral-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Previous
+          </button>
+          <span className="text-neutral-600">Page {currentPage}</span>
+          <button
+            onClick={() => fetchArticles(lastDocId, 'next')}
+            disabled={!lastDocId || isSearching}
+            className="bg-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Next
+          </button>
+        </div>
       </div>
 
       <ConfirmationModal
@@ -168,7 +272,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
 
 export const getServerSideProps: GetServerSideProps<AdminArticlesProps> = async () => {
   try {
-    const { articles } = await getArticles(); // Destructure to get the articles array
+    const { articles, lastVisible } = await getArticles(PAGE_SIZE); // Fetch initial page
     const serializedArticles = articles.map(article => {
       const { publishDate, imageUrl, ...rest } = article;
       return {
@@ -177,10 +281,10 @@ export const getServerSideProps: GetServerSideProps<AdminArticlesProps> = async 
         imageUrl: imageUrl || null,
       };
     });
-    return { props: { initialArticles: serializedArticles as unknown as SerializedArticle[] } };
+    return { props: { initialArticles: serializedArticles as unknown as SerializedArticle[], initialLastDocId: lastVisible ? lastVisible.id : null } };
   } catch (error) {
     console.error("Error fetching articles for admin panel:", error);
-    return { props: { initialArticles: [] } };
+    return { props: { initialArticles: [], initialLastDocId: null } };
   }
 };
 
