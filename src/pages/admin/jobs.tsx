@@ -80,7 +80,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs }) => {
                   <td className="py-4 px-4 text-neutral-600">{job.company}</td>
                   <td className="py-4 px-4 text-neutral-600">{formatDate(job.postedDate)}</td>
                   <td className="py-4 px-4">
-                    <span className={`px-3 py-1 text-xs font-semibold rounded-full ${job.status === 'published' ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'}`}>
+                    <span className={`px-3 py-1 text-xs font-semibold rounded-full ${job.status === 'published' ? 'bg-accent-light text-accent-dark' : 'bg-secondary-light text-secondary-dark'}`}>
                       {job.status || 'draft'}
                     </span>
                   </td>
@@ -117,7 +117,7 @@ export const getServerSideProps: GetServerSideProps<AdminJobsProps> = async () =
   // This should be protected by middleware or a higher-order component
   // For now, we fetch the data and assume auth is handled on the client
   try {
-    const jobs = await getJobs();
+    const { jobs } = await getJobs(); // Destructure to get the jobs array
     const serializedJobs = jobs.map(job => {
       const { postedDate, expirationDate, ...rest } = job;
       return {

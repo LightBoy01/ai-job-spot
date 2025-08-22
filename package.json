@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "seed": "ts-node --compiler-options '{\"module\":\"commonjs\"}' seedFirestore.ts",
     "test": "jest"
   },
   "dependencies": {
@@ -22,13 +23,16 @@
     "firebase-admin": "^13.4.0",
     "isomorphic-dompurify": "^2.26.0",
     "jsdom": "^26.1.0",
+    "marked": "^16.2.0",
     "micro": "^10.0.1",
     "next": "15.3.5",
     "nodemailer": "^7.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.5.2",
-    "react-quill": "^2.0.0"
+    "react-quill": "^2.0.0",
+    "remark": "^15.0.1",
+    "remark-parse": "^11.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
@@ -47,6 +51,7 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.1",
     "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }

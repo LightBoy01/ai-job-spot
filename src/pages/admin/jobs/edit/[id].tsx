@@ -9,13 +9,15 @@ import { getJobById } from '@/lib/firestoreClient';
 import { SerializedJobPosting, JobPosting } from '@/lib/types';
 import RichTextEditor from '@/components/RichTextEditor';
 
-type JobFormData = Partial<Omit<JobPosting, 'id' | 'postedDate' | 'expirationDate' | 'tags' | 'responsibilities' | 'qualifications' | 'description'> & {
+type JobFormData = Partial<Omit<JobPosting, 'id' | 'postedDate' | 'expirationDate' | 'tags' | 'responsibilities' | 'qualifications' | 'description' | 'isNew' | 'status'> & {
   tags: string;
   responsibilities: string;
   qualifications: string;
   description: string;
   postedDate: string;
   expirationDate: string;
+  isNew: boolean;
+  status: 'draft' | 'pending_review' | 'published' | 'rejected';
 }>;
 
 interface EditJobProps {
@@ -38,13 +40,20 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
         qualifications: job.qualifications?.join('\n') || '',
         postedDate: job.postedDate ? new Date(job.postedDate).toISOString().split('T')[0] : '',
         expirationDate: job.expirationDate ? new Date(job.expirationDate).toISOString().split('T')[0] : '',
+        isNew: job.isNew || false,
+        status: job.status || 'published',
       });
     }
   }, [job]);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    const checked = (e.target as HTMLInputElement).type === 'checkbox' ? (e.target as HTMLInputElement).checked : undefined;
+
+    setFormData(prev => ({
+      ...prev,
+      [name]: typeof checked === 'boolean' ? checked : value
+    }));
     // Clear error when user starts typing
     setErrors(prev => ({ ...prev, [name]: '' }));
   };
@@ -166,6 +175,14 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
                 <input type="url" id="applicationLink" name="applicationLink" value={formData.applicationLink || ''} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.applicationLink ? 'border-red-500' : 'border-neutral-300'} focus:ring-2 focus:ring-secondary-dark outline-none transition`} required />
                 {errors.applicationLink && <span className="text-red-500 text-sm mt-1 block">{errors.applicationLink}</span>}
               </div>
+              <div>
+                <label htmlFor="jobLevel" className="block text-sm font-semibold text-neutral-700 mb-2">Job Level (e.g., Senior, Staff)</label>
+                <input type="text" id="jobLevel" name="jobLevel" value={formData.jobLevel || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition" />
+              </div>
+              <div>
+                <label htmlFor="employeeRole" className="block text-sm font-semibold text-neutral-700 mb-2">Employee Role (e.g., Individual Contributor, Manager)</label>
+                <input type="text" id="employeeRole" name="employeeRole" value={formData.employeeRole || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition" />
+              </div>
             </div>
 
             <div>
@@ -177,6 +194,16 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
                 className={`${errors.description ? 'border-red-500' : ''}`}
               />
               {errors.description && <span className="text-red-500 text-sm mt-1 block">{errors.description}</span>}
+            </div>
+
+            <div>
+              <label htmlFor="responsibilities" className="block text-sm font-semibold text-neutral-700 mb-2">Responsibilities (one per line)</label>
+              <textarea id="responsibilities" name="responsibilities" value={formData.responsibilities || ''} onChange={handleChange} rows={5} className="w-full p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition" placeholder="List responsibilities, one per line."></textarea>
+            </div>
+
+            <div>
+              <label htmlFor="qualifications" className="block text-sm font-semibold text-neutral-700 mb-2">Qualifications (one per line)</label>
+              <textarea id="qualifications" name="qualifications" value={formData.qualifications || ''} onChange={handleChange} rows={5} className="w-full p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition" placeholder="List qualifications, one per line."></textarea>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -198,6 +225,19 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
                 <label htmlFor="tags" className="block text-sm font-semibold text-neutral-700 mb-2">Tags (comma-separated)</label>
                 <input type="text" id="tags" name="tags" value={formData.tags || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition" />
               </div>
+              <div className="flex items-center mt-4">
+                <input type="checkbox" id="isNew" name="isNew" checked={formData.isNew || false} onChange={handleChange} className="h-5 w-5 text-secondary-dark rounded border-neutral-300 focus:ring-secondary-dark" />
+                <label htmlFor="isNew" className="ml-2 block text-sm font-semibold text-neutral-700">Mark as New</label>
+              </div>
+              <div>
+                <label htmlFor="status" className="block text-sm font-semibold text-neutral-700 mb-2">Status</label>
+                <select id="status" name="status" value={formData.status || 'published'} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition">
+                  <option value="published">Published</option>
+                  <option value="pending_review">Pending Review</option>
+                  <option value="draft">Draft</option>
+                  <option value="rejected">Rejected</option>
+                </select>
+              </div>
             </div>
           </div>
 
@@ -208,10 +248,30 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
               <h1 className="text-4xl font-serif font-bold text-primary-dark mb-2">{formData.title || 'Job Title Goes Here'}</h1>
               <p className="text-xl text-neutral-700 font-semibold">{formData.company || 'Company Name'}</p>
               <p className="text-md text-neutral-600 mb-6">{formData.location || 'Location'}</p>
+              {formData.jobLevel && <p className="text-sm text-neutral-500">Level: {formData.jobLevel}</p>}
+              {formData.employeeRole && <p className="text-sm text-neutral-500">Role: {formData.employeeRole}</p>}
+              {formData.salaryRange && <p className="text-sm text-neutral-500">Salary: {formData.salaryRange}</p>}
+              {formData.isNew && <span className="inline-block bg-brand-gold text-white text-xs font-bold px-2 py-1 rounded-full mt-2">NEW!</span>}
               <div
                 className="job-description"
                 dangerouslySetInnerHTML={{ __html: formData.description || '<p>Your job description will appear here...</p>' }}
               />
+              {formData.responsibilities && (
+                <>
+                  <h3 className="text-xl font-semibold text-primary-dark mt-6 mb-2">Responsibilities:</h3>
+                  <ul className="list-disc list-inside">
+                    {formData.responsibilities.split('\n').map((item, index) => item.trim() && <li key={index}>{item.trim()}</li>)}
+                  </ul>
+                </>
+              )}
+              {formData.qualifications && (
+                <>
+                  <h3 className="text-xl font-semibold text-primary-dark mt-6 mb-2">Qualifications:</h3>
+                  <ul className="list-disc list-inside">
+                    {formData.qualifications.split('\n').map((item, index) => item.trim() && <li key={index}>{item.trim()}</li>)}
+                  </ul>
+                </>
+              )}
             </div>
           </div>
         </div>

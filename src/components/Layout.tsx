@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Footer from './Footer'; // Import the Footer component
 
 import React from 'react';
 
@@ -40,6 +41,7 @@ const Layout = ({ children }: LayoutProps) => {
 
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

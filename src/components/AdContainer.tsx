@@ -23,10 +23,9 @@ const AdContainer = ({ slot }: AdContainerProps) => {
     <div className="
       w-full
       p-4
-      border-2
-      border-dashed
-      border-gray-300
-      bg-gray-50
+      border border-solid border-neutral-200
+      bg-neutral-50
+      shadow-sm
       flex
       items-center
       justify-center

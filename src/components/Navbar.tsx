@@ -36,12 +36,12 @@ const Navbar = () => {
   // A reusable function to determine link classes, cleaning up the JSX
   const getLinkClassName = (path: string) => {
     return pathname === path
-      ? 'bg-primary-dark text-white px-3 py-2 rounded-md text-sm font-medium' // Active link style
-      : 'text-neutral-600 hover:bg-neutral-100 hover:text-primary-dark px-3 py-2 rounded-md text-sm font-medium'; // Inactive link style
+      ? 'bg-primary-dark text-white px-3 py-2 rounded-md text-base font-semibold' // Active link style
+      : 'text-neutral-600 hover:bg-neutral-100 hover:text-primary-dark px-3 py-2 rounded-md text-base font-semibold'; // Inactive link style
   };
 
   return (
-    <nav className="bg-neutral-50 shadow-sm w-full sticky top-0 z-50 border-b border-neutral-200">
+    <nav className="bg-neutral-100 shadow-md w-full sticky top-0 z-50 border-b border-neutral-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           

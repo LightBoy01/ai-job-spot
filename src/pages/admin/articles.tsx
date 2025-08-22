@@ -109,7 +109,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
 
 export const getServerSideProps: GetServerSideProps<AdminArticlesProps> = async () => {
   try {
-    const articles = await getArticles();
+    const { articles } = await getArticles(); // Destructure to get the articles array
     const serializedArticles = articles.map(article => {
       const { publishDate, imageUrl, ...rest } = article;
       return {

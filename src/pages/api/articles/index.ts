@@ -1,12 +1,13 @@
 
 import type { NextApiResponse } from 'next';
-import { adminDb } from '../../../lib/firebaseAdmin'; // Import adminDb
+import { adminDb } from '../../../lib/firebaseAdmin';
 import * as admin from 'firebase-admin';
-import { Article } from '../../../lib/types';
+import { Article, FirestoreArticle } from '../../../lib/types';
 import DOMPurify from 'dompurify';
 import { JSDOM } from 'jsdom';
 import { requireAdmin, AuthenticatedNextApiRequest } from '../../../lib/middleware';
 
+// This type represents the shape of the data coming from the frontend form
 type ArticleFormData = Partial<Omit<Article, 'id' | 'publishDate' | 'tags'> & {
   tags: string;
   publishDate: string;
@@ -29,24 +30,20 @@ export default async function handler(
 
       // --- Comprehensive Server-Side Validation ---
       const errors: Record<string, string> = {};
-      if (!articleData.title || typeof articleData.title !== 'string') {
-        errors.title = 'Article Title is required and must be a string.';
-      }
-      if (!articleData.author || typeof articleData.author !== 'string') {
-        errors.author = 'Author is required and must be a string.';
-      }
-      if (!articleData.slug || typeof articleData.slug !== 'string') {
-        errors.slug = 'URL Slug is required and must be a string.';
+      if (!articleData.title) errors.title = 'Article Title is required.';
+      if (!articleData.author) errors.author = 'Author is required.';
+      if (!articleData.slug) {
+        errors.slug = 'URL Slug is required.';
       } else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(articleData.slug)) {
         errors.slug = 'URL Slug must be lowercase, alphanumeric, and use hyphens.';
       }
-      if (!articleData.contentBody || typeof articleData.contentBody !== 'string' || articleData.contentBody === '<p><br></p>') {
+      if (!articleData.contentBody || articleData.contentBody === '<p><br></p>') {
         errors.contentBody = 'Article Content is required.';
       }
-      if (articleData.issueNo && (typeof articleData.issueNo !== 'number' || articleData.issueNo <= 0)) {
+      if (articleData.issueNo !== undefined && (isNaN(Number(articleData.issueNo)) || Number(articleData.issueNo) <= 0)) {
         errors.issueNo = 'Issue Number must be a positive number.';
       }
-      if (articleData.volumeNo && (typeof articleData.volumeNo !== 'number' || articleData.volumeNo <= 0)) {
+      if (articleData.volumeNo !== undefined && (isNaN(Number(articleData.volumeNo)) || Number(articleData.volumeNo) <= 0)) {
         errors.volumeNo = 'Volume Number must be a positive number.';
       }
 
@@ -57,12 +54,16 @@ export default async function handler(
 
       const sanitizedContentBody = purify.sanitize(articleData.contentBody || '');
 
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const dataToCreate: { [key: string]: any } = {
-        ...articleData,
+      // After validation, we can confidently build the Firestore object
+      const dataToCreate: Omit<FirestoreArticle, 'id'> = {
+        title: articleData.title!,
+        author: articleData.author!,
+        slug: articleData.slug!,
         contentBody: sanitizedContentBody,
-        publishDate: articleData.publishDate ? admin.firestore.Timestamp.fromDate(new Date(articleData.publishDate)) : admin.firestore.FieldValue.serverTimestamp(),
-        tags: (typeof articleData.tags === 'string') ? (articleData.tags as unknown as string).split(',').map((tag: string) => tag.trim()) : [],
+        publishDate: articleData.publishDate ? admin.firestore.Timestamp.fromDate(new Date(articleData.publishDate)) : admin.firestore.FieldValue.serverTimestamp() as admin.firestore.Timestamp,
+        tags: articleData.tags ? articleData.tags.split(',').map((tag) => tag.trim()) : [],
+        issueNo: articleData.issueNo ? Number(articleData.issueNo) : undefined,
+        volumeNo: articleData.volumeNo ? Number(articleData.volumeNo) : undefined,
       };
 
       const docRef = await adminDb.collection('articles').add(dataToCreate);

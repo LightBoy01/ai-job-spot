@@ -39,6 +39,7 @@ export default function JobPage({ job }: JobPageProps) {
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary-dark leading-tight mb-4">
             {job.title}
           </h1>
+          <hr className="border-t border-neutral-300 my-8" /> {/* Added subtle divider */}
           <div className="text-xl text-neutral-700 mb-2">
             {job.company}
           </div>
@@ -131,7 +132,7 @@ export default function JobPage({ job }: JobPageProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const jobs = await getJobs();
+  const { jobs } = await getJobs();
   const paths = jobs.map((job) => ({
     params: { id: job.id! },
   }));

@@ -35,7 +35,7 @@ const JobCard = ({ job }: JobCardProps) => {
   const showExpiresSoon = daysUntilExpiration !== null && daysUntilExpiration > 0 && daysUntilExpiration <= EXPIRES_SOON_THRESHOLD_DAYS;
 
   return (
-    <Link href={`/jobs/${id}`} passHref className="block bg-neutral-50 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200 hover:border-primary-dark relative overflow-hidden">
+    <Link href={`/jobs/${id}`} passHref className="block bg-neutral-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200 hover:border-primary-dark relative overflow-hidden">
       {isNew && (
         <span className="absolute top-0 right-0 bg-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg">NEW</span>
       )}

@@ -1,8 +1,17 @@
 import type { NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
-import { JobPosting } from '@/lib/types';
+import * as admin from 'firebase-admin';
+import { FirestoreJobPosting, JobPosting } from '@/lib/types';
 import DOMPurify from 'isomorphic-dompurify';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
+
+// This type represents the shape of the data coming from the frontend form
+type JobFormData = Partial<Omit<JobPosting, 'id' | 'tags' | 'responsibilities' | 'qualifications'> & {
+  tags: string;
+  responsibilities: string;
+  qualifications: string;
+}>;
+
 
 export default async function handler(
   req: AuthenticatedNextApiRequest, // Use AuthenticatedNextApiRequest
@@ -19,14 +28,14 @@ export default async function handler(
   }
 
   try {
-    const jobData = req.body;
+    const jobData: JobFormData = req.body;
 
     // --- Comprehensive Server-Side Validation ---
     const errors: Record<string, string> = {};
-    if (!jobData.title || typeof jobData.title !== 'string') errors.title = 'Job Title is required.';
-    if (!jobData.company || typeof jobData.company !== 'string') errors.company = 'Company is required.';
-    if (!jobData.location || typeof jobData.location !== 'string') errors.location = 'Location is required.';
-    if (!jobData.description || typeof jobData.description !== 'string' || jobData.description === '<p><br></p>') errors.description = 'Job Description is required.';
+    if (!jobData.title) errors.title = 'Job Title is required.';
+    if (!jobData.company) errors.company = 'Company is required.';
+    if (!jobData.location) errors.location = 'Location is required.';
+    if (!jobData.description || jobData.description === '<p><br></p>') errors.description = 'Job Description is required.';
     if (!jobData.applicationLink) {
       errors.applicationLink = 'Application Link is required.';
     } else if (!/^https?:\/\/.+/.test(jobData.applicationLink)) {
@@ -45,19 +54,20 @@ export default async function handler(
     }
     // --- End Validation ---
 
-    // --- Data Sanitization & Preparation ---
-    const sanitizedDescription = DOMPurify.sanitize(jobData.description);
+    // --- Data Sanitization & Transformation ---
+    const sanitizedDescription = DOMPurify.sanitize(jobData.description || '');
     const newJobRef = adminDb.collection('jobs').doc();
     
-    const postedDate = new Date(jobData.postedDate);
+    const postedDate = new Date(jobData.postedDate!);
     const expirationDate = jobData.expirationDate ? new Date(jobData.expirationDate) : new Date(postedDate.getTime() + 30 * 24 * 60 * 60 * 1000);
 
-    const newJob: Omit<JobPosting, 'id'> = {
-      title: jobData.title,
-      company: jobData.company,
-      location: jobData.location,
+    // After validation, we can be confident the required fields exist.
+    const newJob: Omit<FirestoreJobPosting, 'id'> = {
+      title: jobData.title!,
+      company: jobData.company!,
+      location: jobData.location!,
       description: sanitizedDescription,
-      applicationLink: jobData.applicationLink,
+      applicationLink: jobData.applicationLink!,
       postedDate: admin.firestore.Timestamp.fromDate(postedDate),
       expirationDate: admin.firestore.Timestamp.fromDate(expirationDate),
       salaryRange: jobData.salaryRange || null,

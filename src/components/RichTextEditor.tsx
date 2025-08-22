@@ -14,10 +14,10 @@ interface RichTextEditorProps {
 const RichTextEditor: React.FC<RichTextEditorProps> = ({ value, onChange, placeholder, className }) => {
   const modules = {
     toolbar: [
-      { 'header': '1' }, { 'header': '2' }, { 'font': [] },
-      { size: [] },
+      [{ 'header': '1' }, { 'header': '2' }, { 'font': ['Playfair Display', 'Lato', 'serif', 'sans-serif'] }],
+      [{ size: ['small', false, 'large', 'huge'] }],
       ['bold', 'italic', 'underline', 'strike', 'blockquote'],
-      { 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' },
+      [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' }],
       ['link', 'image', 'video'],
       ['clean']
     ],
@@ -41,7 +41,8 @@ const RichTextEditor: React.FC<RichTextEditorProps> = ({ value, onChange, placeh
       modules={modules}
       formats={formats}
       placeholder={placeholder}
-      className={`bg-brand-charcoal-light text-brand-beige rounded-md ${className}`}
+      className={`bg-neutral-50 text-neutral-800 rounded-md ${className}`}
+      style={{ minHeight: '300px' }} // Ensure editor has a visible height
     />
   );
 };

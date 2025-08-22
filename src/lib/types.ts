@@ -1,4 +1,6 @@
 
+import * as admin from 'firebase-admin';
+
 export interface JobPosting {
   id?: string; // Optional, as Firestore generates this
   title: string;
@@ -17,7 +19,16 @@ export interface JobPosting {
   employeeRole?: string; // e.g., Individual Contributor
   status?: 'draft' | 'pending_review' | 'published' | 'rejected'; // Workflow status
   isNew?: boolean;
+  source?: string; // Source of the job posting (e.g., scraped from a specific site)
 }
+
+export type FirestoreJobPosting = Omit<JobPosting, 'postedDate' | 'expirationDate' | 'salaryRange' | 'jobLevel' | 'employeeRole'> & {
+    postedDate: admin.firestore.Timestamp;
+    expirationDate?: admin.firestore.Timestamp;
+    salaryRange?: string | null;
+    jobLevel?: string | null;
+    employeeRole?: string | null;
+};
 
 export interface Article {
   id?: string;
@@ -29,8 +40,14 @@ export interface Article {
   slug: string;
   issueNo?: number;
   volumeNo?: number;
+
   imageUrl?: string | null;
+  markdownFile?: string; // Path to the markdown file, added for consistency
 }
+
+export type FirestoreArticle = Omit<Article, 'publishDate'> & {
+    publishDate: admin.firestore.Timestamp;
+};
 
 // For server-side rendering, where Timestamps are serialized
 export interface SerializedJobPosting extends Omit<JobPosting, 'postedDate' | 'expirationDate'> {

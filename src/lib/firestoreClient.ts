@@ -1,4 +1,4 @@
-import { collection, getDocs, query, orderBy, where, doc, getDoc, DocumentSnapshot, DocumentData, Timestamp } from 'firebase/firestore';
+import { collection, getDocs, query, orderBy, where, doc, getDoc, DocumentSnapshot, DocumentData, Timestamp, limit as limitTo, startAfter } from 'firebase/firestore';
 import { db } from './firebase'; // Import the client-side db instance
 import { JobPosting, Article } from './types';
 
@@ -47,15 +47,26 @@ const processArticleData = (docSnap: DocumentSnapshot<DocumentData>): Article =>
         slug: data?.slug || '',
         issueNo: data?.issueNo,
         volumeNo: data?.volumeNo,
-        imageUrl: data?.imageUrl,
+        imageUrl: data?.imageUrl || null,
     } as Article;
 };
 
-export async function getJobs(): Promise<JobPosting[]> {
+export async function getJobs(limit?: number, startAfterDoc?: DocumentSnapshot): Promise<{ jobs: JobPosting[], lastVisible: DocumentSnapshot | null }> {
   const jobsCollectionRef = collection(db, 'jobs');
-  const q = query(jobsCollectionRef, where('status', '==', 'published'), orderBy('postedDate', 'desc'));
+  let q = query(jobsCollectionRef, where('status', '==', 'published'), orderBy('postedDate', 'desc'));
+
+  if (startAfterDoc) {
+    q = query(q, startAfter(startAfterDoc));
+  }
+  if (limit) {
+    q = query(q, limitTo(limit));
+  }
+
   const querySnapshot = await getDocs(q);
-  return querySnapshot.docs.map(processJobData);
+  const jobs = querySnapshot.docs.map(processJobData);
+  const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
+
+  return { jobs, lastVisible };
 }
 
 export async function getPendingJobs(): Promise<JobPosting[]> {
@@ -65,11 +76,22 @@ export async function getPendingJobs(): Promise<JobPosting[]> {
   return querySnapshot.docs.map(processJobData);
 }
 
-export async function getArticles(): Promise<Article[]> {
+export async function getArticles(limit?: number, startAfterDoc?: DocumentSnapshot): Promise<{ articles: Article[], lastVisible: DocumentSnapshot | null }> {
   const articlesCollectionRef = collection(db, 'articles');
-  const q = query(articlesCollectionRef, orderBy('publishDate', 'desc'));
+  let q = query(articlesCollectionRef, orderBy('publishDate', 'desc'));
+
+  if (startAfterDoc) {
+    q = query(q, startAfter(startAfterDoc));
+  }
+  if (limit) {
+    q = query(q, limitTo(limit));
+  }
+
   const querySnapshot = await getDocs(q);
-  return querySnapshot.docs.map(processArticleData);
+  const articles = querySnapshot.docs.map(processArticleData);
+  const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
+
+  return { articles, lastVisible };
 }
 
 export async function getArticleBySlug(slug: string): Promise<Article | null> {

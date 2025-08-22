@@ -4,13 +4,14 @@ import { SerializedArticle } from '@/lib/types';
 import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
 import Link from 'next/link';
+import AdContainer from '@/components/AdContainer'; // Import AdContainer
 
 interface ArticlePageProps {
   article: SerializedArticle | null;
 }
 
 export async function getStaticPaths() {
-  const articles = await getArticles();
+  const { articles } = await getArticles(); // Destructure to get the articles array
   const paths = articles.map((article) => ({
     params: { slug: article.slug },
   }));
@@ -74,6 +75,7 @@ export default function ArticlePage({ article }: ArticlePageProps) {
           <p className="text-neutral-700 text-base">
             By <span className="font-semibold text-primary-dark">{author}</span>
           </p>
+          <hr className="border-t border-neutral-300 my-8" /> {/* Added subtle divider */}
           <p className="text-neutral-500 text-sm">
             {publishDate && `Published on ${formatDate(publishDate)}`}
             {(issueNo !== undefined && volumeNo !== undefined) && (
@@ -84,13 +86,17 @@ export default function ArticlePage({ article }: ArticlePageProps) {
         <div className="prose prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content" dangerouslySetInnerHTML={{ __html: contentBody }} />
         
         {author === 'The AI Strategist' && (
-          <div className="mt-12 pt-8 border-t border-neutral-200">
-            <h3 className="text-xl font-serif font-semibold text-primary-dark mb-2">About the Author</h3>
-            <p className="text-neutral-700 italic">
+          <div className="mt-12 p-8 bg-neutral-50 rounded-lg shadow-sm border border-neutral-200">
+            <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">About the Author</h3>
+            <p className="text-neutral-700 italic leading-relaxed">
               The AI Strategist is the guiding voice of AI Job Spot, operating at the intersection of technology, philosophy, and long-term career architecture. The goal is not to report on fleeting trends, but to forge the durable mental models and actionable frameworks needed to build a defensible and meaningful career in the age of AI. <Link href="/about" className="text-secondary-dark hover:underline">Learn more about our mission</Link>.
             </p>
           </div>
         )}
+
+        <div className="my-12">
+          <AdContainer slot={process.env.NEXT_PUBLIC_ADSENSE_ARTICLE_CONTENT_SLOT || ''} />
+        </div>
       </div>
     </Layout>
   );
