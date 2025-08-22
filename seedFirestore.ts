@@ -154,44 +154,70 @@ const articles: Article[] = [
 
 
 async function seedData() {
-  console.log('Starting Firestore data seeding...');
+  console.log('Starting intelligent Firestore data seeding...');
 
   const jobsCollection = db.collection('jobs');
   const articlesCollection = db.collection('articles');
 
-  // Use a batch for atomic writes
+  // 1. Fetch existing document IDs
+  console.log('Fetching existing document IDs...');
+  const existingJobIds = new Set((await jobsCollection.get()).docs.map(doc => doc.id));
+  const existingArticleSlugs = new Set((await articlesCollection.get()).docs.map(doc => doc.id));
+  console.log(`Found ${existingJobIds.size} existing jobs and ${existingArticleSlugs.size} existing articles.`);
+
   const batch = db.batch();
+  let newJobsCount = 0;
+  let newArticlesCount = 0;
 
-  // Seed Jobs
+  // 2. Seed only NEW Jobs
+  console.log('Checking for new jobs to seed...');
   for (const job of jobs) {
-    const jobRef = jobsCollection.doc(job.id);
-    const content = getJobContent(job.markdownFile);
-    const jobToSeed = { ...job, ...content };
+    if (!existingJobIds.has(job.id)) {
+      const jobRef = jobsCollection.doc(job.id);
+      const content = getJobContent(job.markdownFile);
+      const jobToSeed = { ...job, ...content };
 
-    if (!jobToSeed.expirationDate && jobToSeed.postedDate) {
-      const postedDateMillis = jobToSeed.postedDate.toMillis();
-      const expirationDate = new Date(postedDateMillis);
-      expirationDate.setDate(expirationDate.getDate() + 7);
-      jobToSeed.expirationDate = admin.firestore.Timestamp.fromDate(expirationDate);
+      if (!jobToSeed.expirationDate && jobToSeed.postedDate) {
+        const postedDateMillis = jobToSeed.postedDate.toMillis();
+        const expirationDate = new Date(postedDateMillis);
+        expirationDate.setDate(expirationDate.getDate() + 7);
+        jobToSeed.expirationDate = admin.firestore.Timestamp.fromDate(expirationDate);
+      }
+      batch.set(jobRef, jobToSeed); // No merge needed for new docs
+      console.log(`Staging NEW job for seeding: ${job.title}`);
+      newJobsCount++;
     }
-    batch.set(jobRef, jobToSeed, { merge: true });
-    console.log(`Staged job for seeding: ${job.title}`);
+  }
+  if (newJobsCount === 0) {
+    console.log('No new jobs to seed.');
   }
 
-  // Seed Articles
+  // 3. Seed only NEW Articles
+  console.log('Checking for new articles to seed...');
   for (const article of articles) {
-    const articleRef = articlesCollection.doc(article.slug);
-    const contentBody = getArticleContent(article.markdownFile);
-    const articleToSeed = { ...article, contentBody };
-    batch.set(articleRef, articleToSeed, { merge: true });
-    console.log(`Staged article for seeding: ${article.title}`);
+    if (!existingArticleSlugs.has(article.slug)) {
+      const articleRef = articlesCollection.doc(article.slug);
+      const contentBody = getArticleContent(article.markdownFile);
+      const articleToSeed = { ...article, contentBody };
+      batch.set(articleRef, articleToSeed); // No merge needed for new docs
+      console.log(`Staging NEW article for seeding: ${article.title}`);
+      newArticlesCount++;
+    }
+  }
+  if (newArticlesCount === 0) {
+    console.log('No new articles to seed.');
   }
 
-  try {
-    await batch.commit();
-    console.log('Firestore data seeding complete. All jobs and articles have been successfully written.');
-  } catch (error) {
-    console.error('Error committing batch:', error);
+
+  if (newJobsCount > 0 || newArticlesCount > 0) {
+    try {
+      await batch.commit();
+      console.log(`Firestore seeding complete. Added ${newJobsCount} new jobs and ${newArticlesCount} new articles.`);
+    } catch (error) {
+      console.error('Error committing batch:', error);
+    }
+  } else {
+    console.log('No new content to seed. Firestore is already up-to-date.');
   }
 }
 
