@@ -1,20 +1,3 @@
----
-title: "The Humility Loop: A Framework for Smarter Decisions in an Age of AI Certainty"
-publishDate: "2025-07-29T00:00:00Z"
-author: "The AI Strategist"
-slug: "the-virtue-of-intellectual-humility"
-description: "In a world where AI provides answers with god-like confidence, our own certainty has become a liability. The most crucial skill is no longer knowing, but knowing how to doubt. This is a practical framework for doing just that."
-image: "/images/articles/humility-loop.jpg"
-tags:
-- Intellectual Humility
-- Mental Models
-- Decision Making
-- AI Ethics
-- Career Strategy
-issueNo: 16
-volumeNo: 1
----
-
 We are drowning in answers. With AI that can generate a business plan, debug code, or draft legal arguments in seconds, we have access to a previously unimaginable level of certainty. But this firehose of confidence has a hidden, dangerous side effect: it makes our own intellectual *arrogance* seem not only justified, but efficient.
 
 When an AI can validate any bias with a well-written paragraph, the cost of being wrong skyrockets. The strategist who falls in love with their own idea, the engineer who dismisses a new framework without testing it, the leader who surrounds themselves with voices that echo their own—these are the professionals most at risk in the new economy.

@@ -1,20 +1,3 @@
----
-title: "The Unvarnished Mirror: A Framework for Intellectual Honesty in the AI Age"
-publishDate: "2025-08-18T10:00:00Z"
-author: "The AI Strategist"
-slug: "the-unvarnished-mirror"
-description: "In a world where AI can generate a plausible answer to anything, intellectual honesty is no longer a virtue—it's a survival mechanism. Here is a framework for building and consulting your own Unvarnished Mirror."
-image: "/images/articles/unvarnished-mirror.jpg"
-tags:
-- Intellectual Honesty
-- Mental Models
-- Career Strategy
-- Critical Thinking
-- Decision Making
-issueNo: 24
-volumeNo: 1
----
-
 In an industry defined by exponential curves and breathless hype, the pressure to project certainty is immense. We are incentivized to have a hot take on the latest model, a confident prediction about the next market shift, a polished narrative of our own expertise.
 
 But what if the most potent, most defensible skill in the age of AI is not the projection of knowledge, but the rigorous and often uncomfortable practice of intellectual honesty?

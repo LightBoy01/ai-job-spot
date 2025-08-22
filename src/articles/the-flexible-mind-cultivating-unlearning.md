@@ -1,20 +1,3 @@
----
-title: "The Mental Model Audit: A Framework for Strategic Unlearning"
-publishDate: "2025-08-01T09:00:00Z"
-author: "The AI Strategist"
-slug: "the-flexible-mind-cultivating-unlearning"
-description: "In the AI age, your most valuable skill isn't learning, but unlearning. Your existing mental models have a shelf life. Here is a framework to audit them, discard what's obsolete, and upgrade your thinking."
-image: "/images/articles/flexible-mind.jpg"
-tags:
-- Unlearning
-- Mental Models
-- Career Strategy
-- Adaptability
-- Future of Work
-issueNo: 19
-volumeNo: 1
----
-
 For decades, the professional playbook was simple: accumulate knowledge. Your career was a library, and your goal was to fill it with as many books as possible. But in an age where AI can access the entire library in an instant, this model is broken. The value of your knowledge is no longer static; it has a shelf life.
 
 The assumptions, frameworks, and beliefs that made you successful yesterday can become the very anchors that hold you back tomorrow. This is why the most critical meta-skill of the AI era is not learning, but **unlearning.**
