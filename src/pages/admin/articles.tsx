@@ -18,6 +18,8 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
   const [articles, setArticles] = useState(initialArticles);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [articleToDeleteId, setArticleToDeleteId] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isSearching, setIsSearching] = useState(false);
 
   const handleDeleteClick = (id: string) => {
     setArticleToDeleteId(id);
@@ -50,6 +52,44 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
     }
   };
 
+  const handleSearch = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!searchQuery.trim()) {
+      toast.error('Please enter a search term.');
+      return;
+    }
+
+    setIsSearching(true);
+    const toastId = toast.loading('Searching...');
+
+    try {
+      const response = await fetch(`/api/articles/search?q=${encodeURIComponent(searchQuery)}`, {
+        headers: {
+          'Authorization': `Bearer ${idToken}`,
+        },
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to search articles');
+      }
+
+      const searchResults = await response.json();
+      setArticles(searchResults);
+      toast.success(`${searchResults.length} article(s) found.`, { id: toastId });
+    } catch (error) {
+      console.error('Search error:', error);
+      toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
+    } finally {
+      setIsSearching(false);
+    }
+  };
+
+  const handleClearSearch = () => {
+    setSearchQuery('');
+    setArticles(initialArticles);
+  };
+
   return (
     <AdminLayout title="Manage Articles">
       <div className="flex justify-between items-center mb-8">
@@ -59,6 +99,25 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles }) => {
             + Add New Article
           </span>
         </Link>
+      </div>
+
+      {/* Search Bar */}
+      <div className="mb-6">
+        <form onSubmit={handleSearch} className="flex items-center gap-4">
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search by article title..."
+            className="w-full max-w-md p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition"
+          />
+          <button type="submit" disabled={isSearching} className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400">
+            {isSearching ? 'Searching...' : 'Search'}
+          </button>
+          <button type="button" onClick={handleClearSearch} className="bg-neutral-200 text-neutral-800 py-3 px-5 rounded-md font-semibold hover:bg-neutral-300 transition-colors">
+            Clear
+          </button>
+        </form>
       </div>
 
       <div className="bg-neutral-50 p-8 rounded-xl shadow-lg border border-neutral-200">
