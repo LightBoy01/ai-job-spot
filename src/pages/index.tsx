@@ -8,6 +8,8 @@ import { SerializedJobPosting } from '@/lib/types';
 import { NEW_JOB_THRESHOLD_MS, JOB_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
 
 interface HomeProps {
   initialJobs: SerializedJobPosting[];
@@ -46,20 +48,48 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
 
     setLoading(true);
     try {
-      const response = await fetch(`/api/jobs/paginate?limit=${JOB_FETCH_LIMIT}${lastDocId ? `&startAfter=${lastDocId}` : ''}`);
-      const data = await response.json();
+      let startAfterSnapshot = undefined;
+      if (lastDocId) {
+        const docRef = doc(db, 'jobs', lastDocId);
+        startAfterSnapshot = await getDoc(docRef);
+        if (!startAfterSnapshot.exists()) {
+          console.warn(`Last document with ID ${lastDocId} does not exist. Stopping pagination.`);
+          setHasMore(false);
+          setLoading(false);
+          return;
+        }
+      }
 
-      if (data.jobs.length === 0) {
+      const { jobs: newFetchedJobs, lastVisible: newLastVisible } = await getJobs(JOB_FETCH_LIMIT, startAfterSnapshot);
+
+      if (newFetchedJobs.length === 0) {
         setHasMore(false);
       } else {
         setDisplayedJobs(prevJobs => {
+          const now = new Date();
+          const processedNewJobs = newFetchedJobs.map(job => {
+            const posted = new Date(job.postedDate);
+            if ((now.getTime() - posted.getTime()) > NEW_JOB_THRESHOLD_MS) {
+              job.isNew = false;
+            }
+            return job;
+          }).filter(job => {
+            if (!job.expirationDate) return true;
+            const expiration = new Date(job.expirationDate);
+            return expiration.getTime() > now.getTime();
+          });
+
           // Filter out any duplicates that might occur if a job was added/updated during revalidation
-          const newJobs = data.jobs.filter((newJob: SerializedJobPosting) => 
+          const uniqueNewJobs = processedNewJobs.map(job => ({
+            ...job,
+            postedDate: job.postedDate.toISOString(), // Convert Date to ISO string
+            expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null, // Convert Date to ISO string, handle optional
+          })).filter((newJob: SerializedJobPosting) =>
             !prevJobs.some(existingJob => existingJob.id === newJob.id)
           );
-          return [...prevJobs, ...newJobs];
+          return [...prevJobs, ...uniqueNewJobs];
         });
-        setLastDocId(data.lastDocId);
+        setLastDocId(newLastVisible ? newLastVisible.id : null);
       }
     } catch (error) {
       console.error('Error fetching more jobs:', error);

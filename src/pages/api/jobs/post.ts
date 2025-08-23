@@ -73,7 +73,7 @@ export default async function handler(
       salaryRange: jobData.salaryRange || null,
       tags: jobData.tags ? jobData.tags.split(',').map((tag: string) => tag.trim()) : [],
       isNew: true,
-      status: 'published', // Admin posts are published by default
+      status: req.decodedIdToken?.admin ? (jobData.status || 'published') : 'pending_review', // If admin, use provided status or default to published; else, pending_review
       jobLevel: jobData.jobLevel || null,
       employeeRole: jobData.employeeRole || null,
       responsibilities: jobData.responsibilities ? jobData.responsibilities.split('\n').map((r: string) => r.trim()) : [],

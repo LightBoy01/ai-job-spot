@@ -18,7 +18,23 @@ const AdminLogin: React.FC = () => {
     const toastId = toast.loading('Attempting to log in...');
 
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      const idToken = await userCredential.user.getIdToken();
+
+      // Call API to set HttpOnly cookie
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ idToken }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to set session cookie');
+      }
+
       toast.success('Login successful! Redirecting...', { id: toastId });
       router.push('/admin');
     } catch (err) {

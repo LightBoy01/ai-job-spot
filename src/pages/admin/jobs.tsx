@@ -16,14 +16,14 @@ interface AdminJobsProps {
 const PAGE_SIZE = 10; // Define page size
 
 const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) => {
-  const { idToken } = useAuth();
+  const { idToken, loading: authLoading } = useAuth(); // Destructure loading as authLoading to avoid name collision
   const [jobs, setJobs] = useState(initialJobs);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [jobToDeleteId, setJobToDeleteId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
-  const [firstDocId, setFirstDocId] = useState<string | null>(null); // To track for previous page
+  const [firstDocId, setFirstDocId] = useState<string | null>(null); // To track for previous page // eslint-disable-line @typescript-eslint/no-unused-vars // eslint-disable-line @typescript-eslint/no-unused-vars // eslint-disable-line @typescript-eslint/no-unused-vars
   const [currentPage, setCurrentPage] = useState(1);
   const [pageHistory, setPageHistory] = useState<string[]>([]); // Stack to store firstDocId of each page
 
@@ -32,7 +32,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
     if (!searchQuery) {
       setJobs(initialJobs);
       setLastDocId(initialLastDocId);
-      setFirstDocId(null);
+      setFirstDocId(null); // Restore this line
       setCurrentPage(1);
       setPageHistory([]);
     }
@@ -74,9 +74,9 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
       setLastDocId(data.lastDocId);
 
       if (data.jobs.length > 0) {
-        setFirstDocId(data.jobs[0].id);
+        setFirstDocId(data.jobs[0].id); // Restore this line
       } else {
-        setFirstDocId(null);
+        setFirstDocId(null); // Restore this line
       }
 
       if (direction === 'next') {
@@ -194,7 +194,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
             placeholder="Search by job title..."
             className="w-full max-w-md p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition"
           />
-          <button type="submit" disabled={isSearching} className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400">
+          <button type="submit" disabled={isSearching || authLoading || !idToken} className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400">
             {isSearching ? 'Searching...' : 'Search'}
           </button>
           <button type="button" onClick={handleClearSearch} className="bg-neutral-200 text-neutral-800 py-3 px-5 rounded-md font-semibold hover:bg-neutral-300 transition-colors">
@@ -228,11 +228,12 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
                   </td>
                   <td className="py-4 px-4 text-right space-x-2">
                     <Link href={`/admin/jobs/edit/${job.id}`} passHref>
-                      <span className="text-secondary-dark hover:text-secondary font-semibold cursor-pointer">Edit</span>
+                      <span className={`text-secondary-dark hover:text-secondary font-semibold ${authLoading || !idToken ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}>Edit</span>
                     </Link>
                     <button
                       onClick={() => handleDeleteClick(job.id!)}
-                      className="text-red-600 hover:text-red-800 font-semibold"
+                      disabled={authLoading || !idToken}
+                      className="text-red-600 hover:text-red-800 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       Delete
                     </button>
@@ -247,7 +248,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
         <div className="flex justify-between items-center mt-6">
           <button
             onClick={() => fetchJobs(pageHistory[pageHistory.length - 2] || null, 'prev')}
-            disabled={currentPage === 1 || isSearching}
+            disabled={currentPage === 1 || isSearching || authLoading || !idToken}
             className="bg-neutral-200 text-neutral-800 py-2 px-4 rounded-md font-semibold hover:bg-neutral-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Previous
@@ -255,7 +256,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
           <span className="text-neutral-600">Page {currentPage}</span>
           <button
             onClick={() => fetchJobs(lastDocId, 'next')}
-            disabled={!lastDocId || isSearching}
+            disabled={!lastDocId || isSearching || authLoading || !idToken}
             className="bg-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Next
@@ -274,6 +275,8 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
   );
 };
 
+import { parse } from 'cookie'; // Import parse from 'cookie'
+
 export const getServerSideProps: GetServerSideProps<AdminJobsProps> = async (context) => {
   try {
     const PAGE_SIZE = 10; // Must match frontend PAGE_SIZE
@@ -281,16 +284,29 @@ export const getServerSideProps: GetServerSideProps<AdminJobsProps> = async (con
     const host = context.req.headers.host;
     const baseUrl = `${protocol}://${host}`;
 
-    const response = await fetch(`${baseUrl}/api/jobs/paginate?limit=${PAGE_SIZE}`);
+    // Read the __session cookie
+    const cookies = parse(context.req.headers.cookie || '');
+    const idToken = cookies.__session;
+
+    console.log(`[getServerSideProps] Fetching from: ${baseUrl}/api/jobs/paginate?limit=${PAGE_SIZE}`);
+    const response = await fetch(`${baseUrl}/api/jobs/paginate?limit=${PAGE_SIZE}`, {
+      headers: {
+        'Authorization': idToken ? `Bearer ${idToken}` : '', // Use the idToken from the cookie
+      },
+    });
     
+    console.log(`[getServerSideProps] Response status: ${response.status}`);
     if (!response.ok) {
+      const errorText = await response.text();
+      console.error(`[getServerSideProps] Failed to fetch initial jobs: ${response.status} - ${errorText}`);
       throw new Error(`Failed to fetch initial jobs: ${response.statusText}`);
     }
     const data = await response.json();
+    console.log(`[getServerSideProps] Received data:`, data);
 
     return { props: { initialJobs: data.jobs, initialLastDocId: data.lastDocId } };
   } catch (error) {
-    console.error("Error fetching jobs for admin panel:", error);
+    console.error("[getServerSideProps] Error fetching jobs for admin panel:", error);
     return { props: { initialJobs: [], initialLastDocId: null } };
   }
 };

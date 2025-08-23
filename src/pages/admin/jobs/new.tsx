@@ -105,7 +105,7 @@ const AddNewJob: React.FC = () => {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${idToken}`,
         },
-        body: JSON.stringify({ ...formData, status: 'published' }), // Default to published for admin
+        body: JSON.stringify(formData), // Send formData as is, status is handled by API based on admin role
       });
 
       if (!response.ok) {

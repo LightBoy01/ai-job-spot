@@ -16,14 +16,14 @@ interface AdminArticlesProps {
 const PAGE_SIZE = 10; // Define page size
 
 const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialLastDocId }) => {
-  const { idToken } = useAuth();
+  const { idToken, loading: authLoading } = useAuth(); // Destructure loading as authLoading to avoid name collision
   const [articles, setArticles] = useState(initialArticles);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [articleToDeleteId, setArticleToDeleteId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
-  const [firstDocId, setFirstDocId] = useState<string | null>(null); // To track for previous page
+  const [firstDocId, setFirstDocId] = useState<string | null>(null); // To track for previous page // eslint-disable-line @typescript-eslint/no-unused-vars // eslint-disable-line @typescript-eslint/no-unused-vars // eslint-disable-line @typescript-eslint/no-unused-vars
   const [currentPage, setCurrentPage] = useState(1);
   const [pageHistory, setPageHistory] = useState<string[]>([]); // Stack to store firstDocId of each page
 
@@ -32,7 +32,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
     if (!searchQuery) {
       setArticles(initialArticles);
       setLastDocId(initialLastDocId);
-      setFirstDocId(null);
+      setFirstDocId(null); // Restore this line
       setCurrentPage(1);
       setPageHistory([]);
     }
@@ -76,9 +76,9 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
       setLastDocId(data.lastDocId);
 
       if (data.articles.length > 0) {
-        setFirstDocId(data.articles[0].id);
+        setFirstDocId(data.articles[0].id); // Restore this line
       } else {
-        setFirstDocId(null);
+        setFirstDocId(null); // Restore this line
       }
 
       if (direction === 'next') {
@@ -157,7 +157,6 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
       const searchResults = await response.json();
       setArticles(searchResults);
       setLastDocId(null); // Disable pagination after search
-      setFirstDocId(null);
       setCurrentPage(1);
       setPageHistory([]);
       toast.success(`${searchResults.length} article(s) found.`, { id: toastId });
@@ -196,7 +195,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
             placeholder="Search by article title..."
             className="w-full max-w-md p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition"
           />
-          <button type="submit" disabled={isSearching} className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400">
+          <button type="submit" disabled={isSearching || authLoading || !idToken} className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400">
             {isSearching ? 'Searching...' : 'Search'}
           </button>
           <button type="button" onClick={handleClearSearch} className="bg-neutral-200 text-neutral-800 py-3 px-5 rounded-md font-semibold hover:bg-neutral-300 transition-colors">
@@ -224,11 +223,12 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
                   <td className="py-4 px-4 text-neutral-600">{formatDate(article.publishDate)}</td>
                   <td className="py-4 px-4 text-right space-x-2">
                     <Link href={`/admin/articles/edit/${article.slug}`} passHref>
-                      <span className="text-secondary-dark hover:text-secondary font-semibold cursor-pointer">Edit</span>
+                      <span className={`text-secondary-dark hover:text-secondary font-semibold ${authLoading || !idToken ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}>Edit</span>
                     </Link>
                     <button
                       onClick={() => handleDeleteClick(article.id!)}
-                      className="text-red-600 hover:text-red-800 font-semibold"
+                      disabled={authLoading || !idToken}
+                      className="text-red-600 hover:text-red-800 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       Delete
                     </button>
@@ -243,7 +243,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
         <div className="flex justify-between items-center mt-6">
           <button
             onClick={() => fetchArticles(pageHistory[pageHistory.length - 2] || null, 'prev')}
-            disabled={currentPage === 1 || isSearching}
+            disabled={currentPage === 1 || isSearching || authLoading || !idToken}
             className="bg-neutral-200 text-neutral-800 py-2 px-4 rounded-md font-semibold hover:bg-neutral-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Previous
@@ -251,7 +251,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
           <span className="text-neutral-600">Page {currentPage}</span>
           <button
             onClick={() => fetchArticles(lastDocId, 'next')}
-            disabled={!lastDocId || isSearching}
+            disabled={!lastDocId || isSearching || authLoading || !idToken}
             className="bg-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Next
@@ -270,20 +270,38 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
   );
 };
 
-export const getServerSideProps: GetServerSideProps<AdminArticlesProps> = async () => {
+import { parse } from 'cookie'; // Import parse from 'cookie'
+
+export const getServerSideProps: GetServerSideProps<AdminArticlesProps> = async (context) => {
   try {
-    const { articles, lastVisible } = await getArticles(PAGE_SIZE); // Fetch initial page
-    const serializedArticles = articles.map(article => {
-      const { publishDate, imageUrl, ...rest } = article;
-      return {
-        ...rest,
-        publishDate: (publishDate && 'toDate' in publishDate) ? (publishDate as { toDate: () => Date }).toDate().toISOString() : new Date(publishDate).toISOString(),
-        imageUrl: imageUrl || null,
-      };
+    const PAGE_SIZE = 10; // Must match frontend PAGE_SIZE
+    const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
+    const host = context.req.headers.host;
+    const baseUrl = `${protocol}://${host}`;
+
+    // Read the __session cookie
+    const cookies = parse(context.req.headers.cookie || '');
+    const idToken = cookies.__session;
+
+    console.log(`[getServerSideProps] Fetching from: ${baseUrl}/api/articles/paginate?limit=${PAGE_SIZE}`);
+    const response = await fetch(`${baseUrl}/api/articles/paginate?limit=${PAGE_SIZE}`, {
+      headers: {
+        'Authorization': idToken ? `Bearer ${idToken}` : '', // Use the idToken from the cookie
+      },
     });
-    return { props: { initialArticles: serializedArticles as unknown as SerializedArticle[], initialLastDocId: lastVisible ? lastVisible.id : null } };
+    
+    console.log(`[getServerSideProps] Response status: ${response.status}`);
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error(`[getServerSideProps] Failed to fetch initial articles: ${response.status} - ${errorText}`);
+      throw new Error(`Failed to fetch initial articles: ${response.statusText}`);
+    }
+    const data = await response.json();
+    console.log(`[getServerSideProps] Received data:`, data);
+
+    return { props: { initialArticles: data.articles, initialLastDocId: data.lastDocId } };
   } catch (error) {
-    console.error("Error fetching articles for admin panel:", error);
+    console.error("[getServerSideProps] Error fetching articles for admin panel:", error);
     return { props: { initialArticles: [], initialLastDocId: null } };
   }
 };

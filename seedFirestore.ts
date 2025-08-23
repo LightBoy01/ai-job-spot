@@ -124,6 +124,111 @@ const jobs: Job[] = [
     { id: 'job-30', title: 'Prompt Engineer', company: 'Anthropic', location: 'San Francisco, CA', jobLevel: 'Mid-Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://www.anthropic.com/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['Prompt Engineer', 'Anthropic', 'LLM', 'AI Safety', 'San Francisco'], status: 'published', isNew: true, markdownFile: 'job-30.md' },
     { id: 'job-31', title: 'Generative AI Artist (Video)', company: 'Runway', location: 'New York, NY (Hybrid)', jobLevel: 'Mid-Level', employeeRole: 'Creative', applicationLink: 'https://runwayml.com/careers/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['AI Video', 'Generative Art', 'Runway', 'Creative', 'New York'], status: 'published', isNew: true, markdownFile: 'job-31.md' },
     { id: 'job-32', title: 'AI Ethicist, Responsible AI', company: 'Google', location: 'Mountain View, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://careers.google.com/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['AI Ethics', 'Responsible AI', 'Google', 'Policy', 'Mountain View'], status: 'published', isNew: true, markdownFile: 'job-32.md' },
+  {
+    id: 'job-33',
+    title: 'Data Scientist (AI/ML focus)',
+    company: 'Deloitte US',
+    location: 'Various US Locations',
+    applicationLink: 'https://www.deloitte.com/us/en/careers.html',
+    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
+    tags: ['Data Scientist', 'AI/ML', 'Consulting', 'Generative AI', 'LLM'],
+    status: 'published',
+    isNew: true,
+    markdownFile: 'job-33.md',
+    jobLevel: null,
+    employeeRole: null,
+  },
+  {
+    id: 'job-34',
+    title: 'AI/ML Data Scientist',
+    company: 'Sanofi',
+    location: 'Cambridge, MA',
+    applicationLink: 'https://www.sanofi.com/en/careers',
+    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
+    tags: ['Data Scientist', 'AI/ML', 'Healthcare', 'Biotech', 'Precision Medicine'],
+    status: 'published',
+    isNew: true,
+    markdownFile: 'job-34.md',
+    jobLevel: null,
+    employeeRole: null,
+  },
+  {
+    id: 'job-35',
+    title: 'GenAI Model Risk Data Scientist',
+    company: 'Citi',
+    location: 'New York, NY',
+    applicationLink: 'https://www.citi.com/careers',
+    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
+    tags: ['Data Scientist', 'Generative AI', 'Risk Management', 'Finance', 'Banking'],
+    status: 'published',
+    isNew: true,
+    markdownFile: 'job-35.md',
+    jobLevel: null,
+    employeeRole: null,
+  },
+  {
+    id: 'job-36',
+    title: 'AI Automation Specialist',
+    company: 'FAM Brands',
+    location: 'Los Angeles, CA',
+    applicationLink: 'https://www.fambrands.com/careers',
+    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
+    tags: ['AI Automation', 'RPA', 'Business Process', 'Specialist'],
+    status: 'published',
+    isNew: true,
+    markdownFile: 'job-36.md',
+    jobLevel: null,
+    employeeRole: null,
+  },
+  {
+    id: 'job-37',
+    title: 'AI & Automation Engineer',
+    company: 'Tracks & Fields',
+    location: 'Berlin, Germany',
+    applicationLink: 'https://berlinstartupjobs.com/company/tracks-fields/',
+    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
+    tags: ['AI Automation', 'Engineer', 'Startup', 'Berlin'],
+    status: 'published',
+    isNew: true,
+    markdownFile: 'job-37.md',
+    jobLevel: null,
+    employeeRole: null,
+  },
+  {
+    id: 'job-38',
+    title: 'Remote AI Prompt Engineer',
+    company: 'ActiveCampaign',
+    location: 'Remote',
+    applicationLink: 'https://www.activecampaign.com/careers',
+    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
+    tags: ['Prompt Engineer', 'Remote', 'AI', 'LLM', 'NLP'],
+    status: 'published',
+    isNew: true,
+    markdownFile: 'job-38.md',
+    jobLevel: null,
+    employeeRole: null,
+  },
+  {
+    id: 'job-39',
+    title: 'AI Video Generation Specialist',
+    company: 'Visionary AI Studios',
+    location: 'Remote',
+    applicationLink: 'https://www.upwork.com/hire/ai-video-generation-specialists/',
+    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
+    tags: ['AI Video', 'Generative AI', 'Specialist', 'Remote', 'Creative'],
+    status: 'published',
+    isNew: true,
+    markdownFile: 'job-39.md',
+    jobLevel: null,
+    employeeRole: null,
+  },
 ];
 
 const articles: Article[] = [
@@ -172,7 +277,6 @@ async function seedData() {
   // 2. Seed only NEW Jobs
   console.log('Checking for new jobs to seed...');
   for (const job of jobs) {
-    if (!existingJobIds.has(job.id)) {
       const jobRef = jobsCollection.doc(job.id);
       const content = getJobContent(job.markdownFile);
       const jobToSeed = { ...job, ...content };
@@ -183,10 +287,9 @@ async function seedData() {
         expirationDate.setDate(expirationDate.getDate() + 7);
         jobToSeed.expirationDate = admin.firestore.Timestamp.fromDate(expirationDate);
       }
-      batch.set(jobRef, jobToSeed); // No merge needed for new docs
-      console.log(`Staging NEW job for seeding: ${job.title}`);
+      batch.set(jobRef, jobToSeed, { merge: true }); // Use merge for updates
+      console.log(`Staging job for seeding/updating: ${job.title}`);
       newJobsCount++;
-    }
   }
   if (newJobsCount === 0) {
     console.log('No new jobs to seed.');

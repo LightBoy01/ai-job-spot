@@ -1,8 +1,8 @@
 import type { NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
-import { JobPosting, SerializedJobPosting } from '@/lib/types';
-import { DocumentSnapshot } from 'firebase-admin/firestore';
+import { SerializedJobPosting, FirestoreJobPosting } from '@/lib/types';
+import type { DocumentSnapshot } from 'firebase-admin/firestore'; // Type-only import // eslint-disable-line @typescript-eslint/no-unused-vars
 
 export interface PaginatedJobsResponse {
   jobs: SerializedJobPosting[];
@@ -45,30 +45,33 @@ export default async function handler(
   }
 
   try {
+    console.log(`[jobs/paginate] Querying Firestore: limit=${parsedLimit}, startAfterId=${startAfterDocId}`);
     const snapshot = await query.limit(parsedLimit).get();
 
     if (snapshot.empty) {
+      console.log('[jobs/paginate] No jobs found.');
       return res.status(200).json({ jobs: [], lastDocId: null });
     }
 
     const jobs = snapshot.docs.map(doc => {
-        const data = doc.data() as JobPosting;
+        const data = doc.data() as FirestoreJobPosting;
         return {
             ...data,
             id: doc.id,
-            postedDate: data.postedDate.toISOString(), // Ensure it's an ISO string
-            expirationDate: data.expirationDate ? data.expirationDate.toISOString() : null, // Ensure it's an ISO string
+            postedDate: data.postedDate.toDate().toISOString(), // Convert Timestamp to ISO string
+            expirationDate: data.expirationDate ? data.expirationDate.toDate().toISOString() : null, // Convert Timestamp to ISO string
         } as SerializedJobPosting;
     });
 
     const lastVisible = snapshot.docs[snapshot.docs.length - 1];
+    console.log(`[jobs/paginate] Found ${jobs.length} jobs. Last visible ID: ${lastVisible ? lastVisible.id : 'none'}`);
 
     return res.status(200).json({
       jobs: jobs,
       lastDocId: lastVisible ? lastVisible.id : null,
     });
   } catch (error) {
-    console.error('Error fetching paginated jobs:', error);
+    console.error('[jobs/paginate] Error fetching paginated jobs:', error);
     return res.status(500).json({ error: 'Internal Server Error' });
   }
 }

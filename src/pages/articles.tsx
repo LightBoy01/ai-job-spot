@@ -8,6 +8,8 @@ import { Article } from '@/lib/types';
 import { ARTICLE_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
 
 export interface SerializedArticle extends Omit<Article, 'publishDate'> {
   publishDate: string;
@@ -53,20 +55,34 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
 
     setLoading(true);
     try {
-      const response = await fetch(`/api/articles/paginate?limit=${ARTICLE_FETCH_LIMIT}${lastDocId ? `&startAfter=${lastDocId}` : ''}`);
-      const data = await response.json();
+      let startAfterSnapshot = undefined;
+      if (lastDocId) {
+        const docRef = doc(db, 'articles', lastDocId);
+        startAfterSnapshot = await getDoc(docRef);
+        if (!startAfterSnapshot.exists()) {
+          console.warn(`Last document with ID ${lastDocId} does not exist. Stopping pagination.`);
+          setHasMore(false);
+          setLoading(false);
+          return;
+        }
+      }
 
-      if (data.articles.length === 0) {
+      const { articles: newFetchedArticles, lastVisible: newLastVisible } = await getArticles(ARTICLE_FETCH_LIMIT, startAfterSnapshot);
+
+      if (newFetchedArticles.length === 0) {
         setHasMore(false);
       } else {
         setDisplayedArticles(prevArticles => {
           // Filter out any duplicates that might occur if an article was added/updated during revalidation
-          const newArticles = data.articles.filter((newArticle: SerializedArticleSummary) => 
+          const uniqueNewArticles = newFetchedArticles.map(article => ({
+            ...article,
+            publishDate: article.publishDate.toISOString(), // Convert Date to ISO string
+          })).filter((newArticle: SerializedArticleSummary) =>
             !prevArticles.some(existingArticle => existingArticle.id === newArticle.id)
           );
-          return [...prevArticles, ...newArticles];
+          return [...prevArticles, ...uniqueNewArticles];
         });
-        setLastDocId(data.lastDocId);
+        setLastDocId(newLastVisible ? newLastVisible.id : null);
       }
     } catch (error) {
       console.error('Error fetching more articles:', error);
