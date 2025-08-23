@@ -107,30 +107,30 @@ const getJobContent = (markdownFile: string): Partial<Job> => {
 
 const jobs: Job[] = [
     // Job data is now minimal, content will be loaded from markdown
-    { id: 'job-16', title: 'Machine Learning Engineer', company: 'Scale AI', location: 'San Francisco, CA', jobLevel: 'Mid-Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://scale.com/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date()), tags: ['Machine Learning', 'NLP', 'LLM', 'Python', 'Full-Time'], status: 'published', markdownFile: 'job-16.md' },
-    { id: 'job-17', title: 'Manager, Machine Learning (Generative AI & Content Understanding)', company: 'Netflix', location: 'Los Gatos, CA', jobLevel: 'Manager', employeeRole: 'People Manager', applicationLink: 'https://jobs.netflix.com/', postedDate: admin.firestore.Timestamp.fromDate(new Date()), tags: ['Generative AI', 'Management', 'Machine Learning', 'Content Discovery'], status: 'published', markdownFile: 'job-17.md' },
-    { id: 'job-18', title: 'Research Engineer, Science (LLM)', company: 'Google DeepMind', location: 'London, UK', jobLevel: 'Research Engineer', employeeRole: 'Individual Contributor', applicationLink: 'https://deepmind.google/careers/', postedDate: admin.firestore.Timestamp.fromDate(new Date()), tags: ['Research', 'LLM', 'Science', 'JAX', 'TensorFlow'], status: 'published', markdownFile: 'job-18.md' },
+    { id: 'job-16', title: 'Machine Learning Engineer', company: 'Scale AI', location: 'San Francisco, CA', jobLevel: 'Mid-Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://scale.com/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-11T10:00:00Z')), tags: ['Machine Learning', 'NLP', 'LLM', 'Python', 'Full-Time'], status: 'published', markdownFile: 'job-16.md' },
+    { id: 'job-17', title: 'Manager, Machine Learning (Generative AI & Content Understanding)', company: 'Netflix', location: 'Los Gatos, CA', jobLevel: 'Manager', employeeRole: 'People Manager', applicationLink: 'https://jobs.netflix.com/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-12T10:00:00Z')), tags: ['Generative AI', 'Management', 'Machine Learning', 'Content Discovery'], status: 'published', markdownFile: 'job-17.md' },
+    { id: 'job-18', title: 'Research Engineer, Science (LLM)', company: 'Google DeepMind', location: 'London, UK', jobLevel: 'Research Engineer', employeeRole: 'Individual Contributor', applicationLink: 'https://deepmind.google/careers/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-13T10:00:00Z')), tags: ['Research', 'LLM', 'Science', 'JAX', 'TensorFlow'], status: 'published', markdownFile: 'job-18.md' },
     { id: 'job-scraped-google-data-scientist-iii,-product,-applied-ai,-developer-productivity', title: 'Data Scientist III, Product, Applied AI, Developer Productivity', company: 'Google', location: 'Mountain View, CA, USA', applicationLink: 'https://www.google.com/about/careers/applications/jobs/results/103109554304099014-data-scientist-iii-product-applied-ai-developer-productivity', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-15T10:00:00Z')), salaryRange: null, jobLevel: null, isNew: false, tags: ['Google', 'AI', 'Mountain View', 'Scraped', 'Data Science'], source: 'foorilla_jobs.json', status: 'published', markdownFile: 'job-scraped-google-data-scientist-iii,-product,-applied-ai,-developer-productivity.md' },
-    { id: 'job-scraped-foorilla-20250807-1', title: 'Senior Machine Learning Engineer, Generative AI', company: 'ByteDance', location: 'Mountain View, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', salaryRange: null, tags: ['Generative AI', 'Machine Learning', 'Deep Learning', 'NLP', 'Computer Vision', 'Full-time'], postedDate: admin.firestore.Timestamp.fromDate(new Date()), applicationLink: 'https://jobs.bytedance.com/en/position/7504040732648081671/detail', status: 'published', markdownFile: 'job-scraped-foorilla-20250807-1.md' },
-    { id: 'job-21', title: 'AI Research Scientist (Model Development)', company: 'Chan Zuckerberg Initiative', location: 'Redwood City, CA', jobLevel: 'Senior Researcher', employeeRole: 'Individual Contributor', applicationLink: 'https://chanzuckerberg.com/careers/job-openings/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-19T11:00:00Z')), tags: ['AI Research', 'Model Development', 'Data Labeling', 'PyTorch', 'Biology'], status: 'published', isNew: true, markdownFile: 'job-21.md' },
-    { id: 'job-22', title: 'Senior Machine Learning Engineer, Siri', company: 'Apple', location: 'Cupertino, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://www.apple.com/careers/us/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-19T11:00:00Z')), tags: ['ML Engineer', 'Siri', 'NLP', 'On-Device AI', 'Apple'], status: 'published', isNew: true, markdownFile: 'job-22.md' },
-    { id: 'job-23', title: 'Data Scientist, Generative AI', company: 'PwC', location: 'Remote', jobLevel: 'Senior Associate', employeeRole: 'Consultant', applicationLink: 'https://www.pwc.com/us/en/careers.html', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-19T11:00:00Z')), tags: ['Data Scientist', 'Generative AI', 'LLM', 'Consulting', 'Remote'], status: 'published', isNew: true, markdownFile: 'job-23.md' },
-    { id: 'job-24', title: 'Chatbot Developer, Dialogflow', company: 'Turing', location: 'Remote', jobLevel: 'Mid-Level', employeeRole: 'Individual Contributor', applicationLink: 'https://www.turing.com/jobs', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-19T11:00:00Z')), tags: ['Chatbot Developer', 'Dialogflow', 'Conversational AI', 'NLP', 'Remote'], status: 'published', isNew: true, markdownFile: 'job-24.md' },
-    { id: 'job-25', title: 'AI Content Creator', company: 'Marketing Architects', location: 'Minneapolis, MN', jobLevel: 'Associate', employeeRole: 'Individual Contributor', applicationLink: 'https://www.marketingarchitects.com/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-19T11:00:00Z')), tags: ['AI Content', 'Content Creator', 'Generative AI', 'Marketing', 'Copywriting'], status: 'published', isNew: true, markdownFile: 'job-25.md' },
-    { id: 'job-26', title: 'Prompt & Context Engineer', company: 'NTT DATA', location: 'Irving, TX', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://us.nttdata.com/en/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-19T11:00:00Z')), tags: ['Prompt Engineer', 'Context Engineer', 'LLM', 'AI Strategy', 'NTT DATA'], status: 'published', isNew: true, markdownFile: 'job-26.md' },
-    { id: 'job-27', title: 'Machine Learning Engineer, Core Products', company: 'Roblox', location: 'San Mateo, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://careers.roblox.com/jobs', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['ML Engineer', 'Roblox', 'NLP', 'Deep Learning', 'San Mateo'], status: 'published', isNew: true, markdownFile: 'job-27.md' },
-    { id: 'job-28', title: 'Data Scientist (AI/ML Focus)', company: 'Mind To Machine Connect', location: 'Remote', jobLevel: 'Mid-Level', employeeRole: 'Individual Contributor', applicationLink: 'https://m2mtechconnect.com/careers/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['Data Scientist', 'AI/ML', 'Python', 'SQL', 'Remote'], status: 'published', isNew: true, markdownFile: 'job-28.md' },
-    { id: 'job-29', title: 'AI Automation Engineer', company: 'A Techstars Portfolio Company', location: 'Remote', jobLevel: 'Mid-Level', employeeRole: 'Individual Contributor', applicationLink: 'https://jobs.techstars.com/jobs', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['AI Automation', 'Techstars', 'RPA', 'Startup', 'Remote'], status: 'published', isNew: true, markdownFile: 'job-29.md' },
-    { id: 'job-30', title: 'Prompt Engineer', company: 'Anthropic', location: 'San Francisco, CA', jobLevel: 'Mid-Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://www.anthropic.com/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['Prompt Engineer', 'Anthropic', 'LLM', 'AI Safety', 'San Francisco'], status: 'published', isNew: true, markdownFile: 'job-30.md' },
-    { id: 'job-31', title: 'Generative AI Artist (Video)', company: 'Runway', location: 'New York, NY (Hybrid)', jobLevel: 'Mid-Level', employeeRole: 'Creative', applicationLink: 'https://runwayml.com/careers/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['AI Video', 'Generative Art', 'Runway', 'Creative', 'New York'], status: 'published', isNew: true, markdownFile: 'job-31.md' },
-    { id: 'job-32', title: 'AI Ethicist, Responsible AI', company: 'Google', location: 'Mountain View, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://careers.google.com/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-20T10:00:00Z')), tags: ['AI Ethics', 'Responsible AI', 'Google', 'Policy', 'Mountain View'], status: 'published', isNew: true, markdownFile: 'job-32.md' },
+    { id: 'job-scraped-foorilla-20250807-1', title: 'Senior Machine Learning Engineer, Generative AI', company: 'ByteDance', location: 'Mountain View, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', salaryRange: null, tags: ['Generative AI', 'Machine Learning', 'Deep Learning', 'NLP', 'Computer Vision', 'Full-time'], postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-14T10:00:00Z')), applicationLink: 'https://jobs.bytedance.com/en/position/7504040732648081671/detail', status: 'published', markdownFile: 'job-scraped-foorilla-20250807-1.md' },
+    { id: 'job-21', title: 'AI Research Scientist (Model Development)', company: 'Chan Zuckerberg Initiative', location: 'Redwood City, CA', jobLevel: 'Senior Researcher', employeeRole: 'Individual Contributor', applicationLink: 'https://chanzuckerberg.com/careers/job-openings/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-21T11:00:00Z')), tags: ['AI Research', 'Model Development', 'Data Labeling', 'PyTorch', 'Biology'], status: 'published', isNew: true, markdownFile: 'job-21.md' },
+    { id: 'job-22', title: 'Senior Machine Learning Engineer, Siri', company: 'Apple', location: 'Cupertino, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://www.apple.com/careers/us/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-21T12:00:00Z')), tags: ['ML Engineer', 'Siri', 'NLP', 'On-Device AI', 'Apple'], status: 'published', isNew: true, markdownFile: 'job-22.md' },
+    { id: 'job-23', title: 'Data Scientist, Generative AI', company: 'PwC', location: 'Remote', jobLevel: 'Senior Associate', employeeRole: 'Consultant', applicationLink: 'https://www.pwc.com/us/en/careers.html', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-21T13:00:00Z')), tags: ['Data Scientist', 'Generative AI', 'LLM', 'Consulting', 'Remote'], status: 'published', isNew: true, markdownFile: 'job-23.md' },
+    { id: 'job-24', title: 'Chatbot Developer, Dialogflow', company: 'Turing', location: 'Remote', jobLevel: 'Mid-Level', employeeRole: 'Individual Contributor', applicationLink: 'https://www.turing.com/jobs', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-21T14:00:00Z')), tags: ['Chatbot Developer', 'Dialogflow', 'Conversational AI', 'NLP', 'Remote'], status: 'published', isNew: true, markdownFile: 'job-24.md' },
+    { id: 'job-25', title: 'AI Content Creator', company: 'Marketing Architects', location: 'Minneapolis, MN', jobLevel: 'Associate', employeeRole: 'Individual Contributor', applicationLink: 'https://www.marketingarchitects.com/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-21T15:00:00Z')), tags: ['AI Content', 'Content Creator', 'Generative AI', 'Marketing', 'Copywriting'], status: 'published', isNew: true, markdownFile: 'job-25.md' },
+    { id: 'job-26', title: 'Prompt & Context Engineer', company: 'NTT DATA', location: 'Irving, TX', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://us.nttdata.com/en/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-21T16:00:00Z')), tags: ['Prompt Engineer', 'Context Engineer', 'LLM', 'AI Strategy', 'NTT DATA'], status: 'published', isNew: true, markdownFile: 'job-26.md' },
+    { id: 'job-27', title: 'Machine Learning Engineer, Core Products', company: 'Roblox', location: 'San Mateo, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://careers.roblox.com/jobs', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-22T11:00:00Z')), tags: ['ML Engineer', 'Roblox', 'NLP', 'Deep Learning', 'San Mateo'], status: 'published', isNew: true, markdownFile: 'job-27.md' },
+    { id: 'job-28', title: 'Data Scientist (AI/ML Focus)', company: 'Mind To Machine Connect', location: 'Remote', jobLevel: 'Mid-Level', employeeRole: 'Individual Contributor', applicationLink: 'https://m2mtechconnect.com/careers/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-22T12:00:00Z')), tags: ['Data Scientist', 'AI/ML', 'Python', 'SQL', 'Remote'], status: 'published', isNew: true, markdownFile: 'job-28.md' },
+    { id: 'job-29', title: 'AI Automation Engineer', company: 'A Techstars Portfolio Company', location: 'Remote', jobLevel: 'Mid-Level', employeeRole: 'Individual Contributor', applicationLink: 'https://jobs.techstars.com/jobs', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-22T13:00:00Z')), tags: ['AI Automation', 'Techstars', 'RPA', 'Startup', 'Remote'], status: 'published', isNew: true, markdownFile: 'job-29.md' },
+    { id: 'job-30', title: 'Prompt Engineer', company: 'Anthropic', location: 'San Francisco, CA', jobLevel: 'Mid-Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://www.anthropic.com/careers', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-22T14:00:00Z')), tags: ['Prompt Engineer', 'Anthropic', 'LLM', 'AI Safety', 'San Francisco'], status: 'published', isNew: true, markdownFile: 'job-30.md' },
+    { id: 'job-31', title: 'Generative AI Artist (Video)', company: 'Runway', location: 'New York, NY (Hybrid)', jobLevel: 'Mid-Level', employeeRole: 'Creative', applicationLink: 'https://runwayml.com/careers/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-22T15:00:00Z')), tags: ['AI Video', 'Generative Art', 'Runway', 'Creative', 'New York'], status: 'published', isNew: true, markdownFile: 'job-31.md' },
+    { id: 'job-32', title: 'AI Ethicist, Responsible AI', company: 'Google', location: 'Mountain View, CA', jobLevel: 'Senior', employeeRole: 'Individual Contributor', applicationLink: 'https://careers.google.com/', postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-22T16:00:00Z')), tags: ['AI Ethics', 'Responsible AI', 'Google', 'Policy', 'Mountain View'], status: 'published', isNew: true, markdownFile: 'job-32.md' },
   {
     id: 'job-33',
     title: 'Data Scientist (AI/ML focus)',
     company: 'Deloitte US',
     location: 'Various US Locations',
     applicationLink: 'https://www.deloitte.com/us/en/careers.html',
-    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-23T09:00:00Z')),
     expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
     tags: ['Data Scientist', 'AI/ML', 'Consulting', 'Generative AI', 'LLM'],
     status: 'published',
@@ -145,7 +145,7 @@ const jobs: Job[] = [
     company: 'Sanofi',
     location: 'Cambridge, MA',
     applicationLink: 'https://www.sanofi.com/en/careers',
-    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-23T10:00:00Z')),
     expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
     tags: ['Data Scientist', 'AI/ML', 'Healthcare', 'Biotech', 'Precision Medicine'],
     status: 'published',
@@ -160,7 +160,7 @@ const jobs: Job[] = [
     company: 'Citi',
     location: 'New York, NY',
     applicationLink: 'https://www.citi.com/careers',
-    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-23T11:00:00Z')),
     expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
     tags: ['Data Scientist', 'Generative AI', 'Risk Management', 'Finance', 'Banking'],
     status: 'published',
@@ -175,7 +175,7 @@ const jobs: Job[] = [
     company: 'FAM Brands',
     location: 'Los Angeles, CA',
     applicationLink: 'https://www.fambrands.com/careers',
-    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-23T12:00:00Z')),
     expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
     tags: ['AI Automation', 'RPA', 'Business Process', 'Specialist'],
     status: 'published',
@@ -190,7 +190,7 @@ const jobs: Job[] = [
     company: 'Tracks & Fields',
     location: 'Berlin, Germany',
     applicationLink: 'https://berlinstartupjobs.com/company/tracks-fields/',
-    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-23T13:00:00Z')),
     expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
     tags: ['AI Automation', 'Engineer', 'Startup', 'Berlin'],
     status: 'published',
@@ -205,7 +205,7 @@ const jobs: Job[] = [
     company: 'ActiveCampaign',
     location: 'Remote',
     applicationLink: 'https://www.activecampaign.com/careers',
-    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-23T14:00:00Z')),
     expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
     tags: ['Prompt Engineer', 'Remote', 'AI', 'LLM', 'NLP'],
     status: 'published',
@@ -220,7 +220,7 @@ const jobs: Job[] = [
     company: 'Visionary AI Studios',
     location: 'Remote',
     applicationLink: 'https://www.upwork.com/hire/ai-video-generation-specialists/',
-    postedDate: admin.firestore.Timestamp.fromDate(new Date()),
+    postedDate: admin.firestore.Timestamp.fromDate(new Date('2025-08-23T15:00:00Z')),
     expirationDate: admin.firestore.Timestamp.fromDate(new Date('2025-09-21T00:00:00Z')),
     tags: ['AI Video', 'Generative AI', 'Specialist', 'Remote', 'Creative'],
     status: 'published',
@@ -277,6 +277,7 @@ async function seedData() {
   // 2. Seed only NEW Jobs
   console.log('Checking for new jobs to seed...');
   for (const job of jobs) {
+    if (!existingJobIds.has(job.id)) {
       const jobRef = jobsCollection.doc(job.id);
       const content = getJobContent(job.markdownFile);
       const jobToSeed = { ...job, ...content };
@@ -287,9 +288,10 @@ async function seedData() {
         expirationDate.setDate(expirationDate.getDate() + 7);
         jobToSeed.expirationDate = admin.firestore.Timestamp.fromDate(expirationDate);
       }
-      batch.set(jobRef, jobToSeed, { merge: true }); // Use merge for updates
-      console.log(`Staging job for seeding/updating: ${job.title}`);
+      batch.set(jobRef, jobToSeed); // No merge needed for new docs
+      console.log(`Staging NEW job for seeding: ${job.title}`);
       newJobsCount++;
+    }
   }
   if (newJobsCount === 0) {
     console.log('No new jobs to seed.');
