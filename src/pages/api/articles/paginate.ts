@@ -2,7 +2,7 @@ import type { NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { SerializedArticle, FirestoreArticle } from '@/lib/types';
-import type { DocumentSnapshot } from 'firebase-admin/firestore'; // Type-only import // eslint-disable-line @typescript-eslint/no-unused-vars
+
 
 export interface PaginatedArticlesResponse {
   articles: SerializedArticle[];

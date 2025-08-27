@@ -23,7 +23,6 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
-  const [firstDocId, setFirstDocId] = useState<string | null>(null); // To track for previous page // eslint-disable-line @typescript-eslint/no-unused-vars // eslint-disable-line @typescript-eslint/no-unused-vars // eslint-disable-line @typescript-eslint/no-unused-vars
   const [currentPage, setCurrentPage] = useState(1);
   const [pageHistory, setPageHistory] = useState<string[]>([]); // Stack to store firstDocId of each page
 
@@ -32,7 +31,6 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
     if (!searchQuery) {
       setArticles(initialArticles);
       setLastDocId(initialLastDocId);
-      setFirstDocId(null); // Restore this line
       setCurrentPage(1);
       setPageHistory([]);
     }
@@ -75,11 +73,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({ initialArticles, initialL
       setArticles(data.articles);
       setLastDocId(data.lastDocId);
 
-      if (data.articles.length > 0) {
-        setFirstDocId(data.articles[0].id); // Restore this line
-      } else {
-        setFirstDocId(null); // Restore this line
-      }
+      
 
       if (direction === 'next') {
         setPageHistory(prev => [...prev, startAfterId || 'initial']);

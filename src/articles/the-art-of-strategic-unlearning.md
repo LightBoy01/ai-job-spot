@@ -1,3 +1,16 @@
+---
+slug: the-art-of-strategic-unlearning
+title: 'The Art of Strategic Unlearning: Adapting Your Mindset in the AI Era'
+author: The AI Strategist
+publishDate: 2025-08-02T10:00:00.000Z
+issueNo: 8
+volumeNo: 1
+tags:
+  - Unlearning
+  - Adaptability
+  - Mindset
+  - AI
+---
 # The Art of Strategic Unlearning: Adapting Your Mindset in the AI Era
 
 ## The Core Concept & Its Modern Relevance

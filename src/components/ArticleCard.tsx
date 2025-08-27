@@ -7,7 +7,8 @@ interface ArticleCardProps {
   article: SerializedArticleSummary;
 }
 
-const ArticleCard = ({ article }: ArticleCardProps) => {
+import React from 'react';
+const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
   const { title, author, publishDate, slug, issueNo, volumeNo } = article;
 
   return (
@@ -25,6 +26,8 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
       </div>
     </Link>
   );
-};
+});
+
+ArticleCard.displayName = 'ArticleCard';
 
 export default ArticleCard;

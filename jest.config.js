@@ -9,7 +9,7 @@ module.exports = {
     '^.+\.m?js$': 'babel-jest',
   },
   transformIgnorePatterns: [
-    'node_modules/(?!jose|jwks-rsa)/',
+    '/node_modules/(?!(firebase|@firebase)/)',
   ],
   moduleDirectories: ['node_modules', '<rootDir>/src'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],

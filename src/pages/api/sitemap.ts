@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { getJobs, getArticles } from '../../lib/firestoreClient'; // Adjust path as needed
 import * as admin from 'firebase-admin';
 
-const WEBSITE_URL = process.env.NEXT_PUBLIC_SITE_URL; // Your actual website URL
+const WEBSITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-job-spot.vercel.app';
 
 const formatDate = (date: Date | admin.firestore.Timestamp): string => {
   if (date instanceof Date) {
@@ -19,7 +19,7 @@ export default async function handler(
     const { jobs } = await getJobs();
     const { articles } = await getArticles();
 
-    let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${WEBSITE_URL}/</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/articles</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/jobs</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+    let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${WEBSITE_URL}/</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/articles</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/jobs</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/about</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.5</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/contact</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.5</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/post-a-job</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/privacy</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/terms</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n`
 
     jobs.forEach((job) => {
       if (job.postedDate) {

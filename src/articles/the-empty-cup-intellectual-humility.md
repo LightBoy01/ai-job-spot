@@ -1,4 +1,18 @@
-
+---
+slug: the-empty-cup-intellectual-humility
+title: >-
+  The Empty Cup: Why Intellectual Humility is Your Most Powerful Tool in the AI
+  Age
+author: The AI Strategist
+publishDate: 2025-08-03T10:00:00.000Z
+issueNo: 10
+volumeNo: 1
+tags:
+  - Intellectual Humility
+  - Learning
+  - Mindset
+  - AI
+---
 # The Empty Cup: Why Intellectual Humility is Your Most Powerful Tool in the AI Age
 
 ## Introduction

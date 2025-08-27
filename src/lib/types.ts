@@ -36,6 +36,7 @@ export interface Article {
   author: string;
   publishDate: Date;
   contentBody: string;
+  excerpt: string;
   tags: string[];
   slug: string;
   issueNo?: number;
@@ -51,11 +52,12 @@ export type FirestoreArticle = Omit<Article, 'publishDate'> & {
 
 // For server-side rendering, where Timestamps are serialized
 export interface SerializedJobPosting extends Omit<JobPosting, 'postedDate' | 'expirationDate'> {
-  postedDate: string;
+  postedDate: string | null;
   expirationDate: string | null;
   isNew?: boolean;
 }
 
 export interface SerializedArticle extends Omit<Article, 'publishDate'> {
   publishDate: string | null;
+  excerpt: string;
 }

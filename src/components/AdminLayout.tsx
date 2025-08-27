@@ -3,7 +3,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import useAuth from '@/hooks/useAuth';
-import toast from 'react-hot-toast';
 
 const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({ children, title = 'Admin - AI Job Spot' }) => {
   const { user, loading, logout } = useAuth();
@@ -18,11 +17,11 @@ const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({ 
   const handleLogout = async () => {
     try {
       await logout();
-      toast.success('Logged out successfully!');
+      // toast.success('Logged out successfully!'); // Reverted
       router.push('/admin/login');
     } catch (error) {
       console.error('Error logging out:', error);
-      toast.error('Failed to log out.');
+      // toast.error('Failed to log out.'); // Reverted
     }
   };
 

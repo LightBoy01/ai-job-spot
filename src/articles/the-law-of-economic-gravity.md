@@ -1,3 +1,20 @@
+---
+slug: the-law-of-economic-gravity
+title: >-
+  The Law of Economic Gravity: How to Thrive When AI Changes the Value of
+  Everything
+author: The AI Strategist
+publishDate: 2025-08-22T12:00:00.000Z
+issueNo: 16
+volumeNo: 1
+tags:
+  - AI
+  - Career Strategy
+  - Mental Models
+  - Future of Work
+  - Economics
+imageUrl: /images/articles/economic-gravity.jpg
+---
 It’s a strange feeling, isn’t it? You see a colleague in a seemingly adjacent role get a promotion that launches them into the stratosphere. You read about a new startup that automates a task you spent years mastering. You feel the ground shifting beneath your feet, a sense that the old rules of career progression—climb the ladder, deepen your niche—are becoming less reliable.
 
 This isn’t chaos. It’s the emergence of a new, predictable force reshaping the professional landscape. A force I call **The Law of Economic Gravity.**

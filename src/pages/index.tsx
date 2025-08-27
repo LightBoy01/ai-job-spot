@@ -42,6 +42,52 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
     return initialLastDocId;
   });
   const loader = useRef(null);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const searchJobs = useCallback(async (query: string) => {
+    if (query.trim() === '') {
+      setDisplayedJobs(initialJobs);
+      setLastDocId(initialLastDocId);
+      setHasMore(true);
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const response = await fetch(`/api/jobs/search?q=${query}`);
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error('Error searching for jobs:', errorData.message || response.statusText);
+        setDisplayedJobs([]);
+        setLastDocId(null);
+        setHasMore(false);
+        return;
+      }
+      const { jobs: newFetchedJobs = [], lastVisible: newLastVisible } = await response.json();
+      setDisplayedJobs(newFetchedJobs);
+      setLastDocId(newLastVisible ? newLastVisible.id : null);
+      setHasMore(newFetchedJobs.length > 0);
+    } catch (error) {
+      console.error('Error searching for jobs:', error);
+      setDisplayedJobs([]); // Ensure jobs are cleared on network/parsing error
+      setLastDocId(null);
+      setHasMore(false);
+    } finally {
+      setLoading(false);
+    }
+  }, [initialJobs, initialLastDocId]);
+
+  useEffect(() => {
+    const delayDebounceFn = setTimeout(() => {
+      searchJobs(searchQuery);
+    }, 500);
+
+    return () => clearTimeout(delayDebounceFn);
+  }, [searchQuery, searchJobs]);
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+  };
 
   const fetchMoreJobs = useCallback(async () => {
     if (loading || !hasMore) return;
@@ -60,7 +106,28 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
         }
       }
 
-      const { jobs: newFetchedJobs, lastVisible: newLastVisible } = await getJobs(JOB_FETCH_LIMIT, startAfterSnapshot);
+      let newFetchedJobs: SerializedJobPosting[] = [];
+      let newLastVisible: string | null = null;
+
+      if (searchQuery.trim() !== '') {
+        // If there's an active search query, paginate search results
+        const response = await fetch(`/api/jobs/search?q=${searchQuery}&startAfter=${lastDocId || ''}`);
+        if (!response.ok) {
+          throw new Error('Error fetching more search results');
+        }
+        const data = await response.json();
+        newFetchedJobs = data.jobs || [];
+        newLastVisible = data.lastVisible;
+      } else {
+        // Otherwise, paginate general job listings
+        const { jobs, lastVisible } = await getJobs(JOB_FETCH_LIMIT, startAfterSnapshot);
+        newFetchedJobs = jobs.map(job => ({
+          ...job,
+          postedDate: job.postedDate.toISOString(),
+          expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
+        })) as SerializedJobPosting[];
+        newLastVisible = lastVisible ? lastVisible.id : null;
+      }
 
       if (newFetchedJobs.length === 0) {
         setHasMore(false);
@@ -68,7 +135,7 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
         setDisplayedJobs(prevJobs => {
           const now = new Date();
           const processedNewJobs = newFetchedJobs.map(job => {
-            const posted = new Date(job.postedDate);
+            const posted = job.postedDate ? new Date(job.postedDate) : new Date();
             if ((now.getTime() - posted.getTime()) > NEW_JOB_THRESHOLD_MS) {
               job.isNew = false;
             }
@@ -82,14 +149,14 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
           // Filter out any duplicates that might occur if a job was added/updated during revalidation
           const uniqueNewJobs = processedNewJobs.map(job => ({
             ...job,
-            postedDate: job.postedDate.toISOString(), // Convert Date to ISO string
-            expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null, // Convert Date to ISO string, handle optional
+            postedDate: job.postedDate ? job.postedDate : new Date().toISOString(), // Ensure it's a string, fallback to current date if null
+            expirationDate: job.expirationDate || null, // Already a string or null
           })).filter((newJob: SerializedJobPosting) =>
             !prevJobs.some(existingJob => existingJob.id === newJob.id)
           );
           return [...prevJobs, ...uniqueNewJobs];
         });
-        setLastDocId(newLastVisible ? newLastVisible.id : null);
+        setLastDocId(newLastVisible);
       }
     } catch (error) {
       console.error('Error fetching more jobs:', error);
@@ -97,7 +164,7 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
     } finally {
       setLoading(false);
     }
-  }, [loading, hasMore, lastDocId]);
+  }, [loading, hasMore, lastDocId, searchQuery]);
 
   useEffect(() => {
     const handleObserver = (entities: IntersectionObserverEntry[]) => {
@@ -184,7 +251,15 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
       </Head>
       
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <h1 className="lg:text-5xl md:text-4xl text-3xl font-serif font-bold text-primary-dark mb-12 text-center leading-tight !text-center">Latest AI Job Opportunities</h1>
+        <h1 className="lg:text-5xl md:text-4xl text-3xl font-serif font-bold text-primary-dark mb-6 text-center leading-tight !text-center">Latest AI Job Opportunities</h1>
+        <div className="mb-12 flex justify-center">
+          <input
+            type="text"
+            placeholder="Search for jobs..."
+            className="w-full max-w-lg p-4 border border-neutral-300 rounded-lg focus:ring-primary focus:border-primary"
+            onChange={handleSearchChange}
+          />
+        </div>
         {displayedJobs.length === 0 && !loading ? (
           <p className="text-center text-neutral-600">No job postings available at the moment. Please check back later!</p>
         ) : (
@@ -229,11 +304,15 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
     // Adjust isNew flag based on postedDate and filter out expired jobs
     const now = new Date();
     const filteredJobs = rawJobs.filter(job => {
+      // If postedDate is null, this job is invalid and should be filtered out.
+      if (!job.postedDate) {
+        return false;
+      }
       const posted = new Date(job.postedDate);
       if ((now.getTime() - posted.getTime()) > NEW_JOB_THRESHOLD_MS) {
         job.isNew = false;
       }
-      // If expirationDate is not set, assume it's still active
+      // If expirationDate is not set or is null, assume it's still active
       if (!job.expirationDate) {
         return true;
       }

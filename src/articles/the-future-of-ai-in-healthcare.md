@@ -1,3 +1,16 @@
+---
+slug: the-future-of-ai-in-healthcare
+title: 'The Future of AI in Healthcare: Revolutionizing Patient Care'
+author: AI Job Spot Team
+publishDate: 2025-07-04T10:00:00.000Z
+issueNo: 12
+volumeNo: 1
+tags:
+  - AI
+  - Healthcare
+  - Medical Research
+  - Diagnostics
+---
 # The Future of AI in Healthcare: Revolutionizing Patient Care and Medical Research
 
 ## Introduction: The Dawn of a New Era in Medicine

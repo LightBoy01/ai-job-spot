@@ -1,26 +1,24 @@
+---
+id: job-33
+title: Data Scientist (AI/ML focus)
+company: Deloitte US
+location: Various US Locations
+applicationLink: 'https://www.deloitte.com/us/en/careers.html'
+postedDate: 2025-08-23T09:00:00.000Z
+expirationDate: 2025-09-22T09:00:00.000Z
+tags:
+  - Data Scientist
+  - AI/ML
+  - Consulting
+  - Generative AI
+  - LLM
+status: published
+jobLevel: Consultant/Senior Consultant
+employeeRole: null
+---
 # Data Scientist (AI/ML focus)
 
-- **Company:** Deloitte US
-- **Location:** Various US Locations
-- **Job Level:** Consultant/Senior Consultant
-- **Application Link:** https://www.deloitte.com/us/en/careers.html
-
----
-
-### Description
-
-Join Deloitte's Data Science group and apply your passion for artificial intelligence, machine learning, and data analysis to solve complex business problems. You will support the entire lifecycle of data science projects, from exploratory data analysis and feature engineering to model creation and optimization. Work on cutting-edge projects involving generative AI, prompt engineering, LLMs, anomaly detection, clustering, and knowledge graphs.
-
-### Responsibilities
-
-- Support the design, development, and deployment of AI/ML solutions.
-- Conduct exploratory data analysis and feature engineering.
-- Build and optimize machine learning models.
-- Collaborate with cross-functional teams to deliver data-driven insights.
-
-### Qualifications
-
-- Bachelor's or Master's degree in a quantitative field (e.g., Computer Science, Statistics, Mathematics).
-- Experience with machine learning algorithms and techniques.
-- Proficiency in Python or R.
-- Strong analytical and problem-solving skills.
+ 
+### Description 
+### Responsibilities 
+### Qualifications 

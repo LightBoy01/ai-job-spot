@@ -20,10 +20,10 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
   const [jobs, setJobs] = useState(initialJobs);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [jobToDeleteId, setJobToDeleteId] = useState<string | null>(null);
+  const [jobToDeleteTitle, setJobToDeleteTitle] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
-  const [firstDocId, setFirstDocId] = useState<string | null>(null); // To track for previous page // eslint-disable-line @typescript-eslint/no-unused-vars // eslint-disable-line @typescript-eslint/no-unused-vars // eslint-disable-line @typescript-eslint/no-unused-vars
   const [currentPage, setCurrentPage] = useState(1);
   const [pageHistory, setPageHistory] = useState<string[]>([]); // Stack to store firstDocId of each page
 
@@ -32,7 +32,6 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
     if (!searchQuery) {
       setJobs(initialJobs);
       setLastDocId(initialLastDocId);
-      setFirstDocId(null); // Restore this line
       setCurrentPage(1);
       setPageHistory([]);
     }
@@ -73,11 +72,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
       setJobs(data.jobs);
       setLastDocId(data.lastDocId);
 
-      if (data.jobs.length > 0) {
-        setFirstDocId(data.jobs[0].id); // Restore this line
-      } else {
-        setFirstDocId(null); // Restore this line
-      }
+      
 
       if (direction === 'next') {
         setPageHistory(prev => [...prev, startAfterId || 'initial']);
@@ -98,15 +93,16 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
     }
   };
 
-  const handleDeleteClick = (id: string) => {
+  const handleDeleteClick = (id: string, title: string) => {
     setJobToDeleteId(id);
+    setJobToDeleteTitle(title);
     setIsModalOpen(true);
   };
 
   const handleConfirmDelete = async () => {
     if (!jobToDeleteId) return;
     setIsModalOpen(false);
-    const toastId = toast.loading('Deleting job posting...');
+    const toastId = toast.loading(`Deleting job "${jobToDeleteTitle || ''}"...`);
 
     try {
       const response = await fetch(`/api/jobs/${jobToDeleteId}`, {
@@ -121,7 +117,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
         throw new Error(errorData.error || 'Failed to delete job');
       }
 
-      toast.success('Job deleted successfully', { id: toastId });
+      toast.success(`Job "${jobToDeleteTitle || ''}" deleted successfully!`, { id: toastId });
       // Re-fetch jobs after deletion to update the list and pagination state
       fetchJobs(pageHistory[pageHistory.length - 1] || null, 'initial');
     } catch (error) {
@@ -155,7 +151,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
       const searchResults = await response.json();
       setJobs(searchResults);
       setLastDocId(null); // Disable pagination after search
-      setFirstDocId(null);
+      
       setCurrentPage(1);
       setPageHistory([]);
       toast.success(`${searchResults.length} job(s) found.`, { id: toastId });
@@ -231,7 +227,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
                       <span className={`text-secondary-dark hover:text-secondary font-semibold ${authLoading || !idToken ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}>Edit</span>
                     </Link>
                     <button
-                      onClick={() => handleDeleteClick(job.id!)}
+                      onClick={() => handleDeleteClick(job.id!, job.title)}
                       disabled={authLoading || !idToken}
                       className="text-red-600 hover:text-red-800 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                     >

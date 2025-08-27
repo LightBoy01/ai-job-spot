@@ -41,7 +41,7 @@ const processArticleData = (docSnap: DocumentSnapshot<DocumentData>): Article =>
         id: docSnap.id,
         title: data?.title || '',
         author: data?.author || '',
-        publishDate: convertTimestampToDate(data?.publishDate) || new Date(),
+        publishDate: convertTimestampToDate(data?.publishDate) || null,
         contentBody: data?.contentBody || '',
         tags: data?.tags || [],
         slug: data?.slug || '',
@@ -61,7 +61,6 @@ export async function getJobs(limit?: number, startAfterDoc?: DocumentSnapshot):
   if (limit) {
     q = query(q, limitTo(limit));
   }
-
   const querySnapshot = await getDocs(q);
   const jobs = querySnapshot.docs.map(processJobData);
   const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
@@ -78,7 +77,7 @@ export async function getPendingJobs(): Promise<JobPosting[]> {
 
 export async function getArticles(limit?: number, startAfterDoc?: DocumentSnapshot): Promise<{ articles: Article[], lastVisible: DocumentSnapshot | null }> {
   const articlesCollectionRef = collection(db, 'articles');
-  let q = query(articlesCollectionRef, orderBy('publishDate', 'desc'));
+  let q = query(articlesCollectionRef, orderBy('volumeNo', 'desc'), orderBy('issueNo', 'desc'));
 
   if (startAfterDoc) {
     q = query(q, startAfter(startAfterDoc));

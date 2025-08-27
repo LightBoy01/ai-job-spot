@@ -1,11 +1,10 @@
 
 import type { NextApiResponse } from 'next';
 import { adminDb } from '../../../lib/firebaseAdmin';
-import * as admin from 'firebase-admin';
 import { Article, FirestoreArticle } from '../../../lib/types';
-import DOMPurify from 'dompurify';
-import { JSDOM } from 'jsdom';
 import { requireAdmin, AuthenticatedNextApiRequest } from '../../../lib/middleware';
+import { validatePayload, isRequired, safeToTimestamp } from '../../../lib/apiUtils';
+import DOMPurify from 'isomorphic-dompurify';
 
 // This type represents the shape of the data coming from the frontend form
 type ArticleFormData = Partial<Omit<Article, 'id' | 'publishDate' | 'tags'> & {
@@ -13,8 +12,12 @@ type ArticleFormData = Partial<Omit<Article, 'id' | 'publishDate' | 'tags'> & {
   publishDate: string;
 }>;
 
-const window = new JSDOM('').window;
-const purify = DOMPurify(window);
+const validationSchema = {
+  title: [isRequired('Article Title')],
+  author: [isRequired('Author')],
+  slug: [isRequired('URL Slug')], // Basic check, can add regex later
+  contentBody: [isRequired('Article Content')],
+};
 
 export default async function handler(
   req: AuthenticatedNextApiRequest,
@@ -28,42 +31,26 @@ export default async function handler(
     try {
       const articleData: ArticleFormData = req.body;
 
-      // --- Comprehensive Server-Side Validation ---
-      const errors: Record<string, string> = {};
-      if (!articleData.title) errors.title = 'Article Title is required.';
-      if (!articleData.author) errors.author = 'Author is required.';
-      if (!articleData.slug) {
-        errors.slug = 'URL Slug is required.';
-      } else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(articleData.slug)) {
-        errors.slug = 'URL Slug must be lowercase, alphanumeric, and use hyphens.';
-      }
-      if (!articleData.contentBody || articleData.contentBody === '<p><br></p>') {
-        errors.contentBody = 'Article Content is required.';
-      }
-      if (articleData.issueNo !== undefined && (isNaN(Number(articleData.issueNo)) || Number(articleData.issueNo) <= 0)) {
-        errors.issueNo = 'Issue Number must be a positive number.';
-      }
-      if (articleData.volumeNo !== undefined && (isNaN(Number(articleData.volumeNo)) || Number(articleData.volumeNo) <= 0)) {
-        errors.volumeNo = 'Volume Number must be a positive number.';
-      }
-
+      const errors = validatePayload(articleData, validationSchema);
       if (Object.keys(errors).length > 0) {
-        return res.status(400).json({ error: 'Validation failed', details: errors });
+        return res.status(400).json({ message: 'Validation failed', details: errors });
       }
-      // --- End Validation ---
 
-      const sanitizedContentBody = purify.sanitize(articleData.contentBody || '');
+      const sanitizedContentBody = DOMPurify.sanitize(articleData.contentBody || '');
+      const plainTextContent = (articleData.contentBody || '').replace(/\n/g, ' ').replace(/(\**|\*|_|`|\[|\]|\(|\)|#)/g, '');
+      const excerpt = plainTextContent.substring(0, 160);
 
-      // After validation, we can confidently build the Firestore object
       const dataToCreate: Omit<FirestoreArticle, 'id'> = {
         title: articleData.title!,
         author: articleData.author!,
         slug: articleData.slug!,
         contentBody: sanitizedContentBody,
-        publishDate: articleData.publishDate ? admin.firestore.Timestamp.fromDate(new Date(articleData.publishDate)) : admin.firestore.FieldValue.serverTimestamp() as admin.firestore.Timestamp,
+        excerpt: excerpt,
+        publishDate: safeToTimestamp(articleData.publishDate, 'now')!,
         tags: articleData.tags ? articleData.tags.split(',').map((tag) => tag.trim()) : [],
         issueNo: articleData.issueNo ? Number(articleData.issueNo) : undefined,
         volumeNo: articleData.volumeNo ? Number(articleData.volumeNo) : undefined,
+        imageUrl: articleData.imageUrl || null,
       };
 
       const docRef = await adminDb.collection('articles').add(dataToCreate);

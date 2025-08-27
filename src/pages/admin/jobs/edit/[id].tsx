@@ -116,7 +116,10 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
         throw new Error(errorData.error || 'Failed to update job posting');
       }
 
-      toast.success('Job posting updated successfully!', { id: toastId });
+      const result = await response.json();
+      const updatedJob = result.job as JobPosting;
+
+      toast.success(`Job "${updatedJob.title}" updated successfully!`, { id: toastId });
       router.push('/admin/jobs');
     } catch (err) {
       console.error('Update error:', err);

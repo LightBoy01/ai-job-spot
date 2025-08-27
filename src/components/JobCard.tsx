@@ -20,7 +20,8 @@ interface JobCardProps {
  * @param {string} [props.job.salaryRange] - The optional salary range.
  * @returns {JSX.Element} The rendered JobCard component.
  */
-const JobCard = ({ job }: JobCardProps) => {
+import React from 'react';
+const JobCard = React.memo(({ job }: JobCardProps) => {
   const { id, title, company, location, salaryRange, expirationDate, isNew } = job;
 
   const now = new Date();
@@ -86,6 +87,8 @@ const JobCard = ({ job }: JobCardProps) => {
       </div>
     </Link>
   );
-};
+});
+
+JobCard.displayName = 'JobCard';
 
 export default JobCard;

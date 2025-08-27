@@ -1,3 +1,5 @@
+import { createRequest, createResponse } from 'node-mocks-http';
+
 const mockCollection = jest.fn(() => ({
   add: jest.fn(() => Promise.resolve({ id: 'test-job-id' })),
 }));
@@ -33,15 +35,15 @@ jest.mock('firebase-admin', () => ({
   },
 }));
 
-import { createRequest, createResponse } from 'node-mocks-http';
 import handler from './index';
+import admin from 'firebase-admin';
 
 describe('Job API - POST /api/jobs', () => {
   let verifyIdTokenSpy: jest.SpyInstance;
 
   beforeEach(() => {
     jest.clearAllMocks();
-    verifyIdTokenSpy = jest.spyOn(admin.app().auth(), 'verifyIdToken');
+    verifyIdTokenSpy = jest.spyOn(admin.app('adminApp').auth(), 'verifyIdToken');
   });
 
   it('should return 401 if no authorization token is provided', async () => {

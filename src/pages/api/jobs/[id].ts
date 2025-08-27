@@ -1,13 +1,9 @@
 import type { NextApiResponse } from 'next';
 import { adminDb } from '../../../lib/firebaseAdmin';
-import * as admin from 'firebase-admin';
-import { JobPosting, FirestoreJobPosting } from '../../../lib/types';
-import DOMPurify from 'dompurify';
-import { JSDOM } from 'jsdom';
+import { FirestoreJobPosting, JobPosting } from '../../../lib/types';
+import DOMPurify from 'isomorphic-dompurify';
 import { requireAdmin, AuthenticatedNextApiRequest } from '../../../lib/middleware';
-
-const window = new JSDOM('').window;
-const purify = DOMPurify(window);
+import { validatePayload, isRequired, isURL, safeToTimestamp, isAfter } from '../../../lib/apiUtils';
 
 // This type represents the shape of the data coming from the frontend form
 type JobFormData = Partial<Omit<JobPosting, 'id' | 'tags' | 'responsibilities' | 'qualifications'> & {
@@ -37,79 +33,79 @@ export default async function handler(
       try {
         const jobData: JobFormData = req.body;
 
-        // --- Comprehensive Server-Side Validation ---
-        const errors: Record<string, string> = {};
-        // Note: In a PUT, we only validate fields that are present in the request body.
-        if (jobData.title !== undefined && (typeof jobData.title !== 'string' || !jobData.title)) {
-          errors.title = 'Job Title must be a non-empty string.';
-        }
-        if (jobData.company !== undefined && (typeof jobData.company !== 'string' || !jobData.company)) {
-          errors.company = 'Company must be a non-empty string.';
-        }
-        if (jobData.location !== undefined && (typeof jobData.location !== 'string' || !jobData.location)) {
-          errors.location = 'Location must be a non-empty string.';
-        }
-        if (jobData.description !== undefined && (typeof jobData.description !== 'string' || jobData.description === '<p><br></p>')) {
-          errors.description = 'Job Description is required.';
-        }
-        if (jobData.applicationLink !== undefined) {
-          if (!jobData.applicationLink) {
-            errors.applicationLink = 'Application Link is required.';
-          } else if (!/^https?:\/\/.+/.test(jobData.applicationLink)) {
-            errors.applicationLink = 'Please enter a valid URL for the Application Link.';
-          }
-        }
-        if (jobData.postedDate && jobData.expirationDate) {
-          if (new Date(jobData.expirationDate) <= new Date(jobData.postedDate)) {
-            errors.expirationDate = 'Expiration Date must be after Posted Date.';
-          }
-        }
+        const errors = validatePayload(jobData, {
+            title: [isRequired('Job Title')],
+            company: [isRequired('Company')],
+            location: [isRequired('Location')],
+            description: [isRequired('Job Description')],
+            applicationLink: [isRequired('Application Link'), isURL('Application Link')],
+            expirationDate: [isAfter('postedDate', 'Posted Date')],
+        });
 
         if (Object.keys(errors).length > 0) {
-          return res.status(400).json({ error: 'Validation failed', details: errors });
+          return res.status(400).json({ message: 'Validation failed', details: errors });
         }
-        // --- End Validation ---
 
         const updateData: Partial<FirestoreJobPosting> = {};
 
-        // --- Data Sanitization & Transformation ---
-        for (const key in jobData) {
-            if (Object.prototype.hasOwnProperty.call(jobData, key)) {
-                const value = jobData[key as keyof JobFormData];
+        // Build the update object safely, only including fields that were passed
+        if (jobData.title) updateData.title = jobData.title;
+        if (jobData.company) updateData.company = jobData.company;
+        if (jobData.location) updateData.location = jobData.location;
+        if (jobData.description) updateData.description = DOMPurify.sanitize(jobData.description);
+        if (jobData.applicationLink) updateData.applicationLink = jobData.applicationLink;
+        if (jobData.salaryRange) updateData.salaryRange = jobData.salaryRange;
+        if (jobData.tags) updateData.tags = jobData.tags.split(',').map(tag => tag.trim());
+        if (jobData.status) updateData.status = jobData.status;
+        if (jobData.jobLevel) updateData.jobLevel = jobData.jobLevel;
+        if (jobData.employeeRole) updateData.employeeRole = jobData.employeeRole;
+        if (jobData.responsibilities) updateData.responsibilities = jobData.responsibilities.split('\n').filter(r => r.trim() !== '');
+        if (jobData.qualifications) updateData.qualifications = jobData.qualifications.split('\n').filter(q => q.trim() !== '');
 
-                if (key === 'postedDate' && typeof value === 'string') {
-                    updateData.postedDate = admin.firestore.Timestamp.fromDate(new Date(value));
-                } else if (key === 'expirationDate' && typeof value === 'string') {
-                    updateData.expirationDate = admin.firestore.Timestamp.fromDate(new Date(value));
-                } else if (key === 'description' && typeof value === 'string') {
-                    updateData.description = purify.sanitize(value);
-                } else if (key === 'tags' && typeof value === 'string') {
-                    updateData.tags = value.split(',').map(tag => tag.trim());
-                } else if (key === 'responsibilities' && typeof value === 'string') {
-                    updateData.responsibilities = value.split('\n').map(r => r.trim());
-                } else if (key === 'qualifications' && typeof value === 'string') {
-                    updateData.qualifications = value.split('\n').map(q => q.trim());
-                } else if (value !== undefined) {
-                    (updateData as Record<string, unknown>)[key] = value;
-                }
+        if (jobData.postedDate) {
+            const timestamp = safeToTimestamp(jobData.postedDate, 'now');
+            if (timestamp) {
+                updateData.postedDate = timestamp;
+            }
+        }
+        if (jobData.expirationDate) {
+            const timestamp = safeToTimestamp(jobData.expirationDate, 'null');
+            if (timestamp) {
+                updateData.expirationDate = timestamp;
             }
         }
 
         if (Object.keys(updateData).length === 0) {
-          return res.status(400).json({ error: 'No fields to update.' });
+          return res.status(400).json({ error: 'No valid fields provided for update.' });
         }
 
         await jobRef.update(updateData);
 
+        // Fetch the updated document to return it
+        const updatedDoc = await jobRef.get();
+        if (!updatedDoc.exists) {
+          return res.status(404).json({ error: 'Job not found after update.' });
+        }
+
+        const updatedJobData = updatedDoc.data() as FirestoreJobPosting;
+
         // Trigger revalidation for relevant pages
         try {
-          await res.revalidate('/'); // Revalidate home page
-          await res.revalidate(`/jobs/${id}`); // Revalidate specific job page
+          await res.revalidate('/');
+          await res.revalidate(`/jobs/${id}`);
         } catch (revalError) {
           console.error('Error during revalidation after job update:', revalError);
         }
 
-        res.status(200).json({ message: 'Job posting updated successfully' });
+        const finalJob = {
+          id: updatedDoc.id,
+          ...updatedJobData,
+          // Convert Timestamps to ISO strings for JSON serialization
+          postedDate: updatedJobData.postedDate.toDate().toISOString(),
+          expirationDate: updatedJobData.expirationDate ? updatedJobData.expirationDate.toDate().toISOString() : null,
+        };
+
+        res.status(200).json({ message: 'Job posting updated successfully', job: finalJob });
       } catch (error) {
         console.error('Error updating document: ', error);
         res.status(500).json({ error: 'Failed to update job posting' });

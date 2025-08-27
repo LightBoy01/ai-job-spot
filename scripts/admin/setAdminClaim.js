@@ -15,25 +15,16 @@ const fs = require('fs');
 // Initialize Firebase Admin SDK if not already initialized
 if (!admin.apps.length) {
   try {
-    let serviceAccount;
-    // In development, read from the local file
-    const serviceAccountPath = path.resolve(__dirname, 'serviceAccountKey.local.json');
-    if (fs.existsSync(serviceAccountPath)) {
-      serviceAccount = JSON.parse(fs.readFileSync(serviceAccountPath, 'utf8'));
-    } else {
-      // Fallback for production-like environments if run outside Vercel's build process
-      // This part is less common for this specific script, but good for robustness.
-      if (process.env.FIREBASE_SERVICE_ACCOUNT_BASE64) {
-        serviceAccount = JSON.parse(Buffer.from(process.env.FIREBASE_SERVICE_ACCOUNT_BASE64, 'base64').toString('utf-8'));
-      } else {
-        throw new Error('serviceAccountKey.local.json not found and FIREBASE_SERVICE_ACCOUNT_BASE64 is not set.');
-      }
+    const serviceAccountPath = path.resolve(process.cwd(), 'serviceAccountKey.local.json');
+    if (!fs.existsSync(serviceAccountPath)) {
+        throw new Error('serviceAccountKey.local.json not found in the script directory.');
     }
+    const serviceAccount = JSON.parse(fs.readFileSync(serviceAccountPath, 'utf8'));
 
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
     });
-    console.log("Firebase Admin SDK initialized successfully.");
+    console.log("Firebase Admin SDK initialized successfully from local key.");
   } catch (error) {
     console.error("Firebase Admin SDK initialization error:", error);
     process.exit(1); // Exit if initialization fails

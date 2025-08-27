@@ -46,7 +46,7 @@ npm install
 
 1.  Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
 2.  Enable **Authentication** (with Email/Password provider) and **Firestore**.
-3.  For **local development**, you will need a Firebase service account key. Go to **Project Settings** > **Service Accounts** and generate a new private key. This will download a JSON file.
+3.  Go to **Project Settings** > **Service Accounts** and generate a new private key. This will download a JSON file.
 4.  **Rename this file to `serviceAccountKey.local.json`** and place it in the root of your project. This file is listed in `.gitignore` and will **not** be committed to version control.
 
 ### 4. Set Up Environment Variables
@@ -73,21 +73,24 @@ PADDLE_PRICE_ID="YOUR_PADDLE_PRICE_ID"
 PADDLE_WEBHOOK_SECRET="YOUR_PADDLE_WEBHOOK_SECRET"
 ```
 
-### 5. Install New Dependencies
-
-If you pull the latest changes, ensure you install new dependencies:
-
-```bash
-npm install
-```
-This will install `isomorphic-dompurify` and any other new packages.
-
 ### 5. Create an Admin User
 
 1.  In the Firebase Console, go to **Authentication** > **Users** and add a new user with an email and password.
-2.  You will need to set a custom claim for this user to grant them admin privileges. This is typically done with a script (like the `setAdminClaim.js` in this project) or manually in your backend.
+2.  Open the `scripts/admin/setAdminClaim.js` file and replace the placeholder email with the email of the user you just created.
+3.  Run the script to grant admin privileges to that user:
+    ```bash
+    node scripts/admin/setAdminClaim.js
+    ```
 
-### 6. Run the Application
+### 6. Seed the Database
+
+To populate your local Firestore database with the initial set of articles and jobs from the Markdown files, run the seed script:
+
+```bash
+npm run seed
+```
+
+### 7. Run the Application
 
 ```bash
 npm run dev
@@ -95,13 +98,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the site. You can log in to the admin panel at [http://localhost:3000/admin](http://localhost:3000/admin).
 
-### 4. Deploy to Vercel
+## Deployment to Vercel
 
 1.  Push your code to a GitHub repository.
 2.  Import the repository into Vercel.
 3.  In the Vercel project settings, add all the environment variables from your `.env.local` file, including the Paddle keys.
 4.  You must also add the Firebase service account key as a server-side secret. Create a new environment variable named `FIREBASE_SERVICE_ACCOUNT_BASE64`.
     *   **Value:** Copy the entire content of your `serviceAccountKey.local.json` file, encode it in Base64, and paste the resulting string. You can use an online tool or the following command:
-    *   `cat serviceAccountKey.local.json | base64`
+    *   `cat serviceAccountKey.local.json | base64 | tr -d '\n'`
 
 5.  Deploy. Vercel will handle the rest.
+

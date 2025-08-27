@@ -113,7 +113,10 @@ const AddNewJob: React.FC = () => {
         throw new Error(errorData.error || 'Failed to add job posting');
       }
 
-      toast.success('Job posting added successfully!', { id: toastId });
+      const result = await response.json();
+      const newJob = result.job as JobPosting;
+
+      toast.success(`Job "${newJob.title}" added successfully!`, { id: toastId });
       router.push('/admin/jobs');
     } catch (err) {
       console.error('Submission error:', err);

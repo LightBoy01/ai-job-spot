@@ -61,13 +61,14 @@ export default function ArticlePage({ article }: ArticlePageProps) {
     <Layout>
       <Head>
         <title>{`${title} | AI Job Spot`}</title>
-        <meta name="description" content={`${contentBody.substring(0, 160)}...`} />
+        <meta name="description" content={article.excerpt} />
         <meta name="author" content={author} />
-        <meta name="keywords" content={`${title}, AI careers, AI industry, machine learning, data science`} />
+        <meta name="keywords" content={article.tags.join(', ')} />
         <meta property="og:title" content={`${title} | AI Job Spot`} />
-        <meta property="og:description" content={`${contentBody.substring(0, 160)}...`} />
+        <meta property="og:description" content={article.excerpt} />
         <meta property="og:type" content="article" />
-                <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`} />
+        <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`} />
+        {article.imageUrl && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_SITE_URL}${article.imageUrl}`} />}
       </Head>
       <div className="max-w-4xl mx-auto px-4 py-8">
         <h1 className="text-4xl font-serif font-extrabold text-primary-dark mb-4">{title}</h1>
