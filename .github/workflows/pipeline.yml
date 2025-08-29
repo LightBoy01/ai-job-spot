@@ -31,7 +31,7 @@ jobs:
         run: python -m playwright install --with-deps
 
       - name: Install geckodriver
-        run: sudo apt-get update && sudo apt-get install -y firefox-geckodriver
+        run: sudo apt-get update && sudo apt-get install -y geckodriver
 
       - name: Run the scraping pipeline
         env:
