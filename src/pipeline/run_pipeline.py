@@ -59,7 +59,7 @@ def resolve_application_link(driver: webdriver.Firefox, internal_apply_url: str)
         return internal_apply_url
 
 # --- API Ingestion Function ---
-def send_to_ingest_api(job_data: dict, config: dict):
+def send_to_ingest_api(job_data: dict, config: dict, method: str = 'POST'):
     """Sends a job data payload to the secure ingest API."""
     ingest_url = f"{config['API_BASE_URL']}/api/admin/ingest"
     api_key = os.getenv('PIPELINE_API_KEY')
@@ -139,7 +139,7 @@ def main():
                 print("\n--- Scraping and Sending to API ---")
                 for raw_job in all_raw_job_streams:
                     print(f"  > Processing new job '{raw_job.get('title')}'...")
-                    send_to_ingest_api(raw_job, config)
+                    send_to_ingest_api(raw_job, config, method='POST')
                     time.sleep(1) # Add a small delay to be respectful to our own API
 
                 print("\nPipeline finished successfully.")
