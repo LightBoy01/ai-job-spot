@@ -37,26 +37,12 @@ def load_pipeline_config():
 # --- Stateful Execution Functions ---
 def get_existing_job_ids(config: dict) -> set:
     """Fetches all existing job IDs from the API to prevent duplicates."""
-    ids_url = f"{config['API_BASE_URL']}/api/jobs/ids"
-    try:
-        print(f"Fetching existing job IDs from {ids_url}...")
-        response = requests.get(ids_url, timeout=30)
-        response.raise_for_status()
-        job_ids = response.json()
-        print(f"Found {len(job_ids)} existing job IDs.")
-        return set(job_ids)
-    except requests.exceptions.RequestException as e:
-        print(f"Warning: Could not fetch existing job IDs. Proceeding without duplicate check. Error: {e}", file=sys.stderr)
-        return set() # Return an empty set on failure
+    # This function is now deprecated as the API handles duplicate checking,
+    # but we keep it to avoid breaking the main loop immediately.
+    # It will be removed in a future refactor.
+    print("Warning: get_existing_job_ids is deprecated. The API now handles duplicate checks.")
+    return set()
 
-def generate_job_id(job: dict) -> str:
-    """Generates a consistent, URL-friendly ID for a job."""
-    company = job.get('company', 'nocompany')
-    title = job.get('title', 'notitle')
-    # Sanitize company and title to be used in an ID
-    company_slug = re.sub(r'[^a-z0-9-]', '', company.lower().replace(' ', '-'))
-    title_slug = re.sub(r'[^a-z0-9-]', '', title.lower().replace(' ', '-'))
-    return f"job-scraped-{company_slug[:20]}-{title_slug[:50]}"
 
 
 def resolve_application_link(driver: webdriver.Firefox, internal_apply_url: str) -> str:
@@ -74,10 +60,29 @@ def resolve_application_link(driver: webdriver.Firefox, internal_apply_url: str)
 
 # --- API Ingestion Function ---
 def send_to_ingest_api(job_data: dict, config: dict):
-    """DRY RUN: Prints the job data that would be sent to the API."""
-    print("\n--- [DRY RUN] --- WOULD SEND THE FOLLOWING JOB DATA TO API ---")
-    print(json.dumps(job_data, indent=2))
-    print("--- [DRY RUN] ---\\n")
+    """Sends a job data payload to the secure ingest API."""
+    ingest_url = f"{config['API_BASE_URL']}/api/admin/ingest"
+    api_key = os.getenv('PIPELINE_API_KEY')
+
+    if not api_key:
+        print("Error: PIPELINE_API_KEY environment variable not set.", file=sys.stderr)
+        return
+
+    headers = {
+        'Content-Type': 'application/json',
+        'x-api-key': api_key
+    }
+
+    try:
+        print(f"  - Sending '{job_data.get('title')}' to {ingest_url}")
+        response = requests.post(ingest_url, headers=headers, json=job_data, timeout=30)
+        response.raise_for_status() # Raises an HTTPError for bad responses (4xx or 5xx)
+        print(f"    - Success: {response.json().get('message')}")
+    except requests.exceptions.RequestException as e:
+        print(f"    - Error sending job to API: {e}", file=sys.stderr)
+        if e.response:
+            print(f"    - API Response: {e.response.text}", file=sys.stderr)
+
 
 # --- Helper Functions ---
 def get_driver() -> webdriver.Firefox:
@@ -133,14 +138,7 @@ def main():
 
                 print("\n--- Scraping and Sending to API ---")
                 for raw_job in all_raw_job_streams:
-                    job_id = generate_job_id(raw_job)
-                    if job_id in existing_ids:
-                        print(f"  > Skipping duplicate job '{raw_job.get('title')}'")
-                        continue
-                    
                     print(f"  > Processing new job '{raw_job.get('title')}'...")
-                    # Add the generated ID to the job data before sending
-                    raw_job['id'] = job_id
                     send_to_ingest_api(raw_job, config)
                     time.sleep(1) # Add a small delay to be respectful to our own API
 

@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   webpack: (config) => {
     // See https://webpack.js.org/configuration/watch/#watchoptions-ignored
     config.watchOptions.ignored = [

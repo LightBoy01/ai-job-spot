@@ -7,15 +7,21 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(401).json({ message: 'Invalid token' })
   }
 
-  // 2. Get the path to revalidate from the request body
+  // 2. Check for the correct HTTP method
+  if (req.method !== 'POST') {
+    res.setHeader('Allow', ['POST']);
+    return res.status(405).end(`Method ${req.method} Not Allowed`);
+  }
+
+  // 3. Get and validate the path to revalidate from the request body
   const pathToRevalidate = req.body.path
 
-  if (!pathToRevalidate) {
-    return res.status(400).json({ message: 'Path to revalidate is required' })
+  if (!pathToRevalidate || typeof pathToRevalidate !== 'string') {
+    return res.status(400).json({ message: 'A valid path to revalidate is required' })
   }
 
   try {
-    // 3. Call the revalidate function
+    // 4. Call the revalidate function
     await res.revalidate(pathToRevalidate)
     console.log(`Revalidated: ${pathToRevalidate}`);
     return res.json({ revalidated: true })

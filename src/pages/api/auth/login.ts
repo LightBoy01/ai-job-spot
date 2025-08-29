@@ -1,5 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { serialize } from 'cookie';
+import { admin } from '../../../lib/firebaseAdmin';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
@@ -14,18 +15,22 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    // Set the ID token as an HttpOnly cookie
+    // Verify the ID token to ensure it's valid.
+    await admin.auth().verifyIdToken(idToken);
+
+    // Set the ID token as an HttpOnly, secure cookie.
     res.setHeader('Set-Cookie', serialize('__session', idToken, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === 'production', // Use secure in production
+      secure: process.env.NODE_ENV === 'production',
       maxAge: 60 * 60 * 24 * 5, // 5 days
       path: '/',
-      sameSite: 'lax', // Or 'strict' for more security
+      sameSite: 'lax',
     }));
 
     return res.status(200).json({ message: 'Logged in successfully' });
   } catch (error) {
-    console.error('Error setting session cookie:', error);
-    return res.status(500).json({ message: 'Failed to set session cookie' });
+    // If token verification fails, Firebase Admin SDK throws an error.
+    console.error('Authentication error:', error);
+    return res.status(401).json({ message: 'Authentication failed. Invalid token.' });
   }
 }

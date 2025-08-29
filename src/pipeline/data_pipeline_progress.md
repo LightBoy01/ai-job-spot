@@ -41,3 +41,28 @@ Refactor the data pipeline to a robust, automated, and memory-efficient streamin
 3.  **Analyze Log:** Check `run_pipeline.log` for `hiring.cafe` connectivity and then for selector issues.
 4.  **Implement Debugging:** If connectivity is resolved, add `print` statements and HTML saving to `hiring_cafe_scraper.py` to debug selectors.
 5.  **Continue Integration:** Integrate `intelligent_scraper.py` and `configurable_scraper.py` once `hiring.cafe` is stable.
+
+---
+## Phase 2: Pipeline Unification & Robustness
+
+**Date:** August 27, 2025
+
+**Goal:** Evolve the pipeline from a collection of scripts into a single, atomic, and resilient data processing application.
+
+### Next Steps:
+
+- [x] **1. Unify `run_pipeline.py`:**
+    - [x] Refactor `run_pipeline.py` to be the sole entry point.
+    - [x] Import and call logic from `rss_aggregator.py`, `configurable_scraper.py`, and `prepare_for_admin_panel.py` as functions within a single execution flow.
+    - [x] Eliminate the need for intermediate JSON files (`rss_jobs.json`, `final_jobs.json`) by passing data in-memory between stages.
+    - [x] The script's only output should be the final `prepared_jobs_for_admin.json`.
+
+- [x] **2. Implement State Management:**
+    - [x] At the start of the run, read the existing `prepared_jobs_for_admin.json`.
+    - [x] Store all existing job IDs in a Python `set` for efficient lookup.
+    - [x] During the transformation stage, skip any newly scraped jobs whose generated ID is already in the set.
+
+- [x] **3. Improve Scraper Robustness:**
+    - [x] Select one scraper (e.g., `foorilla.com`) as a candidate for refactoring.
+    - [x] Augment CSS selectors with text-based searches (e.g., find `<div>` containing "Salary") to reduce breakage from UI changes.
+    - [x] Document this new pattern to be applied to other scrapers in the future.
