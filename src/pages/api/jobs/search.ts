@@ -24,15 +24,7 @@ export default async function handler(
       startAfterSnapshot = await getDoc(docRef);
     }
 
-    const { jobs: allJobs, lastVisible } = await getJobs(undefined, startAfterSnapshot);
-
-    const filteredJobs = allJobs.filter(job =>
-      job.title.toLowerCase().includes(q.toLowerCase()) ||
-      job.company.toLowerCase().includes(q.toLowerCase()) ||
-      job.description.toLowerCase().includes(q.toLowerCase())
-    );
-
-    const jobs = filteredJobs;
+    const { jobs, lastVisible } = await getJobs(undefined, startAfterSnapshot, q);
     res.status(200).json({ jobs, lastVisible: lastVisible ? lastVisible.id : null });
   } catch (error) {
     console.error('Error searching for jobs:', error);

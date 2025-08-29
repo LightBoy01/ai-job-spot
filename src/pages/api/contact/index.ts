@@ -64,6 +64,8 @@ export default async function handler(
     // 1. Validate the request body with Zod
     const { name, email, message } = contactFormSchema.parse(req.body);
 
+    const sanitizedName = name.replace(/(\r\n|\n|\r)/gm, "");
+
     // 2. Set up Nodemailer transporter
     const transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -78,7 +80,7 @@ export default async function handler(
       from: process.env.GMAIL_USER,
       to: process.env.GMAIL_USER,
       replyTo: email,
-      subject: `New Contact Form Submission from ${name}`,
+      subject: `New Contact Form Submission from ${sanitizedName}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     };
 

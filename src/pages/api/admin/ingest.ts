@@ -21,6 +21,8 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
+  console.log(`DEBUG: Ingest API received method: ${req.method}`);
+  console.log(`DEBUG: Ingest API received x-api-key: ${req.headers['x-api-key']}`);
   // 1. SECURE THE ENDPOINT
   if (req.method !== 'POST') {
     res.setHeader('Allow', ['POST']);

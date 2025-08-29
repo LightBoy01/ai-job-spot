@@ -51,7 +51,7 @@ const processArticleData = (docSnap: DocumentSnapshot<DocumentData>): Article =>
     } as Article;
 };
 
-export async function getJobs(limit?: number, startAfterDoc?: DocumentSnapshot): Promise<{ jobs: JobPosting[], lastVisible: DocumentSnapshot | null }> {
+export async function getJobs(limit?: number, startAfterDoc?: DocumentSnapshot, searchTerm?: string): Promise<{ jobs: JobPosting[], lastVisible: DocumentSnapshot | null }> {
   const jobsCollectionRef = collection(db, 'jobs');
   let q = query(jobsCollectionRef, where('status', '==', 'published'), orderBy('postedDate', 'desc'));
 
@@ -60,6 +60,14 @@ export async function getJobs(limit?: number, startAfterDoc?: DocumentSnapshot):
   }
   if (limit) {
     q = query(q, limitTo(limit));
+  }
+
+  if (searchTerm) {
+    // Firestore does not support full-text search or OR queries across multiple fields directly.
+    // This query performs a case-sensitive "starts with" search on the 'title' field.
+    // For more advanced search capabilities (e.g., case-insensitive, full-text, or across multiple fields),
+    // consider implementing multiple queries or integrating a dedicated search service like Algolia.
+    q = query(q, where('title', '>=', searchTerm), where('title', '<=', searchTerm + '\uf8ff'));
   }
   const querySnapshot = await getDocs(q);
   const jobs = querySnapshot.docs.map(processJobData);
