@@ -1,3 +1,4 @@
+
 # AI Job Spot - Automated Data Pipeline
 
 name: Scrape Job Postings
@@ -42,6 +43,19 @@ jobs:
           PIPELINE_API_KEY: ${{ secrets.PIPELINE_API_KEY }}
           SITE_URL: ${{ secrets.SITE_URL }}
         run: python -m src.pipeline.run_pipeline
+
+      - name: Create Pull Request with new jobs
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Bot: Add new scraped jobs for review"
+          title: "Bot: New Scraped Jobs for Review"
+          body: "New jobs were scraped by the automated pipeline and are ready for review. Please check the added files."
+          branch: "bot/scraped-jobs"
+          base: "main"
+          delete-branch: true
+          add-paths: |
+            data/pending_review/
 
       - name: Upload pipeline log as artifact
         uses: actions/upload-artifact@v4

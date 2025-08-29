@@ -102,7 +102,7 @@ def main():
             try:
                 # Define all job streams from different sources
                 rss_stream = stream_rss_jobs() or []
-                foorilla_stream = stream_foorilla_jobs(driver, limit=5)
+                foorilla_stream = stream_foorilla_jobs(driver, limit=2)
 
                 # Chain all data-yielding streams together
                 all_raw_job_streams = itertools.chain(rss_stream, foorilla_stream)
