@@ -42,3 +42,9 @@ jobs:
           PIPELINE_API_KEY: ${{ secrets.PIPELINE_API_KEY }}
           SITE_URL: ${{ secrets.SITE_URL }}
         run: python src/pipeline/run_pipeline.py
+
+      - name: Upload pipeline log as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-run-log
+          path: src/pipeline/pipeline_run.log
