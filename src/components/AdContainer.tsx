@@ -1,4 +1,10 @@
+'use client';
+
 import Adsense from './Adsense';
+
+interface AdContainerProps {
+  slot: string;
+}
 
 /**
  * A flexible container for displaying Google AdSense ads.
@@ -9,27 +15,25 @@ import Adsense from './Adsense';
  * @param {string} props.slot - The Google AdSense ad slot ID.
  * @returns {JSX.Element} The rendered AdContainer component.
  */
-const AdContainer = ({ slot }) => {
+const AdContainer = ({ slot }: AdContainerProps) => {
   // Ads should only be loaded in the production environment
   const isProduction = process.env.NODE_ENV === 'production';
 
   return (
     <div className="
-      w-full                 
-      min-h-[280px]          
-      p-4                    
-      border-2               
-      border-dashed          
-      border-gray-300 
-      bg-gray-50             
-      flex                   
-      items-center           
-      justify-center         
+      w-full
+      p-4
+      border border-solid border-neutral-200
+      bg-neutral-50
+      shadow-sm
+      flex
+      items-center
+      justify-center
       text-center
-      my-4                   // Added margin for spacing between multiple ad units
+      my-4
     ">
       {isProduction ? (
-        <Adsense adSlot={slot} />
+        <Adsense key={slot} adSlot={slot} dataAdFormat="auto" dataFullWidthResponsive={true} />
       ) : (
         <span className="text-gray-400 text-sm">Ad Placeholder (Dev Mode)</span>
       )}

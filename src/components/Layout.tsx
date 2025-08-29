@@ -1,69 +1,49 @@
 import Navbar from './Navbar';
-import AdContainer from './AdContainer';
-import PropTypes from 'prop-types';
-import Head from 'next/head'; // Import the Head component
+import Footer from './Footer'; // Import the Footer component
+
+import React from 'react';
+
+interface LayoutProps {
+  children: React.ReactNode;
+  title?: string; // Optional, as it's primarily handled by root layout metadata
+  description?: string; // Optional, as it's primarily handled by root layout metadata
+}
 
 /**
  * The main layout component for the entire site.
- * It includes the Navbar, a responsive two-column structure, and
- * handles dynamic SEO metadata (<title>, <meta description>, etc.).
+ * It includes the Navbar and a responsive two-column structure.
+ * Page-specific SEO metadata (title, description) is now primarily handled
+ * by the root `src/app/layout.tsx` or individual page `metadata` exports.
  *
  * @param {object} props - The component props.
  * @param {React.ReactNode} props.children - The main content to be rendered.
- * @param {string} [props.title] - The title for the page, used in the <title> tag.
- * @param {string} [props.description] - The meta description for SEO.
+ * @param {string} [props.title] - The title for the page (for internal use or fallback).
+ * @param {string} [props.description] - The meta description (for internal use or fallback).
  * @returns {JSX.Element} The rendered Layout component.
  */
-const Layout = ({ children, title, description }) => {
+const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="min-h-screen bg-gray-100 font-sans">
-      <Head>
-        {/* The title tag is crucial for SEO. It should be unique for every page. */}
-        <title>{title}</title>
-        {/* The meta description is used by search engines for the page snippet. */}
-        <meta name="description" content={description} />
-        {/* Add a favicon for branding */}
-        <link rel="icon" href="/favicon.ico" />
-        {/* Add other meta tags like Open Graph for social sharing here if needed */}
-      </Head>
-
+    <div className="min-h-screen bg-neutral-50 font-sans">
+      
       {/* The Navbar is rendered at the top of every page */}
       <Navbar />
 
-      {/* Main content area */}
+      {/* Main content area - now full width by default */}
       <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 lg:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 lg:gap-12">
           
-          {/* Primary Content Column (approx. 70%) */}
-          <div className="lg:col-span-8">
+          {/* Primary Content Column (now full width) */}
+          <div className="lg:col-span-12">
             {children}
           </div>
 
-          {/* Sidebar Column (approx. 30%) */}
-          <aside className="lg:col-span-4 mt-8 lg:mt-0">
-            {/* The sticky container ensures the ad stays visible on scroll */}
-            <div className="sticky top-24"> 
-              <AdContainer slot={process.env.NEXT_PUBLIC_ADSENSE_SIDEBAR_SLOT} />
-            </div>
-          </aside>
+          {/* AdContainer will now be placed strategically within pages */}
 
         </div>
       </main>
+      <Footer />
     </div>
   );
-};
-
-// Define PropTypes for the new props
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  title: PropTypes.string,
-  description: PropTypes.string,
-};
-
-// Set default props as a fallback
-Layout.defaultProps = {
-  title: 'AI Job Spot - The Future of AI Careers',
-  description: 'Find the latest jobs in Artificial Intelligence, Machine Learning, and Data Science.',
 };
 
 export default Layout;

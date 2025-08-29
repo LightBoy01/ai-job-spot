@@ -1,5 +1,13 @@
+'use client';
+
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+
+interface AdsenseProps {
+  adSlot: string;
+  dataAdFormat?: string;
+  dataFullWidthResponsive?: boolean;
+}
 
 /**
  * Handles the logic for a single Google AdSense unit.
@@ -8,24 +16,28 @@ import { useRouter } from 'next/router';
  * 
  * @param {object} props - The component props.
  * @param {string} props.adSlot - The Google AdSense ad slot ID from your AdSense account.
+ * @param {string} [props.dataAdFormat] - The ad format (e.g., "auto", "rectangle").
+ * @param {boolean} [props.dataFullWidthResponsive] - Whether the ad should be full width responsive.
  * @returns {JSX.Element} The <ins> tag that AdSense uses to inject the ad.
  */
-const Adsense = ({ adSlot }) => {
+declare global {
+  interface Window {
+    adsbygoogle: unknown[];
+  }
+}
+
+const Adsense = ({ adSlot, dataAdFormat, dataFullWidthResponsive }: AdsenseProps) => {
   const router = useRouter();
 
   useEffect(() => {
-    // This effect will run on component mount and every time the route changes.
-    // This is crucial for single-page applications like Next.js.
     try {
-      // Check if the adsbygoogle script is loaded
       if (typeof window !== 'undefined' && window.adsbygoogle) {
-        // Push an ad request to AdSense
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       }
     } catch (err) {
       console.error("AdSense error:", err);
     }
-  }, [router.asPath]); // The dependency array ensures the ad reloads on page navigation
+  }, [router.asPath, adSlot]); // Re-run effect when adSlot changes
 
   return (
     <ins
@@ -33,8 +45,8 @@ const Adsense = ({ adSlot }) => {
       style={{ display: 'block' }}
       data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_CLIENT} // Your AdSense publisher ID
       data-ad-slot={adSlot} // The specific ad unit slot ID
-      data-ad-format="auto"
-      data-full-width-responsive="true"
+      data-ad-format={dataAdFormat || "auto"}
+      data-full-width-responsive={dataFullWidthResponsive ? "true" : "false"}
     ></ins>
   );
 };
