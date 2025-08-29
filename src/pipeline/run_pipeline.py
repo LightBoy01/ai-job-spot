@@ -107,41 +107,59 @@ def stream_foorilla_jobs(driver: webdriver.Firefox, limit: int = 1):
 
 def main():
     """Main function to orchestrate the entire data pipeline."""
-    print("Starting stateful pipeline run...")
-    config = load_pipeline_config()
-    existing_ids = get_existing_job_ids(config)
-    driver = get_driver()
-    
-    try:
-        # Define all job streams from different sources
-        rss_stream = stream_rss_jobs() or []
-        foorilla_stream = stream_foorilla_jobs(driver, limit=5) # Increased limit for production
+    # Define the log file path
+    LOG_FILE = os.path.join(os.path.dirname(__file__), 'pipeline_run.log')
 
-        # Chain all data-yielding streams together
-        all_raw_job_streams = itertools.chain(rss_stream, foorilla_stream)
-
-        print("\n--- Scraping and Sending to API ---")
-        for raw_job in all_raw_job_streams:
-            job_id = generate_job_id(raw_job)
-            if job_id in existing_ids:
-                print(f"  > Skipping duplicate job '{raw_job.get('title')}'")
-                continue
+    # Redirect stdout and stderr to the log file
+    original_stdout = sys.stdout
+    original_stderr = sys.stderr
+    with open(LOG_FILE, 'w') as f:
+        sys.stdout = f
+        sys.stderr = f
+        
+        try:
+            print("Starting stateful pipeline run...")
+            config = load_pipeline_config()
+            existing_ids = get_existing_job_ids(config)
+            driver = get_driver()
             
-            print(f"  > Processing new job '{raw_job.get('title')}'...")
-            # Add the generated ID to the job data before sending
-            raw_job['id'] = job_id
-            send_to_ingest_api(raw_job, config)
-            time.sleep(1) # Add a small delay to be respectful to our own API
+            try:
+                # Define all job streams from different sources
+                rss_stream = stream_rss_jobs() or []
+                foorilla_stream = stream_foorilla_jobs(driver, limit=5) # Increased limit for production
 
-        print("\nPipeline finished successfully.")
+                # Chain all data-yielding streams together
+                all_raw_job_streams = itertools.chain(rss_stream, foorilla_stream)
 
-    except Exception as e:
-        print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
-        sys.exit(1)
-    finally:
-        print("Shutting down browser driver...")
-        if driver:
-            driver.quit()
+                print("\n--- Scraping and Sending to API ---")
+                for raw_job in all_raw_job_streams:
+                    job_id = generate_job_id(raw_job)
+                    if job_id in existing_ids:
+                        print(f"  > Skipping duplicate job '{raw_job.get('title')}'")
+                        continue
+                    
+                    print(f"  > Processing new job '{raw_job.get('title')}'...")
+                    # Add the generated ID to the job data before sending
+                    raw_job['id'] = job_id
+                    send_to_ingest_api(raw_job, config)
+                    time.sleep(1) # Add a small delay to be respectful to our own API
+
+                print("\nPipeline finished successfully.")
+
+            except Exception as e:
+                print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
+                # No sys.exit(1) in the log file version
+            finally:
+                print("Shutting down browser driver...")
+                if driver:
+                    driver.quit()
+        finally:
+            # Restore stdout and stderr
+            sys.stdout = original_stdout
+            sys.stderr = original_stderr
+    
+    # Print a final confirmation to the actual console
+    print(f"Pipeline dry run complete. Output logged to {LOG_FILE}")
 
 if __name__ == "__main__":
     # Re-pasting the full functions here since they were placeholders above
