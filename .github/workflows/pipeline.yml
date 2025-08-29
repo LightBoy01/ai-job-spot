@@ -30,6 +30,9 @@ jobs:
       - name: Install Playwright browsers
         run: python -m playwright install --with-deps
 
+      - name: Install geckodriver
+        run: sudo apt-get update && sudo apt-get install -y firefox-geckodriver
+
       - name: Run the scraping pipeline
         env:
           PIPELINE_API_KEY: ${{ secrets.PIPELINE_API_KEY }}
