@@ -70,3 +70,4 @@ pglite-debug.log
 # Archives and temporary files
 /archive/
 *.zip
+\n# Ignore internal documentation\ndocs/
