@@ -25,7 +25,8 @@ def send_to_ingest_api(job_data: dict, config: dict, method: str = 'POST'):
 
     headers = {
         'Content-Type': 'application/json',
-        'x-api-key': api_key
+        'x-api-key': api_key,
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     print(f"DEBUG: Sending headers: {headers}", file=sys.stderr)
 
