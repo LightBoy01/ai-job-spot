@@ -94,6 +94,7 @@ def main():
                 # No sys.exit(1) in the log file version
             finally:
                 print("Shutting down browser driver...")
+
                 if driver:
                     driver.quit()
         finally:
@@ -105,6 +106,7 @@ def main():
     print(f"Pipeline dry run complete. Output logged to {LOG_FILE}")
 
 if __name__ == "__main__":
+    main()
     
 
     
