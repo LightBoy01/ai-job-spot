@@ -30,8 +30,16 @@ def send_to_ingest_api(job_data: dict, config: dict, method: str = 'POST'):
     print(f"DEBUG: Sending headers: {headers}", file=sys.stderr)
 
     try:
+        # Prepare the request to inspect it
+        req = requests.Request('POST', ingest_url, headers=headers, json=job_data)
+        prepared_req = req.prepare()
+
         print(f"  - Sending '{job_data.get('title')}' to {ingest_url}")
-        response = requests.post(ingest_url, headers=headers, json=job_data, timeout=30)
+        print(f"  - DEBUG: Request method: {prepared_req.method}") # Explicitly log the method
+
+        with requests.Session() as session:
+            response = session.send(prepared_req, timeout=30)
+
         response.raise_for_status() # Raises an HTTPError for bad responses (4xx or 5xx)
         print(f"    - Success: {response.json().get('message')}")
     except requests.exceptions.RequestException as e:
