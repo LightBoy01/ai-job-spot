@@ -15,7 +15,7 @@ failed_logger.addHandler(file_handler)
 
 def send_to_ingest_api(job_data: dict, config: dict, method: str = 'POST'):
     """Sends a job data payload to the secure ingest API."""
-    ingest_url = f"{config['API_BASE_URL']}/api/admin/ingest"
+    ingest_url = f"{config['API_BASE_URL']}/api/pipeline/ingest"
     api_key = os.getenv('PIPELINE_API_KEY')
 
     if not api_key:
