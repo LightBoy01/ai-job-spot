@@ -3,3 +3,4 @@ feedparser
 lxml
 requests
 selenium
+playwright
