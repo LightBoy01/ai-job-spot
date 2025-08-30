@@ -1,6 +1,4 @@
 beautifulsoup4
 feedparser
 lxml
-requests
 selenium
-playwright
