@@ -11,7 +11,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, WebDriverException
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
+from datetime import datetime, timedelta
+
+# --- Helper Functions ---
 
 def resolve_application_link(driver: webdriver.Firefox, internal_apply_url: str) -> str:
     """Navigates to an internal apply URL and resolves the final external link."""
@@ -24,7 +27,7 @@ def resolve_application_link(driver: webdriver.Firefox, internal_apply_url: str)
         return final_url
     except (TimeoutException, WebDriverException) as e:
         print(f"    - Error resolving application link {internal_apply_url}: {e}", file=sys.stderr)
-        return internal_apply_url
+        return internal_apply_url # Return the internal URL if resolution fails
 
 def get_driver() -> webdriver.Firefox:
     """Initializes and returns a Selenium Firefox driver for Termux."""
@@ -41,57 +44,80 @@ def get_driver() -> webdriver.Firefox:
         print(f"Error initializing Firefox driver: {e}", file=sys.stderr)
         sys.exit(1)
 
+# --- Extraction Functions ---
+
+def extract_posted_date(soup: BeautifulSoup) -> str | None:
+    """Extracts the posted date from the job detail page."""
+    date_elements = soup.find_all(text=re.compile(r'(Posted|Published|Date Posted|Application Deadline)', re.IGNORECASE))
+    for elem in date_elements:
+        # Look for date patterns in the element's text or its parent's text
+        text_to_parse = elem.strip() + (elem.find_next_sibling().get_text(strip=True) if elem.find_next_sibling() else '')
+        
+        # Common date formats to try parsing
+        formats = [
+            "%B %d, %Y", # August 29, 2025
+            "%Y-%m-%d", # 2025-08-29
+            "%d-%m-%Y", # 29-08-2025
+            "%m/%d/%Y", # 08/29/2025
+        ]
+        for fmt in formats:
+            try:
+                # Extract just the date part from the string
+                date_match = re.search(r'\b(\w+ \d{1,2}, \d{4}|\d{4}-\d{2}-\d{2}|\d{1,2}-\d{2}-\d{4}|\d{2}/\d{2}/\d{4})\b', text_to_parse)
+                if date_match:
+                    dt_obj = datetime.strptime(date_match.group(0), fmt)
+                    return dt_obj.isoformat() + 'Z'
+            except ValueError:
+                continue
+    return None
+
+def extract_salary_range(soup: BeautifulSoup) -> str | None:
+    """Extracts the salary range from the job detail page."""
+    # Look for elements that might contain salary info
+    salary_elements = soup.find_all(text=re.compile(r'(salary|compensation|pay|wage)', re.IGNORECASE))
+    for elem in salary_elements:
+        # Look for common salary patterns in the element's text or its parent's text
+        text_to_parse = elem.strip() + (elem.find_next_sibling().get_text(strip=True) if elem.find_next_sibling() else '')
+        
+        patterns = [
+            r'\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?\s*(?:-|to)?\s*\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?\s*(?:per year|p\.a\.|/yr|annually)?', # $XX,XXX - $YY,YYY
+            r'\d{1,3}(?:,\d{3})*\s*(?:k|K)?\s*(?:-|to)?\s*\d{1,3}(?:,\d{3})*\s*(?:k|K)?\s*(?:per year|p\.a\.|/yr|annually)?', # XXk - YYk
+            r'(competitive|negotiable|based on experience)', # Keywords
+        ]
+        for pattern in patterns:
+            match = re.search(pattern, text_to_parse, re.IGNORECASE)
+            if match:
+                return match.group(0).strip()
+    return None
+
+def extract_job_level(soup: BeautifulSoup) -> str | None:
+    """Extracts the job level (e.g., Senior, Junior) from the job detail page."""
+    levels = ['Junior', 'Entry-Level', 'Associate', 'Mid-Level', 'Senior', 'Lead', 'Principal', 'Staff', 'Manager', 'Director', 'VP']
+    # Search for these keywords in common places like headings, strong tags, or list items
+    for tag in soup.find_all(['h1', 'h2', 'h3', 'strong', 'li', 'p']):
+        text = tag.get_text(strip=True)
+        for level in levels:
+            if re.search(r'\b' + re.escape(level) + r'\b', text, re.IGNORECASE):
+                return level
+    return None
+
+def extract_employee_role(soup: BeautifulSoup) -> str | None:
+    """Extracts the employee role (e.g., Full-time, Contract) from the job detail page."""
+    roles = ['Full-time', 'Part-time', 'Contract', 'Temporary', 'Internship', 'Freelance', 'Permanent']
+    # Search for these keywords in common places
+    for tag in soup.find_all(['h1', 'h2', 'h3', 'strong', 'li', 'p']):
+        text = tag.get_text(strip=True)
+        for role in roles:
+            if re.search(r'\b' + re.escape(role) + r'\b', text, re.IGNORECASE):
+                return role
+    return None
+
+# --- Main Stream Function ---
+
 def stream_foorilla_jobs(driver: webdriver.Firefox, limit: int = 1):
-    def extract_posted_date(soup: BeautifulSoup) -> str | None:
-        date_patterns = [
-            re.compile(r'Posted:\s*(.+)', re.IGNORECASE),
-            re.compile(r'Date Posted:\s*(.+)', re.IGNORECASE),
-            re.compile(r'Published:\s*(.+)', re.IGNORECASE),
-        ]
-        for tag in soup.find_all(['span', 'div', 'p', 'li']):
-            text = tag.get_text(strip=True)
-            for pattern in date_patterns:
-                match = pattern.search(text)
-                if match:
-                    try:
-                        parsed_date = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.strptime(match.group(1), '%B %d, %Y'))
-                        return parsed_date
-                    except ValueError:
-                        pass
-        return None
-
-    def extract_salary_range(soup: BeautifulSoup) -> str | None:
-        salary_patterns = [
-            re.compile(r'(\$\d{1,3}(?:,\d{3})*(?:-\s*\$\d{1,3}(?:,\d{3})*)?)', re.IGNORECASE),
-            re.compile(r'(competitive|negotiable)', re.IGNORECASE),
-            re.compile(r'salary:\s*(.+)', re.IGNORECASE),
-        ]
-        for tag in soup.find_all(['span', 'div', 'p', 'li', 'h2', 'h3']):
-            text = tag.get_text(strip=True)
-            for pattern in salary_patterns:
-                match = pattern.search(text)
-                if match:
-                    return match.group(1).strip()
-            return None
-
-    def extract_job_level(soup: BeautifulSoup) -> str | None:
-        levels = ['Junior', 'Entry-Level', 'Associate', 'Mid-Level', 'Senior', 'Lead', 'Principal', 'Staff', 'Manager', 'Director', 'VP']
-        for tag in soup.find_all(['span', 'div', 'p', 'li', 'h2', 'h3']):
-            text = tag.get_text(strip=True)
-            for level in levels:
-                if level.lower() in text.lower():
-                    return level
-        return None
-
-    def extract_employee_role(soup: BeautifulSoup) -> str | None:
-        roles = ['Full-time', 'Part-time', 'Contract', 'Temporary', 'Internship', 'Freelance']
-        for tag in soup.find_all(['span', 'div', 'p', 'li', 'h2', 'h3']):
-            text = tag.get_text(strip=True)
-            for role in roles:
-                if role.lower() in text.lower():
-                    return role
-        return None
-
+    """
+    A generator function that scrapes jobs from Foorilla and yields them one by one.
+    """
     print("Processing foorilla.com...")
     main_url = "https://foorilla.com/"
     try:
