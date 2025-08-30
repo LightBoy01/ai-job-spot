@@ -71,3 +71,4 @@ pglite-debug.log
 /archive/
 *.zip
 \n# Ignore internal documentation\ndocs/
+\n# Pipeline cache database\n*.db\n*.db-journal
