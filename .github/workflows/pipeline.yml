@@ -1,4 +1,3 @@
-
 # AI Job Spot - Automated Data Pipeline
 
 name: Scrape Job Postings
@@ -14,6 +13,11 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    # Grant permissions for the GITHUB_TOKEN to create a pull request
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
@@ -51,7 +55,7 @@ jobs:
           commit-message: "Bot: Add new scraped jobs for review"
           title: "Bot: New Scraped Jobs for Review"
           body: "New jobs were scraped by the automated pipeline and are ready for review. Please check the added files."
-          branch: "bot/scraped-jobs"
+          branch: "bot/scraped-jobs-${{ github.run_id }}" # Create a unique branch for each run
           base: "main"
           delete-branch: true
           add-paths: |
