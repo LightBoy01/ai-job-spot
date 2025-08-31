@@ -10,8 +10,12 @@ import yaml # Added for PyYAML
 
 # --- Configuration Loading ---
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), 'pipeline_config.json')
-with open(CONFIG_FILE, 'r') as f:
-    config = json.load(f)
+try:
+    with open(CONFIG_FILE, 'r') as f:
+        config = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError) as e:
+    sys.stderr.write(f"ERROR: Could not load pipeline_config.json: {e}\n")
+    sys.exit(1)
 
 # --- Database Setup ---
 DB_FILE = os.path.join(os.path.dirname(__file__), 'pipeline_cache.db')
