@@ -178,32 +178,36 @@ def main():
 
     original_stdout = sys.stdout
     original_stderr = sys.stderr
-    with open(LOG_FILE, 'w') as f:
-        sys.stdout = f
-        sys.stderr = f
-        
-        db_conn = None
-        browser = None
-        page = None
-        try:
+
+    db_conn = None
+    browser = None
+    page = None
+
+    try:
+        # Redirect stdout/stderr to log file
+        with open(LOG_FILE, 'w') as f:
+            sys.stdout = f
+            sys.stderr = f
+
             print("Initializing database...")
             init_db()
             db_conn = sqlite3.connect(DB_FILE)
+
             print("Starting pipeline run: Scrape and Save as Markdown...")
             
             browser = get_driver() # Get the Playwright browser instance
             page = browser.new_page() # Create a new page from the browser
 
             all_raw_job_streams = []
+
             if "rss_scraper" in config.get("scrapers_enabled", []):
                 rss_stream = stream_rss_jobs(config) or []
                 all_raw_job_streams.append(rss_stream)
-            
+
             if "foorilla_scraper" in config.get("scrapers_enabled", []):
                 # Load foorilla-specific config for configurable_scraper
                 foorilla_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
                 foorilla_site_config = load_config(foorilla_config_path) # Need to import load_config from configurable_scraper
-                
                 foorilla_limit = config["scraper_limits"].get("foorilla_scraper_limit", 2) # Default to 2 if not in config
                 foorilla_stream = stream_jobs_from_site(page, foorilla_site_config, limit=foorilla_limit) # Pass page
                 all_raw_job_streams.append(foorilla_stream)
@@ -213,6 +217,7 @@ def main():
             print("\n--- Scraping and Saving Jobs as Markdown Files ---")
             new_job_count = 0
             skipped_job_count = 0
+
             for raw_job in all_raw_job_streams:
                 # Transform raw job data before processing
                 transformed_job = transform_job_data(raw_job)
@@ -220,40 +225,37 @@ def main():
                 job_id = transformed_job.get('id') # Use transformed ID for deduplication
 
                 if not job_url:
-                    print(f"  - WARNING: Skipping job with no URL: {transformed_job.get('title')}")
+                    print(f" - WARNING: Skipping job with no URL: {transformed_job.get('title')}")
                     continue
 
                 if is_url_seen(db_conn, job_url):
-                    print(f"  - Skipping duplicate job (URL already seen): {transformed_job.get('title')}")
+                    print(f" - Skipping duplicate job (URL already seen): {transformed_job.get('title')}")
                     skipped_job_count += 1
                     continue
-                
-                print(f"  > Processing new job '{transformed_job.get('title')}'...")
+
+                print(f" > Processing new job '{transformed_job.get('title')}'...")
                 if save_job_as_markdown(transformed_job): # Pass transformed job data
                     add_url_to_db(db_conn, job_url)
                     new_job_count += 1
-                
                 time.sleep(1)
 
             print(f"\nPipeline finished successfully.")
             print(f"Saved {new_job_count} new jobs for review.")
             print(f"Skipped {skipped_job_count} duplicate jobs.")
 
-        except Exception as e:
-            print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
-        finally:
-            print("Shutting down browser driver and database connection...")
-            if page: # Close the page first
-                page.close()
-            if browser: # Then close the browser
-                close_driver() # Use the new close_driver function
-            if db_conn:
-                db_conn.close()
+    except Exception as e:
+        print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
     finally:
+        print("Shutting down browser driver and database connection...")
+        if page: # Close the page first
+            page.close()
+        if browser: # Then close the browser
+            close_driver() # Use the new close_driver function
+        if db_conn:
+            db_conn.close()
         sys.stdout = original_stdout
         sys.stderr = original_stderr
-    
-    print(f"Pipeline run complete. Output logged to {LOG_FILE}")
+        print(f"Pipeline run complete. Output logged to {LOG_FILE}")
 
 if __name__ == "__main__":
     main()
