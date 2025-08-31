@@ -184,11 +184,24 @@ def main():
     page = None
 
     try:
-        # Redirect stdout/stderr to log file
-        with open(LOG_FILE, 'w') as f:
+        # Attempt to redirect stdout/stderr to log file
+        log_file_opened = False
+        try:
+            log_file_dir = os.path.dirname(LOG_FILE)
+            if log_file_dir and not os.path.exists(log_file_dir):
+                os.makedirs(log_file_dir, exist_ok=True) # Ensure directory exists
+            
+            f = open(LOG_FILE, 'w')
             sys.stdout = f
             sys.stderr = f
+            log_file_opened = True
+        except IOError as e:
+            original_stderr.write(f"WARNING: Could not open log file {LOG_FILE}: {e}. Proceeding without log redirection.\n")
+            # Keep original stdout/stderr if log file cannot be opened
+            sys.stdout = original_stdout
+            sys.stderr = original_stderr
 
+            
             print("Initializing database...")
             init_db()
             db_conn = sqlite3.connect(DB_FILE)
@@ -265,6 +278,9 @@ def main():
         if db_conn:
             db_conn.close()
         
+        if 'f' in locals() and log_file_opened: # Close log file only if it was opened
+            f.close()
+
         # Print final message to original stdout
         original_stdout.write(f"Pipeline run complete. Output logged to {LOG_FILE}\n")
 
