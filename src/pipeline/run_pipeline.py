@@ -6,6 +6,9 @@ import os
 import re
 import sqlite3
 from datetime import datetime
+import requests
+from bs4 import BeautifulSoup
+from markdownify import markdownify as md
 
 # --- Database Setup ---
 DB_FILE = os.path.join(os.path.dirname(__file__), 'pipeline_cache.db')
@@ -36,6 +39,99 @@ def add_url_to_db(conn, url: str):
     except sqlite3.IntegrityError:
         # This can happen in rare race conditions, it's safe to ignore.
         pass
+
+# --- Deep Scraper & Parser ---
+def deep_scrape_job_details(url: str):
+    """
+    Navigates to the job details page and returns the parsed HTML soup.
+    """
+    try:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(url, headers=headers, timeout=15)
+        response.raise_for_status()  # Raise an exception for bad status codes
+        soup = BeautifulSoup(response.text, 'html.parser')
+        return soup
+    except requests.RequestException as e:
+        print(f"  - ERROR: Could not fetch URL {url}. Reason: {e}", file=sys.stderr)
+        return None
+
+def parse_job_html(soup: BeautifulSoup, original_job_data: dict):
+    """
+    Parses the job detail HTML to extract structured data.
+    Tries several common patterns to find the job description.
+    """
+    print("    - Parsing deep-scraped HTML for details...")
+    clean_data = original_job_data.copy()
+
+    # Try to find title, company, location from the detailed page
+    title_tag = soup.find(['h1'])
+    if title_tag:
+        clean_data['title'] = title_tag.get_text(strip=True)
+
+    # Generic search for description container
+    description_selectors = [
+        {'id': 'job-description'},
+        {'class': 'job-description'},
+        {'id': 'content'},
+        {'role': 'main'}
+    ]
+    
+    description_div = None
+    for selector in description_selectors:
+        description_div = soup.find('div', attrs=selector)
+        if description_div:
+            break
+    
+    if not description_div:
+        description_div = soup.body # Fallback to the whole body
+
+    if description_div:
+        # Remove known junk sections before converting
+        for junk_selector in ['.job-header', '.job-actions', 'nav', 'footer', '.similar-jobs', 'script', 'style']:
+                for tag in description_div.select(junk_selector):
+                    tag.decompose()
+
+        # Convert the cleaned div to Markdown
+        description_text = md(str(description_div), heading_style="ATX")
+        
+        # Simple parsing for responsibilities/qualifications from the markdown
+        lines = description_text.split('\n')
+        responsibilities = []
+        qualifications = []
+        current_section = 'description'
+        clean_description_lines = []
+
+        for line in lines:
+            line_lower = line.lower()
+            if 'responsibilities' in line_lower and '#' in line_lower:
+                current_section = 'responsibilities'
+                continue
+            elif 'qualifications' in line_lower and '#' in line_lower:
+                current_section = 'qualifications'
+                continue
+            
+            if current_section == 'description':
+                clean_description_lines.append(line)
+            elif current_section == 'responsibilities':
+                if line.strip().startswith( ('-', '*') ):
+                    responsibilities.append(re.sub(r'^[\s\*\-]+|\s+
+, '', line))
+            elif current_section == 'qualifications':
+                if line.strip().startswith( ('-', '*') ):
+                    qualifications.append(re.sub(r'^[\s\*\-]+|\s+
+, '', line))
+
+        clean_data['description'] = "\n".join(clean_description_lines).strip()
+        clean_data['responsibilities'] = responsibilities
+        clean_data['qualifications'] = qualifications
+        print("    - Successfully parsed job details.")
+    else:
+        print("    - WARNING: Could not find a known description container in the HTML.")
+        clean_data['description'] = "Description not found."
+
+    return clean_data
 
 # --- Helper function to create Markdown files ---
 def save_job_as_markdown(job_data: dict):
@@ -90,7 +186,7 @@ def save_job_as_markdown(job_data: dict):
             frontmatter_str += f"{key}: {value}\n"
     frontmatter_str += "---"
 
-    full_content = f"{frontmatter_str}\n{content_body}"
+    full_content = f"{frontmatter_str}\n\n{content_body}"
 
     try:
         with open(filepath, 'w', encoding='utf-8') as f:
@@ -143,7 +239,18 @@ def main():
                         continue
                     
                     print(f"  > Processing new job '{raw_job.get('title')}'...")
-                    if save_job_as_markdown(raw_job):
+
+                    # --- Deep Scrape --- 
+                    job_details_soup = deep_scrape_job_details(job_url)
+                    if not job_details_soup:
+                        print(f"  - WARNING: Could not retrieve job details from {job_url}. Skipping.")
+                        continue
+                    print(f"  - Successfully deep-scraped details for '{raw_job.get('title')}'")
+
+                    # --- Parse HTML ---
+                    clean_job_data = parse_job_html(job_details_soup, raw_job)
+
+                    if save_job_as_markdown(clean_job_data):
                         add_url_to_db(db_conn, job_url)
                         new_job_count += 1
                     
