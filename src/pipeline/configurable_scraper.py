@@ -417,7 +417,6 @@ def extract_posted_date(soup: BeautifulSoup) -> str | None:
             except ValueError:
                 continue
     return None
-"))
         )
         print("DEBUG: WebDriverWait successful. Page loaded.")
         return driver.page_source
