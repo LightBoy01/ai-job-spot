@@ -145,12 +145,6 @@ def save_job_as_markdown(job_data: dict):
         'isNew': job_data.get('isNew', True), # Use isNew from transformed data
     }
 
-    # Dates are already ISO formatted from transform_job_data, no need to re-convert
-    # if isinstance(frontmatter['postedDate'], datetime):
-    #     frontmatter['postedDate'] = frontmatter['postedDate'].isoformat() + 'Z'
-    # if isinstance(frontmatter['expirationDate'], datetime):
-    #     frontmatter['expirationDate'] = frontmatter['expirationDate'].isoformat() + 'Z'
-
     content_body = job_data.get('description', '<p>No description provided.</p>')
     
     if job_data.get('responsibilities'):
@@ -182,15 +176,13 @@ def main():
 
     original_stdout = sys.stdout
     original_stderr = sys.stderr
-
-    db_conn = None
-    browser = None
-    page = None
+    log_file_opened = False
 
     try:
-        # Temporarily disable log file redirection for debugging
-        # All output will go to original stdout/stderr
-        log_file_opened = False # Ensure this remains False
+        f = open(LOG_FILE, 'w', encoding='utf-8')
+        log_file_opened = True
+        sys.stdout = f
+        sys.stderr = f
 
         print("Initializing database...")
         init_db()
@@ -217,52 +209,52 @@ def main():
 
         all_raw_job_streams = itertools.chain(*all_raw_job_streams)
 
-            print("\n--- Scraping and Saving Jobs as Markdown Files ---")
-            new_job_count = 0
-            skipped_job_count = 0
-            filtered_out_count = 0
+        print("\n--- Scraping and Saving Jobs as Markdown Files ---")
+        new_job_count = 0
+        skipped_job_count = 0
+        filtered_out_count = 0
 
-            # Get keywords for filtering
-            keywords = config.get("global_filter_keywords", [])
-            if not keywords:
-                print(" - WARNING: No global_filter_keywords found in config. No keyword filtering will be applied.")
+        # Get keywords for filtering
+        keywords = config.get("global_filter_keywords", [])
+        if not keywords:
+            print(" - WARNING: No global_filter_keywords found in config. No keyword filtering will be applied.")
 
-            for raw_job in all_raw_job_streams:
-                # --- KEYWORD FILTERING ---
-                if keywords:
-                    title = raw_job.get('title', '')
-                    summary = raw_job.get('summary', '')
-                    search_text = f"{title} {summary}".lower()
-                    
-                    if not any(re.search(r'\b' + re.escape(keyword.lower()) + r'\b', search_text) for keyword in keywords):
-                        # print(f" - Skipping job (does not match keywords): {title}") # Optional: for verbose logging
-                        filtered_out_count += 1
-                        continue
-                # --- END KEYWORD FILTERING ---
-
-                # Transform raw job data before processing
-                transformed_job = transform_job_data(raw_job)
-                job_url = transformed_job.get('applicationLink') # Use transformed link for deduplication
-
-                if not job_url:
-                    print(f" - WARNING: Skipping job with no URL: {transformed_job.get('title')}")
+        for raw_job in all_raw_job_streams:
+            # --- KEYWORD FILTERING ---
+            if keywords:
+                title = raw_job.get('title', '')
+                summary = raw_job.get('summary', '')
+                search_text = f"{title} {summary}".lower()
+                
+                if not any(re.search(r'\b' + re.escape(keyword.lower()) + r'\b', search_text) for keyword in keywords):
+                    # print(f" - Skipping job (does not match keywords): {title}") # Optional: for verbose logging
+                    filtered_out_count += 1
                     continue
+            # --- END KEYWORD FILTERING ---
 
-                if is_url_seen(db_conn, job_url):
-                    # print(f" - Skipping duplicate job (URL already seen): {transformed_job.get('title')}") # Optional: for verbose logging
-                    skipped_job_count += 1
-                    continue
+            # Transform raw job data before processing
+            transformed_job = transform_job_data(raw_job)
+            job_url = transformed_job.get('applicationLink') # Use transformed link for deduplication
 
-                print(f" > Processing new job '{transformed_job.get('title')}'...")
-                if save_job_as_markdown(transformed_job): # Pass transformed job data
-                    add_url_to_db(db_conn, job_url)
-                    new_job_count += 1
-                time.sleep(1)
+            if not job_url:
+                print(f" - WARNING: Skipping job with no URL: {transformed_job.get('title')}")
+                continue
 
-            print(f"\nPipeline finished successfully.")
-            print(f"Saved {new_job_count} new jobs for review.")
-            print(f"Skipped {skipped_job_count} duplicate jobs (already seen).")
-            print(f"Filtered out {filtered_out_count} jobs (did not match keywords).")
+            if is_url_seen(db_conn, job_url):
+                # print(f" - Skipping duplicate job (URL already seen): {transformed_job.get('title')}") # Optional: for verbose logging
+                skipped_job_count += 1
+                continue
+
+            print(f" > Processing new job '{transformed_job.get('title')}'...")
+            if save_job_as_markdown(transformed_job): # Pass transformed job data
+                add_url_to_db(db_conn, job_url)
+                new_job_count += 1
+            time.sleep(1)
+
+        print(f"\nPipeline finished successfully.")
+        print(f"Saved {new_job_count} new jobs for review.")
+        print(f"Skipped {skipped_job_count} duplicate jobs (already seen).")
+        print(f"Filtered out {filtered_out_count} jobs (did not match keywords).")
 
     except Exception as e:
         # Print to original stderr to ensure visibility in CI/CD logs
@@ -286,7 +278,7 @@ def main():
         if db_conn:
             db_conn.close()
         
-        if 'f' in locals() and log_file_opened: # Close log file only if it was opened
+        if log_file_opened:
             f.close()
 
         # Print final message to original stdout
