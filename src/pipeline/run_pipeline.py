@@ -203,19 +203,19 @@ def main():
 
         all_raw_job_streams = []
 
-            if "rss_scraper" in config.get("scrapers_enabled", []):
-                rss_stream = stream_rss_jobs(config) or []
-                all_raw_job_streams.append(rss_stream)
+        if "rss_scraper" in config.get("scrapers_enabled", []):
+            rss_stream = stream_rss_jobs(config) or []
+            all_raw_job_streams.append(rss_stream)
 
-            if "foorilla_scraper" in config.get("scrapers_enabled", []):
-                # Load foorilla-specific config for configurable_scraper
-                foorilla_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
-                foorilla_site_config = configurable_scraper.load_config(foorilla_config_path) # Need to import load_config from configurable_scraper
-                foorilla_limit = config["scraper_limits"].get("foorilla_scraper_limit", 2) # Default to 2 if not in config
-                foorilla_stream = configurable_scraper.stream_jobs_from_site(page, foorilla_site_config, limit=foorilla_limit) # Pass page
-                all_raw_job_streams.append(foorilla_stream)
+        if "foorilla_scraper" in config.get("scrapers_enabled", []):
+            # Load foorilla-specific config for configurable_scraper
+            foorilla_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
+            foorilla_site_config = configurable_scraper.load_config(foorilla_config_path) # Need to import load_config from configurable_scraper
+            foorilla_limit = config["scraper_limits"].get("foorilla_scraper_limit", 2) # Default to 2 if not in config
+            foorilla_stream = configurable_scraper.stream_jobs_from_site(page, foorilla_site_config, limit=foorilla_limit) # Pass page
+            all_raw_job_streams.append(foorilla_stream)
 
-            all_raw_job_streams = itertools.chain(*all_raw_job_streams)
+        all_raw_job_streams = itertools.chain(*all_raw_job_streams)
 
             print("\n--- Scraping and Saving Jobs as Markdown Files ---")
             new_job_count = 0
