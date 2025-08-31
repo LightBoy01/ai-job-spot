@@ -1,0 +1,20 @@
+feat: Implement robust data pipeline with Playwright and enhanced content management
+
+This commit introduces significant improvements across the data pipeline and content management system:
+
+- **Data Pipeline Refactoring:**
+  - Standardized browser automation to Playwright for improved reliability and performance.
+  - Integrated `transform_job_data` logic directly into `run_pipeline.py` to ensure all scraped jobs are consistently structured and enriched (including unique IDs, standardized dates, and comprehensive tags) before being saved as Markdown.
+  - Cleaned up `src/pipeline` directory by archiving unused JSON and Markdown files, and removing redundant scripts.
+
+- **Content Management Enhancements:**
+  - Implemented automatic Markdown file creation/update/deletion for job postings via API endpoints (`/api/jobs/[id].ts`, `/api/jobs/post.ts`), ensuring content consistency between Firestore and the filesystem.
+  - Refactored admin panel job and article listing pages (`/admin/jobs`, `/admin/articles`) to use new search API endpoints (`/api/admin/jobs/search`, `/api/admin/articles/search`) and a simplified "Load More" pagination, significantly improving UX and performance.
+
+- **Application Stability & UX:**
+  - Resolved all TypeScript compilation errors across the Next.js application, ensuring a clean build.
+  - Applied minor UI/UX styling improvements to various pages and components.
+  - Updated sitemap URL to the new domain `aijobspot.online`.
+  - Refactored `getJobs` query in `firestoreClient.ts` for better search and pagination consistency.
+
+This comprehensive update enhances the pipeline's efficiency, improves data integrity, streamlines content management, and boosts overall application stability and user experience.

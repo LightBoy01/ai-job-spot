@@ -3,30 +3,32 @@
     "rss_scraper",
     "foorilla_scraper"
   ],
+  "global_filter_keywords": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "AI Research Scientist",
+    "NLP Engineer",
+    "Computer Vision Engineer",
+    "Robotics Engineer",
+    "AI Ethicist",
+    "AI Engineer",
+    "GenAI",
+    "Generative AI",
+    "Data Annotation",
+    "AI",
+    "Machine Learning"
+  ],
   "scraper_limits": {
     "foorilla_scraper_limit": 2
   },
   "output_directory": "../../data/pending_review",
   "log_file": "pipeline_run.log",
   "rss_scraper_config": {
-    "AI_NICHES": [
-        "Data Scientist",
-        "Machine Learning Engineer",
-        "AI Research Scientist",
-        "NLP Engineer",
-        "Computer Vision Engineer",
-        "Robotics Engineer",
-        "AI Ethicist",
-        "AI Engineer",
-        "GenAI",
-        "Generative AI",
-        "Data Annotation"
-    ],
     "RSS_FEEDS": [
-        "https://stackoverflow.com/jobs/feed?q=ai",
-        "https://www.indeed.com/rss?q=artificial+intelligence",
-        "https://www.linkedin.com/jobs/rss/g/135935/machine-learning-jobs",
-        "http://rss.jobsearch.monster.com/rssquery.axd?q=ai"
+      "https://stackoverflow.com/jobs/feed?q=ai",
+      "https://www.indeed.com/rss?q=artificial+intelligence",
+      "https://www.linkedin.com/jobs/rss/g/135935/machine-learning-jobs",
+      "http://rss.jobsearch.monster.com/rssquery.axd?q=ai"
     ]
   }
 }

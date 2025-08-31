@@ -197,11 +197,11 @@ def main():
         db_conn = sqlite3.connect(DB_FILE)
 
         print("Starting pipeline run: Scrape and Save as Markdown...")
-            
-            browser = get_driver() # Get the Playwright browser instance
-            page = browser.new_page() # Create a new page from the browser
+        
+        browser = get_driver() # Get the Playwright browser instance
+        page = browser.new_page() # Create a new page from the browser
 
-            all_raw_job_streams = []
+        all_raw_job_streams = []
 
             if "rss_scraper" in config.get("scrapers_enabled", []):
                 rss_stream = stream_rss_jobs(config) or []
@@ -220,19 +220,36 @@ def main():
             print("\n--- Scraping and Saving Jobs as Markdown Files ---")
             new_job_count = 0
             skipped_job_count = 0
+            filtered_out_count = 0
+
+            # Get keywords for filtering
+            keywords = config.get("global_filter_keywords", [])
+            if not keywords:
+                print(" - WARNING: No global_filter_keywords found in config. No keyword filtering will be applied.")
 
             for raw_job in all_raw_job_streams:
+                # --- KEYWORD FILTERING ---
+                if keywords:
+                    title = raw_job.get('title', '')
+                    summary = raw_job.get('summary', '')
+                    search_text = f"{title} {summary}".lower()
+                    
+                    if not any(re.search(r'\b' + re.escape(keyword.lower()) + r'\b', search_text) for keyword in keywords):
+                        # print(f" - Skipping job (does not match keywords): {title}") # Optional: for verbose logging
+                        filtered_out_count += 1
+                        continue
+                # --- END KEYWORD FILTERING ---
+
                 # Transform raw job data before processing
                 transformed_job = transform_job_data(raw_job)
                 job_url = transformed_job.get('applicationLink') # Use transformed link for deduplication
-                job_id = transformed_job.get('id') # Use transformed ID for deduplication
 
                 if not job_url:
                     print(f" - WARNING: Skipping job with no URL: {transformed_job.get('title')}")
                     continue
 
                 if is_url_seen(db_conn, job_url):
-                    print(f" - Skipping duplicate job (URL already seen): {transformed_job.get('title')}")
+                    # print(f" - Skipping duplicate job (URL already seen): {transformed_job.get('title')}") # Optional: for verbose logging
                     skipped_job_count += 1
                     continue
 
@@ -244,7 +261,8 @@ def main():
 
             print(f"\nPipeline finished successfully.")
             print(f"Saved {new_job_count} new jobs for review.")
-            print(f"Skipped {skipped_job_count} duplicate jobs.")
+            print(f"Skipped {skipped_job_count} duplicate jobs (already seen).")
+            print(f"Filtered out {filtered_out_count} jobs (did not match keywords).")
 
     except Exception as e:
         # Print to original stderr to ensure visibility in CI/CD logs

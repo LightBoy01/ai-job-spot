@@ -74,3 +74,4 @@ pglite-debug.log
 # Pipeline cache database
 *.db
 *.db-journal
+.next/trace
