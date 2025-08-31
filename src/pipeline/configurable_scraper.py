@@ -417,22 +417,21 @@ def extract_posted_date(soup: BeautifulSoup) -> str | None:
             except ValueError:
                 continue
     return None
-        )
         print("DEBUG: WebDriverWait successful. Page loaded.")
-        return driver.page_source
-    except TimeoutException as e:
-        print(f"DEBUG: TimeoutException occurred for {url}: {e}", file=sys.stderr)
-        html_content = driver.page_source
-        print(f"DEBUG: Page source on TimeoutException (first 500 chars): {html_content[:500]}", file=sys.stderr)
+        return page.content() # Changed from driver.page_source to page.content()
+    except PlaywrightTimeoutError as e: # Updated exception
+        print(f"DEBUG: PlaywrightTimeoutError occurred for {url}: {e}", file=sys.stderr)
+        html_content = page.content() # Use page.content()
+        print(f"DEBUG: Page source on PlaywrightTimeoutError (first 500 chars): {html_content[:500]}", file=sys.stderr)
         if "foorilla.com/jobs" in url and "/apply/" not in url:
             save_html_to_file(html_content, filename_base="foorilla_main_page_dump_error", identifier=urlparse(url).path.replace('/', '_'))
         else:
             save_html_to_file(html_content, filename_base="foorilla_job_detail_dump_error", identifier=urlparse(url).path.replace('/', '_'))
         return ""
-    except WebDriverException as e:
-        print(f"DEBUG: WebDriverException occurred for {url}: {e}", file=sys.stderr)
-        html_content = driver.page_source
-        print(f"DEBUG: Page source on WebDriverException (first 500 chars): {html_content[:500]}", file=sys.stderr)
+    except Exception as e: # Catch other potential Playwright errors
+        print(f"DEBUG: An unexpected error occurred for {url}: {e}", file=sys.stderr)
+        html_content = page.content() # Use page.content()
+        print(f"DEBUG: Page source on unexpected error (first 500 chars): {html_content[:500]}", file=sys.stderr)
         if "foorilla.com/jobs" in url and "/apply/" not in url:
             save_html_to_file(html_content, filename_base="foorilla_main_page_dump_error", identifier=urlparse(url).path.replace('/', '_'))
         else:
