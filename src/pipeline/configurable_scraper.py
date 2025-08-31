@@ -338,6 +338,40 @@ def save_as_json(jobs_data: list, filename: str):
         json.dump(jobs_data, f, indent=2)
     print(f"Successfully saved jobs to {filepath}")
 
+def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
+    """
+    Scrapes job data from a configured site and yields job details.
+    """
+    start_url = site_config.get("start_url")
+
+    if not start_url:
+        print("Error: Configuration file must contain a 'start_url'.", file=sys.stderr)
+        return # Use return instead of sys.exit(1) for a generator
+
+    main_page_html = fetch_page_html(page, start_url)
+
+    if not main_page_html:
+        print("Failed to fetch main job page. Skipping site.", file=sys.stderr)
+        return
+
+    # Save the successfully fetched main page HTML for inspection
+    save_html_to_file(main_page_html, filename_base="foorilla_main_page_success", identifier="jobs_page")
+
+    relevant_jobs_to_scrape = scrape_job_links(main_page_html, limit, site_config)
+    
+    if not relevant_jobs_to_scrape:
+        print("No relevant job links found on the main page for this site.", file=sys.stderr)
+        return
+
+    for job_info in relevant_jobs_to_scrape:
+        print(f"--- Scraping details for: {job_info['title']} ---")
+        detail_page_html = fetch_page_html(page, job_info['url'])
+        if detail_page_html:
+            details = scrape_job_details(page, detail_page_html, site_config)
+            if details:
+                yield details
+        time.sleep(2) # Keep a small delay to avoid overwhelming the server
+
 # --- Main Execution ---
 
 if __name__ == "__main__":
@@ -347,45 +381,16 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     config = load_config(args.config)
-    start_url = config.get("start_url")
-
-    if not start_url:
-        print("Error: Configuration file must contain a 'start_url'.", file=sys.stderr)
-        sys.exit(1)
-
-    with sync_playwright() as p: # Use Playwright context manager
-        browser = get_driver() # Get the Playwright browser instance
-        page = browser.new_page() # Create a new page
-
-        main_page_html = fetch_page_html(page, start_url) # Pass page instead of driver
-
-        if not main_page_html:
-            print("Failed to fetch main job page. Exiting.", file=sys.stderr)
-            close_driver() # Close Playwright browser
-            sys.exit(1)
-
-        # Save the successfully fetched main page HTML for inspection
-        save_html_to_file(main_page_html, filename_base="foorilla_main_page_success", identifier="jobs_page")
-
-        relevant_jobs_to_scrape = scrape_job_links(main_page_html, args.limit, config)
-        
-        if not relevant_jobs_to_scrape:
-            print("No relevant job links found on the main page.", file=sys.stderr)
-            close_driver() # Close Playwright browser
-            sys.exit(1)
+    
+    with sync_playwright() as p:
+        browser = get_driver()
+        page = browser.new_page()
 
         all_job_details = []
-        for job_info in relevant_jobs_to_scrape:
-            print(f"--- Scraping details for: {job_info['title']} ---")
-            # Pass the page to scrape_job_details for resolving the application link
-            detail_page_html = fetch_page_html(page, job_info['url']) # Pass page instead of driver
-            if detail_page_html:
-                details = scrape_job_details(page, detail_page_html, config) # Pass page and config here
-                if details:
-                    all_job_details.append(details)
-            time.sleep(2) # Keep a small delay to avoid overwhelming the server
+        for job_detail in stream_jobs_from_site(page, config, args.limit):
+            all_job_details.append(job_detail)
 
-        close_driver() # Close Playwright browser
+        close_driver()
 
         if all_job_details:
             save_as_json(all_job_details, "scraped_jobs.json")

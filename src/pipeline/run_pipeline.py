@@ -168,7 +168,7 @@ def save_job_as_markdown(job_data: dict):
 
 # --- Main Pipeline Logic ---
 from .scrapers.rss_scraper import stream_rss_jobs
-from .configurable_scraper import stream_jobs_from_site, load_config # New import
+from . import configurable_scraper # New import
 from .utils import get_driver, close_driver # New import
 
 def main():
@@ -207,9 +207,9 @@ def main():
             if "foorilla_scraper" in config.get("scrapers_enabled", []):
                 # Load foorilla-specific config for configurable_scraper
                 foorilla_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
-                foorilla_site_config = load_config(foorilla_config_path) # Need to import load_config from configurable_scraper
+                foorilla_site_config = configurable_scraper.load_config(foorilla_config_path) # Need to import load_config from configurable_scraper
                 foorilla_limit = config["scraper_limits"].get("foorilla_scraper_limit", 2) # Default to 2 if not in config
-                foorilla_stream = stream_jobs_from_site(page, foorilla_site_config, limit=foorilla_limit) # Pass page
+                foorilla_stream = configurable_scraper.stream_jobs_from_site(page, foorilla_site_config, limit=foorilla_limit) # Pass page
                 all_raw_job_streams.append(foorilla_stream)
 
             all_raw_job_streams = itertools.chain(*all_raw_job_streams)
