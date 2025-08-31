@@ -150,12 +150,33 @@ def stream_foorilla_jobs(driver: webdriver.Firefox, limit: int = 1):
                 main_content = detail_soup.select_one('#mc_2')
                 if not main_content: continue
                 title = main_content.find('h1').get_text(strip=True) if main_content.find('h1') else job_info['title']
-                company_tag = main_content.find(lambda tag: tag.name == 'strong' and '@' in tag.text)
-                company = company_tag.get_text(strip=True).replace('@', '').strip() if company_tag else 'N/A'
+
+                # --- New, more robust extraction logic ---
+                company = 'N/A'
                 location = 'N/A'
-                if company_tag and company_tag.parent:
-                    location_tag = company_tag.parent.find('div', class_=False, recursive=False)
-                    if location_tag: location = location_tag.get_text(strip=True)
+
+                # Find the container that holds both location and company
+                info_container = main_content.select_one('div.hstack.justify-content-between')
+                if info_container:
+                    # First div usually has location
+                    location_div = info_container.select_one('div:first-child')
+                    if location_div:
+                        location_text = location_div.get_text(separator=' ', strip=True)
+                        # Clean up the text, remove the [R] if present
+                        location = re.sub(r'\s*\[R\]', '', location_text).strip()
+
+                    # Second div usually has company
+                    company_div = info_container.select_one('div:nth-child(2)')
+                    if company_div:
+                        company_text = company_div.get_text(strip=True)
+                        # Clean up the text, remove the @
+                        company = company_text.replace('@', '').strip()
+
+                # Fallback for company if the new logic fails (optional but safe)
+                if company == 'N/A' or company == '...':
+                    company_tag = main_content.find(lambda tag: tag.name == 'strong' and '@' in tag.text)
+                    if company_tag:
+                        company = company_tag.get_text(strip=True).replace('@', '').strip()
                 application_link = job_info['url']
                 apply_button = main_content.find('a', class_="btn-primary")
                 if apply_button and apply_button.get('href'):
