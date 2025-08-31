@@ -192,12 +192,11 @@ def main():
         # All output will go to original stdout/stderr
         log_file_opened = False # Ensure this remains False
 
-            
-            print("Initializing database...")
-            init_db()
-            db_conn = sqlite3.connect(DB_FILE)
+        print("Initializing database...")
+        init_db()
+        db_conn = sqlite3.connect(DB_FILE)
 
-            print("Starting pipeline run: Scrape and Save as Markdown...")
+        print("Starting pipeline run: Scrape and Save as Markdown...")
             
             browser = get_driver() # Get the Playwright browser instance
             page = browser.new_page() # Create a new page from the browser
