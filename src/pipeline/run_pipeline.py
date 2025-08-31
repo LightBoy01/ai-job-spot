@@ -188,22 +188,9 @@ def main():
     page = None
 
     try:
-        # Attempt to redirect stdout/stderr to log file
-        log_file_opened = False
-        try:
-            log_file_dir = os.path.dirname(LOG_FILE)
-            if log_file_dir and not os.path.exists(log_file_dir):
-                os.makedirs(log_file_dir, exist_ok=True) # Ensure directory exists
-            
-            f = open(LOG_FILE, 'w')
-            sys.stdout = f
-            sys.stderr = f
-            log_file_opened = True
-        except IOError as e:
-            original_stderr.write(f"WARNING: Could not open log file {LOG_FILE}: {e}. Proceeding without log redirection.\n")
-            # Keep original stdout/stderr if log file cannot be opened
-            sys.stdout = original_stdout
-            sys.stderr = original_stderr
+        # Temporarily disable log file redirection for debugging
+        # All output will go to original stdout/stderr
+        log_file_opened = False # Ensure this remains False
 
             
             print("Initializing database...")
