@@ -246,6 +246,10 @@ def main():
     except Exception as e:
         print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
     finally:
+        # Restore original stdout/stderr before any further prints
+        sys.stdout = original_stdout
+        sys.stderr = original_stderr
+        
         print("Shutting down browser driver and database connection...")
         if page: # Close the page first
             page.close()
@@ -253,9 +257,9 @@ def main():
             close_driver() # Use the new close_driver function
         if db_conn:
             db_conn.close()
-        sys.stdout = original_stdout
-        sys.stderr = original_stderr
-        print(f"Pipeline run complete. Output logged to {LOG_FILE}")
+        
+        # Print final message to original stdout
+        original_stdout.write(f"Pipeline run complete. Output logged to {LOG_FILE}\n")
 
 if __name__ == "__main__":
     main()
