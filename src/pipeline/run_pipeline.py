@@ -244,7 +244,14 @@ def main():
             print(f"Skipped {skipped_job_count} duplicate jobs.")
 
     except Exception as e:
+        # Print to original stderr to ensure visibility in CI/CD logs
+        original_stderr.write(f"A critical error occurred in the main pipeline: {e}\n")
+        import traceback
+        original_stderr.write(traceback.format_exc())
+        
+        # Also print to redirected stderr (log file)
         print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
+        print(traceback.format_exc(), file=sys.stderr)
     finally:
         # Restore original stdout/stderr before any further prints
         sys.stdout = original_stdout
