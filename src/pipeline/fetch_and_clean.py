@@ -16,7 +16,8 @@ def clean_html_attributes(tag: Tag, extra_cleaning: bool = False) -> None:
         allowed_attrs = {'src', 'href'}
         tag.attrs = {k: v for k, v in tag.attrs.items() if k in allowed_attrs}
     else:
-        if tag.name == 'img' and tag.get('src', '').startswith('data:'):
+        src_attr = tag.get('src', '')
+        if tag.name == 'img' and isinstance(src_attr, str) and src_attr.startswith('data:'):
             tag.decompose()
 
 def get_tags_to_remove(extra_cleaning: bool = False) -> list[str]:
@@ -33,7 +34,8 @@ def clean_html_content(soup: BeautifulSoup, extra_cleaning: bool = False) -> Bea
             element.decompose()
     
     for tag in soup.find_all(True):
-        clean_html_attributes(tag, extra_cleaning)
+        if isinstance(tag, Tag):
+            clean_html_attributes(tag, extra_cleaning)
     
     for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
         comment.extract()

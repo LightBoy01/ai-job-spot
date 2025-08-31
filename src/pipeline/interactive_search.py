@@ -28,7 +28,9 @@ def get_driver() -> webdriver.Firefox:
         print("Please ensure geckodriver is installed and accessible.", file=sys.stderr)
         sys.exit(1)
 
-def stream_hiring_cafe_jobs(driver: webdriver.Firefox, limit: int = None):
+from typing import Optional
+# ...
+def stream_hiring_cafe_jobs(driver: webdriver.Firefox, limit: Optional[int] = None):
     """Scrapes hiring.cafe and prints search queries for AI jobs."""
     print("Processing hiring.cafe...")
     main_url = "https://hiring.cafe/"
