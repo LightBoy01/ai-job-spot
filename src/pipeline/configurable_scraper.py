@@ -162,7 +162,7 @@ def scrape_job_details(page: Page, html_content: str, config: dict) -> JobDetail
 
     main_content = soup.select_one(selectors.get("description_container"))
     if not main_content:
-        print(f"DEBUG: description_container 'f{selectors.get("description_container")}' not found.", file=sys.stderr)
+        print(f"DEBUG: description_container 'f{selectors.get('description_container')}' not found.", file=sys.stderr)
         return {}
     print(f"DEBUG: main_content found. Length: {len(str(main_content))}", file=sys.stderr)
 
