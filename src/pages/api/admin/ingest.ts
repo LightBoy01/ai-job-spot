@@ -1,5 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { admin, adminDb } from '@/lib/firebaseAdmin'; // Import admin for FieldPath
+import { adminDb } from '@/lib/firebaseAdmin';
+import { firestore } from 'firebase-admin';
 import { z } from 'zod';
 import DOMPurify from 'isomorphic-dompurify';
 
@@ -50,7 +51,7 @@ export default async function handler(
 
     // 4. GENERATE NEW SEQUENTIAL JOB ID
     const jobsRef = adminDb.collection('jobs');
-    const lastJobQuery = await jobsRef.orderBy(admin.firestore.FieldPath.documentId()).limitToLast(1).get();
+    const lastJobQuery = await jobsRef.orderBy(firestore.FieldPath.documentId()).limitToLast(1).get();
     
     let newJobNumber = 1;
     if (!lastJobQuery.empty) {

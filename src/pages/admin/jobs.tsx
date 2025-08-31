@@ -4,60 +4,44 @@ import { GetServerSideProps } from 'next';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
 import useAuth from '@/hooks/useAuth';
-import { useState, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import { formatDate } from '@/lib/dateUtils';
+import { parse } from 'cookie';
 
 interface AdminJobsProps {
   initialJobs: SerializedJobPosting[];
   initialLastDocId: string | null;
 }
 
-const PAGE_SIZE = 10; // Define page size
+const PAGE_SIZE = 10;
 
 const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) => {
-  const { idToken, loading: authLoading } = useAuth(); // Destructure loading as authLoading to avoid name collision
+  const { idToken, loading: authLoading } = useAuth();
   const [jobs, setJobs] = useState(initialJobs);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [jobToDeleteId, setJobToDeleteId] = useState<string | null>(null);
   const [jobToDeleteTitle, setJobToDeleteTitle] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [isSearching, setIsSearching] = useState(false);
   const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [pageHistory, setPageHistory] = useState<string[]>([]); // Stack to store firstDocId of each page
+  const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => {
-    // Reset pagination when search query changes or is cleared
-    if (!searchQuery) {
-      setJobs(initialJobs);
-      setLastDocId(initialLastDocId);
-      setCurrentPage(1);
-      setPageHistory([]);
-    }
-  }, [searchQuery, initialJobs, initialLastDocId]);
+  const fetchAdminJobs = useCallback(async (query: string, startAfter: string | null) => {
+    if (!idToken || isLoading) return;
 
-  const fetchJobs = async (startAfterId: string | null = null, direction: 'next' | 'prev' | 'initial' = 'initial') => {
-    if (!idToken) return;
-
-    setIsSearching(true); // Use isSearching to disable buttons during fetch
-    const toastId = toast.loading(direction === 'next' ? 'Loading next page...' : direction === 'prev' ? 'Loading previous page...' : 'Loading jobs...');
+    setIsLoading(true);
+    const toastId = toast.loading('Loading jobs...');
 
     try {
-      let url = `/api/jobs/paginate?limit=${PAGE_SIZE}`;
-      if (startAfterId && direction === 'next') {
-        url += `&startAfter=${startAfterId}`;
-      } else if (startAfterId && direction === 'prev') {
-        // For previous, we need to fetch from the beginning up to the current firstDocId
-        // This is a simplified approach; a more robust solution would involve storing more history
-        // For simplicity, we'll just go back to the previous page's start ID
-        url = `/api/jobs/paginate?limit=${PAGE_SIZE}`;
-        if (pageHistory.length > 1) {
-          url += `&startAfter=${pageHistory[pageHistory.length - 2]}`;
-        }
+      const params = new URLSearchParams({
+        q: query,
+        limit: String(PAGE_SIZE),
+      });
+      if (startAfter) {
+        params.append('startAfter', startAfter);
       }
 
-      const response = await fetch(url, {
+      const response = await fetch(`/api/admin/jobs/search?${params.toString()}`, {
         headers: {
           'Authorization': `Bearer ${idToken}`,
         },
@@ -69,28 +53,26 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
       }
 
       const data = await response.json();
-      setJobs(data.jobs);
+      setJobs(prevJobs => startAfter ? [...prevJobs, ...data.jobs] : data.jobs);
       setLastDocId(data.lastDocId);
+      toast.success('Jobs loaded successfully!', { id: toastId });
 
-      
-
-      if (direction === 'next') {
-        setPageHistory(prev => [...prev, startAfterId || 'initial']);
-        setCurrentPage(prev => prev + 1);
-      } else if (direction === 'prev') {
-        setPageHistory(prev => prev.slice(0, prev.length - 1));
-        setCurrentPage(prev => prev - 1);
-      } else if (direction === 'initial' && data.jobs.length > 0) {
-        setPageHistory([data.jobs[0].id]);
-      }
-
-      toast.success('Jobs loaded.', { id: toastId });
     } catch (error) {
-      console.error('Error fetching jobs:', error);
+      console.error('Error fetching admin jobs:', error);
       toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
     } finally {
-      setIsSearching(false);
+      setIsLoading(false);
     }
+  }, [idToken, isLoading]);
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    fetchAdminJobs(searchQuery, null);
+  };
+
+  const handleClearSearch = () => {
+    setSearchQuery('');
+    fetchAdminJobs('', null);
   };
 
   const handleDeleteClick = (id: string, title: string) => {
@@ -100,7 +82,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
   };
 
   const handleConfirmDelete = async () => {
-    if (!jobToDeleteId) return;
+    if (!jobToDeleteId || !idToken) return;
     setIsModalOpen(false);
     const toastId = toast.loading(`Deleting job "${jobToDeleteTitle || ''}"...`);
 
@@ -118,55 +100,11 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
       }
 
       toast.success(`Job "${jobToDeleteTitle || ''}" deleted successfully!`, { id: toastId });
-      // Re-fetch jobs after deletion to update the list and pagination state
-      fetchJobs(pageHistory[pageHistory.length - 1] || null, 'initial');
+      fetchAdminJobs(searchQuery, null); // Refetch current view
     } catch (error) {
       console.error('Error deleting job:', error);
       toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
     }
-  };
-
-  const handleSearch = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!searchQuery.trim()) {
-      toast.error('Please enter a search term.');
-      return;
-    }
-
-    setIsSearching(true);
-    const toastId = toast.loading('Searching...');
-
-    try {
-      const response = await fetch(`/api/jobs/search?q=${encodeURIComponent(searchQuery)}`, {
-        headers: {
-          'Authorization': `Bearer ${idToken}`,
-        },
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to search jobs');
-      }
-
-      const searchResults = await response.json();
-      setJobs(searchResults);
-      setLastDocId(null); // Disable pagination after search
-      
-      setCurrentPage(1);
-      setPageHistory([]);
-      toast.success(`${searchResults.length} job(s) found.`, { id: toastId });
-    } catch (error) {
-      console.error('Search error:', error);
-      toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
-    } finally {
-      setIsSearching(false);
-    }
-  };
-
-  const handleClearSearch = () => {
-    setSearchQuery('');
-    // Re-fetch initial jobs to reset pagination
-    fetchJobs(null, 'initial');
   };
 
   return (
@@ -180,18 +118,17 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
         </Link>
       </div>
 
-      {/* Search Bar */}
       <div className="mb-6">
-        <form onSubmit={handleSearch} className="flex items-center gap-4">
+        <form onSubmit={handleSearchSubmit} className="flex items-center gap-4">
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search by job title..."
-            className="w-full max-w-md p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition"
+            className="w-full max-w-md p-3 rounded-md border border-neutral-300 outline-none transition"
           />
-          <button type="submit" disabled={isSearching || authLoading || !idToken} className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400">
-            {isSearching ? 'Searching...' : 'Search'}
+          <button type="submit" disabled={isLoading || authLoading} className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400">
+            {isLoading ? 'Searching...' : 'Search'}
           </button>
           <button type="button" onClick={handleClearSearch} className="bg-neutral-200 text-neutral-800 py-3 px-5 rounded-md font-semibold hover:bg-neutral-300 transition-colors">
             Clear
@@ -224,11 +161,11 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
                   </td>
                   <td className="py-4 px-4 text-right space-x-2">
                     <Link href={`/admin/jobs/edit/${job.id}`} passHref>
-                      <span className={`text-secondary-dark hover:text-secondary font-semibold ${authLoading || !idToken ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}>Edit</span>
+                      <span className={`text-secondary-dark hover:text-secondary font-semibold ${authLoading ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}>Edit</span>
                     </Link>
                     <button
                       onClick={() => handleDeleteClick(job.id!, job.title)}
-                      disabled={authLoading || !idToken}
+                      disabled={authLoading}
                       className="text-red-600 hover:text-red-800 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       Delete
@@ -240,22 +177,13 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
           </table>
         </div>
 
-        {/* Pagination Controls */}
-        <div className="flex justify-between items-center mt-6">
+        <div className="flex justify-center items-center mt-6">
           <button
-            onClick={() => fetchJobs(pageHistory[pageHistory.length - 2] || null, 'prev')}
-            disabled={currentPage === 1 || isSearching || authLoading || !idToken}
-            className="bg-neutral-200 text-neutral-800 py-2 px-4 rounded-md font-semibold hover:bg-neutral-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            Previous
-          </button>
-          <span className="text-neutral-600">Page {currentPage}</span>
-          <button
-            onClick={() => fetchJobs(lastDocId, 'next')}
-            disabled={!lastDocId || isSearching || authLoading || !idToken}
+            onClick={() => fetchAdminJobs(searchQuery, lastDocId)}
+            disabled={!lastDocId || isLoading || authLoading}
             className="bg-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Next
+            Load More
           </button>
         </div>
       </div>
@@ -271,36 +199,30 @@ const AdminJobs: React.FC<AdminJobsProps> = ({ initialJobs, initialLastDocId }) 
   );
 };
 
-import { parse } from 'cookie'; // Import parse from 'cookie'
-
 export const getServerSideProps: GetServerSideProps<AdminJobsProps> = async (context) => {
   try {
-    const PAGE_SIZE = 10; // Must match frontend PAGE_SIZE
     const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
     const host = context.req.headers.host;
     const baseUrl = `${protocol}://${host}`;
-
-    // Read the __session cookie
     const cookies = parse(context.req.headers.cookie || '');
     const idToken = cookies.__session;
 
-    console.log(`[getServerSideProps] Fetching from: ${baseUrl}/api/jobs/paginate?limit=${PAGE_SIZE}`);
-    const response = await fetch(`${baseUrl}/api/jobs/paginate?limit=${PAGE_SIZE}`, {
-      headers: {
-        'Authorization': idToken ? `Bearer ${idToken}` : '', // Use the idToken from the cookie
-      },
+    if (!idToken) {
+      return { redirect: { destination: '/auth/login', permanent: false } };
+    }
+
+    const params = new URLSearchParams({ q: '', limit: String(PAGE_SIZE) });
+    const response = await fetch(`${baseUrl}/api/admin/jobs/search?${params.toString()}`, {
+      headers: { 'Authorization': `Bearer ${idToken}` },
     });
-    
-    console.log(`[getServerSideProps] Response status: ${response.status}`);
+
     if (!response.ok) {
-      const errorText = await response.text();
-      console.error(`[getServerSideProps] Failed to fetch initial jobs: ${response.status} - ${errorText}`);
       throw new Error(`Failed to fetch initial jobs: ${response.statusText}`);
     }
-    const data = await response.json();
-    console.log(`[getServerSideProps] Received data:`, data);
 
+    const data = await response.json();
     return { props: { initialJobs: data.jobs, initialLastDocId: data.lastDocId } };
+
   } catch (error) {
     console.error("[getServerSideProps] Error fetching jobs for admin panel:", error);
     return { props: { initialJobs: [], initialLastDocId: null } };

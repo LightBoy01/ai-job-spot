@@ -9,7 +9,7 @@ const TermsOfUse: React.FC = () => {
         <meta name="description" content="Terms and conditions for using AI Job Spot." />
       </Head>
       <div className="container mx-auto px-4 py-8 prose prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content">
-        <h1 className="text-4xl font-serif font-bold text-primary-dark mb-6">Terms of Use</h1>
+        <h1 className="page-title mb-6 text-left">Terms of Use</h1>
         <p className="text-lg text-neutral-800 mb-4">
           Welcome to AI Job Spot! These terms and conditions outline the rules and regulations for the use of AI Job Spot&apos;s Website, located at aijobspot.com.
         </p>

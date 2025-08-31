@@ -53,22 +53,36 @@ const processArticleData = (docSnap: DocumentSnapshot<DocumentData>): Article =>
 
 export async function getJobs(limit?: number, startAfterDoc?: DocumentSnapshot, searchTerm?: string): Promise<{ jobs: JobPosting[], lastVisible: DocumentSnapshot | null }> {
   const jobsCollectionRef = collection(db, 'jobs');
-  let q = query(jobsCollectionRef, where('status', '==', 'published'), orderBy('postedDate', 'desc'));
+  let q;
+
+  if (searchTerm && searchTerm.trim() !== '') {
+    // For search, the primary order must be by the field used in the range filter.
+    q = query(
+      jobsCollectionRef,
+      where('status', '==', 'published'),
+      where('title', '>=', searchTerm),
+      where('title', '<=', searchTerm + '\uf8ff'),
+      orderBy('title', 'asc'),
+      orderBy('postedDate', 'desc')
+    );
+  } else {
+    // Default query without search - MUST have consistent ordering for pagination
+    q = query(
+        jobsCollectionRef,
+        where('status', '==', 'published'),
+        orderBy('postedDate', 'desc'),
+        orderBy('title', 'asc') // Add secondary sort for consistency
+    );
+  }
 
   if (startAfterDoc) {
     q = query(q, startAfter(startAfterDoc));
   }
+
   if (limit) {
     q = query(q, limitTo(limit));
   }
 
-  if (searchTerm) {
-    // Firestore does not support full-text search or OR queries across multiple fields directly.
-    // This query performs a case-sensitive "starts with" search on the 'title' field.
-    // For more advanced search capabilities (e.g., case-insensitive, full-text, or across multiple fields),
-    // consider implementing multiple queries or integrating a dedicated search service like Algolia.
-    q = query(q, where('title', '>=', searchTerm), where('title', '<=', searchTerm + '\uf8ff'));
-  }
   const querySnapshot = await getDocs(q);
   const jobs = querySnapshot.docs.map(processJobData);
   const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;

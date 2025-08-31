@@ -82,3 +82,17 @@
   content: '\2022'; /* Bullet character */
   @apply absolute left-0 text-secondary text-2xl leading-tight;
 }
+
+/* --- UI/UX Advancement Styles --- */
+
+/* Stately Page Titles for Public Pages */
+.page-title {
+  @apply text-5xl font-serif font-bold text-primary-dark text-center leading-tight drop-shadow-sm;
+}
+
+/* Refined Input Focus State */
+input:focus,
+textarea:focus,
+select:focus {
+  @apply ring-2 ring-offset-2 ring-secondary-light ring-opacity-75;
+}

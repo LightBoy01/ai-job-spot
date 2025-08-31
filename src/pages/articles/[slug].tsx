@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
 import Link from 'next/link';
 import AdContainer from '@/components/AdContainer'; // Import AdContainer
+import Image from 'next/image'; // Import the Next.js Image component
 
 interface ArticlePageProps {
   article: SerializedArticle | null;
@@ -32,7 +33,7 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
     props: {
       article: {
         ...article,
-        publishDate: article.publishDate.toISOString(), // Convert Date to ISO string
+        publishDate: article.publishDate ? article.publishDate.toISOString() : '', // Convert Date to ISO string, handle null
         imageUrl: article.imageUrl || null, // Ensure imageUrl is not undefined
       } as SerializedArticle,
     },
@@ -55,7 +56,7 @@ export default function ArticlePage({ article }: ArticlePageProps) {
     );
   }
 
-  const { title, author, publishDate, contentBody, issueNo, volumeNo } = article;
+  const { title, author, publishDate, contentBody, issueNo, volumeNo, imageUrl } = article;
 
   return (
     <Layout>
@@ -71,6 +72,18 @@ export default function ArticlePage({ article }: ArticlePageProps) {
         {article.imageUrl && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_SITE_URL}${article.imageUrl}`} />}
       </Head>
       <div className="max-w-4xl mx-auto px-4 py-8">
+        {imageUrl && (
+          <div className="mb-8">
+            <Image
+              src={imageUrl}
+              alt={title}
+              width={1200}
+              height={675}
+              priority
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
+        )}
         <h1 className="text-4xl font-serif font-extrabold text-primary-dark mb-4">{title}</h1>
         <div className="mb-6 border-b border-neutral-200 pb-4">
           <p className="text-neutral-700 text-base">

@@ -1,8 +1,6 @@
 import Navbar from './Navbar';
 import Footer from './Footer'; // Import the Footer component
 
-import React from 'react';
-
 interface LayoutProps {
   children: React.ReactNode;
   title?: string; // Optional, as it's primarily handled by root layout metadata
@@ -28,18 +26,9 @@ const Layout = ({ children }: LayoutProps) => {
       {/* The Navbar is rendered at the top of every page */}
       <Navbar />
 
-      {/* Main content area - now full width by default */}
+      {/* Main content area */}
       <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 lg:gap-12">
-          
-          {/* Primary Content Column (now full width) */}
-          <div className="lg:col-span-12">
-            {children}
-          </div>
-
-          {/* AdContainer will now be placed strategically within pages */}
-
-        </div>
+        {children}
       </main>
       <Footer />
     </div>

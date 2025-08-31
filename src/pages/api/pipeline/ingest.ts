@@ -1,6 +1,7 @@
 
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { admin, adminDb } from '@/lib/firebaseAdmin';
+import { adminDb } from '@/lib/firebaseAdmin';
+import { firestore } from 'firebase-admin';
 import { z } from 'zod';
 import DOMPurify from 'isomorphic-dompurify';
 
@@ -52,7 +53,7 @@ export default async function handler(
     const jobsRef = adminDb.collection('jobs');
     // Firestore doesn't have a simple auto-increment. We find the last job number and increment it.
     // This is not perfectly race-condition-proof at massive scale, but is sufficient for this use case.
-    const lastJobQuery = await jobsRef.orderBy(admin.firestore.FieldPath.documentId()).limitToLast(1).get();
+    const lastJobQuery = await jobsRef.orderBy(firestore.FieldPath.documentId()).limitToLast(1).get();
     
     let newJobNumber = 1;
     if (!lastJobQuery.empty) {
@@ -73,8 +74,8 @@ export default async function handler(
       location: jobData.location,
       applicationLink: jobData.link,
       description: DOMPurify.sanitize(jobData.description || jobData.summary || '<p>No description provided.</p>'),
-      postedDate: admin.firestore.FieldValue.serverTimestamp(),
-      expirationDate: admin.firestore.Timestamp.fromDate(new Date(new Date().setDate(new Date().getDate() + 90))),
+      postedDate: firestore.FieldValue.serverTimestamp(),
+      expirationDate: firestore.Timestamp.fromDate(new Date(new Date().setDate(new Date().getDate() + 90))),
       status: 'pending_review',
       source: jobData.source || 'Scraped',
       salaryRange: jobData.salaryRange || null,

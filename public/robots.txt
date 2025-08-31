@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ai-job-spot.vercel.app/api/sitemap
+Sitemap: https://aijobspot.online/api/sitemap

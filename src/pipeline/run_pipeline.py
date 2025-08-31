@@ -6,6 +6,12 @@ import os
 import re
 import sqlite3
 from datetime import datetime
+import yaml # Added for PyYAML
+
+# --- Configuration Loading ---
+CONFIG_FILE = os.path.join(os.path.dirname(__file__), 'pipeline_config.json')
+with open(CONFIG_FILE, 'r') as f:
+    config = json.load(f)
 
 # --- Database Setup ---
 DB_FILE = os.path.join(os.path.dirname(__file__), 'pipeline_cache.db')
@@ -37,13 +43,76 @@ def add_url_to_db(conn, url: str):
         # This can happen in rare race conditions, it's safe to ignore.
         pass
 
+def transform_job_data(raw_job: dict, source_file: str = "scraped_job") -> dict:
+    """
+    Transforms a single raw job dictionary from a scraper into the 
+    structured format expected by the AI Job Spot admin panel.
+    """
+    # Generate a unique ID based on company and title to help prevent duplicates
+    company_slug = re.sub(r'[^a-z0-9]+', '-', raw_job.get('company', 'nocompany').lower()).strip('-')
+    title_slug = re.sub(r'[^a-z0-9]+', '-', raw_job.get('title', 'notitle').lower()).strip('-')
+    unique_id = f"job-scraped-{company_slug}-{title_slug}"
+
+    # Handle dates: use existing if valid, otherwise default to now
+    try:
+        posted_date_str = raw_job.get('postedDate')
+        if posted_date_str:
+            # Attempt to parse various ISO formats, including those with microseconds
+            if '.' in posted_date_str and posted_date_str.endswith('Z'):
+                posted_date = datetime.fromisoformat(posted_date_str.replace('Z', ''))
+            elif posted_date_str.endswith('Z'):
+                posted_date = datetime.strptime(posted_date_str, "%Y-%m-%dT%H:%M:%SZ")
+            else:
+                posted_date = datetime.fromisoformat(posted_date_str)
+        else:
+            posted_date = datetime.utcnow()
+    except (ValueError, TypeError):
+        posted_date = datetime.utcnow()
+
+    # Calculate expiration date based on posted date (default 90 days)
+    expiration_date = posted_date + timedelta(days=90)
+
+    # Generate tags from available data
+    tags = [tag.strip() for tag in raw_job.get('tags', []) if tag.strip()] # Clean existing tags
+    tags.append("Scraped")
+    if raw_job.get('company'):
+        tags.append(raw_job['company'])
+    if raw_job.get('location'):
+        # Simple location tag, could be improved with normalization
+        tags.append(raw_job['location'].split(',')[0].strip())
+    tags = list(set(tags)) # Remove duplicates
+
+    # The description from the scrapers is already in HTML format or should be treated as such
+    description_html = raw_job.get('description', raw_job.get('summary', '<p>No description provided.</p>'))
+
+    prepared_job = {
+        "id": unique_id,
+        "title": raw_job.get('title', 'N/A'),
+        "company": raw_job.get('company', 'N/A'),
+        "location": raw_job.get('location', 'N/A'),
+        "description": description_html,
+        "applicationLink": raw_job.get('link', raw_job.get('applicationLink', '#')),
+        "postedDate": posted_date.isoformat(timespec='milliseconds') + 'Z',  # ISO 8601 format with milliseconds
+        "expirationDate": expiration_date.isoformat(timespec='milliseconds') + 'Z', # ISO 8601 format with milliseconds
+        "salaryRange": raw_job.get('salaryRange', 'N/A'),
+        "jobLevel": raw_job.get('jobLevel', 'N/A'),
+        "employeeRole": raw_job.get('employeeRole', 'N/A'),
+        "isNew": True,
+        "tags": tags,
+        "source": os.path.basename(source_file), # Track the origin
+        "responsibilities": raw_job.get('responsibilities', []),
+        "qualifications": raw_job.get('qualifications', []),
+    }
+    return prepared_job
+
 # --- Helper function to create Markdown files ---
 def save_job_as_markdown(job_data: dict):
     """
-    Takes a scraped job dictionary and saves it as a Markdown file
+    Takes a transformed job dictionary and saves it as a Markdown file
     with YAML frontmatter in the pending review directory.
     """
-    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'pending_review')
+    # Use output_directory from config
+    output_dir = os.path.join(os.path.dirname(__file__), config['output_directory'])
     os.makedirs(output_dir, exist_ok=True)
 
     company_slug = re.sub(r'[^a-z0-9]+', '-', job_data.get('company', 'nocompany').lower()).strip('-')
@@ -52,23 +121,31 @@ def save_job_as_markdown(job_data: dict):
     filename = f"job-scraped-{company_slug}-{title_slug}-{timestamp}.md"
     filepath = os.path.join(output_dir, filename)
 
-    job_id = os.path.splitext(filename)[0]
+    # Use the 'id' from the transformed job data
+    job_id = job_data.get('id', os.path.splitext(filename)[0])
 
     frontmatter = {
         'id': job_id,
-        'title': f"{job_data.get('title', 'N/A')}",
-        'company': f"{job_data.get('company', 'N/A')}",
-        'location': f"{job_data.get('location', 'N/A')}",
-        'applicationLink': job_data.get('link', '#'),
+        'title': job_data.get('title', 'N/A'),
+        'company': job_data.get('company', 'N/A'),
+        'location': job_data.get('location', 'N/A'),
+        'applicationLink': job_data.get('applicationLink', '#'),
         'postedDate': job_data.get('postedDate', datetime.now().isoformat() + 'Z'),
-        'expirationDate': job_data.get('expirationDate', 'null'),
+        'expirationDate': job_data.get('expirationDate', None),
         'tags': job_data.get('tags', []),
-        'status': 'pending_review',
-        'jobLevel': f"{job_data.get('jobLevel', 'N/A')}",
-        'employeeRole': f"{job_data.get('employeeRole', 'N/A')}",
-        'salaryRange': f"{job_data.get('salaryRange', 'N/A')}",
-        'source': f"{job_data.get('source', 'N/A')}",
+        'status': job_data.get('status', 'pending_review'), # Use status from transformed data
+        'jobLevel': job_data.get('jobLevel', 'N/A'),
+        'employeeRole': job_data.get('employeeRole', 'N/A'),
+        'salaryRange': job_data.get('salaryRange', 'N/A'),
+        'source': job_data.get('source', 'N/A'),
+        'isNew': job_data.get('isNew', True), # Use isNew from transformed data
     }
+
+    # Dates are already ISO formatted from transform_job_data, no need to re-convert
+    # if isinstance(frontmatter['postedDate'], datetime):
+    #     frontmatter['postedDate'] = frontmatter['postedDate'].isoformat() + 'Z'
+    # if isinstance(frontmatter['expirationDate'], datetime):
+    #     frontmatter['expirationDate'] = frontmatter['expirationDate'].isoformat() + 'Z'
 
     content_body = job_data.get('description', '<p>No description provided.</p>')
     
@@ -77,20 +154,8 @@ def save_job_as_markdown(job_data: dict):
     if job_data.get('qualifications'):
         content_body += "\n\n### Qualifications\n\n" + "\n".join([f"- {item}" for item in job_data['qualifications']])
 
-    frontmatter_str = "---\n"
-    for key, value in frontmatter.items():
-        if isinstance(value, list):
-            if not value:
-                frontmatter_str += f"{key}: []\n"
-            else:
-                frontmatter_str += f"{key}:\n"
-                for item in value:
-                    frontmatter_str += f'  - "{item}"\n'
-        else:
-            frontmatter_str += f"{key}: {value}\n"
-    frontmatter_str += "---"
-
-    full_content = f"{frontmatter_str}\n{content_body}"
+    frontmatter_yaml = yaml.dump(frontmatter, sort_keys=False, default_flow_style=False, allow_unicode=True)
+    full_content = f"---\n{frontmatter_yaml}---\n\n{content_body}"
 
     try:
         with open(filepath, 'w', encoding='utf-8') as f:
@@ -103,11 +168,13 @@ def save_job_as_markdown(job_data: dict):
 
 # --- Main Pipeline Logic ---
 from .scrapers.rss_scraper import stream_rss_jobs
-from .scrapers.foorilla_scraper import stream_foorilla_jobs, get_driver
+from .configurable_scraper import stream_jobs_from_site, load_config # New import
+from .utils import get_driver, close_driver # New import
 
 def main():
     """Main function to orchestrate the entire data pipeline."""
-    LOG_FILE = os.path.join(os.path.dirname(__file__), 'pipeline_run.log')
+    # Use log_file from config
+    LOG_FILE = os.path.join(os.path.dirname(__file__), config['log_file'])
 
     original_stdout = sys.stdout
     original_stderr = sys.stderr
@@ -115,55 +182,76 @@ def main():
         sys.stdout = f
         sys.stderr = f
         
+        db_conn = None
+        browser = None
+        page = None
         try:
             print("Initializing database...")
             init_db()
             db_conn = sqlite3.connect(DB_FILE)
             print("Starting pipeline run: Scrape and Save as Markdown...")
-            driver = get_driver()
             
-            try:
-                rss_stream = stream_rss_jobs() or []
-                foorilla_stream = stream_foorilla_jobs(driver, limit=2)
+            browser = get_driver() # Get the Playwright browser instance
+            page = browser.new_page() # Create a new page from the browser
 
-                all_raw_job_streams = itertools.chain(rss_stream, foorilla_stream)
+            all_raw_job_streams = []
+            if "rss_scraper" in config.get("scrapers_enabled", []):
+                rss_stream = stream_rss_jobs(config) or []
+                all_raw_job_streams.append(rss_stream)
+            
+            if "foorilla_scraper" in config.get("scrapers_enabled", []):
+                # Load foorilla-specific config for configurable_scraper
+                foorilla_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
+                foorilla_site_config = load_config(foorilla_config_path) # Need to import load_config from configurable_scraper
+                
+                foorilla_limit = config["scraper_limits"].get("foorilla_scraper_limit", 2) # Default to 2 if not in config
+                foorilla_stream = stream_jobs_from_site(page, foorilla_site_config, limit=foorilla_limit) # Pass page
+                all_raw_job_streams.append(foorilla_stream)
 
-                print("\n--- Scraping and Saving Jobs as Markdown Files ---")
-                new_job_count = 0
-                skipped_job_count = 0
-                for raw_job in all_raw_job_streams:
-                    job_url = raw_job.get('link') or raw_job.get('applicationLink')
-                    if not job_url:
-                        print(f"  - WARNING: Skipping job with no URL: {raw_job.get('title')}")
-                        continue
+            all_raw_job_streams = itertools.chain(*all_raw_job_streams)
 
-                    if is_url_seen(db_conn, job_url):
-                        print(f"  - Skipping duplicate job (URL already seen): {raw_job.get('title')}")
-                        skipped_job_count += 1
-                        continue
-                    
-                    print(f"  > Processing new job '{raw_job.get('title')}'...")
-                    if save_job_as_markdown(raw_job):
-                        add_url_to_db(db_conn, job_url)
-                        new_job_count += 1
-                    
-                    time.sleep(1)
+            print("\n--- Scraping and Saving Jobs as Markdown Files ---")
+            new_job_count = 0
+            skipped_job_count = 0
+            for raw_job in all_raw_job_streams:
+                # Transform raw job data before processing
+                transformed_job = transform_job_data(raw_job)
+                job_url = transformed_job.get('applicationLink') # Use transformed link for deduplication
+                job_id = transformed_job.get('id') # Use transformed ID for deduplication
 
-                print(f"\nPipeline finished successfully.")
-                print(f"Saved {new_job_count} new jobs for review.")
-                print(f"Skipped {skipped_job_count} duplicate jobs.")
+                if not job_url:
+                    print(f"  - WARNING: Skipping job with no URL: {transformed_job.get('title')}")
+                    continue
 
-            except Exception as e:
-                print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
-            finally:
-                print("Shutting down browser driver...")
-                if driver:
-                    driver.quit()
-                if db_conn:
-                    db_conn.close()
+                if is_url_seen(db_conn, job_url):
+                    print(f"  - Skipping duplicate job (URL already seen): {transformed_job.get('title')}")
+                    skipped_job_count += 1
+                    continue
+                
+                print(f"  > Processing new job '{transformed_job.get('title')}'...")
+                if save_job_as_markdown(transformed_job): # Pass transformed job data
+                    add_url_to_db(db_conn, job_url)
+                    new_job_count += 1
+                
+                time.sleep(1)
+
+            print(f"\nPipeline finished successfully.")
+            print(f"Saved {new_job_count} new jobs for review.")
+            print(f"Skipped {skipped_job_count} duplicate jobs.")
+
+        except Exception as e:
+            print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
         finally:
-            sys.stdout = original_stdout
-            sys.stderr = original_stderr
+            print("Shutting down browser driver and database connection...")
+            if page: # Close the page first
+                page.close()
+            if browser: # Then close the browser
+                close_driver() # Use the new close_driver function
+            if db_conn:
+                db_conn.close()
+    finally:
+        sys.stdout = original_stdout
+        sys.stderr = original_stderr
     
     print(f"Pipeline run complete. Output logged to {LOG_FILE}")
 

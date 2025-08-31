@@ -5,7 +5,7 @@ import Link from 'next/link';
 import toast from 'react-hot-toast';
 import useAuth from '@/hooks/useAuth';
 import { getPendingJobs } from '@/lib/firestoreClient';
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
 
 interface AdminReviewsProps {
@@ -16,13 +16,9 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
   const { idToken } = useAuth();
   const [jobs, setJobs] = useState(initialJobs);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [jobToUpdate, setJobToUpdate] = useState<{ id: string; status: 'published' | 'rejected' } | null>(null);
+  const [jobToReject, setJobToReject] = useState<string | null>(null);
 
-  const updateJobStatus = async () => {
-    if (!jobToUpdate) return;
-    setIsModalOpen(false);
-    const { id, status } = jobToUpdate;
-
+  const updateJobStatus = useCallback(async (id: string, status: 'published' | 'rejected') => {
     const toastId = toast.loading(`Updating status to ${status}...`);
     try {
       const response = await fetch(`/api/admin/jobs/${id}/status`, {
@@ -45,16 +41,22 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
       console.error(`Error updating job status to ${status}:`, error);
       toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
     }
-  };
+  }, [idToken]);
 
   const handleApprove = (id: string) => {
-    setJobToUpdate({ id, status: 'published' });
-    updateJobStatus(); // No confirmation for approval
+    updateJobStatus(id, 'published');
   };
 
   const handleRejectClick = (id: string) => {
-    setJobToUpdate({ id, status: 'rejected' });
+    setJobToReject(id);
     setIsModalOpen(true);
+  };
+
+  const handleConfirmReject = () => {
+    if (!jobToReject) return;
+    updateJobStatus(jobToReject, 'rejected');
+    setIsModalOpen(false);
+    setJobToReject(null);
   };
 
   return (
@@ -113,7 +115,7 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
       <ConfirmationModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        onConfirm={updateJobStatus}
+        onConfirm={handleConfirmReject}
         title="Confirm Rejection"
         message="Are you sure you want to reject this job posting? This action cannot be undone."
         confirmText="Reject"

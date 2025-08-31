@@ -70,15 +70,15 @@ const Contact: React.FC = () => {
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="name" className="block text-neutral-700 text-sm font-bold mb-2">Name:</label>
-              <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-neutral-800 leading-tight focus:outline-none focus:shadow-outline bg-neutral-50" placeholder="Your Name" required />
+              <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-neutral-800 leading-tight bg-neutral-50" placeholder="Your Name" required />
             </div>
             <div className="mb-4">
               <label htmlFor="email" className="block text-neutral-700 text-sm font-bold mb-2">Email:</label>
-              <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-neutral-800 leading-tight focus:outline-none focus:shadow-outline bg-neutral-50" placeholder="your@example.com" required />
+              <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-neutral-800 leading-tight bg-neutral-50" placeholder="your@example.com" required />
             </div>
             <div className="mb-6">
               <label htmlFor="message" className="block text-neutral-700 text-sm font-bold mb-2">Message:</label>
-              <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows={5} className="shadow appearance-none border rounded w-full py-2 px-3 text-neutral-800 leading-tight focus:outline-none focus:shadow-outline bg-neutral-50" placeholder="Your message" required></textarea>
+              <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows={5} className="shadow appearance-none border rounded w-full py-2 px-3 text-neutral-800 leading-tight bg-neutral-50" placeholder="Your message" required></textarea>
             </div>
             {error && <p className="text-red-500 text-center mb-4">Error: {error}</p>}
             {success && <p className="text-green-500 text-center mb-4">{success}</p>}

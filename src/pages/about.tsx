@@ -16,7 +16,7 @@ const About: React.FC = () => {
           <div className="flex justify-center mb-8">
             <Logo />
           </div>
-          <h1 className="text-4xl sm:text-5xl font-serif font-extrabold text-primary-dark tracking-tight">
+          <h1 className="page-title">
             Your Career is an Asset. We Build Your Moat.
           </h1>
           <p className="mt-6 text-xl text-neutral-700 leading-8">

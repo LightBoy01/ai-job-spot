@@ -70,5 +70,7 @@ pglite-debug.log
 # Archives and temporary files
 /archive/
 *.zip
-\n# Ignore internal documentation\ndocs/
-\n# Pipeline cache database\n*.db\n*.db-journal
+
+# Pipeline cache database
+*.db
+*.db-journal

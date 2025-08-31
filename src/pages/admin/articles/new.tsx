@@ -116,54 +116,66 @@ const AddNewArticle: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Form Fields Column */}
           <div className="bg-neutral-50 p-8 rounded-xl shadow-lg border border-neutral-200 space-y-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="title" className="block text-sm font-semibold text-neutral-700 mb-2">Article Title</label>
-                <input type="text" id="title" name="title" value={formData.title} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.title ? 'border-red-500' : 'border-neutral-300'} focus:ring-2 focus:ring-secondary-dark outline-none transition`} required />
-                {errors.title && <span className="text-red-500 text-sm mt-1 block">{errors.title}</span>}
-              </div>
-              <div>
-                <label htmlFor="author" className="block text-sm font-semibold text-neutral-700 mb-2">Author</label>
-                <input type="text" id="author" name="author" value={formData.author} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.author ? 'border-red-500' : 'border-neutral-300'} focus:ring-2 focus:ring-secondary-dark outline-none transition`} required />
-                {errors.author && <span className="text-red-500 text-sm mt-1 block">{errors.author}</span>}
-              </div>
-              <div>
-                <label htmlFor="slug" className="block text-sm font-semibold text-neutral-700 mb-2">URL Slug</label>
-                <input type="text" id="slug" name="slug" value={formData.slug} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.slug ? 'border-red-500' : 'border-neutral-300'} focus:ring-2 focus:ring-secondary-dark outline-none transition`} required placeholder="e.g., my-awesome-article" />
-                {errors.slug && <span className="text-red-500 text-sm mt-1 block">{errors.slug}</span>}
-              </div>
-              <div>
-                <label htmlFor="publishDate" className="block text-sm font-semibold text-neutral-700 mb-2">Publish Date</label>
-                <input type="date" id="publishDate" name="publishDate" value={formData.publishDate} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.publishDate ? 'border-red-500' : 'border-neutral-300'} focus:ring-2 focus:ring-secondary-dark outline-none transition`} required />
-                {errors.publishDate && <span className="text-red-500 text-sm mt-1 block">{errors.publishDate}</span>}
+            {/* --- Article Details Section --- */}
+            <div className="border-b border-neutral-300 pb-6">
+              <h2 className="text-xl font-semibold font-serif text-primary-dark mb-4">Article Details</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="title" className="block text-sm font-semibold text-neutral-700 mb-2">Article Title</label>
+                  <input type="text" id="title" name="title" value={formData.title} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.title ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
+                  {errors.title && <span className="text-red-500 text-sm mt-1 block">{errors.title}</span>}
+                </div>
+                <div>
+                  <label htmlFor="author" className="block text-sm font-semibold text-neutral-700 mb-2">Author</label>
+                  <input type="text" id="author" name="author" value={formData.author} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.author ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
+                  {errors.author && <span className="text-red-500 text-sm mt-1 block">{errors.author}</span>}
+                </div>
+                <div>
+                  <label htmlFor="slug" className="block text-sm font-semibold text-neutral-700 mb-2">URL Slug</label>
+                  <input type="text" id="slug" name="slug" value={formData.slug} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.slug ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required placeholder="e.g., my-awesome-article" />
+                  {errors.slug && <span className="text-red-500 text-sm mt-1 block">{errors.slug}</span>}
+                </div>
+                <div>
+                  <label htmlFor="publishDate" className="block text-sm font-semibold text-neutral-700 mb-2">Publish Date</label>
+                  <input type="date" id="publishDate" name="publishDate" value={formData.publishDate} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.publishDate ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
+                  {errors.publishDate && <span className="text-red-500 text-sm mt-1 block">{errors.publishDate}</span>}
+                </div>
               </div>
             </div>
 
+            {/* --- Content Section --- */}
+            <div className="border-b border-neutral-300 pb-6">
+              <h2 className="text-xl font-semibold font-serif text-primary-dark mb-4">Content</h2>
+              <div>
+                <label htmlFor="contentBody" className="block text-sm font-semibold text-neutral-700 mb-2">Article Content</label>
+                <RichTextEditor
+                  value={formData.contentBody || ''}
+                  onChange={handleContentBodyChange}
+                  placeholder="Write your article content here..."
+                  className={`${errors.contentBody ? 'border-red-500' : ''}`}
+                />
+                {errors.contentBody && <span className="text-red-500 text-sm mt-1 block">{errors.contentBody}</span>}
+              </div>
+            </div>
+
+            {/* --- Metadata Section --- */}
             <div>
-              <label htmlFor="contentBody" className="block text-sm font-semibold text-neutral-700 mb-2">Article Content</label>
-              <RichTextEditor
-                value={formData.contentBody || ''}
-                onChange={handleContentBodyChange}
-                placeholder="Write your article content here..."
-                className={`${errors.contentBody ? 'border-red-500' : ''}`}
-              />
-              {errors.contentBody && <span className="text-red-500 text-sm mt-1 block">{errors.contentBody}</span>}
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div>
-                <label htmlFor="tags" className="block text-sm font-semibold text-neutral-700 mb-2">Tags (comma-separated)</label>
-                <input type="text" id="tags" name="tags" value={formData.tags} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 focus:ring-2 focus:ring-secondary-dark outline-none transition" />
-              </div>
-              <div>
-                <label htmlFor="volumeNo" className="block text-sm font-semibold text-neutral-700 mb-2">Volume No.</label>
-                <input type="number" id="volumeNo" name="volumeNo" value={formData.volumeNo || ''} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.volumeNo ? 'border-red-500' : 'border-neutral-300'} focus:ring-2 focus:ring-secondary-dark outline-none transition`} />
-                {errors.volumeNo && <span className="text-red-500 text-sm mt-1 block">{errors.volumeNo}</span>}
-              </div>
-              <div>
-                <label htmlFor="issueNo" className="block text-sm font-semibold text-neutral-700 mb-2">Issue No.</label>
-                <input type="number" id="issueNo" name="issueNo" value={formData.issueNo || ''} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.issueNo ? 'border-red-500' : 'border-neutral-300'} focus:ring-2 focus:ring-secondary-dark outline-none transition`} />
-                {errors.issueNo && <span className="text-red-500 text-sm mt-1 block">{errors.issueNo}</span>}
+              <h2 className="text-xl font-semibold font-serif text-primary-dark mb-4">Metadata</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div>
+                  <label htmlFor="tags" className="block text-sm font-semibold text-neutral-700 mb-2">Tags (comma-separated)</label>
+                  <input type="text" id="tags" name="tags" value={formData.tags} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
+                </div>
+                <div>
+                  <label htmlFor="volumeNo" className="block text-sm font-semibold text-neutral-700 mb-2">Volume No.</label>
+                  <input type="number" id="volumeNo" name="volumeNo" value={formData.volumeNo || ''} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.volumeNo ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} />
+                  {errors.volumeNo && <span className="text-red-500 text-sm mt-1 block">{errors.volumeNo}</span>}
+                </div>
+                <div>
+                  <label htmlFor="issueNo" className="block text-sm font-semibold text-neutral-700 mb-2">Issue No.</label>
+                  <input type="number" id="issueNo" name="issueNo" value={formData.issueNo || ''} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.issueNo ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} />
+                  {errors.issueNo && <span className="text-red-500 text-sm mt-1 block">{errors.issueNo}</span>}
+                </div>
               </div>
             </div>
           </div>

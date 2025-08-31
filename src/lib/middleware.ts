@@ -1,9 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import * as admin from 'firebase-admin'; // Import admin directly
-import { adminApp } from './firebaseAdmin'; // Import adminApp from the new file
+import { adminAuth } from './firebaseAdmin';
+import type { DecodedIdToken } from 'firebase-admin/auth';
 
 export interface AuthenticatedNextApiRequest extends NextApiRequest {
-  decodedIdToken?: admin.auth.DecodedIdToken;
+  decodedIdToken?: DecodedIdToken;
 }
 
 /**
@@ -26,8 +26,7 @@ export async function requireAdmin(req: AuthenticatedNextApiRequest, res: NextAp
   const idToken = authHeader.split('Bearer ')[1];
 
   try {
-    // Use adminApp.auth() for token verification
-    const decodedToken = await adminApp.auth().verifyIdToken(idToken);
+    const decodedToken = await adminAuth.verifyIdToken(idToken);
     
     if (decodedToken.admin !== true) {
       res.statusCode = 403;

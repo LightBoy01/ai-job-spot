@@ -9,7 +9,7 @@ const PrivacyPolicy: React.FC = () => {
         <meta name="description" content="Our privacy policy at AI Job Spot." />
       </Head>
       <div className="container mx-auto px-4 py-8 prose prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content">
-        <h1 className="text-4xl font-serif font-bold text-primary-dark mb-6">Privacy Policy</h1>
+        <h1 className="page-title mb-6 text-left">Privacy Policy</h1>
         <p className="text-lg text-neutral-800 mb-4">
           At AI Job Spot, accessible from aijobspot.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by AI Job Spot and how we use it.
         </p>

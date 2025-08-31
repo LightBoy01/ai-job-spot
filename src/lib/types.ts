@@ -34,7 +34,7 @@ export interface Article {
   id?: string;
   title: string;
   author: string;
-  publishDate: Date;
+  publishDate: Date | null;
   contentBody: string;
   excerpt: string;
   tags: string[];

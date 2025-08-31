@@ -1,3 +1,4 @@
+import React from 'react'; // Added import
 import Link from 'next/link';
 import { SerializedJobPosting } from '@/lib/types';
 import { EXPIRES_SOON_THRESHOLD_DAYS } from '@/lib/constants';
@@ -20,7 +21,6 @@ interface JobCardProps {
  * @param {string} [props.job.salaryRange] - The optional salary range.
  * @returns {JSX.Element} The rendered JobCard component.
  */
-import React from 'react';
 const JobCard = React.memo(({ job }: JobCardProps) => {
   const { id, title, company, location, salaryRange, expirationDate, isNew } = job;
 
@@ -59,7 +59,7 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
 
         {expirationDate && (
           <div className="mt-4 flex items-center text-neutral-600">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <span className="text-sm">

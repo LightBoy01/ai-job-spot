@@ -24,9 +24,9 @@ service cloud.firestore {
       allow create, update, delete: if isAdmin();
     }
 
-    // Other collections might have different rules
-    // match /{document=**} {
-    //   allow read, write: if false; // Default deny
-    // }
+    // Default deny all reads and writes to any other collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
   }
 }

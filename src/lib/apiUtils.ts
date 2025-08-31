@@ -1,4 +1,4 @@
-import { admin } from './firebaseAdmin';
+import { firestore } from 'firebase-admin';
 
 /**
  * Safely converts a date string or Date object from a client request 
@@ -7,10 +7,10 @@ import { admin } from './firebaseAdmin';
  * @param fallback The fallback behavior: 'now' for server timestamp, or 'null' to return null.
  * @returns A Firestore Timestamp or null.
  */
-export function safeToTimestamp(dateInput: string | Date | undefined | null, fallback: 'now' | 'null' = 'null'): admin.firestore.Timestamp | null {
+export function safeToTimestamp(dateInput: string | Date | undefined | null, fallback: 'now' | 'null' = 'null'): firestore.Timestamp | null {
   if (!dateInput) {
     if (fallback === 'now') {
-      return admin.firestore.Timestamp.now();
+      return firestore.Timestamp.now();
     }
     return null;
   }
@@ -19,14 +19,14 @@ export function safeToTimestamp(dateInput: string | Date | undefined | null, fal
     const date = new Date(dateInput);
     if (isNaN(date.getTime())) {
       if (fallback === 'now') {
-        return admin.firestore.Timestamp.now();
+        return firestore.Timestamp.now();
       }
       return null;
     }
-    return admin.firestore.Timestamp.fromDate(date);
+    return firestore.Timestamp.fromDate(date);
   } catch (error) {
     console.error('Error converting date to Timestamp:', error);
-    return fallback === 'now' ? admin.firestore.Timestamp.now() : null;
+    return fallback === 'now' ? firestore.Timestamp.now() : null;
   }
 }
 
@@ -93,3 +93,21 @@ export const isAfter = (otherField: string, otherFieldLabel: string): Validation
         if (isNaN(date.getTime()) || isNaN(otherDate.getTime())) return 'Invalid date format for comparison.';
         return date <= otherDate ? `Must be after ${otherFieldLabel}.` : null;
     };
+
+export const slugify = (str: string) => {
+    str = str.replace(/^\s+|\s+$/g, ''); // trim
+    str = str.toLowerCase();
+  
+    // remove accents, swap ñ for n, etc
+    const from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+    const to   = "aaaaeeeeiiiioooouuuunc------";
+    for (let i = 0, l = from.length; i < l; i++) {
+        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+    }
+
+    str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+        .replace(/\s+/g, '-') // collapse whitespace and replace by -
+        .replace(/-+/g, '-'); // collapse dashes
+
+    return str;
+};

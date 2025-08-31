@@ -34,6 +34,10 @@ const jobSchema = z.object({
     salaryRange: z.string().nullable().optional(),
     source: z.string().optional(),
     excerpt: z.string(), // Added by our script
+    // These are now parsed from the body for jobs
+    description: z.string().optional(),
+    responsibilities: z.array(z.string()).optional(),
+    qualifications: z.array(z.string()).optional(),
 });
 
 
@@ -82,49 +86,83 @@ const jobSchema = z.object({
                     // Create a plain text excerpt
                     const plainTextContent = content.replace(/\n/g, ' ').replace(/(\*\*|\*|_|`|\[|\]|\(|\)|#)/g, '');
                     data.excerpt = plainTextContent.substring(0, 160);
+                    
+                    let finalData: any = { ...data };
+
+                    if (isJobsDir) {
+                        // --- PARSE JOB CONTENT ---
+                        let description = content;
+                        let responsibilities: string[] = [];
+                        let qualifications: string[] = [];
+
+                        const respRegex = /\n###\s+Responsibilities\n/i;
+                        const qualRegex = /\n###\s+Qualifications\n/i;
+
+                        const qualMatch = content.match(qualRegex);
+                        const respMatch = content.match(respRegex);
+
+                        let respIndex = respMatch ? respMatch.index ?? -1 : -1;
+                        let qualIndex = qualMatch ? qualMatch.index ?? -1 : -1;
+
+                        if (qualIndex !== -1) {
+                            qualifications = content.substring(qualIndex + qualMatch![0].length)
+                                .split('\n')
+                                .map(s => s.replace(/^\s*-\s*/, '').trim())
+                                .filter(s => s);
+                        }
+
+                        if (respIndex !== -1) {
+                            const respEndIndex = qualIndex !== -1 ? qualIndex : content.length;
+                            responsibilities = content.substring(respIndex + respMatch![0].length, respEndIndex)
+                                .split('\n')
+                                .map(s => s.replace(/^\s*-\s*/, '').trim())
+                                .filter(s => s);
+                        }
+
+                        const firstHeadingIndex = respIndex !== -1 ? respIndex : (qualIndex !== -1 ? qualIndex : content.length);
+                        description = content.substring(0, firstHeadingIndex).trim();
+                        
+                        finalData.description = DOMPurify.sanitize(await marked(description));
+                        finalData.responsibilities = responsibilities;
+                        finalData.qualifications = qualifications;
+
+                    } else {
+                        // Process custom placeholders for articles
+                        let processedContent = content;
+                        if (data.imageUrl) {
+                            processedContent = processedContent.replace(/\ \[\[Featured Image:.*?\ \]/g, `<img src="${data.imageUrl}" alt="${data.title}" class="w-full h-auto rounded-lg my-8" />`);
+                        }
+                        processedContent = processedContent.replace(/\ \[\[Internal Link: (.*?)\ \]/g, (match, linkText) => {
+                            return `<a href="/articles/${linkText.toLowerCase().replace(/\s+/g, '-')}" class="text-secondary-dark hover:underline">${linkText}</a>`;
+                        });
+                        processedContent = processedContent.replace(/\ \[\[External Link: (.*?)\ \]/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-secondary-dark hover:underline">$1</a>');
+                        finalData.contentBody = DOMPurify.sanitize(await marked(processedContent));
+                    }
 
                     // --- VALIDATION ---
                     try {
                         if (isJobsDir) {
-                            jobSchema.parse(data);
+                            jobSchema.parse(finalData);
                         } else {
-                            articleSchema.parse(data);
+                            articleSchema.parse(finalData);
                         }
                     } catch (error) {
                         console.error(`[VALIDATION FAILED] for ${file}:`, error);
                         continue; // Skip this file
                     }
 
-                    // Process custom placeholders
-                    let processedContent = content;
-
-                    // Image placeholder
-                    if (data.imageUrl) {
-                        processedContent = processedContent.replace(/\ \[Featured Image:.*?\ ]/g, `<img src="${data.imageUrl}" alt="${data.title}" class="w-full h-auto rounded-lg my-8" />`);
-                    }
-
-                    // Internal links
-                    processedContent = processedContent.replace(/\ \[Internal Link: (.*?)\ ]/g, (match, linkText) => {
-                        // A real implementation would need a way to look up the slug from the link text
-                        return `<a href="/articles/${linkText.toLowerCase().replace(/\s+/g, '-')}" class="text-secondary-dark hover:underline">${linkText}</a>`;
-                    });
-
-                    // External links
-                    processedContent = processedContent.replace(/\ \[External Link: (.*?)\ ]/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-secondary-dark hover:underline">$1</a>');
-
                     // Convert dates to Firestore Timestamps before pushing
-                    const itemData = { ...data };
-                    if (itemData.postedDate) {
-                        itemData.postedDate = admin.firestore.Timestamp.fromDate(new Date(itemData.postedDate));
+                    if (finalData.postedDate) {
+                        finalData.postedDate = admin.firestore.Timestamp.fromDate(new Date(finalData.postedDate));
                     }
-                    if (itemData.expirationDate) {
-                        itemData.expirationDate = admin.firestore.Timestamp.fromDate(new Date(itemData.expirationDate));
+                    if (finalData.expirationDate) {
+                        finalData.expirationDate = admin.firestore.Timestamp.fromDate(new Date(finalData.expirationDate));
                     }
-                    if (itemData.publishDate) {
-                        itemData.publishDate = admin.firestore.Timestamp.fromDate(new Date(itemData.publishDate));
+                    if (finalData.publishDate) {
+                        finalData.publishDate = admin.firestore.Timestamp.fromDate(new Date(finalData.publishDate));
                     }
 
-                    items.push({ ...itemData, contentBody: DOMPurify.sanitize(await marked(processedContent)) });
+                    items.push(finalData);
                 }
             }
         } catch (error) {
@@ -161,6 +199,9 @@ const jobSchema = z.object({
                 employeeRole: job.employeeRole || null,
                 source: job.source || null,
                 tags: job.tags || [],
+                description: job.description || '',
+                responsibilities: job.responsibilities || [],
+                qualifications: job.qualifications || [],
             };
             batch.set(jobRef, jobToSeed, { merge: true });
             operationsCount++;

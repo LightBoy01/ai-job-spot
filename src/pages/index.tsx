@@ -8,8 +8,7 @@ import { SerializedJobPosting } from '@/lib/types';
 import { NEW_JOB_THRESHOLD_MS, JOB_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
-import { doc, getDoc } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
+
 
 interface HomeProps {
   initialJobs: SerializedJobPosting[];
@@ -42,138 +41,98 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
     return initialLastDocId;
   });
   const loader = useRef(null);
+  const isFetching = useRef(false); // Lock to prevent multiple fetches
   const [searchQuery, setSearchQuery] = useState('');
+  const isSearchActive = useCallback(() => searchQuery.trim() !== '', [searchQuery]);
 
-  const searchJobs = useCallback(async (query: string) => {
-    if (query.trim() === '') {
-      setDisplayedJobs(initialJobs);
-      setLastDocId(initialLastDocId);
-      setHasMore(true);
-      return;
-    }
+  // Unified data fetching function
+  const fetchJobs = useCallback(async (query: string, startAfterId: string | null) => {
+    console.log('Client: fetchJobs called with:');
+    console.log('  query:', query);
+    console.log('  startAfterId:', startAfterId);
 
+    if (isFetching.current) return;
+    isFetching.current = true;
     setLoading(true);
+
+    const isNewSearch = startAfterId === null;
+    const searchParams = new URLSearchParams({
+      q: query,
+      startAfter: startAfterId || '',
+      limit: String(JOB_FETCH_LIMIT)
+    });
+
     try {
-      const response = await fetch(`/api/jobs/search?q=${query}`);
+      const response = await fetch(`/api/jobs/search?${searchParams.toString()}`);
       if (!response.ok) {
         const errorData = await response.json();
-        console.error('Error searching for jobs:', errorData.message || response.statusText);
-        setDisplayedJobs([]);
-        setLastDocId(null);
-        setHasMore(false);
-        return;
+        throw new Error(errorData.message || 'Failed to fetch jobs');
       }
+
       const { jobs: newFetchedJobs = [], lastVisible: newLastVisible } = await response.json();
-      setDisplayedJobs(newFetchedJobs);
-      setLastDocId(newLastVisible ? newLastVisible.id : null);
-      setHasMore(newFetchedJobs.length > 0);
+
+      console.log('Client: Received newFetchedJobs count:', newFetchedJobs.length);
+      console.log('Client: Received newLastVisible ID:', newLastVisible);
+
+      if (newFetchedJobs.length === 0) {
+        setHasMore(false);
+      } else {
+        setHasMore(true);
+      }
+      
+      setDisplayedJobs(prevJobs => {
+        const existingIds = new Set(prevJobs.map(j => j.id));
+        const uniqueNewJobs = newFetchedJobs.filter((j: SerializedJobPosting) => !existingIds.has(j.id));
+        const updatedJobs = isNewSearch ? newFetchedJobs : [...prevJobs, ...uniqueNewJobs];
+        return updatedJobs;
+      });
+      setLastDocId(newLastVisible);
+
     } catch (error) {
-      console.error('Error searching for jobs:', error);
-      setDisplayedJobs([]); // Ensure jobs are cleared on network/parsing error
-      setLastDocId(null);
-      setHasMore(false);
+      console.error('Error fetching jobs:', error);
+      setHasMore(false); // Stop trying on error
     } finally {
       setLoading(false);
+      isFetching.current = false; // Release the lock
     }
-  }, [initialJobs, initialLastDocId]);
+  }, []); // Removed dependencies to create a stable function
 
+  // Effect for debouncing search input
   useEffect(() => {
     const delayDebounceFn = setTimeout(() => {
-      searchJobs(searchQuery);
+      if (searchQuery.trim() === '') {
+        // If search is cleared, reset to initial static props
+        setDisplayedJobs(initialJobs);
+        setLastDocId(initialLastDocId);
+        setHasMore(true);
+      } else {
+        // Otherwise, perform a new search
+        fetchJobs(searchQuery, null);
+      }
     }, 500);
 
     return () => clearTimeout(delayDebounceFn);
-  }, [searchQuery, searchJobs]);
+  }, [searchQuery, initialJobs, initialLastDocId, fetchJobs]);
+
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
   };
 
-  const fetchMoreJobs = useCallback(async () => {
-    if (loading || !hasMore) return;
-
-    setLoading(true);
-    try {
-      let startAfterSnapshot = undefined;
-      if (lastDocId) {
-        const docRef = doc(db, 'jobs', lastDocId);
-        startAfterSnapshot = await getDoc(docRef);
-        if (!startAfterSnapshot.exists()) {
-          console.warn(`Last document with ID ${lastDocId} does not exist. Stopping pagination.`);
-          setHasMore(false);
-          setLoading(false);
-          return;
-        }
-      }
-
-      let newFetchedJobs: SerializedJobPosting[] = [];
-      let newLastVisible: string | null = null;
-
-      if (searchQuery.trim() !== '') {
-        // If there's an active search query, paginate search results
-        const response = await fetch(`/api/jobs/search?q=${searchQuery}&startAfter=${lastDocId || ''}`);
-        if (!response.ok) {
-          throw new Error('Error fetching more search results');
-        }
-        const data = await response.json();
-        newFetchedJobs = data.jobs || [];
-        newLastVisible = data.lastVisible;
+  // Infinite scroll handler
+  const handleObserver = useCallback((entities: IntersectionObserverEntry[]) => {
+    const target = entities[0];
+    if (target.isIntersecting && hasMore && !isFetching.current) { // Check ref lock
+      if (isSearchActive()) {
+        fetchJobs(searchQuery, lastDocId);
       } else {
-        // Otherwise, paginate general job listings
-        const { jobs, lastVisible } = await getJobs(JOB_FETCH_LIMIT, startAfterSnapshot);
-        newFetchedJobs = jobs.map(job => ({
-          ...job,
-          postedDate: job.postedDate.toISOString(),
-          expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
-        })) as SerializedJobPosting[];
-        newLastVisible = lastVisible ? lastVisible.id : null;
+        // Paginate the general list (non-search)
+        fetchJobs('', lastDocId);
       }
-
-      if (newFetchedJobs.length === 0) {
-        setHasMore(false);
-      } else {
-        setDisplayedJobs(prevJobs => {
-          const now = new Date();
-          const processedNewJobs = newFetchedJobs.map(job => {
-            const posted = job.postedDate ? new Date(job.postedDate) : new Date();
-            if ((now.getTime() - posted.getTime()) > NEW_JOB_THRESHOLD_MS) {
-              job.isNew = false;
-            }
-            return job;
-          }).filter(job => {
-            if (!job.expirationDate) return true;
-            const expiration = new Date(job.expirationDate);
-            return expiration.getTime() > now.getTime();
-          });
-
-          // Filter out any duplicates that might occur if a job was added/updated during revalidation
-          const uniqueNewJobs = processedNewJobs.map(job => ({
-            ...job,
-            postedDate: job.postedDate ? job.postedDate : new Date().toISOString(), // Ensure it's a string, fallback to current date if null
-            expirationDate: job.expirationDate || null, // Already a string or null
-          })).filter((newJob: SerializedJobPosting) =>
-            !prevJobs.some(existingJob => existingJob.id === newJob.id)
-          );
-          return [...prevJobs, ...uniqueNewJobs];
-        });
-        setLastDocId(newLastVisible);
-      }
-    } catch (error) {
-      console.error('Error fetching more jobs:', error);
-      setHasMore(false); // Stop trying to load more on error
-    } finally {
-      setLoading(false);
     }
-  }, [loading, hasMore, lastDocId, searchQuery]);
+  }, [hasMore, fetchJobs, searchQuery, lastDocId, isSearchActive]);
 
   useEffect(() => {
-    const handleObserver = (entities: IntersectionObserverEntry[]) => {
-      const target = entities[0];
-      if (target.isIntersecting && hasMore && !loading) {
-        fetchMoreJobs();
-      }
-    };
-
     const observer = new IntersectionObserver(handleObserver, {
       root: null,
       rootMargin: '20px',
@@ -190,7 +149,11 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
         observer.unobserve(currentLoader);
       }
     };
-  }, [hasMore, loading, fetchMoreJobs]); // fetchMoreJobs is now a stable dependency
+  }, [handleObserver]);
+
+  useEffect(() => {
+    console.log('Client: displayedJobs state changed. Current count:', displayedJobs.length);
+  }, [displayedJobs]);
 
   useEffect(() => {
     const handleRouteChangeStart = (url: string) => {
@@ -256,7 +219,7 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
           <input
             type="text"
             placeholder="Search for jobs..."
-            className="w-full max-w-lg p-4 border border-neutral-300 rounded-lg focus:ring-primary focus:border-primary"
+            className="w-full max-w-lg p-4 border border-neutral-300 rounded-lg"
             onChange={handleSearchChange}
           />
         </div>

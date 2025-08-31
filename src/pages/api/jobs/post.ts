@@ -2,8 +2,13 @@ import type { NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { FirestoreJobPosting, JobPosting } from '@/lib/types';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
-import { validatePayload, isRequired, isURL, safeToTimestamp, isAfter } from '@/lib/apiUtils';
+import { validatePayload, isRequired, isURL, safeToTimestamp, isAfter, slugify } from '@/lib/apiUtils';
 import DOMPurify from 'isomorphic-dompurify';
+import fs from 'fs/promises';
+import path from 'path';
+import TurndownService from 'turndown';
+
+const turndownService = new TurndownService();
 
 // This type represents the shape of the data coming from the frontend form
 type JobFormData = Partial<Omit<JobPosting, 'id' | 'tags' | 'responsibilities' | 'qualifications'> & {
@@ -45,6 +50,7 @@ export default async function handler(
 
     const sanitizedDescription = DOMPurify.sanitize(jobData.description || '');
     const newJobRef = adminDb.collection('jobs').doc();
+    const jobId = newJobRef.id;
 
     const postedTimestamp = safeToTimestamp(jobData.postedDate, 'now')!;
     let expirationTimestamp = safeToTimestamp(jobData.expirationDate, 'null');
@@ -53,8 +59,12 @@ export default async function handler(
         const thirtyDaysFromNow = new Date(postedTimestamp.toDate().getTime() + 30 * 24 * 60 * 60 * 1000);
         expirationTimestamp = safeToTimestamp(thirtyDaysFromNow, 'now');
     }
+    
+    const responsibilitiesArray = jobData.responsibilities ? jobData.responsibilities.split('\n').filter(r => r.trim() !== '') : [];
+    const qualificationsArray = jobData.qualifications ? jobData.qualifications.split('\n').filter(q => q.trim() !== '') : [];
 
-    const newJob: Omit<FirestoreJobPosting, 'id'> = {
+    const newJob: FirestoreJobPosting = {
+      id: jobId,
       title: jobData.title!,
       company: jobData.company!,
       location: jobData.location!,
@@ -67,23 +77,55 @@ export default async function handler(
       status: jobData.status || 'published',
       jobLevel: jobData.jobLevel || null,
       employeeRole: jobData.employeeRole || null,
-      responsibilities: jobData.responsibilities ? jobData.responsibilities.split('\n').filter(r => r.trim() !== '') : [],
-      qualifications: jobData.qualifications ? jobData.qualifications.split('\n').filter(q => q.trim() !== '') : [],
+      responsibilities: responsibilitiesArray,
+      qualifications: qualificationsArray,
     };
+
+    // --- Create Markdown File ---
+    const markdownDescription = turndownService.turndown(sanitizedDescription);
+    
+    let markdownBody = markdownDescription;
+    if (responsibilitiesArray.length > 0) {
+        markdownBody += '\n\n### Responsibilities\n\n' + responsibilitiesArray.map(r => `- ${r}`).join('\n');
+    }
+    if (qualificationsArray.length > 0) {
+        markdownBody += '\n\n### Qualifications\n\n' + qualificationsArray.map(q => `- ${q}`).join('\n');
+    }
+
+    const frontmatter = `---\nid: ${jobId}
+title: "${jobData.title!.replaceAll('"', '\"')}"
+company: "${jobData.company!.replaceAll('"', '\"')}"
+location: "${jobData.location!.replaceAll('"', '\"')}"
+applicationLink: ${jobData.applicationLink}
+postedDate: ${postedTimestamp.toDate().toISOString()}
+expirationDate: ${expirationTimestamp ? expirationTimestamp.toDate().toISOString() : 'null'}
+tags:
+${newJob.tags.map(t => `  - ${t}`).join('\n')}
+status: ${newJob.status}
+jobLevel: ${newJob.jobLevel || 'null'}
+employeeRole: ${newJob.employeeRole || 'null'}
+salaryRange: ${newJob.salaryRange || 'null'}
+---\n
+${markdownBody}
+`;
+
+    const filename = `job-${slugify(jobData.title!)}-${jobId.substring(0, 6)}.md`;
+    const filepath = path.join(process.cwd(), 'src', 'job-descriptions', filename);
+
+    await fs.writeFile(filepath, frontmatter);
+    // --- End Create Markdown File ---
+
 
     await newJobRef.set(newJob);
 
-    console.log(`New job posted with ID: ${newJobRef.id}`);
-
     try {
       await res.revalidate('/');
-      await res.revalidate(`/jobs/${newJobRef.id}`);
+      await res.revalidate(`/jobs/${jobId}`);
     } catch (revalError) {
       console.error('Error during revalidation:', revalError);
     }
     
     const finalJob = {
-      id: newJobRef.id,
       ...newJob,
       // Convert Timestamps to ISO strings for JSON serialization
       postedDate: newJob.postedDate.toDate().toISOString(),

@@ -49,10 +49,12 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
     return initialLastDocId;
   });
   const loader = useRef(null);
+  const isFetching = useRef(false); // Lock to prevent multiple fetches
 
   const fetchMoreArticles = useCallback(async () => {
-    if (loading || !hasMore) return;
+    if (isFetching.current || !hasMore) return;
 
+    isFetching.current = true;
     setLoading(true);
     try {
       let startAfterSnapshot = undefined;
@@ -63,6 +65,7 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
           console.warn(`Last document with ID ${lastDocId} does not exist. Stopping pagination.`);
           setHasMore(false);
           setLoading(false);
+          isFetching.current = false; // Release lock
           return;
         }
       }
@@ -76,7 +79,7 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
           // Filter out any duplicates that might occur if an article was added/updated during revalidation
           const uniqueNewArticles = newFetchedArticles.map(article => ({
             ...article,
-            publishDate: article.publishDate.toISOString(), // Convert Date to ISO string
+            publishDate: article.publishDate ? article.publishDate.toISOString() : '', // Convert Date to ISO string, handle null
           })).filter((newArticle: SerializedArticleSummary) =>
             !prevArticles.some(existingArticle => existingArticle.id === newArticle.id)
           );
@@ -89,13 +92,14 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
       setHasMore(false); // Stop trying to load more on error
     } finally {
       setLoading(false);
+      isFetching.current = false; // Release the lock
     }
-  }, [loading, hasMore, lastDocId]);
+  }, [hasMore, lastDocId]); // Dependencies needed for the logic inside
 
   useEffect(() => {
     const handleObserver = (entities: IntersectionObserverEntry[]) => {
       const target = entities[0];
-      if (target.isIntersecting && hasMore && !loading) {
+      if (target.isIntersecting && !isFetching.current) { // Check ref lock
         fetchMoreArticles();
       }
     };
@@ -116,7 +120,7 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
         observer.unobserve(currentLoader);
       }
     };
-  }, [hasMore, loading, fetchMoreArticles]); // fetchMoreArticles is now a stable dependency
+  }, [fetchMoreArticles]);
 
   useEffect(() => {
     const handleRouteChangeStart = (url: string) => {
@@ -173,7 +177,7 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
         <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/articles`} />
       </Head>
       <div className="container mx-auto px-4 py-12 font-serif">
-        <h1 className="text-5xl font-bold text-neutral-800 mb-6 text-center leading-tight">Insights & Musings</h1>
+        <h1 className="page-title mb-6">Insights & Musings</h1>
         <p className="text-xl text-neutral-600 mb-12 text-center max-w-2xl mx-auto">Delve into our curated collection of articles and guides on the evolving landscape of AI careers and technology.</p>
         {displayedArticles.length === 0 && !loading ? (
           <p className="text-center text-neutral-600 text-lg">No articles available at the moment. Please check back later for profound insights!</p>
@@ -212,7 +216,7 @@ export const getStaticProps: GetStaticProps<ArticlesProps> = async () => {
       props: {
         initialArticles: articles.map(article => ({
           ...article,
-          publishDate: article.publishDate.toISOString(), // Convert Date to ISO string for serialization
+          publishDate: article.publishDate ? article.publishDate.toISOString() : '', // Convert Date to ISO string for serialization, handle null
         })),
         lastDocId: lastVisible ? lastVisible.id : null,
       },

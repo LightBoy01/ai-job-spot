@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { getJobs, getArticles } from '../../lib/firestoreClient'; // Adjust path as needed
 import * as admin from 'firebase-admin';
 
-const WEBSITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-job-spot.vercel.app';
+const WEBSITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aijobspot.online';
 
 const formatDate = (date: Date | admin.firestore.Timestamp): string => {
   if (date instanceof Date) {

@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { serialize } from 'cookie';
-import { admin } from '../../../lib/firebaseAdmin';
+import { adminAuth } from '@/lib/firebaseAdmin';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
@@ -16,7 +16,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     // Verify the ID token to ensure it's valid.
-    await admin.auth().verifyIdToken(idToken);
+    await adminAuth.verifyIdToken(idToken);
 
     // Set the ID token as an HttpOnly, secure cookie.
     res.setHeader('Set-Cookie', serialize('__session', idToken, {
