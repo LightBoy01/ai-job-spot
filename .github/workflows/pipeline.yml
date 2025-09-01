@@ -35,10 +35,18 @@ jobs:
         run: python -m playwright install --with-deps # This should handle all necessary drivers
 
       - name: Run the scraping pipeline
+        id: scrape
+        continue-on-error: true # Allow the workflow to continue to the next step even if this one fails
         env:
           PIPELINE_API_KEY: ${{ secrets.PIPELINE_API_KEY }}
           SITE_URL: ${{ secrets.SITE_URL }}
         run: python -m src.pipeline.run_pipeline
+
+      - name: Check script exit code
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "Scraping script failed with exit code $?"
+          exit 1 # Explicitly fail the workflow after printing the code
 
       - name: Create Pull Request with new jobs
         uses: peter-evans/create-pull-request@v6
