@@ -179,7 +179,6 @@ def main():
     log_file_opened = False
 
     try:
-        print("DEBUG: Entered main try block.", file=original_stdout)
         f = open(LOG_FILE, 'w', encoding='utf-8')
         log_file_opened = True
         sys.stdout = f
@@ -258,7 +257,6 @@ def main():
         print(f"Filtered out {filtered_out_count} jobs (did not match keywords).")
 
     except Exception as e:
-        print("DEBUG: Entered except block.", file=original_stderr)
         # Print to original stderr to ensure visibility in CI/CD logs
         original_stderr.write(f"A critical error occurred in the main pipeline: {e}\n")
         import traceback
@@ -268,7 +266,6 @@ def main():
         print(f"A critical error occurred in the main pipeline: {e}", file=sys.stderr)
         print(traceback.format_exc(), file=sys.stderr)
     finally:
-        print("DEBUG: Entered finally block.", file=original_stdout)
         # Restore original stdout/stderr before any further prints
         sys.stdout = original_stdout
         sys.stderr = original_stderr

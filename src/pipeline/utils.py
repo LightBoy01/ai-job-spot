@@ -10,10 +10,23 @@ def get_driver() -> Browser:
     if _browser_instance:
         return _browser_instance
 
-    print("Initializing headless Playwright browser...")
+    print("Initializing headless Playwright browser (Chromium)...")
     try:
         _playwright_instance = sync_playwright().start()
-        _browser_instance = _playwright_instance.firefox.launch(headless=True)
+        # Switch to Chromium and add memory-saving arguments
+        _browser_instance = _playwright_instance.chromium.launch(
+            headless=True,
+            args=[
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-accelerated-2d-canvas',
+                '--no-first-run',
+                '--no-zygote',
+                '--single-process', # This is for older linux kernels
+                '--disable-gpu'
+            ]
+        )
         return _browser_instance
     except Exception as e:
         print(f"Error initializing Playwright browser: {e}", file=sys.stderr)
