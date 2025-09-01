@@ -29,7 +29,11 @@ def get_driver() -> Browser:
         )
         return _browser_instance
     except Exception as e:
-        print(f"Error initializing Playwright browser: {e}", file=sys.stderr)
+        import traceback
+        print(f"CRITICAL: Error initializing Playwright browser: {e}", file=sys.stderr)
+        print("--- START OF PLAYWRIGHT TRACEBACK ---", file=sys.stderr)
+        traceback.print_exc()
+        print("--- END OF PLAYWRIGHT TRACEBACK ---", file=sys.stderr)
         sys.exit(1)
 
 def close_driver():
