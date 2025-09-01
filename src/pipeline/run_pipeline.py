@@ -5,8 +5,21 @@ import time
 import os
 import re
 import sqlite3
+import signal
+import traceback
 from datetime import datetime, timedelta
 import yaml # Added for PyYAML
+
+# --- Signal Handler for Graceful Shutdown ---
+def handle_signal(signum, frame):
+    """Catches termination signals and prints a traceback."""
+    print("\n--- FATAL: RECEIVED SIGNAL ---", file=sys.__stderr__)
+    print(f"Received signal {signum}. Forcing traceback and exit.", file=sys.__stderr__)
+    traceback.print_stack(frame)
+    sys.exit(1)
+
+# Register the signal handler for SIGTERM
+signal.signal(signal.SIGTERM, handle_signal)
 
 # --- Configuration Loading ---
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), 'pipeline_config.json')
