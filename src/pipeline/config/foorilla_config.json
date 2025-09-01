@@ -5,17 +5,21 @@
   "ai_niches": [
     "AI",
     "Machine Learning",
-    "Data Scientist"
+    "Data Scientist",
+    "GenAI",
+    "Generative AI",
+    "NLP",
+    "Computer Vision"
   ],
   "job_detail_selectors": {
     "description_container": "#mc_2",
     "title": "h1",
-    "company": "strong:contains('@')",
-    "location": "i.bi-geo-alt + span",
-    "salary_selector": null,
-    "responsibilities_heading": "h2:contains('Responsibilities'), h3:contains('What you\'ll do'), strong:contains('Your role')",
-    "qualifications_heading": "h2:contains('Qualifications'), h3:contains('Requirements'), strong:contains('Who you are'), strong:contains('Your experience')",
-    "apply_button_selector": "a.btn-primary"
+    "company": "strong > a[href='/hiring/companies/']",
+    "location": ".hstack.justify-content-between > div:first-child",
+    "salary_selector": "span.text-bg-secondary",
+    "responsibilities_heading": "strong:contains('Tasks:') + ul",
+    "qualifications_heading": "strong:contains('Skills/Tech-stack required:') + div",
+    "apply_button_selector": "a.btn-primary[href*='/apply/']"
   },
   "delay_between_requests": 2
 }

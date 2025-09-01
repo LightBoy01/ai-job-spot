@@ -1,6 +1,7 @@
 {
   "scrapers_enabled": [
-    "rss_scraper"
+    "rss_scraper",
+    "foorilla_scraper"
   ],
   "global_filter_keywords": [
     "Data Scientist",

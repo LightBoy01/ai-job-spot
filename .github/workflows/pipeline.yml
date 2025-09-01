@@ -34,11 +34,13 @@ jobs:
       - name: Install Playwright browsers
         run: python -m playwright install --with-deps # This should handle all necessary drivers
 
-      - name: Run the exploration script
-        run: python -m src.pipeline.explore_site
+      - name: Run the scraping pipeline
+        env:
+          PIPELINE_API_KEY: ${{ secrets.PIPELINE_API_KEY }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: python -m src.pipeline.run_pipeline
 
       - name: Create Pull Request with new jobs
-        if: false # Temporarily disable for exploration run
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
