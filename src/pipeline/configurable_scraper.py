@@ -94,16 +94,24 @@ def extract_posted_date(soup: BeautifulSoup) -> str | None:
                 continue
     return None
 
-def fetch_page_html(page: Page, url: str) -> str: # Changed driver to page
-    """Fetches the HTML content of a given URL using Playwright."""
+def fetch_page_html(page: Page, url: str, wait_for_selector: Optional[str] = None) -> str:
+    """Fetches the HTML content of a given URL using Playwright, with an optional wait."""
     print(f"DEBUG: Fetching HTML from {url}...")
     try:
-        page.goto(url, wait_until="domcontentloaded") # Use page.goto
-        # Playwright automatically waits for page to load, but we can add more specific waits if needed
-        # For now, a simple wait_until="domcontentloaded" should suffice
-        print("DEBUG: Playwright page loaded.")
-        return page.content() # Use page.content()
-    except PlaywrightTimeoutError as e: # Updated exception
+        # Use networkidle for more reliability with dynamic sites
+        page.goto(url, wait_until="networkidle", timeout=20000) 
+        
+        if wait_for_selector:
+            print(f"DEBUG: Waiting for selector '{wait_for_selector}' to be visible...")
+            page.wait_for_selector(wait_for_selector, state="visible", timeout=15000)
+            print("DEBUG: Selector is visible.")
+
+        # Additional small wait for any final client-side rendering
+        page.wait_for_timeout(2000)
+
+        print("DEBUG: Page loaded and content is ready.")
+        return page.content()
+    except PlaywrightTimeoutError as e:
         print(f"DEBUG: PlaywrightTimeoutError occurred for {url}: {e}", file=sys.stderr)
         html_content = page.content() # Use page.content()
         print(f"DEBUG: Page source on PlaywrightTimeoutError (first 500 chars): {html_content[:500]}", file=sys.stderr)
@@ -340,36 +348,80 @@ def save_as_json(jobs_data: list, filename: str):
 
 def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
     """
-    Scrapes job data from a configured site and yields job details.
+    Scrapes job data from a configured site by clicking links and waiting for dynamic content.
+    Yields job details.
     """
     start_url = site_config.get("start_url")
-
-    if not start_url:
-        print("Error: Configuration file must contain a 'start_url'.", file=sys.stderr)
-        return # Use return instead of sys.exit(1) for a generator
-
-    main_page_html = fetch_page_html(page, start_url)
-
-    if not main_page_html:
-        print("Failed to fetch main job page. Skipping site.", file=sys.stderr)
-        return
-
-    # Save the successfully fetched main page HTML for inspection
-    save_html_to_file(main_page_html, filename_base="foorilla_main_page_success", identifier="jobs_page")
-
-    relevant_jobs_to_scrape = scrape_job_links(main_page_html, limit, site_config)
+    job_list_selector = site_config.get("job_list_selector")
+    job_link_selector = site_config.get("job_link_selector")
+    detail_container_selector = site_config["job_detail_selectors"].get("description_container")
     
-    if not relevant_jobs_to_scrape:
-        print("No relevant job links found on the main page for this site.", file=sys.stderr)
+    if not all([start_url, job_list_selector, job_link_selector, detail_container_selector]):
+        print("Error: Config must contain 'start_url', 'job_list_selector', 'job_link_selector', and a 'description_container' in job_detail_selectors.", file=sys.stderr)
         return
 
-    for job_info in relevant_jobs_to_scrape:
-        print(f"--- Scraping details for: {job_info['title']} ---")
-        detail_page_html = fetch_page_html(page, job_info['url'])
-        if detail_page_html:
-            details = scrape_job_details(page, detail_page_html, site_config)
+    print(f"DEBUG: Navigating to start URL: {start_url}")
+    page.goto(start_url, wait_until="networkidle")
+
+    print(f"DEBUG: Waiting for job list selector: {job_list_selector}")
+    page.wait_for_selector(job_list_selector, state="visible", timeout=20000)
+    
+    # Save the successfully fetched main page HTML for inspection
+    save_html_to_file(page.content(), filename_base="foorilla_main_page_success", identifier="jobs_page")
+
+    job_link_elements = page.query_selector_all(f"{job_list_selector} {job_link_selector}")
+    
+    print(f"Found {len(job_link_elements)} potential job links on the main page.")
+
+    job_count = 0
+    for link_element in job_link_elements:
+        if job_count >= limit:
+            print(f"DEBUG: Reached scrape limit of {limit}.")
+            break
+
+        try:
+            job_title = link_element.inner_text()
+            if not is_relevant_job(job_title, site_config.get("ai_niches", [])):
+                # print(f"DEBUG: Skipping non-relevant job: {job_title}")
+                continue
+
+            print(f"--- Processing details for: {job_title} ---")
+            
+            # Get the current HTML of the detail container to see if it changes
+            initial_detail_html = page.inner_html(detail_container_selector)
+
+            # Click the link to trigger the HTMX swap
+            link_element.click()
+
+            # Wait for the content in the detail container to be updated
+            # We check that the HTML content is different from the initial state.
+            page.wait_for_function(
+                f"document.querySelector('{detail_container_selector}').innerHTML !== arguments[0]",
+                arg=initial_detail_html,
+                timeout=15000
+            )
+            print(f"DEBUG: Detail container '{detail_container_selector}' updated.")
+            
+            # Small extra wait for safety
+            page.wait_for_timeout(1000)
+
+            detail_html = page.inner_html(detail_container_selector)
+            details = scrape_job_details(page, detail_html, site_config)
+            
             if details:
+                # Add the title from the list view as it's more reliable
+                details['title'] = job_title
                 yield details
+                job_count += 1
+
+        except Exception as e:
+            print(f"ERROR: Failed to process a job link. Reason: {e}", file=sys.stderr)
+            # Save a screenshot for debugging
+            error_screenshot_path = os.path.join(os.path.dirname(__file__), 'debug', f'error_screenshot_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png')
+            page.screenshot(path=error_screenshot_path)
+            print(f"Saved error screenshot to: {error_screenshot_path}")
+            continue # Move to the next job
+        
         time.sleep(2) # Keep a small delay to avoid overwhelming the server
 
 # --- Main Execution ---
