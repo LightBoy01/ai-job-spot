@@ -1,0 +1,21 @@
+{
+  "start_url": "https://foorilla.com/",
+  "job_list_selector": "li.list-group-item",
+  "job_link_selector": "a.stretched-link",
+  "ai_niches": [
+    "AI",
+    "Machine Learning",
+    "Data Scientist"
+  ],
+  "job_detail_selectors": {
+    "description_container": "#mc_2",
+    "title": "h1",
+    "company": "strong:contains('@')",
+    "location": "i.bi-geo-alt + span",
+    "salary_selector": null,
+    "responsibilities_heading": "h2:contains('Responsibilities'), h3:contains('What you\'ll do'), strong:contains('Your role')",
+    "qualifications_heading": "h2:contains('Qualifications'), h3:contains('Requirements'), strong:contains('Who you are'), strong:contains('Your experience')",
+    "apply_button_selector": "a.btn-primary"
+  },
+  "delay_between_requests": 2
+}
