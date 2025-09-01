@@ -193,6 +193,17 @@ def main():
         browser = get_driver() # Get the Playwright browser instance
         page = browser.new_page() # Create a new page from the browser
 
+        # --- AGGRESSIVE RESOURCE BLOCKING ---
+        # Block images, css, fonts to save memory
+        def block_unnecessary_requests(route):
+            if route.request.resource_type in {"image", "stylesheet", "font", "media"}:
+                route.abort()
+            else:
+                route.continue_()
+        
+        page.route("**/*", block_unnecessary_requests)
+        # --- END RESOURCE BLOCKING ---
+
         all_raw_job_streams = []
 
         if "rss_scraper" in config.get("scrapers_enabled", []):
