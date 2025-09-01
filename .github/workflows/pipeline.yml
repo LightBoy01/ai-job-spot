@@ -53,8 +53,19 @@ jobs:
           add-paths: |
             data/pending_review/
 
-      - name: Upload pipeline log as artifact
+      - name: Display pipeline log
+        if: always()
+        run: |
+          echo "--- Start of Pipeline Log ---"
+          cat src/pipeline/pipeline_run.log || echo "Log file not found."
+          echo "--- End of Pipeline Log ---"
+
+      - name: Upload pipeline artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: pipeline-run-log
-          path: src/pipeline/pipeline_run.log
+          name: pipeline-artifacts
+          path: |
+            src/pipeline/pipeline_run.log
+            src/pipeline/debug/
+            src/pipeline/output/
