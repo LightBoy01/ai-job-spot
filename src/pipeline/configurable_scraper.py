@@ -170,7 +170,7 @@ def scrape_job_details(page: Page, html_content: str, config: dict) -> JobDetail
 
     main_content = soup.select_one(selectors.get("description_container"))
     if not main_content:
-        print(f"DEBUG: description_container 'f{selectors.get('description_container')}' not found.", file=sys.stderr)
+        print(f"DEBUG: description_container '{selectors.get('description_container')}' not found.", file=sys.stderr)
         return {}
     print(f"DEBUG: main_content found. Length: {len(str(main_content))}", file=sys.stderr)
 
@@ -368,38 +368,40 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
     
     save_html_to_file(page.content(), filename_base="foorilla_main_page_success", identifier="jobs_page")
 
-    # --- New Robust Logic --- 
-    # 1. Get the data (attributes) from the links first, not the elements themselves.
-    job_links_data = []
-    link_elements = page.query_selector_all(f"{job_list_selector} {job_link_selector}")
-    for link_element in link_elements:
-        title = link_element.inner_text()
-        hx_get = link_element.get_attribute('hx-get')
-        if title and hx_get and is_relevant_job(title, site_config.get("ai_niches", [])):
-            job_links_data.append({"title": title, "hx_get": hx_get})
-
-    print(f"Found {len(job_links_data)} relevant job links to process.")
-
+    processed_urls = set()
     job_count = 0
-    # 2. Loop through the stable list of data.
-    for job_data in job_links_data:
-        if job_count >= limit:
-            print(f"DEBUG: Reached scrape limit of {limit}.")
+
+    while job_count < limit:
+        # Re-query all links on the page in every iteration to avoid stale elements
+        all_links_on_page = page.query_selector_all(f"{job_list_selector} {job_link_selector}")
+        if not all_links_on_page:
+            print("WARN: No job links found on the page in the current state.")
             break
+
+        next_link_element = None
+        next_job_data = {}
+
+        # Find the first link that we haven't processed yet
+        for link in all_links_on_page:
+            hx_get = link.get_attribute('hx-get')
+            if hx_get and hx_get not in processed_urls:
+                title = link.inner_text()
+                if is_relevant_job(title, site_config.get("ai_niches", [])):
+                    next_link_element = link
+                    next_job_data = {"title": title, "hx_get": hx_get}
+                    break # Found our next job to process
         
+        if not next_link_element:
+            print("DEBUG: No new, relevant job links to process on the current page. Ending run.")
+            break # Exit the while loop if no new links are found
+
         try:
-            print(f"--- Processing details for: {job_data['title']} ---")
+            print(f"--- Processing details for: {next_job_data['title']} ---")
             
-            # 3. Find the link again right before clicking it to ensure it's not stale.
-            current_link_element = page.query_selector(f"a[hx-get='{job_data['hx_get']}']")
-            if not current_link_element:
-                print(f"WARN: Could not find link for {job_data['title']} anymore. Page might have changed too fast.")
-                continue
-
             # Click the link to trigger the HTMX swap
-            current_link_element.click()
+            next_link_element.click(timeout=10000) # Added timeout to click
 
-            # 4. Wait for a specific, reliable element in the detail view to appear.
+            # Wait for the detail container to update
             detail_title_selector = f"{detail_container_selector} h1"
             page.wait_for_selector(detail_title_selector, state="visible", timeout=15000)
             print(f"DEBUG: Detail container '{detail_container_selector}' updated.")
@@ -408,16 +410,18 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
             details = scrape_job_details(page, detail_html, site_config)
             
             if details:
-                details['title'] = job_data['title'] # Use the title from the list view
+                details['title'] = next_job_data['title']
                 yield details
                 job_count += 1
+                processed_urls.add(next_job_data['hx_get'])
 
         except Exception as e:
-            print(f"ERROR: Failed to process job '{job_data['title']}'. Reason: {e}", file=sys.stderr)
+            print(f"ERROR: Failed to process job '{next_job_data.get('title', '[unknown]')}'. Reason: {e}", file=sys.stderr)
+            processed_urls.add(next_job_data['hx_get']) # Mark as processed to avoid retrying a failing link
             error_screenshot_path = os.path.join(os.path.dirname(__file__), 'debug', f'error_screenshot_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png')
             page.screenshot(path=error_screenshot_path)
             print(f"Saved error screenshot to: {error_screenshot_path}")
-            continue # Move to the next job
+            continue # Move to the next job in the while loop
         
         time.sleep(2) # Keep a small delay to avoid overwhelming the server
 
