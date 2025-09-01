@@ -366,57 +366,54 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
     print(f"DEBUG: Waiting for job list selector: {job_list_selector}")
     page.wait_for_selector(job_list_selector, state="visible", timeout=20000)
     
-    # Save the successfully fetched main page HTML for inspection
     save_html_to_file(page.content(), filename_base="foorilla_main_page_success", identifier="jobs_page")
 
-    job_link_elements = page.query_selector_all(f"{job_list_selector} {job_link_selector}")
-    
-    print(f"Found {len(job_link_elements)} potential job links on the main page.")
+    # --- New Robust Logic --- 
+    # 1. Get the data (attributes) from the links first, not the elements themselves.
+    job_links_data = []
+    link_elements = page.query_selector_all(f"{job_list_selector} {job_link_selector}")
+    for link_element in link_elements:
+        title = link_element.inner_text()
+        hx_get = link_element.get_attribute('hx-get')
+        if title and hx_get and is_relevant_job(title, site_config.get("ai_niches", [])):
+            job_links_data.append({"title": title, "hx_get": hx_get})
+
+    print(f"Found {len(job_links_data)} relevant job links to process.")
 
     job_count = 0
-    for link_element in job_link_elements:
+    # 2. Loop through the stable list of data.
+    for job_data in job_links_data:
         if job_count >= limit:
             print(f"DEBUG: Reached scrape limit of {limit}.")
             break
-
+        
         try:
-            job_title = link_element.inner_text()
-            if not is_relevant_job(job_title, site_config.get("ai_niches", [])):
-                # print(f"DEBUG: Skipping non-relevant job: {job_title}")
+            print(f"--- Processing details for: {job_data['title']} ---")
+            
+            # 3. Find the link again right before clicking it to ensure it's not stale.
+            current_link_element = page.query_selector(f"a[hx-get='{job_data['hx_get']}']")
+            if not current_link_element:
+                print(f"WARN: Could not find link for {job_data['title']} anymore. Page might have changed too fast.")
                 continue
 
-            print(f"--- Processing details for: {job_title} ---")
-            
-            # Get the current HTML of the detail container to see if it changes
-            initial_detail_html = page.inner_html(detail_container_selector)
-
             # Click the link to trigger the HTMX swap
-            link_element.click()
+            current_link_element.click()
 
-            # Wait for the content in the detail container to be updated
-            # We check that the HTML content is different from the initial state.
-            page.wait_for_function(
-                f"document.querySelector('{detail_container_selector}').innerHTML !== arguments[0]",
-                arg=initial_detail_html,
-                timeout=15000
-            )
+            # 4. Wait for a specific, reliable element in the detail view to appear.
+            detail_title_selector = f"{detail_container_selector} h1"
+            page.wait_for_selector(detail_title_selector, state="visible", timeout=15000)
             print(f"DEBUG: Detail container '{detail_container_selector}' updated.")
-            
-            # Small extra wait for safety
-            page.wait_for_timeout(1000)
 
             detail_html = page.inner_html(detail_container_selector)
             details = scrape_job_details(page, detail_html, site_config)
             
             if details:
-                # Add the title from the list view as it's more reliable
-                details['title'] = job_title
+                details['title'] = job_data['title'] # Use the title from the list view
                 yield details
                 job_count += 1
 
         except Exception as e:
-            print(f"ERROR: Failed to process a job link. Reason: {e}", file=sys.stderr)
-            # Save a screenshot for debugging
+            print(f"ERROR: Failed to process job '{job_data['title']}'. Reason: {e}", file=sys.stderr)
             error_screenshot_path = os.path.join(os.path.dirname(__file__), 'debug', f'error_screenshot_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png')
             page.screenshot(path=error_screenshot_path)
             print(f"Saved error screenshot to: {error_screenshot_path}")
