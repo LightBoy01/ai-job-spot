@@ -27,7 +27,7 @@
     "Computer Vision"
   ],
   "job_detail_selectors": {
-    "description_container": "#mc_2",
+    "description_container": "[id^=mc_]",
     "title": "h1",
     "company": "strong > a[href='/hiring/companies/']",
     "location": ".hstack.justify-content-between > div:first-child",

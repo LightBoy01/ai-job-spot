@@ -395,6 +395,9 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
             print("DEBUG: No new, relevant job links to process on the current page. Ending run.")
             break # Exit the while loop if no new links are found
 
+        # Immediately mark the URL as processed to prevent infinite loops on failure.
+        processed_urls.add(next_job_data['hx_get'])
+
         try:
             print(f"--- Processing details for: {next_job_data['title']} ---")
             
@@ -416,11 +419,9 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
                 details['title'] = next_job_data['title']
                 yield details
                 job_count += 1
-                processed_urls.add(next_job_data['hx_get'])
 
         except Exception as e:
             print(f"ERROR: Failed to process job '{next_job_data.get('title', '[unknown]')}'. Reason: {e}", file=sys.stderr)
-            processed_urls.add(next_job_data['hx_get']) # Mark as processed to avoid retrying a failing link
             error_screenshot_path = os.path.join(os.path.dirname(__file__), 'debug', f'error_screenshot_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png')
             page.screenshot(path=error_screenshot_path)
             print(f"Saved error screenshot to: {error_screenshot_path}")

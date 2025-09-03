@@ -18,7 +18,7 @@ async def main():
         await page.click(first_job_link_selector)
         
         print("Waiting for job detail container to load...")
-        detail_container_selector = "#mc_2"
+        detail_container_selector = "[id^=mc_]"
         # We need to wait for the content inside mc_2 to be updated.
         # A simple way is to wait for a known element inside it, like an h1 for the title.
         await page.wait_for_selector(f"{detail_container_selector} h1", timeout=15000)
