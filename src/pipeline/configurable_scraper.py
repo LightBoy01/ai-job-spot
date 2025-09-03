@@ -22,6 +22,7 @@ class JobDetails(TypedDict, total=False):
     postedDate: str
     expirationDate: str
     applicationLink: str
+import requests
 from playwright.sync_api import sync_playwright, Browser, Page, TimeoutError as PlaywrightTimeoutError # Updated import
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
@@ -406,20 +407,14 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
         try:
             print(f"--- Processing details for: {next_job_data['title']} ---")
             
-            # Click the link to trigger the HTMX swap, forcing the click if it's obscured
-            next_link_element.click(timeout=10000, force=True)
+            # --- NEW LOGIC ---
+            # Use requests to fetch the detail content directly
+            detail_url = next_job_data['url']
+            response = requests.get(detail_url)
+            response.raise_for_status() # Raise an exception for bad status codes
+            detail_html = response.text
+            # --- END NEW LOGIC ---
 
-            # --- NEW CORRECTED LOGIC ---
-            # Wait for the HTMX swap to complete by listening for the htmx:afterSwap event.
-            page.evaluate("htmx.on('htmx:afterSwap', () => { window.htmxAfterSwapDone = true; })")
-            next_link_element.click(timeout=10000, force=True)
-            page.wait_for_function("window.htmxAfterSwapDone", timeout=15000)
-            page.evaluate("delete window.htmxAfterSwapDone")
-            print(f"DEBUG: HTMX swap complete for container '{detail_container_selector}'.")
-            # --- END NEW CORRECTED LOGIC ---
-
-            detail_html = page.inner_html(detail_container_selector)
-            save_html_to_file(detail_html, filename_base="foorilla_job_detail_dump", identifier=next_job_data['title'].replace('/', '_'))
             details = scrape_job_details(page, detail_html, site_config)
             
             if details:
