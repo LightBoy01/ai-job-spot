@@ -418,6 +418,7 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
             # --- END CORRECTED LOGIC ---
 
             detail_html = page.inner_html(detail_container_selector)
+            save_html_to_file(detail_html, filename_base="foorilla_job_detail_dump", identifier=next_job_data['title'].replace('/', '_'))
             details = scrape_job_details(page, detail_html, site_config)
             
             if details:
