@@ -298,12 +298,16 @@ def scrape_job_details(page: Page, html_content: str, config: dict) -> JobDetail
     # --- Advanced Application Link & Company Extraction ---
     apply_button_selector = selectors.get("apply_button_selector")
     if apply_button_selector:
-        apply_button = main_content.select_one(apply_button_selector)
-        if apply_button:
-            try:
+        # Use Playwright's locator, not BeautifulSoup's select_one
+        apply_button_locator = page.locator(apply_button_selector)
+        
+        try:
+            # Check if the button exists before trying to click it
+            if apply_button_locator.count() > 0:
                 # Use a context manager to handle the new page that opens
                 with page.context.expect_page() as new_page_info:
-                    apply_button.click(force=True, timeout=5000) # Click the apply button
+                    # Use the locator to click
+                    apply_button_locator.first.click(force=True, timeout=5000) 
                 
                 new_page = new_page_info.value
                 new_page.wait_for_load_state("domcontentloaded", timeout=10000)
@@ -325,12 +329,13 @@ def scrape_job_details(page: Page, html_content: str, config: dict) -> JobDetail
                     print(f"    - Parsed company '{details['company']}' from application link.")
 
                 new_page.close() # Close the new tab
-
-            except Exception as e:
-                print(f"    - Could not resolve application link by clicking. Reason: {e}", file=sys.stderr)
+            else:
+                print("    - Apply button not found using selector.", file=sys.stderr)
                 details['applicationLink'] = "#" # Fallback
-        else:
-            details['applicationLink'] = "#"
+
+        except Exception as e:
+            print(f"    - Could not resolve application link by clicking. Reason: {e}", file=sys.stderr)
+            details['applicationLink'] = "#" # Fallback
     else:
         details['applicationLink'] = "#"
 
