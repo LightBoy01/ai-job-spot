@@ -409,13 +409,14 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
             # Click the link to trigger the HTMX swap, forcing the click if it's obscured
             next_link_element.click(timeout=10000, force=True)
 
-            # --- CORRECTED LOGIC ---
-            # Wait for the detail container to be updated by HTMX.
-            # We know it's updated when a specific element, like the title (h1), appears inside it.
-            detail_title_selector = f"{detail_container_selector} h1"
-            page.wait_for_selector(detail_title_selector, state="visible", timeout=15000)
-            print(f"DEBUG: Detail container '{detail_container_selector}' updated.")
-            # --- END CORRECTED LOGIC ---
+            # --- NEW CORRECTED LOGIC ---
+            # Wait for the HTMX swap to complete by listening for the htmx:afterSwap event.
+            page.evaluate("htmx.on('htmx:afterSwap', () => { window.htmxAfterSwapDone = true; })")
+            next_link_element.click(timeout=10000, force=True)
+            page.wait_for_function("window.htmxAfterSwapDone", timeout=15000)
+            page.evaluate("delete window.htmxAfterSwapDone")
+            print(f"DEBUG: HTMX swap complete for container '{detail_container_selector}'.")
+            # --- END NEW CORRECTED LOGIC ---
 
             detail_html = page.inner_html(detail_container_selector)
             save_html_to_file(detail_html, filename_base="foorilla_job_detail_dump", identifier=next_job_data['title'].replace('/', '_'))
