@@ -398,8 +398,8 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
         try:
             print(f"--- Processing details for: {next_job_data['title']} ---")
             
-            # Click the link to trigger the HTMX swap
-            next_link_element.click(timeout=10000)
+            # Click the link to trigger the HTMX swap, forcing the click if it's obscured
+            next_link_element.click(timeout=10000, force=True)
 
             # --- CORRECTED LOGIC ---
             # Wait for the detail container to be updated by HTMX.
