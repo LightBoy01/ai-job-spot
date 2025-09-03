@@ -164,13 +164,14 @@ def scrape_job_links(html_content: str, limit: int, config: dict) -> list:
 
 def scrape_job_details(page: Page, html_content: str, config: dict) -> JobDetails: # Changed driver to page
     """Parses the job detail page HTML to extract comprehensive data."""
-    soup = BeautifulSoup(html_content, 'lxml')
+    main_content = BeautifulSoup(html_content, 'lxml')
     details: JobDetails = {}
     selectors = config.get("job_detail_selectors", {})
 
-    main_content = soup.select_one(selectors.get("description_container"))
+    # The html_content IS the main_content now, no need to select it again.
+    # main_content = soup.select_one(selectors.get("description_container"))
     if not main_content:
-        print(f"DEBUG: description_container '{selectors.get('description_container')}' not found.", file=sys.stderr)
+        print(f"DEBUG: main_content is empty, cannot scrape details.", file=sys.stderr)
         return {}
     print(f"DEBUG: main_content found. Length: {len(str(main_content))}", file=sys.stderr)
 
