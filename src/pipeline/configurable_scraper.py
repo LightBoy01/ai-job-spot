@@ -409,7 +409,8 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
             
             # --- NEW LOGIC ---
             # Use requests to fetch the detail content directly
-            detail_url = next_job_data['url']
+            base_url = urlparse(str(site_config.get("start_url")))._replace(path='').geturl()
+            detail_url = f"{base_url}{next_job_data['hx_get']}"
             response = requests.get(detail_url)
             response.raise_for_status() # Raise an exception for bad status codes
             detail_html = response.text
