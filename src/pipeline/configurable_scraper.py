@@ -295,45 +295,44 @@ def scrape_job_details(page: Page, html_content: str, config: dict) -> JobDetail
     else:
         details['expirationDate'] = (datetime.now() + timedelta(days=30)).isoformat() + 'Z'
 
+    # --- Advanced Application Link & Company Extraction ---
     apply_button_selector = selectors.get("apply_button_selector")
     if apply_button_selector:
         apply_button = main_content.select_one(apply_button_selector)
-        if apply_button and apply_button.get('href'):
-            # Properly join the URL
-            base_url = urlparse(str(config.get("start_url")))._replace(path='').geturl()
-            internal_apply_url = f"{base_url}{apply_button['href']}"
-            resolved_application_link = resolve_application_link(page, internal_apply_url) # Changed driver to page
-            details['applicationLink'] = resolved_application_link
+        if apply_button:
+            try:
+                # Use a context manager to handle the new page that opens
+                with page.context.expect_page() as new_page_info:
+                    apply_button.click(force=True, timeout=5000) # Click the apply button
+                
+                new_page = new_page_info.value
+                new_page.wait_for_load_state("domcontentloaded", timeout=10000)
+                final_url = new_page.url
+                details['applicationLink'] = final_url
+                print(f"    - Successfully resolved external application link: {final_url}")
 
-            # Only attempt to extract company from application link if not already found
-            if details['company'] == "N/A": # Check if company was not found by primary method
-                try:
-                    parsed_url = urlparse(resolved_application_link)
+                # Attempt to parse company name from the resolved URL as a fallback
+                if details.get('company') == "N/A":
+                    parsed_url = urlparse(final_url)
                     domain = parsed_url.netloc
                     if "smartrecruiters.com" in domain:
                         path_parts = parsed_url.path.split('/')
-                        if len(path_parts) > 1 and path_parts[1]:
-                            details['company'] = path_parts[1].replace('-', ' ').title()
-                        else:
-                            details['company'] = "SmartRecruiters"
-                    elif "jobs.lever.co" in domain:
-                        details['company'] = domain.split('.')[0].replace('-', ' ').title()
-                    elif "boards.greenhouse.io" in domain:
+                        details['company'] = path_parts[1].replace('-', ' ').title() if len(path_parts) > 1 else "SmartRecruiters"
+                    elif "jobs.lever.co" in domain or "boards.greenhouse.io" in domain:
                         details['company'] = domain.split('.')[0].replace('-', ' ').title()
                     else:
-                        company_name = domain.replace('www.', '').split('.')[0]
-                        details['company'] = company_name.replace('-', ' ').title()
-                except Exception as e:
-                    print(f"Error parsing company from application link: {e}", file=sys.stderr)
-                    pass # Do not overwrite if an error occurs, keep existing value
-        else: # If apply_button or href is missing, but apply_button_selector exists
+                        details['company'] = domain.replace('www.', '').split('.')[0].replace('-', ' ').title()
+                    print(f"    - Parsed company '{details['company']}' from application link.")
+
+                new_page.close() # Close the new tab
+
+            except Exception as e:
+                print(f"    - Could not resolve application link by clicking. Reason: {e}", file=sys.stderr)
+                details['applicationLink'] = "#" # Fallback
+        else:
             details['applicationLink'] = "#"
-            if details['company'] == "N/A": # If company was not found by primary method
-                details['company'] = "N/A"
-    else: # If apply_button_selector is not provided in config
+    else:
         details['applicationLink'] = "#"
-        if details['company'] == "N/A": # If company was not found by primary method
-            details['company'] = "N/A"
 
     return details
 

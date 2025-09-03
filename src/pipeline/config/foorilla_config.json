@@ -29,12 +29,12 @@
   "job_detail_selectors": {
     "description_container": "[id^=mc_]",
     "title": "h1",
-    "company": "strong > a[href='/hiring/companies/']",
+    "company": "strong.company-name",
     "location": ".hstack.justify-content-between > div:first-child",
     "salary_selector": "span.text-bg-secondary",
     "responsibilities_heading": "strong:contains('Tasks:') + ul",
     "qualifications_heading": "strong:contains('Skills/Tech-stack required:') + div",
-    "apply_button_selector": "a.btn-primary[href*='/apply/']"
+    "apply_button_selector": "a.btn:has-text('Apply')"
   },
   "delay_between_requests": 2
 }
