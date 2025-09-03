@@ -399,12 +399,15 @@ def stream_jobs_from_site(page: Page, site_config: dict, limit: int):
             print(f"--- Processing details for: {next_job_data['title']} ---")
             
             # Click the link to trigger the HTMX swap
-            next_link_element.click(timeout=10000) # Added timeout to click
+            next_link_element.click(timeout=10000)
 
-            # Wait for the detail container to update
+            # --- CORRECTED LOGIC ---
+            # Wait for the detail container to be updated by HTMX.
+            # We know it's updated when a specific element, like the title (h1), appears inside it.
             detail_title_selector = f"{detail_container_selector} h1"
             page.wait_for_selector(detail_title_selector, state="visible", timeout=15000)
             print(f"DEBUG: Detail container '{detail_container_selector}' updated.")
+            # --- END CORRECTED LOGIC ---
 
             detail_html = page.inner_html(detail_container_selector)
             details = scrape_job_details(page, detail_html, site_config)

@@ -28,7 +28,7 @@
     "Computer Vision"
   ],
   "scraper_limits": {
-    "foorilla_scraper_limit": 7
+    "foorilla_scraper_limit": 3
   },
   "output_directory": "../../data/pending_review",
   "log_file": "pipeline_run.log",
