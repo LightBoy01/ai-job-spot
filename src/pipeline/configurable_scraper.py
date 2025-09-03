@@ -284,7 +284,7 @@ def scrape_job_details(page: Page, html_content: str, config: dict) -> JobDetail
     details['tags'] = tags
     
     # Implement actual date extraction from HTML
-    posted_date_str = extract_posted_date(soup)
+    posted_date_str = extract_posted_date(main_content)
     details['postedDate'] = posted_date_str if posted_date_str else datetime.now().isoformat() + 'Z'
     
     # For expirationDate, if not found, default to 30 days from postedDate
