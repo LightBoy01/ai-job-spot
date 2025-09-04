@@ -58,10 +58,7 @@ jobs:
           SITE_URL: ${{ secrets.SITE_URL }}
         run: python src/pipeline/run_pipeline.py
 
-      - name: Clean Git Working Directory
-        run: |
-          git clean -fd
-          git reset --hard
+      
 
       - name: Configure Git User
         run: |
