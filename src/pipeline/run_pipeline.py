@@ -9,6 +9,9 @@ import signal
 import traceback
 from datetime import datetime, timedelta
 import yaml # Added for PyYAML
+from .models import Job
+from pydantic import ValidationError
+from typing import Optional
 
 # --- Signal Handler for Graceful Shutdown ---
 def handle_signal(signum, frame):
@@ -60,67 +63,45 @@ def add_url_to_db(conn, url: str):
         # This can happen in rare race conditions, it's safe to ignore.
         pass
 
-def transform_job_data(raw_job: dict, source_file: str = "scraped_job") -> dict:
+from .models import Job
+from pydantic import ValidationError
+
+# ... (keep other imports)
+
+def transform_job_data(raw_job: dict, source_file: str = "scraped_job") -> Optional[Job]:
     """
     Transforms a single raw job dictionary from a scraper into the 
-    structured format expected by the AI Job Spot admin panel.
+    structured Job model.
     """
-    # Generate a unique ID based on company and title to help prevent duplicates
-    company_slug = re.sub(r'[^a-z0-9]+', '-', raw_job.get('company', 'nocompany').lower()).strip('-')
-    title_slug = re.sub(r'[^a-z0-9]+', '-', raw_job.get('title', 'notitle').lower()).strip('-')
-    unique_id = f"job-scraped-{company_slug}-{title_slug}"
-
-    # Handle dates: use existing if valid, otherwise default to now
     try:
-        posted_date_str = raw_job.get('postedDate')
-        if posted_date_str:
-            # Attempt to parse various ISO formats, including those with microseconds
-            if '.' in posted_date_str and posted_date_str.endswith('Z'):
-                posted_date = datetime.fromisoformat(posted_date_str.replace('Z', ''))
-            elif posted_date_str.endswith('Z'):
-                posted_date = datetime.strptime(posted_date_str, "%Y-%m-%dT%H:%M:%SZ")
-            else:
-                posted_date = datetime.fromisoformat(posted_date_str)
-        else:
-            posted_date = datetime.utcnow()
-    except (ValueError, TypeError):
-        posted_date = datetime.utcnow()
+        # Generate a unique ID based on company and title to help prevent duplicates
+        company_slug = re.sub(r'[^a-z0-9]+', '-', raw_job.get('company', 'nocompany').lower()).strip('-')
+        title_slug = re.sub(r'[^a-z0-9]+', '-', raw_job.get('title', 'notitle').lower()).strip('-')
+        unique_id = f"job-scraped-{{company_slug}}-{{title_slug}}"
 
-    # Calculate expiration date based on posted date (default 90 days)
-    expiration_date = posted_date + timedelta(days=90)
+        # The description from the scrapers is already in HTML format or should be treated as such
+        description_html = raw_job.get('description', raw_job.get('summary', '<p>No description provided.</p>'))
 
-    # Generate tags from available data
-    tags = [tag.strip() for tag in raw_job.get('tags', []) if tag.strip()] # Clean existing tags
-    tags.append("Scraped")
-    if raw_job.get('company'):
-        tags.append(raw_job['company'])
-    if raw_job.get('location'):
-        # Simple location tag, could be improved with normalization
-        tags.append(raw_job['location'].split(',')[0].strip())
-    tags = list(set(tags)) # Remove duplicates
-
-    # The description from the scrapers is already in HTML format or should be treated as such
-    description_html = raw_job.get('description', raw_job.get('summary', '<p>No description provided.</p>'))
-
-    prepared_job = {
-        "id": unique_id,
-        "title": raw_job.get('title', 'N/A'),
-        "company": raw_job.get('company', 'N/A'),
-        "location": raw_job.get('location', 'N/A'),
-        "description": description_html,
-        "applicationLink": raw_job.get('link', raw_job.get('applicationLink', '#')),
-        "postedDate": posted_date.isoformat(timespec='milliseconds') + 'Z',  # ISO 8601 format with milliseconds
-        "expirationDate": expiration_date.isoformat(timespec='milliseconds') + 'Z', # ISO 8601 format with milliseconds
-        "salaryRange": raw_job.get('salaryRange', 'N/A'),
-        "jobLevel": raw_job.get('jobLevel', 'N/A'),
-        "employeeRole": raw_job.get('employeeRole', 'N/A'),
-        "isNew": True,
-        "tags": tags,
-        "source": os.path.basename(source_file), # Track the origin
-        "responsibilities": raw_job.get('responsibilities', []),
-        "qualifications": raw_job.get('qualifications', []),
-    }
-    return prepared_job
+        job = Job(
+            id=unique_id,
+            title=raw_job.get('title', 'N/A'),
+            company=raw_job.get('company', 'N/A'),
+            location=raw_job.get('location', 'N/A'),
+            description=description_html,
+            applicationLink=raw_job.get('link', raw_job.get('applicationLink', 'https://invalid.com')),
+            postedDate=raw_job.get('postedDate', datetime.utcnow()),
+            salaryRange=raw_job.get('salaryRange'),
+            jobLevel=raw_job.get('jobLevel'),
+            employeeRole=raw_job.get('employeeRole'),
+            tags=raw_job.get('tags', []),
+            source=os.path.basename(source_file),
+            responsibilities=raw_job.get('responsibilities', []),
+            qualifications=raw_job.get('qualifications', []),
+        )
+        return job
+    except ValidationError as e:
+        print(f"Validation error for job {{raw_job.get('title')}}: {{e}}", file=sys.stderr)
+        return None
 
 # --- Helper function to create Markdown files ---
 def save_job_as_markdown(job_data: dict):
@@ -177,7 +158,32 @@ def save_job_as_markdown(job_data: dict):
         print(f"  - ERROR: Could not write file {filepath}. Reason: {e}", file=sys.stderr)
         return False
 
-# --- Main Pipeline Logic ---
+def is_job_filtered(job: Job, config: dict) -> bool:
+    """Checks if a job should be filtered based on the configuration."""
+    filters = config.get("filters", {})
+    if not filters:
+        return False
+
+    # Keyword filtering
+    keywords = filters.get("keywords", [])
+    if keywords:
+        search_text = f"{{job.title}} {{job.description}}".lower()
+        if not any(re.search(r'\b' + re.escape(keyword.lower()) + r'\b', search_text) for keyword in keywords):
+            return True
+
+    # Location filtering
+    locations = filters.get("locations", [])
+    if locations:
+        if not any(location.lower() in job.location.lower() for location in locations):
+            return True
+
+    # Company filtering
+    companies = filters.get("companies", [])
+    if companies:
+        if not any(company.lower() in job.company.lower() for company in companies):
+            return True
+
+    return False
 from .scrapers.rss_scraper import stream_rss_jobs
 from . import configurable_scraper # New import
 from .utils import get_driver, close_driver # New import
@@ -218,18 +224,20 @@ def main():
         # --- END RESOURCE BLOCKING ---
 
         all_raw_job_streams = []
+        scrapers_to_run = config.get("scrapers_enabled", [])
 
-        if "rss_scraper" in config.get("scrapers_enabled", []):
-            rss_stream = stream_rss_jobs(config) or []
-            all_raw_job_streams.append(rss_stream)
-
-        if "foorilla_scraper" in config.get("scrapers_enabled", []):
-            # Load foorilla-specific config for configurable_scraper
-            foorilla_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
-            foorilla_site_config = configurable_scraper.load_config(foorilla_config_path) # Need to import load_config from configurable_scraper
-            foorilla_limit = config["scraper_limits"].get("foorilla_scraper_limit", 2) # Default to 2 if not in config
-            foorilla_stream = configurable_scraper.stream_jobs_from_site(page, foorilla_site_config, limit=foorilla_limit) # Pass page
-            all_raw_job_streams.append(foorilla_stream)
+        for scraper_name in scrapers_to_run:
+            if scraper_name == "rss_scraper":
+                rss_stream = stream_rss_jobs(config) or []
+                all_raw_job_streams.append(rss_stream)
+            elif scraper_name == "foorilla_scraper":
+                foorilla_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
+                foorilla_site_config = configurable_scraper.load_config(foorilla_config_path)
+                foorilla_limit = config["scraper_limits"].get("foorilla_scraper_limit", 2)
+                foorilla_stream = configurable_scraper.stream_jobs_from_site(page, foorilla_site_config, limit=foorilla_limit)
+                all_raw_job_streams.append(foorilla_stream)
+            else:
+                print(f"WARNING: Unknown scraper '{{scraper_name}}' in config. Skipping.", file=sys.stderr)
 
         all_raw_job_streams = itertools.chain(*all_raw_job_streams)
 
@@ -246,31 +254,26 @@ def main():
         for raw_job in all_raw_job_streams:
             # --- KEYWORD FILTERING ---
             if keywords:
-                title = raw_job.get('title', '')
-                summary = raw_job.get('summary', '')
+                title = raw_job.title if raw_job.title else ''
+                summary = raw_job.description if raw_job.description else ''
                 search_text = f"{title} {summary}".lower()
                 
                 if not any(re.search(r'\b' + re.escape(keyword.lower()) + r'\b', search_text) for keyword in keywords):
-                    # print(f" - Skipping job (does not match keywords): {title}") # Optional: for verbose logging
                     filtered_out_count += 1
                     continue
             # --- END KEYWORD FILTERING ---
 
-            # Transform raw job data before processing
-            transformed_job = transform_job_data(raw_job)
-            job_url = transformed_job.get('applicationLink') # Use transformed link for deduplication
+            # The scraper now returns a validated Pydantic Job object, so no transformation is needed.
+            transformed_job = raw_job
 
-            if not job_url:
-                print(f" - WARNING: Skipping job with no URL: {transformed_job.get('title')}")
-                continue
+            job_url = str(transformed_job.applicationLink)
 
             if is_url_seen(db_conn, job_url):
-                # print(f" - Skipping duplicate job (URL already seen): {transformed_job.get('title')}") # Optional: for verbose logging
                 skipped_job_count += 1
                 continue
 
-            print(f" > Processing new job '{transformed_job.get('title')}'...")
-            if save_job_as_markdown(transformed_job): # Pass transformed job data
+            print(f" > Processing new job '{{transformed_job.title}}'...")
+            if save_job_as_markdown(transformed_job.dict()): # Pass transformed job data as dict
                 add_url_to_db(db_conn, job_url)
                 new_job_count += 1
             time.sleep(1)
