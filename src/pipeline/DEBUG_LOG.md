@@ -1,44 +1,22 @@
-# Debug Log for AI Job Spot Pipeline
+## Session: September 4, 2025 - Persistent `ModuleNotFoundError: No module named 'src'`
 
-This log tracks debugging sessions for the data pipeline, including issue descriptions, root causes, solutions, and verification steps.
+**Issue:** The pipeline consistently fails with `ModuleNotFoundError: No module named 'src'` (or `src.pipeline.models`), preventing any Python code execution. This occurred despite numerous attempts to fix Python's module resolution.
 
-## Session: September 1, 2025 - Foorilla Scraper Finds 0 Jobs
+**Root Cause Analysis (Hypothesized):**
+- The problem is a highly unusual and stubborn interaction between the GitHub Actions runner's environment, how `actions/checkout` places the code, and how Python resolves modules.
+- The environment does not correctly add the project root (containing the `src` package) to Python's `sys.path` in a way that makes `src` discoverable as a top-level package.
+- This issue persisted through various standard and advanced debugging techniques.
 
-**Issue:** The pipeline ran successfully but the `foorilla_scraper` found "0 potential job items on the main page," even though the configuration appeared correct.
+**Solutions Attempted (and their outcomes):**
+1.  **Initial `KeyError: 'url'` fix:** Resolved the original scraper bug, but exposed the underlying import issues.
+2.  **Adding `__init__.py` files:** Created `src/__init__.py` and `src/pipeline/__init__.py` to explicitly mark directories as packages. (Error persisted)
+3.  **Changing relative imports to absolute imports:** Modified `from .models import Job` to `from src.pipeline.models import Job` across pipeline scripts. (Error persisted)
+4.  **Adding `sys.path` modification in `run_pipeline.py`:** Manually inserted code to add the project root to `sys.path` at runtime. (Error persisted)
+5.  **Correcting `working-directory` and `checkout path` in `pipeline.yml`:** Attempted to align the execution context by setting `defaults.run.working-directory` and `actions/checkout`'s `path` parameter. (Error persisted, and the path sometimes became even more nested).
+6.  **Implementing `pyproject.toml` and `pip install -e .`:** Formally defined the project as an installable Python package and installed it in editable mode, the industry-standard solution for such issues. (Error persisted)
 
-**Root Cause Analysis:**
-- The target website, `foorilla.com`, is highly dynamic and uses HTMX to load its job listings via JavaScript after the initial page load.
-- The scraper's `fetch_page_html` function was too fast. It was grabbing the page's HTML before the JavaScript had time to execute and render the job list, resulting in an empty list.
-- The original logic also incorrectly tried to navigate to `hx-get` URLs instead of clicking links to trigger dynamic content swaps.
+**Verification:** All attempts resulted in the `ModuleNotFoundError: No module named 'src'` (or `src.pipeline.models`), indicating the Python interpreter cannot find the top-level `src` package.
 
-**Solution:**
-- The core scraping logic in `configurable_scraper.py` was refactored to handle modern, interactive sites.
-- The `stream_jobs_from_site` function was completely rewritten to:
-  1. Navigate to the page and explicitly wait for the job list selector to become visible.
-  2. Get a list of the job link elements themselves, not just their URLs.
-  3. Iterate through the elements, **clicking** each one to trigger the HTMX content swap.
-  4. Intelligently wait for the job detail container to be updated with new content before trying to parse it.
-- This makes the scraper more resilient and correctly mirrors the behavior of the exploration script that was used for debugging.
-
-**Verification Plan:**
-- The updated script was committed and pushed.
-- A new GitHub Actions run will be triggered to verify that the scraper now correctly identifies and processes job listings from foorilla.com.
-
----
-
-## Session: August 31, 2025 - `configurable_scraper.py` f-string error
-
-**Issue:** `SyntaxError: f-string: unmatched '('` in `src/pipeline/configurable_scraper.py` at line 143.
-
-**Root Cause Analysis:**
-- The error indicates nested double quotes within an f-string, which Python does not support directly.
-- Specifically, the line `print(f"DEBUG: description_container 'f{selectors.get("description_container")}' not found.", file=sys.stderr)` contains `"description_container"` inside `selectors.get()`, which uses the same double quotes as the outer f-string.
-- This f-string appears in two locations within the `configurable_scraper.py` file.
-
-**Proposed Solution:**
-- Change the inner double quotes to single quotes within the f-string to resolve the nesting issue.
-- Apply this fix to both occurrences of the problematic f-string.
-
-**Verification Plan:**
-- After applying the fix, commit and push the changes.
-- Trigger a new GitHub Actions run to verify the pipeline executes without this `SyntaxError`.
+**Lessons Learned:**
+- This specific environmental issue is highly unusual and defies standard Python packaging and GitHub Actions best practices.
+- Further debugging requires more direct control over the runner's environment or external consultation (e.g., GitHub Actions support, Python community forums).
