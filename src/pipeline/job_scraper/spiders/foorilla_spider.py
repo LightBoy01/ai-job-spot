@@ -59,8 +59,12 @@ class FoorillaSpider(scrapy.Spider):
                 link_element = await page.query_selector(link_selector)
 
                 if not link_element:
-                    self.logger.warning(f"Could not find link for {job_info['title']} after DOM change. It might have scrolled out of view. Skipping.")
+                    self.logger.warning(f"Could not find link for {job_info['title']} after DOM change. Skipping.")
                     continue
+
+                # NEW: Scroll the element into view before clicking
+                await link_element.scroll_into_view_if_needed()
+                await page.wait_for_timeout(500) # Wait half a second for scroll to complete
 
                 await link_element.click()
                 await page.wait_for_selector(f'{self.config["job_detail_selectors"]["description_container"]} h1', state="visible", timeout=10000)
