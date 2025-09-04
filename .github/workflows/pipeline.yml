@@ -13,6 +13,9 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
     # Grant permissions for the GITHUB_TOKEN to create a pull request
     permissions:
       contents: write
