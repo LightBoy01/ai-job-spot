@@ -76,3 +76,12 @@ pglite-debug.log
 *.db-journal
 .next/trace
 
+# Pipeline output and debug files
+/src/pipeline/output/
+/src/pipeline/debug/
+/output/
+/debug/
+
+# Python cache
+__pycache__/
+
