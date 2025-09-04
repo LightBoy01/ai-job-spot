@@ -90,6 +90,9 @@ REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
+# Set a limit for the number of items to scrape (0 for unlimited)
+CLOSESPIDER_ITEMCOUNT = 3
+
 # Playwright settings
 DOWNLOAD_HANDLERS = {
     "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
