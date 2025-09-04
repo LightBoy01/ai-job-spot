@@ -8,7 +8,7 @@ import os
 from bs4 import BeautifulSoup, NavigableString, Tag
 from typing import cast, TypedDict, List, Optional
 
-from ..models import Job
+from .models import Job
 import requests
 from playwright.sync_api import sync_playwright, Browser, Page, TimeoutError as PlaywrightTimeoutError # Updated import
 from datetime import datetime, timedelta
