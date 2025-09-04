@@ -74,7 +74,7 @@ class FoorillaSpider(scrapy.Spider):
 
                 yield job_item
             except Exception as e:
-                self.logger.error(f"Failed to process job '{job_info["title"]}'. Reason: {e}")
+                self.logger.error(f"Failed to process job '{job_info['title']}'. Reason: {e}")
                 # In case of error, we continue to the next job in our static list
                 continue
 
