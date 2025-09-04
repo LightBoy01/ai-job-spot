@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  scraper:
+    # Build the Docker image using the Dockerfile in the current directory
+    build: .
+    # Mount the entire project directory into the /app directory in the container.
+    # This means changes you make to your local code are instantly reflected
+    # inside the container, so you don't have to rebuild the image for every code change.
+    volumes:
+      - .:/app
+    # You can define environment variables here if needed.
+    # For example, to pass secrets securely, you could use an .env file.
+    # env_file:
+    #   - .env.local
