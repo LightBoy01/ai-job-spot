@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: .
+        working-directory: ./ai-job-spot
     # Grant permissions for the GITHUB_TOKEN to create a pull request
     permissions:
       contents: write
@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
+        with:
+          path: 'ai-job-spot'
 
       - name: Set up Python
         uses: actions/setup-python@v5
