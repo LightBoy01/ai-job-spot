@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = "job_scraper.spiders"
 #USER_AGENT = "job_scraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -49,8 +49,8 @@ ROBOTSTXT_OBEY = True
 #}
 
 DOWNLOADER_MIDDLEWARES = {
-    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-    'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
+   'job_scraper.middlewares.CustomUserAgentMiddleware': 400,
+   'scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler': 500,
 }
 
 # Enable or disable extensions
@@ -96,6 +96,8 @@ DOWNLOAD_HANDLERS = {
     "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
 }
 PLAYWRIGHT_BROWSER_TYPE = "chromium"
+PLAYWRIGHT_DEFAULT_NAVIGATION_TIMEOUT = 30000
+
 PLAYWRIGHT_LAUNCH_OPTIONS = {
     "headless": True,
     "args": [
@@ -105,7 +107,16 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
         '--disable-accelerated-2d-canvas',
         '--no-first-run',
         '--no-zygote',
-        '--single-process',
         '--disable-gpu'
     ]
+}
+
+PLAYWRIGHT_CONTEXTS = {
+    "default": {
+        "viewport": {
+            "width": 1920,
+            "height": 1080,
+        },
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+    }
 }
