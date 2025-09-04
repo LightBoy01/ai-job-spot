@@ -8,12 +8,12 @@ import os
 from bs4 import BeautifulSoup, NavigableString, Tag
 from typing import cast, TypedDict, List, Optional
 
-from .models import Job
+from src.pipeline.models import Job
 import requests
 from playwright.sync_api import sync_playwright, Browser, Page, TimeoutError as PlaywrightTimeoutError # Updated import
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
-from .utils import get_driver, resolve_application_link, close_driver # Updated import
+from src.pipeline.utils import get_driver, resolve_application_link, close_driver # Updated import
 
 def save_html_to_file(html_content: str, filename_base: str = "page_dump", identifier: str = ""):
     """Saves the given HTML content to a file for debugging with a unique timestamp and optional identifier."""

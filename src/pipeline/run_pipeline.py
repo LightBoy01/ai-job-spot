@@ -9,7 +9,7 @@ import signal
 import traceback
 from datetime import datetime, timedelta
 import yaml # Added for PyYAML
-from .models import Job
+from src.pipeline.models import Job
 from pydantic import ValidationError
 from typing import Optional
 
@@ -63,7 +63,7 @@ def add_url_to_db(conn, url: str):
         # This can happen in rare race conditions, it's safe to ignore.
         pass
 
-from .models import Job
+from src.pipeline.models import Job
 from pydantic import ValidationError
 
 # ... (keep other imports)
@@ -184,9 +184,9 @@ def is_job_filtered(job: Job, config: dict) -> bool:
             return True
 
     return False
-from .scrapers.rss_scraper import stream_rss_jobs
-from . import configurable_scraper # New import
-from .utils import get_driver, close_driver # New import
+from src.pipeline.scrapers.rss_scraper import stream_rss_jobs
+from src.pipeline import configurable_scraper # New import
+from src.pipeline.utils import get_driver, close_driver # New import
 
 def main():
     """Main function to orchestrate the entire data pipeline."""
