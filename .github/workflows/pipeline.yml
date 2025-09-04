@@ -34,6 +34,15 @@ jobs:
       - name: Install Playwright browsers
         run: python -m playwright install --with-deps # This should handle all necessary drivers
 
+      - name: Debug Python Path and Directory Structure
+        run: |
+          echo "--- Current Working Directory ---"
+          pwd
+          echo "--- Recursive Directory Listing ---"
+          ls -lR
+          echo "--- Python Sys Path ---"
+          python -c "import sys; print(sys.path)"
+
       - name: Run the scraping pipeline
         env:
           PIPELINE_API_KEY: ${{ secrets.PIPELINE_API_KEY }}
