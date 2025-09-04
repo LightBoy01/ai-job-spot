@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from job_scraper.items import JobItem
 import logging
+import os
+import re
 
 class FoorillaSpider(scrapy.Spider):
     name = 'foorilla'
@@ -12,24 +14,21 @@ class FoorillaSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(FoorillaSpider, self).__init__(*args, **kwargs)
-        # TODO: Configuration will be injected here in Phase 2
         self.config = {
             "job_list_selector": "li.list-group-item",
             "job_link_selector": "a[hx-get]",
             "ai_niches": ["AI", "Machine Learning", "Data Scientist", "Data Analyst", "ML", "NLP", "Computer Vision"],
             "job_detail_selectors": {
-                "company": "h3.text-muted",
-                "location": "h3.text-muted + p",
-                "description_container": "div.job-details"
+                "company": "h3.text-muted", # Placeholder, to be corrected
+                "location": "p.text-muted", # Placeholder, to be corrected
+                "description_container": "div.job-details" # Placeholder, to be corrected
             }
         }
-        logging.info("Foorilla Spider initialized with temporary config.")
+        self.debug_dir = 'debug'
+        os.makedirs(self.debug_dir, exist_ok=True)
+        logging.info("Foorilla Spider initialized.")
 
     def start_requests(self):
-        """
-        Starts the scraping process by sending a request to the start URL.
-        Uses Playwright to ensure JavaScript-rendered content is loaded.
-        """
         self.log("Starting request to Foorilla.com, using Playwright.", level=logging.INFO)
         yield scrapy.Request(
             url=self.start_urls[0],
@@ -45,10 +44,6 @@ class FoorillaSpider(scrapy.Spider):
         )
 
     async def parse_job_list(self, response: Response):
-        """
-        Parses the main job list page to find individual job links.
-        This method extracts the partial URLs and yields new requests for each job detail page.
-        """
         self.log(f"Successfully fetched job list page: {response.url}", level=logging.INFO)
         page = response.meta.get("playwright_page")
         if not page:
@@ -81,19 +76,22 @@ class FoorillaSpider(scrapy.Spider):
         await page.close()
 
     def parse_job_detail(self, response: Response):
-        """
-        Parses the job detail page to extract all relevant information.
-        This method receives the response from the individual job URL request.
-        """
         self.log(f"Scraping job details from: {response.url}", level=logging.INFO)
         
+        # --- DEBUGGING STEP: SAVE HTML --- #
+        job_title_slug = re.sub(r'\W+', '-', response.meta.get('job_title', 'unknown').lower())
+        debug_filename = os.path.join(self.debug_dir, f"job_detail_{job_title_slug}.html")
+        with open(debug_filename, 'w', encoding='utf-8') as f:
+            f.write(response.text)
+        self.log(f"Saved debug HTML to {debug_filename}", level=logging.DEBUG)
+        # --- END DEBUGGING STEP --- #
+
         title = response.meta.get('job_title')
         application_link = response.meta.get('application_link')
 
         soup = BeautifulSoup(response.text, 'lxml')
         selectors = self.config.get("job_detail_selectors", {})
         
-        # Extract data using BeautifulSoup
         company_element = soup.select_one(selectors.get("company"))
         company = company_element.get_text(strip=True).replace('@', '').strip() if company_element else "N/A"
         
@@ -103,17 +101,14 @@ class FoorillaSpider(scrapy.Spider):
         description_container = soup.select_one(selectors.get("description_container"))
         description_html = str(description_container) if description_container else "<p>Description not found.</p>"
 
-        # Populate the JobItem
         job_item = JobItem()
-        job_item['id'] = ''  # Will be generated in a later pipeline stage
+        job_item['id'] = ''
         job_item['title'] = title
         job_item['company'] = company
         job_item['location'] = location
         job_item['description'] = description_html
         job_item['applicationLink'] = application_link
         job_item['source'] = self.name
-        
-        # Fields to be populated later or if found on page
         job_item['postedDate'] = None
         job_item['expirationDate'] = None
         job_item['salaryRange'] = None
@@ -128,12 +123,10 @@ class FoorillaSpider(scrapy.Spider):
         yield job_item
 
     def is_relevant_job(self, title: str) -> bool:
-        """Checks if a job title contains any of the relevant keywords."""
         title_lower = title.lower()
         return any(n.lower() in title_lower for n in self.config.get("ai_niches", []))
 
     async def errback(self, failure):
-        """Handles errors from Playwright requests."""
         self.log(f"Playwright request failed: {failure.value}", level=logging.ERROR)
         page = failure.request.meta.get("playwright_page")
         if page and not page.is_closed():
