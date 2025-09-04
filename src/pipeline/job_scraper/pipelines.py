@@ -9,10 +9,13 @@ from datetime import datetime
 class DuplicatesPipeline:
 
     def __init__(self):
-        self.conn = sqlite3.connect(os.path.join(os.path.dirname(__file__), '..', '..', 'pipeline_cache.db'))
-        self.cursor = self.conn.cursor()
+        self.conn = None
 
     def open_spider(self, spider):
+        # DB path is relative to the project root (where scrapy.cfg is)
+        db_path = os.path.join(os.path.dirname(__file__), '..', '..', 'pipeline_cache.db')
+        self.conn = sqlite3.connect(db_path)
+        self.cursor = self.conn.cursor()
         self.cursor.execute('''
             CREATE TABLE IF NOT EXISTS seen_jobs (
                 url TEXT PRIMARY KEY,
@@ -22,7 +25,8 @@ class DuplicatesPipeline:
         self.conn.commit()
 
     def close_spider(self, spider):
-        self.conn.close()
+        if self.conn:
+            self.conn.close()
 
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
@@ -41,16 +45,25 @@ class DuplicatesPipeline:
         self.conn.commit()
 
 class MarkdownWriterPipeline:
+    def __init__(self, output_dir):
+        self.output_dir = output_dir
+        if not os.path.exists(self.output_dir):
+            os.makedirs(self.output_dir)
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            output_dir=crawler.settings.get('MARKDOWN_OUTPUT_DIR')
+        )
+
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
-        output_dir = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'data', 'pending_review')
-        os.makedirs(output_dir, exist_ok=True)
-
+        
         company_slug = re.sub(r'[^a-z0-9]+', '-', adapter.get('company', 'nocompany').lower()).strip('-')
         title_slug = re.sub(r'[^a-z0-9]+', '-', adapter.get('title', 'notitle').lower()).strip('-')[:50]
         timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
         filename = f"job-scraped-{company_slug}-{title_slug}-{timestamp}.md"
-        filepath = os.path.join(output_dir, filename)
+        filepath = os.path.join(self.output_dir, filename)
 
         job_id = f"job-scraped-{company_slug}-{title_slug}"
 

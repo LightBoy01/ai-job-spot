@@ -12,9 +12,10 @@ class FoorillaSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(FoorillaSpider, self).__init__(*args, **kwargs)
-        config_path = os.path.join(os.path.dirname(__file__), '..', '..', 'config', 'foorilla_config.json')
-        with open(config_path, 'r') as f:
-            self.config = json.load(f)
+        # Load configuration from Scrapy settings
+        self.config = self.settings.get('FOORILLA_SPIDER_CONFIG')
+        if not self.config:
+            raise ValueError("Foorilla spider configuration not found in settings.")
 
     def start_requests(self):
         yield scrapy.Request(
