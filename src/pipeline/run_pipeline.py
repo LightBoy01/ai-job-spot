@@ -3,44 +3,59 @@ import subprocess
 import sys
 
 def main():
-    """Main function to orchestrate the entire data pipeline."""
-    # Change directory to the pipeline directory so scrapy can find its config
+    """Main function to orchestrate the data pipeline with real-time and file-based logging."""
     pipeline_dir = os.path.dirname(__file__)
     os.chdir(pipeline_dir)
 
-    # Get the list of enabled scrapers from the config
-    # For now, we only have one, but this is for future expansion
-    spiders_to_run = ["foorilla"] # In the future, this could be read from pipeline_config.json
+    log_file_path = "pipeline_run.log"
+    spiders_to_run = ["foorilla"]
 
-    for spider in spiders_to_run:
-        print(f"--- Running spider: {spider} ---")
-        try:
-            # We run scrapy as a subprocess
-            # The command needs to be run from within the `pipeline` directory
-            process = subprocess.run(
-                [sys.executable, "-m", "scrapy", "crawl", spider],
-                capture_output=True,
-                text=True,
-                check=True # This will raise a CalledProcessError if Scrapy exits with a non-zero code
-            )
-            print(process.stdout)
-            if process.stderr:
-                print("--- Scrapy Stderr ---", file=sys.stderr)
-                print(process.stderr, file=sys.stderr)
+    try:
+        with open(log_file_path, 'w', encoding='utf-8', buffering=1) as log_file:
+            for spider in spiders_to_run:
+                print(f"--- Running spider: {spider} ---")
+                log_file.write(f"--- Running spider: {spider} ---\n")
 
-        except FileNotFoundError:
-            print(f"Error: 'scrapy' command not found. Make sure Scrapy is installed and in your PATH.", file=sys.stderr)
-            sys.exit(1)
-        except subprocess.CalledProcessError as e:
-            print(f"Scrapy spider '{spider}' failed with exit code {e.returncode}", file=sys.stderr)
-            print("--- Scrapy Stdout ---", file=sys.stderr)
-            print(e.stdout, file=sys.stderr)
-            print("--- Scrapy Stderr ---", file=sys.stderr)
-            print(e.stderr, file=sys.stderr)
-            # We exit with a non-zero code to fail the GitHub Action
-            sys.exit(1)
+                process = subprocess.Popen(
+                    [sys.executable, "-m", "scrapy", "crawl", spider],
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.STDOUT,
+                    text=True,
+                    universal_newlines=True
+                )
 
-    print("\nPipeline finished successfully.")
+                if process.stdout:
+                    for line in iter(process.stdout.readline, ''):
+                        print(line, end='')      # Real-time to console
+                        log_file.write(line)    # Write to log file
+
+                process.wait()
+
+                if process.returncode != 0:
+                    error_msg = f"\n--- Scrapy spider '{spider}' failed with exit code {process.returncode} ---\n"
+                    print(error_msg, file=sys.stderr)
+                    log_file.write(error_msg)
+                    sys.exit(process.returncode)
+
+                success_msg = f"\n--- Spider '{spider}' finished successfully. ---\n"
+                print(success_msg)
+                log_file.write(success_msg)
+
+    except FileNotFoundError:
+        err = "Error: 'scrapy' command not found. Make sure Scrapy is installed and in your PATH."
+        print(err, file=sys.stderr)
+        with open(log_file_path, 'a', encoding='utf-8') as log_file:
+            log_file.write(f"\n{err}\n")
+        sys.exit(1)
+    except Exception as e:
+        err = f"An unexpected error occurred: {e}"
+        print(err, file=sys.stderr)
+        import traceback
+        with open(log_file_path, 'a', encoding='utf-8') as log_file:
+            log_file.write(f"\n{err}\n")
+            traceback.print_exc(file=log_file)
+        traceback.print_exc()
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
