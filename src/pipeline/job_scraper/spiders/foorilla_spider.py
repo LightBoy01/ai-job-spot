@@ -10,12 +10,16 @@ class FoorillaSpider(scrapy.Spider):
     name = 'foorilla'
     start_urls = ['https://foorilla.com/']
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, config=None, *args, **kwargs):
         super(FoorillaSpider, self).__init__(*args, **kwargs)
-        # Load configuration from Scrapy settings
-        self.config = self.settings.get('FOORILLA_SPIDER_CONFIG')
-        if not self.config:
-            raise ValueError("Foorilla spider configuration not found in settings.")
+        if not config:
+            raise ValueError("Foorilla spider configuration not provided.")
+        self.config = config
+
+    @classmethod
+    def from_crawler(cls, crawler, *args, **kwargs):
+        config = crawler.settings.get('FOORILLA_SPIDER_CONFIG')
+        return cls(config=config, *args, **kwargs)
 
     def start_requests(self):
         yield scrapy.Request(
