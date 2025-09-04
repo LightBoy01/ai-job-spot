@@ -1,4 +1,3 @@
-
 import scrapy
 from scrapy_playwright.page import PageMethod
 from bs4 import BeautifulSoup
@@ -16,7 +15,6 @@ class FoorillaSpider(scrapy.Spider):
         config_path = os.path.join(os.path.dirname(__file__), '..', '..', 'config', 'foorilla_config.json')
         with open(config_path, 'r') as f:
             self.config = json.load(f)
-        self.processed_urls = set()
 
     def start_requests(self):
         yield scrapy.Request(
@@ -35,31 +33,50 @@ class FoorillaSpider(scrapy.Spider):
     async def parse(self, response):
         page = response.meta["playwright_page"]
         
-        job_links_on_page = await page.query_selector_all(f'{self.config.get("job_list_selector")} {self.config.get("job_link_selector")}')
+        # Step 1: Get all job identifiers first into a static list
+        job_identifiers = []
+        link_elements = await page.query_selector_all(f'{self.config.get("job_list_selector")} {self.config.get("job_link_selector")}')
+        for link in link_elements:
+            hx_get = await link.get_attribute('hx-get')
+            title = await link.inner_text()
+            if hx_get and self.is_relevant_job(title):
+                job_identifiers.append({"hx_get": hx_get, "title": title})
 
-        for link_element in job_links_on_page:
-            hx_get = await link_element.get_attribute('hx-get')
-            if hx_get and hx_get not in self.processed_urls:
-                self.processed_urls.add(hx_get)
-                title = await link_element.inner_text()
+        self.logger.info(f"Found {len(job_identifiers)} relevant job links to process.")
 
-                if self.is_relevant_job(title):
-                    base_url = urlparse(self.start_urls[0])._replace(path='').geturl()
-                    full_url = f"{base_url}{hx_get}"
+        # Step 2: Loop through the static list of identifiers
+        for job_info in job_identifiers:
+            try:
+                self.logger.info(f"Processing job: {job_info['title']}")
+                
+                # Step 3: Find the element again right before interacting with it
+                link_selector = f'a[hx-get="{job_info["hx_get"]}"]'
+                link_element = await page.query_selector(link_selector)
 
-                    await link_element.click()
-                    await page.wait_for_selector(f'{self.config["job_detail_selectors"]["description_container"]} h1', state="visible", timeout=10000)
-                    await page.wait_for_timeout(2000)
+                if not link_element:
+                    self.logger.warning(f"Could not find link for {job_info['title']} after DOM change. It might have scrolled out of view. Skipping.")
+                    continue
 
-                    detail_container = await page.query_selector(self.config["job_detail_selectors"]["description_container"])
-                    detail_html = await detail_container.inner_html()
+                await link_element.click()
+                await page.wait_for_selector(f'{self.config["job_detail_selectors"]["description_container"]} h1', state="visible", timeout=10000)
+                await page.wait_for_timeout(2000)
 
-                    job_item = self.scrape_job_details(detail_html, page.url)
-                    job_item['title'] = title
-                    job_item['applicationLink'] = full_url
-                    job_item['source'] = self.name
+                detail_container = await page.query_selector(self.config["job_detail_selectors"]["description_container"])
+                detail_html = await detail_container.inner_html()
 
-                    yield job_item
+                base_url = urlparse(self.start_urls[0])._replace(path='').geturl()
+                full_url = f"{base_url}{job_info['hx_get']}"
+
+                job_item = self.scrape_job_details(detail_html, page.url)
+                job_item['title'] = job_info['title']
+                job_item['applicationLink'] = full_url
+                job_item['source'] = self.name
+
+                yield job_item
+            except Exception as e:
+                self.logger.error(f"Failed to process job '{job_info["title"]}'. Reason: {e}")
+                # In case of error, we continue to the next job in our static list
+                continue
 
     def scrape_job_details(self, html_content, page_url):
         soup = BeautifulSoup(html_content, 'lxml')
@@ -70,7 +87,6 @@ class FoorillaSpider(scrapy.Spider):
         job_item['company'] = soup.select_one(selectors.get("company")).get_text(strip=True).replace('@', '').strip() if soup.select_one(selectors.get("company")) else "N/A"
         job_item['location'] = soup.select_one(selectors.get("location")).get_text(strip=True) if soup.select_one(selectors.get("location")) else "N/A"
         job_item['description'] = str(soup)
-        # Other fields will be populated from the main parse method or in pipelines
         job_item['postedDate'] = None 
         job_item['expirationDate'] = None
         job_item['salaryRange'] = None
@@ -84,12 +100,11 @@ class FoorillaSpider(scrapy.Spider):
         return job_item
 
     def is_relevant_job(self, title: str) -> bool:
-        """Checks if a job title seems relevant to our AI niches."""
         title_lower = title.lower()
         return any(n.lower() in title_lower for n in self.config.get("ai_niches", []))
 
     async def errback(self, failure):
         self.logger.error(f"Playwright Error: {failure.value}")
-        page = failure.request.meta["playwright_page"]
+        page = failure.request.meta.get("playwright_page")
         if page:
             await page.close()
