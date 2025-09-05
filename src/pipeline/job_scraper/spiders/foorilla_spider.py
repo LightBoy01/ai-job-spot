@@ -124,6 +124,3 @@ class FoorillaSpider(scrapy.Spider):
         page = failure.request.meta.get("playwright_page")
         if page and not page.is_closed():
             await page.close()
-      page = failure.request.meta.get("playwright_page")
-        if page and not page.is_closed():
-            await page.close()
