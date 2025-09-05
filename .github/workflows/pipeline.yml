@@ -61,11 +61,13 @@ jobs:
       
 
       - name: Configure Git User
+        working-directory: ./ai-job-spot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Create Pull Request with new jobs
+        working-directory: ./ai-job-spot
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -79,7 +81,6 @@ jobs:
             data/pending_review/
 
       - name: Display pipeline log
-        working-directory: ./ai-job-spot
         if: always()
         run: |
           echo "--- Start of Pipeline Log ---"
@@ -87,8 +88,8 @@ jobs:
           echo "--- End of Pipeline Log ---"
 
       - name: Upload pipeline artifacts
-        working-directory: ./ai-job-spot
         if: always()
+        working-directory: ./ai-job-spot
         uses: actions/upload-artifact@v4
         with:
           name: pipeline-artifacts
