@@ -80,13 +80,6 @@ class FoorillaSpider(scrapy.Spider):
         
         soup = BeautifulSoup(response.text, 'lxml')
 
-        # --- NEW DEBUGGING STEP: LOG HTML CONTENT ---
-        body_text = "No body content found."
-        if soup.body:
-            body_text = re.sub(r'\s+', ' ', soup.body.get_text(strip=True))[:1000]
-        self.log(f"DEBUG_BODY_CONTENT: {body_text}", level=logging.WARNING)
-        # --- END DEBUGGING STEP ---
-
         title = response.meta.get('job_title')
         application_link = response.meta.get('application_link')
 
@@ -129,5 +122,8 @@ class FoorillaSpider(scrapy.Spider):
     async def errback(self, failure):
         self.log(f"Playwright request failed: {failure.value}", level=logging.ERROR)
         page = failure.request.meta.get("playwright_page")
+        if page and not page.is_closed():
+            await page.close()
+      page = failure.request.meta.get("playwright_page")
         if page and not page.is_closed():
             await page.close()
