@@ -79,6 +79,7 @@ jobs:
             data/pending_review/
 
       - name: Display pipeline log
+        working-directory: ./ai-job-spot
         if: always()
         run: |
           echo "--- Start of Pipeline Log ---"
@@ -86,6 +87,7 @@ jobs:
           echo "--- End of Pipeline Log ---"
 
       - name: Upload pipeline artifacts
+        working-directory: ./ai-job-spot
         if: always()
         uses: actions/upload-artifact@v4
         with:
