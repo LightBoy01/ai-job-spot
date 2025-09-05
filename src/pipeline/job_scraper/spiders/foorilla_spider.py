@@ -78,18 +78,18 @@ class FoorillaSpider(scrapy.Spider):
     def parse_job_detail(self, response: Response):
         self.log(f"Scraping job details from: {response.url}", level=logging.INFO)
         
-        # --- DEBUGGING STEP: SAVE HTML --- #
-        job_title_slug = re.sub(r'\W+', '-', response.meta.get('job_title', 'unknown').lower())
-        debug_filename = os.path.join(self.debug_dir, f"job_detail_{job_title_slug}.html")
-        with open(debug_filename, 'w', encoding='utf-8') as f:
-            f.write(response.text)
-        self.log(f"Saved debug HTML to {debug_filename}", level=logging.DEBUG)
-        # --- END DEBUGGING STEP --- #
+        soup = BeautifulSoup(response.text, 'lxml')
+
+        # --- NEW DEBUGGING STEP: LOG HTML CONTENT ---
+        body_text = "No body content found."
+        if soup.body:
+            body_text = re.sub(r'\s+', ' ', soup.body.get_text(strip=True))[:1000]
+        self.log(f"DEBUG_BODY_CONTENT: {body_text}", level=logging.WARNING)
+        # --- END DEBUGGING STEP ---
 
         title = response.meta.get('job_title')
         application_link = response.meta.get('application_link')
 
-        soup = BeautifulSoup(response.text, 'lxml')
         selectors = self.config.get("job_detail_selectors", {})
         
         company_element = soup.select_one(selectors.get("company"))
