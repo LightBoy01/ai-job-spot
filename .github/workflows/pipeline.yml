@@ -92,5 +92,5 @@ jobs:
           name: pipeline-artifacts
           path: |
             src/pipeline/pipeline_run.log
-            src/pipeline/debug/
+            debug_output/
             data/pending_review/

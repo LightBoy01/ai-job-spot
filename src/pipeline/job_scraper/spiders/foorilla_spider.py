@@ -24,7 +24,7 @@ class FoorillaSpider(scrapy.Spider):
                 "description_container": "div.job-details" # Placeholder, to be corrected
             }
         }
-        self.debug_dir = 'debug'
+        self.debug_dir = '/home/runner/work/ai-job-spot/ai-job-spot/debug_output'
         os.makedirs(self.debug_dir, exist_ok=True)
         logging.info("Foorilla Spider initialized.")
 
