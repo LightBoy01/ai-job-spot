@@ -103,5 +103,5 @@ jobs:
           name: pipeline-artifacts-${{ github.run_id }}
           path: |
             src/pipeline/pipeline_run.log
-            debug_output/
+            src/pipeline/job_scraper/debug_output/
             data/pending_review/
