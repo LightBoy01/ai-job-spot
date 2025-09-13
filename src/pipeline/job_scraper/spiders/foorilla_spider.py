@@ -19,7 +19,10 @@ class FoorillaSpider(scrapy.Spider):
         self.config = self.settings.get('FOORILLA_SPIDER_CONFIG', {})
         self.debug_dir = self.settings.get('DEBUG_OUTPUT_DIR', 'debug_output')
         os.makedirs(self.debug_dir, exist_ok=True)
-        logging.info("Foorilla Spider initialized.")
+        # Add a page counter and a set of visited job URLs for the session
+        self.page_count = 0
+        self.max_pages = self.config.get("max_pagination_pages", 5) # Default to 5 pages
+        logging.info(f"Foorilla Spider initialized. Max pages to scrape: {self.max_pages}")
 
     def start_requests(self):
         self.log("Starting request to Foorilla.com, using Playwright.", level=logging.INFO)
@@ -32,19 +35,23 @@ class FoorillaSpider(scrapy.Spider):
                     PageMethod("wait_for_selector", self.config.get("job_list_selector"), state="visible", timeout=20000),
                 ],
                 errback=self.errback,
+                page_number=1, # Start at page 1
             ),
             callback=self.parse_job_list
         )
 
     async def parse_job_list(self, response: Response):
-        self.log(f"Successfully fetched job list page: {response.url}", level=logging.INFO)
+        page_number = response.meta.get('page_number', 1)
+        self.log(f"Successfully fetched job list page: {response.url} (Page {page_number})", level=logging.INFO)
+        
         page = response.meta.get("playwright_page")
         if not page:
             self.log("Playwright page not found in meta. Cannot proceed.", level=logging.ERROR)
             return
 
+        # --- 1. Parse jobs on the current page ---
         link_elements = await page.query_selector_all(f'{self.config.get("job_list_selector")} {self.config.get("job_link_selector")}')
-        self.log(f"Found {len(link_elements)} potential job links on the page.", level=logging.INFO)
+        self.log(f"Found {len(link_elements)} potential job links on page {page_number}.", level=logging.INFO)
 
         job_count = 0
         for link_element in link_elements:
@@ -65,8 +72,43 @@ class FoorillaSpider(scrapy.Spider):
                     }
                 )
         
-        self.log(f"Finished parsing job list. Found and yielded {job_count} relevant jobs.", level=logging.INFO)
-        await page.close()
+        self.log(f"Finished parsing page {page_number}. Found and yielded {job_count} relevant jobs.", level=logging.INFO)
+
+        # --- 2. Handle Pagination ---
+        if page_number >= self.max_pages:
+            self.log(f"Reached max page limit ({self.max_pages}). Stopping pagination.", level=logging.INFO)
+            await page.close()
+            return
+
+        # As per IMPROVEMENTS.md, pagination is HTMX-based on the last 'li'
+        pagination_selector = f'{self.config.get("job_list_selector")} li[hx-get]:last-child'
+        next_page_element = await page.query_selector(pagination_selector)
+
+        if next_page_element:
+            next_page_url_fragment = await next_page_element.get_attribute('hx-get')
+            if next_page_url_fragment:
+                next_page_url = urljoin(response.url, next_page_url_fragment)
+                self.log(f"Found next page link: {next_page_url}", level=logging.INFO)
+                
+                yield scrapy.Request(
+                    url=next_page_url,
+                    meta=dict(
+                        playwright=True,
+                        playwright_include_page=True, # We need the page object for the next iteration
+                        playwright_page_methods=[
+                            PageMethod("wait_for_selector", self.config.get("job_list_selector"), state="visible", timeout=20000),
+                        ],
+                        errback=self.errback,
+                        page_number=page_number + 1,
+                    ),
+                    callback=self.parse_job_list,
+                )
+            else:
+                self.log("Pagination element found, but no 'hx-get' attribute. Stopping.", level=logging.INFO)
+                await page.close()
+        else:
+            self.log("No more pagination links found. End of job list.", level=logging.INFO)
+            await page.close()
 
     def parse_job_detail(self, response: Response):
         self.log(f"Scraping job details from: {response.url}", level=logging.INFO)

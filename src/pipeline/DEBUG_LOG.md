@@ -20,3 +20,6 @@
 **Lessons Learned:**
 - This specific environmental issue is highly unusual and defies standard Python packaging and GitHub Actions best practices.
 - Further debugging requires more direct control over the runner's environment or external consultation (e.g., GitHub Actions support, Python community forums).
+
+**Update (September 13, 2025):**
+- The pipeline is now functioning correctly. The resolution appears to be the combination of correctly setting a `working-directory` in the GitHub Actions workflow and consistently using `pip install -e src/pipeline`. This ensures that the `src` directory is treated as an installed package, making its modules available for import throughout the pipeline execution. The historical issue is considered resolved.

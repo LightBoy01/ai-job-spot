@@ -1,6 +1,6 @@
 {
   "scrapers_enabled": [
-    "foorilla_scraper"
+    "foorilla"
   ],
   "global_filter_keywords": [
     "AI automation",

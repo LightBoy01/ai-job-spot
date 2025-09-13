@@ -91,9 +91,7 @@ class MarkdownWriterPipeline:
 
         # Sanitize the description HTML before writing
         description_html = item.description or '<p>No description provided.</p>'
-        # Use BeautifulSoup to parse and then get text, then sanitize again to be safe
-        soup = BeautifulSoup(description_html, 'html.parser')
-        sanitized_description = DOMPurify.sanitize(str(soup))
+        sanitized_description = nh3.clean(description_html)
         content_body = sanitized_description
         
         frontmatter_yaml = yaml.dump(frontmatter, sort_keys=False, default_flow_style=False, allow_unicode=True)
@@ -103,6 +101,11 @@ class MarkdownWriterPipeline:
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(full_content)
             spider.logger.info(f"Successfully saved job to: {filepath}")
+        except IOError as e:
+            spider.logger.error(f"Could not write file {filepath}. Reason: {e}")
+
+        return item
+filepath}")
         except IOError as e:
             spider.logger.error(f"Could not write file {filepath}. Reason: {e}")
 

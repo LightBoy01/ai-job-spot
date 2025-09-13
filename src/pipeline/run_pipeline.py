@@ -19,12 +19,11 @@ def main():
         print(f"Error loading or parsing pipeline_config.json: {e}", file=sys.stderr)
         sys.exit(1)
 
-    # Determine which spiders to run based on the config
-    spiders_to_run = []
-    for scraper_name in scrapers_enabled:
-        if scraper_name == "foorilla_scraper":
-            spiders_to_run.append("foorilla")
-        # NOTE: The 'rss_scraper' is not a Scrapy spider and is not run by this script.
+    # In this refactored version, we assume the names in 'scrapers_enabled' are the actual spider names.
+    spiders_to_run = [name for name in scrapers_enabled if not name.endswith('_scraper')]
+
+    # A simple filter to exclude non-scrapy runners mentioned in the config
+    spiders_to_run = [spider for spider in scrapers_enabled if spider != 'rss_scraper']
 
     if not spiders_to_run:
         print("No enabled Scrapy spiders found in configuration. Exiting.", file=sys.stderr)
