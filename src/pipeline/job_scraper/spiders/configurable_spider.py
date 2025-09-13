@@ -17,7 +17,13 @@ class ConfigurableSpider(scrapy.Spider):
     @classmethod
     def from_crawler(cls, crawler, *args, **kwargs):
         spider = super(ConfigurableSpider, cls).from_crawler(crawler, *args, **kwargs)
-        spider.settings_dict = crawler.settings.getdict('SPIDER_CONFIG', {})
+        
+        # Get the config as a string and parse it
+        config_str = crawler.settings.get('SPIDER_CONFIG', '{}')
+        try:
+            spider.settings_dict = json.loads(config_str)
+        except json.JSONDecodeError:
+            raise ValueError("Failed to decode SPIDER_CONFIG. Please ensure it is valid JSON.")
         
         # Core settings
         spider.start_urls = [spider.settings_dict.get('start_url')]
