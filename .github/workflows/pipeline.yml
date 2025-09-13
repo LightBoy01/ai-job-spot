@@ -37,6 +37,14 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'ai-job-spot/src/pipeline/requirements.txt'
 
+      - name: 2.1. Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright/
+          key: ${{ runner.os }}-playwright-${{ matrix.python-version }}-${{ hashFiles('ai-job-spot/src/pipeline/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-${{ matrix.python-version }}-
+
       - name: 3. Install Python and Playwright dependencies
         run: |
           # Upgrade pip
