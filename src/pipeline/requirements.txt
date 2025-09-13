@@ -8,3 +8,4 @@ Scrapy==2.11.2
 scrapy-playwright==0.0.33
 pydantic==2.5.3
 pytest==8.0.0
+dateparser==1.2.0

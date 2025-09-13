@@ -5,6 +5,8 @@ import yaml
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
 from datetime import datetime, timedelta
+import DOMPurify
+from bs4 import BeautifulSoup
 
 class DuplicatesPipeline:
 
@@ -73,21 +75,26 @@ class MarkdownWriterPipeline:
 
         frontmatter = {
             'id': job_id,
-            'title': item.title or 'N/A',
-            'company': item.company or 'N/A',
-            'location': item.location or 'N/A',
+            'title': item.title or None,
+            'company': item.company or None,
+            'location': item.location or None,
             'applicationLink': str(item.applicationLink),
             'postedDate': item.postedDate.isoformat() + 'Z' if item.postedDate else datetime.now().isoformat() + 'Z',
             'expirationDate': item.expirationDate.isoformat() + 'Z' if item.expirationDate else None,
             'tags': item.tags or [],
             'status': 'pending_review',
-            'jobLevel': item.jobLevel or 'N/A',
-            'employeeRole': item.employeeRole or 'N/A',
-            'salaryRange': item.salaryRange or 'N/A',
-            'source': item.source or 'N/A',
+            'jobLevel': item.jobLevel or None,
+            'employeeRole': item.employeeRole or None,
+            'salaryRange': item.salaryRange or None,
+            'source': item.source or None,
         }
 
-        content_body = item.description or '<p>No description provided.</p>'
+        # Sanitize the description HTML before writing
+        description_html = item.description or '<p>No description provided.</p>'
+        # Use BeautifulSoup to parse and then get text, then sanitize again to be safe
+        soup = BeautifulSoup(description_html, 'html.parser')
+        sanitized_description = DOMPurify.sanitize(str(soup))
+        content_body = sanitized_description
         
         frontmatter_yaml = yaml.dump(frontmatter, sort_keys=False, default_flow_style=False, allow_unicode=True)
         full_content = f"---\n{frontmatter_yaml}---\n\n{content_body}"

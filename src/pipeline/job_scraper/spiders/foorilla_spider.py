@@ -8,6 +8,7 @@ import logging
 import os
 import re
 from datetime import datetime
+import dateparser
 
 class FoorillaSpider(scrapy.Spider):
     name = 'foorilla'
@@ -111,27 +112,39 @@ class FoorillaSpider(scrapy.Spider):
             match = re.search(r'(posted|date posted):?\s*(\d+\s+\w+\s+ago|on\s+.*)', text, re.IGNORECASE)
             if match:
                 date_str = match.group(2)
-                # This is a placeholder for a real date parsing library like `dateparser`
-                # For now, we just return the string
-                self.log(f"Extracted date string: {date_str}", level=logging.DEBUG)
-                # In a real scenario, you would parse `date_str` into a datetime object.
-                # For now, we'll return None as we can't parse it reliably without more libraries.
-                return None 
+                parsed_date = dateparser.parse(date_str)
+                if parsed_date:
+                    self.log(f"Extracted and parsed date: {parsed_date}", level=logging.DEBUG)
+                    return parsed_date
+                else:
+                    self.log(f"Could not parse date string: {date_str}", level=logging.WARNING)
+                    return None
             return None
         except Exception as e:
-            self.log(f"Error extracting posted date: {e}", level=logging.ERROR)
+            self.log(f"Error extracting or parsing posted date: {e}", level=logging.ERROR)
             return None
 
     def _extract_salary(self, text: str) -> str | None:
         try:
-            # Look for patterns like $100,000 - $150,000 or similar
-            match = re.search(r'\$(\d{1,3}(?:,\d{3})*\d*)\s*(-|to)\s*\$(\d{1,3}(?:,\d{3})*\d*)', text, re.IGNORECASE)
-            if match:
-                return match.group(0)
-            # Look for a single salary
-            match = re.search(r'\$(\d{1,3}(?:,\d{3})*\d*)', text, re.IGNORECASE)
-            if match:
-                return match.group(0)
+            # Look for patterns like $100,000 - $150,000, £50k-£70k, €80.000 - €100.000, 50,000 - 70,000 USD, etc.
+            # This regex is more comprehensive but still might not catch all cases.
+            # It looks for:
+            # 1. Optional currency symbol ($, £, €, ¥) or common currency codes (USD, EUR, GBP, JPY)
+            # 2. Numbers with optional commas/dots for thousands, and optional decimals
+            # 3. Optional "k" for thousands
+            # 4. Optional range indicators (- or to)
+            # 5. Optional "per year", "p.a.", "annually"
+            salary_patterns = [
+                r'(\$|£|€|¥)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:-|to)?\s*(\$|£|€|¥)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:per year|p\.a\.|annually)?',
+                r'(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:-|to)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:USD|EUR|GBP|JPY)\s*(?:per year|p\.a\.|annually)?',
+                r'(\$|£|€|¥)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:per year|p\.a\.|annually)?',
+                r'(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:USD|EUR|GBP|JPY)\s*(?:per year|p\.a\.|annually)?'
+            ]
+
+            for pattern in salary_patterns:
+                match = re.search(pattern, text, re.IGNORECASE)
+                if match:
+                    return match.group(0).strip()
             return None
         except Exception as e:
             self.log(f"Error extracting salary: {e}", level=logging.ERROR)
