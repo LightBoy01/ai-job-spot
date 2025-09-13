@@ -13,7 +13,7 @@
           "title": "h1",
           "company": "strong.company-name",
           "location": ".hstack.justify-content-between > div:first-child",
-          "description_container": "div[class*=\"description\"]",
+          "description_container": "div.job-description",
           "apply_button_selector": "a.btn:has-text('Apply')"
         },
         "pagination": {
