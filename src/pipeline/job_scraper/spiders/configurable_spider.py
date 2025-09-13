@@ -7,55 +7,60 @@ from pydantic import ValidationError
 import logging
 import os
 import re
+import json
 from datetime import datetime
 import dateparser
 
-class FoorillaSpider(scrapy.Spider):
-    name = "foorilla"
-    start_urls = []
-
+class ConfigurableSpider(scrapy.Spider):
+    name = "configurable"
+    
     @classmethod
     def from_crawler(cls, crawler, *args, **kwargs):
-        spider = super(FoorillaSpider, cls).from_crawler(crawler, *args, **kwargs)
-        # Pass settings from crawler to spider instance
-        spider.start_urls = [crawler.settings.get('START_URL', 'https://foorilla.com/jobs?q=ai')]
-        spider.job_list_selector = crawler.settings.get('JOB_LIST_SELECTOR', 'li.list-group-item')
-        spider.job_link_selector = crawler.settings.get('JOB_LINK_SELECTOR', 'a.stretched-link')
-        spider.ai_niches = json.loads(crawler.settings.get('AI_NICHES', '[]'))
-        spider.job_detail_selectors = json.loads(crawler.settings.get('JOB_DETAIL_SELECTORS', '{}'))
-        spider.max_pages = int(crawler.settings.get('CLOSESPIDER_ITEMCOUNT', 5))
-        spider.debug_dir = crawler.settings.get('DEBUG_OUTPUT_DIR', 'debug_output')
+        spider = super(ConfigurableSpider, cls).from_crawler(crawler, *args, **kwargs)
+        spider.settings_dict = crawler.settings.getdict('SPIDER_CONFIG', {})
         
-        # Ensure debug directory exists
+        # Core settings
+        spider.start_urls = [spider.settings_dict.get('start_url')]
+        spider.allowed_domains = spider.settings_dict.get('allowed_domains', [])
+        
+        # Selector settings
+        spider.job_list_selector = spider.settings_dict.get('job_list_selector')
+        spider.job_link_selector = spider.settings_dict.get('job_link_selector')
+        spider.job_detail_selectors = spider.settings_dict.get('job_detail_selectors', {})
+        
+        # Pagination settings
+        spider.pagination_config = spider.settings_dict.get('pagination', {})
+        spider.max_pages = int(crawler.settings.get('CLOSESPIDER_ITEMCOUNT', 5))
+        
+        # Content settings
+        spider.ai_niches = spider.settings_dict.get('ai_niches', [])
+        
+        # Debug settings
+        spider.debug_dir = crawler.settings.get('DEBUG_OUTPUT_DIR', 'debug_output')
         os.makedirs(spider.debug_dir, exist_ok=True)
         
+        if not all([spider.start_urls[0], spider.job_list_selector, spider.job_link_selector]):
+            raise ValueError("Missing required spider configuration: start_url, job_list_selector, or job_link_selector")
+            
         return spider
 
     def __init__(self, *args, **kwargs):
-        super(FoorillaSpider, self).__init__(*args, **kwargs)
+        super(ConfigurableSpider, self).__init__(*args, **kwargs)
         self.page_count = 0
-        # These attributes will be populated by from_crawler
-        self.start_urls = []
-        self.job_list_selector = ''
-        self.job_link_selector = ''
-        self.ai_niches = []
-        self.job_detail_selectors = {}
-        self.max_pages = 5
-        self.debug_dir = 'debug_output'
-        logging.info(f"Foorilla Spider initialized. Max pages to scrape: {self.max_pages}")
+        logging.info(f"ConfigurableSpider initialized. Max pages to scrape: {getattr(self, 'max_pages', 'N/A')}")
 
     def start_requests(self):
-        self.log("Starting request to Foorilla.com, using Playwright.", level=logging.INFO)
+        self.log(f"Starting request to {self.start_urls[0]}, using Playwright.", level=logging.INFO)
         yield scrapy.Request(
             url=self.start_urls[0],
             meta=dict(
                 playwright=True,
                 playwright_include_page=True,
                 playwright_page_methods=[
-                    PageMethod("wait_for_selector", self.config.get("job_list_selector"), state="visible", timeout=20000),
+                    PageMethod("wait_for_selector", self.job_list_selector, state="visible", timeout=20000),
                 ],
                 errback=self.errback,
-                page_number=1, # Start at page 1
+                page_number=1,
             ),
             callback=self.parse_job_list
         )
@@ -75,21 +80,19 @@ class FoorillaSpider(scrapy.Spider):
 
         job_count = 0
         for link_element in link_elements:
-            hx_get = await link_element.get_attribute('hx-get')
+            # This logic is still a bit specific, needs generalization
+            url_fragment = await link_element.get_attribute('href') or await link_element.get_attribute('hx-get')
             title = await link_element.inner_text()
             
-            if hx_get and self.is_relevant_job(title):
+            if url_fragment and self.is_relevant_job(title):
                 job_count += 1
-                full_url = urljoin(response.url, hx_get)
+                full_url = urljoin(response.url, url_fragment)
                 self.log(f"Yielding request for relevant job: '{title}' at {full_url}", level=logging.DEBUG)
                 
                 yield scrapy.Request(
                     url=full_url,
                     callback=self.parse_job_detail,
-                    meta={
-                        'job_title': title,
-                        'application_link': full_url
-                    }
+                    meta={'job_title': title, 'application_link': full_url}
                 )
         
         self.log(f"Finished parsing page {page_number}. Found and yielded {job_count} relevant jobs.", level=logging.INFO)
@@ -100,21 +103,35 @@ class FoorillaSpider(scrapy.Spider):
             await page.close()
             return
 
-        # As per IMPROVEMENTS.md, pagination is HTMX-based on the last 'li'
-        pagination_selector = f'{self.job_list_selector} li[hx-get]:last-child'
-        next_page_element = await page.query_selector(pagination_selector)
+        pagination_type = self.pagination_config.get('type')
+        if pagination_type == 'htmx':
+            await self.handle_htmx_pagination(page, response, page_number)
+        elif pagination_type == 'next_button':
+            # To be implemented
+            pass
+        else:
+            self.log("No pagination configured or type not supported. Stopping.", level=logging.INFO)
+            await page.close()
 
+    async def handle_htmx_pagination(self, page, response, page_number):
+        selector = self.pagination_config.get('selector')
+        if not selector:
+            self.log("HTMX pagination selector not configured.", level=logging.ERROR)
+            await page.close()
+            return
+            
+        next_page_element = await page.query_selector(selector)
         if next_page_element:
             next_page_url_fragment = await next_page_element.get_attribute('hx-get')
             if next_page_url_fragment:
                 next_page_url = urljoin(response.url, next_page_url_fragment)
-                self.log(f"Found next page link: {next_page_url}", level=logging.INFO)
+                self.log(f"Found next page link (HTMX): {next_page_url}", level=logging.INFO)
                 
                 yield scrapy.Request(
                     url=next_page_url,
                     meta=dict(
                         playwright=True,
-                        playwright_include_page=True, # We need the page object for the next iteration
+                        playwright_include_page=True,
                         playwright_page_methods=[
                             PageMethod("wait_for_selector", self.job_list_selector, state="visible", timeout=20000),
                         ],
@@ -124,13 +141,14 @@ class FoorillaSpider(scrapy.Spider):
                     callback=self.parse_job_list,
                 )
             else:
-                self.log("Pagination element found, but no 'hx-get' attribute. Stopping.", level=logging.INFO)
+                self.log("HTMX pagination element found, but no 'hx-get' attribute. Stopping.", level=logging.INFO)
                 await page.close()
         else:
-            self.log("No more pagination links found. End of job list.", level=logging.INFO)
+            self.log("No more HTMX pagination links found.", level=logging.INFO)
             await page.close()
 
     def parse_job_detail(self, response: Response):
+        # This method remains largely the same, as it's driven by selectors
         self.log(f"Scraping job details from: {response.url}", level=logging.INFO)
 
         title = response.meta.get('job_title')
@@ -145,7 +163,6 @@ class FoorillaSpider(scrapy.Spider):
             self.log(f'Could not find description for job: "{title}". Selector may be outdated.', level=logging.WARNING)
             self._save_debug_page(response, f"failed_description_{self.name}.html")
 
-        # Best-effort extraction from the text content
         plain_text = ' '.join(response.css(f'{selectors.get("description_container", "body")} *::text').getall())
         
         posted_date = self._extract_posted_date(plain_text)
@@ -168,56 +185,39 @@ class FoorillaSpider(scrapy.Spider):
             self.log(f'Data validation failed for job: "{title}". Reason: {e}', level=logging.ERROR)
             self._save_debug_page(response, f"failed_validation_{self.name}.html")
 
+    def is_relevant_job(self, title: str) -> bool:
+        title_lower = title.lower()
+        return any(n.lower() in title_lower for n in self.ai_niches)
+
     def _extract_posted_date(self, text: str) -> datetime | None:
+        # This helper function is generic enough to keep
         try:
-            # Look for patterns like "Posted X days ago" or "Posted on ..."
             match = re.search(r'(posted|date posted):?\s*(\d+\s+\w+\s+ago|on\s+.*)', text, re.IGNORECASE)
             if match:
                 date_str = match.group(2)
                 parsed_date = dateparser.parse(date_str)
                 if parsed_date:
-                    self.log(f"Extracted and parsed date: {parsed_date}", level=logging.DEBUG)
                     return parsed_date
-                else:
-                    self.log(f"Could not parse date string: {date_str}", level=logging.WARNING)
-                    return None
             return None
-        except Exception as e:
-            self.log(f"Error extracting or parsing posted date: {e}", level=logging.ERROR)
+        except Exception:
             return None
 
     def _extract_salary(self, text: str) -> str | None:
+        # This helper function is also generic
         try:
-            # Look for patterns like $100,000 - $150,000, £50k-£70k, €80.000 - €100.000, 50,000 - 70,000 USD, etc.
-            # This regex is more comprehensive but still might not catch all cases.
-            # It looks for:
-            # 1. Optional currency symbol ($, £, €, ¥) or common currency codes (USD, EUR, GBP, JPY)
-            # 2. Numbers with optional commas/dots for thousands, and optional decimals
-            # 3. Optional "k" for thousands
-            # 4. Optional range indicators (- or to)
-            # 5. Optional "per year", "p.a.", "annually"
             salary_patterns = [
                 r'(\$|£|€|¥)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:-|to)?\s*(\$|£|€|¥)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:per year|p\.a\.|annually)?',
                 r'(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:-|to)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:USD|EUR|GBP|JPY)\s*(?:per year|p\.a\.|annually)?',
-                r'(\$|£|€|¥)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:per year|p\.a\.|annually)?',
-                r'(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:USD|EUR|GBP|JPY)\s*(?:per year|p\.a\.|annually)?'
             ]
-
             for pattern in salary_patterns:
                 match = re.search(pattern, text, re.IGNORECASE)
                 if match:
                     return match.group(0).strip()
             return None
-        except Exception as e:
-            self.log(f"Error extracting salary: {e}", level=logging.ERROR)
+        except Exception:
             return None
 
-    def is_relevant_job(self, title: str) -> bool:
-        title_lower = title.lower()
-        return any(n.lower() in title_lower for n in self.ai_niches)
-
     def _save_debug_page(self, response: Response, filename: str):
-        """Saves the response body to a file for debugging purposes."""
         filepath = os.path.join(self.debug_dir, filename)
         try:
             with open(filepath, 'wb') as f:
@@ -230,14 +230,11 @@ class FoorillaSpider(scrapy.Spider):
         self.log(f"Playwright request failed: {failure.value}", level=logging.ERROR)
         page = failure.request.meta.get("playwright_page")
         if page and not page.is_closed():
-            # Try to save the page content if possible
             try:
                 html_content = await page.content()
                 filepath = os.path.join(self.debug_dir, f"failed_request_{self.name}.html")
                 with open(filepath, 'w', encoding='utf-8') as f:
                     f.write(html_content)
                 self.log(f"Saved failed page HTML to: {filepath}", level=logging.DEBUG)
-            except Exception as e:
-                self.log(f"Could not save failed page content: {e}", level=logging.ERROR)
             finally:
                 await page.close()

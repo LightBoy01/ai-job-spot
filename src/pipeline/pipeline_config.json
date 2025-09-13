@@ -1,6 +1,27 @@
 {
   "scrapers_enabled": [
-    "foorilla"
+    {
+      "name": "configurable",
+      "spider_name": "foorilla",
+      "spider_config": {
+        "start_url": "https://foorilla.com/jobs?q=ai",
+        "allowed_domains": ["foorilla.com"],
+        "job_list_selector": "li.list-group-item",
+        "job_link_selector": "a.stretched-link",
+        "ai_niches": ["AI", "Machine Learning", "Data Scientist"],
+        "job_detail_selectors": {
+          "title": "h1",
+          "company": "strong.company-name",
+          "location": ".hstack.justify-content-between > div:first-child",
+          "description_container": "[id^=mc_]",
+          "apply_button_selector": "a.btn:has-text('Apply')"
+        },
+        "pagination": {
+          "type": "htmx",
+          "selector": "li[hx-get]:last-child"
+        }
+      }
+    }
   ],
   "global_filter_keywords": [
     "AI automation",

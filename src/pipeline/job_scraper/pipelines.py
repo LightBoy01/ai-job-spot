@@ -5,8 +5,7 @@ import yaml
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
 from datetime import datetime, timedelta
-import DOMPurify
-from bs4 import BeautifulSoup
+import nh3
 
 class DuplicatesPipeline:
 
@@ -27,7 +26,7 @@ class DuplicatesPipeline:
 
     def close_spider(self, spider):
         if self.conn:
-            self.prune_old_urls()
+            self.prune_old_urls(spider) # Pass spider instance
             self.conn.close()
 
     def process_item(self, item, spider):
@@ -45,7 +44,7 @@ class DuplicatesPipeline:
         self.cursor.execute("INSERT INTO seen_jobs (url) VALUES (?)", (url,))
         self.conn.commit()
 
-    def prune_old_urls(self):
+    def prune_old_urls(self, spider):
         """Removes URLs older than 6 months from the database."""
         six_months_ago = datetime.now() - timedelta(days=180)
         self.cursor.execute("DELETE FROM seen_jobs WHERE scraped_at < ?", (six_months_ago,))
@@ -101,11 +100,6 @@ class MarkdownWriterPipeline:
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(full_content)
             spider.logger.info(f"Successfully saved job to: {filepath}")
-        except IOError as e:
-            spider.logger.error(f"Could not write file {filepath}. Reason: {e}")
-
-        return item
-filepath}")
         except IOError as e:
             spider.logger.error(f"Could not write file {filepath}. Reason: {e}")
 
