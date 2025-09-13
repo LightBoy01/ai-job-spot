@@ -11,17 +11,22 @@ from datetime import datetime
 import dateparser
 
 class FoorillaSpider(scrapy.Spider):
-    name = 'foorilla'
-    start_urls = ['https://foorilla.com/']
+    name = "foorilla"
+    start_urls = []
 
     def __init__(self, *args, **kwargs):
         super(FoorillaSpider, self).__init__(*args, **kwargs)
-        self.config = self.settings.get('FOORILLA_SPIDER_CONFIG', {})
+        # Retrieve settings directly from self.settings
+        self.start_urls = [self.settings.get('START_URL', 'https://foorilla.com/jobs?q=ai')]
+        self.job_list_selector = self.settings.get('JOB_LIST_SELECTOR', 'li.list-group-item')
+        self.job_link_selector = self.settings.get('JOB_LINK_SELECTOR', 'a.stretched-link')
+        self.ai_niches = json.loads(self.settings.get('AI_NICHES', '[]')) # Deserialize JSON string
+        self.job_detail_selectors = json.loads(self.settings.get('JOB_DETAIL_SELECTORS', '{}')) # Deserialize JSON string
+        self.max_pages = int(self.settings.get('CLOSESPIDER_ITEMCOUNT', 5)) # Use CLOSESPIDER_ITEMCOUNT for max_pages
+
         self.debug_dir = self.settings.get('DEBUG_OUTPUT_DIR', 'debug_output')
         os.makedirs(self.debug_dir, exist_ok=True)
-        # Add a page counter and a set of visited job URLs for the session
         self.page_count = 0
-        self.max_pages = self.config.get("max_pagination_pages", 5) # Default to 5 pages
         logging.info(f"Foorilla Spider initialized. Max pages to scrape: {self.max_pages}")
 
     def start_requests(self):
@@ -50,7 +55,7 @@ class FoorillaSpider(scrapy.Spider):
             return
 
         # --- 1. Parse jobs on the current page ---
-        link_elements = await page.query_selector_all(f'{self.config.get("job_list_selector")} {self.config.get("job_link_selector")}')
+        link_elements = await page.query_selector_all(f'{self.job_list_selector} {self.job_link_selector}')
         self.log(f"Found {len(link_elements)} potential job links on page {page_number}.", level=logging.INFO)
 
         job_count = 0
@@ -96,7 +101,7 @@ class FoorillaSpider(scrapy.Spider):
                         playwright=True,
                         playwright_include_page=True, # We need the page object for the next iteration
                         playwright_page_methods=[
-                            PageMethod("wait_for_selector", self.config.get("job_list_selector"), state="visible", timeout=20000),
+                            PageMethod("wait_for_selector", self.job_list_selector, state="visible", timeout=20000),
                         ],
                         errback=self.errback,
                         page_number=page_number + 1,
@@ -115,7 +120,7 @@ class FoorillaSpider(scrapy.Spider):
 
         title = response.meta.get('job_title')
         application_link = response.meta.get('application_link')
-        selectors = self.config.get("job_detail_selectors", {})
+        selectors = self.job_detail_selectors
 
         company = response.css(selectors.get("company", "::text")).get(default='N/A').strip()
         location = response.css(selectors.get("location", "::text")).get(default='N/A').strip()
@@ -194,7 +199,7 @@ class FoorillaSpider(scrapy.Spider):
 
     def is_relevant_job(self, title: str) -> bool:
         title_lower = title.lower()
-        return any(n.lower() in title_lower for n in self.config.get("ai_niches", []))
+        return any(n.lower() in title_lower for n in self.ai_niches)
 
     def _save_debug_page(self, response: Response, filename: str):
         """Saves the response body to a file for debugging purposes."""
