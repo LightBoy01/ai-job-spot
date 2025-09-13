@@ -14,20 +14,34 @@ class FoorillaSpider(scrapy.Spider):
     name = "foorilla"
     start_urls = []
 
+    @classmethod
+    def from_crawler(cls, crawler, *args, **kwargs):
+        spider = super(FoorillaSpider, cls).from_crawler(crawler, *args, **kwargs)
+        # Pass settings from crawler to spider instance
+        spider.start_urls = [crawler.settings.get('START_URL', 'https://foorilla.com/jobs?q=ai')]
+        spider.job_list_selector = crawler.settings.get('JOB_LIST_SELECTOR', 'li.list-group-item')
+        spider.job_link_selector = crawler.settings.get('JOB_LINK_SELECTOR', 'a.stretched-link')
+        spider.ai_niches = json.loads(crawler.settings.get('AI_NICHES', '[]'))
+        spider.job_detail_selectors = json.loads(crawler.settings.get('JOB_DETAIL_SELECTORS', '{}'))
+        spider.max_pages = int(crawler.settings.get('CLOSESPIDER_ITEMCOUNT', 5))
+        spider.debug_dir = crawler.settings.get('DEBUG_OUTPUT_DIR', 'debug_output')
+        
+        # Ensure debug directory exists
+        os.makedirs(spider.debug_dir, exist_ok=True)
+        
+        return spider
+
     def __init__(self, *args, **kwargs):
         super(FoorillaSpider, self).__init__(*args, **kwargs)
-        # Scrapy automatically populates self.settings when the spider is instantiated by the Scrapy engine.
-        # We can directly access self.settings here.
-        self.start_urls = [self.settings.get('START_URL', 'https://foorilla.com/jobs?q=ai')]
-        self.job_list_selector = self.settings.get('JOB_LIST_SELECTOR', 'li.list-group-item')
-        self.job_link_selector = self.settings.get('JOB_LINK_SELECTOR', 'a.stretched-link')
-        self.ai_niches = json.loads(self.settings.get('AI_NICHES', '[]')) # Deserialize JSON string
-        self.job_detail_selectors = json.loads(self.settings.get('JOB_DETAIL_SELECTORS', '{}')) # Deserialize JSON string
-        self.max_pages = int(self.settings.get('CLOSESPIDER_ITEMCOUNT', 5)) # Use CLOSESPIDER_ITEMCOUNT for max_pages
-
-        self.debug_dir = self.settings.get('DEBUG_OUTPUT_DIR', 'debug_output')
-        os.makedirs(self.debug_dir, exist_ok=True)
         self.page_count = 0
+        # These attributes will be populated by from_crawler
+        self.start_urls = []
+        self.job_list_selector = ''
+        self.job_link_selector = ''
+        self.ai_niches = []
+        self.job_detail_selectors = {}
+        self.max_pages = 5
+        self.debug_dir = 'debug_output'
         logging.info(f"Foorilla Spider initialized. Max pages to scrape: {self.max_pages}")
 
     def start_requests(self):
