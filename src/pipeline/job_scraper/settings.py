@@ -124,15 +124,5 @@ PLAYWRIGHT_CONTEXTS = {
     }
 }
 
-# --- Custom Settings ---
-import json
-import os
 
-# Load Foorilla-specific configuration
-_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
-with open(_config_path, 'r') as f:
-    FOORILLA_SPIDER_CONFIG = json.load(f)
-
-# Define the output directory for markdown files
-MARKDOWN_OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'pending_review'))
 
