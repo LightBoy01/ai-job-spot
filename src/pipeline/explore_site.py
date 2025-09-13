@@ -58,7 +58,7 @@ async def analyze_and_save(url: str, output_path: str):
                 # Search by class
                 candidate = soup_obj.find(tag_name, class_=lambda x: x and keyword in ' '.join(x).lower())
                 if candidate and len(candidate.get_text(strip=True).split()) > 50:
-                    return f"{tag_name}.{{' '.join(candidate['class'])} "
+                    return f"{tag_name}.{'.'.join(candidate['class'])}"
 
         # Fallback: find the largest text block within common containers
         best_candidate = None
@@ -75,7 +75,7 @@ async def analyze_and_save(url: str, output_path: str):
             if best_candidate.get('id'):
                 return f"{best_candidate.name}#{best_candidate['id']}"
             elif best_candidate.get('class'):
-                return f"{best_candidate.name}.{{' '.join(best_candidate['class'])}"
+                return f"{best_candidate.name}.{'.'.join(best_candidate['class'])}"
             else:
                 # Fallback to a more general path if no id/class
                 return f"{best_candidate.name}:nth-of-type({list(best_candidate.parent.children).index(best_candidate) + 1})"
