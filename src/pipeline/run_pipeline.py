@@ -46,20 +46,20 @@ def main():
                 scrapy_settings = []
                 # Pass the entire spider-specific config as a single JSON string
                 if 'spider_config' in site_config:
-                    scrapy_settings.append(f"-s SPIDER_CONFIG={json.dumps(site_config['spider_config'])}")
+                    scrapy_settings.extend(['-s', f"SPIDER_CONFIG={json.dumps(site_config['spider_config'])}"])
 
                 # Pass global filter keywords
                 if "global_filter_keywords" in config:
-                    scrapy_settings.append(f"-s GLOBAL_FILTER_KEYWORDS={json.dumps(config['global_filter_keywords'])}")
+                    scrapy_settings.extend(['-s', f"GLOBAL_FILTER_KEYWORDS={json.dumps(config['global_filter_keywords'])}"])
 
                 # Pass scraper limits
                 spider_limit_key = f"{site_config.get('spider_name', spider_name)}_scraper_limit"
                 if "scraper_limits" in config and spider_limit_key in config["scraper_limits"]:
-                    scrapy_settings.append(f"-s CLOSESPIDER_ITEMCOUNT={config['scraper_limits'][spider_limit_key]}")
+                    scrapy_settings.extend(['-s', f"CLOSESPIDER_ITEMCOUNT={config['scraper_limits'][spider_limit_key]}"])
 
                 # Pass output directory
                 if "output_directory" in config:
-                    scrapy_settings.append(f"-s MARKDOWN_OUTPUT_DIR={config['output_directory']}")
+                    scrapy_settings.extend(['-s', f"MARKDOWN_OUTPUT_DIR={config['output_directory']}"])
 
                 command = [
                     sys.executable, "-m", "scrapy", "crawl", spider_name,
