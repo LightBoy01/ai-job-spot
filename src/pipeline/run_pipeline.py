@@ -112,4 +112,5 @@ def main():
         traceback.print_exc()
         sys.exit(1)
 
-    logging.info("--- AI Job Spot Data Pipeline Finished ---")
+    if __name__ == "__main__":
+    main()
