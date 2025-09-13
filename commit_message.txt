@@ -1,20 +1,9 @@
-feat: Implement robust data pipeline with Playwright and enhanced content management
+feat(pipeline): Enhance and fix data scraping pipeline
 
-This commit introduces significant improvements across the data pipeline and content management system:
+This commit introduces several key improvements and fixes to the data scraping pipeline:
 
-- **Data Pipeline Refactoring:**
-  - Standardized browser automation to Playwright for improved reliability and performance.
-  - Integrated `transform_job_data` logic directly into `run_pipeline.py` to ensure all scraped jobs are consistently structured and enriched (including unique IDs, standardized dates, and comprehensive tags) before being saved as Markdown.
-  - Cleaned up `src/pipeline` directory by archiving unused JSON and Markdown files, and removing redundant scripts.
-
-- **Content Management Enhancements:**
-  - Implemented automatic Markdown file creation/update/deletion for job postings via API endpoints (`/api/jobs/[id].ts`, `/api/jobs/post.ts`), ensuring content consistency between Firestore and the filesystem.
-  - Refactored admin panel job and article listing pages (`/admin/jobs`, `/admin/articles`) to use new search API endpoints (`/api/admin/jobs/search`, `/api/admin/articles/search`) and a simplified "Load More" pagination, significantly improving UX and performance.
-
-- **Application Stability & UX:**
-  - Resolved all TypeScript compilation errors across the Next.js application, ensuring a clean build.
-  - Applied minor UI/UX styling improvements to various pages and components.
-  - Updated sitemap URL to the new domain `aijobspot.online`.
-  - Refactored `getJobs` query in `firestoreClient.ts` for better search and pagination consistency.
-
-This comprehensive update enhances the pipeline's efficiency, improves data integrity, streamlines content management, and boosts overall application stability and user experience.
+- **Fix ModuleNotFoundError in GitHub Actions:** Corrected the `pip install -e` command in `pipeline.yml` to properly install the pipeline as an editable package, resolving persistent module import errors in the CI/CD environment.
+- **Improve Posted Date Extraction:** Integrated `dateparser` into `foorilla_spider.py` to accurately parse and return `datetime` objects for job posting dates, improving data quality.
+- **Add HTML Sanitization:** Implemented `DOMPurify` in `MarkdownWriterPipeline` to sanitize HTML descriptions before writing them to Markdown files, enhancing security.
+- **Standardize Missing Data Defaults:** Changed default values for missing fields (e.g., `jobLevel`, `salaryRange`) from 'N/A' to `None` in `MarkdownWriterPipeline` for better data consistency.
+- **Refine Salary Extraction:** Updated the regex for salary extraction in `foorilla_spider.py` to support a wider variety of salary formats.
