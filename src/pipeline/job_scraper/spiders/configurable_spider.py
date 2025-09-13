@@ -227,8 +227,8 @@ class ConfigurableSpider(scrapy.Spider):
     def _save_debug_page(self, response: Response, filename: str):
         filepath = os.path.join(self.debug_dir, filename)
         try:
-            with open(filepath, 'wb') as f:
-                f.write(response.body)
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(response.text)
             self.log(f"Saved debug file to: {filepath}", level=logging.DEBUG)
         except IOError as e:
             self.log(f"Failed to save debug file: {e}", level=logging.ERROR)
