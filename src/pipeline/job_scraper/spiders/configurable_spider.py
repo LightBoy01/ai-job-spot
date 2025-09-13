@@ -111,7 +111,8 @@ class ConfigurableSpider(scrapy.Spider):
 
         pagination_type = self.pagination_config.get('type')
         if pagination_type == 'htmx':
-            await self.handle_htmx_pagination(page, response, page_number)
+            async for r in self.handle_htmx_pagination(page, response, page_number):
+                yield r
         elif pagination_type == 'next_button':
             # To be implemented
             pass
