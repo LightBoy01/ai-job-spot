@@ -4,7 +4,7 @@
       "name": "configurable",
       "spider_name": "foorilla",
       "spider_config": {
-        "start_url": "https://foorilla.com/jobs?q=ai",
+        "start_url": "https://foorilla.com/",
         "allowed_domains": ["foorilla.com"],
         "job_list_selector": "li.list-group-item",
         "job_link_selector": "a.stretched-link",
