@@ -64,7 +64,7 @@ jobs:
         env:
           PIPELINE_API_KEY: ${{ secrets.PIPELINE_API_KEY }}
           SITE_URL: ${{ secrets.SITE_URL }}
-        run: python src/pipeline/explore_site.py https://foorilla.com/
+        run: python -m src.pipeline.run_pipeline
 
       - name: 5. Configure Git User for PR
         run: |
