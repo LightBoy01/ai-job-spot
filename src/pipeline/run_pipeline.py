@@ -1,6 +1,7 @@
 import os
 import subprocess
 import sys
+import json
 
 def main():
     """Main function to orchestrate the data pipeline with real-time and file-based logging."""
@@ -8,10 +9,32 @@ def main():
     os.chdir(pipeline_dir)
 
     log_file_path = "pipeline_run.log"
-    spiders_to_run = ["foorilla"]
+
+    # Load configuration
+    try:
+        with open("pipeline_config.json", 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        scrapers_enabled = config.get("scrapers_enabled", [])
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error loading or parsing pipeline_config.json: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    # Determine which spiders to run based on the config
+    spiders_to_run = []
+    for scraper_name in scrapers_enabled:
+        if scraper_name == "foorilla_scraper":
+            spiders_to_run.append("foorilla")
+        # NOTE: The 'rss_scraper' is not a Scrapy spider and is not run by this script.
+
+    if not spiders_to_run:
+        print("No enabled Scrapy spiders found in configuration. Exiting.", file=sys.stderr)
+        sys.exit(0)
 
     try:
         with open(log_file_path, 'w', encoding='utf-8', buffering=1) as log_file:
+            log_file.write("---" + "-" * 10 + " Starting pipeline run " + "-" * 10 + "---" + "\n")
+            log_file.write(f"Enabled spiders to run: {spiders_to_run}" + "\n")
+
             for spider in spiders_to_run:
                 print(f"--- Running spider: {spider} ---")
                 log_file.write(f"--- Running spider: {spider} ---\n")

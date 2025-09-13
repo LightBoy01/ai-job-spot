@@ -11,7 +11,9 @@ tags:
   - Strategy
   - Leadership
   - Moral Compass
+imageUrl: /images/articles/the-moral-compass.svg
 ---
+
 We are building machines that can provide us with perfect answers. Given a goal, they can calculate the most efficient path to achieve it with a speed and precision that dwarfs human capability. They can optimize a supply chain, personalize a marketing campaign, or diagnose a disease from a medical scan, all with flawless, data-driven logic. We have, in essence, perfected the science of finding the right path.
 
 But in our obsession with pathfinding, we have neglected the more fundamental human challenge: choosing the right destination. As artificial intelligence automates the world of answers, it reveals a profound and widening chasm—the space between what our technology *can* do and what it *should* do. This is the **Ethical Judgment Gap**, and navigating it is the most important work of our time.
@@ -24,7 +26,6 @@ Imagine the captain of a 16th-century exploration vessel, standing on the deck o
 But beside it lies her second instrument: a simple, magnetic compass. The compass does not care for the stars. It does not calculate. It does one thing and one thing only: it points north. It provides a constant, unwavering direction. The astrolabe can tell the captain where she is, but only the compass can tell her which way she is going. Her true task as a leader is not merely to read the data from the astrolabe, but to use her judgment to align the ship's course with the unwavering needle of the compass, guided by the ultimate purpose of her mission—be it discovery, trade, or the safe return of her crew.
 
 In the modern world, AI is the ultimate astrolabe. It provides us with a perfect, data-rich picture of our current position. But it cannot provide us with a compass. It cannot tell us which direction is "north." The work of ethical judgment is the work of the captain: to hold the compass, to interpret the data of the astrolabe through the lens of purpose and principle, and to make the courageous choice about which way to steer. This is not a science; it is an art. It is the art of moral navigation.
-
 
 ## A Framework for Moral Navigation
 

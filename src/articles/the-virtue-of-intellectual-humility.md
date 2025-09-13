@@ -11,7 +11,9 @@ tags:
   - Learning
   - Collaboration
   - Innovation
+imageUrl: /images/articles/the-virtue-of-intellectual-humility.svg
 ---
+
 We are drowning in answers. With AI that can generate a business plan, debug code, or draft legal arguments in seconds, we have access to a previously unimaginable level of certainty. But this firehose of confidence has a hidden, dangerous side effect: it makes our own intellectual *arrogance* seem not only justified, but efficient.
 
 When an AI can validate any bias with a well-written paragraph, the cost of being wrong skyrockets. The strategist who falls in love with their own idea, the engineer who dismisses a new framework without testing it, the leader who surrounds themselves with voices that echo their own—these are the professionals most at risk in the new economy.
@@ -52,4 +54,4 @@ This process—Isolate, Seek, Synthesize—is a repeatable loop for making smart
 
 ## Conclusion: The Architect of Your Own Understanding
 
-In an age of artificial certainty, the most durable advantage lies in the human capacity for self-correction. The machine can give you an answer in a microsecond, but the wisdom lies in the slow, deliberate, and humble process of questioning it. For a practical application of this, consider building your own [Internal Link: Unvarnished Mirror](the-unvarnished-mirror). The Humility Loop is a system for doing just that.
+In an age of artificial certainty, the most durable advantage lies in the human capacity for self-correction. The machine can give you an answer in a microsecond, but the wisdom lies in the slow, deliberate, and humble process of questioning it. For a practical application of this, consider building your own [Unvarnished Mirror](/articles/the-unvarnished-mirror). The Humility Loop is a system for doing just that.

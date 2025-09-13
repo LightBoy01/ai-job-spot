@@ -1,6 +1,5 @@
 {
   "scrapers_enabled": [
-    "rss_scraper",
     "foorilla_scraper"
   ],
   "global_filter_keywords": [
@@ -31,13 +30,5 @@
     "foorilla_scraper_limit": 3
   },
   "output_directory": "../../data/pending_review",
-  "log_file": "pipeline_run.log",
-  "rss_scraper_config": {
-    "RSS_FEEDS": [
-      "https://stackoverflow.com/jobs/feed?q=ai",
-      "https://www.indeed.com/rss?q=artificial+intelligence",
-      "https://www.linkedin.com/jobs/rss/g/135935/machine-learning-jobs",
-      "http://rss.jobsearch.monster.com/rssquery.axd?q=ai"
-    ]
-  }
+  "log_file": "pipeline_run.log"
 }

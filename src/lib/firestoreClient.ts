@@ -97,9 +97,21 @@ export async function getPendingJobs(): Promise<JobPosting[]> {
   return querySnapshot.docs.map(processJobData);
 }
 
-export async function getArticles(limit?: number, startAfterDoc?: DocumentSnapshot): Promise<{ articles: Article[], lastVisible: DocumentSnapshot | null }> {
+export async function getArticles(limit?: number, startAfterDoc?: DocumentSnapshot, searchTerm?: string): Promise<{ articles: Article[], lastVisible: DocumentSnapshot | null }> {
   const articlesCollectionRef = collection(db, 'articles');
-  let q = query(articlesCollectionRef, orderBy('volumeNo', 'desc'), orderBy('issueNo', 'desc'));
+  let q;
+
+  if (searchTerm && searchTerm.trim() !== '') {
+    q = query(
+      articlesCollectionRef,
+      where('title', '>=', searchTerm),
+      where('title', '<=', searchTerm + '\uf8ff'),
+      orderBy('title', 'asc'),
+      orderBy('publishDate', 'desc')
+    );
+  } else {
+    q = query(articlesCollectionRef, orderBy('volumeNo', 'desc'), orderBy('issueNo', 'desc'));
+  }
 
   if (startAfterDoc) {
     q = query(q, startAfter(startAfterDoc));

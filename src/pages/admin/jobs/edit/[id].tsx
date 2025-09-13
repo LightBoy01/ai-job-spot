@@ -117,7 +117,7 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
       }
 
       const result = await response.json();
-      const updatedJob = result.job as JobPosting;
+      const updatedJob = result.job as SerializedJobPosting;
 
       toast.success(`Job "${updatedJob.title}" updated successfully!`, { id: toastId });
       router.push('/admin/jobs');

@@ -13,7 +13,7 @@ tags:
   - Leadership
   - Future of Work
   - Mental Models
-imageUrl: /images/articles/the-gravity-engine.png
+imageUrl: /images/articles/the-gravity-engine.svg
 ---
 In the old world, power was a function of position. It was corner offices, org charts, and titles. In the new world—a world of distributed teams, asynchronous communication, and AI-powered task execution—this structure is dissolving into a fluid, decentralized network. In this network, a new form of influence is emerging, one that has little to do with where you are and everything to do with the problems you solve and the clarity you create.
 
@@ -22,7 +22,6 @@ Consider two engineers. The first is a "ghost in the machine." They are brillian
 The second engineer is a "node." They are also brilliant, but their impact is different. When a complex, cross-functional problem emerges, they are the person the product manager calls first. When a junior developer is stuck, they are the one who is sought out for guidance. When a new strategy is being debated, their perspective is requested. They have no direct reports, yet they are a leader. They have become a center of gravity.
 
 As AI automates the "what" (the task, the code, the report), the last defensible human moat is the "how"—how we frame problems, how we connect ideas, and how we elevate the work of others. This is not a soft skill; it is a strategic imperative. It is the work of building your own **Gravity Engine**.
-
 
 ## A Note on Ethics: Gravity vs. Gatekeeping
 It is crucial to approach this framework with the right intention. The goal of building a Gravity Engine is to become a conduit for value, not a gatekeeper of it. A skeptical reader might see this advice as a playbook for organizational politics—a way to hoard influence for its own sake. This is a profound misinterpretation, and it is vital to understand the distinction.

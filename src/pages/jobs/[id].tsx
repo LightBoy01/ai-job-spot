@@ -1,16 +1,16 @@
 import Layout from '@/components/Layout';
 import { getJobs, getJobById } from '@/lib/firestoreClient';
 import { SerializedJobPosting } from '@/lib/types';
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
 import AdContainer from '@/components/AdContainer';
 
-interface JobPageProps {
+interface JobDetailsProps {
   job: SerializedJobPosting;
 }
 
-export default function JobPage({ job }: JobPageProps) {
+const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
   if (!job) {
     return (
       <Layout>
@@ -39,7 +39,7 @@ export default function JobPage({ job }: JobPageProps) {
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary-dark leading-tight mb-4">
             {job.title}
           </h1>
-          <hr className="border-t border-neutral-300 my-8" /> {/* Added subtle divider */}
+          <hr className="border-t border-neutral-300 my-8" />
           <div className="text-xl text-neutral-700 mb-2">
             {job.company}
           </div>
@@ -129,7 +129,9 @@ export default function JobPage({ job }: JobPageProps) {
       </article>
     </Layout>
   );
-}
+};
+
+export default JobDetails;
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const { jobs } = await getJobs();
@@ -140,7 +142,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths, fallback: 'blocking' };
 };
 
-export const getStaticProps: GetStaticProps<JobPageProps, { id: string }> = async (context) => {
+export const getStaticProps: GetStaticProps<JobDetailsProps, { id: string }> = async (context) => {
   const id = context.params?.id;
 
   if (!id) {

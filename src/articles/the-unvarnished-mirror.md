@@ -4,7 +4,7 @@ slug: "the-unvarnished-mirror"
 author: "The AI Strategist"
 publishDate: "2025-08-22T16:37:14Z"
 tags: ["Mental Models", "Decision Making", "Career Strategy", "Intellectual Honesty"]
-imageUrl: "/public/window.svg"
+imageUrl: "/images/articles/the-unvarnished-mirror.svg"
 issueNo: 25
 volumeNo: 1
 ---
@@ -15,7 +15,7 @@ But what if the most potent, most defensible skill in the age of AI is not the p
 
 Intellectual dishonesty is a subtle poison. It’s not about outright lying; it’s about the convenient delusions we accept to protect our egos or avoid the hard work of genuine understanding. It’s the engineering lead who, unwilling to admit their knowledge of a new framework is shallow, greenlights a project on a shaky foundation. It’s the strategist who champions a buzzword-laden initiative, privately knowing they haven’t pressure-tested the core assumptions.
 
-These delusions are a debt that reality eventually calls due. In a world awash with generated answers, the quality of your career will be determined by the quality of your questions—most importantly, the honest questions you are willing to ask yourself. This pursuit is closely tied to the virtue of [Internal Link: Intellectual Humility](the-virtue-of-intellectual-humility). This pursuit is closely tied to the virtue of [Internal Link: Intellectual Humility](the-virtue-of-intellectual-humility).
+These delusions are a debt that reality eventually calls due. In a world awash with generated answers, the quality of your career will be determined by the quality of your questions—most importantly, the honest questions you are willing to ask yourself. This pursuit is closely tied to the virtue of [Intellectual Humility](/articles/the-virtue-of-intellectual-humility).
 
 This relentless pursuit of truth echoes the Socratic dictum, 'The only true wisdom is in knowing you know nothing,' and the scientific method's core tenet of falsifiability. In an age where AI can generate plausible answers with terrifying efficiency, the discipline of intellectual honesty becomes the bedrock of genuine insight.
 

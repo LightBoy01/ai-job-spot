@@ -12,7 +12,9 @@ tags:
   - Learning
   - Mindset
   - AI
+imageUrl: /images/articles/the-empty-cup-intellectual-humility.svg
 ---
+
 # The Empty Cup: Why Intellectual Humility is Your Most Powerful Tool in the AI Age
 
 ## Introduction

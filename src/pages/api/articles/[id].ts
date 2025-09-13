@@ -83,7 +83,16 @@ export default async function handler(
           console.error('Error during revalidation after article update:', revalError);
         }
 
-        res.status(200).json({ message: 'Article updated successfully' });
+        const updatedDoc = await articleRef.get();
+        const updatedArticleData = updatedDoc.data() as FirestoreArticle;
+
+        const finalArticle = {
+          id: updatedDoc.id,
+          ...updatedArticleData,
+          publishDate: updatedArticleData.publishDate.toDate().toISOString(),
+        };
+
+        res.status(200).json({ message: 'Article updated successfully', article: finalArticle });
       } catch (error) {
         console.error('Error updating document: ', error);
         res.status(500).json({ error: 'Failed to update article' });

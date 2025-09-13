@@ -10,6 +10,7 @@ tags:
   - AI
   - Innovation
   - Critical Thinking
+imageUrl: /images/articles/echoes-in-the-oracle.svg
 ---
 
 Imagine an ancient oracle, a cavernous chamber where any question posed is met with a perfect, instantaneous, and utterly truthful answer. For centuries, supplicants have journeyed to its steps, seeking solutions to their most vexing problems. Yet, history does not remember the oracle for the answers it gave. It remembers the few who, through the sheer quality of their inquiry, received a truth so profound it reshaped their world. The rest received only facts, correct yet sterile, leaving them no wiser than before.

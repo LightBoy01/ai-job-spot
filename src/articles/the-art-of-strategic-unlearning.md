@@ -10,7 +10,9 @@ tags:
   - Adaptability
   - Mindset
   - AI
+imageUrl: /images/articles/the-art-of-strategic-unlearning.svg
 ---
+
 # The Art of Strategic Unlearning: Adapting Your Mindset in the AI Era
 
 ## The Core Concept & Its Modern Relevance

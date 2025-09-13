@@ -1,1 +1,8 @@
-<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 2.5h13v10a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1zM0 1h16v11.5a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 0 12.5zm3.75 4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5M7 4.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m1.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5" fill="#666"/></svg>
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#1A2B4C" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400&display=swap');
+    </style>
+    <text x="50%" y="280" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', serif" font-size="60" font-weight="700" fill="#F5F5F5">The Unvarnished Mirror: A</text><text x="50%" y="350" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', serif" font-size="60" font-weight="700" fill="#F5F5F5">Framework for Intellectual Honesty</text>
+    <text x="50%" y="480" dominant-baseline="middle" text-anchor="middle" font-family="'Lato', sans-serif" font-size="24" font-weight="400" fill="#C8A25C">Mental Models | Decision Making | Career Strategy | Intellectual Honesty</text>
+</svg>

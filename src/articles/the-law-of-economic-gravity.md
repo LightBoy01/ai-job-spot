@@ -13,7 +13,7 @@ tags:
   - Mental Models
   - Future of Work
   - Economics
-imageUrl: /images/articles/economic-gravity.jpg
+imageUrl: /images/articles/the-law-of-economic-gravity.svg
 ---
 It’s a strange feeling, isn’t it? You see a colleague in a seemingly adjacent role get a promotion that launches them into the stratosphere. You read about a new startup that automates a task you spent years mastering. You feel the ground shifting beneath your feet, a sense that the old rules of career progression—climb the ladder, deepen your niche—are becoming less reliable.
 
@@ -51,18 +51,16 @@ You cannot fight gravity, but you can use it. You can build a vessel that allows
 
 ### Step 1: Conduct a Gravitational Audit
 
-Ask readers to map their daily tasks into the three zones. Provide a checklist of questions: "Does this task require synthesis or just summary?", "Could 80% of this be done by an AI right now?", "Is the primary value of this task in execution or in judgment?"
+First, map your daily tasks into the three zones. A gravitational audit requires asking honest questions about your work: Does this task require synthesis or just summary? Could 80% of this be done by an AI right now? Is the primary value of this task in execution or in judgment? This audit will give you a clear, and perhaps uncomfortable, picture of where you currently stand.
 
 ### Step 2: Initiate a Gravitational Shift
 
-*   **Escape the Pull of Zero-G:** Aggressively automate or delegate tasks in the Zero-Gravity zone.
-*   **Build Escape Velocity from Low-G:** Focus on the "why" behind the tasks. Move from *generating the report* to *interpreting the report's strategic implications*.
-*   **Migrate to High-G:** Actively seek out projects that involve ambiguity, synthesis, and high-stakes decision-making.
+With a clear map, you can begin to shift your trajectory. Aggressively automate or delegate tasks in the Zero-Gravity zone. For work in the Low-Gravity zone, build escape velocity by focusing on the "why" behind the tasks; move from *generating the report* to *interpreting the report's strategic implications*. Finally, actively seek out projects that involve ambiguity, synthesis, and high-stakes decision-making to migrate toward the High-Gravity zones.
 
 ### Step 3: Develop Your "Gravity Well"
 
-This is the unique combination of skills that creates its own value. Connect this to previous articles: This is where being a "Polymath," having "Intellectual Humility," and mastering "Deep Work" become your tools for building a high-gravity career.
+A personal "gravity well" is the unique combination of skills and perspectives that creates its own value. This is where cultivating the traits of a "Polymath," practicing "Intellectual Humility," and mastering "Deep Work" become the essential tools for building a high-gravity career. By connecting disparate fields and asking better questions, you create a value proposition that is uniquely your own.
 
 ## Conclusion: The Architect of Your Own Economy
 
-End on a philosophical and empowering note. This isn't about a race against the machine, but about understanding the new physics of the economy and choosing to position ourselves where our uniquely human skills shine brightest. It's about moving from being a cog in the old machine to becoming an architect of the new one.
+This shift is not about a race against the machine, but about understanding the new physics of the economy and choosing to position yourself where your uniquely human skills shine brightest. It's about moving from being a cog in the old machine to becoming an architect of the new one, designing a career that is not just successful, but durable and meaningful in an age of intelligent machines.

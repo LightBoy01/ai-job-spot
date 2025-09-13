@@ -8,8 +8,6 @@ import { Article } from '@/lib/types';
 import { ARTICLE_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
-import { doc, getDoc } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
 
 export interface SerializedArticle extends Omit<Article, 'publishDate'> {
   publishDate: string;
@@ -50,60 +48,91 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
   });
   const loader = useRef(null);
   const isFetching = useRef(false); // Lock to prevent multiple fetches
+  const [searchQuery, setSearchQuery] = useState('');
+  const isSearchActive = useCallback(() => searchQuery.trim() !== '', [searchQuery]);
 
-  const fetchMoreArticles = useCallback(async () => {
-    if (isFetching.current || !hasMore) return;
+  // Unified data fetching function
+  const fetchArticles = useCallback(async (query: string, startAfterId: string | null) => {
+    if (isFetching.current) return;
 
     isFetching.current = true;
     setLoading(true);
+
+    const isNewSearch = startAfterId === null;
+    const searchParams = new URLSearchParams({
+      q: query,
+      startAfter: startAfterId || '',
+      limit: String(ARTICLE_FETCH_LIMIT)
+    });
+
     try {
-      let startAfterSnapshot = undefined;
-      if (lastDocId) {
-        const docRef = doc(db, 'articles', lastDocId);
-        startAfterSnapshot = await getDoc(docRef);
-        if (!startAfterSnapshot.exists()) {
-          console.warn(`Last document with ID ${lastDocId} does not exist. Stopping pagination.`);
-          setHasMore(false);
-          setLoading(false);
-          isFetching.current = false; // Release lock
-          return;
-        }
+      const response = await fetch(`/api/articles/search?${searchParams.toString()}`);
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to fetch articles');
       }
 
-      const { articles: newFetchedArticles, lastVisible: newLastVisible } = await getArticles(ARTICLE_FETCH_LIMIT, startAfterSnapshot);
+      const { articles: newFetchedArticles, lastVisible: newLastVisible } = await response.json();
 
       if (newFetchedArticles.length === 0) {
         setHasMore(false);
       } else {
-        setDisplayedArticles(prevArticles => {
-          // Filter out any duplicates that might occur if an article was added/updated during revalidation
-          const uniqueNewArticles = newFetchedArticles.map(article => ({
-            ...article,
-            publishDate: article.publishDate ? article.publishDate.toISOString() : '', // Convert Date to ISO string, handle null
-          })).filter((newArticle: SerializedArticleSummary) =>
-            !prevArticles.some(existingArticle => existingArticle.id === newArticle.id)
-          );
-          return [...prevArticles, ...uniqueNewArticles];
-        });
-        setLastDocId(newLastVisible ? newLastVisible.id : null);
+        setHasMore(true);
       }
+      
+      setDisplayedArticles(prevArticles => {
+        const existingIds = new Set(prevArticles.map(a => a.id));
+        const uniqueNewArticles = newFetchedArticles.filter((a: SerializedArticleSummary) => !existingIds.has(a.id));
+        const updatedArticles = isNewSearch ? newFetchedArticles : [...prevArticles, ...uniqueNewArticles];
+        return updatedArticles;
+      });
+      setLastDocId(newLastVisible);
+
     } catch (error) {
-      console.error('Error fetching more articles:', error);
-      setHasMore(false); // Stop trying to load more on error
+      console.error('Error fetching articles:', error);
+      setHasMore(false); // Stop trying on error
     } finally {
       setLoading(false);
       isFetching.current = false; // Release the lock
     }
-  }, [hasMore, lastDocId]); // Dependencies needed for the logic inside
+  }, []); // Removed dependencies to create a stable function
+
+  // Effect for debouncing search input
+  useEffect(() => {
+    const delayDebounceFn = setTimeout(() => {
+      if (searchQuery.trim() === '') {
+        // If search is cleared, reset to initial static props
+        setDisplayedArticles(initialArticles);
+        setLastDocId(initialLastDocId);
+        setHasMore(true);
+      } else {
+        // Otherwise, perform a new search
+        fetchArticles(searchQuery, null);
+      }
+    }, 500);
+
+    return () => clearTimeout(delayDebounceFn);
+  }, [searchQuery, initialArticles, initialLastDocId, fetchArticles]);
+
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+  };
+
+  // Infinite scroll handler
+  const handleObserver = useCallback((entities: IntersectionObserverEntry[]) => {
+    const target = entities[0];
+    if (target.isIntersecting && hasMore && !isFetching.current) { // Check ref lock
+      if (isSearchActive()) {
+        fetchArticles(searchQuery, lastDocId);
+      } else {
+        // Paginate the general list (non-search)
+        fetchArticles('', lastDocId);
+      }
+    }
+  }, [hasMore, fetchArticles, searchQuery, lastDocId, isSearchActive]);
 
   useEffect(() => {
-    const handleObserver = (entities: IntersectionObserverEntry[]) => {
-      const target = entities[0];
-      if (target.isIntersecting && !isFetching.current) { // Check ref lock
-        fetchMoreArticles();
-      }
-    };
-
     const observer = new IntersectionObserver(handleObserver, {
       root: null,
       rootMargin: '20px',
@@ -120,7 +149,7 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
         observer.unobserve(currentLoader);
       }
     };
-  }, [fetchMoreArticles]);
+  }, [handleObserver]);
 
   useEffect(() => {
     const handleRouteChangeStart = (url: string) => {
@@ -179,6 +208,14 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
       <div className="container mx-auto px-4 py-12 font-serif">
         <h1 className="page-title mb-6">Insights & Musings</h1>
         <p className="text-xl text-neutral-600 mb-12 text-center max-w-2xl mx-auto">Delve into our curated collection of articles and guides on the evolving landscape of AI careers and technology.</p>
+        <div className="mb-12 flex justify-center">
+          <input
+            type="text"
+            placeholder="Search articles..."
+            className="w-full max-w-lg p-4 border border-neutral-300 rounded-lg"
+            onChange={handleSearchChange}
+          />
+        </div>
         {displayedArticles.length === 0 && !loading ? (
           <p className="text-center text-neutral-600 text-lg">No articles available at the moment. Please check back later for profound insights!</p>
         ) : (

@@ -1,4 +1,4 @@
-import React from 'react'; // Added import
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { SerializedJobPosting } from '@/lib/types';
 import { EXPIRES_SOON_THRESHOLD_DAYS } from '@/lib/constants';
@@ -23,17 +23,32 @@ interface JobCardProps {
  */
 const JobCard = React.memo(({ job }: JobCardProps) => {
   const { id, title, company, location, salaryRange, expirationDate, isNew } = job;
+  const [isClient, setIsClient] = useState(false);
 
-  const now = new Date();
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
-  let daysUntilExpiration: number | null = null;
-  if (expirationDate) {
+  const getExpirationText = () => {
+    if (!expirationDate) return 'Expired';
+
+    const now = new Date();
     const expDate = new Date(expirationDate);
     const diffTime = expDate.getTime() - now.getTime();
-    daysUntilExpiration = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-  }
+    const daysUntilExpiration = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
-  const showExpiresSoon = daysUntilExpiration !== null && daysUntilExpiration > 0 && daysUntilExpiration <= EXPIRES_SOON_THRESHOLD_DAYS;
+    if (daysUntilExpiration <= 0) {
+      return 'Expired';
+    }
+
+    const showExpiresSoon = daysUntilExpiration <= EXPIRES_SOON_THRESHOLD_DAYS;
+
+    if (showExpiresSoon) {
+      return `Expires in ${daysUntilExpiration} day${daysUntilExpiration !== 1 ? 's' : ''}`;
+    }
+
+    return `Expires on ${formatDate(expirationDate)}`;
+  };
 
   return (
     <Link href={`/jobs/${id}`} passHref className="block bg-neutral-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200 hover:border-primary-dark relative overflow-hidden">
@@ -63,11 +78,7 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <span className="text-sm">
-              {daysUntilExpiration !== null && daysUntilExpiration > 0
-                ? showExpiresSoon
-                  ? `Expires in ${daysUntilExpiration} day${daysUntilExpiration !== 1 ? 's' : ''}`
-                  : `Expires on ${formatDate(expirationDate)}`
-                : 'Expired'}
+              {isClient ? getExpirationText() : `Expires on ${formatDate(expirationDate)}`}
             </span>
           </div>
         )}

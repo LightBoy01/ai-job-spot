@@ -13,7 +13,9 @@ tags:
   - Career Strategy
   - Mental Models
   - Job Roles
+imageUrl: /images/articles/the-emerging-trinity-of-ai-work.svg
 ---
+
 The job market is fracturing. New titles appear weekly—Prompt Engineer, AI Ethicist, Context Engineer, AI Trainer—each a flare in the fog of technological disruption. For the ambitious professional, this landscape is both exhilarating and terrifying. Chasing the hot job title of the moment feels like a race without a finish line, a strategy built on sand.
 
 But what if we are looking at this all wrong? What if, beneath the chaotic surface of new titles, a stable, underlying structure is forming? The reality is that the specific job titles are less important than the fundamental functions they represent. As AI becomes the new engine of the global economy, the division of labor between humans and machines is reorganizing itself around three core archetypes of work. Understanding this trinity is the key to building a durable, valuable career in the age of AI.
@@ -24,7 +26,6 @@ Stop chasing titles. Start aligning with a function. This is the new strategic i
 Legend tells of three stonecutters working on a medieval cathedral. When a traveler asked what they were doing, the first replied, "I am cutting this stone." The second said, "I am earning a living for my family." The third looked up at the rising structure and said, "I am building a cathedral to the glory of God."
 
 All three were performing the same task, but they were operating within vastly different frameworks of meaning. The first saw only the task, the second saw the transaction, but the third understood his role within a grand, overarching system. In the age of AI, we are all, in a sense, becoming cathedral builders. The AI is the master stonecutter—it can execute tasks with flawless precision. But the uniquely human roles are those that require a systemic understanding: the architect who designs the blueprint (The Trainer), the storyteller who explains its purpose to the townspeople (The Explainer), and the caretaker who ensures its foundations remain sound for generations (The Sustainer). Your career's resilience depends on understanding which part of the cathedral you are building.
-
 
 ## The Hybrid Reality: Beyond the Pure Archetypes
 It is tempting to view these three archetypes as rigid, separate career paths. The reality is more fluid and interconnected. While some roles may fall squarely into one category, the most valuable and senior professionals will often embody a hybrid of these functions. They operate at the intersections, creating value that is difficult to replicate.

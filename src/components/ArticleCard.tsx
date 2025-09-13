@@ -9,6 +9,8 @@ interface ArticleCardProps {
 }
 
 const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
+  console.log('Article Card Props:', article);
+
   const { title, author, publishDate, slug, issueNo, volumeNo, imageUrl } = article;
 
   return (

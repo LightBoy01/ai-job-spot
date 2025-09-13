@@ -66,14 +66,14 @@ ITEM_PIPELINES = {
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
-#AUTOTHROTTLE_ENABLED = True
+AUTOTHROTTLE_ENABLED = True
 # The initial download delay
-#AUTOTHROTTLE_START_DELAY = 5
+AUTOTHROTTLE_START_DELAY = 5
 # The maximum download delay to be set in case of high latencies
-#AUTOTHROTTLE_MAX_DELAY = 60
+AUTOTHROTTLE_MAX_DELAY = 60
 # The average number of requests Scrapy should be sending in parallel to
 # each remote server
-#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
+AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # Enable showing throttling stats for every response received:
 #AUTOTHROTTLE_DEBUG = False
 
@@ -91,7 +91,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 # Set a limit for the number of items to scrape (0 for unlimited)
-CLOSESPIDER_ITEMCOUNT = 3
+CLOSESPIDER_ITEMCOUNT = 7
 
 # Playwright settings
 DOWNLOAD_HANDLERS = {
@@ -129,7 +129,7 @@ import json
 import os
 
 # Load Foorilla-specific configuration
-_config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'foorilla_config.json')
+_config_path = os.path.join(os.path.dirname(__file__), 'config', 'foorilla_config.json')
 with open(_config_path, 'r') as f:
     FOORILLA_SPIDER_CONFIG = json.load(f)
 

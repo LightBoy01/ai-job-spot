@@ -7,8 +7,10 @@ author: The AI Strategist
 publishDate: 2025-07-11T12:00:00.000Z
 issueNo: 27
 volumeNo: 1
+imageUrl: /images/articles/unseen-foundations-job-industry.svg
 ---
-The job market is fracturing. New titles appear weekly—Prompt Engineer, AI Ethicist, Context Engineer, AI Trainer—each a flare in the fog of technological disruption. For the ambitious professional, this landscape is both exhilarating and terrifying. Chasing the hot job title of the moment feels like a race without a finish line, a strategy built on sand. For a deeper dive into career resilience, explore the concept of [Internal Link: The Anti-Portfolio Career](the-anti-portfolio-career).
+
+The job market is fracturing. New titles appear weekly—Prompt Engineer, AI Ethicist, Context Engineer, AI Trainer—each a flare in the fog of technological disruption. For the ambitious professional, this landscape is both exhilarating and terrifying. Chasing the hot job title of the moment feels like a race without a finish line, a strategy built on sand. For a deeper dive into career resilience, explore the concept of [The Anti-Portfolio Career](/articles/the-anti-portfolio-career).
 
 But what if we are looking at this all wrong? What if, beneath the chaotic surface of new titles, a stable, underlying structure is forming? The reality is that the specific job titles are less important than the fundamental functions they represent. As AI becomes the new engine of the global economy, the division of labor between humans and machines is reorganizing itself around three core archetypes of work. Understanding this trinity is the key to building a durable, valuable career in the age of AI.
 

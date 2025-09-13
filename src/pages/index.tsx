@@ -274,6 +274,8 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
       const posted = new Date(job.postedDate);
       if ((now.getTime() - posted.getTime()) > NEW_JOB_THRESHOLD_MS) {
         job.isNew = false;
+      } else {
+        job.isNew = true;
       }
       // If expirationDate is not set or is null, assume it's still active
       if (!job.expirationDate) {

@@ -101,7 +101,10 @@ const EditArticlePage: React.FC<EditArticleProps> = ({ article }) => {
         throw new Error(errorData.error || 'Failed to update article');
       }
 
-      toast.success('Article updated successfully!', { id: toastId });
+      const result = await response.json();
+      const updatedArticle = result.article as SerializedArticle;
+
+      toast.success(`Article "${updatedArticle.title}" updated successfully!`, { id: toastId });
       router.push('/admin/articles');
     } catch (err) {
       console.error('Update error:', err);
