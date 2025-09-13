@@ -16,16 +16,16 @@ class FoorillaSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(FoorillaSpider, self).__init__(*args, **kwargs)
-        # Retrieve settings directly from self.settings
-        settings = kwargs.get('crawler').settings
-        self.start_urls = [settings.get('START_URL', 'https://foorilla.com/jobs?q=ai')]
-        self.job_list_selector = settings.get('JOB_LIST_SELECTOR', 'li.list-group-item')
-        self.job_link_selector = settings.get('JOB_LINK_SELECTOR', 'a.stretched-link')
-        self.ai_niches = json.loads(settings.get('AI_NICHES', '[]')) # Deserialize JSON string
-        self.job_detail_selectors = json.loads(settings.get('JOB_DETAIL_SELECTORS', '{}')) # Deserialize JSON string
-        self.max_pages = int(settings.get('CLOSESPIDER_ITEMCOUNT', 5)) # Use CLOSESPIDER_ITEMCOUNT for max_pages
+        # Scrapy automatically populates self.settings when the spider is instantiated by the Scrapy engine.
+        # We can directly access self.settings here.
+        self.start_urls = [self.settings.get('START_URL', 'https://foorilla.com/jobs?q=ai')]
+        self.job_list_selector = self.settings.get('JOB_LIST_SELECTOR', 'li.list-group-item')
+        self.job_link_selector = self.settings.get('JOB_LINK_SELECTOR', 'a.stretched-link')
+        self.ai_niches = json.loads(self.settings.get('AI_NICHES', '[]')) # Deserialize JSON string
+        self.job_detail_selectors = json.loads(self.settings.get('JOB_DETAIL_SELECTORS', '{}')) # Deserialize JSON string
+        self.max_pages = int(self.settings.get('CLOSESPIDER_ITEMCOUNT', 5)) # Use CLOSESPIDER_ITEMCOUNT for max_pages
 
-        self.debug_dir = settings.get('DEBUG_OUTPUT_DIR', 'debug_output')
+        self.debug_dir = self.settings.get('DEBUG_OUTPUT_DIR', 'debug_output')
         os.makedirs(self.debug_dir, exist_ok=True)
         self.page_count = 0
         logging.info(f"Foorilla Spider initialized. Max pages to scrape: {self.max_pages}")
