@@ -49,7 +49,7 @@ jobs:
           # This is crucial for ensuring that Python's module resolution
           # works correctly within the GitHub Actions environment, especially
           # for finding the 'src' package.
-          pip install -e src/pipeline
+          pip install -e .
           
           # Install Playwright browsers
           python -m playwright install --with-deps
