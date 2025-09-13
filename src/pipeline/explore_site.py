@@ -42,6 +42,48 @@ async def analyze_and_save(url: str, output_path: str):
 
     # --- Analysis Part ---
     soup = BeautifulSoup(html_content, 'lxml')
+
+    # --- Intelligent Description Container Analysis ---
+    def find_description_container(soup_obj):
+        keywords = ["description", "content", "body", "main", "details", "job-details", "job-description"]
+        
+        # Try to find elements with relevant IDs or classes
+        for tag_name in ["div", "article", "section"]:
+            for keyword in keywords:
+                # Search by ID
+                candidate = soup_obj.find(tag_name, id=lambda x: x and keyword in x.lower())
+                if candidate and len(candidate.get_text(strip=True).split()) > 50: # Check for substantial text
+                    return f"{tag_name}#{candidate['id']}"
+                
+                # Search by class
+                candidate = soup_obj.find(tag_name, class_=lambda x: x and keyword in ' '.join(x).lower())
+                if candidate and len(candidate.get_text(strip=True).split()) > 50:
+                    return f"{tag_name}.{{' '.join(candidate['class'])} "
+
+        # Fallback: find the largest text block within common containers
+        best_candidate = None
+        max_text_len = 0
+        for tag_name in ["div", "article", "section"]:
+            for element in soup_obj.find_all(tag_name):
+                text_len = len(element.get_text(strip=True).split())
+                if text_len > max_text_len and text_len > 100: # Must be substantial
+                    best_candidate = element
+                    max_text_len = text_len
+        
+        if best_candidate:
+            # Try to get a unique selector for the best candidate
+            if best_candidate.get('id'):
+                return f"{best_candidate.name}#{best_candidate['id']}"
+            elif best_candidate.get('class'):
+                return f"{best_candidate.name}.{{' '.join(best_candidate['class'])}"
+            else:
+                # Fallback to a more general path if no id/class
+                return f"{best_candidate.name}:nth-of-type({list(best_candidate.parent.children).index(best_candidate) + 1})"
+
+        return "[id^=mc_]" # Default fallback if nothing better is found
+
+    suggested_description_selector = find_description_container(soup)
+
     suggestions = {
         "start_url": url,
         "job_list_selector": "li.list-group-item", # Known from previous analysis
@@ -51,7 +93,7 @@ async def analyze_and_save(url: str, output_path: str):
             "title": "h1",
             "company": "strong.company-name",
             "location": ".hstack.justify-content-between > div:first-child",
-            "description_container": "[id^=mc_]",
+            "description_container": suggested_description_selector,
             "apply_button_selector": "a.btn:has-text('Apply')"
         }
     }
