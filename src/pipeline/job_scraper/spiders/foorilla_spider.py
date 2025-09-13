@@ -86,7 +86,7 @@ class FoorillaSpider(scrapy.Spider):
             return
 
         # As per IMPROVEMENTS.md, pagination is HTMX-based on the last 'li'
-        pagination_selector = f'{self.config.get("job_list_selector")} li[hx-get]:last-child'
+        pagination_selector = f'{self.job_list_selector} li[hx-get]:last-child'
         next_page_element = await page.query_selector(pagination_selector)
 
         if next_page_element:
