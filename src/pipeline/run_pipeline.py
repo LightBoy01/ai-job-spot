@@ -17,12 +17,15 @@ def main():
         with open("pipeline_config.json", 'r', encoding='utf-8') as f:
             config = json.load(f)
         scrapers_enabled = config.get("scrapers_enabled", [])
+        print(f"DEBUG: Loaded config: {config}")
+        print(f"DEBUG: Scrapers enabled: {scrapers_enabled}")
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"Error loading or parsing pipeline_config.json: {e}", file=sys.stderr)
         sys.exit(1)
 
     # Filter out non-scrapy runners from the enabled scrapers list.
     spiders_to_run = [s["name"] for s in scrapers_enabled if s["name"] != 'rss_scraper']
+    print(f"DEBUG: Spiders to run: {spiders_to_run}")
 
     if not spiders_to_run:
         print("No enabled Scrapy spiders found in configuration. Exiting.", file=sys.stderr)
