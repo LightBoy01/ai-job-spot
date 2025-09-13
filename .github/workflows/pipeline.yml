@@ -61,6 +61,7 @@ jobs:
         run: python src/pipeline/run_pipeline.py
 
       - name: 5. Configure Git User for PR
+        working-directory: ./ai-job-spot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
