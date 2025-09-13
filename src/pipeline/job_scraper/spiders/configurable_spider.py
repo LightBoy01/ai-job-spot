@@ -190,6 +190,21 @@ class ConfigurableSpider(scrapy.Spider):
             posted_date = self._extract_posted_date(plain_text)
             salary_range = self._extract_salary(plain_text)
 
+            bracketed_terms = re.findall(r'\[(.*?)\]', plain_text)
+        
+            jobLevel = None
+            employeeRole = None
+
+            job_level_keywords = ['entry', 'mid-level', 'senior', 'lead', 'principal', 'intermediate']
+            role_keywords = ['full time', 'part time', 'contract', 'internship']
+
+            for term in bracketed_terms:
+                term_lower = term.lower()
+                if any(keyword in term_lower for keyword in job_level_keywords):
+                    jobLevel = term
+                if any(keyword in term_lower for keyword in role_keywords):
+                    employeeRole = term
+
             job_item = JobItem(
                 title=title,
                 company=company,
@@ -199,6 +214,8 @@ class ConfigurableSpider(scrapy.Spider):
                 source=self.name,
                 postedDate=posted_date,
                 salaryRange=salary_range,
+                jobLevel=jobLevel,
+                employeeRole=employeeRole,
             )
             self.log(f"Successfully scraped and validated item: {title} at {company}", level=logging.INFO)
             yield job_item
