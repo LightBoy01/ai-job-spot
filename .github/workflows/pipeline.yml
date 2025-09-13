@@ -96,6 +96,12 @@ jobs:
           cat src/pipeline/pipeline_run.log || echo "Log file not found."
           echo "--- End of Pipeline Log ---"
 
+      - name: 7.1. List files in output directory
+        if: always()
+        run: |
+          echo "--- Listing files in data/pending_review ---"
+          ls -R data/pending_review
+
       - name: 8. Upload pipeline artifacts
         if: always()
         uses: actions/upload-artifact@v4
