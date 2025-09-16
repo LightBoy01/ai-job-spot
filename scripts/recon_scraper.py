@@ -14,6 +14,7 @@ async def recon_scrape(url: str, output_dir: str, num_jobs: int = 5):
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
+        await page.set_viewport_size({"width": 1920, "height": 1080})
         
         try:
             print(f"Navigating to job list page: {url}")
