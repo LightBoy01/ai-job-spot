@@ -43,7 +43,7 @@ async def recon_scrape(url: str, output_dir: str, num_jobs: int = 5):
                 try:
                     print(f"({i+1}/{len(urls_to_visit)}) Navigating to job detail page: {job_url}")
                     await page.goto(job_url, wait_until="networkidle")
-                    detail_container_selector = "[id^=mc_]"
+                    detail_container_selector = "div[id=mc_2]" # Be specific to avoid the sidebar
                     await page.wait_for_selector(f"{detail_container_selector} h1", timeout=15000)
                     await page.wait_for_timeout(2000) # Extra wait for any final rendering
                     
