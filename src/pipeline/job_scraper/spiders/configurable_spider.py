@@ -3,13 +3,13 @@ from scrapy.http import Response
 from scrapy_playwright.page import PageMethod
 from urllib.parse import urljoin
 from job_scraper.items import JobItem
-from pydantic import ValidationError
 import logging
 import os
 import re
 import json
 from datetime import datetime
 import dateparser
+import bs4
 
 class ConfigurableSpider(scrapy.Spider):
     name = "configurable"
@@ -50,7 +50,7 @@ class ConfigurableSpider(scrapy.Spider):
         logging.info(f"ConfigurableSpider initialized. Max pages to scrape: {getattr(self, 'max_pages', 'N/A')}")
 
     def start_requests(self):
-        self.log(f"Starting request to {self.start_urls[0]}, using Playwright.", level=logging.INFO)
+        self.log(f"Starting request to {self.start_urls[0]}, using Playwright for the list page.", level=logging.INFO)
         yield scrapy.Request(
             url=self.start_urls[0],
             meta=dict(
@@ -59,7 +59,7 @@ class ConfigurableSpider(scrapy.Spider):
                 playwright_page_methods=[
                     PageMethod("wait_for_selector", self.job_list_selector, state="visible", timeout=20000),
                 ],
-                errback=self.errback,
+                errback=self.errback_playwright,
                 page_number=1,
             ),
             callback=self.parse_job_list
@@ -85,18 +85,13 @@ class ConfigurableSpider(scrapy.Spider):
             if url_fragment and self.is_relevant_job(title):
                 job_count += 1
                 full_url = urljoin(response.url, url_fragment)
-                self.log(f"Yielding request for relevant job: '{title}' at {full_url}", level=logging.DEBUG)
+                self.log(f"Yielding direct request for relevant job: '{title}' at {full_url}", level=logging.DEBUG)
                 
                 yield scrapy.Request(
                     url=full_url,
                     callback=self.parse_job_detail,
+                    headers={'HX-Request': 'true'}, # Use direct fetch with HTMX header
                     meta={
-                        "playwright": True,
-                        "playwright_include_page": True,
-                        "playwright_page_methods": [
-                            PageMethod("wait_for_selector", self.job_detail_selectors.get("title", "h1"), timeout=20000)
-                        ],
-                        "errback": self.errback,
                         'job_title': title, 
                         'application_link': full_url
                     }
@@ -113,8 +108,6 @@ class ConfigurableSpider(scrapy.Spider):
         if pagination_type == 'htmx':
             async for r in self.handle_htmx_pagination(page, response, page_number):
                 yield r
-        elif pagination_type == 'next_button':
-            pass
         else:
             self.log("No pagination configured or type not supported. Stopping.", level=logging.INFO)
             await page.close()
@@ -141,7 +134,7 @@ class ConfigurableSpider(scrapy.Spider):
                         playwright_page_methods=[
                             PageMethod("wait_for_selector", self.job_list_selector, state="visible", timeout=20000),
                         ],
-                        errback=self.errback,
+                        errback=self.errback_playwright,
                         page_number=page_number + 1,
                     ),
                     callback=self.parse_job_list,
@@ -153,51 +146,33 @@ class ConfigurableSpider(scrapy.Spider):
             self.log("No more HTMX pagination links found.", level=logging.INFO)
             await page.close()
 
-    async def parse_job_detail(self, response: Response):
-        self.log(f"Scraping job details from: {response.url}", level=logging.INFO)
-
-        page = response.meta.get("playwright_page")
-        if not page:
-            self.log("Playwright page not found in meta for job detail. Cannot proceed.", level=logging.ERROR)
-            return
-
-        try:
-            title = response.meta.get('job_title')
-            application_link = response.meta.get('application_link')
-            selectors = self.job_detail_selectors
-
-            company_element = await page.query_selector(selectors.get("company", "body"))
-            company = await company_element.inner_text() if company_element else 'N/A'
-            company = company.strip()
-
-            location_element = await page.query_selector(selectors.get("location", "body"))
-            location = await location_element.inner_text() if location_element else 'N/A'
-            location = location.strip()
-
-            description_element = await page.query_selector(selectors.get("description_container"))
-            if description_element:
-                description_html = await description_element.inner_html()
-            else:
-                description_html = '<p>Description not found.</p>'
-
-            if description_html == '<p>Description not found.</p>':
-                self.log(f'Could not find description for job: "{title}". Selector may be outdated.', level=logging.WARNING)
-                await self._save_debug_page(page, f"failed_description_{self.name}.html")
-
-            plain_text_element = await page.query_selector(selectors.get("description_container", "body"))
-            plain_text = await plain_text_element.inner_text() if plain_text_element else ''
-            
-            posted_date = self._extract_posted_date(plain_text)
-            salary_range = self._extract_salary(plain_text)
-
-            bracketed_terms = re.findall(r'\[(.*?)\]', plain_text)
+    def parse_job_detail(self, response: Response):
+        self.log(f"Parsing job detail from direct HTML partial: {response.url}", level=logging.INFO)
         
-            jobLevel = None
-            employeeRole = None
+        soup = bs4.BeautifulSoup(response.text, 'lxml')
+        selectors = self.job_detail_selectors
 
+        def get_text(element):
+            return element.get_text(strip=True) if element else None
+
+        title = get_text(soup.select_one(selectors.get('title')))
+        company = get_text(soup.select_one(selectors.get('company')))
+        location = get_text(soup.select_one(selectors.get('location')))
+        salary = get_text(soup.select_one(selectors.get('salary')))
+        skills_text = get_text(soup.select_one(selectors.get('skills')))
+
+        tasks = [get_text(li) for li in soup.select(selectors.get('tasks'))]
+        perks = [get_text(li) for li in soup.select(selectors.get('perks'))]
+
+        # Extract metadata from its container
+        jobLevel = None
+        employeeRole = None
+        metadata_container = soup.select_one(selectors.get('metadata_container'))
+        if metadata_container:
+            metadata_text = metadata_container.get_text(separator=' ')
+            bracketed_terms = re.findall(r'\[(.*?)\]', metadata_text)
             job_level_keywords = ['entry', 'mid-level', 'senior', 'lead', 'principal', 'intermediate']
             role_keywords = ['full time', 'part time', 'contract', 'internship']
-
             for term in bracketed_terms:
                 term_lower = term.lower()
                 if any(keyword in term_lower for keyword in job_level_keywords):
@@ -205,76 +180,40 @@ class ConfigurableSpider(scrapy.Spider):
                 if any(keyword in term_lower for keyword in role_keywords):
                     employeeRole = term
 
-            job_item = JobItem(
-                title=title,
-                company=company,
-                location=location,
-                description=description_html,
-                applicationLink=application_link,
-                source=self.name,
-                postedDate=posted_date,
-                salaryRange=salary_range,
-                jobLevel=jobLevel,
-                employeeRole=employeeRole,
-            )
-            self.log(f"Successfully scraped and validated item: {title} at {company}", level=logging.INFO)
-            yield job_item
-        except Exception as e:
-            self.log(f'Data validation failed for job: "{title}". Reason: {e}', level=logging.ERROR)
-            await self._save_debug_page(page, f"failed_validation_{self.name}.html")
-        finally:
-            if page and not page.is_closed():
-                await page.close()
+        # Create a simple markdown description from the structured data
+        description = f"""
+### Tasks
+{ '\n'.join([f'- {task}' for task in tasks]) if tasks else 'N/A' }
+
+### Perks & Benefits
+{ '\n'.join([f'- {perk}' for perk in perks]) if perks else 'N/A' }
+
+### Skills
+{ skills_text if skills_text else 'N/A' }
+"""
+
+        job_item = JobItem(
+            title=title,
+            company=company,
+            location=location,
+            description=description,
+            applicationLink=response.meta.get('application_link'),
+            source=self.name,
+            postedDate=datetime.now(), # Placeholder, real date parsing can be added back if needed
+            salaryRange=salary,
+            jobLevel=jobLevel,
+            employeeRole=employeeRole,
+            tags=re.findall(r'\[(.*?)\]', skills_text or '') # Simple tags from skills
+        )
+        self.log(f"Successfully parsed and structured item: {title} at {company}", level=logging.INFO)
+        yield job_item
 
     def is_relevant_job(self, title: str) -> bool:
         title_lower = title.lower()
         return any(n.lower() in title_lower for n in self.ai_niches)
 
-    def _extract_posted_date(self, text: str) -> datetime | None:
-        try:
-            match = re.search(r'(posted|date posted):?\s*(\d+\s+\w+\s+ago|on\s+.*)', text, re.IGNORECASE)
-            if match:
-                date_str = match.group(2)
-                parsed_date = dateparser.parse(date_str)
-                if parsed_date:
-                    return parsed_date
-            return None
-        except Exception:
-            return None
-
-    def _extract_salary(self, text: str) -> str | None:
-        try:
-            salary_patterns = [
-                r'(\$|£|€|¥)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:-|to)?\s*(\$|£|€|¥)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:per year|p\.a\.|annually)?',
-                r'(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:-|to)?\s*(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?k?)\s*(?:USD|EUR|GBP|JPY)\s*(?:per year|p\.a\.|annually)?',
-            ]
-            for pattern in salary_patterns:
-                match = re.search(pattern, text, re.IGNORECASE)
-                if match:
-                    return match.group(0).strip()
-            return None
-        except Exception:
-            return None
-
-    async def _save_debug_page(self, page, filename: str):
-        filepath = os.path.join(self.debug_dir, filename)
-        try:
-            content = await page.content()
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(content)
-            self.log(f"Saved debug file to: {filepath}", level=logging.DEBUG)
-        except Exception as e:
-            self.log(f"Failed to save debug file: {e}", level=logging.ERROR)
-
-    async def errback(self, failure):
+    async def errback_playwright(self, failure):
         self.log(f"Playwright request failed: {failure.value}", level=logging.ERROR)
         page = failure.request.meta.get("playwright_page")
         if page and not page.is_closed():
-            try:
-                html_content = await page.content()
-                filepath = os.path.join(self.debug_dir, f"failed_request_{self.name}.html")
-                with open(filepath, 'w', encoding='utf-8') as f:
-                    f.write(html_content)
-                self.log(f"Saved failed page HTML to: {filepath}", level=logging.DEBUG)
-            finally:
-                await page.close()
+            await page.close()

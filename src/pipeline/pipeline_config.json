@@ -11,10 +11,13 @@
         "ai_niches": ["AI", "Machine Learning", "Data Scientist"],
         "job_detail_selectors": {
           "title": "h1",
-          "company": "strong.company-name",
-          "location": ".hstack.justify-content-between > div:first-child",
-          "description_container": "[id^=mc_]",
-          "apply_button_selector": "a.btn:has-text('Apply')"
+          "company": "div.hstack > div > strong",
+          "location": "div.hstack > div:first-child",
+          "metadata_container": "div.text-body-secondary.pe-1",
+          "salary": "span.text-bg-secondary",
+          "tasks": "div.px-1.border-bottom.pb-2 > ul:nth-of-type(1) > li",
+          "perks": "div.px-1.border-bottom.pb-2 > ul:nth-of-type(2) > li",
+          "skills": "div.text-primary-emphasis.mb-2"
         },
         "pagination": {
           "type": "htmx",

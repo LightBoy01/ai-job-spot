@@ -64,44 +64,32 @@ class MarkdownWriterPipeline:
         )
 
     def process_item(self, item, spider):
-        company_slug = re.sub(r'[^a-z0-9]+', '-', (item.company or 'nocompany').lower()).strip('-')
-        title_slug = re.sub(r'[^a-z0-9]+', '-', (item.title or 'notitle').lower()).strip('-')[:50]
+        adapter = ItemAdapter(item)
+        company_slug = re.sub(r'[^a-z0-9]+', '-', (adapter.get('company') or 'nocompany').lower()).strip('-')
+        title_slug = re.sub(r'[^a-z0-9]+', '-', (adapter.get('title') or 'notitle').lower()).strip('-')[:50]
         timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
         filename = f"job-scraped-{company_slug}-{title_slug}-{timestamp}.md"
         filepath = os.path.join(self.output_dir, filename)
 
-        job_id = f"job-scraped-{company_slug}-{title_slug}"
+        job_id = f"job-scraped-{company_slug}-{title_slug}-{timestamp}"
 
         frontmatter = {
             'id': job_id,
-            'title': item.title or None,
-            'company': item.company or None,
-            'location': item.location or None,
-            'applicationLink': str(item.applicationLink),
-            'postedDate': item.postedDate.isoformat() + 'Z' if item.postedDate else datetime.now().isoformat() + 'Z',
-            'expirationDate': item.expirationDate.isoformat() + 'Z' if item.expirationDate else None,
-            'tags': item.tags or [],
+            'title': adapter.get('title'),
+            'company': adapter.get('company'),
+            'location': adapter.get('location'),
+            'applicationLink': adapter.get('applicationLink'),
+            'postedDate': adapter.get('postedDate').isoformat() + 'Z' if adapter.get('postedDate') else datetime.now().isoformat() + 'Z',
+            'expirationDate': None, # Can be set manually
+            'tags': adapter.get('tags') or [],
             'status': 'pending_review',
-            'jobLevel': item.jobLevel or None,
-            'employeeRole': item.employeeRole or None,
-            'salaryRange': item.salaryRange or None,
-            'source': item.source or None,
+            'jobLevel': adapter.get('jobLevel'),
+            'employeeRole': adapter.get('employeeRole'),
+            'salaryRange': adapter.get('salaryRange'),
+            'source': adapter.get('source'),
         }
 
-        # Sanitize the description HTML before writing
-        description_html = item.description or '<p>No description provided.</p>'
-        # Use a stricter sanitization profile to prevent XSS
-        sanitized_description = nh3.clean(
-            description_html,
-            tags={'p', 'br', 'b', 'strong', 'i', 'em', 'ul', 'ol', 'li', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'a'},
-            attributes={
-                'a': {'href', 'rel'},  # Allow href and rel on links
-                '*': {}  # Disallow all attributes on all other tags
-            },
-            strip_comments=True,
-            link_rel='noopener noreferrer'  # Add rel attribute to all links
-        )
-        content_body = sanitized_description
+        content_body = adapter.get('description') or 'No description scraped.'
         
         frontmatter_yaml = yaml.dump(frontmatter, sort_keys=False, default_flow_style=False, allow_unicode=True)
         full_content = f"---\n{frontmatter_yaml}---\n\n{content_body}"
