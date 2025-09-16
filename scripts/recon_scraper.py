@@ -30,6 +30,9 @@ async def recon_scrape(url: str, output_dir: str, num_jobs: int = 5):
             urls_to_visit = []
             for link in job_links:
                 href = await link.get_attribute('href')
+                if not href:
+                    href = await link.get_attribute('hx-get') # FALLBACK for HTMX
+                
                 if href:
                     full_url = page.urljoin(href)
                     urls_to_visit.append(full_url)
