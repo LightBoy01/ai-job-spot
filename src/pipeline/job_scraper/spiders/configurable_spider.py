@@ -147,6 +147,8 @@ class ConfigurableSpider(scrapy.Spider):
             await page.close()
 
     def parse_job_detail(self, response: Response):
+        self.log(f"Response headers: {response.headers}")
+        self.log(f"Response body (first 200 bytes): {response.body[:200]}")
         self.log(f"Parsing job detail from direct HTML partial: {response.url}", level=logging.INFO)
         
         soup = bs4.BeautifulSoup(response.text, 'lxml')
