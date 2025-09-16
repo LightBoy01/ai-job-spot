@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+    <defs><radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%"><stop offset="0%" style="stop-color:#2A3D5E;stop-opacity:1" /><stop offset="100%" style="stop-color:#0F1A2E;stop-opacity:1" /></radialGradient></defs><rect width="100%" height="100%" fill="url(#grad1)" />
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="250" font-weight="700" fill="#FFFFFF" opacity="0.03">FOCUS</text>
+    <rect x="0" y="0" width="15" height="630" fill="#C8A25C" />
+    <text x="55" y="70" dominant-baseline="middle" text-anchor="start" font-family="'Lato', 'Helvetica Neue', sans-serif" font-size="18" font-weight="700" fill="#C8A25C" letter-spacing="2" opacity="0.8">VOL. 1 | ISSUE NO. 30</text>
+    <text x="55" y="280" dominant-baseline="hanging" text-anchor="start" font-family="'Playfair Display', Georgia, serif" font-size="64" font-weight="700" fill="#F5F5F5">The Signal Filter: A Framework for</text><text x="55" y="355" dominant-baseline="hanging" text-anchor="start" font-family="'Playfair Display', Georgia, serif" font-size="64" font-weight="700" fill="#F5F5F5">Attention Management in the Age of</text><text x="55" y="430" dominant-baseline="hanging" text-anchor="start" font-family="'Playfair Display', Georgia, serif" font-size="64" font-weight="700" fill="#F5F5F5">AI</text>
+    <text x="55" y="570" dominant-baseline="middle" text-anchor="start" font-family="'Lato', 'Helvetica Neue', sans-serif" font-size="18" font-weight="400" fill="#C8A25C" opacity="0.7">Focus | Productivity | Mental Models | Deep Work</text>
+    <text x="1145" y="570" dominant-baseline="middle" text-anchor="end" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="700" fill="#C8A25C" opacity="0.6">AJS</text>
+</svg>

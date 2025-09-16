@@ -6,6 +6,7 @@ location: 'San Francisco, CA'
 jobLevel: Mid-Senior
 employeeRole: Individual Contributor
 applicationLink: 'https://scale.com/careers'
+applicationExperience: "Direct Application; 2-5 minute process"
 postedDate: 2025-08-11T10:00:00.000Z
 expirationDate: 2025-09-10T10:00:00.000Z
 tags:
@@ -15,6 +16,9 @@ tags:
   - Python
   - Full-Time
 status: published
+glassdoorLink: "https://www.glassdoor.com/Overview/W-I_E9 Scale AI.htm"
+crunchbaseLink: "https://www.crunchbase.com/organization/scale-ai"
+source: "https://scale.com/careers/jobs/machine-learning-engineer"
 ---
 # Machine Learning Engineer
 

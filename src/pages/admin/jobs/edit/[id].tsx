@@ -18,6 +18,10 @@ type JobFormData = Partial<Omit<JobPosting, 'id' | 'postedDate' | 'expirationDat
   expirationDate: string;
   isNew: boolean;
   status: 'draft' | 'pending_review' | 'published' | 'rejected';
+  applicationExperience: string;
+  glassdoorLink: string;
+  crunchbaseLink: string;
+  source: string;
 }>;
 
 interface EditJobProps {
@@ -42,6 +46,10 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
         expirationDate: job.expirationDate ? new Date(job.expirationDate).toISOString().split('T')[0] : '',
         isNew: job.isNew || false,
         status: job.status || 'published',
+        applicationExperience: job.applicationExperience || '',
+        glassdoorLink: job.glassdoorLink || '',
+        crunchbaseLink: job.crunchbaseLink || '',
+        source: job.source || '',
       });
     }
   }, [job]);
@@ -180,6 +188,22 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
                   <label htmlFor="applicationLink" className="block text-sm font-semibold text-neutral-700 mb-2">Application Link</label>
                   <input type="url" id="applicationLink" name="applicationLink" value={formData.applicationLink || ''} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.applicationLink ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
                   {errors.applicationLink && <span className="text-red-500 text-sm mt-1 block">{errors.applicationLink}</span>}
+                </div>
+                <div>
+                  <label htmlFor="applicationExperience" className="block text-sm font-semibold text-neutral-700 mb-2">Application Experience (e.g., "Redirects to Workday; 15-20 min")</label>
+                  <input type="text" id="applicationExperience" name="applicationExperience" value={formData.applicationExperience || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
+                </div>
+                <div>
+                  <label htmlFor="glassdoorLink" className="block text-sm font-semibold text-neutral-700 mb-2">Glassdoor Link (Optional)</label>
+                  <input type="url" id="glassdoorLink" name="glassdoorLink" value={formData.glassdoorLink || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
+                </div>
+                <div>
+                  <label htmlFor="crunchbaseLink" className="block text-sm font-semibold text-neutral-700 mb-2">Crunchbase Link (Optional)</label>
+                  <input type="url" id="crunchbaseLink" name="crunchbaseLink" value={formData.crunchbaseLink || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
+                </div>
+                <div>
+                  <label htmlFor="source" className="block text-sm font-semibold text-neutral-700 mb-2">Original Source Link (Optional)</label>
+                  <input type="url" id="source" name="source" value={formData.source || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
                 </div>
                 <div>
                   <label htmlFor="jobLevel" className="block text-sm font-semibold text-neutral-700 mb-2">Job Level (e.g., Senior, Staff)</label>
@@ -327,6 +351,10 @@ export const getServerSideProps: GetServerSideProps<EditJobProps> = async (conte
       ...rest,
       postedDate: (postedDate && 'toDate' in postedDate) ? (postedDate as { toDate: () => Date }).toDate().toISOString() : new Date(postedDate).toISOString(),
       expirationDate: expirationDate ? ((expirationDate && 'toDate' in expirationDate) ? (expirationDate as { toDate: () => Date }).toDate().toISOString() : new Date(expirationDate).toISOString()) : null,
+      applicationExperience: job.applicationExperience || null,
+      glassdoorLink: job.glassdoorLink || null,
+      crunchbaseLink: job.crunchbaseLink || null,
+      source: job.source || null,
     };
 
     return { props: { job: serializedJob as unknown as SerializedJobPosting } };

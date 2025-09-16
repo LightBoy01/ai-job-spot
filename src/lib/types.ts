@@ -14,12 +14,15 @@ export interface JobPosting {
   postedDate: Date;
   expirationDate?: Date; // Optional expiration date for job postings
   applicationLink: string;
+  applicationExperience?: string; // e.g., "Redirects to Workday; 15-20 minute application"
   tags: string[]; // e.g., ['AI', 'Machine Learning', 'Remote']
   jobLevel?: string; // e.g., P40
   employeeRole?: string; // e.g., Individual Contributor
   status?: 'draft' | 'pending_review' | 'published' | 'rejected'; // Workflow status
   isNew?: boolean;
   source?: string; // Source of the job posting (e.g., scraped from a specific site)
+  glassdoorLink?: string;
+  crunchbaseLink?: string;
 }
 
 export type FirestoreJobPosting = Omit<JobPosting, 'postedDate' | 'expirationDate' | 'salaryRange' | 'jobLevel' | 'employeeRole'> & {

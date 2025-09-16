@@ -60,8 +60,10 @@ export default async function handler(
         expirationTimestamp = safeToTimestamp(thirtyDaysFromNow, 'now');
     }
     
-    const responsibilitiesArray = jobData.responsibilities ? jobData.responsibilities.split('\n').filter(r => r.trim() !== '') : [];
-    const qualificationsArray = jobData.qualifications ? jobData.qualifications.split('\n').filter(q => q.trim() !== '') : [];
+    const responsibilitiesArray = jobData.responsibilities ? jobData.responsibilities.split('
+').filter(r => r.trim() !== '') : [];
+    const qualificationsArray = jobData.qualifications ? jobData.qualifications.split('
+').filter(q => q.trim() !== '') : [];
 
     const newJob: FirestoreJobPosting = {
       id: jobId,

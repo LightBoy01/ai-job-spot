@@ -85,3 +85,6 @@ pglite-debug.log
 # Python cache
 __pycache__/
 
+# Pending content for review
+/data/pending_review/
+

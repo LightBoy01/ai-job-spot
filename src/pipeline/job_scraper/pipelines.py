@@ -90,7 +90,17 @@ class MarkdownWriterPipeline:
 
         # Sanitize the description HTML before writing
         description_html = item.description or '<p>No description provided.</p>'
-        sanitized_description = nh3.clean(description_html)
+        # Use a stricter sanitization profile to prevent XSS
+        sanitized_description = nh3.clean(
+            description_html,
+            tags={'p', 'br', 'b', 'strong', 'i', 'em', 'ul', 'ol', 'li', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'a'},
+            attributes={
+                'a': {'href', 'rel'},  # Allow href and rel on links
+                '*': {}  # Disallow all attributes on all other tags
+            },
+            strip_comments=True,
+            link_rel='noopener noreferrer'  # Add rel attribute to all links
+        )
         content_body = sanitized_description
         
         frontmatter_yaml = yaml.dump(frontmatter, sort_keys=False, default_flow_style=False, allow_unicode=True)

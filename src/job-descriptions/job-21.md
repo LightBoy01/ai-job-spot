@@ -6,6 +6,7 @@ location: 'Redwood City, CA'
 jobLevel: Senior Researcher
 employeeRole: Individual Contributor
 applicationLink: 'https://chanzuckerberg.com/careers/job-openings/'
+applicationExperience: "Redirects to Greenhouse; 10-15 minute process"
 postedDate: 2025-08-21T11:00:00.000Z
 expirationDate: 2025-09-20T11:00:00.000Z
 tags:
@@ -15,6 +16,8 @@ tags:
   - PyTorch
   - Biology
 status: published
+glassdoorLink: "https://www.glassdoor.com/Overview/W-I_E2010598.htm"
+crunchbaseLink: "https://www.crunchbase.com/organization/chan-zuckerberg-initiative"
 ---
 # AI Research Scientist (Model Development)
 
