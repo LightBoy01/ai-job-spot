@@ -1,6 +1,7 @@
 import asyncio
 import os
 from playwright.async_api import async_playwright
+from urllib.parse import urljoin
 
 async def recon_scrape(url: str, output_dir: str, num_jobs: int = 5):
     """ 
@@ -34,7 +35,7 @@ async def recon_scrape(url: str, output_dir: str, num_jobs: int = 5):
                     href = await link.get_attribute('hx-get') # FALLBACK for HTMX
                 
                 if href:
-                    full_url = page.urljoin(href)
+                    full_url = urljoin(page.url, href)
                     urls_to_visit.append(full_url)
 
             for i, job_url in enumerate(urls_to_visit):
