@@ -181,15 +181,18 @@ class ConfigurableSpider(scrapy.Spider):
                     employeeRole = term
 
         # Create a simple markdown description from the structured data
-        description = f"""
-### Tasks
-{ '\n'.join([f'- {task}' for task in tasks]) if tasks else 'N/A' }
+        tasks_md = '\n'.join([f'- {task}' for task in tasks]) if tasks else 'N/A'
+        perks_md = '\n'.join([f'- {perk}' for perk in perks]) if perks else 'N/A'
+        skills_md = skills_text if skills_text else 'N/A'
+
+        description = f"""### Tasks
+{tasks_md}
 
 ### Perks & Benefits
-{ '\n'.join([f'- {perk}' for perk in perks]) if perks else 'N/A' }
+{perks_md}
 
 ### Skills
-{ skills_text if skills_text else 'N/A' }
+{skills_md}
 """
 
         job_item = JobItem(
