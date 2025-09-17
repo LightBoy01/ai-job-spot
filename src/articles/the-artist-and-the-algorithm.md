@@ -15,7 +15,7 @@ imageUrl: /images/articles/the-artist-and-the-algorithm.svg
 
 **Setting:** A quiet, minimalist studio. THE STRATEGIST sits across from THE ARTIST, who has a portfolio of stunning digital paintings and designs spread across a large table.
 
-**The Artist:** I’ll be honest. I look at these tools—Midjourney, DALL-E—and I feel a sense of dread. I’ve spent two decades honing my craft. My understanding of color theory, of composition, of the subtle weight of a line... it feels like it’s all about to be devalued to zero. Anyone can now type a sentence and generate an image that, at first glance, is beautiful. What is left for me?
+**The Artist:** I’ll be honest. I look at these tools—Midjourney, DALL-E—and I feel a sense of dread. I’ve spent two decades honing my craft. My understanding of color theory, of composition, of the subtle weight of a line... it feels like it’s all about to be commoditized. Anyone can now type a sentence and generate an image that, at first glance, is beautiful. What is left for me?
 
 **The Strategist:** I understand the feeling. It’s a genuine and valid concern. Let me ask you this: when you look at one of your own pieces, for example this one... *[points to a complex, emotionally resonant image]*... what was the very first thing you did?
 
@@ -53,4 +53,4 @@ imageUrl: /images/articles/the-artist-and-the-algorithm.svg
 
 **The Artist:** I see. So the person who wins is not the one who can prompt the best, but the one who has the best taste? The one who knows what to ask for?
 
-**The Strategist:** Precisely. The future of creativity is not in the answer, but in the question. The AI can generate infinite answers. Only you can ask the right question. Only you can recognize the right answer when you see it. That is the work that remains. That is the art that can never be automated.
+**The Strategist:** Precisely. The future of creativity is not in the answer, but in the question. The AI can generate infinite answers. Only you can ask the right question and recognize the right answer. That is the art that can never be automated. That is the art that can never be automated. That is the work that remains.

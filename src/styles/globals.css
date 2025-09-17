@@ -96,3 +96,9 @@ textarea:focus,
 select:focus {
   @apply ring-2 ring-offset-2 ring-secondary-light ring-opacity-75;
 }
+
+@layer base {
+  hr {
+    @apply border-t-0 bg-gradient-to-r from-transparent via-secondary/50 to-transparent h-px my-12;
+  }
+}

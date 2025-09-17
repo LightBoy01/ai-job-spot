@@ -15,6 +15,12 @@ tags:
   - Startup
   - Remote
 status: published
+story_question1: "What is the most exciting challenge this person will tackle in their first 90 days?"
+story_answer1: "In the first 90 days, the new engineer will lead the charge on integrating our new generative AI model into our core automation engine. This is a greenfield project with the potential to redefine our product's capabilities and deliver a 'wow' experience to our customers."
+story_question2: "What's one quality you're looking for that isn't on the formal job description?"
+story_answer2: "Intellectual curiosity. We need someone who is constantly asking 'what if?' and is excited to experiment with new AI tools and techniques, even before they are mainstream. A passion for tinkering and self-learning is more important than any single line on a resume."
+story_question3: "How does this role contribute to the company's larger mission?"
+story_answer3: "Our mission is to democratize intelligent automation for small businesses. This role is the absolute core of that mission. The solutions this engineer builds will directly empower our users to compete with larger companies, save time, and focus on what they do best. You're not just writing code; you're building a force multiplier for entrepreneurs."
 ---
 # AI Automation Engineer
 
@@ -37,4 +43,4 @@ This is an exciting opportunity to join a fast-growing Techstars portfolio compa
 - Strong programming skills in Python or a similar language.
 - Experience with APIs and system integration.
 - Excellent problem-solving and analytical skills.
-- A passion for startups and a desire to work in a fast-paced environment. 
+- A passion for startups and a desire to work in a fast-paced environment.

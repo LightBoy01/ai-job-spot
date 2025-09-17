@@ -9,19 +9,16 @@
     "lint": "next lint",
     "lint:content": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/lint-content.ts",
     "seed": "ts-node --compiler-options '{\"module\":\"commonjs\"}' seedFirestore.ts",
-    "sync:algolia": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/syncAlgolia.ts",
     "test": "jest --testPathIgnorePatterns=src/pages/api",
     "test:api": "jest --config=jest.config.api.js src/pages/api"
   },
   "dependencies": {
-    "@paddle/paddle-node-sdk": "^3.2.0",
     "@tailwindcss/postcss": "^4.1.12",
     "@tailwindcss/typography": "^0.5.16",
     "@types/dompurify": "^3.0.5",
     "@types/jsdom": "^21.1.7",
     "@types/micro": "^7.3.7",
     "@types/nodemailer": "^6.4.17",
-    "algoliasearch": "^5.37.0",
     "cookie": "^1.0.2",
     "dompurify": "^3.2.6",
     "firebase": "^11.10.0",
@@ -43,7 +40,6 @@
     "zod": "^4.1.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.0",
     "@babel/plugin-transform-modules-commonjs": "^7.27.1",
     "@eslint/eslintrc": "^3",
     "@faker-js/faker": "^9.9.0",

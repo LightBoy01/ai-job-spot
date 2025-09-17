@@ -49,7 +49,13 @@ const AddNewJob: React.FC = () => {
     postedDate: new Date().toISOString().split('T')[0], // Defaults to today
     expirationDate: '',
     isNew: true, // Default to true for new jobs
-    status: 'published', // Default to published for admin
+    status: 'draft',
+    story_question1: "What is the most exciting challenge this person will tackle in their first 90 days?",
+    story_answer1: '',
+    story_question2: "What's one quality you're looking for that isn't on the formal job description?",
+    story_answer2: '',
+    story_question3: "How does this role contribute to the company's larger mission?",
+    story_answer3: '',
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -163,6 +169,11 @@ const AddNewJob: React.FC = () => {
                   {errors.company && <span className="text-red-500 text-sm mt-1 block">{errors.company}</span>}
                 </div>
                 <div>
+                  <label htmlFor="companyLogoUrl" className="block text-sm font-semibold text-neutral-700 mb-2">Company Logo URL (Optional)</label>
+                  <input type="url" id="companyLogoUrl" name="companyLogoUrl" value={formData.companyLogoUrl || ''} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.companyLogoUrl ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} placeholder="https://example.com/logo.png" />
+                  {errors.companyLogoUrl && <span className="text-red-500 text-sm mt-1 block">{errors.companyLogoUrl}</span>}
+                </div>
+                <div>
                   <label htmlFor="location" className="block text-sm font-semibold text-neutral-700 mb-2">Location</label>
                   <input type="text" id="location" name="location" value={formData.location} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.location ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
                   {errors.location && <span className="text-red-500 text-sm mt-1 block">{errors.location}</span>}
@@ -173,7 +184,7 @@ const AddNewJob: React.FC = () => {
                   {errors.applicationLink && <span className="text-red-500 text-sm mt-1 block">{errors.applicationLink}</span>}
                 </div>
                 <div>
-                  <label htmlFor="applicationExperience" className="block text-sm font-semibold text-neutral-700 mb-2">Application Experience (e.g., "Redirects to Workday; 15-20 min")</label>
+                  <label htmlFor="applicationExperience" className="block text-sm font-semibold text-neutral-700 mb-2">Application Experience (e.g., &quot;Redirects to Workday; 15-20 min&quot;)</label>
                   <input type="text" id="applicationExperience" name="applicationExperience" value={formData.applicationExperience || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
                 </div>
                 <div>
@@ -221,6 +232,84 @@ const AddNewJob: React.FC = () => {
               <div className="mt-6">
                 <label htmlFor="qualifications" className="block text-sm font-semibold text-neutral-700 mb-2">Qualifications (one per line)</label>
                 <textarea id="qualifications" name="qualifications" value={formData.qualifications || ''} onChange={handleChange} rows={5} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" placeholder="List qualifications, one per line."></textarea>
+              </div>
+            </div>
+
+            {/* --- Story Behind the Role Section --- */}
+            <div className="border-b border-neutral-300 pb-6">
+              <h2 className="text-xl font-semibold font-serif text-primary-dark mb-4">The Story Behind the Role (Optional)</h2>
+              <p className="text-neutral-600 mb-6">Add authentic, human context to attract better candidates. This is highly recommended.</p>
+              
+              {/* Question 1 */}
+              <div className="mb-4">
+                <label htmlFor="story_question1" className="block text-sm font-semibold text-neutral-700 mb-2">Question 1</label>
+                <input
+                  type="text"
+                  name="story_question1"
+                  id="story_question1"
+                  value={formData.story_question1 || ''}
+                  onChange={handleChange}
+                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
+                />
+              </div>
+              <div className="mb-6">
+                <label htmlFor="story_answer1" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 1</label>
+                <textarea
+                  name="story_answer1"
+                  id="story_answer1"
+                  value={formData.story_answer1 || ''}
+                  onChange={handleChange}
+                  rows={4}
+                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
+                />
+              </div>
+
+              {/* Question 2 */}
+              <div className="mb-4">
+                <label htmlFor="story_question2" className="block text-sm font-semibold text-neutral-700 mb-2">Question 2</label>
+                <input
+                  type="text"
+                  name="story_question2"
+                  id="story_question2"
+                  value={formData.story_question2 || ''}
+                  onChange={handleChange}
+                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
+                />
+              </div>
+              <div className="mb-6">
+                <label htmlFor="story_answer2" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 2</label>
+                <textarea
+                  name="story_answer2"
+                  id="story_answer2"
+                  value={formData.story_answer2 || ''}
+                  onChange={handleChange}
+                  rows={4}
+                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
+                />
+              </div>
+
+              {/* Question 3 */}
+              <div className="mb-4">
+                <label htmlFor="story_question3" className="block text-sm font-semibold text-neutral-700 mb-2">Question 3</label>
+                <input
+                  type="text"
+                  name="story_question3"
+                  id="story_question3"
+                  value={formData.story_question3 || ''}
+                  onChange={handleChange}
+                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
+                />
+              </div>
+              <div className="mb-6">
+                <label htmlFor="story_answer3" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 3</label>
+                <textarea
+                  name="story_answer3"
+                  id="story_answer3"
+                  value={formData.story_answer3 || ''}
+                  onChange={handleChange}
+                  rows={4}
+                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
+                />
               </div>
             </div>
 

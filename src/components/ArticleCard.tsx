@@ -2,14 +2,13 @@ import React from 'react'; // Added import
 import Link from 'next/link';
 import Image from 'next/image';
 import { formatDate } from '@/lib/dateUtils';
-import { SerializedArticleSummary } from '@/pages/articles';
+import { SerializedArticleSummary } from '@/lib/types';
 
 interface ArticleCardProps {
   article: SerializedArticleSummary;
 }
 
 const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
-  console.log('Article Card Props:', article);
 
   const { title, author, publishDate, slug, issueNo, volumeNo, imageUrl } = article;
 

@@ -17,6 +17,10 @@ const articleSchema = z.object({
     tags: z.array(z.string()).optional(),
     imageUrl: z.string().optional(),
     excerpt: z.string(), // Added by our script
+    author_take_question1: z.string().optional(),
+    author_take_answer1: z.string().optional(),
+    author_take_question2: z.string().optional(),
+    author_take_answer2: z.string().optional(),
 });
 
 const jobSchema = z.object({
@@ -32,12 +36,21 @@ const jobSchema = z.object({
     jobLevel: z.string().nullable().optional(),
     employeeRole: z.string().nullable().optional(),
     salaryRange: z.string().nullable().optional(),
-    source: z.string().optional(),
+    source: z.string().nullable().optional(),
+    companyLogoUrl: z.string().nullable().optional(),
+    applicationExperience: z.string().optional(),
     excerpt: z.string(), // Added by our script
     // These are now parsed from the body for jobs
     description: z.string().optional(),
     responsibilities: z.array(z.string()).optional(),
     qualifications: z.array(z.string()).optional(),
+    // Human Context Q&A
+    story_question1: z.string().optional(),
+    story_answer1: z.string().optional(),
+    story_question2: z.string().optional(),
+    story_answer2: z.string().optional(),
+    story_question3: z.string().optional(),
+    story_answer3: z.string().optional(),
 });
 
 
@@ -172,6 +185,28 @@ const jobSchema = z.object({
     }
 
 
+    async function syncDeletions(collectionRef: admin.firestore.CollectionReference, localIds: Set<string>) {
+        console.log(`Syncing deletions for collection: ${collectionRef.path}...`);
+        const remoteSnapshot = await collectionRef.select().get();
+        const remoteIds = new Set(remoteSnapshot.docs.map(doc => doc.id));
+        const idsToDelete = [...remoteIds].filter(id => !localIds.has(id));
+
+        if (idsToDelete.length === 0) {
+            console.log(`No documents to delete from ${collectionRef.path}.`);
+            return;
+        }
+
+        console.log(`Found ${idsToDelete.length} documents to delete from ${collectionRef.path}:`, idsToDelete);
+        const deleteBatch = db.batch();
+        idsToDelete.forEach(id => {
+            deleteBatch.delete(collectionRef.doc(id));
+        });
+
+        await deleteBatch.commit();
+        console.log(`Successfully deleted ${idsToDelete.length} orphaned documents from ${collectionRef.path}.`);
+    }
+
+
     // --- MAIN SEEDING LOGIC ---
 
     async function seedData() {
@@ -179,19 +214,29 @@ const jobSchema = z.object({
 
         const jobsCollection = db.collection('jobs');
         const articlesCollection = db.collection('articles');
-        const batch = db.batch();
+        
+        // Process local files first
+        const processedJobs = await processDirectory(jobsDir);
+        const processedArticles = await processDirectory(articlesDir);
+
+        const localJobIds = new Set(processedJobs.map(j => j.id).filter(Boolean));
+        const localArticleSlugs = new Set(processedArticles.map(a => a.slug).filter(Boolean));
+
+        // Sync deletions
+        await syncDeletions(jobsCollection, localJobIds);
+        await syncDeletions(articlesCollection, localArticleSlugs);
+
+        // Prepare upsert batch
+        const upsertBatch = db.batch();
         let operationsCount = 0;
 
-        // Process and upsert jobs
-        const jobs = await processDirectory(jobsDir);
-        console.log(`Found ${jobs.length} job files to process...`);
-        for (const job of jobs) {
+        console.log(`Found ${processedJobs.length} job files to process for upsert...`);
+        for (const job of processedJobs) {
             if (!job.id) {
                 console.warn(`[SKIPPING] Job file found without an 'id' in its frontmatter.`, job);
                 continue;
             }
             const jobRef = jobsCollection.doc(job.id);
-            // Ensure there are no undefined values that Firestore rejects
             const jobToSeed = {
                 ...job,
                 salaryRange: job.salaryRange || null,
@@ -202,15 +247,19 @@ const jobSchema = z.object({
                 description: job.description || '',
                 responsibilities: job.responsibilities || [],
                 qualifications: job.qualifications || [],
+                story_question1: job.story_question1 || null,
+                story_answer1: job.story_answer1 || null,
+                story_question2: job.story_question2 || null,
+                story_answer2: job.story_answer2 || null,
+                story_question3: job.story_question3 || null,
+                story_answer3: job.story_answer3 || null,
             };
-            batch.set(jobRef, jobToSeed, { merge: true });
+            upsertBatch.set(jobRef, jobToSeed, { merge: true });
             operationsCount++;
         }
 
-        // Process and upsert articles
-        const articles = await processDirectory(articlesDir);
-        console.log(`Found ${articles.length} article files to process...`);
-        for (const article of articles) {
+        console.log(`Found ${processedArticles.length} article files to process for upsert...`);
+        for (const article of processedArticles) {
             if (!article.slug) {
                 console.warn(`[SKIPPING] Article file found without a 'slug' in its frontmatter.`, article);
                 continue;
@@ -220,20 +269,24 @@ const jobSchema = z.object({
                 ...article,
                 tags: article.tags || [],
                 imageUrl: article.imageUrl || null,
+                author_take_question1: article.author_take_question1 || null,
+                author_take_answer1: article.author_take_answer1 || null,
+                author_take_question2: article.author_take_question2 || null,
+                author_take_answer2: article.author_take_answer2 || null,
             };
-            batch.set(articleRef, articleToSeed, { merge: true });
+            upsertBatch.set(articleRef, articleToSeed, { merge: true });
             operationsCount++;
         }
 
         if (operationsCount > 0) {
             try {
-                await batch.commit();
-                console.log(`Firestore seeding complete. Processed ${operationsCount} upsert operations.`);
+                await upsertBatch.commit();
+                console.log(`Firestore upsert complete. Processed ${operationsCount} upsert operations.`);
             } catch (error) {
-                console.error('Error committing batch:', error);
+                console.error('Error committing upsert batch:', error);
             }
         } else {
-            console.log('No valid Markdown files found to seed. Firestore remains unchanged.');
+            console.log('No valid Markdown files found to upsert. Firestore remains unchanged.');
         }
     }
 

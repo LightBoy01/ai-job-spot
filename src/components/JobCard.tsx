@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { SerializedJobPosting } from '@/lib/types';
-import { EXPIRES_SOON_THRESHOLD_DAYS } from '@/lib/constants';
-import { formatDate } from '@/lib/dateUtils';
 
 interface JobCardProps {
   job: SerializedJobPosting;
@@ -22,31 +20,58 @@ interface JobCardProps {
  * @returns {JSX.Element} The rendered JobCard component.
  */
 const JobCard = React.memo(({ job }: JobCardProps) => {
-  const { id, title, company, location, salaryRange, isNew } = job;
+  const { id, title, company, location, salaryRange, isNew, companyLogoUrl } = job;
+
+  const getInitials = (companyName: string) => {
+    return companyName
+      .split(' ')
+      .map(word => word[0])
+      .slice(0, 2)
+      .join('')
+      .toUpperCase();
+  };
 
   return (
-    <Link href={`/jobs/${id}`} passHref className="block bg-neutral-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200 hover:border-primary-dark relative overflow-hidden">
+    <Link href={`/jobs/${id}`} passHref className="block bg-neutral-50 p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200 hover:border-primary-dark relative overflow-hidden h-full flex flex-col">
       {isNew && (
-        <span className="absolute top-0 right-0 bg-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg">NEW</span>
+        <span className="absolute top-0 right-0 bg-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">NEW</span>
       )}
-      <div className="flex flex-col">
-        <h3 className="text-2xl font-serif font-semibold text-neutral-800 group-hover:text-primary-dark transition-colors leading-tight mb-2">
-          {title}
-        </h3>
-
-        <p className="mt-2 text-lg text-neutral-700">
-          {company}
-        </p>
+      <div className="flex-grow flex flex-col">
+        <div className="flex items-start space-x-4 mb-4">
+          {/* Logo or Fallback */}
+          <div className="flex-shrink-0 w-16 h-16 bg-neutral-100 rounded-lg flex items-center justify-center border border-neutral-200">
+            {companyLogoUrl ? (
+              <img 
+                src={companyLogoUrl}
+                alt={`${company} logo`}
+                className="w-full h-full object-contain rounded-lg"
+              />
+            ) : (
+              <span className="text-2xl font-bold text-primary-dark">{getInitials(company)}</span>
+            )}
+          </div>
+          {/* Title and Company */}
+          <div className="flex-1">
+            <h3 className="text-xl font-serif font-semibold text-neutral-800 group-hover:text-primary-dark transition-colors leading-tight">
+              {title}
+            </h3>
+            <p className="mt-1 text-base text-neutral-700">
+              {company}
+            </p>
+          </div>
+        </div>
 
         {salaryRange ? (
-          <p className="mt-3 text-lg text-emerald-700 font-semibold">
+          <p className="mt-2 text-lg text-emerald-700 font-semibold">
             {salaryRange}
           </p>
         ) : (
-          <p className="mt-3 text-base text-neutral-500 italic">
+          <p className="mt-2 text-base text-neutral-500 italic">
             Salary: Not Disclosed
           </p>
         )}
+
+        <div className="flex-grow" />
 
         <div className="mt-4 border-t border-neutral-200 pt-4 flex flex-col space-y-3 text-sm text-neutral-600">
           <div className="flex items-center">
@@ -64,17 +89,11 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
               <span>{job.jobLevel}</span>
             </div>
           )}
-          <div className="flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-neutral-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <span>Posted on {formatDate(job.postedDate)}</span>
-          </div>
         </div>
 
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="mt-5 flex flex-wrap gap-2">
           {(job.tags || []).map((tag) => (
-            <span key={tag} className="bg-secondary-light text-secondary-dark text-sm font-medium px-3 py-1 rounded-md">
+            <span key={tag} className="bg-secondary-light text-secondary-dark text-xs font-medium px-2.5 py-1 rounded-md">
               {tag}
             </span>
           ))}

@@ -1,20 +1,13 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 import Layout from '@/components/Layout';
 import ArticleCard from '@/components/ArticleCard';
 import AdContainer from '@/components/AdContainer';
-import { getArticles } from '@/lib/firestoreClient'; // Keep for initial static fetch
-import { Article } from '@/lib/types';
+import { getArticles } from '@/lib/firestoreClient';
+import { SerializedArticleSummary } from '@/lib/types';
 import { ARTICLE_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
-import Head from 'next/head';
-
-export interface SerializedArticle extends Omit<Article, 'publishDate'> {
-  publishDate: string;
-}
-
-// A more lightweight type for the article cards, excluding the full content.
-export type SerializedArticleSummary = Omit<SerializedArticle, 'contentBody'>;
 
 interface ArticlesProps {
   initialArticles: SerializedArticleSummary[];

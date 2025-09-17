@@ -39,7 +39,7 @@ The lighthouse keeper does not abandon the lamp during the storm. You must prote
 
 ### 3. Employ an Information Sieve (Asynchronous Processing)
 
-You cannot stop the storm of information from arriving, but you do not have to engage with it in real-time. Use tools to create an "Information Sieve." This can be a combination of email filters that automatically sort newsletters, RSS readers that aggregate blogs, and "read-it-later" apps like Pocket or Instapaper. These tools catch the incoming waves of information, allowing you to process them asynchronously, in a single batch, *outside* of your Signal Hours. This transforms you from a reactive victim of the storm to a calm processor of its contents.
+You cannot stop the storm of information from arriving, but you do not have to engage with it in real-time. Use tools to create an "Information Sieve." This can be a combination of tools like email filters, RSS readers, and "read-it-later" apps. These tools catch the incoming waves of information, allowing you to process them asynchronously, in a single batch, *outside* of your Signal Hours. This transforms you from a reactive victim of the storm to a calm processor of its contents.
 
 ### 4. The Deliberate Echo (Active Creation)
 

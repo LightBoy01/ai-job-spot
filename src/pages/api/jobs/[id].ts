@@ -87,6 +87,13 @@ export default async function handler(
         if (jobData.responsibilities) updateData.responsibilities = jobData.responsibilities.split('\n').filter(r => r.trim() !== '');
         if (jobData.qualifications) updateData.qualifications = jobData.qualifications.split('\n').filter(q => q.trim() !== '');
 
+        if (jobData.story_question1) updateData.story_question1 = jobData.story_question1;
+        if (jobData.story_answer1) updateData.story_answer1 = jobData.story_answer1;
+        if (jobData.story_question2) updateData.story_question2 = jobData.story_question2;
+        if (jobData.story_answer2) updateData.story_answer2 = jobData.story_answer2;
+        if (jobData.story_question3) updateData.story_question3 = jobData.story_question3;
+        if (jobData.story_answer3) updateData.story_answer3 = jobData.story_answer3;
+
         if (jobData.postedDate) {
             const timestamp = safeToTimestamp(jobData.postedDate, 'now');
             if (timestamp) {
@@ -119,8 +126,7 @@ export default async function handler(
             markdownBody += '\n\n### Qualifications\n\n' + updatedJobData.qualifications.map(q => `- ${q}`).join('\n');
         }
 
-        const frontmatter = `---\nid: ${id}\ntitle: "${updatedJobData.title.replaceAll('"', '\"')}"\ncompany: "${updatedJobData.company.replaceAll('"', '\"')}"\nlocation: "${updatedJobData.location.replaceAll('"', '\"')}"\napplicationLink: ${updatedJobData.applicationLink}\npostedDate: ${updatedJobData.postedDate.toDate().toISOString()}\nexpirationDate: ${updatedJobData.expirationDate ? updatedJobData.expirationDate.toDate().toISOString() : 'null'}\ntags:\n${(updatedJobData.tags || []).map(t => `  - ${t}`).join('\n')}\nstatus: ${updatedJobData.status}\njobLevel: ${updatedJobData.jobLevel || 'null'}\nemployeeRole: ${updatedJobData.employeeRole || 'null'}\nsalaryRange: ${updatedJobData.salaryRange || 'null'}\n---\n\n${markdownBody}
-`;
+        const frontmatter = `---\nid: ${id}\ntitle: "${updatedJobData.title.replaceAll('"', '\"')}"\ncompany: "${updatedJobData.company.replaceAll('"', '\"')}"\nlocation: "${updatedJobData.location.replaceAll('"', '\"')}"\napplicationLink: ${updatedJobData.applicationLink}\npostedDate: ${updatedJobData.postedDate.toDate().toISOString()}\nexpirationDate: ${updatedJobData.expirationDate ? updatedJobData.expirationDate.toDate().toISOString() : 'null'}\ntags:\n${(updatedJobData.tags || []).map(t => `  - ${t}`).join('\n')}\nstatus: ${updatedJobData.status}\njobLevel: ${updatedJobData.jobLevel || 'null'}\nemployeeRole: ${updatedJobData.employeeRole || 'null'}\nsalaryRange: ${updatedJobData.salaryRange || 'null'}\nstory_question1: "${(updatedJobData.story_question1 || '').replaceAll('"', '\"')}"\nstory_answer1: "${(updatedJobData.story_answer1 || '').replaceAll('"', '\"')}"\nstory_question2: "${(updatedJobData.story_question2 || '').replaceAll('"', '\"')}"\nstory_answer2: "${(updatedJobData.story_answer2 || '').replaceAll('"', '\"')}"\nstory_question3: "${(updatedJobData.story_question3 || '').replaceAll('"', '\"')}"\nstory_answer3: "${(updatedJobData.story_answer3 || '').replaceAll('"', '\"')}"\n---\n\n${markdownBody}\n`;
         
         let filepath = await findJobFile(id);
         if (!filepath) {

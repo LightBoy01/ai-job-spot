@@ -1,7 +1,17 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getArticles } from '@/lib/firestoreClient';
-import { doc, getDoc } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
+import { adminDb } from '@/lib/firebaseAdmin';
+import { Article } from '@/lib/types';
+import { Query } from 'firebase-admin/firestore';
+
+// Helper function to convert Firestore Timestamps to ISO strings for serialization
+const serializeArticle = (doc: FirebaseFirestore.DocumentSnapshot): Article => {
+    const data = doc.data()!;
+    return {
+        id: doc.id,
+        ...data,
+        publishDate: data.publishDate.toDate(), // Keep as Date object, will be stringified by res.json
+    } as Article;
+};
 
 export default async function handler(
   req: NextApiRequest,
@@ -13,28 +23,33 @@ export default async function handler(
 
   const { q, startAfter: startAfterId, limit: limitStr } = req.query;
 
-  const limit = limitStr ? parseInt(limitStr as string, 10) : undefined;
-
-  if (typeof q !== 'string') {
-    return res.status(400).json({ message: 'Query must be a string' });
-  }
+  const limit = limitStr ? parseInt(limitStr as string, 10) : 10; // Default to 10
+  const searchTerm = typeof q === 'string' ? q.trim() : '';
 
   try {
-    res.setHeader('Cache-Control', 'no-store, must-revalidate');
-    res.setHeader('Pragma', 'no-cache');
-    res.setHeader('Expires', '0');
+    res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=300');
 
-    let startAfterSnapshot = undefined;
-    if (typeof startAfterId === 'string' && startAfterId) {
-      const docRef = doc(db, 'articles', startAfterId);
-      startAfterSnapshot = await getDoc(docRef);
+    let query: Query = adminDb.collection('articles');
+
+    if (searchTerm) {
+      query = query.where('title', '>=', searchTerm)
+                   .where('title', '<=', searchTerm + '\uf8ff');
     }
 
-    console.log('API: Received startAfterId:', startAfterId);
-    console.log('API: Search Query:', q);
-    const { articles, lastVisible } = await getArticles(limit, startAfterSnapshot, q);
-    console.log('API: Articles fetched:', articles.length);
-    console.log('API: Last Visible Doc ID returned:', lastVisible ? lastVisible.id : null);
+    query = query.orderBy('publishDate', 'desc');
+
+    if (typeof startAfterId === 'string' && startAfterId) {
+      const startAfterDoc = await adminDb.collection('articles').doc(startAfterId).get();
+      if (startAfterDoc.exists) {
+        query = query.startAfter(startAfterDoc);
+      }
+    }
+
+    const snapshot = await query.limit(limit).get();
+
+    const articles = snapshot.docs.map(serializeArticle);
+    const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1] : null;
+
     res.status(200).json({ articles, lastVisible: lastVisible ? lastVisible.id : null });
   } catch (error) {
     console.error('Error searching for articles:', error);

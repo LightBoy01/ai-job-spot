@@ -60,10 +60,8 @@ export default async function handler(
         expirationTimestamp = safeToTimestamp(thirtyDaysFromNow, 'now');
     }
     
-    const responsibilitiesArray = jobData.responsibilities ? jobData.responsibilities.split('
-').filter(r => r.trim() !== '') : [];
-    const qualificationsArray = jobData.qualifications ? jobData.qualifications.split('
-').filter(q => q.trim() !== '') : [];
+    const responsibilitiesArray = jobData.responsibilities ? jobData.responsibilities.split('\n').filter(r => r.trim() !== '') : [];
+    const qualificationsArray = jobData.qualifications ? jobData.qualifications.split('\n').filter(q => q.trim() !== '') : [];
 
     const newJob: FirestoreJobPosting = {
       id: jobId,
@@ -74,13 +72,19 @@ export default async function handler(
       applicationLink: jobData.applicationLink!,
       postedDate: postedTimestamp,
       expirationDate: expirationTimestamp!,
-      salaryRange: jobData.salaryRange || null,
+      salaryRange: jobData.salaryRange || undefined,
       tags: jobData.tags ? jobData.tags.split(',').map((tag: string) => tag.trim()) : [],
       status: jobData.status || 'published',
-      jobLevel: jobData.jobLevel || null,
-      employeeRole: jobData.employeeRole || null,
+      jobLevel: jobData.jobLevel || undefined,
+      employeeRole: jobData.employeeRole || undefined,
       responsibilities: responsibilitiesArray,
       qualifications: qualificationsArray,
+      story_question1: jobData.story_question1 || undefined,
+      story_answer1: jobData.story_answer1 || undefined,
+      story_question2: jobData.story_question2 || undefined,
+      story_answer2: jobData.story_answer2 || undefined,
+      story_question3: jobData.story_question3 || undefined,
+      story_answer3: jobData.story_answer3 || undefined,
     };
 
     // --- Create Markdown File ---
@@ -107,9 +111,13 @@ status: ${newJob.status}
 jobLevel: ${newJob.jobLevel || 'null'}
 employeeRole: ${newJob.employeeRole || 'null'}
 salaryRange: ${newJob.salaryRange || 'null'}
----\n
-${markdownBody}
-`;
+story_question1: "${(jobData.story_question1 || '').replaceAll('"', '\"')}"
+story_answer1: "${(jobData.story_answer1 || '').replaceAll('"', '\"')}"
+story_question2: "${(jobData.story_question2 || '').replaceAll('"', '\"')}"
+story_answer2: "${(jobData.story_answer2 || '').replaceAll('"', '\"')}"
+story_question3: "${(jobData.story_question3 || '').replaceAll('"', '\"')}"
+story_answer3: "${(jobData.story_answer3 || '').replaceAll('"', '\"')}"
+---\n\n${markdownBody}\n`;
 
     const filename = `job-${slugify(jobData.title!)}-${jobId.substring(0, 6)}.md`;
     const filepath = path.join(process.cwd(), 'src', 'job-descriptions', filename);

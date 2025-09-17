@@ -5,6 +5,7 @@ export interface JobPosting {
   id?: string; // Optional, as Firestore generates this
   title: string;
   company: string;
+  companyLogoUrl?: string | null; // The new field for the company logo
   description: string; // This can be a full HTML description or a summary
   responsibilities?: string[]; // A list of key responsibilities
   qualifications?: string[]; // A list of required qualifications
@@ -23,6 +24,14 @@ export interface JobPosting {
   source?: string; // Source of the job posting (e.g., scraped from a specific site)
   glassdoorLink?: string;
   crunchbaseLink?: string;
+
+  // Human Context Q&A
+  story_question1?: string;
+  story_answer1?: string;
+  story_question2?: string;
+  story_answer2?: string;
+  story_question3?: string;
+  story_answer3?: string;
 }
 
 export type FirestoreJobPosting = Omit<JobPosting, 'postedDate' | 'expirationDate' | 'salaryRange' | 'jobLevel' | 'employeeRole'> & {
@@ -47,6 +56,12 @@ export interface Article {
 
   imageUrl?: string | null;
   markdownFile?: string; // Path to the markdown file, added for consistency
+
+  // Behind the Article Q&A
+  author_take_question1?: string;
+  author_take_answer1?: string;
+  author_take_question2?: string;
+  author_take_answer2?: string;
 }
 
 export type FirestoreArticle = Omit<Article, 'publishDate'> & {
@@ -64,3 +79,6 @@ export interface SerializedArticle extends Omit<Article, 'publishDate'> {
   publishDate: string | null;
   excerpt: string;
 }
+
+// A more lightweight type for the article cards, excluding the full content.
+export type SerializedArticleSummary = Omit<SerializedArticle, 'contentBody' | 'author_take_question1' | 'author_take_answer1' | 'author_take_question2' | 'author_take_answer2'>;
