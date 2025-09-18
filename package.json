@@ -2,14 +2,15 @@
   "name": "ai-job-spot",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:content": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/lint-content.ts",
+    "lint:content": "ts-node scripts/lint-content.ts",
     "pipeline:run": "ts-node src/data-pipeline/main.ts",
-    "seed": "ts-node --compiler-options '{\"module\":\"commonjs\"}' seedFirestore.ts",
+    "seed": "ts-node seedFirestore.ts",
     "test": "jest --testPathIgnorePatterns=src/pages/api",
     "test:api": "jest --config=jest.config.api.js src/pages/api"
   },
