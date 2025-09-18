@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint:content": "ts-node scripts/lint-content.ts",
-    "pipeline:run": "ts-node src/data-pipeline/main.ts",
+    "pipeline:run": "node --loader ts-node/esm src/data-pipeline/main.ts",
     "seed": "ts-node seedFirestore.ts",
     "test": "jest --testPathIgnorePatterns=src/pages/api",
     "test:api": "jest --config=jest.config.api.js src/pages/api"
