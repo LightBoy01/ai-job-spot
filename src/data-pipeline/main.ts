@@ -2,7 +2,8 @@ import { PlaywrightCrawler, Dataset } from 'crawlee';
 import { gotScraping } from 'got-scraping';
 import * as cheerio from 'cheerio';
 import * as yaml from 'js-yaml';
-import fs from 'fs/promises';
+import * as fs from 'fs';
+import { promises as fsPromises } from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
@@ -64,7 +65,7 @@ async function writeMarkdownFile(item: JobItem, outputDir: string) {
     const filepath = path.join(outputDir, filename);
 
     try {
-        await fs.writeFile(filepath, fullContent, 'utf-8');
+        await fsPromises.writeFile(filepath, fullContent, 'utf-8');
         console.log(`Successfully saved job to: ${filepath}`);
     } catch (error) {
         console.error(`Could not write file ${filepath}. Reason:`, error);
@@ -75,11 +76,11 @@ async function loadExistingUrls(dirs: string[]): Promise<Set<string>> {
     const existingUrls = new Set<string>();
     for (const dir of dirs) {
         try {
-            const files = await fs.readdir(dir);
+            const files = await fsPromises.readdir(dir);
             for (const file of files) {
                 if (path.extname(file) === '.md') {
                     const filePath = path.join(dir, file);
-                    const fileContent = await fs.readFile(filePath, 'utf-8');
+                    const fileContent = await fsPromises.readFile(filePath, 'utf-8');
                     const { data } = matter(fileContent);
                     if (data.applicationLink) {
                         existingUrls.add(data.applicationLink);
@@ -116,11 +117,11 @@ async function main() {
     // 1. Load Configuration
     const projectRoot = path.resolve(__dirname, '../..');
     const configPath = path.join(projectRoot, 'src/pipeline/pipeline_config.json');
-    const configBuffer = await fs.readFile(configPath);
+    const configBuffer = await fsPromises.readFile(configPath);
     const config = JSON.parse(configBuffer.toString());
     const scrapersToRun = config.scrapers_enabled || [];
     const outputDir = path.join(projectRoot, config.output_directory);
-    await fs.mkdir(outputDir, { recursive: true }); // Ensure output directory exists
+    await fsPromises.mkdir(outputDir, { recursive: true }); // Ensure output directory exists
 
     // 2. Load existing URLs to prevent duplicates
     const jobDescDir = path.join(projectRoot, 'src/job-descriptions');
@@ -299,3 +300,4 @@ async function main() {
 
 // Execute the main function
 main();
+}
