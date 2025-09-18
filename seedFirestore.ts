@@ -142,10 +142,7 @@ const jobSchema = z.object({
                     } else {
                         // Process custom placeholders for articles
                         let processedContent = content;
-                        if (data.imageUrl) {
-                            processedContent = processedContent.replace(/\ \[\[Featured Image:.*?\ \]/g, `<img src="${data.imageUrl}" alt="${data.title}" class="w-full h-auto rounded-lg my-8" />`);
-                        }
-                        processedContent = processedContent.replace(/\ \[\[Internal Link: (.*?)\ \]/g, (match, linkText) => {
+                        processedContent = processedContent.replace(/\ \[\[Internal Link: (.*?)\]\]/g, (match, linkText) => {
                             return `<a href="/articles/${linkText.toLowerCase().replace(/\s+/g, '-')}" class="text-secondary-dark hover:underline">${linkText}</a>`;
                         });
                         processedContent = processedContent.replace(/\ \[\[External Link: (.*?)\ \]/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-secondary-dark hover:underline">$1</a>');

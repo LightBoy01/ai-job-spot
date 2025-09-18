@@ -5,6 +5,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
 import AdContainer from '@/components/AdContainer';
+import Image from 'next/image';
 
 interface JobDetailsProps {
   job: SerializedJobPosting;
@@ -45,9 +46,11 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                   {/* Logo or Fallback */}
                   <div className="flex-shrink-0 w-24 h-24 bg-neutral-100 rounded-xl flex items-center justify-center border border-neutral-200">
                     {job.companyLogoUrl ? (
-                      <img 
+                      <Image 
                         src={job.companyLogoUrl}
                         alt={`${job.company} logo`}
+                        width={96}
+                        height={96}
                         className="w-full h-full object-contain rounded-xl"
                       />
                     ) : (

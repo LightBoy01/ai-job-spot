@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { SerializedJobPosting } from '@/lib/types';
 
@@ -41,9 +42,11 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
           {/* Logo or Fallback */}
           <div className="flex-shrink-0 w-16 h-16 bg-neutral-100 rounded-lg flex items-center justify-center border border-neutral-200">
             {companyLogoUrl ? (
-              <img 
+              <Image
                 src={companyLogoUrl}
                 alt={`${company} logo`}
+                width={64}
+                height={64}
                 className="w-full h-full object-contain rounded-lg"
               />
             ) : (

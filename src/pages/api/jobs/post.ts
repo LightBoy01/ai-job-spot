@@ -2,13 +2,8 @@ import type { NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { FirestoreJobPosting, JobPosting } from '@/lib/types';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
-import { validatePayload, isRequired, isURL, safeToTimestamp, isAfter, slugify } from '@/lib/apiUtils';
+import { validatePayload, isRequired, isURL, safeToTimestamp, isAfter } from '@/lib/apiUtils'; // Removed slugify
 import DOMPurify from 'isomorphic-dompurify';
-import fs from 'fs/promises';
-import path from 'path';
-import TurndownService from 'turndown';
-
-const turndownService = new TurndownService();
 
 // This type represents the shape of the data coming from the frontend form
 type JobFormData = Partial<Omit<JobPosting, 'id' | 'tags' | 'responsibilities' | 'qualifications'> & {
@@ -86,45 +81,6 @@ export default async function handler(
       story_question3: jobData.story_question3 || undefined,
       story_answer3: jobData.story_answer3 || undefined,
     };
-
-    // --- Create Markdown File ---
-    const markdownDescription = turndownService.turndown(sanitizedDescription);
-    
-    let markdownBody = markdownDescription;
-    if (responsibilitiesArray.length > 0) {
-        markdownBody += '\n\n### Responsibilities\n\n' + responsibilitiesArray.map(r => `- ${r}`).join('\n');
-    }
-    if (qualificationsArray.length > 0) {
-        markdownBody += '\n\n### Qualifications\n\n' + qualificationsArray.map(q => `- ${q}`).join('\n');
-    }
-
-    const frontmatter = `---\nid: ${jobId}
-title: "${jobData.title!.replaceAll('"', '\"')}"
-company: "${jobData.company!.replaceAll('"', '\"')}"
-location: "${jobData.location!.replaceAll('"', '\"')}"
-applicationLink: ${jobData.applicationLink}
-postedDate: ${postedTimestamp.toDate().toISOString()}
-expirationDate: ${expirationTimestamp ? expirationTimestamp.toDate().toISOString() : 'null'}
-tags:
-${newJob.tags.map(t => `  - ${t}`).join('\n')}
-status: ${newJob.status}
-jobLevel: ${newJob.jobLevel || 'null'}
-employeeRole: ${newJob.employeeRole || 'null'}
-salaryRange: ${newJob.salaryRange || 'null'}
-story_question1: "${(jobData.story_question1 || '').replaceAll('"', '\"')}"
-story_answer1: "${(jobData.story_answer1 || '').replaceAll('"', '\"')}"
-story_question2: "${(jobData.story_question2 || '').replaceAll('"', '\"')}"
-story_answer2: "${(jobData.story_answer2 || '').replaceAll('"', '\"')}"
-story_question3: "${(jobData.story_question3 || '').replaceAll('"', '\"')}"
-story_answer3: "${(jobData.story_answer3 || '').replaceAll('"', '\"')}"
----\n\n${markdownBody}\n`;
-
-    const filename = `job-${slugify(jobData.title!)}-${jobId.substring(0, 6)}.md`;
-    const filepath = path.join(process.cwd(), 'src', 'job-descriptions', filename);
-
-    await fs.writeFile(filepath, frontmatter);
-    // --- End Create Markdown File ---
-
 
     await newJobRef.set(newJob);
 
