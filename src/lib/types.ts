@@ -11,27 +11,27 @@ export interface JobPosting {
   qualifications?: string[]; // A list of required qualifications
   preferredQualifications?: string[]; // Optional list of preferred qualifications
   location: string;
-  salaryRange?: string; // Optional
+  salaryRange?: string | null; // Optional
   postedDate: Date;
-  expirationDate?: Date; // Optional expiration date for job postings
+  expirationDate?: Date | null; // Optional expiration date for job postings
   applicationLink: string;
-  applicationExperience?: string; // e.g., "Redirects to Workday; 15-20 minute application"
+  applicationExperience?: string | null; // e.g., "Redirects to Workday; 15-20 minute application"
   tags: string[]; // e.g., ['AI', 'Machine Learning', 'Remote']
-  jobLevel?: string; // e.g., P40
-  employeeRole?: string; // e.g., Individual Contributor
+  jobLevel?: string | null; // e.g., P40
+  employeeRole?: string | null; // e.g., Individual Contributor
   status?: 'draft' | 'pending_review' | 'published' | 'rejected'; // Workflow status
   isNew?: boolean;
-  source?: string; // Source of the job posting (e.g., scraped from a specific site)
-  glassdoorLink?: string;
-  crunchbaseLink?: string;
+  source?: string | null; // Source of the job posting (e.g., scraped from a specific site)
+  glassdoorLink?: string | null;
+  crunchbaseLink?: string | null;
 
   // Human Context Q&A
-  story_question1?: string;
-  story_answer1?: string;
-  story_question2?: string;
-  story_answer2?: string;
-  story_question3?: string;
-  story_answer3?: string;
+  story_question1?: string | null;
+  story_answer1?: string | null;
+  story_question2?: string | null;
+  story_answer2?: string | null;
+  story_question3?: string | null;
+  story_answer3?: string | null;
 }
 
 export type FirestoreJobPosting = Omit<JobPosting, 'postedDate' | 'expirationDate' | 'salaryRange' | 'jobLevel' | 'employeeRole'> & {

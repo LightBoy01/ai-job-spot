@@ -148,12 +148,12 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
               </section>
 
               {/* Story Behind the Role */}
-              {job.story_answer1 && (
+              {job.story_answer1 != null && (
                 <section className="my-12 md:my-16">
                   <div className="p-6 md:p-8 bg-secondary/5 rounded-lg border-l-4 border-secondary">
                     <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-dark mb-8">The Story Behind the Role</h2>
                     <div className="space-y-8">
-                      {job.story_question1 && job.story_answer1 && (
+                      {job.story_question1 && job.story_answer1 != null && (
                         <div>
                           <h3 className="text-lg md:text-xl font-semibold font-serif text-primary/90">
                             {job.story_question1}
@@ -163,7 +163,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                           </p>
                         </div>
                       )}
-                      {job.story_question2 && job.story_answer2 && (
+                      {job.story_question2 && job.story_answer2 != null && (
                         <div>
                           <h3 className="text-lg md:text-xl font-semibold font-serif text-primary/90">
                             {job.story_question2}
@@ -173,7 +173,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                           </p>
                         </div>
                       )}
-                      {job.story_question3 && job.story_answer3 && (
+                      {job.story_question3 && job.story_answer3 != null && (
                         <div>
                           <h3 className="text-lg md:text-xl font-semibold font-serif text-primary/90">
                             {job.story_question3}
@@ -208,7 +208,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
               </div>
 
               <div className="my-12">
-                {job.applicationExperience && (
+                {job.applicationExperience != null && (
                   <div className="mb-6 p-4 bg-neutral-100 border border-neutral-200 rounded-lg">
                     <h3 className="text-lg font-semibold text-neutral-800 mb-2">Application Insights</h3>
                     <p className="text-neutral-600">{job.applicationExperience}</p>
@@ -240,14 +240,14 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                 </svg>
               </h3>
               <ul className="space-y-3">
-                {job.glassdoorLink && (
+                {job.glassdoorLink != null && (
                   <li>
                     <a href={job.glassdoorLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-dark underline transition-colors" onClick={(e) => e.stopPropagation()}>
                       Glassdoor Reviews
                     </a>
                   </li>
                 )}
-                {job.crunchbaseLink && (
+                {job.crunchbaseLink != null && (
                   <li>
                     <a href={job.crunchbaseLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-dark underline transition-colors" onClick={(e) => e.stopPropagation()}>
                       Crunchbase Profile
@@ -290,32 +290,37 @@ export const getStaticProps: GetStaticProps<JobDetailsProps, { id: string }> = a
     return { notFound: true };
   }
 
+  // Ensure all data is correctly serialized and defaulted
+  const serializedJob: SerializedJobPosting = {
+    ...job,
+    id: job.id!,
+    postedDate: job.postedDate.toISOString(),
+    expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
+    salaryRange: job.salaryRange ?? null,
+    tags: job.tags ?? [],
+    description: job.description ?? '',
+    responsibilities: job.responsibilities ?? [],
+    qualifications: job.qualifications ?? [],
+    preferredQualifications: job.preferredQualifications ?? [],
+    jobLevel: job.jobLevel ?? null,
+    employeeRole: job.employeeRole ?? null,
+    companyLogoUrl: job.companyLogoUrl ?? null,
+    applicationExperience: job.applicationExperience ?? null,
+    glassdoorLink: job.glassdoorLink ?? null,
+    crunchbaseLink: job.crunchbaseLink ?? null,
+    source: job.source ?? null,
+    story_question1: job.story_question1 ?? null,
+    story_answer1: job.story_answer1 ?? null,
+    story_question2: job.story_question2 ?? null,
+    story_answer2: job.story_answer2 ?? null,
+    story_question3: job.story_question3 ?? null,
+    story_answer3: job.story_answer3 ?? null,
+  };
+
   return {
     props: {
-      job: {
-        ...job,
-        postedDate: job.postedDate.toISOString(),
-        expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
-        salaryRange: job.salaryRange || null,
-        tags: job.tags || [],
-        description: job.description || '',
-        responsibilities: job.responsibilities || [],
-        qualifications: job.qualifications || [],
-        preferredQualifications: job.preferredQualifications || [],
-        jobLevel: job.jobLevel || null,
-        employeeRole: job.employeeRole || null,
-        applicationExperience: job.applicationExperience || null,
-        glassdoorLink: job.glassdoorLink || null,
-        crunchbaseLink: job.crunchbaseLink || null,
-        source: job.source || null,
-        story_question1: job.story_question1 || null,
-        story_answer1: job.story_answer1 || null,
-        story_question2: job.story_question2 || null,
-        story_answer2: job.story_answer2 || null,
-        story_question3: job.story_question3 || null,
-        story_answer3: job.story_answer3 || null,
-      } as SerializedJobPosting,
+      job: serializedJob,
     },
-    revalidate: 60,
+    revalidate: 60, // Re-generate the page every 60 seconds
   };
 };

@@ -89,8 +89,8 @@ async function loadExistingUrls(dirs: string[]): Promise<Set<string>> {
                     }
                 }
             }
-        } catch (error: any) {
-            if (error.code !== 'ENOENT') {
+        } catch (error: unknown) {
+            if (error instanceof Error && (error as NodeJS.ErrnoException).code !== 'ENOENT') {
                 console.warn(`Warning: Could not read directory ${dir}. It may not exist yet.`);
             }
         }
@@ -102,12 +102,12 @@ async function loadExistingUrls(dirs: string[]): Promise<Set<string>> {
 // Main function to orchestrate the scraping process
 async function main() {
   const logStream = fs.createWriteStream('pipeline_run.log', { flags: 'a' });
-  const log = (message: any, ...optionalParams: any[]) => {
+  const log = (message: string, ...optionalParams: unknown[]) => {
       const logMessage = `${new Date().toISOString()}: ${message} ${optionalParams.join(' ')}`;
       logStream.write(logMessage + '\n');
       process.stdout.write(logMessage + '\n');
   };
-  const errorLog = (message: any, ...optionalParams: any[]) => {
+  const errorLog = (message: string, ...optionalParams: unknown[]) => {
       const logMessage = `${new Date().toISOString()}: ERROR: ${message} ${optionalParams.join(' ')}`;
       logStream.write(logMessage + '\n');
       process.stderr.write(logMessage + '\n');
@@ -203,28 +203,69 @@ async function main() {
             }
 
           } else if (request.label === 'DETAIL') {
-            // STEP 1: On the aggregator's detail page, find the REAL application link.
-            const externalLinkSelector = spiderConfig.job_detail_selectors.external_link_selector;
-            if (!externalLinkSelector) {
-                errorLog(`No external_link_selector configured for ${scraperConfig.name}. Cannot proceed with job "${request.userData.title}".`);
+            if (existingUrls.has(request.url)) {
+                log(`Skipping duplicate job (already exists): ${request.url}`);
                 return;
             }
 
-            try {
-                await page.waitForSelector(externalLinkSelector, { timeout: 15000 });
-                const externalLinkElement = page.locator(externalLinkSelector).first();
-                const externalUrl = await externalLinkElement.getAttribute('href');
+            log(`Scraping details for job: "${request.userData.title}" from ${request.url}`);
+            
+            // Use got-scraping for speed, as these pages don't need full JS rendering
+            const response = await gotScraping.get({ url: request.url });
+            const $ = cheerio.load(response.body);
 
-                if (externalUrl) {
-                    log(`Discovered external link for "${request.userData.title}": ${externalUrl}`);
-                    // TODO: In the next step, we will enqueue a new request to this externalUrl
-                    // with a label like 'SOURCE_DETAIL' to perform the deep scrape.
-                } else {
-                    log(`Could not find href for external link on page: ${request.url}`);
-                }
-            } catch (e) {
-                errorLog(`Could not find the external link selector ("${externalLinkSelector}") for job "${request.userData.title}" at ${request.url}`);
-            }
+            // --- New, more robust selectors for Foorilla --- 
+            const title = $('h1').first().text().trim();
+            const company = $('a[href*="/hiring/companies/"]').first().text().trim();
+            const location = $('div.hstack > div:first-child').text().trim(); // This might still be messy, needs review
+            const descriptionBody = $('div.job-description-body').html() || ''; // Get the full inner HTML
+            const externalLink = $('a:contains("Apply Now")').attr('href') || $('a:contains("Apply")').attr('href');
+
+            // The rest of the data can be parsed from the messy location string for now
+            const metadataText = location;
+            const bracketedTerms = metadataText.match(/\[(.*?)\]/g) || [];
+            const jobLevelKeywords = ['entry', 'mid-level', 'senior', 'lead', 'principal', 'intermediate'];
+            const roleKeywords = ['full time', 'part time', 'contract', 'internship'];
+            let jobLevel: string | undefined;
+            let employeeRole: string | undefined;
+
+            bracketedTerms.forEach(term => {
+                const termLower = term.toLowerCase();
+                if (jobLevelKeywords.some(k => termLower.includes(k))) jobLevel = term.replace(/\[|\]/g, '');
+                if (roleKeywords.some(k => termLower.includes(k))) employeeRole = term.replace(/\[|\]/g, '');
+            });
+
+            // Simple salary extraction from the messy text
+            const salaryMatch = metadataText.match(/(USD|CAD) [0-9,K]+(-[0-9,K]+)?/);
+            const salaryRange = salaryMatch ? salaryMatch[0] : undefined;
+
+            const companySlug = slugify(company || 'nocompany');
+            const titleSlug = slugify(title || 'notitle').substring(0, 50);
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+
+            const jobItem: JobItem = {
+                id: `job-scraped-${companySlug}-${titleSlug}-${timestamp}`,
+                title: title || request.userData.title,
+                company: company,
+                location: location.split('\n')[0].trim(), // Attempt to clean up location
+                description: descriptionBody,
+                applicationLink: externalLink || request.url, // Prioritize the real link
+                postedDate: new Date().toISOString(),
+                tags: [], // Tags are not easily available, leave for manual enhancement
+                status: 'pending_review',
+                jobLevel: jobLevel,
+                employeeRole: employeeRole,
+                salaryRange: salaryRange,
+                source: scraperConfig.name,
+                responsibilities: [], // Will be part of the main description now
+                qualifications: [], // Will be part of the main description now
+            };
+
+            // Add to cache before writing to prevent duplicates in the same run
+            existingUrls.add(request.url);
+
+            log(`Successfully parsed job item. Writing to file...`);
+            await writeMarkdownFile(jobItem, outputDir, log);
           }
         },
 
