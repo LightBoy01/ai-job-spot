@@ -1,9 +1,0 @@
-feat(pipeline): Enhance and fix data scraping pipeline
-
-This commit introduces several key improvements and fixes to the data scraping pipeline:
-
-- **Fix ModuleNotFoundError in GitHub Actions:** Corrected the `pip install -e` command in `pipeline.yml` to properly install the pipeline as an editable package, resolving persistent module import errors in the CI/CD environment.
-- **Improve Posted Date Extraction:** Integrated `dateparser` into `foorilla_spider.py` to accurately parse and return `datetime` objects for job posting dates, improving data quality.
-- **Add HTML Sanitization:** Implemented `DOMPurify` in `MarkdownWriterPipeline` to sanitize HTML descriptions before writing them to Markdown files, enhancing security.
-- **Standardize Missing Data Defaults:** Changed default values for missing fields (e.g., `jobLevel`, `salaryRange`) from 'N/A' to `None` in `MarkdownWriterPipeline` for better data consistency.
-- **Refine Salary Extraction:** Updated the regex for salary extraction in `foorilla_spider.py` to support a wider variety of salary formats.

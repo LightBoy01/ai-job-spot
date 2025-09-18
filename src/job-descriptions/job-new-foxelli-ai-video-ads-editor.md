@@ -4,7 +4,6 @@ title: "AI Video Ads Editor | DTC E-Commerce | 100% Remote EU"
 company: "Foxelli Group"
 location: "100% Remote (EU Time Zones)"
 applicationLink: https://jobs.ashbyhq.com/foxelligroup/da8665f3-0579-4ec2-a0ce-6635f5fec605/application
-applicationExperience: "Redirects to AshbyHQ; Requires new account creation; 15-20 minute process"
 postedDate: 2025-09-13T00:00:00.000Z
 expirationDate: 2025-10-13T00:00:00.000Z
 tags:
@@ -15,14 +14,19 @@ tags:
   - Meta Ads
   - Remote Work
 status: published
-jobLevel: Entry-Level
+jobLevel: Entry-Levell
 employeeRole: Individual Contributor (Freelance)
 salaryRange: €1,000 - €1,500 monthly (freelance fee, after taxes)
-glassdoorLink: "https://www.glassdoor.com/Overview/W-I_E2295344.htm"
-crunchbaseLink: "https://www.crunchbase.com/organization/foxelli-group"
+story_question1: "What is the most exciting challenge this person will tackle in their first 90 days?"
+story_answer1: ""
+story_question2: "What's one quality you're looking for that isn't on the formal job description?"
+story_answer2: ""
+story_question3: "How does this role contribute to the company's larger mission?"
+story_answer3: ""
 ---
 
-# AI Video Ads Editor
+AI Video Ads Editor
+===================
 
 ### Description
 

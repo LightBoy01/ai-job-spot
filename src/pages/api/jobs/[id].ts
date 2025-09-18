@@ -3,32 +3,7 @@ import { adminDb } from '@/lib/firebaseAdmin';
 import { FirestoreJobPosting, JobPosting } from '@/lib/types';
 import DOMPurify from 'isomorphic-dompurify';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
-import { validatePayload, isRequired, isURL, safeToTimestamp, isAfter, slugify } from '@/lib/apiUtils';
-import fs from 'fs/promises';
-import path from 'path';
-import TurndownService from 'turndown';
-
-const turndownService = new TurndownService();
-
-// This function is a utility to find a job's markdown file
-async function findJobFile(jobId: string): Promise<string | null> {
-    const jobsDir = path.join(process.cwd(), 'src', 'job-descriptions');
-    try {
-        const files = await fs.readdir(jobsDir);
-        for (const file of files) {
-            if (file.endsWith('.md')) {
-                const filePath = path.join(jobsDir, file);
-                const fileContent = await fs.readFile(filePath, 'utf8');
-                if (fileContent.includes(`id: ${jobId}`)) {
-                    return filePath;
-                }
-            }
-        }
-    } catch (error) {
-        console.error('Error searching for job file:', error);
-    }
-    return null;
-}
+import { validatePayload, isRequired, isURL, safeToTimestamp, isAfter } from '@/lib/apiUtils';
 
 // This type represents the shape of the data coming from the frontend form
 type JobFormData = Partial<Omit<JobPosting, 'id' | 'tags' | 'responsibilities' | 'qualifications'> & {
@@ -113,31 +88,6 @@ export default async function handler(
 
         await jobRef.update(updateData);
 
-        // --- Update or Create Markdown File ---
-        const updatedDoc = await jobRef.get();
-        const updatedJobData = updatedDoc.data() as FirestoreJobPosting;
-
-        const markdownDescription = turndownService.turndown(updatedJobData.description || '');
-        let markdownBody = markdownDescription;
-        if (updatedJobData.responsibilities && updatedJobData.responsibilities.length > 0) {
-            markdownBody += '\n\n### Responsibilities\n\n' + updatedJobData.responsibilities.map(r => `- ${r}`).join('\n');
-        }
-        if (updatedJobData.qualifications && updatedJobData.qualifications.length > 0) {
-            markdownBody += '\n\n### Qualifications\n\n' + updatedJobData.qualifications.map(q => `- ${q}`).join('\n');
-        }
-
-        const frontmatter = `---\nid: ${id}\ntitle: "${updatedJobData.title.replaceAll('"', '\"')}"\ncompany: "${updatedJobData.company.replaceAll('"', '\"')}"\nlocation: "${updatedJobData.location.replaceAll('"', '\"')}"\napplicationLink: ${updatedJobData.applicationLink}\npostedDate: ${updatedJobData.postedDate.toDate().toISOString()}\nexpirationDate: ${updatedJobData.expirationDate ? updatedJobData.expirationDate.toDate().toISOString() : 'null'}\ntags:\n${(updatedJobData.tags || []).map(t => `  - ${t}`).join('\n')}\nstatus: ${updatedJobData.status}\njobLevel: ${updatedJobData.jobLevel || 'null'}\nemployeeRole: ${updatedJobData.employeeRole || 'null'}\nsalaryRange: ${updatedJobData.salaryRange || 'null'}\nstory_question1: "${(updatedJobData.story_question1 || '').replaceAll('"', '\"')}"\nstory_answer1: "${(updatedJobData.story_answer1 || '').replaceAll('"', '\"')}"\nstory_question2: "${(updatedJobData.story_question2 || '').replaceAll('"', '\"')}"\nstory_answer2: "${(updatedJobData.story_answer2 || '').replaceAll('"', '\"')}"\nstory_question3: "${(updatedJobData.story_question3 || '').replaceAll('"', '\"')}"\nstory_answer3: "${(updatedJobData.story_answer3 || '').replaceAll('"', '\"')}"\n---\n\n${markdownBody}\n`;
-        
-        let filepath = await findJobFile(id);
-        if (!filepath) {
-            const filename = `job-${slugify(updatedJobData.title)}-${id.substring(0, 6)}.md`;
-            filepath = path.join(process.cwd(), 'src', 'job-descriptions', filename);
-        }
-        await fs.writeFile(filepath, frontmatter);
-        console.log(`Markdown file updated for job ${id} at ${filepath}`);
-        // --- End Update Markdown File ---
-
-
         // Trigger revalidation for relevant pages
         try {
           await res.revalidate('/');
@@ -145,6 +95,9 @@ export default async function handler(
         } catch (revalError) {
           console.error('Error during revalidation after job update:', revalError);
         }
+
+        const updatedDoc = await jobRef.get();
+        const updatedJobData = updatedDoc.data() as FirestoreJobPosting;
 
         const finalJob = {
           id: updatedDoc.id,
@@ -163,14 +116,6 @@ export default async function handler(
 
     case 'DELETE':
       try {
-        // --- Delete Markdown File ---
-        const filepath = await findJobFile(id);
-        if (filepath) {
-            await fs.unlink(filepath);
-            console.log(`Markdown file deleted for job ${id} from ${filepath}`);
-        }
-        // --- End Delete Markdown File ---
-
         await jobRef.delete();
 
         // Trigger revalidation for relevant pages
