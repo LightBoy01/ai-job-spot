@@ -38,7 +38,7 @@ const slugify = (text: string) => {
         .replace(/^-+|-+$/g, '');
 };
 
-async function writeMarkdownFile(item: JobItem, outputDir: string) {
+async function writeMarkdownFile(item: JobItem, outputDir: string, log: (message: string) => void) {
     const frontmatter = {
         id: item.id,
         title: item.title,
@@ -66,9 +66,9 @@ async function writeMarkdownFile(item: JobItem, outputDir: string) {
 
     try {
         await fsPromises.writeFile(filepath, fullContent, 'utf-8');
-        console.log(`Successfully saved job to: ${filepath}`);
+        log(`Successfully saved job to: ${filepath}`);
     } catch (error) {
-        console.error(`Could not write file ${filepath}. Reason:`, error);
+        log(`Could not write file ${filepath}. Reason: ${error}`);
     }
 }
 
@@ -162,11 +162,13 @@ async function main() {
                 if (href) {
                   const absoluteUrl = new URL(href, request.loadedUrl).href;
                   log(`Enqueuing relevant job for detail scraping: "${title}" at ${absoluteUrl}`);
-                  await crawler.addRequests([{
-                    url: absoluteUrl,
-                    label: 'DETAIL',
-                    userData: { title }, // Pass title to the detail page handler
-                  }]);
+                  await crawler.addRequests([
+                    {
+                      url: absoluteUrl,
+                      label: 'DETAIL',
+                      userData: { title }, // Pass title to the detail page handler
+                    },
+                  ]);
                 }
               }
             }
@@ -184,11 +186,13 @@ async function main() {
                 if (nextPageHref) {
                   const nextUrl = new URL(nextPageHref, request.loadedUrl).href;
                   log(`Found next page link: ${nextUrl}`);
-                  await crawler.addRequests([{
-                    url: nextUrl,
-                    label: 'LIST',
-                    userData: { pageNumber: pageNumber + 1 },
-                  }]);
+                  await crawler.addRequests([
+                    {
+                      url: nextUrl,
+                      label: 'LIST',
+                      userData: { pageNumber: pageNumber + 1 },
+                    },
+                  ]);
                 } else {
                   log('No more next page links found. Stopping pagination.');
                 }
@@ -226,7 +230,7 @@ async function main() {
             const qualifications = $(selectors.perks).map((i, el) => $(el).text().trim()).get(); // Note: Python script called this 'perks'
 
             const metadataText = $(selectors.metadata_container).text();
-            const bracketedTerms = metadataText.match(/\[(.*?)\]/g) || [];
+            const bracketedTerms = metadataText.match(/\\\[(.*?)\\\]/g) || [];
             const jobLevelKeywords = ['entry', 'mid-level', 'senior', 'lead', 'principal', 'intermediate'];
             const roleKeywords = ['full time', 'part time', 'contract', 'internship'];
             let jobLevel: string | undefined;
@@ -234,8 +238,8 @@ async function main() {
 
             bracketedTerms.forEach(term => {
                 const termLower = term.toLowerCase();
-                if (jobLevelKeywords.some(k => termLower.includes(k))) jobLevel = term.replace(/\[|\]/g, '');
-                if (roleKeywords.some(k => termLower.includes(k))) employeeRole = term.replace(/\[|\]/g, '');
+                if (jobLevelKeywords.some(k => termLower.includes(k))) jobLevel = term.replace(/\\\[|\\\\]/g, '');
+                if (roleKeywords.some(k => termLower.includes(k))) employeeRole = term.replace(/\\\[|\\\\]/g, '');
             });
 
             const description = `### Responsibilities\n${responsibilities.map(r => `- ${r}`).join('\n')}\n\n### Qualifications\n${qualifications.map(q => `- ${q}`).join('\n')}`;
@@ -251,7 +255,7 @@ async function main() {
                 description: description,
                 applicationLink: request.url,
                 postedDate: new Date().toISOString(),
-                tags: skills.match(/\[(.*?)\]/g)?.map(t => t.replace(/\[|\]/g, '')) || [],
+                tags: skills.match(/\\\[(.*?)\\\]/g)?.map(t => t.replace(/\\\[|\\\\]/g, '')) || [],
                 status: 'pending_review',
                 jobLevel: jobLevel,
                 employeeRole: employeeRole,
@@ -265,7 +269,7 @@ async function main() {
             existingUrls.add(request.url);
 
             log(`Successfully parsed job item. Writing to file...`);
-            await writeMarkdownFile(jobItem, outputDir);
+            await writeMarkdownFile(jobItem, outputDir, log);
           }
         },
 
@@ -278,7 +282,8 @@ async function main() {
       await crawler.addRequests([
         {
           url: spiderConfig.start_url,
-          label: 'LIST', // Label to distinguish list pages from detail pages
+          label: 'LIST',
+          // Label to distinguish list pages from detail pages
           userData: { pageNumber: 1 },
         },
       ]);
@@ -297,7 +302,7 @@ async function main() {
   } finally {
     logStream.end();
   }
+}
 
 // Execute the main function
 main();
-}
