@@ -2,6 +2,15 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { JobPosting } from '@/lib/types';
 import { Query } from 'firebase-admin/firestore';
+import { z } from 'zod';
+
+// Define the schema for query parameter validation
+const searchSchema = z.object({
+  q: z.string().max(100).optional().default(''), // Search query
+  startAfter: z.string().max(100).optional(), // Firestore document ID for pagination
+  limit: z.coerce.number().int().positive().max(50).optional().default(10), // Page size
+});
+
 
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
 const serializeJob = (doc: FirebaseFirestore.DocumentSnapshot): JobPosting => {
@@ -22,12 +31,15 @@ export default async function handler(
     return res.status(405).json({ message: 'Method not allowed' });
   }
 
-  const { q, startAfter: startAfterId, limit: limitStr } = req.query;
-
-  const limit = limitStr ? parseInt(limitStr as string, 10) : 10; // Default to 10
-  const searchTerm = typeof q === 'string' ? q.trim() : '';
-
   try {
+    // Validate and parse query parameters
+    const validation = searchSchema.safeParse(req.query);
+    if (!validation.success) {
+      return res.status(400).json({ message: 'Invalid query parameters.', errors: validation.error.flatten() });
+    }
+    
+    const { q: searchTerm, startAfter: startAfterId, limit } = validation.data;
+
     res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=300');
 
     let query: Query = adminDb.collection('jobs').where('status', '==', 'published');
@@ -41,7 +53,7 @@ export default async function handler(
     // Always order by postedDate descending for consistent pagination
     query = query.orderBy('postedDate', 'desc');
 
-    if (typeof startAfterId === 'string' && startAfterId) {
+    if (startAfterId) {
       const startAfterDoc = await adminDb.collection('jobs').doc(startAfterId).get();
       if (startAfterDoc.exists) {
         query = query.startAfter(startAfterDoc);
