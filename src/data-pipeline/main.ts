@@ -7,6 +7,7 @@ import { promises as fsPromises } from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
+import { WriteStream } from 'fs';
 
 // Recreate __dirname for ES Modules
 const __filename = fileURLToPath(import.meta.url);
@@ -56,7 +57,8 @@ async function writeMarkdownFile(item: JobItem, outputDir: string, log: (message
     };
 
     const yamlFrontmatter = yaml.dump(frontmatter);
-    const fullContent = `---\n${yamlFrontmatter}---\n\n${item.description}`;
+    const fullContent = `---\n${yamlFrontmatter}---\n
+${item.description}`;
 
     const companySlug = slugify(item.company || 'nocompany');
     const titleSlug = slugify(item.title || 'notitle').substring(0, 50);
@@ -162,13 +164,12 @@ async function main() {
                 if (href) {
                   const absoluteUrl = new URL(href, request.loadedUrl).href;
                   log(`Enqueuing relevant job for detail scraping: "${title}" at ${absoluteUrl}`);
-                  await crawler.addRequests([
-                    {
-                      url: absoluteUrl,
-                      label: 'DETAIL',
-                      userData: { title }, // Pass title to the detail page handler
-                    },
-                  ]);
+                  // This is now a Playwright request to find the *real* application link
+                  await crawler.addRequests([{ 
+                    url: absoluteUrl,
+                    label: 'DETAIL',
+                    userData: { title },
+                  }]);
                 }
               }
             }
@@ -186,13 +187,11 @@ async function main() {
                 if (nextPageHref) {
                   const nextUrl = new URL(nextPageHref, request.loadedUrl).href;
                   log(`Found next page link: ${nextUrl}`);
-                  await crawler.addRequests([
-                    {
-                      url: nextUrl,
-                      label: 'LIST',
-                      userData: { pageNumber: pageNumber + 1 },
-                    },
-                  ]);
+                  await crawler.addRequests([{ 
+                    url: nextUrl,
+                    label: 'LIST',
+                    userData: { pageNumber: pageNumber + 1 },
+                  }]);
                 } else {
                   log('No more next page links found. Stopping pagination.');
                 }
@@ -204,72 +203,28 @@ async function main() {
             }
 
           } else if (request.label === 'DETAIL') {
-            // Logic for the job detail page
-            if (existingUrls.has(request.url)) {
-                log(`Skipping duplicate job (already exists): ${request.url}`);
+            // STEP 1: On the aggregator's detail page, find the REAL application link.
+            const externalLinkSelector = spiderConfig.job_detail_selectors.external_link_selector;
+            if (!externalLinkSelector) {
+                errorLog(`No external_link_selector configured for ${scraperConfig.name}. Cannot proceed with job "${request.userData.title}".`);
                 return;
             }
 
-            log(`Scraping details for job: "${request.userData.title}"`);
-            
-            const response = await gotScraping.get({
-                url: request.url,
-                headers: { 'HX-Request': 'true' }, // Mimic the original script's header
-            });
+            try {
+                await page.waitForSelector(externalLinkSelector, { timeout: 15000 });
+                const externalLinkElement = page.locator(externalLinkSelector).first();
+                const externalUrl = await externalLinkElement.getAttribute('href');
 
-            const $ = cheerio.load(response.body);
-            const selectors = spiderConfig.job_detail_selectors;
-
-            const title = $(selectors.title).text().trim();
-            const company = $(selectors.company).text().trim();
-            const location = $(selectors.location).text().trim();
-            const salary = $(selectors.salary).text().trim();
-            const skills = $(selectors.skills).text().trim();
-
-            const responsibilities = $(selectors.tasks).map((i, el) => $(el).text().trim()).get();
-            const qualifications = $(selectors.perks).map((i, el) => $(el).text().trim()).get(); // Note: Python script called this 'perks'
-
-            const metadataText = $(selectors.metadata_container).text();
-            const bracketedTerms = metadataText.match(/\\\[(.*?)\\\]/g) || [];
-            const jobLevelKeywords = ['entry', 'mid-level', 'senior', 'lead', 'principal', 'intermediate'];
-            const roleKeywords = ['full time', 'part time', 'contract', 'internship'];
-            let jobLevel: string | undefined;
-            let employeeRole: string | undefined;
-
-            bracketedTerms.forEach(term => {
-                const termLower = term.toLowerCase();
-                if (jobLevelKeywords.some(k => termLower.includes(k))) jobLevel = term.replace(/\\\[|\\\\]/g, '');
-                if (roleKeywords.some(k => termLower.includes(k))) employeeRole = term.replace(/\\\[|\\\\]/g, '');
-            });
-
-            const description = `### Responsibilities\n${responsibilities.map(r => `- ${r}`).join('\n')}\n\n### Qualifications\n${qualifications.map(q => `- ${q}`).join('\n')}`;
-            const companySlug = slugify(company || 'nocompany');
-            const titleSlug = slugify(title || 'notitle').substring(0, 50);
-            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-
-            const jobItem: JobItem = {
-                id: `job-scraped-${companySlug}-${titleSlug}-${timestamp}`,
-                title: title || request.userData.title,
-                company: company,
-                location: location,
-                description: description,
-                applicationLink: request.url,
-                postedDate: new Date().toISOString(),
-                tags: skills.match(/\\\[(.*?)\\\]/g)?.map(t => t.replace(/\\\[|\\\\]/g, '')) || [],
-                status: 'pending_review',
-                jobLevel: jobLevel,
-                employeeRole: employeeRole,
-                salaryRange: salary,
-                source: scraperConfig.name,
-                responsibilities: responsibilities,
-                qualifications: qualifications,
-            };
-
-            // Add to cache before writing to prevent duplicates in the same run
-            existingUrls.add(request.url);
-
-            log(`Successfully parsed job item. Writing to file...`);
-            await writeMarkdownFile(jobItem, outputDir, log);
+                if (externalUrl) {
+                    log(`Discovered external link for "${request.userData.title}": ${externalUrl}`);
+                    // TODO: In the next step, we will enqueue a new request to this externalUrl
+                    // with a label like 'SOURCE_DETAIL' to perform the deep scrape.
+                } else {
+                    log(`Could not find href for external link on page: ${request.url}`);
+                }
+            } catch (e) {
+                errorLog(`Could not find the external link selector ("${externalLinkSelector}") for job "${request.userData.title}" at ${request.url}`);
+            }
           }
         },
 
