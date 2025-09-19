@@ -4,6 +4,33 @@ const nextConfig = {
   images: {
     domains: ['localhost', 'aijobspot.online'],
   },
+  async headers() {
+    const cspHeader = `
+      default-src 'self';
+      script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://apis.google.com https://www.google-analytics.com https://connect.facebook.net https://www.gstatic.com/firebasejs/ https://*.firebaseio.com;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com https://lh3.googleusercontent.com;
+      font-src 'self' https://fonts.gstatic.com;
+      frame-src 'self' https://*.firebaseapp.com;
+      object-src 'none';
+      base-uri 'self';
+      form-action 'self';
+      frame-ancestors 'none';
+      upgrade-insecure-requests;
+    `;
+
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'Content-Security-Policy-Report-Only',
+            value: cspHeader.replace(/\s{2,}/g, ' ').trim(),
+          },
+        ],
+      },
+    ];
+  },
   async redirects() {
     return [
       {
