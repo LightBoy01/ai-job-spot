@@ -9,12 +9,15 @@ import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 import { WriteStream } from 'fs';
 
+import { FoorillaParser } from './parsers/foorilla_parser';
+import { IParser } from './parsers/base_parser';
+
 // Recreate __dirname for ES Modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // The structure of a scraped job item, similar to items.py
-interface JobItem {
+export interface JobItem {
   id: string;
   title: string;
   company: string;
@@ -210,20 +213,24 @@ async function main() {
 
             log(`Scraping details for job: "${request.userData.title}" from ${request.url}`);
             
-            // Use got-scraping for speed, as these pages don't need full JS rendering
             const response = await gotScraping.get({ url: request.url });
-            const $ = cheerio.load(response.body);
+            const htmlBody = response.body;
+            const $ = cheerio.load(htmlBody);
 
-            // --- New, more robust selectors for Foorilla --- 
+            // --- Select and instantiate the correct parser ---
+            // This is where a factory or switch statement would go if we had more parsers
+            const parser: IParser = new FoorillaParser();
+            const parsedDetails = parser.parse(htmlBody);
+
+            // --- Basic data extraction using Cheerio (can also be moved to parser) ---
             const title = $('h1').first().text().trim();
             const company = $('div.hstack strong a').first().text().trim();
             const locationText = $('div.hstack > div:first-child').text().trim();
             const location = locationText.split('\n')[0].trim();
-            const descriptionBody = $('div.job-description-body').html() || ''; // Get the full inner HTML
             const externalLink = $('a:contains("Apply Now")').attr('href') || $('a:contains("Apply")').attr('href');
 
-            // The rest of the data can be parsed from the messy location string for now
-            const metadataText = location;
+            // --- Metadata extraction (can also be moved to parser) ---
+            const metadataText = locationText;
             const bracketedTerms = metadataText.match(/\[(.*?)\]/g) || [];
             const jobLevelKeywords = ['entry', 'mid-level', 'senior', 'lead', 'principal', 'intermediate'];
             const roleKeywords = ['full time', 'part time', 'contract', 'internship'];
@@ -236,7 +243,6 @@ async function main() {
                 if (roleKeywords.some(k => termLower.includes(k))) employeeRole = term.replace(/\[|\]/g, '');
             });
 
-            // Simple salary extraction from the messy text
             const salaryMatch = metadataText.match(/(USD|CAD) [0-9,K]+(-[0-9,K]+)?/);
             const salaryRange = salaryMatch ? salaryMatch[0] : undefined;
 
@@ -248,18 +254,18 @@ async function main() {
                 id: `job-scraped-${companySlug}-${titleSlug}-${timestamp}`,
                 title: title || request.userData.title,
                 company: company,
-                location: location.split('\n')[0].trim(), // Attempt to clean up location
-                description: descriptionBody,
-                applicationLink: externalLink || request.url, // Prioritize the real link
+                location: location,
+                description: parsedDetails.description || '',
+                applicationLink: externalLink || request.url,
                 postedDate: new Date().toISOString(),
-                tags: [], // Tags are not easily available, leave for manual enhancement
+                tags: [],
                 status: 'pending_review',
                 jobLevel: jobLevel,
                 employeeRole: employeeRole,
                 salaryRange: salaryRange,
                 source: scraperConfig.name,
-                responsibilities: [], // Will be part of the main description now
-                qualifications: [], // Will be part of the main description now
+                responsibilities: parsedDetails.responsibilities,
+                qualifications: parsedDetails.qualifications,
             };
 
             // Add to cache before writing to prevent duplicates in the same run
