@@ -213,13 +213,16 @@ async function main() {
 
             log(`Scraping details for job: "${request.userData.title}" from ${request.url}`);
             
+            log(`[DETAIL] 1. Fetching HTML for ${request.url}`);
             const response = await gotScraping.get({ url: request.url });
             const htmlBody = response.body;
-            log(`--- HTML BODY FOR ${request.url} ---\n${htmlBody}\n--- END HTML BODY ---`); // DEBUG LOGGING
+            log(`[DETAIL] 2. HTML fetched successfully. Instantiating parser.`);
 
-            // Select and instantiate the correct parser
             const parser: IParser = new FoorillaParser();
+            log(`[DETAIL] 3. Parser instantiated. Calling parse method.`);
+
             const parsedDetails = parser.parse(htmlBody);
+            log(`[DETAIL] 4. Parse method completed. Creating jobItem object.`);
 
             const externalLink = cheerio.load(htmlBody)('a:contains("Apply Now")').attr('href') || cheerio.load(htmlBody)('a:contains("Apply")').attr('href');
 
@@ -244,12 +247,14 @@ async function main() {
                 responsibilities: parsedDetails.responsibilities,
                 qualifications: parsedDetails.qualifications,
             };
+            log(`[DETAIL] 5. jobItem object created. Adding to cache.`);
 
             // Add to cache before writing to prevent duplicates in the same run
             existingUrls.add(request.url);
+            log(`[DETAIL] 6. Added to cache. Writing file.`);
 
-            log(`Successfully parsed job item. Writing to file...`);
             await writeMarkdownFile(jobItem, outputDir, log);
+            log(`[DETAIL] 7. File writing process initiated.`);
           }
         },
 
