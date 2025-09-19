@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { IParser, ParsedJobDetails } from './base_parser';
+import { IParser, ParsedJobDetails } from './base_parser.js';
 
 export class FoorillaParser implements IParser {
     parse(html: string): ParsedJobDetails {

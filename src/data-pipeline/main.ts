@@ -9,8 +9,8 @@ import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 import { WriteStream } from 'fs';
 
-import { FoorillaParser } from './parsers/foorilla_parser';
-import { IParser } from './parsers/base_parser';
+import { FoorillaParser } from './parsers/foorilla_parser.js';
+import { IParser } from './parsers/base_parser.js';
 
 // Recreate __dirname for ES Modules
 const __filename = fileURLToPath(import.meta.url);

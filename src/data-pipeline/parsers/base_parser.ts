@@ -1,4 +1,4 @@
-import { JobItem } from '../main';
+import { JobItem } from '../main.js';
 
 // Defines the output structure that all parsers must return.
 export interface ParsedJobDetails {
