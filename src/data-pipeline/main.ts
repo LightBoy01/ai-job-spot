@@ -215,54 +215,31 @@ async function main() {
             
             const response = await gotScraping.get({ url: request.url });
             const htmlBody = response.body;
-            const $ = cheerio.load(htmlBody);
+            log(`--- HTML BODY FOR ${request.url} ---\n${htmlBody}\n--- END HTML BODY ---`); // DEBUG LOGGING
 
-            // --- Select and instantiate the correct parser ---
-            // This is where a factory or switch statement would go if we had more parsers
+            // Select and instantiate the correct parser
             const parser: IParser = new FoorillaParser();
             const parsedDetails = parser.parse(htmlBody);
 
-            // --- Basic data extraction using Cheerio (can also be moved to parser) ---
-            const title = $('h1').first().text().trim();
-            const company = $('div.hstack strong a').first().text().trim();
-            const locationText = $('div.hstack > div:first-child').text().trim();
-            const location = locationText.split('\n')[0].trim();
-            const externalLink = $('a:contains("Apply Now")').attr('href') || $('a:contains("Apply")').attr('href');
+            const externalLink = cheerio.load(htmlBody)('a:contains("Apply Now")').attr('href') || cheerio.load(htmlBody)('a:contains("Apply")').attr('href');
 
-            // --- Metadata extraction (can also be moved to parser) ---
-            const metadataText = locationText;
-            const bracketedTerms = metadataText.match(/\[(.*?)\]/g) || [];
-            const jobLevelKeywords = ['entry', 'mid-level', 'senior', 'lead', 'principal', 'intermediate'];
-            const roleKeywords = ['full time', 'part time', 'contract', 'internship'];
-            let jobLevel: string | undefined;
-            let employeeRole: string | undefined;
-
-            bracketedTerms.forEach(term => {
-                const termLower = term.toLowerCase();
-                if (jobLevelKeywords.some(k => termLower.includes(k))) jobLevel = term.replace(/\[|\]/g, '');
-                if (roleKeywords.some(k => termLower.includes(k))) employeeRole = term.replace(/\[|\]/g, '');
-            });
-
-            const salaryMatch = metadataText.match(/(USD|CAD) [0-9,K]+(-[0-9,K]+)?/);
-            const salaryRange = salaryMatch ? salaryMatch[0] : undefined;
-
-            const companySlug = slugify(company || 'nocompany');
-            const titleSlug = slugify(title || 'notitle').substring(0, 50);
+            const companySlug = slugify(parsedDetails.company || 'nocompany');
+            const titleSlug = slugify(parsedDetails.title || 'notitle').substring(0, 50);
             const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 
             const jobItem: JobItem = {
                 id: `job-scraped-${companySlug}-${titleSlug}-${timestamp}`,
-                title: title || request.userData.title,
-                company: company,
-                location: location,
-                description: parsedDetails.description || '',
+                title: parsedDetails.title || request.userData.title,
+                company: parsedDetails.company,
+                location: parsedDetails.location,
+                description: parsedDetails.description,
                 applicationLink: externalLink || request.url,
                 postedDate: new Date().toISOString(),
-                tags: [],
+                tags: [], // Tags are not yet implemented
                 status: 'pending_review',
-                jobLevel: jobLevel,
-                employeeRole: employeeRole,
-                salaryRange: salaryRange,
+                jobLevel: parsedDetails.jobLevel,
+                employeeRole: parsedDetails.employeeRole,
+                salaryRange: parsedDetails.salaryRange,
                 source: scraperConfig.name,
                 responsibilities: parsedDetails.responsibilities,
                 qualifications: parsedDetails.qualifications,
