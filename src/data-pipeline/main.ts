@@ -206,55 +206,59 @@ async function main() {
             }
 
           } else if (request.label === 'DETAIL') {
-            if (existingUrls.has(request.url)) {
-                log(`Skipping duplicate job (already exists): ${request.url}`);
-                return;
+            try {
+              if (existingUrls.has(request.url)) {
+                  log(`Skipping duplicate job (already exists): ${request.url}`);
+                  return;
+              }
+
+              log(`Scraping details for job: "${request.userData.title}" from ${request.url}`);
+              
+              log(`[DETAIL] 1. Fetching HTML for ${request.url}`);
+              const response = await gotScraping.get({ url: request.url });
+              const htmlBody = response.body;
+              log(`[DETAIL] 2. HTML fetched successfully. Instantiating parser.`);
+
+              const parser: IParser = new FoorillaParser();
+              log(`[DETAIL] 3. Parser instantiated. Calling parse method.`);
+
+              const parsedDetails = parser.parse(htmlBody);
+              log(`[DETAIL] 4. Parse method completed. Creating jobItem object.`);
+
+              const externalLink = cheerio.load(htmlBody)('a:contains("Apply Now")').attr('href') || cheerio.load(htmlBody)('a:contains("Apply")').attr('href');
+
+              const companySlug = slugify(parsedDetails.company || 'nocompany');
+              const titleSlug = slugify(parsedDetails.title || 'notitle').substring(0, 50);
+              const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+
+              const jobItem: JobItem = {
+                  id: `job-scraped-${companySlug}-${titleSlug}-${timestamp}`,
+                  title: parsedDetails.title || request.userData.title,
+                  company: parsedDetails.company,
+                  location: parsedDetails.location,
+                  description: parsedDetails.description,
+                  applicationLink: externalLink || request.url,
+                  postedDate: new Date().toISOString(),
+                  tags: [], // Tags are not yet implemented
+                  status: 'pending_review',
+                  jobLevel: parsedDetails.jobLevel,
+                  employeeRole: parsedDetails.employeeRole,
+                  salaryRange: parsedDetails.salaryRange,
+                  source: scraperConfig.name,
+                  responsibilities: parsedDetails.responsibilities,
+                  qualifications: parsedDetails.qualifications,
+              };
+              log(`[DETAIL] 5. jobItem object created. Adding to cache.`);
+
+              // Add to cache before writing to prevent duplicates in the same run
+              existingUrls.add(request.url);
+              log(`[DETAIL] 6. Added to cache. Writing file.`);
+
+              await writeMarkdownFile(jobItem, outputDir, log);
+              log(`[DETAIL] 7. File writing process initiated.`);
+            } catch (e) {
+              errorLog(`A critical error occurred in the DETAIL handler for ${request.url}:`, e);
             }
-
-            log(`Scraping details for job: "${request.userData.title}" from ${request.url}`);
-            
-            log(`[DETAIL] 1. Fetching HTML for ${request.url}`);
-            const response = await gotScraping.get({ url: request.url });
-            const htmlBody = response.body;
-            log(`[DETAIL] 2. HTML fetched successfully. Instantiating parser.`);
-
-            const parser: IParser = new FoorillaParser();
-            log(`[DETAIL] 3. Parser instantiated. Calling parse method.`);
-
-            const parsedDetails = parser.parse(htmlBody);
-            log(`[DETAIL] 4. Parse method completed. Creating jobItem object.`);
-
-            const externalLink = cheerio.load(htmlBody)('a:contains("Apply Now")').attr('href') || cheerio.load(htmlBody)('a:contains("Apply")').attr('href');
-
-            const companySlug = slugify(parsedDetails.company || 'nocompany');
-            const titleSlug = slugify(parsedDetails.title || 'notitle').substring(0, 50);
-            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-
-            const jobItem: JobItem = {
-                id: `job-scraped-${companySlug}-${titleSlug}-${timestamp}`,
-                title: parsedDetails.title || request.userData.title,
-                company: parsedDetails.company,
-                location: parsedDetails.location,
-                description: parsedDetails.description,
-                applicationLink: externalLink || request.url,
-                postedDate: new Date().toISOString(),
-                tags: [], // Tags are not yet implemented
-                status: 'pending_review',
-                jobLevel: parsedDetails.jobLevel,
-                employeeRole: parsedDetails.employeeRole,
-                salaryRange: parsedDetails.salaryRange,
-                source: scraperConfig.name,
-                responsibilities: parsedDetails.responsibilities,
-                qualifications: parsedDetails.qualifications,
-            };
-            log(`[DETAIL] 5. jobItem object created. Adding to cache.`);
-
-            // Add to cache before writing to prevent duplicates in the same run
-            existingUrls.add(request.url);
-            log(`[DETAIL] 6. Added to cache. Writing file.`);
-
-            await writeMarkdownFile(jobItem, outputDir, log);
-            log(`[DETAIL] 7. File writing process initiated.`);
           }
         },
 
