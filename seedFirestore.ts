@@ -1,4 +1,4 @@
-import admin from 'firebase-admin';
+import { admin, adminDb } from './src/lib/firebaseAdmin.js';
 import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
@@ -58,23 +58,7 @@ const jobSchema = z.object({
 
 // --- INITIALIZATION ---
 (async () => {
-    if (!admin.apps.length) {
-        try {
-            const serviceAccountPath = path.resolve('serviceAccountKey.local.json');
-            const serviceAccount = JSON.parse(await fs.readFile(serviceAccountPath, 'utf8'));
-
-            admin.initializeApp({
-                credential: admin.credential.cert(serviceAccount),
-            });
-            console.log("Firebase Admin SDK initialized successfully from local key.");
-        } catch (error) {
-            console.error("Firebase Admin SDK initialization error:", error);
-            console.log("Please ensure a 'serviceAccountKey.local.json' file exists in the project root.");
-            process.exit(1);
-        }
-    }
-
-    const db = admin.firestore();
+    const db = adminDb;
 
     // --- DYNAMIC CONTENT PROCESSING ---
 
@@ -236,22 +220,14 @@ const jobSchema = z.object({
                 continue;
             }
             const jobRef = jobsCollection.doc(job.id);
+            // The spread operator `...job` carries all fields from the parsed markdown.
+            // We only need to explicitly provide defaults for fields that might be missing
+            // and are required to have a non-undefined value (like an empty array for tags).
             const jobToSeed = {
                 ...job,
-                salaryRange: job.salaryRange ?? null,
-                jobLevel: job.jobLevel ?? null,
-                employeeRole: job.employeeRole ?? null,
-                source: job.source ?? null,
                 tags: job.tags ?? [],
-                description: job.description ?? '',
                 responsibilities: job.responsibilities ?? [],
                 qualifications: job.qualifications ?? [],
-                story_question1: job.story_question1 ?? null,
-                story_answer1: job.story_answer1 ?? null,
-                story_question2: job.story_question2 ?? null,
-                story_answer2: job.story_answer2 ?? null,
-                story_question3: job.story_question3 ?? null,
-                story_answer3: job.story_answer3 ?? null,
             };
             upsertBatch.set(jobRef, jobToSeed, { merge: true });
             operationsCount++;
