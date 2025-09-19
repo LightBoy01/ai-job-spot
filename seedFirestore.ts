@@ -37,6 +37,8 @@ const jobSchema = z.object({
     employeeRole: z.string().nullable().optional(),
     salaryRange: z.string().nullable().optional(),
     source: z.string().nullable().optional(),
+    glassdoorLink: z.string().url().nullable().optional(),
+    crunchbaseLink: z.string().url().nullable().optional(),
     companyLogoUrl: z.string().nullable().optional(),
     applicationExperience: z.string().optional(),
     excerpt: z.string(), // Added by our script
@@ -236,20 +238,20 @@ const jobSchema = z.object({
             const jobRef = jobsCollection.doc(job.id);
             const jobToSeed = {
                 ...job,
-                salaryRange: job.salaryRange || null,
-                jobLevel: job.jobLevel || null,
-                employeeRole: job.employeeRole || null,
-                source: job.source || null,
-                tags: job.tags || [],
-                description: job.description || '',
-                responsibilities: job.responsibilities || [],
-                qualifications: job.qualifications || [],
-                story_question1: job.story_question1 || null,
-                story_answer1: job.story_answer1 || null,
-                story_question2: job.story_question2 || null,
-                story_answer2: job.story_answer2 || null,
-                story_question3: job.story_question3 || null,
-                story_answer3: job.story_answer3 || null,
+                salaryRange: job.salaryRange ?? null,
+                jobLevel: job.jobLevel ?? null,
+                employeeRole: job.employeeRole ?? null,
+                source: job.source ?? null,
+                tags: job.tags ?? [],
+                description: job.description ?? '',
+                responsibilities: job.responsibilities ?? [],
+                qualifications: job.qualifications ?? [],
+                story_question1: job.story_question1 ?? null,
+                story_answer1: job.story_answer1 ?? null,
+                story_question2: job.story_question2 ?? null,
+                story_answer2: job.story_answer2 ?? null,
+                story_question3: job.story_question3 ?? null,
+                story_answer3: job.story_answer3 ?? null,
             };
             upsertBatch.set(jobRef, jobToSeed, { merge: true });
             operationsCount++;
