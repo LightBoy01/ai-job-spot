@@ -46,6 +46,7 @@ export default async function handler(
     sitemap += `\n</urlset>`;
 
     res.setHeader('Content-Type', 'text/xml');
+    res.setHeader('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate=60');
     res.status(200).send(sitemap);
   } catch (error) {
     console.error('Error generating sitemap:', error);

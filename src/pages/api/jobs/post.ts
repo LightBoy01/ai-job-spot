@@ -102,9 +102,6 @@ export default async function handler(
 
   } catch (error) {
     console.error('Error posting job:', error);
-    if (error instanceof Error) {
-        return res.status(500).json({ message: `Internal Server Error: ${error.message}` });
-    }
-    return res.status(500).json({ message: 'An unknown internal server error occurred.' });
+    return res.status(500).json({ message: 'An internal server error occurred.' });
   }
 }
