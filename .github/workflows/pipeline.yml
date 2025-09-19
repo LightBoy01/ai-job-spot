@@ -88,3 +88,13 @@ jobs:
           path: |
             data/pending_review/
             pipeline_run.log
+
+      - name: 8. Check for Scraped Output and Alert on Failure
+        if: ${{ success() }} # Only run this check if the scraper itself didn't crash
+        run: |
+          if [ $(find data/pending_review -name "*.md" 2>/dev/null | wc -l) -eq 0 ]; then
+            echo "::error::Scraper run completed but produced 0 markdown files. The target website may have changed its layout, breaking the selectors."
+            exit 1
+          else
+            echo "Health check passed: Scraper produced output."
+          fi

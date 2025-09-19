@@ -216,8 +216,9 @@ async function main() {
 
             // --- New, more robust selectors for Foorilla --- 
             const title = $('h1').first().text().trim();
-            const company = $('a[href*="/hiring/companies/"]').first().text().trim();
-            const location = $('div.hstack > div:first-child').text().trim(); // This might still be messy, needs review
+            const company = $('div.hstack strong a').first().text().trim();
+            const locationText = $('div.hstack > div:first-child').text().trim();
+            const location = locationText.split('\n')[0].trim();
             const descriptionBody = $('div.job-description-body').html() || ''; // Get the full inner HTML
             const externalLink = $('a:contains("Apply Now")').attr('href') || $('a:contains("Apply")').attr('href');
 
