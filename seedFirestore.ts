@@ -1,4 +1,4 @@
-import { admin, adminDb } from './src/lib/firebaseAdmin.js';
+import { admin, adminDb } from './src/lib/firebaseAdmin';
 import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
