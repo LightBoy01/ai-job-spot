@@ -242,6 +242,13 @@ const jobSchema = z.object({
                 tags: job.tags ?? [],
                 responsibilities: job.responsibilities ?? [],
                 qualifications: job.qualifications ?? [],
+                story_question1: job.story_question1 || null,
+                story_answer1: job.story_answer1 || null,
+                story_question2: job.story_question2 || null,
+                story_answer2: job.story_answer2 || null,
+                story_question3: job.story_question3 || null,
+                story_answer3: job.story_answer3 || null,
+                companyCulture: job.companyCulture || null,
             };
             upsertBatch.set(jobRef, jobToSeed, { merge: true });
             operationsCount++;

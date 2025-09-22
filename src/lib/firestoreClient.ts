@@ -40,6 +40,7 @@ const processJobData = (docSnap: DocumentSnapshot<DocumentData>): JobPosting => 
         applicationExperience: data?.applicationExperience || null,
         glassdoorLink: data?.glassdoorLink || null,
         crunchbaseLink: data?.crunchbaseLink || null,
+        companyCulture: data?.companyCulture || null,
     } as JobPosting;
 };
 
@@ -148,6 +149,15 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
 }
 
 export async function getJobById(id: string): Promise<JobPosting | null> {
+  const jobDocRef = doc(db, 'jobs', id);
+  const jobDocSnap = await getDoc(jobDocRef);
+
+  if (!jobDocSnap.exists()) {
+    return null;
+  }
+  return processJobData(jobDocSnap);
+}
+): Promise<JobPosting | null> {
   const jobDocRef = doc(db, 'jobs', id);
   const jobDocSnap = await getDoc(jobDocRef);
 
