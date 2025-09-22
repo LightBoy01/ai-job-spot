@@ -38,10 +38,11 @@ export default async function handler(
     }
     
     const { q: searchTerm, startAfter: startAfterId, limit } = validation.data;
+    const lowerSearchTerm = searchTerm.toLowerCase();
 
     res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=300');
 
-    let jobs: JobPosting[] = [];
+    const jobs: JobPosting[] = [];
     const fetchedDocIds = new Set<string>();
 
     // Function to fetch and process a query result
@@ -132,7 +133,7 @@ export default async function handler(
       if (!aTitleMatch && bTitleMatch) return 1;
 
       // Then by posted date
-      return b.postedDate.getTime() - a.postedDate.getTime();
+      return (b.postedDate?.getTime() || 0) - (a.postedDate?.getTime() || 0);
     });
 
     // Manual pagination after merging and sorting

@@ -37,10 +37,11 @@ export default async function handler(
     }
     
     const { q: searchTerm, startAfter: startAfterId, limit } = validation.data;
+    const lowerSearchTerm = searchTerm.toLowerCase();
 
     res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=300');
 
-    let articles: Article[] = [];
+    const articles: Article[] = [];
     const fetchedDocIds = new Set<string>();
 
     // Function to fetch and process a query result
@@ -107,7 +108,7 @@ export default async function handler(
       if (!aTitleMatch && bTitleMatch) return 1;
 
       // Then by publish date
-      return b.publishDate.getTime() - a.publishDate.getTime();
+      return (b.publishDate?.getTime() || 0) - (a.publishDate?.getTime() || 0);
     });
 
     // Manual pagination after merging and sorting
