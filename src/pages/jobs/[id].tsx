@@ -384,6 +384,8 @@ export const getStaticProps: GetStaticProps<JobDetailsProps, { id: string }> = a
     return { notFound: true };
   }
 
+  const relevantArticles = await getRelevantArticles(job.tags, job.id!);
+
   // Ensure all data is correctly serialized and defaulted
       const serializedJob: SerializedJobPosting = {
         ...job,
@@ -416,6 +418,10 @@ export const getStaticProps: GetStaticProps<JobDetailsProps, { id: string }> = a
   return {
     props: {
       job: serializedJob,
+      relevantArticles: relevantArticles.map(article => ({
+        ...article,
+        publishDate: article.publishDate ? article.publishDate.toISOString() : '',
+      })),
     },
     revalidate: 60, // Re-generate the page every 60 seconds
   };

@@ -157,12 +157,72 @@ export async function getJobById(id: string): Promise<JobPosting | null> {
   }
   return processJobData(jobDocSnap);
 }
-): Promise<JobPosting | null> {
-  const jobDocRef = doc(db, 'jobs', id);
-  const jobDocSnap = await getDoc(jobDocRef);
 
-  if (!jobDocSnap.exists()) {
-    return null;
+export async function getRelevantArticles(tags: string[], currentArticleId: string, limit = 3): Promise<Article[]> {
+  if (!tags || tags.length === 0) {
+    return [];
   }
-  return processJobData(jobDocSnap);
+
+  const articlesCollectionRef = collection(db, 'articles');
+  const q = query(
+    articlesCollectionRef,
+    where('tags', 'array-contains-any', tags),
+    orderBy('publishDate', 'desc'),
+    limitTo(limit + 1) // Fetch one more to see if we need to exclude the current article
+  );
+
+  const querySnapshot = await getDocs(q);
+  const articles = querySnapshot.docs
+    .map(processArticleData)
+    .filter(article => article.id !== currentArticleId);
+
+  return articles.slice(0, limit);
+}
+
+export async function getJobsByTag(tag: string): Promise<JobPosting[]> {
+  const jobsCollectionRef = collection(db, 'jobs');
+  const q = query(
+    jobsCollectionRef,
+    where('status', '==', 'published'),
+    where('tags', 'array-contains', tag),
+    orderBy('postedDate', 'desc')
+  );
+
+  const querySnapshot = await getDocs(q);
+  return querySnapshot.docs.map(processJobData);
+}
+
+export async function getArticlesByTag(tag: string): Promise<Article[]> {
+  const articlesCollectionRef = collection(db, 'articles');
+  const q = query(
+    articlesCollectionRef,
+    where('tags', 'array-contains', tag),
+    orderBy('publishDate', 'desc')
+  );
+
+  const querySnapshot = await getDocs(q);
+  return querySnapshot.docs.map(processArticleData);
+}
+
+export async function getAllTags(): Promise<string[]> {
+  const jobsSnapshot = await getDocs(collection(db, 'jobs'));
+  const articlesSnapshot = await getDocs(collection(db, 'articles'));
+
+  const tags = new Set<string>();
+
+  jobsSnapshot.forEach(doc => {
+    const data = doc.data();
+    if (data.tags) {
+      data.tags.forEach((tag: string) => tags.add(tag));
+    }
+  });
+
+  articlesSnapshot.forEach(doc => {
+    const data = doc.data();
+    if (data.tags) {
+      data.tags.forEach((tag: string) => tags.add(tag));
+    }
+  });
+
+  return Array.from(tags);
 }
