@@ -1,17 +1,25 @@
 ---
-id: 'job-rebuild-mfg-aiml-engineer'
-title: 'AI/ML Engineer'
+id: job-rebuild-mfg-aiml-engineer
+title: AI/ML Engineer
 company: 'Re:Build Manufacturing'
 location: 'Framingham, MA'
 applicationLink: 'https://job-boards.greenhouse.io/rebuildmanufacturing/jobs/4610667005'
 postedDate: '2025-09-20'
 expirationDate: null
-tags: ['AI', 'ML', 'Engineering', 'Python', 'TensorFlow', 'PyTorch']
-status: 'active'
-jobLevel: 'Mid-level'
-employeeRole: 'AI/ML'
+tags:
+  - AI
+  - ML
+  - Engineering
+  - Python
+  - TensorFlow
+  - PyTorch
+status: active
+jobLevel: Mid-level
+employeeRole: AI/ML
 salaryRange: null
-source: 'greenhouse'
+source: greenhouse
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.159Z'
 ---
 
 <h2><strong>About Re:Build Manufacturing</strong></h2>

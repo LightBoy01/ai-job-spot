@@ -1,13 +1,13 @@
 ---
 id: job-43
-title: "AI Architect"
-company: "Fractional AI"
-companyLogoUrl: ""
-location: "New York Office (Hybrid)"
-applicationLink: "https://jobs.ashbyhq.com/fractional-ai/9e65b4ae-158e-43f0-a0df-7f3895254536"
-applicationExperience: "Direct application link. Expect a standard application form."
-postedDate: "2025-09-20T12:00:00.000Z"
-expirationDate: "2025-12-20T12:00:00.000Z"
+title: AI Architect
+company: Fractional AI
+companyLogoUrl: ''
+location: New York Office (Hybrid)
+applicationLink: 'https://jobs.ashbyhq.com/fractional-ai/9e65b4ae-158e-43f0-a0df-7f3895254536'
+applicationExperience: Direct application link. Expect a standard application form.
+postedDate: '2025-09-20T12:00:00.000Z'
+expirationDate: '2025-12-20T12:00:00.000Z'
 tags:
   - AI Architect
   - Solutions Architect
@@ -16,18 +16,37 @@ tags:
   - LLMs
   - Hybrid
   - New York
-status: "published"
-jobLevel: "Senior"
-employeeRole: "Individual Contributor"
-salaryRange: "Competitive Compensation Package"
-source: "https://jobs.ashbyhq.com/fractional-ai/9e65b4ae-158e-43f0-a0df-7f3895254536"
-
-story_question1: "What is the most exciting challenge for this role in the first 90 days?"
-story_answer1: "In your first 90 days, you'll be the smartest person in most rooms on what AI can do for a business. You'll move from shadowing our CTO and Commercial Leader to owning the entire technical sales cycle for new, high-value clients. The biggest challenge—and thrill—will be to not just architect solutions, but to fundamentally shape a client's understanding of what's possible with generative AI, turning ambiguous problems into concrete, high-impact roadmaps."
-story_question2: "What is a quality you're looking for that isn't on the formal job description?"
-story_answer2: "We're looking for a 'translator.' You need the technical depth to command the respect of a CTO, but also the clarity and empathy to guide a non-technical CEO through the complexities of AI. This role isn't just about knowing the right answers; it's about knowing how to ask the right questions and tell a compelling story that connects a technical solution to a real business outcome."
-story_question3: "How does this role contribute to the company's larger mission?"
-story_answer3: "Our mission is to bridge the gap between AI in theory and AI in practice. As an AI Architect, you are the very first bridge we build. You are the technical face of our business, the person who makes the promise of AI tangible for our clients. Your work directly enables our world-class engineering team to deliver transformative solutions, making you a critical driver of our growth and a key player in the applied AI revolution."
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: Competitive Compensation Package
+source: 'https://jobs.ashbyhq.com/fractional-ai/9e65b4ae-158e-43f0-a0df-7f3895254536'
+story_question1: What is the most exciting challenge for this role in the first 90 days?
+story_answer1: >-
+  In your first 90 days, you'll be the smartest person in most rooms on what AI
+  can do for a business. You'll move from shadowing our CTO and Commercial
+  Leader to owning the entire technical sales cycle for new, high-value clients.
+  The biggest challenge—and thrill—will be to not just architect solutions, but
+  to fundamentally shape a client's understanding of what's possible with
+  generative AI, turning ambiguous problems into concrete, high-impact roadmaps.
+story_question2: What is a quality you're looking for that isn't on the formal job description?
+story_answer2: >-
+  We're looking for a 'translator.' You need the technical depth to command the
+  respect of a CTO, but also the clarity and empathy to guide a non-technical
+  CEO through the complexities of AI. This role isn't just about knowing the
+  right answers; it's about knowing how to ask the right questions and tell a
+  compelling story that connects a technical solution to a real business
+  outcome.
+story_question3: How does this role contribute to the company's larger mission?
+story_answer3: >-
+  Our mission is to bridge the gap between AI in theory and AI in practice. As
+  an AI Architect, you are the very first bridge we build. You are the technical
+  face of our business, the person who makes the promise of AI tangible for our
+  clients. Your work directly enables our world-class engineering team to
+  deliver transformative solutions, making you a critical driver of our growth
+  and a key player in the applied AI revolution.
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.295Z'
 ---
 
 As an AI Architect at Fractional AI, you are the technical face of our business to prospective clients. You will combine your technical chops and communication skills to advise stakeholders ranging from CTOs to operational business leaders with limited AI exposure. You will work with our Commercial Leader, CTO, and CEO to craft winning solutions and put structure around ambiguous problems.

@@ -1,18 +1,26 @@
 ---
-id: 'job-51'
-title: 'AI Research Engineer - Reinforcement Learning'
-company: 'Helsing'
+id: job-51
+title: AI Research Engineer - Reinforcement Learning
+company: Helsing
 location: 'Munich, Germany'
 applicationLink: 'https://helsing.ai/jobs/4676357101?gh_jid=4676357101'
 postedDate: '2025-09-17'
 expirationDate: '2026-03-17'
-tags: ['AI', 'Research', 'Reinforcement Learning', 'Python', 'Munich', 'Deep Learning']
-status: 'published'
-jobLevel: 'Engineer'
-employeeRole: 'Researcher'
+tags:
+  - AI
+  - Research
+  - Reinforcement Learning
+  - Python
+  - Munich
+  - Deep Learning
+status: published
+jobLevel: Engineer
+employeeRole: Researcher
 salaryRange: null
-source: 'Helsing Careers'
+source: Helsing Careers
 companyLogoUrl: 'https://helsing.ai/logo.svg'
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.259Z'
 ---
 
 ### Who we are

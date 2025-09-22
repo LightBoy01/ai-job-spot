@@ -15,6 +15,9 @@ tags:
   - AI Safety
   - San Francisco
 status: expired
+source: Sourced by AI Job Spot
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.361Z'
 ---
 # Prompt Engineer
 

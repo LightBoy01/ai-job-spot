@@ -1,26 +1,58 @@
 ---
-id: 'job-53'
-title: 'Gen AI Engineer'
-company: 'Cognizant'
-location: 'Hybrid'
-applicationLink: 'https://tas-cognizant.taleo.net/careersection/lateral/jobdetail.ftl?job=00064541151&lang=en'
+id: job-53
+title: Gen AI Engineer
+company: Cognizant
+location: Hybrid
+applicationLink: >-
+  https://tas-cognizant.taleo.net/careersection/lateral/jobdetail.ftl?job=00064541151&lang=en
 postedDate: '2025-09-22'
 expirationDate: '2025-12-22'
-tags: ['GenAI', 'LLM', 'AI', 'ML', 'Python', 'TensorFlow', 'PyTorch', 'Keras', 'NLP']
-status: 'published'
-jobLevel: 'Senior Developer'
-employeeRole: 'Engineer'
+tags:
+  - GenAI
+  - LLM
+  - AI
+  - ML
+  - Python
+  - TensorFlow
+  - PyTorch
+  - Keras
+  - NLP
+status: published
+jobLevel: Senior Developer
+employeeRole: Engineer
 salaryRange: '$90,000 - $140,000'
-source: 'Cognizant Careers'
-companyLogoUrl: 'https://www.cognizant.com/content/dam/cognizant_foundation/glovs/src/img/logo-full-color-rgb.svg'
+source: Cognizant Careers
+companyLogoUrl: >-
+  https://www.cognizant.com/content/dam/cognizant_foundation/glovs/src/img/logo-full-color-rgb.svg
 glassdoorLink: null
 crunchbaseLink: null
-story_question1: "What is the most exciting challenge for a Gen AI Engineer at Cognizant in the first 90 days?"
-story_answer1: "The most exciting challenge will be to dive into our ongoing Generative AI projects and start contributing to the development of our next-generation AI solutions. You will be working with cutting-edge technologies and will have the opportunity to make a significant impact on our products and services. We are looking for someone who can quickly learn and adapt to our fast-paced environment."
-story_question2: "What is a quality you're looking for in a candidate that isn't on the formal job description?"
-story_answer2: "We are looking for a creative and innovative thinker who can come up with new and exciting ideas for using Generative AI. We want someone who is not afraid to challenge the status quo and who can think outside the box. A passion for AI and a desire to push the boundaries of what is possible are essential."
-story_question3: "How does this role contribute to the company's larger mission?"
-story_answer3: "This role is at the heart of Cognizant's strategy to be a leader in the AI space. By developing innovative Generative AI solutions, you will be directly contributing to our ability to help our clients transform their businesses and stay ahead of the curve. You will be a key player in shaping the future of AI at Cognizant."
+story_question1: >-
+  What is the most exciting challenge for a Gen AI Engineer at Cognizant in the
+  first 90 days?
+story_answer1: >-
+  The most exciting challenge will be to dive into our ongoing Generative AI
+  projects and start contributing to the development of our next-generation AI
+  solutions. You will be working with cutting-edge technologies and will have
+  the opportunity to make a significant impact on our products and services. We
+  are looking for someone who can quickly learn and adapt to our fast-paced
+  environment.
+story_question2: >-
+  What is a quality you're looking for in a candidate that isn't on the formal
+  job description?
+story_answer2: >-
+  We are looking for a creative and innovative thinker who can come up with new
+  and exciting ideas for using Generative AI. We want someone who is not afraid
+  to challenge the status quo and who can think outside the box. A passion for
+  AI and a desire to push the boundaries of what is possible are essential.
+story_question3: How does this role contribute to the company's larger mission?
+story_answer3: >-
+  This role is at the heart of Cognizant's strategy to be a leader in the AI
+  space. By developing innovative Generative AI solutions, you will be directly
+  contributing to our ability to help our clients transform their businesses and
+  stay ahead of the curve. You will be a key player in shaping the future of AI
+  at Cognizant.
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.246Z'
 ---
 
 As a Gen AI Engineer at Cognizant, you will be at the forefront of designing, developing, and deploying cutting-edge Generative AI and machine learning solutions. You will work with a team of talented engineers and data scientists to build and implement scalable, high-performance AI applications that solve real-world business problems for our clients. This is a hybrid role, offering a mix of remote and in-office work.

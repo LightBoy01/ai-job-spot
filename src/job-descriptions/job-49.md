@@ -1,18 +1,29 @@
 ---
-id: 'job-49'
-title: 'Forward Deployed AI Engineer'
-company: 'Adobe'
+id: job-49
+title: Forward Deployed AI Engineer
+company: Adobe
 location: 'Remote, France'
-applicationLink: 'https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Remote-France/Forward-Deployed-AI-Engineer_R160052-1'
+applicationLink: >-
+  https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Remote-France/Forward-Deployed-AI-Engineer_R160052-1
 postedDate: '2025-09-12'
 expirationDate: '2026-03-12'
-tags: ['AI', 'Full-Stack', 'GenAI', 'LLM', 'Remote', 'France', 'DevOps']
-status: 'published'
-jobLevel: 'Engineer'
-employeeRole: 'Engineer'
+tags:
+  - AI
+  - Full-Stack
+  - GenAI
+  - LLM
+  - Remote
+  - France
+  - DevOps
+status: published
+jobLevel: Engineer
+employeeRole: Engineer
 salaryRange: null
-source: 'Adobe Careers'
-companyLogoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Adobe_Corporate_logo.svg/2560px-Adobe_Corporate_logo.svg.png'
+source: Adobe Careers
+companyLogoUrl: >-
+  https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Adobe_Corporate_logo.svg/2560px-Adobe_Corporate_logo.svg.png
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.267Z'
 ---
 
 Join our “DevOps for Content” revolution as we partner with global brands and agencies to transform their end-to-end creative workflows – from ideation to activation – to deliver AI-powered content services with speed, scale, and governance. Through an AI-first experimentation approach and deep expertise in both first-party and third-party AI models, we develop new applications, platforms, and scalable patterns that unlock the GenAI-powered Content Supply Chain.

@@ -1,18 +1,35 @@
 ---
-id: 'job-54'
-title: 'AI Application Support Engineer'
-company: 'LSEG'
+id: job-54
+title: AI Application Support Engineer
+company: LSEG
 location: 'Bangalore, India'
-applicationLink: 'https://lseg.wd3.myworkdayjobs.com/careers/job/IND-BLR-Divyasree-Technopolis/AI-Application-Support-Engineer_R0102479-1'
+applicationLink: >-
+  https://lseg.wd3.myworkdayjobs.com/careers/job/IND-BLR-Divyasree-Technopolis/AI-Application-Support-Engineer_R0102479-1
 postedDate: '2025-09-22'
 expirationDate: '2025-09-29'
-tags: ['AI', 'ML', 'AWS', 'Azure', 'GCP', 'Python', 'Java', 'TensorFlow', 'PyTorch', 'Docker', 'Kubernetes', 'NLP', 'SRE', 'DevOps']
-status: 'published'
-jobLevel: 'Engineer'
-employeeRole: 'Application Support'
+tags:
+  - AI
+  - ML
+  - AWS
+  - Azure
+  - GCP
+  - Python
+  - Java
+  - TensorFlow
+  - PyTorch
+  - Docker
+  - Kubernetes
+  - NLP
+  - SRE
+  - DevOps
+status: published
+jobLevel: Engineer
+employeeRole: Application Support
 salaryRange: '₹2,800,200 - ₹5,200,400 INR (approx. $33,500 - $62,300 USD)'
-source: 'LSEG Careers'
+source: LSEG Careers
 companyLogoUrl: 'https://www.lseg.com/content/dam/lseg/images/lseg-logo.svg'
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.239Z'
 ---
 
 As an AI Application Support Engineer at LSEG, you will play a critical role in ensuring the smooth operation and high-quality user experience of our AI-powered applications and platforms. Based in our dynamic Bangalore office, you will be a key member of our global team, providing expert support for a large-scale financial software product. This is an exciting opportunity to work at the intersection of finance and artificial intelligence, with a focus on problem-solving, innovation, and customer service.

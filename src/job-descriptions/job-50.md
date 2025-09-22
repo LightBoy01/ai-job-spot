@@ -1,18 +1,25 @@
 ---
-id: 'job-50'
-title: 'Consultant(e) Compliance'
-company: 'Sia Partners'
+id: job-50
+title: Consultant(e) Compliance
+company: Sia Partners
 location: 'Paris, France'
 applicationLink: 'https://jobs.smartrecruiters.com/Sia/744000080744685-consultant-e-compliance'
 postedDate: '2025-09-09'
 expirationDate: '2026-03-09'
-tags: ['Compliance', 'Consultant', 'Risk Management', 'Finance', 'Paris']
-status: 'published'
-jobLevel: 'Consultant'
-employeeRole: 'Consultant'
+tags:
+  - Compliance
+  - Consultant
+  - Risk Management
+  - Finance
+  - Paris
+status: published
+jobLevel: Consultant
+employeeRole: Consultant
 salaryRange: null
-source: 'Sia Partners Careers'
+source: Sia Partners Careers
 companyLogoUrl: 'https://www.sia-partners.com/sites/default/files/logo_2.png'
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.263Z'
 ---
 
 ### Description de l'entreprise

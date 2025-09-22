@@ -15,6 +15,9 @@ tags:
   - Creative
   - New York
 status: expired
+source: Sourced by AI Job Spot
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.356Z'
 ---
 # Generative AI Artist (Video)
 

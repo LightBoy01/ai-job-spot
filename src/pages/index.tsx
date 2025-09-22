@@ -205,12 +205,19 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
       <div className="max-w-6xl mx-auto px-4 py-12">
             <h1 className="page-title text-4xl sm:text-5xl md:text-6xl mb-4">AI Job Opportunities</h1>
         <div className="mb-12 flex justify-center">
-          <input
-            type="text"
-            placeholder="Search for jobs..."
-            className="w-full max-w-lg p-4 border border-neutral-300 rounded-lg"
-            onChange={handleSearchChange}
-          />
+          <div className="relative w-full max-w-lg">
+            <input
+              type="text"
+              placeholder="Search by title, skill, or company..."
+              className="w-full p-4 pl-12 border border-black/5 bg-white rounded-lg shadow-[inset_0_1px_2px_rgba(0,0,0,0.05)] focus:ring-secondary focus:border-secondary"
+              onChange={handleSearchChange}
+            />
+            <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
+                <svg className="h-5 w-5 text-neutral-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+          </div>
         </div>
         {displayedJobs.length === 0 && !loading ? (
           <p className="text-center text-neutral-600">No job postings available at the moment. Please check back later!</p>

@@ -152,202 +152,117 @@ const AddNewJob: React.FC = () => {
         </Link>
       </div>
 
-      <form onSubmit={handleSubmit}>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <form onSubmit={handleSubmit} className="space-y-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Form Fields Column */}
-          <div className="bg-neutral-50 p-8 rounded-xl shadow-lg border border-neutral-200 space-y-8">
+          <div className="lg:col-span-2 space-y-12">
             {/* --- Core Details Section --- */}
-            <div className="border-b border-neutral-300 pb-6">
-              <h2 className="text-xl font-semibold font-serif text-primary-dark mb-4">Core Details</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5">
+              <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">Core Details</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                   <label htmlFor="title" className="block text-sm font-semibold text-neutral-700 mb-2">Job Title</label>
-                  <input type="text" id="title" name="title" value={formData.title} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.title ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
+                  <input type="text" id="title" name="title" value={formData.title} onChange={handleChange} className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.title ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`} required />
                   {errors.title && <span className="text-red-500 text-sm mt-1 block">{errors.title}</span>}
                 </div>
                 <div>
                   <label htmlFor="company" className="block text-sm font-semibold text-neutral-700 mb-2">Company</label>
-                  <input type="text" id="company" name="company" value={formData.company} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.company ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
+                  <input type="text" id="company" name="company" value={formData.company} onChange={handleChange} className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.company ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`} required />
                   {errors.company && <span className="text-red-500 text-sm mt-1 block">{errors.company}</span>}
                 </div>
                 <div>
-                  <label htmlFor="companyLogoUrl" className="block text-sm font-semibold text-neutral-700 mb-2">Company Logo URL (Optional)</label>
-                  <input type="url" id="companyLogoUrl" name="companyLogoUrl" value={formData.companyLogoUrl || ''} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.companyLogoUrl ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} placeholder="https://example.com/logo.png" />
-                  {errors.companyLogoUrl && <span className="text-red-500 text-sm mt-1 block">{errors.companyLogoUrl}</span>}
-                </div>
-                <div>
                   <label htmlFor="location" className="block text-sm font-semibold text-neutral-700 mb-2">Location</label>
-                  <input type="text" id="location" name="location" value={formData.location} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.location ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
+                  <input type="text" id="location" name="location" value={formData.location} onChange={handleChange} className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.location ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`} required />
                   {errors.location && <span className="text-red-500 text-sm mt-1 block">{errors.location}</span>}
                 </div>
-                <div>
-                  <label htmlFor="applicationLink" className="block text-sm font-semibold text-neutral-700 mb-2">Application Link</label>
-                  <input type="url" id="applicationLink" name="applicationLink" value={formData.applicationLink} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.applicationLink ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
-                  {errors.applicationLink && <span className="text-red-500 text-sm mt-1 block">{errors.applicationLink}</span>}
-                </div>
-                <div>
-                  <label htmlFor="applicationExperience" className="block text-sm font-semibold text-neutral-700 mb-2">Application Experience (e.g., &quot;Redirects to Workday; 15-20 min&quot;)</label>
-                  <input type="text" id="applicationExperience" name="applicationExperience" value={formData.applicationExperience || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
-                </div>
-                <div>
-                  <label htmlFor="glassdoorLink" className="block text-sm font-semibold text-neutral-700 mb-2">Glassdoor Link (Optional)</label>
-                  <input type="url" id="glassdoorLink" name="glassdoorLink" value={formData.glassdoorLink || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
-                </div>
-                <div>
-                  <label htmlFor="crunchbaseLink" className="block text-sm font-semibold text-neutral-700 mb-2">Crunchbase Link (Optional)</label>
-                  <input type="url" id="crunchbaseLink" name="crunchbaseLink" value={formData.crunchbaseLink || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
-                </div>
-                <div>
-                  <label htmlFor="source" className="block text-sm font-semibold text-neutral-700 mb-2">Original Source Link (Optional)</label>
-                  <input type="url" id="source" name="source" value={formData.source || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
-                </div>
-                <div>
-                  <label htmlFor="jobLevel" className="block text-sm font-semibold text-neutral-700 mb-2">Job Level (e.g., Senior, Staff)</label>
-                  <input type="text" id="jobLevel" name="jobLevel" value={formData.jobLevel || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
-                </div>
-                <div>
-                  <label htmlFor="employeeRole" className="block text-sm font-semibold text-neutral-700 mb-2">Employee Role (e.g., Individual Contributor, Manager)</label>
-                  <input type="text" id="employeeRole" name="employeeRole" value={formData.employeeRole || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
-                </div>
                 <div className="md:col-span-2">
-                  <label htmlFor="companyCulture" className="block text-sm font-semibold text-neutral-700 mb-2">Company Culture (Optional)</label>
-                  <textarea id="companyCulture" name="companyCulture" value={formData.companyCulture || ''} onChange={handleChange} rows={5} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" placeholder="Describe the company culture, values, and benefits."></textarea>
+                  <label htmlFor="applicationLink" className="block text-sm font-semibold text-neutral-700 mb-2">Application Link</label>
+                  <input type="url" id="applicationLink" name="applicationLink" value={formData.applicationLink} onChange={handleChange} className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.applicationLink ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`} required />
+                  {errors.applicationLink && <span className="text-red-500 text-sm mt-1 block">{errors.applicationLink}</span>}
                 </div>
               </div>
             </div>
 
             {/* --- Job Content Section --- */}
-            <div className="border-b border-neutral-300 pb-6">
-              <h2 className="text-xl font-semibold font-serif text-primary-dark mb-4">Job Content</h2>
+            <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5">
+              <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">Job Content</h2>
               <div>
                 <label htmlFor="description" className="block text-sm font-semibold text-neutral-700 mb-2">Job Description</label>
-                <RichTextEditor
-                  value={formData.description || ''}
-                  onChange={handleDescriptionChange}
-                  placeholder="Provide a detailed job description..."
-                  className={`${errors.description ? 'border-red-500' : ''}`}
-                />
+                <RichTextEditor value={formData.description || ''} onChange={handleDescriptionChange} placeholder="Provide a detailed job description..." className={`${errors.description ? 'border-red-500' : ''}`} />
                 {errors.description && <span className="text-red-500 text-sm mt-1 block">{errors.description}</span>}
               </div>
-
               <div className="mt-6">
                 <label htmlFor="responsibilities" className="block text-sm font-semibold text-neutral-700 mb-2">Responsibilities (one per line)</label>
-                <textarea id="responsibilities" name="responsibilities" value={formData.responsibilities || ''} onChange={handleChange} rows={5} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" placeholder="List responsibilities, one per line."></textarea>
+                <textarea id="responsibilities" name="responsibilities" value={formData.responsibilities || ''} onChange={handleChange} rows={5} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" placeholder="List responsibilities, one per line."></textarea>
               </div>
-
               <div className="mt-6">
                 <label htmlFor="qualifications" className="block text-sm font-semibold text-neutral-700 mb-2">Qualifications (one per line)</label>
-                <textarea id="qualifications" name="qualifications" value={formData.qualifications || ''} onChange={handleChange} rows={5} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" placeholder="List qualifications, one per line."></textarea>
+                <textarea id="qualifications" name="qualifications" value={formData.qualifications || ''} onChange={handleChange} rows={5} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" placeholder="List qualifications, one per line."></textarea>
               </div>
             </div>
 
             {/* --- Story Behind the Role Section --- */}
-            <div className="border-b border-neutral-300 pb-6">
-              <h2 className="text-xl font-semibold font-serif text-primary-dark mb-4">The Story Behind the Role (Optional)</h2>
-              <p className="text-neutral-600 mb-6">Add authentic, human context to attract better candidates. This is highly recommended.</p>
-              
-              {/* Question 1 */}
-              <div className="mb-4">
-                <label htmlFor="story_question1" className="block text-sm font-semibold text-neutral-700 mb-2">Question 1</label>
-                <input
-                  type="text"
-                  name="story_question1"
-                  id="story_question1"
-                  value={formData.story_question1 || ''}
-                  onChange={handleChange}
-                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
-                />
-              </div>
-              <div className="mb-6">
-                <label htmlFor="story_answer1" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 1</label>
-                <textarea
-                  name="story_answer1"
-                  id="story_answer1"
-                  value={formData.story_answer1 || ''}
-                  onChange={handleChange}
-                  rows={4}
-                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
-                />
-              </div>
-
-              {/* Question 2 */}
-              <div className="mb-4">
-                <label htmlFor="story_question2" className="block text-sm font-semibold text-neutral-700 mb-2">Question 2</label>
-                <input
-                  type="text"
-                  name="story_question2"
-                  id="story_question2"
-                  value={formData.story_question2 || ''}
-                  onChange={handleChange}
-                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
-                />
-              </div>
-              <div className="mb-6">
-                <label htmlFor="story_answer2" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 2</label>
-                <textarea
-                  name="story_answer2"
-                  id="story_answer2"
-                  value={formData.story_answer2 || ''}
-                  onChange={handleChange}
-                  rows={4}
-                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
-                />
-              </div>
-
-              {/* Question 3 */}
-              <div className="mb-4">
-                <label htmlFor="story_question3" className="block text-sm font-semibold text-neutral-700 mb-2">Question 3</label>
-                <input
-                  type="text"
-                  name="story_question3"
-                  id="story_question3"
-                  value={formData.story_question3 || ''}
-                  onChange={handleChange}
-                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
-                />
-              </div>
-              <div className="mb-6">
-                <label htmlFor="story_answer3" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 3</label>
-                <textarea
-                  name="story_answer3"
-                  id="story_answer3"
-                  value={formData.story_answer3 || ''}
-                  onChange={handleChange}
-                  rows={4}
-                  className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
-                />
-              </div>
+            <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5">
+                <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">The Story Behind the Role (Optional)</h2>
+                <p className="text-neutral-600 mb-6">Add authentic, human context to attract better candidates. This is highly recommended.</p>
+                {/* Question 1 */}
+                <div className="mb-4">
+                    <label htmlFor="story_question1" className="block text-sm font-semibold text-neutral-700 mb-2">Question 1</label>
+                    <input type="text" name="story_question1" id="story_question1" value={formData.story_question1 || ''} onChange={handleChange} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" />
+                </div>
+                <div className="mb-6">
+                    <label htmlFor="story_answer1" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 1</label>
+                    <textarea name="story_answer1" id="story_answer1" value={formData.story_answer1 || ''} onChange={handleChange} rows={4} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" />
+                </div>
+                {/* Question 2 */}
+                <div className="mb-4">
+                    <label htmlFor="story_question2" className="block text-sm font-semibold text-neutral-700 mb-2">Question 2</label>
+                    <input type="text" name="story_question2" id="story_question2" value={formData.story_question2 || ''} onChange={handleChange} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" />
+                </div>
+                <div className="mb-6">
+                    <label htmlFor="story_answer2" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 2</label>
+                    <textarea name="story_answer2" id="story_answer2" value={formData.story_answer2 || ''} onChange={handleChange} rows={4} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" />
+                </div>
+                {/* Question 3 */}
+                <div className="mb-4">
+                    <label htmlFor="story_question3" className="block text-sm font-semibold text-neutral-700 mb-2">Question 3</label>
+                    <input type="text" name="story_question3" id="story_question3" value={formData.story_question3 || ''} onChange={handleChange} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" />
+                </div>
+                <div className="mb-6">
+                    <label htmlFor="story_answer3" className="block text-sm font-semibold text-neutral-700 mb-2">Answer 3</label>
+                    <textarea name="story_answer3" id="story_answer3" value={formData.story_answer3 || ''} onChange={handleChange} rows={4} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" />
+                </div>
             </div>
 
             {/* --- Metadata & Status Section --- */}
-            <div>
-              <h2 className="text-xl font-semibold font-serif text-primary-dark mb-4">Metadata & Status</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5">
+              <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">Metadata & Status</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                   <label htmlFor="postedDate" className="block text-sm font-semibold text-neutral-700 mb-2">Posted Date</label>
-                  <input type="date" id="postedDate" name="postedDate" value={formData.postedDate} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.postedDate ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} required />
+                  <input type="date" id="postedDate" name="postedDate" value={formData.postedDate} onChange={handleChange} className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.postedDate ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`} required />
                   {errors.postedDate && <span className="text-red-500 text-sm mt-1 block">{errors.postedDate}</span>}
                 </div>
                 <div>
                   <label htmlFor="expirationDate" className="block text-sm font-semibold text-neutral-700 mb-2">Expiration Date (Optional)</label>
-                  <input type="date" id="expirationDate" name="expirationDate" value={formData.expirationDate} onChange={handleChange} className={`w-full p-3 rounded-md border ${errors.expirationDate ? 'border-red-500' : 'border-neutral-300'} outline-none transition`} />
+                  <input type="date" id="expirationDate" name="expirationDate" value={formData.expirationDate} onChange={handleChange} className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.expirationDate ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`} />
                   {errors.expirationDate && <span className="text-red-500 text-sm mt-1 block">{errors.expirationDate}</span>}
                 </div>
                 <div>
                   <label htmlFor="salaryRange" className="block text-sm font-semibold text-neutral-700 mb-2">Salary Range</label>
-                  <input type="text" id="salaryRange" name="salaryRange" value={formData.salaryRange || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
+                  <input type="text" id="salaryRange" name="salaryRange" value={formData.salaryRange || ''} onChange={handleChange} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" />
                 </div>
                 <div>
                   <label htmlFor="tags" className="block text-sm font-semibold text-neutral-700 mb-2">Tags (comma-separated)</label>
-                  <input type="text" id="tags" name="tags" value={formData.tags || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
+                  <input type="text" id="tags" name="tags" value={formData.tags || ''} onChange={handleChange} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition" />
                 </div>
                 <div className="flex items-center mt-4">
-                  <input type="checkbox" id="isNew" name="isNew" checked={formData.isNew || false} onChange={handleChange} className="h-5 w-5 text-secondary-dark rounded border-neutral-300" />
+                  <input type="checkbox" id="isNew" name="isNew" checked={formData.isNew || false} onChange={handleChange} className="h-5 w-5 text-secondary rounded border-neutral-300 focus:ring-secondary" />
                   <label htmlFor="isNew" className="ml-2 block text-sm font-semibold text-neutral-700">Mark as New</label>
                 </div>
                 <div>
                   <label htmlFor="status" className="block text-sm font-semibold text-neutral-700 mb-2">Status</label>
-                  <select id="status" name="status" value={formData.status || 'published'} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition">
+                  <select id="status" name="status" value={formData.status || 'published'} onChange={handleChange} className="w-full p-3 bg-neutral-50 rounded-md border border-neutral-200 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition">
                     <option value="published">Published</option>
                     <option value="pending_review">Pending Review</option>
                     <option value="draft">Draft</option>
@@ -359,51 +274,26 @@ const AddNewJob: React.FC = () => {
           </div>
 
           {/* Live Preview Column */}
-          <div className="bg-neutral-50 p-8 rounded-xl shadow-lg border border-neutral-200">
-            <h2 className="text-2xl font-bold text-primary-dark mb-4 border-b pb-2">Live Preview</h2>
-            <div className="prose lg:prose-xl max-w-none">
-              <h1 className="text-4xl font-serif font-bold text-primary-dark mb-2">{formData.title || 'Job Title Goes Here'}</h1>
-              <p className="text-xl text-neutral-700 font-semibold">{formData.company || 'Company Name'}</p>
-              <p className="text-md text-neutral-600 mb-6">{formData.location || 'Location'}</p>
-              {formData.jobLevel && <p className="text-sm text-neutral-500">Level: {formData.jobLevel}</p>}
-              {formData.employeeRole && <p className="text-sm text-neutral-500">Role: {formData.employeeRole}</p>}
-              {formData.salaryRange && <p className="text-sm text-neutral-500">Salary: {formData.salaryRange}</p>}
-              {formData.isNew && <span className="inline-block bg-brand-gold text-white text-xs font-bold px-2 py-1 rounded-full mt-2">NEW!</span>}
-              <div
-                className="job-description"
-                dangerouslySetInnerHTML={{ __html: formData.description || '<p>Your job description will appear here...</p>' }}
-              />
-              {formData.responsibilities && (
-                <>
-                  <h3 className="text-xl font-semibold text-primary-dark mt-6 mb-2">Responsibilities:</h3>
-                  <ul className="list-disc list-inside">
-                    {formData.responsibilities.split('\n').map((item, index) => item.trim() && <li key={index}>{item.trim()}</li>)}
-                  </ul>
-                </>
-              )}
-              {formData.qualifications && (
-                <>
-                  <h3 className="text-xl font-semibold text-primary-dark mt-6 mb-2">Qualifications:</h3>
-                  <ul className="list-disc list-inside">
-                    {formData.qualifications.split('\n').map((item, index) => item.trim() && <li key={index}>{item.trim()}</li>)}
-                  </ul>
-                </>
-              )}
+          <div className="lg:col-span-1">
+            <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5 sticky top-24">
+              <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">Live Preview</h2>
+              <div className="prose prose-lg max-w-none">
+                <h3 className="text-2xl font-serif font-bold text-primary-dark mb-2">{formData.title || 'Job Title Goes Here'}</h3>
+                <p className="text-lg text-neutral-700 font-semibold">{formData.company || 'Company Name'}</p>
+                <p className="text-base text-neutral-600 mb-4">{formData.location || 'Location'}</p>
+                <div className="job-description" dangerouslySetInnerHTML={{ __html: formData.description || '<p>Your job description will appear here...</p>' }} />
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="flex justify-end space-x-4 mt-10">
+        <div className="flex justify-end space-x-4 pt-8 border-t border-neutral-200">
           <Link href="/admin/jobs" passHref>
-            <span className="bg-neutral-200 text-neutral-800 py-2 px-6 rounded-md font-semibold hover:bg-neutral-300 transition-colors cursor-pointer">
+            <span className="bg-neutral-200 text-neutral-800 py-3 px-6 rounded-lg font-semibold hover:bg-neutral-300 transition-colors cursor-pointer">
               Cancel
             </span>
           </Link>
-          <button
-            type="submit"
-            disabled={isSubmitting}
-            className="bg-primary text-white py-2 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400"
-          >
+          <button type="submit" disabled={isSubmitting} className="bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg font-semibold transition-colors disabled:bg-neutral-400 shadow-sm">
             {isSubmitting ? 'Saving...' : 'Save and Publish'}
           </button>
         </div>

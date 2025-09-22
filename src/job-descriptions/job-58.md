@@ -1,27 +1,68 @@
 ---
-id: 'job-58'
+id: job-58
 title: 'Go-to-Market Systems Specialist – Revenue Operations, CRM & AI'
-company: 'MedPro Disposal'
+company: MedPro Disposal
 location: 'Naperville, IL'
 applicationLink: 'https://careers.hireology.com/medprodisposal/2430593/description'
 postedDate: '2025-09-22'
 expirationDate: '2025-12-22'
-tags: ['CRM', 'AI', 'Salesforce', 'Marketing Automation', 'Revenue Operations', 'B2B', 'Pardot', 'HubSpot', 'Marketo', 'Power BI', 'Tableau', 'Gong', 'Outreach', 'SalesLoft', 'Zapier', 'MuleSoft']
-status: 'published'
-jobLevel: 'Specialist'
-employeeRole: 'Systems Specialist'
+tags:
+  - CRM
+  - AI
+  - Salesforce
+  - Marketing Automation
+  - Revenue Operations
+  - B2B
+  - Pardot
+  - HubSpot
+  - Marketo
+  - Power BI
+  - Tableau
+  - Gong
+  - Outreach
+  - SalesLoft
+  - Zapier
+  - MuleSoft
+status: published
+jobLevel: Specialist
+employeeRole: Systems Specialist
 salaryRange: '$65,000-$85,000'
-source: 'Hireology'
-companyLogoUrl: 'https://hireology-extdocs-us-west-2.s3.us-west-2.amazonaws.com/hireology/docs/organization_photos/7928/original/logo-1.png'
+source: Hireology
+companyLogoUrl: >-
+  https://hireology-extdocs-us-west-2.s3.us-west-2.amazonaws.com/hireology/docs/organization_photos/7928/original/logo-1.png
 glassdoorLink: null
 crunchbaseLink: null
-story_question1: "What is the most exciting challenge for a Go-to-Market Systems Specialist at MedPro Disposal in the first 90 days?"
-story_answer1: "The most exciting challenge will be to conduct a full audit of our current GTM tech stack and identify the biggest opportunities for improvement. You will have the autonomy to propose and implement changes that will have a direct impact on our sales and marketing efforts. We are looking for someone who can bring a fresh perspective and help us to take our operations to the next level."
-story_question2: "What is a quality you''re looking for in a candidate that isn''t on the formal job description?"
-story_answer2: "We are looking for a systems thinker who is passionate about process optimization. We want someone who can see the big picture and who is always looking for ways to improve our workflows and make our teams more efficient. A love for data and a desire to build a well-oiled machine are essential."
-story_question3: "How does this role contribute to the company''s larger mission?"
-story_answer3: "This role is critical to MedPro Disposal''s mission of making healthcare safer, more compliant, and more efficient. By optimizing our GTM systems, you will be directly contributing to our ability to serve our clients more effectively and to grow our business. You will be a key player in our success."
-companyCulture: "MedPro Disposal is a fast-scaling, mission-driven company with a culture of 'Do The Right Thing', rolling up sleeves with a 'figure it out' attitude, and winning as a team. They are building something meaningful—making healthcare safer, more compliant, and more efficient—one client at a time."
+story_question1: >-
+  What is the most exciting challenge for a Go-to-Market Systems Specialist at
+  MedPro Disposal in the first 90 days?
+story_answer1: >-
+  The most exciting challenge will be to conduct a full audit of our current GTM
+  tech stack and identify the biggest opportunities for improvement. You will
+  have the autonomy to propose and implement changes that will have a direct
+  impact on our sales and marketing efforts. We are looking for someone who can
+  bring a fresh perspective and help us to take our operations to the next
+  level.
+story_question2: >-
+  What is a quality you''re looking for in a candidate that isn''t on the formal
+  job description?
+story_answer2: >-
+  We are looking for a systems thinker who is passionate about process
+  optimization. We want someone who can see the big picture and who is always
+  looking for ways to improve our workflows and make our teams more efficient. A
+  love for data and a desire to build a well-oiled machine are essential.
+story_question3: How does this role contribute to the company''s larger mission?
+story_answer3: >-
+  This role is critical to MedPro Disposal''s mission of making healthcare
+  safer, more compliant, and more efficient. By optimizing our GTM systems, you
+  will be directly contributing to our ability to serve our clients more
+  effectively and to grow our business. You will be a key player in our success.
+companyCulture: >-
+  MedPro Disposal is a fast-scaling, mission-driven company with a culture of
+  'Do The Right Thing', rolling up sleeves with a 'figure it out' attitude, and
+  winning as a team. They are building something meaningful—making healthcare
+  safer, more compliant, and more efficient—one client at a time.
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.197Z'
 ---
 
 **Company Overview**

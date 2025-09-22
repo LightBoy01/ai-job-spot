@@ -1,13 +1,17 @@
 ---
 id: job-scraped-visionary-ai-studios-20250825142619
-title: "AI Video Generation Specialist"
-company: "Visionary AI Studios"
-location: "Remote"
-
-postedDate: 2025-08-23T00:00:00Z
-applicationLink: https://www.upwork.com/hire/ai-video-generation-specialists/
-tags: ["AI", "Scraped"]
-status: "published"
+title: AI Video Generation Specialist
+company: Visionary AI Studios
+location: Remote
+postedDate: 2025-08-23T00:00:00.000Z
+applicationLink: 'https://www.upwork.com/hire/ai-video-generation-specialists/'
+tags:
+  - AI
+  - Scraped
+status: published
+source: Sourced by AI Job Spot
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.128Z'
 ---
 
 Visionary AI Studios is seeking an innovative AI Video Generation Specialist to join our dynamic team. In this role, you will leverage cutting-edge AI tools and platforms to create compelling video content, from concept to final production. You will be responsible for experimenting with new AI video generation techniques, optimizing workflows, and ensuring the highest quality output.

@@ -24,6 +24,7 @@ const config: Config = {
           dark: '#3A5A4B',
         },
         neutral: {
+          ivory: '#FFFAF0',
           50: '#FDFDFD',
           100: '#F5F5F5',
           200: '#E0E0E0',

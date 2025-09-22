@@ -1,19 +1,21 @@
 import Layout from '@/components/Layout';
-import { getArticles, getArticleBySlug } from '@/lib/firestoreClient'; // Import from firestoreClient
+import { getArticles, getArticleBySlug } from '@/lib/firestoreClient';
 import { SerializedArticle } from '@/lib/types';
 import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
 import Link from 'next/link';
-import AdContainer from '@/components/AdContainer'; // Import AdContainer
-import Image from 'next/image'; // Import the Next.js Image component
+import AdContainer from '@/components/AdContainer';
+import Image from 'next/image';
+import { authors, Author } from '@/lib/authors'; // Import authors data and type
 
 interface ArticlePageProps {
   article: SerializedArticle | null;
+  authorBio: Author | null; // Add authorBio to props
 }
 
 const generateArticleSchema = (article: SerializedArticle) => {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-job-spot.vercel.app';
-  const logoUrl = `${siteUrl}/logo.svg`; // Assuming logo is in public folder
+  const logoUrl = `${siteUrl}/logo.svg`;
 
   return {
     '@context': 'https://schema.org',
@@ -42,7 +44,7 @@ const generateArticleSchema = (article: SerializedArticle) => {
 };
 
 export async function getStaticPaths() {
-  const { articles } = await getArticles(); // Destructure to get the articles array
+  const { articles } = await getArticles();
   const paths = articles.map((article) => ({
     params: { slug: article.slug },
   }));
@@ -59,23 +61,26 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
     };
   }
 
+  const authorBio = authors[article.author] || null;
+
   return {
     props: {
       article: {
         ...article,
-        publishDate: article.publishDate ? article.publishDate.toISOString() : '', // Convert Date to ISO string, handle null
-        imageUrl: article.imageUrl || null, // Ensure imageUrl is not undefined
+        publishDate: article.publishDate ? article.publishDate.toISOString() : '',
+        imageUrl: article.imageUrl || null,
         author_take_question1: article.author_take_question1 || null,
         author_take_answer1: article.author_take_answer1 || null,
         author_take_question2: article.author_take_question2 || null,
         author_take_answer2: article.author_take_answer2 || null,
       } as SerializedArticle,
+      authorBio,
     },
-    revalidate: 60, // Re-generate page every 60 seconds
+    revalidate: 60,
   };
 }
 
-export default function ArticlePage({ article }: ArticlePageProps) {
+export default function ArticlePage({ article, authorBio }: ArticlePageProps) {
   if (!article) {
     return (
       <Layout>
@@ -128,7 +133,7 @@ export default function ArticlePage({ article }: ArticlePageProps) {
           <p className="text-neutral-700 text-base">
             By <span className="font-semibold text-primary-dark">{author}</span>
           </p>
-          <hr className="border-t border-neutral-300 my-8" /> {/* Added subtle divider */}
+          <hr className="border-t border-neutral-300 my-8" />
           <p className="text-neutral-500 text-sm">
             {publishDate && `Published on ${formatDate(publishDate)}`}
             {(issueNo !== undefined && volumeNo !== undefined) && (
@@ -138,11 +143,11 @@ export default function ArticlePage({ article }: ArticlePageProps) {
         </div>
         <div className="prose prose-base sm:prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content" dangerouslySetInnerHTML={{ __html: contentBody }} />
         
-        {author === 'The AI Strategist' && (
+        {authorBio && (
           <div className="mt-12 p-8 bg-neutral-50 rounded-lg shadow-sm border border-neutral-200">
-            <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">About the Author</h3>
+            <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">About {authorBio.name}</h3>
             <p className="text-neutral-700 italic leading-relaxed">
-              The AI Strategist is the guiding voice of AI Job Spot, operating at the intersection of technology, philosophy, and long-term career architecture. The goal is not to report on fleeting trends, but to forge the durable mental models and actionable frameworks needed to build a defensible and meaningful career in the age of AI. <Link href="/about" className="text-secondary-dark hover:underline">Learn more about our mission</Link>.
+              {authorBio.bio} <Link href={authorBio.link} className="text-secondary-dark hover:underline">{authorBio.linkText}</Link>.
             </p>
           </div>
         )}

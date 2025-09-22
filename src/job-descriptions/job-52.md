@@ -1,26 +1,66 @@
 ---
-id: 'job-52'
-title: 'AI Developer'
-company: 'Cognizant'
-location: 'APAC'
-applicationLink: 'https://tas-cognizant.taleo.net/careersection/lateral/jobdetail.ftl?job=46493&lang=en'
+id: job-52
+title: AI Developer
+company: Cognizant
+location: APAC
+applicationLink: >-
+  https://tas-cognizant.taleo.net/careersection/lateral/jobdetail.ftl?job=46493&lang=en
 postedDate: '2025-09-22'
 expirationDate: '2025-12-22'
-tags: ['AI', 'ML', 'Azure', 'Python', 'FastAPI', 'Streamlit', 'Gradio', 'RAG', 'LLM', 'Power Platform', 'Bot Framework', 'SharePoint', 'Semantic Kernel', 'TensorFlow', 'PyTorch', 'Keras', 'NLP']
-status: 'published'
-jobLevel: 'Developer'
-employeeRole: 'Engineer'
+tags:
+  - AI
+  - ML
+  - Azure
+  - Python
+  - FastAPI
+  - Streamlit
+  - Gradio
+  - RAG
+  - LLM
+  - Power Platform
+  - Bot Framework
+  - SharePoint
+  - Semantic Kernel
+  - TensorFlow
+  - PyTorch
+  - Keras
+  - NLP
+status: published
+jobLevel: Developer
+employeeRole: Engineer
 salaryRange: '$90,000 - $140,000'
-source: 'Cognizant Careers'
-companyLogoUrl: 'https://www.cognizant.com/content/dam/cognizant_foundation/glovs/src/img/logo-full-color-rgb.svg'
+source: Cognizant Careers
+companyLogoUrl: >-
+  https://www.cognizant.com/content/dam/cognizant_foundation/glovs/src/img/logo-full-color-rgb.svg
 glassdoorLink: null
 crunchbaseLink: null
-story_question1: "What is the most exciting challenge for an AI Developer at Cognizant in the first 90 days?"
-story_answer1: "The most exciting challenge will be to quickly integrate with our project teams and contribute to the development of a new AI-powered solution for one of our major clients. You will be expected to get up to speed with our development environment and coding standards, and start delivering value within the first three months. This is a great opportunity to make a real impact on a large-scale project."
-story_question2: "What is a quality you're looking for in a candidate that isn't on the formal job description?"
-story_answer2: "We are looking for a proactive and curious individual who is passionate about learning and exploring new technologies. The AI landscape is constantly evolving, and we need someone who is not afraid to experiment with new tools and techniques, and who can bring fresh ideas to the team."
-story_question3: "How does this role contribute to the company's larger mission?"
-story_answer3: "This role is crucial to Cognizant's mission of helping our clients build stronger businesses. By developing innovative AI solutions, you will be directly contributing to our clients' success and helping them to stay ahead of the competition. You will be a key player in our digital transformation journey."
+story_question1: >-
+  What is the most exciting challenge for an AI Developer at Cognizant in the
+  first 90 days?
+story_answer1: >-
+  The most exciting challenge will be to quickly integrate with our project
+  teams and contribute to the development of a new AI-powered solution for one
+  of our major clients. You will be expected to get up to speed with our
+  development environment and coding standards, and start delivering value
+  within the first three months. This is a great opportunity to make a real
+  impact on a large-scale project.
+story_question2: >-
+  What is a quality you're looking for in a candidate that isn't on the formal
+  job description?
+story_answer2: >-
+  We are looking for a proactive and curious individual who is passionate about
+  learning and exploring new technologies. The AI landscape is constantly
+  evolving, and we need someone who is not afraid to experiment with new tools
+  and techniques, and who can bring fresh ideas to the team.
+story_question3: How does this role contribute to the company's larger mission?
+story_answer3: >-
+  This role is crucial to Cognizant's mission of helping our clients build
+  stronger businesses. By developing innovative AI solutions, you will be
+  directly contributing to our clients' success and helping them to stay ahead
+  of the competition. You will be a key player in our digital transformation
+  journey.
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.254Z'
 ---
 
 As an AI Developer at Cognizant, you will be at the forefront of designing, developing, and deploying cutting-edge AI and machine learning solutions. You will work with a team of talented engineers and data scientists to build and implement scalable, high-performance AI applications that solve real-world business problems for our clients across the APAC region.

@@ -22,6 +22,8 @@ export interface JobPosting {
   status?: 'draft' | 'pending_review' | 'published' | 'rejected'; // Workflow status
   isNew?: boolean;
   source?: string | null; // Source of the job posting (e.g., scraped from a specific site)
+  sourceUrl?: string | null; // The direct URL to the original job posting
+  verificationDate?: Date | null; // The date AI Job Spot last verified the listing
   glassdoorLink?: string | null;
   crunchbaseLink?: string | null;
 
@@ -70,9 +72,10 @@ export type FirestoreArticle = Omit<Article, 'publishDate'> & {
 };
 
 // For server-side rendering, where Timestamps are serialized
-export interface SerializedJobPosting extends Omit<JobPosting, 'postedDate' | 'expirationDate'> {
+export interface SerializedJobPosting extends Omit<JobPosting, 'postedDate' | 'expirationDate' | 'verificationDate'> {
   postedDate: string | null;
   expirationDate: string | null;
+  verificationDate?: string | null;
   isNew?: boolean;
   story_question1?: string | null;
   story_answer1?: string | null;

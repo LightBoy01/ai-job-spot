@@ -1,18 +1,27 @@
 ---
-id: 'job-48'
-title: 'AI Engineer'
-company: 'BizzyCar'
-location: 'Remote (United States)'
+id: job-48
+title: AI Engineer
+company: BizzyCar
+location: Remote (United States)
 applicationLink: 'https://ats.rippling.com/bizzycar/jobs/6c967928-18be-46c4-935e-34e313e33bd7'
 postedDate: '2025-09-20'
 expirationDate: '2026-03-20'
-tags: ['AI', 'NLP', 'Machine Learning', 'Remote', 'SaaS', 'Python']
-status: 'published'
-jobLevel: 'Engineer'
-employeeRole: 'Engineer'
+tags:
+  - AI
+  - NLP
+  - Machine Learning
+  - Remote
+  - SaaS
+  - Python
+status: published
+jobLevel: Engineer
+employeeRole: Engineer
 salaryRange: null
-source: 'BizzyCar Careers'
-companyLogoUrl: 'https://www.bizzycar.com/hubfs/BizzyCar_December2021/Images/BizzyCar-logo-blue-transparent.png'
+source: BizzyCar Careers
+companyLogoUrl: >-
+  https://www.bizzycar.com/hubfs/BizzyCar_December2021/Images/BizzyCar-logo-blue-transparent.png
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.271Z'
 ---
 
 ### About BizzyCar

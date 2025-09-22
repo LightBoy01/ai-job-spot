@@ -1,9 +1,10 @@
 ---
 id: job-new-kyndryl-forward-deployed-engineer
-title: "Forward Deployed Engineer - Agentic AI"
-company: "Kyndryl"
-location: "London (Partially Remote)"
-applicationLink: https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/No-City-KGB51624-London/Forward-Deployed-Engineer--Agentic-AI_R-48363-1
+title: Forward Deployed Engineer - Agentic AI
+company: Kyndryl
+location: London (Partially Remote)
+applicationLink: >-
+  https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/No-City-KGB51624-London/Forward-Deployed-Engineer--Agentic-AI_R-48363-1
 postedDate: 2025-09-04T00:00:00.000Z
 expirationDate: 2025-10-04T00:00:00.000Z
 tags:
@@ -19,6 +20,9 @@ tags:
 status: published
 jobLevel: Senior Level
 employeeRole: Individual Contributor
+source: Sourced by AI Job Spot
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.178Z'
 ---
 # Forward Deployed Engineer - Agentic AI
 

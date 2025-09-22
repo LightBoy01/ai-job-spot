@@ -9,20 +9,37 @@ import { getJobById } from '@/lib/firestoreClient';
 import { SerializedJobPosting, JobPosting } from '@/lib/types';
 import RichTextEditor from '@/components/RichTextEditor';
 
-type JobFormData = Partial<Omit<JobPosting, 'id' | 'postedDate' | 'expirationDate' | 'tags' | 'responsibilities' | 'qualifications' | 'description' | 'isNew' | 'status'> & {
-  tags: string;
-  responsibilities: string;
-  qualifications: string;
+type JobFormData = Partial<{
+  title: string;
+  company: string;
+  companyLogoUrl: string | null;
   description: string;
-  postedDate: string;
-  expirationDate: string;
-  isNew: boolean;
+  responsibilities: string; // Joined by \n
+  qualifications: string; // Joined by \n
+  preferredQualifications: string | null; // Joined by \n
+  location: string;
+  salaryRange: string | null;
+  postedDate: string; // ISO string for date input
+  expirationDate: string | null; // ISO string for date input
+  applicationLink: string;
+  applicationExperience: string | null;
+  tags: string; // Comma-separated string
+  jobLevel: string | null;
+  employeeRole: string | null;
   status: 'draft' | 'pending_review' | 'published' | 'rejected';
-  applicationExperience: string;
-  glassdoorLink: string;
-  crunchbaseLink: string;
-  source: string;
-  companyCulture: string;
+  isNew: boolean;
+  source: string | null;
+  sourceUrl: string | null; // New field
+  verificationDate: string | null; // New field
+  glassdoorLink: string | null;
+  crunchbaseLink: string | null;
+  story_question1: string | null;
+  story_answer1: string | null;
+  story_question2: string | null;
+  story_answer2: string | null;
+  story_question3: string | null;
+  story_answer3: string | null;
+  companyCulture: string | null;
 }>;
 
 interface EditJobProps {
@@ -43,8 +60,10 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
         tags: job.tags?.join(', ') || '',
         responsibilities: job.responsibilities?.join('\n') || '',
         qualifications: job.qualifications?.join('\n') || '',
+        preferredQualifications: job.preferredQualifications?.join('\n') || '',
         postedDate: job.postedDate ? new Date(job.postedDate).toISOString().split('T')[0] : '',
         expirationDate: job.expirationDate ? new Date(job.expirationDate).toISOString().split('T')[0] : '',
+        verificationDate: job.verificationDate ? new Date(job.verificationDate).toISOString().split('T')[0] : '',
         isNew: job.isNew || false,
         status: job.status || 'published',
         applicationExperience: job.applicationExperience || '',
@@ -446,6 +465,7 @@ export const getServerSideProps: GetServerSideProps<EditJobProps> = async (conte
       ...rest,
       postedDate: (postedDate && 'toDate' in postedDate) ? (postedDate as { toDate: () => Date }).toDate().toISOString() : new Date(postedDate).toISOString(),
       expirationDate: expirationDate ? ((expirationDate && 'toDate' in expirationDate) ? (expirationDate as { toDate: () => Date }).toDate().toISOString() : new Date(expirationDate).toISOString()) : null,
+      verificationDate: job.verificationDate ? ((job.verificationDate && 'toDate' in job.verificationDate) ? (job.verificationDate as { toDate: () => Date }).toDate().toISOString() : new Date(job.verificationDate).toISOString()) : null,
       applicationExperience: job.applicationExperience || null,
       glassdoorLink: job.glassdoorLink || null,
       crunchbaseLink: job.crunchbaseLink || null,

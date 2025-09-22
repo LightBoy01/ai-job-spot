@@ -1,9 +1,10 @@
 ---
 id: job-new-next-lead-developer
-title: "Lead Developer - Genesys Cloud & CCaaS"
-company: "Next"
-location: "Leicester, UK"
-applicationLink: https://ekeq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/72287
+title: Lead Developer - Genesys Cloud & CCaaS
+company: Next
+location: 'Leicester, UK'
+applicationLink: >-
+  https://ekeq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/72287
 postedDate: 2025-09-02T00:00:00.000Z
 expirationDate: 2025-10-04T00:00:00.000Z
 tags:
@@ -19,7 +20,10 @@ tags:
 status: published
 jobLevel: Lead
 employeeRole: Individual Contributor
-salaryRange: £61,900 - £66,200 annually
+salaryRange: '£61,900 - £66,200 annually'
+source: Sourced by AI Job Spot
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.165Z'
 ---
 
 # Lead Developer - Genesys Cloud & CCaaS

@@ -8,7 +8,8 @@ import { z } from 'zod';
 import { notifyUrlUpdate, notifyUrlDelete } from './scripts/indexing_api_client.ts';
 import dotenv from 'dotenv';
 
-dotenv.config({ path: '.env.development.local' });
+dotenv.config();
+dotenv.config({ path: '.env.local', override: true });
 
 const SITE_URL = 'https://aijobspot.online';
 
@@ -43,6 +44,8 @@ const jobSchema = z.object({
     employeeRole: z.string().nullable().optional(),
     salaryRange: z.string().nullable().optional(),
     source: z.string().nullable().optional(),
+    sourceUrl: z.string().url().nullable().optional(),
+    verificationDate: z.union([z.date(), z.string().pipe(z.coerce.date())]).nullable().optional(),
     glassdoorLink: z.string().url().nullable().optional(),
     crunchbaseLink: z.string().url().nullable().optional(),
     companyLogoUrl: z.string().nullable().optional(),
@@ -164,6 +167,9 @@ const jobSchema = z.object({
                     if (finalData.publishDate) {
                         finalData.publishDate = admin.firestore.Timestamp.fromDate(new Date(finalData.publishDate));
                     }
+                    if (finalData.verificationDate) {
+                        finalData.verificationDate = admin.firestore.Timestamp.fromDate(new Date(finalData.verificationDate));
+                    }
 
                     items.push(finalData);
                 }
@@ -271,12 +277,54 @@ const jobSchema = z.object({
             try {
                 await upsertBatch.commit();
                 console.log(`Firestore upsert complete. Processed ${operationsCount} upsert operations.`);
+
+                // --- REVALIDATION ---
+                const pathsToRevalidate = [
+                    '/', // Homepage
+                    '/articles', // Articles list page
+                    ...processedJobs.map(job => `/jobs/${job.id}`),
+                    ...processedArticles.map(article => `/articles/${article.slug}`)
+                ];
+                await revalidatePaths(pathsToRevalidate);
+
             } catch (error) {
                 console.error('Error committing upsert batch:', error);
             }
         } else {
             console.log('No valid Markdown files found to upsert. Firestore remains unchanged.');
         }
+    }
+
+    async function revalidatePaths(paths: string[]) {
+        const secret = process.env.REVALIDATE_SECRET_TOKEN;
+        if (!secret) {
+            console.warn('[REVALIDATION SKIPPED] REVALIDATE_SECRET_TOKEN not set.');
+            return;
+        }
+
+        const revalidationPromises = paths.map(path => 
+            fetch(`${SITE_URL}/api/revalidate`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ secret, path }),
+            })
+            .then(res => {
+                if (res.ok) {
+                    console.log(`[REVALIDATED] ${path}`);
+                } else {
+                    console.error(`[REVALIDATION FAILED] for ${path}: Status ${res.status}`);
+                }
+                return res.json();
+            })
+            .catch(err => {
+                console.error(`[REVALIDATION FAILED] for ${path}:`, err);
+            })
+        );
+
+        await Promise.all(revalidationPromises);
+        console.log('On-demand revalidation process complete.');
     }
 
     await seedData();

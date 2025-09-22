@@ -1,18 +1,27 @@
 ---
-id: 'job-46'
-title: 'AI Agent Developer'
-company: 'Capgemini'
+id: job-46
+title: AI Agent Developer
+company: Capgemini
 location: 'Charlotte, NC, USA'
 applicationLink: 'https://capgemini.taleo.net/careersection/1/jobdetail.ftl?job=081475&lang=en'
 postedDate: '2025-09-21'
 expirationDate: '2026-03-21'
-tags: ['AI', 'Agent Development', 'SDLC', 'LangChain', 'Python', 'FinServ']
-status: 'published'
-jobLevel: 'Developer'
-employeeRole: 'Engineer'
+tags:
+  - AI
+  - Agent Development
+  - SDLC
+  - LangChain
+  - Python
+  - FinServ
+status: published
+jobLevel: Developer
+employeeRole: Engineer
 salaryRange: null
-source: 'Capgemini Careers'
-companyLogoUrl: 'https://www.capgemini.com/wp-content/uploads/2020/08/Capgemini-Logo_Color_RGB.png'
+source: Capgemini Careers
+companyLogoUrl: >-
+  https://www.capgemini.com/wp-content/uploads/2020/08/Capgemini-Logo_Color_RGB.png
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.280Z'
 ---
 
 We are seeking an AI Agent Developer to design, build, and scale agentic AI solutions that accelerate the Software Development Lifecycle (SDLC) for the financial services industry. This role focuses on creating intelligent agents that automate requirement analysis, coding, testing, observability, and DevSecOps workflows across Python, .NET, Angular, and enterprise-scale platforms.

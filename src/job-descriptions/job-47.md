@@ -1,18 +1,27 @@
 ---
-id: 'job-47'
-title: 'AI Intern'
-company: 'MetricStream'
-location: 'Remote'
-applicationLink: 'https://career5.successfactors.eu/career?career_ns=job_listing&company=metricstre&career_job_req_id=3384'
+id: job-47
+title: AI Intern
+company: MetricStream
+location: Remote
+applicationLink: >-
+  https://career5.successfactors.eu/career?career_ns=job_listing&company=metricstre&career_job_req_id=3384
 postedDate: '2025-09-20'
 expirationDate: '2026-03-20'
-tags: ['AI', 'Internship', 'GRC', 'Remote', 'LangChain', 'LLM']
-status: 'published'
-jobLevel: 'Intern'
-employeeRole: 'Engineer'
+tags:
+  - AI
+  - Internship
+  - GRC
+  - Remote
+  - LangChain
+  - LLM
+status: published
+jobLevel: Intern
+employeeRole: Engineer
 salaryRange: null
-source: 'MetricStream Careers'
+source: MetricStream Careers
 companyLogoUrl: 'https://www.metricstream.com/images/metricstream-logo-og.png'
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.276Z'
 ---
 
 We are seeking an enthusiastic and motivated AI Intern to develop GRC (Governance, Risk, and Compliance) use cases at the intersection of design, AI, and enterprise challenges. This role offers an excellent opportunity to gain hands-on experience in building and deploying AI-driven solutions and agents, working with cutting-edge frameworks, and contributing to impactful real-world AI use cases in the GRC domain.

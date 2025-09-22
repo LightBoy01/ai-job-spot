@@ -2,42 +2,60 @@ import AdminLayout from '@/components/AdminLayout';
 import Link from 'next/link';
 
 const AdminDashboard: React.FC = () => {
+  // Placeholder data - in a real app, this would be fetched from the backend.
+  const stats = {
+    publishedJobs: 78,
+    pendingReviews: 3,
+    publishedArticles: 30,
+  };
+
   return (
     <AdminLayout title="Admin Dashboard">
-      <h1 className="text-4xl font-serif font-bold text-primary-dark mb-4">Admin Dashboard</h1>
-      <p className="text-lg text-neutral-700 mb-10">Welcome to the AI Job Spot admin panel. From here, you can manage all content on the site.</p>
+      <div className="flex justify-between items-center mb-10">
+        <div>
+          <h1 className="text-4xl font-serif font-bold text-primary-dark">Dashboard</h1>
+          <p className="text-lg text-neutral-600 mt-1">Welcome back, Admin. Here is a snapshot of your site.</p>
+        </div>
+        <div className="flex space-x-4">
+          <Link href="/admin/jobs/new" passHref>
+            <span className="bg-primary hover:bg-primary-dark text-white py-2 px-5 rounded-lg font-semibold transition-colors cursor-pointer shadow-sm">
+              + Add New Job
+            </span>
+          </Link>
+          <Link href="/admin/articles/new" passHref>
+            <span className="bg-secondary hover:bg-secondary-dark text-white py-2 px-5 rounded-lg font-semibold transition-colors cursor-pointer shadow-sm">
+              + Add New Article
+            </span>
+          </Link>
+        </div>
+      </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {/* Card for Managing Jobs */}
-        <div className="bg-neutral-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-neutral-200">
-          <h2 className="text-2xl font-serif font-semibold text-primary-dark mb-4">Manage Job Postings</h2>
-          <p className="text-neutral-600 mb-6">Create, edit, and delete job listings. You can also review and publish submissions from employers.</p>
+      {/* Stats Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Published Jobs Stat Card */}
+        <div className="bg-white p-6 rounded-xl shadow-sm border border-black/5">
+          <h3 className="text-lg font-semibold text-neutral-500">Published Jobs</h3>
+          <p className="text-5xl font-serif font-bold text-primary-dark mt-2">{stats.publishedJobs}</p>
           <Link href="/admin/jobs" passHref>
-            <span className="inline-block bg-secondary text-white py-2 px-6 rounded-md font-semibold hover:bg-secondary-dark transition-colors cursor-pointer">
-              Go to Jobs
-            </span>
+            <span className="text-sm font-semibold text-secondary-dark hover:text-secondary mt-4 inline-block">Manage Jobs &rarr;</span>
           </Link>
         </div>
 
-        {/* Card for Managing Articles */}
-        <div className="bg-neutral-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-neutral-200">
-          <h2 className="text-2xl font-serif font-semibold text-primary-dark mb-4">Manage Articles</h2>
-          <p className="text-neutral-600 mb-6">Write new articles, edit existing content, and manage the publication status of all written works.</p>
-          <Link href="/admin/articles" passHref>
-            <span className="inline-block bg-secondary text-white py-2 px-6 rounded-md font-semibold hover:bg-secondary-dark transition-colors cursor-pointer">
-              Go to Articles
-            </span>
-          </Link>
-        </div>
-
-        {/* Card for Pending Reviews */}
-        <div className="bg-neutral-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-neutral-200 md:col-span-2">
-          <h2 className="text-2xl font-serif font-semibold text-primary-dark mb-4">Pending Reviews</h2>
-          <p className="text-neutral-600 mb-6">Review job postings submitted by external employers before they go live on the site. Approve or reject submissions here.</p>
+        {/* Pending Reviews Stat Card */}
+        <div className="bg-white p-6 rounded-xl shadow-sm border border-black/5 ring-2 ring-accent/50">
+          <h3 className="text-lg font-semibold text-neutral-500">Pending Reviews</h3>
+          <p className="text-5xl font-serif font-bold text-accent-dark mt-2">{stats.pendingReviews}</p>
           <Link href="/admin/reviews" passHref>
-            <span className="inline-block bg-accent text-white py-2 px-6 rounded-md font-semibold hover:bg-accent-dark transition-colors cursor-pointer">
-              View Pending Jobs
-            </span>
+            <span className="text-sm font-semibold text-accent-dark hover:text-accent mt-4 inline-block">View Queue &rarr;</span>
+          </Link>
+        </div>
+
+        {/* Published Articles Stat Card */}
+        <div className="bg-white p-6 rounded-xl shadow-sm border border-black/5">
+          <h3 className="text-lg font-semibold text-neutral-500">Published Articles</h3>
+          <p className="text-5xl font-serif font-bold text-primary-dark mt-2">{stats.publishedArticles}</p>
+          <Link href="/admin/articles" passHref>
+            <span className="text-sm font-semibold text-secondary-dark hover:text-secondary mt-4 inline-block">Manage Articles &rarr;</span>
           </Link>
         </div>
       </div>

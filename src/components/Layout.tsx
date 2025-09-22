@@ -21,13 +21,13 @@ interface LayoutProps {
  */
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="min-h-screen bg-neutral-50 font-sans">
+    <div className="min-h-screen bg-neutral-ivory font-sans">
       
       {/* The Navbar is rendered at the top of every page */}
       <Navbar />
 
       {/* Main content area */}
-      <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <main className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         {children}
       </main>
       <Footer />

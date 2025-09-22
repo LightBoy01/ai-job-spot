@@ -1,18 +1,35 @@
 ---
-id: 'job-56'
-title: 'Applied AI ML Senior Associate'
-company: 'JPMorgan Chase & Co.'
-location: 'Various'
-applicationLink: 'https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210662417'
+id: job-56
+title: Applied AI ML Senior Associate
+company: JPMorgan Chase & Co.
+location: Various
+applicationLink: >-
+  https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210662417
 postedDate: '2025-09-22'
 expirationDate: null
-tags: ['AI', 'ML', 'LLM', 'GenAI', 'TensorFlow', 'PyTorch', 'JAX', 'scikit-learn', 'AWS', 'Azure', 'GCP', 'Kubernetes', 'Python']
-status: 'published'
-jobLevel: 'Senior Associate'
-employeeRole: 'Engineer'
+tags:
+  - AI
+  - ML
+  - LLM
+  - GenAI
+  - TensorFlow
+  - PyTorch
+  - JAX
+  - scikit-learn
+  - AWS
+  - Azure
+  - GCP
+  - Kubernetes
+  - Python
+status: published
+jobLevel: Senior Associate
+employeeRole: Engineer
 salaryRange: '$128,250 - $195,000'
-source: 'JPMorgan Chase Careers'
-companyLogoUrl: 'https://jpmc.fa.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=0848BB3A-5E59-48BF-9AEC-F465299455DA'
+source: JPMorgan Chase Careers
+companyLogoUrl: >-
+  https://jpmc.fa.oraclecloud.com:443/hcmUI/CandidateExperience/images?imageId=0848BB3A-5E59-48BF-9AEC-F465299455DA
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.222Z'
 ---
 
 As an Applied AI/ML Senior Associate at JPMorgan Chase, you will lead a specialized technical area within the Corporate Sector - AIML Data Platforms, driving impact across teams, technologies, and projects. This role leverages deep knowledge of machine learning, software engineering, and product management to spearhead complex ML projects and initiatives, serving as a primary decision-maker and a catalyst for innovation.

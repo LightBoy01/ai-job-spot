@@ -31,6 +31,12 @@ const processJobData = (docSnap: DocumentSnapshot<DocumentData>): JobPosting => 
         jobLevel: data?.jobLevel || '',
         employeeRole: data?.employeeRole || '',
         status: data?.status || 'draft',
+        story_question1: data?.story_question1 || null,
+        story_answer1: data?.story_answer1 || null,
+        story_question2: data?.story_question2 || null,
+        story_answer2: data?.story_answer2 || null,
+        story_question3: data?.story_question3 || null,
+        story_answer3: data?.story_answer3 || null,
     } as JobPosting;
 };
 

@@ -15,6 +15,9 @@ tags:
 status: published
 jobLevel: Mid-Senior
 employeeRole: Individual Contributor
+source: Sourced by AI Job Spot
+sourceUrl: null
+verificationDate: '2025-09-22T16:53:14.320Z'
 ---
 # Remote AI Prompt Engineer
 

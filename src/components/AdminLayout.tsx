@@ -27,7 +27,7 @@ const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({ 
 
   if (loading || !user) {
     return (
-      <div className="min-h-screen bg-neutral-100 flex items-center justify-center">
+      <div className="min-h-screen bg-neutral-ivory flex items-center justify-center">
         <p className="text-lg font-serif text-neutral-700">Loading Admin...</p>
       </div>
     );
@@ -41,7 +41,7 @@ const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({ 
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-100 font-sans text-neutral-800">
+    <div className="min-h-screen bg-neutral-ivory font-sans text-neutral-800">
       <Head>
         <title>{title}</title>
         <meta name="robots" content="noindex, nofollow" />
