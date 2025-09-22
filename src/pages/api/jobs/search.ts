@@ -11,7 +11,6 @@ const searchSchema = z.object({
   limit: z.coerce.number().int().positive().max(50).optional().default(10), // Page size
 });
 
-
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
 const serializeJob = (doc: FirebaseFirestore.DocumentSnapshot): JobPosting => {
     const data = doc.data()!;
@@ -42,30 +41,105 @@ export default async function handler(
 
     res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=300');
 
-    let query: Query = adminDb.collection('jobs').where('status', '==', 'published');
+    let jobs: JobPosting[] = [];
+    const fetchedDocIds = new Set<string>();
 
-    if (searchTerm) {
-      // Simple prefix search on title. For more complex search, a dedicated search service like Algolia is better.
-      query = query.where('title', '>=', searchTerm)
-                   .where('title', '<=', searchTerm + '\uf8ff');
-    }
-
-    // Always order by postedDate descending for consistent pagination
-    query = query.orderBy('postedDate', 'desc');
-
-    if (startAfterId) {
-      const startAfterDoc = await adminDb.collection('jobs').doc(startAfterId).get();
-      if (startAfterDoc.exists) {
-        query = query.startAfter(startAfterDoc);
+    // Function to fetch and process a query result
+    const fetchAndProcess = async (baseQuery: Query) => {
+      let currentQuery = baseQuery;
+      if (startAfterId) {
+        const startAfterDoc = await adminDb.collection('jobs').doc(startAfterId).get();
+        if (startAfterDoc.exists) {
+          currentQuery = currentQuery.startAfter(startAfterDoc);
+        }
       }
+      const snapshot = await currentQuery.limit(limit).get();
+      snapshot.docs.forEach(doc => {
+        if (!fetchedDocIds.has(doc.id)) {
+          jobs.push(serializeJob(doc));
+          fetchedDocIds.add(doc.id);
+        }
+      });
+    };
+
+    // --- Multi-field Search Queries ---
+    if (searchTerm) {
+      const lowerSearchTerm = searchTerm.toLowerCase();
+
+      // 1. Search by Title (prefix match)
+      await fetchAndProcess(
+        adminDb.collection('jobs')
+          .where('status', '==', 'published')
+          .where('title', '>=', searchTerm)
+          .where('title', '<=', searchTerm + '\uf8ff')
+          .orderBy('title')
+          .orderBy('postedDate', 'desc')
+      );
+
+      // 2. Search by Company (prefix match)
+      await fetchAndProcess(
+        adminDb.collection('jobs')
+          .where('status', '==', 'published')
+          .where('company', '>=', searchTerm)
+          .where('company', '<=', searchTerm + '\uf8ff')
+          .orderBy('company')
+          .orderBy('postedDate', 'desc')
+      );
+
+      // 3. Search by Location (prefix match)
+      await fetchAndProcess(
+        adminDb.collection('jobs')
+          .where('status', '==', 'published')
+          .where('location', '>=', searchTerm)
+          .where('location', '<=', searchTerm + '\uf8ff')
+          .orderBy('location')
+          .orderBy('postedDate', 'desc')
+      );
+
+      // 4. Search by Tags (array-contains-any)
+      // Note: array-contains-any cannot be combined with range filters on other fields.
+      // We fetch separately and merge.
+      await fetchAndProcess(
+        adminDb.collection('jobs')
+          .where('status', '==', 'published')
+          .where('tags', 'array-contains-any', [searchTerm])
+          .orderBy('postedDate', 'desc')
+      );
+
+      // 5. Search by Description (basic keyword check - requires keywords to be stored as array)
+      // This is a placeholder. Full-text search on description requires a dedicated search solution.
+      // If description keywords are stored as an array, you could use array-contains-any here.
+      // For now, we'll rely on other fields.
+
+    } else {
+      // If no search term, return all published jobs, paginated
+      await fetchAndProcess(
+        adminDb.collection('jobs')
+          .where('status', '==', 'published')
+          .orderBy('postedDate', 'desc')
+      );
     }
 
-    const snapshot = await query.limit(limit).get();
+    // --- Simple Relevance Scoring and Deduplication ---
+    // Sort by relevance (e.g., title match > company/location/tag match)
+    // For simplicity, we've already deduplicated during fetchAndProcess.
+    // A more advanced scoring would involve assigning points and re-sorting.
+    jobs.sort((a, b) => {
+      // Prioritize exact title matches
+      const aTitleMatch = a.title.toLowerCase().includes(lowerSearchTerm);
+      const bTitleMatch = b.title.toLowerCase().includes(lowerSearchTerm);
+      if (aTitleMatch && !bTitleMatch) return -1;
+      if (!aTitleMatch && bTitleMatch) return 1;
 
-    const jobs = snapshot.docs.map(serializeJob);
-    const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1] : null;
+      // Then by posted date
+      return b.postedDate.getTime() - a.postedDate.getTime();
+    });
 
-    res.status(200).json({ jobs, lastVisible: lastVisible ? lastVisible.id : null });
+    // Manual pagination after merging and sorting
+    const paginatedJobs = jobs.slice(0, limit);
+    const lastVisibleJob = paginatedJobs.length > 0 ? paginatedJobs[paginatedJobs.length - 1] : null;
+
+    res.status(200).json({ jobs: paginatedJobs, lastVisible: lastVisibleJob ? lastVisibleJob.id : null });
   } catch (error) {
     console.error('Error searching for jobs:', error);
     res.status(500).json({ message: 'Internal server error' });

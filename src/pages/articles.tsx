@@ -204,7 +204,7 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
         <div className="mb-12 flex justify-center">
           <input
             type="text"
-            placeholder="Search articles..."
+            placeholder="Search by title, author, or tags..."
             className="w-full max-w-lg p-4 border border-neutral-300 rounded-lg"
             onChange={handleSearchChange}
           />

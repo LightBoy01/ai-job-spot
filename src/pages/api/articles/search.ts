@@ -2,6 +2,14 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { Article } from '@/lib/types';
 import { Query } from 'firebase-admin/firestore';
+import { z } from 'zod';
+
+// Define the schema for query parameter validation
+const searchSchema = z.object({
+  q: z.string().max(100).optional().default(''), // Search query
+  startAfter: z.string().max(100).optional(), // Firestore document ID for pagination
+  limit: z.coerce.number().int().positive().max(50).optional().default(10), // Page size
+});
 
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
 const serializeArticle = (doc: FirebaseFirestore.DocumentSnapshot): Article => {
@@ -21,36 +29,92 @@ export default async function handler(
     return res.status(405).json({ message: 'Method not allowed' });
   }
 
-  const { q, startAfter: startAfterId, limit: limitStr } = req.query;
-
-  const limit = limitStr ? parseInt(limitStr as string, 10) : 10; // Default to 10
-  const searchTerm = typeof q === 'string' ? q.trim() : '';
-
   try {
+    // Validate and parse query parameters
+    const validation = searchSchema.safeParse(req.query);
+    if (!validation.success) {
+      return res.status(400).json({ message: 'Invalid query parameters.', errors: validation.error.flatten() });
+    }
+    
+    const { q: searchTerm, startAfter: startAfterId, limit } = validation.data;
+
     res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=300');
 
-    let query: Query = adminDb.collection('articles');
+    let articles: Article[] = [];
+    const fetchedDocIds = new Set<string>();
 
-    if (searchTerm) {
-      query = query.where('title', '>=', searchTerm)
-                   .where('title', '<=', searchTerm + '\uf8ff');
-    }
-
-    query = query.orderBy('publishDate', 'desc');
-
-    if (typeof startAfterId === 'string' && startAfterId) {
-      const startAfterDoc = await adminDb.collection('articles').doc(startAfterId).get();
-      if (startAfterDoc.exists) {
-        query = query.startAfter(startAfterDoc);
+    // Function to fetch and process a query result
+    const fetchAndProcess = async (baseQuery: Query) => {
+      let currentQuery = baseQuery;
+      if (startAfterId) {
+        const startAfterDoc = await adminDb.collection('articles').doc(startAfterId).get();
+        if (startAfterDoc.exists) {
+          currentQuery = currentQuery.startAfter(startAfterDoc);
+        }
       }
+      const snapshot = await currentQuery.limit(limit).get();
+      snapshot.docs.forEach(doc => {
+        if (!fetchedDocIds.has(doc.id)) {
+          articles.push(serializeArticle(doc));
+          fetchedDocIds.add(doc.id);
+        }
+      });
+    };
+
+    // --- Multi-field Search Queries ---
+    if (searchTerm) {
+      const lowerSearchTerm = searchTerm.toLowerCase();
+
+      // 1. Search by Title (prefix match)
+      await fetchAndProcess(
+        adminDb.collection('articles')
+          .where('title', '>=', searchTerm)
+          .where('title', '<=', searchTerm + '\uf8ff')
+          .orderBy('title')
+          .orderBy('publishDate', 'desc')
+      );
+
+      // 2. Search by Author (prefix match)
+      await fetchAndProcess(
+        adminDb.collection('articles')
+          .where('author', '>=', searchTerm)
+          .where('author', '<=', searchTerm + '\uf8ff')
+          .orderBy('author')
+          .orderBy('publishDate', 'desc')
+      );
+
+      // 3. Search by Tags (array-contains-any)
+      await fetchAndProcess(
+        adminDb.collection('articles')
+          .where('tags', 'array-contains-any', [searchTerm])
+          .orderBy('publishDate', 'desc')
+      );
+
+    } else {
+      // If no search term, return all published articles, paginated
+      await fetchAndProcess(
+        adminDb.collection('articles')
+          .orderBy('publishDate', 'desc')
+      );
     }
 
-    const snapshot = await query.limit(limit).get();
+    // --- Simple Relevance Scoring and Deduplication ---
+    articles.sort((a, b) => {
+      // Prioritize exact title matches
+      const aTitleMatch = a.title.toLowerCase().includes(lowerSearchTerm);
+      const bTitleMatch = b.title.toLowerCase().includes(lowerSearchTerm);
+      if (aTitleMatch && !bTitleMatch) return -1;
+      if (!aTitleMatch && bTitleMatch) return 1;
 
-    const articles = snapshot.docs.map(serializeArticle);
-    const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1] : null;
+      // Then by publish date
+      return b.publishDate.getTime() - a.publishDate.getTime();
+    });
 
-    res.status(200).json({ articles, lastVisible: lastVisible ? lastVisible.id : null });
+    // Manual pagination after merging and sorting
+    const paginatedArticles = articles.slice(0, limit);
+    const lastVisibleArticle = paginatedArticles.length > 0 ? paginatedArticles[paginatedArticles.length - 1] : null;
+
+    res.status(200).json({ articles: paginatedArticles, lastVisible: lastVisibleArticle ? lastVisibleArticle.id : null });
   } catch (error) {
     console.error('Error searching for articles:', error);
     res.status(500).json({ message: 'Internal server error' });

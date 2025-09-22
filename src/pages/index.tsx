@@ -208,7 +208,7 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
           <div className="relative w-full max-w-lg">
             <input
               type="text"
-              placeholder="Search by title, skill, or company..."
+              placeholder="Search by title, company, location, or tags..."
               className="w-full p-4 pl-12 border border-black/5 bg-white rounded-lg shadow-[inset_0_1px_2px_rgba(0,0,0,0.05)] focus:ring-secondary focus:border-secondary"
               onChange={handleSearchChange}
             />
