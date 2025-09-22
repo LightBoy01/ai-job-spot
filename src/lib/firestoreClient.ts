@@ -37,6 +37,9 @@ const processJobData = (docSnap: DocumentSnapshot<DocumentData>): JobPosting => 
         story_answer2: data?.story_answer2 || null,
         story_question3: data?.story_question3 || null,
         story_answer3: data?.story_answer3 || null,
+        applicationExperience: data?.applicationExperience || null,
+        glassdoorLink: data?.glassdoorLink || null,
+        crunchbaseLink: data?.crunchbaseLink || null,
     } as JobPosting;
 };
 
