@@ -20,18 +20,7 @@ const AdContainer = ({ slot }: AdContainerProps) => {
   const isProduction = process.env.NODE_ENV === 'production';
 
   return (
-    <div className="
-      w-full
-      p-4
-      border border-solid border-neutral-200
-      bg-neutral-50
-      shadow-sm
-      flex
-      items-center
-      justify-center
-      text-center
-      my-4
-    ">
+    <div className="ad-container">
       {isProduction ? (
         <Adsense key={slot} adSlot={slot} dataAdFormat="auto" dataFullWidthResponsive={true} />
       ) : (

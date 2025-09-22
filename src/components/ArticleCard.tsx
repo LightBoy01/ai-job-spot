@@ -14,9 +14,9 @@ const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
 
   return (
     <Link href={`/articles/${slug}`} passHref className="block group">
-      <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 ease-in-out border border-black/5 hover:border-secondary/50 overflow-hidden h-full flex flex-col shadow-[inset_0_1px_2px_rgba(0,0,0,0.05)]">
+      <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out border border-neutral-200/80 hover:border-secondary/50 overflow-hidden h-full flex flex-col">
         {imageUrl && (
-          <div className="relative w-full aspect-video">
+          <div className="relative w-full aspect-video overflow-hidden">
             <Image
               src={imageUrl}
               alt={`Featured image for ${title}`}
@@ -24,10 +24,11 @@ const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
               className="object-cover transition-transform duration-300 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
         )}
-        <div className="p-8 flex flex-col flex-grow">
-          <h3 className="text-2xl font-serif font-semibold text-neutral-800 group-hover:text-primary-dark transition-colors leading-tight mb-3">
+        <div className="p-6 flex flex-col flex-grow">
+          <h3 className="text-2xl font-serif font-bold text-primary-dark group-hover:text-secondary-dark transition-colors leading-tight mb-3">
             {title}
           </h3>
           <div className="flex-grow" />

@@ -222,7 +222,7 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
         {displayedJobs.length === 0 && !loading ? (
           <p className="text-center text-neutral-600">No job postings available at the moment. Please check back later!</p>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {displayedJobs.map((job, index) => (
               <React.Fragment key={job.id}>
                 <JobCard job={job} />

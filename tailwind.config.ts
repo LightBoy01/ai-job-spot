@@ -14,9 +14,9 @@ const config: Config = {
           dark: '#0F1A2E',
         },
         secondary: {
-          DEFAULT: '#C8A25C', // Muted Gold
-          light: '#D4B87E',
-          dark: '#A17B45',
+          DEFAULT: '#D4AF37', // Rich Gold
+          light: '#EACD6E',
+          dark: '#B89B2E',
         },
         accent: {
           DEFAULT: '#4A6B5B', // Deep Muted Green
@@ -24,21 +24,21 @@ const config: Config = {
           dark: '#3A5A4B',
         },
         neutral: {
-          ivory: '#FFFAF0',
-          50: '#FDFDFD',
-          100: '#F5F5F5',
-          200: '#E0E0E0',
-          300: '#C0C0C0',
-          400: '#A0A0A0',
+          cream: '#FDFBF5',
+          50: '#F5F5F5',
+          100: '#E5E5E5',
+          200: '#D4D4D4',
+          300: '#B3B3B3',
+          400: '#A1A1A1',
           500: '#808080',
-          600: '#606060',
-          700: '#404040',
-          800: '#282828',
+          600: '#666666',
+          700: '#4D4D4D',
+          800: '#333333',
           900: '#1A1A1A',
         },
       },
       fontFamily: {
-        sans: ['Lato', 'sans-serif'],
+        sans: ['Cormorant Garamond', 'sans-serif'],
         serif: ['Playfair Display', 'serif'],
       },
       backgroundImage: {

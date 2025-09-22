@@ -33,21 +33,21 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
   };
 
   return (
-    <Link href={`/jobs/${id}`} passHref className="block bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 ease-in-out cursor-pointer border border-black/5 hover:border-secondary/50 relative overflow-hidden h-full flex flex-col shadow-[inset_0_1px_2px_rgba(0,0,0,0.05)]">
+    <Link href={`/jobs/${id}`} passHref className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200/80 hover:border-secondary/50 relative overflow-hidden h-full flex flex-col">
       {isNew && (
-        <span className="absolute top-0 right-0 bg-secondary-light text-secondary-dark text-xs font-bold px-3 py-1 rounded-bl-lg z-10">NEW</span>
+        <span className="absolute top-0 right-0 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">NEW</span>
        )}
        <div className="flex-grow flex flex-col">
          <div className="flex items-start space-x-4 mb-4">
            {/* Logo or Fallback */}
-           <div className="flex-shrink-0 w-16 h-16 bg-neutral-50 rounded-lg flex items-center justify-center border border-neutral-200">
+           <div className="flex-shrink-0 w-16 h-16 bg-neutral-100 rounded-md flex items-center justify-center border border-neutral-200">
              {companyLogoUrl ? (
                <Image
                 src={`/api/image-proxy?url=${encodeURIComponent(companyLogoUrl)}`}
                  alt={`${company} logo`}
                  width={64}
                  height={64}
-                 className="w-full h-full object-contain rounded-lg"
+                 className="w-full h-full object-contain rounded-md"
                />
              ) : (
                <span className="text-2xl font-bold text-primary-dark">{getInitials(company)}</span>
@@ -55,10 +55,10 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
            </div>
            {/* Title and Company */}
            <div className="flex-1">
-             <h3 className="text-xl font-serif font-semibold text-neutral-800 group-hover:text-primary-dark transition-colors leading-tight">
+             <h3 className="text-2xl font-serif font-bold text-primary-dark group-hover:text-secondary-dark transition-colors leading-tight">
                {title}
              </h3>
-             <p className="mt-1 text-base text-neutral-700">
+             <p className="mt-1 text-base text-neutral-600">
                {company}
              </p>
            </div>
@@ -96,7 +96,7 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
 
         <div className="mt-5 flex flex-wrap gap-2">
           {(job.tags || []).map((tag) => (
-            <span key={tag} className="border border-secondary/50 bg-secondary/5 text-secondary-dark text-xs font-medium px-2.5 py-1 rounded-md">
+            <span key={tag} className="border border-secondary/30 bg-secondary/10 text-secondary-dark text-xs font-medium px-2.5 py-1 rounded-md">
               {tag}
             </span>
           ))}

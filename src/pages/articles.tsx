@@ -212,7 +212,7 @@ export default function Articles({ initialArticles, lastDocId: initialLastDocId 
         {displayedArticles.length === 0 && !loading ? (
           <p className="text-center text-neutral-600 text-lg">No articles available at the moment. Please check back later for profound insights!</p>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {displayedArticles.map((article, index) => (
               <React.Fragment key={article.id}>
                 <ArticleCard article={article} />
