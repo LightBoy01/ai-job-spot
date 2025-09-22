@@ -1,3 +1,4 @@
+// Forcing a re-deployment to clear cache
 import Layout from '@/components/Layout';
 import { getJobs, getJobById } from '@/lib/firestoreClient';
 import { SerializedJobPosting } from '@/lib/types';
@@ -126,8 +127,8 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                         className="w-full h-full object-contain rounded-xl"
                       />
                     ) : (
-                      <span className="text-3xl font-bold text-primary-dark">{
-                        job.company
+                      <span className="text-3xl font-bold text-primary-dark">
+                        {job.company
                           .split(' ')
                           .map(word => word[0])
                           .slice(0, 2)
@@ -149,7 +150,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
 
                 <hr className="border-t border-neutral-300 my-8" />
                 {job.salaryRange ? (
-                  <div className="mt-4 text-2xl text-emerald-700 font-semibold">
+                  <div className="mt-4 text-2xl text-accent-dark font-semibold">
                     {job.salaryRange}
                   </div>
                 ) : (
@@ -181,43 +182,6 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                   )}
                 </div>
               </header>
-
-              <section className="prose prose-base sm:prose-lg max-w-none mx-auto job-description">
-                <div className="prose prose-base sm:prose-lg max-w-none mx-auto job-description" dangerouslySetInnerHTML={{ __html: job.description }} />
-
-                {job.responsibilities && job.responsibilities.length > 0 && (
-                  <>
-                      <h2 className="text-3xl font-serif font-semibold text-primary-dark mt-12 mb-6">What You&apos;ll Do</h2>
-                      <ul className="list-disc pl-5 space-y-2">
-                          {job.responsibilities.map((item, index) => (
-                          <li key={index}>{item}</li>
-                          ))}
-                      </ul>
-                  </>
-                )}
-
-                {job.qualifications && job.qualifications.length > 0 && (
-                  <>
-                      <h2 className="text-3xl font-serif font-semibold text-primary-dark mt-12 mb-6">What You&apos;ll Need</h2>
-                      <ul className="list-disc pl-5 space-y-2">
-                          {job.qualifications.map((item, index) => (
-                          <li key={index}>{item}</li>
-                          ))}
-                      </ul>
-                  </>
-                )}
-
-                {job.preferredQualifications && job.preferredQualifications.length > 0 && (
-                  <>
-                    <h3 className="text-2xl font-serif font-semibold text-primary-dark mt-10 mb-6">Preferred Qualifications</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                      {job.preferredQualifications.map((item, index) => (
-                        <li key={index}>{item}</li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-              </section>
 
               {/* Story Behind the Role */}
               {job.story_answer1 != null && (
@@ -260,35 +224,42 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                 </section>
               )}
 
-              {job.companyCulture && (
-                <section className="my-12 md:my-16">
-                  <div className="p-6 md:p-8 bg-neutral-50 rounded-lg border-l-4 border-neutral-200">
-                    <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-dark mb-8">Company Culture</h2>
-                    <p className="mt-2 text-neutral-700 prose prose-lg max-w-none">
-                      {job.companyCulture}
-                    </p>
-                  </div>
-                </section>
-              )}
+              <section className="prose prose-base sm:prose-lg max-w-none mx-auto job-description">
+                <div className="prose prose-base sm:prose-lg max-w-none mx-auto job-description" dangerouslySetInnerHTML={{ __html: job.description }} />
 
-              {job.source && (
-                <div className="mt-10 pt-6 border-t border-neutral-200 text-sm text-neutral-500">
-                  <p>
-                    This job description has been reformatted for clarity by AI Job Spot.
-                    <a href={job.source} target="_blank" rel="noopener noreferrer" className="ml-2 text-primary hover:text-primary-dark underline">
-                      View the original source posting.
-                    </a>
-                  </p>
-                </div>
-              )}
+                {job.responsibilities && job.responsibilities.length > 0 && (
+                  <>
+                      <h2 className="text-3xl font-serif font-semibold text-primary-dark mt-12 mb-6">What You&apos;ll Do</h2>
+                      <ul className="list-disc pl-5 space-y-2">
+                          {job.responsibilities.map((item, index) => (
+                          <li key={index}>{item}</li>
+                          ))}
+                      </ul>
+                  </>
+                )}
 
-              <div className="mt-10 flex flex-wrap gap-3">
-                {(job.tags || []).map((tag) => (
-                  <span key={tag} className="bg-secondary-light text-secondary-dark text-sm font-medium px-3 py-1 rounded-md">
-                    {tag}
-                  </span>
-                ))}
-              </div>
+                {job.qualifications && job.qualifications.length > 0 && (
+                  <>
+                      <h2 className="text-3xl font-serif font-semibold text-primary-dark mt-12 mb-6">What You&apos;ll Need</h2>
+                      <ul className="list-disc pl-5 space-y-2">
+                          {job.qualifications.map((item, index) => (
+                          <li key={index}>{item}</li>
+                          ))}
+                      </ul>
+                  </>
+                )}
+
+                {job.preferredQualifications && job.preferredQualifications.length > 0 && (
+                  <>
+                    <h3 className="text-2xl font-serif font-semibold text-primary-dark mt-10 mb-6">Preferred Qualifications</h3>
+                    <ul className="list-disc pl-5 space-y-2">
+                      {job.preferredQualifications.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+              </section>
 
               <div className="my-12">
                 {job.applicationExperience != null && (
@@ -302,9 +273,71 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                 </a>
               </div>
 
+              <div className="mt-10 flex flex-wrap gap-3">
+                {(job.tags || []).map((tag) => (
+                  <span key={tag} className="bg-secondary-light text-secondary-dark text-sm font-medium px-3 py-1 rounded-md">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+
               <div className="my-12">
                 <AdContainer slot={process.env.NEXT_PUBLIC_ADSENSE_JOB_CONTENT_SLOT || ''} />
               </div>
+
+              {/* --- DYNAMIC PROVENANCE TRAIL --- */}
+              {(job.source || job.verificationDate) && (
+                <section className="my-12">
+                  <div className="bg-neutral-50 border border-neutral-200 rounded-lg p-6">
+                    <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">Provenance Trail</h3>
+                    <p className="text-sm text-neutral-600 mb-4">To ensure authenticity, we track the origin and verification history of our listings.</p>
+                    <ul className="text-sm space-y-2 text-neutral-700">
+                      {job.source && (
+                        <li className="flex items-center">
+                          <svg className="h-4 w-4 mr-2 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l-4 4-4-4"/></svg>
+                          <strong>Source:</strong><span className="ml-2">{job.source}</span>
+                        </li>
+                      )}
+                      {job.verificationDate && (
+                        <li className="flex items-center">
+                          <svg className="h-4 w-4 mr-2 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                          <strong>Last Verified:</strong><span className="ml-2">{formatDate(job.verificationDate)}</span>
+                        </li>
+                      )}
+                      {job.sourceUrl && (
+                        <li className="flex items-center">
+                          <svg className="h-4 w-4 mr-2 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+                          <strong>Original Posting:</strong><a href={job.sourceUrl} target="_blank" rel="noopener noreferrer" className="ml-2 text-primary hover:underline">View Original</a>
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                </section>
+              )}
+
+              {/* --- PROVENANCE TRAIL (PROOF OF CONCEPT) --- */}
+              {job.id === 'job-58' && (
+                <section className="my-12">
+                  <div className="bg-neutral-50 border border-neutral-200 rounded-lg p-6">
+                    <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">Provenance Trail</h3>
+                    <p className="text-sm text-neutral-600 mb-4">To ensure authenticity, we track the origin and verification history of our listings.</p>
+                    <ul className="text-sm space-y-2 text-neutral-700">
+                      <li className="flex items-center">
+                        <svg className="h-4 w-4 mr-2 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l-4 4-4-4"/></svg>
+                        <strong>Source:</strong><span className="ml-2">Directly from company careers page</span>
+                      </li>
+                      <li className="flex items-center">
+                        <svg className="h-4 w-4 mr-2 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        <strong>Verification Date:</strong><span className="ml-2">September 20, 2025</span>
+                      </li>
+                      <li className="flex items-center">
+                        <svg className="h-4 w-4 mr-2 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+                        <strong>Original Posting:</strong><a href="#" onClick={(e) => e.preventDefault()} className="ml-2 text-primary hover:underline">Link (for demo)</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              )}
             </article>
           </div>
 
@@ -374,11 +407,12 @@ export const getStaticProps: GetStaticProps<JobDetailsProps, { id: string }> = a
   }
 
   // Ensure all data is correctly serialized and defaulted
-  const serializedJob: SerializedJobPosting = {
-    ...job,
-    id: job.id!,
-    postedDate: job.postedDate.toISOString(),
-    expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
+      const serializedJob: SerializedJobPosting = {
+        ...job,
+        id: job.id!,
+        postedDate: job.postedDate.toISOString(),
+        expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
+        verificationDate: job.verificationDate ? job.verificationDate.toISOString() : null,
     salaryRange: job.salaryRange ?? null,
     tags: job.tags ?? [],
     description: job.description ?? '',
