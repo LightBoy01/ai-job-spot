@@ -1,6 +1,6 @@
 // Forcing a re-deployment to clear cache
 import Layout from '@/components/Layout';
-import { getJobs, getJobById } from '@/lib/firestoreClient';
+import { getJobs, getJobById, getRelevantArticles } from '@/lib/firestoreClient';
 import { SerializedJobPosting } from '@/lib/types';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';

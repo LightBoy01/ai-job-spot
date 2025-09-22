@@ -76,6 +76,7 @@ export const getStaticProps: GetStaticProps<TagPageProps, { tag: string }> = asy
         ...job,
         postedDate: job.postedDate.toISOString(),
         expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
+        verificationDate: job.verificationDate ? job.verificationDate.toISOString() : null,
       })),
       articles: articles.map(article => ({
         ...article,

@@ -1,16 +1,18 @@
 import Layout from '@/components/Layout';
 import { getArticles, getArticleBySlug } from '@/lib/firestoreClient';
-import { SerializedArticle } from '@/lib/types';
+import { SerializedArticle, SerializedJobPosting } from '@/lib/types';
 import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
 import Link from 'next/link';
 import AdContainer from '@/components/AdContainer';
 import Image from 'next/image';
 import { authors, Author } from '@/lib/authors'; // Import authors data and type
+import Sidebar from '@/components/Sidebar';
 
 interface ArticlePageProps {
   article: SerializedArticle | null;
   authorBio: Author | null; // Add authorBio to props
+  relevantJobs: SerializedJobPosting[];
 }
 
 const generateArticleSchema = (article: SerializedArticle) => {
@@ -80,7 +82,7 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
   };
 }
 
-export default function ArticlePage({ article, authorBio }: ArticlePageProps) {
+export default function ArticlePage({ article, authorBio, relevantJobs }: ArticlePageProps) {
   if (!article) {
     return (
       <Layout>
@@ -115,32 +117,8 @@ export default function ArticlePage({ article, authorBio }: ArticlePageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(generateArticleSchema(article)) }}
         />
       </Head>
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        {imageUrl && (
-          <div className="mb-8">
-            <Image
-              src={imageUrl}
-              alt={title}
-              width={1200}
-              height={675}
-              priority
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
-          </div>
-        )}
-        <h1 className="text-3xl sm:text-4xl font-serif font-extrabold text-primary-dark mb-4">{title}</h1>
-        <div className="mb-6 border-b border-neutral-200 pb-4">
-          <p className="text-neutral-700 text-base">
-            By <span className="font-semibold text-primary-dark">{author}</span>
-          </p>
-          <hr className="border-t border-neutral-300 my-8" />
-          <p className="text-neutral-500 text-sm">
-            {publishDate && `Published on ${formatDate(publishDate)}`}
-            {(issueNo !== undefined && volumeNo !== undefined) && (
-              <span className="ml-2">| Vol. {volumeNo}, Issue No. {issueNo}</span>
-            )}
-          </p>
-        </div>
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-12">
           <div className="md:col-span-2">
             {imageUrl && (
               <div className="mb-8">
@@ -216,3 +194,8 @@ export default function ArticlePage({ article, authorBio }: ArticlePageProps) {
           <aside className="md:col-span-1">
             <Sidebar title="Relevant Jobs" items={relevantJobs} />
           </aside>
+        </div>
+      </div>
+    </Layout>
+  );
+}
