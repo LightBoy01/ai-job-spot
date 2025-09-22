@@ -1,7 +1,7 @@
 ---
 slug: proactive-ai-in-job-industry
 title: 'Proactive AI in the Job Industry: Anticipating Needs and Shaping Futures'
-author: AI Job Spot Team
+author: The AI Strategist
 publishDate: 2025-07-07T11:00:00.000Z
 issueNo: 5
 volumeNo: 1

@@ -35,7 +35,7 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
   return (
     <Link href={`/jobs/${id}`} passHref className="block bg-neutral-50 p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200 hover:border-primary-dark relative overflow-hidden h-full flex flex-col">
       {isNew && (
-        <span className="absolute top-0 right-0 bg-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">NEW</span>
+        <span className="absolute top-0 right-0 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">NEW</span>
       )}
       <div className="flex-grow flex flex-col">
         <div className="flex items-start space-x-4 mb-4">
@@ -43,7 +43,7 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
           <div className="flex-shrink-0 w-16 h-16 bg-neutral-100 rounded-lg flex items-center justify-center border border-neutral-200">
             {companyLogoUrl ? (
               <Image
-                src={companyLogoUrl}
+                src={`/api/image-proxy?url=${encodeURIComponent(companyLogoUrl)}`}
                 alt={`${company} logo`}
                 width={64}
                 height={64}

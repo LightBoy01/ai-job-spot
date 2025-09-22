@@ -14,7 +14,7 @@ tags:
   - Python
   - SQL
   - Remote
-status: published
+status: expired
 ---
 # Data Scientist (AI/ML Focus)
 

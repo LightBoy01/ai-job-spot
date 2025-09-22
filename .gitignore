@@ -50,6 +50,7 @@ GEMINI.md
 # service account key
 serviceAccountKey.json
 serviceAccountKey.local.json
+ai-jobs-spot-bc835af65f64.json
 
 # package-lock.json
 # package-lock.json is often committed, but per user preference it's ignored.

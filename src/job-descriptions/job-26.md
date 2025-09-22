@@ -14,7 +14,7 @@ tags:
   - LLM
   - AI Strategy
   - NTT DATA
-status: published
+status: expired
 ---
 # Prompt & Context Engineer
 

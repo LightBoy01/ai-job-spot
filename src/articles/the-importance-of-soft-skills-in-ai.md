@@ -1,7 +1,7 @@
 ---
 slug: the-importance-of-soft-skills-in-ai
 title: 'The Importance of Soft Skills in the AI Job Market: Beyond the Code'
-author: AI Job Spot Team
+author: The AI Strategist
 publishDate: 2025-07-07T10:00:00.000Z
 issueNo: 14
 volumeNo: 1

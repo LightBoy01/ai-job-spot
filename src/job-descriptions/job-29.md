@@ -14,7 +14,7 @@ tags:
   - RPA
   - Startup
   - Remote
-status: published
+status: expired
 story_question1: "What is the most exciting challenge this person will tackle in their first 90 days?"
 story_answer1: "In the first 90 days, the new engineer will lead the charge on integrating our new generative AI model into our core automation engine. This is a greenfield project with the potential to redefine our product's capabilities and deliver a 'wow' experience to our customers."
 story_question2: "What's one quality you're looking for that isn't on the formal job description?"

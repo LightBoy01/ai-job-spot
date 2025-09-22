@@ -1,10 +1,16 @@
-import { admin, adminDb } from './src/lib/firebaseAdmin';
+import { admin, adminDb } from './src/lib/firebaseAdmin.ts';
 import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 import DOMPurify from 'isomorphic-dompurify';
 import { z } from 'zod';
+import { notifyUrlUpdate, notifyUrlDelete } from './scripts/indexing_api_client.ts';
+import dotenv from 'dotenv';
+
+dotenv.config({ path: '.env.development.local' });
+
+const SITE_URL = 'https://aijobspot.online';
 
 // --- ZOD SCHEMAS ---
 const articleSchema = z.object({
@@ -53,6 +59,7 @@ const jobSchema = z.object({
     story_answer2: z.string().optional(),
     story_question3: z.string().optional(),
     story_answer3: z.string().optional(),
+    companyCulture: z.string().optional(),
 });
 
 
@@ -168,7 +175,7 @@ const jobSchema = z.object({
     }
 
 
-    async function syncDeletions(collectionRef: admin.firestore.CollectionReference, localIds: Set<string>) {
+    async function syncDeletions(collectionRef: admin.firestore.CollectionReference, localIds: Set<string>, collectionName: 'jobs' | 'articles') {
         console.log(`Syncing deletions for collection: ${collectionRef.path}...`);
         const remoteSnapshot = await collectionRef.select().get();
         const remoteIds = new Set(remoteSnapshot.docs.map(doc => doc.id));
@@ -181,9 +188,13 @@ const jobSchema = z.object({
 
         console.log(`Found ${idsToDelete.length} documents to delete from ${collectionRef.path}:`, idsToDelete);
         const deleteBatch = db.batch();
-        idsToDelete.forEach(id => {
+        for (const id of idsToDelete) {
             deleteBatch.delete(collectionRef.doc(id));
-        });
+            if (collectionName === 'jobs') {
+                const url = `${SITE_URL}/jobs/${id}`;
+                await notifyUrlDelete(url);
+            }
+        }
 
         await deleteBatch.commit();
         console.log(`Successfully deleted ${idsToDelete.length} orphaned documents from ${collectionRef.path}.`);
@@ -206,8 +217,8 @@ const jobSchema = z.object({
         const localArticleSlugs = new Set(processedArticles.map(a => a.slug).filter(Boolean));
 
         // Sync deletions
-        await syncDeletions(jobsCollection, localJobIds);
-        await syncDeletions(articlesCollection, localArticleSlugs);
+        await syncDeletions(jobsCollection, localJobIds, 'jobs');
+        await syncDeletions(articlesCollection, localArticleSlugs, 'articles');
 
         // Prepare upsert batch
         const upsertBatch = db.batch();
@@ -220,9 +231,6 @@ const jobSchema = z.object({
                 continue;
             }
             const jobRef = jobsCollection.doc(job.id);
-            // The spread operator `...job` carries all fields from the parsed markdown.
-            // We only need to explicitly provide defaults for fields that might be missing
-            // and are required to have a non-undefined value (like an empty array for tags).
             const jobToSeed = {
                 ...job,
                 tags: job.tags ?? [],
@@ -231,6 +239,12 @@ const jobSchema = z.object({
             };
             upsertBatch.set(jobRef, jobToSeed, { merge: true });
             operationsCount++;
+
+            // Notify Google Indexing API for published jobs
+            if (job.status === 'published') {
+                const url = `${SITE_URL}/jobs/${job.id}`;
+                await notifyUrlUpdate(url);
+            }
         }
 
         console.log(`Found ${processedArticles.length} article files to process for upsert...`);

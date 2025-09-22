@@ -11,6 +11,36 @@ interface ArticlePageProps {
   article: SerializedArticle | null;
 }
 
+const generateArticleSchema = (article: SerializedArticle) => {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-job-spot.vercel.app';
+  const logoUrl = `${siteUrl}/logo.svg`; // Assuming logo is in public folder
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': `${siteUrl}/articles/${article.slug}`,
+    },
+    'headline': article.title,
+    'description': article.excerpt,
+    'image': article.imageUrl ? `${siteUrl}${article.imageUrl}` : undefined,
+    'author': {
+      '@type': 'Person',
+      'name': article.author,
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'AI Job Spot',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': logoUrl,
+      },
+    },
+    'datePublished': article.publishDate,
+  };
+};
+
 export async function getStaticPaths() {
   const { articles } = await getArticles(); // Destructure to get the articles array
   const paths = articles.map((article) => ({
@@ -75,6 +105,10 @@ export default function ArticlePage({ article }: ArticlePageProps) {
         <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`} />
         <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`} />
         {article.imageUrl && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_SITE_URL}${article.imageUrl}`} />}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateArticleSchema(article)) }}
+        />
       </Head>
       <div className="max-w-4xl mx-auto px-4 py-8">
         {imageUrl && (
@@ -89,7 +123,7 @@ export default function ArticlePage({ article }: ArticlePageProps) {
             />
           </div>
         )}
-        <h1 className="text-4xl font-serif font-extrabold text-primary-dark mb-4">{title}</h1>
+        <h1 className="text-3xl sm:text-4xl font-serif font-extrabold text-primary-dark mb-4">{title}</h1>
         <div className="mb-6 border-b border-neutral-200 pb-4">
           <p className="text-neutral-700 text-base">
             By <span className="font-semibold text-primary-dark">{author}</span>
@@ -102,7 +136,7 @@ export default function ArticlePage({ article }: ArticlePageProps) {
             )}
           </p>
         </div>
-        <div className="prose prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content" dangerouslySetInnerHTML={{ __html: contentBody }} />
+        <div className="prose prose-base sm:prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content" dangerouslySetInnerHTML={{ __html: contentBody }} />
         
         {author === 'The AI Strategist' && (
           <div className="mt-12 p-8 bg-neutral-50 rounded-lg shadow-sm border border-neutral-200">

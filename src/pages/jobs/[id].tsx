@@ -11,6 +11,74 @@ interface JobDetailsProps {
   job: SerializedJobPosting;
 }
 
+const generateJobPostingSchema = (job: SerializedJobPosting) => {
+  const fullDescription = `
+    ${job.description.replace(/<[^>]*>?/gm, '')}
+    
+    Responsibilities:
+    ${job.responsibilities?.join('\n')}
+    
+    Qualifications:
+    ${job.qualifications?.join('\n')}
+  `.trim();
+
+  const employmentType = job.tags?.find(tag => tag.toLowerCase().includes('full-time') || tag.toLowerCase().includes('part-time') || tag.toLowerCase().includes('contract')) || 'OTHER';
+
+  const jobLocation = job.location.toLowerCase().includes('remote') 
+    ? {
+        '@type': 'Place',
+        'remote': true
+      }
+    : {
+        '@type': 'Place',
+        'address': {
+          '@type': 'PostalAddress',
+          'addressLocality': job.location.split(',')[0]?.trim(),
+          'addressRegion': job.location.split(',')[1]?.trim(),
+          'addressCountry': 'USA' // Assuming USA, adjust if needed
+        }
+      };
+      
+  let salary = {};
+  if (job.salaryRange) {
+    const numbers = job.salaryRange.match(/\d+/g)?.map(Number);
+    if (numbers && numbers.length > 0) {
+      salary = {
+        '@type': 'MonetaryAmount',
+        'currency': 'USD',
+        'value': {
+          '@type': 'QuantitativeValue',
+          'unitText': 'YEAR',
+          'minValue': numbers[0] * 1000,
+          'maxValue': numbers.length > 1 ? numbers[1] * 1000 : numbers[0] * 1000,
+        }
+      };
+    }
+  }
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'JobPosting',
+    'title': job.title,
+    'description': fullDescription,
+    'identifier': {
+      '@type': 'PropertyValue',
+      'name': 'AI Job Spot',
+      'value': job.id
+    },
+    'datePosted': job.postedDate,
+    'validThrough': job.expirationDate,
+    'employmentType': employmentType.toUpperCase(),
+    'hiringOrganization': {
+      '@type': 'Organization',
+      'name': job.company,
+      'logo': job.companyLogoUrl
+    },
+    'jobLocation': jobLocation,
+    'baseSalary': Object.keys(salary).length > 0 ? salary : undefined,
+  };
+};
+
 const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
   if (!job) {
     return (
@@ -35,6 +103,10 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/jobs/${job.id}`} />
         <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}/jobs/${job.id}`} />
+        <script 
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateJobPostingSchema(job)) }}
+        />
       </Head>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-12">
@@ -47,7 +119,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                   <div className="flex-shrink-0 w-24 h-24 bg-neutral-100 rounded-xl flex items-center justify-center border border-neutral-200">
                     {job.companyLogoUrl ? (
                       <Image 
-                        src={job.companyLogoUrl}
+                        src={`/api/image-proxy?url=${encodeURIComponent(job.companyLogoUrl)}`}
                         alt={`${job.company} logo`}
                         width={96}
                         height={96}
@@ -66,7 +138,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                   </div>
                   {/* Title and Company */}
                   <div className="flex-1">
-                    <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary-dark leading-tight mb-3">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary-dark leading-tight mb-3">
                       {job.title}
                     </h1>
                     <div className="text-2xl text-neutral-700">
@@ -110,8 +182,8 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                 </div>
               </header>
 
-              <section className="prose prose-lg max-w-none mx-auto job-description">
-                <div className="prose prose-lg max-w-none mx-auto job-description" dangerouslySetInnerHTML={{ __html: job.description }} />
+              <section className="prose prose-base sm:prose-lg max-w-none mx-auto job-description">
+                <div className="prose prose-base sm:prose-lg max-w-none mx-auto job-description" dangerouslySetInnerHTML={{ __html: job.description }} />
 
                 {job.responsibilities && job.responsibilities.length > 0 && (
                   <>
@@ -184,6 +256,17 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job }) => {
                         </div>
                       )}
                     </div>
+                  </div>
+                </section>
+              )}
+
+              {job.companyCulture && (
+                <section className="my-12 md:my-16">
+                  <div className="p-6 md:p-8 bg-neutral-50 rounded-lg border-l-4 border-neutral-200">
+                    <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-dark mb-8">Company Culture</h2>
+                    <p className="mt-2 text-neutral-700 prose prose-lg max-w-none">
+                      {job.companyCulture}
+                    </p>
                   </div>
                 </section>
               )}
@@ -315,6 +398,7 @@ export const getStaticProps: GetStaticProps<JobDetailsProps, { id: string }> = a
     story_answer2: job.story_answer2 ?? null,
     story_question3: job.story_question3 ?? null,
     story_answer3: job.story_answer3 ?? null,
+    companyCulture: job.companyCulture ?? null,
   };
 
   return {

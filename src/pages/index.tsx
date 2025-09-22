@@ -47,10 +47,6 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
 
   // Unified data fetching function
   const fetchJobs = useCallback(async (query: string, startAfterId: string | null) => {
-    console.log('Client: fetchJobs called with:');
-    console.log('  query:', query);
-    console.log('  startAfterId:', startAfterId);
-
     if (isFetching.current) return;
     isFetching.current = true;
     setLoading(true);
@@ -70,9 +66,6 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
       }
 
       const { jobs: newFetchedJobs = [], lastVisible: newLastVisible } = await response.json();
-
-      console.log('Client: Received newFetchedJobs count:', newFetchedJobs.length);
-      console.log('Client: Received newLastVisible ID:', newLastVisible);
 
       if (newFetchedJobs.length === 0) {
         setHasMore(false);
@@ -152,10 +145,6 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
   }, [handleObserver]);
 
   useEffect(() => {
-    console.log('Client: displayedJobs state changed. Current count:', displayedJobs.length);
-  }, [displayedJobs]);
-
-  useEffect(() => {
     const handleRouteChangeStart = (url: string) => {
       // Only save state if navigating away from the current page
       if (router.asPath === url) return;
@@ -214,7 +203,7 @@ export default function Home({ initialJobs, lastDocId: initialLastDocId }: HomeP
       </Head>
       
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <h1 className="lg:text-5xl md:text-4xl text-3xl font-serif font-bold text-primary-dark mb-6 text-center leading-tight !text-center">Latest AI Job Opportunities</h1>
+            <h1 className="page-title text-4xl sm:text-5xl md:text-6xl mb-4">AI Job Opportunities</h1>
         <div className="mb-12 flex justify-center">
           <input
             type="text"

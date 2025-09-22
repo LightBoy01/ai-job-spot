@@ -1,7 +1,7 @@
 ---
 slug: the-rise-of-generative-ai
 title: 'The Rise of Generative AI: A New Era of Creativity'
-author: AI Job Spot Team
+author: The AI Strategist
 publishDate: 2025-07-03T08:00:00.000Z
 issueNo: 21
 volumeNo: 1

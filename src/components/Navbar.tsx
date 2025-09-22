@@ -27,10 +27,6 @@ const Navbar = () => {
   const navLinks = [
     { href: '/', label: 'Jobs' },
     { href: '/articles', label: 'Articles' },
-    { href: '/about', label: 'About' },
-    { href: '/contact', label: 'Contact' },
-    { href: '/privacy', label: 'Privacy' },
-    { href: '/terms', label: 'Terms' },
   ];
 
   // A reusable function to determine link classes, cleaning up the JSX
@@ -61,9 +57,7 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-              <Link href="/post-a-job" className="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-brand-gold hover:bg-brand-gold-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-gold">
-                Post a Job
-              </Link>
+
             </div>
           </div>
           

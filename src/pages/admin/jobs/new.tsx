@@ -22,6 +22,7 @@ type JobFormData = Partial<Omit<JobPosting, 'id' | 'postedDate' | 'expirationDat
   glassdoorLink: string;
   crunchbaseLink: string;
   source: string;
+  companyCulture: string;
 }>;
 
 const AddNewJob: React.FC = () => {
@@ -56,6 +57,7 @@ const AddNewJob: React.FC = () => {
     story_answer2: '',
     story_question3: "How does this role contribute to the company's larger mission?",
     story_answer3: '',
+    companyCulture: '',
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -206,6 +208,10 @@ const AddNewJob: React.FC = () => {
                 <div>
                   <label htmlFor="employeeRole" className="block text-sm font-semibold text-neutral-700 mb-2">Employee Role (e.g., Individual Contributor, Manager)</label>
                   <input type="text" id="employeeRole" name="employeeRole" value={formData.employeeRole || ''} onChange={handleChange} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" />
+                </div>
+                <div className="md:col-span-2">
+                  <label htmlFor="companyCulture" className="block text-sm font-semibold text-neutral-700 mb-2">Company Culture (Optional)</label>
+                  <textarea id="companyCulture" name="companyCulture" value={formData.companyCulture || ''} onChange={handleChange} rows={5} className="w-full p-3 rounded-md border border-neutral-300 outline-none transition" placeholder="Describe the company culture, values, and benefits."></textarea>
                 </div>
               </div>
             </div>

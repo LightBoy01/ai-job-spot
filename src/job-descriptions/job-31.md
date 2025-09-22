@@ -14,7 +14,7 @@ tags:
   - Runway
   - Creative
   - New York
-status: published
+status: expired
 ---
 # Generative AI Artist (Video)
 

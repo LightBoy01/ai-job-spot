@@ -8,11 +8,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "scrape:got": "ts-node scripts/get_page_source_got.ts",
     "lint:content": "ts-node scripts/lint-content.ts",
     "pipeline:run": "node --loader ts-node/esm src/data-pipeline/main.ts",
     "seed": "ts-node seedFirestore.ts",
     "test": "jest --testPathIgnorePatterns=src/pages/api",
-    "test:api": "jest --config=jest.config.api.js src/pages/api"
+    "test:api": "jest --config=jest.config.api.js src/pages/api",
+    "test:indexing": "ts-node scripts/test_indexing_api.ts",
+    "create": "ts-node scripts/create_content.ts"
   },
   "dependencies": {
     "@crawlee/playwright": "^3.15.0",
@@ -31,7 +34,8 @@
     "firebase": "^11.10.0",
     "firebase-admin": "^13.4.0",
     "fs-extra": "^11.3.2",
-    "got-scraping": "^4.1.2",
+    "google-auth-library": "^10.3.0",
+    "got-scraping": "^3.2.0-beta.0",
     "gray-matter": "^4.0.3",
     "isomorphic-dompurify": "^2.27.0",
     "js-yaml": "^4.1.0",
@@ -55,6 +59,7 @@
     "@faker-js/faker": "^9.9.0",
     "@testing-library/jest-dom": "^6.6.4",
     "@types/node": "^20.19.17",
+    "@types/node-fetch": "^2.6.13",
     "@types/react": "19.1.13",
     "@types/turndown": "^5.0.5",
     "autoprefixer": "^10.4.21",

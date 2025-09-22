@@ -1,30 +1,43 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" aria-labelledby="titleId descId">
-    <title id="titleId">AI in Education: Personalizing Learning and Empowering Educators</title>
-    <desc id="descId">Placeholder image for the article titled 'AI in Education: Personalizing Learning and Empowering Educators' with tags: None.</desc>
+    <title id="titleId">The Personal Learning Engine</title>
+    <desc id="descId">An abstract representation of personalized learning. A single, solid path enters from the left and then gracefully branches into multiple, unique, upward-spiraling pathways of light, symbolizing individual journeys of growth and knowledge.</desc>
     <defs>
-    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
-      <feOffset dx="2" dy="2" result="offsetBlur"/>
-      <feFlood flood-color="black" flood-opacity="0.4" result="offsetColor"/>
-      <feComposite in="offsetColor" in2="offsetBlur" operator="in" result="shadow"/>
-      <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="faint-texture" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="noise"/>
-      <feDiffuseLighting in="noise" lighting-color="white" surfaceScale="2" result="light">
-        <feDistantLight azimuth="225" elevation="45"/>
-      </feDiffuseLighting>
-      <feBlend in="SourceGraphic" in2="light" mode="multiply"/>
-    </filter>
-  </defs>
-    <defs><radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%"><stop offset="0%" style="stop-color:#2A3D5E;stop-opacity:1" /><stop offset="100%" style="stop-color:#0F1A2E;stop-opacity:1" /></radialGradient></defs><rect width="100%" height="100%" fill="url(#grad1)" filter="url(#faint-texture)" />
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="250" font-weight="700" fill="#FFFFFF" opacity="0.03">WISDOM</text>
+        <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#0F1A2E;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#2A3D5E;stop-opacity:1" />
+        </radialGradient>
+        <filter id="faint-texture" x="0" y="0" width="100%" height="100%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="noise"/>
+            <feDiffuseLighting in="noise" lighting-color="white" surfaceScale="2" result="light">
+                <feDistantLight azimuth="225" elevation="45"/>
+            </feDiffuseLighting>
+            <feBlend in="SourceGraphic" in2="light" mode="multiply"/>
+        </filter>
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grad1)" filter="url(#faint-texture)" />
+
+    <!-- Branching Pathways -->
+    <g filter="url(#glow)">
+        <path d="M 50 315 C 300 315, 400 100, 600 150 C 800 200, 900 50, 1150 80" stroke="#C8A25C" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6">
+            <animate attributeName="stroke-dasharray" from="0, 1500" to="1500, 0" dur="4s" begin="0s" repeatCount="indefinite" />
+        </path>
+        <path d="M 50 315 C 250 315, 350 315, 600 315 C 850 315, 950 400, 1150 450" stroke="#F5F5F5" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9">
+             <animate attributeName="stroke-dasharray" from="0, 1500" to="1500, 0" dur="5s" begin="0.5s" repeatCount="indefinite" />
+        </path>
+        <path d="M 50 315 C 300 315, 400 500, 600 480 C 800 460, 900 580, 1150 550" stroke="#C8A25C" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6">
+             <animate attributeName="stroke-dasharray" from="0, 1500" to="1500, 0" dur="4.5s" begin="1s" repeatCount="indefinite" />
+        </path>
+    </g>
+    
     <rect x="0" y="0" width="15" height="630" fill="#C8A25C" />
     <text x="55" y="70" dominant-baseline="middle" text-anchor="start" font-family="'Lato', 'Helvetica Neue', sans-serif" font-size="18" font-weight="700" fill="#C8A25C" letter-spacing="2" opacity="0.8">VOL. 1 | ISSUE NO. 2</text>
-    <text x="55" y="280" dominant-baseline="hanging" text-anchor="start" font-family="'Playfair Display', Georgia, serif" font-size="64" font-weight="700" fill="#F5F5F5" filter="url(#shadow)">AI in Education: Personalizing</text><text x="55" y="355" dominant-baseline="hanging" text-anchor="start" font-family="'Playfair Display', Georgia, serif" font-size="64" font-weight="700" fill="#F5F5F5" filter="url(#shadow)">Learning and Empowering Educators</text>
-    
+    <text x="55" y="560" dominant-baseline="middle" text-anchor="start" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="700" fill="#F5F5F5">The Personal Learning Engine</text>
     <text x="1145" y="570" dominant-baseline="middle" text-anchor="end" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="700" fill="#C8A25C" opacity="0.6">AJS</text>
 </svg>

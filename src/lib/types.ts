@@ -32,6 +32,7 @@ export interface JobPosting {
   story_answer2?: string | null;
   story_question3?: string | null;
   story_answer3?: string | null;
+  companyCulture?: string | null;
 }
 
 export type FirestoreJobPosting = Omit<JobPosting, 'postedDate' | 'expirationDate' | 'salaryRange' | 'jobLevel' | 'employeeRole'> & {
@@ -73,6 +74,15 @@ export interface SerializedJobPosting extends Omit<JobPosting, 'postedDate' | 'e
   postedDate: string | null;
   expirationDate: string | null;
   isNew?: boolean;
+  story_question1?: string | null;
+  story_answer1?: string | null;
+  story_question2?: string | null;
+  story_answer2?: string | null;
+  story_question3?: string | null;
+  story_answer3?: string | null;
+  glassdoorLink?: string | null;
+  crunchbaseLink?: string | null;
+  companyCulture?: string | null;
 }
 
 export interface SerializedArticle extends Omit<Article, 'publishDate'> {

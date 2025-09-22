@@ -87,7 +87,7 @@
 
 /* Stately Page Titles for Public Pages */
 .page-title {
-  @apply text-5xl font-serif font-bold text-primary-dark text-center leading-tight drop-shadow-sm;
+  @apply text-4xl sm:text-5xl font-serif font-bold text-primary-dark text-center leading-tight drop-shadow-sm;
 }
 
 /* Refined Input Focus State */

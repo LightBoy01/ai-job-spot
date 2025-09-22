@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li><Link href="/" className="text-neutral-300 hover:text-secondary transition-colors">AI Jobs</Link></li>
               <li><Link href="/articles" className="text-neutral-300 hover:text-secondary transition-colors">Articles & Insights</Link></li>
-              <li><Link href="/post-a-job" className="text-neutral-300 hover:text-secondary transition-colors">Post a Job</Link></li>
+  
             </ul>
           </div>
 

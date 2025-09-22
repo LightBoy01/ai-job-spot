@@ -14,7 +14,7 @@ tags:
   - Generative AI
   - Marketing
   - Copywriting
-status: published
+status: expired
 ---
 # AI Content Creator
 
