@@ -10,7 +10,7 @@ tags:
   - AI
   - Innovation
   - Critical Thinking
-imageUrl: /images/articles/echoes-in-the-oracle-v2.svg
+imageUrl: /images/articles/echoes-in-the-oracle-v3.svg
 author_take_question1: 'What real-world event sparked the idea for this piece?'
 author_take_answer1: "I was in a strategy meeting where everyone was focused on the capabilities of our new AI tools. We spent an hour discussing what the AI could do. Finally, a junior designer asked, 'But what *should* we be asking it to do that we haven't even thought of yet?' The room went silent. It was a beautiful question that completely reframed the discussion from technical capability to creative purpose. That's the moment the seed for this article was planted."
 author_take_question2: 'If a reader takes only one thing away from this, what should it be?'

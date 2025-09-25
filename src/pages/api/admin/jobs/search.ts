@@ -6,13 +6,15 @@ import { DocumentSnapshot, Query } from 'firebase-admin/firestore';
 
 // Helper function to convert Firestore Timestamp to ISO string
 const processJobData = (docSnap: DocumentSnapshot): JobPosting => {
-    const data = docSnap.data()!;
-    return {
-        id: docSnap.id,
-        ...data,
-        postedDate: data.postedDate.toDate().toISOString(),
-        expirationDate: data.expirationDate ? data.expirationDate.toDate().toISOString() : null,
-    } as JobPosting;
+  const data = docSnap.data()!;
+  return {
+    id: docSnap.id,
+    ...data,
+    postedDate: data.postedDate.toDate().toISOString(),
+    expirationDate: data.expirationDate
+      ? data.expirationDate.toDate().toISOString()
+      : null,
+  } as JobPosting;
 };
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -34,8 +36,9 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     let query: Query = db.collection('jobs');
 
     if (searchTerm) {
-      query = query.where('title', '>=', searchTerm)
-                   .where('title', '<=', searchTerm + '\uf8ff');
+      query = query
+        .where('title', '>=', searchTerm)
+        .where('title', '<=', searchTerm + '\uf8ff');
     }
 
     // ALWAYS apply consistent ordering. Title is first for search, then date.
@@ -52,10 +55,14 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     const querySnapshot = await finalQuery.get();
 
     const jobs = querySnapshot.docs.map(processJobData);
-    const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
+    const lastVisible =
+      querySnapshot.docs.length > 0
+        ? querySnapshot.docs[querySnapshot.docs.length - 1]
+        : null;
 
-    res.status(200).json({ jobs, lastDocId: lastVisible ? lastVisible.id : null });
-
+    res
+      .status(200)
+      .json({ jobs, lastDocId: lastVisible ? lastVisible.id : null });
   } catch (error) {
     console.error('Error searching admin jobs:', error);
     res.status(500).json({ error: 'Internal server error' });

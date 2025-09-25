@@ -23,7 +23,9 @@ export default async function handler(
   res: NextApiResponse
 ) {
   console.log(`DEBUG: Ingest API received method: ${req.method}`);
-  console.log(`DEBUG: Ingest API received x-api-key: ${req.headers['x-api-key']}`);
+  console.log(
+    `DEBUG: Ingest API received x-api-key: ${req.headers['x-api-key']}`
+  );
   // 1. SECURE THE ENDPOINT
   if (req.method !== 'POST') {
     res.setHeader('Allow', ['POST']);
@@ -31,7 +33,10 @@ export default async function handler(
   }
 
   const apiKey = req.headers['x-api-key'];
-  if (!process.env.PIPELINE_API_KEY || apiKey !== process.env.PIPELINE_API_KEY) {
+  if (
+    !process.env.PIPELINE_API_KEY ||
+    apiKey !== process.env.PIPELINE_API_KEY
+  ) {
     return res.status(401).json({ error: 'Unauthorized: Invalid API Key' });
   }
 
@@ -40,19 +45,38 @@ export default async function handler(
     const jobData = scrapedJobSchema.parse(req.body);
 
     // 3. DUPLICATE CHECK (using a temporary, deterministic slug)
-    const companySlug = jobData.company.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-    const titleSlug = jobData.title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-    const duplicateCheckId = `scraped-${companySlug}-${titleSlug}`.slice(0, 100);
+    const companySlug = jobData.company
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
+    const titleSlug = jobData.title
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
+    const duplicateCheckId = `scraped-${companySlug}-${titleSlug}`.slice(
+      0,
+      100
+    );
 
-    const existingJobsQuery = await adminDb.collection('jobs').where('duplicateCheckId', '==', duplicateCheckId).limit(1).get();
+    const existingJobsQuery = await adminDb
+      .collection('jobs')
+      .where('duplicateCheckId', '==', duplicateCheckId)
+      .limit(1)
+      .get();
     if (!existingJobsQuery.empty) {
-      return res.status(200).json({ message: 'Job already exists, skipping.', jobId: existingJobsQuery.docs[0].id });
+      return res.status(200).json({
+        message: 'Job already exists, skipping.',
+        jobId: existingJobsQuery.docs[0].id,
+      });
     }
 
     // 4. GENERATE NEW SEQUENTIAL JOB ID
     const jobsRef = adminDb.collection('jobs');
-    const lastJobQuery = await jobsRef.orderBy(firestore.FieldPath.documentId()).limitToLast(1).get();
-    
+    const lastJobQuery = await jobsRef
+      .orderBy(firestore.FieldPath.documentId())
+      .limitToLast(1)
+      .get();
+
     let newJobNumber = 1;
     if (!lastJobQuery.empty) {
       const lastJobId = lastJobQuery.docs[0].id;
@@ -71,7 +95,11 @@ export default async function handler(
       company: jobData.company,
       location: jobData.location,
       applicationLink: jobData.link,
-      description: DOMPurify.sanitize(jobData.description || jobData.summary || '<p>No description provided.</p>'),
+      description: DOMPurify.sanitize(
+        jobData.description ||
+          jobData.summary ||
+          '<p>No description provided.</p>'
+      ),
       postedDate: new Date(),
       expirationDate: new Date(new Date().setDate(new Date().getDate() + 90)),
       status: 'pending_review',
@@ -88,11 +116,15 @@ export default async function handler(
 
     await newJobRef.set(newJobPayload);
 
-    return res.status(201).json({ message: 'Job successfully ingested for review.', jobId: newJobId });
-
+    return res.status(201).json({
+      message: 'Job successfully ingested for review.',
+      jobId: newJobId,
+    });
   } catch (error) {
     if (error instanceof z.ZodError) {
-      return res.status(400).json({ error: 'Validation failed', details: error.issues });
+      return res
+        .status(400)
+        .json({ error: 'Validation failed', details: error.issues });
     }
     console.error('Error in ingest API:', error);
     return res.status(500).json({ error: 'Internal Server Error' });

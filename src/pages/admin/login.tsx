@@ -18,7 +18,11 @@ const AdminLogin: React.FC = () => {
     const toastId = toast.loading('Attempting to log in...');
 
     try {
-      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
       const idToken = await userCredential.user.getIdToken();
 
       // Call API to set HttpOnly cookie
@@ -39,10 +43,11 @@ const AdminLogin: React.FC = () => {
       router.push('/admin');
     } catch (err) {
       const error = err as { code?: string; message?: string };
-      console.error("Login error:", error);
-      const errorMessage = error.code === 'auth/invalid-credential' 
-        ? 'Invalid email or password. Please try again.'
-        : 'An unexpected error occurred. Please try again later.';
+      console.error('Login error:', error);
+      const errorMessage =
+        error.code === 'auth/invalid-credential'
+          ? 'Invalid email or password. Please try again.'
+          : 'An unexpected error occurred. Please try again later.';
       toast.error(errorMessage, { id: toastId });
     } finally {
       setLoading(false);
@@ -57,16 +62,23 @@ const AdminLogin: React.FC = () => {
 
       <div className="w-full max-w-md mx-auto">
         <div className="text-center mb-8">
-            <Link href="/" passHref>
-                <span className="text-4xl font-serif font-bold text-secondary-dark hover:text-secondary transition-colors cursor-pointer">AI Job Spot</span>
-            </Link>
-            <p className="text-lg text-neutral-600 mt-2">Admin Panel Login</p>
+          <Link href="/" passHref>
+            <span className="text-4xl font-serif font-bold text-secondary-dark hover:text-secondary transition-colors cursor-pointer">
+              AI Job Spot
+            </span>
+          </Link>
+          <p className="text-lg text-neutral-600 mt-2">Admin Panel Login</p>
         </div>
 
         <main className="p-8 lg:p-10 bg-neutral-50 rounded-xl shadow-2xl border border-neutral-200">
           <form onSubmit={handleLogin} className="space-y-6">
             <div>
-              <label htmlFor="email" className="block text-neutral-700 text-sm font-semibold mb-2">Email Address</label>
+              <label
+                htmlFor="email"
+                className="block text-neutral-700 text-sm font-semibold mb-2"
+              >
+                Email Address
+              </label>
               <input
                 type="email"
                 id="email"
@@ -74,11 +86,16 @@ const AdminLogin: React.FC = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                placeholder='admin@example.com'
+                placeholder="admin@example.com"
               />
             </div>
             <div>
-              <label htmlFor="password" className="block text-neutral-700 text-sm font-semibold mb-2">Password</label>
+              <label
+                htmlFor="password"
+                className="block text-neutral-700 text-sm font-semibold mb-2"
+              >
+                Password
+              </label>
               <input
                 type="password"
                 id="password"
@@ -86,7 +103,7 @@ const AdminLogin: React.FC = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
-                placeholder='••••••••'
+                placeholder="••••••••"
               />
             </div>
             <button
@@ -101,7 +118,9 @@ const AdminLogin: React.FC = () => {
       </div>
 
       <footer className="text-center mt-8">
-        <p className="text-neutral-500 text-sm">&copy; {new Date().getFullYear()} AI Job Spot. All Rights Reserved.</p>
+        <p className="text-neutral-500 text-sm">
+          &copy; {new Date().getFullYear()} AI Job Spot. All Rights Reserved.
+        </p>
       </footer>
     </div>
   );

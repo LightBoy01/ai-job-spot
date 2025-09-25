@@ -1,5 +1,9 @@
 import Layout from '@/components/Layout';
-import { getArticles, getArticleBySlug } from '@/lib/firestoreClient';
+import {
+  getArticles,
+  getArticleBySlug,
+  getJobsByTag,
+} from '@/lib/firestoreClient';
 import { SerializedArticle, SerializedJobPosting } from '@/lib/types';
 import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
@@ -16,32 +20,33 @@ interface ArticlePageProps {
 }
 
 const generateArticleSchema = (article: SerializedArticle) => {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-job-spot.vercel.app';
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-job-spot.vercel.app';
   const logoUrl = `${siteUrl}/logo.svg`;
 
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'mainEntityOfPage': {
+    mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `${siteUrl}/articles/${article.slug}`,
     },
-    'headline': article.title,
-    'description': article.excerpt,
-    'image': article.imageUrl ? `${siteUrl}${article.imageUrl}` : undefined,
-    'author': {
+    headline: article.title,
+    description: article.excerpt,
+    image: article.imageUrl ? `${siteUrl}${article.imageUrl}` : undefined,
+    author: {
       '@type': 'Person',
-      'name': article.author,
+      name: article.author,
     },
-    'publisher': {
+    publisher: {
       '@type': 'Organization',
-      'name': 'AI Job Spot',
-      'logo': {
+      name: 'AI Job Spot',
+      logo: {
         '@type': 'ImageObject',
-        'url': logoUrl,
+        url: logoUrl,
       },
     },
-    'datePublished': article.publishDate,
+    datePublished: article.publishDate,
   };
 };
 
@@ -64,12 +69,17 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
   }
 
   const authorBio = authors[article.author] || null;
+  const { jobs: relevantJobs } = await getJobsByTag(article.tags || [], 5); // Fetch 5 relevant jobs based on the article's tags
+
+  console.log(`Relevant Jobs for article ${article.slug}:`, relevantJobs); // Debugging line
 
   return {
     props: {
       article: {
         ...article,
-        publishDate: article.publishDate ? article.publishDate.toISOString() : '',
+        publishDate: article.publishDate
+          ? article.publishDate.toISOString()
+          : '',
         imageUrl: article.imageUrl || null,
         author_take_question1: article.author_take_question1 || null,
         author_take_answer1: article.author_take_answer1 || null,
@@ -77,12 +87,26 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
         author_take_answer2: article.author_take_answer2 || null,
       } as SerializedArticle,
       authorBio,
+      relevantJobs: relevantJobs.map((job) => ({
+        ...job,
+        postedDate: job.postedDate.toISOString(),
+        expirationDate: job.expirationDate
+          ? job.expirationDate.toISOString()
+          : null,
+        verificationDate: job.verificationDate
+          ? job.verificationDate.toISOString()
+          : null,
+      })),
     },
     revalidate: 60,
   };
 }
 
-export default function ArticlePage({ article, authorBio, relevantJobs }: ArticlePageProps) {
+export default function ArticlePage({
+  article,
+  authorBio,
+  relevantJobs,
+}: ArticlePageProps) {
   if (!article) {
     return (
       <Layout>
@@ -90,14 +114,26 @@ export default function ArticlePage({ article, authorBio, relevantJobs }: Articl
           <title>Article Not Found | AI Job Spot</title>
         </Head>
         <div className="text-center py-10">
-          <h1 className="text-3xl font-bold text-neutral-800 mb-4">Article Not Found</h1>
-          <p className="text-neutral-600">The article you are looking for does not exist or has been moved.</p>
+          <h1 className="text-3xl font-bold text-neutral-800 mb-4">
+            Article Not Found
+          </h1>
+          <p className="text-neutral-600">
+            The article you are looking for does not exist or has been moved.
+          </p>
         </div>
       </Layout>
     );
   }
 
-  const { title, author, publishDate, contentBody, issueNo, volumeNo, imageUrl } = article;
+  const {
+    title,
+    author,
+    publishDate,
+    contentBody,
+    issueNo,
+    volumeNo,
+    imageUrl,
+  } = article;
 
   return (
     <Layout>
@@ -109,12 +145,25 @@ export default function ArticlePage({ article, authorBio, relevantJobs }: Articl
         <meta property="og:title" content={`${title} | AI Job Spot`} />
         <meta property="og:description" content={article.excerpt} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`} />
-        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`} />
-        {article.imageUrl && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_SITE_URL}${article.imageUrl}`} />}
+        <meta
+          property="og:url"
+          content={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`}
+        />
+        <link
+          rel="canonical"
+          href={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`}
+        />
+        {article.imageUrl && (
+          <meta
+            property="og:image"
+            content={`${process.env.NEXT_PUBLIC_SITE_URL}${article.imageUrl}`}
+          />
+        )}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateArticleSchema(article)) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateArticleSchema(article)),
+          }}
         />
       </Head>
       <div className="max-w-7xl mx-auto px-4 py-8">
@@ -132,27 +181,76 @@ export default function ArticlePage({ article, authorBio, relevantJobs }: Articl
                 />
               </div>
             )}
-            <h1 className="text-3xl sm:text-4xl font-serif font-extrabold text-primary-dark mb-4">{title}</h1>
+            <h1 className="text-3xl sm:text-4xl font-serif font-extrabold text-primary-dark mb-4">
+              {title}
+            </h1>
             <div className="mb-6 border-b border-neutral-200 pb-4">
               <p className="text-neutral-700 text-base">
-                By <span className="font-semibold text-primary-dark">{author}</span>
+                By{' '}
+                <span className="font-semibold text-primary-dark">
+                  {author}
+                </span>
               </p>
               <hr className="border-t border-neutral-300 my-8" />
               <p className="text-neutral-500 text-sm">
                 {publishDate && `Published on ${formatDate(publishDate)}`}
-                {(issueNo !== undefined && volumeNo !== undefined) && (
-                  <span className="ml-2">| Vol. {volumeNo}, Issue No. {issueNo}</span>
+                {issueNo !== undefined && volumeNo !== undefined && (
+                  <span className="ml-2">
+                    | Vol. {volumeNo}, Issue No. {issueNo}
+                  </span>
                 )}
               </p>
             </div>
-            <div className="prose prose-base sm:prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content" dangerouslySetInnerHTML={{ __html: contentBody }} />
-            
+            <div
+              className="prose prose-base sm:prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content"
+              dangerouslySetInnerHTML={{ __html: contentBody }}
+            />
+
             {authorBio && (
               <div className="mt-12 p-8 bg-neutral-50 rounded-lg shadow-sm border border-neutral-200">
-                <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">About {authorBio.name}</h3>
-                <p className="text-neutral-700 italic leading-relaxed">
-                  {authorBio.bio} <Link href={authorBio.link} className="text-secondary-dark hover:underline">{authorBio.linkText}</Link>.
+                <h3 className="text-xl font-serif font-semibold text-primary-dark mb-2">
+                  About {authorBio.name}
+                </h3>
+                <p className="text-neutral-600 text-sm mb-4">{authorBio.title}</p>
+                <p className="text-neutral-700 italic leading-relaxed mb-4">
+                  {authorBio.bio}{' '}
+                  <Link
+                    href={authorBio.link}
+                    className="text-secondary-dark hover:underline"
+                  >
+                    {authorBio.linkText}
+                  </Link>
+                  .
                 </p>
+                {authorBio.socialLinks && (
+                  <div className="flex space-x-4 mt-4">
+                    {authorBio.socialLinks.twitter && (
+                      <a
+                        href={authorBio.socialLinks.twitter}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-neutral-500 hover:text-primary-dark transition-colors"
+                      >
+                        <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true">
+                          <path d="M18.244 2.25h3.308l-7.227 8.26L21.61 21.75h-5.25l-4.55-6.27L8.25 21.75H2.924l7.393-8.426L2.25 2.25h5.084l3.988 5.483L18.244 2.25zm-4.77 15.315l3.493 4.43H14.5L8.106 6.288H5.99l8.234 11.277z" />
+                        </svg>
+                      </a>
+                    )}
+                    {authorBio.socialLinks.linkedin && (
+                      <a
+                        href={authorBio.socialLinks.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-neutral-500 hover:text-primary-dark transition-colors"
+                      >
+                        <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true">
+                          <path d="M0 0h24v24H0z" fill="none" />
+                          <path d="M19 0H5C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5V5c0-2.761-2.239-5-5-5zm-11 19H5V8h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM19 19h-3v-4.737c0-1.136-.044-2.455-1.5-2.455-1.502 0-1.732 1.175-1.732 2.379V19h-3V8h3v1.387h.044c.48-.924 1.65-1.897 3.456-1.897 3.69 0 4.364 2.42 4.364 5.57V19z" />
+                        </svg>
+                      </a>
+                    )}
+                  </div>
+                )}
               </div>
             )}
 

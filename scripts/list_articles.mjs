@@ -1,4 +1,3 @@
-
 import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
@@ -30,8 +29,12 @@ async function listArticles() {
     return (a.issueNo || 0) - (b.issueNo || 0);
   });
 
-  console.log('| Slug                                             | Volume | Issue |');
-  console.log('|--------------------------------------------------|--------|-------|');
+  console.log(
+    '| Slug                                             | Volume | Issue |'
+  );
+  console.log(
+    '|--------------------------------------------------|--------|-------|'
+  );
   for (const article of articles) {
     const slug = (article.slug || '').padEnd(48);
     const volume = (article.volumeNo || 'N/A').toString().padEnd(6);

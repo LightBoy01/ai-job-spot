@@ -13,16 +13,24 @@ const Sidebar = ({ title, items }: SidebarProps) => {
 
   return (
     <aside className="sticky top-24 bg-neutral-50 border border-neutral-200 rounded-lg p-6">
-      <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">{title}</h3>
+      <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">
+        {title}
+      </h3>
       <ul className="space-y-4">
         {items.map((item) => (
           <li key={item.id}>
             {'slug' in item ? (
-              <Link href={`/articles/${item.slug}`} className="text-primary hover:text-primary-dark transition-colors">
+              <Link
+                href={`/articles/${item.slug}`}
+                className="text-primary hover:text-primary-dark transition-colors"
+              >
                 {item.title}
               </Link>
             ) : (
-              <Link href={`/jobs/${item.id}`} className="text-primary hover:text-primary-dark transition-colors">
+              <Link
+                href={`/jobs/${item.id}`}
+                className="text-primary hover:text-primary-dark transition-colors"
+              >
                 {item.title}
               </Link>
             )}

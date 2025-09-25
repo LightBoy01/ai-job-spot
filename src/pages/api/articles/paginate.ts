@@ -3,7 +3,6 @@ import { adminDb } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { SerializedArticle, FirestoreArticle } from '@/lib/types';
 
-
 export interface PaginatedArticlesResponse {
   articles: SerializedArticle[];
   lastDocId: string | null;
@@ -25,13 +24,17 @@ export default async function handler(
   const { limit, startAfter } = req.query;
 
   const parsedLimit = typeof limit === 'string' ? parseInt(limit, 10) : 10; // Default limit
-  const startAfterDocId = typeof startAfter === 'string' ? startAfter : undefined;
+  const startAfterDocId =
+    typeof startAfter === 'string' ? startAfter : undefined;
 
   let query = adminDb.collection('articles').orderBy('publishDate', 'desc');
 
   if (startAfterDocId) {
     try {
-      const startAfterSnapshot = await adminDb.collection('articles').doc(startAfterDocId).get();
+      const startAfterSnapshot = await adminDb
+        .collection('articles')
+        .doc(startAfterDocId)
+        .get();
       if (startAfterSnapshot.exists) {
         query = query.startAfter(startAfterSnapshot);
       } else {
@@ -40,12 +43,16 @@ export default async function handler(
       }
     } catch (error) {
       console.error('Error fetching startAfter document:', error);
-      return res.status(500).json({ error: 'Failed to fetch startAfter document' });
+      return res
+        .status(500)
+        .json({ error: 'Failed to fetch startAfter document' });
     }
   }
 
   try {
-    console.log(`[articles/paginate] Querying Firestore: limit=${parsedLimit}, startAfterId=${startAfterDocId}`);
+    console.log(
+      `[articles/paginate] Querying Firestore: limit=${parsedLimit}, startAfterId=${startAfterDocId}`
+    );
     const snapshot = await query.limit(parsedLimit).get();
 
     if (snapshot.empty) {
@@ -53,24 +60,29 @@ export default async function handler(
       return res.status(200).json({ articles: [], lastDocId: null });
     }
 
-    const articles = snapshot.docs.map(doc => {
-        const data = doc.data() as FirestoreArticle;
-        return {
-            ...data,
-            id: doc.id,
-            publishDate: data.publishDate.toDate().toISOString(), // Convert Timestamp to ISO string
-        } as SerializedArticle;
+    const articles = snapshot.docs.map((doc) => {
+      const data = doc.data() as FirestoreArticle;
+      return {
+        ...data,
+        id: doc.id,
+        publishDate: data.publishDate.toDate().toISOString(), // Convert Timestamp to ISO string
+      } as SerializedArticle;
     });
 
     const lastVisible = snapshot.docs[snapshot.docs.length - 1];
-    console.log(`[articles/paginate] Found ${articles.length} articles. Last visible ID: ${lastVisible ? lastVisible.id : 'none'}`);
+    console.log(
+      `[articles/paginate] Found ${articles.length} articles. Last visible ID: ${lastVisible ? lastVisible.id : 'none'}`
+    );
 
     return res.status(200).json({
       articles: articles,
       lastDocId: lastVisible ? lastVisible.id : null,
     });
   } catch (error) {
-    console.error('[articles/paginate] Error fetching paginated articles:', error);
+    console.error(
+      '[articles/paginate] Error fetching paginated articles:',
+      error
+    );
     return res.status(500).json({ error: 'Internal Server Error' });
   }
 }

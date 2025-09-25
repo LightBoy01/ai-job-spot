@@ -11,17 +11,31 @@ interface RichTextEditorProps {
   className?: string;
 }
 
-const RichTextEditor: React.FC<RichTextEditorProps> = ({ value, onChange, placeholder, className }) => {
+const RichTextEditor: React.FC<RichTextEditorProps> = ({
+  value,
+  onChange,
+  placeholder,
+  className,
+}) => {
   const modules = {
     toolbar: [
-      [{ 'header': '1' }, { 'header': '2' }, { 'font': ['Playfair Display', 'Lato', 'serif', 'sans-serif'] }],
+      [
+        { header: '1' },
+        { header: '2' },
+        { font: ['Playfair Display', 'Lato', 'serif', 'sans-serif'] },
+      ],
       [{ size: ['small', false, 'large', 'huge'] }],
       ['bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block'],
-      [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' }],
-      [{ 'align': [] }],
-      [{ 'color': [] }, { 'background': [] }],
+      [
+        { list: 'ordered' },
+        { list: 'bullet' },
+        { indent: '-1' },
+        { indent: '+1' },
+      ],
+      [{ align: [] }],
+      [{ color: [] }, { background: [] }],
       ['link', 'image', 'video'],
-      ['clean']
+      ['clean'],
     ],
     clipboard: {
       matchVisual: false,
@@ -29,11 +43,24 @@ const RichTextEditor: React.FC<RichTextEditorProps> = ({ value, onChange, placeh
   };
 
   const formats = [
-    'header', 'font', 'size',
-    'bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block',
-    'list', 'bullet', 'indent',
-    'align', 'color', 'background',
-    'link', 'image', 'video'
+    'header',
+    'font',
+    'size',
+    'bold',
+    'italic',
+    'underline',
+    'strike',
+    'blockquote',
+    'code-block',
+    'list',
+    'bullet',
+    'indent',
+    'align',
+    'color',
+    'background',
+    'link',
+    'image',
+    'video',
   ];
 
   return (

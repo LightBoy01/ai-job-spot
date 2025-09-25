@@ -1,0 +1,142 @@
+import { exec } from 'child_process';
+import fs from 'fs/promises';
+import matter from 'gray-matter';
+import { promisify } from 'util';
+import { processDirectory } from '../../seedFirestore.ts'; // Import the function to test
+
+// --- Centralized Mocks ---
+jest.mock('fs/promises');
+jest.mock('gray-matter');
+jest.mock('util');
+jest.mock('../../src/lib/firebaseAdmin', () => ({
+  __esModule: true,
+  adminDb: {},
+  admin: {
+    firestore: {
+      Timestamp: {
+        fromDate: (date: Date) => ({ toDate: () => date, _isMock: true }), // Mock timestamp
+      },
+    },
+  },
+}));
+jest.mock('../../scripts/indexing_api_client.ts');
+jest.mock('child_process');
+
+// Mock the marked library
+jest.mock('marked', () => ({
+    marked: jest.fn(content => Promise.resolve(content)),
+}));
+
+// --- Typed Mocks ---
+const mockFs = fs as jest.Mocked<typeof fs>;
+const mockMatter = matter as jest.Mock;
+
+describe('seedFirestore.ts - processDirectory', () => {
+  beforeEach(() => {
+    jest.clearAllMocks();
+  });
+
+  it('should correctly process a directory of valid job markdown files', async () => {
+    // --- Arrange (Setup) ---
+    const mockJobData = {
+      id: 'test-job-1',
+      title: 'Senior AI Engineer',
+      company: 'FutureTech',
+      location: 'Remote',
+      applicationLink: 'https://example.com/apply',
+      postedDate: '2025-09-24',
+      status: 'published',
+    };
+
+    const mockFileContent = '---\n...frontmatter...\n---\nThis is the job description.\n\n### Responsibilities\n- Develop AI models.\n\n### Qualifications\n- PhD in AI.';
+
+    // Mock the file system to return one job file
+    mockFs.readdir.mockResolvedValue(['test-job-1.md'] as any);
+    mockFs.readFile.mockResolvedValue(mockFileContent);
+
+    // Mock gray-matter to parse the frontmatter and content
+    mockMatter.mockReturnValue({
+      data: mockJobData,
+      content: mockFileContent.split('---\n')[2], // Get content part
+    });
+
+    // --- Act (Execution) ---
+    const result = await processDirectory('/fake/jobs/dir', 'jobs');
+
+    // --- Assert (Verification) ---
+    expect(result).toHaveLength(1);
+    const processedJob = result[0];
+
+    // Check if frontmatter data is preserved
+    expect(processedJob.id).toBe('test-job-1');
+    expect(processedJob.title).toBe('Senior AI Engineer');
+
+    // Check if date is converted to our mock timestamp
+    expect(processedJob.postedDate).toHaveProperty('_isMock', true);
+
+    // Check if content was parsed correctly
+    expect(processedJob.description).toBe('This is the job description.');
+    expect(processedJob.responsibilities).toEqual(['Develop AI models.']);
+    expect(processedJob.qualifications).toEqual(['PhD in AI.']);
+
+    // Check if excerpt was generated
+    expect(processedJob.excerpt).toBeDefined();
+    expect(processedJob.excerpt.length).toBeLessThanOrEqual(160);
+  });
+
+  it('should correctly process a directory of valid article markdown files', async () => {
+    // --- Arrange (Setup) ---
+    const mockArticleData = {
+        slug: 'test-article',
+        title: 'Test Article',
+        author: 'Jane Doe',
+        publishDate: '2025-09-24',
+        issueNo: 1,
+        volumeNo: 1,
+    };
+
+    const mockFileContent = '---\n...frontmatter...\n---\nThis is the article body.';
+
+    mockFs.readdir.mockResolvedValue(['test-article.md'] as any);
+    mockFs.readFile.mockResolvedValue(mockFileContent);
+
+    mockMatter.mockReturnValue({
+        data: mockArticleData,
+        content: 'This is the article body.',
+    });
+
+    // --- Act (Execution) ---
+    const result = await processDirectory('/fake/articles/dir', 'articles');
+
+    // --- Assert (Verification) ---
+    expect(result).toHaveLength(1);
+    const processedArticle = result[0];
+
+    expect(processedArticle.slug).toBe('test-article');
+    expect(processedArticle.title).toBe('Test Article');
+    expect(processedArticle.publishDate).toHaveProperty('_isMock', true);
+    expect(processedArticle.contentBody).toBe('This is the article body.');
+    expect(processedArticle.excerpt).toBeDefined();
+  });
+
+  it('should skip a file if Zod validation fails', async () => {
+    // --- Arrange ---
+    const invalidJobData = { id: 'bad-job', title: 'Incomplete Job' }; // Missing required fields
+
+    mockFs.readdir.mockResolvedValue(['bad-job.md'] as any);
+    mockFs.readFile.mockResolvedValue('content');
+    mockMatter.mockReturnValue({ data: invalidJobData, content: 'content' });
+
+    // Suppress console.error for this test
+    const consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+
+    // --- Act ---
+    const result = await processDirectory('/fake/jobs/dir', 'jobs');
+
+    // --- Assert ---
+    expect(result).toHaveLength(0); // The invalid file should be skipped
+    expect(consoleErrorSpy).toHaveBeenCalled(); // Ensure the failure was logged
+
+    consoleErrorSpy.mockRestore();
+  });
+});

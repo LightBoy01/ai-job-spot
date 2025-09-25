@@ -29,6 +29,13 @@ const About: React.FC = () => {
             <p>Most job boards are marketplaces of information. They provide the &quot;what&quot;—the listings, the qualifications, the keywords. This is useful, but it is no longer enough. Information has become a commodity.</p>
             <p>Our mission is to provide something more valuable: **advantage**. We do this by focusing on the &quot;how&quot;—how to think, how to strategize, and how to build a career that is resilient to technological change. We serve the intellectually curious professional who seeks not just their next job, but a defensible, long-term career architecture.</p>
 
+            <h3>Our Philosophy: Simplicity &amp; Trust</h3>
+            <p>Everything we do is guided by two core principles:</p>
+            <ul>
+              <li><strong>Simplicity:</strong> We believe in the power of clarity. Our platform is designed to be clean, intuitive, and free of the clutter that defines modern job searching. We present information in a direct and accessible way, allowing the quality of the opportunities and insights to speak for themselves.</li>
+              <li><strong>Trust:</strong> In an era of automation, trust is the ultimate currency. We build trust through meticulous curation, unique human-centered content like our &quot;Story Behind the Role&quot; and &quot;Provenance Trail&quot; features, and a commitment to quality over quantity. We are a platform built by humans, for humans.</li>
+            </ul>
+
             <h2>The AI Strategist: Our Guiding Voice</h2>
             <p>The articles and insights on this platform are crafted by &quot;The AI Strategist.&quot; This is the embodiment of our core philosophy: that true career advantage is born from the synthesis of timeless wisdom and actionable strategy.</p>
             <p>The voice of The AI Strategist is built on a dual foundation:</p>

@@ -13,8 +13,12 @@ const AdminDashboard: React.FC = () => {
     <AdminLayout title="Admin Dashboard">
       <div className="flex justify-between items-center mb-10">
         <div>
-          <h1 className="text-4xl font-serif font-bold text-primary-dark">Dashboard</h1>
-          <p className="text-lg text-neutral-600 mt-1">Welcome back, Admin. Here is a snapshot of your site.</p>
+          <h1 className="text-4xl font-serif font-bold text-primary-dark">
+            Dashboard
+          </h1>
+          <p className="text-lg text-neutral-600 mt-1">
+            Welcome back, Admin. Here is a snapshot of your site.
+          </p>
         </div>
         <div className="flex space-x-4">
           <Link href="/admin/jobs/new" passHref>
@@ -29,33 +33,51 @@ const AdminDashboard: React.FC = () => {
           </Link>
         </div>
       </div>
-      
+
       {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Published Jobs Stat Card */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-black/5">
-          <h3 className="text-lg font-semibold text-neutral-500">Published Jobs</h3>
-          <p className="text-5xl font-serif font-bold text-primary-dark mt-2">{stats.publishedJobs}</p>
+          <h3 className="text-lg font-semibold text-neutral-500">
+            Published Jobs
+          </h3>
+          <p className="text-5xl font-serif font-bold text-primary-dark mt-2">
+            {stats.publishedJobs}
+          </p>
           <Link href="/admin/jobs" passHref>
-            <span className="text-sm font-semibold text-secondary-dark hover:text-secondary mt-4 inline-block">Manage Jobs &rarr;</span>
+            <span className="text-sm font-semibold text-secondary-dark hover:text-secondary mt-4 inline-block">
+              Manage Jobs &rarr;
+            </span>
           </Link>
         </div>
 
         {/* Pending Reviews Stat Card */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-black/5 ring-2 ring-accent/50">
-          <h3 className="text-lg font-semibold text-neutral-500">Pending Reviews</h3>
-          <p className="text-5xl font-serif font-bold text-accent-dark mt-2">{stats.pendingReviews}</p>
+          <h3 className="text-lg font-semibold text-neutral-500">
+            Pending Reviews
+          </h3>
+          <p className="text-5xl font-serif font-bold text-accent-dark mt-2">
+            {stats.pendingReviews}
+          </p>
           <Link href="/admin/reviews" passHref>
-            <span className="text-sm font-semibold text-accent-dark hover:text-accent mt-4 inline-block">View Queue &rarr;</span>
+            <span className="text-sm font-semibold text-accent-dark hover:text-accent mt-4 inline-block">
+              View Queue &rarr;
+            </span>
           </Link>
         </div>
 
         {/* Published Articles Stat Card */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-black/5">
-          <h3 className="text-lg font-semibold text-neutral-500">Published Articles</h3>
-          <p className="text-5xl font-serif font-bold text-primary-dark mt-2">{stats.publishedArticles}</p>
+          <h3 className="text-lg font-semibold text-neutral-500">
+            Published Articles
+          </h3>
+          <p className="text-5xl font-serif font-bold text-primary-dark mt-2">
+            {stats.publishedArticles}
+          </p>
           <Link href="/admin/articles" passHref>
-            <span className="text-sm font-semibold text-secondary-dark hover:text-secondary mt-4 inline-block">Manage Articles &rarr;</span>
+            <span className="text-sm font-semibold text-secondary-dark hover:text-secondary mt-4 inline-block">
+              Manage Articles &rarr;
+            </span>
           </Link>
         </div>
       </div>

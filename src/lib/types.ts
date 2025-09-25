@@ -1,4 +1,3 @@
-
 import * as admin from 'firebase-admin';
 
 export interface JobPosting {
@@ -37,12 +36,21 @@ export interface JobPosting {
   companyCulture?: string | null;
 }
 
-export type FirestoreJobPosting = Omit<JobPosting, 'postedDate' | 'expirationDate' | 'salaryRange' | 'jobLevel' | 'employeeRole'> & {
-    postedDate: admin.firestore.Timestamp;
-    expirationDate?: admin.firestore.Timestamp;
-    salaryRange?: string | null;
-    jobLevel?: string | null;
-    employeeRole?: string | null;
+export type FirestoreJobPosting = Omit<
+  JobPosting,
+  | 'postedDate'
+  | 'expirationDate'
+  | 'salaryRange'
+  | 'jobLevel'
+  | 'employeeRole'
+  | 'verificationDate'
+> & {
+  postedDate: admin.firestore.Timestamp;
+  expirationDate?: admin.firestore.Timestamp | null;
+  salaryRange?: string | null;
+  jobLevel?: string | null;
+  employeeRole?: string | null;
+  verificationDate?: admin.firestore.Timestamp | null;
 };
 
 export interface Article {
@@ -68,11 +76,19 @@ export interface Article {
 }
 
 export type FirestoreArticle = Omit<Article, 'publishDate'> & {
-    publishDate: admin.firestore.Timestamp;
+  publishDate: admin.firestore.Timestamp;
+  author_take_question1?: string | null;
+  author_take_answer1?: string | null;
+  author_take_question2?: string | null;
+  author_take_answer2?: string | null;
 };
 
 // For server-side rendering, where Timestamps are serialized
-export interface SerializedJobPosting extends Omit<JobPosting, 'postedDate' | 'expirationDate' | 'verificationDate'> {
+export interface SerializedJobPosting
+  extends Omit<
+    JobPosting,
+    'postedDate' | 'expirationDate' | 'verificationDate'
+  > {
   postedDate: string | null;
   expirationDate: string | null;
   verificationDate?: string | null;
@@ -94,4 +110,11 @@ export interface SerializedArticle extends Omit<Article, 'publishDate'> {
 }
 
 // A more lightweight type for the article cards, excluding the full content.
-export type SerializedArticleSummary = Omit<SerializedArticle, 'contentBody' | 'author_take_question1' | 'author_take_answer1' | 'author_take_question2' | 'author_take_answer2'>;
+export type SerializedArticleSummary = Omit<
+  SerializedArticle,
+  | 'contentBody'
+  | 'author_take_question1'
+  | 'author_take_answer1'
+  | 'author_take_question2'
+  | 'author_take_answer2'
+>;

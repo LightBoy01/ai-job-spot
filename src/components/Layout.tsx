@@ -22,7 +22,6 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen bg-neutral-cream font-sans">
-      
       {/* The Navbar is rendered at the top of every page */}
       <Navbar />
 

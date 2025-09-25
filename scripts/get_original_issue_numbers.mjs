@@ -32,7 +32,7 @@ const files = [
   'src/articles/the-unseen-hand-ai-logistics.md',
   'src/articles/the-unvarnished-mirror.md',
   'src/articles/the-virtue-of-intellectual-humility.md',
-  'src/articles/unseen-foundations-job-industry.md'
+  'src/articles/unseen-foundations-job-industry.md',
 ];
 
 async function getOriginalIssueNumbers() {

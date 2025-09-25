@@ -6,12 +6,12 @@ import { DocumentSnapshot, Query } from 'firebase-admin/firestore';
 
 // Helper function to convert Firestore Timestamp to ISO string
 const processArticleData = (docSnap: DocumentSnapshot): Article => {
-    const data = docSnap.data()!;
-    return {
-        id: docSnap.id,
-        ...data,
-        publishDate: data.publishDate.toDate().toISOString(),
-    } as Article;
+  const data = docSnap.data()!;
+  return {
+    id: docSnap.id,
+    ...data,
+    publishDate: data.publishDate.toDate().toISOString(),
+  } as Article;
 };
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -33,16 +33,20 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     let query: Query = db.collection('articles');
 
     if (searchTerm) {
-      query = query.where('title', '>=', searchTerm)
-                   .where('title', '<=', searchTerm + '\uf8ff')
-                   .orderBy('title', 'asc')
-                   .orderBy('publishDate', 'desc');
+      query = query
+        .where('title', '>=', searchTerm)
+        .where('title', '<=', searchTerm + '\uf8ff')
+        .orderBy('title', 'asc')
+        .orderBy('publishDate', 'desc');
     } else {
       query = query.orderBy('publishDate', 'desc');
     }
 
     if (typeof startAfterId === 'string' && startAfterId) {
-      const startAfterDoc = await db.collection('articles').doc(startAfterId).get();
+      const startAfterDoc = await db
+        .collection('articles')
+        .doc(startAfterId)
+        .get();
       if (startAfterDoc.exists) {
         query = query.startAfter(startAfterDoc);
       }
@@ -52,10 +56,14 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     const querySnapshot = await finalQuery.get();
 
     const articles = querySnapshot.docs.map(processArticleData);
-    const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
+    const lastVisible =
+      querySnapshot.docs.length > 0
+        ? querySnapshot.docs[querySnapshot.docs.length - 1]
+        : null;
 
-    res.status(200).json({ articles, lastDocId: lastVisible ? lastVisible.id : null });
-
+    res
+      .status(200)
+      .json({ articles, lastDocId: lastVisible ? lastVisible.id : null });
   } catch (error) {
     console.error('Error searching admin articles:', error);
     res.status(500).json({ error: 'Internal server error' });

@@ -1,23 +1,10 @@
-
 import type { NextApiResponse } from 'next';
-import { adminDb } from '../../../lib/firebaseAdmin';
-import { Article, FirestoreArticle } from '../../../lib/types';
-import { requireAdmin, AuthenticatedNextApiRequest } from '../../../lib/middleware';
-import { validatePayload, isRequired, safeToTimestamp } from '../../../lib/apiUtils';
+import { adminDb, admin } from '@/lib/firebaseAdmin';
+import { FirestoreArticle } from '@/lib/types';
+import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
+import { ArticleSchema } from '@/lib/validationSchemas'; // Import Zod schema
 import DOMPurify from 'isomorphic-dompurify';
-
-// This type represents the shape of the data coming from the frontend form
-type ArticleFormData = Partial<Omit<Article, 'id' | 'publishDate' | 'tags'> & {
-  tags: string;
-  publishDate: string;
-}>;
-
-const validationSchema = {
-  title: [isRequired('Article Title')],
-  author: [isRequired('Author')],
-  slug: [isRequired('URL Slug')], // Basic check, can add regex later
-  contentBody: [isRequired('Article Content')],
-};
+import { marked } from 'marked'; // Import marked for HTML sanitization
 
 export default async function handler(
   req: AuthenticatedNextApiRequest,
@@ -29,33 +16,64 @@ export default async function handler(
 
   if (req.method === 'POST') {
     try {
-      const articleData: ArticleFormData = req.body;
+      // Validate input with Zod schema
+      const validationResult = ArticleSchema.safeParse(req.body);
 
-      const errors = validatePayload(articleData, validationSchema);
-      if (Object.keys(errors).length > 0) {
-        return res.status(400).json({ message: 'Validation failed', details: errors });
+      if (!validationResult.success) {
+        return res.status(400).json({
+          message: 'Invalid article data',
+          errors: validationResult.error.flatten(),
+        });
       }
 
-      const sanitizedContentBody = DOMPurify.sanitize(articleData.contentBody || '');
-      const plainTextContent = (articleData.contentBody || '').replace(/\n/g, ' ').replace(/(\**|\*|_|`|\[|\]|\(|\)|#)/g, '');
+      const articleData = validationResult.data;
+
+      const sanitizedContentBody = DOMPurify.sanitize(
+        await marked(articleData.contentBody || '')
+      );
+      const plainTextContent = (articleData.contentBody || '')
+        .replace(/\n/g, ' ')
+        .replace(/(\**|\*|_|`|\[|\]|\(|\)|#)/g, '');
       const excerpt = plainTextContent.substring(0, 160);
 
       const dataToCreate: Omit<FirestoreArticle, 'id'> = {
-        title: articleData.title!,
-        author: articleData.author!,
-        slug: articleData.slug!,
+        title: articleData.title,
+        author: articleData.author,
+        slug: articleData.slug,
         contentBody: sanitizedContentBody,
         excerpt: excerpt,
-        publishDate: safeToTimestamp(articleData.publishDate, 'now')!,
-        tags: articleData.tags ? articleData.tags.split(',').map((tag) => tag.trim()) : [],
-        issueNo: articleData.issueNo ? Number(articleData.issueNo) : undefined,
-        volumeNo: articleData.volumeNo ? Number(articleData.volumeNo) : undefined,
+        publishDate: articleData.publishDate
+          ? admin.firestore.Timestamp.fromDate(
+              new Date(articleData.publishDate)
+            )
+          : admin.firestore.Timestamp.now(),
+        tags: articleData.tags || [],
+        issueNo: articleData.issueNo,
+        volumeNo: articleData.volumeNo,
         imageUrl: articleData.imageUrl || null,
+        author_take_question1:
+          articleData.author_take_question1 === null
+            ? undefined
+            : articleData.author_take_question1,
+        author_take_answer1:
+          articleData.author_take_answer1 === null
+            ? undefined
+            : articleData.author_take_answer1,
+        author_take_question2:
+          articleData.author_take_question2 === null
+            ? undefined
+            : articleData.author_take_question2,
+        author_take_answer2:
+          articleData.author_take_answer2 === null
+            ? undefined
+            : articleData.author_take_answer2,
       };
 
       const docRef = await adminDb.collection('articles').add(dataToCreate);
 
-      res.status(201).json({ id: docRef.id });
+      res
+        .status(201)
+        .json({ message: 'Article created successfully', id: docRef.id });
     } catch (error) {
       console.error('Error adding document: ', error);
       res.status(500).json({ error: 'Failed to create article' });

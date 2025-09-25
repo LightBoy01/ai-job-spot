@@ -9,30 +9,92 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           {/* Section 1: About */}
           <div>
-            <h3 className="text-xl font-serif font-semibold text-secondary-light mb-4">AI Job Spot</h3>
+            <h3 className="text-xl font-serif font-semibold text-secondary-light mb-4">
+              AI Job Spot
+            </h3>
             <p className="text-neutral-300 text-sm leading-relaxed">
-              Your premier destination for AI career opportunities and insights. We connect talent with the future of artificial intelligence.
+              Your premier destination for AI career opportunities and insights.
+              We connect talent with the future of artificial intelligence.
             </p>
           </div>
 
           {/* Section 2: Quick Links */}
           <div>
-            <h3 className="text-xl font-serif font-semibold text-secondary-light mb-4">Quick Links</h3>
+            <h3 className="text-xl font-serif font-semibold text-secondary-light mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="text-neutral-300 hover:text-secondary transition-colors">AI Jobs</Link></li>
-              <li><Link href="/articles" className="text-neutral-300 hover:text-secondary transition-colors">Articles & Insights</Link></li>
-  
+              <li>
+                <Link
+                  href="/"
+                  className="text-neutral-300 hover:text-secondary transition-colors"
+                >
+                  AI Jobs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/articles"
+                  className="text-neutral-300 hover:text-secondary transition-colors"
+                >
+                  Articles & Insights
+                </Link>
+              </li>
+            <li>
+              <Link href="/tags" passHref>
+                <span className="text-neutral-300 hover:text-secondary transition-colors">
+                  Thematic Hubs
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" passHref>
+                <span className="text-neutral-300 hover:text-secondary transition-colors">
+                  About Us
+                </span>
+              </Link>
+            </li>
             </ul>
           </div>
 
           {/* Section 3: Legal & Contact */}
           <div>
-            <h3 className="text-xl font-serif font-semibold text-secondary-light mb-4">Legal & Contact</h3>
+            <h3 className="text-xl font-serif font-semibold text-secondary-light mb-4">
+              Legal & Contact
+            </h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/about" className="text-neutral-300 hover:text-secondary transition-colors">About Us</Link></li>
-              <li><Link href="/contact" className="text-neutral-300 hover:text-secondary transition-colors">Contact</Link></li>
-              <li><Link href="/privacy" className="text-neutral-300 hover:text-secondary transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="text-neutral-300 hover:text-secondary transition-colors">Terms of Service</Link></li>
+              <li>
+                <Link
+                  href="/about"
+                  className="text-neutral-300 hover:text-secondary transition-colors"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="text-neutral-300 hover:text-secondary transition-colors"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacy"
+                  className="text-neutral-300 hover:text-secondary transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/terms"
+                  className="text-neutral-300 hover:text-secondary transition-colors"
+                >
+                  Terms of Service
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

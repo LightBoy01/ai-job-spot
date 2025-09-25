@@ -4,7 +4,10 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import useAuth from '@/hooks/useAuth';
 
-const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({ children, title = 'Admin - AI Job Spot' }) => {
+const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({
+  children,
+  title = 'Admin - AI Job Spot',
+}) => {
   const { user, loading, logout } = useAuth();
   const router = useRouter();
 
@@ -53,16 +56,20 @@ const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({ 
           <div>
             <div className="mb-10">
               <Link href="/" passHref>
-                <span className="text-2xl font-serif font-bold text-secondary-light hover:text-secondary transition-colors cursor-pointer">AI Job Spot</span>
+                <span className="text-2xl font-serif font-bold text-secondary-light hover:text-secondary transition-colors cursor-pointer">
+                  AI Job Spot
+                </span>
               </Link>
               <p className="text-sm text-neutral-400 mt-1">Admin Panel</p>
             </div>
             <nav>
               <ul>
-                {navLinks.map(link => (
+                {navLinks.map((link) => (
                   <li key={link.href} className="mb-4">
                     <Link href={link.href} passHref>
-                      <span className={`block py-2 px-4 rounded-md text-lg transition-colors ${router.pathname === link.href ? 'bg-secondary text-primary-dark font-semibold' : 'hover:bg-primary-light'}`}>
+                      <span
+                        className={`block py-2 px-4 rounded-md text-lg transition-colors ${router.pathname === link.href ? 'bg-secondary text-primary-dark font-semibold' : 'hover:bg-primary-light'}`}
+                      >
                         {link.label}
                       </span>
                     </Link>
@@ -82,9 +89,7 @@ const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({ 
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 p-8 lg:p-12">
-          {children}
-        </main>
+        <main className="flex-1 p-8 lg:p-12">{children}</main>
       </div>
     </div>
   );

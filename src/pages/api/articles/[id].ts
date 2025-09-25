@@ -1,15 +1,10 @@
 import type { NextApiResponse } from 'next';
-import { adminDb } from '../../../lib/firebaseAdmin';
-import { Article, FirestoreArticle } from '../../../lib/types';
+import { adminDb, admin } from '@/lib/firebaseAdmin';
+import { FirestoreArticle } from '@/lib/types';
 import DOMPurify from 'isomorphic-dompurify';
-import { requireAdmin, AuthenticatedNextApiRequest } from '../../../lib/middleware';
-import { validatePayload, isRequired, safeToTimestamp } from '../../../lib/apiUtils';
-
-// This type represents the shape of the data coming from the frontend form
-type ArticleFormData = Partial<Omit<Article, 'id' | 'publishDate' | 'tags'> & {
-  tags: string;
-  publishDate: string;
-}>;
+import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
+import { ArticleSchema } from '@/lib/validationSchemas'; // Import Zod schema
+import { marked } from 'marked'; // Import marked for HTML sanitization
 
 export default async function handler(
   req: AuthenticatedNextApiRequest,
@@ -30,40 +25,75 @@ export default async function handler(
   switch (req.method) {
     case 'PUT':
       try {
-        const articleData: ArticleFormData = req.body;
+        // Validate input with Zod schema
+        const validationResult = ArticleSchema.safeParse(req.body);
 
-        // Since this is a partial update, we only validate the fields that are present.
-        const errors = validatePayload(articleData, {
-            title: [isRequired('Article Title')],
-            author: [isRequired('Author')],
-            slug: [isRequired('URL Slug')],
-            contentBody: [isRequired('Article Content')],
-        });
-
-        if (Object.keys(errors).length > 0) {
-          return res.status(400).json({ message: 'Validation failed', details: errors });
+        if (!validationResult.success) {
+          return res.status(400).json({
+            message: 'Invalid article data',
+            errors: validationResult.error.flatten(),
+          });
         }
+
+        const articleData = validationResult.data;
 
         const updateData: Partial<FirestoreArticle> = {};
 
-        // Build the update object safely, only including fields that were passed
-        if (articleData.title) updateData.title = articleData.title;
-        if (articleData.author) updateData.author = articleData.author;
-        if (articleData.slug) updateData.slug = articleData.slug;
-        if (articleData.contentBody) updateData.contentBody = DOMPurify.sanitize(articleData.contentBody);
-        if (articleData.tags) updateData.tags = articleData.tags.split(',').map(tag => tag.trim());
-        if (articleData.issueNo) updateData.issueNo = Number(articleData.issueNo);
-        if (articleData.volumeNo) updateData.volumeNo = Number(articleData.volumeNo);
-        if (articleData.imageUrl) updateData.imageUrl = articleData.imageUrl;
-        if (articleData.publishDate) {
-            const timestamp = safeToTimestamp(articleData.publishDate, 'now');
-            if (timestamp) {
-                updateData.publishDate = timestamp;
-            }
+        // Map validated data to Firestore format
+        if (articleData.title !== undefined)
+          updateData.title = articleData.title;
+        if (articleData.author !== undefined)
+          updateData.author = articleData.author;
+        if (articleData.slug !== undefined) updateData.slug = articleData.slug;
+        if (articleData.issueNo !== undefined)
+          updateData.issueNo = articleData.issueNo;
+        if (articleData.volumeNo !== undefined)
+          updateData.volumeNo = articleData.volumeNo;
+        if (articleData.imageUrl !== undefined)
+          updateData.imageUrl = articleData.imageUrl;
+        if (articleData.excerpt !== undefined)
+          updateData.excerpt = articleData.excerpt;
+        if (articleData.author_take_question1 !== undefined)
+          updateData.author_take_question1 =
+            articleData.author_take_question1 === null
+              ? undefined
+              : articleData.author_take_question1;
+        if (articleData.author_take_answer1 !== undefined)
+          updateData.author_take_answer1 =
+            articleData.author_take_answer1 === null
+              ? undefined
+              : articleData.author_take_answer1;
+        if (articleData.author_take_question2 !== undefined)
+          updateData.author_take_question2 =
+            articleData.author_take_question2 === null
+              ? undefined
+              : articleData.author_take_question2;
+        if (articleData.author_take_answer2 !== undefined)
+          updateData.author_take_answer2 =
+            articleData.author_take_answer2 === null
+              ? undefined
+              : articleData.author_take_answer2;
+
+        // HTML Sanitization for contentBody
+        if (articleData.contentBody !== undefined) {
+          updateData.contentBody = DOMPurify.sanitize(
+            await marked(articleData.contentBody)
+          );
         }
 
+        // Convert tags string to array
+        if (articleData.tags !== undefined) updateData.tags = articleData.tags;
+
+        // Convert publishDate to Firestore Timestamp
+        if (articleData.publishDate !== undefined)
+          updateData.publishDate = admin.firestore.Timestamp.fromDate(
+            new Date(articleData.publishDate)
+          );
+
         if (Object.keys(updateData).length === 0) {
-          return res.status(400).json({ error: 'No valid fields provided for update.' });
+          return res
+            .status(400)
+            .json({ error: 'No valid fields provided for update.' });
         }
 
         await articleRef.update(updateData);
@@ -80,7 +110,10 @@ export default async function handler(
             await res.revalidate(`/articles/${articleData.slug}`);
           }
         } catch (revalError) {
-          console.error('Error during revalidation after article update:', revalError);
+          console.error(
+            'Error during revalidation after article update:',
+            revalError
+          );
         }
 
         const updatedDoc = await articleRef.get();
@@ -92,7 +125,10 @@ export default async function handler(
           publishDate: updatedArticleData.publishDate.toDate().toISOString(),
         };
 
-        res.status(200).json({ message: 'Article updated successfully', article: finalArticle });
+        res.status(200).json({
+          message: 'Article updated successfully',
+          article: finalArticle,
+        });
       } catch (error) {
         console.error('Error updating document: ', error);
         res.status(500).json({ error: 'Failed to update article' });
@@ -109,7 +145,10 @@ export default async function handler(
           await res.revalidate('/articles'); // Revalidate main articles list page
           await res.revalidate(`/articles/${id}`); // Revalidate specific article page
         } catch (revalError) {
-          console.error('Error during revalidation after article deletion:', revalError);
+          console.error(
+            'Error during revalidation after article deletion:',
+            revalError
+          );
         }
 
         res.status(200).json({ message: 'Article deleted successfully' });

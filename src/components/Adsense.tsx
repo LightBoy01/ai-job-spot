@@ -13,7 +13,7 @@ interface AdsenseProps {
  * Handles the logic for a single Google AdSense unit.
  * Uses useEffect to safely run the AdSense script after the component mounts
  * and re-runs it on route changes to support single-page application navigation.
- * 
+ *
  * @param {object} props - The component props.
  * @param {string} props.adSlot - The Google AdSense ad slot ID from your AdSense account.
  * @param {string} [props.dataAdFormat] - The ad format (e.g., "auto", "rectangle").
@@ -26,7 +26,11 @@ declare global {
   }
 }
 
-const Adsense = ({ adSlot, dataAdFormat, dataFullWidthResponsive }: AdsenseProps) => {
+const Adsense = ({
+  adSlot,
+  dataAdFormat,
+  dataFullWidthResponsive,
+}: AdsenseProps) => {
   const router = useRouter();
 
   useEffect(() => {
@@ -35,7 +39,7 @@ const Adsense = ({ adSlot, dataAdFormat, dataFullWidthResponsive }: AdsenseProps
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       }
     } catch (err) {
-      console.error("AdSense error:", err);
+      console.error('AdSense error:', err);
     }
   }, [router.asPath, adSlot]); // Re-run effect when adSlot changes
 
@@ -45,8 +49,8 @@ const Adsense = ({ adSlot, dataAdFormat, dataFullWidthResponsive }: AdsenseProps
       style={{ display: 'block' }}
       data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_CLIENT} // Your AdSense publisher ID
       data-ad-slot={adSlot} // The specific ad unit slot ID
-      data-ad-format={dataAdFormat || "auto"}
-      data-full-width-responsive={dataFullWidthResponsive ? "true" : "false"}
+      data-ad-format={dataAdFormat || 'auto'}
+      data-full-width-responsive={dataFullWidthResponsive ? 'true' : 'false'}
     ></ins>
   );
 };

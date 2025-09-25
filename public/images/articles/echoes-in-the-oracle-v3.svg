@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#2a2a2a;"/>
+      <stop offset="100%" style="stop-color:#1C1C1C;"/>
+    </radialGradient>
+    <filter id="subtle-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="glow"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+  <g transform="translate(600, 315)">
+    <!-- Classical Column -->
+    <g stroke="#A49B8A" stroke-width="2">
+      <path d="M -50,200 L -50,-150"/>
+      <path d="M -30,200 L -30,-150"/>
+      <path d="M -10,200 L -10,-150"/>
+      <path d="M 10,200 L 10,-150"/>
+      <path d="M 30,200 L 30,-150"/>
+      <path d="M 50,200 L 50,-150"/>
+    </g>
+    <rect x="-60" y="-180" width="120" height="30" rx="3" fill="#A49B8A" stroke="#1C1C1C" stroke-width="2"/>
+    <rect x="-70" y="-190" width="140" height="10" rx="2" fill="#A49B8A"/>
+    <rect x="-60" y="200" width="120" height="20" rx="3" fill="#A49B8A" stroke="#1C1C1C" stroke-width="2"/>
+    <rect x="-70" y="220" width="140" height="10" rx="2" fill="#A49B8A"/>
+
+    <!-- Echo Waves -->
+    <g stroke="#E6E0D2" stroke-width="1.5" stroke-opacity="0.8" filter="url(#subtle-glow)">
+      <path d="M 100,0 C 100,110 180,150 280,150" fill="none"/>
+      <path d="M 100,0 C 100,-110 180,-150 280,-150" fill="none"/>
+      <path d="M 120,0 C 120,130 220,180 340,180" fill="none" stroke-opacity="0.6"/>
+      <path d="M 120,0 C 120,-130 220,-180 340,-180" fill="none" stroke-opacity="0.6"/>
+      <path d="M 140,0 C 140,150 260,210 400,210" fill="none" stroke-opacity="0.4"/>
+      <path d="M 140,0 C 140,-150 260,-210 400,-210" fill="none" stroke-opacity="0.4"/>
+    </g>
+  </g>
+  <desc>A classical, fluted column stands on the left. From its center, elegant, glowing sound waves emanate to the right, representing wisdom echoing from a timeless source.</desc>
+</svg>

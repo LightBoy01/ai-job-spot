@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useCallback } from 'react';
 import { User } from 'firebase/auth';
 import { auth } from '../lib/firebase'; // Import auth from the client-side firebase.ts

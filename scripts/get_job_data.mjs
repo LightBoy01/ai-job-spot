@@ -8,8 +8,12 @@ const fetchAndPrintJob = async (jobId) => {
       const serializedJob = {
         ...job,
         postedDate: job.postedDate ? job.postedDate.toISOString() : null,
-        expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
-        verificationDate: job.verificationDate ? job.verificationDate.toISOString() : null,
+        expirationDate: job.expirationDate
+          ? job.expirationDate.toISOString()
+          : null,
+        verificationDate: job.verificationDate
+          ? job.verificationDate.toISOString()
+          : null,
       };
       console.log(JSON.stringify(serializedJob, null, 2));
     } else {

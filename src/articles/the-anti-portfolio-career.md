@@ -13,7 +13,7 @@ tags:
   - Future of Work
   - Mental Models
   - Adaptability
-imageUrl: /images/articles/the-anti-portfolio-career-v2.svg
+imageUrl: /images/articles/the-anti-portfolio-career-v3.svg
 ---
 
 For the last two decades, you have been given a single playbook for career success: **accumulation**. You were told to build a portfolio of skills, a checklist of competencies stacked one on top of the other. Python, data analysis, project management, digital marketing—each a brick in the wall of your professional fortress.

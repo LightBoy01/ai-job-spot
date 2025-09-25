@@ -1,4 +1,3 @@
-
 import { Timestamp } from 'firebase/firestore';
 
 /**
@@ -17,7 +16,7 @@ export const formatDate = (isoDate: string | null | undefined): string => {
       day: 'numeric',
     });
   } catch (error) {
-    console.error("Error formatting date:", error);
+    console.error('Error formatting date:', error);
     return '';
   }
 };

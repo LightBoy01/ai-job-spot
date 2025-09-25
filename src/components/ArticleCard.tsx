@@ -9,8 +9,8 @@ interface ArticleCardProps {
 }
 
 const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
-
-  const { title, author, publishDate, slug, issueNo, volumeNo, imageUrl } = article;
+  const { title, author, publishDate, slug, issueNo, volumeNo, imageUrl } =
+    article;
 
   return (
     <Link href={`/articles/${slug}`} passHref className="block group">
@@ -34,8 +34,10 @@ const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
           <div className="flex-grow" />
           <p className="mt-4 text-base font-sans text-neutral-600">
             By {author} on {formatDate(publishDate)}
-            {(issueNo !== undefined && volumeNo !== undefined) && (
-              <span className="block text-sm text-neutral-500 mt-1">Vol. {volumeNo}, Issue No. {issueNo}</span>
+            {issueNo !== undefined && volumeNo !== undefined && (
+              <span className="block text-sm text-neutral-500 mt-1">
+                Vol. {volumeNo}, Issue No. {issueNo}
+              </span>
             )}
           </p>
         </div>

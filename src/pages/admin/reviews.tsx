@@ -18,30 +18,38 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [jobToReject, setJobToReject] = useState<string | null>(null);
 
-  const updateJobStatus = useCallback(async (id: string, status: 'published' | 'rejected') => {
-    const toastId = toast.loading(`Updating status to ${status}...`);
-    try {
-      const response = await fetch(`/api/admin/jobs/${id}/status`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${idToken}`,
-        },
-        body: JSON.stringify({ status }),
-      });
+  const updateJobStatus = useCallback(
+    async (id: string, status: 'published' | 'rejected') => {
+      const toastId = toast.loading(`Updating status to ${status}...`);
+      try {
+        const response = await fetch(`/api/admin/jobs/${id}/status`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${idToken}`,
+          },
+          body: JSON.stringify({ status }),
+        });
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || `Failed to set status to ${status}`);
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(
+            errorData.error || `Failed to set status to ${status}`
+          );
+        }
+
+        toast.success(`Job status updated to ${status}!`, { id: toastId });
+        setJobs((currentJobs) => currentJobs.filter((job) => job.id !== id));
+      } catch (error) {
+        console.error(`Error updating job status to ${status}:`, error);
+        toast.error(
+          error instanceof Error ? error.message : 'An unknown error occurred',
+          { id: toastId }
+        );
       }
-
-      toast.success(`Job status updated to ${status}!`, { id: toastId });
-      setJobs(currentJobs => currentJobs.filter(job => job.id !== id));
-    } catch (error) {
-      console.error(`Error updating job status to ${status}:`, error);
-      toast.error(error instanceof Error ? error.message : 'An unknown error occurred', { id: toastId });
-    }
-  }, [idToken]);
+    },
+    [idToken]
+  );
 
   const handleApprove = (id: string) => {
     updateJobStatus(id, 'published');
@@ -61,7 +69,9 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
 
   return (
     <AdminLayout title="Pending Job Reviews">
-      <h1 className="text-4xl font-serif font-bold text-primary-dark mb-8">Job Postings Pending Review</h1>
+      <h1 className="text-4xl font-serif font-bold text-primary-dark mb-8">
+        Job Postings Pending Review
+      </h1>
 
       <div className="bg-neutral-50 p-8 rounded-xl shadow-lg border border-neutral-200">
         {jobs.length > 0 ? (
@@ -69,25 +79,47 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
             <table className="min-w-full text-left">
               <thead className="border-b border-neutral-300">
                 <tr>
-                  <th className="py-3 px-4 text-sm font-semibold text-neutral-600 uppercase">Title</th>
-                  <th className="py-3 px-4 text-sm font-semibold text-neutral-600 uppercase">Company</th>
-                  <th className="py-3 px-4 text-sm font-semibold text-neutral-600 uppercase">Status</th>
-                  <th className="py-3 px-4 text-sm font-semibold text-neutral-600 uppercase text-right">Actions</th>
+                  <th className="py-3 px-4 text-sm font-semibold text-neutral-600 uppercase">
+                    Title
+                  </th>
+                  <th className="py-3 px-4 text-sm font-semibold text-neutral-600 uppercase">
+                    Company
+                  </th>
+                  <th className="py-3 px-4 text-sm font-semibold text-neutral-600 uppercase">
+                    Status
+                  </th>
+                  <th className="py-3 px-4 text-sm font-semibold text-neutral-600 uppercase text-right">
+                    Actions
+                  </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-neutral-200">
                 {jobs.map((job) => (
-                  <tr key={job.id} className="hover:bg-neutral-100 transition-colors">
-                    <td className="py-4 px-4 whitespace-nowrap font-medium text-neutral-800">{job.title}</td>
-                    <td className="py-4 px-4 text-neutral-600">{job.company}</td>
+                  <tr
+                    key={job.id}
+                    className="hover:bg-neutral-100 transition-colors"
+                  >
+                    <td className="py-4 px-4 whitespace-nowrap font-medium text-neutral-800">
+                      {job.title}
+                    </td>
+                    <td className="py-4 px-4 text-neutral-600">
+                      {job.company}
+                    </td>
                     <td className="py-4 px-4">
-                      <span className={`px-3 py-1 text-xs font-semibold rounded-full bg-yellow-100 text-yellow-800`}>
+                      <span
+                        className={`px-3 py-1 text-xs font-semibold rounded-full bg-yellow-100 text-yellow-800`}
+                      >
                         {job.status}
                       </span>
                     </td>
                     <td className="py-4 px-4 text-right space-x-2">
-                      <Link href={`/admin/jobs/edit/${job.id}?review=true`} passHref>
-                        <span className="text-blue-600 hover:text-blue-800 font-semibold cursor-pointer">Review & Edit</span>
+                      <Link
+                        href={`/admin/jobs/edit/${job.id}?review=true`}
+                        passHref
+                      >
+                        <span className="text-blue-600 hover:text-blue-800 font-semibold cursor-pointer">
+                          Review & Edit
+                        </span>
                       </Link>
                       <button
                         onClick={() => handleApprove(job.id!)}
@@ -108,7 +140,9 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
             </table>
           </div>
         ) : (
-          <p className="text-center text-neutral-600 py-12">No jobs are currently pending review.</p>
+          <p className="text-center text-neutral-600 py-12">
+            No jobs are currently pending review.
+          </p>
         )}
       </div>
 
@@ -124,20 +158,33 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps<AdminReviewsProps> = async () => {
+export const getServerSideProps: GetServerSideProps<
+  AdminReviewsProps
+> = async () => {
   try {
     const jobs = await getPendingJobs();
-    const serializedJobs = jobs.map(job => {
+    const serializedJobs = jobs.map((job) => {
       const { postedDate, expirationDate, ...rest } = job;
       return {
         ...rest,
-        postedDate: (postedDate && 'toDate' in postedDate) ? (postedDate as { toDate: () => Date }).toDate().toISOString() : new Date(postedDate).toISOString(),
-        expirationDate: expirationDate ? ((expirationDate && 'toDate' in expirationDate) ? (expirationDate as { toDate: () => Date }).toDate().toISOString() : new Date(expirationDate).toISOString()) : null,
+        postedDate:
+          postedDate && 'toDate' in postedDate
+            ? (postedDate as { toDate: () => Date }).toDate().toISOString()
+            : new Date(postedDate).toISOString(),
+        expirationDate: expirationDate
+          ? expirationDate && 'toDate' in expirationDate
+            ? (expirationDate as { toDate: () => Date }).toDate().toISOString()
+            : new Date(expirationDate).toISOString()
+          : null,
       };
     });
-    return { props: { initialJobs: serializedJobs as unknown as SerializedJobPosting[] } };
+    return {
+      props: {
+        initialJobs: serializedJobs as unknown as SerializedJobPosting[],
+      },
+    };
   } catch (error) {
-    console.error("Error fetching pending jobs for admin panel:", error);
+    console.error('Error fetching pending jobs for admin panel:', error);
     return { props: { initialJobs: [] } };
   }
 };

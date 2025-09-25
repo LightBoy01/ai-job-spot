@@ -19,10 +19,9 @@ export default async function handler(
       return res.status(200).json([]);
     }
 
-    const jobIds = jobsSnapshot.docs.map(doc => doc.id);
+    const jobIds = jobsSnapshot.docs.map((doc) => doc.id);
 
     return res.status(200).json(jobIds);
-
   } catch (error) {
     console.error('Error fetching job IDs:', error);
     // Return a generic server error message

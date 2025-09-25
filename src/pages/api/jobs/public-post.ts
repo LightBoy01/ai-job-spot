@@ -3,23 +3,42 @@ import { adminDb } from '@/lib/firebaseAdmin';
 import { FieldValue } from 'firebase-admin/firestore';
 import DOMPurify from 'isomorphic-dompurify';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
   try {
-    const { title, company, location, applicationLink, description, contactEmail } = req.body;
+    const {
+      title,
+      company,
+      location,
+      applicationLink,
+      description,
+      contactEmail,
+    } = req.body;
 
     // --- Server-Side Validation ---
-    if (!title || !company || !location || !applicationLink || !description || !contactEmail) {
+    if (
+      !title ||
+      !company ||
+      !location ||
+      !applicationLink ||
+      !description ||
+      !contactEmail
+    ) {
       return res.status(400).json({ error: 'Missing required fields.' });
     }
     if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(contactEmail)) {
-        return res.status(400).json({ error: 'Invalid contact email format.' });
+      return res.status(400).json({ error: 'Invalid contact email format.' });
     }
     if (!/^https?:\/\/.+/.test(applicationLink)) {
-        return res.status(400).json({ error: 'Invalid application link format.' });
+      return res
+        .status(400)
+        .json({ error: 'Invalid application link format.' });
     }
 
     // --- Sanitization ---
@@ -60,8 +79,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const docRef = await adminDb.collection('jobs').add(newJobData);
 
-    res.status(201).json({ message: 'Job submitted for review successfully', jobId: docRef.id });
-
+    res.status(201).json({
+      message: 'Job submitted for review successfully',
+      jobId: docRef.id,
+    });
   } catch (error) {
     console.error('Error in /api/jobs/public-post:', error);
     res.status(500).json({ error: 'Internal Server Error' });

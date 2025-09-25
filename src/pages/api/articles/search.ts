@@ -13,12 +13,12 @@ const searchSchema = z.object({
 
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
 const serializeArticle = (doc: FirebaseFirestore.DocumentSnapshot): Article => {
-    const data = doc.data()!;
-    return {
-        id: doc.id,
-        ...data,
-        publishDate: data.publishDate.toDate(), // Keep as Date object, will be stringified by res.json
-    } as Article;
+  const data = doc.data()!;
+  return {
+    id: doc.id,
+    ...data,
+    publishDate: data.publishDate.toDate(), // Keep as Date object, will be stringified by res.json
+  } as Article;
 };
 
 export default async function handler(
@@ -33,13 +33,19 @@ export default async function handler(
     // Validate and parse query parameters
     const validation = searchSchema.safeParse(req.query);
     if (!validation.success) {
-      return res.status(400).json({ message: 'Invalid query parameters.', errors: validation.error.flatten() });
+      return res.status(400).json({
+        message: 'Invalid query parameters.',
+        errors: validation.error.flatten(),
+      });
     }
-    
+
     const { q: searchTerm, startAfter: startAfterId, limit } = validation.data;
     const lowerSearchTerm = searchTerm.toLowerCase();
 
-    res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=300');
+    res.setHeader(
+      'Cache-Control',
+      'public, s-maxage=60, stale-while-revalidate=300'
+    );
 
     const articles: Article[] = [];
     const fetchedDocIds = new Set<string>();
@@ -48,13 +54,16 @@ export default async function handler(
     const fetchAndProcess = async (baseQuery: Query) => {
       let currentQuery = baseQuery;
       if (startAfterId) {
-        const startAfterDoc = await adminDb.collection('articles').doc(startAfterId).get();
+        const startAfterDoc = await adminDb
+          .collection('articles')
+          .doc(startAfterId)
+          .get();
         if (startAfterDoc.exists) {
           currentQuery = currentQuery.startAfter(startAfterDoc);
         }
       }
       const snapshot = await currentQuery.limit(limit).get();
-      snapshot.docs.forEach(doc => {
+      snapshot.docs.forEach((doc) => {
         if (!fetchedDocIds.has(doc.id)) {
           articles.push(serializeArticle(doc));
           fetchedDocIds.add(doc.id);
@@ -64,11 +73,10 @@ export default async function handler(
 
     // --- Multi-field Search Queries ---
     if (searchTerm) {
-      const lowerSearchTerm = searchTerm.toLowerCase();
-
       // 1. Search by Title (prefix match)
       await fetchAndProcess(
-        adminDb.collection('articles')
+        adminDb
+          .collection('articles')
           .where('title', '>=', searchTerm)
           .where('title', '<=', searchTerm + '\uf8ff')
           .orderBy('title')
@@ -77,7 +85,8 @@ export default async function handler(
 
       // 2. Search by Author (prefix match)
       await fetchAndProcess(
-        adminDb.collection('articles')
+        adminDb
+          .collection('articles')
           .where('author', '>=', searchTerm)
           .where('author', '<=', searchTerm + '\uf8ff')
           .orderBy('author')
@@ -86,16 +95,15 @@ export default async function handler(
 
       // 3. Search by Tags (array-contains-any)
       await fetchAndProcess(
-        adminDb.collection('articles')
+        adminDb
+          .collection('articles')
           .where('tags', 'array-contains-any', [searchTerm])
           .orderBy('publishDate', 'desc')
       );
-
     } else {
       // If no search term, return all published articles, paginated
       await fetchAndProcess(
-        adminDb.collection('articles')
-          .orderBy('publishDate', 'desc')
+        adminDb.collection('articles').orderBy('publishDate', 'desc')
       );
     }
 
@@ -113,9 +121,15 @@ export default async function handler(
 
     // Manual pagination after merging and sorting
     const paginatedArticles = articles.slice(0, limit);
-    const lastVisibleArticle = paginatedArticles.length > 0 ? paginatedArticles[paginatedArticles.length - 1] : null;
+    const lastVisibleArticle =
+      paginatedArticles.length > 0
+        ? paginatedArticles[paginatedArticles.length - 1]
+        : null;
 
-    res.status(200).json({ articles: paginatedArticles, lastVisible: lastVisibleArticle ? lastVisibleArticle.id : null });
+    res.status(200).json({
+      articles: paginatedArticles,
+      lastVisible: lastVisibleArticle ? lastVisibleArticle.id : null,
+    });
   } catch (error) {
     console.error('Error searching for articles:', error);
     res.status(500).json({ message: 'Internal server error' });

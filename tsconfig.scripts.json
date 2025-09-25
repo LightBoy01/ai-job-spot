@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node", // Override to be compatible with CommonJS
+    "noEmit": true // We don't need to emit JS files, just type-check
+  },
+  "include": ["scripts/**/*.ts", "seedFirestore.ts"]
+}

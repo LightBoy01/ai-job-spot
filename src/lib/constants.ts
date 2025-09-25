@@ -1,4 +1,3 @@
-
 // Threshold in milliseconds for a job to be considered "new" (e.g., 3 days)
 export const NEW_JOB_THRESHOLD_MS = 3 * 24 * 60 * 60 * 1000;
 

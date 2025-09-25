@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost', 'aijobspot.online'],
+    domains: ['localhost', 'aijobspot.online', 'www.aijobspot.online'],
   },
   async headers() {
     const cspHeader = `
@@ -24,7 +24,7 @@ const nextConfig = {
         source: '/(.*)',
         headers: [
           {
-            key: 'Content-Security-Policy-Report-Only',
+            key: 'Content-Security-Policy',
             value: cspHeader.replace(/\s{2,}/g, ' ').trim(),
           },
         ],
@@ -44,7 +44,7 @@ const nextConfig = {
         destination: 'https://aijobspot.online/:path*',
         permanent: true,
       },
-    ]
+    ];
   },
   webpack: (config) => {
     config.watchOptions = {

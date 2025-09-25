@@ -1,4 +1,6 @@
-const { getPendingJobs } = require('/data/data/com.termux/files/home/ai-job-spot/src/lib/firestoreClient');
+const {
+  getPendingJobs,
+} = require('/data/data/com.termux/files/home/ai-job-spot/src/lib/firestoreClient');
 
 async function runTest() {
   try {

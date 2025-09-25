@@ -3,7 +3,8 @@ import { adminDb } from '../../../lib/firebaseAdmin';
 
 // A simple secret to prevent unauthorized access to this monitoring endpoint.
 // In a real-world scenario, this should be a more robust, rotating secret stored in environment variables.
-const MONITORING_SECRET = process.env.MONITORING_SECRET || 'default-secret-for-dev';
+const MONITORING_SECRET =
+  process.env.MONITORING_SECRET || 'default-secret-for-dev';
 
 export default async function handler(
   req: NextApiRequest,
@@ -24,30 +25,42 @@ export default async function handler(
   try {
     const now = new Date();
     // Check for content created in the last 24 hours.
-    const checkPeriod = 24 * 60 * 60 * 1000; 
+    const checkPeriod = 24 * 60 * 60 * 1000;
     const checkDate = new Date(now.getTime() - checkPeriod);
 
-    const jobsSnapshot = await adminDb.collection('jobs')
+    const jobsSnapshot = await adminDb
+      .collection('jobs')
       .where('postedDate', '>=', checkDate)
       .get();
 
-    const articlesSnapshot = await adminDb.collection('articles')
+    const articlesSnapshot = await adminDb
+      .collection('articles')
       .where('publishDate', '>=', checkDate)
       .get();
 
-    const newJobs = jobsSnapshot.docs.map(doc => ({ id: doc.id, title: doc.data().title }));
-    const newArticles = articlesSnapshot.docs.map(doc => ({ id: doc.id, title: doc.data().title }));
+    const newJobs = jobsSnapshot.docs.map((doc) => ({
+      id: doc.id,
+      title: doc.data().title,
+    }));
+    const newArticles = articlesSnapshot.docs.map((doc) => ({
+      id: doc.id,
+      title: doc.data().title,
+    }));
 
     const hasNewContent = newJobs.length > 0 || newArticles.length > 0;
 
-    // --- Reporting --- 
+    // --- Reporting ---
     // For now, we log to the console. This can be replaced with an email/Slack notification.
     if (hasNewContent) {
-      console.log('MONITORING ALERT: New content detected in the last 24 hours.');
+      console.log(
+        'MONITORING ALERT: New content detected in the last 24 hours.'
+      );
       console.log('New Jobs:', newJobs);
       console.log('New Articles:', newArticles);
     } else {
-      console.log('MONITORING CHECK: No new content detected in the last 24 hours.');
+      console.log(
+        'MONITORING CHECK: No new content detected in the last 24 hours.'
+      );
     }
 
     return res.status(200).json({
@@ -55,9 +68,10 @@ export default async function handler(
       newJobs,
       newArticles,
     });
-
   } catch (error) {
     console.error('Error during content monitoring check:', error);
-    return res.status(500).json({ message: 'An internal server error occurred.' });
+    return res
+      .status(500)
+      .json({ message: 'An internal server error occurred.' });
   }
 }

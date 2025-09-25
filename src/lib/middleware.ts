@@ -13,7 +13,10 @@ export interface AuthenticatedNextApiRequest extends NextApiRequest {
  * @param res The Next.js API response object.
  * @returns {Promise<boolean>} True if the user is an authenticated admin, false otherwise.
  */
-export async function requireAdmin(req: AuthenticatedNextApiRequest, res: NextApiResponse): Promise<boolean> {
+export async function requireAdmin(
+  req: AuthenticatedNextApiRequest,
+  res: NextApiResponse
+): Promise<boolean> {
   const authHeader = req.headers.authorization;
 
   if (!authHeader || !authHeader.startsWith('Bearer ')) {
@@ -27,7 +30,7 @@ export async function requireAdmin(req: AuthenticatedNextApiRequest, res: NextAp
 
   try {
     const decodedToken = await adminAuth.verifyIdToken(idToken);
-    
+
     if (decodedToken.admin !== true) {
       res.statusCode = 403;
       res.json({ error: 'Forbidden: User is not an admin' });

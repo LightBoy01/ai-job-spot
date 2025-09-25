@@ -21,7 +21,9 @@ describe('Job API - POST /api/jobs/post', () => {
     await handler(req, res);
 
     expect(res.statusCode).toBe(401);
-    expect(res._getJSONData()).toEqual({ error: 'Unauthorized: No token provided' });
+    expect(res._getJSONData()).toEqual({
+      error: 'Unauthorized: No token provided',
+    });
   });
 
   it('should return 401 if the authorization token is invalid', async () => {
@@ -39,11 +41,16 @@ describe('Job API - POST /api/jobs/post', () => {
     await handler(req, res);
 
     expect(res.statusCode).toBe(401);
-    expect(res._getJSONData()).toEqual({ error: 'Unauthorized: Invalid token' });
+    expect(res._getJSONData()).toEqual({
+      error: 'Unauthorized: Invalid token',
+    });
   });
 
   it('should return 403 if the user is not an admin', async () => {
-    verifyIdTokenSpy.mockResolvedValueOnce({ uid: 'test-user-id', admin: false });
+    verifyIdTokenSpy.mockResolvedValueOnce({
+      uid: 'test-user-id',
+      admin: false,
+    });
 
     const req = createRequest({
       method: 'POST',
@@ -57,11 +64,16 @@ describe('Job API - POST /api/jobs/post', () => {
     await handler(req, res);
 
     expect(res.statusCode).toBe(403);
-    expect(res._getJSONData()).toEqual({ error: 'Forbidden: User is not an admin' });
+    expect(res._getJSONData()).toEqual({
+      error: 'Forbidden: User is not an admin',
+    });
   });
 
   it('should return 400 if required fields are missing', async () => {
-    verifyIdTokenSpy.mockResolvedValueOnce({ uid: 'test-admin-id-400', admin: true });
+    verifyIdTokenSpy.mockResolvedValueOnce({
+      uid: 'test-admin-id-400',
+      admin: true,
+    });
 
     const req = createRequest({
       method: 'POST',
@@ -80,7 +92,10 @@ describe('Job API - POST /api/jobs/post', () => {
   });
 
   it('should create a new job posting if authenticated as admin and all fields are provided', async () => {
-    verifyIdTokenSpy.mockResolvedValueOnce({ uid: 'test-admin-id-201', admin: true });
+    verifyIdTokenSpy.mockResolvedValueOnce({
+      uid: 'test-admin-id-201',
+      admin: true,
+    });
 
     const mockJobData = {
       title: 'Test Job',
@@ -107,10 +122,12 @@ describe('Job API - POST /api/jobs/post', () => {
     expect(res.statusCode).toBe(201);
     expect(res._getJSONData()).toEqual({ id: 'test-job-id' });
     expect(admin.firestore().collection).toHaveBeenCalledWith('jobs');
-    expect(admin.firestore().collection('jobs').add).toHaveBeenCalledWith(expect.objectContaining({
-      title: 'Test Job',
-      company: 'Test Company',
-      description: expect.any(String), // DOMPurify sanitizes, so check for string
-    }));
+    expect(admin.firestore().collection('jobs').add).toHaveBeenCalledWith(
+      expect.objectContaining({
+        title: 'Test Job',
+        company: 'Test Company',
+        description: expect.any(String), // DOMPurify sanitizes, so check for string
+      })
+    );
   }, 10000);
 });

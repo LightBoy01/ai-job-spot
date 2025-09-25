@@ -7,7 +7,9 @@ const articlesDir = path.join(process.cwd(), 'src', 'articles');
 async function reindexArticles() {
   try {
     const files = await fs.readdir(articlesDir);
-    const markdownFiles = files.filter(file => path.extname(file) === '.md').sort();
+    const markdownFiles = files
+      .filter((file) => path.extname(file) === '.md')
+      .sort();
 
     console.log(`Found ${markdownFiles.length} articles to re-index.`);
 
@@ -20,7 +22,9 @@ async function reindexArticles() {
       const { data, content } = matter(fileContent);
 
       if (data.issueNo === newIssueNo) {
-        console.log(`[SKIPPING] ${file} already has the correct issueNo (${newIssueNo}).`);
+        console.log(
+          `[SKIPPING] ${file} already has the correct issueNo (${newIssueNo}).`
+        );
         continue;
       }
 
@@ -32,8 +36,9 @@ async function reindexArticles() {
       console.log(`[UPDATED] ${file} -> issueNo: ${newIssueNo}`);
     }
 
-    console.log('\nRe-indexing complete. All articles now have unique, sequential issue numbers.');
-
+    console.log(
+      '\nRe-indexing complete. All articles now have unique, sequential issue numbers.'
+    );
   } catch (error) {
     console.error('An error occurred during the re-indexing process:', error);
   }

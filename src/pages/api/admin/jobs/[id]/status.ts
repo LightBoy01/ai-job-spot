@@ -29,7 +29,10 @@ export default async function handler(
 
   try {
     const jobRef = adminDb.collection('jobs').doc(id);
-    const updateData: { status: string; postedDate?: FirebaseFirestore.FieldValue } = { status };
+    const updateData: {
+      status: string;
+      postedDate?: FirebaseFirestore.FieldValue;
+    } = { status };
 
     if (status === 'published') {
       updateData.postedDate = admin.firestore.FieldValue.serverTimestamp();
