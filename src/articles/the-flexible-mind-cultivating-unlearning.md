@@ -24,8 +24,8 @@ To move unlearning from a vague concept to a concrete practice, you need a syste
 
 The first step is to identify the mental models that underpin your work. These are the "rules of thumb" and deep-seated beliefs that guide your decisions. You must make them explicit. Choose one to start with.
 
-*   **Example (A Project Manager):** "My core model is that a packed calendar and a flurry of activity are direct proxies for my productivity and value to the team."
-*   **Example (A Marketer):** "My core model is that a successful campaign is defined by maximizing click-through rates and minimizing cost-per-click."
+- **Example (A Project Manager):** "My core model is that a packed calendar and a flurry of activity are direct proxies for my productivity and value to the team."
+- **Example (A Marketer):** "My core model is that a successful campaign is defined by maximizing click-through rates and minimizing cost-per-click."
 
 Write it down. An implicit model is an unconscious habit. An explicit model is an object of analysis.
 
@@ -33,20 +33,20 @@ Write it down. An implicit model is an unconscious habit. An explicit model is a
 
 No model is true forever. Its value decays over time as the environment changes. The second step is to assess the decay rate of your chosen model by asking hard questions.
 
-*   **For the Project Manager:** "Is my focus on activity leading to high-impact outcomes, or is it creating a culture of 'shallow work' and burnout? Is the *real* value in managing tasks, or in creating the space for the team to do deep, focused work?"
-*   **For the Marketer:** "Are high click-through rates actually leading to profitable customer conversions, or are we just optimizing for vanity metrics that don't impact the bottom line?"
+- **For the Project Manager:** "Is my focus on activity leading to high-impact outcomes, or is it creating a culture of 'shallow work' and burnout? Is the _real_ value in managing tasks, or in creating the space for the team to do deep, focused work?"
+- **For the Marketer:** "Are high click-through rates actually leading to profitable customer conversions, or are we just optimizing for vanity metrics that don't impact the bottom line?"
 
-This assessment requires the intellectual honesty to see your model not as it *was*, but as it *is* in the current reality.
+This assessment requires the intellectual honesty to see your model not as it _was_, but as it _is_ in the current reality.
 
 ### Step 3: Deprecate or Refactor
 
 The final step is to make a decision. Based on your assessment, you have two choices, using the language of software engineering.
 
-*   **Deprecate:** The model is fundamentally broken and needs to be retired. You must consciously discard it and replace it with a new one.
-    *   **The Project Manager's New Model:** "My value is not in the volume of activity I manage, but in my ability to ruthlessly protect the team's focus for high-impact work."
+- **Deprecate:** The model is fundamentally broken and needs to be retired. You must consciously discard it and replace it with a new one.
+  - **The Project Manager's New Model:** "My value is not in the volume of activity I manage, but in my ability to ruthlessly protect the team's focus for high-impact work."
 
-*   **Refactor:** The core of the model is still sound, but its implementation needs to be updated.
-    *   **A Marketer's Refactored Model:** "I will still monitor click-through rates, but I will refactor my success metric to be 'customer lifetime value per campaign' to better align with business goals."
+- **Refactor:** The core of the model is still sound, but its implementation needs to be updated.
+  - **A Marketer's Refactored Model:** "I will still monitor click-through rates, but I will refactor my success metric to be 'customer lifetime value per campaign' to better align with business goals."
 
 This is an active, conscious choice. You are deliberately upgrading your own mental operating system.
 

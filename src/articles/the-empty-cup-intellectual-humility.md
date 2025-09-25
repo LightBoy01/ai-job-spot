@@ -25,7 +25,7 @@ There is an old Zen story about a master and a scholar. The scholar, a man of im
 
 "Like this cup," the master replies, "you are full of your own opinions and speculations. How can I show you Zen unless you first empty your cup?"
 
-In our modern world, we are all this scholar. We are inundated with information, armed with powerful algorithms, and connected to a global repository of facts. Our cups are overflowing. Yet, in the age of artificial intelligence, the most crucial skill isn't about how much you know, but about how well you understand the vastness of what you *don't* know. This is the virtue of intellectual humility—the quiet, powerful recognition of our own cognitive limits. It is not a sign of weakness, but the very foundation of wisdom, resilience, and true learning.
+In our modern world, we are all this scholar. We are inundated with information, armed with powerful algorithms, and connected to a global repository of facts. Our cups are overflowing. Yet, in the age of artificial intelligence, the most crucial skill isn't about how much you know, but about how well you understand the vastness of what you _don't_ know. This is the virtue of intellectual humility—the quiet, powerful recognition of our own cognitive limits. It is not a sign of weakness, but the very foundation of wisdom, resilience, and true learning.
 
 ## The Illusion of Omniscience
 

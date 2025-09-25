@@ -26,7 +26,6 @@ But this captain keeps a second, private log. In it, she writes not of coordinat
 
 An AI can write the first log. It can optimize the voyage for efficiency. But it cannot write the second log. It cannot navigate the treacherous currents of human fear, hope, and doubt. It cannot, in a moment of crisis, choose courage over despair. The work of the first log is becoming automated. The work of the second log is, and will always be, the essential work of humanity. It is the building of an inner citadel, a fortress of the mind that allows one to sail calmly through the inevitable storms of a changing world.
 
-
 ## Conclusion: The Work That Remains
 
 The great project of the 21st century is the construction of an intelligent, automated world. But the great work of the 21st-century human is the cultivation of a resilient, purposeful mind. The former is a challenge of engineering; the latter is a challenge of character.

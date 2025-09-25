@@ -23,11 +23,13 @@ But what if we are looking at this all wrong? What if, beneath the chaotic surfa
 Stop chasing titles. Start aligning with a function. This is the new strategic imperative.
 
 ## The Human Insight: The Cathedral Builders
+
 Legend tells of three stonecutters working on a medieval cathedral. When a traveler asked what they were doing, the first replied, "I am cutting this stone." The second said, "I am earning a living for my family." The third looked up at the rising structure and said, "I am building a cathedral to the glory of God."
 
 All three were performing the same task, but they were operating within vastly different frameworks of meaning. The first saw only the task, the second saw the transaction, but the third understood his role within a grand, overarching system. In the age of AI, we are all, in a sense, becoming cathedral builders. The AI is the master stonecutter—it can execute tasks with flawless precision. But the uniquely human roles are those that require a systemic understanding: the architect who designs the blueprint (The Trainer), the storyteller who explains its purpose to the townspeople (The Explainer), and the caretaker who ensures its foundations remain sound for generations (The Sustainer). Your career's resilience depends on understanding which part of the cathedral you are building.
 
 ## The Hybrid Reality: Beyond the Pure Archetypes
+
 It is tempting to view these three archetypes as rigid, separate career paths. The reality is more fluid and interconnected. While some roles may fall squarely into one category, the most valuable and senior professionals will often embody a hybrid of these functions. They operate at the intersections, creating value that is difficult to replicate.
 
 Think of it as a Venn diagram. A brilliant **Trainer** who can also **Explain** their methodology becomes a sought-after teacher and leader. An **Explainer** who deeply understands the work of the **Sustainers** (e.g., an AI Product Manager who is an expert on model risk) can build much safer and more effective products. The ultimate strategist is the one who can move between all three modes of thinking.
@@ -35,9 +37,11 @@ Think of it as a Venn diagram. A brilliant **Trainer** who can also **Explain** 
 Instead of forcing yourself into a single box, consider identifying your "major" and "minor" archetypes. You might be a Trainer at your core, but you can strategically develop your skills as an Explainer to maximize your impact. The future belongs to those who can not only perform their core function but also speak the language of the other two.
 
 ## Conclusion: Find Your Place in the Cathedral
+
 The chaotic explosion of AI-related job titles is a distraction. It tempts us to focus on the superficial, the transient. The enduring reality is the emergence of these three fundamental functions: Training, Explaining, and Sustaining.
 
 Stop asking, "What is the next hot job title?" Instead, ask a more powerful set of questions:
+
 - Do I have a passion for teaching and curating knowledge? (You might be a **Trainer**.)
 - Am I driven to bridge the gap between technology and people? (You might be an **Explainer**.)
 - Do I possess the diligence and foresight to manage complex systems over time? (You might be a **Sustainer**.)

@@ -30,7 +30,7 @@ Building trust in a digitally mediated, AI-augmented workforce requires a consci
 
 ### 1. Cultivate Radical Transparency (Where Appropriate):
 
-In a world of opaque algorithms, human transparency becomes a beacon. Be clear about intentions, processes, and limitations. When using AI tools, be transparent about their role and how they influence decisions. This doesn't mean revealing proprietary code, but rather explaining the *why* and *how* in understandable terms. For leaders, it means sharing context and rationale, even when decisions is difficult.
+In a world of opaque algorithms, human transparency becomes a beacon. Be clear about intentions, processes, and limitations. When using AI tools, be transparent about their role and how they influence decisions. This doesn't mean revealing proprietary code, but rather explaining the _why_ and _how_ in understandable terms. For leaders, it means sharing context and rationale, even when decisions is difficult.
 
 ### 2. Prioritize Empathy in Digital Communication:
 
@@ -57,4 +57,3 @@ In an age where artificial intelligence is rapidly mastering the quantifiable, t
 As the digital transformation accelerates and AI becomes an ever-present force in the workforce, the ability to engineer and sustain trust will emerge as the ultimate competitive advantage. It is the differentiator that separates resilient, innovative organizations from those that crumble under the weight of complexity and distrust. For individuals, cultivating the "trust protocol" is not just a professional skill; it is a fundamental human capacity that ensures our enduring relevance and impact.
 
 In a world increasingly defined by data and algorithms, the future belongs to those who can master the art of human connection. Trust is not a soft skill; it is the hard currency of collaboration, the bedrock of innovation, and the essential protocol for navigating the complexities of the AI era. By consciously building this invisible infrastructure, we ensure that our digitally mediated workforce remains profoundly human, resilient, and capable of achieving extraordinary things.
-

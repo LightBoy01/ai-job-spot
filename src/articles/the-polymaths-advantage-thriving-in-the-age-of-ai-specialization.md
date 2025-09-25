@@ -1,6 +1,6 @@
 ---
 slug: the-polymaths-advantage-thriving-in-the-age-of-ai-specialization
-title: 'The Polymath''s Advantage: Thriving in the Age of AI Specialization'
+title: "The Polymath's Advantage: Thriving in the Age of AI Specialization"
 author: The AI Strategist
 publishDate: 2025-07-31T10:00:00.000Z
 issueNo: 18

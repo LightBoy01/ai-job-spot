@@ -1,10 +1,16 @@
 ---
-title: "The Unvarnished Mirror: A Framework for Intellectual Honesty"
-slug: "the-unvarnished-mirror"
-author: "The AI Strategist"
-publishDate: "2025-08-22T16:37:14Z"
-tags: ["Mental Models", "Decision Making", "Career Strategy", "Intellectual Honesty"]
-imageUrl: "/images/articles/the-unvarnished-mirror.svg"
+title: 'The Unvarnished Mirror: A Framework for Intellectual Honesty'
+slug: 'the-unvarnished-mirror'
+author: 'The AI Strategist'
+publishDate: '2025-08-22T16:37:14Z'
+tags:
+  [
+    'Mental Models',
+    'Decision Making',
+    'Career Strategy',
+    'Intellectual Honesty',
+  ]
+imageUrl: '/images/articles/the-unvarnished-mirror.svg'
 issueNo: 25
 volumeNo: 1
 ---
@@ -35,12 +41,12 @@ This is not a passive virtue; it is an active, operational discipline. Here is a
 
 Before you can test an idea, you must be able to state it clearly. Take your belief or strategy and write it down in a single, declarative sentence. This act of articulation forces clarity and removes the wiggle room that allows for self-deception.
 
-*   **Vague Belief:** "I think our new feature will be a success."
-*   **Articulated Argument:** "I believe our new feature will achieve a 15% adoption rate within 90 days because it solves a well-documented customer pain point."
+- **Vague Belief:** "I think our new feature will be a success."
+- **Articulated Argument:** "I believe our new feature will achieve a 15% adoption rate within 90 days because it solves a well-documented customer pain point."
 
 ### Step 2: "Steel Man" the Counter-Argument
 
-Most people "straw man" their opponents—they attack the weakest possible version of the opposing view. You must do the opposite. You must find the strongest, most intelligent, most persuasive argument *against* your position. This is called "steel manning."
+Most people "straw man" their opponents—they attack the weakest possible version of the opposing view. You must do the opposite. You must find the strongest, most intelligent, most persuasive argument _against_ your position. This is called "steel manning."
 
 Actively seek out the smartest person who holds the opposite view and truly understand their reasoning. If you cannot articulate their argument as well as they can, you have not earned your own opinion.
 
@@ -48,7 +54,7 @@ Actively seek out the smartest person who holds the opposite view and truly unde
 
 Now, compare the two arguments. The goal is not to see who "wins," but to isolate the exact point of disagreement. Is the conflict about data, interpretation of the data, or fundamental values?
 
-*   **The Core Disagreement:** The conflict isn't about customer desire; it's about the technical feasibility and risk of the proposed solution.
+- **The Core Disagreement:** The conflict isn't about customer desire; it's about the technical feasibility and risk of the proposed solution.
 
 Pinpointing this allows you to move from a vague debate to a focused, productive inquiry.
 
@@ -56,7 +62,7 @@ Pinpointing this allows you to move from a vague debate to a focused, productive
 
 With the core disagreement identified, you can now design a small, low-cost experiment to resolve it. The goal is to find the quickest path to being less wrong.
 
-*   **The Decisive Test:** "Instead of a full launch, we will build a lightweight prototype for a small subset of our power users. This test is designed specifically to validate or invalidate the engineering team's performance concerns within two weeks."
+- **The Decisive Test:** "Instead of a full launch, we will build a lightweight prototype for a small subset of our power users. This test is designed specifically to validate or invalidate the engineering team's performance concerns within two weeks."
 
 This process—Articulate, Steel Man, Identify, Test—is a repeatable loop for intellectual honesty.
 

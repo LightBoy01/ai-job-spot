@@ -14,7 +14,7 @@ tags:
 imageUrl: /images/articles/the-antifragile-career.svg
 ---
 
-In a world obsessed with stability, predictability, and risk mitigation, we are constantly told to build careers that are robust, resilient, and resistant to shocks. We seek safe harbors in a storm, hoping to weather the inevitable disruptions that technology, economics, and global events throw our way. But what if this pursuit of mere resilience is a strategic error? What if, in our quest to survive, we are missing the profound opportunity to actually *benefit* from disorder? This is the essence of antifragility, a concept that offers a radical new playbook for building a career that not only withstands the chaos of an AI-driven world, but actually grows stronger because of it.
+In a world obsessed with stability, predictability, and risk mitigation, we are constantly told to build careers that are robust, resilient, and resistant to shocks. We seek safe harbors in a storm, hoping to weather the inevitable disruptions that technology, economics, and global events throw our way. But what if this pursuit of mere resilience is a strategic error? What if, in our quest to survive, we are missing the profound opportunity to actually _benefit_ from disorder? This is the essence of antifragility, a concept that offers a radical new playbook for building a career that not only withstands the chaos of an AI-driven world, but actually grows stronger because of it.
 
 ## The Illusion of Resilience: Surviving vs. Thriving
 
@@ -26,7 +26,7 @@ Antifragility, a term coined by Nassim Nicholas Taleb, describes things that gai
 
 Consider the mythical Hydra, a creature that grew two heads for every one cut off. This is the ultimate symbol of antifragility. Or, more biologically, think of the human immune system. It doesn't just resist disease; it learns from each encounter with a pathogen, becoming more robust and capable of defending against future threats. Similarly, a bone, when subjected to stress, doesn't just return to its original strength; it becomes denser and stronger. These are not merely resilient systems; they are antifragile.
 
-In contrast, a fragile system breaks under stress. A resilient system withstands stress. An antifragile system *improves* under stress. In the context of an AI-driven career, this means actively seeking out challenges, embracing learning from failure, and designing your professional life to benefit from the very disruptions that cripple others.
+In contrast, a fragile system breaks under stress. A resilient system withstands stress. An antifragile system _improves_ under stress. In the context of an AI-driven career, this means actively seeking out challenges, embracing learning from failure, and designing your professional life to benefit from the very disruptions that cripple others.
 
 ## The AI-Era Synthesis: Your Antifragile Advantage
 

@@ -17,7 +17,7 @@ imageUrl: /images/articles/the-art-of-strategic-unlearning.svg
 
 ## The Core Concept & Its Modern Relevance
 
-In an era where Artificial Intelligence is rapidly redefining industries and roles, the most valuable skill isn't just learning new things, but strategically *unlearning* old ones. Our professional landscapes are shifting so quickly that clinging to outdated knowledge or rigid mental models can become a significant liability. Unlearning is the conscious process of shedding obsolete assumptions to make space for new, more relevant insights.
+In an era where Artificial Intelligence is rapidly redefining industries and roles, the most valuable skill isn't just learning new things, but strategically _unlearning_ old ones. Our professional landscapes are shifting so quickly that clinging to outdated knowledge or rigid mental models can become a significant liability. Unlearning is the conscious process of shedding obsolete assumptions to make space for new, more relevant insights.
 
 ## The Human Insight: The Old Map in a New World
 
@@ -28,12 +28,15 @@ Imagine a seasoned explorer who has always relied on a meticulously drawn map of
 To cultivate the art of strategic unlearning, consider these principles:
 
 ### 1. Identify Your Obsolete Maps: The Belief Audit
+
 Consciously identify the beliefs, assumptions, or skills that have served you well in the past but might now be holding you back. Ask yourself: "What 'truths' about my industry or role have I held for a long time that might no longer be true?" Challenge these assumptions rigorously.
 
 ### 2. Embrace the Fog of Not Knowing: Cultivate Intellectual Humility
+
 Unlearning often means stepping into a space of uncertainty. Be comfortable with not having all the answers. This intellectual humility is a strength, allowing you to approach new information with an open mind, free from the bias of past "knowledge."
 
 ### 3. Build New Compasses: Actively Seek New Mental Models
+
 Once you've identified and shed old maps, actively seek out new mental models and frameworks. Read widely outside your immediate field, engage with diverse thinkers, and experiment with new approaches. These new "compasses" will guide you through the evolving landscape.
 
 ## The AI-Era Synthesis & Conclusion

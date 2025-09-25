@@ -15,6 +15,7 @@ tags:
   - Economics
 imageUrl: /images/articles/the-law-of-economic-gravity.svg
 ---
+
 It’s a strange feeling, isn’t it? You see a colleague in a seemingly adjacent role get a promotion that launches them into the stratosphere. You read about a new startup that automates a task you spent years mastering. You feel the ground shifting beneath your feet, a sense that the old rules of career progression—climb the ladder, deepen your niche—are becoming less reliable.
 
 This isn’t chaos. It’s the emergence of a new, predictable force reshaping the professional landscape. A force I call **The Law of Economic Gravity.**
@@ -55,7 +56,7 @@ First, map your daily tasks into the three zones. A gravitational audit requires
 
 ### Step 2: Initiate a Gravitational Shift
 
-With a clear map, you can begin to shift your trajectory. Aggressively automate or delegate tasks in the Zero-Gravity zone. For work in the Low-Gravity zone, build escape velocity by focusing on the "why" behind the tasks; move from *generating the report* to *interpreting the report's strategic implications*. Finally, actively seek out projects that involve ambiguity, synthesis, and high-stakes decision-making to migrate toward the High-Gravity zones.
+With a clear map, you can begin to shift your trajectory. Aggressively automate or delegate tasks in the Zero-Gravity zone. For work in the Low-Gravity zone, build escape velocity by focusing on the "why" behind the tasks; move from _generating the report_ to _interpreting the report's strategic implications_. Finally, actively seek out projects that involve ambiguity, synthesis, and high-stakes decision-making to migrate toward the High-Gravity zones.
 
 ### Step 3: Develop Your "Gravity Well"
 
