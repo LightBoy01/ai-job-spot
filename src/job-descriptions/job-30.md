@@ -19,6 +19,7 @@ source: Sourced by AI Job Spot
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.361Z'
 ---
+
 # Prompt Engineer
 
 ### Description
@@ -39,4 +40,4 @@ Anthropic is an AI safety and research company that's working to build reliable,
 - Strong understanding of natural language processing and machine learning concepts.
 - Excellent writing and communication skills.
 - A creative and analytical mindset.
-- A passion for AI safety and a desire to make a positive impact on the world. 
+- A passion for AI safety and a desire to make a positive impact on the world.

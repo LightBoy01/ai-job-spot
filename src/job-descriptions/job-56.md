@@ -34,9 +34,10 @@ verificationDate: '2025-09-22T16:53:14.222Z'
 
 As an Applied AI/ML Senior Associate at JPMorgan Chase, you will lead a specialized technical area within the Corporate Sector - AIML Data Platforms, driving impact across teams, technologies, and projects. This role leverages deep knowledge of machine learning, software engineering, and product management to spearhead complex ML projects and initiatives, serving as a primary decision-maker and a catalyst for innovation.
 
-*Note: A specific location for this role has not been provided.*
+_Note: A specific location for this role has not been provided._
 
 ### Responsibilities
+
 - Architect and implement distributed AI/ML infrastructure, including inference, training, scheduling, orchestration, and storage.
 - Integrate Generative AI and Classical AI within the ML Platform using state-of-the-art techniques.
 - Implement, deliver, and support high-quality ML solutions in partnership with a team of ML Engineers.
@@ -52,6 +53,7 @@ As an Applied AI/ML Senior Associate at JPMorgan Chase, you will lead a speciali
 - Translate model outcomes into business impact metrics and communicate complex concepts to senior management and stakeholders.
 
 ### Qualifications
+
 - 6+ years of experience in engineering management with a strong technical background in machine learning.
 - Extensive hands-on experience with AI/ML frameworks such as TensorFlow, PyTorch, JAX, and scikit-learn.
 - Deep expertise in Cloud Engineering (AWS, Azure, Google Cloud Platform) and Distributed Micro-service architecture.

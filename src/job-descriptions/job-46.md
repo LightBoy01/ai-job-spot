@@ -42,6 +42,7 @@ We are seeking an AI Agent Developer to design, build, and scale agentic AI solu
 - Strong client-facing skills: requirements gathering, solution demonstration, and executive presentations.
 
 #### Secondary Skills
+
 - Hands-on with CI/CD tools (GitHub Actions, Octopus).
 - Experience with cloud platforms (AWS, Azure) and container orchestration (Kubernetes, OpenShift).
 - Knowledge of software testing frameworks and QA automation tools.

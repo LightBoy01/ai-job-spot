@@ -19,24 +19,26 @@ source: Sourced by AI Job Spot
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.343Z'
 ---
+
 # AI/ML Data Scientist
 
- 
-### Description 
+### Description
 
-Sanofi is seeking an AI/ML Data Scientist to join our innovative team in Cambridge, MA. In this role, you will leverage advanced AI and Machine Learning techniques to drive scientific discovery and accelerate drug development. You will work with large-scale biological and clinical datasets, develop predictive models, and provide data-driven insights to advance precision medicine and improve patient outcomes. 
-### Responsibilities 
+Sanofi is seeking an AI/ML Data Scientist to join our innovative team in Cambridge, MA. In this role, you will leverage advanced AI and Machine Learning techniques to drive scientific discovery and accelerate drug development. You will work with large-scale biological and clinical datasets, develop predictive models, and provide data-driven insights to advance precision medicine and improve patient outcomes.
+
+### Responsibilities
 
 - Design, develop, and implement AI/ML models for drug discovery, clinical trials, and patient stratification.
 - Analyze complex biological and healthcare datasets to identify patterns and insights.
 - Collaborate with cross-functional teams, including biologists, chemists, and clinicians.
 - Communicate complex analytical findings and recommendations to scientific and business stakeholders.
-- Stay abreast of the latest advancements in AI/ML in healthcare and apply them to real-world problems. 
-### Qualifications 
+- Stay abreast of the latest advancements in AI/ML in healthcare and apply them to real-world problems.
+
+### Qualifications
 
 - Bachelor's or Master's degree in Data Science, Computer Science, Bioinformatics, or a related quantitative field.
 - Proven experience in data science, with a strong focus on AI/ML applications in healthcare or life sciences.
 - Proficiency in programming languages such as Python or R, and experience with relevant libraries (e.g., TensorFlow, PyTorch, scikit-learn).
 - Strong understanding of machine learning algorithms, statistical modeling, and data visualization techniques.
 - Excellent problem-solving, analytical, and communication skills.
-- Ability to work effectively in a fast-paced, collaborative research environment. 
+- Ability to work effectively in a fast-paced, collaborative research environment.

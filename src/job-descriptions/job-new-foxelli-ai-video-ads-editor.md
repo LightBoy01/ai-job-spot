@@ -33,8 +33,7 @@ sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.187Z'
 ---
 
-AI Video Ads Editor
-===================
+# AI Video Ads Editor
 
 ### Description
 

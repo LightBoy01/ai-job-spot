@@ -19,6 +19,7 @@ source: Sourced by AI Job Spot
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.352Z'
 ---
+
 # AI Ethicist, Responsible AI
 
 ### Description
@@ -39,4 +40,4 @@ Google is committed to developing AI responsibly, and we are looking for an AI E
 - 5+ years of experience in a role related to technology ethics or policy.
 - Deep understanding of the ethical and social implications of AI.
 - Excellent analytical, communication, and interpersonal skills.
-- A passion for building a better future with AI. 
+- A passion for building a better future with AI.

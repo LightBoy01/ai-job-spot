@@ -27,6 +27,7 @@ verificationDate: '2025-09-22T16:53:14.276Z'
 We are seeking an enthusiastic and motivated AI Intern to develop GRC (Governance, Risk, and Compliance) use cases at the intersection of design, AI, and enterprise challenges. This role offers an excellent opportunity to gain hands-on experience in building and deploying AI-driven solutions and agents, working with cutting-edge frameworks, and contributing to impactful real-world AI use cases in the GRC domain.
 
 ### Key Responsibilities
+
 - Solution problems using user-centric design techniques, leveraging modern architectures and AI.
 - Build production-ready AI use cases leveraging LLMs, agents, and context engineering solutions.
 - Design and implement memory and knowledge solutions, including RAG validation with custom scripts and embedding-based similarity checks.
@@ -35,6 +36,7 @@ We are seeking an enthusiastic and motivated AI Intern to develop GRC (Governanc
 - Collaborate with mentors to solution AI/ML use cases in the GRC domain, working directly with stakeholders in client-facing engagements.
 
 ### Skills and Experience
+
 - Strong programming skills in Python.
 - Familiarity with LLMs, prompt engineering, or agentic workflows.
 - Understanding of LangChain, LangGraph, or similar frameworks.
@@ -42,4 +44,4 @@ We are seeking an enthusiastic and motivated AI Intern to develop GRC (Governanc
 - Exposure to vector databases and AI/ML libraries (PyTorch, TensorFlow, Hugging Face).
 - Strong problem-solving, analytical, and research abilities.
 
-*Compensation for this role will be paid on an hourly basis, determined by knowledge, experience, and location.*
+_Compensation for this role will be paid on an hourly basis, determined by knowledge, experience, and location._

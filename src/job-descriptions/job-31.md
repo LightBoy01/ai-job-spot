@@ -19,6 +19,7 @@ source: Sourced by AI Job Spot
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.356Z'
 ---
+
 # Generative AI Artist (Video)
 
 ### Description
@@ -39,4 +40,4 @@ Runway is building the next generation of creative tools, and we are looking for
 - Experience with generative AI tools and techniques is a strong plus.
 - Proficiency in video editing software such as Adobe Premiere Pro or Final Cut Pro.
 - A creative mindset and a passion for storytelling.
-- Excellent communication and collaboration skills. 
+- Excellent communication and collaboration skills.

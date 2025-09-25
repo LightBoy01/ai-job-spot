@@ -51,9 +51,11 @@ story_answer3: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.306Z'
 ---
+
 AAFES is seeking an AI Architect to be responsible for the architectural design, development, and deployment of the Exchange’s AI systems. This role involves evaluating new tools, translating business requirements into scalable AI solutions, and providing technical leadership to a team.
 
 ### Responsibilities
+
 - Evaluate and recommend AI tools, platforms, and frameworks.
 - Translate business requirements from cross-functional teams into scalable AI solutions.
 - Ensure AI systems are designed for scalability, reliability, and performance, while incorporating security and compliance.
@@ -61,6 +63,7 @@ AAFES is seeking an AI Architect to be responsible for the architectural design,
 - Provide technical leadership and mentorship to engineering and data science teams.
 
 ### Qualifications
+
 - Six years of IT experience with hands-on experience in cloud platforms (AWS, GCP, Azure) and modern AI development.
 - Or, a Bachelor's degree with at least four years of IT experience in cloud platforms and AI.
 - One year of experience at the AAFES pay band 4-2/4-3 level, or equivalent industry experience (e.g., in a management or high-level specialist role like a Main Store Manager, General Manager, or a senior buyer).

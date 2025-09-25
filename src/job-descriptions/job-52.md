@@ -65,9 +65,10 @@ verificationDate: '2025-09-22T16:53:14.254Z'
 
 As an AI Developer at Cognizant, you will be at the forefront of designing, developing, and deploying cutting-edge AI and machine learning solutions. You will work with a team of talented engineers and data scientists to build and implement scalable, high-performance AI applications that solve real-world business problems for our clients across the APAC region.
 
-*Note: While this position is listed for the APAC region, a more specific location has not been provided.*
+_Note: While this position is listed for the APAC region, a more specific location has not been provided._
 
 ### Responsibilities
+
 - Design and implement AI and ML solutions using Azure AI services, including Azure OpenAI, Azure AI Foundry, and Azure Machine Learning.
 - Fine-tune and deploy LLMs (e.g., GPT-4o, GPT-3.5) for enterprise use cases using Azure infrastructure.
 - Build AI-powered applications using Python frameworks such as FastAPI and Streamlit, Gradio.
@@ -83,6 +84,7 @@ As an AI Developer at Cognizant, you will be at the forefront of designing, deve
 - Stay updated with the latest advancements in AI, NLP, and Azure technologies.
 
 ### Qualifications
+
 - Bachelor’s or Master’s degree in Computer Science, Software Engineering, or a related field.
 - 3+ years of experience in software development with a focus on AI applications.
 - Proficiency in Python, Java, or C++.

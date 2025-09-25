@@ -57,9 +57,10 @@ verificationDate: '2025-09-22T16:53:14.246Z'
 
 As a Gen AI Engineer at Cognizant, you will be at the forefront of designing, developing, and deploying cutting-edge Generative AI and machine learning solutions. You will work with a team of talented engineers and data scientists to build and implement scalable, high-performance AI applications that solve real-world business problems for our clients. This is a hybrid role, offering a mix of remote and in-office work.
 
-*Note: A specific location for this hybrid role has not been provided.*
+_Note: A specific location for this hybrid role has not been provided._
 
 ### Responsibilities
+
 - Develop and implement advanced solutions using Large Language Models to enhance our product offerings and meet client needs.
 - Collaborate with cross-functional teams to integrate open-source LLMs into existing systems ensuring seamless functionality and performance.
 - Apply AI and ML concepts to design and optimize algorithms that improve data processing and decision-making capabilities.
@@ -75,6 +76,7 @@ As a Gen AI Engineer at Cognizant, you will be at the forefront of designing, de
 - Document technical processes and solutions to facilitate knowledge transfer and support future development efforts.
 
 ### Qualifications
+
 - Bachelor’s or Master’s degree in Computer Science, Software Engineering, or a related field.
 - 6 to 12 years of experience as a Sr. Developer or Engineer.
 - Expertise in Large Language Models and open-source LLMs.

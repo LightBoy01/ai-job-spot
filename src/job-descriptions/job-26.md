@@ -19,6 +19,7 @@ source: Sourced by AI Job Spot
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.380Z'
 ---
+
 # Prompt & Context Engineer
 
 ### Description
@@ -41,4 +42,4 @@ NTT DATA is a top 10 global IT services provider, and we are looking for a skill
 - Strong understanding of natural language processing (NLP) and machine learning concepts.
 - Experience with LLMs and prompt engineering is a strong plus.
 - Excellent analytical and problem-solving skills.
-- Strong communication and collaboration skills. 
+- Strong communication and collaboration skills.

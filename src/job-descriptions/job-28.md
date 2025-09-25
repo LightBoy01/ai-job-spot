@@ -19,6 +19,7 @@ source: Sourced by AI Job Spot
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.371Z'
 ---
+
 # Data Scientist (AI/ML Focus)
 
 ### Description
@@ -40,4 +41,4 @@ Mind To Machine Connect is a technology consulting firm that helps businesses le
 - Strong programming skills in Python and experience with machine learning libraries such as scikit-learn, TensorFlow, or PyTorch.
 - Proficiency in SQL and experience with relational databases.
 - Excellent problem-solving and analytical skills.
-- Strong communication and consulting skills. 
+- Strong communication and consulting skills.

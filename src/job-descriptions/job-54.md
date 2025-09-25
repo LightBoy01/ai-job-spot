@@ -35,6 +35,7 @@ verificationDate: '2025-09-22T16:53:14.239Z'
 As an AI Application Support Engineer at LSEG, you will play a critical role in ensuring the smooth operation and high-quality user experience of our AI-powered applications and platforms. Based in our dynamic Bangalore office, you will be a key member of our global team, providing expert support for a large-scale financial software product. This is an exciting opportunity to work at the intersection of finance and artificial intelligence, with a focus on problem-solving, innovation, and customer service.
 
 ### Responsibilities
+
 - Provide technical support for AI-based applications, identifying and resolving issues reported by users.
 - Analyse, troubleshoot, and resolve technical problems in a timely manner, ensuring minimal impact on users.
 - Monitor the performance of AI applications and address potential areas of concern before they escalate.
@@ -48,6 +49,7 @@ As an AI Application Support Engineer at LSEG, you will play a critical role in 
 - Provides Level 2 24x7 technical and production support, including out-of-hours and on-call support.
 
 ### Qualifications
+
 - 4 to 6 years of professional experience in Cloud Computing technologies (AWS or Azure) and SRE practices.
 - Bachelor's degree in computer science, Engineering, Information Technology, or a related field (or equivalent experience).
 - Proven experience in technical support or application support, preferably in AI-based applications.
