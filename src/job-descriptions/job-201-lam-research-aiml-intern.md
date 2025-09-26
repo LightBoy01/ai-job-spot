@@ -18,6 +18,8 @@ glassdoorLink: null
 crunchbaseLink: null
 companyLogoUrl: "https://rmkcdn.successfactors.com/bf33479f/472b4953-8ff6-46c8-897b-3.svg"
 applicationExperience: "Application is via the Lam Research careers portal. The company notes they have recently enhanced their user experience with an updated portal."
+story_question1: "What kind of real-world impact can an intern make in this role?"
+story_answer1: "This internship offers a unique opportunity to apply advanced AI/ML techniques to real-world challenges in the semiconductor industry. You won't be working on theoretical problems; you'll be contributing to projects that directly impact the manufacturing and performance of next-generation microchips. It's a chance to see your work have a tangible effect on the hardware that powers our digital world."
 ---
 
 At Lam Research, we create equipment that allows chipmakers to build device features more than 1,000 times smaller than a grain of sand. This tiny scale has a huge impact. Virtually every leading-edge chip inside the electronic products you use every day (TVs, smartphones, laptops, cars, even medical devices) has been made using our equipment. As one of the world’s most trusted suppliers in the semiconductor equipment industry, we’re transforming technology.

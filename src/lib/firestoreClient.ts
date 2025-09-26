@@ -13,7 +13,7 @@ import {
   startAfter,
 } from 'firebase/firestore';
 import { db } from './firebase'; // Import the client-side db instance
-import { JobPosting, Article } from './types';
+import { JobPosting, Article, AggregatedArticle } from './types';
 
 // Helper function to convert Firestore Timestamp to JavaScript Date
 const convertTimestampToDate = (
@@ -24,6 +24,22 @@ const convertTimestampToDate = (
   }
   return undefined;
 };
+
+// Helper function to process aggregated article data
+const processAggregatedArticleData = (
+  docSnap: DocumentSnapshot<DocumentData>
+): AggregatedArticle => {
+  const data = docSnap.data();
+  return {
+    id: docSnap.id,
+    title: data?.title || '',
+    link: data?.link || '',
+    source: data?.source || '',
+    publishDate: convertTimestampToDate(data?.publishDate) || null,
+    excerpt: data?.excerpt || '',
+  } as AggregatedArticle;
+};
+
 
 // Helper function to process job data
 const processJobData = (
@@ -319,3 +335,31 @@ export async function getAllTags(): Promise<string[]> {
 
   return Array.from(tags);
 }
+
+export async function getAggregatedArticles(
+  limit?: number,
+  startAfterDoc?: DocumentSnapshot
+): Promise<{ articles: AggregatedArticle[]; lastVisible: DocumentSnapshot | null }> {
+  const articlesCollectionRef = collection(db, 'aggregatedArticles');
+  let q = query(
+    articlesCollectionRef,
+    orderBy('publishDate', 'desc')
+  );
+
+  if (startAfterDoc) {
+    q = query(q, startAfter(startAfterDoc));
+  }
+  if (limit) {
+    q = query(q, limitTo(limit));
+  }
+
+  const querySnapshot = await getDocs(q);
+  const articles = querySnapshot.docs.map(processAggregatedArticleData);
+  const lastVisible =
+    querySnapshot.docs.length > 0
+      ? querySnapshot.docs[querySnapshot.docs.length - 1]
+      : null;
+
+  return { articles, lastVisible };
+}
+

@@ -15,8 +15,11 @@ export interface ParsedJobDetails {
 }
 
 export class FoorillaParser implements IParser {
-  parse(html: string): ParsedJobDetails {
-    const $ = cheerio.load(html);
+  parse(data: unknown): ParsedJobDetails {
+    if (typeof data !== 'string') {
+      throw new Error('FoorillaParser expects a string of HTML data.');
+    }
+    const $ = cheerio.load(data);
 
     // --- Basic Info ---
     const title = $('h1').first().text().trim();

@@ -87,7 +87,7 @@ export default async function handler(
       tags: jobData.tags
         ? jobData.tags.split(',').map((tag: string) => tag.trim())
         : [],
-      status: jobData.status || 'published',
+      status: 'pending_review',
       jobLevel: jobData.jobLevel || undefined,
       employeeRole: jobData.employeeRole || undefined,
       responsibilities: responsibilitiesArray,

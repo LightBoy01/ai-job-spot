@@ -44,7 +44,8 @@ const slugify = (text: string) => {
 async function writeMarkdownFile(
   item: JobItem,
   outputDir: string,
-  log: (message: string) => void
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
+  log: Function,
 ) {
   const frontmatter = {
     id: item.id,
@@ -117,7 +118,8 @@ async function main() {
     logStream.write(logMessage + '\n');
     process.stdout.write(logMessage + '\n');
   };
-  const errorLog = (message: string, ...optionalParams: unknown[]) => {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
+  const errorLog: Function = (message: string, ...optionalParams: unknown[]) => {
     const logMessage = `${new Date().toISOString()}: ERROR: ${message} ${optionalParams.join(' ')}`;
     logStream.write(logMessage + '\n');
     process.stderr.write(logMessage + '\n');
@@ -145,6 +147,7 @@ async function main() {
     log(`Found ${existingUrls.size} existing job URLs to check against.`);
 
     // 3. Loop through each enabled scraper and run it
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     for (const scraperConfig of scrapersToRun) {
       log(`--- Running scraper: ${scraperConfig.name} ---`);
 
@@ -243,7 +246,8 @@ async function main() {
               );
 
               log(`[DETAIL] 1. Fetching HTML for ${request.url}`);
-              const response = await gotScraping.get({ url: request.url });
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              const response: any = await gotScraping.get({ url: request.url });
               const htmlBody = response.body;
               log(
                 `[DETAIL] 2. HTML fetched successfully. Instantiating parser.`

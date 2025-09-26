@@ -3,10 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['localhost', 'aijobspot.online', 'www.aijobspot.online'],
+    unoptimized: true,
   },
   async headers() {
     const cspHeader = `
       default-src 'self';
+      connect-src 'self' https://*.firebaseio.com https://www.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com;
       script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://apis.google.com https://www.google-analytics.com https://connect.facebook.net https://www.gstatic.com/firebasejs/ https://*.firebaseio.com;
       style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
       img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com https://lh3.googleusercontent.com;
@@ -56,6 +58,11 @@ const nextConfig = {
         '**/storage/**',
         '**/data_pipelines_venv/**',
         '**/archive/**',
+        '**/..',
+        '**/../..',
+        '/',
+        '/data',
+        '/data/data',
       ],
     };
     return config;

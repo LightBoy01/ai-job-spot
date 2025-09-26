@@ -13,5 +13,5 @@ export interface ParsedJobDetails {
 
 // Defines the interface that every site-specific parser must implement.
 export interface IParser {
-  parse(html: string): ParsedJobDetails;
+  parse(data: unknown): ParsedJobDetails;
 }

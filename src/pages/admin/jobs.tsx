@@ -3,15 +3,15 @@ import { SerializedJobPosting } from '@/lib/types';
 import { GetServerSideProps } from 'next';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
-import useAuth from '@/hooks/useAuth';
-import { useState, useCallback } from 'react';
+import { useEffect } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import { formatDate } from '@/lib/dateUtils';
-import { parse } from 'cookie';
+import { useAdminResourceList } from '@/hooks/useAdminResourceList';
 
 interface AdminJobsProps {
   initialJobs: SerializedJobPosting[];
   initialLastDocId: string | null;
+  error?: string;
 }
 
 const PAGE_SIZE = 10;
@@ -19,113 +19,32 @@ const PAGE_SIZE = 10;
 const AdminJobs: React.FC<AdminJobsProps> = ({
   initialJobs,
   initialLastDocId,
+  error,
 }) => {
-  const { idToken, loading: authLoading } = useAuth();
-  const [jobs, setJobs] = useState(initialJobs);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [jobToDeleteId, setJobToDeleteId] = useState<string | null>(null);
-  const [jobToDeleteTitle, setJobToDeleteTitle] = useState<string | null>(null);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
-  const [isLoading, setIsLoading] = useState(false);
-
-  const fetchAdminJobs = useCallback(
-    async (query: string, startAfter: string | null) => {
-      if (!idToken || isLoading) return;
-
-      setIsLoading(true);
-      const toastId = toast.loading('Loading jobs...');
-
-      try {
-        const params = new URLSearchParams({
-          q: query,
-          limit: String(PAGE_SIZE),
-        });
-        if (startAfter) {
-          params.append('startAfter', startAfter);
-        }
-
-        const response = await fetch(
-          `/api/admin/jobs/search?${params.toString()}`,
-          {
-            headers: {
-              Authorization: `Bearer ${idToken}`,
-            },
-          }
-        );
-
-        if (!response.ok) {
-          const errorData = await response.json();
-          throw new Error(errorData.error || 'Failed to fetch jobs');
-        }
-
-        const data = await response.json();
-        setJobs((prevJobs) =>
-          startAfter ? [...prevJobs, ...data.jobs] : data.jobs
-        );
-        setLastDocId(data.lastDocId);
-        toast.success('Jobs loaded successfully!', { id: toastId });
-      } catch (error) {
-        console.error('Error fetching admin jobs:', error);
-        toast.error(
-          error instanceof Error ? error.message : 'An unknown error occurred',
-          { id: toastId }
-        );
-      } finally {
-        setIsLoading(false);
-      }
-    },
-    [idToken, isLoading]
-  );
-
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    fetchAdminJobs(searchQuery, null);
-  };
-
-  const handleClearSearch = () => {
-    setSearchQuery('');
-    fetchAdminJobs('', null);
-  };
-
-  const handleDeleteClick = (id: string, title: string) => {
-    setJobToDeleteId(id);
-    setJobToDeleteTitle(title);
-    setIsModalOpen(true);
-  };
-
-  const handleConfirmDelete = async () => {
-    if (!jobToDeleteId || !idToken) return;
-    setIsModalOpen(false);
-    const toastId = toast.loading(
-      `Deleting job "${jobToDeleteTitle || ''}"...`
-    );
-
-    try {
-      const response = await fetch(`/api/jobs/${jobToDeleteId}`, {
-        method: 'DELETE',
-        headers: {
-          Authorization: `Bearer ${idToken}`,
-        },
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to delete job');
-      }
-
-      toast.success(`Job "${jobToDeleteTitle || ''}" deleted successfully!`, {
-        id: toastId,
-      });
-      fetchAdminJobs(searchQuery, null); // Refetch current view
-    } catch (error) {
-      console.error('Error deleting job:', error);
-      toast.error(
-        error instanceof Error ? error.message : 'An unknown error occurred',
-        { id: toastId }
-      );
+  useEffect(() => {
+    if (error) {
+      toast.error(`Error loading jobs: ${error}`);
     }
-  };
+  }, [error]);
+
+  const {
+    items: jobs,
+    isLoading,
+    searchQuery,
+    setSearchQuery,
+    lastDocId,
+    handleSearchSubmit,
+    handleClearSearch,
+    loadMore,
+    handleDeleteClick,
+    confirmationModalProps,
+  } = useAdminResourceList({
+    initialItems: initialJobs,
+    initialLastDocId,
+    resourceName: 'job',
+    searchApiUrl: '/api/admin/jobs/search',
+    deleteApiUrlBase: '/api/jobs',
+  });
 
   return (
     <AdminLayout title="Manage Jobs">
@@ -151,7 +70,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({
           />
           <button
             type="submit"
-            disabled={isLoading || authLoading}
+            disabled={isLoading}
             className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400"
           >
             {isLoading ? 'Searching...' : 'Search'}
@@ -203,7 +122,11 @@ const AdminJobs: React.FC<AdminJobsProps> = ({
                   </td>
                   <td className="py-4 px-4">
                     <span
-                      className={`px-3 py-1 text-xs font-semibold rounded-full ${job.status === 'published' ? 'bg-accent-light text-accent-dark' : 'bg-secondary-light text-secondary-dark'}`}
+                      className={`px-3 py-1 text-xs font-semibold rounded-full ${
+                        job.status === 'published'
+                          ? 'bg-accent-light text-accent-dark'
+                          : 'bg-secondary-light text-secondary-dark'
+                      }`}
                     >
                       {job.status || 'draft'}
                     </span>
@@ -211,14 +134,16 @@ const AdminJobs: React.FC<AdminJobsProps> = ({
                   <td className="py-4 px-4 text-right space-x-2">
                     <Link href={`/admin/jobs/edit/${job.id}`} passHref>
                       <span
-                        className={`text-secondary-dark hover:text-secondary font-semibold ${authLoading ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
+                        className={`text-secondary-dark hover:text-secondary font-semibold ${
+                          isLoading ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+                        }`}
                       >
                         Edit
                       </span>
                     </Link>
                     <button
                       onClick={() => handleDeleteClick(job.id!, job.title)}
-                      disabled={authLoading}
+                      disabled={isLoading}
                       className="text-red-600 hover:text-red-800 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       Delete
@@ -232,8 +157,8 @@ const AdminJobs: React.FC<AdminJobsProps> = ({
 
         <div className="flex justify-center items-center mt-6">
           <button
-            onClick={() => fetchAdminJobs(searchQuery, lastDocId)}
-            disabled={!lastDocId || isLoading || authLoading}
+            onClick={loadMore}
+            disabled={!lastDocId || isLoading}
             className="bg-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Load More
@@ -241,13 +166,7 @@ const AdminJobs: React.FC<AdminJobsProps> = ({
         </div>
       </div>
 
-      <ConfirmationModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        onConfirm={handleConfirmDelete}
-        title="Confirm Deletion"
-        message="Are you sure you want to delete this job posting? This action is permanent and cannot be undone."
-      />
+      <ConfirmationModal {...confirmationModalProps} />
     </AdminLayout>
   );
 };
@@ -259,22 +178,21 @@ export const getServerSideProps: GetServerSideProps<AdminJobsProps> = async (
     const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
     const host = context.req.headers.host;
     const baseUrl = `${protocol}://${host}`;
-    const cookies = parse(context.req.headers.cookie || '');
-    const idToken = cookies.__session;
-
-    if (!idToken) {
-      return { redirect: { destination: '/auth/login', permanent: false } };
-    }
 
     const params = new URLSearchParams({ q: '', limit: String(PAGE_SIZE) });
+    // The Authorization header is no longer needed here either.
+    // The browser will forward the cookie to the API route automatically.
     const response = await fetch(
       `${baseUrl}/api/admin/jobs/search?${params.toString()}`,
       {
-        headers: { Authorization: `Bearer ${idToken}` },
+        headers: { Cookie: context.req.headers.cookie || '' },
       }
     );
 
     if (!response.ok) {
+      if (response.status === 401 || response.status === 403) {
+        return { redirect: { destination: '/admin/login', permanent: false } };
+      }
       throw new Error(`Failed to fetch initial jobs: ${response.statusText}`);
     }
 
@@ -283,11 +201,12 @@ export const getServerSideProps: GetServerSideProps<AdminJobsProps> = async (
       props: { initialJobs: data.jobs, initialLastDocId: data.lastDocId },
     };
   } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     console.error(
       '[getServerSideProps] Error fetching jobs for admin panel:',
       error
     );
-    return { props: { initialJobs: [], initialLastDocId: null } };
+    return { props: { initialJobs: [], initialLastDocId: null, error: errorMessage } };
   }
 };
 

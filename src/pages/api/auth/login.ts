@@ -18,16 +18,18 @@ export default async function handler(
   }
 
   try {
-    // Verify the ID token to ensure it's valid.
-    await adminAuth.verifyIdToken(idToken);
+    // Set session expiration to 5 days.
+    const expiresIn = 60 * 60 * 24 * 5 * 1000;
+    // Create the session cookie. This will also verify the ID token.
+    const sessionCookie = await adminAuth.createSessionCookie(idToken, { expiresIn });
 
-    // Set the ID token as an HttpOnly, secure cookie.
+    // Set the session cookie as an HttpOnly, secure cookie.
     res.setHeader(
       'Set-Cookie',
-      serialize('__session', idToken, {
+      serialize('__session', sessionCookie, {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
-        maxAge: 60 * 60 * 24 * 5, // 5 days
+        maxAge: expiresIn / 1000, // maxAge is in seconds
         path: '/',
         sameSite: 'lax',
       })
@@ -35,7 +37,7 @@ export default async function handler(
 
     return res.status(200).json({ message: 'Logged in successfully' });
   } catch (error) {
-    // If token verification fails, Firebase Admin SDK throws an error.
+    // If token verification fails, createSessionCookie throws an error.
     console.error('Authentication error:', error);
     return res
       .status(401)

@@ -12,6 +12,9 @@ import { formatDate } from '@/lib/dateUtils';
 import AdContainer from '@/components/AdContainer';
 import Image from 'next/image';
 import Sidebar from '@/components/Sidebar';
+import FeaturedBadge from '@/components/FeaturedBadge'; // New import
+import { useState } from 'react';
+import ConfirmationModal from '@/components/ConfirmationModal';
 
 interface JobDetailsProps {
   job: SerializedJobPosting;
@@ -101,6 +104,16 @@ const generateJobPostingSchema = (job: SerializedJobPosting) => {
 };
 
 const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleApplyClick = () => {
+    if (job.source) {
+      setIsModalOpen(true);
+    } else {
+      window.open(job.applicationLink, '_blank');
+    }
+  };
+
   if (!job) {
     return (
       <Layout>
@@ -156,7 +169,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
           {/* Main Content */}
           <div className="md:col-span-2">
             <article>
-              <header className="mb-10 border-b border-neutral-200 pb-8">
+              <header className={`mb-10 border-b border-neutral-200 pb-8 ${job.isFeatured ? 'bg-amber-50/50 p-6 rounded-lg border-2 border-amber-500 ring-2 ring-amber-300' : ''}`}>
                 <div className="flex items-start space-x-6 mb-6">
                   {/* Logo or Fallback */}
                   <div className="flex-shrink-0 w-24 h-24 bg-neutral-100 rounded-xl flex items-center justify-center border border-neutral-200">
@@ -183,6 +196,11 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                   <div className="flex-1">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary-dark leading-tight mb-3">
                       {job.title}
+                      {job.isFeatured && (
+                        <span className="ml-4 inline-block align-middle">
+                          <FeaturedBadge />
+                        </span>
+                      )}
                     </h1>
                     <div className="text-2xl text-neutral-700">
                       {job.company}
@@ -375,15 +393,23 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                     </p>
                   </div>
                 )}
-                <a
-                  href={job.applicationLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={handleApplyClick}
                   className="inline-block bg-primary-dark hover:bg-primary text-white font-bold py-3 px-6 rounded-lg transition-colors text-lg"
                 >
                   Apply Now
-                </a>
+                </button>
               </div>
+
+              <ConfirmationModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+                onConfirm={() => window.open(job.applicationLink, '_blank')}
+                title="External Application"
+                message={`You are about to leave AI Job Spot to apply at ${job.source}. This is an external listing, and the application process may differ.`}
+                confirmText="Proceed to Apply"
+                confirmButtonClassName="bg-primary text-white hover:bg-primary-dark"
+              />
 
               <div className="mt-10 flex flex-wrap gap-3">
                 {(job.tags || []).map((tag) => (

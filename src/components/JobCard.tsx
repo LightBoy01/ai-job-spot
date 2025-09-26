@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SerializedJobPosting } from '@/lib/types';
 import { formatDate } from '@/lib/dateUtils';
+import FeaturedBadge from './FeaturedBadge'; // New import
 
 interface JobCardProps {
   job: SerializedJobPosting;
@@ -22,7 +23,7 @@ interface JobCardProps {
  * @returns {JSX.Element} The rendered JobCard component.
  */
 const JobCard = React.memo(({ job }: JobCardProps) => {
-  const { id, title, company, location, salaryRange, isNew, companyLogoUrl } =
+  const { id, title, company, location, salaryRange, isNew, isFeatured, companyLogoUrl } = // Added isFeatured
     job;
 
   const getInitials = (companyName: string) => {
@@ -38,8 +39,14 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
     <Link
       href={`/jobs/${id}`}
       passHref
-      className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer border border-neutral-200/80 hover:border-secondary/50 relative overflow-hidden h-full flex flex-col"
+      className={`block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden h-full flex flex-col
+        ${isFeatured ? 'border-2 border-amber-500 ring-2 ring-amber-300' : 'border border-neutral-200/80 hover:border-secondary/50'}`}
     >
+      {isFeatured && (
+        <div className="absolute top-0 left-0 z-10 p-2">
+          <FeaturedBadge />
+        </div>
+      )}
       {isNew && (
         <span className="absolute top-0 right-0 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">
           NEW
@@ -158,6 +165,25 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
                 />
               </svg>
               <span>{job.jobLevel}</span>
+            </div>
+          )}
+          {job.source && (
+            <div className="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 mr-2 text-neutral-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                />
+              </svg>
+              <span>Via: {job.source}</span>
             </div>
           )}
         </div>

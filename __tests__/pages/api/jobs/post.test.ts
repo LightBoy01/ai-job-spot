@@ -1,5 +1,5 @@
 import { createRequest, createResponse } from 'node-mocks-http';
-import handler from './post';
+import handler from '@/pages/api/jobs/post';
 import admin from 'firebase-admin';
 
 describe('Job API - POST /api/jobs/post', () => {

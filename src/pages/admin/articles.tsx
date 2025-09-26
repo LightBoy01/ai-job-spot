@@ -3,15 +3,15 @@ import { SerializedArticle } from '@/lib/types';
 import { GetServerSideProps } from 'next';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
-import useAuth from '@/hooks/useAuth';
-import { useState, useCallback } from 'react';
+import { useEffect } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import { formatDate } from '@/lib/dateUtils';
-import { parse } from 'cookie';
+import { useAdminResourceList } from '@/hooks/useAdminResourceList';
 
 interface AdminArticlesProps {
   initialArticles: SerializedArticle[];
   initialLastDocId: string | null;
+  error?: string;
 }
 
 const PAGE_SIZE = 10;
@@ -19,118 +19,32 @@ const PAGE_SIZE = 10;
 const AdminArticles: React.FC<AdminArticlesProps> = ({
   initialArticles,
   initialLastDocId,
+  error,
 }) => {
-  const { idToken, loading: authLoading } = useAuth();
-  const [articles, setArticles] = useState(initialArticles);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [articleToDeleteId, setArticleToDeleteId] = useState<string | null>(
-    null
-  );
-  const [articleToDeleteTitle, setArticleToDeleteTitle] = useState<
-    string | null
-  >(null);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [lastDocId, setLastDocId] = useState<string | null>(initialLastDocId);
-  const [isLoading, setIsLoading] = useState(false);
-
-  const fetchAdminArticles = useCallback(
-    async (query: string, startAfter: string | null) => {
-      if (!idToken || isLoading) return;
-
-      setIsLoading(true);
-      const toastId = toast.loading('Loading articles...');
-
-      try {
-        const params = new URLSearchParams({
-          q: query,
-          limit: String(PAGE_SIZE),
-        });
-        if (startAfter) {
-          params.append('startAfter', startAfter);
-        }
-
-        const response = await fetch(
-          `/api/admin/articles/search?${params.toString()}`,
-          {
-            headers: {
-              Authorization: `Bearer ${idToken}`,
-            },
-          }
-        );
-
-        if (!response.ok) {
-          const errorData = await response.json();
-          throw new Error(errorData.error || 'Failed to fetch articles');
-        }
-
-        const data = await response.json();
-        setArticles((prevArticles) =>
-          startAfter ? [...prevArticles, ...data.articles] : data.articles
-        );
-        setLastDocId(data.lastDocId);
-        toast.success('Articles loaded successfully!', { id: toastId });
-      } catch (error) {
-        console.error('Error fetching admin articles:', error);
-        toast.error(
-          error instanceof Error ? error.message : 'An unknown error occurred',
-          { id: toastId }
-        );
-      } finally {
-        setIsLoading(false);
-      }
-    },
-    [idToken, isLoading]
-  );
-
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    fetchAdminArticles(searchQuery, null);
-  };
-
-  const handleClearSearch = () => {
-    setSearchQuery('');
-    fetchAdminArticles('', null);
-  };
-
-  const handleDeleteClick = (id: string, title: string) => {
-    setArticleToDeleteId(id);
-    setArticleToDeleteTitle(title);
-    setIsModalOpen(true);
-  };
-
-  const handleConfirmDelete = async () => {
-    if (!articleToDeleteId || !idToken) return;
-    setIsModalOpen(false);
-    const toastId = toast.loading(
-      `Deleting article "${articleToDeleteTitle || ''}"...`
-    );
-
-    try {
-      const response = await fetch(`/api/articles/${articleToDeleteId}`, {
-        method: 'DELETE',
-        headers: {
-          Authorization: `Bearer ${idToken}`,
-        },
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to delete article');
-      }
-
-      toast.success(
-        `Article "${articleToDeleteTitle || ''}" deleted successfully!`,
-        { id: toastId }
-      );
-      fetchAdminArticles(searchQuery, null); // Refetch current view
-    } catch (error) {
-      console.error('Error deleting article:', error);
-      toast.error(
-        error instanceof Error ? error.message : 'An unknown error occurred',
-        { id: toastId }
-      );
+  useEffect(() => {
+    if (error) {
+      toast.error(`Error loading articles: ${error}`);
     }
-  };
+  }, [error]);
+
+  const {
+    items: articles,
+    isLoading,
+    searchQuery,
+    setSearchQuery,
+    lastDocId,
+    handleSearchSubmit,
+    handleClearSearch,
+    loadMore,
+    handleDeleteClick,
+    confirmationModalProps,
+  } = useAdminResourceList({
+    initialItems: initialArticles,
+    initialLastDocId,
+    resourceName: 'article',
+    searchApiUrl: '/api/admin/articles/search',
+    deleteApiUrlBase: '/api/articles',
+  });
 
   return (
     <AdminLayout title="Manage Articles">
@@ -156,7 +70,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({
           />
           <button
             type="submit"
-            disabled={isLoading || authLoading}
+            disabled={isLoading}
             className="bg-primary text-white py-3 px-6 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:bg-neutral-400"
           >
             {isLoading ? 'Searching...' : 'Search'}
@@ -211,7 +125,9 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({
                       passHref
                     >
                       <span
-                        className={`text-secondary-dark hover:text-secondary font-semibold ${authLoading ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
+                        className={`text-secondary-dark hover:text-secondary font-semibold ${
+                          isLoading ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+                        }`}
                       >
                         Edit
                       </span>
@@ -220,7 +136,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({
                       onClick={() =>
                         handleDeleteClick(article.id!, article.title)
                       }
-                      disabled={authLoading}
+                      disabled={isLoading}
                       className="text-red-600 hover:text-red-800 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       Delete
@@ -234,8 +150,8 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({
 
         <div className="flex justify-center items-center mt-6">
           <button
-            onClick={() => fetchAdminArticles(searchQuery, lastDocId)}
-            disabled={!lastDocId || isLoading || authLoading}
+            onClick={loadMore}
+            disabled={!lastDocId || isLoading}
             className="bg-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Load More
@@ -243,13 +159,7 @@ const AdminArticles: React.FC<AdminArticlesProps> = ({
         </div>
       </div>
 
-      <ConfirmationModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        onConfirm={handleConfirmDelete}
-        title="Confirm Deletion"
-        message="Are you sure you want to delete this article? This action is permanent and cannot be undone."
-      />
+      <ConfirmationModal {...confirmationModalProps} />
     </AdminLayout>
   );
 };
@@ -261,22 +171,20 @@ export const getServerSideProps: GetServerSideProps<
     const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
     const host = context.req.headers.host;
     const baseUrl = `${protocol}://${host}`;
-    const cookies = parse(context.req.headers.cookie || '');
-    const idToken = cookies.__session;
-
-    if (!idToken) {
-      return { redirect: { destination: '/auth/login', permanent: false } };
-    }
 
     const params = new URLSearchParams({ q: '', limit: String(PAGE_SIZE) });
+    // The Authorization header is no longer needed.
     const response = await fetch(
       `${baseUrl}/api/admin/articles/search?${params.toString()}`,
       {
-        headers: { Authorization: `Bearer ${idToken}` },
+        headers: { Cookie: context.req.headers.cookie || '' },
       }
     );
 
     if (!response.ok) {
+      if (response.status === 401 || response.status === 403) {
+        return { redirect: { destination: '/admin/login', permanent: false } };
+      }
       throw new Error(
         `Failed to fetch initial articles: ${response.statusText}`
       );
@@ -290,11 +198,12 @@ export const getServerSideProps: GetServerSideProps<
       },
     };
   } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     console.error(
       '[getServerSideProps] Error fetching articles for admin panel:',
       error
     );
-    return { props: { initialArticles: [], initialLastDocId: null } };
+    return { props: { initialArticles: [], initialLastDocId: null, error: errorMessage } };
   }
 };
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import toast from 'react-hot-toast';
@@ -12,6 +13,20 @@ type PublicJobFormData = {
   applicationLink: string;
   description: string;
   contactEmail: string; // For notifications and verification
+  story_question1: string;
+  story_answer1: string;
+  salaryRange?: string; // New field
+  tags?: string; // New field
+  jobLevel?: string; // New field
+  employeeRole?: string; // New field
+  responsibilities?: string; // New field
+  qualifications?: string; // New field
+  preferredQualifications?: string; // New field
+  applicationExperience?: string; // New field
+  glassdoorLink?: string; // New field
+  crunchbaseLink?: string; // New field
+  companyCulture?: string; // New field
+  expirationDate?: string; // New field
 };
 
 const PostAJobPage: React.FC = () => {
@@ -29,6 +44,20 @@ const PostAJobPage: React.FC = () => {
     applicationLink: '',
     description: '',
     contactEmail: '',
+    story_question1: '',
+    story_answer1: '',
+    salaryRange: '', // Initialize new field
+    tags: '', // Initialize new field
+    jobLevel: '', // Initialize new field
+    employeeRole: '', // Initialize new field
+    responsibilities: '', // Initialize new field
+    qualifications: '', // Initialize new field
+    preferredQualifications: '', // Initialize new field
+    applicationExperience: '', // Initialize new field
+    glassdoorLink: '', // Initialize new field
+    crunchbaseLink: '', // Initialize new field
+    companyCulture: '', // Initialize new field
+    expirationDate: '', // Initialize new field
   });
 
   const handleChange = (
@@ -58,6 +87,37 @@ const PostAJobPage: React.FC = () => {
     ) {
       newErrors.contactEmail = 'A valid Contact Email is required.';
     }
+    // Proof of Work Validation
+    if (!formData.story_question1) {
+      newErrors.story_question1 = 'Human Context Question is required.';
+    }
+    if (!formData.story_answer1) {
+      newErrors.story_answer1 = 'Human Context Q&A is required.';
+    } else if (formData.story_answer1.length < 200) {
+      newErrors.story_answer1 = 'Human Context Q&A must be at least 200 characters.';
+    } else {
+      const urlRegex = /(https?:\/\/[^\\s]+)/g;
+      const matches = formData.story_answer1.match(urlRegex);
+      if (matches && matches.length > 1) {
+        newErrors.story_answer1 = 'Human Context Q&A can contain at most one hyperlink.';
+      }
+    }
+
+    // Additional Job Details Validation
+    if (formData.glassdoorLink && !/^https?:\/\/.+/.test(formData.glassdoorLink)) {
+      newErrors.glassdoorLink = 'Must be a valid URL.';
+    }
+    if (formData.crunchbaseLink && !/^https?:\/\/.+/.test(formData.crunchbaseLink)) {
+      newErrors.crunchbaseLink = 'Must be a valid URL.';
+    }
+    if (formData.expirationDate) {
+      const posted = new Date(); // Assuming postedDate is now for public form
+      const expiration = new Date(formData.expirationDate);
+      if (expiration <= posted) {
+        newErrors.expirationDate = 'Expiration Date must be after today.';
+      }
+    }
+
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -247,6 +307,299 @@ const PostAJobPage: React.FC = () => {
                   <p className="text-red-500 text-sm mt-1">
                     {errors.description}
                   </p>
+                )}
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5 mt-10">
+            <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">
+              Proof of Work: Human Context Q&A
+            </h2>
+            <p className="text-neutral-600 mb-6">
+              To ensure authenticity and quality for our audience, please provide a unique, human-written answer to the following question. This helps us understand your company's vision and culture.
+            </p>
+            <div className="space-y-8">
+              <div>
+                <label
+                  htmlFor="story_question1"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Human Context Question (e.g., "What unique challenge does your team solve with AI?")
+                </label>
+                <textarea
+                  id="story_question1"
+                  name="story_question1"
+                  value={formData.story_question1}
+                  onChange={handleChange}
+                  rows={2}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.story_question1 ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                  placeholder="Enter your question here&quot;..."
+                ></textarea>
+                {errors.story_question1 && (
+                  <p className="text-red-500 text-sm mt-1">{errors.story_question1}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="story_answer1"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Your Answer (Min 200 characters, Max 1 hyperlink)
+                </label>
+                <textarea
+                  id="story_answer1"
+                  name="story_answer1"
+                  value={formData.story_answer1}
+                  onChange={handleChange}
+                  rows={6}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.story_answer1 ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                  placeholder="Provide a detailed, human-written answer to the question above. This helps us verify authenticity and showcase your company&apos;s unique perspective."
+                ></textarea>
+                {errors.story_answer1 && (
+                  <p className="text-red-500 text-sm mt-1">{errors.story_answer1}</p>
+                )}
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5 mt-10">
+            <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">
+              Additional Job Details
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <label
+                  htmlFor="salaryRange"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Salary Range (e.g., $100,000 - $150,000)
+                </label>
+                <input
+                  type="text"
+                  id="salaryRange"
+                  name="salaryRange"
+                  value={formData.salaryRange}
+                  onChange={handleChange}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.salaryRange ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                />
+                {errors.salaryRange && (
+                  <p className="text-red-500 text-sm mt-1">{errors.salaryRange}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="expirationDate"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Expiration Date (Optional)
+                </label>
+                <input
+                  type="date"
+                  id="expirationDate"
+                  name="expirationDate"
+                  value={formData.expirationDate}
+                  onChange={handleChange}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.expirationDate ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                />
+                {errors.expirationDate && (
+                  <p className="text-red-500 text-sm mt-1">{errors.expirationDate}</p>
+                )}
+              </div>
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="tags"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Tags (Comma-separated, e.g., AI, ML, Remote)
+                </label>
+                <input
+                  type="text"
+                  id="tags"
+                  name="tags"
+                  value={formData.tags}
+                  onChange={handleChange}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.tags ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                />
+                {errors.tags && (
+                  <p className="text-red-500 text-sm mt-1">{errors.tags}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="jobLevel"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Job Level (e.g., Senior, Staff, Principal)
+                </label>
+                <input
+                  type="text"
+                  id="jobLevel"
+                  name="jobLevel"
+                  value={formData.jobLevel}
+                  onChange={handleChange}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.jobLevel ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                />
+                {errors.jobLevel && (
+                  <p className="text-red-500 text-sm mt-1">{errors.jobLevel}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="employeeRole"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Employee Role (e.g., Individual Contributor, Manager)
+                </label>
+                <input
+                  type="text"
+                  id="employeeRole"
+                  name="employeeRole"
+                  value={formData.employeeRole}
+                  onChange={handleChange}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.employeeRole ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                />
+                {errors.employeeRole && (
+                  <p className="text-red-500 text-sm mt-1">{errors.employeeRole}</p>
+                )}
+              </div>
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="responsibilities"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Responsibilities (One per line)
+                </label>
+                <textarea
+                  id="responsibilities"
+                  name="responsibilities"
+                  value={formData.responsibilities}
+                  onChange={handleChange}
+                  rows={5}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.responsibilities ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                  placeholder="List key responsibilities, one per line."
+                ></textarea>
+                {errors.responsibilities && (
+                  <p className="text-red-500 text-sm mt-1">{errors.responsibilities}</p>
+                )}
+              </div>
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="qualifications"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Qualifications (One per line)
+                </label>
+                <textarea
+                  id="qualifications"
+                  name="qualifications"
+                  value={formData.qualifications}
+                  onChange={handleChange}
+                  rows={5}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.qualifications ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                  placeholder="List required qualifications, one per line."
+                ></textarea>
+                {errors.qualifications && (
+                  <p className="text-red-500 text-sm mt-1">{errors.qualifications}</p>
+                )}
+              </div>
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="preferredQualifications"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Preferred Qualifications (Optional, one per line)
+                </label>
+                <textarea
+                  id="preferredQualifications"
+                  name="preferredQualifications"
+                  value={formData.preferredQualifications}
+                  onChange={handleChange}
+                  rows={3}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.preferredQualifications ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                  placeholder="List preferred qualifications, one per line."
+                ></textarea>
+                {errors.preferredQualifications && (
+                  <p className="text-red-500 text-sm mt-1">{errors.preferredQualifications}</p>
+                )}
+              </div>
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="applicationExperience"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Application Experience (e.g., "15-20 min application")
+                </label>
+                <input
+                  type="text"
+                  id="applicationExperience"
+                  name="applicationExperience"
+                  value={formData.applicationExperience}
+                  onChange={handleChange}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.applicationExperience ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                />
+                {errors.applicationExperience && (
+                  <p className="text-red-500 text-sm mt-1">{errors.applicationExperience}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="glassdoorLink"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Glassdoor Link (Optional)
+                </label>
+                <input
+                  type="url"
+                  id="glassdoorLink"
+                  name="glassdoorLink"
+                  value={formData.glassdoorLink}
+                  onChange={handleChange}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.glassdoorLink ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                  placeholder="https://..."
+                />
+                {errors.glassdoorLink && (
+                  <p className="text-red-500 text-sm mt-1">{errors.glassdoorLink}</p>
+                )}
+              </div>
+              <div>
+                <label
+                  htmlFor="crunchbaseLink"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Crunchbase Link (Optional)
+                </label>
+                <input
+                  type="url"
+                  id="crunchbaseLink"
+                  name="crunchbaseLink"
+                  value={formData.crunchbaseLink}
+                  onChange={handleChange}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.crunchbaseLink ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                  placeholder="https://..."
+                />
+                {errors.crunchbaseLink && (
+                  <p className="text-red-500 text-sm mt-1">{errors.crunchbaseLink}</p>
+                )}
+              </div>
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="companyCulture"
+                  className="block text-sm font-semibold text-neutral-700 mb-2"
+                >
+                  Company Culture (Optional, HTML allowed)
+                </label>
+                <textarea
+                  id="companyCulture"
+                  name="companyCulture"
+                  value={formData.companyCulture}
+                  onChange={handleChange}
+                  rows={5}
+                  className={`w-full p-3 bg-neutral-50 rounded-md border ${errors.companyCulture ? 'border-red-500' : 'border-neutral-200'} focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition`}
+                  placeholder="Describe your company&apos;s culture, values, and what makes it a great place to work."
+                ></textarea>
+                {errors.companyCulture && (
+                  <p className="text-red-500 text-sm mt-1">{errors.companyCulture}</p>
                 )}
               </div>
             </div>

@@ -1,90 +1,156 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
-import { FieldValue } from 'firebase-admin/firestore';
+import { adminAuth, adminDb, admin } from '@/lib/firebaseAdmin';
+import { JobPostingSchema } from '@/lib/validationSchemas';
 import DOMPurify from 'isomorphic-dompurify';
+import { marked } from 'marked';
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aijobspot.online';
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method Not Allowed' });
+    return res.status(405).json({ message: 'Method not allowed' });
   }
 
   try {
-    const {
-      title,
-      company,
-      location,
-      applicationLink,
-      description,
-      contactEmail,
-    } = req.body;
+    // 1. Input Validation with Zod
+    const validationResult = JobPostingSchema.safeParse(req.body);
 
-    // --- Server-Side Validation ---
-    if (
-      !title ||
-      !company ||
-      !location ||
-      !applicationLink ||
-      !description ||
-      !contactEmail
-    ) {
-      return res.status(400).json({ error: 'Missing required fields.' });
-    }
-    if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(contactEmail)) {
-      return res.status(400).json({ error: 'Invalid contact email format.' });
-    }
-    if (!/^https?:\/\/.+/.test(applicationLink)) {
-      return res
-        .status(400)
-        .json({ error: 'Invalid application link format.' });
+    if (!validationResult.success) {
+      return res.status(400).json({
+        message: 'Invalid job posting data',
+        errors: validationResult.error.flatten(),
+      });
     }
 
-    // --- Sanitization ---
-    const sanitizedDescription = DOMPurify.sanitize(description);
+    const jobData = validationResult.data;
 
-    const newJobData = {
-      title,
-      company,
-      location,
-      applicationLink,
+    // 2. HTML Sanitization
+    const sanitizedDescription = DOMPurify.sanitize(
+      await marked(jobData.description || '')
+    );
+
+    // Convert responsibilities and qualifications from newline-separated strings to arrays
+    const responsibilitiesArray = jobData.responsibilities
+      ? jobData.responsibilities
+          .split('\n')
+          .map((s) => s.trim())
+          .filter((s) => s)
+      : [];
+    const qualificationsArray = jobData.qualifications
+      ? jobData.qualifications
+          .split('\n')
+          .map((s) => s.trim())
+          .filter((s) => s)
+      : [];
+    const preferredQualificationsArray = jobData.preferredQualifications
+      ? jobData.preferredQualifications
+          .split('\n')
+          .map((s) => s.trim())
+          .filter((s) => s)
+      : [];
+    const tagsArray = jobData.tags
+      ? jobData.tags
+          .split(',')
+          .map((s) => s.trim())
+          .filter((s) => s)
+      : [];
+
+    // Convert dates to Firestore Timestamps
+    const postedDateTimestamp = jobData.postedDate
+      ? admin.firestore.Timestamp.fromDate(new Date(jobData.postedDate))
+      : admin.firestore.Timestamp.now();
+    const expirationDateTimestamp = jobData.expirationDate
+      ? admin.firestore.Timestamp.fromDate(new Date(jobData.expirationDate))
+      : null;
+    const verificationDateTimestamp = jobData.verificationDate
+      ? admin.firestore.Timestamp.fromDate(new Date(jobData.verificationDate))
+      : null;
+
+    // Prepare job object for Firestore
+    const newJobRef = adminDb.collection('jobs').doc(); // Let Firestore generate ID
+    const jobToSave = {
+      id: newJobRef.id,
+      title: jobData.title,
+      company: jobData.company,
+      companyLogoUrl: jobData.companyLogoUrl || null,
       description: sanitizedDescription,
-      contactEmail, // For internal use/notifications
-      status: 'pending_review', // **CRITICAL: Force status to pending review**
-      isNew: true,
-      postedDate: FieldValue.serverTimestamp(), // Set server-side
-      // Set other fields to null or default values
-      companyLogoUrl: req.body.companyLogoUrl || null,
-      salaryRange: null,
-      tags: [],
-      responsibilities: [],
-      qualifications: [],
-      preferredQualifications: [],
-      jobLevel: null,
-      employeeRole: null,
-      expirationDate: null,
-      applicationExperience: null,
-      glassdoorLink: null,
-      crunchbaseLink: null,
-      source: 'Public Submission',
-      story_question1: null,
-      story_answer1: null,
-      story_question2: null,
-      story_answer2: null,
-      story_question3: null,
-      story_answer3: null,
-      companyCulture: null,
+      responsibilities: responsibilitiesArray,
+      qualifications: qualificationsArray,
+      preferredQualifications: preferredQualificationsArray,
+      location: jobData.location,
+      salaryRange: jobData.salaryRange || null,
+      postedDate: postedDateTimestamp,
+      expirationDate: expirationDateTimestamp,
+      applicationLink: jobData.applicationLink,
+      applicationExperience: jobData.applicationExperience || null,
+      tags: tagsArray,
+      jobLevel: jobData.jobLevel || null,
+      employeeRole: jobData.employeeRole || null,
+      status: 'pending_review', // All public submissions start as pending review
+      isNew: jobData.isNew ?? true,
+      source: jobData.source || null,
+      sourceUrl: jobData.sourceUrl || null,
+      verificationDate: verificationDateTimestamp,
+      glassdoorLink: jobData.glassdoorLink || null,
+      crunchbaseLink: jobData.crunchbaseLink || null,
+      story_question1: jobData.story_question1 || null,
+      story_answer1: jobData.story_answer1 || null,
+      story_question2: jobData.story_question2 || null,
+      story_answer2: jobData.story_answer2 || null,
+      story_question3: jobData.story_question3 || null,
+      story_answer3: jobData.story_answer3 || null,
+      companyCulture: jobData.companyCulture || null,
     };
 
-    const docRef = await adminDb.collection('jobs').add(newJobData);
+    // 3. Save to Firestore
+    await newJobRef.set(jobToSave);
 
-    res.status(201).json({
-      message: 'Job submitted for review successfully',
-      jobId: docRef.id,
-    });
+    // 4. Revalidation (for homepage and jobs list)
+    await Promise.all([
+      revalidatePath('/'),
+      revalidatePath('/jobs'),
+      revalidatePath(`/jobs/${newJobRef.id}`),
+    ]);
+
+    res
+      .status(201)
+      .json({ message: 'Job posting created successfully', job: jobToSave });
   } catch (error) {
-    console.error('Error in /api/jobs/public-post:', error);
-    res.status(500).json({ error: 'Internal Server Error' });
+    console.error('Error creating job posting:', error);
+    if (error instanceof Error) {
+      return res
+        .status(500)
+        .json({ message: 'Internal server error', error: error.message });
+    }
+    return res.status(500).json({ message: 'Internal server error' });
+  }
+}
+
+async function revalidatePath(path: string) {
+  const secret = process.env.REVALIDATE_SECRET_TOKEN;
+  if (!secret) {
+    console.warn('[REVALIDATION SKIPPED] REVALIDATE_SECRET_TOKEN not set.');
+    return;
+  }
+
+  try {
+    const revalidateRes = await fetch(`${SITE_URL}/api/revalidate`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ secret, path }),
+    });
+
+    if (!revalidateRes.ok) {
+      console.error(
+        `Failed to revalidate ${path}: Status ${revalidateRes.status}`
+      );
+    }
+  } catch (err) {
+    console.error(`Error revalidating ${path}:`, err);
   }
 }

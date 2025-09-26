@@ -35,7 +35,7 @@ jest.mock('firebase-admin', () => ({
   },
 }));
 
-import handler from './index';
+import handler from '@/pages/api/jobs';
 import admin from 'firebase-admin';
 
 describe('Job API - POST /api/jobs', () => {

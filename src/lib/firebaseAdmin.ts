@@ -3,30 +3,54 @@ import fs from 'fs';
 import path from 'path';
 
 function getServiceAccount(): admin.ServiceAccount {
-  // Primary Method: Use the raw JSON from the environment variable.
-  // This is more reliable than Base64 encoding for multi-line keys.
-  if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
-    try {
-      return JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
-    } catch (e) {
-      console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_JSON:', e);
-      throw new Error(
-        'Could not parse Firebase service account credentials from environment variable.'
-      );
-    }
-  }
+  // Bypassing environment variables for local build debugging.
+  // Force use of the local file.
+
+  // Production-first Method: Use a Base64 encoded service account from env variables.
+  // if (process.env.FIREBASE_SERVICE_ACCOUNT_BASE64) {
+  //   try {
+  //     const decodedServiceAccount = Buffer.from(
+  //       process.env.FIREBASE_SERVICE_ACCOUNT_BASE64,
+  //       'base64'
+  //     ).toString('utf8');
+  //     const serviceAccount = JSON.parse(decodedServiceAccount);
+  //     if ((serviceAccount as any).private_key) {
+  //       (serviceAccount as any).private_key = (serviceAccount as any).private_key.replace(/\\n/g, '\n');
+  //     }
+  //     return serviceAccount;
+  //   } catch (e) {
+  //     console.error('Error parsing Base64 decoded service account:', e);
+  //     throw new Error('Could not parse Base64 decoded service account.');
+  //   }
+  // }
+
+  // // Legacy Method: Use the raw JSON from the environment variable.
+  // if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
+  //   try {
+  //     const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
+  //     if ((serviceAccount as any).private_key) {
+  //       (serviceAccount as any).private_key = (serviceAccount as any).private_key.replace(/\\n/g, '\n');
+  //     }
+  //     return serviceAccount;
+  //   } catch (e) {
+  //     console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_JSON:', e);
+  //     throw new Error(
+  //       'Could not parse Firebase service account credentials from environment variable.'
+  //     );
+  //   }
+  // }
 
   // Fallback for local development: Read the local key file.
   try {
     const serviceAccountPath = path.resolve(
       process.cwd(),
-      'serviceAccountKey.local.json'
+      'ai-jobs-spot-bc835af65f64.json'
     );
     const serviceAccountJson = fs.readFileSync(serviceAccountPath, 'utf8');
     return JSON.parse(serviceAccountJson);
   } catch {
     throw new Error(
-      'Could not find serviceAccountKey.local.json and FIREBASE_SERVICE_ACCOUNT_JSON is not set.'
+      'Could not find ai-jobs-spot-bc835af65f64.json and no service account environment variables are set.'
     );
   }
 }
@@ -39,6 +63,7 @@ function initializeAdminApp(): admin.app.App {
 
   try {
     const serviceAccount = getServiceAccount();
+
     const newApp = admin.initializeApp(
       {
         credential: admin.credential.cert(serviceAccount),

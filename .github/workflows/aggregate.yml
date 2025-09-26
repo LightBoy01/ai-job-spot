@@ -1,0 +1,31 @@
+name: Content Aggregation Pipeline
+
+on:
+  schedule:
+    # Runs every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+    # Allows manual triggering from the GitHub UI and via API
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Using Node.js 18.x
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci # Use ci for cleaner installs in CI/CD
+
+      - name: Run aggregation script
+        run: npm run aggregate
+        env:
+          # IMPORTANT: You must create a repository secret named FIREBASE_SERVICE_ACCOUNT
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}

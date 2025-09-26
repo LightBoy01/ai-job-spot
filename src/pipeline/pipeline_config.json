@@ -1,8 +1,18 @@
 {
   "scrapers_enabled": [
     {
+      "name": "Hiring.Cafe API",
+      "source_type": "api",
+      "parser": "HiringCafeApiParser",
+      "api_config": {
+        "url": "https://hiring.cafe/api/search-jobs",
+        "search_queries": ["AI", "Machine Learning", "LLM", "Data Scientist", "Generative AI"]
+      }
+    },
+    {
       "name": "configurable",
       "spider_name": "foorilla",
+      "parser": "FoorillaParser",
       "spider_config": {
         "start_url": "https://foorilla.com/",
         "allowed_domains": ["foorilla.com"],

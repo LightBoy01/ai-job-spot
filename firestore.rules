@@ -24,6 +24,15 @@ service cloud.firestore {
       allow create, update, delete: if isAdmin();
     }
 
+    // Aggregated articles collection rules
+    match /aggregatedArticles/{articleId} {
+      // Allow read access to anyone
+      allow read: if true;
+
+      // Disallow all writes
+      allow write: if false;
+    }
+
     // Default deny all reads and writes to any other collections
     match /{document=**} {
       allow read, write: if false;

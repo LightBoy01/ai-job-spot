@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "unset FIREBASE_SERVICE_ACCOUNT_BASE64 && unset FIREBASE_SERVICE_ACCOUNT_JSON && GRPC_NODE_ONLY_WEB_CHANNEL=1 next dev",
+    "build": "GRPC_NODE_ONLY_WEB_CHANNEL=1 next build",
     "start": "next start",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -15,13 +15,15 @@
     "lint:content": "ts-node scripts/lint-content.ts",
     "pipeline:run": "node --loader ts-node/esm src/data-pipeline/main.ts",
     "seed": "ts-node seedFirestore.ts",
-    "test": "jest --testPathIgnorePatterns=src/pages/api",
+    "test": "jest --testPathIgnorePatterns=__tests__/pages/api",
     "test:api": "jest --config=jest.config.api.cjs __tests__/pages/api",
     "test:scripts": "jest __tests__/scripts",
     "test:indexing": "ts-node scripts/test_indexing_api.ts",
-    "create": "ts-node scripts/create_content.ts"
+    "create": "ts-node scripts/create_content.ts",
+    "aggregate": "ts-node src/pipeline/run_aggregation.ts"
   },
   "dependencies": {
+    "@babel/runtime": "^7.28.4",
     "@crawlee/playwright": "^3.15.0",
     "@hookform/resolvers": "^5.2.2",
     "@tailwindcss/postcss": "^4.1.12",
@@ -35,6 +37,7 @@
     "cheerio": "^1.1.2",
     "cookie": "^1.0.2",
     "crawlee": "^3.15.0",
+    "date-fns": "^4.1.0",
     "dompurify": "^3.2.7",
     "firebase": "^11.10.0",
     "firebase-admin": "^13.4.0",
@@ -45,6 +48,7 @@
     "isomorphic-dompurify": "^2.27.0",
     "js-yaml": "^4.1.0",
     "jsdom": "^26.1.0",
+    "markdown-table-parser": "^1.0.0",
     "marked": "^16.2.0",
     "micro": "^10.0.1",
     "next": "^15.5.3",
@@ -57,12 +61,14 @@
     "react-quill": "^2.0.0",
     "remark": "^15.0.1",
     "remark-parse": "^11.0.0",
-    "zod": "^4.1.9"
+    "rss-parser": "^3.13.0",
+    "zod": "^4.1.11"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.27.1",
     "@eslint/eslintrc": "^3",
     "@faker-js/faker": "^9.9.0",
+    "@swc/core": "^1.13.19",
     "@testing-library/jest-dom": "^6.6.4",
     "@types/node": "^20.19.17",
     "@types/node-fetch": "^2.6.13",
@@ -82,6 +88,7 @@
     "tailwindcss": "^3.4.1",
     "ts-jest": "^29.4.2",
     "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
     "turndown": "^7.2.1",
     "typescript": "5.9.2"
   },

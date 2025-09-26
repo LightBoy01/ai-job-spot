@@ -1,16 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { auth } from '@/lib/firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import toast from 'react-hot-toast';
 import Link from 'next/link';
+import useAuth from '@/hooks/useAuth'; // Import the useAuth hook
 
 const AdminLogin: React.FC = () => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
   const router = useRouter();
+  const { user } = useAuth(); // Use the auth state
+
+  // This useEffect will trigger the redirect once the user object is available
+  useEffect(() => {
+    if (user) {
+      router.push('/admin');
+    }
+  }, [user, router]);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,7 +49,8 @@ const AdminLogin: React.FC = () => {
       }
 
       toast.success('Login successful! Redirecting...', { id: toastId });
-      router.push('/admin');
+      // The redirect is now handled by the useEffect hook.
+      // router.push('/admin'); // This line is removed.
     } catch (err) {
       const error = err as { code?: string; message?: string };
       console.error('Login error:', error);

@@ -16,6 +16,7 @@
 # production
 /build
 
+/dist
 # misc
 .DS_Store
 *.pem
@@ -32,6 +33,7 @@ pnpm-debug.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env.production
 
 # vercel
 .vercel
@@ -89,3 +91,4 @@ __pycache__/
 # Pending content for review
 /data/pending_review/
 
+.env*.local

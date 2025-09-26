@@ -37,7 +37,14 @@ const Footer = () => {
                   href="/articles"
                   className="text-neutral-300 hover:text-secondary transition-colors"
                 >
-                  Articles & Insights
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/news"
+                  className="text-neutral-300 hover:text-secondary transition-colors"
+                >
+                  AI News Feed
                 </Link>
               </li>
             <li>

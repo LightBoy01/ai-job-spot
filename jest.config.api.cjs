@@ -16,6 +16,8 @@ module.exports = {
     '^.+\\.tsx?$': ['ts-jest', { tsconfig: './tsconfig.json' }],
   },
 
+  transformIgnorePatterns: ['/node_modules/(?!(firebase|@firebase|jose|marked)/)'],
+
   // An array of file extensions your modules use
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 

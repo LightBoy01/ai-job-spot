@@ -93,6 +93,7 @@ export interface SerializedJobPosting
   expirationDate: string | null;
   verificationDate?: string | null;
   isNew?: boolean;
+  isFeatured?: boolean; // Added isFeatured
   story_question1?: string | null;
   story_answer1?: string | null;
   story_question2?: string | null;
@@ -118,3 +119,47 @@ export type SerializedArticleSummary = Omit<
   | 'author_take_question2'
   | 'author_take_answer2'
 >;
+
+export interface AggregatedArticle {
+  id?: string;
+  title: string;
+  link: string;
+  source: string;
+  publishDate: Date | null;
+  excerpt?: string;
+}
+
+export interface SerializedAggregatedArticle extends Omit<AggregatedArticle, 'publishDate'> {
+  publishDate: string | null;
+}
+
+export interface Source {
+  id?: string;
+  status: string;
+  type: 'Job' | 'Article';
+  adapter: 'RSS' | 'RSS_HUB' | 'HIRING_CAFE' | 'HIRING_CAFE_API';
+  sourceName: string;
+  feedUrl: string;
+  notes?: string;
+  keywords?: string;
+}
+
+export interface SerializedSource extends Omit<Source, 'status' | 'type' | 'adapter'> {
+  status: string;
+  type: string;
+  adapter: string;
+  keywords?: string;
+}
+
+export interface PipelineRunLog {
+  runId: string;
+  timestamp: Date;
+  status: 'In Progress' | 'Success' | 'Partial Success' | 'Failure';
+  feedsProcessed: number;
+  itemsAdded: number;
+  errors: Array<{ source: string; error: string }>;
+}
+
+export interface SerializedPipelineRunLog extends Omit<PipelineRunLog, 'timestamp'> {
+  timestamp: string;
+}

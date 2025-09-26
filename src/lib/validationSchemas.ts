@@ -82,8 +82,14 @@ export const JobPostingSchema = z
     verificationDate: z.string().nullable().optional(), // Keep as string for form input
     glassdoorLink: optionalUrl,
     crunchbaseLink: optionalUrl,
-    story_question1: optionalString,
-    story_answer1: optionalString,
+    story_question1: z.string().min(1, 'Human Context Question is required when providing an answer.').optional().nullable(),
+    story_answer1: z.string()
+      .min(200, 'Human Context Q&A must be at least 200 characters.')
+      .refine((val) => {
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
+        const matches = val.match(urlRegex);
+        return !matches || matches.length <= 1;
+      }, 'Human Context Q&A can contain at most one hyperlink.').optional().nullable(),
     story_question2: optionalString,
     story_answer2: optionalString,
     story_question3: optionalString,

@@ -1,0 +1,8 @@
+{
+    "status": "Pending",
+    "type": "Job",
+    "adapter": "HIRING_CAFE_API",
+    "sourceName": "Hiring.cafe API",
+    "feedUrl": "AI",
+    "notes": "Fetched via Hiring.cafe API"
+}

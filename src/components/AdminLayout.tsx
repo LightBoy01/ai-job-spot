@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -10,25 +10,28 @@ const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({
 }) => {
   const { user, loading, logout } = useAuth();
   const router = useRouter();
+  const [isMounted, setIsMounted] = useState(false);
 
-  React.useEffect(() => {
-    if (!loading && !user) {
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (isMounted && !loading && !user) {
       router.push('/admin/login');
     }
-  }, [user, loading, router]);
+  }, [user, loading, router, isMounted]);
 
   const handleLogout = async () => {
     try {
       await logout();
-      // toast.success('Logged out successfully!'); // Reverted
       router.push('/admin/login');
     } catch (error) {
       console.error('Error logging out:', error);
-      // toast.error('Failed to log out.'); // Reverted
     }
   };
 
-  if (loading || !user) {
+  if (!isMounted || loading || !user) {
     return (
       <div className="min-h-screen bg-neutral-ivory flex items-center justify-center">
         <p className="text-lg font-serif text-neutral-700">Loading Admin...</p>
