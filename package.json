@@ -20,7 +20,7 @@
     "test:scripts": "jest __tests__/scripts",
     "test:indexing": "ts-node scripts/test_indexing_api.ts",
     "create": "ts-node scripts/create_content.ts",
-    "aggregate": "ts-node src/pipeline/run_aggregation.ts"
+    "aggregate": "tsc --project tsconfig.pipeline.json && node dist/pipeline/run_aggregation.js"
   },
   "dependencies": {
     "@babel/runtime": "^7.28.4",
