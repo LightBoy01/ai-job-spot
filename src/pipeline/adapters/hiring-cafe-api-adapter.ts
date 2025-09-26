@@ -1,5 +1,5 @@
-import { adminDb } from '@/lib/firebaseAdmin'; // Assuming we need adminDb for something, though not directly in the snippet
-import { JobPosting } from '@/lib/types'; // Assuming JobPosting is the target type
+import { admin, adminDb } from '../../lib/firebaseAdmin.js';
+import { JobPosting } from '../../lib/types.js';
 
 const CONFIG = {
     DEFAULT_PAGE_SIZE: 20,

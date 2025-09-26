@@ -1,4 +1,4 @@
-import { JobSchema, Job } from '../schemas';
+import { JobSchema, Job } from '../schemas.js';
 
 /**
  * Fetches jobs from the hiring.cafe internal API.

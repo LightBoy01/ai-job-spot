@@ -1,5 +1,5 @@
 import Parser from 'rss-parser';
-import { ArticleSchema } from '../schemas';
+import { ArticleSchema } from '../schemas.js';
 
 // Initialize the parser
 const parser = new Parser();

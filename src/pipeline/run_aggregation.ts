@@ -1,9 +1,9 @@
-import { parseRssFeed } from './adapters/rss-adapter';
-import { fetchHiringCafeJobs } from './adapters/hiring-cafe-adapter';
-import { fetchHiringCafeApiJobs } from './adapters/hiring-cafe-api-adapter';
-import { generateUniqueId } from './utils';
-import { adminDb } from '../lib/firebaseAdmin';
-import { Source } from '../lib/types';
+import { parseRssFeed } from './adapters/rss-adapter.js';
+import { fetchHiringCafeJobs } from './adapters/hiring-cafe-adapter.js';
+import { fetchHiringCafeApiJobs } from './adapters/hiring-cafe-api-adapter.js';
+import { generateUniqueId } from './utils.js';
+import { adminDb, admin } from '../lib/firebaseAdmin.js';
+import { Source } from '../lib/types.js';
 
 async function main() {
   console.log('Starting aggregation pipeline...');
@@ -25,7 +25,7 @@ async function main() {
 
   try {
     const sourcesSnapshot = await adminDb.collection('sources').get();
-    const sources = sourcesSnapshot.docs.map(doc => doc.data()) as Source[];
+    const sources = sourcesSnapshot.docs.map((doc: admin.firestore.QueryDocumentSnapshot) => doc.data()) as Source[];
 
     for (const source of sources) {
       if (source.status !== 'Pending') {
