@@ -24,27 +24,45 @@ function getServiceAccount(): admin.ServiceAccount {
   //   }
   // }
 
-  // // Legacy Method: Use the raw JSON from the environment variable.
-  // if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
-  //   try {
-  //     const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
-  //     if ((serviceAccount as any).private_key) {
-  //       (serviceAccount as any).private_key = (serviceAccount as any).private_key.replace(/\\n/g, '\n');
-  //     }
-  //     return serviceAccount;
-  //   } catch (e) {
-  //     console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_JSON:', e);
-  //     throw new Error(
-  //       'Could not parse Firebase service account credentials from environment variable.'
-  //     );
-  //   }
-  // }
+  // Legacy Method: Use the raw JSON from the environment variable.
+  if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
+    console.log('Found FIREBASE_SERVICE_ACCOUNT_JSON environment variable.');
+    const jsonString = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
+
+    // Log a sanitized check of the variable's content
+    console.log(`Variable starts with "{" and ends with "}": ${jsonString.startsWith('{') && jsonString.endsWith('}')}`);
+
+    try {
+      // Define a partial type for the service account to satisfy TypeScript linter
+      interface PartialServiceAccount {
+        private_key?: string;
+        [key: string]: unknown; // Allow other properties
+      }
+
+      const serviceAccount: PartialServiceAccount = JSON.parse(jsonString);
+      if (serviceAccount.private_key) {
+        serviceAccount.private_key = serviceAccount.private_key.replace(/\\n/g, '\n');
+      }
+      console.log('Successfully parsed service account JSON.');
+      return serviceAccount as admin.ServiceAccount;
+    } catch (e) {
+      console.error('CRITICAL: Error parsing FIREBASE_SERVICE_ACCOUNT_JSON:', e);
+      // Log the first 10 and last 10 characters to help debug without exposing the whole key
+      console.error(`Sanitized variable content (start): ${jsonString.substring(0, 10)}`);
+      console.error(`Sanitized variable content (end): ${jsonString.substring(jsonString.length - 10)}`);
+      throw new Error(
+        'Could not parse Firebase service account credentials from environment variable.'
+      );
+    }
+  } else {
+    console.log('Did not find FIREBASE_SERVICE_ACCOUNT_JSON environment variable. Falling back to local file.');
+  }
 
   // Fallback for local development: Read the local key file.
   try {
     const serviceAccountPath = path.resolve(
       process.cwd(),
-      'ai-jobs-spot-bc835af65f64.json'
+      'ai-jobs-spot-firebase-adminsdk-fbsvc-80630fc4ef.json'
     );
     const serviceAccountJson = fs.readFileSync(serviceAccountPath, 'utf8');
     return JSON.parse(serviceAccountJson);
