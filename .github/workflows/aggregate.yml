@@ -28,4 +28,4 @@ jobs:
         run: npm run aggregate
         env:
           # IMPORTANT: You must create a repository secret named FIREBASE_SERVICE_ACCOUNT
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
