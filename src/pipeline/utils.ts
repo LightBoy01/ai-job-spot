@@ -10,7 +10,10 @@ type Item = z.infer<typeof BaseItemSchema>;
  * @returns A unique identifier string.
  */
 export function generateUniqueId(item: Item): string {
-  let id = item.guid || item.link;
+  let id = item.guid || item.link || item.id || item.applicationLink;
+  if (!id) {
+    throw new Error('Could not generate a unique ID for the item: missing guid, link, id, or applicationLink.');
+  }
   // Sanitize the ID to remove characters invalid for Firestore document paths
   // Firestore document IDs cannot contain '/', so replace with a safe character.
   // Also, remove any leading or trailing slashes that might result from the original URL or replacement.
