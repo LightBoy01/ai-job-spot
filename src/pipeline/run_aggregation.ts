@@ -2,7 +2,7 @@ import { parseRssFeed } from './adapters/rss-adapter.js';
 import { fetchHiringCafeJobs } from './adapters/hiring-cafe-adapter.js';
 import { fetchHiringCafeApiJobs } from './adapters/hiring-cafe-api-adapter.js';
 import { generateUniqueId } from './utils.js';
-import { getInitializedDb } from '../lib/firebaseAdmin.js';
+import { getInitializedDb, admin } from '../lib/firebaseAdmin.js';
 import { Source } from '../lib/types.js';
 
 async function main() {

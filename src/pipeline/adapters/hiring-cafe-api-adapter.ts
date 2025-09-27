@@ -1,4 +1,4 @@
-import { admin, adminDb } from '../../lib/firebaseAdmin.js';
+import { getInitializedDb } from '../../lib/firebaseAdmin.js';
 import { JobPosting } from '../../lib/types.js';
 
 const CONFIG = {
