@@ -91,9 +91,7 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "turndown": "^7.2.1",
-    "typescript": "5.9.2"
-  },
-  "overrides": {
-    "quill": "^2.0.0"
+    "typescript": "5.9.2",
+    "@swc/helpers": "^0.5.17"
   }
 }
