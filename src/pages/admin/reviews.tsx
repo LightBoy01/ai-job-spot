@@ -13,20 +13,26 @@ interface AdminReviewsProps {
 }
 
 const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
-  const { idToken } = useAuth();
+  const { user } = useAuth();
   const [jobs, setJobs] = useState(initialJobs);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [jobToReject, setJobToReject] = useState<string | null>(null);
 
   const updateJobStatus = useCallback(
     async (id: string, status: 'published' | 'rejected') => {
+      if (!user) {
+        toast.error('You must be logged in to perform this action.');
+        return;
+      }
+
       const toastId = toast.loading(`Updating status to ${status}...`);
       try {
+        const token = await user.getIdToken();
         const response = await fetch(`/api/admin/jobs/${id}/status`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer ${idToken}`,
+            Authorization: `Bearer ${token}`,
           },
           body: JSON.stringify({ status }),
         });
@@ -48,7 +54,7 @@ const AdminReviews: React.FC<AdminReviewsProps> = ({ initialJobs }) => {
         );
       }
     },
-    [idToken]
+    [user]
   );
 
   const handleApprove = (id: string) => {

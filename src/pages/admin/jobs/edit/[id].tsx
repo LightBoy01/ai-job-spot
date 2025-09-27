@@ -20,7 +20,7 @@ interface EditJobProps {
 
 const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
   const router = useRouter();
-  const { idToken } = useAuth();
+  const { user } = useAuth();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const {
@@ -64,11 +64,17 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
       return;
     }
 
+    if (!user) {
+      toast.error('You must be logged in to perform this action.');
+      return;
+    }
+
     setIsSubmitting(true);
     const toastId = toast.loading('Updating job posting...');
 
     try {
-      const updatedJob = await updateJob(job.id, data, idToken!);
+      const token = await user.getIdToken();
+      const updatedJob = await updateJob(job.id, data, token);
 
       toast.success(`Job "${updatedJob.title}" updated successfully!`, {
         id: toastId,

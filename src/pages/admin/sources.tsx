@@ -5,7 +5,6 @@ import { adminDb } from '@/lib/firebaseAdmin';
 import { SerializedSource } from '@/lib/types';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import SourceForm from '@/components/admin/SourceForm';
-import { useRouter } from 'next/router';
 import toast from 'react-hot-toast';
 
 interface SourcesPageProps {
@@ -13,7 +12,6 @@ interface SourcesPageProps {
 }
 
 const SourcesPage: NextPage<SourcesPageProps> = ({ sources: initialSources }) => {
-  const router = useRouter();
   const [sources, setSources] = useState<SerializedSource[]>(initialSources);
   const [isAddEditModalOpen, setIsAddEditModalOpen] = useState(false);
   const [currentSource, setCurrentSource] = useState<SerializedSource | null>(null);

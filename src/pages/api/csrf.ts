@@ -40,7 +40,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     try {
       const token = setCsrfTokenCookie(res);
       res.status(200).json({ csrfToken: token });
-    } catch (error) {
+    } catch {
         res.status(500).json({ message: 'Failed to generate CSRF token.' });
     }
   } else {

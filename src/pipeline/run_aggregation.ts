@@ -2,10 +2,11 @@ import { parseRssFeed } from './adapters/rss-adapter.js';
 import { fetchHiringCafeJobs } from './adapters/hiring-cafe-adapter.js';
 import { fetchHiringCafeApiJobs } from './adapters/hiring-cafe-api-adapter.js';
 import { generateUniqueId } from './utils.js';
-import { adminDb, admin } from '../lib/firebaseAdmin.js';
+import { getInitializedDb } from '../lib/firebaseAdmin.js';
 import { Source } from '../lib/types.js';
 
 async function main() {
+  const db = await getInitializedDb();
   console.log('Starting aggregation pipeline...');
 
   interface PipelineError {
@@ -13,7 +14,7 @@ async function main() {
     error: string;
   }
 
-  const runId = adminDb.collection('pipeline_runs').doc().id;
+  const runId = db.collection('pipeline_runs').doc().id;
   const log = {
     runId,
     timestamp: new Date(),
@@ -24,7 +25,7 @@ async function main() {
   };
 
   try {
-    const sourcesSnapshot = await adminDb.collection('sources').get();
+    const sourcesSnapshot = await db.collection('sources').get();
     const sources = sourcesSnapshot.docs.map((doc: admin.firestore.QueryDocumentSnapshot) => doc.data()) as Source[];
 
     for (const source of sources) {
@@ -69,8 +70,8 @@ async function main() {
 
         if (itemsWithIds.length > 0) {
           const collectionName = type === 'Job' ? 'jobs' : 'articles';
-          const collectionRef = adminDb.collection(collectionName);
-          const batch = adminDb.batch();
+          const collectionRef = db.collection(collectionName);
+          const batch = db.batch();
 
           for (const item of itemsWithIds) {
             const docRef = collectionRef.doc(item.id);
@@ -106,7 +107,7 @@ async function main() {
     if (log.status !== 'Failure') {
       log.status = log.errors.length === 0 ? 'Success' : 'Partial Success';
     }
-    await adminDb.collection('pipeline_runs').doc(log.runId).set(log);
+    await db.collection('pipeline_runs').doc(log.runId).set(log);
     console.log(`Aggregation pipeline finished with status: ${log.status}. Log saved with runId: ${log.runId}`);
   }
 }

@@ -5,24 +5,26 @@ import { auth } from '../lib/firebase'; // Import auth from the client-side fire
 interface AuthState {
   user: User | null;
   loading: boolean;
-  idToken: string | null;
+  isAdmin: boolean; // New state for admin status
   logout: () => Promise<void>;
 }
 
 const useAuth = (): AuthState => {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
-  const [idToken, setIdToken] = useState<string | null>(null);
+  const [isAdmin, setIsAdmin] = useState<boolean>(false); // Default to false
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(async (firebaseUser) => {
       if (firebaseUser) {
-        const token = await firebaseUser.getIdToken();
+        // Get the full token result to access custom claims
+        const idTokenResult = await firebaseUser.getIdTokenResult();
         setUser(firebaseUser);
-        setIdToken(token);
+        // Check for the admin custom claim
+        setIsAdmin(idTokenResult.claims.admin === true);
       } else {
         setUser(null);
-        setIdToken(null);
+        setIsAdmin(false);
       }
       setLoading(false);
     });
@@ -34,10 +36,10 @@ const useAuth = (): AuthState => {
   const logout = useCallback(async () => {
     await auth.signOut();
     setUser(null);
-    setIdToken(null);
+    setIsAdmin(false);
   }, []);
 
-  return { user, loading, idToken, logout };
+  return { user, loading, isAdmin, logout };
 };
 
 export default useAuth;

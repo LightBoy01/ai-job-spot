@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminAuth, adminDb, admin } from '@/lib/firebaseAdmin';
+import { admin, adminDb } from '@/lib/firebaseAdmin';
 import { JobPostingSchema } from '@/lib/validationSchemas';
 import DOMPurify from 'isomorphic-dompurify';
 import { marked } from 'marked';

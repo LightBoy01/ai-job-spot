@@ -147,7 +147,6 @@ async function main() {
     log(`Found ${existingUrls.size} existing job URLs to check against.`);
 
     // 3. Loop through each enabled scraper and run it
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     for (const scraperConfig of scrapersToRun) {
       log(`--- Running scraper: ${scraperConfig.name} ---`);
 

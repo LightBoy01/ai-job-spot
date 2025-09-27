@@ -82,14 +82,18 @@ async function initializeAdminApp(): Promise<admin.app.App> {
   }
 }
 
-let adminApp: admin.app.App;
-let adminDb: admin.firestore.Firestore;
-let adminAuth: admin.auth.Auth;
+let adminApp: admin.app.App | null = null;
+let adminDb: admin.firestore.Firestore | null = null;
+let adminAuth: admin.auth.Auth | null = null;
 
-(async () => {
+async function getInitializedDb() {
+  if (adminDb) {
+    return adminDb;
+  }
   adminApp = await initializeAdminApp();
   adminDb = adminApp.firestore();
   adminAuth = adminApp.auth();
-})();
+  return adminDb;
+}
 
-export { admin, adminApp, adminDb, adminAuth };
+export { admin, initializeAdminApp, getInitializedDb, adminAuth };

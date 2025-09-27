@@ -22,7 +22,7 @@ interface EditArticleProps {
 
 const EditArticlePage: React.FC<EditArticleProps> = ({ article }) => {
   const router = useRouter();
-  const { idToken } = useAuth();
+  const { user } = useAuth();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [formData, setFormData] = useState<ArticleFormData>({});
@@ -101,11 +101,16 @@ const EditArticlePage: React.FC<EditArticleProps> = ({ article }) => {
     const toastId = toast.loading('Updating article...');
 
     try {
+      if (!user) {
+        throw new Error('You must be logged in to perform this action.');
+      }
+      const token = await user.getIdToken();
+
       const response = await fetch(`/api/admin/articles/${article.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer ${idToken}`,
+          Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify(formData),
       });

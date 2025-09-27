@@ -20,7 +20,7 @@
     "test:scripts": "jest __tests__/scripts",
     "test:indexing": "ts-node scripts/test_indexing_api.ts",
     "create": "ts-node scripts/create_content.ts",
-    "aggregate": "tsc --project tsconfig.pipeline.json && echo '--- ENV DEBUG START ---' && printenv | grep FIREBASE && echo '--- ENV DEBUG END ---' && node dist/pipeline/run_aggregation.js"
+    "aggregate": "tsc --project tsconfig.pipeline.json && node dist/pipeline/run_aggregation.js"
   },
   "dependencies": {
     "@babel/runtime": "^7.28.4",
@@ -75,6 +75,7 @@
     "@types/react": "19.1.13",
     "@types/turndown": "^5.0.5",
     "autoprefixer": "^10.4.21",
+    "babel-jest": "^30.1.2",
     "chalk": "^5.6.0",
     "dotenv": "^17.2.2",
     "eslint": "^9.35.0",

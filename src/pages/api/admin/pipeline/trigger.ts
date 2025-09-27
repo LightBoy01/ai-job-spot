@@ -27,14 +27,19 @@ export default async function handler(
   }
 
   const githubPat = process.env.GITHUB_PAT;
-  const repoOwner = process.env.VERCEL_GIT_REPO_OWNER || 'your-github-username'; // Replace with your GitHub username
-  const repoName = process.env.VERCEL_GIT_REPO_SLUG || 'ai-job-spot'; // Replace with your repository name
+  const repoOwner = process.env.GITHUB_REPO_OWNER;
+  const repoName = process.env.GITHUB_REPO_NAME;
   const workflowId = 'aggregate.yml'; // The name of your workflow file
-  const branch = process.env.VERCEL_GIT_COMMIT_REF || 'main'; // The branch your workflow is on
+  const branch = process.env.VERCEL_GIT_COMMIT_REF || 'main';
 
-  if (!githubPat) {
-    console.error('GITHUB_PAT environment variable is not set.');
-    res.status(500).json({ message: 'Server configuration error: GitHub PAT missing.' });
+  if (!githubPat || !repoOwner || !repoName) {
+    const missingVars = [];
+    if (!githubPat) missingVars.push('GITHUB_PAT');
+    if (!repoOwner) missingVars.push('GITHUB_REPO_OWNER');
+    if (!repoName) missingVars.push('GITHUB_REPO_NAME');
+    const errorMessage = `Server configuration error: The following environment variables are missing: ${missingVars.join(', ')}`;
+    console.error(errorMessage);
+    res.status(500).json({ message: errorMessage });
     return;
   }
 

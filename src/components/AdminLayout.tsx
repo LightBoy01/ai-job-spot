@@ -44,6 +44,8 @@ const AdminLayout: React.FC<{ children: React.ReactNode; title?: string }> = ({
     { href: '/admin/jobs', label: 'Manage Jobs' },
     { href: '/admin/articles', label: 'Manage Articles' },
     { href: '/admin/reviews', label: 'Pending Reviews' },
+    { href: '/admin/sources', label: 'Manage Sources' },
+    { href: '/admin/pipeline-status', label: 'Pipeline Status' },
   ];
 
   return (

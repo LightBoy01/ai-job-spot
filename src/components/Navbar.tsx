@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Logo from './Logo'; // Import the Logo component
+import useAuth from '@/hooks/useAuth'; // Import the useAuth hook
 
 /**
  * A responsive, stateful navigation bar with active link styling and a mobile menu.
@@ -22,6 +23,7 @@ const Navbar = () => {
 
   // Hook to get the current route for active link styling
   const pathname = usePathname();
+  const { user, loading, logout } = useAuth();
 
   // DRY Principle: Store nav links in an array to avoid repetition
   const navLinks = [
@@ -62,12 +64,22 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
+
               <Link
                 href="/post-a-job"
                 className="bg-secondary text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-secondary-dark transition-colors shadow-sm"
               >
                 Post a Job
               </Link>
+              {!loading && user ? (
+                <button onClick={logout} className="text-neutral-700 hover:text-primary-dark transition-colors duration-300 pb-1">
+                  Logout
+                </button>
+              ) : (
+                <Link href="/admin/login" className={getLinkClassName('/admin/login')}>
+                  Login
+                </Link>
+              )}
             </div>
           </div>
 
@@ -141,6 +153,16 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+
+              {!loading && user ? (
+                <button onClick={logout} className="text-neutral-700 hover:text-primary-dark transition-colors duration-300 pb-1 w-full text-left block px-3 py-2">
+                  Logout
+                </button>
+              ) : (
+                <Link href="/admin/login" className={`${getLinkClassName('/admin/login')} block`}>
+                  Login
+                </Link>
+              )}
           </div>
         </div>
       )}

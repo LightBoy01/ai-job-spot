@@ -1,4 +1,4 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import * as admin from 'firebase-admin';
@@ -18,7 +18,6 @@ export default async function handler(
 
   try {
     const jobsRef = adminDb.collection('jobs');
-    const now = admin.firestore.Timestamp.now();
 
     // Calculate date for last 7 days
     const sevenDaysAgo = new Date();

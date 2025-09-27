@@ -1,8 +1,19 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiResponse } from 'next';
 import { adminDb } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { Source } from '@/lib/types';
 import { validateCsrfToken } from '../../csrf';
+import { z } from 'zod';
+
+// Zod schema for creating a source
+const SourceCreateSchema = z.object({
+  sourceName: z.string().min(1, 'Source name cannot be empty.'),
+  feedUrl: z.string().url('Invalid URL format.'),
+  type: z.enum(['Job', 'Article']),
+  adapter: z.string().min(1),
+  status: z.enum(['Pending', 'Integrated', 'Failing']),
+  keywords: z.string().optional(),
+});
 
 export default async function handler(
   req: AuthenticatedNextApiRequest,
@@ -59,12 +70,16 @@ async function createSource(
   res: NextApiResponse
 ) {
   try {
-    const newSourceData: Omit<Source, 'id'> = req.body;
-    // Basic validation
-    if (!newSourceData.sourceName || !newSourceData.feedUrl || !newSourceData.type || !newSourceData.adapter) {
-      res.status(400).json({ message: 'Missing required fields' });
-      return;
+    const validationResult = SourceCreateSchema.safeParse(req.body);
+
+    if (!validationResult.success) {
+      return res.status(400).json({ 
+        message: 'Invalid data provided.',
+        errors: validationResult.error.flatten().fieldErrors,
+      });
     }
+
+    const newSourceData = validationResult.data;
 
     const docRef = await adminDb.collection('sources').add(newSourceData);
     res.status(201).json({ id: docRef.id, ...newSourceData });

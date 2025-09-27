@@ -15,7 +15,7 @@ import { createJob } from '@/lib/adminApi';
 
 const AddNewJob: React.FC = () => {
   const router = useRouter();
-  const { idToken } = useAuth();
+  const { user } = useAuth();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const {
@@ -66,8 +66,16 @@ const AddNewJob: React.FC = () => {
     setIsSubmitting(true);
     const toastId = toast.loading('Submitting job posting...');
 
+    if (!user) {
+      toast.error('You must be logged in to perform this action.');
+      setIsSubmitting(false);
+      toast.dismiss(toastId);
+      return;
+    }
+
     try {
-      const newJob = await createJob(data, idToken!); // Use the new abstracted function
+      const token = await user.getIdToken();
+      const newJob = await createJob(data, token); // Use the new abstracted function
 
       toast.success(`Job "${newJob.title}" added successfully!`, {
         id: toastId,
