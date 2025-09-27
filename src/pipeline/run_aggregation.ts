@@ -26,7 +26,10 @@ async function main() {
 
   try {
     const sourcesSnapshot = await db.collection('sources').get();
-    const sources = sourcesSnapshot.docs.map((doc: admin.firestore.QueryDocumentSnapshot) => doc.data()) as Source[];
+    const sources = sourcesSnapshot.docs.map((doc: admin.firestore.QueryDocumentSnapshot) => ({
+      id: doc.id, // Include the document ID
+      ...doc.data()
+    })) as Source[];
 
     for (const source of sources) {
       if (source.status !== 'Pending') {
@@ -69,18 +72,34 @@ async function main() {
         console.log(`  > Found ${itemsWithIds.length} items.`);
 
         if (itemsWithIds.length > 0) {
-          const collectionName = type === 'Job' ? 'jobs' : 'articles';
+          const collectionName =
+            type === 'Job'
+              ? 'jobs'
+              : adapter === 'RSS' || adapter === 'RSS_HUB'
+              ? 'aggregatedArticles'
+              : 'articles';
           const collectionRef = db.collection(collectionName);
           const batch = db.batch();
 
           for (const item of itemsWithIds) {
             const docRef = collectionRef.doc(item.id);
-            batch.set(docRef, item, { merge: true });
+            // Set status to 'published' for ingested aggregated articles
+            const itemToSave = { ...item, status: 'published' };
+            batch.set(docRef, itemToSave, { merge: true });
           }
 
           await batch.commit();
           log.itemsAdded += itemsWithIds.length;
           console.log(`  > Saved ${itemsWithIds.length} items to Firestore collection: ${collectionName}`);
+
+          // Update source status to 'Active' after successful processing
+          if (source.id) { // Ensure source has an ID before attempting to update
+            const sourceDocRef = db.collection('sources').doc(source.id);
+            await sourceDocRef.update({ status: 'Active' });
+            console.log(`  > Updated source '${source.sourceName}' status to 'Active'.`);
+          } else {
+            console.warn(`  > Could not update status for source '${source.sourceName}' because it has no ID.`);
+          }
         }
 
       } catch (error) {

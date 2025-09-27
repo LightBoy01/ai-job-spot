@@ -5,8 +5,10 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
-    "noEmit": false,
+    "declaration": true,
+    
     "esModuleInterop": true,
+    
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,

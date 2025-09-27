@@ -14,13 +14,13 @@ export async function parseRssFeed(feedUrl: string) {
     const feed = await parser.parseURL(feedUrl);
     console.log(`Successfully parsed feed: ${feed.title}`);
 
-    const validatedItems = feed.items.map(item => {
+    const validatedItems = feed.items.slice(0, 5).map(item => {
       const result = ArticleSchema.safeParse(item);
       if (!result.success) {
         console.warn(`  > Invalid item found in ${feedUrl}:`, result.error.flatten());
         return null;
       }
-      return result.data;
+      return { ...result.data, source: feed.title };
     }).filter(item => item !== null);
 
     return validatedItems;

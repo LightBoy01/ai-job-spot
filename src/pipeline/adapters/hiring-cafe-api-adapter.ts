@@ -92,7 +92,7 @@ const transformJobItem = (item: JobResult): JobPosting => {
         company: processedData.company_name,
         description: renderJobDescription(jobInfo),
         location: processedData.formatted_workplace_location ?? 'Remote/Unspecified',
-        postedDate: new Date(processedData.estimated_publish_date_millis),
+        postedDate: processedData.estimated_publish_date_millis ? new Date(processedData.estimated_publish_date_millis) : new Date(),
         applicationLink: apply_url,
         tags: [processedData.job_category, ...processedData.role_activities, processedData.workplace_type].filter((x): x is string => !!x),
         // Add other fields as needed, mapping from processedData

@@ -1,4 +1,4 @@
-import { Article, Job } from './schemas.ts';
+import { Article, Job } from './schemas.js';
 
 // Define a more comprehensive type for items that generateUniqueId can handle
 type PipelineItem = (Article | Job) & {

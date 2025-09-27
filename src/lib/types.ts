@@ -127,6 +127,7 @@ export interface AggregatedArticle {
   source: string;
   publishDate: Date | null;
   excerpt?: string;
+  status?: 'pending' | 'published' | 'rejected'; // Added status field
 }
 
 export interface SerializedAggregatedArticle extends Omit<AggregatedArticle, 'publishDate'> {

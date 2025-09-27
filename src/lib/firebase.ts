@@ -12,6 +12,7 @@ const firebaseConfig = {
   messagingSenderId:
     process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID?.trim(),
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID?.trim(),
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID?.trim(),
 };
 
 // Initialize Firebase only if it hasn't been initialized yet.

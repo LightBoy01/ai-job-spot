@@ -343,6 +343,7 @@ export async function getAggregatedArticles(
   const articlesCollectionRef = collection(db, 'aggregatedArticles');
   let q = query(
     articlesCollectionRef,
+    where('status', '==', 'published'), // Add status filter
     orderBy('publishDate', 'desc')
   );
 

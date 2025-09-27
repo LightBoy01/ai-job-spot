@@ -1,11 +1,10 @@
 name: Content Aggregation Pipeline
 
 on:
-  schedule:
-    # Runs every 4 hours
-    - cron: '0 */4 * * *'
-  workflow_dispatch:
-    # Allows manual triggering from the GitHub UI and via API
+  workflow_dispatch: # This makes the workflow only runnable manually
+  # schedule:
+  #   # Runs every 4 hours
+  #   - cron: '0 */4 * * *'
 
 jobs:
   aggregate:

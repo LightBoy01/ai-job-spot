@@ -1,61 +1,11 @@
 {
   "indexes": [
     {
-      "collectionGroup": "jobs",
-      "queryScope": "COLLECTION_GROUP",
-      "fields": [
-        {
-          "fieldPath": "status",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "postedDate",
-          "order": "DESCENDING"
-        }
-      ]
-    },
-    {
-      "collectionGroup": "jobs",
-      "queryScope": "COLLECTION_GROUP",
-      "fields": [
-        {
-          "fieldPath": "title",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "postedDate",
-          "order": "DESCENDING"
-        }
-      ]
-    },
-    {
-      "collectionGroup": "jobs",
-      "queryScope": "COLLECTION_GROUP",
-      "fields": [
-        {
-          "fieldPath": "status",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "postedDate",
-          "order": "DESCENDING"
-        },
-        {
-          "fieldPath": "title",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "__name__",
-          "order": "ASCENDING"
-        }
-      ]
-    },
-    {
       "collectionGroup": "articles",
-      "queryScope": "COLLECTION_GROUP",
+      "queryScope": "COLLECTION",
       "fields": [
         {
-          "fieldPath": "tags",
+          "fieldPath": "author",
           "order": "ASCENDING"
         },
         {
@@ -65,15 +15,53 @@
       ]
     },
     {
+      "collectionGroup": "articles",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tags",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "publishDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "articles",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "publishDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "articles",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "volumeNo",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "issueNo",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
       "collectionGroup": "jobs",
       "queryScope": "COLLECTION_GROUP",
       "fields": [
         {
           "fieldPath": "status",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "tags",
           "order": "ASCENDING"
         },
         {
@@ -83,19 +71,137 @@
       ]
     },
     {
-      "collectionGroup": "articles",
+      "collectionGroup": "jobs",
       "queryScope": "COLLECTION_GROUP",
       "fields": [
         {
-          "fieldPath": "volumeNo",
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedDate",
           "order": "DESCENDING"
         },
         {
-          "fieldPath": "issueNo",
+          "fieldPath": "title",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "jobs",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "jobs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "company",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "jobs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "location",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "jobs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedDate",
           "order": "DESCENDING"
         },
         {
-          "fieldPath": "__name__",
+          "fieldPath": "title",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "jobs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "jobs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tags",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "jobs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postedDate",
           "order": "DESCENDING"
         }
       ]
