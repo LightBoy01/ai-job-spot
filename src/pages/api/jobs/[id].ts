@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb, admin } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin, admin } from '@/lib/firebaseAdmin';
 import { FirestoreJobPosting } from '@/lib/types';
 import DOMPurify from 'isomorphic-dompurify';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
@@ -20,6 +20,7 @@ export default async function handler(
     return res.status(400).json({ error: 'Invalid job ID' });
   }
 
+  const { adminDb } = await getFirebaseAdmin();
   const jobRef = adminDb.collection('jobs').doc(id);
 
   switch (req.method) {

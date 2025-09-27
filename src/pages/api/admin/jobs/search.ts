@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb as db } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { JobPosting } from '@/lib/types';
 import { DocumentSnapshot, Query } from 'firebase-admin/firestore';
@@ -33,6 +33,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
   const pageLimit = limitStr ? parseInt(limitStr as string, 10) : 10;
 
   try {
+    const { adminDb: db } = await getFirebaseAdmin();
     let query: Query = db.collection('jobs');
 
     if (searchTerm) {

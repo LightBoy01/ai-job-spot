@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminAuth } from './firebaseAdmin';
+import { getFirebaseAdmin } from './firebaseAdmin';
 import type { DecodedIdToken } from 'firebase-admin/auth';
 import { parse } from 'cookie';
 
@@ -18,6 +18,7 @@ export async function requireAdmin(
   req: AuthenticatedNextApiRequest,
   res: NextApiResponse
 ): Promise<boolean> {
+  const { adminAuth } = await getFirebaseAdmin();
   const cookies = parse(req.headers.cookie || '');
   const sessionCookie = cookies.__session || '';
 

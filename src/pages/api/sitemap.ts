@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '../../lib/firebaseAdmin';
+import { getFirebaseAdmin } from '../../lib/firebaseAdmin';
 import { JobPosting, Article } from '../../lib/types';
 import * as admin from 'firebase-admin';
 
@@ -18,6 +18,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const jobsSnapshot = await adminDb
       .collection('jobs')
       .where('status', '==', 'published')

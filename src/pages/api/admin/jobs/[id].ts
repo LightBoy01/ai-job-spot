@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { FirestoreJobPosting } from '@/lib/types';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { safeToTimestamp } from '@/lib/apiUtils';
@@ -21,6 +21,7 @@ export default async function handler(
 
   if (req.method === 'PUT') {
     try {
+      const { adminDb } = await getFirebaseAdmin();
       const jobData: JobFormData = req.body;
 
       // We can reuse the same Zod schema for validation

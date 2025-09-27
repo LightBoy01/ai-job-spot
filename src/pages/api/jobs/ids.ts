@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '../../../lib/firebaseAdmin';
+import { getFirebaseAdmin } from '../../../lib/firebaseAdmin';
 
 export default async function handler(
   req: NextApiRequest,
@@ -11,6 +11,7 @@ export default async function handler(
   }
 
   try {
+    const { adminDb } = await getFirebaseAdmin();
     // Query the 'jobs' collection, but only select the document IDs themselves.
     // This is a highly efficient query as it doesn't retrieve any document data.
     const jobsSnapshot = await adminDb.collection('jobs').select().get();

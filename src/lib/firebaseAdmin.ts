@@ -2,9 +2,16 @@ import admin from 'firebase-admin';
 import fs from 'fs';
 import path from 'path';
 
+// A promise to hold the initialized admin services.
+let adminPromise: Promise<{ 
+  admin: typeof admin;
+  adminApp: admin.app.App;
+  adminDb: admin.firestore.Firestore;
+  adminAuth: admin.auth.Auth;
+}> | null = null;
+
 async function getServiceAccount(): Promise<admin.ServiceAccount> {
   // Method 1: Use local JSON file (for local development)
-  // This is prioritized to ensure local development uses the file directly.
   try {
     const keyFilePath = path.join(process.cwd(), 'ai-jobs-spot-92a1f1a8b08e.json');
     if (fs.existsSync(keyFilePath)) {
@@ -19,7 +26,6 @@ async function getServiceAccount(): Promise<admin.ServiceAccount> {
     }
   } catch (e) {
     console.error('Error reading or parsing local service account file:', e);
-    // Fall through to the next method if local file fails
   }
 
   // Method 2: Use Base64 environment variable (for Vercel/production)
@@ -30,7 +36,6 @@ async function getServiceAccount(): Promise<admin.ServiceAccount> {
         'base64'
       ).toString('utf8');
       const serviceAccountJSON = JSON.parse(decodedServiceAccount);
-      // The private key in the environment variable might have escaped newlines
       if (typeof serviceAccountJSON.private_key === 'string') {
         serviceAccountJSON.private_key = serviceAccountJSON.private_key.replace(/\\n/g, '\n');
       }
@@ -42,13 +47,11 @@ async function getServiceAccount(): Promise<admin.ServiceAccount> {
       } as admin.ServiceAccount;
     } catch (e) {
       console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_BASE64:', e);
-      // Fall through to the final error
     }
   }
   
-  // If all methods fail, throw a comprehensive error
   throw new Error(
-    'Firebase Admin SDK credentials are not set or are invalid. Please set FIREBASE_SERVICE_ACCOUNT_BASE64 (for production) or ensure a valid ai-jobs-spot-92a1f1a8b08e.json file exists at the project root (for local development).'
+    'Firebase Admin SDK credentials not set or invalid. Please set FIREBASE_SERVICE_ACCOUNT_BASE64 or provide a valid service account JSON file.'
   );
 }
 
@@ -60,7 +63,6 @@ async function initializeAdminApp(): Promise<admin.app.App> {
 
   try {
     const serviceAccount = await getServiceAccount();
-
     const newApp = admin.initializeApp(
       {
         credential: admin.credential.cert(serviceAccount),
@@ -73,27 +75,34 @@ async function initializeAdminApp(): Promise<admin.app.App> {
     if (error instanceof Error) {
       console.error('Firebase Admin SDK initialization error:', error.stack);
     } else {
-      console.error(
-        'An unknown error occurred during Firebase Admin SDK initialization:',
-        error
-      );
+      console.error('An unknown error occurred during Firebase Admin SDK initialization:', error);
     }
     throw new Error('Could not initialize Firebase Admin SDK.');
   }
 }
 
-let adminApp: admin.app.App | null = null;
-let adminDb: admin.firestore.Firestore | null = null;
-let adminAuth: admin.auth.Auth | null = null;
-
-async function getInitializedDb() {
-  if (adminDb) {
-    return adminDb;
+/**
+ * Gets the initialized Firebase Admin SDK instances.
+ * The initialization is memoized, so it only happens once.
+ * @returns A promise that resolves to the admin services.
+ */
+export const getFirebaseAdmin = () => {
+  if (!adminPromise) {
+    adminPromise = new Promise(async (resolve, reject) => {
+      try {
+        const app = await initializeAdminApp();
+        const db = app.firestore();
+        const auth = app.auth();
+        console.log('Firebase Admin services are ready.');
+        resolve({ admin, adminApp: app, adminDb: db, adminAuth: auth });
+      } catch (e) {
+        console.error('Failed to initialize Firebase Admin services.', e);
+        reject(e);
+      }
+    });
   }
-  adminApp = await initializeAdminApp();
-  adminDb = adminApp.firestore();
-  adminAuth = adminApp.auth();
-  return adminDb;
-}
+  return adminPromise;
+};
 
-export { admin, initializeAdminApp, getInitializedDb, adminAuth };
+// Export the admin namespace directly for convenience
+export { admin };

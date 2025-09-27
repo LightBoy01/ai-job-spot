@@ -1,4 +1,3 @@
-import { getInitializedDb } from '../../lib/firebaseAdmin.js';
 import { JobPosting } from '../../lib/types.js';
 
 const CONFIG = {
@@ -79,7 +78,7 @@ const fetchJobsFromApi = async (searchParams: SearchParams): Promise<ApiResponse
     return response.json();
 };
 
-const renderJobDescription = (jobInfo: JobInformation, processedData: ProcessedJobData): string => {
+const renderJobDescription = (jobInfo: JobInformation): string => {
     // For now, just return the description. We don't have the 'art' utility in the pipeline.
     return jobInfo.description ?? '';
 };
@@ -91,7 +90,7 @@ const transformJobItem = (item: JobResult): JobPosting => {
         id: id,
         title: `${jobInfo.title} - ${processedData.company_name}`,
         company: processedData.company_name,
-        description: renderJobDescription(jobInfo, processedData),
+        description: renderJobDescription(jobInfo),
         location: processedData.formatted_workplace_location ?? 'Remote/Unspecified',
         postedDate: new Date(processedData.estimated_publish_date_millis),
         applicationLink: apply_url,

@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { serialize } from 'cookie';
-import { adminAuth } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 
 export default async function handler(
   req: NextApiRequest,
@@ -18,6 +18,7 @@ export default async function handler(
   }
 
   try {
+    const { adminAuth } = await getFirebaseAdmin();
     // Set session expiration to 5 days.
     const expiresIn = 60 * 60 * 24 * 5 * 1000;
     // Create the session cookie. This will also verify the ID token.

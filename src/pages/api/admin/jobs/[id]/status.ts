@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import * as admin from 'firebase-admin';
 
@@ -28,6 +28,7 @@ export default async function handler(
   }
 
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const jobRef = adminDb.collection('jobs').doc(id);
     const updateData: {
       status: string;

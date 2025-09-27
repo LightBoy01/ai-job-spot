@@ -1,7 +1,7 @@
 import AdminLayout from '@/components/AdminLayout';
 import Link from 'next/link';
 import { GetServerSideProps } from 'next';
-import { adminDb, adminAuth } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { Timestamp } from 'firebase-admin/firestore';
 
 interface DashboardStats {
@@ -109,6 +109,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ stats }) => {
 
 export const getServerSideProps: GetServerSideProps<AdminDashboardProps> = async ({ req }) => {
   try {
+    const { adminDb, adminAuth } = await getFirebaseAdmin();
     const sessionCookie = req.cookies.__session || '';
     const decodedToken = await adminAuth.verifySessionCookie(sessionCookie, true);
 

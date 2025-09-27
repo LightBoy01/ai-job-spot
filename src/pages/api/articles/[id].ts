@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb, admin } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin, admin } from '@/lib/firebaseAdmin';
 import { FirestoreArticle } from '@/lib/types';
 import DOMPurify from 'isomorphic-dompurify';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
@@ -20,6 +20,7 @@ export default async function handler(
     return res.status(400).json({ error: 'Invalid article ID' });
   }
 
+  const { adminDb } = await getFirebaseAdmin();
   const articleRef = adminDb.collection('articles').doc(id);
 
   switch (req.method) {

@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { Article } from '@/lib/types';
 import { Query } from 'firebase-admin/firestore';
 import { z } from 'zod';
@@ -30,6 +30,7 @@ export default async function handler(
   }
 
   try {
+    const { adminDb } = await getFirebaseAdmin();
     // Validate and parse query parameters
     const validation = searchSchema.safeParse(req.query);
     if (!validation.success) {

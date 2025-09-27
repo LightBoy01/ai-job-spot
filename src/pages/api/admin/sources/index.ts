@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { Source } from '@/lib/types';
 import { validateCsrfToken } from '../../csrf';
@@ -53,6 +53,7 @@ async function getSources(
   res: NextApiResponse
 ) {
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const sourcesSnapshot = await adminDb.collection('sources').get();
     const sources = sourcesSnapshot.docs.map((doc) => ({
       id: doc.id,
@@ -70,6 +71,7 @@ async function createSource(
   res: NextApiResponse
 ) {
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const validationResult = SourceCreateSchema.safeParse(req.body);
 
     if (!validationResult.success) {

@@ -1,7 +1,9 @@
-import { adminDb } from '../lib/firebaseAdmin.js';
+import { getFirebaseAdmin } from '../lib/firebaseAdmin.js';
 
 async function addHiringCafeSource() {
   console.log('Adding Hiring.cafe API source...');
+
+  const { adminDb } = await getFirebaseAdmin();
 
   const sourceData = {
     status: 'Pending',

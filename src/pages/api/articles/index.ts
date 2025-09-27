@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb, admin } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin, admin } from '@/lib/firebaseAdmin';
 import { FirestoreArticle } from '@/lib/types';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { ArticleSchema } from '@/lib/validationSchemas'; // Import Zod schema
@@ -16,6 +16,7 @@ export default async function handler(
 
   if (req.method === 'POST') {
     try {
+      const { adminDb } = await getFirebaseAdmin();
       // Validate input with Zod schema
       const validationResult = ArticleSchema.safeParse(req.body);
 

@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminAuth, adminDb, admin } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin, admin } from '@/lib/firebaseAdmin';
 import { JobPostingSchema } from '@/lib/validationSchemas';
 import DOMPurify from 'isomorphic-dompurify';
 import { marked } from 'marked';
@@ -21,6 +21,7 @@ export default async function handler(
   }
 
   try {
+    const { adminDb, adminAuth } = await getFirebaseAdmin();
     // 1. Authenticate and Authorize User
     const decodedToken = await adminAuth.verifyIdToken(idToken);
     const uid = decodedToken.uid;

@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { SerializedJobPosting, FirestoreJobPosting } from '@/lib/types';
 
@@ -21,38 +21,25 @@ export default async function handler(
     return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 
-  const { limit, startAfter } = req.query;
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    const { limit, startAfter } = req.query;
 
-  const parsedLimit = typeof limit === 'string' ? parseInt(limit, 10) : 10; // Default limit
-  const startAfterDocId =
-    typeof startAfter === 'string' ? startAfter : undefined;
+    const parsedLimit = typeof limit === 'string' ? parseInt(limit, 10) : 10;
+    const startAfterDocId = typeof startAfter === 'string' ? startAfter : undefined;
 
-  let query = adminDb.collection('jobs').orderBy('postedDate', 'desc');
+    let query = adminDb.collection('jobs').orderBy('postedDate', 'desc');
 
-  if (startAfterDocId) {
-    try {
-      const startAfterSnapshot = await adminDb
-        .collection('jobs')
-        .doc(startAfterDocId)
-        .get();
+    if (startAfterDocId) {
+      const startAfterSnapshot = await adminDb.collection('jobs').doc(startAfterDocId).get();
       if (startAfterSnapshot.exists) {
         query = query.startAfter(startAfterSnapshot);
       } else {
-        // If startAfter document doesn't exist, return empty results
         return res.status(200).json({ jobs: [], lastDocId: null });
       }
-    } catch (error) {
-      console.error('Error fetching startAfter document:', error);
-      return res
-        .status(500)
-        .json({ error: 'Failed to fetch startAfter document' });
     }
-  }
 
-  try {
-    console.log(
-      `[jobs/paginate] Querying Firestore: limit=${parsedLimit}, startAfterId=${startAfterDocId}`
-    );
+    console.log(`[jobs/paginate] Querying Firestore: limit=${parsedLimit}, startAfterId=${startAfterDocId}`);
     const snapshot = await query.limit(parsedLimit).get();
 
     if (snapshot.empty) {
@@ -65,17 +52,13 @@ export default async function handler(
       return {
         ...data,
         id: doc.id,
-        postedDate: data.postedDate.toDate().toISOString(), // Convert Timestamp to ISO string
-        expirationDate: data.expirationDate
-          ? data.expirationDate.toDate().toISOString()
-          : null, // Convert Timestamp to ISO string
+        postedDate: data.postedDate.toDate().toISOString(),
+        expirationDate: data.expirationDate ? data.expirationDate.toDate().toISOString() : null,
       } as SerializedJobPosting;
     });
 
     const lastVisible = snapshot.docs[snapshot.docs.length - 1];
-    console.log(
-      `[jobs/paginate] Found ${jobs.length} jobs. Last visible ID: ${lastVisible ? lastVisible.id : 'none'}`
-    );
+    console.log(`[jobs/paginate] Found ${jobs.length} jobs. Last visible ID: ${lastVisible ? lastVisible.id : 'none'}`);
 
     return res.status(200).json({
       jobs: jobs,

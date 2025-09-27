@@ -1,4 +1,4 @@
-import { admin, adminDb } from './src/lib/firebaseAdmin.ts';
+import { getFirebaseAdmin, admin } from './src/lib/firebaseAdmin.ts';
 import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
@@ -177,6 +177,7 @@ export async function processDirectory(
  * @param collectionName The name of the collection ('jobs' or 'articles').
  */
 export async function syncDeletions(
+  adminDb: admin.firestore.Firestore,
   collectionRef: admin.firestore.CollectionReference,
   localIds: Set<string>,
   collectionName: 'jobs' | 'articles'
@@ -192,6 +193,7 @@ export async function syncDeletions(
   }
 
   console.log(`Found ${idsToDelete.length} documents to delete from ${collectionRef.path}:`, idsToDelete);
+
   const deleteBatch = adminDb.batch();
   for (const id of idsToDelete) {
     deleteBatch.delete(collectionRef.doc(id));
@@ -250,7 +252,8 @@ export async function seedFirestore() {
   }
 
   console.log('Starting intelligent Firestore data seeding from Markdown files...');
-  const db = adminDb;
+  const { adminDb: db } = await getFirebaseAdmin();
+
   const projectRoot = process.cwd();
   const articlesDir = path.join(projectRoot, 'src', 'articles');
   const jobsDir = path.join(projectRoot, 'src', 'job-descriptions');
@@ -264,8 +267,8 @@ export async function seedFirestore() {
   const localJobIds = new Set(processedJobs.map((j) => j.id).filter(Boolean));
   const localArticleSlugs = new Set(processedArticles.map((a) => a.slug).filter(Boolean));
 
-  await syncDeletions(jobsCollection, localJobIds, 'jobs');
-  await syncDeletions(articlesCollection, localArticleSlugs, 'articles');
+  await syncDeletions(db, jobsCollection, localJobIds, 'jobs');
+  await syncDeletions(db, articlesCollection, localArticleSlugs, 'articles');
 
   const upsertBatch = db.batch();
   let operationsCount = 0;

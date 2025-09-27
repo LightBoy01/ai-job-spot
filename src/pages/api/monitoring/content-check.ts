@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '../../../lib/firebaseAdmin';
+import { getFirebaseAdmin } from '../../../lib/firebaseAdmin';
 
 // A simple secret to prevent unauthorized access to this monitoring endpoint.
 // In a real-world scenario, this should be a more robust, rotating secret stored in environment variables.
@@ -23,6 +23,7 @@ export default async function handler(
 
   // --- Monitoring Logic ---
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const now = new Date();
     // Check for content created in the last 24 hours.
     const checkPeriod = 24 * 60 * 60 * 1000;

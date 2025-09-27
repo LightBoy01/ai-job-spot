@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { firestore } from 'firebase-admin';
 import { z } from 'zod';
 import DOMPurify from 'isomorphic-dompurify';
@@ -38,6 +38,7 @@ export default async function handler(
   }
 
   try {
+    const { adminDb } = await getFirebaseAdmin();
     // 2. VALIDATE THE INCOMING DATA
     const jobData = scrapedJobSchema.parse(req.body);
 

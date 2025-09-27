@@ -2,11 +2,13 @@ import fs from 'fs/promises';
 import path from 'path';
 import { marked } from 'marked';
 import * as cheerio from 'cheerio';
-import { adminDb } from '../lib/firebaseAdmin.js';
+import { getFirebaseAdmin } from '../lib/firebaseAdmin.js';
 import { Source } from '../lib/types';
 
 async function migrateSources() {
   console.log('Starting source migration...');
+
+  const { adminDb } = await getFirebaseAdmin();
 
   const sourcesPath = path.join(process.cwd(), 'docs', 'SOURCES.md');
   const markdownContent = await fs.readFile(sourcesPath, 'utf-8');

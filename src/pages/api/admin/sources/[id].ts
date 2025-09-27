@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { Source } from '@/lib/types';
 import { z } from 'zod';
@@ -55,6 +55,7 @@ async function getSourceById(
   id: string
 ) {
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const doc = await adminDb.collection('sources').doc(id).get();
     if (!doc.exists) {
       res.status(404).json({ message: 'Source not found' });
@@ -82,6 +83,7 @@ async function updateSource(
   id: string
 ) {
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const validationResult = SourceUpdateSchema.safeParse(req.body);
 
     if (!validationResult.success) {
@@ -111,6 +113,7 @@ async function deleteSource(
   id: string
 ) {
   try {
+    const { adminDb } = await getFirebaseAdmin();
     await adminDb.collection('sources').doc(id).delete();
     res.status(204).end(); // No content to send back
   } catch (error) {

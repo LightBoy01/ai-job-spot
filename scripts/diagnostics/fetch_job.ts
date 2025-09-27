@@ -1,6 +1,8 @@
-import { adminDb } from '../src/lib/firebaseAdmin.ts';
+import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.ts';
 
 async function getJob(jobId: string) {
+  const { adminDb } = await getFirebaseAdmin();
+
   if (!jobId) {
     console.error('Error: Please provide a job ID as an argument.');
     process.exit(1);

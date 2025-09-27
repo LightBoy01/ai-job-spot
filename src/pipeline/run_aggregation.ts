@@ -2,11 +2,11 @@ import { parseRssFeed } from './adapters/rss-adapter.js';
 import { fetchHiringCafeJobs } from './adapters/hiring-cafe-adapter.js';
 import { fetchHiringCafeApiJobs } from './adapters/hiring-cafe-api-adapter.js';
 import { generateUniqueId } from './utils.js';
-import { getInitializedDb, admin } from '../lib/firebaseAdmin.js';
+import { getFirebaseAdmin, admin } from '../lib/firebaseAdmin.js';
 import { Source } from '../lib/types.js';
 
 async function main() {
-  const db = await getInitializedDb();
+  const { adminDb: db } = await getFirebaseAdmin();
   console.log('Starting aggregation pipeline...');
 
   interface PipelineError {

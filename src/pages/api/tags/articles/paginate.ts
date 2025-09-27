@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { Article } from '@/lib/types';
 import { z } from 'zod';
 import { Query } from 'firebase-admin/firestore';
@@ -28,6 +28,7 @@ export default async function handler(
   }
 
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const validation = paginateSchema.safeParse(req.query);
     if (!validation.success) {
       return res.status(400).json({

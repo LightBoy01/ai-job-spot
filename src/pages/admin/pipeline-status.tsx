@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { GetServerSideProps, NextPage } from 'next';
 import AdminLayout from '@/components/AdminLayout';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { SerializedPipelineRunLog } from '@/lib/types';
 import { format } from 'date-fns';
 
@@ -86,6 +86,7 @@ const PipelineStatusPage: NextPage<PipelineStatusPageProps> = ({ pipelineRuns })
 
 export const getServerSideProps: GetServerSideProps<PipelineStatusPageProps> = async () => {
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const pipelineRunsSnapshot = await adminDb.collection('pipeline_runs').orderBy('timestamp', 'desc').get();
     const pipelineRuns: SerializedPipelineRunLog[] = pipelineRunsSnapshot.docs.map((doc) => {
       const data = doc.data();

@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { admin, adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin, admin } from '@/lib/firebaseAdmin';
 import { JobPostingSchema } from '@/lib/validationSchemas';
 import DOMPurify from 'isomorphic-dompurify';
 import { marked } from 'marked';
@@ -15,6 +15,7 @@ export default async function handler(
   }
 
   try {
+    const { adminDb } = await getFirebaseAdmin();
     // 1. Input Validation with Zod
     const validationResult = JobPostingSchema.safeParse(req.body);
 

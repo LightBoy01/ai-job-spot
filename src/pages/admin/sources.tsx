@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { GetServerSideProps, NextPage } from 'next';
 import AdminLayout from '@/components/AdminLayout';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { SerializedSource } from '@/lib/types';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import SourceForm from '@/components/admin/SourceForm';
@@ -206,6 +206,7 @@ const SourcesPage: NextPage<SourcesPageProps> = ({ sources: initialSources }) =>
 
 export const getServerSideProps: GetServerSideProps<SourcesPageProps> = async () => {
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const sourcesSnapshot = await adminDb.collection('sources').get();
     const sources = sourcesSnapshot.docs.map((doc) => ({
       id: doc.id,

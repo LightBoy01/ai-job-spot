@@ -1,15 +1,18 @@
-import { BaseItemSchema } from './schemas.js';
-import { z } from 'zod';
+import { Article, Job } from './schemas.ts';
 
-type Item = z.infer<typeof BaseItemSchema>;
+// Define a more comprehensive type for items that generateUniqueId can handle
+type PipelineItem = (Article | Job) & {
+  id?: string;
+  applicationLink?: string;
+};
 
 /**
  * Generates a unique and consistent ID for an item.
- * Strategy: Use the item's `guid` if available, otherwise fall back to the `link`.
+ * Strategy: Use the item's `guid` if available, otherwise fall back to the `link` or `id` or `applicationLink`.
  * @param item The item for which to generate an ID.
  * @returns A unique identifier string.
  */
-export function generateUniqueId(item: Item): string {
+export function generateUniqueId(item: PipelineItem): string {
   let id = item.guid || item.link || item.id || item.applicationLink;
   if (!id) {
     throw new Error('Could not generate a unique ID for the item: missing guid, link, id, or applicationLink.');

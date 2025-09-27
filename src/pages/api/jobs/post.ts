@@ -1,5 +1,5 @@
 import type { NextApiResponse } from 'next';
-import { adminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { FirestoreJobPosting, JobPosting } from '@/lib/types';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import {
@@ -44,6 +44,7 @@ export default async function handler(
   }
 
   try {
+    const { adminDb } = await getFirebaseAdmin();
     const jobData: JobFormData = req.body;
 
     const errors = validatePayload(jobData, validationSchema);
