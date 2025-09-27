@@ -93,5 +93,8 @@
     "turndown": "^7.2.1",
     "typescript": "5.9.2",
     "@swc/helpers": "^0.5.17"
+  },
+  "overrides": {
+    "quill": "^2.0.0"
   }
 }
