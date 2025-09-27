@@ -16,3 +16,4 @@ export function generateUniqueId(item: Item): string {
   // Also, remove any leading or trailing slashes that might result from the original URL or replacement.
   id = id.replace(/\//g, '-').replace(/^-+|-+$/g, '');
   return id;
+}
