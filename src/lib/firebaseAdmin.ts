@@ -104,5 +104,53 @@ export const getFirebaseAdmin = () => {
   return adminPromise;
 };
 
+import { AggregatedArticle } from '../lib/types';
+import { Timestamp } from 'firebase-admin/firestore';
+
+// Helper function to convert Admin SDK Timestamp to JavaScript Date
+const convertAdminTimestampToDate = (
+  timestamp: Timestamp | undefined
+): Date | undefined => {
+  if (timestamp && typeof timestamp.toDate === 'function') {
+    return timestamp.toDate();
+  }
+  return undefined;
+};
+
+// Helper function to process aggregated article data for Admin SDK
+const processAggregatedArticleDataAdmin = (
+  docSnap: admin.firestore.QueryDocumentSnapshot
+): AggregatedArticle => {
+  const data = docSnap.data();
+  return {
+    id: docSnap.id,
+    title: data?.title || '',
+    link: data?.link || '',
+    source: data?.source || '',
+    publishDate: convertAdminTimestampToDate(data?.publishDate) || null,
+    excerpt: data?.excerpt || '',
+  } as AggregatedArticle;
+};
+
+export async function getAggregatedArticlesAdmin(
+  adminDb: admin.firestore.Firestore,
+  limit?: number,
+): Promise<{ articles: AggregatedArticle[]; }> {
+  const articlesCollectionRef = adminDb.collection('aggregatedArticles');
+  let q: admin.firestore.Query = articlesCollectionRef;
+
+  q = q.where('status', '==', 'published');
+  q = q.orderBy('publishDate', 'desc');
+
+  if (limit) {
+    q = q.limit(limit);
+  }
+
+  const querySnapshot = await q.get();
+  const articles = querySnapshot.docs.map(processAggregatedArticleDataAdmin);
+
+  return { articles };
+}
+
 // Export the admin namespace directly for convenience
 export { admin };

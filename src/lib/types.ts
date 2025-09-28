@@ -136,20 +136,23 @@ export interface SerializedAggregatedArticle extends Omit<AggregatedArticle, 'pu
 
 export interface Source {
   id?: string;
-  status: string;
-  type: 'Job' | 'Article';
-  adapter: 'RSS' | 'RSS_HUB' | 'HIRING_CAFE' | 'HIRING_CAFE_API';
   sourceName: string;
   feedUrl: string;
-  notes?: string;
-  keywords?: string;
+  type: 'Job' | 'Article';
+  adapter: 'RSS' | 'RSS_HUB' | 'HIRING_CAFE' | 'HIRING_CAFE_API';
+  status: 'Pending' | 'Active' | 'Inactive';
+  keywords?: string[];
+  fetchFrequency?: 'daily' | 'weekly' | 'monthly';
+  lastFetchedAt?: Date | null;
+  notes?: string; // Add notes field
 }
 
-export interface SerializedSource extends Omit<Source, 'status' | 'type' | 'adapter'> {
+export interface SerializedSource extends Omit<Source, 'status' | 'type' | 'adapter' | 'keywords'> {
   status: string;
   type: string;
   adapter: string;
   keywords?: string;
+  notes?: string; // Add notes field
 }
 
 export interface PipelineRunLog {

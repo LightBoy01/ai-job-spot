@@ -2,7 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import Layout from '@/components/Layout';
 import AggregatedArticleCard from '@/components/AggregatedArticleCard';
-import { getAggregatedArticles } from '@/lib/firestoreClient';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
+import { getAggregatedArticlesAdmin } from '@/lib/firebaseAdmin';
 import { SerializedAggregatedArticle } from '@/lib/types';
 import { GetStaticProps } from 'next';
 
@@ -41,7 +42,7 @@ export default function News({ articles }: NewsProps) {
             No news articles found. Please check back later.
           </p>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg::grid-cols-3 gap-10">
             {articles.map((article) => (
               <AggregatedArticleCard key={article.id} article={article} />
             ))}
@@ -54,7 +55,8 @@ export default function News({ articles }: NewsProps) {
 
 export const getStaticProps: GetStaticProps<NewsProps> = async () => {
   try {
-    const { articles } = await getAggregatedArticles(30); // Fetch the 30 most recent
+    const { adminDb } = await getFirebaseAdmin();
+    const { articles } = await getAggregatedArticlesAdmin(adminDb, 30); // Fetch the 30 most recent
 
     return {
       props: {
