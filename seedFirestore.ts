@@ -13,6 +13,22 @@ import dotenv from 'dotenv';
 import { exec } from 'child_process';
 import { promisify } from 'util';
 
+// Local, self-contained interface for the enrichment process
+interface JobToEnrich {
+  id: string;
+  description: string;
+  responsibilities?: string[];
+  qualifications?: string[];
+  jobLevel?: string | null;
+  employeeRole?: string | null;
+  salaryRange?: string | null;
+  story_question1?: string | null;
+  story_answer1?: string | null;
+  story_question2?: string | null;
+  story_answer2?: string | null;
+}
+
+
 const execAsync = promisify(exec);
 
 dotenv.config();
@@ -76,6 +92,122 @@ export const jobSchema = z.object({
   story_answer3: z.string().optional(),
   companyCulture: z.string().optional(),
 });
+
+// --- ENRICHMENT SCRIPT LOGIC ---
+const ENRICH_BATCH_SIZE = 5;
+
+async function getPendingJobs(db: admin.firestore.Firestore): Promise<JobPosting[]> {
+    console.log(`Fetching up to ${ENRICH_BATCH_SIZE} jobs with status 'pending_review'...`);
+    const jobsRef = db.collection('jobs');
+    const q = jobsRef.where('status', '==', 'pending_review').limit(ENRICH_BATCH_SIZE);
+    const snapshot = await q.get();
+
+    if (snapshot.empty) {
+        console.log('No jobs found pending review.');
+        return [];
+    }
+
+    const jobs: JobPosting[] = [];
+    snapshot.forEach(doc => {
+        jobs.push({ id: doc.id, ...doc.data() } as JobPosting);
+    });
+
+    console.log(`Found ${jobs.length} jobs to process.`);
+    return jobs;
+}
+
+async function enrichJobData(job: JobPosting): Promise<Partial<JobPosting>> {
+    console.log(`Enriching job: ${job.id}`);
+    const prompt = `
+      Analyze the following job description text and return a JSON object with the following fields:
+      - "responsibilities": An array of strings, with each string being a key responsibility.
+      - "qualifications": An array of strings, with each string being a key qualification.
+      - "jobLevel": Infer the job level. Choose one of: ["Entry-Level", "Junior", "Mid-Senior", "Senior", "Lead", "Principal", "Director", "Executive"]. If unsure, return null.
+      - "employeeRole": Infer the employee role. Choose one of: ["Individual Contributor", "Manager", "Lead"]. If unsure, return null.
+      - "salaryRange": If a salary is mentioned, extract it as a string (e.g., "$150,000 - $200,000"). If not mentioned, return null.
+      - "story_question1": Generate an insightful question a curious candidate might ask about this role's impact.
+      - "story_answer1": Generate a compelling answer to question 1, highlighting the role's value.
+      - "story_question2": Generate an insightful question about the team or company culture.
+      - "story_answer2": Generate a compelling answer to question 2, reflecting a positive and collaborative environment.
+
+      JOB DESCRIPTION TEXT:
+      """
+      ${job.description}
+      """
+
+      JSON OUPUT:
+    `;
+
+    console.log(`---- AI PROMPT for ${job.id} ----\n${prompt}\n--------------------------`);
+
+    // SIMULATED AI RESPONSE
+    const simulatedAiResponse = {
+        responsibilities: [
+            "Lead product discovery efforts through user research and data analysis.",
+            "Prioritize product roadmap based on business impact.",
+            "Own the product execution process with designers and engineers."
+        ],
+        qualifications: [
+            "3+ years of product management experience in a technical environment.",
+            "Experience with both building new products (0->1) and scaling existing ones (1->n).",
+            "Familiarity with AI/ML systems or data infrastructure.",
+            "Strong systems thinking and communication skills."
+        ],
+        jobLevel: "Mid-Senior",
+        employeeRole: "Individual Contributor",
+        salaryRange: null,
+        story_question1: "Beyond the daily tasks, what is the real strategic impact of this Product Manager role?",
+        story_answer1: "You are not just managing features; you are shaping the future of clinician-AI interaction, directly contributing to our mission of restoring joy to the practice of medicine.",
+        story_question2: "How does the product team collaborate with engineering and clinical teams?",
+        story_answer2: "Collaboration is at our core. The product team acts as a bridge, embedding with engineering in agile sprints and holding regular deep-dive sessions with our community of clinician innovators."
+    };
+
+    return simulatedAiResponse;
+}
+
+async function enrichJobs() {
+    const { adminDb: db } = await getFirebaseAdmin();
+    const jobsToProcess = await getPendingJobs(db);
+
+    if (jobsToProcess.length === 0) return;
+
+    for (const job of jobsToProcess) {
+        try {
+            const enrichedData = await enrichJobData(job);
+            const finalPayload: Partial<JobPosting> = { status: 'pending_approval' };
+
+            // "Enrich, Don't Overwrite" Logic
+            if (!job.responsibilities || job.responsibilities.length === 0) finalPayload.responsibilities = enrichedData.responsibilities;
+            if (!job.qualifications || job.qualifications.length === 0) finalPayload.qualifications = enrichedData.qualifications;
+            if (!job.jobLevel) finalPayload.jobLevel = enrichedData.jobLevel;
+            if (!job.employeeRole) finalPayload.employeeRole = enrichedData.employeeRole;
+            if (!job.salaryRange) finalPayload.salaryRange = enrichedData.salaryRange;
+            if (!job.story_question1) {
+                finalPayload.story_question1 = enrichedData.story_question1;
+                finalPayload.story_answer1 = enrichedData.story_answer1;
+            }
+            if (!job.story_question2) {
+                finalPayload.story_question2 = enrichedData.story_question2;
+                finalPayload.story_answer2 = enrichedData.story_answer2;
+            }
+
+            console.log(`---- DRY RUN: Payload for job ${job.id} ----`);
+            console.log(JSON.stringify(finalPayload, null, 2));
+            console.log('---------------------------------------------\n');
+
+            // To run for real, uncomment the following line:
+            // await db.collection('jobs').doc(job.id).set(finalPayload, { merge: true });
+            await db.collection('jobs').doc(job.id).set(finalPayload, { merge: true });
+
+        } catch (error) {
+            console.error(`Failed to process job ${job.id}. Error:`, error);
+        }
+    }
+    console.log('\nEnrichment script finished.');
+}
+
+// --- END ENRICHMENT SCRIPT LOGIC ---
+
 
 /**
  * Executes the database backup script.
@@ -316,15 +448,20 @@ export async function seedFirestore() {
 }
 
 // --- EXECUTION BLOCK ---
-// This allows the script to be run directly, but also to be imported for testing.
 if (process.env.NODE_ENV !== 'test') {
-  seedFirestore()
-    .then(() => {
-      console.log('\nSeeding process completed successfully.\n');
-      process.exit(0);
-    })
-    .catch((error) => {
-      console.error('\nSeeding process failed.\n', error);
-      process.exit(1);
-    });
+  const args = process.argv.slice(2);
+  if (args.includes('--enrich')) {
+    console.log('--enrich flag detected. Running job enrichment process...');
+    enrichJobs().catch(err => console.error(err));
+  } else {
+    seedFirestore()
+      .then(() => {
+        console.log('\nSeeding process completed successfully.\n');
+        process.exit(0);
+      })
+      .catch((error) => {
+        console.error('\nSeeding process failed.\n', error);
+        process.exit(1);
+      });
+  }
 }
