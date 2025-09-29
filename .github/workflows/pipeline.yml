@@ -64,8 +64,16 @@ jobs:
           npm install
           npx playwright install --with-deps
 
+      - name: 3.1. Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright/
+          key: ${{ runner.os }}-playwright-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
       - name: 4. Run Diagnostic Fetch Test
-        run: ts-node scripts/diagnostics/test_fetch.ts
+        run: npx ts-node scripts/diagnostics/test_fetch.ts
 
       - name: 5. Run the scraping pipeline
         run: npm run pipeline:run
