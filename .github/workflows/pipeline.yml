@@ -64,7 +64,10 @@ jobs:
           npm install
           npx playwright install --with-deps
 
-      - name: 4. Run the scraping pipeline
+      - name: 4. Run Diagnostic Fetch Test
+        run: ts-node scripts/diagnostics/test_fetch.ts
+
+      - name: 5. Run the scraping pipeline
         run: npm run pipeline:run
 
       - name: 5. Display pipeline log on failure or success
