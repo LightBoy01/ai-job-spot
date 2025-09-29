@@ -1,4 +1,3 @@
-
 import { z } from 'zod';
 
 // Zod schema for the final, standardized job object.
@@ -31,7 +30,7 @@ export interface IJobSource {
   // The unique name of the source
   name: string;
   // The function that fetches raw data
-  fetchJobs: () => Promise<any[]>;
+  fetchJobs: () => Promise<unknown[]>;
   // The function that transforms raw data into a standard format
-  transform: (rawJob: any) => StandardJob;
+  transform: (rawJob: unknown, oldStatus?: string) => StandardJob;
 }

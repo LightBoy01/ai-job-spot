@@ -1,0 +1,39 @@
+---
+id: hiringcafe-oraclecloud___hdox.fa.us6___38496
+title: Lead Software Engineer (Remote)
+company: Quest Diagnostics
+location: 'Secaucus, New Jersey, United States'
+applicationLink: >-
+  https://hdox.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/38496
+postedDate: '2025-09-19T16:12:32.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - oversee design
+  - coordinate execution
+  - standardize processes
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$100,000 - $130,000'
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/oraclecloud___hdox.fa.us6___38496'
+companyLogoUrl: null
+---
+Oversee and support a team of back-end, front-end, and full-stack developers, as well as QA and QC resources. In this dotted-line leadership role, you will focus on process efficiency, quality improvements, team utilization, and reporting while working closely with Agile teams and prioritization frameworks. Pay Range: $100,000 - $130,000 / year Salary offers are based on a wide range of factors including relevant skills, training, experience, education, and, where applicable, certifications obtained. Market and organizational factors are also considered. Successful candidates may be eligible to receive annual performance bonus compensation. Benefits Information: We are proud to offer best-in-class benefits and programs to support employees and their families in living healthy, happy lives. Our pay and benefit plans have been designed to promote employee health in all respects physical, financial, and developmental. Depending on whether it is a part-time or full-time position, some of the benefits offered may include: Medical/Prescription Drugs Dental Vision Flexible Spending Accounts (FSAs) Supplemental Health Plans 401(k) Plan Company match dollar-for-dollar up to 5% Employee Stock Purchase Plan (ESPP) Supplemental Life Insurance Dependent Life Insurance Short- and Long-Term Disability buy-up Blueprint for Wellness Emotional Well-Being Resources Educational Assistance Paid time off / Health Time Variable Compensation Plans Sales Incentive Plans
+
+### Responsibilities
+
+Team Oversight & Coordination Oversee the design and execution by the development teams. Ensure strategic priorities are met, resource allocations are aligned to development and business timelines, and workflows are efficient and scalable. Partner with Scrum Masters, Product Managers, Architects, and Technical Leads to ensure development activities align with business priorities and software development methodology processes i.e. Agile, Waterfall, etc. Serve as point of contact for leadership on development teams capacity planning, performance, utilization, and operational needs. Follow and assure team adherence to SDLC framework. Indirect oversight of ~20 onshore and offshore team members Process & Quality Improvements Identify and implement efficiencies in development workflows, Agile ceremonies, and collaboration across teams. Drive process standardization to improve development velocity, reduce bottlenecks, and enhance overall team productivity. Work closely with QA and QC teams to ensure testing best practices are consistently followed. Accountable for solutions delivering high-quality data and insights to customers and internal stakeholders. Resource Utilization & Reporting - Monitor and report on team utilization, capacity, and workload distribution to support optimal resource allocation. - Track and analyze development spend to ensure efficient use of resources and budget adherence. - Provide leadership with regular reports on development progress, risks, and operational insights. - Ensure alignment with current and emerging technology best practices, dependencies (e.g., enterprise plan of record, key technology changes), and assists in funding discussions. Collaboration & Stakeholder Engagement - Act as a liaison between development teams, product management, and senior leadership to ensure smooth execution of priorities. - Partner with HR and direct line managers to support hiring, onboarding, and career development initiatives for development team members. - Foster a culture of collaboration, accountability, and continuous improvement within the software development function. - Collaborate across the businesses to solicit requirements and drive value in a matrixed organization.
+
+### Qualifications
+
+Required Experience: - 5+ years of experience in software development, project management, or operations, with at least 2 years in a leadership role. - Bachelors degree in computer science, Information Technology, or related field Preferred Experience: - Prior experience with enterprise data platforms, analytics solutions, or cloud-based development environments. - Knowledge of continuous improvement processes, software testing best practices, and development lifecycle optimization. - Familiarity with AI/ML-based development, MLOps, and automation. - Familiarity with emerging technology and advocating for relevant adoption. Knowledge: - Strong understanding of Agile development methodologies (Scrum, Kanban, SAFe, etc.) and how to support teams within these frameworks. - Familiarity with cloud-based platforms such as AWS, Snowflake, and Google Cloud Platform. - Experience with process improvement, operational efficiency, and reporting tools is a plus. - Knowledge or prior experience using Jira, GitHub, Confluence, Clarity Skills: - Experience working with cross-functional development teams, including developers and QA/QC professionals. - Ability to analyze and report on team performance, utilization, and spend. - Excellent communication and stakeholder management skills.
+
+### About Company
+
+ Quest Diagnostics honors our service members and encourages veterans to apply.  
+  
+While we appreciate and value our staffing partners, we do not accept unsolicited resumes from agencies. Quest will not be responsible for paying agency fees for any individual as to whom an agency has sent an unsolicited resume.  
+  
+Equal Opportunity Employer: Race/Color/Sex/Sexual Orientation/Gender Identity/Religion/National Origin/Disability/Vets or any other legally protected status.

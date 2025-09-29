@@ -1,0 +1,46 @@
+---
+id: hiringcafe-successfactors___eu___SF2013___1327962257
+title: '*AI Ops Engineer II (Schaumburg, IL, US)'
+company: Zurich North America
+location: 'Schaumburg, Illinois, United States'
+applicationLink: >-
+  https://www.careers.zurich.com/job/Schaumburg-AI-Ops-Engineer-II-IL-60159/1327962257/
+postedDate: '2025-09-26T20:37:26.272Z'
+expirationDate: null
+tags:
+  - Engineering
+  - deploying models
+  - monitoring health
+  - collaborating teams
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$160,555 - $160,555'
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___SF2013___1327962257'
+companyLogoUrl: null
+---
+Zurich (Schaumburg, IL) seeks an AI Ops Engineer II to participate in the production deployment and automation of Generative AI solutions, serving as an AI operations subject matter expert for other technical teams within the Data and Analytics unit. Specific duties include: research industry best practices, evaluate new technologies, develop standards and engineering best practices and recommend innovative solutions that support automation and improve platform resiliency and fault tolerance of critical applications (10%); participate in deployment of Generative AI Platform Capabilities with responsible for AI model delivery to cloud platforms (Databricks, MLflow, Azure ML) (40%); act as an expert resource for other technical teams within Data & Analytics (20%); assist with hardware and capacity planning, analysis and forecasts for your portfolio of applications with focus on highest availability, scalability, performance, and timely delivery (10%); execute on roadmaps that align with technology and business strategy (10%); participate in day-to-day standups for platform capability build (5%); and provide SME guidance for data science teams (5%). Option to work remotely from anywhere in the U.S.
+
+Position requires a Bachelor’s degree, or foreign equivalent, in Computer Science, Applied Data Analytics**,** or a closely related field of study, plus 5 years of experience in the job offered, or as a ML Engineer, DevOps Engineer, Data Analytics Engineer, Software Engineer, or similar position participating in the production deployment. In the alternative, will accept a Master’s degree, or foreign equivalent, in Computer Science, Applied Data Analytics**,** or a closely related field of study, plus 3 years of experience in the job offered, or as a ML Engineer, DevOps Engineer, Data Analytics Engineer, Software Engineer, or similar position participating in the production deployment. Must have 3 years of experience with each of the following: creating Azure services Function Apps and Logic Apps to enable serverless workloads, managing both synchronous and asynchronous request calls; managing releases through continuous integration and CI/CD pipelines by creating pull requests and pushing Docker images into the container registry within a fully functional DevOps repository across multiple environment; and using Python, SQL, Spark, Azure Portal, DevOps, and VS Code. Must also have 2 years of experience with each of the following: working with Dataiku DSS and Azure Databricks; deploying real-time and batch scoring predictive models using MLflow, serverless endpoints and Databricks Workflows; implementing change data capture and utilizing Delta Live Tables to define data transformations while automating data processing pipelines; working with MLflow tracking for model monitoring, as well as registering models via Unity Catalog for data governance, automating refreshing of hyperparameters based on production metrics; developing automated scripts to monitor health status and trigger alerts for various app instances using custom metrics, using deployment slots for versioning across different environments; diagnosing workflows within Azure Logic Apps and logging runtime data to Log Analytics workspace, Azure Storage Account, or Azure Event Hub, while configuring Azure Monitor Logs; working with open-source LLM models, OpenAI endpoints, and various LangChain methods; implementing and automating testing frameworks for pipelines, including regression testing, load/stress testing, automated rollback, unit testing, and integration testing; using Azure Document Intelligence Optical Character Recognition (OCR) models to extract both printed and handwritten text from PDFs, scanned images, .xlsx, .pptx, .html files; using Azure Prompt Flow for model orchestration, deployment, and testing, streamlining AI application development; and analyzing various architectural models and translating them into detailed process flows for clearer understanding and implementation. Option to work remotely from anywhere in the U.S.
+
+Full time position. Apply by submitting your resumes at Zurichna.com/en/careers, Job ID: 127637
+
+At Zurich, compensation for roles is influenced by a variety of factors, including but not limited to the specific office location, role, skill set, and level of experience. In compliance with local laws, Zurich commits to providing a fair and reasonable compensation range for each role. For more information about our Total Rewards, please [click here](https://www.zurichna.com/careers/benefits). Additional rewards may encompass short-term incentive bonuses and merit increases. We encourage candidates with salary expectations beyond the provided range to apply, as they will be considered based on their experience, skills, and education. The salary indicated represents a nationwide market range and has not been adjusted for geographic differentials pertaining to the location where the position may be filled. The proposed salary range for this position is $160,555.
+
+As an insurance company, Zurich is subject to 18 U.S. Code § 1033.
+
+A future with Zurich. What can go right when you apply at Zurich?
+
+Now is the time to move forward and make a difference. At Zurich, we want you to share your unique perspectives, experiences and ideas so we can grow and drive sustainable change together. As part of a leading global organization, Zurich North America has over 150 years of experience managing risk and supporting resilience. Today, Zurich North America is a leading provider of commercial property-casualty insurance solutions and a wide range of risk management products and services for businesses and individuals. We serve more than 25 industries, from agriculture to technology, and we insure 90% of the Fortune 500®. Our growth strategy is not limited to our business. As an employer, we strive to provide ongoing career development opportunities, and we foster an environment where voices are diverse, behaviors are inclusive, actions drive equity, and our people feel a sense of belonging. Be a part of the next evolution of the insurance industry. Join us in building a brighter future for our colleagues, our customers and the communities we serve. Zurich maintains a comprehensive employee benefits package for employees as well as eligible dependents and competitive compensation. Please click [here](https://www.zurichna.com/careers) to learn more.
+
+Zurich in North America is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status. 
+
+Zurich does not accept unsolicited resumes from search firms or employment agencies. Any unsolicited resume will become the property of Zurich American Insurance. If you are a preferred vendor, please use our Recruiting Agency Portal for resume submission. 
+
+Location(s): AM - Schaumburg  
+Remote Working: Yes  
+Schedule: Full Time  
+Employment Sponsorship Offered: No    
+   
+Linkedin Recruiter Tag: #LI-DNI #NAAIA

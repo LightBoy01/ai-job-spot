@@ -5,7 +5,7 @@ company: ST Engineering | Harnessing Technology and Innovation
 location: 'Singapore, Singapore'
 applicationLink: >-
   https://careers.stengg.com/job/Aero-600-West-Camp-Road-Principal-AI-Engineer-ML-CV%2C-AI_DA-STC/1214734266/
-postedDate: '2025-09-29T06:44:28.901Z'
+postedDate: '2025-09-29T09:31:38.767Z'
 expirationDate: null
 tags:
   - Software Development

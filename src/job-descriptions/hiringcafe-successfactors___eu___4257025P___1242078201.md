@@ -5,7 +5,7 @@ company: Erste Group
 location: 'Wien, Vienna, Austria'
 applicationLink: >-
   https://erstegroup-careers.com/job/Wien-Internship-Group-Total-Rewards-Management-%28all-genders%29/1242078201/
-postedDate: '2025-09-29T06:44:36.038Z'
+postedDate: '2025-09-29T09:31:48.192Z'
 expirationDate: null
 tags:
   - Data and Analytics

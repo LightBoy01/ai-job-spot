@@ -4,7 +4,7 @@ title: Senior Software Engineer - AI
 company: The Trade Desk
 location: Bellevue or San Jose
 applicationLink: 'https://job-boards.greenhouse.io/thetradedesk/jobs/4840436007'
-postedDate: '2025-09-29T06:44:28.061Z'
+postedDate: '2025-09-29T09:31:37.978Z'
 expirationDate: null
 tags:
   - Software Development

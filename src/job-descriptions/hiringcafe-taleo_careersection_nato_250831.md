@@ -4,7 +4,7 @@ title: Temporary Staff - AI/ML/Modeling & Software Engineers
 company: Defence Innovation Accelerator for the North Atlantic (DIANA)
 location: London or Halifax or Tallinn
 applicationLink: 'https://nato.taleo.net/careersection/2/jobdetail.ftl?job=250831&lang=en'
-postedDate: '2025-09-29T06:44:27.153Z'
+postedDate: '2025-09-29T09:31:37.233Z'
 expirationDate: null
 tags:
   - Software Development

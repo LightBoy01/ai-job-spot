@@ -98,8 +98,9 @@ async function fetchJobs(): Promise<JobResult[]> {
 /**
  * Transforms a raw job object from the hiring.cafe API into our StandardJob format.
  */
-function transform(rawJob: JobResult, oldStatus?: string): StandardJob {
-    const { job_information: jobInfo, v5_processed_job_data: processedData, apply_url, id } = rawJob;
+function transform(rawJob: unknown, oldStatus?: string): StandardJob {
+    const jobData = JobResultSchema.parse(rawJob);
+    const { job_information: jobInfo, v5_processed_job_data: processedData, apply_url, id } = jobData;
 
     const descriptionAsMarkdown = turndownService.turndown(jobInfo.description || '');
 

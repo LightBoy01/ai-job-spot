@@ -5,7 +5,7 @@ company: ST Engineering | Harnessing Technology and Innovation
 location: Singapore
 applicationLink: >-
   https://careers.stengg.com/job/ST-Engineering-Hub-Principal-AI-Engineer-Scalabale-Systems%2C-AI_DA-STC/1214659066/
-postedDate: '2025-09-29T06:44:28.914Z'
+postedDate: '2025-09-29T09:31:38.779Z'
 expirationDate: null
 tags:
   - Software Development

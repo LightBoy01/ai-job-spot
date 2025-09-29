@@ -84,9 +84,9 @@ export default async function handler(
     const imageBuffer = await externalRes.arrayBuffer();
     res.send(Buffer.from(imageBuffer));
 
-  } catch (e: any) {
+  } catch (e: unknown) {
     console.error('[Image-Proxy] Unhandled Error:', e);
-    if (e.code === 'ENOTFOUND') {
+    if (e && typeof e === 'object' && 'code' in e && e.code === 'ENOTFOUND') {
         return res.status(404).json({ error: 'Host not found.' });
     }
     res.status(500).json({ error: 'Internal Server Error' });

@@ -6,7 +6,7 @@ company: FIS
 location: New York City or Atlanta or Jacksonville or Milwaukee
 applicationLink: >-
   https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-NY-NYC-OVA-FLR62/VP-Product-Management-Executive--Head-of-Data---AI---Core-Banking-Solutions_JR0301013
-postedDate: '2025-09-29T06:44:29.595Z'
+postedDate: '2025-09-29T09:31:39.550Z'
 expirationDate: null
 tags:
   - Product Management

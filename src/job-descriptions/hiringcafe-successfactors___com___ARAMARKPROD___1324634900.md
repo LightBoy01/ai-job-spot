@@ -5,7 +5,7 @@ company: Jobs at Aramark
 location: 'Coyhaique, Aysén Region, Chile'
 applicationLink: >-
   https://aramarkcareers.com/Latin-America/job/Coyhaique-1436-Auxiliar-de-Limpieza-45-horas-AI/1324634900/
-postedDate: '2025-09-29T06:44:34.431Z'
+postedDate: '2025-09-29T09:31:45.751Z'
 expirationDate: null
 tags:
   - Skilled Trades - General Labor

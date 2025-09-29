@@ -94,3 +94,4 @@ __pycache__/
 
 # Service account keys
 ai-jobs-spot-92a1f1a8b08e.json
+.env.vercel

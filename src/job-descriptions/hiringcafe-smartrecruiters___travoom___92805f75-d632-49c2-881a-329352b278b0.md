@@ -5,7 +5,7 @@ company: Travoom
 location: 'Austin, Texas, United States'
 applicationLink: >-
   https://jobs.smartrecruiters.com/Travoom/744000075330745-rust-blockchain-ai-ml-startup-experience
-postedDate: '2025-09-29T06:44:28.221Z'
+postedDate: '2025-09-29T09:31:38.118Z'
 expirationDate: null
 tags:
   - Software Development

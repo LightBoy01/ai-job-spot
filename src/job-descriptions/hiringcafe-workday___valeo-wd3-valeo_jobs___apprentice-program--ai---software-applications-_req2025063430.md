@@ -6,7 +6,7 @@ company: Valeo
 location: Cairo or Egypt
 applicationLink: >-
   https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Apprentice-Program--AI---Software-Applications-_REQ2025063430
-postedDate: '2025-09-29T06:44:29.928Z'
+postedDate: '2025-09-29T09:31:39.914Z'
 expirationDate: null
 tags:
   - Software Development

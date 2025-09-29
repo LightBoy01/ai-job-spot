@@ -1,0 +1,128 @@
+---
+id: >-
+  hiringcafe-workday___msd-wd5-searchjobs___student---governance--training-and-patient-engagement_r364226
+title: 'Student - Governance, Training and Patient Engagement'
+company: MSD
+location: 'London, United Kingdom'
+applicationLink: >-
+  https://msd.wd5.myworkdayjobs.com/searchjobs/job/GBR---London---London-Moorgate-WeWork/Student---Governance--Training-and-Patient-Engagement_R364226
+postedDate: '2025-09-28T00:00:00.000Z'
+expirationDate: null
+tags:
+  - Human Resources
+  - Develop knowledge
+  - Lead initiatives
+  - Support training
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/workday___msd-wd5-searchjobs___student---governance--training-and-patient-engagement_r364226
+companyLogoUrl: null
+---
+Job Description
+
+_This role will be based in our modern state-of-the-art co-working facilities in Moorgate, London. This site, at the heart of London provides fantastic amenities, support services and collaborative workspaces with convenient transport links_. 
+
+We are a global biopharmaceutical leader committed to enhancing the lives of individuals through a diverse portfolio of prescription medicines, oncology treatments, life-saving vaccines, and animal health products. Our unwavering dedication to delivering innovative solutions is the driving force behind everything we do.
+
+The Governance and Process Assurance and Foundational Capabilities (GPA&FC) team brings together UK Business Practices (BP) and Medical Ethics and Integrity (ME&I) teams, plus our UK Privacy and Foundational Capabilities Leads. This organisation assumes responsibility for both internal and external UK governance frameworks, privacy, the management of SOPs, process assurance, compliance with the ABPI Code of Practice and foundational training capabilities for our organisation.  This role is critical to ensure a sustainable Governance and Process Assurance and build foundational and strategic capabilities within our teams to enable individuals to deliver essential and innovative activities to the highest standards and ensures Governance and Process Assurance is a positive differentiator across the UK industry through our ways of working.
+
+**Responsibilities:**
+
+This is a 12-month programme within the UK Governance & Process Assurance, Privacy and Foundational Capabilities team, where you will get the opportunity to gain experience in a range of areas, working with a dynamic and diverse team.
+
+*   Develop your knowledge of the pharmaceutical industry and the corporate world, including an understanding our products and disease areas
+    
+*   Help ensure a strong compliance network within the organisation
+    
+*   Develop, lead and deliver a number of initiatives including patient-focused projects as part of our Patient Engagement team
+    
+*   Assist in the appropriate adoption of innovative technologies to deliver strategies across the business, including process simplification and automation including Ai and CoPilot
+    
+*   Work with the Privacy team to ensure privacy alignment across the business
+    
+*   Help running our training programme to ensure employees have the necessary skills and capabilities to perform their role
+    
+*   Work with Medical Affairs, Corporate Affairs, Marketing and other cross-functional teams to achieve objectives and build confidence, communication and presentation skills
+    
+*   Opportunity to take part in ‘stretch’ assignments and projects to enhance personal development goals across the business
+    
+
+**Requirements**:
+
+*   Studying for a B.Sc. in life science, Pharmacy or equivalent healthcare qualification   
+    
+*   Project management experience with examples of delivering initiatives from start to finish with clear goals and objectives
+    
+*   Demonstrate planning and organisational skills
+    
+*   Demonstrate numeric, IT and analytical skills
+    
+*   Experience of one or more of the following preferred: governance, processes assurance, compliance, privacy, training.
+    
+*   You must currently studying at a UK university and will be looking to complete a 12-month student internship as part of your undergraduate degree.
+    
+
+**How to Apply (Please Read):**
+
+Please complete the online application form by answering questions within the application and upload your CV and Cover Letter in a combined document in the ‘resume/CV’ section.
+
+Our standard Future Talent recruitment process is: An online application, a virtual conversation and then a final assessment.
+
+**Next Steps:**
+
+In the event of your successful progression to the next stage, one of our future talent team will contact you within two - three weeks of the application closing date. 
+
+**Start Date:**
+
+June 2026
+
+**Equal Opportunity Employer:**
+
+We are proud to be a company that embraces the value of bringing diverse, talented, and committed people together. The fastest way to breakthrough innovation is when diverse ideas come together in an inclusive environment. We encourage our colleagues to respectfully challenge one another’s thinking and approach problems collectively. We are an equal opportunity employer, committed to fostering an inclusive and diverse workplace.
+
+**For more Information visit our Future Talent page!**
+
+**#UKFT25**
+
+Current Employees apply [HERE](https://wd5.myworkday.com/msd/d/task/1422$6687.htmld)
+
+Current Contingent Workers apply [HERE](https://wd5.myworkday.com/msd/d/task/1422$4020.htmld)
+
+**Search Firm Representatives Please Read Carefully**   
+Merck & Co., Inc., Rahway, NJ, USA, also known as Merck Sharp & Dohme LLC, Rahway, NJ, USA, does not accept unsolicited assistance from search firms for employment opportunities. All CVs / resumes submitted by search firms to any employee at our company without a valid written search agreement in place for this position will be deemed the sole property of our company.  No fee will be paid in the event a candidate is hired by our company as a result of an agency referral where no pre-existing agreement is in place. Where agency agreements are in place, introductions are position specific. Please, no phone calls or emails. 
+
+**Employee Status:**
+
+Intern/Co-op (Fixed Term)
+
+**Relocation:**
+
+**VISA Sponsorship:**
+
+**Travel Requirements:**
+
+**Flexible Work Arrangements:**
+
+Hybrid
+
+**Shift:**
+
+**Valid Driving License:**
+
+**Hazardous Material(s):**
+
+**Required Skills:**
+
+Analytical Problem Solving, Clinical Research, Communication, Data Analytics, Database Management, Data Entry, Data Visualization, Document Management, Health Economics, Management Process, Microsoft Office, Office Applications, Process Improvements, Project Management, Reporting and Analysis, Technical Support, Technical Training, Workload Prioritization
+
+ **Preferred Skills:**
+
+**Job Posting End Date:**
+
+10/7/2025
+
+**\*A job posting is effective until 11:59:59PM on the day BEFORE the listed job posting end date. Please ensure you apply to a job posting no later than the day BEFORE the job posting end date.**

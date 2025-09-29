@@ -1,15 +1,17 @@
 import { notifyUrlUpdate } from './indexing_api_client.ts';
 import dotenv from 'dotenv';
+import { promises as fs } from 'fs';
+import path from 'path';
 
 dotenv.config({ path: '.env.development.local' });
 
-const TEST_URL = 'https://aijobspot.online/';
+const ARTICLES_DIR = path.resolve(process.cwd(), 'src', 'articles');
+const SITE_URL = 'https://aijobspot.online';
 
 async function runTest() {
-  console.log(`[Test] Sending test notification for URL: ${TEST_URL}`);
+  console.log('[Test] Sending notifications for all articles...');
   console.log('--------------------------------------------------');
 
-  // Check if the key file path is loaded
   if (!process.env.GOOGLE_INDEXING_KEY_FILE) {
     console.error('[Test FAILED] GOOGLE_INDEXING_KEY_FILE is not defined.');
     console.error(
@@ -18,7 +20,27 @@ async function runTest() {
     return;
   }
 
-  await notifyUrlUpdate(TEST_URL);
+  try {
+    const files = await fs.readdir(ARTICLES_DIR);
+    const articleSlugs = files.filter(file => file.endsWith('.md')).map(file => path.basename(file, '.md'));
+
+    if (articleSlugs.length === 0) {
+      console.warn('[Test] No articles found in src/articles.');
+      return;
+    }
+
+    console.log(`[Test] Found ${articleSlugs.length} articles to notify.`);
+
+    for (const slug of articleSlugs) {
+      const url = `${SITE_URL}/articles/${slug}`;
+      await notifyUrlUpdate(url);
+    }
+
+  } catch (error) {
+    console.error('[Test FAILED] An error occurred while reading the articles directory:', error);
+    return;
+  }
+
 
   console.log('--------------------------------------------------');
   console.log(

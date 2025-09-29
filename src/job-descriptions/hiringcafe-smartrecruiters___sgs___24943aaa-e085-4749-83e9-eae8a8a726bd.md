@@ -1,0 +1,66 @@
+---
+id: hiringcafe-smartrecruiters___sgs___24943aaa-e085-4749-83e9-eae8a8a726bd
+title: Principal AI Engineer
+company: SGS
+location: 'Madrid, Community of Madrid, Spain'
+applicationLink: 'https://jobs.smartrecruiters.com/SGS/744000083474877-principal-ai-engineer'
+postedDate: '2025-09-23T14:07:42.587Z'
+expirationDate: null
+tags:
+  - Engineering
+  - Lead design
+  - Fine-tune
+  - Build workflows
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___sgs___24943aaa-e085-4749-83e9-eae8a8a726bd
+companyLogoUrl: null
+---
+**Company Description:**
+
+We are SGS – the world's leading testing, inspection and certification company. Today, that mission is driven by data. With 99,500 employees across 2,500 locations, we generate a unique and massive dataset on global trade, product quality, and sustainability. We are now launching a new Hub in Madrid to turn that data into intelligent products and services. This is your opportunity to build the intelligence layer that will redefine our industry. 
+
+**Job Description:**
+
+We're looking for a pioneer to tackle the next frontier: building intelligent agents that can reason and act using one of the world's most unique industrial data sets. This is a greenfield role where you won’t just fine-tune models – you’ll build the entire Gen AI – native foundation for a global leader, with the executive backing and autonomy to make it happen. 
+
+  
+As SGS’s founding Principal AI Engineer, your mission is to lead the charge in applying cutting-edge Generative AI to solve our most complex business challenges. You will be a hands-on builder, crafting everything from custom fine-tuned LLMs to sophisticated agentic workflows that automate and augment expert tasks. You will move fast, ship impactful product, and set the standard for practical, value driven AI.
+
+**What You'll Build and Own:**
+
+*   **Pioneer Generative AI Solutions**: Lead the design and hands-on development of our most advanced AI initiatives, focusing on LLMs, Retrieval-Augmented Generation (RAG), and multi-step agentic systems.
+*   **Build & Fine-Tune Models**: Go beyond off-the-shelf APIs. You will fine-tune open-source models (e.g., Llama, Mistral) on our proprietary data to create highly specialized, defensible AI capabilities.
+*   **Engineer Agentic Workflows**: Architect and build systems where AI agents can use tools, call functions, and interact with other systems to execute complex, real-world tasks like analyzing inspection reports or drafting compliance documentation. 
+*   **Own the Pragmatic AI Stack**: Select, implement, and champion a lean, effective AI/ML stack (e.g., LangChain/LlamaIndex, vector databases, modern MLOps tools) that prioritizes speed and developer velocity.
+*   **Collaborate & Scale**: Partner with other engineering teams to package your breakthroughs into reusable patterns and services, acting as a force multiplier for AI adoption across the company.
+*   **Establish the AI Vision**: As the foundational AI expert, you will be a thought leader, shaping our technical strategy and mentoring the team that will form around your vision. 
+
+**Qualifications:**
+
+*   **Generative AI & LLMs**: Deep, hands-on experience building applications with LLMs. This includes prompt engineering, RAG architecture, fine-tuning, and evaluating model performance.
+*   **AI Agent & Workflow Development**: Proven experience with frameworks like LangChain, LlamaIndex, or building custom agentic systems. Understanding of concepts like ReAct, function calling, and planning.
+*   **Core ML & Python**: Expert-level Python and a strong foundation in classical ML and deep learning (PyTorch preferred).
+*   **AI Infrastructure**: Hands-on experience with vector databases (e.g., Pinecone, Weaviate, Chroma), containerization (Docker, Kubernetes), and cloud AI services (GCP Vertex AI, AWS Bedrock/SageMaker).
+*   **Data & APIs**: Ability to process unstructured data, build robust data pipelines for model training, and expose models via high-performance APIs (e.g., using FastAPI).
+
+**Who You Are**
+
+*   You are a builder at heart, with extensive experience (e.g., 8+ years) in AI/ML and a recent, intense focus on the LLM space.
+*   You are obsessed with shipping real products, not just publishing papers.
+*   You thrive in a fast-paced, high-autonomy environment and are comfortable with ambiguity.
+*   You are a pragmatist who chooses the right tool for the job, whether it's a simple script or a complex distributed system.
+
+**Additional Information:**
+
+**What We Offer**
+
+*   **Top-of-Market Compensation**: A highly competitive salary and bonus package for Madrid, designed to attract and retain premier talent for this strategic role. 
+*   **Greenfield Ownership & Autonomy**: This is not an R&D role with no path to production. You have a mandate to build and ship, with the freedom to choose your stack, backed by C-level sponsorship. 
+*   **Foundational Impact**: You will be the first Principal AI Engineer in our new Digital Hub, shaping the technology, culture, and future of AI at a global leader. 
+*   **A Unique Problem Space**: Apply cutting-edge AI to one-of-a-kind datasets from global supply chains, materials science, and industrial testing. This is your chance to solve tangible problems that few others can. 
+*   **A Clear Growth Path**: This role offers a direct path to technical leadership and the opportunity to build and mentor a team around your architectural vision.

@@ -4,7 +4,7 @@ title: 'AI Solutions Architect '
 company: Blueprint Technologies
 location: 'Bellevue, Washington, United States'
 applicationLink: 'https://job-boards.greenhouse.io/bpcs/jobs/7206365'
-postedDate: '2025-09-29T06:44:28.760Z'
+postedDate: '2025-09-29T09:31:38.603Z'
 expirationDate: null
 tags:
   - Information Technology

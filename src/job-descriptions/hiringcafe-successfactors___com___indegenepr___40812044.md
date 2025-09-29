@@ -4,7 +4,7 @@ title: 'Associate Architect (Bangalore, KA, IN)'
 company: Indegene
 location: 'Bangalore, Karnataka, India'
 applicationLink: 'https://careers.indegene.com/job/Bangalore-Associate-Architect-KA/40812044/'
-postedDate: '2025-09-29T06:44:27.262Z'
+postedDate: '2025-09-29T09:31:37.319Z'
 expirationDate: null
 tags:
   - Engineering

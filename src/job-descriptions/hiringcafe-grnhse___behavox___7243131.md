@@ -4,7 +4,7 @@ title: Agentic AI Engineer
 company: Behavox
 location: 'Toronto, Ontario, Canada'
 applicationLink: 'https://job-boards.greenhouse.io/behavox/jobs/7243131'
-postedDate: '2025-09-29T06:44:37.202Z'
+postedDate: '2025-09-29T09:31:49.797Z'
 expirationDate: null
 tags:
   - Software Development

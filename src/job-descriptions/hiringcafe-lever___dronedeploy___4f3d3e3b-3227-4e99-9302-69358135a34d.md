@@ -4,7 +4,7 @@ title: 'Business Development Representative, EMEA (UK)'
 company: Dronedeploy
 location: 'London, England, United Kingdom'
 applicationLink: 'https://jobs.lever.co/dronedeploy/4f3d3e3b-3227-4e99-9302-69358135a34d/apply'
-postedDate: '2025-09-29T06:44:28.848Z'
+postedDate: '2025-09-29T09:31:38.714Z'
 expirationDate: null
 tags:
   - Business Development

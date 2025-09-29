@@ -278,48 +278,41 @@ export async function seedFirestore() {
   await syncDeletions(db, jobsCollection, localJobIds, 'jobs');
   await syncDeletions(db, articlesCollection, localArticleSlugs, 'articles');
 
-  const upsertBatch = db.batch();
-  let operationsCount = 0;
+  const upsertInBatches = async (adminDb: admin.firestore.Firestore, collectionRef: admin.firestore.CollectionReference, items: any[], idField: string) => {
+    const batchSize = 400; // Firestore batch limit is 500, use 400 to be safe
+    for (let i = 0; i < items.length; i += batchSize) {
+      const batchItems = items.slice(i, i + batchSize);
+      const batch = adminDb.batch();
+      console.log(`Processing batch ${i / batchSize + 1} for ${collectionRef.path} (items ${i + 1}-${i + batchItems.length})`);
+      for (const item of batchItems) {
+        if (!item[idField]) {
+          console.warn(`[SKIPPING] Item found without an '${idField}' in its frontmatter.`, item);
+          continue;
+        }
+        const docRef = collectionRef.doc(item[idField]);
+        batch.set(docRef, item, { merge: true });
+      }
+      await batch.commit();
+      console.log(`Batch ${i / batchSize + 1} committed successfully.`);
+    }
+  };
 
   console.log(`Found ${processedJobs.length} job files to process for upsert...`);
-  for (const job of processedJobs) {
-    if (!job.id) {
-      console.warn(`[SKIPPING] Job file found without an 'id' in its frontmatter.`, job);
-      continue;
-    }
-    const jobRef = jobsCollection.doc(job.id);
-    upsertBatch.set(jobRef, job, { merge: true });
-    operationsCount++;
-    if (job.status === 'published') {
-      await notifyUrlUpdate(`${SITE_URL}/jobs/${job.id}`);
-    }
-  }
+  await upsertInBatches(db, jobsCollection, processedJobs, 'id');
 
   console.log(`Found ${processedArticles.length} article files to process for upsert...`);
-  for (const article of processedArticles) {
-    if (!article.slug) {
-      console.warn(`[SKIPPING] Article file found without a 'slug' in its frontmatter.`, article);
-      continue;
-    }
-    const articleRef = articlesCollection.doc(article.slug);
-    upsertBatch.set(articleRef, article, { merge: true });
-    operationsCount++;
-  }
+  await upsertInBatches(db, articlesCollection, processedArticles, 'slug');
 
-  if (operationsCount > 0) {
-    await upsertBatch.commit();
-    console.log(`Firestore upsert complete. Processed ${operationsCount} upsert operations.`);
+  // Revalidation logic needs to be adjusted if we process many files,
+  // as it might hit rate limits. For now, we keep it simple.
+  const pathsToRevalidate = [
+    '/',
+    '/articles',
+    ...processedJobs.map((job) => `/jobs/${job.id}`),
+    ...processedArticles.map((article) => `/articles/${article.slug}`),
+  ];
+  await revalidatePaths(pathsToRevalidate);
 
-    const pathsToRevalidate = [
-      '/',
-      '/articles',
-      ...processedJobs.map((job) => `/jobs/${job.id}`),
-      ...processedArticles.map((article) => `/articles/${article.slug}`),
-    ];
-    await revalidatePaths(pathsToRevalidate);
-  } else {
-    console.log('No valid Markdown files found to upsert. Firestore remains unchanged.');
-  }
 }
 
 // --- EXECUTION BLOCK ---

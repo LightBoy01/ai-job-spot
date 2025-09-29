@@ -1,0 +1,115 @@
+---
+id: >-
+  hiringcafe-workday___mastercard-wd1-corporatecareers___vice-president-gen-ai_r-261799
+title: Vice President Gen AI
+company: Mastercard
+location: 'New York City, New York, United States'
+applicationLink: >-
+  https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/New-York-City-New-York/Vice-President-Gen-AI_R-261799
+postedDate: '2025-09-26T00:00:00.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - develop GenAI
+  - lead teams
+  - recruit talent
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$240,000 - $384,000'
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/workday___mastercard-wd1-corporatecareers___vice-president-gen-ai_r-261799
+companyLogoUrl: null
+---
+**Our Purpose**
+
+_Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential._
+
+**Title and Summary**
+
+Vice President Gen AI
+
+Who is Mastercard?  
+  
+We work to connect and power an inclusive, digital economy that benefits everyone, everywhere, by making transactions safe, simple, smart, and accessible. Using secure data and networks, partnerships, and passion, our innovations and solutions help individuals, financial institutions, governments, and businesses realize their greatest potential. Our decency quotient, or DQ, drives our culture and everything we do inside and outside of our company. We cultivate a culture of inclusion for all employees that respects their individual strengths, views, and experiences. We believe that our differences enable us to be a better team – one that makes better decisions, drives innovation, and delivers better business results.  
+  
+Technology at Mastercard  
+  
+What we create today will define tomorrow. Revolutionary technologies that reshape the digital economy to be more connected and inclusive than ever before. Safer, faster, more sustainable.   
+  
+And we need the best people to do it. Technologists who are energized by the challenges of a truly global network. With the talent and vision to create the critical systems and products that power global commerce and connect people everywhere to the vital goods and services they need every day.  
+  
+Working at Mastercard means being part of a unique culture. Inclusive and diverse, a rich collaboration of ideas and perspectives. A place that celebrates your strengths, values your experiences, and offers you the flexibility to shape a career across disciplines and continents. And the opportunity to work alongside experts and leaders at every level of the business, improving what exists, and inventing what’s next.  
+  
+About the Role  
+  
+Software Engineers at Mastercard design and code artificial intelligence, cloud, and machine learning platforms that provide mission-critical insights to many of the world’s leading organizations and governments. As a Vice President GenAI, you will deliver these tools and solutions with speed and agility as part of a small team. This will involve developing high-performing, highly scalable software AI and ML solutions and products for some of the world’s top brands.  
+  
+All staff at Mastercard are expected to demonstrate 'Mastercard Way' cultural values every day - own it, simplify it, sense of urgency, thoughtful risk-taking, unlock potential, and be inclusive – with a relentless focus on our customers.  
+  
+As a Vice President, Gen AI at Mastercard, you are expected to perform the following general responsibilities:  
+  
+Hands-on with developing GenAI solutions for Payment Networks including in the development of various ML/AI services such as MCP server, Vibe Coding Platform and Agent AI services.  
+  
+Manages the RTGS, Reporting aspect of the Customer Funds Management within Treasury Services and the teams that engineer that critical portion of Settlement.  
+  
+Formally supervise and coach teams of engineers to build, enhance, and support tools, services and products to support the Payment Networks group in the delivery of internal Products, Platforms, or services.  
+  
+Drive the implementation of Vibe Coding solutions; Model Context Protocol servers, Agentic AI solutions including Retrieval Augmented Generation RAG) solutions.  
+  
+Provide strategic thinking and leadership related GenAI for Payment Networks applications and systems.  
+  
+Recruit and hire the right talent, always bringing in someone better than at least half the individuals in the role  
+  
+Continuously engage and improve teams’ performance by conducting recurring 1-1 meetings, knowing your people, managing career development, and understanding who is at risk  
+  
+Continuously build a strong network across the company for collaboration on technical and business solutions  
+  
+Emulate and drive Mastercard Way behaviors through their behavior, recognitions, coaching, and employee engagement  
+  
+Own relationships with key stakeholders across Architecture and Technology, Infrastructure, and Product  
+  
+  
+  
+   
+  
+All About You  
+  
+Experience with Machine Learning Algorithms, AI and GenAI tools and processes.  
+  
+Knowledge about GenAI designs and architectural patterns including MCP (Model Context Protocol), Agentic AI, Retrieval Augment Generation (RAG) and current LLM’s  
+  
+Deep expertise in cloud-native development private (Pivotal) and public (AWS, Azure, GCP)  
+  
+Optimize for both cost as well as performance and choosing models that are optimal given the business and technology environment  
+  
+Excellent understanding of software architecture principles and design patterns  
+  
+Strong communication and interpersonal skills with the ability to influence at multiple levels  
+  
+Demonstrated ability to recruit, develop, and retain top engineering talent  
+  
+Bachelor’s or Master’s degree in Computer Science, Engineering, or related field.
+
+Mastercard is a merit-based, inclusive, equal opportunity employer that considers applicants without regard to gender, gender identity, sexual orientation, race, ethnicity, disabled or veteran status, or any other characteristic protected by law. We hire the most qualified candidate for the role. In the US or Canada, if you require accommodations or assistance to complete the online application process or during the recruitment process, please contact reasonable\_accommodation@mastercard.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.
+
+**Corporate Security Responsibility**
+
+  
+All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must:
+
+*   Abide by Mastercard’s security policies and practices;
+    
+*   Ensure the confidentiality and integrity of the information being accessed;
+    
+*   Report any suspected information security violation or breach, and
+    
+*   Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.
+    
+
+In line with Mastercard’s total compensation philosophy and assuming that the job will be performed in the US, the successful candidate will be offered a competitive base salary and may be eligible for an annual bonus or commissions depending on the role. The base salary offered may vary depending on multiple factors, including but not limited to location, job-related knowledge, skills, and experience. Mastercard benefits for full time (and certain part time) employees generally include: insurance (including medical, prescription drug, dental, vision, disability, life insurance); flexible spending account and health savings account; paid leaves (including 16 weeks of new parent leave and up to 20 days of bereavement leave); 80 hours of Paid Sick and Safe Time, 25 days of vacation time and 5 personal days, pro-rated based on date of hire; 10 annual paid U.S. observed holidays; 401k with a best-in-class company match; deferred compensation for eligible roles; fitness reimbursement or on-site fitness facilities; eligibility for tuition reimbursement; and many more.
+
+**Pay Ranges**
+
+New York City, New York: $240,000 - $384,000 USD

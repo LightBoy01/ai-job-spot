@@ -1,4 +1,3 @@
-
 import { promises as fs } from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -18,8 +17,8 @@ const ARCHIVE_DIR = path.resolve(process.cwd(), 'scripts', 'archive');
  * Reads all local job files for a specific source to get their status and path.
  * @returns A Map where the key is the job ID and the value is its frontmatter.
  */
-async function getLocalJobs(sourceName: string): Promise<Map<string, any>> {
-  const localJobs = new Map<string, any>();
+async function getLocalJobs(sourceName: string): Promise<Map<string, unknown>> {
+  const localJobs = new Map<string, unknown>();
   try {
     const files = await fs.readdir(JOB_DESCRIPTIONS_DIR);
     for (const file of files) {
@@ -31,8 +30,8 @@ async function getLocalJobs(sourceName: string): Promise<Map<string, any>> {
         localJobs.set(id, { ...data, filePath });
       }
     }
-  } catch (error: any) {
-    if (error.code !== 'ENOENT') {
+  } catch (error: unknown) {
+    if (error instanceof Error && (error as NodeJS.ErrnoException).code !== 'ENOENT') {
       console.warn(`[Orchestrator] Warning: Could not read job descriptions directory.`);
     }
   }
@@ -52,7 +51,7 @@ async function main() {
     try {
       // 1. Fetch all jobs from the remote API
       const remoteJobs = await source.fetchJobs();
-      const remoteJobIds = new Set(remoteJobs.map(job => `${source.name}-${job.id}`));
+      const remoteJobIds = new Set(remoteJobs.map((job: unknown) => `${source.name}-${(job as { id: string }).id}`));
       console.log(`[Sync] Found ${remoteJobIds.size} jobs at source API.`);
 
       // 2. Get all local jobs for this source
@@ -63,7 +62,7 @@ async function main() {
       let archivedCount = 0;
       for (const [localId, localJobData] of localJobs.entries()) {
         if (!remoteJobIds.has(localId)) {
-          const oldPath = localJobData.filePath;
+          const oldPath = (localJobData as { filePath: string }).filePath;
           const newPath = path.join(ARCHIVE_DIR, path.basename(oldPath));
           await fs.rename(oldPath, newPath);
           console.log(`[Sync] Archived stale job: ${path.basename(oldPath)}`);
@@ -79,20 +78,20 @@ async function main() {
       let errorCount = 0;
       for (const rawJob of remoteJobs) {
         try {
-          const job_id = `${source.name}-${rawJob.id}`;
-          const oldJobData = localJobs.get(job_id);
+          const job_id = `${source.name}-${(rawJob as {id: string}).id}`;
+          const oldJobData = localJobs.get(job_id) as { status?: string } | undefined;
           const oldStatus = oldJobData?.status;
 
           const standardJob = source.transform(rawJob, oldStatus);
           await writeJobFile(standardJob);
           successCount++;
-        } catch (transformError: any) {
-          console.error(`[Refresh] Error processing job ${rawJob.id} from ${source.name}: ${transformError.message}`);
+        } catch (transformError: unknown) {
+          const errorMessage = transformError instanceof Error ? transformError.message : JSON.stringify(transformError);
+          console.error(`[Refresh] Error processing job ${(rawJob as {id: string}).id} from ${source.name}: ${errorMessage}`);
           errorCount++;
         }
       }
-      console.log(`--- Source ${source.name} complete. Refreshed/created: ${successCount}, Errors: ${errorCount} ---
-`);
+      console.log(`--- Source ${source.name} complete. Refreshed/created: ${successCount}, Errors: ${errorCount} ---`);
 
     } catch (error) {
       const fetchError = error instanceof Error ? error : new Error(JSON.stringify(error));
@@ -100,8 +99,7 @@ async function main() {
     }
   }
 
-  console.log('
-[Orchestrator] Sync & Refresh pipeline finished.');
+  console.log('\n[Orchestrator] Sync & Refresh pipeline finished.');
 }
 
 main().catch(error => {

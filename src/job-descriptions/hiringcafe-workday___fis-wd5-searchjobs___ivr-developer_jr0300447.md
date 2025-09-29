@@ -5,7 +5,7 @@ company: FIS
 location: Bengaluru or Pune
 applicationLink: >-
   https://fis.wd5.myworkdayjobs.com/searchjobs/job/IND-BNGL-2nd--3rd-Flr-Tower-3/IVR-Developer_JR0300447
-postedDate: '2025-09-29T06:44:29.605Z'
+postedDate: '2025-09-29T09:31:39.560Z'
 expirationDate: null
 tags:
   - Information Technology

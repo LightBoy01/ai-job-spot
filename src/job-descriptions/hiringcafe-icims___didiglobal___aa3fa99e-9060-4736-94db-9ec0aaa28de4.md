@@ -1,0 +1,85 @@
+---
+id: hiringcafe-icims___didiglobal___aa3fa99e-9060-4736-94db-9ec0aaa28de4
+title: Tech Support Engineer
+company: DiDi Global
+location: 'Sao Paulo, São Paulo, Brazil'
+applicationLink: >-
+  https://careers-didiglobal.icims.com/jobs/15538/job?utm_source=hiringcafe_integration&iis=Job%20Board&iisn=HiringCafe
+postedDate: '2025-09-29T09:31:45.142Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Identifying issues
+  - Collaborating teams
+  - Leading localization
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/icims___didiglobal___aa3fa99e-9060-4736-94db-9ec0aaa28de4
+companyLogoUrl: null
+---
+Company Overview:
+
+DiDi Global Inc. is the world’s leading mobility technology platform. It offers a wide range of app-based services across markets including Asia-Pacific, Latin America and Africa, including ride hailing, taxi hailing, chauffeur, hitch and other forms of shared mobility as well as auto solutions, food delivery, intra-city freight, and financial services.
+
+DiDi provides car owners, drivers, and delivery partners with flexible work and income opportunities. It is committed to collaborating with policymakers, the taxi industry, the automobile industry and the communities to solve the world’s transportation, environmental and employment challenges through the use of AI technology and localized smart transportation innovations. DiDi strives to create better life experiences and greater social value, by building a safe, inclusive and sustainable transportation and local services ecosystem for cities of the future.
+
+For more information, please visit: [www.didiglobal.com/news](http://www.didiglobal.com/news)
+
+#LI-Hybrid
+
+Team Overview:
+
+We are DiDi international quality team, primarily focused on ensuring the high-quality delivery of our company's global products, covering the entire product lifecycle. Through agile development, technological innovation (such as automated testing and AI), and continuous learning, we enhance testing efficiency and user experience. With a global perspective, our team is committed to optimizing processes and advancing technological frontiers, ensuring product stability and competitiveness to drive the success of our international business.
+
+我们是滴滴国际化质量团队，主要专注于确保公司全球产品的高质量交付，覆盖产品的整个生命周期。通过敏捷开发、技术创新（如自动化测试和人工智能）以及持续学习，我们提升测试效率和用户体验。凭借全球视野，我们的团队致力于优化流程、开拓技术前沿，保障产品的稳定性与竞争力，推动国际业务取得成功。
+
+Role Responsibilities:
+
+1\. Identify and resolve online issues for overseas users by proactively collecting, investigating, and tracking problems through various channels. Ensure timely resolution and full-cycle management of user issues.  
+2\. Collaborate with local operations and customer service teams to provide fast and effective technical support for internal systems, enhancing system usability and availability.  
+3\. Co-establish an overseas information monitoring system in coordination with domestic teams — including, but not limited to, rider-driver feedback chat groups, public sentiment monitoring, and customer service call analysis.  
+4.Organize and lead localized product experience initiatives to promote the concept of “high quality, excellent user experience” and foster a user-centric quality mindset.  
+5.Conduct comprehensive localization testing across all scenarios, including functionality, UI/UX interactions, environmental compatibility, and content/copy validation, ensuring product delivery quality.
+
+1、负责海外用户线上问题的感知、定位和排查，通过各种渠道主动收集和反馈用户遇到的问题，快速推动解决，做好用户问题的闭环管理。   
+2、和当地运营以及客服协作，对内部系统提供快速高效的技术支持，提高内部系统可用以及易用性。  
+3、和国内一起建立海外信息雷达，包括但不限于司乘反馈群，舆情监控、客服进线分析等。  
+4、组织开展海外本地化产品体验活动，传递 “高质量、好体验” 理念，提升以用户为导向的质量体验意识 。  
+5、负责本地化全场景测试，覆盖功能交互、环境适配、文案等维度，保障产品交付质量 。
+
+Role Qualifications:
+
+1.Bachelor’s degree or above in any discipline. Background in technical support, QA/testing, test development, pre-sales/post-sales, or overseas business is preferred.  
+2.Proficient in Chinese, English, and Portuguese, with strong verbal and written communication skills and the ability to engage in face-to-face interactions.  
+3.Strong cross-functional coordination and process management skills, with excellent communication and execution capabilities.  
+4.Highly resilient under pressure, with strong business acumen, a high sense of responsibility, and strong self-motivation.  
+5.Familiarity with Latin American markets, including aspects such as payment systems and regulatory compliance. Experience in customer service coordination or user operations is prefered.
+
+1、本科及以上学历，专业不限，技术支持、测试、测开、售后、售前、出海业务优先。   
+2、掌握中文、英文以及葡语三种语言，有良好的听说读写和面对面交流的能力。   
+3、有较强的跨部门协调和流程管理能力，优秀的沟通技巧和推动力。   
+4、抗压能力强，业务敏感度高，有强烈的责任心和自驱力。  
+5、熟悉拉美市场特性（如支付、合规等）；有客服对接或用户运营经验更优。
+
+EEO Statement:
+
+*   We create customer value – We strive to always create valuable experiences for our users in everything we do. Our focus is to always innovate new experiences that are safe, pleasant, and efficient.
+*   We are data-driven – We are strong believers in making informed decisions, that’s why we are data-driven. We can better navigate the business landscape strategically by analyzing valuable metrics.
+*   We believe in Win-win Collaboration – Success is a team sport. When we work to help our partners and colleagues win, we win, too. While keeping everyone's best interest at heart, we communicate with candor and execute with excellence in all we do.
+*   We believe in integrity – Integrity is at the very core of our business. We are people who always want to do the right thing. Our intentions are sincere, we speak our minds and listen to each other.
+*   We always strive to do better. That means venturing beyond our comfort zones, learning from our mistakes, and helping each other grow.
+*   We believe in Diversity and Inclusion – Diversity is one of our biggest strengths. Our differences are what makes us distinct. We respect each other and believe in equal opportunities for all.
+
+**We are committed to building inclusive and diverse teams.**
+
+At DiDi, we believe that our differences are our biggest source of strength. That‘s why we are committed to promoting equal opportunities to all candidates and employees as an Equal Opportunity Employer.
+
+Employment and advancement decisions at DiDi are always made based on the needs of the position and the qualifications of the candidate. We do not discriminate against any employee or applicant based on their gender, age, sexual orientation, nationality, marital status, pregnancy/maternity, disability, race, religion and beliefs, or any other status protected by applicable laws wherever we operate.
+
+We are committed to building inclusive and diverse teams, and a workplace that is free from discrimination and harassment, because that’s how we create better products and services, make better decisions and better serve the communities we’re a part of.
+
+_**I acknowledge that prior to submitting this application, I have read and accepted the Privacy Notice for Candidates which is available on [https://careers.didiglobal.com/terms](https://careers.didiglobal.com/terms)**_

@@ -6,7 +6,7 @@ location: >-
   Bellevue or Chicago or Denver or Irvine or Los Angeles or New York or San
   Francisco or San Jose or Ventura
 applicationLink: 'https://job-boards.greenhouse.io/thetradedesk/jobs/4839695007'
-postedDate: '2025-09-29T06:44:28.078Z'
+postedDate: '2025-09-29T09:31:37.994Z'
 expirationDate: null
 tags:
   - Product Management

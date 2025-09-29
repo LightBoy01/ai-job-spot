@@ -5,7 +5,7 @@ company: Valeo
 location: 'Bietigheim-Bissingen, Baden-Württemberg, Germany'
 applicationLink: >-
   https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Bietigheim-Bissingen/Werkstudent--m-w-d-_REQ2025058498
-postedDate: '2025-09-29T06:44:29.971Z'
+postedDate: '2025-09-29T09:31:39.952Z'
 expirationDate: null
 tags:
   - Research and Development (R&D)

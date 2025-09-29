@@ -1,0 +1,42 @@
+---
+id: hiringcafe-taleo_careersection_unifirst_2505407
+title: 'Associate Director, Instructional Design & Learning Strategy'
+company: UniFirst
+location: 'Wilmington, Massachusetts, United States'
+applicationLink: >-
+  https://unifirst.taleo.net/careersection/unf_external_simp/jobdetail.ftl?job=2505407&lang=en
+postedDate: '2025-09-27T11:17:17.000Z'
+expirationDate: null
+tags:
+  - Education services
+  - Strategic leadership
+  - Team leadership
+  - Business consultation
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/taleo_careersection_unifirst_2505407'
+companyLogoUrl: null
+---
+**Shape the Future of Learning at UniFirst** 
+
+At UniFirst, our people are the reason we succeed. Helping them learn, grow, and deliver their best every day is how we strengthen our culture and serve our customers. We’re seeking a Senior Manager of Instructional Design & Strategy to join our Talent Management team and lead the development of innovative, business-driven learning experiences.
+
+This is a critical leadership role where you’ll combine strategy, consulting, and design to reimagine how learning happens across UniFirst. From field training to compliance programs and new business launches, you’ll ensure our people are equipped with the skills they need—delivered through modern, engaging methods that drive measurable results.
+
+**What You’ll Do**  
+**• Strategic Leadership:** Provide the vision and roadmap for on-the-job/functional training, ensuring consistent effectiveness through systematic program evaluation and continuous improvement.  
+**• Lead and Inspire:** Build, lead, and coach a team of high-caliber instructional designers, training facilitators, and program managers (including vendor partners and contractors).  
+**• Consult with Business:** Partner with business leaders to provide consultation on adult learning theory, instructional design best practices, and emerging learning technologies, and to understand their goals, identify skill gaps, and design tailored learning solutions that deliver impact across diverse business units.  
+• Develop and deliver toolkits, templates, and playbooks to enable leaders across the business to provide effective training and learning.  
+• Ensure best practices in training facilitation and equip business leaders with effective facilitation skills.  
+• **Design with Innovation:** Leverage the latest tools and methods—Articulate 360, Adobe Captivate, Camtasia, Vyond, virtual classroom platforms, microlearning, and AI-enabled solutions—to build high-quality instructor-led, e-learning, and blended learning programs.  
+**• Drive On-the-Job Learning:** Build programs that extend learning into the flow of work through coaching, mentoring, and real-world application.  
+**• Collaborate Broadly:** Work closely with HRBPs, Leadership Development, and HR Technology teams to ensure alignment with broader talent initiatives.
+
+**• Measure Success:** Define and track program outcomes, ensuring learning solutions are aligned with compliance requirements and deliver measurable business results.
+
+  
+%3Cp%3E%3Cspan style=%22font-family:Arial;%22%3E%3Cstrong%3EHow You’ll Be Successful%3C/strong%3E%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• You balance strategy and execution—setting vision, managing resources, and staying close to the work to ensure quality and impact.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• You’re a trusted consultant who knows how to ask the right questions, influence decisions, and create solutions leaders want to adopt.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• You thrive on innovation, bringing in new ideas, tools, and approaches that keep UniFirst at the forefront of workplace learning.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• You’re a strong people leader, able to mentor, motivate, and hold teams accountable while building trust with stakeholders.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• You’re resilient, agile, and adaptable, with a track record of delivering large-scale projects on time and with excellence.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• You stay current on learning science and industry trends, and you know how to translate them into practical, effective solutions.%3C/span%3E%3C/p%3E%3Cp%3E%3Cspan style=%22font-family:Arial;%22%3E%3Cstrong%3EWhat You’ll Bring%3C/strong%3E%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• 10+ years of experience in instructional design, learning strategy, and program management, with at least 5 years leading a team.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• Proven ability to consult with business leaders and build enterprise-wide learning strategies.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• Expertise in adult learning, instructional design, and on-the-job learning methods.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• Advanced proficiency in modern design tools: Articulate 360, Adobe Captivate, Camtasia, Vyond, Workday Learning (or other LMS platforms), and emerging AI-enabled tools.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• Excellent leadership, communication, project management, and change leadership skills.%3C/span%3E%3Cbr%3E%3Cspan style=%22font-family:Arial;%22%3E• Bachelor’s degree in Instructional Design, Education, Organizational Development, or related field%3C/span%3E%3C/p%3E%3Cp style=%22color:black;font-family:arial;font-size:10.5pt;margin-bottom:9pt;margin-top:0pt;%22%3E%3Cspan style=%22background-color:white;%22%3E%3Cstrong%3EBenefits %26amp; Perks:%3C/strong%3E%3C/span%3E%3C/p%3E%3Cp style=%22color:black;font-family:arial;font-size:10.5pt;margin-bottom:9pt;margin-top:0pt;%22%3E%3Cspan style=%22background-color:white;%22%3E401K with Company Match, Profit Sharing, Health Insurance, Employee Assistance Program, Life Insurance, Paid Time Off, Tuition Reimbursement, 30% Employee Discount, Employee Referral Bonuses.%3C/span%3E%3C/p%3E%3Cp style=%22color:black;font-family:arial;font-size:10.5pt;margin-bottom:9pt;margin-top:0pt;%22%3E%3Cspan style=%22background-color:white;%22%3EUniFirst is an international leader in garment %26amp; Uniform services industry. We currently employ over 14,000 team partners who serve 300,000 business customer locations throughout the U.S., Canada, and Europe.%3C/span%3E%3C/p%3E%3Cp style=%22color:black;font-family:arial;font-size:10.5pt;margin-bottom:9pt;margin-top:0pt;%22%3E%3Cspan style=%22background-color:white;%22%3EWe were included in the top 10 of Selling Power magazine’s “Best Companies to Sell For” list and recognized on Forbes magazine’s “Platinum 400 – Best Big Companies” list. As an 80-year old company focused on annual growth, there’s never been a better time to join our team.%26nbsp;%3C/span%3E%3C/p%3E%3Cp style=%22color:black;font-family:arial;font-size:10.5pt;margin-bottom:9pt;margin-top:0pt;%22%3E%3Cspan style=%22background-color:white;%22%3E%3Cstrong%3EUniFirst is an equal opportunity employer. We do not discriminate in hiring or employment against any individual on the basis of race, color, gender, national origin, ancestry, religion, physical or mental disability, age, veteran status, sexual orientation, gender identity or expression, marital status, pregnancy, citizenship, or any other factor protected by anti-discrimination laws%3C/strong%3E%3C/span%3E%3C/p%3E

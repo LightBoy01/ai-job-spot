@@ -4,7 +4,7 @@ title: 'Senior Manager, Product Marketing (MLOps)'
 company: JFrog
 location: Sunnyvale or New York City
 applicationLink: 'https://join.jfrog.com/job/?job=6698218&gh_jid=6698218'
-postedDate: '2025-09-29T06:44:29.087Z'
+postedDate: '2025-09-29T09:31:38.909Z'
 expirationDate: null
 tags:
   - Marketing

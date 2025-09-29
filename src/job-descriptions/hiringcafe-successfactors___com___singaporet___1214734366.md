@@ -7,7 +7,7 @@ company: ST Engineering | Harnessing Technology and Innovation
 location: 'Singapore, Singapore'
 applicationLink: >-
   https://careers.stengg.com/job/Aero-600-West-Camp-Road-Principal-AI-Engineer-Generative-&-Agentic-AI%2C-AI_DA-STC/1214734366/
-postedDate: '2025-09-29T06:44:28.891Z'
+postedDate: '2025-09-29T09:31:38.755Z'
 expirationDate: null
 tags:
   - Software Development

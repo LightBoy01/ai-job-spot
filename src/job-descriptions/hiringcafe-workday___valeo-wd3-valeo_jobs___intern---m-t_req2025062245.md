@@ -5,7 +5,7 @@ company: Valeo
 location: 'Chennai, Tamil Nadu, India'
 applicationLink: >-
   https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Chennai/Intern---M-T_REQ2025062245
-postedDate: '2025-09-29T06:44:29.942Z'
+postedDate: '2025-09-29T09:31:39.931Z'
 expirationDate: null
 tags:
   - Research and Development (R&D)

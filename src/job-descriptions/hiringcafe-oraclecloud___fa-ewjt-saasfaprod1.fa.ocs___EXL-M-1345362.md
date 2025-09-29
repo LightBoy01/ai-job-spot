@@ -1,0 +1,28 @@
+---
+id: hiringcafe-oraclecloud___fa-ewjt-saasfaprod1.fa.ocs___EXL-M-1345362
+title: Manager
+company: exl Service.com (India) Private Limited
+location: 'Pune, Maharashtra, India'
+applicationLink: >-
+  https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/EXL-M-1345362
+postedDate: '2025-09-26T18:26:55.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - Agent development
+  - RAG pipelines
+  - Fine-tuning
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/oraclecloud___fa-ewjt-saasfaprod1.fa.ocs___EXL-M-1345362
+companyLogoUrl: null
+---
+Job Title: Generative AI Engineer Role Overview: We are looking for a highly skilled Generative AI Engineer with deep experience in building and deploying AI agent-based systems, Retrieval-Augmented Generation (RAG) frameworks, and working with large language models (LLMs). The ideal candidate will bring hands-on experience with AWS Bedrock and other Gen AI platforms, with a proven ability to fine-tune foundation models and develop domain-specific LLMs. This role offers the opportunity to work at the forefront of applied AI, solving real-world problems through intelligent, adaptive, and scalable AI solutions. Key Responsibilities: AI Agent Development:  Design and implement multi-agent AI systems capable of orchestrating reasoning, planning, and task execution using LLMs. RAG Frameworks:  Build and optimize Retrieval-Augmented Generation pipelines using vector databases and LLMs to improve contextual understanding and response generation. LLM Fine-Tuning & Customization:  Fine-tune and customize foundation models (e.g., Claude, Llama, Titan, Falcon) for enterprise-specific use cases and domains. Infrastructure Integration:  Leverage AWS services (including Bedrock, SageMaker, Lambda, Step Functions) to scale and deploy generative AI solutions efficiently and securely. Model Evaluation & Governance:  Define accuracy metrics, evaluate model performance, and ensure compliance with security, privacy, and ethical standards. Collaboration and team management:  Work closely with product managers, data scientists, MLOps engineers, and domain SMEs to translate business needs into scalable Gen AI applications. Required Skills: Strong experience with Gen AI ecosystems – including Bedrock, HuggingFace, LangChain, or similar. Proven expertise in LLM fine-tuning , prompt engineering, and building domain-specific models . Hands-on experience with agentic AI systems and RAG architecture (e.g., using tools like LangGraph, Haystack, or DSPy). Solid programming experience in Python and frameworks such as PyTorch or TensorFlow. Experience with vector databases (e.g., FAISS, Pinecone, Weaviate) for retrieval components. Familiarity with AWS AI/ML stack , including security and deployment best practices. Preferred Qualifications: Master’s or PhD in Computer Science, Machine Learning, or a related field. Minimum 5 years of experience in building AI/ML projects Experience building AI-powered copilots, assistants, or autonomous agents in real-world production environments. Knowledge of LLM evaluation techniques , model distillation, and optimization. Strong understanding of LLM limitations, hallucinations, and guardrails . Excellent problem-solving and communication skills, with the ability to convey complex AI concepts to non-technical audiences.
+
+### About Company
+
+EXL is the indispensable partner for leading businesses in data-led industries such as insurance, banking and financial services, healthcare, retail and logistics. We bring a unique combination of data, advanced analytics, digital technology and industry expertise to help our clients turn data into insights, streamline operations, improve customer experience, and transform their business. Our partnerships with clients are built on a foundation of collaboration – and we’ve been chosen as a partner by nine of the top ten leading US insurance companies, nine of the top 20 global banks, and six of the top ten US health care payers. We function as one team to make your goals our goals, whether that’s unlocking the value of generative AI or embedding analytics into workflows that reduce risk or power your growth. Clients choose EXL as their transformation partner for many reasons. Our geographic diversity make talent all over the world instantly accessible. Digital accelerators enable unmatched speed-to-value, letting you realize results fast. It’s our people that truly set us apart, though, including the 1,500 data scientists we have dedicated to our generative AI practice. And our more than twenty years of experience in delivering business services, garnering stellar client references, and maintaining a solid balance sheet are reassuring to our C-suite clients. Find out for yourself why clients, employees, and analysts think we’re some of the best in the business. Contact us to see how we can help you achieve your goals.
