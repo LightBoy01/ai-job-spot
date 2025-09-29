@@ -2,7 +2,7 @@
 import { gotScraping } from 'got-scraping';
 import { z } from 'zod';
 import TurndownService from 'turndown';
-import { StandardJob, StandardJobSchema } from '../types.ts';
+import { StandardJob } from '../types.ts';
 
 // Zod schemas based on the user-provided snippet for type safety
 const GeoLocationSchema = z.object({
@@ -74,7 +74,7 @@ async function fetchJobs(): Promise<JobResult[]> {
             let rawData;
             try {
                 rawData = JSON.parse(response.body);
-            } catch (e) {
+            } catch {
                 console.error(`[hiring.cafe] Failed to parse JSON response. Raw body:`, response.body);
                 break; // Stop processing this source if we get invalid JSON
             }

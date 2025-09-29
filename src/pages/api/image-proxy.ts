@@ -35,7 +35,7 @@ export default async function handler(
   let parsedUrl;
   try {
     parsedUrl = new URL(url);
-  } catch (error) {
+  } catch {
     return res.status(400).json({ error: 'Invalid URL format' });
   }
 

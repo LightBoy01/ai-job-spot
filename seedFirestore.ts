@@ -1,4 +1,5 @@
 import { getFirebaseAdmin, admin } from './src/lib/firebaseAdmin.ts';
+import type { JobPosting } from './src/lib/types.ts';
 import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
@@ -172,6 +173,11 @@ async function enrichJobs() {
     if (jobsToProcess.length === 0) return;
 
     for (const job of jobsToProcess) {
+        if (!job.id) {
+          console.warn('[ENRICHMENT] Skipping job without an ID.', job);
+          continue;
+        }
+
         try {
             const enrichedData = await enrichJobData(job);
             const finalPayload: Partial<JobPosting> = { status: 'pending_approval' };

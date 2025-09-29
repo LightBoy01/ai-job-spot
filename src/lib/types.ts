@@ -18,7 +18,7 @@ export interface JobPosting {
   tags: string[]; // e.g., ['AI', 'Machine Learning', 'Remote']
   jobLevel?: string | null; // e.g., P40
   employeeRole?: string | null; // e.g., Individual Contributor
-  status?: 'draft' | 'pending_review' | 'published' | 'rejected'; // Workflow status
+  status?: 'draft' | 'pending_review' | 'pending_approval' | 'published' | 'rejected'; // Workflow status
   isNew?: boolean;
   source?: string | null; // Source of the job posting (e.g., scraped from a specific site)
   sourceUrl?: string | null; // The direct URL to the original job posting

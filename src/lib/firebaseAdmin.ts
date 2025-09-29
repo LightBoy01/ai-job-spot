@@ -2,7 +2,7 @@ import admin from 'firebase-admin';
 import fs from 'fs';
 import path from 'path';
 
-import { Timestamp } from 'firebase-admin/firestore';
+
 
 // A promise to hold the initialized admin services.
 let adminPromise: Promise<{ 
@@ -108,15 +108,6 @@ export const getFirebaseAdmin = () => {
   return adminPromise;
 };
 
-// Helper function to convert Admin SDK Timestamp to JavaScript Date
-const convertAdminTimestampToDate = (
-  timestamp: Timestamp | undefined
-): Date | undefined => {
-  if (timestamp && typeof timestamp.toDate === 'function') {
-    return timestamp.toDate();
-  }
-  return undefined;
-};
 
 
 

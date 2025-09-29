@@ -74,7 +74,7 @@ export const JobPostingSchema = z
     jobLevel: optionalString,
     employeeRole: optionalString,
     status: z
-      .enum(['draft', 'pending_review', 'published', 'rejected'])
+      .enum(['draft', 'pending_review', 'pending_approval', 'published', 'rejected'])
       .default('draft'),
     isNew: z.boolean().default(true),
     source: optionalString,
@@ -130,7 +130,7 @@ export type JobFormData = {
   tags?: string;
   jobLevel?: string | null;
   employeeRole?: string | null;
-  status?: 'draft' | 'pending_review' | 'published' | 'rejected';
+  status?: 'draft' | 'pending_review' | 'pending_approval' | 'published' | 'rejected';
   isNew?: boolean;
   source?: string | null;
   sourceUrl?: string | null;
