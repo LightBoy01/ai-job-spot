@@ -1,17 +1,8 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { getFirebaseAdmin } from '../../lib/firebaseAdmin';
-import { JobPosting, Article } from '../../lib/types';
-import * as admin from 'firebase-admin';
 
-const WEBSITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || 'https://aijobspot.online';
-
-const formatDate = (date: Date | admin.firestore.Timestamp): string => {
-  if (date instanceof Date) {
-    return date.toISOString();
-  }
-  return date.toDate().toISOString();
-};
+const WEBSITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aijobspot.online';
+const SITEMAP_PAGE_SIZE = 1000; // This should be the same as in the paginated sitemap files
 
 export default async function handler(
   req: NextApiRequest,
@@ -19,51 +10,57 @@ export default async function handler(
 ) {
   try {
     const { adminDb } = await getFirebaseAdmin();
-    const jobsSnapshot = await adminDb
-      .collection('jobs')
-      .where('status', '==', 'published')
-      .get();
-    const jobs = jobsSnapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-    })) as JobPosting[];
 
+    // Get counts for jobs and articles
+    const jobsSnapshot = await adminDb.collection('jobs').where('status', '==', 'published').get();
     const articlesSnapshot = await adminDb.collection('articles').get();
-    const articles = articlesSnapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-    })) as Article[];
+    const jobCount = jobsSnapshot.size;
+    const articleCount = articlesSnapshot.size;
 
-    let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${WEBSITE_URL}/</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/articles</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/jobs</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/about</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.5</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/contact</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.5</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/post-a-job</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/privacy</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n  <url>\n    <loc>${WEBSITE_URL}/terms</loc>\n    <lastmod>${new Date().toISOString()}</lastmod>\n    <changefreq>yearly</changefreq>\n    <priority>0.3</priority>\n  </url>\n`;
+    const jobPages = Math.ceil(jobCount / SITEMAP_PAGE_SIZE);
+    const articlePages = Math.ceil(articleCount / SITEMAP_PAGE_SIZE);
 
-    jobs.forEach((job) => {
-      if (job.postedDate) {
-        sitemap += `
-  <url>
-    <loc>${WEBSITE_URL}/jobs/${job.id}</loc>
-    <lastmod>${formatDate(job.postedDate)}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>`;
-      }
-    });
+    const lastModified = new Date().toISOString();
 
-    articles.forEach((article) => {
-      if (article.publishDate) {
-        sitemap += `\n  <url>\n    <loc>${WEBSITE_URL}/articles/${article.slug}</loc>\n    <lastmod>${formatDate(article.publishDate)}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>`;
-      }
-    });
+    let sitemapIndex = '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 
-    sitemap += `\n</urlset>`;
+    // Static pages sitemap (can be a separate file or included in one of the dynamic ones if preferred)
+    // For simplicity, we can create a static sitemap entry if we had one, or just list them.
+    // Here, we'll point to a conceptual static sitemap.
+    sitemapIndex += `
+  <sitemap>
+    <loc>${WEBSITE_URL}/sitemap-static.xml</loc>
+    <lastmod>${lastModified}</lastmod>
+  </sitemap>`;
+
+    // Job sitemap pages
+    for (let i = 1; i <= jobPages; i++) {
+      sitemapIndex += `
+  <sitemap>
+    <loc>${WEBSITE_URL}/api/sitemaps/jobs?page=${i}</loc>
+    <lastmod>${lastModified}</lastmod>
+  </sitemap>`;
+    }
+
+    // Article sitemap pages
+    for (let i = 1; i <= articlePages; i++) {
+      sitemapIndex += `
+  <sitemap>
+    <loc>${WEBSITE_URL}/api/sitemaps/articles?page=${i}</loc>
+    <lastmod>${lastModified}</lastmod>
+  </sitemap>`;
+    }
+
+    sitemapIndex += '\n</sitemapindex>';
 
     res.setHeader('Content-Type', 'text/xml');
     res.setHeader(
       'Cache-Control',
-      'public, s-maxage=3600, stale-while-revalidate=60'
+      'public, s-maxage=3600, stale-while-revalidate=60' // 1 hour cache
     );
-    res.status(200).send(sitemap);
+    res.status(200).send(sitemapIndex);
   } catch (error) {
-    console.error('Error generating sitemap:', error);
-    res.status(500).send('Error generating sitemap');
+    console.error('Error generating sitemap index:', error);
+    res.status(500).send('Error generating sitemap index');
   }
 }

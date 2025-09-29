@@ -1,0 +1,17 @@
+---
+id: "o-ran-du-l1-software-engineer-paylocity-payloc"
+title: "O-RAN DU L1 Software Engineer"
+company: "paylocity"
+location: "Remote"
+applicationLink: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3606071"
+postedDate: "2025-09-28T15:45:17.975246Z"
+source: "paylocity"
+provenance: "hiring.cafe"
+status: "open"
+jobLevel: "Not specified"
+employeeRole: "Not specified"
+tags: []
+companyLogo: null
+---
+
+<p>Description</p><p><strong>O-RAN DU L1 PUSCH Receiver Software Developer</strong></p><p><br></p><p>DeepSig Inc. is a venture backed and product centric technology startup building revolutionary wireless processing software solutions using cutting edge machine learning techniques to transform baseband processing, wireless sensing, and other key wireless applications.</p><p><br></p><p>We are seeking a talented <strong>Software Developer</strong> to join our team focused on the <strong>O-RAN Distributed Unit (DU) Layer 1 (L1) PUSCH receiver module</strong>. In this role, you will design, develop, optimize, and maintain AI-enabled PUSCH receiver software, contributing to high-performance 5G NR networks within the O-RAN architecture.&nbsp;</p><p><br></p><p><strong>Key Responsibilities:</strong></p><ul><li>Develop and maintain O-RAN DU L1 PUSCH receiver software modules compliant with 3GPP NR specifications.</li><li>Implement AI-PHY layer functionalities focusing on uplink signal processing, demodulation, decoding, and error correction for PUSCH.</li><li>Collaborate with protocol stack developers (MAC/RLC/PDCP) and CU/DU integration teams.</li><li>Optimize algorithms for real-time processing on embedded/general-purpose processors.</li><li>Conduct rigorous unit testing, integration testing, and validation of L1 software components.</li><li>Work closely with system architects to ensure alignment with O-RAN split architecture and interface specifications.</li><li>Participate in code reviews, technical documentation, and test automation efforts.</li><li>Troubleshoot and resolve defects and performance bottlenecks.</li><li>Ensure compliance with O-RAN and 3GPP standards.</li></ul><p><strong>Required Qualifications:</strong></p><ul><li>Bachelor’s or Master’s degree in Computer Science, Electrical Engineering, Telecommunications, or related field.</li><li>Strong knowledge of 5G NR PHY layer protocols, specifically PUSCH.</li><li>Hands-on experience with O-RAN architecture, DU, CU, and their interfaces.</li><li>Proficient in C/C++ programming with emphasis on embedded and real-time systems.</li><li>Familiarity with digital signal processing (DSP) techniques and algorithms related to uplink reception.</li><li>Experience with software development lifecycle, version control, and CI/CD pipelines.</li><li>Good understanding of multi-threading, concurrency, and performance optimization.</li><li>Ability to interpret and implement 3GPP and O-RAN technical specifications.</li></ul><p><strong>Preferred Skills:</strong></p><ul><li>srsRAN 5G L1 development experience highly preferred</li><li>Experience with Layer 1 integration and testing in O-RAN or vRAN environments.</li><li>Knowledge of software simulation tools and radio hardware architecture.</li><li>Familiarity with containerization and cloud-native environments (Kubernetes, Docker).</li><li>Experience with MATLAB, Python, or similar tools used for algorithm development or testing.</li><li>Strong problem-solving skills and attention to detail.</li><li>Good communication and teamwork skills in a cross-functional development environment.</li></ul>

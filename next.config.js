@@ -3,7 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['localhost', 'aijobspot.online', 'www.aijobspot.online'],
-    unoptimized: true,
   },
   async headers() {
     const cspHeader = `
@@ -32,6 +31,11 @@ const nextConfig = {
         ],
       },
     ];
+  },
+  api: {
+    bodyParser: {
+      sizeLimit: '1mb',
+    },
   },
   async redirects() {
     return [

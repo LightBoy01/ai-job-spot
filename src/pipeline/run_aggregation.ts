@@ -32,8 +32,42 @@ async function main() {
     })) as Source[];
 
     for (const source of sources) {
-      if (source.status !== 'Pending') {
+      // Decide whether to process this source based on its status and frequency
+      if (source.status === 'Pending') {
+        // Always process pending sources for initial ingestion
+        console.log(`  > Source status is Pending. Processing...`);
+      } else if (source.status === 'Active') {
+        if (!source.fetchFrequency || !source.lastFetchedAt) {
+          console.log(`  > Skipping Active source '${source.sourceName}' because it lacks frequency or last fetched date.`);
           continue;
+        }
+
+        const now = new Date();
+        const lastFetched = source.lastFetchedAt as Date;
+        const hoursSinceLastFetch = (now.getTime() - lastFetched.getTime()) / (1000 * 60 * 60);
+
+        let shouldProcess = false;
+        switch (source.fetchFrequency) {
+          case 'daily':
+            if (hoursSinceLastFetch > 24) shouldProcess = true;
+            break;
+          case 'weekly':
+            if (hoursSinceLastFetch > 24 * 7) shouldProcess = true;
+            break;
+          case 'monthly':
+            if (hoursSinceLastFetch > 24 * 30) shouldProcess = true;
+            break;
+        }
+
+        if (shouldProcess) {
+          console.log(`  > Source '${source.sourceName}' is due for its ${source.fetchFrequency} update. Processing...`);
+        } else {
+          console.log(`  > Skipping Active source '${source.sourceName}' as it is not yet due for its ${source.fetchFrequency} update.`);
+          continue;
+        }
+      } else {
+        // Skip Inactive or other statuses
+        continue;
       }
       
       log.feedsProcessed++;
@@ -57,7 +91,7 @@ async function main() {
             if (!source.keywords) {
               throw new Error('Source with HIRING_CAFE_API adapter is missing a `keywords` field.');
             }
-            items = await fetchHiringCafeApiJobs(source.keywords);
+            items = await fetchHiringCafeApiJobs(source.keywords.join(' '));
             break;
           default:
             console.warn(`Unknown adapter type: ${adapter}`);
@@ -83,8 +117,13 @@ async function main() {
 
           for (const item of itemsWithIds) {
             const docRef = collectionRef.doc(item.id);
+            
+            // Set an expiration date for 45 days in the future for TTL cleanup
+            const expiresAt = new Date();
+            expiresAt.setDate(expiresAt.getDate() + 45);
+
             // Set status to 'published' for ingested aggregated articles
-            const itemToSave = { ...item, status: 'published' };
+            const itemToSave = { ...item, status: 'published', expiresAt };
             batch.set(docRef, itemToSave, { merge: true });
           }
 
@@ -95,8 +134,8 @@ async function main() {
           // Update source status to 'Active' after successful processing
           if (source.id) { // Ensure source has an ID before attempting to update
             const sourceDocRef = db.collection('sources').doc(source.id);
-            await sourceDocRef.update({ status: 'Active' });
-            console.log(`  > Updated source '${source.sourceName}' status to 'Active'.`);
+            await sourceDocRef.update({ status: 'Active', lastFetchedAt: new Date() });
+            console.log(`  > Updated source '${source.sourceName}' status to 'Active' and set last fetched date.`);
           } else {
             console.warn(`  > Could not update status for source '${source.sourceName}' because it has no ID.`);
           }

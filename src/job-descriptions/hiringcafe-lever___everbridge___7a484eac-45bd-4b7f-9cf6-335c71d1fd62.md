@@ -1,0 +1,82 @@
+---
+id: hiringcafe-lever___everbridge___7a484eac-45bd-4b7f-9cf6-335c71d1fd62
+title: 'Principal Product Manager, Risk Intelligence'
+company: Everbridge
+location: United States
+applicationLink: 'https://jobs.lever.co/everbridge/7a484eac-45bd-4b7f-9cf6-335c71d1fd62/apply'
+postedDate: '2025-09-16T14:01:01.542Z'
+expirationDate: null
+tags:
+  - Research and Development (R&D)
+  - Define roadmap
+  - Lead teams
+  - Gather feedback
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$139,000 - $200,000'
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/lever___everbridge___7a484eac-45bd-4b7f-9cf6-335c71d1fd62
+companyLogoUrl: null
+---
+As a Principal Product Manager, you will play a pivotal role in shaping the vision, strategy, and roadmap for our risk intelligence products. You will be responsible for aligning cross-functional teams and delivering innovative, market-leading solutions that address complex customer challenges. This leadership position demands a combination of strategic thinking, operational excellence, and a deep understanding of market dynamics. 
+
+  
+  
+As a Principal Product Manager, you will play a pivotal role in shaping the vision, strategy, and roadmap for our risk intelligence products. You will be responsible for aligning cross-functional teams and delivering innovative, market-leading solutions that address complex customer challenges. This leadership position demands a combination of strategic thinking, operational excellence, and a deep understanding of market dynamics.   
+  
+**What You'll Do:**  
+*   Define and communicate the product vision, strategy, and roadmap for riskintelligence. 
+*   Lead cross-functional teams, including engineering, design, and marketing, to deliver high-quality features and enhancements. 
+*   Gather and prioritize customer feedback and market insights to inform product decisions. 
+*   Develop detailed requirements and user stories that translate customer needs into actionable development tasks. 
+*   Ensure seamless integration of APIs and data sources to enhance product capabilities. 
+*   Collaborate with sales and customer success teams to enable effective go-to-market strategies and customer adoption. 
+*   Continuously monitor product performance and analyze data to identify opportunities for improvement. 
+  
+  
+**What You'll Bring:**  
+*   Bachelor’s degree in engineering, computer science, or a related field (MBA is a plus). 
+*   8+ years of experience in product management, preferably in a SaaS environment. 
+*   Strong understanding of Agile and Scrum methodologies. 
+*   Deep knowledge of APIs and their role in modern product development and integration. 
+*   Demonstrated experience implementing solutions that leverage AI and large language models (LLMs). 
+*   Familiarity with Critical Event Management solutions is a plus. 
+*   Demonstrated success in managing large-scale, complex product initiatives. 
+*   Strong business acumen and ability to connect product strategy to business outcomes. 
+*   Advanced analytical skills, including proficiency in tools like Tableau, SQL, and business intelligence platforms. 
+*   Exceptional communication and presentation skills, with experience influencing C-level stakeholders. 
+*   Deep passion for innovation and a commitment to delivering world-class customer experiences. 
+  
+  
+
+The reasonably estimated salary for this role at Everbridge ranges from $139,000 - $200,000 and may also include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Everbridge offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, disability income benefits, life and AD&D insurance, a 401(k) plan and match, paid time off, and fitness reimbursements.
+
+  
+
+**Fair Chance Statement US & Canada**
+
+We are committed to providing equal employment opportunities in compliance with all applicable Federal, Provincial/State and Local laws, including the California Fair Chance Act and any local County Fair Chance Ordinance (or local equivalent). Pursuant to these and other relevant regulations, we consider qualified applicants with criminal histories in a manner consistent with the law.
+
+For roles subject to background checks, the following material job duties may be affected by an applicant’s criminal history:
+
+\- Access to sensitive or confidential information, such as financial records, proprietary data, or client information.
+
+\- Management of cash, company funds, or other valuable assets.
+
+\- Work in environments requiring heightened security measures.
+
+\- Compliance with contractual or regulatory requirements specific to the position.
+
+We evaluate each applicant's criminal history individually, considering its nature, timing, and relevance to the specific job duties, while maintaining our commitment to fair hiring practices and promoting workplace equity.
+
+  
+
+**About Everbridge**
+
+  
+
+Everbridge empowers enterprises and government organizations to anticipate, mitigate, respond to, and recover stronger from critical events. In today’s unpredictable world, resilient organizations minimize impact to people and operations, absorb stress, and return to productivity faster when deploying critical event management (CEM) technology. Everbridge digitizes organizational resilience by combining intelligent automation with the industry’s most comprehensive risk data to Keep People Safe and Organizations Running™. For more information, visit [www.everbridge.com](http://www.everbridge.com/), read the company blog, and follow on Twitter. Everbridge… Empowering Resilience
+
+_Everbridge is an Equal Opportunity/Affirmative Action Employer. All qualified Applicants will receive consideration for employment without regard to race, creed, color, religion, or sex including sexual orientation and gender identity, national origin, disability, protected Veteran Status, or any other characteristic protected by applicable federal, state, or local law._

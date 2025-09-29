@@ -1,0 +1,29 @@
+---
+id: "architect-ai-applications-oraclecloud-oracle"
+title: "Architect, AI Applications"
+company: "oraclecloud"
+location: "Remote"
+applicationLink: "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/309351"
+postedDate: "2025-09-28T15:45:19.844140Z"
+source: "oraclecloud"
+provenance: "hiring.cafe"
+status: "open"
+jobLevel: "Not specified"
+employeeRole: "Not specified"
+tags: []
+companyLogo: null
+---
+
+<p>The ideal candidate is a strong technical leader and hands-on builder who knows how<br>to balance speed with quality and can drive innovation without compromising<br>reliability. You have a proven track record of architecting and delivering full-stack<br>applications at scale, with recent experience in AI-driven systems. You promote a<br>culture of operational excellence, ensuring security, performance, and resilience are<br>built in from the start. You mentor and influence senior engineers, thrive in<br>ambiguous environments, and bring clarity and direction to complex technical<br>challenges. Most importantly, you are motivated by the opportunity to reimagine core<br>enterprise applications for the GenAI era, setting new standards for productivity and<br>impact.</p>
+Responsibilities
+<p>As a member of the software engineering division, you will take an active role in the definition and evolution of standard practices and procedures. Suggest and justify product directions within approved directions. Define responsibilities for new projects and specifies, designs and develops software according to those specifications. Provide consultative software guidance and strategic direction associated with the developing, designing and debugging of software applications or operating systems.</p>
+Qualifications
+Disclaimer:<br><br><b>Certain US customer or client-facing roles may be required to comply with applicable requirements, such as immunization and occupational health mandates.</b><br><br><b>Range and benefit information provided in this posting are specific to the stated locations only</b><br><br>US: Hiring Range in USD from: $161,700 to $338,500 per annum. May be eligible for bonus, equity, and compensation deferral.<br><br>Oracle maintains broad salary ranges for its roles in order to account for variations in knowledge, skills, experience, market conditions and locations, as well as reflect Oracle’s differing products, industries and lines of business.<br>Candidates are typically placed into the range based on the preceding factors as well as internal peer equity.<br><br>Oracle US offers a comprehensive benefits package which includes the following:<br>1.   Medical, dental, and vision insurance, including expert medical opinion<br>2.   Short term disability and long term disability<br>3.   Life insurance and AD&amp;D<br>4.   Supplemental life insurance (Employee/Spouse/Child)<br>5.   Health care and dependent care Flexible Spending Accounts<br>6.   Pre-tax commuter and parking benefits<br>7.   401(k) Savings and Investment Plan with company match<br>8.   Paid time off: Flexible Vacation is provided to all eligible employees assigned to a salaried (non-overtime eligible) position. Accrued Vacation is provided to all other employees eligible for vacation benefits. For employees working at least 35 hours per week, the vacation accrual rate is 13 days annually for the first three years of employment and 18 days annually for subsequent years of employment. Vacation accrual is prorated for employees working between 20 and 34 hours per week. Employees working fewer than 20 hours per week are not eligible for vacation.<br>9.   11 paid holidays<br>10.  Paid sick leave: 72 hours of paid sick leave upon date of hire. Refreshes each calendar year. Unused balance will carry over each year up to a maximum cap of 112 hours.<br>11.  Paid parental leave<br>12.  Adoption assistance<br>13.  Employee Stock Purchase Plan<br>14.  Financial planning and group legal<br>15.  Voluntary benefits including auto, homeowner and pet insurance<br><br>The role will generally accept applications for at least three calendar days from the posting date or as long as the job remains posted.<p>Career Level - IC6</p><br>
+Company
+<p></p>
+<p>As a world leader in cloud solutions, Oracle uses tomorrow’s technology to tackle today’s challenges. We’ve partnered with industry-leaders in almost every sector—and continue to thrive after 40+ years of change by operating with integrity.&nbsp;</p>
+<p>We know that true innovation starts when everyone is empowered to contribute. That’s why we’re committed to growing an inclusive workforce that promotes opportunities for all.</p>
+<p>Oracle careers open the door to global opportunities where work-life balance flourishes. We offer competitive benefits based on parity and consistency and support our people with flexible medical, life insurance, and retirement options. We also encourage employees to give back to their communities through our volunteer programs.</p>
+<p>We’re committed to including people with disabilities at all stages of the employment process. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing&nbsp;accommodation-request_mb@oracle.com&nbsp;or by calling +1 888 404 2494 in the United States. </p>
+<p></p>
+<p>Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Oracle will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law.&nbsp;</p>

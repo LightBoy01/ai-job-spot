@@ -1,0 +1,17 @@
+---
+id: "lta-itcd-manager-senior-system-analyst-citizen-systems-workday-workda"
+title: "[LTA-ITCD] MANAGER / SENIOR SYSTEM ANALYST, CITIZEN SYSTEMS"
+company: "workday"
+location: "Remote"
+applicationLink: "https://sggovterp.wd102.myworkdayjobs.com/publicservicecareers/job/Singapore/XMLNAME--LTA-ITCD--MANAGER---SENIOR-SYSTEM-ANALYST--CITIZEN-SYSTEMS_JR-10000043180"
+postedDate: "2025-09-28T15:45:12.699119Z"
+source: "workday"
+provenance: "hiring.cafe"
+status: "open"
+jobLevel: "Not specified"
+employeeRole: "Not specified"
+tags: []
+companyLogo: null
+---
+
+<p><b>[What the role is]</b></p>MANAGER / SENIOR SYSTEM ANALYST, CITIZEN SYSTEMS<p></p><p><b>[What you will be working on]</b></p><p>We are seeking a candidate with business analysis experience in Customer Relationship Management (CRM) for the next generation Enterprise Feedback Management System (EFMS). The role involves contributing to the development of public feedback and resolution processes using AI, integration with asset management system/external agencies systems.  </p><p></p><p><b>[What we are looking for]</b></p><p>• Knowledge in IT, Computer Science, Engineering or a related field</p><p>• At least 5 years’ experience in IT project/contract management</p><p>• Excellent in writing papers, tender specifications, contracts and etc</p><p>• Working experience in software testing methodology and tools</p><p>• Experience in government procurement processes is a plus</p><p>• Project Management, Agile or Cloud related certification is a plus</p><p>• Strong analytical and problem-solving skills</p><p>• Strong stakeholder management, presentation and communication skills</p><p>• Ability to work collaboratively in a cross-functional team</p><p>• Candidates with more experience might be considered for senior roles</p><p>• Proven experience in business analysis in the Customer Relationship Management (CRM) domain.</p><p>• Strong analytical, problem-solving, and communication skills, with an aptitude for translating business needs into technical requirements.</p><p>• Experience designing and implementing CRM solutions or similar enterprise systems.</p><p>• Understanding of data management, system integration, and CRM best practices.</p><p>• Commitment to delivering high-quality user experiences and supporting organizational goals through effective CRM management.</p><p>• Knowledge of at least one Customer Relationship Management (CRM) and/or unified workflow management system(s) such as Salesforce, ServiceNow, Microsoft Dynamics, Pega, Appian, OutSystems, and/or equivalent system.</p><p>• Evaluate and perform feasibility study of multiple CRMs and/or unified workflow management system that utilizes AI to automate tasks, route cases using AI and GIS/Geospatial/location data, streamline processes, and improve customer experiences. </p><p>• Draft clear and actionable user stories, supporting effective communication between business and technical teams.</p><p>• Experience in service journey exercise and design thinking will be an added advantage</p><p>• Ability to work collaboratively with diverse stakeholders and adapt to a dynamic, fast-paced environment.</p><p>• Strong analytical and problem-solving skills</p><p><br>As part of the shortlisting process for the role, you may be required to complete a medical declaration and / or undergo further assessment.</p>

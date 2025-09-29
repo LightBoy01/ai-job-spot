@@ -53,4 +53,4 @@ imageUrl: /images/articles/the-artist-and-the-algorithm.svg
 
 **The Artist:** I see. So the person who wins is not the one who can prompt the best, but the one who has the best taste? The one who knows what to ask for?
 
-**The Strategist:** Precisely. The future of creativity is not in the answer, but in the question. The AI can generate infinite answers. Only you can ask the right question and recognize the right answer. That is the art that can never be automated. That is the art that can never be automated. That is the work that remains.
+**The Strategist:** Precisely. The future of creativity is not in the answer, but in the question. The AI can generate infinite answers. Only you can ask the right question and recognize the right answer. That is the art that can never be automated. That is the work that remains.

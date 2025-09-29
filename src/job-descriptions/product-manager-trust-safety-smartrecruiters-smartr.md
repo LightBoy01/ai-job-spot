@@ -1,0 +1,26 @@
+---
+id: "product-manager-trust-safety-smartrecruiters-smartr"
+title: "Product Manager - Trust & Safety"
+company: "smartrecruiters"
+location: "Remote"
+applicationLink: "https://jobs.smartrecruiters.com/Wise/744000083723525-product-manager-trust-safety"
+postedDate: "2025-09-28T15:45:22.178023Z"
+source: "smartrecruiters"
+provenance: "hiring.cafe"
+status: "open"
+jobLevel: "Not specified"
+employeeRole: "Not specified"
+tags: []
+companyLogo: null
+---
+
+<strong>Company Description:</strong><p>Wise is a global technology company building the best way to move and manage money across borders. Our mission? Min fees. Max ease. Full speed. We believe that moving money should be fair, fast, and transparent - helping millions of people and businesses save billions every year.</p><p>But with this mission comes responsibility. This role sits within Trust &amp; Safety. Trust and Safety plays a critical role in keeping Wise customers safe from scams, fraud, and financial crime while ensuring their experience remains smooth and intuitive.</p><p>More about <strong>our mission</strong> and <strong>what we offer</strong>.</p><strong>Job Description:</strong><p>We’re looking for a Product Manager to focus on protecting the millions of customers and businesses who use Wise from Unauthorised Account Access &amp; Account Takeover (ATO) Fraud. In this role, you’ll work with Data Science, Risk, Compliance, Operations, Design and Marketing/PR&#xa0; to build ATO detection and prevention capabilities that prevent fraud, and increase user trust.</p><p>What You’ll Be Doing</p><ul><li><p>Protect customers from unauthorised account access – Building proactive defenses that detect threats before they happen, while ensuring legitimate customers can transact without unnecessary friction.</p></li><li><p>Balance security with trust – Strengthen Wise’s reputation as the most trusted financial platform, ensuring that customers feel safe and confident using our services.</p></li><li><p>Define the future of Trust &amp; Safety in finance – Wise has the opportunity to be a leading light in Trust &amp; Safety, setting industry standards for how financial platforms protect customers while maintaining an intuitive experience.</p></li><li><p>Leverage data, AI, and behavioral insights – Detect emerging fraud and scam patterns, using insights to refine real-time interventions and adapt risk-based protections.</p></li><li><p>Collaborate across Wise – Work with Fraud, Compliance, Risk, and Operations teams to build holistic solutions that don’t just stop bad actors but also enhance the overall customer experience.</p></li><li><p>Drive measurable impact – Ensure that our investments in Trust &amp; Safety lead to reduced ATO volumes, higher customer confidence, and friction that only exists where truly necessary.</p></li><li><p>You’ll be empowered to do your best work by working with a full stack team including dedicated Analyst, Data Science, Engineering and Design functions.</p></li></ul><strong>Qualifications:</strong><p><strong>Who You Are</strong></p><p>✅ Experienced in Product Management – You’ve led product teams in and have a track record of shipping impactful solutions.<br>
+✅ Customer-Obsessed &amp; Empathetic&#xa0;</p><p>✅ Data-Driven &amp; Strategic – You’re comfortable diving into quantitative and qualitative insights to drive decisions.<br>
+✅ Comfortable Navigating Complexity – You can balance risk, compliance, operations, and user experience to create best-in-class protections.<br>
+✅ A Strong Collaborator &amp; Communicator – You work effectively across Engineering, Design, Operations, Compliance, and Risk teams to align on goals and deliver outcomes.<br>
+✅ Always Learning &amp; Iterating – You’re eager to test, refine, and improve safety features based on real-world data and customer behavior.</p><strong>Additional Information:</strong><p><strong>Why You Should Join Wise</strong></p><p><strong>🌍 Impact: </strong>Your work will protect millions of customers globally, preventing ATO and financial crime.<br>
+<strong>🚀 Autonomy: </strong>You’ll own your roadmap, working in an empowered, fast-moving team.<br>
+<strong>📊 Data at Scale: </strong>Work with real-world fraud and ATO patterns, leveraging AI and behavioral insights.<br>
+<strong>🌱 Growth: </strong>Be part of a company that’s expanding rapidly, offering huge career development opportunities.</p>
+<p>For everyone, everywhere. We're people building money without borders&#xa0; — without judgement or prejudice, too. We believe teams are strongest when they are diverse, equitable and inclusive.</p><p>We're proud to have a truly international team, and we celebrate our differences.<br>
+Inclusive teams help us live our values and make sure every Wiser feels respected, empowered to contribute towards our mission and able to progress in their careers.</p><p>If you want to find out more about what it's like to work at Wise visit&#xa0;Wise.Jobs.</p><p>Keep up to date with life at Wise by following us on&#xa0;LinkedIn&#xa0;and&#xa0;Instagram.</p>

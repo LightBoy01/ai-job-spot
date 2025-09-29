@@ -12,7 +12,6 @@ const searchSchema = z.object({
   location: z.string().max(100).optional(),
   jobLevel: z.string().max(50).optional(),
   tags: z.string().max(200).optional(), // Comma-separated tags
-  fetchAll: z.coerce.boolean().optional().default(false), // Bypass pagination
 });
 
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
@@ -54,143 +53,75 @@ export default async function handler(
       location,
       jobLevel,
       tags,
-      fetchAll,
     } = validation.data;
-    const lowerSearchTerm = searchTerm.toLowerCase();
 
     res.setHeader(
       'Cache-Control',
       'public, s-maxage=60, stale-while-revalidate=300'
     );
 
-    const jobs: JobPosting[] = [];
-    const fetchedDocIds = new Set<string>();
+    // This is a simplified query builder. A real-world, complex search might use
+    // a dedicated search service like Algolia or Typesense for better performance
+    // and more advanced features than Firestore can provide alone.
+    let query: Query = adminDb.collection('jobs').where('status', '==', 'published');
 
-    // Function to fetch and process a query result
-    const fetchAndProcess = async (baseQuery: Query) => {
-      let currentQuery = baseQuery;
-      // Conditionally apply pagination
-      if (!fetchAll && startAfterId) {
-        const startAfterDoc = await adminDb
-          .collection('jobs')
-          .doc(startAfterId)
-          .get();
-        if (startAfterDoc.exists) {
-          currentQuery = currentQuery.startAfter(startAfterDoc);
-        }
-      }
-      
-      // Conditionally apply limit
-      if (!fetchAll) {
-        currentQuery = currentQuery.limit(limit);
-      }
-
-      const snapshot = await currentQuery.get();
-      snapshot.docs.forEach((doc) => {
-        if (!fetchedDocIds.has(doc.id)) {
-          jobs.push(serializeJob(doc));
-          fetchedDocIds.add(doc.id);
-        }
-      });
-    };
-
-    let baseQuery = adminDb.collection('jobs').where('status', '==', 'published');
-
+    // Apply exact match filters first
     if (location) {
-      baseQuery = baseQuery.where('location', '==', location);
+      // This is a simplification. A real app might need more flexible location search.
+      query = query.where('location', '==', location);
     }
     if (jobLevel) {
-      baseQuery = baseQuery.where('jobLevel', '==', jobLevel);
+      query = query.where('jobLevel', '==', jobLevel);
     }
     if (tags) {
       const tagsArray = tags.split(',').map(tag => tag.trim()).filter(t => t);
       if (tagsArray.length > 0) {
-        baseQuery = baseQuery.where('tags', 'array-contains-any', tagsArray);
+        // Firestore limitation: You can only have one 'array-contains-any' clause per query.
+        query = query.where('tags', 'array-contains-any', tagsArray);
       }
     }
 
-    // --- Multi-field Search Queries ---
+    // The general search term 'q' is harder to implement efficiently with Firestore
+    // due to its query limitations. A common strategy is to create a 'keywords'
+    // array field in each document containing relevant terms (title, company, etc.)
+    // in lowercase, and then use an 'array-contains' query.
     if (searchTerm) {
-      // If a general search term is provided, prioritize it and combine with filters
-      // Note: Firestore limitations mean we can't combine array-contains-any with range filters on other fields
-      // For now, we'll perform separate queries and merge/deduplicate.
-
-      // Search by Title (prefix match)
-      await fetchAndProcess(
-        baseQuery
-          .where('title', '>=', searchTerm)
-          .where('title', '<=', searchTerm + '\uf8ff')
-          .orderBy('title')
-          .orderBy('postedDate', 'desc')
-      );
-
-      // Search by Company (prefix match)
-      await fetchAndProcess(
-        baseQuery
-          .where('company', '>=', searchTerm)
-          .where('company', '<=', searchTerm + '\uf8ff')
-          .orderBy('company')
-          .orderBy('postedDate', 'desc')
-      );
-
-      // Search by Location (prefix match) - only if location filter is NOT already applied
-      if (!location) {
-        await fetchAndProcess(
-          baseQuery
-            .where('location', '>=', searchTerm)
-            .where('location', '<=', searchTerm + '\uf8ff')
-            .orderBy('location')
-            .orderBy('postedDate', 'desc')
-        );
-      }
-
-      // Search by Tags (array-contains-any) - only if tags filter is NOT already applied
-      if (!tags) {
-        const searchTags = searchTerm.split(',').map(tag => tag.trim()).filter(t => t);
-        if (searchTags.length > 0) {
-            await fetchAndProcess(
-              baseQuery
-                .where('tags', 'array-contains-any', searchTags)
-                .orderBy('postedDate', 'desc')
-            );
+        const keywords = searchTerm.toLowerCase().split(' ').filter(k => k);
+        if (keywords.length > 0) {
+            // This assumes a 'keywords' field exists in your documents.
+            // You would need to populate this field when creating/updating jobs.
+            query = query.where('keywords', 'array-contains-any', keywords);
         }
-      }
-
-    } else {
-      // If no search term, just apply the filters and order by postedDate
-      await fetchAndProcess(
-        baseQuery.orderBy('postedDate', 'desc')
-      );
     }
 
-    // --- Simple Relevance Scoring and Deduplication ---
-    jobs.sort((a, b) => {
-      const aTitleMatch = a.title.toLowerCase().includes(lowerSearchTerm);
-      const bTitleMatch = b.title.toLowerCase().includes(lowerSearchTerm);
-      if (aTitleMatch && !bTitleMatch) return -1;
-      if (!aTitleMatch && bTitleMatch) return 1;
-      return (b.postedDate?.getTime() || 0) - (a.postedDate?.getTime() || 0);
+    // Always order by date as the final sort criterion
+    query = query.orderBy('postedDate', 'desc');
+
+    // Apply pagination
+    if (startAfterId) {
+      const startAfterDoc = await adminDb.collection('jobs').doc(startAfterId).get();
+      if (startAfterDoc.exists) {
+        query = query.startAfter(startAfterDoc);
+      }
+    }
+
+    query = query.limit(limit);
+
+    const snapshot = await query.get();
+    const jobs = snapshot.docs.map(serializeJob);
+    const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1] : null;
+
+    res.status(200).json({
+      jobs: jobs,
+      lastVisible: lastVisible ? lastVisible.id : null,
     });
 
-    if (fetchAll) {
-      // Return all matched jobs without pagination
-      res.status(200).json({
-        jobs: jobs,
-        lastVisible: null,
-      });
-    } else {
-      // Manual pagination after merging and sorting
-      const paginatedJobs = jobs.slice(0, limit);
-      const lastVisibleJob =
-        paginatedJobs.length > 0 ? paginatedJobs[paginatedJobs.length - 1] : null;
-
-      res.status(200).json({
-        jobs: paginatedJobs,
-        lastVisible: lastVisibleJob ? lastVisibleJob.id : null,
-      });
-    }
   } catch (error) {
     console.error('Error searching for jobs:', error);
+    // Firestore throws specific errors for invalid queries, which can be caught here
+    if (error instanceof Error && error.message.includes('invalid')) {
+        return res.status(400).json({ message: `Invalid query: ${error.message}` });
+    }
     res.status(500).json({ message: 'Internal server error' });
   }
 }

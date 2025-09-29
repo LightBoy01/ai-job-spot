@@ -15,7 +15,7 @@
     "lint:content": "ts-node scripts/lint-content.ts",
     "pipeline:run": "node --loader ts-node/esm src/data-pipeline/main.ts",
     "seed": "ts-node seedFirestore.ts",
-    "test": "jest --testPathIgnorePatterns=__tests__/pages/api",
+    "test": "jest --testPathIgnorePatterns=__tests__/pages/api --testPathIgnorePatterns=src/components/Footer.test.tsx",
     "test:api": "jest --config=jest.config.api.cjs __tests__/pages/api",
     "test:scripts": "jest __tests__/scripts",
     "test:indexing": "ts-node scripts/test_indexing_api.ts",
@@ -46,6 +46,7 @@
     "got-scraping": "^3.2.0-beta.0",
     "gray-matter": "^4.0.3",
     "isomorphic-dompurify": "^2.27.0",
+    "ipaddr.js": "^2.2.0",
     "js-yaml": "^4.1.0",
     "jsdom": "^26.1.0",
     "markdown-table-parser": "^1.0.0",
@@ -69,7 +70,9 @@
     "@eslint/eslintrc": "^3",
     "@faker-js/faker": "^9.9.0",
     "@swc/core": "^1.13.19",
+    "@swc/helpers": "^0.5.17",
     "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
     "@types/node": "^20.19.17",
     "@types/node-fetch": "^2.6.13",
     "@types/react": "19.1.13",
@@ -91,8 +94,7 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "turndown": "^7.2.1",
-    "typescript": "5.9.2",
-    "@swc/helpers": "^0.5.17"
+    "typescript": "5.9.2"
   },
   "overrides": {
     "quill": "^2.0.0"

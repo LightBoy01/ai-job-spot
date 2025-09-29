@@ -89,8 +89,24 @@ export default async function handler(
         .status(500)
         .json({ error: 'An internal server error occurred.' });
     }
+  } else if (req.method === 'DELETE') {
+    try {
+      const { adminDb } = await getFirebaseAdmin();
+      await adminDb.collection('jobs').doc(id).delete();
+
+      // Revalidate paths to reflect the deletion
+      await res.revalidate('/');
+      await res.revalidate('/jobs');
+
+      return res.status(200).json({ message: 'Job deleted successfully' });
+    } catch (error) {
+      console.error(`Error deleting job ${id}:`, error);
+      return res
+        .status(500)
+        .json({ error: 'An internal server error occurred.' });
+    }
   } else {
-    res.setHeader('Allow', ['PUT']);
+    res.setHeader('Allow', ['PUT', 'DELETE']);
     return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }

@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { useRouter } from 'next/router';
 import Layout from '@/components/Layout';
 import JobCard from '@/components/JobCard';
 import AdContainer from '@/components/AdContainer';
@@ -8,6 +7,7 @@ import { SerializedJobPosting } from '@/lib/types';
 import { NEW_JOB_THRESHOLD_MS, JOB_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import { useScrollRestoration } from '@/hooks/useScrollRestoration';
 
 interface HomeProps {
   initialJobs: SerializedJobPosting[];
@@ -15,59 +15,41 @@ interface HomeProps {
 }
 
 export default function Home({
-  initialJobs,
-  lastDocId: initialLastDocId,
+  initialJobs: staticJobs,
+  lastDocId: staticLastDocId,
 }: HomeProps) {
-  const router = useRouter();
-
-  const [displayedJobs, setDisplayedJobs] = useState<SerializedJobPosting[]>(
-    () => {
-      if (typeof window !== 'undefined') {
-        const savedJobs = sessionStorage.getItem('jobListingJobs');
-        return savedJobs ? JSON.parse(savedJobs) : initialJobs;
-      }
-      return initialJobs;
-    }
-  );
+  const [displayedJobs, setDisplayedJobs] = useState<SerializedJobPosting[]>(staticJobs);
   const [loading, setLoading] = useState(false);
-  const [hasMore, setHasMore] = useState<boolean>(() => {
-    if (typeof window !== 'undefined') {
-      const savedHasMore = sessionStorage.getItem('jobListingHasMore');
-      return savedHasMore ? JSON.parse(savedHasMore) : true;
-    }
-    return true;
-  });
-  const [lastDocId, setLastDocId] = useState<string | null>(() => {
-    if (typeof window !== 'undefined') {
-      const savedLastDocId = sessionStorage.getItem('jobListingLastDocId');
-      return savedLastDocId || initialLastDocId;
-    }
-    return initialLastDocId;
-  });
+  const [hasMore, setHasMore] = useState<boolean>(true); // Assume true initially for server-side rendered content
+  const [lastDocId, setLastDocId] = useState<string | null>(staticLastDocId);
   const isFetching = React.useRef(false);
+
   const [searchQuery, setSearchQuery] = useState('');
   const [locationFilter, setLocationFilter] = useState('');
   const [jobLevelFilter, setJobLevelFilter] = useState('');
   const [tagsFilter, setTagsFilter] = useState('');
   const [showFilters, setShowFilters] = useState(false);
 
-  const [allSearchResults, setAllSearchResults] = useState<SerializedJobPosting[]>([]);
-  const [clientSidePage, setClientSidePage] = useState(1);
-
-  const isSearchActive = useCallback(
-    () => searchQuery.trim() !== '' || locationFilter !== '' || jobLevelFilter !== '' || tagsFilter !== '',
-    [searchQuery, locationFilter, jobLevelFilter, tagsFilter]
-  );
-
-  const fetchJobs = useCallback(async (startAfterId: string | null) => {
-    if (isFetching.current || isSearchActive()) return;
+  const fetchAndDisplayJobs = useCallback(async (
+    startAfterId: string | null,
+    append: boolean = false, // Whether to append to existing jobs or replace
+    query: string,
+    location?: string,
+    jobLevel?: string,
+    tags?: string
+  ) => {
+    if (isFetching.current) return;
     isFetching.current = true;
     setLoading(true);
 
     const searchParams = new URLSearchParams({
-      startAfter: startAfterId || '',
       limit: String(JOB_FETCH_LIMIT),
     });
+    if (startAfterId) searchParams.append('startAfter', startAfterId);
+    if (query) searchParams.append('q', query);
+    if (location) searchParams.append('location', location);
+    if (jobLevel) searchParams.append('jobLevel', jobLevel);
+    if (tags) searchParams.append('tags', tags);
 
     try {
       const response = await fetch(`/api/jobs/search?${searchParams.toString()}`);
@@ -75,115 +57,52 @@ export default function Home({
 
       const { jobs: newFetchedJobs = [], lastVisible: newLastVisible } = await response.json();
 
-      if (newFetchedJobs.length < JOB_FETCH_LIMIT) {
-        setHasMore(false);
-      } else {
-        setHasMore(true);
-      }
-
       setDisplayedJobs((prevJobs) => {
-        const existingIds = new Set(prevJobs.map((j) => j.id));
-        const uniqueNewJobs = newFetchedJobs.filter((j: SerializedJobPosting) => !existingIds.has(j.id));
-        return [...prevJobs, ...uniqueNewJobs];
+        if (append) {
+          const existingIds = new Set(prevJobs.map((j) => j.id));
+          const uniqueNewJobs = newFetchedJobs.filter((j: SerializedJobPosting) => !existingIds.has(j.id));
+          return [...prevJobs, ...uniqueNewJobs];
+        } else {
+          return newFetchedJobs;
+        }
       });
       setLastDocId(newLastVisible);
+      setHasMore(newFetchedJobs.length === JOB_FETCH_LIMIT); // If we got less than limit, no more pages
     } catch (error) {
       console.error('Error fetching jobs:', error);
       setHasMore(false);
-    } finally {
-      setLoading(false);
-      isFetching.current = false;
-    }
-  }, [isSearchActive]);
-
-  const performSearch = useCallback(async (query: string, location?: string, jobLevel?: string, tags?: string) => {
-    if (isFetching.current) return;
-    isFetching.current = true;
-    setLoading(true);
-
-    const searchParams = new URLSearchParams({ q: query, fetchAll: 'true' });
-    if (location) searchParams.append('location', location);
-    if (jobLevel) searchParams.append('jobLevel', jobLevel);
-    if (tags) searchParams.append('tags', tags);
-
-    try {
-      const response = await fetch(`/api/jobs/search?${searchParams.toString()}`);
-      if (!response.ok) throw new Error('Failed to fetch search results');
-
-      const { jobs: allJobs } = await response.json();
-      setAllSearchResults(allJobs);
-      setClientSidePage(1);
-      setHasMore(allJobs.length > JOB_FETCH_LIMIT);
-    } catch (error) {
-      console.error('Error performing search:', error);
-      setAllSearchResults([]);
-      setHasMore(false);
+      if (!append) setDisplayedJobs([]); // Clear jobs on error if not appending
     } finally {
       setLoading(false);
       isFetching.current = false;
     }
   }, []);
 
+  // Effect to trigger search when filters change
   useEffect(() => {
     const delayDebounceFn = setTimeout(() => {
-      if (isSearchActive()) {
-        performSearch(searchQuery, locationFilter, jobLevelFilter, tagsFilter);
+      // Only fetch if filters are active or if we're resetting to initial state
+      if (searchQuery || locationFilter || jobLevelFilter || tagsFilter) {
+        fetchAndDisplayJobs(null, false, searchQuery, locationFilter, jobLevelFilter, tagsFilter);
       } else {
-        setAllSearchResults([]);
-        setDisplayedJobs(initialJobs);
-        setLastDocId(initialLastDocId);
-        setHasMore(true);
+        // Reset to initial static jobs if all filters are cleared
+        setDisplayedJobs(staticJobs);
+        setLastDocId(staticLastDocId);
+        setHasMore(true); // Assume more if resetting to initial static jobs
       }
-    }, 500);
+    }, 500); // Debounce for 500ms
 
     return () => clearTimeout(delayDebounceFn);
-  }, [searchQuery, locationFilter, jobLevelFilter, tagsFilter, initialJobs, initialLastDocId, performSearch, isSearchActive]);
-
-  useEffect(() => {
-    if (!isSearchActive()) return;
-
-    const end = clientSidePage * JOB_FETCH_LIMIT;
-    const newDisplayedJobs = allSearchResults.slice(0, end);
-    setDisplayedJobs(newDisplayedJobs);
-
-    if (end >= allSearchResults.length) {
-      setHasMore(false);
-    } else {
-      setHasMore(true);
-    }
-  }, [allSearchResults, clientSidePage, isSearchActive]);
+  }, [searchQuery, locationFilter, jobLevelFilter, tagsFilter, fetchAndDisplayJobs, staticJobs, staticLastDocId]);
 
   const loadMore = () => {
-    if (isSearchActive()) {
-      setClientSidePage((prev) => prev + 1);
-    } else {
-      fetchJobs(lastDocId);
+    if (hasMore && !loading) {
+      fetchAndDisplayJobs(lastDocId, true, searchQuery, locationFilter, jobLevelFilter, tagsFilter);
     }
   };
 
-  useEffect(() => {
-    const handleRouteChangeStart = (url: string) => {
-      if (router.asPath === url) return;
-      sessionStorage.setItem('jobListingJobs', JSON.stringify(displayedJobs));
-      sessionStorage.setItem('jobListingLastDocId', lastDocId || '');
-      sessionStorage.setItem('jobListingHasMore', JSON.stringify(hasMore));
-      sessionStorage.setItem('jobListingScrollPos', window.scrollY.toString());
-    };
-
-    router.events.on('routeChangeStart', handleRouteChangeStart);
-
-    if (typeof window !== 'undefined') {
-      const savedScrollPos = sessionStorage.getItem('jobListingScrollPos');
-      if (savedScrollPos) {
-        window.scrollTo(0, parseInt(savedScrollPos, 10));
-        sessionStorage.removeItem('jobListingScrollPos');
-      }
-    }
-
-    return () => {
-      router.events.off('routeChangeStart', handleRouteChangeStart);
-    };
-  }, [displayedJobs, lastDocId, hasMore, router]);
+  // Handle saving state to session storage on route change
+  useScrollRestoration({ jobs: displayedJobs, lastDocId, hasMore });
 
   return (
     <Layout>
@@ -222,6 +141,7 @@ export default function Home({
               type="text"
               placeholder="Search by title, company, location, or tags..."
               className="w-full p-4 pl-12 border border-black/5 bg-white rounded-lg shadow-[inset_0_1px_2px_rgba(0,0,0,0.05)] focus:ring-secondary focus:border-secondary"
+              value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
             <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">

@@ -1,0 +1,39 @@
+---
+id: "senior-machine-learning-engineer-modeling-risk-grnhse-grnhse"
+title: "Senior Machine Learning Engineer (Modeling), Risk"
+company: "grnhse"
+location: "Remote"
+applicationLink: "http://block.xyz/careers/jobs/4930106008?gh_jid=4930106008"
+postedDate: "2025-09-28T15:45:20.020741Z"
+source: "grnhse"
+provenance: "hiring.cafe"
+status: "open"
+jobLevel: "Not specified"
+employeeRole: "Not specified"
+tags: []
+companyLogo: null
+---
+
+<p>It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.</p>
+<p></p>
+<p>Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.</p>
+
+The Role
+<p>Machine Learning is an integral part of how we at Cash App design products, operate, and pursue our mission to serve the unbanked as well as disrupt traditional financial institutions. Our massive scale and deep trove of transaction data create an endless number of opportunities to use ML and AI methods to better understand our customers and offer new products and experiences that can improve their lives. We are a highly creative group that prefers to solve problems from first principles; we move quickly, make incremental changes, and deploy to production every day. </p>
+<p>As part of the Risk ML team, you will build machine learning models that detect fraudulent activity in real time and help keep our customers safe and secure. You will experiment with state-of-the-art algorithms to drive down false positives, collaborate on new product features to drive fraud losses down, use any and every dataset at your disposal to analyse emerging fraud patterns, engineer new features for risk models, and deploy robust models to take action on bad activity in real time. </p>
+<p>This role can work remotely from anywhere in Australia or New Zealand, or from our offices in Melbourne, Sydney and Auckland.</p>
+
+You Will
+<ul><li>Be responsible for building machine learning models to detect and act against fraudulent activity, as well as researching emerging fraud patterns, and leading and participating in cross-functional initiatives to tackle problems. </li><li>Collaborate cross-functionally with our engineering, product, and operations teams located across Australia and the United States (particularly Melbourne and San Francisco) to keep our customers and their money safe. </li><li>Work closely with the ML Engineering teams who build the systems that allow our models to operate at scale and in real time. </li><li>Contribute to the growth of our modelling capabilities through mentoring and supporting fellow modellers</li><li>Exercise a high level of autonomy and responsibility, own your solutions from design through to operation</li></ul>
+
+You Have
+<ul><li>Bachelor's degree in a quantitative field such as Mathematics/Statistics/Physics or Machine Learning. Masters or PhD preferred</li><li>3+ years of experience in machine learning, artificial intelligence, or a related field</li><li>Strong knowledge of machine learning algorithms and data analysis techniques</li><li>Excellent problem-solving skills and attention to detail</li><li>Strong communication skills, with the ability to explain complex concepts to non-technical stakeholders</li></ul>
+
+Technologies We Use and Teach
+<ul><li>Python (NumPy, Pandas, sklearn, xgboost, TensorFlow, keras, etc.)</li><li>MySQL, Snowflake, Tableau, Mode</li><li>GCP/AWS</li></ul>
+<p><strong>Use of AI in Our Hiring Process</strong></p>
+<p>We may use automated AI tools to evaluate job applications for efficiency and consistency. These tools comply with local regulations, including bias audits, and we handle all personal data in accordance with state and local privacy laws.&nbsp;</p>
+<p>Contact us at privacy@block.xyz with hiring practice or data usage questions.</p>
+<p><em>Every benefit we offer is designed with one goal: empowering you to do the best work of your career while building the life you want. Remote work, medical insurance, flexible time off, retirement savings plans, and modern family planning are just some of our offering.&nbsp;</em><em>Check out our other benefits at Block.</em></p>
+<p><em>Block, Inc. (NYSE: XYZ) builds technology to increase access to the global economy. Each of our brands unlocks different aspects of the economy for more people.&nbsp;<strong>Square</strong>&nbsp;makes commerce and financial services accessible to sellers.&nbsp;<strong>Cash App</strong>&nbsp;is the easy way to spend, send, and store money.&nbsp;<strong>Afterpay</strong>&nbsp;is transforming the way customers manage their spending over time.&nbsp;<strong>TIDAL</strong>&nbsp;is a music platform that empowers artists to thrive as entrepreneurs.&nbsp;<strong>Bitkey</strong>&nbsp;is a simple self-custody wallet built for bitcoin.&nbsp;<strong>Proto</strong>&nbsp;is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone.</em></p>
+<p>Privacy Policy</p>

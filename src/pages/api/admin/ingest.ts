@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
-import { firestore } from 'firebase-admin';
 import { z } from 'zod';
 import DOMPurify from 'isomorphic-dompurify';
 
@@ -17,6 +16,29 @@ const scrapedJobSchema = z.object({
   jobLevel: z.string().optional(),
   employeeRole: z.string().optional(),
 });
+
+/**
+ * Atomically increments a counter in Firestore to get the next sequential job ID.
+ * @param adminDb The Firestore Admin database instance.
+ * @returns A promise that resolves to the next sequential job number.
+ */
+async function getNextJobNumber(adminDb: FirebaseFirestore.Firestore): Promise<number> {
+  const counterRef = adminDb.collection('counters').doc('jobIds');
+
+  return adminDb.runTransaction(async (transaction) => {
+    const counterDoc = await transaction.get(counterRef);
+    let nextNumber: number;
+
+    if (!counterDoc.exists) {
+      nextNumber = 1;
+      transaction.set(counterRef, { current: nextNumber });
+    } else {
+      nextNumber = counterDoc.data()!.current + 1;
+      transaction.update(counterRef, { current: nextNumber });
+    }
+    return nextNumber;
+  });
+}
 
 export default async function handler(
   req: NextApiRequest,
@@ -71,24 +93,12 @@ export default async function handler(
       });
     }
 
-    // 4. GENERATE NEW SEQUENTIAL JOB ID
-    const jobsRef = adminDb.collection('jobs');
-    const lastJobQuery = await jobsRef
-      .orderBy(firestore.FieldPath.documentId())
-      .limitToLast(1)
-      .get();
-
-    let newJobNumber = 1;
-    if (!lastJobQuery.empty) {
-      const lastJobId = lastJobQuery.docs[0].id;
-      const match = lastJobId.match(/^job-(\d+)$/);
-      if (match) {
-        newJobNumber = parseInt(match[1], 10) + 1;
-      }
-    }
+    // 4. GENERATE NEW SEQUENTIAL JOB ID using atomic counter
+    const newJobNumber = await getNextJobNumber(adminDb);
     const newJobId = `job-${newJobNumber}`;
 
     // 5. INGEST THE JOB with 'pending_review' status
+    const jobsRef = adminDb.collection('jobs');
     const newJobRef = jobsRef.doc(newJobId);
     const newJobPayload = {
       id: newJobId, // Add the ID to the document body as well

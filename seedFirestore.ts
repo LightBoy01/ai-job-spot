@@ -111,6 +111,13 @@ export async function processDirectory(
       if (path.extname(file) !== '.md') continue;
 
       const filePath = path.join(directoryPath, file);
+
+      const fileStats = await fs.stat(filePath);
+      if (fileStats.size > 1 * 1024 * 1024) { // 1MB limit
+        console.warn(`[SKIPPING] File ${file} exceeds 1MB size limit.`);
+        continue;
+      }
+
       const fileContent = await fs.readFile(filePath, 'utf8');
       const { data, content } = matter(fileContent);
 
@@ -260,31 +267,7 @@ export async function seedFirestore() {
 
   const jobsCollection = db.collection('jobs');
   const articlesCollection = db.collection('articles');
-  const sourcesCollection = db.collection('sources');
 
-  // --- Seeding Sources ---
-  console.log('Seeding content sources...');
-  const sources = [
-    {
-      sourceName: 'Google AI Blog',
-      feedUrl: 'https://blog.google/technology/ai/rss/',
-      adapter: 'RSS',
-      type: 'Article',
-      status: 'Pending', // Set to 'Pending' for initial processing
-      fetchFrequency: 'daily',
-    },
-    // You can add more RSS feed sources here
-  ];
-
-  const sourceBatch = db.batch();
-  for (const source of sources) {
-    // Use the feedUrl to create a unique, filesystem-safe ID
-    const sourceId = source.feedUrl.replace(/[^a-zA-Z0-9]/g, '_');
-    const sourceRef = sourcesCollection.doc(sourceId);
-    sourceBatch.set(sourceRef, source, { merge: true });
-  }
-  await sourceBatch.commit();
-  console.log(`Seeded ${sources.length} sources into the 'sources' collection.`);
 
   const processedJobs = await processDirectory(jobsDir, 'jobs');
   const processedArticles = await processDirectory(articlesDir, 'articles');

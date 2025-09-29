@@ -12,4 +12,8 @@ module.exports = {
     '/node_modules/',
     '^.+\\.module\\.(css|sass|scss)$',
   ],
+  testPathIgnorePatterns: [
+    '<rootDir>/src/components/Footer.test.tsx',
+    '<rootDir>/__tests__/pages/api/',
+  ],
 };

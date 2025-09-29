@@ -1,0 +1,17 @@
+---
+id: "sap-btp-fiori-taleocareersection-taleo_"
+title: "SAP BTP FIORI"
+company: "taleo_careersection"
+location: "Remote"
+applicationLink: "https://tas-cognizant.taleo.net/careersection/lateral/jobdetail.ftl?job=00065730601&lang=en"
+postedDate: "2025-09-28T15:45:10.417688Z"
+source: "taleo_careersection"
+provenance: "hiring.cafe"
+status: "open"
+jobLevel: "Not specified"
+employeeRole: "Not specified"
+tags: []
+companyLogo: null
+---
+
+ <p><br> </p><p><strong>Job Summary</strong></p><p>We are seeking a Technology Architect with 8 to 10 years of experience to join our team. The ideal candidate will have expertise in Generative AI S/4 HANA UI5 - ABAP OData and S/4 HANA Data Modeling. Experience in Customer Service is a plus. This hybrid role involves working primarily during the day shift with no travel required.</p><p><br> </p><p><strong>Responsibilities</strong></p><ul><li>Design and implement innovative solutions using Generative AI to enhance business processes and outcomes.</li><li>Develop and maintain S/4 HANA UI5 applications ensuring seamless integration with existing systems.</li><li>Create and optimize data models in S/4 HANA to support efficient data processing and reporting.</li><li>Collaborate with cross-functional teams to gather and analyze requirements translating them into technical specifications.</li><li>Provide technical guidance and support to development teams ensuring adherence to best practices and standards.</li><li>Oversee the deployment and testing of new applications and features ensuring high-quality deliverables.</li><li>Monitor system performance and troubleshoot issues implementing solutions to improve efficiency and reliability.</li><li>Stay updated with the latest industry trends and technologies applying them to enhance the companys offerings.</li><li>Engage with stakeholders to understand business needs and align technical solutions with strategic goals.</li><li>Document technical designs and processes ensuring clear communication and knowledge sharing within the team.</li><li>Conduct code reviews and provide constructive feedback to ensure code quality and maintainability.</li><li>Participate in project planning and estimation contributing to the successful delivery of projects on time and within budget.</li><li>Drive continuous improvement initiatives identifying opportunities to streamline processes and enhance productivity.</li></ul><p><br> </p><p><strong>Qualifications</strong></p><ul><li> </li><li>Possess strong expertise in Generative AI with a proven track record of successful implementations.</li><li>Demonstrate proficiency in S/4 HANA UI5</li><li>ABAP OData with experience in developing and maintaining applications.</li><li>Exhibit solid understanding of S/4 HANA Data Modeling with the ability to create and optimize data models.</li><li>Have experience in Customer Service domain with the ability to apply technical skills to improve customer experiences.</li><li>Show excellent problem-solving skills with the ability to troubleshoot and resolve complex technical issues.</li><li>Display strong communication and collaboration skills with the ability to work effectively in a hybrid work model.</li><li>Be self-motivated and proactive with a commitment to continuous learning and professional development.</li></ul><p><br> </p><p><strong>Certifications Required</strong></p><p>SAP Certified Development Associate</p>

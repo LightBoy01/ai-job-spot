@@ -21,7 +21,7 @@ async function migrateSources() {
     if (i === 0) return; // Skip header row
     const cells = $(row).find('td');
     sources.push({
-      status: $(cells[0]).text().replace(/`/g, ''),
+      status: $(cells[0]).text().replace(/`/g, '') as 'Pending' | 'Active' | 'Inactive',
       type: $(cells[1]).text().replace(/`/g, '') as 'Job' | 'Article',
       adapter: $(cells[2]).text().replace(/`/g, '') as 'RSS' | 'RSS_HUB' | 'HIRING_CAFE' | 'HIRING_CAFE_API',
       sourceName: $(cells[3]).text(),

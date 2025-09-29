@@ -71,14 +71,10 @@ const Navbar = () => {
               >
                 Post a Job
               </Link>
-              {!loading && user ? (
+              {!loading && user && (
                 <button onClick={logout} className="text-neutral-700 hover:text-primary-dark transition-colors duration-300 pb-1">
                   Logout
                 </button>
-              ) : (
-                <Link href="/admin/login" className={getLinkClassName('/admin/login')}>
-                  Login
-                </Link>
               )}
             </div>
           </div>
@@ -154,14 +150,10 @@ const Navbar = () => {
               </Link>
             ))}
 
-              {!loading && user ? (
+              {!loading && user && (
                 <button onClick={logout} className="text-neutral-700 hover:text-primary-dark transition-colors duration-300 pb-1 w-full text-left block px-3 py-2">
                   Logout
                 </button>
-              ) : (
-                <Link href="/admin/login" className={`${getLinkClassName('/admin/login')} block`}>
-                  Login
-                </Link>
               )}
           </div>
         </div>
