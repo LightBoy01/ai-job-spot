@@ -11,7 +11,7 @@ tags:
   - drive design
   - collaborate stakeholders
   - own process
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$166,000 - $230,000'

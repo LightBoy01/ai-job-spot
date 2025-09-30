@@ -12,7 +12,7 @@ tags:
   - conduct studies
   - coordinate teams
   - support customer interactions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

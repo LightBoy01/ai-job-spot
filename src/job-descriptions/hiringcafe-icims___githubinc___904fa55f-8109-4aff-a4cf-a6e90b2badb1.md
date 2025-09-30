@@ -12,7 +12,7 @@ tags:
   - Drive direction
   - Prototype ideas
   - Design experiences
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$97,900 - $259,900'

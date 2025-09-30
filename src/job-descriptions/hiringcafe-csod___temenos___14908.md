@@ -11,7 +11,7 @@ tags:
   - Leading teams
   - Designing solutions
   - Collaborating cross-functionally
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

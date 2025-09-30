@@ -13,7 +13,7 @@ tags:
   - Collaborate with design
   - Testbench development
   - Testbench reuse
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

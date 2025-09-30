@@ -11,7 +11,7 @@ tags:
   - design agents
   - define orchestration
   - lead initiatives
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$165,600 - $248,400'

@@ -12,7 +12,7 @@ tags:
   - Deliver cloud-native tooling
   - Architect solutions
   - Collaborate with teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

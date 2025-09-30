@@ -11,7 +11,7 @@ tags:
   - Lead initiatives
   - Identify bottlenecks
   - Drive forecasting
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$125,000 - $160,000'

@@ -12,7 +12,7 @@ tags:
   - Strategy development
   - Corporate finance
   - Transformation initiatives
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

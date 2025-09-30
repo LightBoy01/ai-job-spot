@@ -11,7 +11,7 @@ tags:
   - shaping strategy
   - defining messaging
   - leading launches
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

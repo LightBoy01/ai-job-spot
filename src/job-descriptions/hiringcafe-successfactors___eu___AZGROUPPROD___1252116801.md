@@ -12,7 +12,7 @@ tags:
   - Participate rotations
   - Analyze data
   - Collaborate colleagues
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

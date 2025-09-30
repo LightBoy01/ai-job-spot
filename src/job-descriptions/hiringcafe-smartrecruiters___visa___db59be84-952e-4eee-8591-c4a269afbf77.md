@@ -12,7 +12,7 @@ tags:
   - Developing software
   - Collaborating teams
   - Implementing AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$105,800 - $149,550'

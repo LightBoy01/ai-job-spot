@@ -11,7 +11,7 @@ tags:
   - own models
   - build models
   - define roadmap
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$196,000 - $269,500'

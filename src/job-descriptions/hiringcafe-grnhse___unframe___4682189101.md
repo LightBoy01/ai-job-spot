@@ -11,7 +11,7 @@ tags:
   - Implement workflows
   - Build integrations
   - Surface platform
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

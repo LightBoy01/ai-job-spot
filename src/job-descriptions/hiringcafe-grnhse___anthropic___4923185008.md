@@ -11,7 +11,7 @@ tags:
   - Mentor team
   - Define strategy
   - Collaborate cross-functional
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$320,000 - $320,000'

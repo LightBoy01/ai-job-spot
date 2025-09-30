@@ -11,7 +11,7 @@ tags:
   - build AI
   - shape architecture
   - collaborate closely
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$132,000 - $408,000'

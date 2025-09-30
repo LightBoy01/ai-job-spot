@@ -11,7 +11,7 @@ tags:
   - Investigating issues
   - Coaching managers
   - Maintaining records
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$85,000 - $95,000'

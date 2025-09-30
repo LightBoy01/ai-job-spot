@@ -14,7 +14,7 @@ tags:
   - Investigating RAG systems
   - Modeling orchestration layer
   - Simulating benchmarks
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

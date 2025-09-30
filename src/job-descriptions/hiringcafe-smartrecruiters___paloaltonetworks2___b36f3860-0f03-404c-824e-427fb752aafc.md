@@ -13,7 +13,7 @@ tags:
   - Deliver AI-driven test automation
   - Design agentic features
   - Build evaluation harnesses
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$126,000 - $204,500'

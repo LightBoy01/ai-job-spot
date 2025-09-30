@@ -11,7 +11,7 @@ tags:
   - Lead incidents
   - Analyze threats
   - Write guidance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

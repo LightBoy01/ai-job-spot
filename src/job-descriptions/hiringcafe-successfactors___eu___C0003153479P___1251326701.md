@@ -12,7 +12,7 @@ tags:
   - analyzing requirements
   - developing concepts
   - executing delivery
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

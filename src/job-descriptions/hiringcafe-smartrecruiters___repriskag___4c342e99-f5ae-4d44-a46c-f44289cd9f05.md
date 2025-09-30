@@ -1,0 +1,74 @@
+---
+id: hiringcafe-smartrecruiters___repriskag___4c342e99-f5ae-4d44-a46c-f44289cd9f05
+title: Global Head of Quality Engineering
+company: RepRisk AG
+location: 'Berlin, Berlin, Germany'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/RepRiskAG/744000082227047-global-head-of-quality-engineering
+postedDate: '2025-09-16T12:34:19.913Z'
+expirationDate: null
+tags:
+  - Engineering
+  - Lead team
+  - Drive recruitment
+  - Champion quality
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___repriskag___4c342e99-f5ae-4d44-a46c-f44289cd9f05
+companyLogoUrl: null
+---
+**Company Description:**
+
+**About Us** 
+
+RepRisk is a rapidly growing global company and a pioneer in the ESG data science field. Our goal is to make the world a better place by creating transparency in the business world – we are driving positive change via the power of data. We combine AI and machine learning with human intelligence to analyze public information and identify environmental, social, and governance (ESG) risks. We serve as a reality check for how companies conduct their business around the world – do they walk their talk when it comes to human rights, labor standards, corruption, and environmental issues?
+
+**We Offer** 
+
+*   Flexible working hours and arrangements
+*   An entrepreneurial, international, and dynamic work environment
+*   A shared mission to drive accountability and responsible behavior of companies, thus creating positive change
+*   Paid volunteering and training days, plus a donation matching program and a health and fitness subsidy
+*   A company that embraces diversity, because life would be boring if we were all the same
+
+**Job Description:**
+
+**About You**
+
+We are seeking a visionary and transformative Global Head of Quality Engineering to build and lead our world-class Quality Engineering organization. In this critical leadership role, you will be reporting to the CTO and will be empowered to define and execute a comprehensive quality vision for our software, data, and AI models, ensuring the highest standards for the product we deliver to our clients.
+
+Based in Zurich or Berlin, you will be responsible for creating a culture where quality is engineered into every step of the product development lifecycle. Working in close collaboration with the VP of Engineering, and the Heads of AI and Architecture, you will build a high-effectiveness Quality Engineering organization from the ground up, including defining the global scope and scaling the team. You will drive the strategy that underpins the reliability and excellence of all RepRisk products and influence a quality-first mindset across the company. This is an opportunity for a strategic, hands-on leader who is passionate about building exceptional teams and pioneering quality practices for cutting-edge technology.
+
+**Your Responsibilities**
+
+*   Lead, mentor, and inspire a global team of Quality Engineering professionals, cultivating a collaborative and healthy engineering ethos of trust, transparency, and intellectual honesty.
+*   Drive the recruitment, engagement, and development of top QE talent, ensuring clear paths for growth and recognition.
+*   Champion a performance culture that balances accountability with empowerment — establishing clear expectations, providing continuous feedback, and enabling innovation and growth..
+*   Embed a "quality-first" mindset across the entire engineering, data, and product organizations.
+*   Define, implement, and govern a modern QE process that ensures efficient, consistent, and high-quality delivery from development to production.
+*   Drive the Data Quality Framework of RepRisk to exceed client expectations on product delivery and operationalize the Framework with quality measures pertaining specifically to data QA.
+*   Establish and evangelize industry-leading QE practices tailored specifically for software applications, complex data pipelines, and cutting-edge AI models, ensuring their accuracy, reliability, and performance, while demonstrating clear impact on product excellence and client outcomes.
+*   Take full ownership of all quality engineering and testing processes, ensuring the consistent delivery of high-quality products that drive client satisfaction
+*   Define, implement, and manage a sophisticated set of KPIs and metrics (e.g., test coverage, defect escape rate, automation ROI) to create a data-informed environment for continuous improvement and measurable business impact
+*   Collaborate closely with engineering, product management, and architecture stakeholders to align quality initiatives with business goals and product roadmaps.
+
+**Qualifications:**
+
+**You Offer**
+
+*   Bachelor's or Master's degree in Computer Science, Engineering, or a related field or equivalent professional experience.
+*   Proven experience as a senior Quality Engineering leader (e.g., Head or Director of Quality Engineering) with a track record of building, leading, and scaling high-performing, global QE organizations with a data quality focus.
+*   Deep, hands-on expertise in designing and implementing modern QE automation frameworks and tools.
+*   Demonstrable experience establishing and refining QE processes and best practices in an agile environment.
+*   Expertise in defining and executing quality strategies for a diverse range of products, including software applications, data quality and integrity, and AI/ML models.
+*   Expertise in establishing and managing data-driven engineering cultures, using KPIs and metrics to measure and improve team performance and product quality.
+*   Strong strategic acumen with the ability to align the quality roadmap with business objectives and communicate complex technical concepts to non-technical stakeholders.
+*   Exceptional communication skills, with the ability to collaborate effectively across technical and non-technical stakeholders, and to influence cross-functional leaders toward a quality-first mindset.
+
+**Additional Information:**
+
+**Please note that we will only consider candidates with a valid work permit**

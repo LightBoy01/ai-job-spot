@@ -11,7 +11,7 @@ tags:
   - Design autonomous agents
   - Deploy AI solutions
   - Stay updated on AI/LLM tech
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

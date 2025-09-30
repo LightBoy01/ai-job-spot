@@ -13,7 +13,7 @@ tags:
   - Design security
   - Monitor threats
   - Research security
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$155,400 - $233,200'

@@ -11,7 +11,7 @@ tags:
   - Develop models
   - Collaborate stakeholders
   - Research AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$160,000 - $180,000'

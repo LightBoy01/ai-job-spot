@@ -11,7 +11,7 @@ tags:
   - Advise groups
   - Collaborate stakeholders
   - Lead architecture
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$116,647.72 - $180,000'

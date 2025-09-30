@@ -11,7 +11,7 @@ tags:
   - leading engineers
   - mentoring staff
   - recruiting engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$235,000 - $267,000'

@@ -15,7 +15,7 @@ tags:
   - Set up IA
   - Automate bugs
   - Integrate CI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

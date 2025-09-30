@@ -12,7 +12,7 @@ tags:
   - process invoices
   - reconcile statements
   - collaborate departments
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

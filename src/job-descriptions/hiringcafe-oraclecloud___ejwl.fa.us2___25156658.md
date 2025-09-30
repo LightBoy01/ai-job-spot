@@ -12,7 +12,7 @@ tags:
   - greet guests
   - assist guests
   - process payments
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

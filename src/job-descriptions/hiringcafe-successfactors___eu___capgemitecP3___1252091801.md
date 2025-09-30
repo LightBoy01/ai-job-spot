@@ -11,7 +11,7 @@ tags:
   - leading design
   - collaborating teams
   - architect AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

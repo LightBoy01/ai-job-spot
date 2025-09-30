@@ -14,7 +14,7 @@ tags:
   - leading operating
   - designing processes
   - establishing metrics
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

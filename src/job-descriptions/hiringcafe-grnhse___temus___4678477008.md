@@ -11,7 +11,7 @@ tags:
   - Solving problems
   - Building teams
   - Creating technical blogs
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -14,7 +14,7 @@ tags:
   - Developing strategies
   - Managing assets
   - Leading teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

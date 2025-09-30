@@ -13,7 +13,7 @@ tags:
   - design APIs
   - build applications
   - mentor peers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$128,320 - $192,480'

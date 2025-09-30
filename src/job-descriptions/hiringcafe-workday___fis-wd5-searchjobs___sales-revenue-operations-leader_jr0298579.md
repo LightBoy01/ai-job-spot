@@ -13,7 +13,7 @@ tags:
   - craft segmentation
   - analyze metrics
   - lead team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

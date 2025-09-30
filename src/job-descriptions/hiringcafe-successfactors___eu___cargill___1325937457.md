@@ -14,7 +14,7 @@ tags:
   - Lead process design
   - Drive continuous improvement
   - Collaborate with stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$150,000 - $170,000'

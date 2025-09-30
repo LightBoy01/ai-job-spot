@@ -11,7 +11,7 @@ tags:
   - analyze datasets
   - build models
   - present results
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$188,000 - $276,000'

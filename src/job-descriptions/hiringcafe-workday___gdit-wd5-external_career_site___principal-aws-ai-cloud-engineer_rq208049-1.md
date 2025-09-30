@@ -13,7 +13,7 @@ tags:
   - architect AWS
   - collaborate teams
   - optimize costs
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$144,410 - $195,378'

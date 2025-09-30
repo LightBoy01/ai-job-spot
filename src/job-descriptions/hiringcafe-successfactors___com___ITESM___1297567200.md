@@ -14,7 +14,7 @@ tags:
   - Leading AI
   - Teaching AI
   - Supervising students
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

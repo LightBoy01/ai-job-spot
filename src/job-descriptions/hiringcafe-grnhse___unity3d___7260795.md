@@ -11,7 +11,7 @@ tags:
   - design APIs
   - build services
   - maintain systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$135,800 - $258,600'

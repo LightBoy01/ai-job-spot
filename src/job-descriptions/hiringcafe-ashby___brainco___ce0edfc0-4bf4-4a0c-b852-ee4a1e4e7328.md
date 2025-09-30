@@ -11,7 +11,7 @@ tags:
   - Define features
   - Translate requirements
   - Lead delivery
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -13,7 +13,7 @@ tags:
   - produce insights
   - advise leaders
   - govern AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$152,000 - $190,000'

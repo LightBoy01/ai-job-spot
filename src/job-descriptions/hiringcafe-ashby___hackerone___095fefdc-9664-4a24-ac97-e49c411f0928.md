@@ -11,7 +11,7 @@ tags:
   - designing workflows
   - leading reviews
   - scaling operations
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$240,000 - $300,000'

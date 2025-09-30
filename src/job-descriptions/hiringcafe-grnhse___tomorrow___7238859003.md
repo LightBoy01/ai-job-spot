@@ -11,7 +11,7 @@ tags:
   - leading growth
   - optimizing campaigns
   - managing automation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$135,000 - $155,000'

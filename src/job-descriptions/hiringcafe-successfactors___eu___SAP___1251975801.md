@@ -11,7 +11,7 @@ tags:
   - Develop applications
   - Leverage AI
   - Mentor teammates
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - Architect software
   - Plan projects
   - Collaborate
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

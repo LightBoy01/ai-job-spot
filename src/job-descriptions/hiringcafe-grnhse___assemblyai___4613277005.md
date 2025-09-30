@@ -11,7 +11,7 @@ tags:
   - Architect infrastructure
   - Lead adoption
   - Coordinate collaboration
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$230,000 - $275,000'

@@ -14,7 +14,7 @@ tags:
   - develop tools
   - maintain automation
   - operate CTS
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

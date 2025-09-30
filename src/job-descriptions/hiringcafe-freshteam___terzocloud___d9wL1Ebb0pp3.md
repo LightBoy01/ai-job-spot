@@ -11,7 +11,7 @@ tags:
   - Define strategy
   - Gather requirements
   - Implement framework
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

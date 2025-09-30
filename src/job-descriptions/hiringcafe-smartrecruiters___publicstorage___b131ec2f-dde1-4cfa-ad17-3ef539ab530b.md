@@ -13,7 +13,7 @@ tags:
   - Leading requirements analysis
   - Driving analytical rigor
   - Managing project coordination
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - owning delivery
   - driving performance
   - building systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$200,000 - $300,000'

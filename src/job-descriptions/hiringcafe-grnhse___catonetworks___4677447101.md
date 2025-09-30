@@ -11,7 +11,7 @@ tags:
   - Develop territory
   - Build relationships
   - Own sales cycle
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

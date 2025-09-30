@@ -11,7 +11,7 @@ tags:
   - Lead strategy
   - Define roadmap
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$154,600 - $232,000'

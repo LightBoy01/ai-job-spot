@@ -12,7 +12,7 @@ tags:
   - Identifying issues
   - Collaborating teams
   - Leading localization
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

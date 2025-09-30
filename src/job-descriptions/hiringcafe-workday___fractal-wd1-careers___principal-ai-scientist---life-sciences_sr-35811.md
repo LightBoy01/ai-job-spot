@@ -13,7 +13,7 @@ tags:
   - Lead accounts
   - Grow portfolio
   - Mentor teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $250,000'

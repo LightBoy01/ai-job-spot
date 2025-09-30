@@ -11,7 +11,7 @@ tags:
   - Respond to inquiries
   - Advise customers
   - Track interactions in Salesforce
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

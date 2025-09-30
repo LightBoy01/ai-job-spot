@@ -12,7 +12,7 @@ tags:
   - lead accounting
   - direct reporting
   - develop processes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

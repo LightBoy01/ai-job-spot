@@ -11,7 +11,7 @@ tags:
   - designing campaigns
   - producing creatives
   - collaborating with teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: $55 - $63

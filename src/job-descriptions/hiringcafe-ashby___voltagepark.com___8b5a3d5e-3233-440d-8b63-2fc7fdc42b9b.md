@@ -11,7 +11,7 @@ tags:
   - source candidates
   - screen candidates
   - negotiate offers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$120,000 - $145,000'

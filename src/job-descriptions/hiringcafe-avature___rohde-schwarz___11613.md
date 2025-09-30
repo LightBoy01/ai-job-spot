@@ -13,7 +13,7 @@ tags:
   - Information Technology
   - assist
   - test AI models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

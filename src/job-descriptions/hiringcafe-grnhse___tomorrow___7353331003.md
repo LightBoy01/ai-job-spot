@@ -11,7 +11,7 @@ tags:
   - lead growth
   - optimize campaigns
   - drive SEO
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$135,000 - $155,000'

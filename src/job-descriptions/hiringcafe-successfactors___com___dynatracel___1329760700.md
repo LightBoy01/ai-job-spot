@@ -12,7 +12,7 @@ tags:
   - calendar management
   - travel coordination
   - meeting support
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

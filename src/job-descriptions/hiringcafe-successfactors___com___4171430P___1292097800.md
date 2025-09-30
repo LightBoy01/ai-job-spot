@@ -12,7 +12,7 @@ tags:
   - design solution
   - respond to RFPs
   - drive opportunities
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

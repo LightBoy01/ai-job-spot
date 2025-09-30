@@ -11,7 +11,7 @@ tags:
   - Design and deploy intelligent agentic systems
   - Develop Retrieval-Augmented Generation (RAG) applications
   - Build and iterate on conversational agents
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$124,900 - $228,900'

@@ -13,7 +13,7 @@ tags:
   - Lead design
   - Architect solutions
   - Mentor team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$155,288 - $258,813'

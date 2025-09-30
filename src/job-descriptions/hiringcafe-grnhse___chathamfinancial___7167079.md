@@ -11,7 +11,7 @@ tags:
   - Web management
   - Marketing campaigns
   - AI integration
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

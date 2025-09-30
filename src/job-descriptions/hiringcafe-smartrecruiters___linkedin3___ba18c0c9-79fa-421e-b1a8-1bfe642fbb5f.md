@@ -12,7 +12,7 @@ tags:
   - Lead team
   - Collaborate cross-functional
   - Define engineering practices
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$170,000 - $277,000'

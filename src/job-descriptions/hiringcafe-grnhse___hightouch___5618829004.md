@@ -11,7 +11,7 @@ tags:
   - Lead sessions
   - Document requirements
   - Mitigate risks
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$130,000 - $150,000'

@@ -11,7 +11,7 @@ tags:
   - Lead AI
   - Coordinate teams
   - Drive optimization
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$121,000 - $163,600'

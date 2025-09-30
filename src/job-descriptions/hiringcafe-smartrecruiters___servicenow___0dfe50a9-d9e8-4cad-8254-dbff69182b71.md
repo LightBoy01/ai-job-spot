@@ -12,7 +12,7 @@ tags:
   - Develop forecasts
   - Design experiments
   - Build models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$173,100 - $303,000'

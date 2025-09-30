@@ -12,7 +12,7 @@ tags:
   - design backend
   - build APIs
   - own pipelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - analyze data
   - identify leads
   - develop models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

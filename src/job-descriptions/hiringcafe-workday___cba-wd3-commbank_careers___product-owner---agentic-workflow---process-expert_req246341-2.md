@@ -13,7 +13,7 @@ tags:
   - Lead design
   - Shape journeys
   - Drive innovation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

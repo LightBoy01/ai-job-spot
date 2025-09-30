@@ -12,7 +12,7 @@ tags:
   - Leading strategic development
   - Overseeing underwriting operations
   - Collaborating with stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$87,400 - $161,000'

@@ -11,7 +11,7 @@ tags:
   - Build data
   - Develop tools
   - Map portfolio
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$175,000 - $195,000'

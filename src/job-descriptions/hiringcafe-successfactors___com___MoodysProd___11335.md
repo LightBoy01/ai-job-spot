@@ -12,7 +12,7 @@ tags:
   - Positioning insights
   - Developing plans
   - Leading team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$125,800 - $182,350'

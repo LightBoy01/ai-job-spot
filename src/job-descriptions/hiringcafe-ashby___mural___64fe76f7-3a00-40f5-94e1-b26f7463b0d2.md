@@ -11,7 +11,7 @@ tags:
   - design enablement
   - deliver sessions
   - coach teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$104,000 - $130,000'

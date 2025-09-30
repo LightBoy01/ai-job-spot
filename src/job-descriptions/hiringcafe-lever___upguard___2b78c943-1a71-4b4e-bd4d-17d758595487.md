@@ -11,7 +11,7 @@ tags:
   - Defining enablement strategy
   - Building enablement function
   - Developing scalable frameworks
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$240,000 - $260,000'

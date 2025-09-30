@@ -11,7 +11,7 @@ tags:
   - Design prompts
   - Craft linguistics
   - Collaborate cross-functional
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$130,200 - $164,700'

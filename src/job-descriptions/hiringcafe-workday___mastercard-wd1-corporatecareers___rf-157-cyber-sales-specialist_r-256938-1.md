@@ -15,7 +15,7 @@ tags:
   - driving revenue
   - leading sales
   - building relationships
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

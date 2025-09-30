@@ -11,7 +11,7 @@ tags:
   - Collaborate with product teams
   - Write developer guides
   - Maintain documentation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$135,000 - $204,000'

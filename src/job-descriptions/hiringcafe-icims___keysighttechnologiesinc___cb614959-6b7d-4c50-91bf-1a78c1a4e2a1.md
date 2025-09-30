@@ -13,7 +13,7 @@ tags:
   - Analyze growth
   - Develop dashboards
   - Deploy models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

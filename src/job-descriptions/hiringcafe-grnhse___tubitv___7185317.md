@@ -11,7 +11,7 @@ tags:
   - Lead team
   - Define strategy
   - Own incidents
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

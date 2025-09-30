@@ -11,7 +11,7 @@ tags:
   - Build discovery
   - Lead design
   - Tackle challenges
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$216,000 - $297,000'

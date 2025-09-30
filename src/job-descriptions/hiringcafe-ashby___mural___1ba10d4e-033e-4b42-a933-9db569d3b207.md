@@ -11,7 +11,7 @@ tags:
   - Prospect opportunities
   - Initiate outreach
   - Consultative selling
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

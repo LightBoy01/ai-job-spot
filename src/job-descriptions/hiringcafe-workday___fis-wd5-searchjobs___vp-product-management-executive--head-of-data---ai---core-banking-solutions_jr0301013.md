@@ -13,7 +13,7 @@ tags:
   - Defining strategy
   - Owning roadmap
   - Leading teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$236,790 - $397,810'

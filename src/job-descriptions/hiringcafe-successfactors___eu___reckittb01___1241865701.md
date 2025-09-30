@@ -5,14 +5,14 @@ company: Reckitt
 location: 'Parsippany, New Jersey, United States'
 applicationLink: >-
   https://careers.reckitt.com/job/Parsippany-US-Lysol-I&A-Associate-Manager-NJ-07054/1241865701/
-postedDate: '2025-09-29T09:31:41.605Z'
+postedDate: '2025-09-30T16:26:23.048Z'
 expirationDate: null
 tags:
   - Data and Analytics
   - champion consumer
   - use AI research
   - deliver insights
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$110,000 - $164,000'

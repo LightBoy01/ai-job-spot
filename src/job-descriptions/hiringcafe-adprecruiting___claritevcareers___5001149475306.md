@@ -11,7 +11,7 @@ tags:
   - Enhance AI
   - Lead R&D
   - Mentor team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$170,000 - $180,000'

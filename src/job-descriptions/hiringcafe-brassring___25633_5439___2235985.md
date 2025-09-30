@@ -12,7 +12,7 @@ tags:
   - Lead stakeholder discussions
   - Plan work and timelines
   - Deliver end-to-end data projects
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -13,7 +13,7 @@ tags:
   - Define go-to-market
   - Build partnerships
   - Lead deal execution
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$220,000 - $400,000'

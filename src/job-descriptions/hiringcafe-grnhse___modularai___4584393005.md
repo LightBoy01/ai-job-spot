@@ -11,7 +11,7 @@ tags:
   - Mentoring others
   - Driving product strategy
   - Collaborating with teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$261,000 - $305,000'

@@ -1,0 +1,127 @@
+---
+id: hiringcafe-grnhse___axon___7386033003
+title: 'Growth Marketing Manager -  Enterprise '
+company: Axon
+location: Denver or Scottsdale or Seattle
+applicationLink: 'https://job-boards.greenhouse.io/axon/jobs/7386033003'
+postedDate: '2025-09-24T05:41:03.000Z'
+expirationDate: null
+tags:
+  - Marketing
+  - execute campaigns
+  - manage timelines
+  - collaborate teams
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: '$93,750 - $150,000'
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___axon___7386033003'
+companyLogoUrl: null
+---
+#### **Join Axon and be a Force for Good.**
+
+At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues with our ecosystem of devices and cloud software. Like our products, we work better together. We connect with candor and care, seeking out diverse perspectives from our customers, communities and each other.  
+  
+Life at Axon is fast-paced, challenging and meaningful. Here, you’ll take ownership and drive real change. Constantly grow as you work hard for a mission that matters at a company where you matter.
+
+### Your Impact
+
+As a Growth Marketing Manager supporting Axon’s Enterprise team, you’ll help build awareness and demand among key decision makers and influencers in target Enterprise verticals including Retail, Healthcare, Logistics, Critical Infrastructure, Data Centers and others. You’ll be responsible for creating and executing campaigns, vertical focused webinars, and partnering with Sales to deliver localized, relevant experiences to customers.  
+  
+You’ll support GTM efforts with strong project management, stakeholder communication, and a passion for connecting new audiences to Axon’s mission.
+
+* * *
+
+**Location:** Denver/Boulder or Scottsdale or Seattle 
+
+This role is based out of our Denver, Scottsdale or Seattle location and follows a hybrid schedule. We rely on in-person collaboration and ask that team members work onsite Tuesdays through Fridays, with the flexibility to work remotely on Mondays, unless there is an approved workplace accommodation. We believe that connection fuels innovation, and our in-office culture is designed to foster meaningful teamwork, mentorship, and shared success.
+
+### What You’ll Do
+
+*   Execute campaigns across digital, field, and content channels, focusing on building ABM programs by vertical
+*   Manage Demandbase as the key marketing ABM platform for lead gen
+*   Manage campaign timelines, asset requests, and internal workflows
+*   Collaborate with Product Marketing, Demand Gen, Events, and Sales
+*   Support campaign reporting and stakeholder updates
+*   Coordinate creative reviews and content updates for target audiences
+*   Work with Marketing Analytics to track campaign results around lead gen and conversion
+
+* * *
+
+### What You Bring
+
+*   5–8 years of experience in field marketing, campaign execution, or vertical marketing
+*   Experience working with or marketing to public sector or mission-aligned audiences preferred
+*   Strong attention to detail and ability to manage concurrent projects
+*   Excellent written and verbal communication skills
+*   Working knowledge of Salesforce, Demandbase, HubSpot, Sendoso, Monday.com, Chat GPT or other marketing tools
+*   Passion for public safety and customer-centric storytelling
+
+* * *
+
+### **AI Expectations in This Role**
+
+You’ll use AI tools to support messaging drafts, content repurposing, meeting prep, and reporting summaries. AI will enable you to move faster and more confidently as you tailor campaigns for new and complex customer segments.
+
+* * *
+
+### Alignment with Axon’s Values
+
+*   **Aim Far** – You help chart our future in new public safety markets
+*   **Win Right** – You bring care and clarity to how we show up
+*   **Own It** – You deliver on-time, aligned, and well-executed programs
+*   **Join Forces** – You partner closely with stakeholders across functions
+*   **Be Obsessed** – You listen to and reflect the customer’s needs
+*   **Expect Candor** – You speak directly and adapt quickly
+*   **Boldly Go** – You embrace the unknown, take smart risks
+
+* * *
+
+### 90 Days at Axon
+
+**First 30 Days**
+
+*   Meet partners and audit vertical campaign content and messaging
+*   Understand current priorities and active projects across segments
+
+**First 60 Days**
+
+*   Launch or relaunch a campaign in collaboration with cross-functional teams
+*   Build a reporting and update cadence for your work
+
+**90 Days & Beyond**
+
+*   Own execution across multiple verticals
+*   Help shape scalable GTM programs for Fire, EMS, Corrections, and Justice
+
+* * *
+
+### Benefits that Benefit You
+
+*   Competitive salary and 401k with employer match
+*   Discretionary paid time off
+*   Paid parental leave for all
+*   Medical, Dental, Vision plans
+*   Fitness Programs
+*   Emotional & Mental Wellness support
+*   Learning & Development programs
+*   And yes, we have snacks in our offices
+
+_Benefits listed herein may vary depending on the nature of your employment and the location where you work._  
+
+_**The Pay: Axon is a total compensation company, meaning compensation is made up of base pay, bonus, and stock awards. The starting base pay for this role is between USD 93,750 in the lowest geographic market and USD 150,000 in the highest geographic market. The actual base pay is dependent upon many factors, such as: level, function, training, transferable skills, work experience, business needs, geographic market, and often a combination of all these factors. Our benefits offer an array of options to help support you physically, financially and emotionally through the big milestones and in your everyday life. To see more details on our benefits offerings please visit www.axon.com/careers/benefits.**_
+
+Don’t meet every single requirement? That's ok. At Axon, we Aim Far. We think big with a long-term view because we want to reinvent the world to be a safer, better place. We are also committed to building diverse teams that reflect the communities we serve.
+
+Studies have shown that women and people of color are less likely to apply to jobs unless they check every box in the job description. If you’re excited about this role and our mission to Protect Life but your experience doesn’t align perfectly with every qualification listed here, we encourage you to apply anyways. You may be just the right candidate for this or other roles.
+
+**Important Notes**
+
+_The above job description is not intended as, nor should it be construed as, exhaustive of all duties, responsibilities, skills, efforts, or working conditions associated with this job. The job description may change or be supplemented at any time in accordance with business needs and conditions._
+
+_Some roles may also require legal eligibility to work in a firearms environment._
+
+_Axon’s mission is to Protect Life and is committed to the well-being and safety of its employees as well as Axon’s impact on the environment. All Axon employees must be aware of and committed to the appropriate environmental, health, and safety regulations, policies, and procedures. Axon employees are empowered to report safety concerns as they arise and activities potentially impacting the environment._
+
+_We are an equal opportunity employer that promotes justice, advances equity, values diversity and fosters inclusion. We’re committed to hiring the best talent — regardless of race, creed, color, ancestry, religion, sex (including pregnancy), national origin, sexual orientation, age, citizenship status, marital status, disability, gender identity, genetic information, veteran status, or any other characteristic protected by applicable laws, regulations and ordinances — and empowering all of our employees so they can do their best work. If you have a disability or special need that requires assistance or accommodation during the application or the recruiting process, please email [recruitingops@axon.com](mailto:recruitingops@axon.com). Please note that this email address is for accommodation purposes only. Axon will not respond to inquiries for other purposes._

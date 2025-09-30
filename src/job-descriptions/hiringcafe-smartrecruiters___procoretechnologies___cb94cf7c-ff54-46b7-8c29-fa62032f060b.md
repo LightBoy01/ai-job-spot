@@ -13,7 +13,7 @@ tags:
   - Lead financial
   - Modernize vendor
   - Develop team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$144,000 - $198,000'

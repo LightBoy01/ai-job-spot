@@ -12,7 +12,7 @@ tags:
   - Lead analytics
   - Scale data
   - Partner stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - leading governance
   - assessing models
   - monitoring risk
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$49,772.8 - $49,772.8'

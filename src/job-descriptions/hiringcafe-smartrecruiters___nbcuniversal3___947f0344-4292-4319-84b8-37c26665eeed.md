@@ -13,7 +13,7 @@ tags:
   - leading platforms
   - designing systems
   - mentoring engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

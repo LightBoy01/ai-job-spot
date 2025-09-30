@@ -12,7 +12,7 @@ tags:
   - design software
   - develop backend
   - review code
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

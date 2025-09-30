@@ -13,7 +13,7 @@ tags:
   - driving adoption
   - analyzing metrics
   - leading initiatives
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$91,800 - $137,600'

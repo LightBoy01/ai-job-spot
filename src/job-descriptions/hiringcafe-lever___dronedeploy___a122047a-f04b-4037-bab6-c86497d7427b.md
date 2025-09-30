@@ -11,7 +11,7 @@ tags:
   - full cycle recruiting
   - building pipelines
   - partnering with managers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

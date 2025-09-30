@@ -12,7 +12,7 @@ tags:
   - Managing operations
   - Overseeing delivery
   - Aligning requirements
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$36,000 - $36,000'

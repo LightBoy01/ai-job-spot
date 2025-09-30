@@ -5,14 +5,14 @@ company: Valeo
 location: 'Bietigheim-Bissingen, Baden-Württemberg, Germany'
 applicationLink: >-
   https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Bietigheim-Bissingen/Werkstudent--m-w-d-_REQ2025058498
-postedDate: '2025-09-29T09:31:39.952Z'
+postedDate: '2025-09-30T16:26:25.078Z'
 expirationDate: null
 tags:
   - Research and Development (R&D)
   - Supporting AI in product validation environmental testing
   - Preparing and analyzing ongoing test data
   - Analyzing image processing traces
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - Design content
   - Collaborate stakeholders
   - Improve processes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

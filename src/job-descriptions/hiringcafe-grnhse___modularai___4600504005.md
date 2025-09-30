@@ -11,7 +11,7 @@ tags:
   - designing quality
   - coordinating testing
   - improving processes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$234,000 - $286,000'

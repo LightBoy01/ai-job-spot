@@ -11,7 +11,7 @@ tags:
   - Collaborate with cross-functional teams
   - Translate brand strategy into concepts
   - Develop full-funnel marketing assets
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$207,900 - $311,900'

@@ -11,7 +11,7 @@ tags:
   - research SaaS
   - negotiate contracts
   - optimize usage
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,000 - $110,000'

@@ -12,7 +12,7 @@ tags:
   - Collaborate designs
   - Assess feasibility
   - Define architecture
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$166,500 - $185,000'

@@ -11,7 +11,7 @@ tags:
   - build platform
   - define strategy
   - collaborate cross-functional
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

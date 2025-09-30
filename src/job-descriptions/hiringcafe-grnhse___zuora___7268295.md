@@ -11,7 +11,7 @@ tags:
   - Lead team
   - Orchestrate outbound
   - Optimize AI workflows
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$186,000 - $186,000'

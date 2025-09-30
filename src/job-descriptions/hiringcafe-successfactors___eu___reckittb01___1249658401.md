@@ -11,7 +11,7 @@ tags:
   - Strategic sourcing
   - Contract management
   - Negotiation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

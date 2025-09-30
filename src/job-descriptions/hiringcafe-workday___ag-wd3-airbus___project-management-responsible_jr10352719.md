@@ -12,7 +12,7 @@ tags:
   - Supporting project managers
   - Updating team master schedule plan
   - Assisting team communications with stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

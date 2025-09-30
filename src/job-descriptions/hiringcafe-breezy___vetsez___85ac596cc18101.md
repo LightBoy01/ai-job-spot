@@ -1,0 +1,71 @@
+---
+id: hiringcafe-breezy___vetsez___85ac596cc18101
+title: Senior .Net Developer (Remote Opportunity)
+company: VetsEZ
+location: 'Atlanta, Georgia, United States'
+applicationLink: >-
+  https://vetsez.breezy.hr/p/85ac596cc18101-senior-net-developer-remote-opportunity
+postedDate: '2025-09-17T14:40:14.864Z'
+expirationDate: null
+tags:
+  - Software Development
+  - design apps
+  - build APIs
+  - integrate databases
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/breezy___vetsez___85ac596cc18101'
+companyLogoUrl: null
+---
+VetsEZ is seeking a **Senior .NET Developer** to support enterprise healthcare systems modernization for the Department of Veterans Affairs (VA). This role is responsible for developing and maintaining mission-critical web applications that support large-scale data processing, reporting, and integration across VA systems and Oracle Health platforms. The ideal candidate brings strong .NET development experience, works well in Agile teams, and is committed to delivering secure, scalable, and maintainable software solutions.
+
+This position requires U.S. citizenship and the ability to obtain and maintain a Public Trust clearance.
+
+**Responsibilities:**
+
+*   Design, develop, and maintain ASP.NET and .NET Core applications to support internal tools, administrative portals, and data processing services.
+*   Develop RESTful APIs and integrate front-end frameworks such as Angular, React, or jQuery into secure enterprise applications.
+*   Interface with IRIS and SQL Server databases, supporting structured data exchanges and high-volume transaction processing.
+*   Collaborate with cross-functional teams including system architects, database engineers, and UI/UX designers to deliver modernized solutions.
+*   Support software development lifecycle activities including sprint planning, backlog grooming, code reviews, and release planning.
+*   Implement automated testing and deployment strategies using CI/CD pipelines and secure software development practices.
+*   Enhance and maintain a centralized portal for accessing DMM tools, video guides, application documentation, and VA resources.
+*   Ensure all code meets accessibility, performance, and VA cybersecurity compliance requirements.
+*   Create and maintain technical documentation including user guides, deployment instructions, and design specifications.
+*   Participate in modernization efforts and integration planning to extend legacy applications or migrate functionality into cloud-ready platforms.
+*   Take on additional tasks and responsibilities as needed to support team objectives and ensure the success of the project.
+
+**Requirements:**
+
+*   Bachelor’s degree in Computer Science, Software Engineering, or a related technical field.
+*   8+ years of hands-on software development experience using .NET technologies, including ASP.NET, .NET Core, and C#.
+*   Strong knowledge of front-end technologies such as HTML, CSS, JavaScript, Bootstrap, and modern frameworks like Angular or React.
+*   Experience integrating and querying relational databases such as SQL Server and interfacing with IRIS or Caché systems.
+*   Proficiency with REST APIs, ODBC, SOAP, and application authentication and authorization models.
+*   Experience working within Agile or SAFe development environments and using tools such as GitHub, Azure DevOps, or Jira.
+*   Familiarity with web hosting, IIS configuration, certificate management, and performance optimization.
+*   U.S. citizenship and ability to obtain and maintain a Public Trust clearance.
+
+**Additional Qualifications:**
+
+*   Prior experience supporting VA programs or other federal healthcare systems.
+*   Experience with Fortify, Microsoft Threat Modeling Tool, or similar secure coding tools.
+*   Familiarity with Kubernetes, Docker, or other container orchestration technologies.
+*   Experience integrating with HL7, FHIR, or other healthcare data exchange formats.
+*   Experience implementing LLM-driven enhancements or working in AI-assisted development environments.
+
+**Benefits:**
+
+*   Medical, Dental, and Vision insurance
+*   401(k) with Employer Match
+*   PTO and Federal Holidays
+*   Corporate-provided Laptop
+*   Training and Professional Development Opportunities
+*   Fully Remote Role
+
+Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability, or protected veteran status.
+
+Please note: Sponsorship is not available for this position.

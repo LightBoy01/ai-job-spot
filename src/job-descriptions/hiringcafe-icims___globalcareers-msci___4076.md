@@ -11,7 +11,7 @@ tags:
   - Develop models
   - Deploy models
   - Automate workflows
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

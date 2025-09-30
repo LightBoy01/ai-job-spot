@@ -11,7 +11,7 @@ tags:
   - Data collection
   - Annotation
   - Pairwise comparisons
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$37,440 - $37,440'

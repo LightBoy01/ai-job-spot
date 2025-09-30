@@ -12,7 +12,7 @@ tags:
   - Design dashboards
   - Automate workflows
   - Analyze data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Own roadmap
   - Lead team
   - Collaborate GTM
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$225,000 - $225,000'

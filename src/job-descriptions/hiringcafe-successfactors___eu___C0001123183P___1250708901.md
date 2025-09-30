@@ -1,0 +1,85 @@
+---
+id: hiringcafe-successfactors___eu___C0001123183P___1250708901
+title: 'Engenheiro/Engenheira de Prompt (São Paulo, SP, BR)'
+company: Capgemini - Get The Future You Want
+location: 'Sao Paulo, Sao Paulo, Brazil'
+applicationLink: >-
+  https://jobs.capgemini.com/job/S%C3%A3o-Paulo-EngenheiroEngenheira-de-Prompt-SP/1250708901/
+postedDate: '2025-09-23T20:44:28.009Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - develop prompts
+  - refine prompts
+  - evaluate metrics
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___C0001123183P___1250708901'
+companyLogoUrl: null
+---
+Você é apaixonado(a) por tecnologia, inovação e quer fazer parte de um ambiente inclusivo, colaborativo e em constante evolução? Então essa oportunidade é para você! 
+
+Na Capgemini, valorizamos o equilíbrio entre vida pessoal e profissional. Por isso, oferecemos modelos de trabalho flexível, híbrido, de acordo com as necessidades do projeto. Nosso objetivo é proporcionar a melhor experiência para você, respeitando seu estilo de vida e promovendo bem-estar. 
+
+Estamos em busca de um(a) **Engenheiro/Engenheira de Prompt**, para compor nosso time. 
+
+**Responsabilidades do cargo**
+
+r
+
+*   Desenvolver e refinar prompts para LLMs, considerando diferentes contextos e objetivos de negócio.
+*   Avaliar a qualidade das respostas geradas com base em métricas como precisão, relevância, coerência e fluência.
+*   Utilizar métricas automáticas (ex.: BLEU, ROUGE) e avaliações humanas para mensurar a performance dos modelos.
+*   Conduzir testes de jornadas conversacionais e realizar curadoria de respostas para garantir uma experiência de usuário consistente e eficaz.
+*   Trabalhar com ferramentas de avaliação e monitoramento de modelos, como frameworks de A/B testing e dashboards de métricas.
+*   Colaborar com times de produto, engenharia e ciência de dados para integrar LLMs em pipelines de agentes e aplicações.
+*   Ter entendimento básico de APIs de LLMs e contribuir para integrações técnicas em sistemas existentes.
+
+**Requisitos:**
+
+*   Experiência comprovada com engenharia de prompts e LLMs (como GPT, Claude, LLaMA, etc.).
+*   Conhecimento de métricas de avaliação de IA generativa (BLEU, ROUGE, METEOR, etc.).
+*   Vivência com testes de usabilidade e curadoria de conteúdo gerado por IA.
+*   Familiaridade com ferramentas de experimentação e monitoramento (ex.: MLflow, Weights & Biases, dashboards personalizados).
+*   Noções de integração via APIs e pipelines de agentes baseados em LLMs.
+*   Capacidade analítica, atenção a detalhes e pensamento crítico.
+
+**Diferenciais:**
+
+Experiência com frameworks como LangChain, LlamaIndex ou similares.  
+Conhecimento em linguagens como Python e uso de bibliotecas para NLP.  
+Experiência em ambientes de produção com IA generativa.
+
+**Diversidade, Inclusão e Pertencimento**
+
+Na Capgemini, você pode ser quem você é. Valorizamos a diversidade em todas as suas formas e promovemos um ambiente inclusivo por meio de comitês como:
+
+*   Women@Capgemini – Empoderamento feminino e equidade de gênero.
+*   Capgemini Black – Representatividade e valorização da cultura negra.
+*   LGBTQIA+@Capgemini, Capgemini Accessibility, entre outros.
+
+Nosso compromisso é contínuo: somos reconhecidos pela GPTW, Bloomberg Gender Equality Index, EDGE e Ethisphere como uma das empresas mais éticas e inclusivas do mundo. Nossas vagas são para todas as pessoas, independentemente de cor, etnia, religião, idade, identidade de gênero, orientação sexual ou deficiência.
+
+**Desenvolvimento e Benefícios**
+
+Aqui, você é protagonista da sua carreira! Oferecemos:
+
+*   Plano de carreira estruturado e trilhas personalizadas de aprendizado.
+*   Universidade Corporativa, com acesso a Harvard, Coursera, Udemy, Pluralsight.
+*   Certificações oficiais com parceiros como SAP, AWS, Microsoft, Salesforce.
+*   Idiomas com EF Education First (Inglês, Espanhol, Francês e Alemão).
+
+**Bem-estar completo**
+
+*   Assistência médica e odontológica.
+*   Gympass e Equilibrium (saúde física e mental).
+*   Previdência privada e seguro de vida.
+*   Programa Family Care: licenças maternidade e paternidade estendidas, apoio à fertilidade, orientação personalizada em saúde e bem-estar.
+*   Vale-refeição, clube de benefícios e muito mais!
+
+**Get the Future You Want**
+
+Na Capgemini, liberamos a energia humana por meio da tecnologia para construir um futuro mais inclusivo, sustentável e inovador. Se você compartilha desses valores, venha transformar o mundo com a gente!

@@ -11,7 +11,7 @@ tags:
   - Architect security controls
   - Manage systems security
   - Implement vulnerability management
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$150,000 - $250,000'

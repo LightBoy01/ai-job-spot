@@ -12,7 +12,7 @@ tags:
   - source candidates
   - negotiate offers
   - build sourcing
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

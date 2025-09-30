@@ -13,7 +13,7 @@ tags:
   - lead operations
   - drive workflows
   - manage team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

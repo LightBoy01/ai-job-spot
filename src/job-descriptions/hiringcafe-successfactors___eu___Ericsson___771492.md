@@ -12,7 +12,7 @@ tags:
   - design pipelines
   - deploy AI
   - collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

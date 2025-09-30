@@ -11,7 +11,7 @@ tags:
   - Leading relationships
   - Translating needs
   - Driving adoption
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$205,300 - $259,600'

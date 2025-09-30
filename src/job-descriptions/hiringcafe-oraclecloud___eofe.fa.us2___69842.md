@@ -12,7 +12,7 @@ tags:
   - Lead testing
   - Coordinate reviews
   - Communicate findings
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

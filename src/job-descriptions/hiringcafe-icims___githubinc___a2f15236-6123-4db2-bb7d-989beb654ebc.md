@@ -12,7 +12,7 @@ tags:
   - defining narrative
   - leading go-to-market
   - influencing launches
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$96,400 - $255,700'

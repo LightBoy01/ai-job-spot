@@ -11,7 +11,7 @@ tags:
   - define strategy
   - manage campaigns
   - optimize performance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - design frontend
   - build interfaces
   - develop components
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$170,000 - $200,000'

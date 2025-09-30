@@ -12,7 +12,7 @@ tags:
   - developing sourcing strategies
   - conducting market research
   - managing relationships
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$69,000 - $127,000'

@@ -12,7 +12,7 @@ tags:
   - data abstraction
   - data entry
   - report preparation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$57,116.8 - $74,526.4'

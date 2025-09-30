@@ -11,7 +11,7 @@ tags:
   - Write copy
   - Lead concepts
   - Mentor writers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$74,000 - $82,000'

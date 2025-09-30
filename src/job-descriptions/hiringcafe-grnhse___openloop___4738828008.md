@@ -11,7 +11,7 @@ tags:
   - leading engineering
   - driving scalability
   - partnering teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$172,000 - $200,000'

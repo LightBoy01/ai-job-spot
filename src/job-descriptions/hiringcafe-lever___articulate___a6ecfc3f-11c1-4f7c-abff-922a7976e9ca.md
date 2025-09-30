@@ -11,7 +11,7 @@ tags:
   - Collaborate on strategy
   - Deliver roadmap
   - Lead discovery
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$154,600 - $232,000'

@@ -11,7 +11,7 @@ tags:
   - Oversee QMS
   - Lead audits
   - Develop team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$185,000 - $245,000'

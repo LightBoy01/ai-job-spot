@@ -13,7 +13,7 @@ tags:
   - Lead team
   - Develop tooling
   - Oversee validation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

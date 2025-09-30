@@ -11,7 +11,7 @@ tags:
   - lead initiatives
   - drive partnerships
   - scout technologies
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

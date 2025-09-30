@@ -13,7 +13,7 @@ tags:
   - Implement LLMs
   - Develop VLMs
   - Design OCR systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$85,479 - $157,868'

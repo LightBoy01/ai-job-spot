@@ -13,7 +13,7 @@ tags:
   - Develop AI
   - Apply RL
   - Integrate perception
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

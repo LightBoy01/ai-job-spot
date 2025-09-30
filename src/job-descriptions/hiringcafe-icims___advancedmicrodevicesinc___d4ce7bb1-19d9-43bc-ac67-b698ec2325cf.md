@@ -13,7 +13,7 @@ tags:
   - lead testing
   - implement AI
   - drive validation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,400 - $150,600'

@@ -11,7 +11,7 @@ tags:
   - Build infrastructure
   - Automate tasks
   - Evaluate performance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $440,000'

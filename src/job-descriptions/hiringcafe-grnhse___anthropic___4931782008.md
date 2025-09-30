@@ -11,7 +11,7 @@ tags:
   - Driving revenue
   - Qualifying inbound leads
   - Executing outbound campaigns
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$210,000 - $280,000'

@@ -13,7 +13,7 @@ tags:
   - design models
   - deploy models
   - sustain models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$108,979 - $147,443'

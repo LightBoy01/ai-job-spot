@@ -13,7 +13,7 @@ tags:
   - lead design
   - mentor designers
   - define systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $220,000'

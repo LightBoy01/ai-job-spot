@@ -12,7 +12,7 @@ tags:
   - design models
   - build models
   - deploy models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

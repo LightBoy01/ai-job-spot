@@ -12,7 +12,7 @@ tags:
   - Data analysis
   - Model development
   - Visualization
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

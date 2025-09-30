@@ -11,7 +11,7 @@ tags:
   - Own content program
   - Create assets
   - Scale with tech
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$80,000 - $107,000'

@@ -1,0 +1,78 @@
+---
+id: >-
+  hiringcafe-workday___manulife-wd3-mfcjh_jobs___full-stack-software-engineer_jr25091097
+title: Full-stack Software Engineer
+company: Manulife
+location: Quezon City or Lapu-Lapu City
+applicationLink: >-
+  https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Quezon-City/Full-stack-Software-Engineer_JR25091097
+postedDate: '2025-09-30T00:00:00.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - design AI
+  - collaborate teams
+  - document processes
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/workday___manulife-wd3-mfcjh_jobs___full-stack-software-engineer_jr25091097
+companyLogoUrl: null
+---
+_We’re looking for a **Full-stack Software Engineer** to join our Information Systems team at MBPS. In this role, you will play a key, dynamic role in modernizing our customer interactions, helping to integrate analytics, business intelligence and AI into our decisions while providing actionable insights to stakeholders across the business._
+
+_Have the skills and experience for the job? Learn more about it below!_
+
+**Position Responsibilities:** 
+
+*   Design, develop, and implement AI solutions: Create innovative AI models and algorithms to solve complex problems and enhance product capabilities.
+*   Collaborate with cross-functional teams: Work closely with back-end developers, designers, product managers, and AI/NLP specialists to integrate AI solutions seamlessly into products.
+*   Stay up-to-date with the latest AI technologies: Continuously research and evaluate emerging AI technologies to ensure the adoption of best practices and cutting-edge solutions.
+*   Participate in code reviews: Engage in regular code reviews, providing constructive feedback to improve code quality, maintain coding standards, and foster a collaborative team environment.
+*   Document AI processes and solutions: Maintain comprehensive documentation of AI models, algorithms, and implementation processes to ensure transparency and facilitate future development.
+*   **_Amenable to work UP Ayala Technohub (Quezon City) or Mactan Newtown (Cebu)_**
+*   **_Amenable to work on a hybrid set-up (3x a week onsite)_**
+*   **_Amenable to work in any shift schedule assigned (night shift; but flexible depending on business need)_**
+
+**Required Qualifications:**
+
+*   College degree or equivalent IT, Computer Science Experience
+*   2-4 years of IT/Computer Science Experience
+*   2+ years frontend hand on coding knowledge with Azure AI technologies, Azure functions, SQL queries and other components supporting highly automated engineering platforms and Business teams.
+*   Proficiency with .net, C#, nodes js, react, java, javascript, Angular JS, MS bot framework. Microsoft Azure
+*   Ability to manage, prioritize multiple work streams in a time sensitive environment
+*   Strategic thinker focused on digital enhancements, AI, machine learning, and the customer.
+
+**Preferred Qualifications:**
+
+*   Can translate a more complex technical problem into business terms
+*   Strong application development/programming skills
+*   Ability to quickly learn about opensource libraries
+*   Solution design mindset - Ability to constructively challenge business requirements, technical requirements and any other direction that is received, to ensure we are building the BEST solution
+*   Work well independently as well as in team environment as situation dictates
+*   Strong analytical and problem-solving skills
+*   Effective English verbal and written communication skills. Should be able to adapt communication style to suit different audiences.
+*   Ability to manage multiple projects and work under tight deadlines related to group and client needs
+
+**When you join our team:**
+
+*   We’ll empower you to learn and grow the career you want. 
+*   We’ll recognize and support you in a flexible environment where well-being and inclusion are more than just words. 
+*   As part of our global team, we’ll support you in shaping the future you want to see.
+
+**About Manulife and John Hancock**
+
+Manulife Financial Corporation is a leading international financial services provider, helping people make their decisions easier and lives better. To learn more about us, visit [https://www.manulife.com/en/about/our-story.html](https://www.manulife.com/en/about/our-story.html).
+
+**Manulife is an Equal Opportunity Employer**
+
+At Manulife/John Hancock, we embrace our diversity. We strive to attract, develop and retain a workforce that is as diverse as the customers we serve and to foster an inclusive work environment that embraces the strength of cultures and individuals. We are committed to fair recruitment, retention, advancement and compensation, and we administer all of our practices and programs without discrimination on the basis of race, ancestry, place of origin, colour, ethnic origin, citizenship, religion or religious beliefs, creed, sex (including pregnancy and pregnancy-related conditions), sexual orientation, genetic characteristics, veteran status, gender identity, gender expression, age, marital status, family status, disability, or any other ground protected by applicable law.
+
+It is our priority to remove barriers to provide equal access to employment. A Human Resources representative will work with applicants who request a reasonable accommodation during the application process. All information shared during the accommodation request process will be stored and used in a manner that is consistent with applicable laws and Manulife/John Hancock policies. To request a reasonable accommodation in the application process, contact [recruitment@manulife.com](mailto:recruitment@manulife.com).
+
+**Working Arrangement**
+
+Hybrid

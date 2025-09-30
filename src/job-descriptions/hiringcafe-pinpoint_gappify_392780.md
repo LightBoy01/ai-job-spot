@@ -12,7 +12,7 @@ tags:
   - Design applications
   - Develop features
   - Review code
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Strategy
   - Automation
   - Insights
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$80,000 - $130,000'

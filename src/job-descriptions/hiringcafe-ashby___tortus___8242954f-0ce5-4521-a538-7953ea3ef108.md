@@ -11,7 +11,7 @@ tags:
   - scale teams
   - drive impact
   - recruit talent
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

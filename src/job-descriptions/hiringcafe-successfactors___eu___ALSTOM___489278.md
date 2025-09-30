@@ -12,7 +12,7 @@ tags:
   - Lead transformation
   - Define strategy
   - Manage teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

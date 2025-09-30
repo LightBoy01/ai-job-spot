@@ -12,7 +12,7 @@ tags:
   - analyzing data
   - collaborating with teams
   - learning skills
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$40,000 - $40,000'

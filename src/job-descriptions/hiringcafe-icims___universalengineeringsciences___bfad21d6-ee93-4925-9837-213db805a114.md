@@ -13,7 +13,7 @@ tags:
   - define strategy
   - lead deployment
   - drive adoption
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

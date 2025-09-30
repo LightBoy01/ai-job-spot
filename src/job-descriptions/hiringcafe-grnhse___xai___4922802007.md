@@ -11,7 +11,7 @@ tags:
   - Label data
   - Train tasks
   - Collaborate team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$93,600 - $208,000'

@@ -11,7 +11,7 @@ tags:
   - Create AI
   - Investigate AI
   - Collaborate team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$140,000 - $155,000'

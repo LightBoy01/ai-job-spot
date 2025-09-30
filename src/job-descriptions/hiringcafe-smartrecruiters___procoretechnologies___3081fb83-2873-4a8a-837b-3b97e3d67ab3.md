@@ -13,7 +13,7 @@ tags:
   - Define requirements
   - Prioritize roadmap
   - Collaborate cross-functionally
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$113,040 - $155,430'

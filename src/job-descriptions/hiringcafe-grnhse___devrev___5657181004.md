@@ -11,7 +11,7 @@ tags:
   - Design materials
   - Collaborate SMEs
   - Develop certifications
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

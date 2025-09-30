@@ -11,7 +11,7 @@ tags:
   - Designing architecture
   - Leading deployment
   - Collaborating stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$120,000 - $135,000'

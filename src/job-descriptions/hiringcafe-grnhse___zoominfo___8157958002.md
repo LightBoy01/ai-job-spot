@@ -11,7 +11,7 @@ tags:
   - designing experiences
   - prototyping interfaces
   - building prototypes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$92,960 - $146,080'

@@ -12,7 +12,7 @@ tags:
   - designing AI solutions
   - analyzing pain points
   - leading development
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

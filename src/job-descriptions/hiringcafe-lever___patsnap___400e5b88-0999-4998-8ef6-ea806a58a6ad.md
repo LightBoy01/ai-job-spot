@@ -11,7 +11,7 @@ tags:
   - Own roadmap
   - Collaborate with teams
   - Define AI capabilities
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - drive projects
   - lead reviews
   - collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$124,900 - $228,900'

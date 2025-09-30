@@ -13,7 +13,7 @@ tags:
   - align priorities
   - co-create strategy
   - develop roadmaps
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$276,600 - $435,400'

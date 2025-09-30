@@ -11,7 +11,7 @@ tags:
   - Data collection
   - Annotation
   - Labeling
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$38,480 - $38,480'

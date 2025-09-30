@@ -11,7 +11,7 @@ tags:
   - Build AI
   - Mentor engineers
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$163,900 - $245,900'

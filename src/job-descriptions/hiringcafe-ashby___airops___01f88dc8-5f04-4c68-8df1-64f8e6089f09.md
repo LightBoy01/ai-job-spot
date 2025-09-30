@@ -11,7 +11,7 @@ tags:
   - Design products
   - Collaborate teams
   - Ship features
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

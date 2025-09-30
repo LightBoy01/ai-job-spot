@@ -13,7 +13,7 @@ tags:
   - Maintain data pipeline
   - Train tagging
   - Collaborate with R&D
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -13,7 +13,7 @@ tags:
   - create report
   - identify automation
   - present findings
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

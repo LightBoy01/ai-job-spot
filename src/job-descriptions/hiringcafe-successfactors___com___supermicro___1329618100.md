@@ -11,7 +11,7 @@ tags:
   - develop strategies
   - collaborate cross-functional teams
   - engage customers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

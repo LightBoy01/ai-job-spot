@@ -13,7 +13,7 @@ tags:
   - Lead AI
   - Mentor engineers
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$118,465 - $224,994'

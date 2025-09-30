@@ -14,7 +14,7 @@ tags:
   - design agents
   - build pipelines
   - deploy production
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

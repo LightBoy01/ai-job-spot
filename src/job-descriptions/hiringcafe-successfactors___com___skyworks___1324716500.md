@@ -1,0 +1,63 @@
+---
+id: hiringcafe-successfactors___com___skyworks___1324716500
+title: 'AI-Summer Intern (Hillsboro, OR, US)'
+company: Skyworks | Home
+location: 'Hillsboro, Oregon, United States'
+applicationLink: >-
+  https://careers.skyworksinc.com/job/Hillsboro-AI-Summer-Intern-OR-97006/1324716500/
+postedDate: '2025-09-30T16:26:21.576Z'
+expirationDate: null
+tags:
+  - Software Development
+  - Developing networks
+  - Porting networks
+  - Testing models
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: '$54,080 - $98,800'
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___skyworks___1324716500'
+companyLogoUrl: null
+---
+If you are looking for a challenging and exciting career in the world of technology, then look no further. Skyworks is an innovator of high-performance analog semiconductors whose solutions are powering the wireless networking revolution. Through our broad technology expertise and one of the most extensive product portfolios in the industry, we are Connecting Everyone and Everything, All the Time.
+
+At Skyworks, you will find a fast-paced environment with a strong focus on global collaboration, minimal layers of management, and the freedom to make meaningful contributions in a setting that encourages creative thinking. We are excited about the opportunity to work with you and glad you want to be part of a team of talented individuals who together are changing the way the world communicates.
+
+Requisition ID: 76033 
+
+**Description**
+---------------
+
+Skyworks Solutions Inc. is a leading semiconductor and technology company driving the wireless networking revolution by connecting people, places, and things around the world. We are currently seeking a motivated student to join our AI group for 3 months as a Summer intern in our Hillsboro, Oregon office for the Summer of 2026. This is an exciting opportunity to engage in cutting-edge research and development of speech and signal processing algorithms for edge devices.
+
+**Responsibilities**
+--------------------
+
+As an intern with our AI group, you will contribute to a range of tasks, including but not limited to:
+
+*   Development of deep neural networks.
+*   Analyzing the efficiency and performance of models.
+*   Porting and testing neural networks on microprocessors and other constrained devices.
+*   Developing memory and computationally efficient real-time audio algorithms based on neural networks.
+*   Researching state-of-the-art neural networks in the audio domain.
+
+**Required Experience and Skills**
+----------------------------------
+
+*   Must be enrolled as a degree-seeking student. Preferably enrolled in a Masters or PhD program in a STEM related field involving programing, i.e. Computer Science, Computer Engineering, Mathematics. Bachelor's students with relevant professional experience or experience in projects applying neural networks to solve complex problems, and/or advance embedded programing skills.
+*   Familiarity with multi-channel speech enhancement and beamforming techniques.
+*   Experience with at least one deep learning framework (preferably TensorFlow).
+*   Understanding of common neural network layer types and their mathematical operations.
+*   Proficiency in programming languages such as Python and C/C++ (experience with embedded programming is a plus).
+*   Proficiency in Linux (Ubuntu). 
+
+**Desired Experience and Skills**
+---------------------------------
+
+*   Familiarity with audio, speech, and music signals.
+*   Commitment to writing clean, maintainable code using version control (Git).
+
+The typical pay range for an Engineering intern across the U.S. is currently USD $26.00 - $47.50 per hour and for a Non-Engineering intern across the U.S. is currently USD $22.50 - $42.00 per hour. Starting pay will depend on level of education, the ultimate job duties and requirements, and work location. Skyworks has different pay ranges for different work locations in the U.S.
+
+Skyworks is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or any other characteristic protected by law. Skyworks strives to create an accessible workplace; if you need an accommodation due to a disability, please contact us at accommodations@skyworksinc.com.

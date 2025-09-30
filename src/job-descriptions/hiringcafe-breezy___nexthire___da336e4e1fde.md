@@ -1,0 +1,68 @@
+---
+id: hiringcafe-breezy___nexthire___da336e4e1fde
+title: RapidCanvas- Product Manager
+company: Nexthire
+location: Remote or India
+applicationLink: 'https://nexthire.breezy.hr/p/da336e4e1fde-rapidcanvas-product-manager'
+postedDate: '2025-09-30T09:26:56.324Z'
+expirationDate: null
+tags:
+  - Product Management
+  - prototype tools
+  - drive development
+  - team collaboration
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/breezy___nexthire___da336e4e1fde'
+companyLogoUrl: null
+---
+**Senior Product Manager - Enterprise AI Solutions**
+
+RapidCanvas(RC) is **a multidisciplinary and multi-persona data science platform offers industry leading tools to build machine learning models and support machine learning needs**  
+
+‍
+
+We’re seeking a hands-on Senior Product Manager who combines strong technical skills with exceptional execution capabilities. This role is for someone who can rapidly prototype using AI tools, work shoulder-to-shoulder with engineers, and drive enterprise product development from concept to deployment. You should have practical experience with LLMs, modern AI tools, and a proven ability to code and understand complex engineering systems.
+
+**Roles and Responsibilities**
+
+Build functional prototypes and MVPs using AI tools (ChatGPT, Claude, Cursor, v0, GitHub Copilot, etc.) to validate concepts quickly
+
+Implement and test LLM-driven functionalities including prompt engineering, function calling, RAG systems, and code generation
+
+Create proof-of-concepts that demonstrate product vision to stakeholders and engineering teams
+
+Work directly alongside engineers throughout the development cycle - not just handoffs
+
+Participate in technical discussions, architecture decisions, and code reviews
+
+Drive daily standups, sprint planning, and actively remove technical blockers
+
+Own the delivery timeline and work in the trenches to meet deadlines
+
+Make informed trade-offs between technical debt, feature complexity, and time-to-market
+
+Analyze system performance, scalability concerns, and infrastructure requirements
+
+Translate complex technical concepts between engineering, sales, and executive teams
+
+‍
+
+Key Skills Required
+
+Strong coding skills in Python (or similar languages) with 2+ years of hands-on programming experience
+
+Deep understanding of software engineering concepts: APIs, databases, microservices, CI/CD
+
+Practical experience building with LLMs: prompt engineering, RAG implementation, function calling, tool usage
+
+Understanding of enterprise software architecture, security, and scalability requirements
+
+5+ years of professional experience in technical roles (engineering, technical PM, or similar)
+
+Proven track record of shipping enterprise products or B2B solutions
+
+Strong analytical and problem-solving abilities with data-driven decision making

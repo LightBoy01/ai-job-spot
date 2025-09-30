@@ -13,7 +13,7 @@ tags:
   - Define end-to-end
   - Architect sensor
   - Specify AI/ML pipelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

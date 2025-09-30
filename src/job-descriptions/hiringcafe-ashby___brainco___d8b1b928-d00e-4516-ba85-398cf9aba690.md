@@ -11,7 +11,7 @@ tags:
   - Design software
   - Build deployments
   - Scale systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

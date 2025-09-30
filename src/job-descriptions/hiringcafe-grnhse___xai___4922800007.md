@@ -11,7 +11,7 @@ tags:
   - label data
   - train models
   - support tasks
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$93,600 - $208,000'

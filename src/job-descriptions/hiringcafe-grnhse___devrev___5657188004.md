@@ -11,7 +11,7 @@ tags:
   - designing programs
   - delivering sessions
   - measuring metrics
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

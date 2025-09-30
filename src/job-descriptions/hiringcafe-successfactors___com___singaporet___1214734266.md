@@ -12,7 +12,7 @@ tags:
   - End-to-End Vision
   - Production Deployment
   - Automation & Orchestration
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

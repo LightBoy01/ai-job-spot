@@ -12,7 +12,7 @@ tags:
   - analyzing needs
   - creating tests
   - leading testing
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$69,300 - $90,000'

@@ -11,7 +11,7 @@ tags:
   - mentor teams
   - set goals
   - coach engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$196,300 - $265,600'

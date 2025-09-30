@@ -11,7 +11,7 @@ tags:
   - lead deployment
   - inspect cabling
   - design reviews
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$144,000 - $228,000'

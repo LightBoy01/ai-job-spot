@@ -13,7 +13,7 @@ tags:
   - designing systems
   - implementing features
   - mentoring teammates
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$106,125 - $176,875'

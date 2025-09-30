@@ -11,7 +11,7 @@ tags:
   - own roadmap
   - define metrics
   - translate themes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

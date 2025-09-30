@@ -11,7 +11,7 @@ tags:
   - build robotics
   - evaluate proposals
   - perform analyses
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,000 - $180,000'

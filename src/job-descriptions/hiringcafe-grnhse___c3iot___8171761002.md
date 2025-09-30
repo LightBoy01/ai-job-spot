@@ -11,7 +11,7 @@ tags:
   - design optimization
   - deploy solutions
   - lead projects
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$123,000 - $185,000'

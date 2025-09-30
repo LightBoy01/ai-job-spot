@@ -12,7 +12,7 @@ tags:
   - Develop applications
   - Design AI/ML
   - Collaborate with teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$122,000 - $157,000'

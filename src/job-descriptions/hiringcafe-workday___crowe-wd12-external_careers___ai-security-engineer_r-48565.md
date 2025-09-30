@@ -17,7 +17,7 @@ tags:
   - Identify vulnerabilities
   - Lead assessments
   - Design secure AI security
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$102,400 - $204,100'

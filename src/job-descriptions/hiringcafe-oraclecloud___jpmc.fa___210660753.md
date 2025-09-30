@@ -12,7 +12,7 @@ tags:
   - Designing
   - Developing
   - Troubleshooting
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

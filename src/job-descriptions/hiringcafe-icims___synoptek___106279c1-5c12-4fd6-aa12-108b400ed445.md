@@ -12,7 +12,7 @@ tags:
   - Mentor team
   - Define structure
   - Lead ceremonies
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$122,472 - $147,060'

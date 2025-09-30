@@ -13,7 +13,7 @@ tags:
   - Create insights
   - Advise clients
   - Deliver presentations
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

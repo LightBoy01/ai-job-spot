@@ -12,7 +12,7 @@ tags:
   - Lead analytics
   - Develop data solutions
   - Engage stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$103,000 - $103,000'

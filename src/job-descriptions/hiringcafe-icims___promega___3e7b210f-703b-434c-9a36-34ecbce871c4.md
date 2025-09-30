@@ -12,7 +12,7 @@ tags:
   - Design materials
   - Translate visuals
   - Collaborate stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

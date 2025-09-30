@@ -12,7 +12,7 @@ tags:
   - Lead teams
   - Drive modernization
   - Collaborate stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

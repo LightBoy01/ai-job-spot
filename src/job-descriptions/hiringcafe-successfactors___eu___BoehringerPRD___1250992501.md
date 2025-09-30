@@ -14,7 +14,7 @@ tags:
   - lead architecture
   - design cloud
   - translate data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$140,000 - $222,000'

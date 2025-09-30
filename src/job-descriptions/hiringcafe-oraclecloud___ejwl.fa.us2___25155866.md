@@ -9,7 +9,7 @@ postedDate: '2025-09-25T13:21:09.000Z'
 expirationDate: null
 tags:
   - Customer Service
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

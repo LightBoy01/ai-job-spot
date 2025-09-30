@@ -12,7 +12,7 @@ tags:
   - Schedule meetings
   - Prepare materials
   - Coordinate travel
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$80,000 - $90,000'

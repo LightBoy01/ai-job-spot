@@ -11,7 +11,7 @@ tags:
   - Lead engagement
   - Build relationships
   - Monitor regulations
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

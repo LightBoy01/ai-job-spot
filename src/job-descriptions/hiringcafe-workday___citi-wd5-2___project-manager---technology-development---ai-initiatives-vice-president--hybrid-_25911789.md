@@ -15,7 +15,7 @@ tags:
   - Managing portfolio
   - Tracking initiatives
   - Coordinating teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$103,920 - $155,880'

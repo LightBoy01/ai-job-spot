@@ -11,7 +11,7 @@ tags:
   - gather insights
   - define roadmap
   - drive outcomes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Build AI growth workflows
   - Evolve services delivery playbook
   - Partner with teams to build templates and workflows
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

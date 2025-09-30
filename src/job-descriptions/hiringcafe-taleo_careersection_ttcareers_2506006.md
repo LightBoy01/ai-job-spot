@@ -14,7 +14,7 @@ tags:
   - Design controls
   - Develop sequences
   - Troubleshoot systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$85,000 - $113,000'

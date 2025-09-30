@@ -11,7 +11,7 @@ tags:
   - Design AI
   - Build pipelines
   - Deploy APIs
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Design backend
   - Develop backend systems
   - Code reviews
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

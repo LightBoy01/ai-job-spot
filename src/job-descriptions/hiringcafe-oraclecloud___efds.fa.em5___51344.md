@@ -12,7 +12,7 @@ tags:
   - Lead programs
   - Translate problems
   - Configure Jira
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

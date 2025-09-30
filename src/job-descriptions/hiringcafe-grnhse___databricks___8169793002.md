@@ -11,7 +11,7 @@ tags:
   - build relationships
   - evaluate solutions
   - design architectures
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

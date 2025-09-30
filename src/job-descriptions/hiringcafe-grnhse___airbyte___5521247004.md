@@ -11,7 +11,7 @@ tags:
   - define deployments
   - enable observability
   - drive upgrades
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$120,000 - $190,000'

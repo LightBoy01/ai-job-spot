@@ -12,7 +12,7 @@ tags:
   - Define architecture
   - Lead security
   - Secure AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

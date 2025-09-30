@@ -13,7 +13,7 @@ tags:
   - leading team
   - overseeing projects
   - developing models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

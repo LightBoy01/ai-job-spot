@@ -11,7 +11,7 @@ tags:
   - Manage projects
   - Coordinate teams
   - Improve workflows
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

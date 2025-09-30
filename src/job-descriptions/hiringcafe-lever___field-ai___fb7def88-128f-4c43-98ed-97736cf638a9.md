@@ -11,7 +11,7 @@ tags:
   - Develop skills
   - Train models
   - Deploy robots
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$70,000 - $200,000'

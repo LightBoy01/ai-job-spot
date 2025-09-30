@@ -11,7 +11,7 @@ tags:
   - solving problems
   - delivering change
   - building relationships
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

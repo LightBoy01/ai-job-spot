@@ -12,7 +12,7 @@ tags:
   - Improve UX
   - Leverage AI
   - Prototype AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$49,920 - $49,920'

@@ -12,7 +12,7 @@ tags:
   - lead team
   - define strategy
   - manage lifecycle
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - Lead programs
   - Develop materials
   - Draft requirements
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$128,250 - $205,000'

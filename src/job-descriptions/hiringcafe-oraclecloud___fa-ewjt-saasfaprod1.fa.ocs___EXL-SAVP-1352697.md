@@ -12,7 +12,7 @@ tags:
   - Lead architecture
   - Collaborate teams
   - Develop roadmaps
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

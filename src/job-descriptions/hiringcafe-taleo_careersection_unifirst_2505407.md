@@ -12,7 +12,7 @@ tags:
   - Strategic leadership
   - Team leadership
   - Business consultation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

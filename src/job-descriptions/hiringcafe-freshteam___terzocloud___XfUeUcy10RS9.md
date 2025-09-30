@@ -12,7 +12,7 @@ tags:
   - Lead architecture
   - Design code
   - Collaborate team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

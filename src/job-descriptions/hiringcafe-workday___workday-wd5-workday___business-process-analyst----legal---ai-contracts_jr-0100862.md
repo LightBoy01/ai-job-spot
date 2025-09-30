@@ -13,7 +13,7 @@ tags:
   - Document Review
   - Data Remediation
   - Contract Analysis
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

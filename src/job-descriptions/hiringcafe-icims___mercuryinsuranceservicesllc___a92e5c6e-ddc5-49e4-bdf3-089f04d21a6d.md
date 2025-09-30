@@ -13,7 +13,7 @@ tags:
   - Plan communications
   - Develop content
   - Improve CX
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$98,699 - $182,896'

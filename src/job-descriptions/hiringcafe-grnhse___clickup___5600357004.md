@@ -11,7 +11,7 @@ tags:
   - full-cycle recruiting
   - sourcing strategy
   - stakeholder reporting
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,000 - $155,000'

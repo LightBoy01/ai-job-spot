@@ -11,7 +11,7 @@ tags:
   - own strategy
   - advise leadership
   - secure coverage
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

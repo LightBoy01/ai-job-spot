@@ -11,7 +11,7 @@ tags:
   - Architect platforms
   - Develop LLM integrations
   - Mentor engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

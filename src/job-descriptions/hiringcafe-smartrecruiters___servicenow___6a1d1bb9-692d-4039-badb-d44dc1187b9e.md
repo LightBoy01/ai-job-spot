@@ -12,7 +12,7 @@ tags:
   - Develop strategy
   - Lead governance
   - Build models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$197,800 - $346,200'

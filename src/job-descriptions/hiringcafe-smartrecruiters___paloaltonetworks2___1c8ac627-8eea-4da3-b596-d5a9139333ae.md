@@ -13,7 +13,7 @@ tags:
   - develop software
   - design architecture
   - scale AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$157,200 - $254,100'

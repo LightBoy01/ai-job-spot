@@ -11,7 +11,7 @@ tags:
   - Manage partnerships
   - Lead delivery
   - Coordinate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$270,000 - $333,000'

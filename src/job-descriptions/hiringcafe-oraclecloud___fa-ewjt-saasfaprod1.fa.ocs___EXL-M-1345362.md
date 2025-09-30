@@ -12,7 +12,7 @@ tags:
   - Agent development
   - RAG pipelines
   - Fine-tuning
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

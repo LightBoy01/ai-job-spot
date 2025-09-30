@@ -12,7 +12,7 @@ tags:
   - Designing experiments
   - Recording results
   - Collaborating cross-functionally
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

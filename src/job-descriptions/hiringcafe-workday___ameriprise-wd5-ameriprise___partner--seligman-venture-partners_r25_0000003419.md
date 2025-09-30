@@ -13,7 +13,7 @@ tags:
   - Leading sourcing
   - Representing firm
   - Coordinating deals
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$325,000 - $400,000'

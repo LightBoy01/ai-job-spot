@@ -11,7 +11,7 @@ tags:
   - respond inquiries
   - conduct demos
   - track interactions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

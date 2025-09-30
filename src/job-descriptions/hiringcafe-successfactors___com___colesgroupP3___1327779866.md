@@ -14,7 +14,7 @@ tags:
   - Set principles
   - Review designs
   - Guide architects
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

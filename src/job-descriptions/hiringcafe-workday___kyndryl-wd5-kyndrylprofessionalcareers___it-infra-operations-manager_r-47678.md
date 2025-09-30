@@ -13,7 +13,7 @@ tags:
   - Lead team
   - Coordinate delivery
   - Troubleshoot issues
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

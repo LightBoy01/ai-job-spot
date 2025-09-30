@@ -12,7 +12,7 @@ tags:
   - design AI solutions
   - develop AI models
   - collaborate with stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

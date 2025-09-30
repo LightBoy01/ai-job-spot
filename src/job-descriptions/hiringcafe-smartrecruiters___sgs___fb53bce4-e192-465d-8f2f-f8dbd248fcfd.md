@@ -11,7 +11,7 @@ tags:
   - visit clients
   - conduct audits
   - draft reports
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$4,600,000 - $7,000,000'

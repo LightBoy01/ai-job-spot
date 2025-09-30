@@ -13,7 +13,7 @@ tags:
   - Leading engagements
   - Mentoring teams
   - Shaping strategy
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $250,000'

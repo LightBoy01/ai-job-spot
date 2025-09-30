@@ -11,7 +11,7 @@ tags:
   - leading strategy
   - driving onboarding
   - coordinating delivery
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$161,300 - $225,800'

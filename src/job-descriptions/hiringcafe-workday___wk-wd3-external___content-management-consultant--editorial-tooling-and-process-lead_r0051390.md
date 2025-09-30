@@ -13,7 +13,7 @@ tags:
   - leading efforts
   - representing boards
   - interpreting challenges
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$103,200 - $144,600'

@@ -13,7 +13,7 @@ tags:
   - Developing applications
   - Collaborating teams
   - Troubleshooting issues
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

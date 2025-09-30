@@ -11,7 +11,7 @@ tags:
   - Own content
   - Create courses
   - Build community
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$230,000 - $250,000'

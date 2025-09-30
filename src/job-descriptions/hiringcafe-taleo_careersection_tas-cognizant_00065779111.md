@@ -12,7 +12,7 @@ tags:
   - developing solutions
   - integrating SAP TM and SAP EM
   - designing ABAP Web Services
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

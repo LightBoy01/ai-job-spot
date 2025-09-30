@@ -13,7 +13,7 @@ tags:
   - Define roadmap
   - Lead strategy
   - Collaborate with engineering
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$137,300 - $251,800'

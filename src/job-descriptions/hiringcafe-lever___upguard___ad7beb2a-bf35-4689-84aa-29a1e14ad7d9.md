@@ -11,7 +11,7 @@ tags:
   - Collaborate with engineers
   - Own features
   - Improve reliability
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

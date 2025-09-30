@@ -11,7 +11,7 @@ tags:
   - leading strategy
   - coordinating board
   - preparing materials
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$200,000 - $250,000'

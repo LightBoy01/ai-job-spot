@@ -11,7 +11,7 @@ tags:
   - Drive transformation
   - Own sales cycle
   - Architect solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

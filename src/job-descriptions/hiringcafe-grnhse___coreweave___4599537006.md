@@ -11,7 +11,7 @@ tags:
   - define strategy
   - lead team
   - build insights
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$188,000 - $275,000'

@@ -11,7 +11,7 @@ tags:
   - Define digital innovation strategy
   - Lead discovery of emerging technologies
   - Act as internal evangelist for digital transformation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

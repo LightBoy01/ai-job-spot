@@ -14,7 +14,7 @@ tags:
   - Monitor client sites
   - Troubleshoot IoT and HVAC control systems
   - Remotely deploy and commission IoT devices
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$85,000 - $113,000'

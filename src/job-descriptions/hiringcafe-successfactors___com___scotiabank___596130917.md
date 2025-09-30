@@ -12,7 +12,7 @@ tags:
   - Manage projects
   - Plan end-to-end design
   - Lead project teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

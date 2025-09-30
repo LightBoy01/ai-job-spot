@@ -11,7 +11,7 @@ tags:
   - source talent
   - engage candidates
   - partner recruiters
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$124,800 - $145,600'

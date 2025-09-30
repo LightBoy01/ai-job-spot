@@ -13,7 +13,7 @@ tags:
   - Lead cross-functional teams
   - Synthesize data to identify opportunities
   - Document customer journeys
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$118,800 - $178,200'

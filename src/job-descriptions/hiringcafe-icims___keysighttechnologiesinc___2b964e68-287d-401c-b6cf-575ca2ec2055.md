@@ -13,7 +13,7 @@ tags:
   - Analyzing Growth Opportunities
   - Developing AI-Enhanced Dashboards
   - Supporting ML Model Deployment
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$106,130 - $176,880'

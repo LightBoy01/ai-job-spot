@@ -13,7 +13,7 @@ tags:
     campaigns
   - 'Build and deliver partner campaigns in Marketo, Salesforce, and AI tools'
   - Manage and maintain partner lead data and campaign integrity
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

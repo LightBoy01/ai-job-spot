@@ -11,7 +11,7 @@ tags:
   - Managing teams
   - Shipping features
   - Coordinating pipelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

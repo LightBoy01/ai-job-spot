@@ -11,7 +11,7 @@ tags:
   - lead development
   - design UX
   - build value
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

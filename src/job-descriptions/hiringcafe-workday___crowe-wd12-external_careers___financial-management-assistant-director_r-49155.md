@@ -13,7 +13,7 @@ tags:
   - drive insights
   - forecasting budgets
   - collaborating stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$97,000 - $206,100'

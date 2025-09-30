@@ -11,7 +11,7 @@ tags:
   - Designing AI
   - Deploying AI
   - Collaborating teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

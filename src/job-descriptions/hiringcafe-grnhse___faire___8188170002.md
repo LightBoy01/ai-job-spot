@@ -11,7 +11,7 @@ tags:
   - Own end-to-end model development
   - Build ads models
   - Define roadmap and culture
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$224,000 - $308,000'

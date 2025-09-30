@@ -12,7 +12,7 @@ tags:
   - clean areas
   - disinfect surfaces
   - follow routines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

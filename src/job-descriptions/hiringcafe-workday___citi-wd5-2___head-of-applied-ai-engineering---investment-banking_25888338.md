@@ -13,7 +13,7 @@ tags:
   - lead strategy
   - design systems
   - drive data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

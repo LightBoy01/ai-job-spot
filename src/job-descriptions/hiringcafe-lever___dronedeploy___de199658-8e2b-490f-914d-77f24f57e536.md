@@ -11,7 +11,7 @@ tags:
   - Develop plan
   - Partner sales
   - Execute campaigns
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Design models
   - Optimize models
   - Develop interfaces
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$70,000 - $200,000'

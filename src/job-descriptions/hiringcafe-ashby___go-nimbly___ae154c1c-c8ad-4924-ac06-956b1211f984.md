@@ -11,7 +11,7 @@ tags:
   - build roadmaps
   - lead decisions
   - develop Salesforce
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$140,000 - $160,000'

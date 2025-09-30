@@ -13,7 +13,7 @@ tags:
   - leading transformation
   - driving governance
   - collaborating stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

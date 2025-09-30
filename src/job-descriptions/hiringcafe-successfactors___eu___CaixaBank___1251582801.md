@@ -14,7 +14,7 @@ tags:
   - Leading channels
   - Developing strategy
   - Collaborating influencers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

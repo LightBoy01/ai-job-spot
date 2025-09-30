@@ -11,7 +11,7 @@ tags:
   - establishing objectives
   - creating prototypes
   - analyzing data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

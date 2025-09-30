@@ -12,7 +12,7 @@ tags:
   - lead team
   - design solutions
   - deliver frameworks
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$113,000 - $142,500'

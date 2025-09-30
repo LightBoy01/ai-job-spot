@@ -11,7 +11,7 @@ tags:
   - Develop strategy
   - Review landscapes
   - Collaborate engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

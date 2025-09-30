@@ -12,7 +12,7 @@ tags:
   - build pipeline
   - evaluate candidates
   - scale organization
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,000 - $180,000'

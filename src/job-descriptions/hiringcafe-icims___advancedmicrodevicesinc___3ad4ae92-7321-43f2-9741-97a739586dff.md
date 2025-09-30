@@ -13,7 +13,7 @@ tags:
   - Collaborate design
   - Drive testbench
   - Execute verification
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$150,400 - $225,600'

@@ -13,7 +13,7 @@ tags:
   - develop GenAI
   - lead teams
   - recruit talent
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$240,000 - $384,000'

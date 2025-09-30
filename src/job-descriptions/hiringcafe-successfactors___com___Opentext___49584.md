@@ -1,0 +1,154 @@
+---
+id: hiringcafe-successfactors___com___Opentext___49584
+title: UX Designer (49584)
+company: OpenText
+location: India
+applicationLink: >-
+  https://career17.sapsf.com/career?career_ns=job_listing&company=Opentext&career_job_req_id=49584
+postedDate: '2025-09-29T14:32:56.000Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - partner teams
+  - define requirements
+  - design solutions
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___Opentext___49584'
+companyLogoUrl: null
+---
+Career Opportunities: UX Designer (49584)
+=========================================
+
+Requisition ID **49584** - Posted  - **Common Components - India**
+
+**OPENTEXT - THE INFORMATION COMPANY**
+
+OpenText is a global leader in information management, where innovation, creativity, and collaboration are the key components of our corporate culture. As a member of our team, you will have the opportunity to partner with the most highly regarded companies in the world, tackle complex issues, and contribute to projects that shape the future of digital transformation.
+
+**AI-First. Future-Driven. Human-Centered.**
+
+At OpenText, AI is at the heart of everything we do—powering innovation, transforming work, and empowering digital knowledge workers. We're hiring talent that AI can't replace to help us shape the future of information management. Join us.
+
+**Role**
+
+As a UX Designer, you would be part of a larger experienced design team at OpenText and report to the UX Manager. A typical day at work would see you interacting with Product Management, Product Development, UX Research, and senior UX leadership. This role requires self-motivation and ability to work independently and with team members and product groups.  
+
+**Responsibilities**
+
+*   Partner across teams to gain a deep understanding of product domains and user needs
+*   Collaborate with Product Management to define requirements, shape product backlogs, and outline the vision for user experience
+*   Design intuitive, user-friendly solutions for complex, multi-platform product suites
+*   Conduct usability tests and other forms of UX validation with internal and external partners
+*   Build detailed, interactive prototypes for presentations and usability testing
+*   Leverage product thinking to drive innovation and contribute to business growth
+*   Apply AI-informed design thinking where relevant, using AI tools to simplify workflows, accelerate ideation, and improve user decision-making
+*   Promote a design thinking approach, be a UX advocate, and foster a dynamic design culture
+*   Mentor and guide junior designers, offering both interaction and visual design feedback to help them grow
+*   Ensure design precision and consistency by maintaining clear workflows, cohesive layouts, and alignment with design systems
+*   Craft visually engaging and brand-aligned interfaces, ensuring hierarchy, spacing, typography, and color usage support clarity and usability
+*   Contribute to the evolution of design systems and interaction/visual guidelines across platforms
+
+  
+**Minimum Qualifications**
+
+*   Bachelor’s degree in Design, Human-Computer Interaction, Computer Science, or equivalent hands-on experience
+*   3+ years of experience designing interactions for large-scale products or services
+*   Excellent communication and presentation skills with the ability to explain design rationale clearly
+*   Skilled in creating UX deliverables such as journey maps, task flows, wireframes, prototypes, and design specifications
+*   Experience developing user personas and usage scenarios
+*   Proficient in design tools such as Figma and FigJam
+*   Ability to produce high-quality visual design elements (components, icons, illustrations) while adhering to brand and system guidelines
+*   Strong organizational skills to balance multiple tasks with attention to detail and deadlines
+
+**Preferred Qualifications**
+
+*   Experience collaborating with global, cross-functional teams in complex organizational structures
+*   Skilled in facilitating workshops to generate ideas, drive alignment, and achieve consensus
+*   Proven ability in feature prioritization and contributing to roadmap development
+*   Background in conducting usability tests and interpreting results
+*   Knowledge of heuristic evaluations and accessibility standards (Section 508, WCAG)
+*   Familiarity with Enterprise Content Management (ECM) products is a plus
+*   Significant contributions to design systems, including both interaction and visual aspects
+*   Awareness of how AI can simplify enterprise workflows and elevate user experiences
+
+**What sets you apart**
+
+An impressive portfolio with case studies that highlight your ability to solve complex interaction design challenges, demonstrate visual craft, and show how you’ve used emerging tools (including AI) to deliver impactful outcomes.
+
+OpenText's efforts to build an inclusive work environment go beyond simply complying with applicable laws. Our Employment Equity and Diversity Policy provides direction on maintaining a working environment that is inclusive of everyone, regardless of culture, national origin, race, color, gender, gender identification, sexual orientation, family status, age, veteran status, disability, religion, or other basis protected by applicable laws.
+
+If you need assistance and/or a reasonable accommodation due to a disability during the application or recruiting process, please contact us at [hr@opentext.com](mailto:hr@opentext.com). Our proactive approach fosters collaboration, innovation, and personal growth, enriching OpenText's vibrant workplace.
+
+Email this job to a friend
+
+ 
+
+
+
+**The job has been sent to**
+
+ 
+
+**The job has been sent to**
+
+**OPENTEXT - THE INFORMATION COMPANY**
+
+OpenText is a global leader in information management, where innovation, creativity, and collaboration are the key components of our corporate culture. As a member of our team, you will have the opportunity to partner with the most highly regarded companies in the world, tackle complex issues, and contribute to projects that shape the future of digital transformation.
+
+**AI-First. Future-Driven. Human-Centered.**
+
+At OpenText, AI is at the heart of everything we do—powering innovation, transforming work, and empowering digital knowledge workers. We're hiring talent that AI can't replace to help us shape the future of information management. Join us.
+
+**Role**
+
+As a UX Designer, you would be part of a larger experienced design team at OpenText and report to the UX Manager. A typical day at work would see you interacting with Product Management, Product Development, UX Research, and senior UX leadership. This role requires self-motivation and ability to work independently and with team members and product groups.  
+
+**Responsibilities**
+
+*   Partner across teams to gain a deep understanding of product domains and user needs
+*   Collaborate with Product Management to define requirements, shape product backlogs, and outline the vision for user experience
+*   Design intuitive, user-friendly solutions for complex, multi-platform product suites
+*   Conduct usability tests and other forms of UX validation with internal and external partners
+*   Build detailed, interactive prototypes for presentations and usability testing
+*   Leverage product thinking to drive innovation and contribute to business growth
+*   Apply AI-informed design thinking where relevant, using AI tools to simplify workflows, accelerate ideation, and improve user decision-making
+*   Promote a design thinking approach, be a UX advocate, and foster a dynamic design culture
+*   Mentor and guide junior designers, offering both interaction and visual design feedback to help them grow
+*   Ensure design precision and consistency by maintaining clear workflows, cohesive layouts, and alignment with design systems
+*   Craft visually engaging and brand-aligned interfaces, ensuring hierarchy, spacing, typography, and color usage support clarity and usability
+*   Contribute to the evolution of design systems and interaction/visual guidelines across platforms
+
+  
+**Minimum Qualifications**
+
+*   Bachelor’s degree in Design, Human-Computer Interaction, Computer Science, or equivalent hands-on experience
+*   3+ years of experience designing interactions for large-scale products or services
+*   Excellent communication and presentation skills with the ability to explain design rationale clearly
+*   Skilled in creating UX deliverables such as journey maps, task flows, wireframes, prototypes, and design specifications
+*   Experience developing user personas and usage scenarios
+*   Proficient in design tools such as Figma and FigJam
+*   Ability to produce high-quality visual design elements (components, icons, illustrations) while adhering to brand and system guidelines
+*   Strong organizational skills to balance multiple tasks with attention to detail and deadlines
+
+**Preferred Qualifications**
+
+*   Experience collaborating with global, cross-functional teams in complex organizational structures
+*   Skilled in facilitating workshops to generate ideas, drive alignment, and achieve consensus
+*   Proven ability in feature prioritization and contributing to roadmap development
+*   Background in conducting usability tests and interpreting results
+*   Knowledge of heuristic evaluations and accessibility standards (Section 508, WCAG)
+*   Familiarity with Enterprise Content Management (ECM) products is a plus
+*   Significant contributions to design systems, including both interaction and visual aspects
+*   Awareness of how AI can simplify enterprise workflows and elevate user experiences
+
+**What sets you apart**
+
+An impressive portfolio with case studies that highlight your ability to solve complex interaction design challenges, demonstrate visual craft, and show how you’ve used emerging tools (including AI) to deliver impactful outcomes.
+
+OpenText's efforts to build an inclusive work environment go beyond simply complying with applicable laws. Our Employment Equity and Diversity Policy provides direction on maintaining a working environment that is inclusive of everyone, regardless of culture, national origin, race, color, gender, gender identification, sexual orientation, family status, age, veteran status, disability, religion, or other basis protected by applicable laws.
+
+If you need assistance and/or a reasonable accommodation due to a disability during the application or recruiting process, please contact us at [hr@opentext.com](mailto:hr@opentext.com). Our proactive approach fosters collaboration, innovation, and personal growth, enriching OpenText's vibrant workplace.

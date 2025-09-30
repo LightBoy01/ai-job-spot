@@ -11,7 +11,7 @@ tags:
   - Engage stakeholders
   - Design workflows
   - Translate requirements
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$166,400 - $187,200'

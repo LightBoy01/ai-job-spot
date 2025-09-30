@@ -11,7 +11,7 @@ tags:
   - designing software
   - developing ML models
   - integrating APIs
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

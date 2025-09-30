@@ -13,7 +13,7 @@ tags:
   - Partnering leaders
   - Build team
   - Lead strategy
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

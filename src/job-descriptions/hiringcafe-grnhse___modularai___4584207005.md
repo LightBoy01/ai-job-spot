@@ -11,7 +11,7 @@ tags:
   - Building compiler
   - Writing optimizations
   - Analyzing performance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$234,000 - $273,000'

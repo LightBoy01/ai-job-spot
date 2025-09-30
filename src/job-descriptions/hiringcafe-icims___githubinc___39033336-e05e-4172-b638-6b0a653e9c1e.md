@@ -12,7 +12,7 @@ tags:
   - lead teams
   - define strategy
   - drive outcomes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$127,600 - $338,500'

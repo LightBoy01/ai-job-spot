@@ -11,7 +11,7 @@ tags:
   - build features
   - define roadmap
   - lead presentations
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

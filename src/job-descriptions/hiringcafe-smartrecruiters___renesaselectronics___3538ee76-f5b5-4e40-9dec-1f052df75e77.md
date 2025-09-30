@@ -13,7 +13,7 @@ tags:
   - Define architecture
   - Develop perception
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

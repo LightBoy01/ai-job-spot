@@ -1,0 +1,147 @@
+---
+id: hiringcafe-ashby___articul8___6170fbd2-6d50-4a75-a5b8-f9ad4a71e51d
+title: AI/ML Manager - Engineering Leader
+company: Articul8
+location: 'Dublin, California, United States'
+applicationLink: 'https://jobs.ashbyhq.com/articul8/6170fbd2-6d50-4a75-a5b8-f9ad4a71e51d'
+postedDate: '2025-09-30T00:37:58.904Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Lead team
+  - Define roadmap
+  - Collaborate internally
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/ashby___articul8___6170fbd2-6d50-4a75-a5b8-f9ad4a71e51d
+companyLogoUrl: null
+---
+About Articul8 AI
+
+At Articul8, we build enterprise-grade Generative AI solutions that help global organizations unlock new value from their data. Our platform is trusted by some of the world's most innovative companies, and we partner closely with customers to design, deploy, and scale AI solutions that deliver measurable impact.
+
+As a fast-moving startup, we move with urgency and focus. Every team member has real ownership, and the work you do here directly shapes our platform and our customers' success. If you thrive in an environment where innovation happens daily and impact is visible, Articul8 is the place to do the best work of your career.
+
+**Role Overview**
+
+As an AI/ML Manager, you will leverage your strong technical expertise in machine learning with your leadership skills to guide a high-performing team, shape the technical roadmap, and deliver impactful solutions across our products. This role blends technical leadership, applied research translation, and cross-functional collaboration to deliver impactful scalable solutions to our customers. You will shape the AI roadmap, cultivate a culture of excellence, and ensure scalable, data-driven execution in a fast-paced environment.
+
+This role will engage directly with customers to understand their requirements and collaborate closely with multiple teams at Articul8 to translate these needs into actionable tasks for your team. You will oversee feature lifecycles from ideation through deployment in production-grade code.
+
+Candidates must have experience leading teams of both junior and senior engineers across multiple parallel projects in a fast-paced environment. This role also requires technical expertise in AI/ML, MLOps, cloud platforms, and coding best practices.
+
+**Key Responsibilities**
+
+*   Lead, mentor, and grow a high-performing team of AI/ML engineers, fostering a culture of innovation, technical excellence, and continuous learning.
+    
+
+*   Collaborate cross-functionally with Customer Success, Product Management, Engineering, and Business Development to scope, prioritize, and align AI/ML initiatives with core business objectives.
+    
+
+*   Define and enforce best practices for the full ML lifecycle, including experimentation, code reviews, reproducibility, deployment pipelines, monitoring, and MLOps.
+    
+
+*   Own the technical roadmap for AI/ML capabilities, ensuring alignment with long-term product strategy while rapidly adapting to research findings and market shifts.
+    
+
+*   Drive translation of applied research into production-ready solutions, balancing cutting-edge innovation with pragmatic delivery at startup speed.
+    
+
+*   Establish team processes for prioritization, planning, and technical guidance to optimize execution speed while ensuring reliability, scalability, and quality.
+    
+
+*   Promote a data-driven culture by defining success metrics and KPIs, ensuring technical outputs are measurable, impactful, and tied to business outcomes.
+    
+
+*   Contribute hands-on to technical architecture, model design, and code reviews where appropriate, while balancing technical leadership and management responsibilities.
+    
+
+*   Advocate for responsible and ethical AI practices, ensuring compliance with organizational policies and industry standards.
+    
+
+**Required Qualifications**
+
+*   Bachelor’s or Master’s degree in Computer Science, Engineering, Data Science, or related technical field; PhD preferred for deeper research leadership.
+    
+
+*   Excellent communication and collaboration skills for cross-functional teamwork and translating technical AI/ML concepts into business impact.
+    
+
+*   Strong organizational skills with proven experience managing multiple complex AI/ML projects and priorities in dynamic environments.
+    
+
+*   5+ years of professional experience in software engineering, machine learning, or applied AI, including at least 3 years in a leadership or management capacity.
+    
+
+*   Proven track record successfully building, deploying, and scaling machine learning systems in production environments.
+    
+
+*   Deep understanding of modern ML/AI techniques (e.g., deep learning, transformers, reinforcement learning) and proficiency with frameworks such as TensorFlow, PyTorch.
+    
+
+*   Experience with cloud platforms (AWS, GCP, Azure) and MLOps best practices/tools for model orchestration, deployment, continuous integration, and monitoring.
+    
+
+*   Strong coding skills, at least in Python, and familiarity with containerization (Docker, Kubernetes) and data engineering pipelines is a plus.
+    
+
+**Recommended Preferred Qualifications**
+
+*   Strong problem-solving, critical thinking, and curiosity to break down complex AI/ML challenges, iteratively improve solutions, and stay current with advances in the field.
+    
+
+*   Exceptional communication and collaboration skills to work cross-functionally, translate technical concepts clearly, respect diverse perspectives, and effectively lead distributed or hybrid AI/ML teams in fast-paced environments.
+    
+
+*   Proven team management and prioritization abilities to efficiently balance multiple initiatives, meet deadlines, and align short-term execution with long-term strategic goals.
+    
+
+*   High emotional intelligence and intellectual humility to demonstrate empathy, adaptability, and resilience; embrace feedback and uncertainty while valuing diverse contributions and fostering inclusive team culture.
+    
+
+**Our Culture Matters**
+
+At Articul8, culture isn't just words — it's how we show up for each other and our customers:
+
+*   **Practice humility** – Listen first, respect all voices, and recognize that great solutions are built together.
+    
+
+*   **Bias for outcomes** – Focus on impact, not just effort; deliver meaningful results that matter to our customers.
+    
+
+*   **Care deeply** – About customers, teammates, and the quality of our deliverables. Act as Customer 0 for our products and tools.
+    
+
+*   **Dare to do the impossible & embrace scarcity** – Push boundaries with creativity and resourcefulness.
+    
+
+*   **Build a better world** – Use our technology and platform to create solutions that benefit not just enterprises, but society at large.
+    
+
+**What We Offer**
+
+Joining Articul8 means stepping into a **startup environment** where every contribution matters and outcomes move the company forward. It's an "all in" culture — not about long hours, but about **shared commitment, ownership, and impact.**
+
+*   The opportunity to **architect and implement cutting-edge Generative AI** for leading global enterprises.
+    
+
+*   A culture of **curiosity and technical excellence**, where you'll continuously learn and grow.
+    
+
+*   High ownership of solutions — your work goes live, impacts customers directly, and informs the product roadmap.
+    
+
+*   A collaborative team that values **diversity, inclusion, and creativity**, supporting both personal and professional development.
+    
+
+*   Equity and ownership opportunities in a category-defining company.
+    
+
+*   The chance to build **reference architectures and deployments** that will shape enterprise AI adoption at scale.
+    
+
+If you're ready to join a team that's moving fast, thinking big, and helping customers succeed with Generative AI from initial vision through production deployment, we'd love to hear from you.

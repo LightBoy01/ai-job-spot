@@ -12,7 +12,7 @@ tags:
   - drive analysis
   - develop POVs
   - present materials
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$77,100 - $142,000'

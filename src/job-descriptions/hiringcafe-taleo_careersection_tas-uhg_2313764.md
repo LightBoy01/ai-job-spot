@@ -12,7 +12,7 @@ tags:
   - Analyzing requirements
   - Implementing solutions
   - Troubleshooting applications
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

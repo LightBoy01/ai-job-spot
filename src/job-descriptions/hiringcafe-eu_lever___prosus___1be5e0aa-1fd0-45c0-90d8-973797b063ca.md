@@ -11,7 +11,7 @@ tags:
   - Steer execution
   - Develop models
   - Deploy systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

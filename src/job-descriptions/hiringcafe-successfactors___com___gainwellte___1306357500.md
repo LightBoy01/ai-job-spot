@@ -12,7 +12,7 @@ tags:
   - Design models
   - Deploy solutions
   - Process data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$147,200 - $210,300'

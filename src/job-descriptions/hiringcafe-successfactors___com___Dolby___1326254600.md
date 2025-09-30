@@ -12,7 +12,7 @@ tags:
   - Defining strategy
   - Leading governance
   - Transforming processes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$256,600 - $318,700'

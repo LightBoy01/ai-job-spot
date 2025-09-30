@@ -12,7 +12,7 @@ tags:
   - Support client groups
   - Make routine outbound calls
   - Maintain confidentiality
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$35,776 - $35,776'

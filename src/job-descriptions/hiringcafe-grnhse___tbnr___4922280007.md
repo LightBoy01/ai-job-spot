@@ -11,7 +11,7 @@ tags:
   - Develop stories
   - Edit video
   - Generate prompts
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

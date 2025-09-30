@@ -11,7 +11,7 @@ tags:
   - Develop strategy
   - Manage accounts
   - Measure performance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

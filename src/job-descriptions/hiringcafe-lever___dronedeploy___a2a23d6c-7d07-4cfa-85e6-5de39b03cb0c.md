@@ -11,7 +11,7 @@ tags:
   - building tools
   - collaborating teams
   - prototype solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$136,000 - $185,000'

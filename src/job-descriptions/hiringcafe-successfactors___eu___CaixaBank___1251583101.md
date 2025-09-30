@@ -14,7 +14,7 @@ tags:
   - Lead strategy
   - Create content
   - Coordinate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

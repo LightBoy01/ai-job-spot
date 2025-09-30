@@ -12,7 +12,7 @@ tags:
   - Lead sales
   - Develop strategies
   - Manage lifecycle
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$114,000 - $120,000'

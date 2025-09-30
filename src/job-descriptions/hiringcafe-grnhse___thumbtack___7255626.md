@@ -11,7 +11,7 @@ tags:
   - allocating budget
   - driving execution
   - leading automation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$166,600 - $215,600'

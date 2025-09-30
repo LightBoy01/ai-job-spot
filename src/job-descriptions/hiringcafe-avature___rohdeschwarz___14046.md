@@ -8,11 +8,10 @@ applicationLink: >-
 postedDate: '2025-03-10T12:00:00.000Z'
 expirationDate: null
 tags:
-  - Software Development
-  - Developing AI
-  - Collaborating with teams
-  - Optimizing models
-status: pending_review
+  - Data and Analytics
+  - Developing AI models
+  - Integrating AI solutions
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

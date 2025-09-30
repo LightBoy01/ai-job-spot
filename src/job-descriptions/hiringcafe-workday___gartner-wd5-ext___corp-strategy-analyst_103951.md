@@ -12,7 +12,7 @@ tags:
   - research market
   - analyze data
   - present findings
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$62,000 - $87,000'

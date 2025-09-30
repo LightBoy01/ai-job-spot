@@ -13,7 +13,7 @@ tags:
   - Define AI architecture
   - Govern AI governance
   - Identify high-value use cases
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$183,400 - $305,600'

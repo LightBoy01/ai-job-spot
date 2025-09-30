@@ -11,7 +11,7 @@ tags:
   - Manage the sales cycle
   - Generate pipeline
   - Perform product demos
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$80,000 - $90,000'

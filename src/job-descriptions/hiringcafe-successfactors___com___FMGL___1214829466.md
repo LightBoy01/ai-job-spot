@@ -1,0 +1,68 @@
+---
+id: hiringcafe-successfactors___com___FMGL___1214829466
+title: 'Product Owner - Decarbonisation x AI (Perth, WA, AU)'
+company: Fortescue
+location: 'Perth, Western Australia, Australia'
+applicationLink: >-
+  https://careers.fortescue.com/job/Perth-Product-Owner-Decarbonisation-x-AI-WA/1214829466/
+postedDate: '2025-09-26T08:20:50.921Z'
+expirationDate: null
+tags:
+  - Product Management
+  - Develop vision
+  - Build backlog
+  - Drive adoption
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___FMGL___1214829466'
+companyLogoUrl: null
+---
+**About Us**
+------------
+
+_Fortescue is both a proud West Australian company and a global green solutions business. We are recognised for our culture, innovation and industry-leading development of infrastructure, mining assets and green energy initiatives._
+
+**Our Opportunity**
+-------------------
+
+**Work Location:** Perth – Fortescue’s Perth office is located on the traditional lands of the Whadjuk Noongar people
+
+**Roster:** Monday to Friday 
+
+Fortescue is on a mission to fully decarbonise our iron ore operations, and artificial intelligence is at the core of making this bold transformation a reality. We’re building a future where electric haul trucks, green energy systems, and real-time optimisation redefine what’s possible in mining — and we’re looking for a Product Owner who can make that future happen.
+
+As the Product Owner – AI for Decarbonisation, you’ll lead the design and development of pioneering AI-powered tools that enable the shift to net-zero mining. You’ll spearhead the product strategy, development roadmap, and stakeholder engagement for two of our most critical digital systems: an intelligent Fleet Management Platform and a next-generation Green Fleet Dispatch Optimiser. These tools will directly influence how we plan, operate, and continuously optimise our fully electrified mining fleets.
+
+**Key Responsibilities**
+------------------------
+
+*   Develop vision for AI systems and solutions and a value-based roadmap, lead quarterly planning sessions
+*   Develop business cases for new AI systems and solutions, including value opportunity sizing, delivery model and stakeholder alignment
+*   Conduct data analysis and user research to define product requirements and features, including clear documentation to enable development
+*   Build, groom and prioritise the product backlog, developing user stories and acceptance criteria to feed into each sprint and accepting sprint results
+*   Define, implement, and track performance metrics once solutions enter production including adoption and impact
+*   In collaboration with technical leadership, define the set of necessary competencies and skills required in the delivery team
+*   Drive user adoption and engagement, running demos and showcases to the target users and the broader business.
+
+**Qualifications and Experience**
+---------------------------------
+
+*   7+ years of experience in either AI & analytics product development OR mine operations technical disciplines (i.e. mining, blending, supply chain operations) with technical project delivery experience
+*   Experience in cross-functional teams and ability to communicate effectively across multiple business areas (e.g., operations, technology)
+*   Background that comprises solid business understanding and high-level understanding of product delivery
+*   Modern product development toolkit including experience in agile development and OKR methodologies, lean testing and user research, and product roadmap development & vision creation
+*   Experience in the use of AI solutions & systems to drive improvements to efficiency and productivity in mining or heavy industrial application.
+
+**Our Commitment**
+------------------
+
+_Fortescue is deeply committed to providing a safe culture that builds respect, fosters inclusiveness, and values diversity. We celebrate individual strengths and team members from all backgrounds are encouraged to bring their whole selves to work. Our global workforce drives and promotes an inclusive culture, both within our organisation and throughout the communities we interact with across the world. Diverse backgrounds include First Nations Peoples, people with differing abilities, LGBTIQ+ community, gender, neurodiverse, cultural diversity, all age groups, and those with an intersectional or multiple diverse characteristics. **We encourage candidates from all backgrounds to apply.**_
+
+**https://fortescue.com/careers** 
+
+Internal Candidates / Current Contractors please apply via Success Factors Careers Portal. For further information on how to apply please visit the Fortescue Hub. 
+
+_Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party._

@@ -14,7 +14,7 @@ tags:
   - Define value streams
   - Map initiatives to outcomes
   - Collaborate with cross-functional teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

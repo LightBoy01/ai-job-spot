@@ -11,7 +11,7 @@ tags:
   - set vision
   - lead UX
   - conduct research
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$106,600 - $144,200'

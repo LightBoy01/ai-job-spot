@@ -11,7 +11,7 @@ tags:
   - Collaborating with teams to design
   - Developing APIs
   - Code reviews and feedback
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

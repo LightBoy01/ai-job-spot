@@ -12,7 +12,7 @@ tags:
   - Define metrics
   - Lead monitoring
   - Collaborate with infrastructure
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$198,000 - $326,000'

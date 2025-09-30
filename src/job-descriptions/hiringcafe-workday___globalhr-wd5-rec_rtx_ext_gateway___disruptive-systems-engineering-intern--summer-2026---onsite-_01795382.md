@@ -13,7 +13,7 @@ tags:
   - Design software
   - Collaborate teams
   - Develop solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$37,000 - $82,000'

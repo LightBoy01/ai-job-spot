@@ -11,7 +11,7 @@ tags:
   - lead programs
   - coordinate teams
   - manage risks
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

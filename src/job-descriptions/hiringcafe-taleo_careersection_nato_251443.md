@@ -11,7 +11,7 @@ tags:
   - Build pipelines
   - Design pipelines
   - Productionize models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$105,942.84 - $105,942.84'

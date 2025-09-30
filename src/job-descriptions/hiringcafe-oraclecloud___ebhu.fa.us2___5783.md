@@ -12,7 +12,7 @@ tags:
   - design GenAI
   - build pipelines
   - prototype models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$156,000 - $196,000'

@@ -13,7 +13,7 @@ tags:
   - drive sales cycles
   - develop account plans
   - engage with partners
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$5,554,000 - $7,637,500'

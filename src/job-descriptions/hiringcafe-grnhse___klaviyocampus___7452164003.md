@@ -11,7 +11,7 @@ tags:
   - prepare provisions
   - conduct research
   - collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: $30 - $30

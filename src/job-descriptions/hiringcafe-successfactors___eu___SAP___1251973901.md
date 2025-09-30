@@ -12,7 +12,7 @@ tags:
   - Develop cloud-native
   - Collaborate cross-functional
   - Review code
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

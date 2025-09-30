@@ -13,7 +13,7 @@ tags:
   - Coordinate on-site hardware activities
   - Verify hardware work supports compute needs
   - Manage spares and escalation with partner teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$144,000 - $228,000'

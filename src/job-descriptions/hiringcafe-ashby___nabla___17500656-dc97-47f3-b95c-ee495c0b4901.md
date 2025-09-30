@@ -11,7 +11,7 @@ tags:
   - Leading discovery
   - Prioritizing roadmap
   - Owning execution
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -13,7 +13,7 @@ tags:
   - solve problems
   - collaborate effectively
   - analyze data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - lead projects
   - develop models
   - conduct testing
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

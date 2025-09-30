@@ -11,7 +11,7 @@ tags:
   - Lead data capabilities roadmap
   - Collaborate with cross-functional teams
   - Define product experiences in security analytics
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$162,000 - $225,000'

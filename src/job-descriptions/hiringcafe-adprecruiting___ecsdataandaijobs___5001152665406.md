@@ -11,7 +11,7 @@ tags:
   - advising solutions
   - leading analytics
   - building prototypes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$150,000 - $190,000'

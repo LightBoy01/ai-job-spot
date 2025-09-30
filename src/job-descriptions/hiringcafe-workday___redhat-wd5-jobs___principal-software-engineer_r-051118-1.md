@@ -12,7 +12,7 @@ tags:
   - design packaging
   - prioritize features
   - collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$170,770 - $281,770'

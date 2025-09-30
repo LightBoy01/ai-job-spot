@@ -12,7 +12,7 @@ tags:
   - assisting client
   - developing strategies
   - integrating tools
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

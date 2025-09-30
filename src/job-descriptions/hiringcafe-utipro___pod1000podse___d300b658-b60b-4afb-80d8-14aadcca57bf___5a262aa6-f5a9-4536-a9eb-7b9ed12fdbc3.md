@@ -13,7 +13,7 @@ tags:
   - leading teams
   - driving experiments
   - building AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -13,7 +13,7 @@ tags:
   - Developing software
   - Hardware control
   - Instrument design
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$80,641.6 - $86,840'

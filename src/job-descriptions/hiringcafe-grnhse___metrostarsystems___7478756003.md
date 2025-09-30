@@ -11,7 +11,7 @@ tags:
   - developing relationships
   - managing communications
   - leading teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$188,000 - $269,000'

@@ -12,7 +12,7 @@ tags:
   - design tests
   - maintain tests
   - automate pipelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$95,000 - $110,000'

@@ -1,0 +1,120 @@
+---
+id: hiringcafe-successfactors___com___Opentext___48824
+title: Lead Software Engineer - Java FS (48824)
+company: OpenText | Information Management Solutions
+location: India
+applicationLink: >-
+  https://career17.sapsf.com/career?career_ns=job_listing&company=Opentext&career_job_req_id=48824
+postedDate: '2025-09-30T03:51:06.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - architecting systems
+  - mentoring team
+  - building microservices
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___Opentext___48824'
+companyLogoUrl: null
+---
+Career Opportunities: Lead Software Engineer - Java FS (48824)
+==============================================================
+
+Requisition ID **48824** - Posted  - **Platform Engineering - India**
+
+**OPENTEXT - THE INFORMATION COMPANY**
+
+OpenText is a global leader in information management, where innovation, creativity, and collaboration are the key components of our corporate culture. As a member of our team, you will have the opportunity to partner with the most highly regarded companies in the world, tackle complex issues, and contribute to projects that shape the future of digital transformation.
+
+**AI-First. Future-Driven. Human-Centered.**
+
+At OpenText, AI is at the heart of everything we do—powering innovation, transforming work, and empowering digital knowledge workers. We're hiring talent that AI can't replace to help us shape the future of information management. Join us.
+
+**YOURIMPACT:**
+
+As Lead Software Engineer, the candidate will be proficient with Front end and back-end technologies. This candidate should self-motivated and a solution provider. You will utilize superior knowledge and experience to perform highly complex product architecture, design, systems analysis, research, maintenance, troubleshooting and other activities. You will also play a key role in grooming providing direction to team members.
+
+**WHAT THE ROLE OFFERS:**
+
+*   Strong experience in architecting, developing, and deploying scalable microservices with high performance and reliability.
+*   Proven ability to independently design, develop, and maintain responsive web applications using modern frameworks such as Angular or React.
+*   Demonstrated leadership in guiding and mentoring a team of 4–5 developers, driving technical excellence and delivery.
+*   Hands-on expertise with object storage solutions (e.g., Amazon S3, Azure Blob Storage, Google Cloud Storage), including lifecycle policies for versioning, archiving, and deletion.
+*   Familiarity with large-scale data operations, including efficient data retrieval, multipart uploads, and parallel processing techniques.
+*   Effective collaboration with cross-functional teams including stakeholders, service consumers, QA engineers, and product owners to ensure alignment and quality.
+*   Ability to translate complex business requirements into robust technical solutions, with a strong grasp of domain-specific contexts.
+*   Experience working with distributed teams, contributing constructively across geographies and time zones.
+*   Skilled in providing technical feedback, fostering a culture of continuous improvement and knowledge sharing.
+
+**What you will need to succeed**
+
+*   Minimum 8+ years of experience in designing and building enterprise-grade applications.
+*   Strong proficiency in Angular or React, with a track record of delivering responsive and user-centric web applications.
+*   Deep expertise in Java, Spring Boot, and microservices architecture, with a focus on scalability and performance.
+*   Solid understanding of distributed systems, including fault tolerance, service orchestration, and load balancing.
+*   Hands-on experience with object storage technologies (e.g., Amazon S3, Azure Blob Storage, Google Cloud Storage), including lifecycle management and data governance.
+*   Familiarity with Content Management Systems (CMS) and their integration into enterprise ecosystems.
+*   Exposure to AI/ML concepts, tools, and frameworks, with an ability to apply them to enhance product capabilities.
+*   Excellent problem-solving and debugging skills, with a proactive approach to identifying and resolving issues.
+*   Strong communication and leadership abilities, capable of driving collaboration across teams and stakeholders.
+*   Comfortable working both independently and as part of a collaborative, fast-paced team environment
+
+OpenText's efforts to build an inclusive work environment go beyond simply complying with applicable laws. Our Employment Equity and Diversity Policy provides direction on maintaining a working environment that is inclusive of everyone, regardless of culture, national origin, race, color, gender, gender identification, sexual orientation, family status, age, veteran status, disability, religion, or other basis protected by applicable laws.
+
+If you need assistance and/or a reasonable accommodation due to a disability during the application or recruiting process, please contact us at [hr@opentext.com](mailto:hr@opentext.com). Our proactive approach fosters collaboration, innovation, and personal growth, enriching OpenText's vibrant workplace.
+
+Email this job to a friend
+
+ 
+
+
+
+**The job has been sent to**
+
+ 
+
+**The job has been sent to**
+
+**OPENTEXT - THE INFORMATION COMPANY**
+
+OpenText is a global leader in information management, where innovation, creativity, and collaboration are the key components of our corporate culture. As a member of our team, you will have the opportunity to partner with the most highly regarded companies in the world, tackle complex issues, and contribute to projects that shape the future of digital transformation.
+
+**AI-First. Future-Driven. Human-Centered.**
+
+At OpenText, AI is at the heart of everything we do—powering innovation, transforming work, and empowering digital knowledge workers. We're hiring talent that AI can't replace to help us shape the future of information management. Join us.
+
+**YOURIMPACT:**
+
+As Lead Software Engineer, the candidate will be proficient with Front end and back-end technologies. This candidate should self-motivated and a solution provider. You will utilize superior knowledge and experience to perform highly complex product architecture, design, systems analysis, research, maintenance, troubleshooting and other activities. You will also play a key role in grooming providing direction to team members.
+
+**WHAT THE ROLE OFFERS:**
+
+*   Strong experience in architecting, developing, and deploying scalable microservices with high performance and reliability.
+*   Proven ability to independently design, develop, and maintain responsive web applications using modern frameworks such as Angular or React.
+*   Demonstrated leadership in guiding and mentoring a team of 4–5 developers, driving technical excellence and delivery.
+*   Hands-on expertise with object storage solutions (e.g., Amazon S3, Azure Blob Storage, Google Cloud Storage), including lifecycle policies for versioning, archiving, and deletion.
+*   Familiarity with large-scale data operations, including efficient data retrieval, multipart uploads, and parallel processing techniques.
+*   Effective collaboration with cross-functional teams including stakeholders, service consumers, QA engineers, and product owners to ensure alignment and quality.
+*   Ability to translate complex business requirements into robust technical solutions, with a strong grasp of domain-specific contexts.
+*   Experience working with distributed teams, contributing constructively across geographies and time zones.
+*   Skilled in providing technical feedback, fostering a culture of continuous improvement and knowledge sharing.
+
+**What you will need to succeed**
+
+*   Minimum 8+ years of experience in designing and building enterprise-grade applications.
+*   Strong proficiency in Angular or React, with a track record of delivering responsive and user-centric web applications.
+*   Deep expertise in Java, Spring Boot, and microservices architecture, with a focus on scalability and performance.
+*   Solid understanding of distributed systems, including fault tolerance, service orchestration, and load balancing.
+*   Hands-on experience with object storage technologies (e.g., Amazon S3, Azure Blob Storage, Google Cloud Storage), including lifecycle management and data governance.
+*   Familiarity with Content Management Systems (CMS) and their integration into enterprise ecosystems.
+*   Exposure to AI/ML concepts, tools, and frameworks, with an ability to apply them to enhance product capabilities.
+*   Excellent problem-solving and debugging skills, with a proactive approach to identifying and resolving issues.
+*   Strong communication and leadership abilities, capable of driving collaboration across teams and stakeholders.
+*   Comfortable working both independently and as part of a collaborative, fast-paced team environment
+
+OpenText's efforts to build an inclusive work environment go beyond simply complying with applicable laws. Our Employment Equity and Diversity Policy provides direction on maintaining a working environment that is inclusive of everyone, regardless of culture, national origin, race, color, gender, gender identification, sexual orientation, family status, age, veteran status, disability, religion, or other basis protected by applicable laws.
+
+If you need assistance and/or a reasonable accommodation due to a disability during the application or recruiting process, please contact us at [hr@opentext.com](mailto:hr@opentext.com). Our proactive approach fosters collaboration, innovation, and personal growth, enriching OpenText's vibrant workplace.

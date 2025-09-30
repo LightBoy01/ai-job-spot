@@ -12,7 +12,7 @@ tags:
   - Define QA standards
   - Lead cross-functional QA initiatives
   - Deploy AI solutions for QA
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

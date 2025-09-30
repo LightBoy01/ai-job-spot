@@ -11,7 +11,7 @@ tags:
   - Build references
   - Manage partnerships
   - Develop content
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$108,000 - $163,000'

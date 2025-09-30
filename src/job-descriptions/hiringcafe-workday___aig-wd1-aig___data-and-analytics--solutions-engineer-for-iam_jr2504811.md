@@ -13,7 +13,7 @@ tags:
   - Collaborating requirements
   - Designing analytics
   - Maintaining pipelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

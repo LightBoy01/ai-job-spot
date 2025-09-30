@@ -11,7 +11,7 @@ tags:
   - Designing growth
   - Leading campaigns
   - Optimizing analytics
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$150,000 - $200,000'

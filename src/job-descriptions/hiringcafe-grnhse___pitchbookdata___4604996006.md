@@ -11,7 +11,7 @@ tags:
   - Define problem space
   - Lead user discovery
   - Design model-driven UX
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$165,000 - $180,000'

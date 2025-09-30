@@ -11,7 +11,7 @@ tags:
   - lead design
   - define SLIs
   - own reliability
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$165,000 - $242,000'

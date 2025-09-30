@@ -11,7 +11,7 @@ tags:
   - Developing AI solutions
   - Data preparation
   - Deploying models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -13,7 +13,7 @@ tags:
   - Architect agents
   - Integrate services
   - Optimize runtimes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

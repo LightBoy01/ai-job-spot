@@ -11,7 +11,7 @@ tags:
   - develop strategy
   - plan events
   - manage budgets
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$70,000 - $120,000'

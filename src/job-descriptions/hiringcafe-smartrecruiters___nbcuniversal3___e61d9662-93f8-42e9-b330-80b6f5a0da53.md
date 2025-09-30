@@ -13,7 +13,7 @@ tags:
   - shape vision
   - lead designers
   - collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $220,000'

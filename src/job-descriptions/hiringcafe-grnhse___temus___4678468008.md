@@ -11,7 +11,7 @@ tags:
   - Solving problems
   - Leading teams
   - Delivering thought leadership
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - design strategy
   - lead team
   - manage media
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$121,869 - $149,188'

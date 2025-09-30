@@ -11,7 +11,7 @@ tags:
   - Building team
   - Coaching SDRs
   - Partnering campaigns
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$90,500 - $105,000'

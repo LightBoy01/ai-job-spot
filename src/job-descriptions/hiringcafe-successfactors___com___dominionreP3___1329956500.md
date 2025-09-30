@@ -14,7 +14,7 @@ tags:
   - evaluate solutions
   - collaborate teams
   - code deploy AI solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

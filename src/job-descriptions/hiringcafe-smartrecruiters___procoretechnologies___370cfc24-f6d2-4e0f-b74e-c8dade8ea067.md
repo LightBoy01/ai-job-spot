@@ -13,7 +13,7 @@ tags:
   - manage Braze
   - design journeys
   - analyze campaigns
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$114,400 - $157,300'

@@ -11,7 +11,7 @@ tags:
   - Designing backend
   - Scaling pipelines
   - Mentoring engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

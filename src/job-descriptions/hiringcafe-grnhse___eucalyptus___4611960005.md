@@ -11,7 +11,7 @@ tags:
   - Lead operations
   - Scale team
   - Implement automation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

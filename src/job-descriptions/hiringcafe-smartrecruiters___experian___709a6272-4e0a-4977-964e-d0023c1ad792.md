@@ -12,7 +12,7 @@ tags:
   - researching solutions
   - prototyping products
   - evaluating data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$153,075 - $275,535'

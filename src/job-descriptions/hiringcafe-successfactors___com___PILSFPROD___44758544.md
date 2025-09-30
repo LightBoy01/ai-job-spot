@@ -12,7 +12,7 @@ tags:
   - design tools
   - build dashboards
   - document requirements
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

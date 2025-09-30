@@ -11,7 +11,7 @@ tags:
   - Design experiments
   - Build models
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$228,700 - $343,100'

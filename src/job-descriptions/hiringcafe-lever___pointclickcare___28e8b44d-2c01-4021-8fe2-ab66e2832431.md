@@ -12,7 +12,7 @@ tags:
   - Design content
   - Collaborate with teams
   - Prototype content
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$93,600 - $124,800'

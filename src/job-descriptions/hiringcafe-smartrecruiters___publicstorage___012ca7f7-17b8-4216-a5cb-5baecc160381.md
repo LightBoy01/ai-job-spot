@@ -13,7 +13,7 @@ tags:
   - gather requirements
   - document specifications
   - platform administration
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

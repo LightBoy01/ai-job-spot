@@ -14,7 +14,7 @@ tags:
   - configuring applications
   - developing solutions
   - supporting users
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

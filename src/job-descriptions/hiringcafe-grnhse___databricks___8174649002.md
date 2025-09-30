@@ -11,7 +11,7 @@ tags:
   - lead team
   - establish plans
   - report forecasts
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

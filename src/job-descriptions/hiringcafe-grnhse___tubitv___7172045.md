@@ -11,7 +11,7 @@ tags:
   - lead engineering teams
   - build scalable systems
   - mentor engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

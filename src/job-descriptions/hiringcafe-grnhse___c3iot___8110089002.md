@@ -11,7 +11,7 @@ tags:
   - architect scalable
   - build tools
   - collaborate cross-functional
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$150,000 - $220,000'

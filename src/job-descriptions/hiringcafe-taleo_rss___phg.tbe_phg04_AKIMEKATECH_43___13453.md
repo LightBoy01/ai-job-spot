@@ -12,7 +12,7 @@ tags:
   - design AI
   - deploy ML
   - enhance search
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

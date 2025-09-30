@@ -11,7 +11,7 @@ tags:
   - Deploy rack
   - Lead operations
   - Write procedures
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$137,000 - $156,000'

@@ -5,14 +5,14 @@ company: Quest Diagnostics
 location: 'Tampa, Florida, United States'
 applicationLink: >-
   https://hdox.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/43052
-postedDate: '2025-09-29T09:31:44.586Z'
+postedDate: '2025-09-30T16:26:28.525Z'
 expirationDate: null
 tags:
   - Project and Program Management
   - Owns learning
   - Drives analytics
   - Leads workshops
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

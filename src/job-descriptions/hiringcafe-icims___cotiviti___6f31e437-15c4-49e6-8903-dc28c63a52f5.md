@@ -12,7 +12,7 @@ tags:
   - Develop pipelines
   - Analyze data
   - Validate results
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$120,000 - $145,000'

@@ -12,7 +12,7 @@ tags:
   - AI Model Development
   - Data Integration
   - Analysis and Interpretation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,000 - $150,000'

@@ -13,7 +13,7 @@ tags:
   - Aligning strategy
   - Prioritizing initiatives
   - Managing backlog
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

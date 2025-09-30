@@ -12,7 +12,7 @@ tags:
   - deploying models
   - monitoring health
   - collaborating teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$160,555 - $160,555'

@@ -11,7 +11,7 @@ tags:
   - Build integrations
   - Develop automation
   - Support knowledge management
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$170,000 - $220,000'

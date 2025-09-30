@@ -1,0 +1,123 @@
+---
+id: >-
+  hiringcafe-workday___kyndryl-wd5-kyndrylprofessionalcareers___agentic-ai-data-scientist_r-46438-2
+title: Agentic AI Data Scientist – Architect the Future
+company: Kyndryl
+location: United Kingdom
+applicationLink: >-
+  https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/No-City-KGB51624-London/Agentic-AI-Data-Scientist_R-46438-2
+postedDate: '2025-09-29T00:00:00.000Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - Bridge tech
+  - Develop agents
+  - Mentor researchers
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/workday___kyndryl-wd5-kyndrylprofessionalcareers___agentic-ai-data-scientist_r-46438-2
+companyLogoUrl: null
+---
+**Who We Are**
+
+At Kyndryl, we design, build, manage and modernize the mission-critical technology systems that the world depends on every day. So why work at Kyndryl? We are always moving forward – always pushing ourselves to go further in our efforts to build a more equitable, inclusive world for our employees, our customers and our communities.
+
+  
+**The Role**
+
+As an Agentic AI Data Scientist at Kyndryl, you’ll help shape the future of advanced Agentic AI while working with a team that’s leading the industry.  
+ 
+
+We're solving real-world problems at a massive scale — powered by creativity, precision, and a shared obsession with what’s next.
+
+You’ll be part of a team shaping the future of Agentic AI - architecting and scaling a next-gen open-source framework that powers autonomous systems across industries. 
+
+**We're not just talking innovation - we're _building_ it. Fast**.
+
+*   Startup inside Kyndryl: Zero bureaucracy. You’ll work with autonomy, follow your own leads, and build real systems – not tickets.
+    
+*   Tech-first, action-oriented culture: Think in code. Rapid demo cycles, collaborative peer pairing, and framework rollouts in weeks.
+    
+*   Direct impact at scale: Drive Kyndryl as an AI-native company - your ideas and IP shape the transformation.
+    
+*   Deep academic integration: Be an industrial PhD supervisor. Co-author whitepapers. Publish with 2nd or 3rd attribution. Elevate your profile.
+    
+*   Work that matters: Client-first, innovation-always. Balance advanced programming with strategic thinking and client interaction.
+    
+*   True builder’s environment: Collaborate with top-tier talent (most of the team holds PhDs). Everyone contributes equally — ideas over titles.
+    
+
+**What You’ll Do**
+
+*   Serve as the bridge between deep technical work and business transformation, solving meaningful challenges through Agentic AI.
+    
+*   Work on a modular, open-source Agentic AI framework - integrating GenAI and real-world tools.
+    
+*   Develop, train, and deploy intelligent agents using tools like Python, Azure ML, focused on dynamic, self-improving systems.
+    
+*   Translate business needs into data science problems with autonomy - then rapidly experiment, build, and deploy solutions that scale.
+    
+*   Co-own the evolution of the Agentic AI framework - not just code, but also architecture, design, product thinking, and client success.
+    
+*   Mentor and inspire a new generation of researchers and developers - from PhD students to business leaders - with your contributions credited and published.
+    
+
+**Your Future at Kyndryl**
+
+We don’t hire for a role - we hire for a journey. You’ll be empowered to work remotely, flexibly, and at your best. Your success is measured by what you create, not where you work from. Expect an innovation cycle where you’ll build a legacy portfolio and help reimagine what AI can do for business.
+
+  
+**Who You Are**
+
+**Must-have capabilities**
+
+*   PhD or equivalent research experience in computer science, mathematics, AI, or a related field
+    
+*   Hands-on Agentic AI / GenAI engineering exposure - building or contributing to frameworks, not just using APIs
+    
+*   Strong programming fluency (Python) and architectural design (e.g., microservice ecosystems, message brokers)
+    
+
+**Plus, You Bring**
+
+*   Ability to operate independently and collaborate within a high-trust, low-hierarchy team
+    
+*   Contributions to academic/technical communities and shaping open-source projects
+    
+
+**Bonus Points For**
+
+*   Certifications in Azure, AWS, or Google ML platforms
+    
+*   Demonstrated contributions to graph theory, DevOps, or distributed systems
+    
+*   Previous projects involving digital transformation, AI-native product development, or enterprise automation
+    
+*   Presence in academic or whitepaper communities (authorship, publication, or presentation)
+    
+
+**Location:** Remote-first (UK-based role with global customer reach: UK, US, Japan, MEA, and beyond)
+
+**Apply now if you’re ready to shape the future of AI - not just study it.**
+
+Let’s redefine what’s possible. Together.
+
+#AgenticAI
+
+  
+**Being You**
+
+Diversity is a whole lot more than what we look like or where we come from, it’s how we think and who we are. We welcome people of all cultures, backgrounds, and experiences. But we’re not doing it single-handily: Our Kyndryl Inclusion Networks are only one of many ways we create a workplace where all Kyndryls can find and provide support and advice. This dedication to welcoming everyone into our company means that Kyndryl gives you – and everyone next to you – the ability to bring your whole self to work, individually and collectively, and support the activation of our equitable culture. That’s the Kyndryl Way.
+
+  
+**What You Can Expect**
+
+With state-of-the-art resources and Fortune 100 clients, every day is an opportunity to innovate, build new capabilities, new relationships, new processes, and new value. Kyndryl cares about your well-being and prides itself on offering benefits that give you choice, reflect the diversity of our employees and support you and your family through the moments that matter – wherever you are in your life journey. Our employee learning programs give you access to the best learning in the industry to receive certifications, including Microsoft, Google, Amazon, Skillsoft, and many more. Through our company-wide volunteering and giving platform, you can donate, start fundraisers, volunteer, and search over 2 million non-profit organizations.  At Kyndryl, we invest heavily in you, we want you to succeed so that together, we will all succeed.
+
+**Get Referred!**
+
+If you know someone that works at Kyndryl, when asked ‘How Did You Hear About Us’ during the application process, select ‘Employee Referral’ and enter your contact's Kyndryl email address.

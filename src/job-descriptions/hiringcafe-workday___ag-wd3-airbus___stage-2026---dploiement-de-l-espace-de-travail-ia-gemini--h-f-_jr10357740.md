@@ -13,7 +13,7 @@ tags:
   - deploy Gemini
   - train users
   - document use-cases
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

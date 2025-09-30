@@ -12,7 +12,7 @@ tags:
   - Building automation
   - Integrating AI
   - Designing agents
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

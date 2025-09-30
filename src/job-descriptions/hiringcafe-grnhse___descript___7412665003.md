@@ -11,7 +11,7 @@ tags:
   - define roadmap
   - identify opportunities
   - manage partnerships
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $240,000'

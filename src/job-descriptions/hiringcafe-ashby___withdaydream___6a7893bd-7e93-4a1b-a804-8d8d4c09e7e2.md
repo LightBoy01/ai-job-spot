@@ -11,7 +11,7 @@ tags:
   - Formulating strategies
   - Creating content
   - Monitoring performance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,000 - $140,000'

@@ -11,7 +11,7 @@ tags:
   - Manage team
   - Lead operations
   - Drive tooling
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Source talent
   - Partner with recruiters
   - Build pipelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,000 - $130,000'

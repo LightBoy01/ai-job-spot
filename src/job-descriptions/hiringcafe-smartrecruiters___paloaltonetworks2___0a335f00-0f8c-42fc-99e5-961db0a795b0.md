@@ -13,7 +13,7 @@ tags:
   - Architect
   - Lead
   - Develop
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$147,000 - $237,500'

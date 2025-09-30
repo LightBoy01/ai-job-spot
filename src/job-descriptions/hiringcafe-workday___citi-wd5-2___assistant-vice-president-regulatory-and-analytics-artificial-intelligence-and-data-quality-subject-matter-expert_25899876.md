@@ -15,7 +15,7 @@ tags:
   - Develop AI use cases
   - Improve data quality
   - Support regulatory reporting
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$87,280 - $130,920'

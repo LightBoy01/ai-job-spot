@@ -11,7 +11,7 @@ tags:
   - Own technical delivery plan
   - Run day-to-day engineering execution
   - Embed with customer teams to land deployments
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$280,000 - $345,000'

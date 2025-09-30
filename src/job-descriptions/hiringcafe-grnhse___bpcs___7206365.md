@@ -11,7 +11,7 @@ tags:
   - Develop dashboards
   - Build applications
   - Document processes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$115,000 - $125,000'

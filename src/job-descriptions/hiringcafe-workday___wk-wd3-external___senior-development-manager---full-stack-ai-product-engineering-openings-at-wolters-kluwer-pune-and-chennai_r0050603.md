@@ -15,7 +15,7 @@ tags:
   - Lead development
   - Mentor team
   - Coordinate delivery
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

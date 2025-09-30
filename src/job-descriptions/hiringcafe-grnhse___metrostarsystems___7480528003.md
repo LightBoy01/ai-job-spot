@@ -11,7 +11,7 @@ tags:
   - Analyze data
   - Train models
   - Deploy models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$188,000 - $276,000'

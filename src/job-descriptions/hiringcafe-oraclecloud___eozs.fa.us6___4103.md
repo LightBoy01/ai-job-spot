@@ -12,7 +12,7 @@ tags:
   - leading training
   - designing curricula
   - evaluating impact
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - Leading transformation programs
   - Strategic planning
   - Governance and reporting
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $230,000'

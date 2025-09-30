@@ -1,0 +1,87 @@
+---
+id: hiringcafe-grnhse___abbycare___5662052004
+title: 'Director, Talent Acquisition '
+company: Abby Care
+location: 'San Francisco, California, United States'
+applicationLink: 'https://job-boards.greenhouse.io/abbycare/jobs/5662052004'
+postedDate: '2025-09-30T00:22:12.000Z'
+expirationDate: null
+tags:
+  - Human Resources
+  - building strategy
+  - leading team
+  - driving metrics
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: '$170,000 - $220,000'
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___abbycare___5662052004'
+companyLogoUrl: null
+---
+**About Abby Care**
+
+Making family care possible. At Abby Care, we are tackling one of the most important and unsolved challenges of our time: family caregiving.  
+  
+Over 50 million Americans are family caregivers for loved ones without pay, tools, or support. Our mission is clear and ambitious: to train and employ family caregivers so they can get paid for the care they already provide at home.  
+  
+Abby Care is building a tech-powered, family-first care platform to efficiently deliver care, improve health outcomes, and provide the best-in-class experience nationwide.
+
+We are rapidly expanding our mission and looking for passionate team members to join. Abby Care has partnered with leading insurance plans, healthcare providers, and community organizations. We’re supported by top, mission-driven VCs to empower families throughout the country. 
+
+**The Role**
+
+We’re seeking a Director of Talent Acquisition to build and scale Abby Care’s recruiting function during a period of rapid growth. Reporting to the VP of People, this leader will be responsible for shaping and executing the company-wide talent strategy—owning how we attract, engage, and hire exceptional talent across all functions.
+
+This role is not about maintaining a process—it’s about reinventing how talent acquisition operates in an AI-native organization. The ideal candidate will embrace AI and automation to unlock recruiter productivity, candidate quality, and hiring velocity at scale. You’ll be both strategic and hands-on: designing a forward-looking TA function, while rolling up your sleeves to deliver results in a fast-moving, high-volume environment.
+
+**Responsibilities**
+
+*   Build and lead the end-to-end TA strategy across multiple high-growth functions (Clinical, Oerations, Tech, and G&A).
+*   Design and operationalize an AI-forward recruiting model that leverages automation, data insights, and new technologies to accelerate sourcing, screening, and candidate experience.
+*   Partner with executives and hiring managers to forecast hiring needs, shape workforce plans, and influence talent strategy.
+*   Lead and develop a high-performing recruiting team, setting clear goals and scaling capacity to meet aggressive hiring targets.
+*   Establish metrics, dashboards, and feedback loops that ensure hiring quality, speed, and diversity are consistently measured and improved.
+*   Drive employer branding and candidate experience initiatives that highlight Abby Care’s mission and values.
+*   Build scalable systems, tools, and processes that will evolve with Abby Care as we grow from hundreds to thousands of employees.  
+      
+    
+
+**Qualifications**
+
+*   10+ years of progressive recruiting experience, with 5+ years leading TA teams in high-growth environments (healthcare, tech, or operationally complex industries a plus).
+*   A track record of scaling recruiting functions during periods of rapid growth (ideally from 100+ to 1,000+ employees).
+*   Deep familiarity with recruiting technologies, and excitement about pioneering the use of AI in talent acquisition to drive efficiency and impact.
+*   Strong business acumen and ability to partner closely with executives, Finance, and People Ops to align TA with company growth.
+*   Exceptional leadership and team-building skills—you can inspire, develop, and challenge a team to deliver high performance.
+*   Data-driven, analytical mindset with a bias toward experimentation and continuous improvement.
+*   Mission-driven orientation: excitement about reshaping the caregiving landscape and scaling impact nationally.
+
+**Our Values**
+--------------
+
+1.  **Families First**Redefining healthcare starts with how we treat the parents and children we serve. We go above and beyond for every family, building strong, lasting relationships. We continually ask ourselves, _“Would we want this for our own families?”_
+2.  **Urgency with Precision**Millions of families are waiting for care, and they cannot wait, therefore this is not your typical 9 to 5 job. We match their urgency with our own, delivering exceptional care without compromise. Here, speed and excellence go hand in hand**.**  
+      
+    
+3.  **Relentlessly Resourceful**As an ambitious startup, we adapt quickly and make the most of limited time and resources. We solve challenges with creativity to deliver results without unnecessary complexity.  
+      
+    
+4.  **Purpose with Positivity**We take our mission seriously while never losing sight of the people behind the work. Respect, kindness, memes, and coffee make us stronger as a team and better for the families we serve.  
+      
+    
+5.  **Driven to Redefine What’s Possible**We are here to make healthcare better, which means asking hard questions, challenging outdated systems, and finding smarter, more compassionate ways to deliver care. 
+
+**Benefits****:**
+-----------------
+
+*   **Competitive compensation packages** that reflect the value you bring. We reward our team for the impact of their work – full-time employees are eligible for an annual company performance bonus.
+*   **Comprehensive health coverage that works for you.** We cover 90% of your premiums and 70% for your dependents, with multiple PPO plan options to choose from for medical, vision, dental, life, and short-term disability.
+*   **Generous paid time off.** We provide policies that allow you to recharge along with 10 paid company holidays. 
+*   **Team bonding.** We love bringing our teams together. As a full-time employee, you’ll get to connect, collaborate, and have fun through team activities and our annual company retreat.
+*   **Financial savings benefits to support your future.** We support your financial well-being with HSA contributions, optional FSA and commuter benefits, and full coverage of all 401(k) account fees (employer match not currently offered). 
+*   **Paid parental leave to support your growing family.** We provide paid leave, so you can focus on bonding and adjusting to life as your family grows.
+
+The base salary range for this role varies based on location: the national range is $170,000-220,000.
+
+_We are an equal opportunity employer and welcome applicants from all backgrounds, consistent with applicable laws. Employment is contingent upon successful completion of a background check, satisfactory references, and any required documentation._

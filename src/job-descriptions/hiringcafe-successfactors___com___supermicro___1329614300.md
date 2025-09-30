@@ -11,7 +11,7 @@ tags:
   - builds infrastructure
   - troubleshoot issues
   - documents procedures
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

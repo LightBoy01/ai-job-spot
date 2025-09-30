@@ -13,7 +13,7 @@ tags:
   - Develop software
   - Collaborate teams
   - Deploy code
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$65,020.8 - $108,368'

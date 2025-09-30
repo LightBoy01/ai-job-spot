@@ -14,7 +14,7 @@ tags:
   - supervising staff
   - leading IT support
   - coordinating training
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

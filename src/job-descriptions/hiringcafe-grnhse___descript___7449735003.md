@@ -11,7 +11,7 @@ tags:
   - build editing
   - integrate AI
   - manage data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$212,000 - $250,000'

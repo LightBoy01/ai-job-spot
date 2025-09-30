@@ -11,7 +11,7 @@ tags:
   - Leading technical research
   - Developing evaluation metrics
   - Providing expert guidance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

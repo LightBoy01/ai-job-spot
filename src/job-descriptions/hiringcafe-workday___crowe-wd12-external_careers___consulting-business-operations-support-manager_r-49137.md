@@ -13,7 +13,7 @@ tags:
   - Manage schedules
   - Coordinate travel
   - Prepare documents
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$63,700 - $133,400'

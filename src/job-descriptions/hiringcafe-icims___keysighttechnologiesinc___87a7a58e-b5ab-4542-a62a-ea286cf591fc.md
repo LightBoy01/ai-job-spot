@@ -13,7 +13,7 @@ tags:
   - Solving quality
   - Building relationships
   - Analyzing data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$71,531.2 - $77,043.2'

@@ -13,7 +13,7 @@ tags:
   - Code applications
   - Test software
   - Collaborate requirements
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$118,800 - $178,200'

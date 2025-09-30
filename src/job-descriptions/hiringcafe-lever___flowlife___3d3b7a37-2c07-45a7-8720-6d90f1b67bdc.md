@@ -11,7 +11,7 @@ tags:
   - Edge-first
   - Integrate devices
   - Lead teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $270,000'

@@ -11,7 +11,7 @@ tags:
   - Lead research teams
   - Define strategy
   - Drive end-to-end research and deployment
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$70,000 - $200,000'

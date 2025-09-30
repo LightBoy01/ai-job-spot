@@ -11,7 +11,7 @@ tags:
   - generating opportunities
   - outbound prospecting
   - scheduling meetings
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

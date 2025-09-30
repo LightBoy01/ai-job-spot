@@ -9,10 +9,10 @@ postedDate: '2025-03-10T12:00:00.000Z'
 expirationDate: null
 tags:
   - Information Technology
-  - Architect AI
-  - Collaborate teams
-  - Design architecture
-status: pending_review
+  - Designing AI
+  - Architecting AI
+  - Collaborating with teams
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

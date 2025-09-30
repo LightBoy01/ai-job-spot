@@ -12,7 +12,7 @@ tags:
   - lead testing
   - improve quality
   - drive delivery
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

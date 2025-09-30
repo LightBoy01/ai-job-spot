@@ -11,7 +11,7 @@ tags:
   - validate AI
   - oversee radiologists
   - develop guidelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$375,000 - $475,000'

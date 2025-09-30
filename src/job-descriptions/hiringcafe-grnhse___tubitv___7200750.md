@@ -11,7 +11,7 @@ tags:
   - Own tooling
   - Drive impact
   - Lead transformation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$169,500 - $242,100'

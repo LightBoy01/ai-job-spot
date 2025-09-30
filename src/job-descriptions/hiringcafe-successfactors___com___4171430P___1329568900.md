@@ -11,7 +11,7 @@ tags:
   - Build relationships
   - Drive revenue
   - Develop solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$165,500 - $225,600'

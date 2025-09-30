@@ -11,7 +11,7 @@ tags:
   - define vision
   - drive roadmap
   - lead teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$143,500 - $205,000'

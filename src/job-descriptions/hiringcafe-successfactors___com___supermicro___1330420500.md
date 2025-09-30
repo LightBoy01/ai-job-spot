@@ -1,0 +1,98 @@
+---
+id: hiringcafe-successfactors___com___supermicro___1330420500
+title: >-
+  Networking and Software Solutions Engineer (San Jose, California, United
+  States)
+company: 'Supermicro Data Center Server, Blade, Data Storage, AI System'
+location: 'San Jose, California, United States'
+applicationLink: >-
+  https://jobs.supermicro.com/job/San-Jose-Networking-and-Software-Solutions-Engineer-Cali/1330420500/
+postedDate: '2025-09-30T02:42:14.100Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Design networks
+  - Validate deployments
+  - Automate workflows
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: '$108,000 - $123,000'
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___supermicro___1330420500'
+companyLogoUrl: null
+---
+**Job Req ID: 27331**
+---------------------
+
+**About Supermicro:**
+---------------------
+
+Supermicro® is a Top Tier provider of advanced server, storage, and networking solutions for Data Center, Cloud Computing, Enterprise IT, Hadoop/ Big Data, Hyperscale, HPC and IoT/Embedded customers worldwide. We are the #5 fastest growing company among the Silicon Valley Top 50 technology firms. Our unprecedented global expansion has provided us with the opportunity to offer a large number of new positions to the technology community. We seek talented, passionate, and committed engineers, technologists, and business leaders to join us.  
+ 
+
+**Job Summary:**
+----------------
+
+Supermicro is seeking an Entry-Level Networking & Software Solutions Engineer to contribute to the design and development of next-generation network solutions optimized for AI workloads. This role is ideal for candidates with a foundational understanding of data center networks and programming, and a strong desire to learn and grow in a fast-paced, innovative environment.
+
+**Essential Duties and Responsibilities:**
+------------------------------------------
+
+**Includes the following essential duties and responsibilities (other duties may also be assigned):**
+
+*   Support the design, validation, and deployment of AI fabrics and network software solutions.
+    
+*   Assist in prototyping and integrating AI-based applications into existing systems.
+    
+*   Contribute to proof-of-concept (PoC) efforts with partner solutions and integration workflows.
+    
+*   Work with technologies such as Kubernetes, Slurm, and host-side networking to enable scalable and efficient compute environments.
+    
+*   Collaborate with engineering teams to develop software-defined networking solutions.
+    
+*   Create and maintain automation scripts and workflows using Ansible and Python to improve operational efficiency.
+    
+*   Analyze and optimize data flow across distributed systems to ensure performance and scalability.
+    
+*   Contribute to the development of internal tools, technical documentation, and process enhancements.
+    
+
+**Qualifications:**
+-------------------
+
+*   Bachelor’s or Master’s degree in Computer Science, Information Technology, or a related field.
+    
+*   1–2 years of experience in networking, DevOps, or software engineering roles.
+    
+*   Working knowledge of:
+    
+    *   Data center networks and related protocols.
+        
+    *   Python for scripting and tool development.
+        
+*   Good to have:
+    
+    *   Exposure to AI application development or integration.
+        
+    *   Kubernetes Networking.
+        
+    *   Ansible for configuration management and automation.
+        
+*   Quick learner with a passion for emerging technologies.
+*   Strong analytical and problem-solving skills.
+    
+*   Effective communication and collaboration abilities.
+    
+
+**Salary Range**
+----------------
+
+   $108,000 - $123,000
+
+The salary offered will depend on several factors, including your location, level, education, training, specific skills, years of experience, and comparison to other employees already in this role. In addition to a comprehensive benefits package, candidates may be eligible for other forms of compensation, such as participation in bonus and equity award programs.
+
+**EEO Statement**
+-----------------
+
+Supermicro is an Equal Opportunity Employer and embraces diversity in our employee population. It is the policy of Supermicro to provide equal opportunity to all qualified applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, protected veteran status or special disabled veteran, marital status, pregnancy, genetic information, or any other legally protected status.

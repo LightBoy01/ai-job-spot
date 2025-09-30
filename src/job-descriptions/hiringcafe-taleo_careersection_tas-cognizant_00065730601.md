@@ -12,7 +12,7 @@ tags:
   - Designing solutions
   - Developing UI5 apps
   - Creating data models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

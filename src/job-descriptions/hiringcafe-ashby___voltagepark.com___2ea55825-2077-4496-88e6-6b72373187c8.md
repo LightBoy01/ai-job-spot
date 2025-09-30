@@ -11,7 +11,7 @@ tags:
   - Source candidates
   - Recruit roles
   - Own projects
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$80,000 - $110,000'

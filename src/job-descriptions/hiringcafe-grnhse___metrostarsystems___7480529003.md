@@ -11,7 +11,7 @@ tags:
   - Analyze datasets
   - Develop AI/ML models
   - Operate AI/ML production systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$161,000 - $236,000'

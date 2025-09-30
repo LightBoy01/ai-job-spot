@@ -11,7 +11,7 @@ tags:
   - Lead competitive intelligence
   - Deliver insight briefs
   - Collaborate with teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$200,000 - $225,000'

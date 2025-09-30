@@ -12,7 +12,7 @@ tags:
   - Leading SAP
   - Collaborating clients
   - Mentoring team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

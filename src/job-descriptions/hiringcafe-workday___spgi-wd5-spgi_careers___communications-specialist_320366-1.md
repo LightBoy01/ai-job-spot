@@ -13,7 +13,7 @@ tags:
   - write content
   - manage events
   - monitor metrics
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

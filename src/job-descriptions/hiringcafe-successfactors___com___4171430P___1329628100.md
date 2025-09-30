@@ -11,7 +11,7 @@ tags:
   - Develop apps
   - Collaborate teams
   - Troubleshoot issues
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

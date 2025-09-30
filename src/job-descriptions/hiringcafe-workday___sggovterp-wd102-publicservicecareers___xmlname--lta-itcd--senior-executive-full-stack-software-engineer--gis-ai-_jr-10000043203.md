@@ -13,7 +13,7 @@ tags:
   - design architecture
   - develop MVPs
   - collaborate stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

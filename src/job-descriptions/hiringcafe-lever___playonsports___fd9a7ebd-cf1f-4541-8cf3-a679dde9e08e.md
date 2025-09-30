@@ -11,7 +11,7 @@ tags:
   - Build ML models
   - Develop scalable pipelines
   - Collaborate with teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

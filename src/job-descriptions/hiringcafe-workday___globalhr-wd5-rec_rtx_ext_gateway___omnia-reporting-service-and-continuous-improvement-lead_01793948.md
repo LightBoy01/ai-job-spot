@@ -13,7 +13,7 @@ tags:
   - Lead reporting
   - Manage team
   - Develop dashboards
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

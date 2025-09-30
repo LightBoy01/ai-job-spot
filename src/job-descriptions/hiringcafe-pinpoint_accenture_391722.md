@@ -14,7 +14,7 @@ tags:
   - designing software
   - building platforms
   - integrating AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

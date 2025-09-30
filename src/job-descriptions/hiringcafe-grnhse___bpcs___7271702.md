@@ -11,7 +11,7 @@ tags:
   - refine requirements
   - develop code
   - build indexes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$70,990.4 - $80,995.2'

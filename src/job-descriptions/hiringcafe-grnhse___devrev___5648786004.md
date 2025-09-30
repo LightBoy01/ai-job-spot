@@ -11,7 +11,7 @@ tags:
   - Define strategy
   - Manage relationships
   - Drive initiatives
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

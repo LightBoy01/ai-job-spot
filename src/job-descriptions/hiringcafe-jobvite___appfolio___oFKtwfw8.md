@@ -13,7 +13,7 @@ tags:
   - Develop strategy
   - Oversee calendar
   - Manage budget
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$138,400 - $173,000'

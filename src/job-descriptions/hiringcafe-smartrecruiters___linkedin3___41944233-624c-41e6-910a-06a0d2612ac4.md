@@ -12,7 +12,7 @@ tags:
   - define strategy
   - lead discussions
   - build scalable systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$248,000 - $406,000'

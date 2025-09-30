@@ -12,7 +12,7 @@ tags:
   - owning strategy
   - designing scalable
   - mentoring engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $300,000'

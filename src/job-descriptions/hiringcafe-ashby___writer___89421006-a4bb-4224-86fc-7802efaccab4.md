@@ -11,7 +11,7 @@ tags:
   - design prompts
   - craft patterns
   - collaborate team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$130,200 - $164,700'

@@ -12,7 +12,7 @@ tags:
   - Develop tests
   - Collaborate engineers
   - Learn design
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

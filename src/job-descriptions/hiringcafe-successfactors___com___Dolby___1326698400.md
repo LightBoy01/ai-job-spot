@@ -12,7 +12,7 @@ tags:
   - Prototype multimodal
   - Collaborate researchers
   - Draft patents
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$133,500 - $163,300'

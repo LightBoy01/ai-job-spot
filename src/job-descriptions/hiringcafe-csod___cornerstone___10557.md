@@ -12,7 +12,7 @@ tags:
   - designing applications
   - developing microservices
   - mentoring engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

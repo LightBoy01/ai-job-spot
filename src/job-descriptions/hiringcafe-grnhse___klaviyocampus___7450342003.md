@@ -11,7 +11,7 @@ tags:
   - design visuals
   - prototype interactions
   - build AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$41,000 - $41,000'

@@ -12,7 +12,7 @@ tags:
   - Perform QA
   - Research filings
   - Improve tagging
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

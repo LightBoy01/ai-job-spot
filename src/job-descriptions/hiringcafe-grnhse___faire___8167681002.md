@@ -11,7 +11,7 @@ tags:
   - building search
   - leading design
   - scaling infra
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$268,000 - $368,500'

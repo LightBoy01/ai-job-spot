@@ -11,7 +11,7 @@ tags:
   - design models
   - deploy systems
   - collaborate clients
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

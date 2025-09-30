@@ -14,7 +14,7 @@ tags:
   - leading platform
   - governing standards
   - collaborating teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

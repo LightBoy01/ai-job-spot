@@ -11,7 +11,7 @@ tags:
   - lead team
   - plan releases
   - drive innovation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$149,000 - $215,000'

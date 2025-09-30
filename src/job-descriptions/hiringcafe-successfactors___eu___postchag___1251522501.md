@@ -12,7 +12,7 @@ tags:
   - Develop services
   - Build pipelines
   - Deploy AKS
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

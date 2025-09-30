@@ -12,7 +12,7 @@ tags:
   - Develop strategy
   - Engage stakeholders
   - Drive partnerships
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

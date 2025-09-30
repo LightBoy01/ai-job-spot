@@ -11,7 +11,7 @@ tags:
   - Analyzing business requirements
   - Leading AI/ML initiatives
   - Collaborating with teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$165,000 - $190,000'

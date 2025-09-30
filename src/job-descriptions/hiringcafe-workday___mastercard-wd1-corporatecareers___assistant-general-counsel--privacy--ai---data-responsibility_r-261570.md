@@ -13,7 +13,7 @@ tags:
   - lead PAIR
   - advise product
   - manage compliance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$250,000 - $400,000'

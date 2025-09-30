@@ -11,7 +11,7 @@ tags:
   - lead projects
   - train models
   - deploy systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

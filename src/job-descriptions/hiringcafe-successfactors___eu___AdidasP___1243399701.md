@@ -12,7 +12,7 @@ tags:
   - Leading initiatives
   - Tracking KPIs
   - Driving transformation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

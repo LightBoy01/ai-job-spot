@@ -12,7 +12,7 @@ tags:
   - Develop services
   - Design pipelines
   - Implement ML
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -15,7 +15,7 @@ tags:
   - lead strategy
   - drive analytics
   - develop team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

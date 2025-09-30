@@ -12,7 +12,7 @@ tags:
   - Work on 4G/5G packet core product
   - 'Develop, modify, and execute software test plans'
   - Build automation around the test case execution
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

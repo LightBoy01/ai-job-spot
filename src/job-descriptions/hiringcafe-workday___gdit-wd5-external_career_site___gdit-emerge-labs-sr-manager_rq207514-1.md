@@ -13,7 +13,7 @@ tags:
   - Mentor team
   - Lead architecture
   - Oversee operations
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

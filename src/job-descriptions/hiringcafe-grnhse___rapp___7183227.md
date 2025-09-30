@@ -11,7 +11,7 @@ tags:
   - write copy
   - collaborate teams
   - present work
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$65,000 - $75,000'

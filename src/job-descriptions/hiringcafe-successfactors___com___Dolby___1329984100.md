@@ -12,7 +12,7 @@ tags:
   - lead research
   - develop models
   - evaluate data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$104,000 - $118,560'

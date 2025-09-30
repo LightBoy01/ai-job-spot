@@ -12,7 +12,7 @@ tags:
   - Support training
   - Partner on AI roadmap
   - Design change communications
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$79,500 - $101,500'

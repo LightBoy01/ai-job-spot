@@ -13,7 +13,7 @@ tags:
   - Lead content
   - Oversee production
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$138,400 - $173,000'

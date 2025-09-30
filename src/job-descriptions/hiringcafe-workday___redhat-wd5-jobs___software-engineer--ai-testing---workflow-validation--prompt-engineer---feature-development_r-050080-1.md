@@ -13,7 +13,7 @@ tags:
   - Design prompts
   - Collaborate teams
   - Validate outputs
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

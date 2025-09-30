@@ -11,7 +11,7 @@ tags:
   - Leading development
   - Coordinating cross-functional
   - Managing risk
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

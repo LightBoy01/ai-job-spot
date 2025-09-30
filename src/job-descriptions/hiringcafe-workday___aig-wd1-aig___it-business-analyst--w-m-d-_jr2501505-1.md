@@ -12,7 +12,7 @@ tags:
   - analyzing requirements
   - designing features
   - coordinating tests
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

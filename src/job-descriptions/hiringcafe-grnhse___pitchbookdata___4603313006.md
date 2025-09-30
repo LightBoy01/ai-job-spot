@@ -11,7 +11,7 @@ tags:
   - Define problem
   - Validate workflows
   - Design patterns
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$165,000 - $180,000'

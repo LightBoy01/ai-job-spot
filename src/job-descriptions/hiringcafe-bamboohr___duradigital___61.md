@@ -11,7 +11,7 @@ tags:
   - Define plans
   - Drive delivery
   - Coordinate stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$120,000 - $140,000'

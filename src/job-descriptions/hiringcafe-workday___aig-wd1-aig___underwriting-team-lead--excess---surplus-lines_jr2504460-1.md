@@ -13,7 +13,7 @@ tags:
   - defining strategy
   - maintaining guidelines
   - leading initiatives
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

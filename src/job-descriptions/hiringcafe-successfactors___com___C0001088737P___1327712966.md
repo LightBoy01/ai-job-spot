@@ -12,7 +12,7 @@ tags:
   - Develop channels
   - Enable partners
   - Drive sales
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

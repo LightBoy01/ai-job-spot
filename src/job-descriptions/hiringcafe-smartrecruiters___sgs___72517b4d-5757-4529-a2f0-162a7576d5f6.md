@@ -12,7 +12,7 @@ tags:
   - Lead operations
   - Coordinate teams
   - Improve processes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$120,000,000 - $144,000,000'

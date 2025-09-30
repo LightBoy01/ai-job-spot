@@ -11,7 +11,7 @@ tags:
   - negotiating contracts
   - advising privacy
   - leading regulatory
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$240,000 - $270,000'

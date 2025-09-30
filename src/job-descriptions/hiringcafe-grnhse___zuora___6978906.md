@@ -11,7 +11,7 @@ tags:
   - analyzing data
   - developing scripts
   - leading meetings
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$109,500 - $193,200'

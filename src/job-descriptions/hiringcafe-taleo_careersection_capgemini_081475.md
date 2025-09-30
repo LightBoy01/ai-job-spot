@@ -11,7 +11,7 @@ tags:
   - Develop agents
   - Integrate LLMs
   - Automate testing
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

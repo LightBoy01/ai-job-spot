@@ -12,7 +12,7 @@ tags:
   - defining architectures
   - architecting retrieval
   - designing safeguards
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

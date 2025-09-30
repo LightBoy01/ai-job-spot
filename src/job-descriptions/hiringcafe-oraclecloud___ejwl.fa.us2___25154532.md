@@ -12,7 +12,7 @@ tags:
   - answering calls
   - recording requests
   - relaying messages
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

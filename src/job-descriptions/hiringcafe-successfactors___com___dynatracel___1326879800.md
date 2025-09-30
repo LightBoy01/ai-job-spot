@@ -12,7 +12,7 @@ tags:
   - Lead privacy
   - Develop program
   - Operationalize privacy
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

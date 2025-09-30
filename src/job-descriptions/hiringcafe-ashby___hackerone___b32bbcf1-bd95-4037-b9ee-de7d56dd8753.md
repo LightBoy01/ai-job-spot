@@ -11,7 +11,7 @@ tags:
   - Drive strategy
   - Lead lifecycle
   - Gather inputs
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$162,000 - $225,000'

@@ -13,7 +13,7 @@ tags:
   - design AI
   - build pipelines
   - deploy models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

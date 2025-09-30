@@ -11,7 +11,7 @@ tags:
   - Annotate data
   - Research as needed
   - Provide feedback
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$22,880 - $22,880'

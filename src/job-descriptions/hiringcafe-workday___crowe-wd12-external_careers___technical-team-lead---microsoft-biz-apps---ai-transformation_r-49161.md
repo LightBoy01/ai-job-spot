@@ -13,7 +13,7 @@ tags:
   - lead delivery
   - build talent
   - coach teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

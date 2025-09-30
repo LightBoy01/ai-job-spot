@@ -12,7 +12,7 @@ tags:
   - manage documents
   - coordinate translations
   - control quality
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

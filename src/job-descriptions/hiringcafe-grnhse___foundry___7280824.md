@@ -11,7 +11,7 @@ tags:
   - lead strategy
   - modernize operations
   - grow audience
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$160,000 - $200,000'

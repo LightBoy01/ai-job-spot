@@ -14,7 +14,7 @@ tags:
   - Conduct research
   - Bridge research and development
   - Mentor students
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$65,000 - $65,000'

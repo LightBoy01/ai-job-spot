@@ -11,7 +11,7 @@ tags:
   - Sourcing investment opportunities
   - Evaluating early-stage investments
   - Communicating investment cases
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$175,000 - $195,000'

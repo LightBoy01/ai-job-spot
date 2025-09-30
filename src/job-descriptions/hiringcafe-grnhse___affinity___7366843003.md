@@ -11,7 +11,7 @@ tags:
   - designing systems
   - deploying models
   - collaborating cross-functionally
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$113,000 - $200,000'

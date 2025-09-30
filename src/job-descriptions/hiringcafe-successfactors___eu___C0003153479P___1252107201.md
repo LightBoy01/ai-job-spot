@@ -12,7 +12,7 @@ tags:
   - Develop assets
   - Create content packages
   - Collaborate with international team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$41,600 - $59,280'

@@ -11,7 +11,7 @@ tags:
   - Leading user research
   - Collaborating with engineers
   - Enhancing design system
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -14,7 +14,7 @@ tags:
   - Research
   - Prototype
   - Optimize
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$234,000 - $234,000'

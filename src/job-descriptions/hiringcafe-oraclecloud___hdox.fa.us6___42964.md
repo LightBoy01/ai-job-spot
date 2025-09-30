@@ -12,7 +12,7 @@ tags:
   - leading transformation
   - driving improvements
   - developing KPIs
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$160,000 - $200,000'

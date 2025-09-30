@@ -1,0 +1,66 @@
+---
+id: hiringcafe-oraclecloud___fa-espx-saasfaprod1.fa.ocs___2418402
+title: Student - Qua
+company: Cummins Inc.
+location: 'Beijing, Beijing, China'
+applicationLink: >-
+  https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/2418402
+postedDate: '2025-09-30T16:26:22.862Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - learn tools
+  - assist workflows
+  - design prompts
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/oraclecloud___fa-espx-saasfaprod1.fa.ocs___2418402'
+companyLogoUrl: null
+---
+This position is not available in GPP database. Talent Acquisition team member will fill in the Posting description after intake meeting.
+
+### Responsibilities
+
+This position is not available in GPP database. Talent Acquisition team member will fill in the Posting description after intake meeting.
+
+### Qualifications
+
+**AI提示词工程师实习生JD**
+
+**岗位职责:**
+
+*   熟悉使用AI工具和平台：学习并掌握基本的AI工具和平台（如ChatGPT, Midjourney, Stable Diffusion等），参与内容创作和优化。
+*   辅助搭建工作流或智能体：在指导下，利用AI工具协助搭建解决特定任务的工作流或智能体。
+*   参与Prompt工程：在资深工程师的指导下，参与AI项目的Prompt工程，包括设计和优化与AI模型交互的提示词。
+*   知识库构建与维护：协助构建和维护RAG（Retrieval-Augmented Generation）知识库，确保信息的准确性和相关性。
+*   优化提示工程和知识库：在指导下，参与优化提示工程和知识库，提升AI回答的准确性。
+*   遵守伦理与合规性：了解并遵守伦理与合规性要求，确保所有AI应用的输出合法合规。
+*   流程设计辅助：在指导下，依据不同业务场景和客户需求，辅助设计智能对话流程、自动化工作流等，实现人机交互的高效协同。
+*   AI 智能体应用系统性了解，，通过康明斯U-Chat进行培训和介绍。
+
+任职要求
+
+基础条件
+
+*   学历要求：计算机科学、信息管理、统计学、人工智能等相关专业优先。
+*   实习经验：有AI工具实施或技术支持相关实习经验者优先，对企业级AI产品有一定了解者更佳。
+
+技能要求
+
+*   AI工具基础：了解常见AI工具的基本原理和操作（如NLP、机器学习模型、自动化工具等），能够快速上手企业内部AI产品。
+*   数据处理能力：具备基础的数据处理能力，熟悉Excel、SQL或Python中至少一种工具。
+*   业务流程理解：对业务流程有一定的理解，能在指导下通过AI工具解决实际业务问题（如效率提升、成本优化等）。
+
+软性能力
+
+*   沟通能力：具有良好的沟通能力，能与业务部门有效协作，理解并转化需求。
+*   问题解决能力：具备一定的问题解决能力，能在指导下独立排查工具使用中的异常并提供解决方案。
+*   责任心与适应性：责任心强，注重细节，能适应多任务并行的工作节奏，愿意在团队中学习成长
+
+Company
+-------
+
+Cummins is an equal opportunity employer. Our policy is to provide equal employment opportunities to all qualified persons without regard to race, sex, color, disability, national origin, age, religion, union affiliation, sexual orientation, veteran status, citizenship, gender identity, or other status protected by law.

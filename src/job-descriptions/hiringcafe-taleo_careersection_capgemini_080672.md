@@ -11,7 +11,7 @@ tags:
   - lead sales
   - develop demos
   - architect solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$89,700 - $199,600'

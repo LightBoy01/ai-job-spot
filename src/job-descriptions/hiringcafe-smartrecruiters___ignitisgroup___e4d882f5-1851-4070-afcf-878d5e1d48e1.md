@@ -1,0 +1,73 @@
+---
+id: >-
+  hiringcafe-smartrecruiters___ignitisgroup___e4d882f5-1851-4070-afcf-878d5e1d48e1
+title: AI SOLUTIONS EXPERT (F/M/D)
+company: Ignitis group
+location: 'Vilnius, Vilnius County, Lithuania'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/Ignitisgroup/744000083654249-ai-solutions-expert-f-m-d-
+postedDate: '2025-09-24T10:36:20.628Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Develop AI
+  - Build systems
+  - Analyze data
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: '$43,128 - $64,680'
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___ignitisgroup___e4d882f5-1851-4070-afcf-878d5e1d48e1
+companyLogoUrl: null
+---
+**Company Description:**
+
+Do you want to contribute to projects shaping the future of energy in the Baltics and beyond? Ignitis Group shared service center is a part of the Ignitis Group – a renewables-focused integrated utility. Our purpose is to create a 100% green and secure energy ecosystem for current and future generations.  
+
+The Centre boasts a diverse range of competencies that not only ensure the smooth operation of daily activities across the Group but also support the energy transition in the Baltic Sea region. We are involved with all the Group’s products, from solar parks to electric vehicle charging stations. Given the scope and variety of projects, our team includes specialists in multiple disciplines, such as law, IT, HR, communications, procurement, and more. Every colleague, regardless of their area of expertise, contributes to the development of energy independence in Lithuania and beyond, extending to neighboring countries. 
+
+www.ignitisgrupe.lt 
+
+**Job Description:**
+
+We are currently looking for a new colleague to join the AI Solutions team of the Ignitis Group shared service center, where you’ll be responsible for developing AI solutions that reimagine the way we provide customer support and designing and building systems from the ground up to deliver scalable, secure, and customer-focused solutions. If that speaks to you, we’d be happy to welcome you to our team!
+
+Take YOUR part in #EnergySmart!  
+
+**You will contribute to green and secure energy ecosystem creation by:**  
+
+*   Creating artificial intelligence solutions that will transform tomorrow's customer experience and serve all residents and businesses
+*   Developing solutions that use the most advanced artificial intelligence tools and architectures on the market (e.g., agentic systems, transcription or voice generation tools)
+*   Developing, enhancing, and deploying automation solutions using artificial intelligence and machine learning methods to analyze data
+*   Working with large datasets, including both structured and unstructured data
+*   Monitoring market trends, analyzing artificial intelligence application opportunities, and implementing pilot projects for proposed ideas
+
+**Qualifications:**
+
+*   At least 2 years' experience with LLMs and other artificial intelligence solutions, as well as assisting others in utilizing them effectively
+*   At least 1 year of experience creating large agentic AI systems
+*   Strong programming skills (e.g., Python) for model development, data analysis, machine learning, and working with GenAI libraries
+*   At least 1 year of experience developing and applying artificial intelligence solutions in business environments
+*   Experience with Azure and Vertex AI platforms
+*   An advantage would be experience developing AI solutions in the field of customer service
+
+**Additional Information:**
+
+*   The opportunity to contribute to the transformation of the energy sector, aiming to create a 100% green and safe energy ecosystem for current and future generations
+*   A package of additional benefits to choose from: pension accumulation, health insurance, or another benefit from the selectable benefits list in the MELP application
+*   Additional paid days for health improvement, short-term illness, volunteering, and accumulated work experience
+*   A hybrid work model (3+2) and flexible working hours
+*   Internal career opportunities
+*   Extensive learning and qualification enhancement programs
+*   Mentorship-based culture designed to facilitate meaningful and value-driven work
+*   Take part in an unfolding energy transformation process to create a 100% green and secure energy ecosystem for both current and future generations
+
+Join a growing and increasingly international team of energy smart people united by a common purpose. We all play our part in creating a 100% green and secure energy ecosystem for current and future generations.
+
+And the way to achieve this is certainly not to wait for the perfect moment. We believe that the power to act comes from the charge we bring to our work every day. **United by purpose.** **Owning the challenge. Passion for reinvention. Pursuing excellence.** These are our mindsets. Together, they yield the energy that drives everything we do. The energy generated by our choices. If you are guided by the same mindsets – we look forward to welcoming you to our team!
+
+As we pursue our strategic goals to increase gender balance in Ignitis Group, we are indicating “f/m/d” next to job titles, meaning we welcome candidates of all genders – female, male or diverse.
+
+Ignitis Group ensures equal opportunities. We welcome all applicants and do not discriminate against race, religion, gender, sexual orientation or gender identity, age, disability or other personal traits unrelated to work obligations.

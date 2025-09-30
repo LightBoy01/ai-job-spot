@@ -13,7 +13,7 @@ tags:
   - writing Apex
   - implementing open source libraries
   - planning deployments
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$110,000 - $140,000'

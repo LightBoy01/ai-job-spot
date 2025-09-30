@@ -12,7 +12,7 @@ tags:
   - Lead programs
   - Manage teams
   - Develop architecture
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$139,400 - $291,800'

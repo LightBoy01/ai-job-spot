@@ -11,7 +11,7 @@ tags:
   - architect solutions
   - design frameworks
   - lead design
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$175,000 - $219,000'

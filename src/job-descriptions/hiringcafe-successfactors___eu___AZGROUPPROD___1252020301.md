@@ -12,7 +12,7 @@ tags:
   - develop strategy
   - drive sales
   - lead teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

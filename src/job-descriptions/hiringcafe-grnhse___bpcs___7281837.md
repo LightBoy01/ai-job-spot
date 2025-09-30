@@ -11,7 +11,7 @@ tags:
   - Manage escalations
   - Coordinate cross-functional resolution
   - Communicate with stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$60,008 - $60,008'

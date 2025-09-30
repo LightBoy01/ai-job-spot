@@ -12,7 +12,7 @@ tags:
   - Implementing APIs
   - Building backend
   - Collaborating with team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$140,000 - $170,000'

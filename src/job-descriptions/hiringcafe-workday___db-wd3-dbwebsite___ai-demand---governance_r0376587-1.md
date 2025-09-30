@@ -12,7 +12,7 @@ tags:
   - drive onboarding
   - onboard stakeholders
   - guide adoption
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

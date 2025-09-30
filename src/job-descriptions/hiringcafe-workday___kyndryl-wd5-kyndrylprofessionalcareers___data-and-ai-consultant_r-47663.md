@@ -13,7 +13,7 @@ tags:
   - RFP/RFI handling
   - Architecting data/AI solutions
   - Delivering proofs of concept
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

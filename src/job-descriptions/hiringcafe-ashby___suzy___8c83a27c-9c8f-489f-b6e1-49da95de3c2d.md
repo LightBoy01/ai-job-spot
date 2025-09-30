@@ -11,7 +11,7 @@ tags:
   - Research tools
   - Build workflows
   - Integrate systems
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$93,600 - $114,400'

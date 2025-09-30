@@ -13,7 +13,7 @@ tags:
   - review technologies
   - oversee portfolio
   - develop governance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - Designing software
   - Developing services
   - Troubleshooting issues
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -15,7 +15,7 @@ tags:
   - supporting CEO
   - leading projects
   - analyzing metrics
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

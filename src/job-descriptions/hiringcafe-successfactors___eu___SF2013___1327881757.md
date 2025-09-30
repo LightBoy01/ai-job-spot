@@ -12,7 +12,7 @@ tags:
   - serving as
   - developing solutions
   - guiding lifecycle
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

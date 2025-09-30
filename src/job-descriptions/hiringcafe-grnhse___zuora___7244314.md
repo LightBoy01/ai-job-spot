@@ -11,7 +11,7 @@ tags:
   - Lead team
   - Enhance observability
   - Drive reliability
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$224,400 - $336,600'

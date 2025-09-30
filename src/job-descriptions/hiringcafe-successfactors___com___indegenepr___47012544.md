@@ -11,7 +11,7 @@ tags:
   - Driving innovation
   - Building applications
   - Deploying GenAI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

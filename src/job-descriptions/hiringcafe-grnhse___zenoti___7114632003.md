@@ -1,0 +1,145 @@
+---
+id: hiringcafe-grnhse___zenoti___7114632003
+title: >-
+  Lead - Development - AI Engineer: Agentified Platform Dev / Azure Dagta Lake
+  Future state
+company: Zenoti
+location: 'Hyderabad, Telangana, India'
+applicationLink: 'https://job-boards.greenhouse.io/zenoti/jobs/7114632003'
+postedDate: '2025-09-30T06:46:11.000Z'
+expirationDate: null
+tags:
+  - Engineering
+  - Design platforms
+  - Develop agents
+  - Mentor teams
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___zenoti___7114632003'
+companyLogoUrl: null
+---
+Zenoti provides an all-in-one, cloud-based software solution for the beauty and wellness industry. Our solution allows users to seamlessly manage every aspect of the business in a comprehensive mobile solution: online appointment bookings, POS, CRM, employee management, inventory management, built-in marketing programs and more. Zenoti helps clients streamline their systems and reduce costs, while simultaneously improving customer retention and spending. Our platform is engineered for reliability and scale and harnesses the power of enterprise-level technology for businesses of all sizes
+
+Zenoti powers more than 30,000 salons, spas, medspas and fitness studios in over 50 countries. This includes a vast portfolio of global brands, such as European Wax Center, Hand & Stone, Massage Heights, Rush Hair & Beauty, Sono Bello, Profile by Sanford, Hair Cuttery, CorePower Yoga and TONI&GUY.
+
+Our recent accomplishments include surpassing a $1 billion unicorn valuation, being named Next Tech Titan by GeekWire, raising an $80 million investment from TPG, ranking as the 316th fastest-growing company in North America on Deloitte’s 2020 Technology Fast 500™. We are also proud to be recognized as a Great Place to Work CertifiedTM for 2021-2022 as this reaffirms our commitment to empowering people to feel good and find their greatness. To learn more about Zenoti visit: https://www.zenoti.com
+
+**Tech Stack**
+--------------
+
+*   **Backend:** .NET/C#, SQL Server, RESTful APIs, Python (AI/ML)
+    
+*   **AI/ML:** Python, TensorFlow, PyTorch, LangChain, OpenAI APIs, Anthropic Claude, Azure OpenAI
+    
+*   **Cloud:** AWS (Bedrock, SageMaker, Lambda) or Azure (AI Services, ML Studio)
+    
+*   **Scale:** Billions of API calls, terabytes of data, 99.99% availability
+    
+
+### **Role Overview**
+
+We are seeking a **Lead/Staff AI Engineer** to build **agentified platforms, GenAI applications, and APIs** at enterprise scale. This role emphasizes **AI/ML technical excellence** and **hands-on development** of intelligent systems and applications.
+
+**Key Responsibilities**
+------------------------
+
+*   Design and develop enterprise-scale agentified platforms, GenAI applications, and APIs using state-of-the-art GenAI technologies.
+    
+*   Build intelligent agents for use cases like customer service, appointment optimization, inventory management, marketing automation, data lineage/quality, and observability.
+    
+*   Drive AI/ML architectural decisions and define technical standards for AI system development.
+    
+*   Create scalable APIs for AI services, ensuring enterprise-grade reliability and performance.
+    
+*   Optimize AI system cost, latency, and scalability.
+    
+*   Research, prototype, and adopt emerging AI/ML technologies for the wellness industry.
+    
+*   Mentor engineering teams on AI/ML best practices and agent development.
+    
+
+**Required Experience & Skills**
+--------------------------------
+
+### **Experience**
+
+*   7+ years in software development with a full-stack engineering background.
+    
+*   2–3+ years in AI/ML engineering, GenAI app development, and multi-agent design.
+    
+*   Proven experience in deploying AI/ML models and agent systems at scale.
+    
+
+### **Core AI/ML Expertise**
+
+*   **Agent Frameworks:** LangChain, LangGraph, AutoGen, CrewAI, OpenAI Assistants API, Semantic Kernel, or custom architectures.
+    
+*   **GenAI Platforms:** OpenAI GPT, Anthropic Claude, Azure OpenAI, Google Gemini.
+    
+*   **Agent Development:** Multi-agent systems, workflow automation, task coordination, Claude Code Agent workflows.
+    
+*   **Python AI Stack:** TensorFlow, PyTorch, FastAPI, pandas, numpy.
+    
+*   **Vector Databases & RAG:** Pinecone, Weaviate, ChromaDB.
+    
+*   **Prompt/Context Engineering:** Advanced techniques for optimizing agent behavior and model performance.
+    
+*   **Cloud Integration:** AWS Bedrock, Azure AI Services, .NET/C#, SQL databases.
+    
+
+### **Agent Development & AI Engineering** (Critical Skills)
+
+*   Multi-agent systems: coordination, task distribution, and collaboration.
+    
+*   Conversational AI: chatbot development, dialogue management, context preservation.
+    
+*   RAG systems: retrieval-augmented generation for knowledge-based applications.
+    
+*   AI safety & governance: implementing guardrails, content filtering, and responsible AI practices.
+    
+*   Performance engineering: latency optimization, caching, cost management at scale.
+    
+
+### **AI Development Tools**
+
+*   Hands-on with Claude Code Agent, Cursor IDE, GitHub Copilot, or similar AI development tools.
+    
+*   Experience with AI-assisted development workflows, debugging, optimization, and system documentation.
+    
+
+**Impact & Growth**
+-------------------
+
+*   Build AI solutions serving **30,000+ businesses across 50+ countries**.
+    
+*   Develop intelligent systems that process millions of customer interactions.
+    
+*   Pioneer AI applications in beauty/wellness operations and customer experience.
+    
+*   Mentor and influence engineering teams in AI/ML adoption.
+    
+*   Shape the future of AI-powered business management platforms.
+    
+
+**Why Zenoti**
+--------------
+
+*   **High Impact:** Be part of an innovative company revolutionizing the wellness and beauty industry, where your work touches millions of end-users globally and redefines customer experiences.
+    
+*   **Innovation at Scale:** Build and deploy next-gen AI systems handling billions of API calls with industry-leading reliability.
+    
+*   **Learning & Growth:** Access mentorship, cutting-edge tools, and opportunities to pioneer in multi-agent AI, GenAI, and enterprise-scale systems, while working with a dynamic and diverse team that values collaboration, creativity, and growth.
+    
+*   **Global Footprint:** Collaborate with teams across 50+ countries and lead impactful projects that shape Zenoti’s global success.
+    
+*   **Culture of Ownership:** We value authenticity, accountability, and teamwork—giving you both freedom and responsibility to shape outcomes.
+    
+*   **Well-being & Benefits:** Attractive compensation, medical coverage for you and your immediate family, access to yoga, meditation, breathwork, and stress management sessions (extended to families through awareness initiatives).
+    
+*   **Community & Connection:** Participate in regular social activities and contribute through community initiatives and social work.
+    
+
+_Zenoti provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws._ _This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation and training._

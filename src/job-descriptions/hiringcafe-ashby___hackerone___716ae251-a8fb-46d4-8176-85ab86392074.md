@@ -11,7 +11,7 @@ tags:
   - Drive strategy
   - Develop roadmap
   - Lead development
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$144,000 - $200,000'

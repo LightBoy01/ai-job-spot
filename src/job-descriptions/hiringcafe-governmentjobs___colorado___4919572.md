@@ -11,7 +11,7 @@ tags:
   - Developing curriculum
   - Teaching AI
   - Research activities
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$38,600 - $40,900'

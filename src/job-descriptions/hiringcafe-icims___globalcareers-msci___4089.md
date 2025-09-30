@@ -12,7 +12,7 @@ tags:
   - collect data
   - validate data
   - enter data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

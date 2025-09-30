@@ -12,7 +12,7 @@ tags:
   - develop messaging
   - lead launch
   - collaborate cross-functional
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$95,000 - $103,000'

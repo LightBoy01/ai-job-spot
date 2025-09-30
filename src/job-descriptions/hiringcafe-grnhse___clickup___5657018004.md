@@ -11,7 +11,7 @@ tags:
   - lead recruiting
   - drive AI
   - manage team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$200,000 - $250,000'

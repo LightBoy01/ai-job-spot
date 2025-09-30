@@ -11,7 +11,7 @@ tags:
   - manage translations
   - update intranet
   - draft communications
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

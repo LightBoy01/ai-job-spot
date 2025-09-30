@@ -11,7 +11,7 @@ tags:
   - Develop AI/ML solutions
   - Train and validate models
   - Deploy LLMs for automation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

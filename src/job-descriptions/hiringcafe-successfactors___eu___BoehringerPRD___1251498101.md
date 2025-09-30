@@ -12,7 +12,7 @@ tags:
   - defining systems
   - developing solutions
   - collaborating with users
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

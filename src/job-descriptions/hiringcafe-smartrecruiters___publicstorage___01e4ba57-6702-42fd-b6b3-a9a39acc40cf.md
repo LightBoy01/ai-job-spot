@@ -13,7 +13,7 @@ tags:
   - Designing agents
   - Building pipelines
   - Automating workflows
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

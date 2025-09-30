@@ -11,7 +11,7 @@ tags:
   - develop AI
   - research GenAI
   - design microservices
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Define strategy
   - Lead architecture
   - Oversee delivery
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

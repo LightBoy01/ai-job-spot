@@ -13,7 +13,7 @@ tags:
   - designing models
   - integrating services
   - mentoring team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

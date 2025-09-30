@@ -11,7 +11,7 @@ tags:
   - Design
   - Develop
   - Deploy AI/ML models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

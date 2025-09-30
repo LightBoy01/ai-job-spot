@@ -12,7 +12,7 @@ tags:
   - 'Design, implement'
   - Champion Shift-left
   - Integrate automated tests
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$79,320 - $110,680'

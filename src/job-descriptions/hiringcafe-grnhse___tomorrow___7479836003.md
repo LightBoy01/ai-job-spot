@@ -11,7 +11,7 @@ tags:
   - Validating AI weather models
   - Developing data visualizations
   - Collaborating with Weather Science and Weather Applications teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$90,000 - $105,000'

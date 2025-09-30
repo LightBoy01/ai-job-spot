@@ -12,7 +12,7 @@ tags:
   - Collaborating stakeholders
   - Defining practices
   - Deploying solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

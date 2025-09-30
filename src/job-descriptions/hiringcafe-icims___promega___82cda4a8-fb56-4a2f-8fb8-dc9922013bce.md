@@ -12,7 +12,7 @@ tags:
   - Design visuals
   - Translate content
   - Leverage AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

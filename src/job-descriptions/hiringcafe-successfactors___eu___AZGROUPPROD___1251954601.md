@@ -12,7 +12,7 @@ tags:
   - handle contracts
   - process requests
   - maintain contacts
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

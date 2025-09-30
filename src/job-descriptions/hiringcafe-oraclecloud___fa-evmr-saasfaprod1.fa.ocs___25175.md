@@ -12,7 +12,7 @@ tags:
   - Execute items
   - Collaborate projects
   - Engage AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

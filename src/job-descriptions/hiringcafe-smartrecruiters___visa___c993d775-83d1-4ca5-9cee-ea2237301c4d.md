@@ -12,7 +12,7 @@ tags:
   - Designing security
   - Conducting threat modelling
   - Facilitating reviews
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$84,600 - $119,650'

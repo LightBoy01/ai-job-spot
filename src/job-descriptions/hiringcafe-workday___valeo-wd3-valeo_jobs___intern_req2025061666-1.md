@@ -11,7 +11,7 @@ tags:
   - Software Development
   - developing AI tools
   - building AI agents
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

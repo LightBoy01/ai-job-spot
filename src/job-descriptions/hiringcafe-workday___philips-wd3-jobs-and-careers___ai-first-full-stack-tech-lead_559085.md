@@ -13,7 +13,7 @@ tags:
   - Lead design
   - Build integrations
   - Mentor developers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

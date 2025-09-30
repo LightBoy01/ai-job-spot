@@ -11,7 +11,7 @@ tags:
   - Lead engineering
   - Build backend
   - Collaborate cross-team
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

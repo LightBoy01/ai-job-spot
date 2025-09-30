@@ -13,7 +13,7 @@ tags:
   - Coordinate pre-sales
   - Deliver demonstrations
   - Develop solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - Design models
   - Develop dashboards
   - Engage stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

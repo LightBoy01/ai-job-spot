@@ -11,7 +11,7 @@ tags:
   - Lead engineer
   - Design backend
   - Ship product
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$235,000 - $260,000'

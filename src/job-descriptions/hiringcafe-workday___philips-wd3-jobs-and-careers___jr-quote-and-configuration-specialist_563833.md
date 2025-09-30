@@ -13,7 +13,7 @@ tags:
   - perform quotes
   - provide support
   - acquire product knowledge
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

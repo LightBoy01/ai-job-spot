@@ -11,7 +11,7 @@ tags:
   - lead team
   - drive architecture
   - deliver features
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

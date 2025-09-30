@@ -11,7 +11,7 @@ tags:
   - respond inquiries
   - advise customers
   - track interactions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

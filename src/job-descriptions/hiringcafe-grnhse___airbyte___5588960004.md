@@ -11,7 +11,7 @@ tags:
   - building products
   - owning frontend
   - mentoring engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$190,000 - $220,000'

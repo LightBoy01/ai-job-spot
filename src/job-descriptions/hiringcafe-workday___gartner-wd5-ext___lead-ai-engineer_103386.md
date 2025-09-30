@@ -12,7 +12,7 @@ tags:
   - lead productionalization
   - architect deployment
   - define CI/CD
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$116,000 - $163,000'

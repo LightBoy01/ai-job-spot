@@ -12,7 +12,7 @@ tags:
   - lead architecture
   - mentor architects
   - drive guidelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

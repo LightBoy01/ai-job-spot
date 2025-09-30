@@ -12,7 +12,7 @@ tags:
   - lead research
   - design workflows
   - fine-tune models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

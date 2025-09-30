@@ -12,7 +12,7 @@ tags:
   - Developing backend systems
   - Designing APIs
   - Implementing security protocols
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

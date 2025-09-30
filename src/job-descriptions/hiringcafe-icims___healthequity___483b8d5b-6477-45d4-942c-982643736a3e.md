@@ -12,7 +12,7 @@ tags:
   - Designing workforce
   - Integrating AI
   - Developing roadmap
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$99,500 - $129,500'

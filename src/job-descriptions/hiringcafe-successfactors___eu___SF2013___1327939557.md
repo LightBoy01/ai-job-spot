@@ -11,7 +11,7 @@ tags:
   - Lead projects
   - Manage KPIs
   - Support change management
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

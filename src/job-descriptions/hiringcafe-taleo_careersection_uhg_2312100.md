@@ -11,7 +11,7 @@ tags:
   - define analytics
   - own roadmap
   - collaborate stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$89,900 - $160,600'

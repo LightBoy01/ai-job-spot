@@ -12,7 +12,7 @@ tags:
   - Design curriculum
   - Develop programs
   - Collaborate with institutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

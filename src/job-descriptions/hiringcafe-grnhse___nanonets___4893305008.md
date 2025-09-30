@@ -11,7 +11,7 @@ tags:
   - owning cycle
   - building relationships
   - driving pipeline
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$120,000 - $150,000'

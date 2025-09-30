@@ -11,7 +11,7 @@ tags:
   - Driving positioning
   - Planning programs
   - Creating assets
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$215,000 - $230,000'

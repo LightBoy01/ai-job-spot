@@ -14,7 +14,7 @@ tags:
   - lead team
   - design strategies
   - drive sourcing
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

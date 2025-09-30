@@ -12,7 +12,7 @@ tags:
   - Designing backend
   - Developing APIs
   - Deploying models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

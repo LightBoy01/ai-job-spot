@@ -13,7 +13,7 @@ tags:
   - Developing MBSE
   - Gaining exposure
   - Learning MBSE
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$37,000 - $82,000'

@@ -11,7 +11,7 @@ tags:
   - Develop territory plan
   - Build C-level relationships
   - Own full sales cycle
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -12,7 +12,7 @@ tags:
   - Lead DevOps design
   - Develop CI/CD pipelines
   - Manage IaC
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

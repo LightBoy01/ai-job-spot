@@ -11,7 +11,7 @@ tags:
   - Coordinate interviews
   - Schedule panels
   - Manage ATS
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$62,000 - $78,000'

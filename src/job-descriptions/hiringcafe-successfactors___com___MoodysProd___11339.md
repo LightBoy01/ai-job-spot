@@ -12,7 +12,7 @@ tags:
   - monitor trades
   - administer program
   - investigate exceptions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$82,400 - $119,450'

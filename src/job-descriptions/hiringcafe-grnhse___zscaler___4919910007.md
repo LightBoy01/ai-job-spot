@@ -11,7 +11,7 @@ tags:
   - supporting diligence
   - negotiating terms
   - collaborating globally
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$164,500 - $235,000'

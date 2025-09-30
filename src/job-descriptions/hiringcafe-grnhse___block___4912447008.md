@@ -11,7 +11,7 @@ tags:
   - Develop models
   - Deploy systems
   - Collaborate stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$228,700 - $343,100'

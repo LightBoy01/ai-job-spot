@@ -11,7 +11,7 @@ tags:
   - Build campaigns
   - Manage segmentation and data streams
   - Analyze performance and ROI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

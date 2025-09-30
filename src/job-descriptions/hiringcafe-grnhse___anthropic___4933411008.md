@@ -11,7 +11,7 @@ tags:
   - Defining roadmap
   - Collaborating with teams
   - Analyzing usage
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$305,000 - $385,000'

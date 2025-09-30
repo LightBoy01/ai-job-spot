@@ -11,7 +11,7 @@ tags:
   - define strategy
   - lead product
   - drive roadmap
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$325,000 - $400,000'

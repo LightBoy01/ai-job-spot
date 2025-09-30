@@ -12,7 +12,7 @@ tags:
   - Lead team
   - Own lifecycle
   - Collaborate strategy
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

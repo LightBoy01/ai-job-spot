@@ -12,7 +12,7 @@ tags:
   - Develop ABAP
   - Integrate TM/EM
   - Design Web Services
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

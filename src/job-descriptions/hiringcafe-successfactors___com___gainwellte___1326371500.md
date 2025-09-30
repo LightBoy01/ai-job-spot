@@ -12,7 +12,7 @@ tags:
   - understand policies
   - facilitate sessions
   - enter requirements
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$69,400 - $99,200'

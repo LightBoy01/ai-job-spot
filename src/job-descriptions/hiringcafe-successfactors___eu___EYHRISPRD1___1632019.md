@@ -12,7 +12,7 @@ tags:
   - Lead governance
   - Develop models
   - Validate controls
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

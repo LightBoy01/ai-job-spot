@@ -11,7 +11,7 @@ tags:
   - Advise technology
   - Lead architecture
   - Define strategy
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$116,647.72 - $180,000'

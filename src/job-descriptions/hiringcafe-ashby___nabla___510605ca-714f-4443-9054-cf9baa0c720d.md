@@ -11,7 +11,7 @@ tags:
   - Lead discovery
   - Prioritize roadmap
   - Execute product
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

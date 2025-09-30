@@ -13,7 +13,7 @@ tags:
   - Design features
   - Develop features
   - Verify system
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -13,7 +13,7 @@ tags:
   - Lead team
   - Develop programs
   - Analyze data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$98,699 - $182,896'

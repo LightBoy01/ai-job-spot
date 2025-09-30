@@ -12,7 +12,7 @@ tags:
   - oversee design
   - coordinate execution
   - standardize processes
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,000 - $130,000'

@@ -13,7 +13,7 @@ tags:
   - Architect platform
   - Mentor engineers
   - Collaborate with product
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$201,600 - $302,400'

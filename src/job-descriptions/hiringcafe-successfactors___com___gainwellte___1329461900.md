@@ -12,7 +12,7 @@ tags:
   - design models
   - build pipelines
   - deploy models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$75,400 - $107,700'

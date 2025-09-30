@@ -12,7 +12,7 @@ tags:
   - set architecture
   - embed AI
   - design distributed
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$162,900 - $181,000'

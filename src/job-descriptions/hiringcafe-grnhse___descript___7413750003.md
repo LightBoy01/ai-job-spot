@@ -11,7 +11,7 @@ tags:
   - Understand customers and guide roadmap
   - Own and shape recording experience
   - Collaborate to translate AI tech into user-friendly features
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$175,000 - $265,000'

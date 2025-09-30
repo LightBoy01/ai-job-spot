@@ -11,7 +11,7 @@ tags:
   - Build programs
   - Manage partnerships
   - Engage influencers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$93,000 - $124,000'

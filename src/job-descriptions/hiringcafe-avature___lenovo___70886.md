@@ -11,7 +11,7 @@ tags:
   - Knowledge Capture
   - Knowledge Sharing
   - Data Quality
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

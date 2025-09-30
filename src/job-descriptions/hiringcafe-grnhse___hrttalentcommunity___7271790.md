@@ -11,7 +11,7 @@ tags:
   - Developing software
   - Deploying AI tools
   - Collaborating security
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$150,000 - $250,000'

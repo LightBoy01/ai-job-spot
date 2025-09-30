@@ -12,7 +12,7 @@ tags:
   - Develop models
   - Deploy models
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

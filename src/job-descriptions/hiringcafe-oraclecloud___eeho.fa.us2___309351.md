@@ -12,7 +12,7 @@ tags:
   - architecting software
   - mentoring engineers
   - driving innovation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$161,700 - $338,500'

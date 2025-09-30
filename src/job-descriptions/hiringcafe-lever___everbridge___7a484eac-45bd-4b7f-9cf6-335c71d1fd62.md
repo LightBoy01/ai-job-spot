@@ -11,7 +11,7 @@ tags:
   - Define roadmap
   - Lead teams
   - Gather feedback
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$139,000 - $200,000'

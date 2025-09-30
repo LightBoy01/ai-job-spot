@@ -13,7 +13,7 @@ tags:
   - learn ML
   - analyze algorithms
   - deploy AI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$44,500 - $71,000'

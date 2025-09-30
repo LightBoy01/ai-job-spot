@@ -13,7 +13,7 @@ tags:
   - conduct research
   - monitor trends
   - develop market analysis
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$195,500 - $264,500'

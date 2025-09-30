@@ -13,7 +13,7 @@ tags:
   - set up
   - train model
   - execute model
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$6,000 - $8,400'

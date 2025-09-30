@@ -11,7 +11,7 @@ tags:
   - Develop algorithms
   - Evaluate methods
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$170,000 - $190,000'

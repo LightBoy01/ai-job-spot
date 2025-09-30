@@ -11,7 +11,7 @@ tags:
   - Develop security strategy
   - Lead IT operations
   - Ensure regulatory compliance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

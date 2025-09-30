@@ -11,7 +11,7 @@ tags:
   - Define strategy
   - Lead experiments
   - Deploy AI solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$168,000 - $240,000'

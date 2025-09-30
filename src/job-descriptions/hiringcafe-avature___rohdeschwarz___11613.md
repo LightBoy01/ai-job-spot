@@ -7,14 +7,14 @@ company: Schönhofer Sales & Engineering GmbH
 location: 'Siegburg, North Rhine-Westphalia, Germany'
 applicationLink: >-
   https://jobs.rohde-schwarz.com/en_US/careers/JobDetail/Werkstudent-zur-Erprobung-von-KI-Modellen-in-existierenden-Daten-kosystemen/11613
-postedDate: '2025-09-26T19:44:18.438Z'
+postedDate: '2025-09-30T02:18:42.823Z'
 expirationDate: null
 tags:
-  - Engineering
-  - Test AI models
-  - Evaluate data ecosystems
-  - Collaborate with team
-status: pending_review
+  - Information Technology
+  - test AI
+  - analyze data
+  - collaborate team
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

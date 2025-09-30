@@ -13,7 +13,7 @@ tags:
   - supporting quality
   - monitoring metrics
   - ensuring compliance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

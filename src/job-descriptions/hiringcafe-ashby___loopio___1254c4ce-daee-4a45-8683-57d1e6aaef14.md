@@ -11,7 +11,7 @@ tags:
   - Lead features
   - Architect system
   - Mentor engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

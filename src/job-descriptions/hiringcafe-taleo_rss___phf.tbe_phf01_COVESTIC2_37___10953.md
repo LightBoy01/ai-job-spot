@@ -12,7 +12,7 @@ tags:
   - Engaging clients
   - Leading roadmaps
   - Architecting solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

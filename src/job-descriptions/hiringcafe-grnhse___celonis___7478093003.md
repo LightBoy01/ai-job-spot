@@ -11,7 +11,7 @@ tags:
   - Identify value
   - Realize value
   - Scale value
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

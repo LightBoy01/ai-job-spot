@@ -11,7 +11,7 @@ tags:
   - increase accounts
   - drive activation
   - develop learning
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$102,800 - $161,900'

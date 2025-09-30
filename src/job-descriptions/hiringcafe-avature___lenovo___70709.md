@@ -12,7 +12,7 @@ tags:
   - design runtimes
   - implement inference
   - optimize performance
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

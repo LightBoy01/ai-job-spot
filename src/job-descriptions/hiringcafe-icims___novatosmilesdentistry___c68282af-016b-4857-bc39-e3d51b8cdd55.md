@@ -13,7 +13,7 @@ tags:
   - Provide dental care
   - Collaborate with specialists
   - Mentor colleagues
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$160,000 - $390,000'

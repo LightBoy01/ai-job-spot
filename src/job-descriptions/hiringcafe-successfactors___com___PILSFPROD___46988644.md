@@ -12,7 +12,7 @@ tags:
   - Lead process improvement
   - Drive automation adoption
   - Collaborate cross-functionally
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

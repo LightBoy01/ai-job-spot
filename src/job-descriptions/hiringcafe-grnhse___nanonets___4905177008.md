@@ -11,7 +11,7 @@ tags:
   - collecting data
   - validating data
   - visualizing data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

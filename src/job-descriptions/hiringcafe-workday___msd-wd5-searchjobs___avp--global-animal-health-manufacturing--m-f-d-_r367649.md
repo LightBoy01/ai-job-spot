@@ -13,7 +13,7 @@ tags:
   - develop strategy
   - roadmap development
   - business case creation
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$276,600 - $435,400'

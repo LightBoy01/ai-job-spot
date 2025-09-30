@@ -12,7 +12,7 @@ tags:
   - leading team
   - providing oversight
   - overseeing credit
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$300,000 - $400,000'

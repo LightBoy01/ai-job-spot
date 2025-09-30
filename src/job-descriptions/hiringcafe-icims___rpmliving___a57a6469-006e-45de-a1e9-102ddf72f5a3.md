@@ -12,7 +12,7 @@ tags:
   - building models
   - analyzing data
   - developing dashboards
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Performing mission analyses
   - Delivering evaluations
   - Providing insights
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

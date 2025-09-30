@@ -13,7 +13,7 @@ tags:
   - Develop pipelines
   - Collaborate teams
   - Communicate results
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$114,700 - $180,500'

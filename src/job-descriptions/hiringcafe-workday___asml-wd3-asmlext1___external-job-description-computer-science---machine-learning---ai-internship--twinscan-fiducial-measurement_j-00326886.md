@@ -15,7 +15,7 @@ tags:
   - design model
   - train model
   - benchmark algorithm
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

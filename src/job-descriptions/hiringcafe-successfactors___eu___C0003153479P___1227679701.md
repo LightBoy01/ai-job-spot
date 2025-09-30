@@ -12,7 +12,7 @@ tags:
   - define scope
   - translate requirements
   - collaborate stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$130,072 - $195,109'

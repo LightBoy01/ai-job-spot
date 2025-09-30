@@ -11,7 +11,7 @@ tags:
   - Building solutions
   - Conducting customer research
   - Developing predictive models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$200,000 - $260,000'

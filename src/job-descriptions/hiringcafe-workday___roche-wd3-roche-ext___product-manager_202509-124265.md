@@ -12,7 +12,7 @@ tags:
   - Lead strategy
   - Develop plans
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

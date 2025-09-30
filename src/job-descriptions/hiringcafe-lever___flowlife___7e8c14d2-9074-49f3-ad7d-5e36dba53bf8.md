@@ -11,7 +11,7 @@ tags:
   - Prepare filings
   - Draft agreements
   - Coordinate diligence
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$90,000 - $115,000'

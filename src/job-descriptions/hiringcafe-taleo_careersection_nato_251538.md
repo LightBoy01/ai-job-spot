@@ -11,7 +11,7 @@ tags:
   - lead IV&V
   - manage budget
   - oversee testing
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$100,787.52 - $100,787.52'

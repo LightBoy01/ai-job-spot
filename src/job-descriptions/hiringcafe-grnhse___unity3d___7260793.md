@@ -11,7 +11,7 @@ tags:
   - define strategy
   - drive adoption
   - lead teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$179,500 - $269,300'

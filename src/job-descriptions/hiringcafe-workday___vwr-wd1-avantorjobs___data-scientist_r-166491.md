@@ -12,7 +12,7 @@ tags:
   - collect data
   - build models
   - maintain pipelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Develop strategy
   - Lead IT strategy
   - Oversee protection
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

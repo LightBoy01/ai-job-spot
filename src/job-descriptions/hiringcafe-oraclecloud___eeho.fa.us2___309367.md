@@ -12,7 +12,7 @@ tags:
   - Design software
   - Develop systems
   - Train models
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$96,800 - $223,400'

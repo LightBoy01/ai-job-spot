@@ -11,7 +11,7 @@ tags:
   - Develop agents
   - Build pipelines
   - Collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$180,000 - $200,000'

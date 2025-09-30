@@ -11,7 +11,7 @@ tags:
   - Design blocks
   - Implement services
   - Build UI
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

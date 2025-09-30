@@ -14,7 +14,7 @@ tags:
   - design training
   - deliver trainings
   - gather requirements
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

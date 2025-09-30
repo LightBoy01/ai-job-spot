@@ -13,7 +13,7 @@ tags:
   - develop tests
   - experiment with models
   - collaborate teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - Lead design
   - Coach designers
   - Partner PM/Eng
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$184,200 - $276,200'

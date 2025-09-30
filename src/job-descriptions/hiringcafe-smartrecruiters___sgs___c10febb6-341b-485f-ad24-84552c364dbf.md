@@ -12,7 +12,7 @@ tags:
   - monitor environment
   - document preparation
   - report nonconformities
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$16,800 - $19,200'

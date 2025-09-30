@@ -14,7 +14,7 @@ tags:
   - establish standards
   - lead squads
   - monitor uptime
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

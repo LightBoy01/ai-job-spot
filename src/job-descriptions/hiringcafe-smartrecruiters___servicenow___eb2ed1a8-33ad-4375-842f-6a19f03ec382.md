@@ -12,7 +12,7 @@ tags:
   - Design architecture
   - Tune relevance
   - Drive AI search
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

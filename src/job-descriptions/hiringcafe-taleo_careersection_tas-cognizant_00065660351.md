@@ -12,7 +12,7 @@ tags:
   - Architect Gen AI
   - Design prompts
   - Build RAG pipelines
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$117,000 - $137,500'

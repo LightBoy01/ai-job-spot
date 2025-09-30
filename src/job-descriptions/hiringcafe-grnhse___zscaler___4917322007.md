@@ -11,7 +11,7 @@ tags:
   - Leading projects
   - Optimizing systems
   - Analyzing data
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$140,000 - $200,000'

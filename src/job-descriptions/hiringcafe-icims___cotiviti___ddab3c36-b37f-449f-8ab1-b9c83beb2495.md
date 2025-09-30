@@ -12,7 +12,7 @@ tags:
   - designing scalable
   - building platform
   - mentoring engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$210,000 - $250,000'

@@ -11,7 +11,7 @@ tags:
   - leading team
   - developing strategy
   - ensuring uptime
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$151,200 - $204,500'

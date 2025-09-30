@@ -14,7 +14,7 @@ tags:
   - managing enterprise applications
   - driving digital technologies
   - leading stakeholder engagement
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

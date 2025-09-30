@@ -12,7 +12,7 @@ tags:
   - Drive strategy
   - Identify growth opportunities
   - Collaborate with teams
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$198,300 - $287,550'

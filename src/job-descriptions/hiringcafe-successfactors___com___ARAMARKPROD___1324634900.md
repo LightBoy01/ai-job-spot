@@ -11,7 +11,7 @@ tags:
   - Skilled Trades - General Labor
   - cleaning areas
   - maintain hygiene
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - develop platform
   - lead transformation
   - design solutions
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$150,000 - $170,000'

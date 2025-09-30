@@ -11,7 +11,7 @@ tags:
   - Define portfolio
   - Develop GTM
   - Build partnerships
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null

@@ -11,7 +11,7 @@ tags:
   - building features
   - leading initiatives
   - mentoring engineers
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$160,000 - $235,500'

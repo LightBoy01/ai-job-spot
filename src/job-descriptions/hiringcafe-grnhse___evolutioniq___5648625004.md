@@ -11,7 +11,7 @@ tags:
   - Lead engineers
   - Drive delivery
   - Coordinate stakeholders
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: '$250,000 - $280,000'

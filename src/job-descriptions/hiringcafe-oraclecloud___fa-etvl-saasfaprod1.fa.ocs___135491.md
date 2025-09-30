@@ -12,7 +12,7 @@ tags:
   - architect strategy
   - unify data
   - enable personalization
-status: pending_review
+status: published
 jobLevel: null
 employeeRole: null
 salaryRange: null
