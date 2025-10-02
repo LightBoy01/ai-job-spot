@@ -1,0 +1,63 @@
+---
+id: hiringcafe-grnhse___poppulo___6972574
+title: Senior Software Architect
+company: Poppulo
+location: 'Bengaluru, Karnataka, India'
+applicationLink: 'https://job-boards.greenhouse.io/poppulo/jobs/6972574'
+postedDate: '2025-09-30T22:32:24.392Z'
+expirationDate: null
+tags:
+  - Software Development
+  - Architecting scalable
+  - Designing cloud-native
+  - Mentoring engineers
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___poppulo___6972574'
+companyLogoUrl: null
+---
+**Introduction:**
+Are you searching for an opportunity to play a key role in driving the dramatic growth of a highly successful software company?
+At Poppulo, we’re working on what’s next in communications and workplace technology. As a pioneer in this industry, we understand that meaningfully reaching every employee is hard. And so is managing office space in a hybrid world. And so is improving the customer and guest experience. We exist to make each of these things easier. We exist to bring harmony to our customers.
+And we do that at enterprise scale. Our omnichannel employee communications, customer communications, and workplace experience platform is trusted by over 6,000 organizations today, reaching more than 35M employees and delivering content to 500,000+ digital signs.
+We know there’s no such thing as a “perfect" candidate - we’re all a work in progress and are growing new skills and capabilities all the time. We encourage you to apply for a position with Poppulo even if you don’t meet 100% of the requirements. We believe in fostering an environment where there is a diversity of perspectives, in hopes that we can all thrive.
+**The Opportunity**
+We are seeking an accomplished Senior Software Architect to join our Digital Signage Cloud Team. This strategic role is pivotal in guiding the architectural vision and technical roadmap for our global cloud-based digital signage platform. You will drive high-level architectural design, scalability, security, and performance optimizations, working closely with stakeholders across engineering, product management, and leadership. Practical experience or strong enthusiasm for Artificial Intelligence—particularly Large Language Models (LLMs), generative AI, and agentic coding tools—is highly desirable.
+**Key Responsibilities:**
+*   **Establish and uphold architectural standards** that ensure scalability, maintainability, security, and performance for our **digital signage cloud platform**.
+*   **Own the platform architecture roadmap**, ensuring it aligns with strategic business goals and evolving product needs.
+*   **Design and evolve cloud-native architectures** leveraging **AWS serverless services** such as Lambda, API Gateway, DynamoDB, Cognito, and Step Functions, with a strong emphasis on scalability, cost-efficiency, and resilience.
+*   **Partner with engineering teams** to guide solution design, resolve complex technical challenges, and ensure alignment with architectural direction.
+*   **Collaborate cross-functionally** with product managers, designers, and business stakeholders to translate requirements into robust, future-proof technical solutions.
+*   **Evaluate and recommend emerging technologies**, fostering a culture of innovation by piloting and integrating cutting-edge tools and frameworks into the platform.
+*   **Mentor and coach engineers** across teams, building architectural awareness, elevating technical skills, and driving adoption of best practices.
+**Skill & Experience Requirements:**
+*   Bachelor’s degree in Computer Science or related discipline; Master's preferred.
+*   9+ years of software development and architecture experience.
+*   Proven track record **architecting large-scale cloud-native applications and solutions.**
+*   Practical experience or strong enthusiasm for AI integration and generative technologies.
+*   **Expert-level understanding of AWS Cloud architecture**, especially in serverless ecosystems (Lambda, API Gateway, DynamoDB, Cognito, Step Functions, S3, SNS/SQS).
+*   **Strong foundation in modern web development**, including **TypeScript, Node.js, React**, and event-driven architecture.
+*   Demonstrated experience designing and operating **multi-tenant SaaS platforms** with a focus on data isolation, RBAC, and observability.
+*   Proficiency in **authentication/authorization protocols**, including **OAuth2, OpenID Connect**, and integration with identity providers like **Okta and AWS Cognito**.
+*   Hands-on experience with **AI and ML frameworks**, including **Generative AI, LLMs**, and tools like **Cursor, Windsurf**, or equivalents.
+*   Strong understanding of **DevOps practices**, CI/CD tooling (e.g., GitHub Actions, CodePipeline), and infrastructure observability (CloudWatch, Prometheus, Grafana, ELK stack).
+*   Exceptional problem-solving skills, system thinking, and ability to articulate complex technical ideas to both technical and non-technical stakeholders.
+**Who We Are**
+We are a values-driven organization that encourages our employees to bring their authentic selves to work every day and empowers everyone to make a tangible impact on our products, clients, and culture. We offer a dynamic environment with driven, fun, and flexible individuals who thrive on challenge and responsibility. This is an opportunity to contribute to our culture and join a company that’s on the move.
+We live the Poppulo values each day, as they are key to everything we do.
+*   **Bring Your Best Self
+**We show up authentically, are self-aware and always strive to be better.
+*   **See it. Own it. Solve it.
+**We proactively innovate and solve for our customers and each other. We set an example with high standards for our work. We foster a culture of learning, acknowledging our successes and our failures.
+*   **Together We’re Better
+**We value and celebrate our diversity. We learn from others, respecting their expertise, and focus on building trust. That's what makes us a team.
+Named a Great Place to Work in 2015, 2016, 2017, 2018, 2019, 2020, and 2021, we are a fast-growing global technology company, with offices in Ireland, the US, and the UK.
+Poppulo is an equal opportunity employer.
+Named a Great Place to Work in 2015, 2016, 2017, 2018, 2019, 2020, and 2021, we are a fast-growing global technology company, with offices in Ireland, the US, and the UK.
+Poppulo is an equal opportunity employer.
+_We are committed to protecting your privacy. For details on how we collect, use, and protect your personal information, please refer to our_ [_Job Applicant Privacy Policy._](https://download.poppulo.com/hubfs/Legal/V.8.19.2024%20Poppulo%20-%20Job%20Applicant%20Privacy%20Policy.pdf)

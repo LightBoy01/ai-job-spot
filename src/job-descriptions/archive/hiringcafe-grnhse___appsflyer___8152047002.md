@@ -1,0 +1,51 @@
+---
+id: hiringcafe-grnhse___appsflyer___8152047002
+title: AI Organic Growth Manager
+company: AppsFlyer
+location: Israel
+applicationLink: 'https://careers.appsflyer.com/jobs/position/8152047002?gh_jid=8152047002'
+postedDate: '2025-09-04T12:41:04.000Z'
+expirationDate: null
+tags:
+  - Marketing
+  - owning technical seo
+  - identifying opportunities
+  - building ai systems
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___appsflyer___8152047002'
+companyLogoUrl: null
+---
+We're seeking an SEO-obsessed, AI-powered Organic Growth Specialist to revolutionize how we dominate search engines, AI platforms, and every organic channel across the web. If you live and breathe technical SEO while building AI agents to scale growth plays across Reddit, Quora, podcasts, and emerging platforms - this role is for you.
+You'll architect the future of organic growth in the AI era, combining deep SEO expertise with automation workflows that capture traffic everywhere our audience searches. Your mission: build and maintain systems that dominate Google SERPs, optimize for LLM visibility, and scale organic presence across communities, forums, and non-traditional channels to dominate SERPs and LLMs.
+**What you'll do**
+*   Master modern SEO at scale - Own technical SEO strategy including site architecture, crawl optimization, schema implementation, and Core Web Vitals; build programmatic SEO plays, topical authority across platforms, create content clusters that work for both search engines and LLMs, and establish presence wherever our audience seeks information
+*   Spot & scale organic opportunities - Identify growth opportunities across Google, LLMs, Reddit, Quora, podcasts, community forums, and other non-paid channels while building workflows to automate discovery and execution at scale
+*   Build AI-powered growth systems - Design and manage AI agents and technical solutions for content creation, outreach, monitoring, and SEO optimization that multiply output while maintaining quality
+*   Dominate AI search ecosystems - Optimize content for ChatGPT, Claude, Perplexity visibility and understand how LLMs surface information to position our brand as the authoritative source
+*   Automate & optimize continuously - Implement AI for keyword research, content generation, SERP analysis, and community monitoring while creating automated feedback loops and maintaining AI models with fresh context
+*   Scale beyond traditional SEO - Develop strategies for podcast SEO, YouTube optimization, Reddit presence, Quora visibility, and emerging platforms while maintaining technical SEO excellence
+**What you'll have**
+*   4+ years in proven impact to pipeline in SEO and organic growth with deep technical SEO expertise and multi-channel organic strategies at a B2B SaaS company
+*   AI-first mindset with advanced proficiency in generative AI platforms (ChatGPT, Claude), automation tools (Make/Zapier), and workflow optimization for scaling growth plays
+*   Mastery of SEO tools including Screaming Frog, Ahrefs, SEMrush, GSC, plus social listening tools for community opportunity discovery
+*   Technical curiosity including Python programming skills, experience with APIs, web scraping, WindSurf AI, and advanced LLM research modes for automation
+*   Programmatic growth experience building systems that generate optimized content at scale across channels, not just traditional web pages
+*   Data synthesis skills to identify patterns across search data, community discussions, and social signals to turn unstructured insights into growth opportunities
+*   Understanding of MCP (Model Context Protocol) and how it relates to digital marketing and LLM optimization strategies
+**Bonus Points:**
+*   Experience building AI agents for content creation, monitoring, or outreach
+*   Track record of growth hacking communities like Reddit, Discord, or niche forums
+*   Background in link building, digital PR, and relationship-based organic growth
+*   Knowledge of podcast SEO, YouTube optimization, and emerging platform strategies
+*   Experience with enterprise CMS platforms and technical implementations
+*   Active in SEO and growth communities with finger on the pulse of algorithm changes
+*   Hands-on experience with Make.com, Zapier, or custom automation workflows
+*   Experience in ad tech / working for a company in the mobile marketing ecosystem or using AppsFlyer in the past
+*   Introduced by an AppsFlyer team member
+As a global company operating in 20 countries across 5 continents, we reflect the human mosaic of the diverse and multicultural world in which we live. We ensure equal opportunities for all of our employees and promote the recruitment of diverse talents to our global teams without consideration of race, gender, culture, or sexual orientation. We value and encourage curiosity, diversity, and innovation from all our employees, customers, and partners.
+_“As a Customer Obsessed company, we must first be Employee Obsessed. We need to make sure that we provide the team with the tools and resources they need to go All-In.”_ — **Oren Kaniel, CEO**

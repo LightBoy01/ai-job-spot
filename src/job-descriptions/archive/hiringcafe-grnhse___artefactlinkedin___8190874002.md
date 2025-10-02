@@ -1,0 +1,57 @@
+---
+id: hiringcafe-grnhse___artefactlinkedin___8190874002
+title: >-
+  Working student or Internship (6 months) (f/m/d) - Consulting / Data & AI / HR
+  / Finance
+company: LinkedIn Job Wrapping
+location: Munich or Hamburg
+applicationLink: 'https://job-boards.greenhouse.io/artefactlinkedin/jobs/8190874002'
+postedDate: '2025-09-30T10:52:21.000Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - organize tasks
+  - prepare presentations
+  - analyze data
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___artefactlinkedin___8190874002'
+companyLogoUrl: null
+---
+**Working student position** **or** **Internship** (6 months) (f/m/d) **- Consulting / Data & AI / HR / Finance**
+**Location:** Munich/Hamburg | **Working time:** 20 hours per week | **Start:** asap
+Artefact, an internationally leading consulting firm for Data, AI, and digital transformation, is looking for motivated and committed working student or interns or interns who are eager to support our teams in **Consulting, Data & AI, HR, or Finance**.
+If you want to gain hands-on experience alongside your studies in a dynamic environment and enjoy taking on responsibility, this is the right place for you!
+**What you can expect**
+As a working student or intern at Artefact, you will take on a diverse mix of administrative and content-related tasks and play an important role in our team.
+*   **Daily business support:** organization, documentation, and administrative tasks in your area of focus (Consulting, Data & AI, HR or Finance)
+*   **Project involvement:** preparation of presentations, analyses, and pitches for clients and internal stakeholders
+*   **Data & insights:** support with preparing and analyzing data, reports, or financial metrics
+*   **Team support:** research, preparation of documents, and coordination in day-to-day project work
+*   **Consulting insights:** contribution to workshop preparation and client meetings
+*   **Senior leadership support:** assisting our leadership team with research, briefings, and organizational tasks
+**What we are looking for**
+You are an enrolled student based in Munich or Hamburg and bring a high degree of independence, motivation, and willingness to learn.
+*   Enrolled in a relevant field of study (e.g. Business, Data/Tech, Business Administration, Computer Science/AI, Finance, or similar)
+*   Available for approx. 20 hours per week
+*   Strong communication skills in both **German and English**
+*   Structured, organized, and proactive working style
+*   Confident handling of Google Suite tools - additional tools are a plus
+*   Most importantly: **motivation to learn new things, take responsibility, and grow within a team**
+**Why Artefact?**
+We offer you the opportunity to gain **real hands-on experience** in an international consulting firm while developing both professionally and personally.
+*   Diverse insights into exciting projects and clients across various industries
+*   Flexible working hours and the option to work in a hybrid model
+*   An open company culture where your ideas, independence, and initiative are valued
+*   Personal development through training, coaching, and learning-on-the-job
+*   Attractive benefits: extra day off for your birthday, free days at Christmas & New Year’s Eve, company events, free drinks & snacks at the office
+**Join us!**
+Artefact is a leading global consulting firm dedicated to applying data and AI to improve organizations and empower people. We specialize in data transformation and data-driven marketing to deliver measurable business results across the entire value chain.
+Artefact offers the most comprehensive portfolio of data-driven solutions per industry, built on advanced data science and cutting-edge AI technologies, and successfully implements AI projects at scale across all sectors.
+Our team of more than 1,500 employees operates in 20 countries (Europe, Asia, North and South America, the Middle East, and Africa), working with over 1,000 clients, including some of the world’s top 300 brands such as Samsung, L’Oréal, and Sanofi.
+_If you have any questions, feel free to reach out to us via [**bewerbung-de@artefact.com**](mailto:bewerbung-de@artefact.com)._
+_We welcome applicants from all backgrounds and encourage you to join us, regardless of gender, origin, or LGBT+ identity._

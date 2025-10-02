@@ -1,0 +1,72 @@
+---
+id: hiringcafe-smartrecruiters___ramboll3___737226b6-0ba5-4505-af6d-6a9eac51f2df
+title: Head of Innovation & Digital Transformation - Energy (m/w/d)
+company: Ramboll
+location: 'Berlin, Berlin, Germany'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/Ramboll3/744000084824145-head-of-innovation-digital-transformation-energy-m-w-d-
+postedDate: '2025-09-30T08:05:58.036Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - drive transformation
+  - lead innovation
+  - scale solutions
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___ramboll3___737226b6-0ba5-4505-af6d-6a9eac51f2df
+companyLogoUrl: null
+---
+**Job Description:**
+**Head of Innovation & Digital Transformation – Energy**
+At Ramboll, we are dedicated to leading innovation and sustainability through technology.
+We believe in the power of strategic thinking and high-performing teams to bridge the gap between technology and business. We are currently seeking a dynamic leader to guide our organisation through its technology transformation journey, maximising the value of continued digital transformation across our company.
+Are you passionate about using technology to lead innovation and sustainability? Are you a strategic thinker with expertise in leading a competent team and with commercial insight bridging technology and business? Can you play a crucial role in guiding our organisation through continuous technology transformation, helping to maximise the value of Energy’s digital tools, methods and way-of working across Energy?
+**Your new team**
+You will be part of the global business area Ramboll Energy and take a leading role as our Head of Innovation & Digital Transformation (IDT).
+In this role, you will be driving digital transformation, scaling of digital solutions & products and Innovation in Ramboll Energy, across business areas.
+You will lead and develop the dedicated global Innovation & Digital Transformation (IDT) team, and as a member of Energy Operations Leadership Team, you will report to the Energy Operations Director.
+**Your new role**
+The role of the Head of IDT is to ensure compliance, digital transformation, digital adoption and automation, optimising and scaling digital solutions & products and innovation across Energy.
+You will be expected to continuously develop the digital maturity and adoption in Energy, and help shaping the core business through digital delivery, automation, and selected partnerships to bring new services and products indirect or direct to our clients.
+You will have a dotted reporting line to Ramboll Tech, a newly established function within Ramboll responsible for driving the global digital transformation agenda for Ramboll, including work on data, AI, digital products, and shaping the workforce of the future.
+**Areas of responsibility**
+The Head of IDT, Energy is a key role providing process digitalisation, tools and products for design excellence, digital project and client delivery.
+The key purpose is to enable and ensure that Energy has an efficient and cost optimised software portfolio and are at the forefront of digitalisation and innovation with regards to how we work and what we deliver, aligning with our sustainable goals.
+The Head of IDT will play a key role in defining Energy’s digitalisation strategy across a widespread digital portfolio and business types and will be accountable for implementation and progress in close cooperation with Energy’s Global Spearheads and Service-Lines.
+**Operational areas of responsibility**
+To be the go-to person in terms of digitalisation in Energy. This includes, but is not limited to:
+*   Drive Digital transformation, automation and adoption and scaling of digital solutions & products and Innovation across Energy
+*   Continuous developing digital maturity of the organisation and employees in Energy and functions
+*   Raise the profile of Ramboll in selected industries through thought leadership, in technical forums, conference participation and industry partnerships
+*   Help shape the core business through digital delivery, automation and vendor partnerships helping to bring new services and products to internal Ramboll or external clients
+*   Accountable for Energy’s Global digital product portfolio
+*   Leading the integration of digital solutions into our service offerings
+*   Enhancing automation and computational design processes
+**To assume responsibility for the Energy IDT team with focus on the following key areas:**
+*   Software Portfolio and cost management
+*   Data Strategy, structure and NIS2 compliance
+*   Digital Strategy for Energy aligned with Ramboll Tech and other Global Business Areas
+*   Digital automation and Adoption unlocking the potential of AI
+*   Innovation & Development and establishment of Energy Tech Board
+*   Exploration work with Tech, Clients and Universities
+**About You**
+From the moment you join Ramboll, we will support your personal and professional development for you to grow within the company.  As a starting point we believe you will bring profound experience in and display:
+*   People Management, Leadership, collaboration and Stakeholder Management skills acting as a strong connector across a wide variety of cross functional teams.
+*   Solution-oriented leadership in a global context with cultural and ethical awareness
+*   Understanding the Value of Strategic Partnerships with Tech Vendors for cost optimisation and digital Transformation
+*   Digital savviness and an eye and passion for relevant digital trends and innovative opportunities
+*   Knowledge of digital products for Energy Consultancy, trends and new technologies
+*   Experience with Digital Production and Engineering Environment and/or software development, scaling, go-to market strategies
+*   Understanding of how we work in the AEC Industry (i.e. CAD tools, automatization, computational design, AI etc.)
+*   Commercial acumen and mindset translating internal and external client needs into cost optimal user-friendly solutions aligned with Energy and Tech strategies.
+**Ready to join us?**
+Please submit your application. Be sure to include all relevant documents including your CV, cover letter, etc. This role will be open until 13.10.2025.
+Thank you for taking the time to apply! We look forward to receiving your application.
+**An equal opportunity employer**
+Equality, diversity, and inclusion is at the heart of what we do. At Ramboll, we believe that diversity is a strength, and that different experiences and perspectives are essential to creating truly sustainable societies. We are committed to providing an inclusive and supportive work environment, where everyone can flourish and reach their potential. We invite applications from candidates of all backgrounds and characteristics, in addition to the Protected Characteristics as set out in the Equality Act, (2010). As a Disability Confident Committed employer, Ramboll ensures opportunities are accessible to candidates with disabilities. Please reach out to our recruitment team to discuss any adjustments that you might require during the application process. We also know how important it is to achieve the right balance of where, when, and how much you work. When you join Ramboll, you’ll have the ability to work your hours flexibly through our positive and inclusive approach to work.

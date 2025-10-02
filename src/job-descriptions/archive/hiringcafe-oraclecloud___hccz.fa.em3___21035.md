@@ -1,0 +1,61 @@
+---
+id: hiringcafe-oraclecloud___hccz.fa.em3___21035
+title: Insights & Reporting Analyst
+company: Pearson
+location: 'Manila, Philippines'
+applicationLink: >-
+  https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/21035
+postedDate: '2025-09-29T09:29:11.000Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - design dashboards
+  - analyze data
+  - collaborate stakeholders
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/oraclecloud___hccz.fa.em3___21035'
+companyLogoUrl: null
+---
+**Job Title: Insights & Reporting Analyst**
+**Location:** Pearson Manila
+**Office Address:** 7th Floor, North Tower, Rockwell Business Center, Sheridan corner United Streets, Mandaluyong City
+**Work Setup:** Office-based with an option to move to hybrid working (2 days per week) upon successful completion of training and probation, and demonstration of the ability to manage responsibilities independently.
+**Schedule:** 8:00am – 5:00pm UK time
+_Please note: Actual schedule may vary depending on business needs._
+**About the Role**
+We’d like to hear from you if you have a passion for data, analytics, and turning insights into action—and the skills to support a high-performing customer service organization.
+As an **Insights & Reporting Analyst**, you will be responsible for developing and maintaining dashboards, reports, and analytics that provide actionable insights across all Lines of Business (LOBs). You’ll play a key role in enabling data-driven decision-making and continuous improvement by leveraging tools such as Power BI, Microsoft Excel, and Microsoft Copilot to enhance reporting capabilities and streamline workflows.
+This role also involves creating and optimizing AI prompts to support automation, improve data analysis, and drive operational efficiency. **You will present actual data and insights to stakeholders through clear, compelling visualizations and presentations, ensuring alignment on performance trends and strategic priorities.**
+Your work will directly influence performance strategies, customer experience, and overall operational excellence.
+**Key Responsibilities**
+Design, develop, and maintain dashboards and reports to monitor performance across multiple LOBs.
+Analyze operational data to identify trends, gaps, and opportunities for improvement.
+Create and optimize AI prompts to support automation and enhance reporting processes.
+Collaborate with stakeholders to understand reporting needs and deliver actionable insights.
+Ensure data accuracy, integrity, and consistency across all reporting platforms.
+Prepare and present reports and insights to managers and leadership teams.
+Support continuous improvement initiatives by providing data-driven recommendations.
+Stay updated on analytics tools and best practices to drive innovation in reporting.
+**Experience & Skills**
+Experience in data analysis, reporting, or business intelligence roles.
+Proficiency in **Power BI**, **Microsoft Excel**, and other data visualization tools.
+Familiarity with AI tools and prompt creation for automation is an advantage.
+Strong analytical and problem-solving skills with attention to detail.
+Ability to interpret complex data and communicate insights clearly.
+Excellent organizational and time-management skills.
+Ability to work independently and collaboratively in a fast-paced environment.
+Adaptability to evolving business needs and priorities.
+**Additional Information**
+**Line of Business Movement:** Employees may be reassigned to different LOBs depending on operational needs.
+**Probation Period:** Hybrid working is available only after a minimum 3-month probation period, subject to manager approval.
+**Team Calibration:** Office-based calibration is essential to foster collaboration, knowledge sharing, and team cohesion.
+**Your Rewards & Benefits**
+**Day 1 Health Care Coverage** with up to 2 dependents
+**Competitive Retirement Plan** – Pearson doubles your contribution
+**Volunteering Days and Employee Wellbeing Assistance**
+**Annual Pay Increase and Performance Bonus**

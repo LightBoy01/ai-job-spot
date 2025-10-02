@@ -1,0 +1,55 @@
+---
+id: hiringcafe-ashby___ordio___29de2169-f4bd-4674-9ed7-6f983504fbe2
+title: AI Engineer (m/f/d)
+company: Ordio GmbH
+location: Germany
+applicationLink: 'https://jobs.ashbyhq.com/ordio/29de2169-f4bd-4674-9ed7-6f983504fbe2'
+postedDate: '2025-05-23T14:47:20.149Z'
+expirationDate: null
+tags:
+  - Software Development
+  - build AI
+  - infrastructure integration
+  - test AI
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/ashby___ordio___29de2169-f4bd-4674-9ed7-6f983504fbe2'
+companyLogoUrl: null
+---
+**80% of all employees worldwide do not work at a desk.**
+With **Ordio** 💙 we offer an “all-in-one” software solution that focuses on these employees & helps to organise their daily work and make it more efficient for everyone involved.
+We are at a super exciting stage building out a new team who will implement state-of-the-art, AI functionality/features into the user experience of Ordio. **This mission-critical team will shape Ordio’s future success**, so if you are passionate about developing scalable and efficient AI/ML solutions, particularly working with LLMs in the context of agents and copilots, this is the perfect role for you 🚀.
+**What you’ll do as an AI Engineer:**
+♺ Bring AI solutions to our existing Web App, shipping full-stack AI projects end to end using pre-trained models.
+⚙️ Build and integrate components for Ordio’s AI infrastructure, supporting production-level inference and fine-tuning
+💪 Write clean, efficient, and maintainable code for AI-driven applications, APIs, and user interfaces using best practices
+💻  Design and implement internal and external MCP Server, enabling interaction with services through chat-based user input.
+🧠 Deploy AI solutions to the **Cloud via Terraform**, leveraging cloud-native services for compute, storage, networking, and AI-specific offerings
+💡 Work closely with Product Managers, Lead Developers, UX/UI Designers, and other team members to integrate AI components seamlessly into the overall solution
+💭 Develop and execute unit, integration, and system tests to ensure the reliability and robustness of AI solutions.
+**What we are looking for:**
+💻 **Strong software engineering background**, with experience in AI/ML frameworks like TensorFlow, PyTorch, and their application in generative models.
+🧑‍💻 **Proven experience integrating AI/ML models** into real-world applications, particularly those involving production use cases of LLMs
+👾 Deep understanding of models, their context windows, model behavior as well as strong practical experience implementing and optimizing RAG systems
+🔎 Hands-on experience with **cloud infrastructure and deployment tools**, particularly **Terraform**, and deploying services on platforms like AWS, GCP, or Azure.
+🏎️ Proficiency in **unit, integration, and system testing**, with a focus on ensuring robustness, reliability, and performance of AI-powered systems.
+💪 Comfortable working in **cross-functional teams**, collaborating with Product Managers, Designers, and Lead Engineers to build cohesive, user-centered solutions.
+🚀 Bonus: Experience building and maintaining **MCP (Model Context Protocol) or similar internal/external server infrastructures is a strong plus.**
+**Benefits**
+💰 **Competitive compensation and benefits** (e.g. equity, flexible time off, generous parental leave)
+🏋️‍♀️ **Enjoy true ownership** of your development in an early-stage environment - accelerating Ordio’s global expansion while charting your own professional path from day one
+🚀 **Thrive in an open, innovative culture** where autonomous teams tackle ambitious projects and drive meaningful impact
+📱 State-of-the art technical equipment & tooling (MacBook Pro with M4 at minimum)
+🏝️ **Enjoy full flexibility -** remote work, home office options, and flexible hours
+💪 **Prioritize both physical and mental well-being** with subsidized gym memberships and regular wellness-focused initiatives
+🌎 **A clear set of company values** that guide everything we do: Live for Customer Value, The Best Team Wins, We Own It, and Earth Is Our Future
+**About Ordio**
+We at Ordio 💙 are looking for people who want to be more than just another employee: ambitious, forward thinking, ready to shape our industry. 🚀.
+We believe that by giving people the best tools to solve their own problems, we can better solve the world's problems together. We are always looking for talented people who are interested in shaping the future together - shape it with us 💙
+Does this sound like an exciting challenge for you?
+Then drop us a line.
+We look forward to hearing from you! 😌

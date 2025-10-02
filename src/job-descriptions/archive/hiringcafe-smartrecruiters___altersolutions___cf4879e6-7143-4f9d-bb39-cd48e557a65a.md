@@ -1,0 +1,63 @@
+---
+id: >-
+  hiringcafe-smartrecruiters___altersolutions___cf4879e6-7143-4f9d-bb39-cd48e557a65a
+title: Data Scientist (CX)
+company: act digital
+location: 'Warsaw, Masovian Voivodeship, Poland'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/AlterSolutions/744000084211800-data-scientist-cx-
+postedDate: '2025-09-26T13:11:23.432Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - design algorithms
+  - analyze data
+  - train models
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___altersolutions___cf4879e6-7143-4f9d-bb39-cd48e557a65a
+companyLogoUrl: null
+---
+**Company Description:**
+Our mission as a company providing IT services is to provide our clients all over the world with the best solutions. We manage to do this by analyzing the needs of our clients and matching them to the skills and aspirations of our employees. Therefore, one of our main motivations is to provide each Employee and Consultant with a satisfying experience. Joining us means being part of a community with diverse personalities. Start your adventure with act digital!
+**Job Description:**
+The project focuses on enhancing business processes through the use of artificial intelligence and advanced technologies. It enables intelligent data handling and supports automated decision-making. Built with modern, high-performance solutions, it ensures efficiency, security, and scalability.
+**Responsibilities**
+*   Design and implement advanced algorithms for generative AI models that enhance human-machine interaction within the specified industries.
+*   Conduct in-depth analysis of large datasets to derive meaningful insights, trends, and patterns relevant to the joint venture's goals.
+*   Develop and train generative AI models, ensuring their effectiveness and reliability through rigorous evaluation processes.
+*   Collaborating with an elite team, learning and contributing to transitioning from conventional language models to cutting-edge Large Language Models (LLMs) and fine-tuning techniques such as LoRA and QLoRA.
+*   Stay abreast of the latest advancements in AI and generative models (including open source), proposing and implementing innovative solutions to enhance the capabilities of our technology.
+*   Acquire a deep understanding of the shipping and industrialized industries to tailor generative AI solutions that address specific challenges and opportunities within these sectors.
+**Qualifications:**
+*   **5 + years** of experience in similar positions;
+*   Proven experience in developing and implementing **generative AI models**.
+*   Proficient in programming languages such as **Python** and **vanilla JavaScript** (basic knowledge).
+*   Strong background in **statistical analysis, machine learning, and data visualization**.
+*   Excellent problem-solving skills and the ability to work in a collaborative, cross-functional environment.
+*   Demonstrated expertise in handling large datasets and extracting actionable insights.
+*   A proven track record working with **open-source models**, **Llama**, and **AI/NLP** across various domains.
+*   Mastery of **NLP and related libraries**.
+*   An understanding of business operations and a knack for crafting actionable business insights.
+*   Proficiency in **English language** (B2+/C1 level).
+**Additional Information:**
+*   Location: **Hybrid in Warsaw**;
+*   Long-term cooperation (**2+ years**);
+*   Type of contract: **B2B**;
+**What we offer:**
+*   Access to local and international projects - Clients from France, Germany, Portugal, UK and Benelux.
+*   Professional development support -trainings, technical certificates, conference participation, foreign language classes and soft skills trainings are subsidized up to 2 000 PLN.
+*   Bonus for recommending Candidates up to 10 000 PLN.
+*   Fully paid Medicover healthcare card.
+*   Wellbee platform access
+*   Multisport card.
+*   Regular integration events and gifts.
+*   Mobility Program.
+*   Long term cooperation.
+_If You applied for this position the Controller of your personal will be  ACT DIGITAL POLSKA Sp. z o.o., with its registered office at_ Przyokopowa 31, 01-208 Warsaw_. The personal data provided by you will be processed for the purpose of the recruitment process and for future recruitment processes. You will have the right too choose one or both options on next page._
+_You have the right to access the content of your data, request their rectification, erasure, restriction of processing, the right to data portability, the right to object to the processing of your data and the right to lodge a complaint to the President of the Personal Data Protection Office._

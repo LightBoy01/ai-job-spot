@@ -22,18 +22,13 @@ companyLogoUrl: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.285Z'
 ---
-
 An opportunity to build and create a lasting impact on the world. We are looking for a **Senior AI/ML Engineer** to help us deliver cutting-edge solutions for our customers.
-
 ### Responsibilities
-
 - Design, develop, and deploy machine learning models and systems.
 - Collaborate with cross-functional teams to identify and solve complex problems.
 - Stay up-to-date with the latest advancements in AI/ML and apply them to our projects.
 - Mentor junior engineers and contribute to our team's growth.
-
 ### Qualifications
-
 - 5+ years of experience with Python, TensorFlow, and PyTorch.
 - A Bachelor's degree in Computer Science or a related field.
 - An active Top Secret clearance.

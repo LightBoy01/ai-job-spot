@@ -8,10 +8,7 @@ module.exports = {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
   moduleDirectories: ['node_modules', '<rootDir>'],
-  transformIgnorePatterns: [
-    '/node_modules/',
-    '^.+\\.module\\.(css|sass|scss)$',
-  ],
+  transformIgnorePatterns: [],
   testPathIgnorePatterns: [
     '<rootDir>/src/components/Footer.test.tsx',
     '<rootDir>/__tests__/pages/api/',

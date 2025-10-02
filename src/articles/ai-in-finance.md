@@ -6,6 +6,9 @@ publishDate: 2025-06-30T10:00:00.000Z
 issueNo: 3
 volumeNo: 1
 imageUrl: /images/articles/ai-in-finance.svg
+hub: Mental Models & Frameworks
+tags: []
+contentType: editorial
 ---
 
 The modern financial world is a storm of noise. We are bombarded with "hot stock" tips, breathless market predictions, and algorithmically-generated news designed to provoke an emotional, immediate reaction. In this chaos, it is easy to lose your bearings, to mistake the noise of the crowd for the signal of true value.

@@ -1,0 +1,89 @@
+---
+id: hiringcafe-successfactors___eu___MMPROD___829328802
+title: 'Senior AI Product Manager (London, GB)'
+company: Mott MacDonald
+location: 'London, England, United Kingdom'
+applicationLink: 'https://apply.mottmac.com/job/London-Senior-AI-Product-Manager/829328802/'
+postedDate: '2025-09-12T06:50:19.862Z'
+expirationDate: null
+tags:
+  - Product Management
+  - define strategy
+  - lead discovery
+  - drive delivery
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___MMPROD___829328802'
+companyLogoUrl: null
+---
+**Location/s: London or Cambridge**
+**Recruiter contact: Nikki George
+**
+Mott MacDonald is a global engineering, management, and development consultancy with over 20,000 employees across more than 50 countries and 140+ offices.
+We work across incredible global industries, delivering exciting work that is defining our future and making an important societal impact in the communities we serve. Our people power our performance – we succeed when they do. With countless opportunities to collaborate, learn, and grow, the possibilities for excellence are as varied as every individual.
+Whether you want to grow as a subject matter expert or broaden your experience with roles across our international community, you’re surrounded by global specialists who want to combine their expertise and champion you to be your best. As a proudly employee-owned business, we benefit our clients, our communities, and each other, investing in creating the right space for everyone to feel empowered, included, and valued. Whatever your ambition, Mott MacDonald is where people come to be **brilliant.**
+About the business unit
+Mott MacDonald’s support services are the driving force behind our organisation enabling us to run efficiently and effectively. The team works collaboratively to offer specialist advice, best practice and technology to all areas of our business specifically designed for our global reach.
+About the Role
+We’re looking for an experienced, impact-driven Product Manager to join our growing AI Solutions team. This role is a rare opportunity to help shape how AI is applied, responsibly and at scale, across a global engineering, consulting and design business.
+Lead the development and scaling of AI‑enabled products that improve delivery quality, decision‑making and productivity. You will partner with data scientists, engineers, designers and domain experts to ship valuable products and, as you grow, take end‑to‑end ownership of a product portfolio.
+What You’ll Do
+*   Product strategy & vision: Support the definition of product strategies for a wide range of AI initiatives across the company. Help shape roadmaps that balance innovation, feasibility, and business impact.
+*   Discovery & validation: Lead user research, stakeholder interviews, and rapid validation efforts to understand needs and uncover opportunities for AI application.
+*   Delivery leadership: Collaborate with data scientists, engineers, designers, and domain experts to ship valuable AI-enabled products and features.
+*   Prioritisation & planning: Help manage backlogs, define success metrics, and maintain momentum across agile delivery cycles.
+*   Scaling ownership: Take increasing ownership of specific AI solutions, driving their vision, delivery, and adoption independently.
+*   Ethical & responsible AI: Champion Responsible AI and our AI governance framework in every product decision.
+What You’ll Bring
+*   Product management experience delivering digital products end-to-end (B2B/enterprise preferred but not essential).
+*   Proven track record of delivering digital products from discovery through to launch and iteration.
+*   Experience working with technical teams (data/ML/analytics) and shipping AI‑enabled features.
+*   Exceptional communication skills, with the ability to bring stakeholders on the journey and explain complex ideas simply.
+*   Curiosity and comfort in exploring emerging technologies, familiarity with modern AI product patterns (e.g., retrieval + grounding, evaluation, guardrails, LLMOps) and tools.
+Why Join Us
+*   Be at the forefront of AI transformation in a mission-driven, risk-aware organisation.
+*   Work on meaningful real-world problems with tangible impact.
+*   Gain mentorship and growth opportunities from experienced Product leaders to take on end-to-end product ownership and responsibilities.
+*   Join a collaborative, curious, and supportive team that values experimentation, measurement and pragmatism.
+We are actively recruiting a diverse workforce that is reflective of the communities we serve. We recognise that differences in ability, skills and experience are a strength and encourage applications from people of all backgrounds.
+#LI -NG
+**UK Immigration**
+Mott MacDonald Ltd. are not currently offering sponsorship to candidates under the Skilled Worker visa route in the UK. This decision is as a consequence of the changes made to the Skilled Worker route by the UK Government in April 2024. We continue to welcome applications from candidates who are eligible for alternative immigration routes in the UK, that do not require sponsorship as a Skilled Worker now or in future.
+**Agile working**
+At Mott MacDonald, we believe it makes business sense for you and your manager to choose how you can work most effectively to meet your client, team, and personal commitments. We offer a hybrid working policy that embraces your well-being, flexibility, and trust.
+**Equality, diversity, and inclusion**
+We put equality, diversity, and inclusion at the heart of our business, seeking to promote fair employment procedures and practices to ensure equal opportunities for all. We encourage individual expression in our workplace and are committed to creating an inclusive environment where **everyone** feels they can contribute.
+**Accessibility**
+We want you to perform your best at every stage in the recruitment process. If you are disabled or need any support to enable you to apply or attend an interview, please contact us at [reasonable.adjustments@mottmac.com](mailto:reasonable.adjustments@mottmac.com) and we will talk to you about how we can support you.
+**We offer some fantastic benefits including:**
+**Health and wellbeing**
+*   Private medical insurance for all UK colleagues.
+*   Health cash plan to support you with every day health costs and treatments.
+*   Access to Peppy, providing free support from menopause experts for all UK colleagues.
+*   A variety of wellbeing support is available through our comprehensive wellbeing program, including access for you and your family.
+*   Ability to flex your salary to opt into a wide range of health benefits, many of which can be extended to your family too.
+**Financial wellbeing**
+*   We match employee pension contributions between 4.5% and 7%.
+*   Life assurance equal up to 4 x your basic salary, with an option to increase the level of cover to 6 x your salary.
+*   Our income protection scheme provides a financial benefit, as well as absence and return to work support due to long-term illness or injury.
+*   Flexible benefits, including increased life assurance cover, critical illness insurance, payroll saving and will writing.
+*   As an independently owned business we share the financial success of the business with all our colleagues in various ways including annual bonus schemes.
+**Lifestyle**
+*   A minimum of 33-35 days holiday each year, inclusive of public holidays and dependent on level, with the ability to buy or sell leave through our flexible benefits programme.
+*   Holiday entitlement increased to a minimum of 35 days after 5 years’ service.
+*   Variety of employee saving schemes and discounts from high-street retailers.
+**Enhanced family and carers leave**
+*   Enhanced family leave policies, including 26 weeks paid maternity and adoption leave, and two weeks paid paternity/partner leave.
+*   Our shared parental leave matches maternity leave meaning we pay up to 24 weeks at full pay.
+*   Up to five additional days leave are provided for those with significant caring responsibilities, two of which are paid.
+**Learning and development**
+*   Primary annual professional institution subscription.
+*   A broad range of opportunities to enhance both technical and soft skills through mentoring, formal training, and self-development options.
+**Networks, communities, and social outcomes**
+*   Join a wide range of groups including our Advanced Employee Networks which support our LGBTQ+, gender, race and ethnicity, disability, and parents/carers communities.
+*   Make a difference within our communities through our [social outcomes](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.mottmac.com%2Fabout-us%2Fsocial-outcomes%3FappliedFilters%3D%2522CultureId%2520eq%2520127%2520and%2520SubsiteIds%2Fany\(t%2520%3A%2520t%2520eq%2520%25271%2527%2520or%2520t%2520eq%2520%2527105%2527\)%2522%26searchTerm%3D%2522Social%2520outcomes%2522%26highlightedFilters%3D%255b%255d%26filterOption%3Dexact%26searchType%3Dgeneral&data=05%7C02%7Ccareerpoint%40mottmac.com%7Cd8ea9a88ab7f490eafc008dc2e4689a2%7Ca2bed0c459574f73b0c2a811407590fb%7C0%7C0%7C638436127685834191%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=A6WPLkNo7mkbnPnlj%2BVZ99APvqUlGen6%2Bw4hgG0OKu8%3D&reserved=0 "https://eur01.safelinks.protection.outlook.com/?url=https%3a%2f%2fwww.mottmac.com%2fabout-us%2fsocial-outcomes%3fappliedfilters%3d%2522cultureid%2520eq%2520127%2520and%2520subsiteids%2fany(t%2520%3a%2520t%2520eq%2520%25271%2527%2520or%2520t%2520eq%2520%25").
+Apply now, or for more information about our application process, click [here.](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.mottmac.com%2Fcareers%2Ffaqs&data=05%7C02%7Ccareerpoint%40mottmac.com%7Cd8ea9a88ab7f490eafc008dc2e4689a2%7Ca2bed0c459574f73b0c2a811407590fb%7C0%7C0%7C638436127685841945%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=xykYRnm4czjWM54ckNPAtv3%2Fvm95jOexJzbmDldnmbs%3D&reserved=0)

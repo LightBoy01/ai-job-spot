@@ -1,0 +1,66 @@
+---
+id: hiringcafe-grnhse___kaseya___5620202004
+title: Staff AI QA Engineer
+company: Kaseya Careers
+location: 'Dublin, Ireland, Ireland'
+applicationLink: 'https://www.kaseya.com/careers/jobs/id/5620202004/?gh_jid=5620202004'
+postedDate: '2025-09-30T22:32:25.872Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Design test strategies
+  - Develop automation frameworks
+  - Validate AI model behavior
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___kaseya___5620202004'
+companyLogoUrl: null
+---
+Kaseya® is the leading provider of complete IT infrastructure and security management solutions for Managed Service Providers (MSPs) and internal IT organizations worldwide powered by AI. Kaseya’s best-in-breed technologies allow organizations to efficiently manage and secure IT to drive sustained business success. Kaseya has achieved sustained, strong double-digit growth over the past several years and is backed by Insight Venture Partners [www.insightpartners.com](https://www.insightpartners.com/)), a leading global private equity firm investing in high-growth technology and software companies that drive transformative change in the industries they serve.
+Founded in 2000, Kaseya currently serves customers in over 20 countries across a wide variety of industries and manages over 15 million endpoints worldwide. To learn more about our company and our award-winning solutions, go to [www.Kaseya.com](https://www.kaseya.com/) and for more information on Kaseya’s culture.
+Kaseya is not your typical company. We are not afraid to tell you exactly who we are and our expectations. The thousands of people that succeed at Kaseya are prepared to go above and beyond for the betterment of our customers.
+**WHAT YOU’LL DO:**
+Join the dynamic team at Kaseya as a Staff AI QA Engineer. Ensure the reliability, safety, and ethical integrity of our AI platform by crafting advanced testing strategies and automation frameworks tailored for adaptive, large-scale agentic systems and complex integrations. You’ll play a critical role in validating AI behavior, securing data pipelines, and enforcing quality standards across distributed systems. Your work will help ensure our intelligent agents operate with precision, fairness, and resilience in real-world environments.
+**WHAT WE ARE LOOKING FOR:**
+We’re looking for a quality-focused engineer who can think critically about testing complex, adaptive systems. You’re a strong communicator who can clearly articulate quality risks and testing strategies to both technical and non-technical stakeholders. You thrive in collaborative environments, working closely with developers, data scientists, and product managers, and you bring leadership in QA best practices, mentoring, and ethical testing.
+**THE SCHEDULE:**
+_This position is 100% remote._
+**ESSENTIAL DUTIES AND RESPONSIBILITIES:**
+*   Design and implement comprehensive test strategies for AI agents, platform services, and integrations
+*   Develop and maintain automated test frameworks for functional, performance, and security testing
+*   Validate AI model behavior, including prompt outputs, bias detection, and explainability
+*   Conduct rigorous testing of distributed systems, microservices, and real-time data pipelines
+*   Ensure data quality and integrity across training, inference, and integration workflows
+*   Collaborate with engineering and research teams to define quality gates and ethical testing standards
+*   Drive continuous testing practices in agile development cycles
+**WHAT YOU’LL BRING:**
+*   5–7+ years of experience in QA or Test Engineering
+*   Mastery of test automation frameworks (e.g., PyTest, Playwright, Selenium, RestAssured)
+*   Strong API testing skills (manual and automated)
+*   Experience with performance, load, and high-volume stress testing (e.g., JMeter, k6s, Gatling)
+*   Deep understanding of AI/ML model evaluation metrics and methodologies
+*   Experience testing distributed systems and microservices architectures
+*   Proficiency in data quality validation for AI training and inference workflows
+*   Experience with contract testing for microservices
+*   Ability to develop test strategies for non-deterministic and adaptive behaviors in AI systems (e.g., prompt validation, guardrails, bias detection)
+*   Familiarity with AI model testing tools (e.g., CheckList, Giskard, Deepchecks)
+*   Experience with test planning, execution, and reporting in agile environments
+*   Bachelor’s degree in Computer Science, Software Engineering, or a related field
+*   Preferred: Certifications in QA Automation, AI/ML Testing, or Ethical AI (e.g., ISTQB, Certified Ethical Emerging Technologist)
+*   Additional training in AI safety, fairness, or model validation is a plus
+_Nice to Have:_
+*   Experience with AI red teaming and adversarial testing techniques
+*   Explainability testing and validation for XAI methods (e.g., LIME, SHAP)
+*   Usability testing for AI-driven UIs and agent interactions
+*   Familiarity with data privacy testing techniques (e.g., differential privacy validation)
+*   Security testing for AI models (e.g., model inversion, membership inference, poisoning attacks)
+*   Experience testing AI ethics, fairness, and bias
+*   Knowledge of formal verification methods for AI
+*   Experience building synthetic data generation pipelines for testing
+Join the Kaseya growth rocket ship and see how we are #ChangingLives !
+**Additional information**
+_Kaseya provides equal employment opportunity to all employees and applicants without regard to race, religion, age, ancestry, gender, sex, sexual orientation, national origin, citizenship status, physical or mental disability, veteran status, marital status, or any other characteristic protected by applicable law._

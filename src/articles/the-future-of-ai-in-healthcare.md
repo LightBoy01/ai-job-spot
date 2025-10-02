@@ -10,7 +10,9 @@ tags:
   - Healthcare
   - Medical Research
   - Diagnostics
+hub: AI & The World
 imageUrl: /images/articles/the-future-of-ai-in-healthcare.svg
+contentType: editorial
 ---
 
 # The Future of AI in Healthcare: Revolutionizing Patient Care and Medical Research

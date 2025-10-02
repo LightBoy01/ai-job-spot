@@ -1,0 +1,53 @@
+---
+id: hiringcafe-grnhse___nascompany___7482739003
+title: Lead Mobile Engineer - June
+company: Nas Company
+location: 'India, India'
+applicationLink: 'https://job-boards.greenhouse.io/nascompany/jobs/7482739003'
+postedDate: '2025-09-30T12:06:54.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - Designing app
+  - Developing app
+  - Building interfaces
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___nascompany___7482739003'
+companyLogoUrl: null
+---
+About June
+==========
+[June](https://june.date) is a luxury AI-powered dating platform that goes beyond simple swiping. We use sophisticated AI to deeply understand our users and create meaningful connections wrapped in elegance.
+The Role
+--------
+We're seeking a talented Mobile App Developer to join our early-stage team and help build the next generation of dating technology. You'll be instrumental in creating a beautiful, intuitive mobile experience that brings people together through the power of AI and thoughtful design. Our leadership team has built successful startups backed by top VCs like Lightspeed Venture Partners.
+What You'll Do
+--------------
+*   Design and develop mobile application from scratch using Flutter
+*   Build responsive, high-performance consumer-facing mobile products
+*   Create intuitive interfaces for complex AI interactions that feel natural and elegant
+*   Participate in product strategy and feature development discussions with our founder, designer and backend engineer
+*   Work in a fast-paced startup environment with rapid iteration cycles
+Who We're Looking For
+---------------------
+*   4-5 years of experience designing and building mobile applications from the ground up
+*   Strong proficiency with Flutter and Dart
+*   Hands-on experience building AI-native mobile applications is a huge plus
+*   Knowledge of app store optimization and publishing processes
+*   Genuine passion for connecting people and building meaningful relationships
+*   Excitement about working in early-stage, high-growth environment
+*   Strong problem-solving skills and ability to work independently
+What We Offer
+-------------
+*   Competitive salary
+*   Opportunity to shape the product from the ground up
+*   Work directly with our founder and leadership team
+*   Flexible remote/hybrid working arrangements
+Ready to Help People Find Love?
+-------------------------------
+If you're passionate about using technology to create meaningful human connections and want to be part of building something special, we'd love to hear from you.

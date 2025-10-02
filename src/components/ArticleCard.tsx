@@ -9,12 +9,17 @@ interface ArticleCardProps {
 }
 
 const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
-  const { title, author, publishDate, slug, issueNo, volumeNo, imageUrl } =
+  const { title, author, publishDate, slug, issueNo, volumeNo, imageUrl, hub } =
     article;
 
   return (
     <Link href={`/articles/${slug}`} passHref className="block group">
-      <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out border border-neutral-200/80 hover:border-secondary/50 overflow-hidden h-full flex flex-col">
+      <div className="relative bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out border border-neutral-200/80 hover:border-secondary/50 overflow-hidden h-full flex flex-col">
+        {article.contentType === 'briefing' && (
+          <span className="absolute top-0 left-0 bg-neutral-500 text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10">
+            BRIEFING
+          </span>
+        )}
         {imageUrl && (
           <div className="relative w-full aspect-video overflow-hidden">
             <Image
@@ -31,6 +36,13 @@ const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
           <h3 className="text-2xl font-serif font-bold text-primary-dark group-hover:text-secondary-dark transition-colors leading-tight mb-3">
             {title}
           </h3>
+          {hub && (
+            <div className="mb-3">
+              <span className="inline-block bg-primary-extralight text-primary-dark text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                {hub}
+              </span>
+            </div>
+          )}
           <div className="flex-grow" />
           <p className="mt-4 text-base font-sans text-neutral-600">
             By {author} on {formatDate(publishDate)}

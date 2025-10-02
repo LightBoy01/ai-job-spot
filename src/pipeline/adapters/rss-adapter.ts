@@ -1,32 +1,39 @@
 import Parser from 'rss-parser';
-import { ArticleSchema } from '../schemas.js';
 
-// Initialize the parser
+// Define a type for the items we expect from the RSS feed for clarity.
+export interface RssItem {
+  title: string;
+  link: string;
+  isoDate?: string;
+  content?: string;
+  contentSnippet?: string;
+  creator?: string;
+  categories?: string[];
+}
+
 const parser = new Parser();
 
 /**
  * Fetches and parses an RSS feed from a given URL.
- * @param feedUrl The URL of the RSS feed.
- * @returns A promise that resolves to the parsed feed object.
+ * @param feedUrl The URL of the RSS feed to parse.
+ * @returns A promise that resolves to an array of parsed RSS items.
  */
-export async function parseRssFeed(feedUrl: string) {
+export async function fetchAndParseRss(feedUrl: string): Promise<RssItem[]> {
   try {
+    console.log(`  [RSS Adapter] Fetching feed: ${feedUrl}`)
     const feed = await parser.parseURL(feedUrl);
-    console.log(`Successfully parsed feed: ${feed.title}`);
+    
+    if (!feed.items || feed.items.length === 0) {
+      console.warn(`  [RSS Adapter] No items found in feed: ${feedUrl}`);
+      return [];
+    }
 
-    const validatedItems = feed.items.slice(0, 5).map(item => {
-      const result = ArticleSchema.safeParse(item);
-      if (!result.success) {
-        console.warn(`  > Invalid item found in ${feedUrl}:`, result.error.flatten());
-        return null;
-      }
-      return { ...result.data, source: feed.title };
-    }).filter(item => item !== null);
-
-    return validatedItems;
+    // Ensure we only return items that have a title and a link
+    return feed.items.filter(item => item.title && item.link) as RssItem[];
 
   } catch (error) {
-    console.error(`Failed to parse feed at ${feedUrl}:`, error);
+    console.error(`  [RSS Adapter] Failed to fetch or parse RSS feed: ${feedUrl}`, error);
+    // Re-throw the error to be handled by the calling pipeline
     throw error;
   }
 }

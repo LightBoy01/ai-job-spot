@@ -1,0 +1,80 @@
+---
+id: hiringcafe-successfactors___com___BScientific___1326843000
+title: 'Senior Business Systems Analyst (Gurgaon, IN)'
+company: Boston Scientific
+location: 'Gurgaon, Haryana, India'
+applicationLink: >-
+  https://jobs.bostonscientific.com/job/Gurgaon-Senior-Business-Systems-Analyst/1326843000/
+postedDate: '2025-09-30T14:15:26.953Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - driving AI
+  - leading projects
+  - analyzing requirements
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___BScientific___1326843000'
+companyLogoUrl: null
+---
+**Hiring Manager:** Claudia Ardelean
+**Recruiter:** Radhika Kapoor
+**Overview:**
+The Strategic AI Automation Partner within Global Business Services (GBS) plays a crucial role in driving the adoption, integration, and strategic implementation of artificial intelligence (AI) and automation across GBS and its departments. We are seeking a candidate with a solid background in one of the Delivery Lines: Procure-to-Pay (PTP), Invoice to Cash (ITC), Account to Reconciliation (ATR), or Commercial Operations. This position serves as a vital link between business and technology, translating complex AI concepts into practical business solutions that align with the organization’s overarching goals. The ideal candidate will be a dynamic and experienced business strategist with strong expertise in AI, project management, and stakeholder engagement.
+**Key Responsibilities:**
+1.  **AI Strategy and Implementation:**
+*   Drive the adoption and strategic integration of AI and automation within the PTP service line.
+*   Develop customized AI strategies that align with the unique requirements of the business.
+*   Identify and prioritize opportunities for automation that enhance operational efficiency and business growth.
+*   Partner with PTP and GPO leadership to ensure AI initiatives are aligned with broader business objectives.
+3.  **Project Management:**
+*   Lead the execution of prioritized AI and automation projects, managing them from inception to completion.
+*   Develop and manage comprehensive project plans, timelines, budgets, and resource allocation.
+*   Coordinate cross-functional teams, ensuring effective communication and collaboration between business and technical teams.
+*   Monitor project progress, identify potential risks, and implement mitigation strategies to ensure successful project delivery.
+5.  **Business Analysis:**
+*   Collaborate with stakeholders to gather and document business requirements for AI initiatives.
+*   Conduct market research and competitive analysis to identify opportunities for AI-driven innovation.
+*   Analyze business processes to identify areas where AI can add significant value and improve efficiency.
+*   Translate complex technical concepts into clear, actionable insights for non-technical stakeholders.
+7.  **Stakeholder Management:**
+*   Engage with business leaders and clients to understand their strategic goals and how AI can support them.
+*   Provide regular updates and status reports to stakeholders, ensuring alignment between stakeholder needs and project deliverables.
+*   Foster a culture of innovation and strategic thinking within the PTP service line by promoting the benefits of AI and automation.
+9.  **Innovation and Continuous Improvement:**
+*   Apply technical knowledge to assess and recommend new AI tools and platforms that can drive innovation.
+*   Escalate issues and coordinate resources to resolve challenges in AI implementation.
+*   Conduct post-implementation reviews to assess project outcomes, identify lessons learned, and suggest areas for improvement.
+*   Foster a continuous improvement mindset, encouraging the exploration of emerging AI technologies and methodologies.
+11.  **Documentation and Reporting:**
+*   Maintain detailed project documentation, including business cases, project charters, and change requests.
+*   Track and report on key performance indicators (KPIs) to measure project success and business impact.
+*   Ensure comprehensive records of project activities, decisions, and lessons learned are maintained for future reference.
+**Qualifications:**
+*   **Experience:**
+*   5+ years of experience in business analysis, project management, or a related field, with a focus on AI and automation.
+*   Proven track record of successfully leading and delivering AI/automation projects within a corporate environment.
+*   **Education:**
+*   Bachelor’s degree in Business Administration, Information Technology, Computer Science, or a related field.
+*   Advanced degree or certification in AI, Project Management, or a related discipline is a plus.
+*   **Technical Skills:**
+*   Strong understanding of AI concepts, particularly in the context of business applications.
+*   Proficiency in project management tools (e.g., Jira, Asana, Microsoft Project).
+*   Experience with data analysis and visualization tools (e.g., Excel, Tableau, Power BI).
+*   Familiarity with software development lifecycle (SDLC) and agile methodologies.
+*   **Soft Skills:**
+*   Excellent analytical and problem-solving abilities.
+*   Strong communication and interpersonal skills, with the ability to work effectively across business and technical teams.
+*   Ability to manage multiple projects simultaneously and deliver on tight deadlines.
+*   Strategic thinker with a focus on driving business value through AI and automation.
+*   **Bonus Skills:**
+*   Experience with Generative AI or other advanced AI technologies.
+*   Certification in project management (e.g., PMP, Scrum Master).
+*   Experience with process modeling tools (e.g., BPMN, Visio).
+**Requisition ID:** 613887
+As a leader in medical science for more than 40 years, we are committed to solving the challenges that matter most – united by a deep caring for human life. Our mission to advance science for life is about transforming lives through innovative medical solutions that improve patient lives, create value for our customers, and support our employees and the communities in which we operate. Now more than ever, we have a responsibility to apply those values to everything we do – as a global business and as a global corporate citizen.
+So, choosing a career with Boston Scientific (NYSE: BSX) isn’t just business, it’s personal. And if you’re a natural problem-solver with the imagination, determination, and spirit to make a meaningful difference to people worldwide, we encourage you to apply and look forward to connecting with you!

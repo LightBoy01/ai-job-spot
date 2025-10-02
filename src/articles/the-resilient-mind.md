@@ -12,6 +12,8 @@ tags:
   - Future of Work
   - Psychology
 imageUrl: /images/articles/the-resilient-mind.svg
+hub: The Human Advantage
+contentType: editorial
 ---
 
 We are meticulously engineering a world of unprecedented efficiency. With the power of Artificial Intelligence, we are optimizing supply chains, streamlining workflows, and automating complexity at a scale never before imagined. We are building a global system designed for maximum output and minimal friction. Yet, in our relentless pursuit of external order, we have neglected the most critical infrastructure of all: the resilience of the human mind.

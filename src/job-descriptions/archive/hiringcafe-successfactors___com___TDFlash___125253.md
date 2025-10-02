@@ -1,0 +1,123 @@
+---
+id: hiringcafe-successfactors___com___TDFlash___125253
+title: Head of AI Solutions and Innovation (125253)
+company: >-
+  TDCX (Transformative Digital Customer Experience) - Leading Provider of
+  Business Process Outsourcing (BPO) Services in Customer Experience (CX) | Best
+  Outsourced Contact Centre
+location: Malaysia
+applicationLink: >-
+  https://career10.successfactors.com/career?career_ns=job_listing&company=TDFlash&career_job_req_id=125253
+postedDate: '2025-09-23T08:28:29.000Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Lead AI roadmap
+  - Oversee AI projects
+  - Foster innovation culture
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___TDFlash___125253'
+companyLogoUrl: null
+---
+Career Opportunities: Head of AI Solutions and Innovation (125253)
+==================================================================
+Requisition ID **125253** - Posted  - **Malaysia**
+**#BeMore**
+-----------
+Do you aspire to have a rewarding career where you can thrive, grow, and achieve your career aspirations? Unlock your full potential at work with TDCX, a leading global BPO company.
+Work with the world’s most loved brands and connect with inspiring, diverse people. Join our team and begin your journey to _#BeMore!_
+**Top reasons to work with TDCX**
+---------------------------------
+*   Attractive remuneration and great perks
+*   Comprehensive medical, insurance, and social security coverage
+*   World-class workspaces
+*   Engaging activities and recognition programs
+*   Strong learning and development plans for your career growth
+*   Positive culture for you to #BeMore at work
+*   Easy-to-access location with direct public transport links
+*   Flexible working arrangements
+*   Coaching and mentoring from experts in your field
+*   Join a global company, winner of hundreds of industry awards
+**What is your mission?**
+-------------------------
+The mission of the Head of AI Solutions and Innovation is to spearhead the identification, development, and deployment of cutting-edge AI technologies that drive organizational transformation, enhance operational efficiency, foster competitive advantage, and deliver measurable value to stakeholders. This role serves as a strategic leader in bridging emerging AI capabilities with business needs, ensuring ethical, scalable, and innovative solutions that align with the company's long-term vision.
+*   **Strategic AI Roadmap Development**: Lead the creation and execution of an AI innovation roadmap, aligning it with business objectives, market trends, and technological advancements to prioritize high-impact initiatives.
+*   **Opportunity Identification and Evaluation**: Scan the digital landscape for AI opportunities, assess emerging technologies (e.g., machine learning, generative AI, natural language processing), and evaluate their feasibility, risks, and potential ROI through proof-of-concept projects.
+*   **Cross-Functional Collaboration**: Partner with internal teams (e.g., IT, data science, product development, and business units) and external stakeholders (e.g., vendors, research institutions) to co-create AI solutions that integrate seamlessly into existing systems.
+*   **Project Leadership and Execution**: Oversee end-to-end AI innovation projects, from ideation and prototyping to scaling and deployment, ensuring timely delivery, budget adherence, and quality standards.
+*   **Innovation Culture Promotion**: Foster a culture of innovation by mentoring junior staff, organizing workshops, hackathons, and knowledge-sharing sessions on AI best practices and ethical considerations.
+*   **Performance Measurement and Optimization**: Establish KPIs for AI initiatives, monitor their performance post-implementation, and iterate on solutions based on data-driven insights to maximize value and mitigate issues.
+*   **Risk Management and Compliance**: Ensure all AI solutions comply with regulatory requirements (e.g., data privacy laws like GDPR), ethical guidelines (e.g., bias mitigation, transparency), and security standards to minimize risks.
+*   **Trend Monitoring and Thought Leadership**: Stay abreast of global AI trends, attend industry conferences, publish insights, and represent the organization as a thought leader in digital innovation forums.
+*   **Resource Allocation and Team Management**: Manage budgets, resources, and potentially a team of AI specialists, ensuring optimal allocation to support innovation goals while promoting professional development.
+**Who are we looking for?**
+---------------------------
+We seek a visionary and results-driven Head of AI Solutions and Innovation with a passion for leveraging AI to transform business outcomes. The ideal candidate will combine strategic thinking, technical expertise, and leadership skills to drive innovative AI solutions.
+*   **Proven AI Expertise**: Extensive experience (5+ years) in developing, implementing, or managing AI-driven projects, with deep knowledge of machine learning, generative AI, natural language processing, or related technologies.
+*   **Strategic Vision**: Ability to align AI initiatives with organizational goals, anticipate market trends, and translate complex technical concepts into actionable business strategies.
+*   **Leadership and Collaboration**: Strong track record of leading cross-functional teams, mentoring talent, and fostering collaboration with diverse stakeholders, including technical teams, business leaders, and external partners.
+*   **Project Management Acumen**: Demonstrated success in managing end-to-end innovation projects, with proficiency in Agile methodologies, budgeting, and delivering measurable results under tight timelines.
+*   **Technical Proficiency:** Hands on experience with modern NLP/LLM related AI tools and platforms such as AWS Sagemaker, GCP Vertex AI, Huggingface, spaCY, Large Language Models (Chatgpt, Gemini, Mistral, Deepseek, Qwen), LlamaIndex, Haystack and Prompt Engineering. As well as practical knowledge with AI adjacent technologies such as Python, FastAPI, pip, uv, langfuse, pinecone, pgvector, Qdrant, helicone, langfuse and firecrawl. Understanding the fundamentals of vector based search is a bonus.
+*   **Ethical and Regulatory Awareness**: Deep understanding of AI ethics, data privacy regulations (e.g., GDPR, CCPA), and bias mitigation strategies to ensure responsible and compliant AI deployments.
+*   **Innovative Mindset**: A proactive, creative thinker with a passion for exploring emerging technologies and a proven ability to drive experimentation through prototypes and proofs of concept.
+*   **Communication and Influence**: Exceptional verbal and written communication skills to articulate AI value propositions to non-technical stakeholders, influence decision-making, and represent the organization in industry forums.
+*   **Adaptability and Resilience**: Comfortable navigating ambiguity in a fast-paced environment, with the ability to pivot strategies based on evolving business needs and technological advancements.
+*   **Education and Certifications**: Advanced degree (Master’s or PhD) in Computer Science, Data Science, Engineering, or a related field preferred; certifications in AI, machine learning, or project management (e.g., PMP, AWS Certified Machine Learning) are a plus.
+**About TDCX**
+--------------
+Singapore-headquartered TDCX is a leading global business process outsourcing (BPO) company that provides customer experience (CX) solutions, sales and digital marketing services, and content moderation for clients across various industries. These include digital advertising and social media, e-commerce, fintech, gaming, healthtech, media, technology and, travel and hospitality.
+With a focus on helping companies enable the future, TDCX’s smart, scalable approach—driven by innovation and operational precision—positions it as a key partner for companies targeting tangible outcomes. With more than 20,000 employees across 39 locations worldwide, TDCX provides its clients with comprehensive coverage in Asia, Europe and the United States. For more information, please visit [www.tdcx.com](http://www.tdcx.com).
+Email this job to a friend
+
+**The job has been sent to**
+**The job has been sent to**
+**#BeMore**
+-----------
+Do you aspire to have a rewarding career where you can thrive, grow, and achieve your career aspirations? Unlock your full potential at work with TDCX, a leading global BPO company.
+Work with the world’s most loved brands and connect with inspiring, diverse people. Join our team and begin your journey to _#BeMore!_
+**Top reasons to work with TDCX**
+---------------------------------
+*   Attractive remuneration and great perks
+*   Comprehensive medical, insurance, and social security coverage
+*   World-class workspaces
+*   Engaging activities and recognition programs
+*   Strong learning and development plans for your career growth
+*   Positive culture for you to #BeMore at work
+*   Easy-to-access location with direct public transport links
+*   Flexible working arrangements
+*   Coaching and mentoring from experts in your field
+*   Join a global company, winner of hundreds of industry awards
+**What is your mission?**
+-------------------------
+The mission of the Head of AI Solutions and Innovation is to spearhead the identification, development, and deployment of cutting-edge AI technologies that drive organizational transformation, enhance operational efficiency, foster competitive advantage, and deliver measurable value to stakeholders. This role serves as a strategic leader in bridging emerging AI capabilities with business needs, ensuring ethical, scalable, and innovative solutions that align with the company's long-term vision.
+*   **Strategic AI Roadmap Development**: Lead the creation and execution of an AI innovation roadmap, aligning it with business objectives, market trends, and technological advancements to prioritize high-impact initiatives.
+*   **Opportunity Identification and Evaluation**: Scan the digital landscape for AI opportunities, assess emerging technologies (e.g., machine learning, generative AI, natural language processing), and evaluate their feasibility, risks, and potential ROI through proof-of-concept projects.
+*   **Cross-Functional Collaboration**: Partner with internal teams (e.g., IT, data science, product development, and business units) and external stakeholders (e.g., vendors, research institutions) to co-create AI solutions that integrate seamlessly into existing systems.
+*   **Project Leadership and Execution**: Oversee end-to-end AI innovation projects, from ideation and prototyping to scaling and deployment, ensuring timely delivery, budget adherence, and quality standards.
+*   **Innovation Culture Promotion**: Foster a culture of innovation by mentoring junior staff, organizing workshops, hackathons, and knowledge-sharing sessions on AI best practices and ethical considerations.
+*   **Performance Measurement and Optimization**: Establish KPIs for AI initiatives, monitor their performance post-implementation, and iterate on solutions based on data-driven insights to maximize value and mitigate issues.
+*   **Risk Management and Compliance**: Ensure all AI solutions comply with regulatory requirements (e.g., data privacy laws like GDPR), ethical guidelines (e.g., bias mitigation, transparency), and security standards to minimize risks.
+*   **Trend Monitoring and Thought Leadership**: Stay abreast of global AI trends, attend industry conferences, publish insights, and represent the organization as a thought leader in digital innovation forums.
+*   **Resource Allocation and Team Management**: Manage budgets, resources, and potentially a team of AI specialists, ensuring optimal allocation to support innovation goals while promoting professional development.
+**Who are we looking for?**
+---------------------------
+We seek a visionary and results-driven Head of AI Solutions and Innovation with a passion for leveraging AI to transform business outcomes. The ideal candidate will combine strategic thinking, technical expertise, and leadership skills to drive innovative AI solutions.
+*   **Proven AI Expertise**: Extensive experience (5+ years) in developing, implementing, or managing AI-driven projects, with deep knowledge of machine learning, generative AI, natural language processing, or related technologies.
+*   **Strategic Vision**: Ability to align AI initiatives with organizational goals, anticipate market trends, and translate complex technical concepts into actionable business strategies.
+*   **Leadership and Collaboration**: Strong track record of leading cross-functional teams, mentoring talent, and fostering collaboration with diverse stakeholders, including technical teams, business leaders, and external partners.
+*   **Project Management Acumen**: Demonstrated success in managing end-to-end innovation projects, with proficiency in Agile methodologies, budgeting, and delivering measurable results under tight timelines.
+*   **Technical Proficiency:** Hands on experience with modern NLP/LLM related AI tools and platforms such as AWS Sagemaker, GCP Vertex AI, Huggingface, spaCY, Large Language Models (Chatgpt, Gemini, Mistral, Deepseek, Qwen), LlamaIndex, Haystack and Prompt Engineering. As well as practical knowledge with AI adjacent technologies such as Python, FastAPI, pip, uv, langfuse, pinecone, pgvector, Qdrant, helicone, langfuse and firecrawl. Understanding the fundamentals of vector based search is a bonus.
+*   **Ethical and Regulatory Awareness**: Deep understanding of AI ethics, data privacy regulations (e.g., GDPR, CCPA), and bias mitigation strategies to ensure responsible and compliant AI deployments.
+*   **Innovative Mindset**: A proactive, creative thinker with a passion for exploring emerging technologies and a proven ability to drive experimentation through prototypes and proofs of concept.
+*   **Communication and Influence**: Exceptional verbal and written communication skills to articulate AI value propositions to non-technical stakeholders, influence decision-making, and represent the organization in industry forums.
+*   **Adaptability and Resilience**: Comfortable navigating ambiguity in a fast-paced environment, with the ability to pivot strategies based on evolving business needs and technological advancements.
+*   **Education and Certifications**: Advanced degree (Master’s or PhD) in Computer Science, Data Science, Engineering, or a related field preferred; certifications in AI, machine learning, or project management (e.g., PMP, AWS Certified Machine Learning) are a plus.
+**About TDCX**
+--------------
+Singapore-headquartered TDCX is a leading global business process outsourcing (BPO) company that provides customer experience (CX) solutions, sales and digital marketing services, and content moderation for clients across various industries. These include digital advertising and social media, e-commerce, fintech, gaming, healthtech, media, technology and, travel and hospitality.
+With a focus on helping companies enable the future, TDCX’s smart, scalable approach—driven by innovation and operational precision—positions it as a key partner for companies targeting tangible outcomes. With more than 20,000 employees across 39 locations worldwide, TDCX provides its clients with comprehensive coverage in Asia, Europe and the United States. For more information, please visit [www.tdcx.com](http://www.tdcx.com).

@@ -14,6 +14,8 @@ tags:
   - Mental Models
   - Job Roles
 imageUrl: /images/articles/the-emerging-trinity-of-ai-work.svg
+hub: Career & Professional Strategy
+contentType: editorial
 ---
 
 The job market is fracturing. New titles appear weekly—Prompt Engineer, AI Ethicist, Context Engineer, AI Trainer—each a flare in the fog of technological disruption. For the ambitious professional, this landscape is both exhilarating and terrifying. Chasing the hot job title of the moment feels like a race without a finish line, a strategy built on sand.

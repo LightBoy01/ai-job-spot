@@ -14,6 +14,8 @@ tags:
   - Future of Work
   - Mental Models
 imageUrl: /images/articles/the-gravity-engine.svg
+hub: Career & Professional Strategy
+contentType: editorial
 ---
 
 In the old world, power was a function of position. It was corner offices, org charts, and titles. In the new world—a world of distributed teams, asynchronous communication, and AI-powered task execution—this structure is dissolving into a fluid, decentralized network. In this network, a new form of influence is emerging, one that has little to do with where you are and everything to do with the problems you solve and the clarity you create.

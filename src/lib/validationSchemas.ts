@@ -23,6 +23,7 @@ export const ArticleSchema = z.object({
       /^[a-z0-9]+(?:-[a-z0-9]+)*$/,
       'URL Slug must be lowercase, alphanumeric, and use hyphens for spaces (e.g., my-awesome-article).'
     ),
+  contentType: z.enum(['editorial', 'briefing']).default('editorial'),
   title: z.string().min(1, 'Article Title is required.'),
   author: z.string().min(1, 'Author is required.'),
   publishDate: z.string().min(1, 'Publish Date is required.'),
@@ -47,6 +48,25 @@ export const ArticleSchema = z.object({
   author_take_answer1: z.string().nullable().optional(),
   author_take_question2: z.string().nullable().optional(),
   author_take_answer2: z.string().nullable().optional(),
+  sourceName: optionalString,
+  originalUrl: optionalUrl,
+}).superRefine((data, ctx) => {
+  if (data.contentType === 'briefing') {
+    if (!data.sourceName) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Source Name is required for Briefings.',
+        path: ['sourceName'],
+      });
+    }
+    if (!data.originalUrl) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Original URL is required for Briefings.',
+        path: ['originalUrl'],
+      });
+    }
+  }
 });
 
 export type ArticleFormData = z.infer<typeof ArticleSchema>;

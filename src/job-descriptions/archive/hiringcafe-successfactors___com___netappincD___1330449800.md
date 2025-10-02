@@ -1,0 +1,48 @@
+---
+id: hiringcafe-successfactors___com___netappincD___1330449800
+title: 'IB Product Owner / Business Systems Analyst (Bangalore, Karnataka, IN)'
+company: Enterprise data storage leader | NetApp
+location: 'Bangalore, Karnataka, India'
+applicationLink: >-
+  https://jobs.netapp.com/job/Bangalore,-Karnataka-IB-Product-Owner-Business-Systems-Analyst/1330449800/
+postedDate: '2025-09-30T07:48:02.876Z'
+expirationDate: null
+tags:
+  - Product Management
+  - analyzing data
+  - defining roadmaps
+  - managing backlog
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___netappincD___1330449800'
+companyLogoUrl: null
+---
+Job Summary
+-----------
+NetApp, Inc. is seeking a highly motivated individual to join our Enterprise Data & Analytics (EDA) team as a Product owner for our Install Base (IB) data domain.  This position will play a critical role in driving the success of our IB related applications, products and services by collaborating with cross-functional teams to deliver high-quality solutions that meet business needs and align with both industry best practices and internal standards.
+Job Requirements
+----------------
+*   **Business Analysis:**  Analyze business processes and data, making recommendations for improvement, and proposing solutions based on industry trends and professional business knowledge.
+*   **Product Roadmap Planning:** Collaborate with stakeholders and Product/Enterprise Architects to define and maintain the product roadmaps for each of the applications, platforms and technologies part of the portfolio, ensuring alignment with business and IT goals and objectives.
+*   **Requirement Intake & Grooming:** Working closely with business and IT stakeholders, gather and refine requirements, ensuring they are well-documented and aligned with the overall product vision.  Responsible for managing backlog prioritization.
+*   **Solution & Architecture:** Partner with Enterprise, product architects, and other technical teams to verify design and solutions meet business requirements and IT roadmaps.
+*   **Delivery:** Ownership of release planning, definition of major project milestones, and overall delivery execution. Ensure that deliverables are provided with the required standards of quality and align with established standards and meet committed timelines.
+*   **Communication:** Perform regular and consistent communication with business and IT stakeholders, providing regular updates on project status, risks, and issues.  Align with other EDA Product owners to ensure best practices and consistency across domains is achieved.
+*   **Support/Product Stability:** Engage in incident management, ensuring timely resolution of issues and continuous improvement of product stability and performance.
+*   **Data Quality / Governance:** Collaborate with Data Governance team members to monitor and improve data quality with the associated domains/applications.  Perform implementation and overall ownership of data model and associated documentation / Metadata.
+*   **Documentation:** Maintain current product documentation including functional specifications, solution designs, data models, as built diagrams, integration diagrams, data integration mappings etc.
+Qualifications
+--------------
+*   Bachelor's degree in Computer Science, Information Technology, or a related field
+*   Strong experience with SQL, relational databases, and working with large complex data sets
+*   Prior experience as a Product Owner or similar role in a data-driven environment
+*   Strong understanding of data product lifecycle and agile methodologies
+*   Must be self-motivated, team oriented and possess strong communication and interpersonal skills
+*   Ability to work collaboratively with cross-functional teams
+*   Strong problem-solving and analytical skill
+*   Knowledge of machine learning and AI/ML model concepts
+*   Experience with cloud technologies and data platforms a plus

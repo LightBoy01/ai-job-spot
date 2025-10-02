@@ -1,0 +1,50 @@
+---
+id: >-
+  hiringcafe-workday___nvidia-wd5-nvidiaexternalcareersite___ai-computing-software-development-engineer--tensorrt-llm_jr2002840
+title: 'AI Computing Software Development Engineer, TensorRT-LLM'
+company: Nvidia
+location: Taipei or Hsinchu
+applicationLink: >-
+  https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Taiwan-Taipei/AI-Computing-Software-Development-Engineer--TensorRT-LLM_JR2002840
+postedDate: '2025-09-30T00:00:00.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - developing software
+  - optimizing performance
+  - collaborating teams
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/workday___nvidia-wd5-nvidiaexternalcareersite___ai-computing-software-development-engineer--tensorrt-llm_jr2002840
+companyLogoUrl: null
+---
+****We are now looking for a Software Development Engineer for LLM inference!****
+NVIDIA is hiring software engineers for its TensorRT-LLM team. Academic and commercial groups around the world are using GPUs to power a revolution in deep learning-powered AI, enabling breakthroughs in areas like LLM, ChatGPT, and GenerativeAI that have put DL at the “iPhone moment” for AI. Join the team which is building the inference software which will be used across our product lines! The ability to work on a fast-paced delivery-focused team is required and excellent interpersonal skills are a must.
+****What you'll be doing:****
+*   Craft and develop robust inference software that can be scaled to multiple platforms for functionality and performance
+*   Performance analysis, optimization, and tuning for Large Language Models (LLMs)
+*   Closely follow academic developments in the field of artificial intelligence and feature update TensorRT-LLM
+*   Provide feedback into the architecture and hardware design and development
+*   Collaborate across the company to guide the direction of deep learning inference, working with software, research and product teams
+*   Publish key results in scientific conferences
+****What we need to see:****
+*   Master or higher degree in Computer Engineering, Computer Science, Applied Mathematics or related computing focused degree (or equivalent experience)
+*   3+ years of relevant software development experience.
+*   Excellent Python programming skills, software design, and software engineering skills
+*   Awareness of the latest developments in LLM architectures and LLM inference techniques
+*   Experience working with deep learning frameworks like PyTorch and HuggingFace
+*   Proactive and able to work without supervision
+*   Excellent written and oral communication skills in English
+****Ways to stand out from the crowd:****
+*   Prior experience with a LLM inference framework (TensorRT-LLM, SGLang, vLLM, lamma.cpp, MLC-LLM, etc.) or a DL compiler in inference, deployment, algorithms, or implementation
+*   Prior experience with performance modeling, profiling, debug, and code optimization of a DL/HPC/high-performance application
+*   Excellent C/C++ programming and software design skills, including debugging, performance analysis, and test design.
+*   Architectural knowledge of CPU and GPU
+*   GPU programming experience (CUDA or OpenCL)
+NVIDIA is widely considered to be one of technology’s most desirable employers. We have some of the most forward-thinking and hardworking people on the planet working for us. Does the idea of contributing to and pushing the boundaries of state-of-the-art AI and Compute systems excite you? Interested in getting exposure to the entire DL SW stack? Come join us and help build the GPU-accelerated DL platform used worldwide.
+With competitive salaries and a generous benefits package, NVIDIA is widely considered to be one of the most desirable employers in the world. We have some of the most brilliant and talented people in the world working for us. If you are creative, autonomous and love a challenge, we want to hear from you. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.

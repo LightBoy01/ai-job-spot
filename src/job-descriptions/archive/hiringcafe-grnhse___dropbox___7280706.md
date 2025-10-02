@@ -1,0 +1,56 @@
+---
+id: hiringcafe-grnhse___dropbox___7280706
+title: Principal Technical Solutions PMM
+company: Dropbox
+location: Canada or United States
+applicationLink: 'https://jobs.dropbox.com/listing/7280706?gh_jid=7280706'
+postedDate: '2025-09-30T14:13:50.000Z'
+expirationDate: null
+tags:
+  - Product Management
+  - Design demos
+  - Develop assets
+  - Collaborate teams
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$168,300 - $227,700'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___dropbox___7280706'
+companyLogoUrl: null
+---
+Role Description
+----------------
+As a Technical Solutions PMM on Dropbox’s Product Marketing team, you will be the technical heart of our go-to-market engine. You will build and maintain live demo environments, craft deep-dive assets for IT decision-makers, and help translate complex product capabilities—including our growing set of AI features—into clear value stories for prospects and customers. Your work will power keynotes, webinars, analyst briefings, and sales plays across both product-led and sales-led motions. You’ll join a five-person PMM org and collaborate daily with Marketing, Product, Solutions Consultants, Analyst Relations, and Enablement to connect Dropbox’s portfolio into a single, persuasive narrative.
+Responsibilities
+----------------
+*   Design, script, and maintain scalable demo environments for launches, events, webinars, and customer education.
+*   Develop and refresh technical assets (whitepapers, solution briefs, RFIs, post-sale deployment guides) that speak to ITDM and BDM priorities.
+*   Own the technical layer of our pitch materials—ensuring accuracy, credibility, and alignment with live product capabilities.
+*   Partner with Analyst Relations to complete RFIs and evaluations, highlighting Dropbox’s architecture, security, and AI strengths.
+*   Contribute to web copy and content strategy for technical personas, collaborating with ICP owners for broader buyer coverage.
+*   Serve as a technical evangelist in webinars, analyst briefings, and sales enablement sessions across internal and external stakeholders.
+*   Collaborate proactively with engineering, product, and sales to ensure technical marketing aligns with product strategy and development roadmap.
+*   Instrument and analyze the impact of technical demos and assets, iterating based on KPIs and customer feedback.
+*   Contribute to continual competitive intelligence gathering to inform messaging and technical demonstration strategy.
+*   Creatively author and produce technical marketing collateral, such as demo videos, technical presentations, solution briefs, and whitepapers for diverse buyer personas.
+*   Leverage market research to uncover customer needs, validate technical solutions, and differentiate Dropbox’s multi-product portfolio.
+Requirements
+------------
+*   8+ years in technical marketing, solutions engineering, or product marketing for SaaS/AI products.
+*   Proven experience configuring demo or sandbox environments and integrating third-party apps/APIs.
+*   Deep familiarity with modern AI tooling (LLMs, embeddings, prompt design) and ability to relay capabilities to non-experts.
+*   Track record delivering persuasive live demos to enterprise IT audiences.
+*   Strong cross-functional communication skills and ability to influence without formal authority.
+*   Ability to travel to customer and industry events across North America.
+Preferred Qualifications
+------------------------
+*   Scripting proficiency (Python, JavaScript, or similar) to automate demo setup and data seeding
+*   Industry certifications (AWS, GCP, Azure, or SaaS security) or PMA/PMG product-marketing certificates
+*   Experience publishing whitepapers or technical benchmarks for analyst or customer consumption
+*   Prior tenure at Dropbox or equivalent complex portfolio
+Compensation
+------------
+Canada Pay Range
+$168,300—$227,700 CAD

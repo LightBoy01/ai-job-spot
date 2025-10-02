@@ -1,0 +1,63 @@
+---
+id: hiringcafe-grnhse___celigo___7270158
+title: Business Systems Engineer - Dev/QA
+company: Celigo
+location: 'Hyderabad, Telangana, India'
+applicationLink: 'https://job-boards.greenhouse.io/celigo/jobs/7270158'
+postedDate: '2025-09-30T13:35:53.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - Design automation
+  - Develop tests
+  - Maintain scripts
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___celigo___7270158'
+companyLogoUrl: null
+---
+**Overview**
+We’re revolutionizing the integration industry and we want you to join us! Our core mission at Celigo is simple: To make automation as simple as possible by enabling anyone in the enterprise to build or deploy integrations. You get the best of both worlds: a start-up opportunity at a company that has already established itself in the market with thousands of happy customers.
+**We’re looking for a Salesforce Dev/QA Engineer** to help design, build out and automate our DevOps process, using the latest technologies in AI and automation.
+Key Responsibilities
+--------------------
+*   Design, develop, and maintain automated test scripts for Salesforce applications using approved automation tools and frameworks.
+*   Ensure all use cases are documented and updated to all for automated end-to-end testing.
+*   Design QA automation plan and integrate to the existing DevOps process.
+*   Develop and execute test plans tailored to Salesforce-specific functionalities that use Flows, Triggers, Apex Jobs, and others.
+*   Leverage AI technologies to drive test creation, low-code/no-code interfaces, and intelligent bug detection.
+*   Perform other testing-related tasks as required, ensuring alignment with organizational goals.
+*   Design and develop Salesforce Apex triggers inline with industry best practices.
+*   Partner with developers, product owners, and business analysts to ensure a comprehensive understanding of business processes, software implementation, and their testing requirements.
+*   Clearly communicate testing progress, challenges, and resolutions to stakeholders in a clear and timely manner.
+*   Maintain data quality across core GTM systems.
+*   Work with Agile development methodologies.
+*   Monitor, maintain, and enforce quality metrics.
+*   Collaborate with the team to improve documentation and testing processes.
+*   Stay updated on the latest industry trends, tools, and best practices related to QA automation.
+Qualifications
+--------------
+*   Bachelor’s degree in Computer Science, Data Science, Math, or a related Engineering field, or equivalent industry experience.
+*   At least 2 years of experience in software testing, with a focus on Salesforce applications preferred.
+*   At least 1 year of experience designing and implementing on automated development and testing platforms, like Jira, Gearset, AccelQ and Selenium.
+*   Experience with object-oriented programming languages (e.g. Apex, Python, JavaScript, TypeScript, or Java).
+*   Experience applying AI automation and standard tools to streamline the testing process.
+*   Discipline in software development best practices and familiarity with common tools (e.g. version control, code review)
+*   Familiarity with quality metrics, including escaped defects, reliability, repeatability, and resiliency.
+### Highly Desirable Skills/Experience
+*   Strong foundation in Apex and familiarity with Salesforce-specific automations (e.g., Flows, Triggers) and Apex Jobs.
+*   Experience in Salesforce query languages (SOQL and SOSL) and API technologies (SOAP and REST).
+*   Knowledge of Salesforce development tools and ecosystems, including Lightning Web Components, Aura, CI/CD pipelines and DevOps Center.
+*   Related experience in the financial or investment sector is a big plus
+*   Experience in working with Gearset development platform.
+**Why you’ll love it here:**
+*   **Everything Integrated.** We are solving a really hard problem that affects almost every business on the planet: integrating cloud apps
+*   **iPaaS Leader.** We’re at an exciting crossroads as we re-imagine the Integration and iPaaS space. This will take teamwork, creativity, strategic thinking, and a willingness to advance the market.
+*   **Take A Stand**. We’re a company that stands for something. Celigo’s Taking a Stand initiative has the goal to promote diversity, equity, and inclusion.
+*   **Work. Life. Balanced.** Starting your first year, we offer paid vacation plans, plus holidays to recharge and spend time with family and friends.
+*   **Perks.** We offer a strong benefits package, a tech stipend, pre-tax commuter expense reimbursement, recognition opportunities, and many other cool perks.
+Celigo is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements.

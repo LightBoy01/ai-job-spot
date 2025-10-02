@@ -18,6 +18,7 @@ export const StandardJobSchema = z.object({
   source: z.string(), // e.g., 'hiring.cafe', 'yc'
   sourceUrl: z.string().url().nullable(),
   companyLogoUrl: z.string().url().nullable(),
+  hasSalary: z.boolean().optional(),
   description: z.string(), // The main body content in Markdown format
   responsibilities: z.array(z.string()),
   qualifications: z.array(z.string()),

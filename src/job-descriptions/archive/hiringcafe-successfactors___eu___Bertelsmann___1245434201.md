@@ -1,0 +1,53 @@
+---
+id: hiringcafe-successfactors___eu___Bertelsmann___1245434201
+title: 'Senior Process Excellence Manager (m/w/d) (Berlin, BE, DE, 10623)'
+company: Create Your Own Career
+location: Berlin or Amsterdam or Stockholm or Baden-Baden or Verl or Münster
+applicationLink: >-
+  https://jobsearch.createyourowncareer.com/Riverty/job/Berlin-Senior-Process-Excellence-Manager-%28mwd%29-BE-10623/1245434201/
+postedDate: '2025-09-30T13:48:16.919Z'
+expirationDate: null
+tags:
+  - Project and Program Management
+  - analyzing processes
+  - collaborating stakeholders
+  - monitoring systems
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___Bertelsmann___1245434201'
+companyLogoUrl: null
+---
+**Be the Multiplier of Efficiency at Scale**
+Riverty is on a mission to transform how we work — one process at a time. As part of our Global Process Excellence team, you’ll sit at the intersection of data, technology, and operational strategy, building bridges between business challenges and intelligent solutions.
+**We are looking for a**
+**Senior Process Excellence Manager (m/f/d)**
+**(unlimited, full-time) Join our team at one of our locations in Berlin, Amsterdam, Stockholm, Baden-Baden, Verl or Münster – flexible working conditions available**
+This is not a passive process improvement role. It's a transformation driver position for someone who thrives in a fast-paced, data-rich environment, and wants to make impact at scale.
+**Your Mission:**
+*   You take the lead in analyzing and reimagining high-impact business and operational processes, uncovering efficiency wins and unlocking the potential of AI and automation
+*   You team up with stakeholders across business, operations, and IT to streamline and standardize processes, driving scalable and future-ready solutions
+*   You build resilient processes that run smoothly and smartly, by implementing real-time monitoring, alerting systems, and strong incident & problem management frameworks
+*   You spearhead Process Intelligence initiatives — from discovery to modeling to rollout, always focused on delivering measurable impact and clear ROI
+*   You inspire and coach others in structured improvement approaches, embedding a mindset of continuous excellence into everyday operations
+**Your Profile:**
+*   You have several years of hands-on experience in process and/or operational excellence, ideally gained in a fast-paced, international environment
+*   You have a sharp eye for identifying high-value transformation opportunities, with a strong grasp of AI and automation potential — from initial discovery to defining business requirements and scoping impactful use cases
+*   You are a natural facilitator and communicator — confident in aligning stakeholders, telling compelling stories with data, and driving decisions through value-based prioritization.
+*   You thrive at the intersection of operations, IT, and data science, with a proven ability to translate complex challenges into actionable, tech-enabled solutions
+*   You are fluent in English (written and spoken) — German skills are a plus, but not mandatory
+**Plus if you bring:**
+*   You bring advanced, hands-on expertise with leading process mining tools like Celonis or Signavio — and know how to turn insights into real business impact
+*   You are a certified Lean Six Sigma Black Belt, with a strong track record of driving measurable cost and time savings through data-driven process improvement
+*   You have successfully led global and cross-market transformation initiatives, navigating complexity with confidence and delivering results across diverse teams and regions
+**Why Join Riverty’s Global Process Excellence Team?**
+*   Drive company-wide operational improvements
+*   Work hands-on with the latest AI, automation, and process mining technologies
+*   Be part of a globally embedded, high-impact team across Europe
+*   Thrive in a collaborative culture that values bold thinking and smart execution
+**Join Us — and Redesign the Way We Work**
+If you're passionate about solving operational complexity with smart tools and structured thinking — we’d love to hear from you.
+#DE18

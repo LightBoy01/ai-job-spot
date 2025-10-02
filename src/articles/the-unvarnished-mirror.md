@@ -1,18 +1,18 @@
 ---
 title: 'The Unvarnished Mirror: A Framework for Intellectual Honesty'
-slug: 'the-unvarnished-mirror'
-author: 'The AI Strategist'
+slug: the-unvarnished-mirror
+author: The AI Strategist
 publishDate: '2025-08-22T16:37:14Z'
 tags:
-  [
-    'Mental Models',
-    'Decision Making',
-    'Career Strategy',
-    'Intellectual Honesty',
-  ]
-imageUrl: '/images/articles/the-unvarnished-mirror.svg'
+  - Mental Models
+  - Decision Making
+  - Career Strategy
+  - Intellectual Honesty
+imageUrl: /images/articles/the-unvarnished-mirror.svg
 issueNo: 25
 volumeNo: 1
+hub: Mental Models & Frameworks
+contentType: editorial
 ---
 
 In an industry defined by exponential curves and breathless hype, the pressure to project certainty is immense. We are incentivized to have a hot take on the latest model, a confident prediction about the next market shift, a polished narrative of our own expertise.

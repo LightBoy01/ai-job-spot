@@ -1,0 +1,47 @@
+---
+id: hiringcafe-grnhse___groupon___4668576101
+title: AI Motion Designer
+company: Groupon
+location: 'Prague, Czech Republic'
+applicationLink: 'https://job-boards.eu.greenhouse.io/groupon/jobs/4668576101'
+postedDate: '2025-09-26T15:11:37.000Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Create templates
+  - Produce content
+  - Automate workflows
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___groupon___4668576101'
+companyLogoUrl: null
+---
+Groupon is a marketplace where customers discover new experiences and services everyday and local businesses thrive. To date we have worked with over a million merchant partners worldwide, connecting over 16 million customers with deals across various categories. In a world often dominated by e-commerce giants, we stand out as one of the few platforms uniquely committed to helping local businesses succeed on a performance basis.
+Groupon is on a radical journey to transform our business with relentless pursuit of results. Even with thousands of employees spread across multiple continents, we still maintain a culture that inspires innovation, rewards risk-taking and celebrates success. The impact here can be immediate due to our scale and the speed of our transformation. We're a "best of both worlds" kind of company. We're big enough to have the resources and scale, but small enough that a single person has a surprising amount of autonomy and can make a meaningful impact.
+📍 **Prague** (remote within Czech Republic)
+Ready to push motion design into the **AI era 🤖**? We’re looking for an AI **Motion Designer** who can combine **technical fluency (JSON, APIs, automation)** with a sharp eye for **visual rhythm, storytelling, and design consistency**
+Here, you won’t just make one video after another. You’ll **build systems and templates** that generate hundreds of high-quality videos across web, app, social, and performance channels.
+### **🚀 What You’ll Do**
+*   Create **modular templates and prompts** that turn brand guidelines into machine-readable rules.
+*   Produce **AI-first video content** using tools like Runway, Pika, Veo, Krea, ComfyUI.
+*   **Automate workflows** - from validation to exports.
+*   Collaborate with growth and marketing teams to create variants that directly impact CTR and CVR.
+### **💪 Who You Are**
+*   **4+ years** in motion design / generative media with a portfolio that includes **AI projects**.
+*   Experience with **structured prompts, templates, JSON schemas**.
+*   A **systems thinker** who designs for scale and repeatability.
+*   Nice to have: scripting (Python, APIs) or localization workflows.
+### **💚 Why Join Us**
+*   Help **define how AI-powered creative production works 🌍** at a global brand.
+*   Own key systems with space to experiment.
+*   Work where **creativity, technology, and measurable impact** meet.
+If you’re excited about the intersection of **design, AI, and automation** - let’s talk!
+👉 If this role excites you, please send us your application **together with a portfolio that includes AI-generated work.**
+[**Groupon**](https://www.groupon.com) **is an AI-First Company**
+We’re committed to building smarter, faster, and more innovative ways of working—and AI plays a key role in how we get there. We encourage candidates to **leverage AI tools** during the hiring process where it adds value, and we’re always keen to hear how technology improves the way you work. If you’re passionate about AI or curious to explore how it can elevate your role—**you’ll be right at home here.**
+Groupon’s purpose is to build strong communities through thriving small businesses. To learn more about the world’s largest local e-commerce marketplace, click [here](https://www.groupon.com/articles/about). You can also find out more about us in the latest [Groupon new](https://www.groupon.com/articles/press)s as well as learning about our [DEI approach](https://www.groupon.com/articles/dei). If all of this sounds like something that’s a great fit for you, then click apply and join us on a mission to become the ultimate destination for local experiences and services.
+**Beware of Recruitment Fraud:** Groupon follows a merit-based recruitment process without charging job seekers any fees. We've noticed an increase in recruitment fraud, including fake job postings and fraudulent interviews and job offers aimed at stealing personal information or money. Be cautious of individuals falsely representing Groupon's Talent Acquisition team with fake job offers. If you encounter any suspicious job offers or interview calls demanding money, recognize these as scams. Groupon is not responsible for losses from such dealings. For legitimate job openings (and a sneak peek into life at Groupon), always check our official career website at [Groupon Careers](https://www.grouponcareers.com/)

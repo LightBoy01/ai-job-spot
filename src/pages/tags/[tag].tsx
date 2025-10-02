@@ -4,13 +4,13 @@ import Layout from '@/components/Layout';
 import JobCard from '@/components/JobCard';
 import ArticleCard from '@/components/ArticleCard';
 import { getAllTags, getJobsByTag, getArticlesByTag } from '@/lib/firestoreClient';
-import { SerializedJobPosting, SerializedArticleSummary } from '@/lib/types';
+import { SerializedArticleSummary, SerializedJobSummary } from '@/lib/types';
 import AdContainer from '@/components/AdContainer';
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 
 interface TagPageProps {
   tag: string;
-  initialJobs: SerializedJobPosting[];
+  initialJobs: SerializedJobSummary[];
   initialArticles: SerializedArticleSummary[];
   lastJobDocId: string | null;
   lastArticleDocId: string | null;
@@ -23,7 +23,7 @@ const TagPage: NextPage<TagPageProps> = ({
   lastJobDocId,
   lastArticleDocId,
 }) => {
-  const [displayedJobs, setDisplayedJobs] = useState(initialJobs);
+  const [displayedJobs, setDisplayedJobs] = useState<SerializedJobSummary[]>(initialJobs);
   const [displayedArticles, setDisplayedArticles] = useState(initialArticles);
   const [loadingJobs, setLoadingJobs] = useState(false);
   const [loadingArticles, setLoadingArticles] = useState(false);
@@ -227,20 +227,36 @@ export const getStaticProps: GetStaticProps<
     props: {
       tag,
       initialJobs: jobs.map((job) => ({
-        ...job,
+        // Only include fields used by JobCard
+        id: job.id!,
+        title: job.title,
+        company: job.company,
+        location: job.location,
+        salaryRange: job.salaryRange ?? null,
+        isNew: job.isNew ?? false,
+        isFeatured: job.isFeatured ?? false,
+        companyLogoUrl: job.companyLogoUrl ?? null,
+        verificationDate: job.verificationDate ? job.verificationDate.toISOString() : null,
+        sourceUrl: job.sourceUrl ?? null,
+        jobLevel: job.jobLevel ?? null,
+        source: job.source ?? null,
+        tags: job.tags ?? [],
         postedDate: job.postedDate.toISOString(),
-        expirationDate: job.expirationDate
-          ? job.expirationDate.toISOString()
-          : null,
-        verificationDate: job.verificationDate
-          ? job.verificationDate.toISOString()
-          : null,
+        expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
+        applicationLink: job.applicationLink, // <-- ADDED THIS LINE
       })),
       initialArticles: articles.map((article) => ({
-        ...article,
-        publishDate: article.publishDate
-          ? article.publishDate.toISOString()
-          : '',
+        id: article.id!,
+        title: article.title,
+        author: article.author,
+        publishDate: article.publishDate ? article.publishDate.toISOString() : null,
+        slug: article.slug,
+        contentType: article.contentType ?? 'editorial',
+        issueNo: article.issueNo ?? 1,
+        volumeNo: article.volumeNo ?? 1,
+        imageUrl: article.imageUrl ?? null,
+        tags: article.tags ?? [],
+        excerpt: article.excerpt ?? '',
       })),
       lastJobDocId: lastJobDoc ? lastJobDoc.id : null,
       lastArticleDocId: lastArticleDoc ? lastArticleDoc.id : null,

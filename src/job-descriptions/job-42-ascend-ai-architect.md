@@ -57,12 +57,9 @@ story_answer3: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.301Z'
 ---
-
 PURPOSE:
 The AI Architect shapes Ascend's enterprise AI strategy and roadmap through hands-on innovation and strategic design. This role partners with teams to identify and prioritize AI opportunities, turn grassroots experimentation into scalable solutions, and ensure outcomes are secure, compliant, and impactful. By leading through influence, the AI Architect accelerates responsible AI adoption across the company and drives measurable business transformation.
-
 ### Responsibilities
-
 - Shape and evolve the company's AI strategy in alignment with business priorities.
 - Define vision, principles, and success metrics for AI adoption.
 - Act as an internal advocate and thought leader for responsible AI innovation.
@@ -77,9 +74,7 @@ The AI Architect shapes Ascend's enterprise AI strategy and roadmap through hand
 - Define and track KPIs to measure effectiveness and ROI.
 - Use insights to refine strategy and accelerate adoption.
 - Report progress and outcomes to leadership.
-
 ### Qualifications
-
 - Experience with Generative AI tools (ChatGPT, Gemini, Claude, etc.).
 - Familiarity with enterprise AI platforms (ServiceNow Now Assist, Salesforce Einstein, Microsoft Copilot, Azure AI Foundry).
 - Skilled in prompt engineering, workflow design, and reusable playbooks.

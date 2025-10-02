@@ -4,7 +4,7 @@ title: Product Manager – Sales Support Automation and AI
 company: Atlassian
 location: 'San Francisco, California, United States'
 applicationLink: >-
-  https://globalmobility-careers-atlassian.icims.com/jobs/22795/product-manager-%e2%80%93-sales-support-automation-and-ai/job?mobile=true&width=360&height=617&bga=true&needsRedirect=false&jan1offset=60&jun1offset=60
+  https://globalmobility-careers-atlassian.icims.com/jobs/22795/product-manager-–-sales-support-automation-and-ai/job?mobile=true&width=360&height=617&bga=true&needsRedirect=false&jan1offset=60&jun1offset=60
 postedDate: '2025-09-22'
 expirationDate: '2025-12-22'
 tags:
@@ -57,13 +57,9 @@ story_answer3: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.214Z'
 ---
-
 **Working at Atlassian**
-
 Atlassians can choose where they work – whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. Interviews and onboarding are conducted virtually, a part of being a distributed-first company.
-
 ### Responsibilities
-
 - Work closely with customer service and velocity sales teams to identify and implement Artificial Intelligence(AI) solutions and automation into existing workflows to drive efficiency, applying analytical and data-driven approaches tofinding solutions.
 - Drive strategy, vision, and roadmap for automation and AI solutions in Sales and Support processes andalign them with company goals and objectives, leveraging both quantitative and qualitative data.
 - Partner with internaltechnology teams to support and deliver new capabilities and system improvements that increase the efficiency andeffectiveness of our Sales and Support teams.
@@ -79,9 +75,7 @@ Atlassians can choose where they work – whether in an office, from home, or a 
 - Work independently with little or no supervision while maintaining a high level of efficiency, within adistributed remote and global organization.
 - Effectively communicate roadmap updates to a wide stakeholder audience.
 - Adopt a metrics-guided approach using data to frame, inform, and guide the prioritization and decision-making process, tomanage the health of assigned projects through delivery, and to assess the success and impact.
-
 ### Qualifications
-
 - Must have a Bachelor’s degree in Computer Science, Electronic Engineering, or a related field of study.
 - Must have six (6) years of progressive product management experience, including experience building and developingautomation and AI tools, such as UiPath, Workato, and Camunda, for marketing, sales, and support organizations in SaaScompanies to improve efficiency.
 - Must have six (6) years of experience leading sales or customer support related tools and systems for internal salesstrategy/ops/support organizations.

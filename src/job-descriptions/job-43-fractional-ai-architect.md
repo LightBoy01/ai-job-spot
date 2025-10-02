@@ -48,11 +48,8 @@ story_answer3: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.295Z'
 ---
-
 As an AI Architect at Fractional AI, you are the technical face of our business to prospective clients. You will combine your technical chops and communication skills to advise stakeholders ranging from CTOs to operational business leaders with limited AI exposure. You will work with our Commercial Leader, CTO, and CEO to craft winning solutions and put structure around ambiguous problems.
-
 ### Responsibilities
-
 - Run discovery & design workshops with private equity firms and enterprise prospects, surfacing high‑impact gen AI opportunities, building high-level roadmaps, and defining requirements
 - Architect robust AI solutions, articulate trade‑offs, and make recommendations on tools and technologies
 - Define the scope of implementation projects including timelines, upfront and ongoing cost projections, and risks
@@ -60,9 +57,7 @@ As an AI Architect at Fractional AI, you are the technical face of our business 
 - Serve as a technical advisor and thought partner to clients, including providing insights on trends and the evolving technology landscape
 - Produce persuasive artifacts including technical briefs, current‑vs‑future process flow diagrams, and a rock‑solid hand‑off package for our delivery teams
 - Bring automation to our GTM motion wherever you see opportunity
-
 ### Qualifications
-
 - 8+ years combined experience as a Sales Engineer, Solutions Architect, Deployment Strategist, Software Engineer, and/or Technical Product Manager
 - Ability to converse as a peer with senior technical leaders and make complex concepts digestible for AI‑naïve stakeholders.
 - You tell crisp, technical stories grounded in relevant anecdotes from your experience with strong presentation skills.

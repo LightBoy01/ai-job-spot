@@ -47,15 +47,10 @@ story_answer3: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.289Z'
 ---
-
 At Button, our mission is to build a better internet fueled by commerce. We partner with some of the world’s largest and most innovative companies to connect people with the products and services they love—with a single tap. We’re passionate about creating great user experiences, pioneering mobile commerce solutions, and having fun while we do it.
-
 We’re looking for an AI Intern who’s excited to explore, prototype, and implement AI-driven solutions that create cross-functional efficiencies across Button—from commercial and marketing, to finance, to legal, and beyond. This internship is a hands-on opportunity to work alongside experienced team members across departments, gain exposure to practical AI applications in business, and directly impact the way we work.
-
 This position will be based out of Button’s NYC Hub; in-person collaboration is preferred at least three days per week.
-
 ### Responsibilities
-
 - Collaborate with teams across the company (engineering, product, sales, partner success, legal, finance, marketing, and more) to identify opportunities where AI can streamline workflows or unlock new capabilities.
 - Prototype, test, and implement AI-powered tools, automations, and workflows using technologies like large language models (LLMs), generative AI APIs, and data analysis frameworks.
 - Conceptualize, scope and support projects that bring efficiencies to operations—such as document review, contract analysis, financial modeling, or content generation.
@@ -63,9 +58,7 @@ This position will be based out of Button’s NYC Hub; in-person collaboration i
 - Stay up to date with the evolving AI landscape and share insights with Button’s team; evangelize AI as the company’s “AI Ambassador.”
 - Propose ideas that apply AI creatively to Button’s business challenges.
 - Learn from and be mentored by experienced professionals across multiple disciplines, building both technical and business acumen.
-
 ### Qualifications
-
 - You are in the process of obtaining a Bachelor’s or Master’s degree in Computer Science, Data Science, AI/ML, Business Analytics, or a related field.
 - You’ve built projects or gained experience using Python, JavaScript, or similar languages, and you’re comfortable experimenting with APIs and data.
 - You’re curious about applying AI beyond engineering—solving problems in marketing, sales, finance, legal, or operations.

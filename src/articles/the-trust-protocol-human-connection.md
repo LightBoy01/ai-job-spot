@@ -14,6 +14,8 @@ tags:
   - AI Ethics
   - Collaboration
 imageUrl: /images/articles/the-trust-protocol-human-connection.svg
+hub: Mental Models & Frameworks
+contentType: editorial
 ---
 
 In the intricate tapestry of the modern workforce, where digital platforms mediate interactions and artificial intelligence increasingly automates processes, there exists an invisible yet indispensable infrastructure: trust. While we meticulously design algorithms for efficiency and build networks for connectivity, the true resilience and productivity of any team, any organization, and indeed, any career, hinges on the unspoken, often unquantifiable, presence of trust. In an age where our professional lives are increasingly digitally mediated, understanding and actively engineering human connection becomes the most critical protocol of all.

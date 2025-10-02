@@ -6,6 +6,9 @@ publishDate: 2025-07-05T11:00:00.000Z
 issueNo: 1
 volumeNo: 1
 imageUrl: /images/articles/ai-in-cybersecurity.svg
+hub: AI & The World
+tags: []
+contentType: editorial
 ---
 
 Your digital life is the second home you inhabit. It contains your assets, your relationships, your identity. Yet, most of us live in this home with the doors unlocked and the windows wide open, vaguely hoping that a distant, corporate alarm system will protect us. We have outsourced our sovereignty.

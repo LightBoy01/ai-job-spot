@@ -53,6 +53,7 @@ describe('seedFirestore.ts - processDirectory', () => {
     // Mock the file system to return one job file
     mockFs.readdir.mockResolvedValue(['test-job-1.md'] as any);
     mockFs.readFile.mockResolvedValue(mockFileContent);
+    mockFs.stat.mockResolvedValue({ size: 500 } as any); // Add this mock
 
     // Mock gray-matter to parse the frontmatter and content
     mockMatter.mockReturnValue({
@@ -93,12 +94,14 @@ describe('seedFirestore.ts - processDirectory', () => {
         publishDate: '2025-09-24',
         issueNo: 1,
         volumeNo: 1,
+        contentType: 'editorial', // Add missing field
     };
 
     const mockFileContent = '---\n...frontmatter...\n---\nThis is the article body.';
 
     mockFs.readdir.mockResolvedValue(['test-article.md'] as any);
     mockFs.readFile.mockResolvedValue(mockFileContent);
+    mockFs.stat.mockResolvedValue({ size: 500 } as any); // Add this mock
 
     mockMatter.mockReturnValue({
         data: mockArticleData,
@@ -138,5 +141,37 @@ describe('seedFirestore.ts - processDirectory', () => {
     expect(consoleErrorSpy).toHaveBeenCalled(); // Ensure the failure was logged
 
     consoleErrorSpy.mockRestore();
+  });
+
+  it('should correctly parse contentType from article frontmatter', async () => {
+    // --- Arrange ---
+    const mockArticleData = {
+        slug: 'content-type-article',
+        title: 'Article with Content Type',
+        author: 'Tester',
+        publishDate: '2025-10-02',
+        issueNo: 1,
+        volumeNo: 1,
+        contentType: 'editorial', // The field we are testing
+    };
+
+    const mockFileContent = '---\n...frontmatter...\n---\nArticle body.';
+
+    mockFs.readdir.mockResolvedValue(['content-type-article.md'] as any);
+    mockFs.readFile.mockResolvedValue(mockFileContent);
+    mockFs.stat.mockResolvedValue({ size: 500 } as any); // Add this mock
+    mockMatter.mockReturnValue({
+        data: mockArticleData,
+        content: 'Article body.',
+    });
+
+    // --- Act ---
+    const result = await processDirectory('/fake/articles/dir', 'articles');
+
+    // --- Assert ---
+    expect(result).toHaveLength(1);
+    const processedArticle = result[0];
+    expect(processedArticle.slug).toBe('content-type-article');
+    expect(processedArticle.contentType).toBe('editorial'); // Verify the new field is parsed
   });
 });

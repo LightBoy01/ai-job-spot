@@ -1,0 +1,68 @@
+---
+id: hiringcafe-oraclecloud___efds.fa.em5___51894
+title: Financial Analyst
+company: Ford Motor Company
+location: 'Long Beach, California, United States'
+applicationLink: >-
+  https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/51894
+postedDate: '2025-09-30T13:42:50.000Z'
+expirationDate: null
+tags:
+  - Finance and Accounting
+  - Develop financial models
+  - Analyze scenarios
+  - Present findings
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/oraclecloud___efds.fa.em5___51894'
+companyLogoUrl: null
+---
+We are the movers of the world and the makers of the future. We get up every day, roll up our sleeves and build a better world -- together. At Ford, we’re all a part of something bigger than ourselves. Are you ready to change the way the world moves?
+Finance strategically partners with operations to drive outstanding business results and enhance Ford’s industry leadership. When you join us, you’ll be able to contribute financial expertise that impacts all areas of our company, including planning, manufacturing, marketing and global distribution.
+**In this position…**
+We offer a chance to join a new "skunk works" group at Ford on a mission to completely change how electric vehicles are made. We are a small, agile team operating with a high level of autonomy to develop the UEV (Universal Electrification Vehicle) platform—the key to delivering Ford's next-gen, affordable EV.
+The Best of Both Worlds: The speed, autonomy, and impact of a startup, backed by the resources and legacy of Ford.
+Unprecedented Impact: Your work won't just optimize a spreadsheet; it will directly shape the financial success of the most critical product in Ford's modern history and help define the future of the American auto industry.
+A Masterclass in Business: Get a front-row seat to building a multi-billion dollar business within a business. Master the complexities of an EV P&L from R&D to production, a skillset that is invaluable and rare.
+A Mission-Driven Culture: Join a hand-picked, high-performing team that is energized by the challenge and united by the goal of making history.
+This is a rare opportunity to help reinvent a 125-year-old American icon from the inside, solve one of the most exciting problems in the automotive industry, and make the world a greener place.
+### Responsibilities
+**What you'll do...**
+*   Build the Financial Foundation: Develop and own the financial models, cost analyses, and profitability forecasts for a groundbreaking new EV platform from the ground up.
+*   Be a Proactive Problem-Solver: Go beyond the numbers to independently identify financial risks in our supply chain, manufacturing process, and go-to-market strategy. Your job is to anticipate bottlenecks and clear the path for the engineering and product teams.
+*   Drive Strategy with Data: Analyze complex financial scenarios to guide critical decisions on everything from material sourcing to vehicle pricing, ensuring we stay on track to hit our ambitious cost and profitability targets.
+*   Communicate the Vision: Work directly with our leadership to translate complex financial data into a clear story, providing the visibility needed to navigate this high-stakes project.
+### Qualifications
+**You'll have...**
+*   Bachelors in Finance, Engineering or related field
+**Who We're Looking For Core Qualifications:**
+*   A True Team Player: You thrive in a collaborative, mission-driven environment where team success is the ultimate goal.
+*   Demonstrated Proactive Mindset: You have a history of anticipating needs and running projects autonomously. In a skunk works setting, you must be able to solve problems without waiting to be asked.
+*   Comfortable with Ambiguity: You excel in a fast-paced, startup-like environment where the path isn't always clear and you're empowered to help chart it.
+*   Financial Acumen: You have expert-level proficiency with complex financial modeling and Excel. You can build, but you can also simplify.
+*   Eager to Learn: You have a deep curiosity to learn the intricate financial levers of the automotive industry and a passion for our mission.
+**Even better, you may have…**
+*   Some experience with coding (Python), AI, and/or automation experience.
+**This is an Hybrid role, in Long Beach, CA, in-person 4 days per week and remote 1 day per week.**
+You may not check every box, or your experience may look a little different from what we've outlined, but if you think you can bring value to Ford Motor Company, we encourage you to apply!
+As an established global company, we offer the benefit of choice. You can choose what your Ford future will look like: will your story span the globe, or keep you close to home? Will your career be a deep dive into what you love, or a series of new teams and new skills? Will you be a leader, a changemaker, a technical expert, a culture builder…or all of the above? No matter what you choose, we offer a work life that works for you, including:
+• Immediate medical, dental, vision and prescription drug coverage
+• Flexible family care days, paid parental leave, new parent ramp-up programs, subsidized back-up child care and more
+• Family building benefits including adoption and surrogacy expense reimbursement, fertility treatments, and more
+• Vehicle discount program for employees and family members and management leases
+• Tuition assistance
+• Established and active employee resource groups
+• Paid time off for individual and team community service
+• A generous schedule of paid holidays, including the week between Christmas and New Year’s Day
+• Paid time off and the option to purchase additional vacation time.
+For more information on salary and benefits, click here:
+[BENEFITS](https://fordcareers.co/GSRSP1)
+**This position is a range of salary grades SG5-SG8 .**
+**Visa sponsorship is not available for this position.**
+Candidates for positions with Ford Motor Company must be legally authorized to work in the United States. Verification of employment eligibility will be required at the time of hire.
+We are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, religion, color, age, sex, national origin, sexual orientation, gender identity, disability status or protected veteran status. In the United States, if you need a reasonable accommodation for the online application process due to a disability, please call 1-888-336-0660.
+This position is hybrid. Candidates who are in commuting distance to a Ford hub location may be required to be onsite four or more days per week**. #LI-Hybrid   #LI-MN1**

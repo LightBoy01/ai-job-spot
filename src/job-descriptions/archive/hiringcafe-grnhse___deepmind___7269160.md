@@ -1,0 +1,53 @@
+---
+id: hiringcafe-grnhse___deepmind___7269160
+title: 'Technical Program Manager, GeminiApp, Gemini Live'
+company: DeepMind
+location: 'Mountain View, California, United States'
+applicationLink: 'https://job-boards.greenhouse.io/deepmind/jobs/7269160'
+postedDate: '2025-09-23T19:49:45.000Z'
+expirationDate: null
+tags:
+  - Project and Program Management
+  - lead launches
+  - manage dependencies
+  - partner with leads
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$183,000 - $271,000'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___deepmind___7269160'
+companyLogoUrl: null
+---
+**Snapshot**
+At Google DeepMind, we value diversity of experience, knowledge, backgrounds and perspectives and harness these qualities to create extraordinary impact. We are committed to equal employment opportunities regardless of sex, race, religion or belief, ethnic or national origin, disability, age, citizenship, marital, domestic or civil partnership status, sexual orientation, gender identity, pregnancy, or related condition (including breastfeeding) or any other basis as protected by applicable law. If you have a disability or additional need that requires accommodation, please do not hesitate to let us know.
+This is an exciting opportunity to join Google DeepMind and play a key role in shaping the future of the Gemini App Core Experience, for Gemini Live!  As a Technical Program Manager, you'll drive the strategy and execution of high-impact Gemini launches across web, mobile, and iOS platforms. You'll be working directly with our Engineering, Product and UX teams and other GDM units on cutting-edge language models to deliver groundbreaking solutions to a massive user base. This role offers hands-on project leadership, the opportunity to build innovative features, and make a real difference in how people interact with AI. Join our dynamic, fast-paced, and startup-like environment where you'll be constantly pushing the boundaries of what's possible with AI.
+**About Us**
+Artificial Intelligence could be one of humanity’s most useful inventions. At Google DeepMind, we’re a team of scientists, engineers, machine learning experts and more, working together to advance the state of the art in artificial intelligence. We use our technologies for widespread public benefit and scientific discovery, and collaborate with others on critical challenges, ensuring safety and ethics are the highest priority.
+**The Role**
+This is a unique opportunity to join the GeminiApp team and contribute to shaping the future of the Gemini App Core Experience in Gemini Live. This role will require the following skills:
+*   Lead and drive progress on critical feature launches across the Gemini Live ecosystem.
+*   Identify and manage cross-functional dependencies across teams and organizations.
+*   Partner with engineering and product leads to shape product direction and ensure successful execution.
+*   Drive engineering teams to identify, prioritize, and track tasks towards completion.
+*   Proactively identify risks, develop mitigation plans, and implement solutions.
+*   Communicate progress, risks, and plans to leadership regularly.
+*   Identify and implement process improvements to enhance team efficiency.
+*   Manage multiple time-sensitive projects concurrently.
+*   Foster a collaborative and inclusive team culture that values innovation and excellence.
+*   Advocate for the team's needs and ensure they have the resources and support to succeed.
+**About You**
+In order to set you up for success as a Technical Program Manager at Google DeepMind, we look for the following skills and experience:
+*   Strong technical background with demonstrated expertise in machine learning and generative AI.
+*   Excellent program management and strategic planning skills to effectively drive projects forward.
+*   Exceptional communication and influencing skills, with the ability to build strong relationships and drive alignment among diverse stakeholders
+In addition, the following would be an advantage:
+*   Master’s degree in Computer Science or a related field, or equivalent practical experience
+*   10+ years of experience in technical program management, with a proven track record of leading complex, cross-functional programs from inception to launch
+*   Experience working in a fast-paced, dynamic environment (e.g., startup) with a bias toward action
+*   Proven experience shipping successful products or features to consumers, showcasing a deep understanding of user needs and the ability to translate them into tangible results
+_The US base salary range for this full-time position is between $183,000 USD - 271,000 USD + bonus + equity + benefits. Your recruiter can share more about the specific salary range for your targeted location during the hiring process._
+_**Application deadline:** 12pm GMT Thursday 7th October 2025_
+_Note: In the event your application is successful and an offer of employment is made to you, any offer of employment will be conditional on the results of a background check, performed by a third party acting on our behalf. For more information on how we handle your data, please see our Applicant and Candidate Privacy Policy_
+_At Google DeepMind, we value diversity of experience, knowledge, backgrounds and perspectives and harness these qualities to create extraordinary impact. We are committed to equal employment opportunity regardless of sex, race, religion or belief, ethnic or national origin, disability, age, citizenship, marital, domestic or civil partnership status, sexual orientation, gender identity, pregnancy, or related condition (including breastfeeding) or any other basis as protected by applicable law. If you have a disability or additional need that requires accommodation, please do not hesitate to let us know._

@@ -1,0 +1,82 @@
+---
+id: hiringcafe-ashby___ordio___491073e7-146c-4911-afc7-07b0ee05888b
+title: Head of Product Development (m/f/d)
+company: Ordio GmbH
+location: Germany
+applicationLink: 'https://jobs.ashbyhq.com/ordio/491073e7-146c-4911-afc7-07b0ee05888b'
+postedDate: '2025-09-30T12:36:53.213Z'
+expirationDate: null
+tags:
+  - Product Management
+  - define roadmap
+  - lead teams
+  - align strategy
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/ashby___ordio___491073e7-146c-4911-afc7-07b0ee05888b'
+companyLogoUrl: null
+---
+**Location:** Around Cologne (WeWork) · **Team:** Leadership · **Type:** Full‑time
+Why Ordio
+---------
+80% of employees worldwide don’t work at a desk. Ordio 💙 is the all‑in‑one SaaS platform that helps organisations manage and empower this workforce: shift planning, time tracking, absence & document management, powered by modern AI.
+We’re an ambitious HR tech startup, scaling fast in Germany. We believe AI can make work better for millions of people by simplifying admin, enabling smarter decisions, and giving employees the tools they deserve.
+The Role
+--------
+We’re looking for a **Head of Product** to own our product vision, strategy, and execution. This is a leadership role where you’ll shape Ordio’s roadmap, lead a growing product team, and partner closely with Engineering, and Commercial to scale our impact.
+As a member of the leadership team, you’ll report directly to the founders and play a critical role in defining how Ordio wins in the HR tech market.
+What You’ll Do
+--------------
+*   Define and drive the **product vision, strategy, and execution** for Ordio’s SaaS platform.
+*   Lead and grow a team of **PMs & Engineering leads**.
+*   Champion **customer‑centric discovery**: engage directly with HR leaders, managers, and deskless workers to uncover needs.
+*   Translate insights into a clear roadmap, balancing **AI innovation** with pragmatic delivery.
+*   **Prioritise ruthlessly**: align product bets to company OKRs and growth goals.
+*   Build scalable **product practices**: discovery rituals, outcome‑driven roadmaps, product analytics, and experimentation.
+*   Represent Product at leadership level; partner with Sales, Marketing, and Customer Success to ensure market fit and commercial success.
+What Sets You Up For Success
+----------------------------
+**Must‑haves**
+*   7+ years in product management, with 3+ in a leadership role.
+*   Proven track record building and scaling **B2B SaaS products**, ideally in HR tech or workflow tools.
+*   **AI‑driven products** or AI Enthusiast.
+*   Skilled at building and coaching product teams (PMs, Design, Research).
+*   Excellent communicator: able to align stakeholders and inspire teams.
+*   Comfortable owning outcomes, not just outputs—data‑driven and impact‑focused.
+**Nice‑to‑haves**
+*   Experience scaling product/engineering orgs from **Series A – B stage**.
+*   Deep knowledge of HR tech, workforce management, or deskless worker domains.
+*   Familiarity with European labour compliance, shift scheduling, or payroll integrations.
+*   Strong design sensibility; comfortable sparring with UX/UI peers.
+How We Work
+-----------
+*   **Empowered squads**: PM + Design + Eng work as a trio on discovery/delivery.
+*   **Agile & lean**: we value learning quickly over shipping perfectly.
+*   **Transparent & data‑driven**: roadmaps tied to OKRs, outcomes measured rigorously.
+*   **Culture of ownership**: autonomy with accountability.
+What You’ll Get
+---------------
+💰 **Competitive compensation and benefits** (e.g. equity, flexible time off, generous parental leave)
+🏋️‍♀️ **Enjoy true ownership** of your development in an early-stage environment - accelerating Ordio’s global expansion while charting your own professional path from day one
+🚀 **Thrive in an open, innovative culture** where autonomous teams tackle ambitious projects and drive meaningful impact
+📱 State-of-the art technical equipment & tooling (MacBook Pro with M4 at minimum)
+🏝️ **Enjoy full flexibility -** remote work, home office options, and flexible hours
+💪 **Prioritize both physical and mental well-being** with subsidized gym memberships and regular wellness-focused initiatives
+🌎 **A clear set of company values** that guide everything we do: Live for Customer Value, The Best Team Wins, We Own It, and Earth Is Our Future
+Our Process (fast & respectful)
+-------------------------------
+1.  **Intro chat** (30 min) – mutual fit & role context
+2.  **Founder interview** – alignment on leadership, strategy, and culture
+3.  **Deep‑dive** – product vision exercise & portfolio review with the leadership team
+4.  **Onsite Interview** – meet PMs, Design, and Engineering leadership
+We move quickly and respect your time—offers typically follow promptly after final interviews.
+About Ordio
+-----------
+We at Ordio 💙 are looking for people who want to be more than just another employee: ambitious, forward thinking, ready to shape our industry. 🚀.
+We believe that by giving people the best tools to solve their own problems, we can better solve the world's problems together. We are always looking for talented people who are interested in shaping the future together - shape it with us 💙
+If this sounds like you, we’d love to hear from you. Share your **CV**, **LinkedIn**, and a short note on your most impactful product launch via our careers page at [**ordio.com**](http://ordio.com).
+_Ordio is an equal‑opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees._

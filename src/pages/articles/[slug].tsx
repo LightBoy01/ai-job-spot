@@ -133,7 +133,13 @@ export default function ArticlePage({
     issueNo,
     volumeNo,
     imageUrl,
+    hub,
   } = article;
+
+  const canonicalUrl =
+    article.contentType === 'briefing' && article.originalUrl
+      ? article.originalUrl
+      : `${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`;
 
   return (
     <Layout>
@@ -151,7 +157,7 @@ export default function ArticlePage({
         />
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_SITE_URL}/articles/${article.slug}`}
+          href={canonicalUrl}
         />
         {article.imageUrl && (
           <meta
@@ -184,6 +190,15 @@ export default function ArticlePage({
             <h1 className="text-3xl sm:text-4xl font-serif font-extrabold text-primary-dark mb-4">
               {title}
             </h1>
+            {hub && (
+              <div className="mb-4">
+                <Link href={`/tags/${hub.toLowerCase().replace(/ /g, '-')}`} passHref>
+                  <span className="inline-block bg-secondary-light text-secondary-dark text-sm font-semibold px-3 py-1 rounded-full uppercase tracking-wider cursor-pointer hover:bg-secondary-dark hover:text-white transition-colors">
+                    {hub}
+                  </span>
+                </Link>
+              </div>
+            )}
             <div className="mb-6 border-b border-neutral-200 pb-4">
               <p className="text-neutral-700 text-base">
                 By{' '}
@@ -201,6 +216,19 @@ export default function ArticlePage({
                 )}
               </p>
             </div>
+
+            {article.contentType === 'briefing' && article.originalUrl && article.sourceName && (
+              <div className="my-8 p-4 bg-neutral-100 border-l-4 border-neutral-400 text-neutral-700" role="alert">
+                <p className="font-semibold">Content Source</p>
+                <p className="text-sm">
+                  This is a curated briefing. The original article was published on{' '}
+                  <a href={article.originalUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-primary-dark hover:underline">
+                    {article.sourceName}
+                  </a>.
+                </p>
+              </div>
+            )}
+
             <div
               className="prose prose-base sm:prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content"
               dangerouslySetInnerHTML={{ __html: contentBody }}

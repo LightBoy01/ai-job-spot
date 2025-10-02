@@ -1,0 +1,84 @@
+---
+id: hiringcafe-paylocity___4a1f8deb-2051-44d4-b929-75cee96d5690___3609838
+title: Senior Commercial Counsel
+company: Concentric LLC
+location: 'Carrollton, Texas, United States'
+applicationLink: 'https://recruiting.paylocity.com/Recruiting/Jobs/Details/3609838'
+postedDate: '2025-09-30T01:21:11.000Z'
+expirationDate: null
+tags:
+  - Legal and Compliance
+  - draft contracts
+  - negotiate agreements
+  - train stakeholders
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/paylocity___4a1f8deb-2051-44d4-b929-75cee96d5690___3609838
+companyLogoUrl: null
+---
+Description
+Concentric is the first national industrial power services organization delivering forklift and critical power and maintenance solutions that ensure uninterrupted, sustainable facility power. The company’s signature solutions, GuaranteedPOWER® and PerpetualPOWER® are industry firsts, improving reliability, sustainability, and safety to solve the power problem for facility leaders. Concentric helps data centers, distributors, manufacturers, utilities, communications infrastructure and more develop resilience in their power systems while making the energy transition with less risk. With a national network of service professionals, Concentric provides engineering, installation and maintenance/management for power equipment including backup batteries, UPSs, generators, energy storage, micro grids, forklift power, onsite maintenance and more.
+**Job Summary**
+The **Senior Commercial Counsel** will support commercial operations by drafting, reviewing, and negotiating a wide range of agreements, while also providing versatile legal support across various practice areas including M&A, litigation, labor and employment, and real estate matters as needed. This position will streamline and enhance the contracting processes, embrace AI tools and practical technology solutions to drive productivity, excel at cross-functional collaboration with diverse stakeholders throughout the organization, support internal training, and maintain legal templates and playbooks. The Senior Commercial Counsel reports to General Counsel and typically has no direct reports.
+**Key Job Responsibilities**
+· Reliable attendance and punctuality.
+· Efficiently draft, review, and negotiate a variety of commercial agreements with a focus on streamlined processes and practical solutions, including:
+o Master service agreements
+o non-disclosure agreements (NDAs)
+o Bids and proposals
+o Vendor and customer contracts
+o other agreements as needed
+· Partner effectively across all organizational levels and functions to drive business objectives while proactively managing legal risk and fostering collaborative solutions.
+· Continuously develop, maintain, and optimize contract templates, clause libraries, and negotiation playbooks to drive consistency, efficiency, and best-in-class contracting practices.
+· Lead and deliver practical training sessions and workshops for internal stakeholders on legal and contracting best practices, fostering a culture of continuous learning and operational excellence.
+· Identify opportunities for process improvements and implement scalable solutions to increase efficiency and consistency in contracting.
+· Actively leverage AI tools and emerging technologies for contract review, analysis, and management, driving adoption of practical technology solutions that enhance productivity and accuracy in legal operations.
+· Lead the implementation and continuous optimization of contract management systems and legal technology platforms to streamline workflows, increase visibility, and drive measurable efficiency gains across the contracting lifecycle.
+· Provide strategic legal advice on commercial matters and support broader legal initiatives as needed.
+· Ability to manage multiple priorities with a proactive and business-oriented approach, excelling at cross-functional collaboration and delivering practical solutions that meet diverse stakeholder needs.
+· Drive practical, business-oriented solutions that balance legal protection with commercial objectives and operational efficiency.
+· Build and maintain strong working relationships across all organizational levels, from individual contributors to executive leadership, adapting communication style to different audiences and functional needs.
+· Other duties as assigned by supervisor.
+**Key Performance Measurements**
+· Draft, review, and finalize contracts with an accuracy rate determined annually for the fiscal year.
+· A measurement of completion within established timelines, maintaining full compliance with legal and company standards.
+· Other key performance indicators as assigned.
+**Benefits**
+At Concentric we believe that **Our People** are what make us great and help us deliver exceptional customer service! We offer industry leading Benefits to include:
+*   Competitive pay – Plus incentive opportunities and overtime potential!
+*   Full benefits package that starts day one – Includes medical, dental, vision, company-paid life insurance and disability coverage.
+*   401K with match
+*   8 paid holidays
+*   Full-time Employees receive 128 Hours of PTO Annually
+*   Training and mentoring – Learn from our experts in the industry.
+*   Advancement opportunities.
+_The benefits listed are subject to change at any time. Please speak with an HR Representative for details. In the case of conflict between the information listed and the official plan documents, the plan documents will always govern._
+###
+Requirements
+· J.D. from an accredited law school.
+· Active bar membership in at least one U.S. jurisdiction.
+· 10+ years of relevant legal experience, with a preference for at least 2 years in an in-house legal department.
+· Must pass a background check and drug screen.
+· Experience in a high-volume contracting company, preferred.
+· Work experience in energy, power, industrial equipment, or related sectors, strongly preferred.
+· Proficiency with contract management tools, legal operations best practices, and AI/technology adoption for continuous improvement of legal processes and efficiency gains.
+· Demonstrates advanced expertise in drafting, reviewing, and negotiating complex commercial agreements across a range of industries and legal frameworks.
+· Excellent communication, interpersonal, and organizational skills with proven ability to effectively collaborate across diverse functions and engage stakeholders at all organizational levels.
+· Proven ability to work independently and collaboratively in a fast-paced, dynamic environment with a practical, business-oriented approach to problem-solving and decision-making.
+· Demonstrated commitment to continuous improvement and operational excellence.
+· Ability to clearly articulate ideas (both written and verbal) to both internal and external customers and to listen effectively to customer needs.
+· Ability to develop and maintain strong workplace relationships.
+· Requires up to 10% travel, some overnight travel may be required.
+\*This job description is subject to change at any time.
+**Physical Demands**
+The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. While performing the duties of this job, the employee is regularly required to sit or stand up to 8 hours; use hands to type, maneuver, handle, or feel; and talk or hear. The employee frequently is required to walk and reach with hands and arms. The employee is occasionally required to stand and stoop, kneel, crouch, or crawl. The employee must occasionally lift and/or move up 25 pounds. While performing the duties of this job, the employee may be required to wear approved Personal Protective Equipment (PPE) and must maintain a high level of self-awareness about their surroundings. Specific vision abilities required by this job include close vision and ability to adjust focus.
+**Work Environment**
+The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. The work is performed primarily in customer facility locations, office environments, hotel meeting space, and home office. The noise level in the work environment is moderate to heavy requiring hearing protection (customer locations).
+_The Concentric Company considers applicants for all positions without regard to race, color, religion, creed, gender, national origin, age, disability, genetic information, marital or veteran status, or any other legally protected status._
+#LI-MR1
+#LI-Hybrid

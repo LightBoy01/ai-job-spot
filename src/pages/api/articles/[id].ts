@@ -51,7 +51,8 @@ export default async function handler(
         if (articleData.volumeNo !== undefined)
           updateData.volumeNo = articleData.volumeNo;
         if (articleData.imageUrl !== undefined)
-          updateData.imageUrl = articleData.imageUrl;
+          updateData.imageUrl =
+            articleData.imageUrl === null ? undefined : articleData.imageUrl;
         if (articleData.excerpt !== undefined)
           updateData.excerpt = articleData.excerpt;
         if (articleData.author_take_question1 !== undefined)

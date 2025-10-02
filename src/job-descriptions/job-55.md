@@ -51,28 +51,19 @@ story_answer3: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.232Z'
 ---
-
 **About Us**
-
 At Unframe, we build AI-powered products that address real-world challenges. Our platform team is at the core of this mission, developing the infrastructure, reusable components, and internal tools that enable rapid and reliable product delivery.
-
 **What You'll Do**
-
 As an AI Product Manager on our team, you’ll work directly with customers and internal teams to define, scope, and deliver AI-powered solutions using Unframe’s platform. You’ll bridge product thinking with real-world use cases - enabling fast, reliable delivery of custom solutions built on a shared core.
-
 This is an opportunity to work with top-tier global customers and solve real, high-impact problems.
-
 ### Responsibilities
-
 - Translate customer problems into structured solution plans using Unframe.ai’s platform.
 - Own the delivery of end-to-end projects in collaboration with engineers and AI specialists.
 - Write detailed specs and define prompt/context structures for solution logic.
 - Prioritize requirements and manage tradeoffs across speed, stability, and scope.
 - Work closely with the Platform team to surface reusable product patterns.
 - Serve as the voice of the user - from enterprise operators to domain experts.
-
 ### Qualifications
-
 - 8+ years of experience in product management or technical delivery roles.
 - Experience working closely with engineering teams and technical products.
 - Ability to manage complex projects with multiple moving parts.

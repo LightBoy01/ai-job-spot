@@ -20,6 +20,7 @@ export interface JobPosting {
   employeeRole?: string | null; // e.g., Individual Contributor
   status?: 'draft' | 'pending_review' | 'pending_approval' | 'published' | 'rejected'; // Workflow status
   isNew?: boolean;
+  isFeatured?: boolean;
   source?: string | null; // Source of the job posting (e.g., scraped from a specific site)
   sourceUrl?: string | null; // The direct URL to the original job posting
   verificationDate?: Date | null; // The date AI Job Spot last verified the listing
@@ -62,13 +63,15 @@ export interface Article {
   excerpt: string;
   tags: string[];
   slug: string;
-  issueNo?: number;
-  volumeNo?: number;
-
+  contentType: 'editorial' | 'briefing';
+  sourceName?: string | null;
+  originalUrl?: string | null;
+  issueNo: number;
+  volumeNo: number;
+  hub?: string;
   imageUrl?: string | null;
-  markdownFile?: string; // Path to the markdown file, added for consistency
 
-  // Behind the Article Q&A
+  // Optional fields for author Q&A
   author_take_question1?: string;
   author_take_answer1?: string;
   author_take_question2?: string;
@@ -104,6 +107,23 @@ export interface SerializedJobPosting
   crunchbaseLink?: string | null;
   companyCulture?: string | null;
 }
+
+// A more lightweight type for the job cards, excluding the full description.
+export type SerializedJobSummary = Omit<
+  SerializedJobPosting,
+  |'description'
+  | 'responsibilities'
+  | 'qualifications'
+  | 'preferredQualifications'
+  | 'applicationExperience'
+  | 'story_question1'
+  | 'story_answer1'
+  | 'story_question2'
+  | 'story_answer2'
+  | 'story_question3'
+  | 'story_answer3'
+  | 'companyCulture'
+>;
 
 export interface SerializedArticle extends Omit<Article, 'publishDate'> {
   publishDate: string | null;

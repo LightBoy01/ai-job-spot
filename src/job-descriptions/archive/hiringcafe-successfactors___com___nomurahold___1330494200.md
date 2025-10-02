@@ -1,0 +1,68 @@
+---
+id: hiringcafe-successfactors___com___nomurahold___1330494200
+title: 'RSK-New Business Group (New York, NY, US, 10019)'
+company: Nomura
+location: 'New York, New York, United States'
+applicationLink: >-
+  https://careers.nomura.com/Nomura/job/New-York-RSK-New-Business-Group-NY-10019/1330494200/
+postedDate: '2025-09-30T15:53:59.971Z'
+expirationDate: null
+tags:
+  - Finance and Accounting
+  - Management of Transaction Committee Approval Process
+  - Review and challenge of Transaction Submissions
+  - >-
+    Support NBG Lead in challenging, enhancing and globalisation of Transaction
+    Frameworks
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$160,000 - $200,000'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___nomurahold___1330494200'
+companyLogoUrl: null
+---
+**Job Title:** **New Business Risk Manager**
+**Corporate Title:** **Associate/Vice President**
+**Department:** **Risk Management**
+The pay range for this position at commencement of employment is expected to be between $160.000 and $200,000/year
+**Company overview**
+Nomura is a global financial services group with an integrated network spanning approximately 30 countries and regions. By connecting markets East & West, Nomura services the needs of individuals, institutions, corporates and governments through its three business divisions: Wealth Management, Investment Management, and Wholesale (Global Markets and Investment Banking). Founded in 1925, the firm is built on a tradition of disciplined entrepreneurship, serving clients with creative solutions and considered thought leadership. For further information about Nomura, visit [www.nomura.com](https://www.nomura.com).
+Aon’s Benefit Index®, Nomura’s benefits **rank** **#1** amongst our competitors
+**Department Overview:**
+Nomura's Risk department plays a crucial role in identifying, assessing, and mitigating risks across our business. We strive to protect the firm's assets, reputation, and financial stability by implementing robust risk management practices. Join our team and contribute to our proactive approach in managing risks, allowing us to make informed decisions and thrive in an ever-changing market environment.
+**Role Description:**
+*   Management of Transaction Committee Approval Process
+*   Review and challenge of Transaction Submissions
+*   Support NBG Lead in challenging, enhancing and globalisation of Transaction Frameworks
+*   Policy and Procedure management, enhancement and globalisation
+*   Reporting and presenting to Risk Management forums
+*   Ownership of Business relationships
+*   Participating in IT Development, UAT and release
+*   Breach Investigation and write up
+*   Support the operation of Senior Risk Management Committees
+**Skills, experience, qualifications and knowledge required:**
+*   4-7 years of experience
+*   Attention to detail
+*   Solutions-driven: Able to garner support across a broad and varied group of individuals in various functions and at all levels of the organization, capable of understanding diverse and complex issues and identifying and proactively driving resolution
+*   Excellent communication skills both written/verbal must. Able to understand and summarise issues and solutions at a high level, ability to interact with the most senior individuals Globally, both in the business and the control functions
+*   Strong team player and quick learner.
+*   Understanding of financial products
+*   AI skills desirable.
+*   Proficiency in Alteryx, Power BI, Python desirable.
+**Nomura Competencies**
+**Explore Insights & Vision**
+*   Identify the underlying causes of problems faced by you or your team and define a clear vision and direction for the future.
+**Making Strategic Decisions**
+*   Evaluate all the options for resolving the problems and effectively prioritize actions or recommendations.
+**Inspire Entrepreneurship in People**
+*   Inspire team members through effective communication of ideas and motivate them to actively enhance productivity.
+**Elevate Organizational Capability**
+*   Engage proactively in professional development and enhance team productivity through the promotion of knowledge sharing.
+**Inclusion**
+*   Foster a culture of inclusion and psychological safety in the workplace and cultivate a "Risk Culture" (Challenge, Escalate and Respect).
+\*base pay offered may vary depending on multiple individualized factors, including market location, corporate and functional title and duties, job-related knowledge and advanced degrees, skills, and experience. The total compensation package for this position may also include other elements, including a sign-on bonus, restricted stock units, and discretionary awards in addition to a full range of medical, financial, and/or other benefits (including 401(k) eligibility and various paid time off benefits, such as vacation, sick time, and parental leave), dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.
+If hired in the U.S., employee will be in an “at-will position” and the Company reserves the right to modify base salary (as well as any other discretionary payment or compensation program) at any time, including for reasons related to individual performance, Company or individual department/team performance, and market factors”.
+\*\*US FINANCE ONLY\*\* Applicants for this position in the Finance Division of NHA must be currently authorized to work for any employer in the United States. The Finance Division is not sponsoring or taking over sponsorship of employment visas for this position at this time.
+_Nomura is an Equal Opportunity Employer_

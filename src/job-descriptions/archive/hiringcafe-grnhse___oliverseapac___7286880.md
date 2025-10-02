@@ -1,0 +1,73 @@
+---
+id: hiringcafe-grnhse___oliverseapac___7286880
+title: >-
+  Advertising Compliance (ASC) Project Manager / Advertising Compliance (ASC)
+  Officer
+company: OLIVER Agency - APAC
+location: 'Manila, Metro Manila, Philippines'
+applicationLink: 'https://job-boards.greenhouse.io/oliverseapac/jobs/7286880'
+postedDate: '2025-09-30T10:02:53.000Z'
+expirationDate: null
+tags:
+  - Legal and Compliance
+  - Oversee approvals
+  - Coordinate teams
+  - Maintain records
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___oliverseapac___7286880'
+companyLogoUrl: null
+---
+Established in 2004, **OLIVER** is the world’s first and only specialist in designing, building, and running bespoke in-house agencies and marketing ecosystems for brands. We partner with over 300 clients in 40+ countries and counting. Our unique model drives creativity and efficiency, allowing us to deliver tailored solutions that resonate deeply with audiences.
+As a part of **The Brandtech Group**, we're at the forefront of leveraging cutting-edge AI technology to revolutionise how we create and deliver work. Our **AI solutions** enhance efficiency, spark creativity, and drive insightful decision-making, empowering our teams to produce innovative and impactful results.
+**Job Title:** Advertising Compliance (ASC) Project Manager / Advertising Compliance (ASC) Officer
+**Role:** Freelancer (3 months)
+**Location:** Manila, Philippines
+**About the role:**
+Oliver Hub Philippines is looking for an Advertising Compliance Officer  who  will be responsible for ensuring that all advertising materials align with the Ad Standards Council (ASC) regulations in the Philippines. This role plays a crucial part in managing the approval process for campaigns, preventing compliance issues, and ensuring smooth execution.
+The ideal candidate is a highly organized individual with strong attention to detail, excellent project management skills, and the ability to coordinate with multiple teams, including clients, creative, accounts, and legal, to ensure all advertisements meet regulatory requirements
+**What you will be doing:**
+**Regulatory Compliance & Approval Management:**
+*   Oversee the entire ASC approval process, ensuring all advertising materials meet compliance requirements before submission.
+*   Review campaign assets and materials to identify potential compliance concerns, minimizing risks of rejection or revision.
+*   Stay updated on ASC policies, advertising regulations, and industry standards to ensure all campaigns align with the latest guidelines.
+**Project Coordination & Timeline Management:**
+*   Work closely with clients, creatives, account management, and legal teams to ensure advertising materials adhere to ASC regulations.
+*   Establish and follow clear timelines and workflows for ASC submissions to avoid campaign delays.
+*   Maintain a tracking system for all ASC applications, approvals, and feedback, ensuring seamless process management.
+**Risk Assessment & Documentation:**
+*   Identify potential compliance risks and proactively resolve issues before submission.
+*   Join in creative development process and client presentations to make recommendations based on what will most likely get approval from ASC
+*   Maintain organized records of all ASC-related correspondences, permits, and approvals for easy reference.
+*   Act as the main point of contact between the client and the Ad Standards Council.
+**Training & Compliance Advisory:**
+*   Educate client and internal teams on ASC regulations and best practices to ensure smoother approval processes.
+*   Develop and implement guidelines and checklists to help creative teams produce compliant advertising materials.
+*   Provide ongoing support to minimize compliance risks and ensure adherence to ASC standards.
+**What you need to be great in this role:**
+*   Solid knowledge of ASC regulations and advertising compliance. (experience in ASC submission is a plus).
+*   Strong project management skills with the ability to manage multiple campaigns simultaneously.
+*   Exceptional attention to detail and problem-solving abilities.
+*   Excellent  written and verbal communication skills for effective coordination and documentation.
+*   Ability to work under pressure and meet strict deadlines.
+*   Prior experience in advertising, marketing, or compliance is an advantage.
+*   Strong communication and presentation skills in case agency has to defend its work to an ASC hearing/panel.
+*   Proficient in Microsoft Office (Word, Excel, PowerPoint)
+*   Basic knowledge in Photoshop/editing is a plus
+*   Passion for and inquisitive about AI and new technologies
+*   Understanding and knowledge of AI tools is beneficial, but ability to learn and digest benefits and features of AI tools is critical
+Req ID: 14715
+#LI-D1 #LI-Hybrid
+Our values shape everything we do:
+Be **Ambitious** to succeed
+Be **Imaginative** to push the boundaries of what’s possible
+Be **Inspirational** to do groundbreaking work
+Be **always learning and listening** to understand
+Be **Results-focused**  to exceed expectations
+Be **actively pro-inclusive and anti-racist** across our community, clients and creations
+_OLIVER,_ _a part of the Brandtech Group, is an equal opportunity employer committed to creating an inclusive working environment where all employees are encouraged to reach their full potential, and individual differences are valued and respected. All applicants shall be considered for employment without regard to race, ethnicity, religion, gender, sexual orientation, gender identity, age, neurodivergence, disability status, or any other characteristic protected by local laws._
+_OLIVER has set ambitious environmental goals around sustainability, with science-based emissions reduction targets. Collectively, we work towards our mission, embedding sustainability into every department and through every stage of the project lifecycle._

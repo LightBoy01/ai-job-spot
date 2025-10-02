@@ -12,6 +12,8 @@ tags:
   - Leadership
   - Moral Compass
 imageUrl: /images/articles/the-moral-compass.svg
+hub: Mental Models & Frameworks
+contentType: editorial
 ---
 
 We are building machines that can provide us with perfect answers. Given a goal, they can calculate the most efficient path to achieve it with a speed and precision that dwarfs human capability. They can optimize a supply chain, personalize a marketing campaign, or diagnose a disease from a medical scan, all with flawless, data-driven logic. We have, in essence, perfected the science of finding the right path.

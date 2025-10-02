@@ -1,0 +1,148 @@
+---
+id: hiringcafe-successfactors___eu___uvaP2___14417
+title: PhD Position on Perceptual Foundation Models (14417)
+company: Universiteit van Amsterdam
+location: 'Amsterdam, Netherlands, Netherlands'
+applicationLink: >-
+  https://career2.successfactors.eu/career?career_ns=job_listing&company=uvaP2&career_job_req_id=14417
+postedDate: '2025-09-16T09:31:17.000Z'
+expirationDate: null
+tags:
+  - Research and Development (R&D)
+  - Develop methods
+  - Collaborate findings
+  - Present progress
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$36,708 - $46,572'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___uvaP2___14417'
+companyLogoUrl: null
+---
+Career Opportunities: PhD Position on Perceptual Foundation Models (14417)
+==========================================================================
+Requisition ID **14417** - Posted  - **Faculty of Science** - **University of Amsterdam** - **PhD position**
+Do you have a background in deep learning and computer vision? Are you independent, creative and eager to take initiatives? Do you enjoy working in an international research group and interacting with colleagues with diverse backgrounds? The Informatics Institute is looking for an ambitious PhD student on perceptual foundation models. Your research is part of the Video & Image Sense Lab.
+Join our team!
+--------------
+Recent breakthroughs in Artificial Intelligence resulted in the emergence of the first generation of foundation models that are capable of transfer across conditions and tasks. This opened entirely new ways to solve domain-specific problems by training transferable models and adapting those in a data- and compute-efficient manner to various problem settings. However, the perceptual possibilities are critically hindered by the language-focussed optimization of current foundation models, fundamentally limiting their ability for spatial reasoning, temporal logic, and operating in low-resource scenarios, which leads to shortcut learning and hallucination at test-time. This PhD project focuses on a new generation of perceptual foundation models by contributing advanced perceptual pre-training and fine-tuning algorithms.
+What you will do
+----------------
+You will carry out research and development in the areas of perceptual foundation models, using advances in deep machine learning and computer vision. The goal is to invent, develop and evaluate novel methods for pre-training and fine-tuning of perceptual foundation models, that expand their sensing abilities, generalize at deployment, and do so in an efficient and sustainable way. Importantly, the models should transfer to specialist industrial use cases. The research is embedded in the Video & Image Sense lab at the University of Amsterdam, and you will actively collaborate with our partner TNO within the NWO Perspectief Foundation for Industry (FIND) project. The overall FIND project brings together 5 universities with 10 labs, 11 Dutch companies, ranging from start-ups to multinationals, and 2 knowledge institutes to pave the way for a new wave of AI-based automation that helps the Dutch industry strengthen and keep its international competitive advantage as a leading high-tech nation in the AI-era. FIND uniquely focusses on data types that are underserved by current foundation models and specifically addresses industry-relevant, low-resource, privacy-sensitive edge applications.
+**Tasks and responsibilities:**
+*   Develop new deep learning, computer vision and multimodal learning methods for pre-training and fine-tuning perceptual foundation models.
+*   Actively collaborate within the FIND project and contribute to its use cases.
+*   Regularly present internally on your progress.
+*   Regularly present intermediate research at international conferences and workshops, publish them in proceedings and journals.
+*   Assist in teaching activities such as lab assistance and student supervision.
+*   Complete and defend a PhD thesis within the official appointment duration of four years.
+Your profile
+------------
+*   An MSc degree in Artificial Intelligence, (Applied) Mathematics/Physics, Computer Science, Engineering or related field.
+*   A strong background/knowledge in machine learning and computer vision, natural language processing is a plus.
+*   Solid mathematics foundations, especially statistics, calculus and linear algebra;
+*   Excellent programming skills, preferably in Python.
+*   Experience with AI/HPC supercomputing and running software on scale.
+*   You are highly motivated, independent, and creative.
+*   Strong communication, presentation and writing skills and excellent command of English.
+*   Prior publications in relevant machine learning or computer vision conferences or journals are advantageous.
+This is wat we offer
+--------------------
+A temporary contract for 38 hours per week for the duration of 4 years (the initial contract will be for a period of 18 months and after satisfactory evaluation it will be extended for a total duration of 4 years). The preferred starting date is December 1st 2025. This should lead to a dissertation (PhD thesis). We will draft an educational plan that includes attendance of courses and (international) meetings. We also expect you to assist in teaching undergraduates and master students.
+The gross monthly salary, based on 38 hours per week and dependent on relevant experience, ranges between € 3,059 to € 3,881 (scale P). This does not include 8% holiday allowance and 8,3% year-end allowance. The UFO profile Promovendus is applicable.. A favourable tax agreement, the ‘30% ruling’, may apply to non-Dutch applicants. The [Collective Labour Agreement of Universities of the Netherlands](https://www.universiteitenvannederland.nl/en/collective-labour-agreement-of-dutch-universities) is applicable.
+Besides the salary and a vibrant and challenging environment at Science Park we offer you multiple fringe benefits:
+*   232 holiday hours per year (based on fulltime) and extra holidays between Christmas and 1 January;
+*   multiple courses to follow from our Teaching and Learning Centre;
+*   a complete educational program for PhD students;
+*   multiple courses on topics such as leadership for academic staff;
+*   multiple courses on topics such as time management, handling stress and an online learning platform with 100+ different courses;
+*   7 weeks birth leave (partner leave) with 100% salary;
+*   partly paid parental leave;
+*   the possibility to set up a workplace at home;
+*   a pension at ABP for which UvA pays two third part of the contribution;
+*   the possibility to follow courses to learn Dutch;
+*   help with housing for a studio or small apartment when you’re moving from abroad.
+Are you curious to read more about our extensive package of secondary employment benefits, take a look [here](https://www.uva.nl/en/faculty/faculty-of-science/working-at-the-faculty/working-at-the-faculty-of-science.html).
+Where you will work
+-------------------
+The [Faculty of Science](https://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html) has a student body of around 8,000, as well as 1,800 members of staff working in education, research or support services. Researchers and students at the Faculty of Science are fascinated by every aspect of how the world works, be it elementary particles, the birth of the universe or the functioning of the brain.
+The mission of the [Informatics Institute](https://ivi.uva.nl/) (IvI) is to perform curiosity-driven and use-inspired fundamental research in Computer Science. The main research themes are Artificial Intelligence, Computational Science and Systems and Network Engineering. Our research involves complex information systems at large, with a focus on collaborative, data driven, computational and intelligent systems, all with a strong interactive component.
+The position is with Prof. dr. Cees Snoek, Professor, head of the [Video & Image Sense lab](https://ivi.fnwi.uva.nl/vislab/) (VIS lab), at the University of Amsterdam. VIS lab is a world-leading lab on Computer Vision and Machine Learning, and has over 30 PhD students, postdoctoral researchers and faculty members working on a broad variety of deep learning, computer vision, and foundation model subjects, like self-supervised learning, diffusion models, and test-time generalization for perception tasks like object detection, instance segmentation and activity recognition. The position is also embedded in the European ELLIS Network of Excellence in AI. We also anticipate regular visits to project partner TNO in the Hague.
+If you feel the profile fits you, and you are interested in the job, we look forward to receiving your application. You can apply online via the apply button. We accept applications until and including 10 October 2025. Applications should include the following information (all files besides your CV should be submitted in one single pdf file):
+*   A letter that motivates your choice for this position;
+*   Curriculum vitae, including your list of publications if applicable (max 2 pages);
+*   A research statement on how to approach the PhD project. Solid and creative ideas will be greatly appreciated. (max 2 pages).
+*   A link to your Master thesis – if online available, else include an abstract.
+*   A complete record of Bachelor and Master courses (including grades and explanation of grading system);
+*   A list of projects or publications you have worked on, with brief descriptions of your contributions, max 1 page;
+*   The names and contact addresses of at least two academic references (please do not include any recommendation letters).
+A knowledge security check can be part of the selection procedure (for details: [national knowledge security guidelines](https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fopen.overheid.nl%2Frepository%2Fronl-5379d1b4f8b9784bf518251032507a965be9c92d%2F1%2Fpdf%2FNational%2520Knowledge%2520Security%2520Guidelines.pdf&data=05%7C01%7CK.Tensen%40uva.nl%7Cf821bc4a760a45149e0308db1f1ddb00%7Ca0f1cacd618c4403b94576fb3d6874e5%7C0%7C0%7C638137985462492116%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=7oVkiiSd0y%2F%2FvLq2JcIbIcZARcqVLNY9W1j7bQwD5mE%3D&reserved=0)).
+Please use the CV field to upload your resume as a separate pdf document. Use the Cover Letter field to upload the other requested documents, including the motivation letter, as one single pdf file. Only complete applications received within the response period via the link below will be considered.
+Do you have any questions or do you require additional information? Please contact:
+*   Prof. dr. Cees Snoek, [c.g.m.snoek@uva.nl](mailto:c.g.m.snoek@uva.nl)
+*   Dr. ir. Gertjan Burghouts, [gertjan.burghouts@tno.nl](mailto:gertjan.burghouts@tno.nl)
+Email this job to a friend
+
+**The job has been sent to**
+**The job has been sent to**
+Do you have a background in deep learning and computer vision? Are you independent, creative and eager to take initiatives? Do you enjoy working in an international research group and interacting with colleagues with diverse backgrounds? The Informatics Institute is looking for an ambitious PhD student on perceptual foundation models. Your research is part of the Video & Image Sense Lab.
+Join our team!
+--------------
+Recent breakthroughs in Artificial Intelligence resulted in the emergence of the first generation of foundation models that are capable of transfer across conditions and tasks. This opened entirely new ways to solve domain-specific problems by training transferable models and adapting those in a data- and compute-efficient manner to various problem settings. However, the perceptual possibilities are critically hindered by the language-focussed optimization of current foundation models, fundamentally limiting their ability for spatial reasoning, temporal logic, and operating in low-resource scenarios, which leads to shortcut learning and hallucination at test-time. This PhD project focuses on a new generation of perceptual foundation models by contributing advanced perceptual pre-training and fine-tuning algorithms.
+What you will do
+----------------
+You will carry out research and development in the areas of perceptual foundation models, using advances in deep machine learning and computer vision. The goal is to invent, develop and evaluate novel methods for pre-training and fine-tuning of perceptual foundation models, that expand their sensing abilities, generalize at deployment, and do so in an efficient and sustainable way. Importantly, the models should transfer to specialist industrial use cases. The research is embedded in the Video & Image Sense lab at the University of Amsterdam, and you will actively collaborate with our partner TNO within the NWO Perspectief Foundation for Industry (FIND) project. The overall FIND project brings together 5 universities with 10 labs, 11 Dutch companies, ranging from start-ups to multinationals, and 2 knowledge institutes to pave the way for a new wave of AI-based automation that helps the Dutch industry strengthen and keep its international competitive advantage as a leading high-tech nation in the AI-era. FIND uniquely focusses on data types that are underserved by current foundation models and specifically addresses industry-relevant, low-resource, privacy-sensitive edge applications.
+**Tasks and responsibilities:**
+*   Develop new deep learning, computer vision and multimodal learning methods for pre-training and fine-tuning perceptual foundation models.
+*   Actively collaborate within the FIND project and contribute to its use cases.
+*   Regularly present internally on your progress.
+*   Regularly present intermediate research at international conferences and workshops, publish them in proceedings and journals.
+*   Assist in teaching activities such as lab assistance and student supervision.
+*   Complete and defend a PhD thesis within the official appointment duration of four years.
+Your profile
+------------
+*   An MSc degree in Artificial Intelligence, (Applied) Mathematics/Physics, Computer Science, Engineering or related field.
+*   A strong background/knowledge in machine learning and computer vision, natural language processing is a plus.
+*   Solid mathematics foundations, especially statistics, calculus and linear algebra;
+*   Excellent programming skills, preferably in Python.
+*   Experience with AI/HPC supercomputing and running software on scale.
+*   You are highly motivated, independent, and creative.
+*   Strong communication, presentation and writing skills and excellent command of English.
+*   Prior publications in relevant machine learning or computer vision conferences or journals are advantageous.
+This is wat we offer
+--------------------
+A temporary contract for 38 hours per week for the duration of 4 years (the initial contract will be for a period of 18 months and after satisfactory evaluation it will be extended for a total duration of 4 years). The preferred starting date is December 1st 2025. This should lead to a dissertation (PhD thesis). We will draft an educational plan that includes attendance of courses and (international) meetings. We also expect you to assist in teaching undergraduates and master students.
+The gross monthly salary, based on 38 hours per week and dependent on relevant experience, ranges between € 3,059 to € 3,881 (scale P). This does not include 8% holiday allowance and 8,3% year-end allowance. The UFO profile Promovendus is applicable.. A favourable tax agreement, the ‘30% ruling’, may apply to non-Dutch applicants. The [Collective Labour Agreement of Universities of the Netherlands](https://www.universiteitenvannederland.nl/en/collective-labour-agreement-of-dutch-universities) is applicable.
+Besides the salary and a vibrant and challenging environment at Science Park we offer you multiple fringe benefits:
+*   232 holiday hours per year (based on fulltime) and extra holidays between Christmas and 1 January;
+*   multiple courses to follow from our Teaching and Learning Centre;
+*   a complete educational program for PhD students;
+*   multiple courses on topics such as leadership for academic staff;
+*   multiple courses on topics such as time management, handling stress and an online learning platform with 100+ different courses;
+*   7 weeks birth leave (partner leave) with 100% salary;
+*   partly paid parental leave;
+*   the possibility to set up a workplace at home;
+*   a pension at ABP for which UvA pays two third part of the contribution;
+*   the possibility to follow courses to learn Dutch;
+*   help with housing for a studio or small apartment when you’re moving from abroad.
+Are you curious to read more about our extensive package of secondary employment benefits, take a look [here](https://www.uva.nl/en/faculty/faculty-of-science/working-at-the-faculty/working-at-the-faculty-of-science.html).
+Where you will work
+-------------------
+The [Faculty of Science](https://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html) has a student body of around 8,000, as well as 1,800 members of staff working in education, research or support services. Researchers and students at the Faculty of Science are fascinated by every aspect of how the world works, be it elementary particles, the birth of the universe or the functioning of the brain.
+The mission of the [Informatics Institute](https://ivi.uva.nl/) (IvI) is to perform curiosity-driven and use-inspired fundamental research in Computer Science. The main research themes are Artificial Intelligence, Computational Science and Systems and Network Engineering. Our research involves complex information systems at large, with a focus on collaborative, data driven, computational and intelligent systems, all with a strong interactive component.
+The position is with Prof. dr. Cees Snoek, Professor, head of the [Video & Image Sense lab](https://ivi.fnwi.uva.nl/vislab/) (VIS lab), at the University of Amsterdam. VIS lab is a world-leading lab on Computer Vision and Machine Learning, and has over 30 PhD students, postdoctoral researchers and faculty members working on a broad variety of deep learning, computer vision, and foundation model subjects, like self-supervised learning, diffusion models, and test-time generalization for perception tasks like object detection, instance segmentation and activity recognition. The position is also embedded in the European ELLIS Network of Excellence in AI. We also anticipate regular visits to project partner TNO in the Hague.
+If you feel the profile fits you, and you are interested in the job, we look forward to receiving your application. You can apply online via the apply button. We accept applications until and including 10 October 2025. Applications should include the following information (all files besides your CV should be submitted in one single pdf file):
+*   A letter that motivates your choice for this position;
+*   Curriculum vitae, including your list of publications if applicable (max 2 pages);
+*   A research statement on how to approach the PhD project. Solid and creative ideas will be greatly appreciated. (max 2 pages).
+*   A link to your Master thesis – if online available, else include an abstract.
+*   A complete record of Bachelor and Master courses (including grades and explanation of grading system);
+*   A list of projects or publications you have worked on, with brief descriptions of your contributions, max 1 page;
+*   The names and contact addresses of at least two academic references (please do not include any recommendation letters).
+A knowledge security check can be part of the selection procedure (for details: [national knowledge security guidelines](https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fopen.overheid.nl%2Frepository%2Fronl-5379d1b4f8b9784bf518251032507a965be9c92d%2F1%2Fpdf%2FNational%2520Knowledge%2520Security%2520Guidelines.pdf&data=05%7C01%7CK.Tensen%40uva.nl%7Cf821bc4a760a45149e0308db1f1ddb00%7Ca0f1cacd618c4403b94576fb3d6874e5%7C0%7C0%7C638137985462492116%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=7oVkiiSd0y%2F%2FvLq2JcIbIcZARcqVLNY9W1j7bQwD5mE%3D&reserved=0)).
+Please use the CV field to upload your resume as a separate pdf document. Use the Cover Letter field to upload the other requested documents, including the motivation letter, as one single pdf file. Only complete applications received within the response period via the link below will be considered.
+Do you have any questions or do you require additional information? Please contact:
+*   Prof. dr. Cees Snoek, [c.g.m.snoek@uva.nl](mailto:c.g.m.snoek@uva.nl)
+*   Dr. ir. Gertjan Burghouts, [gertjan.burghouts@tno.nl](mailto:gertjan.burghouts@tno.nl)

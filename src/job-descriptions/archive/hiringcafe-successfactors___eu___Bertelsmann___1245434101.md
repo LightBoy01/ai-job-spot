@@ -1,0 +1,53 @@
+---
+id: hiringcafe-successfactors___eu___Bertelsmann___1245434101
+title: 'Senior Process Excellence Manager (m/w/d) (Berlin, BE, DE, 10623)'
+company: Create Your Own Career
+location: Berlin or Amsterdam or Stockholm or Münster or Baden-Baden or Verl
+applicationLink: >-
+  https://jobsearch.createyourowncareer.com/Riverty/job/Berlin-Senior-Process-Excellence-Manager-(mwd)-BE-10623/1245434101/
+postedDate: '2025-09-30T13:48:16.919Z'
+expirationDate: null
+tags:
+  - Project and Program Management
+  - analyzing processes
+  - collaborating with stakeholders
+  - leading initiatives
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___Bertelsmann___1245434101'
+companyLogoUrl: null
+---
+**Werde zum Multiplikator für Effizienz im großen Maßstab**
+Riverty verfolgt die Mission, unsere Arbeitsweise grundlegend zu verändern – Schritt für Schritt, Prozess für Prozess. Als Teil unseres Global Process Excellence Teams arbeitest du an der Schnittstelle von Daten, Technologie und operativer Strategie und schlägst Brücken zwischen geschäftlichen Herausforderungen und intelligenten Lösungen.
+**Wir suchen einen**
+**Senior Process Excellence Manager (m/w/d)**
+**(unbefristet, Vollzeit) Schließe dich unserem Team an einem unserer Standorte in Berlin, Baden - Baden, Verl, Amsterdam, Stockholm oder Münster an – flexible Arbeitsbedingungen verfügbar**
+Dies ist keine klassische Rolle im Bereich Prozessverbesserung. Es geht darum, aktiv Transformationen voranzutreiben – in einem dynamischen, datengetriebenen Umfeld, mit echtem Impact auf Unternehmensebene.
+### Deine Aufgaben:
+*   Du analysierst und gestaltest Geschäfts- und Betriebsprozesse mit hoher strategischer Relevanz neu – mit dem Ziel, Effizienzpotenziale zu heben und die Möglichkeiten von KI und Automatisierung voll auszuschöpfen.
+*   Du arbeitest eng mit Stakeholdern aus Business, Operations und IT zusammen, um Prozesse zu verschlanken und zu standardisieren – und so skalierbare, zukunftsfähige Lösungen zu schaffen.
+*   Du leitest Initiativen im Bereich Process Intelligence – von der Analyse über die Modellierung bis hin zur Umsetzung – mit klarem Fokus auf messbare Ergebnisse und ROI.
+*   Du inspirierst und coachst Kolleg\*innen in strukturierten Verbesserungsansätzen und verankerst eine Kultur der kontinuierlichen Exzellenz im Tagesgeschäft.
+*   Du entwickelst robuste und intelligente Prozesse durch den Einsatz von Echtzeit-Monitoring, Alarmsystemen sowie einem effektiven Incident- und Problemmanagement.
+### Dein Profil:
+*   Du bringst mehrjährige praktische Erfahrung im Bereich Prozess- oder Operational Excellence mit – idealerweise in einem internationalen, schnelllebigen Umfeld.
+*   Du erkennst gezielt Transformationspotenziale mit hohem Mehrwert und verstehst die Möglichkeiten von KI und Automatisierung – von der ersten Analyse bis zur Definition von Business-Anforderungen und Use Cases.
+*   Du bist eine starker Kommunikatorin und Moderatorin – überzeugend im Umgang mit Stakeholdern, sicher im Storytelling mit Daten und entscheidungsstark durch wertbasierte Priorisierung.
+*   Du fühlst dich wohl an der Schnittstelle von Operations, IT und Data Science und kannst komplexe Herausforderungen in umsetzbare, technologiegestützte Lösungen übersetzen.
+*   Du sprichst fließend Englisch (in Wort und Schrift) – Deutschkenntnisse sind ein Plus, aber keine Voraussetzung.
+### Was dich zusätzlich auszeichnet:
+*   Du hast fundierte, praktische Erfahrung mit führenden Process-Mining-Tools wie **Celonis** oder **Signavio** – und weißt, wie man Erkenntnisse in echten Geschäftsnutzen verwandelt.
+*   Du bist zertifizierte\*r **Lean Six Sigma Black Belt** und hast nachweislich messbare Einsparungen bei Kosten und Zeit durch datengetriebene Prozessverbesserungen erzielt.
+*   Du hast erfolgreich globale und marktübergreifende Transformationsprojekte geleitet – mit sicherem Umgang in komplexen Strukturen und nachweisbaren Ergebnissen in diversen Teams und Regionen.
+### Warum du Teil unseres Global Process Excellence Teams werden solltest:
+*   Du gestaltest unternehmensweite operative Verbesserungen aktiv mit.
+*   Du arbeitest mit den neuesten Technologien in den Bereichen KI, Automatisierung und Process Mining.
+*   Du wirst Teil eines europaweit vernetzten, wirkungsstarken Teams.
+*   Du profitierst von einer kollaborativen Unternehmenskultur, die mutiges Denken und smarte Umsetzung schätzt.
+**Bewirb dich jetzt – und gestalte mit uns die Zukunft der Arbeit neu.**
+Wenn du operative Komplexität mit klarem Denken und smarten Tools lösen willst, freuen wir uns auf deine Bewerbung!
+#DE24

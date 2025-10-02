@@ -1,0 +1,144 @@
+---
+id: hiringcafe-successfactors___eu___uvaP2___14431
+title: Postdoc Position in Generative Information Retrieval (14431)
+company: Universiteit van Amsterdam
+location: 'Amsterdam, North Holland, Netherlands'
+applicationLink: >-
+  https://career2.successfactors.eu/career?career_ns=job_listing&company=uvaP2&career_job_req_id=14431
+postedDate: '2025-09-26T07:50:31.000Z'
+expirationDate: null
+tags:
+  - Research and Development (R&D)
+  - conduct research
+  - publish research
+  - supervise students
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$42,552 - $66,456'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___uvaP2___14431'
+companyLogoUrl: null
+---
+Career Opportunities: Postdoc Position in Generative Information Retrieval (14431)
+==================================================================================
+Requisition ID **14431** - Posted  - **Faculty of Science** - **University of Amsterdam** - **Postdoc**
+Are you interested in cutting-edge research at the intersection of large language models, deep learning, and information retrieval? The Information Retrieval Lab (IRLab) at the University of Amsterdam is looking for a postdoc researcher to join our research team and contribute to the development of next-generation retrieval systems based on generative models.
+Join us!
+--------
+We are seeking an experienced candidate to conduct and help lead our research efforts in Generative Information Retrieval (GenIR), a new and rapidly evolving retrieval paradigm where generative models are used to directly generate document identifiers given a user query. This paradigm departs from traditional multi-stage retrieval pipelines and instead integrates the indexing and retrieval process into a single, end-to-end generative model. As such, GenIR models are able to more deeply interact with the underlying corpus, enabling enhanced reasoning, adaptability, and performance in real-world scenarios.
+The position is embedded within the Information Retrieval Lab (IRLab), under the supervision of Maarten de Rijke. It is part of a broader research effort to establish a principled foundation for GenIR and is funded by the European Research Council under grant agreement no. 101201510 (UNITE).
+What are you going to do?
+-------------------------
+Generative information retrieval (GenIR) is an emerging retrieval paradigm where generative models directly produce document identifiers in response to a query, enabling a tight integration of retrieval and generation. While there are promising applications in both academic and industrial settings, several important open challenges remain. These include out-of-distribution performance, low-resource settings, reliability, dynamic settings, and transparency.
+**Tasks and responsibilities**
+You will:
+*   Contribute to research and development of generative information retrieval within the scope of the UNITE project (conduct independent research, develop and implement models, publish research, contribute to tools and frameworks);
+*   Collaborate and network (collaborate with interdisciplinary teams, build research networks, engage with stakeholders);
+*   Contribute to funding efforts and education (supervise and mentor students, engage in educational activities, contribute to grant proposals);
+*   Contribute more broadly to advance our generative information retrieval research (organizing research meetings and workshops, foster a vibrant research community).
+What we ask of you
+------------------
+We are looking for enthusiastic and curious candidates who meet the following profile:
+*   A PhD in AI, preferably at the interface of information retrieval and machine learning;
+*   Research background in generative information retrieval, with publications in the leading venues relevant for the topic;
+*   Educational experience and ambition: You have experience in the supervision students at the PhD, MSc, and/or BSc level and are motivated to help lead and supervise a team of PhD and MSc students working on generative information retrieval;
+*   Experimental skills: You have strong programming skills and experience with deep learning frameworks (e.g., PyTorch, TensorFlow) and have run large-scale experiments using large language models and diverse information retrieval settings;
+*   Teamwork and independence: You have contributed to open science and reproducible research and have demonstrated that you are able to work both independently and as part of a team;
+*   Communication skills: You have strong written and verbal communication skills in English.
+What we offer
+-------------
+We offer a temporary employment contract for 38 hours per week for a period of 12 months. The preferred starting date is January 1, 2026. If we assess your performance positive, your contract will be extended with  24 months. Hence, the total duration will be 3 years.
+The gross monthly salary, based on 38 hours per week and dependent on relevant experience, ranges between € 3,546 to € 5,538 (scale 10) .This does not include 8% holiday allowance and 8,3% year-end allowance. The UFO profile Researcher 4 is applicable. A favourable tax agreement, the ‘30% ruling’, may apply to non-Dutch applicants. The [Collective Labour Agreement of Universities of the Netherlands](https://www.universiteitenvannederland.nl/en/collective-labour-agreement-of-dutch-universities) is applicable.
+Besides the salary and a vibrant and challenging environment at Science Park we offer you multiple fringe benefits:
+*   232 holiday hours per year (based on fulltime) and extra holidays between Christmas and 1 January;
+*   multiple courses to follow from our Teaching and Learning Centre;
+*   a complete educational program for PhD students;
+*   multiple courses on topics such as leadership for academic staff;
+*   multiple courses on topics such as time management, handling stress and an online learning platform with 100+ different courses;
+*   7 weeks birth leave (partner leave) with 100% salary;
+*   partly paid parental leave;
+*   the possibility to set up a workplace at home;
+*   a pension at ABP for which UvA pays two third part of the contribution;
+*   the possibility to follow courses to learn Dutch;
+*   help with housing for a studio or small apartment when you’re moving from abroad.
+Are you curious to read more about our extensive package of secondary employment benefits, take a look [here](https://www.uva.nl/en/faculty/faculty-of-science/working-at-the-faculty/working-at-the-faculty-of-science.html).
+Where you will work
+-------------------
+The [Faculty of Science](https://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html) has a student body of around 8,000, as well as 1,800 members of staff working in education, research or support services. Researchers and students at the Faculty of Science are fascinated by every aspect of how the world works, be it elementary particles, the birth of the universe or the functioning of the brain.
+The mission of the [Informatics Institute](https://ivi.uva.nl/) (IvI) is to perform curiosity-driven and use-inspired fundamental research in Computer Science. The main research themes are Artificial Intelligence, Computational Science and Systems and Network Engineering. Our research involves complex information systems at large, with a focus on collaborative, data driven, computational and intelligent systems, all with a strong interactive component.
+The research of the [Information Retrieval Lab](https://irlab.science.uva.nl/) Amsterdam (IRLab) focuses on information retrieval: technology to connect people to information. We work on search engines, on recommender systems, and on conversational assistants. There is a heavy emphasis on data-driven methods, for understanding content, for analyzing and predicting user behavior, and for make sense of context. We combine fundamental, experimental, and applied research, and we do so by using a broad range of data: text, images, structured information. We are involved in many projects with other groups, both within and outside academia. Our research is funded by NWO, KNAW, the EU and through a range of public-private partnerships. We are strong believers of pursuing great science with great societal impact, and value an entrepreneurial spirit.
+Want to know more about our organisation? Read more about [working at](https://www.uva.nl/en/about-the-uva/working-at-the-uva/working-at-the-uva.html) the University of Amsterdam.
+If you feel the profile fits you, and you are interested in the job, we look forward to receiving your application. You can apply online via the button below. We accept applications until and including 05 October 2025. Applications should include the following information (all files besides your CV should be submitted in one single pdf file):
+*   a detailed CV including the months (not just years) when referring to your education and work experience;
+*   a letter of motivation;
+*   a list of publications;
+*   the names and email addresses of two references who can provide letters of recommendation.
+A knowledge security check can be part of the selection procedure.
+(for details: [national knowledge security guidelines](https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fopen.overheid.nl%2Frepository%2Fronl-5379d1b4f8b9784bf518251032507a965be9c92d%2F1%2Fpdf%2FNational%2520Knowledge%2520Security%2520Guidelines.pdf&data=05%7C01%7CK.Tensen%40uva.nl%7Cf821bc4a760a45149e0308db1f1ddb00%7Ca0f1cacd618c4403b94576fb3d6874e5%7C0%7C0%7C638137985462492116%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=7oVkiiSd0y%2F%2FvLq2JcIbIcZARcqVLNY9W1j7bQwD5mE%3D&reserved=0))
+Please use the CV field to upload your resume as a separate pdf document. Use the Cover Letter field to upload the other requested documents, including the motivation letter, as one single pdf file.
+Only complete applications received within the response period via the link below will be considered.
+Do you have any questions or do you require additional information? Please contact:
+*   Prof. dr. Maarten de Rijke, [m.derijke@uva.nl](mailto:m.derijke@uva.nl)
+Email this job to a friend
+
+**The job has been sent to**
+**The job has been sent to**
+Are you interested in cutting-edge research at the intersection of large language models, deep learning, and information retrieval? The Information Retrieval Lab (IRLab) at the University of Amsterdam is looking for a postdoc researcher to join our research team and contribute to the development of next-generation retrieval systems based on generative models.
+Join us!
+--------
+We are seeking an experienced candidate to conduct and help lead our research efforts in Generative Information Retrieval (GenIR), a new and rapidly evolving retrieval paradigm where generative models are used to directly generate document identifiers given a user query. This paradigm departs from traditional multi-stage retrieval pipelines and instead integrates the indexing and retrieval process into a single, end-to-end generative model. As such, GenIR models are able to more deeply interact with the underlying corpus, enabling enhanced reasoning, adaptability, and performance in real-world scenarios.
+The position is embedded within the Information Retrieval Lab (IRLab), under the supervision of Maarten de Rijke. It is part of a broader research effort to establish a principled foundation for GenIR and is funded by the European Research Council under grant agreement no. 101201510 (UNITE).
+What are you going to do?
+-------------------------
+Generative information retrieval (GenIR) is an emerging retrieval paradigm where generative models directly produce document identifiers in response to a query, enabling a tight integration of retrieval and generation. While there are promising applications in both academic and industrial settings, several important open challenges remain. These include out-of-distribution performance, low-resource settings, reliability, dynamic settings, and transparency.
+**Tasks and responsibilities**
+You will:
+*   Contribute to research and development of generative information retrieval within the scope of the UNITE project (conduct independent research, develop and implement models, publish research, contribute to tools and frameworks);
+*   Collaborate and network (collaborate with interdisciplinary teams, build research networks, engage with stakeholders);
+*   Contribute to funding efforts and education (supervise and mentor students, engage in educational activities, contribute to grant proposals);
+*   Contribute more broadly to advance our generative information retrieval research (organizing research meetings and workshops, foster a vibrant research community).
+What we ask of you
+------------------
+We are looking for enthusiastic and curious candidates who meet the following profile:
+*   A PhD in AI, preferably at the interface of information retrieval and machine learning;
+*   Research background in generative information retrieval, with publications in the leading venues relevant for the topic;
+*   Educational experience and ambition: You have experience in the supervision students at the PhD, MSc, and/or BSc level and are motivated to help lead and supervise a team of PhD and MSc students working on generative information retrieval;
+*   Experimental skills: You have strong programming skills and experience with deep learning frameworks (e.g., PyTorch, TensorFlow) and have run large-scale experiments using large language models and diverse information retrieval settings;
+*   Teamwork and independence: You have contributed to open science and reproducible research and have demonstrated that you are able to work both independently and as part of a team;
+*   Communication skills: You have strong written and verbal communication skills in English.
+What we offer
+-------------
+We offer a temporary employment contract for 38 hours per week for a period of 12 months. The preferred starting date is January 1, 2026. If we assess your performance positive, your contract will be extended with  24 months. Hence, the total duration will be 3 years.
+The gross monthly salary, based on 38 hours per week and dependent on relevant experience, ranges between € 3,546 to € 5,538 (scale 10) .This does not include 8% holiday allowance and 8,3% year-end allowance. The UFO profile Researcher 4 is applicable. A favourable tax agreement, the ‘30% ruling’, may apply to non-Dutch applicants. The [Collective Labour Agreement of Universities of the Netherlands](https://www.universiteitenvannederland.nl/en/collective-labour-agreement-of-dutch-universities) is applicable.
+Besides the salary and a vibrant and challenging environment at Science Park we offer you multiple fringe benefits:
+*   232 holiday hours per year (based on fulltime) and extra holidays between Christmas and 1 January;
+*   multiple courses to follow from our Teaching and Learning Centre;
+*   a complete educational program for PhD students;
+*   multiple courses on topics such as leadership for academic staff;
+*   multiple courses on topics such as time management, handling stress and an online learning platform with 100+ different courses;
+*   7 weeks birth leave (partner leave) with 100% salary;
+*   partly paid parental leave;
+*   the possibility to set up a workplace at home;
+*   a pension at ABP for which UvA pays two third part of the contribution;
+*   the possibility to follow courses to learn Dutch;
+*   help with housing for a studio or small apartment when you’re moving from abroad.
+Are you curious to read more about our extensive package of secondary employment benefits, take a look [here](https://www.uva.nl/en/faculty/faculty-of-science/working-at-the-faculty/working-at-the-faculty-of-science.html).
+Where you will work
+-------------------
+The [Faculty of Science](https://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html) has a student body of around 8,000, as well as 1,800 members of staff working in education, research or support services. Researchers and students at the Faculty of Science are fascinated by every aspect of how the world works, be it elementary particles, the birth of the universe or the functioning of the brain.
+The mission of the [Informatics Institute](https://ivi.uva.nl/) (IvI) is to perform curiosity-driven and use-inspired fundamental research in Computer Science. The main research themes are Artificial Intelligence, Computational Science and Systems and Network Engineering. Our research involves complex information systems at large, with a focus on collaborative, data driven, computational and intelligent systems, all with a strong interactive component.
+The research of the [Information Retrieval Lab](https://irlab.science.uva.nl/) Amsterdam (IRLab) focuses on information retrieval: technology to connect people to information. We work on search engines, on recommender systems, and on conversational assistants. There is a heavy emphasis on data-driven methods, for understanding content, for analyzing and predicting user behavior, and for make sense of context. We combine fundamental, experimental, and applied research, and we do so by using a broad range of data: text, images, structured information. We are involved in many projects with other groups, both within and outside academia. Our research is funded by NWO, KNAW, the EU and through a range of public-private partnerships. We are strong believers of pursuing great science with great societal impact, and value an entrepreneurial spirit.
+Want to know more about our organisation? Read more about [working at](https://www.uva.nl/en/about-the-uva/working-at-the-uva/working-at-the-uva.html) the University of Amsterdam.
+If you feel the profile fits you, and you are interested in the job, we look forward to receiving your application. You can apply online via the button below. We accept applications until and including 05 October 2025. Applications should include the following information (all files besides your CV should be submitted in one single pdf file):
+*   a detailed CV including the months (not just years) when referring to your education and work experience;
+*   a letter of motivation;
+*   a list of publications;
+*   the names and email addresses of two references who can provide letters of recommendation.
+A knowledge security check can be part of the selection procedure.
+(for details: [national knowledge security guidelines](https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fopen.overheid.nl%2Frepository%2Fronl-5379d1b4f8b9784bf518251032507a965be9c92d%2F1%2Fpdf%2FNational%2520Knowledge%2520Security%2520Guidelines.pdf&data=05%7C01%7CK.Tensen%40uva.nl%7Cf821bc4a760a45149e0308db1f1ddb00%7Ca0f1cacd618c4403b94576fb3d6874e5%7C0%7C0%7C638137985462492116%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=7oVkiiSd0y%2F%2FvLq2JcIbIcZARcqVLNY9W1j7bQwD5mE%3D&reserved=0))
+Please use the CV field to upload your resume as a separate pdf document. Use the Cover Letter field to upload the other requested documents, including the motivation letter, as one single pdf file.
+Only complete applications received within the response period via the link below will be considered.
+Do you have any questions or do you require additional information? Please contact:
+*   Prof. dr. Maarten de Rijke, [m.derijke@uva.nl](mailto:m.derijke@uva.nl)

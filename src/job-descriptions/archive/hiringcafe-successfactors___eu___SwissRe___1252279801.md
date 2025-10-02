@@ -1,0 +1,61 @@
+---
+id: hiringcafe-successfactors___eu___SwissRe___1252279801
+title: 'AI Model Validation Expert (Bratislava, SK)'
+company: Swiss Re
+location: 'Bratislava, Bratislava, Slovakia'
+applicationLink: >-
+  https://careers.swissre.com/job/Bratislava-AI-Model-Validation-Expert/1252279801/
+postedDate: '2025-09-29T08:01:01.226Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - Review models
+  - Validate models
+  - Develop guidelines
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$28,800 - $49,200'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___SwissRe___1252279801'
+companyLogoUrl: null
+---
+Are you passionate about ensuring AI systems are robust, ethical, and effective? Join our innovative team where you'll play a crucial role in shaping responsible AI implementation across our organization. We're looking for curious minds ready to tackle the exciting challenges of next-generation AI validation.
+**About the Role**
+As our AI Model Validation Expert, you'll be at the forefront of ensuring our artificial intelligence systems meet the highest standards of quality and reliability. You'll work with cutting-edge technology while establishing best practices that drive our AI governance framework.
+**Key Responsibilities:**
+*   Review and validate AI models for production deployment, collaborating with senior data scientists
+*   Perform thorough analysis of AI models to ensure adherence to technical and ethical best practices
+*   Develop and implement comprehensive guidelines and standards for AI model validation
+*   Coordinate and oversee the validation process across all AI models in our organization
+*   Identify potential risks and recommend mitigation strategies for AI implementations
+*   Stay current with emerging trends and methodologies in AI validation and governance
+**About the Team**
+We are the stewards of responsible AI. Our team ensures that AI systems are not only powerful and innovative, but also safe, transparent, and aligned with regulatory expectations. From shaping internal policies to validating AI systems, we bridge the gap between cutting-edge technology and trustworthy deployment.
+**About You**
+We're looking for a detail-oriented professional who combines technical expertise with critical thinking. You thrive in collaborative environments and have a passion for ensuring AI systems are not only powerful but also reliable and responsibly deployed.
+**We are looking for candidates who meet these requirements:**
+*   A degree in Computer Science, Data Science, Engineering, Mathematics, Statistics, Physics, or a related quantitative field
+*   Proficiency in Python and/or other programming languages
+*   Solid knowledge of machine learning, Generative AI or Natural Language Processing
+*   Excellent communication skills with the ability to explain complex technical concepts clearly
+**These are additional nice to haves:**
+*   Experience with AI governance frameworks or validation methodologies
+*   Knowledge of regulatory requirements related to AI systems
+*   Familiarity with model documentation standards
+*   Experience in a regulated industry (finance, healthcare, etc.)
+*   Collaborative mindset and ability to work across multiple teams
+We welcome candidates at all experience levels, including recent graduates with the right foundation. If you don't meet all requirements but are eager to learn, we encourage you to apply!
+For Slovakia the **base salary range** for this position is between \[EUR 2,400\] and \[EUR 4,100\] per month (for a full-time role). The specific salary offered considers:​
+*   the requirements, scope, complexity and responsibilities of the role, ​
+*   the applicant’s own profile including education/qualifications, expertise, specialisation, skills and experience.​
+In addition to your base salary, Swiss Re offers an attractive performance-based variable compensation component, designed to recognise your achievements. Further you will enjoy a variety of global and location specific benefits.​
+Eligibility may vary depending on the terms of Swiss Re policies and your employment contract.​
+**About Swiss Re**
+Swiss Re is one of the world’s leading providers of reinsurance, insurance and other forms of insurance-based risk transfer, working to make the world more resilient. We anticipate and manage a wide variety of risks, from natural catastrophes and climate change to cybercrime. Combining experience with creative thinking and cutting-edge expertise, we create new opportunities and solutions for our clients. This is possible thanks to the collaboration of more than 14,000 employees across the world.
+Our success depends on our ability to build an inclusive culture encouraging fresh perspectives and innovative thinking. We embrace a workplace where everyone has equal opportunities to thrive and develop professionally regardless of their age, gender, race, ethnicity, gender identity and/or expression, sexual orientation, physical or mental ability, skillset, thought or other characteristics. In our inclusive and flexible environment everyone can bring their authentic selves to work and their passion for sustainability.
+If you are an experienced professional returning to the workforce after a career break, we encourage you to apply for open positions that match your skills and experience.
+.swissre\_footer { position: relative; margin-top: -50px; height: 30px; clear: both; margin-bottom: 20px; background: #EEE none repeat scroll 0% 0%; line-height: 30px; padding: 0px 10px; color: #AAA; font-family: "Arial,Helvetica,sans-serif"; } .swissre\_jobtemplate { width: 970px; max-width: 100%; height: auto; } .jobDisplay .job { font-family: "Arial" !important; font-size: 12px !important; } .joqReqDescription { max-width: 100%; height: auto; align: center; } .joqReqDescription ul { width: 787px; max-width: 100%; } .joqReqDescription p { width: 827px; max-width: 100%; }
+**Keywords:**
+**Reference Code:** 135528

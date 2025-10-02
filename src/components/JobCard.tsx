@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { SerializedJobPosting } from '@/lib/types';
+import { SerializedJobSummary } from '@/lib/types';
 import { formatDate } from '@/lib/dateUtils';
 import FeaturedBadge from './FeaturedBadge'; // New import
 
 interface JobCardProps {
-  job: SerializedJobPosting;
+  job: SerializedJobSummary;
 }
 
 /**

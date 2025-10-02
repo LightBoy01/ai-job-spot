@@ -1,0 +1,83 @@
+---
+id: >-
+  hiringcafe-workday___hpe-wd5-jobsathpe___principal-automation-engineer_1195141-2
+title: Principal Automation Engineer
+company: Hpe
+location: 'Bangalore, Karnataka, India'
+applicationLink: >-
+  https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Bangalore-Karnataka-India/Principal-Automation-Engineer_1195141-2
+postedDate: '2025-09-29T00:00:00.000Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Drive SOAR
+  - Build integrations
+  - Develop automation
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/workday___hpe-wd5-jobsathpe___principal-automation-engineer_1195141-2
+companyLogoUrl: null
+---
+Principal Automation Engineer
+This role has been designed as ‘’Onsite’ with an expectation that you will primarily work from an HPE office.
+**Who We Are:**
+Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today’s complex world. Our culture thrives on finding new and better ways to accelerate what’s next. We know varied backgrounds are valued and succeed here. We have the flexibility to manage our work and personal needs. We make bold moves, together, and are a force for good. If you are looking to stretch and grow your career our culture will embrace you. Open up opportunities with HPE.
+**Job Description:**
+**About our Cybersecurity team:**
+Are you ready to make an impact at one of the world’s leading tech companies? HPE’s Cybersecurity team is where you can do just that! We’re looking for an Expert level Cybersecurity Incident Response Analyst to join our Incident Command team in Bangalore.
+As an expert you will be responsible for leading the detection, analysis, containment, and remediation of cybersecurity incidents across the organization. This role demands a deep technical understanding of cyber threats, advanced incident handling skills, and the ability to act decisively in high-pressure situations. You will work closely with other cybersecurity teams to ensure a coordinated and effective response to security incidents, helping to minimize the impact on the organization. Within the scope of the role will be mentoring junior team members and contributing to the continuous improvement of the organization’s incident response capabilities.
+**About the role**
+We are seeking a seasoned Principal Cyber Automation Engineer to design, lead, and evolve our security automation strategy. In this role, you will drive innovation in automating detection, response, and security operations, enabling our teams to move faster and smarter against emerging threats. You’ll be both a hands-on engineer and a technical leader, guiding architecture decisions, mentoring peers, and shaping the future of our cybersecurity automation capabilities. The ideal candidate will be a hands-on technical expert with a strong understanding of cybersecurity principles, experienced in implementing scalable automation frameworks for detection, incident response, and security workflows across cloud and on-prem environments.
+**About You**
+You have a strong analytical and problem-solving mindset. You have experience with feature engineering on large, noisy security datasets. You have background in automation tools, and proven leadership experience in shaping automation strategies and guiding cross-functional efforts. Your experience enables you to explain complex technical issues to non-technical audiences, and you have a track record of mentoring and technical leadership. By building and leading automation initiatives, you will reduce response times, expand detection coverage, and enable security teams to focus on higher-value analysis, directly improving the resilience of the organization.
+**What you’ll do:**
+**Responsibilities**
+*   A technical engineer, with an extensive security operations background, who drives the SOAR development lifecycle, in support of security operations and engineering teams.
+*   Strong understanding of SOAR playbook development and logic.
+*   Strong understanding of SOC workflows.
+*   Build integrations across SIEM, SOAR, EDR, identity platforms, and cloud-native services to improve visibility and automate repetitive tasks.
+*   Write, test, and maintain automation scripts/workflows within SOAR platform. Deliver API solutions that streamline, simplify, and improve efficiencies for the SOC\\IR teams as well as other enterprise Business Units.
+*   Design, implement, and standardize development of reusable automation services, APIs, and playbooks to accelerate threat detection and response.
+*   Author and maintain documentation for all scripts, integrations, and workflows.
+*   Review, test, debug, and resolve technical issues throughout all stages of the automation lifecycle.
+*   Translate conceptual SOC\\IR requirements into technical data and integration requirements for the SOAR platform.
+*   Explore and apply advanced analytics, ML and Agentic AI, to enhance security automation, anomaly detection, and augment analyst decision-making.
+*   Partner with SOC/IR leadership and IT stakeholders to gather SOAR requirements, priorities, and enhancements, and develop solutions for potential automation roadblocks.
+*   Partner with SOC/IR teams to review the development of integrations, workflows, & scripts to ensure anticipated output is achieved.
+**What you need to bring:**
+**Education & Experience Requirements**
+*   Bachelor’s or master’s degree in computer science, cybersecurity, data science, or related engineering field.
+*   Proven experience (8+ years) in cybersecurity, with at least 3+ years in automation-focused roles.
+*   Deep understanding of cybersecurity frameworks and concepts, including attack vectors, threat landscapes, and defence mechanisms.
+*   Strong experience with SIEM/SOAR/ and EDR/XDR platforms and tools.
+*   Experience in Machine Learning (ML) and Agentic AI applied for security use-cases.
+*   Experience with anomaly detection, behavioural Modeling, and predictive analytics in cybersecurity contexts.
+*   Experience integrating machine learning models into security operations workflows in enterprise environments.
+*   Proficiency in languages such as Python, Go, SPL, YaraL, and building automation frameworks.
+*   Hands-on experience with big data technologies and cloud environments (AWS, Azure, GCP).
+*   Familiarity with regulatory requirements and compliance frameworks (e.g., GDPR, NIST, ISO 27001).
+#Cybersecurity
+**Additional Skills:**
+Accountability, Accountability, Action Planning, Active Learning, Active Listening, Agile Methodology, Bias, Business, Coaching, Creativity, Critical Thinking, Cybersecurity, Data Analysis Management, Data Collection Management (Inactive), Data Controls, Design Thinking, Development Methodologies, Empathy, Follow-Through, Growth Mindset, Implementation Methodologies, Infrastructure Design, Intellectual Curiosity (Inactive), Long Term Planning, Managing Ambiguity {+ 4 more}
+**What We Can Offer You:**
+**Health & Wellbeing**
+We strive to provide our team members and their loved ones with a comprehensive suite of benefits that supports their physical, financial and emotional wellbeing.
+**Personal & Professional Development**
+We also invest in your career because the better you are, the better we all are. We have specific programs catered to helping you reach any career goals you have — whether you want to become a knowledge expert in your field or apply your skills to another division.
+**Unconditional Inclusion**
+We are unconditionally inclusive in the way we work and celebrate individual uniqueness. We know varied backgrounds are valued and succeed here. We have the flexibility to manage our work and personal needs. We make bold moves, together, and are a force for good.
+**Let's Stay Connected:**
+Follow [@HPECareers](http://instagram.com/hpecareers) on Instagram to see the latest on people, culture and tech at HPE.
+#india
+**Job:**
+Information Technology
+**Job Level:**
+TCP\_05
+HPE is an Equal Employment Opportunity/ Veterans/Disabled/LGBT employer. We do not discriminate on the basis of race, gender, or any other protected category, and all decisions we make are made on the basis of qualifications, merit, and business need. Our goal is to be one global team that is representative of our customers, in an inclusive environment where we can continue to innovate and grow together. Please click here: [Equal Employment Opportunity](https://hr.ext.hpe.com/Equal-employment-opportunity-policy.pdf).
+**Hewlett Packard Enterprise is EEO Protected Veteran/ Individual with Disabilities.**
+HPE will comply with all applicable laws related to employer use of arrest and conviction records, including laws requiring employers to consider for employment qualified applicants with criminal histories.

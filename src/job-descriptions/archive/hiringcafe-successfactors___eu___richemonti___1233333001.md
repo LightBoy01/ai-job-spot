@@ -1,0 +1,54 @@
+---
+id: hiringcafe-successfactors___eu___richemonti___1233333001
+title: >-
+  ENGINEER TALENTS DAY - Stagiaire Data Scientist (H/F/X) (La Chaux-de-Fonds,
+  NE, CH)
+company: Richemont
+location: 'La Chaux-de-Fonds, Neuchâtel, Switzerland'
+applicationLink: >-
+  https://jobs.richemont.com/Cartier/job/La-Chaux-de-Fonds-ENGINEER-TALENTS-DAY-Stagiaire-Data-Scientist-(HFX)-NE/1233333001/
+postedDate: '2025-09-30T22:32:30.613Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - collaborating experts
+  - building data
+  - deploying models
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___richemonti___1233333001'
+companyLogoUrl: null
+---
+**CONTEXTE**
+Ce poste est intégré à la direction Transformation Digitale et Industrie 4.0 de Cartier.  Vous contribuerez donc à accélérer le processus industriel à travers le développement et à la mise en place de nouveaux outils de transformation digitale basés sur l’intelligence artificielle. Immergez dans le processus manufacturier de Cartier, votre rôle principal est de développer des algorithmes et des solutions permettant de résoudre des problèmes complexes.
+**COMMENT AUREZ-VOUS UN IMPACT ?**
+Au cours de votre stage, vos missions principales seront les suivantes :
+*   Vous travaillez en collaboration avec les experts techniques et métiers pour comprendre la problématique de l’entreprise
+*   En identifiant les besoins, les principaux défis pour proposer des solutions efficaces
+*   En expliquant la méthodologie et en accompagnant à l’adoption des outils
+*   En optimisant et sécurisant les processus dans le Manufacturing
+*   En mettant en place des Dashboard de suivi
+*   Vous extrayez, organisez et construisez les jeux de données nécessaires aux modélisations
+*   En identifiant les sources de données précieuses
+*   En traitant des données structurées et non structurées autour de designs 3D et des images issues de diverses bases (Windchill, SAP, BigQuery, …)
+*   Vous construisez des modèles analytiques et prédictifs de « Machine Learning » ou de « Deep Learning » ou « GenAI » qui permettront de répondre à la problématique
+*   En développant des algorithmes et des solutions permettant de résoudre des problèmes complexes (Recommandation, Similarité, prédiction, ...)
+*   Vous accompagnez la mise en production des modèles (MLOps)
+*   En déployant des modèles scalables (Real-time vs Batch, Cloud)
+*   En monitorant et en scorant les performances des modèles déployés
+*   En participant à la création des pipelines CI/CD et autres workflows
+**QUELLES SONT LES CLES DE VOTRE REUSSITE AU SEIN DE NOTRE MAISON ?**
+Dans le cadre de vos études d’ingénieur avec une orientation en informatique, statistiques ou mathématiques appliquées ou équivalent, avec un intérêt marqué pour l’intelligence artificielle vous recherchez un stage. L’univers de l’industrie horlogère passionne. Vous êtes une personne autonome, méthodique, persévérante qui apprécie travailler en équipe et collaborer avec une population diversifiée. En outre, vous possédez un sens de l’observation et de l’écoute. Une expérience pratique avec des algorithmes d'apprentissage machine pour des prédictions et des recommandations (Python, R, …), connaissance des Framework ML/DL (Scikit-learn, Pandas**,** Numpy, Tensorflow, Pytorch, OpenCV…), une solide connaissance des plateformes de Cloud Computing (GCP, VertexAI) représente un atout.
+**QU’AVONS-NOUS A VOUS OFFRIR ?**
+_Tout au long de son histoire, la Maison Cartier s'est distinguée par l'engagement de chacun de ses employés. Nous créons un environnement innovant et positif où nous sommes fiers d'employer des talents issus de différents milieux, expériences et identités. Nous sommes convaincus que lorsque la diversité et l'inclusion sont pleinement acceptées et renforcées, la créativité et le savoir émergent pour atteindre l'excellence. Quelles que soient les différences visibles ou invisibles, nous nous engageons à créer un environnement où chacun a une chance égale de réaliser son plein potentiel, d'être entendu et de se sentir valorisé._
+_Nous vous développons en permanence grâce à des formations, à un apprentissage continu et à une culture du feedback. Il est essentiel pour nous d'instaurer cette culture saine et solide, dans laquelle vous vous sentirez autorisé(e) à donner une opinion honnête._
+**Entrée en fonction :** février/mars 2026, pour une durée de 6 mois
+**Lieu de travail :** La Chaux-de-Fonds, Suisse
+**VOTRE PARCOURS CANDIDAT**
+Nous nous réjouissons de recevoir votre candidature complète sur notre site de carrières. En cas de réponse positive de notre part, une invitation à un entretien vidéo différé vous sera envoyée durant lequel vous pourrez vous présenter et exprimer vos attentes et vos intérêts.
+Notre équipe RH analysera ensuite votre entretien. Si votre profil est retenu, vous recevrez une invitation à **l’Engineer Talents Day du 9 octobre 2025**, journée de recrutement 100% digitale, ainsi qu’une offre de stage sélectionnée spécifiquement pour vous.
+A l’occasion de cette journée immersive dans l’univers Cartier vous rencontrerez un(e) référent(e) RH et un(e) manager pour une étude de cas par groupe, puis un entretien individuel.

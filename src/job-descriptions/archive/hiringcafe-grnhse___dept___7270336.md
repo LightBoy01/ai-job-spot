@@ -1,0 +1,61 @@
+---
+id: hiringcafe-grnhse___dept___7270336
+title: Creative Director (m/f/div)
+company: DEPT®
+location: 'Berlin, Berlin, Germany'
+applicationLink: 'https://job-boards.greenhouse.io/dept/jobs/7270336'
+postedDate: '2025-09-23T09:13:33.000Z'
+expirationDate: null
+tags:
+  - Creative and Art Services
+  - lead teams
+  - shape brands
+  - drive campaigns
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___dept___7270336'
+companyLogoUrl: null
+---
+**Creative Director (m/f/div)**
+_**Berlin, hybrid**_
+_This role is part of our Concept team based in Berlin. You’ll work with a vibrant mix of talents, ranging from Brand Strategists, Creatives, Designers, Social Experts and Influencer Marketers to Account managers and Producers. As a digital creative marketing agency, we mix traditional storytelling with the best of what today’s technology has to offer to deliver exceptional and engaging digital experiences that build lasting relationships with our clients._
+**JOB PURPOSE**
+We are looking for a German speaking Creative Director who can turn great ideas into memorable stories that build future-proof brands –  by using any means, technology, or channel necessary. Someone who can lead a diverse group of talents to develop innovative ideas for renowned clients like Lieferando, eBay, Salamander and Hyundai, to name a _few._
+The ideal candidate has extensive experience in the industry and an expertise in art direction, combined with strong conceptual thinking. You also need a deep understanding and passion for digital channels, social media and technologies like AI. You should have come up with and executed several multi-channel campaigns in your career – online and offline.
+If you’re a creative team leader with an eye for design, a brain for strong concepts, and want to see ideas through all the way to the finish line, you’re a perfect match. Let’s join forces to make work that really matters to people.
+**KEY RESPONSIBILITIES**
+*   Build brands:  As creative leader, you will be the one responsible for the creative vision and output of our business partners and brands. You’ll shape their voice, grow their brand, and help them stay ahead of the competition with creativity, innovation, and technology.
+*   Lead our creative teams: You’ll work closely with brand and content strategists, art directors, copywriters, designers, and experienced AI and UX specialists to tell stories, create campaigns, and build products. All while pushing them to the highest level of creative excellence.
+*   Manage and mentor: You will be directly responsible for overseeing a number of creatives and nurturing their personal and professional development.
+*   Grow the business: You will be responsible for growing DEPT’s creative footprint by winning clients and building stronger relationships with existing ones.
+*   Build our culture: Together with the ECD and other creative directors across DEPT you will be a strong pillar that holds up our creative culture. You’ll inspire internally and represent DEPT externally.
+**WHAT WE ARE LOOKING FOR**
+*   While we’re looking for a German speaker, the candidate will have to have excellent writing ability in English and be comfortable working in botheither languages.
+*   Extensive experience in creative roles (can be in and outside of GER), with a proven track record of successful campaigns in a creative agency and solid experience in creative leadership.
+*   Strong ability to understand and integrate technology into creative work.
+*   Strong portfolio showcasing expertise in concept development, storytelling, and execution across multiple platforms.
+*   Deep understanding of cultural insights and their application in creative work.
+*   Award-winning ideas are not mandatory but they would be more than welcome.
+*   Proven leadership and team management skills, with the ability to inspire and drive business results with the highest level of creative work.
+*   Excellent communication and presentation skills, capable of pitching ideas persuasively to clients and stakeholders.
+*   Ability to juggle multiple projects in a fast-paced, start-up-like environment.
+*   Keen interest in pop culture, digital trends and social media
+**WE OFFER**
+*   Company pension scheme;
+*   Flexible working hours, working from home and abroad work;
+*   Lease bike options / JobRad;
+*   Health & Wellbeing -  you have free, anonymous and unlimited access to 1-on-1 online coaching and mindfulness consultations with psychologists via chat, phone or video call;
+*   €30 per month - You can use the flexible package for digital food stamps and/or fitness providers/sport clubs/massage studios, internet costs, and/ or public transport
+*   Future Bens - We cooperate with FutureBens and offer you exclusive access to sustainable, healthy products at attractive deals
+**WHO ARE WE?**
+We are pioneers at heart. What does that mean? We are always looking forward, thinking of what we can create tomorrow that does not exist today. We were born digital and we are a new model of agency, with a deep skillset in tech and marketing. That’s why we hire curious, self-driven, talented people who never stop innovating.
+Our culture is big enough to cope and small enough to care. Meaning, that with people across 30+ countries, we’re big enough to provide you with the best tools, global opportunities, and benefits that help you thrive. While acting small by investing in you, your growth, your team, and giving you the autonomy to solve our clients problems, no matter where you are in the world.
+**DIVERSITY, EQUITY & INCLUSION**
+At DEPT®, we take pride in creating an inclusive workplace where everyone has an equal opportunity to thrive. We actively seek to recruit, develop, nurture, and retain talented individuals from diverse backgrounds, with varying skills and perspectives.
+Not sure you meet all qualifications? Apply, and let us decide! Research shows that women and members of underrepresented groups tend not to apply for jobs when they think they may not meet every requirement, when in fact they do. We believe in giving everyone a fair chance to shine.
+We also encourage you to reach out to us and discuss any reasonable adjustments we can make to support you throughout the recruitment process and your time with us.
+Want to know more about our dedication to diversity, equity, and inclusion? Check out our efforts [here](https://www.deptagency.com/the-good-company/).

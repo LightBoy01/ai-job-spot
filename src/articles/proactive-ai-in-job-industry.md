@@ -11,6 +11,8 @@ tags:
   - Mental Models
   - Future of Work
 imageUrl: /images/articles/career-cartography-v2.svg
+hub: Career & Professional Strategy
+contentType: editorial
 ---
 
 For centuries, the great explorers and cartographers did not just wander into the unknown; they meticulously mapped it. They gathered data from distant shores, analyzed the patterns of stars, and synthesized this information into charts that transformed terrifying voids into navigable routes. Their maps did not predict the future, but they created the conditions for successful journeys.

@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
-import { Article } from '@/lib/types';
 import { z } from 'zod';
 import { Query } from 'firebase-admin/firestore';
 
@@ -9,15 +8,6 @@ const paginateSchema = z.object({
   startAfter: z.string().max(100).optional(),
   limit: z.coerce.number().int().positive().max(50).optional().default(10),
 });
-
-const serializeArticle = (doc: FirebaseFirestore.DocumentSnapshot): Article => {
-  const data = doc.data()!;
-  return {
-    id: doc.id,
-    ...data,
-    publishDate: data.publishDate ? data.publishDate.toDate() : undefined,
-  } as Article;
-};
 
 export default async function handler(
   req: NextApiRequest,
@@ -55,7 +45,21 @@ export default async function handler(
     }
 
     const snapshot = await articlesQuery.limit(limit).get();
-    const articles = snapshot.docs.map(serializeArticle);
+    const articles = snapshot.docs.map(doc => {
+      const data = doc.data()!;
+      return {
+        id: doc.id,
+        title: data.title,
+        author: data.author,
+        publishDate: data.publishDate ? data.publishDate.toDate().toISOString() : '',
+        slug: data.slug,
+        issueNo: data.issueNo,
+        volumeNo: data.volumeNo,
+        imageUrl: data.imageUrl ?? null,
+        tags: data.tags ?? [],
+        excerpt: data.excerpt ?? '',
+      };
+    });
     const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1].id : null;
 
     res.status(200).json({ articles, lastVisible });

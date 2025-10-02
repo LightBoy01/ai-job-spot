@@ -1,0 +1,51 @@
+---
+id: hiringcafe-successfactors___eu___vodafoneprP___1250822201
+title: 'Cloud ML Engineer (AWS)_Manager_Lead_Pune (Pune, IN)'
+company: Vodafone
+location: 'Pune, Maharashtra, India'
+applicationLink: >-
+  https://opportunities.vodafone.com/job/Pune-Cloud-ML-Engineer-(AWS)_Manager_Lead_Pune/1250822201/
+postedDate: '2025-09-24T08:10:51.865Z'
+expirationDate: null
+tags:
+  - Software Development
+  - Developing models
+  - Supporting markets
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___vodafoneprP___1250822201'
+companyLogoUrl: null
+---
+**About VOIS**
+--------------
+VOIS (Vodafone Intelligent Solutions) is a strategic arm of Vodafone Group Plc, creating value and enhancing quality and efficiency across 28 countries, and operating from 7 locations: Albania, Egypt, Hungary, India, Romania, Spain and the UK.
+Over 29,000 highly skilled individuals are dedicated to being Vodafone Group’s partner of choice for talent, technology, and transformation. We deliver the best services across IT, Business Intelligence Services, Customer Operations, Business Operations, HR, Finance, Supply Chain, HR Operations, and many more.
+Established in 2006, VOIS has evolved into a global, multi-functional organisation, a Centre of Excellence for Intelligent Solutions focused on adding value and delivering business outcomes for Vodafone.
+**About VOIS India:**
+---------------------
+In 2009, VOIS started operating in India and now has established global delivery centres in Pune, Bangalore and Ahmedabad. With more than 14,500 employees, \_VOIS India supports global markets and group functions of Vodafone, and delivers best-in-class customer experience through multi-functional services in the areas of Information Technology, Networks, Business Intelligence and Analytics, Digital Business Solutions (Robotics & AI), Commercial Operations (Consumer & Business), Intelligent Operations, Finance Operations, Supply Chain Operations and HR Operations and more.
+**Role Purpose**
+----------------
+The Cloud ML Engineer delivers through self and others to:
+1.  Use their knowledge of ML/AI and combine it with programming and software engineering skills to enable easier use of and access to machine learning models and analyses
+2.  Support local markets and group functions in obtaining business value from the ML
+**Must have technical / professional qualifications:**
+------------------------------------------------------
+1.  3-year IT or IS degree or diploma or related field is essential
+2.  Advanced degree in Computer Science/Math/Statistics or a related discipline would be an advantage
+3.  Relevant cloud certification at professional or associate level
+4.  5+ years of relevant experience as AI/ML Engineer
+5.  5+ years BI or related software development
+6.  Agile exposure, Kanban or Scrum
+**Key performance indicators:**
+-------------------------------
+1.  Speed of ML model implementation
+2.  Model performance and reliability
+3.  Maximize effective usage of system resources to balance compute resources, network usage and costs objectives
+**VOIS Equal Opportunity Employer Commitment**
+----------------------------------------------
+VO**IS** is proud to be an Equal Employment Opportunity Employer. We celebrate differences and we welcome and value diverse people and insights. We believe that being authentically human and inclusive powers our employees’ growth and enables them to create a positive impact on themselves and society. We do not discriminate based on age, colour, gender (including pregnancy, childbirth, or related medical conditions), gender identity, gender expression, national origin, race, religion, sexual orientation, status as an individual with a disability, or other applicable legally protected characteristics.As a result of living and breathing our commitment, our employees have helped us get certified as a Great Place to Work in India for four years running. We have been also highlighted among the **Top 10 Best Workplaces for Millennials, Equity, and Inclusion**, **Top 50 Best Workplaces for Women**, **Top 25 Best Workplaces in IT & IT-BPM** and **10th Overall Best Workplaces in India** by the Great Place to Work Institute in 2024. These achievements position us among a select group of trustworthy and high-performing companies which put their employees at the heart of everything they do.By joining us, you are part of our commitment. We look forward to welcoming you into our family which represents a variety of cultures, backgrounds, perspectives, and skills! **Apply now, and we’ll be in touch!**

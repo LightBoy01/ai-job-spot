@@ -1,0 +1,68 @@
+---
+id: hiringcafe-grnhse___bancopan___5654703004
+title: Especialista de Dados e IA - (Atuação na Arc4)
+company: Banco PAN
+location: 'Sao Paulo, Sao Paulo, Brazil'
+applicationLink: 'https://job-boards.greenhouse.io/bancopan/jobs/5654703004'
+postedDate: '2025-09-18T19:30:33.000Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - design pipelines
+  - build models
+  - deploy solutions
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___bancopan___5654703004'
+companyLogoUrl: null
+---
+Somos o **PAN**
+Ágeis, flexíveis e criativos, exploramos possibilidades com disposição e desejo de fazer acontecer. Sempre prontos para encarar novos desafios, nutrimos líderes que, além de ter garra, são abertos e empáticos, veem na proximidade das relações, o elo entre cada um.
+Nossa missão, se faz cumprida quando transformamos a vida dos outros através dos nossos conhecimentos. Nossos pilares de cultura, reforçam nossa postura idealizadora e com desejo de fazer acontecer:   **Trabalho em equipe, Transparência , Excelência e Eficiência com profundidade.**
+Dominamos nossos processos e trazemos melhorias para quem deseja ter uma **vida financeira mais inteligente**.
+**Essa oportunidade é para atuar na equipe da Arc4 uma empresa do Grupo BTG.
+Sobre a área :**
+Estamos buscando um profissional de dados para atuar em uma investida do BTG Pactual: Arc4. A área de Ciência de dados e IA da Arc4 tem crescido rapidamente e é protagonista no nosso modelo de negócio. Prezamos por um time de alta qualidade e valorizamos profissionais com perfil multidisciplinar, forte capacidade analítica, curiosidade intelectual e disposição para trabalho duro, sempre buscando resolver desafios complexos com excelência. Temos oportunidades para atuar junto a diversas áreas da Arc4 e do BTG. Buscamos profissionais motivados, capazes de trabalhar de forma autônoma, que gostem de desafios, sejam naturalmente curiosos e desejem atuar em um ambiente dinâmico, com forte impacto no negócio.
+**Principais desafios:**
+*   Colaborar com áreas de negócio para desenhar, implementar e gerenciar pipelines de Ciência de Dados e Inteligência Artificial;
+*   Desenvolver e construir modelos de Machine Learning e produtos de IA;
+*   Criar soluções de IA para diversas áreas da Arc4, traduzindo necessidades de negócio em projetos viáveis;
+*   Formular hipóteses, realizar experimentações e provas de conceito com modelos e métricas adequadas.
+**Quais as principais competências para a posição?**
+*   Formação superior completa em Engenharia, Ciência da Computação, Estatística ou áreas correlatas;
+*   Disponibilidade para atuar presencialmente 4x por semana no escritório de São Paulo;
+*   Experiência com Python e SQL;
+*   Vivência em projetos de ML/IA, da prototipagem à entrega;
+*   Conhecimento em estatística descritiva e testes de hipótese;
+*   Desejável experiência com Deep Learning e frameworks como PyTorch e TensorFlow;
+*   Raciocínio lógico, capacidade analítica e criatividade para resolução de problemas;
+*   Boa comunicação e habilidade para argumentação técnica e de negócios.
+**Habilidades diferenciais :**
+*   Experiência com produtização e monitoramento de modelos;
+*   Conhecimento em plataformas de cloud (AWS, GCP);
+*   Vivência com projetos de IA Generativa;
+*   Mestrado ou Doutorado são diferenciais;
+*   Conhecimento em ferramentas de Big Data (Spark, Airflow), DevOps (Docker, CI/CD) e MLOps.
+**Modelo de atuação**: Presencial.
+**Benefícios da Arc4 :**
+*   Vale Refeição no valor de R$ 840,09 e Vale Alimentação de R$ 662,07, totalizando em um valor de R$ 1.502,16 – disponibilizados por meio do cartão Caju Benefícios.
+*   Participação nos Lucros e Resultados (PLR);
+*   Auxílio Alimentação e Refeição;
+*   Plano Médico;
+*   Plano Odontológico;
+*   Vale Transporte;
+*   WellHub;
+*   TotalPass;
+*   Programa de Apoio Pessoal (EAP);
+*   Planos por adesão como Previdência Privada e Seguro de Vida;
+*   Desconto em Farmácia;
+*   Programa de Nutrição;
+*   Programa de Gestantes;
+*   Licença Maternidade e Paternidade Estendida – empresa Cidadã.
+_**Assim como todas as nossas vagas, essa também é destinada à diversidade e inclusão. Independentemente de qualquer fator, perfil ou característica, **Expanda sua carreira no PAN**!**_
+Para conhecer mais sobre nossos benefícios e cultura, acesse o Trabalhe Conosco:
+[_https://www.bancopan.com.br/trabalhe-conosco/_](https://www.bancopan.com.br/trabalhe-conosco/)

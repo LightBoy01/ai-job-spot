@@ -1,0 +1,36 @@
+---
+id: hiringcafe-oraclecloud___ejgk.fa.em2___30034010
+title: Assistant Manager- Python
+company: KPMG Assurance and Consulting Services LLP
+location: Pune or Bangalore
+applicationLink: >-
+  https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/30034010
+postedDate: '2025-09-30T12:21:36.000Z'
+expirationDate: null
+tags:
+  - Software Development
+  - leading development
+  - designing architecture
+  - deploying to production
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/oraclecloud___ejgk.fa.em2___30034010'
+companyLogoUrl: null
+---
+**Lead python developer -**
+We are seeking a highly skilled and experienced lead developer (8+ relevant years of experience) to join our team. The ideal candidate will possess a strong technical background with a proven track record in delivering robust enterprise technical solutions. The successful candidate will be responsible for overseeing the technical lead and ensuring the seamless deployment of solutions in production environments. The roles and responsibilities expected for this position are as follows:
+Roles and Responsibilities expected as follows :
+**Technical lead (Strong),** who has delivered enterprise technical solutions deployed in production
+**Coding**: Python, API development/optimization, Debugging, RCA, Resolving issue at network level
+**Solution Architecture** : do application low level design keeping solution architecture (flow diagram) in mind like, Security, performance, pen-testing
+**AI technologies** :Well versed with AI technologies – with latest trends is preferred.
+**Azure Infrastructure & application code deployment** : Must be aware about PaaS components and able to troubleshoot issues in non-prod and prod environment. Able to deploy the solution application code to Azure web-app and function app in lower environment. Work hand in hand with DevOps team.
+**Demo and Documentation** : Should be able to lead and demo the solution business features. Maintains detailed low level technical documentation
+### Responsibilities
+NA
+### Qualifications
+NA

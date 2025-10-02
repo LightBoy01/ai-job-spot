@@ -1,0 +1,55 @@
+---
+id: hiringcafe-brassring___25008_5050___314536
+title: Digital Technical Architect
+company: UBS
+location: 'Pune, Maharashtra, India'
+applicationLink: >-
+  https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=314536
+postedDate: '2025-09-30T12:00:00.000Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - design architecture
+  - drive architecture
+  - translate backlog
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/brassring___25008_5050___314536'
+companyLogoUrl: null
+---
+### Your role
+Do you want to build your digital architecture skills whilst creating impactful applications? Are you interested in being part of an externally recognized engineering community with personal development at its core? Would you like to join a team that gives back to the community and engages with a diverse group of people?
+We are looking for a Digital Technology Architect to work with us to execute our vision and help us create an even stronger industry leading organization. Your role will include:
+• Working closely with cross-functional team members in a pod or crew to improve (digital) products in line with our Digital Principles and architecture goals.
+• You will be identifying, designing and developing n-tier architectures on different layers e.g., enterprise, data, solution, and technology architecture.
+• You will also be consulting with business, technology product owners and architects, helping them translate our OKRs (Objectives and Key Results) into backlog items and driving architectural improvements into the roadmap.
+### City
+Pune
+### Job Type
+Full Time
+### Country / State
+India
+### Function Category
+Information Technology (IT)
+### Disclaimer / Policy statements
+UBS is an Equal Opportunity Employer. We respect and seek to empower each individual and support the diverse cultures, perspectives, skills and experiences within our workforce.
+### Your team
+You’ll work as part of the Channels and Content agile crew which is one of the crews in the Managing Clients Stream.
+We design and create external touch points for our clients as well as managing applications to support the flow of client information, price data and the client lifecycle and lead generation. Our goal is to leverage technology and digital intelligence to enrich our client relationships. We are the interface our clients see and
+deliver personalized and role specific content & efficient and seamless client services at all touchpoints 24/7 via client preferred channels.
+You’ll be joining us in Asset Management Technology, a wider, truly diverse of around 1,200 people from all over the world.
+Our goal in Asset Management Technology is to drive sustainable investments and empower our teams. We are innovative, client focused and imaginative. We’re committed to fostering a culture where our individuals thrive, and our platforms are data-driven, scalable, and aligned with business objectives. We take genuine pleasure in what we do, we’re proud of our deliverables, and enjoy collaborating within an exceptional team.
+### Your expertise
+• you understand software design patterns, architectures, and development methodologies and can apply architectural principles, methods, and tools to business challenges
+• 10+ years' practical work experience at a senior technical lead / architect level in a commercial setting
+• skills and experience should include detailed and practical Azure solutions architecture as well as previous hand on experience with some of the following technologies : React / HTML5 \\\\ JavaScript frameworks, Web Applications, Java / Java services, SOA / APis, RESTful web services/ JSON , ETL / Informatica, Postrgess / Oracle, AI, Machine Learning, database technologies (SQL & no SQL) agile, Test Driven Development and DevOps practices.
+• must have proven track record in successfully architecting, building, releasing, and maintaining large-scale user centric n-tier Digital / Web enterprise platforms in a complex technology environment
+• equivalent level of bachelor's or master's degree.
+• have experience of Microsoft cloud architecture (Kubernetes service, container apps) or messaging platforms such as Kafka that would be a bonus.
+### About us
+UBS is the world’s largest and the only truly global wealth manager. We operate through four business divisions: Global Wealth Management, Personal & Corporate Banking, Asset Management and the Investment Bank. Our global reach and the breadth of our expertise set us apart from our competitors..
+We have a presence in all major financial centers in more than 50 countries.

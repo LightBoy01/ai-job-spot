@@ -1,0 +1,62 @@
+---
+id: hiringcafe-successfactors___eu___Worldline___1328259657
+title: 'Account Sales (Paris, J, FR)'
+company: Worldline
+location: 'Paris, Île-de-France, France'
+applicationLink: 'https://jobs.worldline.com/job/Paris-Account-Sales-J/1328259657/'
+postedDate: '2025-09-30T13:43:45.873Z'
+expirationDate: null
+tags:
+  - Sales
+  - identifying opportunities
+  - managing sales cycle
+  - presenting digital solutions
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___Worldline___1328259657'
+companyLogoUrl: null
+---
+Sales Account Executive -Secteur Public, Santé et Social
+Omnichannel Services
+Contrat à Durée Indéterminée. Lieu :  Paris, France
+**Qui sommes-nous ?**
+Worldline est une entreprise internationale de plus de 18 000 salariés, dont plus de 3 000 en France.
+L’entité MTS de Worldline, _Mobility and E-Transactional Services_, vise à développer des services transactionnels critiques autour de 3 pilliers :
+*   Omnichannel Services (gestion de l’ensemble des canaux de communications digitaux et innovations par l’IA)
+*   Trusted Services (développement de projets spécifiques informatiques critiques)
+*   Transport et Mobilité (déploiement de solutions liées à la billetique et aux parcours multimodaux)
+Au sein du pillier Omnichannel Services, Worldline, en tant qu’éditeur et intégrateur, développe depuis plus de 30 ans des solutions informatiques permettant l’orchestration de l’ensemble des communications entrantes et sortantes pour plus de 150 clients Grands Comptes, issus de la plupart des secteurs d’activités (Banque, Energie, Retail, Public, Social, Santé, Transport, etc..). Worldline innove et investit fortement dans ses solutions omnicanales multi-messages (chatbots, callbots, sms, mails), avec plus de 3 milliards d’intéractions omnicanales générées par an et plus de 60 Millions d’utilisateurs finaux de ses solututions.
+**Votre rôle :**
+Vous serez responsable commercial du secteur Public, Social et Santé au sein de la direction commerciale Omnichannel Services.
+**Votre rôle comprendra:**
+*   L’identification de nouvelles opportunités en amont auprès de vos prospects
+(budget projet souvent situé entre 5 et 25M€)
+*   La stratégie d’adressage de comptes, le mapping des décideurs à rencontrer
+*   La compréhension des enjeux spécifiques à chaque client pour proposer des offres ajustées, en cohérence avec leur stratégie de gestion de la relation client
+*   Le pilotage et la gestion de l’ensemble du cycle de vente, de l’identification au closing
+*   La présentation et la démonstration de nos solutions digitales
+*   Le travail en étroite collaboration avec l’équipe opérationnelle et produit
+*   La participation et l’animation des salons et évènements
+**Profil**
+Vous êtes passionné par le secteur de la relation client et de l’informatique, doté d'une vraie capacité à comprendre ses enjeux spécifiques et reconnu comme un expert dans la prospection commerciale. Vous maîtrisez les dynamiques du marché, les acteurs clés, ainsi que les attentes en matière d'innovation, notamment dans le domaine de l’automatisation par l’IA et la gestion des services critiques comme les centres d’appels (Contact Center as a Service).
+Doté d’un sens aigu de la chasse commerciale, vous savez identifier et saisir les opportunités sur des cycles de vente complexes et longs, pour développer nos offres auprès des grands comptes et acteurs majeurs de votre secteur (CAC 40, SBF-120) sur des budgets projets significatifs (plusieurs millions d’euros).
+Vous aurez également un portefeuille existant de compte à renouveler et devrez tisser une relation de proximité avec vos clients.
+**Eléments Recherchés pour le poste :**
+*   Diplôme d’une école de commerce ou d’ingénieurs, avec une expérience solide dans la vente ou le développement d’affaires dans le secteur public et social.
+*   Minimum 3 ans d’expérience en vente B2B dans le domaine de la relation client, de l’IA et/ou du marketing conversationnel, avec une expertise du secteur puclic/social/santé, et une forte capacité à porter les enjeux technologiques du secteur
+*   Expertise dans la prospection, la vente et la gestion de grands comptes dans un environnement technique et complexe.
+*   Bonne connaissance de l’écosystème des acteurs du secteur : Ministères, Caisses Nationales, Conseils régionaux et Départementaux, Agences Régionales de Santé
+*   Capacité à définir une stratégie de chasse ciblée, à élaborer des offres adaptées et à convaincre une clientèle exigeante.
+*   Anglais professionnel indispensable.
+**Qualités humaines requises**
+*   Curiosité, Rigueur et forte compréhension des enjeux sectoriels pour détecter rapidement les opportunités.
+*   Excellente aisance relationnelle et capacités de négociation.
+*   Esprit d’initiative, et d’autonomie (plan d’action de prospection, de suivi de comptes)
+*   Aptitude à travailler en équipe au sein d’un grand groupe, en mode transversal, avec des experts techniques, commerciaux et de gestion de projet.
+*   Capacité à fédérer et à construire une relation de confiance avec des interlocuteurs variés.
+*   Forte orientation résultats et sens de la prospection stratégique.
+Ce poste vous permettra de jouer un rôle stratégique dans la croissance de nos offres auprès des acteurs majeurs du secteur public, social et de la santé, tout en intervenant sur des sujets innovants liés à la connectivité, la gestion de services critiques et le déploiemen de projets dans le domaine de la relation client.

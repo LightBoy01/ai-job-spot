@@ -12,6 +12,8 @@ tags:
   - Future of Work
   - AI
 imageUrl: /images/articles/the-antifragile-career.svg
+hub: Career & Professional Strategy
+contentType: editorial
 ---
 
 In a world obsessed with stability, predictability, and risk mitigation, we are constantly told to build careers that are robust, resilient, and resistant to shocks. We seek safe harbors in a storm, hoping to weather the inevitable disruptions that technology, economics, and global events throw our way. But what if this pursuit of mere resilience is a strategic error? What if, in our quest to survive, we are missing the profound opportunity to actually _benefit_ from disorder? This is the essence of antifragility, a concept that offers a radical new playbook for building a career that not only withstands the chaos of an AI-driven world, but actually grows stronger because of it.

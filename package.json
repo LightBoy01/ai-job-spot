@@ -13,15 +13,23 @@
     "lint:scripts": "tsc --project tsconfig.scripts.json",
     "scrape:got": "ts-node scripts/get_page_source_got.ts",
     "lint:content": "ts-node scripts/lint-content.ts",
-    "pipeline:run": "node --loader ts-node/esm src/data-pipeline/main.ts",
-    "publish:jobs": "node scripts/publishJobs.mjs",
+    "pipeline:run": "tsc --project src/data-pipeline/tsconfig.json && node dist/data-pipeline/main.js",
     "seed": "ts-node seedFirestore.ts",
     "test": "jest --testPathIgnorePatterns=__tests__/pages/api --testPathIgnorePatterns=src/components/Footer.test.tsx",
     "test:api": "jest --config=jest.config.api.cjs __tests__/pages/api",
     "test:scripts": "jest __tests__/scripts",
     "test:indexing": "ts-node scripts/test_indexing_api.ts",
     "create": "ts-node scripts/create_content.ts",
-    "aggregate": "tsc --project tsconfig.pipeline.json && node dist/pipeline/run_aggregation.js"
+    "aggregate": "tsc --project tsconfig.pipeline.json && node dist/pipeline/run_aggregation.js",
+    "clean:jobs": "ts-node scripts/content-hygiene.ts",
+    "clean:jobs:dry-run": "ts-node scripts/content-hygiene.ts --dry-run",
+    "publish:jobs": "./node_modules/.bin/ts-node scripts/publish_jobs.ts",
+    "publish:jobs:dry-run": "./node_modules/.bin/ts-node scripts/publish_jobs.ts --dry-run",
+    "enrich:jobs": "ts-node scripts/enrich_jobs.ts",
+    "categorize:hubs": "ts-node scripts/categorize_hubs.ts",
+    "categorize:hubs:dry-run": "ts-node scripts/categorize_hubs.ts --dry-run",
+    "standardize:tags": "ts-node scripts/standardize_tags.ts",
+    "standardize:tags:dry-run": "ts-node scripts/standardize_tags.ts --dry-run"
   },
   "dependencies": {
     "@babel/runtime": "^7.28.4",
@@ -55,6 +63,7 @@
     "micro": "^10.0.1",
     "next": "^15.5.3",
     "nodemailer": "^7.0.5",
+    "p-throttle": "^8.0.0",
     "playwright": "^1.55.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -87,6 +96,7 @@
     "eslint-config-prettier": "^10.1.8",
     "jest": "^30.0.5",
     "jest-environment-jsdom": "^30.0.5",
+    "node-fetch": "^3.3.2",
     "node-mocks-http": "^1.17.2",
     "postcss": "^8.5.6",
     "prettier": "^3.6.2",
@@ -95,7 +105,8 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "turndown": "^7.2.1",
-    "typescript": "5.9.2"
+    "typescript": "5.9.2",
+    "whatwg-fetch": "^3.6.20"
   },
   "overrides": {
     "quill": "^2.0.0"

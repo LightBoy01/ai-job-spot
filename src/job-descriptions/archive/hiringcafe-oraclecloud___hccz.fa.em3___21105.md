@@ -1,0 +1,38 @@
+---
+id: hiringcafe-oraclecloud___hccz.fa.em3___21105
+title: COE & ERP Solution Lead
+company: Pearson
+location: 'Bangalore, Karnataka, India'
+applicationLink: >-
+  https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/21105
+postedDate: '2025-09-26T14:46:19.000Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Delivery management
+  - Strategic planning
+  - Stakeholder engagement
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/oraclecloud___hccz.fa.em3___21105'
+companyLogoUrl: null
+---
+Job Title: TCOE and ERP Solution Lead
+Location: Bangalore, Karnataka
+Key Responsibilities:
+Drive Delivery of TCOE and ERP Initiatives and programs partnering with Engineering lead and service owners.
+Create Modernization roadmaps and track it for execution across cloud initiatives, Gen AI capabilities, Automation and Agentic AI solutions.
+Drive Innovation themes and outcomes partnering with Technology vendors and drive tangible growth in innovation activities in the INDIA center.
+Manage Project estimation and Budget planning and tracking for different services, and connect with Finance for periodic reporting.
+Partner closely with INDIA Business and Technology leaders to offer joint GTM solutions maximising the capabilities within ERP and TCOE.
+Drive continuous improvement in delivery processes and methodologies.
+Monitor and report on the TCOE and ERP performance, identifying areas for improvement and implementing corrective actions as needed.
+Qualifications:
+15+ experience in consulting/captive centers with proven ability in leading and driving large transformation programs
+Proven capability incubating teams around new technologies like Automation, AI Assistants, Cloud modernisation, etc
+Bachelor's or Master's degree in Computer Science, Information Technology, Business Administration, or a related field.
+Ability to work effectively with clients and stakeholders at all levels.

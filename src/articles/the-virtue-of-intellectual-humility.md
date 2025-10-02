@@ -1,6 +1,6 @@
 ---
 slug: the-virtue-of-intellectual-humility
-title: "The Virtue of Intellectual Humility: The AI Era's Most Undervalued Skill"
+title: 'The Virtue of Intellectual Humility: The AI Era''s Most Undervalued Skill'
 author: The AI Strategist
 publishDate: 2025-07-29T00:00:00.000Z
 issueNo: 26
@@ -12,6 +12,8 @@ tags:
   - Collaboration
   - Innovation
 imageUrl: /images/articles/the-virtue-of-intellectual-humility.svg
+hub: The Human Advantage
+contentType: editorial
 ---
 
 We are drowning in answers. With AI that can generate a business plan, debug code, or draft legal arguments in seconds, we have access to a previously unimaginable level of certainty. But this firehose of confidence has a hidden, dangerous side effect: it makes our own intellectual _arrogance_ seem not only justified, but efficient.

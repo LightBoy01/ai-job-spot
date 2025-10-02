@@ -1,0 +1,66 @@
+---
+id: hiringcafe-grnhse___kaizengaming___7109167003
+title: Social Media Manager
+company: Kaizen Gaming
+location: 'Accra, Ghana, Ghana'
+applicationLink: 'https://careers.kaizengaming.com/job-details/7109167003?gh_jid=7109167003'
+postedDate: '2025-09-22T12:26:10.000Z'
+expirationDate: null
+tags:
+  - Marketing
+  - Develop strategies
+  - Manage calendar
+  - Oversee campaigns
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___kaizengaming___7109167003'
+companyLogoUrl: null
+---
+**We are Kaizen Gaming**
+Kaizen Gaming, the team powering Betano, is one of the biggest GameTech companies in the world, operating in 19 markets. We always aim to leverage cutting-edge technology, providing the best experience to our millions of customers who trust us for their entertainment.
+We are a diverse team of more than 2.700 Kaizeners, from 40+ nationalities spreading across 3 continents.
+Our #oneteam is proud to be among the Best Workplaces in Europe and certified Great Place to Work across our offices. Here, there’ll be no average day for you. Ready to Press Play on Potential?
+**Let’s start with the role:**
+Betano Ghana is looking for a talented Social Media Manager who can take ownership of the presence of the Betano brand on different social media platforms. The expectations from the role are to manage and grow social media channels, ensuring a consistent brand voice and high engagement while leading a team of content creators and fostering collaboration and innovation. Our goal is to become the most entertaining betting brand, connecting with fans across diverse markets. How? By being a global brand with a local heartbeat that resonates with audiences, connects authentically, inspires action and builds a community of fans, not followers.
+This role is perfect for someone who loves and understands the dynamics of online betting and knows how to turn insights into impactful content. The candidate should have proven experience in social media management, content creation, and digital marketing.
+**As a Social Media Manager, you will:**
+*   Develop and execute data-driven social media strategies aligned with company goals, ensuring collaboration with the creative agency and alignment with Betano's mission of becoming the most entertaining and trusted betting brand;
+*   Manage and optimize the social media calendar, streamlining content review and tracking performance through pre-approved visuals and strategic alignment;
+*   Oversee organic social media campaigns, focusing on brand awareness, audience engagement, and community building, while leveraging Betano’s Social Media pillars;
+*   Utilize analytics tools (e.g., Sprout, Brandwatch) to track and measure the performance of social media campaigns across different channels. Report on key metrics such as reach, engagement, and conversions. Optimize content and strategy based on data insights and create monthly reports to evaluate content performance;
+*   Lead influencer marketing strategy, focusing on high-value collaborations and strategic partnerships with ambassadors and content creators to enhance reach, credibility, and engagement;
+*   Implement locally driven activations and daily content strategies, ensuring alignment with Betano's global content framework;
+*   Monitor growth, engagement, and sentiment metrics, leveraging social listening to understand consumer trust and adjust strategies accordingly;
+*   Stay up-to-date with social media trends, viral content, and emerging platforms, fostering innovation and real-time engagement to maintain cultural relevance;
+*   Collaborate closely with marketing, CRM, and sponsorship teams to ensure that social media efforts align with broader business objectives.
+**What you’ll bring:**
+*   4+ years of experience in social media management, content marketing, or digital strategy, preferably within sports, gaming, or entertainment industries and executing complex digital marketing campaigns;
+*   Educational background in Marketing, Communications, or Digital Media (Master’s preferred);
+*   Genuine passion in sports is a must-have;
+*   Native Ghanaian and excellent command of the English language;
+*   Proven experience in developing and executing social media strategies focused on engagement, audience growth, and brand awareness;
+*   Hands-on knowledge of social media management and analytics tools, including Sprout, Brandwatch, Hootsuite, and Google Analytics;
+*   Demonstrated experience in leading influencer collaborations and leveraging them for content amplification;
+*   Strong communication and writing skills, with the ability to craft engaging, platform-specific content that aligns with Betano's brand positioning;
+*   Ability to adapt quickly to social trends and oversee real-time social engagement, including crisis communication when needed;
+*   Proven experience in collaborating with cross-functional departments, and optimizing community management through social listening;
+*   Strong organizational and multitasking abilities, with a strategic mindset to align social media efforts with business objectives;
+*   Familiarity with AI-powered content creation and optimization, including automated data insights for strategic decision-making.
+**Kaizen Gaming Perks**
+*   🕑 Hybrid way of working
+*   🏃 A buddy will support you with your onboarding
+*   💸 Competitive pay and bonus scheme
+*   👩‍⚕️ Private health insurance for you and your family
+*   💰 Monthly meal allowance
+*   🚗 Commuting allowance
+*   ⭐Developmental 360° feedback framework
+*   📚 Unlimited access to Udemy & continuous training
+*   #LI-Hybrid
+*   #LI-NK2
+**Recruitment Privacy Notice**
+Regarding the data you share with us, you may find and read our recruitment privacy notice [here](https://careers.kaizengaming.com/privacy-policy).
+We are an equal opportunity employer committed to fostering a diverse and inclusive workplace. We welcome applications from individuals of all backgrounds, regardless of race, gender, religion, sexual orientation,or age.

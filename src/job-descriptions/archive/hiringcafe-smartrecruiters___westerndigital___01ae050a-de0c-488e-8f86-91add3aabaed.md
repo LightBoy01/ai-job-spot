@@ -1,0 +1,58 @@
+---
+id: >-
+  hiringcafe-smartrecruiters___westerndigital___01ae050a-de0c-488e-8f86-91add3aabaed
+title: Intern - Data Science (Studying Bachelor Degree)
+company: Western Digital
+location: 'Bang Pa-in, Phra Nakhon Si Ayutthaya, Thailand'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/WesternDigital/744000081244245-intern-data-science-studying-bachelor-degree-
+postedDate: '2025-09-11T06:53:48.335Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - developing prototypes
+  - preprocessing data
+  - building models
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___westerndigital___01ae050a-de0c-488e-8f86-91add3aabaed
+companyLogoUrl: null
+---
+**Company Description:**
+At Western Digital, our vision is to power global innovation and push the boundaries of technology to make what you thought was once impossible, possible.
+At our core, Western Digital is a company of problem solvers. People achieve extraordinary things given the right technology. For decades, we’ve been doing just that—our technology helped people put a man on the moon and capture the first-ever picture of a black hole.
+We offer an expansive portfolio of technologies, HDDs, and platforms for business, creative professionals, and consumers alike under our Western Digital®, WD®, WD\_BLACK™, and SanDisk® Professional brands.
+We are a key partner to some of the largest and highest-growth organizations in the world. From enabling systems to make cities safer and more connected, to powering the data centers behind many of the world’s biggest companies and hyperscale cloud providers, to meeting the massive and ever-growing data storage needs of the AI era, Western Digital is fueling a brighter, smarter future.
+Today’s exceptional challenges require your unique skills. Together, we can build the future of data storage.
+**Job Description:**
+**ESSENTIAL DUTIES AND RESPONSIBILITIES:**
+*   Work on a project-based assignment focused on developing Spotfire analysis prototypes using data available in Redshift, with the goal of creating AI-assisted prediction models for selected products and/or factory KPIs
+*   Support the development of the lights-out department's measurement tools by leveraging parameter big data modeling to enable predictive, prescriptive, and diagnostic analytics.
+*   Assist in collecting, cleaning, and preprocessing large datasets to ensure accuracy and consistency for analysis
+*   Support the development and testing of machine learning models under the guidance of senior data scientists.
+*   Help create and maintain dashboards and visualizations in Spotfire to effectively communicate results to stakeholders.
+*   Document analysis processes, methodologies, and findings to ensure knowledge sharing within the team
+*   Research and present emerging data science tools, techniques, and best practices that could improve current systems
+*   Collaborate with cross-functional teams, including engineers and operations, to translate business needs into analytical solutions
+**Qualifications:**
+**REQUIRED:**
+*   Pursuing a bachelor's in **Software Engineering, Computer Engineering/Science, Data science, Digital Engineering, Robotics and Artificial Intelligence Engineering** or a related field
+*   Internship student in the cooperative education program (CWIE) is required to have an internship period of at least 4-6 months
+**SKILLS:**
+*   Experience in **machine learning & AI project**
+*   Skills in **SQL, Python, and R for custom analysis and data visualization**
+*   Skills in Project Management
+*   Knowledge in Statistical Analysis
+*   Demonstrate a good level of English proficiency
+**Additional Information:**
+Western Digital thrives on the power and potential of diversity. As a global company, we believe the most effective way to embrace the diversity of our customers and communities is to mirror it from within. We believe the fusion of various perspectives results in the best outcomes for our employees, our company, our customers, and the world around us. We are committed to an inclusive environment where every individual can thrive through a sense of belonging, respect and contribution.
+Western Digital is committed to offering opportunities to applicants with disabilities and ensuring all candidates can successfully navigate our careers website and our hiring process. Please contact us at [jobs.accommodations@wdc.com](mailto:jobs.accommodations@wdc.com) to advise us of your accommodation request. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.
+#LI-SB1
+Western Digital thrives on the power and potential of diversity. As a global company, we believe the most effective way to embrace the diversity of our customers and communities is to mirror it from within. We believe the fusion of various perspectives results in the best outcomes for our employees, our company, our customers, and the world around us. We are committed to an inclusive environment where every individual can thrive through a sense of belonging, respect and contribution.
+Western Digital is committed to offering opportunities to applicants with disabilities and ensuring all candidates can successfully navigate our careers website and our hiring process. Please contact us at [jobs.accommodations@wdc.com](mailto:staffingsupport@wdc.com) to advise us of your accommodation request. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.
+**Notice To Candidates:** Please be aware that Western Digital and its subsidiaries will never request payment as a condition for applying for a position or receiving an offer of employment. Should you encounter any such requests, please report it immediately to [Western Digital Ethics Helpline](https://secure.ethicspoint.com/domain/media/en/gui/48999/index.html) or email [compliance@wdc.com](mailto:compliance@wdc.com).

@@ -9,6 +9,7 @@ const searchSchema = z.object({
   q: z.string().max(100).optional().default(''), // Search query
   startAfter: z.string().max(100).optional(), // Firestore document ID for pagination
   limit: z.coerce.number().int().positive().max(50).optional().default(10), // Page size
+  filter: z.enum(['editorial', 'briefing']).optional(), // New filter for content type
 });
 
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
@@ -40,7 +41,7 @@ export default async function handler(
       });
     }
 
-    const { q: searchTerm, startAfter: startAfterId, limit } = validation.data;
+    const { q: searchTerm, startAfter: startAfterId, limit, filter } = validation.data;
     const lowerSearchTerm = searchTerm.toLowerCase();
 
     res.setHeader(
@@ -52,8 +53,11 @@ export default async function handler(
     const fetchedDocIds = new Set<string>();
 
     // Function to fetch and process a query result
-    const fetchAndProcess = async (baseQuery: Query) => {
+    const fetchAndProcess = async (baseQuery: Query, currentFilter?: 'editorial' | 'briefing') => {
       let currentQuery = baseQuery;
+      if (currentFilter) {
+        currentQuery = currentQuery.where('contentType', '==', currentFilter);
+      }
       if (startAfterId) {
         const startAfterDoc = await adminDb
           .collection('articles')
@@ -81,7 +85,8 @@ export default async function handler(
           .where('title', '>=', searchTerm)
           .where('title', '<=', searchTerm + '\uf8ff')
           .orderBy('title')
-          .orderBy('publishDate', 'desc')
+          .orderBy('publishDate', 'desc'),
+        filter
       );
 
       // 2. Search by Author (prefix match)
@@ -91,7 +96,8 @@ export default async function handler(
           .where('author', '>=', searchTerm)
           .where('author', '<=', searchTerm + '\uf8ff')
           .orderBy('author')
-          .orderBy('publishDate', 'desc')
+          .orderBy('publishDate', 'desc'),
+        filter
       );
 
       // 3. Search by Tags (array-contains-any)
@@ -99,12 +105,14 @@ export default async function handler(
         adminDb
           .collection('articles')
           .where('tags', 'array-contains-any', [searchTerm])
-          .orderBy('publishDate', 'desc')
+          .orderBy('publishDate', 'desc'),
+        filter
       );
     } else {
       // If no search term, return all published articles, paginated
       await fetchAndProcess(
-        adminDb.collection('articles').orderBy('publishDate', 'desc')
+        adminDb.collection('articles').orderBy('publishDate', 'desc'),
+        filter
       );
     }
 

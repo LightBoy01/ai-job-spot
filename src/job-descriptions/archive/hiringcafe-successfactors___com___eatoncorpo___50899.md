@@ -1,0 +1,164 @@
+---
+id: hiringcafe-successfactors___com___eatoncorpo___50899
+title: OPEX Coordinator Industry 4.0 - Digital Factory (50899)
+company: Eaton Corporation
+location: United States
+applicationLink: >-
+  https://career41.sapsf.com/career?career_ns=job_listing&company=eatoncorpo&career_job_req_id=50899
+postedDate: '2025-09-19T17:41:11.000Z'
+expirationDate: null
+tags:
+  - Engineering
+  - coordinate deployment
+  - collaborate teams
+  - train staff
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___eatoncorpo___50899'
+companyLogoUrl: null
+---
+Career Opportunities: OPEX Coordinator Industry 4.0 - Digital Factory (50899)
+=============================================================================
+Requisition ID **50899** - Posted
+[  Job Description Print Preview](javascript:void\(0\))
+What you’ll do:
+---------------
+**FUNCION PRINCIPAL:**
+Responsable de impulsar y coordinar iniciativas de OPEX mediante la integración de tecnologías digitales de Industria 4.0 en los procesos de fabricación y mantenibilidad del negocio. Idear, elaborar y dar seguimiento a planes de implementación de tecnologías que apoyen la trazabilidad de productos, control estadístico de procesos, automatización, robótica, AI, monitoreo de OEE, etc., para asegurar cumplimiento de tiempo, alcance y recursos.
+**FUNCIONES ESENCIALES:**
+1\. Coordinar la implementación de tecnologías de Industria 4.0 (monitoreo de OEE (Overall equipment efectiveness) , automatización, robótica, AI, SPC (Stadistical process control) y otros realacionados para optimizar producción y reducción de defectos.
+2\. Colaborar con equipos multidisciplinarios para la digitalización de procesos y habilitar análisis predictivo con miras a la mejora continua.
+3\. Facilitar sesiones de entrenamiento de las tecnologías implementadas para construir una cultura de mejora continua orientada a la digitalización.
+4\. Servir como puente entre Eaton y suplidores externos durante la implementación de proyectos de I4.0.
+5\. Desarrollar y mantener documentación de uso de las herramientas digitales implementadas y bestpractices.
+6\. Elaborar presupuestos y análisis de efectividad de costo de proyectos afines a I4.0.
+7\. Administrar proyectos asignados, elaborar reportes y presentaciones de los mismos.
+8\. Dar seguimiento activo a los proyectos implementados para asegurar mantenibilidad y efectividad.
+9\. Evaluar prácticas internas y externas para mantener el vanguardismo en tendencias tecnológicas y estrategias de Digital Factory.
+10\. Asegurar alineación de proyectos de I4.0 con objetivos estratégicos del negocio
+**Responsabilidades relacionadas con Salud, Seguridad y Medio Ambiente (EHS):**
+1\. Asistir a todos los entrenamientos de Seguridad, Salud y Medio ambiente que sean asignados.
+2\. Cumplir con los requerimientos de 5S/MESH.
+3\. Responsable de velar por las normas de seguridad, así como las políticas establecidas por Eaton. Incluyendo el cumplimiento de todos los programas donde tenga alguna responsabilidad.
+4\. El no-cumplimiento con los procedimientos de seguridad puede derivar en accidentes menores y/o lesiones dependiendo de la función.
+Qualifications:
+---------------
+**CONOCIMIENTO ESPECIALIZADO:**
+• Graduado Universitario en ramas de Ingeniería (Eléctrica, Electrónica, Mecatrónica, Telecomunicaciones).
+• Bachiller técnico o Tecnólogo en Electrónica, Electricidad, Mecatrónica o Telecomunicaciones. (Preferible)
+• Conocimiento intermedio demostrable en programación, sistemas automatizados, PLC, digitalización, IoT, procesos de manufactura controlados.
+• Conocimiento en gestión de proyectos y herramientas Lean. (Preferible)
+• Mínimo 2 años de experiencia en areas afines a Ingeniería, automatización, proyectos.
+Competencias
+• Alta capacidad de pensamiento crítico y resolución de problemas de manera ágil y eficiente.
+• Trabajo en equipo.
+• Comunicación efectiva y manejo de conflictos.
+• Impulsor del cambio e innovación.
+• Inglés – Intermedio/ Avanzado.
+• Office – Intermedio,
+#LI-EM
+Additional Information:
+-----------------------
+• Responsabilidad por materiales & productos: responsable del control de las facturas.
+• Responsabilidad facilidades & Equipos: Responsable por las herramientas que facilitan la elaboración de sus labores.
+• Esfuerzo Físico: Mínimos, trabajo de oficina
+Email this job to a friend
+
+
+**The job has been sent to**
+[Please provide the information below](#)
+Job title:
+\*Your friend’s email address:
+Message:
+\*Confirm you are not a robot:
+Requisition ID **50899** - Posted
+What you’ll do:
+---------------
+**FUNCION PRINCIPAL:**
+Responsable de impulsar y coordinar iniciativas de OPEX mediante la integración de tecnologías digitales de Industria 4.0 en los procesos de fabricación y mantenibilidad del negocio. Idear, elaborar y dar seguimiento a planes de implementación de tecnologías que apoyen la trazabilidad de productos, control estadístico de procesos, automatización, robótica, AI, monitoreo de OEE, etc., para asegurar cumplimiento de tiempo, alcance y recursos.
+**FUNCIONES ESENCIALES:**
+1\. Coordinar la implementación de tecnologías de Industria 4.0 (monitoreo de OEE (Overall equipment efectiveness) , automatización, robótica, AI, SPC (Stadistical process control) y otros realacionados para optimizar producción y reducción de defectos.
+2\. Colaborar con equipos multidisciplinarios para la digitalización de procesos y habilitar análisis predictivo con miras a la mejora continua.
+3\. Facilitar sesiones de entrenamiento de las tecnologías implementadas para construir una cultura de mejora continua orientada a la digitalización.
+4\. Servir como puente entre Eaton y suplidores externos durante la implementación de proyectos de I4.0.
+5\. Desarrollar y mantener documentación de uso de las herramientas digitales implementadas y bestpractices.
+6\. Elaborar presupuestos y análisis de efectividad de costo de proyectos afines a I4.0.
+7\. Administrar proyectos asignados, elaborar reportes y presentaciones de los mismos.
+8\. Dar seguimiento activo a los proyectos implementados para asegurar mantenibilidad y efectividad.
+9\. Evaluar prácticas internas y externas para mantener el vanguardismo en tendencias tecnológicas y estrategias de Digital Factory.
+10\. Asegurar alineación de proyectos de I4.0 con objetivos estratégicos del negocio
+**Responsabilidades relacionadas con Salud, Seguridad y Medio Ambiente (EHS):**
+1\. Asistir a todos los entrenamientos de Seguridad, Salud y Medio ambiente que sean asignados.
+2\. Cumplir con los requerimientos de 5S/MESH.
+3\. Responsable de velar por las normas de seguridad, así como las políticas establecidas por Eaton. Incluyendo el cumplimiento de todos los programas donde tenga alguna responsabilidad.
+4\. El no-cumplimiento con los procedimientos de seguridad puede derivar en accidentes menores y/o lesiones dependiendo de la función.
+Qualifications:
+---------------
+**CONOCIMIENTO ESPECIALIZADO:**
+• Graduado Universitario en ramas de Ingeniería (Eléctrica, Electrónica, Mecatrónica, Telecomunicaciones).
+• Bachiller técnico o Tecnólogo en Electrónica, Electricidad, Mecatrónica o Telecomunicaciones. (Preferible)
+• Conocimiento intermedio demostrable en programación, sistemas automatizados, PLC, digitalización, IoT, procesos de manufactura controlados.
+• Conocimiento en gestión de proyectos y herramientas Lean. (Preferible)
+• Mínimo 2 años de experiencia en areas afines a Ingeniería, automatización, proyectos.
+Competencias
+• Alta capacidad de pensamiento crítico y resolución de problemas de manera ágil y eficiente.
+• Trabajo en equipo.
+• Comunicación efectiva y manejo de conflictos.
+• Impulsor del cambio e innovación.
+• Inglés – Intermedio/ Avanzado.
+• Office – Intermedio,
+#LI-EM
+Additional Information:
+-----------------------
+• Responsabilidad por materiales & productos: responsable del control de las facturas.
+• Responsabilidad facilidades & Equipos: Responsable por las herramientas que facilitan la elaboración de sus labores.
+• Esfuerzo Físico: Mínimos, trabajo de oficina
+Email this job to a friend
+
+**The job has been sent to**
+**The job has been sent to**
+What you’ll do:
+---------------
+**FUNCION PRINCIPAL:**
+Responsable de impulsar y coordinar iniciativas de OPEX mediante la integración de tecnologías digitales de Industria 4.0 en los procesos de fabricación y mantenibilidad del negocio. Idear, elaborar y dar seguimiento a planes de implementación de tecnologías que apoyen la trazabilidad de productos, control estadístico de procesos, automatización, robótica, AI, monitoreo de OEE, etc., para asegurar cumplimiento de tiempo, alcance y recursos.
+**FUNCIONES ESENCIALES:**
+1\. Coordinar la implementación de tecnologías de Industria 4.0 (monitoreo de OEE (Overall equipment efectiveness) , automatización, robótica, AI, SPC (Stadistical process control) y otros realacionados para optimizar producción y reducción de defectos.
+2\. Colaborar con equipos multidisciplinarios para la digitalización de procesos y habilitar análisis predictivo con miras a la mejora continua.
+3\. Facilitar sesiones de entrenamiento de las tecnologías implementadas para construir una cultura de mejora continua orientada a la digitalización.
+4\. Servir como puente entre Eaton y suplidores externos durante la implementación de proyectos de I4.0.
+5\. Desarrollar y mantener documentación de uso de las herramientas digitales implementadas y bestpractices.
+6\. Elaborar presupuestos y análisis de efectividad de costo de proyectos afines a I4.0.
+7\. Administrar proyectos asignados, elaborar reportes y presentaciones de los mismos.
+8\. Dar seguimiento activo a los proyectos implementados para asegurar mantenibilidad y efectividad.
+9\. Evaluar prácticas internas y externas para mantener el vanguardismo en tendencias tecnológicas y estrategias de Digital Factory.
+10\. Asegurar alineación de proyectos de I4.0 con objetivos estratégicos del negocio
+**Responsabilidades relacionadas con Salud, Seguridad y Medio Ambiente (EHS):**
+1\. Asistir a todos los entrenamientos de Seguridad, Salud y Medio ambiente que sean asignados.
+2\. Cumplir con los requerimientos de 5S/MESH.
+3\. Responsable de velar por las normas de seguridad, así como las políticas establecidas por Eaton. Incluyendo el cumplimiento de todos los programas donde tenga alguna responsabilidad.
+4\. El no-cumplimiento con los procedimientos de seguridad puede derivar en accidentes menores y/o lesiones dependiendo de la función.
+Qualifications:
+---------------
+**CONOCIMIENTO ESPECIALIZADO:**
+• Graduado Universitario en ramas de Ingeniería (Eléctrica, Electrónica, Mecatrónica, Telecomunicaciones).
+• Bachiller técnico o Tecnólogo en Electrónica, Electricidad, Mecatrónica o Telecomunicaciones. (Preferible)
+• Conocimiento intermedio demostrable en programación, sistemas automatizados, PLC, digitalización, IoT, procesos de manufactura controlados.
+• Conocimiento en gestión de proyectos y herramientas Lean. (Preferible)
+• Mínimo 2 años de experiencia en areas afines a Ingeniería, automatización, proyectos.
+Competencias
+• Alta capacidad de pensamiento crítico y resolución de problemas de manera ágil y eficiente.
+• Trabajo en equipo.
+• Comunicación efectiva y manejo de conflictos.
+• Impulsor del cambio e innovación.
+• Inglés – Intermedio/ Avanzado.
+• Office – Intermedio,
+#LI-EM
+Additional Information:
+-----------------------
+• Responsabilidad por materiales & productos: responsable del control de las facturas.
+• Responsabilidad facilidades & Equipos: Responsable por las herramientas que facilitan la elaboración de sus labores.
+• Esfuerzo Físico: Mínimos, trabajo de oficina

@@ -15,6 +15,7 @@ import Sidebar from '@/components/Sidebar';
 import FeaturedBadge from '@/components/FeaturedBadge'; // New import
 import { useState } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
+import DOMPurify from 'isomorphic-dompurify';
 
 interface JobDetailsProps {
   job: SerializedJobPosting;
@@ -28,10 +29,10 @@ const generateJobPostingSchema = (job: SerializedJobPosting) => {
     ${plainDescription}
     
     Responsibilities:
-    ${job.responsibilities?.join('\n')}
+    ${job.responsibilities?.join('\\n')}
     
     Qualifications:
-    ${job.qualifications?.join('\n')}
+    ${job.qualifications?.join('\\n')}
   `.trim();
 
   const employmentTypes = [
@@ -65,7 +66,7 @@ const generateJobPostingSchema = (job: SerializedJobPosting) => {
   if (job.salaryRange) {
     const currencyMatch = job.salaryRange.match(/[A-Z]{3}|[$€₹£]/);
     const currency = currencyMatch ? currencyMatch[0] : 'USD';
-    const numbers = job.salaryRange.match(/\d+/g)?.map(Number);
+    const numbers = job.salaryRange.match(/\\d+/g)?.map(Number);
     if (numbers && numbers.length > 0) {
       salary = {
         '@type': 'MonetaryAmount',
@@ -126,6 +127,10 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
       </Layout>
     );
   }
+
+  // Sanitize HTML content before rendering to prevent XSS
+  const sanitizedDescription = DOMPurify.sanitize(job.description);
+  const sanitizedCulture = job.companyCulture ? DOMPurify.sanitize(job.companyCulture) : '';
 
   return (
     <Layout>
@@ -323,7 +328,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
               <section className="prose prose-base sm:prose-lg max-w-none mx-auto job-description">
                 <div
                   className="prose prose-base sm:prose-lg max-w-none mx-auto job-description"
-                  dangerouslySetInnerHTML={{ __html: job.description }}
+                  dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
                 />
 
                 {job.responsibilities && job.responsibilities.length > 0 && (
@@ -376,7 +381,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                     </h2>
                     <div
                       className="prose prose-lg max-w-none text-neutral-700"
-                      dangerouslySetInnerHTML={{ __html: job.companyCulture }}
+                      dangerouslySetInnerHTML={{ __html: sanitizedCulture }}
                     />
                   </div>
                 </section>

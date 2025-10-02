@@ -1,0 +1,62 @@
+---
+id: hiringcafe-grnhse___unity3d___7260791
+title: 'Staff Machine Learning Engineer, AI Authoring'
+company: Unity Technologies
+location: 'San Francisco, California, United States'
+applicationLink: 'https://unity.com/careers/positions/7260791?gh_jid=7260791'
+postedDate: '2025-09-28T21:00:10.000Z'
+expirationDate: null
+tags:
+  - Engineering
+  - design agents
+  - define orchestration
+  - lead initiatives
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$165,600 - $248,400'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___unity3d___7260791'
+companyLogoUrl: null
+---
+**The opportunity**
+At Unity, we’re shaping the future of real-time 3D development by enabling creators to harness intelligent, autonomous systems. Our next-generation agentic AI - goal-directed, adaptive, and capable of reasoning and planning in dynamic environments - is transforming how games and simulations come to life.
+We’re looking for a Staff Machine Learning Engineer to lead the development of these foundational AI systems within the Unity engine, empowering creators to build smarter, more responsive in-game agents and simulations. Your work will directly drive innovation, allowing developers and designers to integrate sophisticated AI behavior seamlessly into their worlds.
+This role is perfect for someone passionate about pushing the boundaries of AI, multi-agent systems, reinforcement learning, and intelligent decision-making in complex, real-time environments.
+**What you'll be doing**
+*   Design, implement, and scale AI agents that assist in generating game code and executing goal-directed behaviors.
+*   Define orchestration logic for single- and multi-agent systems
+*   Develop reusable agentic frameworks - planning modules, memory systems, or policy adaptation layers - for creator extensibility.
+*   Lead high-impact initiatives, including hierarchical reinforcement learning for scalable behaviors, AI planning and goal inference frameworks for NPCs and simulations, and agent memory and world modeling systems for persistent, believable behavior.
+*   Collaborate across internal and external teams to unlock innovative use cases in gaming, simulation, and interactive storytelling.
+*   Contribute to the long-term vision and roadmap for Unity’s agentic AI offerings, ensuring modularity, usability, and performance across platforms.
+*   Establish and champion best practices for model quality, simulation-based evaluation, and ML/AI safety within real-time systems.
+**What we're looking for**
+*   Advanced degree (MS or Ph.D.) in Computer Science, Machine Learning, or a related field.
+*   7+ years of hands-on experience developing ML systems in production, ideally within real-time or interactive environments.
+*   Experience with multi-agent systems, orchestration, or AI tool integration.
+*   Strong background in one or more of the following: LLM, reinforcement learning, decision-making under uncertainty, AI planning, or multi-agent systems.
+*   Proficiency in at least one general-purpose programming language (e.g., Python, C++, Go, Java) and familiarity with ML frameworks (e.g., PyTorch, TensorFlow).
+*   Strong system design skills and the ability to architect performant, scalable ML systems.
+*   Excellent communication and collaboration skills; ability to work effectively with cross-functional teams including engine developers, designers, and product managers.
+**You might also have**
+*   Familiarity with game development workflows.
+*   Publications or open-source contributions in reinforcement learning, agent-based modeling, or related areas.
+*   Experience with behavior trees, utility AI, or hierarchical task planning.
+*   Passion for the gaming industry and AI applications in games.
+**Additional information**
+*   Relocation support is not available for this position.
+**Life at Unity**
+We offer a wide range of benefits designed to support employees' well-being and work-life balance. You can read more about them on our [career page](https://unity.com/careers).
+Unity \[NYSE: U\] is the leading platform to create and grow games and interactive experiences. Creators, ranging from game developers to artists, architects, automotive designers, infrastructure experts, filmmakers, and more, use Unity to bring their imaginations to life across multiple platforms, from mobile, PC, and console, to spatial computing.
+As of the third quarter of 2024, more than 70% of the top 1,000 mobile games were made with Unity, and in 2024, Made with Unity applications had an average of 3.7 billion downloads per month. For more information, please visit [Unity](https://www.unity.com).
+_Unity is a proud equal opportunity employer. We are committed to fostering an inclusive, innovative environment and celebrate our employees across age, race, color, ancestry, national origin, religion, disability, sex, gender identity or expression, sexual orientation, or any other protected status in accordance with applicable law. Our differences are strengths that enable us to support the growing and evolving needs of our customers, partners, and collaborators. If you have a disability that means there are preparations or accommodations we can make to help ensure you have a comfortable and positive interview experience, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdrbRLG1N-apH1eahQ622Gypo-rmiAB6LLTP1UsSWQNu7omxQ/viewform) to let us know._
+_Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records._
+_This position requires the incumbent to have a sufficient knowledge of English to have professional verbal and written exchanges in this language since the performance of the duties related to this position requires frequent and regular communication with colleagues and partners located worldwide and whose common language is English._
+_Headhunters and recruitment agencies may not submit resumes/CVs through this Web site or directly to managers. Unity does not accept unsolicited headhunter and agency resumes. Unity will not pay fees to any third-party agency or company that does not have a signed agreement with Unity._
+_Your privacy is important to us. Please take a moment to review our [Prospect Privacy Policy](https://unity.com/legal/global-data-privacy-notice-to-prospects) and [Applicant Privacy Policy](https://unity.com/de/legal/global-data-privacy-notice-to-applicants). Should you have any concerns about your privacy, please contact us at DPO@unity.com._
+#SEN #LI-AR1
+_\*Note: Certain locations require a good faith disclosure of the base salary range for the role. The actual salary for the successful candidate may differ based on location, experience, and other job-related factors._
+Gross pay salary
+$165,600—$248,400 USD

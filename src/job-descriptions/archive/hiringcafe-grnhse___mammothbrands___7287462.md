@@ -1,0 +1,63 @@
+---
+id: hiringcafe-grnhse___mammothbrands___7287462
+title: 'Senior Associate, Innovation Creative Content Producer'
+company: Mammoth Brands
+location: 'New York, New York, United States'
+applicationLink: 'https://job-boards.greenhouse.io/mammothbrands/jobs/7287462'
+postedDate: '2025-09-30T15:25:01.000Z'
+expirationDate: null
+tags:
+  - Creative and Art Services
+  - Concept content
+  - Shoot video
+  - Edit assets
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$71,200 - $89,000'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___mammothbrands___7287462'
+companyLogoUrl: null
+---
+**About Mammoth Brands**
+Mammoth Brands (formerly Harry’s Inc.) is the modern CPG company behind brands Harry’s, Flamingo, Lume, and Mando. We’re building a new model—and home—brands, founders, and talent looking to solve unmet needs, improve peoples’ lives, and ultimately challenge the status quo. Our mission is to “Create Things People Like More.” Simply put: everything we do should be better than what already exists. If it’s not, we don’t do it. This guides everything we do, from developing the best product experiences, to making Mammoth Brands a great place to work, to exploring innovative ways to give back to our community.
+We got our start in 2013 when our co-founders created Harry's. They built the brand differently—online first, prioritizing direct relationships with customers—and in the process learned they’d created something bigger: a playbook and platform that could help other brands grow and scale to their full potential, and a vision to reimagine consumer packaged goods. Today, Mammoth Brands is a growing portfolio of brands and the largest CPG company built in the last 20 years. Even as we grow, we take extra care to maintain the small, scrappy, entrepreneurial culture that helped to get us where we are today: to create a company that people like more, that better serves its customers, employees, and community. As a company, we’re also committed to making a positive impact and have donated over $20 million through our network of nonprofit partners to date.
+_The Harry's working model is in-office Tuesday, Wednesday, and Thursday. Our beautiful_ [_70,000 square foot SoHo office_](https://www.wallpaper.com/lifestyle/shaving-brand-harrys-new-york-city-office-design) _is decked out with bagels on Wednesdays and lunch on Thursdays, and fully stocked kitchens with snacks, coffee, and drinks everyday.  Can’t forget the free products and the opportunity to have some meetings without Zoom!_**About the Role**
+We’re looking for a **highly creative, socially native content producer** to join our **Upstream Innovation team at Harry’s & Flamingo**. As a **Senior Associate, Innovation Creative Content Producer**, you’ll be hands-on in concepting, shooting, editing, and designing compelling digital and social-first content. You’ll combine strong creative instincts with an experimental mindset - leveraging both emerging AI tools and performance insights to generate content that drives results across paid channels.
+This is a unique opportunity to be at the forefront of innovation, where creativity meets technology, and build a creative engine that drives the future of product at Harry’s and Flamingo. If you’re a versatile maker who thrives in fast-paced environments, loves iterating quickly, and is excited by the potential of AI in content creation, we’d love to meet you.
+**What You’ll Do**
+------------------
+*   Concept, shoot, edit, and design **video and static assets** for paid social and digital channels, including **quick-turn photography/video capture** when needed - must be fluent in tools like Premiere, After Effects, Photoshop, Illustrator, Figma, etc.).
+*   Use **AI tools** (ChatGPT, Veo2/3, Imagen, etc.) to generate innovative static and video assets for paid ads.
+*   Leverage **existing content libraries and top-performing ad insights** to create fresh, high-performing iterations.
+*   Stay on top of **social landscape trends** to ensure content is tailored for each platform (Facebook, Instagram, TikTok, YouTube, Snap, etc.).
+*   Generate **unique creative concepts** for paid ad campaigns that push boundaries and drive performance.
+**Who You Are**
+---------------
+*   **Social Native:** Deep understanding of all major social channels, their nuances, and how audiences consume content differently across them.
+*   **AI Interested:** Strong knowledge of today’s AI tools, with curiosity and eagerness to learn as technology evolves. You see AI as a creative accelerator.
+*   **Creative Versatility:** A **video-first storyteller** - confident in shooting, editing, and crafting compelling short-form content. Sharp design eye, with ability to produce static graphics and write copy when needed.
+*   **Speed & Execution:** Thrive in high-output, fast-paced environments, able to juggle multiple projects without sacrificing quality or craft.
+*   **Curiosity & Insight-Driven:** You dig into data, seek insights, and use learnings to refine creative decisions.
+*   **Collaboration & Ownership:** Comfortable working across teams, but equally confident taking initiative and driving projects forward independently.
+**What We Offer**
+-----------------
+*   A chance to shape **cutting-edge creative work** at the intersection of content, performance, and AI.
+*   Collaborative, **fast-moving innovation team** environment.
+*   Competitive compensation, benefits, and opportunities for growth.
+**Benefits and perks**
+*   **Medical, dental, and vision coverage**
+*   **401k match**
+*   **Equity in Mammoth Brands**
+*   **Flexible time off and working hours**
+*   **Wellness and L&D stipends**
+*   **4 weeks sabbatical after 5 years, 6 weeks after 10 years, and 8 weeks after 15 years**
+*   **20 fully paid weeks off for parents who give birth, or 16 fully paid weeks off for all other paths to parenthood**
+*   **Fun IRL and virtual events including happy hours, team building events, and parties on our rooftop**
+*   **Free products from all of our brands
+**
+**We can’t quantify all of the intangible things we think you’ll love about working at Mammoth Brands, like the exciting challenges we tackle, the smart and humble team you’ll get to work with, and our supportive and inclusive culture. That said, our salary ranges are based on paying competitively for our size and industry, and are one part of our total rewards package, which also includes a comprehensive set of [benefits](https://www.harrys.com/en/us/careers) and our equity program. The base salary hiring range for this position is $71,200-$89,000, but the final compensation offer will ultimately be based on the candidate’s location, skill level and experience.**
+**Mammoth Brands is committed to bringing together individuals from different backgrounds and perspectives. We strive to create an inclusive environment where everyone can thrive, feel a sense of belonging, and do great work together.**
+**Mammoth Brands is an Equal Opportunity Employer, providing equal employment and advancement opportunities to all individuals. We recruit, hire and promote into all job levels the most qualified applicants without regard to race, color, creed, national origin, religion, sex (including pregnancy, childbirth and related medical conditions), parental status, age, disability, genetic information, citizenship status, veteran status, gender identity or expression, transgender status, sexual orientation, marital, family or partnership status, political affiliation or activities, military service, domestic violence victim status, arrest/conviction record, sexual or reproductive health decisions, caregiver status, credit history immigration status, unemployment status, traits historically associated with race, including but not limited to hair texture and protective hairstyles or any other status protected under applicable federal, state and local laws. Mammoth Brands' commitment to providing equal employment opportunities extends to all aspects of employment, including job assignment, compensation, discipline and access to benefits and training.**
+**We respect the laws enforced by the EEOC and are dedicated to going above and beyond in fostering diversity across our company.**

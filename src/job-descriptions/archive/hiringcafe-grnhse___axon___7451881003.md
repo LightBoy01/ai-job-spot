@@ -1,0 +1,73 @@
+---
+id: hiringcafe-grnhse___axon___7451881003
+title: Staff Software Engineer
+company: Axon
+location: 'London, England, United Kingdom'
+applicationLink: 'https://job-boards.greenhouse.io/axon/jobs/7451881003'
+postedDate: '2025-09-23T12:32:32.000Z'
+expirationDate: null
+tags:
+  - Engineering
+  - Lead architecture
+  - Design services
+  - Evaluate models
+status: published
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___axon___7451881003'
+companyLogoUrl: null
+---
+#### **Join Axon and be a Force for Good.**
+At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues with our ecosystem of devices and cloud software. Like our products, we work better together. We connect with candor and care, seeking out diverse perspectives from our customers, communities and each other.
+Life at Axon is fast-paced, challenging and meaningful. Here, you’ll take ownership and drive real change. Constantly grow as you work hard for a mission that matters at a company where you matter.
+**Your Impact
+**
+Axon is on a mission to protect life. As part of that mission, Axon Assistant is helping shape the future of how public safety professionals interact with intelligent systems — delivering real-time translation, contextual policy guidance, and AI-driven support across voice, mobile, and web platforms.
+Axon Assistant operates in a space where cutting-edge AI, device integrations, and mission-critical reliabilityconverge. As a Staff Software Engineer, you will be a technical leader responsible for solving some of the hardest problems in deploying AI products at scale — spanning LLM orchestration, multi-platform integration, latency-sensitive use cases, and global deployment complexity. The systems you help design will directly impact how officers make decisions in the field, increase situational awareness, and ultimately support life-saving outcomes.
+This is a role for someone who thrives in high-ambiguity, high-complexity environments and wants to bring structure, clarity, and momentum to deeply technical challenges. You’ll play a central role in defining architecture, driving decisions, and ensuring that our most ambitious product can be delivered with rigor, trust, and velocity.
+**Work Location:** This role is based out of our London office and follows a hybrid schedule. We rely on in-person collaboration and ask that team members work onsite Tuesdays through Fridays, with the flexibility to work remotely on Mondays, unless there is an approved workplace accommodation. We believe that connection fuels innovation, and our in-office culture is designed to foster meaningful teamwork, mentorship, and shared success.
+**
+What You’ll Do**
+*   **Lead technical direction** and architecture for key systems powering Axon Assistant across backend, mobile, and edge-device surfaces.
+*   Design and build **high-performance, fault-tolerant services** for AI feature delivery, real-time communication, and intelligent user interaction.
+*   Evaluate and integrate **LLMs and other AI/ML models** for use in production — ensuring safe, performant, and explainable application of language technologies.
+*   Own complex decision-making processes, such as **model selection vs. deterministic logic**, tradeoffs in latency, data retention, cost, and user trust.
+*   Work closely with PMs, Applied AI teams, and UX engineers to align technology decisions with user experience and product strategy — helping ensure that assistant-style interactions feel fluid, contextual, and intelligent.
+*   Write and review production code (Node.js, Python, or equivalent) and mentor engineers across the team in high-quality engineering practices.
+*   Lead cross-functional technical investigations, root cause analyses, and high-risk launches with ownership and clarity.
+*   Bring order and forward momentum to ambiguous and evolving requirements — without losing sight of long-term architectural health.
+### **
+What You Bring**
+*   10+ years of experience in software engineering, including **3+ years in Staff-level or equivalent roles**.
+*   Proven experience **designing and delivering complex backend systems**, ideally in distributed or real-time environments.
+*   Hands-on experience building and deploying **AI/ML-powered systems**, especially with LLMs, NLP services, or multimodal interfaces.
+*   Deep understanding of **cloud infrastructure**, service reliability, and secure system design (AWS, GCP, or Azure).
+*   Advanced fluency in at least one backend language such as **Node.js**, **Python**, or **Go**, with a focus on scalable, testable design.
+*   Strong architectural thinking and judgment — with the ability to navigate ambiguity and drive consensus.
+*   Experience with real-world deployment constraints, including **multi-region scaling, privacy compliance, and observability**.
+*   Ability to influence, mentor, and lead across engineering boundaries without formal authority.
+###
+Nice to Have
+*   Experience building assistant-style interfaces or integrating LLMs in production settings.
+*   Background working in regulated domains or **high-trust product environments** (e.g., public safety, healthcare, financial services).
+*   Contributions to open-source AI tooling or relevant community work.
+*   Familiarity with **on-device compute constraints**, edge inference, or hybrid client/cloud architecture.
+### Benefits that benefit you
+*   Competitive base salary and RSUs.
+*   Comprehensive pension plan with matching contribution
+*   Private health insurance & cash plans
+*   30 days paid holiday + UK public holidays
+*   Enhanced maternity/paternity leave
+*   GymPass subscription
+*   Life assurance & income protection
+*   Career growth support and wellness resources
+_Benefits listed herein may vary depending on the nature of your employment and the location where you work._
+Don’t meet every single requirement? That's ok. At Axon, we Aim Far. We think big with a long-term view because we want to reinvent the world to be a safer, better place. We are also committed to building diverse teams that reflect the communities we serve.
+Studies have shown that women and people of color are less likely to apply to jobs unless they check every box in the job description. If you’re excited about this role and our mission to Protect Life but your experience doesn’t align perfectly with every qualification listed here, we encourage you to apply anyways. You may be just the right candidate for this or other roles.
+**Important Notes**
+_The above job description is not intended as, nor should it be construed as, exhaustive of all duties, responsibilities, skills, efforts, or working conditions associated with this job. The job description may change or be supplemented at any time in accordance with business needs and conditions._
+_Some roles may also require legal eligibility to work in a firearms environment._
+_Axon’s mission is to Protect Life and is committed to the well-being and safety of its employees as well as Axon’s impact on the environment. All Axon employees must be aware of and committed to the appropriate environmental, health, and safety regulations, policies, and procedures. Axon employees are empowered to report safety concerns as they arise and activities potentially impacting the environment._
+_We are an equal opportunity employer that promotes justice, advances equity, values diversity and fosters inclusion. We’re committed to hiring the best talent — regardless of race, creed, color, ancestry, religion, sex (including pregnancy), national origin, sexual orientation, age, citizenship status, marital status, disability, gender identity, genetic information, veteran status, or any other characteristic protected by applicable laws, regulations and ordinances — and empowering all of our employees so they can do their best work. If you have a disability or special need that requires assistance or accommodation during the application or the recruiting process, please email [recruitingops@axon.com](mailto:recruitingops@axon.com). Please note that this email address is for accommodation purposes only. Axon will not respond to inquiries for other purposes._

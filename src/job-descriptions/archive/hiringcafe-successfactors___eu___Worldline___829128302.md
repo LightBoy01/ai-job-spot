@@ -1,0 +1,74 @@
+---
+id: hiringcafe-successfactors___eu___Worldline___829128302
+title: 'PRODUCT MANAGER (Noyelles Les Seclin, 59, FR)'
+company: Worldline
+location: Noyelles-les-Seclin or Paris or Lille or Lyon
+applicationLink: >-
+  https://jobs.worldline.com/job/Noyelles-Les-Seclin-PRODUCT-MANAGER-59/829128302/
+postedDate: '2025-09-30T22:32:25.025Z'
+expirationDate: null
+tags:
+  - Product Management
+  - Defining strategy
+  - Managing lifecycle
+  - Analyzing feedback
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___Worldline___829128302'
+companyLogoUrl: null
+---
+**This opportunity is based in Paris, Seclin, Lyon, or Lille.**
+**This is Worldline**
+Worldline helps businesses of all shapes and sizes accelerate their growth journey – quickly, simply, and securely. We are the innovators at the heart of the payments technology industry and many other sectors. Our technology fuels the growth of millions of businesses across 5 continents. Just as we assist our clients in speeding up their operations, we are committed to helping our employees enhance their careers. Together, we shape the evolution.
+**The Opportunity**
+Join a dynamic team within the Business & Product Strategy division of Omnichannel Interactions, which comprises over 250 employees. We are looking for a motivated individual to join the Product Managers team and contribute to the international growth of Worldline's Contact offering.
+Worldline Contact is a CCaaS (Contact Center as a Service) solution that enables businesses to manage and optimize their customer relationships across omnichannel voice, chat, email, AI assistants, callbots, instant messaging, WhatsApp, and more. Your mission as a Product Manager will be to strengthen our solution's market position and actively participate in its strategic evolution.
+**Day-to-Day Responsibilities**
+As a Product Manager, you will be responsible for defining the product vision and strategy based on market analysis and customer needs. You will participate in coordinating technical, design, and business teams to continuously conceive, develop, and improve the product.
+*   **Defining Product Vision and Strategy**
+*   Analyze the market, competition, and trends to identify opportunities in customer relationship management.
+*   Define a clear product vision aligned with the company's objectives.
+*   Develop a strategic roadmap in line with customer needs and business priorities.
+*   **Product Lifecycle Management**
+*   Prioritize features based on their value for customers and the company, with a strong focus on intelligent routing and AI automation.
+*   Liaise with Product Owners responsible for drafting User Stories.
+*   Collaborate with UX/UI designers to ensure optimal user experience.
+*   Work with Product Marketing and Sales teams to position and promote the product.
+*   **Analysis and Continuous Improvement**
+*   Collect and analyze customer feedback to identify areas for improvement.
+*   Monitor key KPIs: satisfaction rates, NPS, resolution rates, response times, etc.
+*   Experiment with and optimize the product with our dedicated demonstration and innovation teams.
+**Who Are We Looking For?**
+We are seeking a Product Manager passionate about customer relationship management who has solid experience in developing and managing technological products.
+*   You are customer-oriented.
+*   You have significant experience in product management, ideally in the CCaaS domain.
+*   You are passionate about new technologies and market trends (Cloud, AI, Bot, etc.).
+*   You have developed strong written and verbal communication skills.
+*   You are recognized for your rigor, organization, and sense of priorities.
+*   You are proactive and enjoy collaborating.
+*   Proficiency in French is essential. English (B2 or C1).
+**What We Offer**
+*   The opportunity to work on innovative and international projects within a growing company in customer relationship management.
+*   A stimulating and collaborative work environment.
+*   Opportunities for career advancement.
+**Perks & Benefits**
+As a future Worldliner, you will have the chance to be at the heart of a large international technology group.
+In addition to this, you will also:
+*   Be part of a company driven by a strong desire to do good and recognized as one of the top 1% of sustainable companies across all sectors worldwide.
+*   Work with inspiring colleagues and have the opportunity to learn, grow, and accelerate your career (access to an e-learning training platform).
+*   Benefit from a wide range of advantages, including:
+*   32 days of paid vacation (Additional vacations by seniority)
+*   50% reimbursement of public transport costs.
+*   An active works council (evenings, trips, cultural and leisure subsidies, etc.).
+*   Participation in sports events (Corporate Games, races, etc.).
+*   Remote work agreement.
+*   Health insurance and additional coverage.
+**Shape the Evolution**
+We are moving toward new frontiers in technology and are looking for bold thinkers to join our journey. People with passion, a positive attitude, and a desire to learn and grow. Here, you will work with ambitious colleagues from around the world, tackle unique challenges together, and have a real impact on society. With our supportive culture, solid technology, and numerous training opportunities, we will help you accelerate your career, wherever you decide to go. Join our global team of over 18,000 innovators across more than 40 countries and shape a future that belongs to you.
+**Learn more about life at Worldline at careers.worldline.com.**
+We are proud to be an Equal Opportunity Employer. We do not discriminate based on religion, skin color, national origin, gender (including pregnancy, childbirth, or medical conditions), sexual orientation, gender identity, gender expression, age, disability status, or any other legally protected characteristic.
+#LI-BD1

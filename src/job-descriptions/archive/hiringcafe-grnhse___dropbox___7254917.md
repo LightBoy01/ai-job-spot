@@ -1,0 +1,57 @@
+---
+id: hiringcafe-grnhse___dropbox___7254917
+title: 'Senior Data Scientist, AI Products'
+company: Dropbox
+location: United States or Canada or Mexico
+applicationLink: 'https://jobs.dropbox.com/listing/7254917?gh_jid=7254917'
+postedDate: '2025-09-24T17:22:18.000Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - partner product
+  - drive roadmap
+  - analyze insights
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$149,600 - $227,700'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___dropbox___7254917'
+companyLogoUrl: null
+---
+Role Description
+----------------
+How many times do you get the opportunity to be on the ground floor of a big and important mission? What if you could be one of the top contributors defining the mission, guiding our teams, and influencing the direction of Dropbox’s AI-first journey? As a Senior Data Scientist for this new division, you will get to do exactly that. You will join a team of top-tier data scientists and become an integral part of the product organization, helping to scale this new business.
+Joining on the ground floor of this startup team, you’ll partner directly with Data Science, Product, Engineering and Design leadership to shape the product roadmap, foster a top-tier, data-informed culture, and drive real AI/ML impact and execution along the way!
+Responsibilities
+----------------
+*   Partner with Product Engineers and Data Engineers to build the reliable, efficient, and scalable data foundations, tools, and processes to drive our AI/ML capabilities’ long-term growth
+*   Leverage data-driven insights to proactively identify most impactful opportunities, and directly influence product roadmaps and strategies
+*   Perform exploratory and deep-dive analysis to understand user workflows and engagement patterns on AI features, propose hypothesis, and design & execute experiments with great rigor and efficient data techniques
+*   Translate complex data insights into implications and recommendations for the business via excellent communication skills, both verbal and written
+*   Identify what matters most and prioritize ruthlessly for the area you will own
+*   Contribute to a culture of strong technical ownership, partner with DS leadership to keep evolving DS working model and elevate DS impact
+*   Work with cross-functional teams (including Product, Engineering, Design, User Research, and senior executives) to rapidly execute and iterate
+Requirements
+------------
+*   Bachelors’ or above in quantitative discipline: Statistics, Applied Mathematics, Economics, Computer Science, Engineering, or related field
+*   8\+ years experience of leveraging data-driven analysis to influence product roadmap and business decision, preferably in a tech company
+*   Proven track record of being able to work independently, driver measurable business impact, and proactively engage with business stakeholders with minimal direction
+*   Proficiency in SQL, Python or other programming/scripting languages
+*   Deep understanding of statistical analysis, experimentation design, and common analytical techniques like regression, decision trees
+*   Ability to provide data insights and recommendations for 0→1 product even when sample size is small
+*   Strong verbal and written communication skills
+Preferred Qualifications
+------------------------
+*   Experience in startups or building 0→1 products
+*   Expertise in using data to inform AI/ML product development
+*   Background in SaaS product and growth analytics
+Compensation
+------------
+US Zone 1
+This role is not available in Zone 1
+US Zone 2
+$168,300—$227,700 USD
+US Zone 3
+$149,600—$202,400 USD

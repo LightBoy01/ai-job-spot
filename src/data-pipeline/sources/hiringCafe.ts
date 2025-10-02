@@ -2,7 +2,7 @@
 import { gotScraping } from 'got-scraping';
 import { z } from 'zod';
 import TurndownService from 'turndown';
-import { StandardJob } from '../types.ts';
+import { StandardJob } from '../types.js';
 
 // Zod schemas based on the user-provided snippet for type safety
 const GeoLocationSchema = z.object({
@@ -43,6 +43,8 @@ const ApiResponseSchema = z.object({
 
 type JobResult = z.infer<typeof JobResultSchema>;
 
+import { SOURCE_CONFIG } from '../pipeline.config.js';
+
 const API_URL = 'https://hiring.cafe/api/search-jobs';
 const turndownService = new TurndownService();
 
@@ -52,7 +54,7 @@ const turndownService = new TurndownService();
 async function fetchJobs(): Promise<JobResult[]> {
     console.log('[hiring.cafe] Fetching jobs...');
     const allJobs: JobResult[] = [];
-    const maxPages = 5; // Limit to 5 pages to be safe
+    const maxPages = SOURCE_CONFIG['hiring.cafe'].maxPages; // Get from config
 
     for (let page = 0; page < maxPages; page++) {
         try {
@@ -119,7 +121,7 @@ function transform(rawJob: unknown, oldStatus?: string): StandardJob {
     const newStatus = (oldStatus && validStatuses.includes(oldStatus)) ? oldStatus : 'pending_review';
 
     const job: StandardJob = {
-        id: `hiringcafe-${id}`,
+        id: id, // Use the original ID from the source, hash ID will be used for filename and frontmatter
         title: jobInfo.title,
         company: processedData.company_name || 'Unknown Company',
         location: processedData.formatted_workplace_location || 'Remote',
@@ -131,6 +133,7 @@ function transform(rawJob: unknown, oldStatus?: string): StandardJob {
         jobLevel: null, // Can be inferred later if needed
         employeeRole: null, // Can be inferred later if needed
         salaryRange: salaryRange,
+        hasSalary: processedData.is_compensation_transparent,
         source: 'hiring.cafe',
         sourceUrl: `https://hiring.cafe/jobs/${id}`,
         companyLogoUrl: null, // Not provided in this API response

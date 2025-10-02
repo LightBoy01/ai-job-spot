@@ -11,6 +11,8 @@ tags:
   - Mindset
   - AI
 imageUrl: /images/articles/the-art-of-strategic-unlearning.svg
+hub: The Human Advantage
+contentType: editorial
 ---
 
 # The Art of Strategic Unlearning: Adapting Your Mindset in the AI Era

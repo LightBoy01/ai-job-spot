@@ -1,7 +1,7 @@
 ---
 slug: the-signal-filter-framework
 title: 'The Signal Filter: A Framework for Attention Management in the Age of AI'
-author: 'The AI Strategist'
+author: The AI Strategist
 publishDate: '2025-09-13T10:00:00.000Z'
 issueNo: 30
 volumeNo: 1
@@ -11,6 +11,8 @@ tags:
   - Mental Models
   - Deep Work
 imageUrl: /images/articles/the-signal-filter-framework.svg
+hub: Mental Models & Frameworks
+contentType: editorial
 ---
 
 We have a profound paradox at the heart of our professional lives. We have access to more information, more data, and more powerful tools than any generation in history. Yet, we feel more distracted, more overwhelmed, and less able to engage in the deep, focused thought that produces high-value work. The very AI that promises to unlock unprecedented productivity has also become the engine of infinite noise, flooding our environment with notifications, articles, and algorithmically-optimized distractions.

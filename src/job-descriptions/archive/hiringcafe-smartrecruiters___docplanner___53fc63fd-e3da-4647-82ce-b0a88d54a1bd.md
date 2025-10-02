@@ -1,0 +1,80 @@
+---
+id: hiringcafe-smartrecruiters___docplanner___53fc63fd-e3da-4647-82ce-b0a88d54a1bd
+title: Finance Automation Specialist
+company: Docplanner
+location: 'Warsaw, Masovian Voivodeship, Poland'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/Docplanner/744000080761985-finance-automation-specialist
+postedDate: '2025-09-30T22:32:26.360Z'
+expirationDate: null
+tags:
+  - Finance and Accounting
+  - Lead automation
+  - Implement AI integration
+  - Provide finance sAAS guidance
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___docplanner___53fc63fd-e3da-4647-82ce-b0a88d54a1bd
+companyLogoUrl: null
+---
+**Company Description:**
+**About Us**
+At Docplanner Group, we’re on a mission to help people live longer, healthier lives. As the world’s largest healthcare platform, each month, we connect 24 million patients with 280k doctors across 13 countries (through brands like ZnanyLekarz, Doctoralia, MioDottore, DoktorTakvimi, and jameda). Our marketplaces, SaaS and AI tools simplify daily tasks and help doctors, clinics and hospitals work more efficiently, so they can focus on what really matters: caring for their patients.
+Learn more about our products here: [pro.doctoralia.es](https://pro.doctoralia.es/)
+**Why Join Us?**
+*   **📊 Real impact** – We help doctors help patients. Your work truly makes a difference.
+*   **📈 At scale, yet agile** – 3,000+ employees, but still fast, flexible, and hands-on.
+*   **💰 Pre-IPO & growing –** We’re backed by leading VC funds including One Peak Partners, Goldman Sachs Asset Management, and Point Nine Capital, raising a total of approx. €400m to date. Now, we’re focused on profitability and IPO preparation. It’s an exciting time to join us.
+*   **✨ Shape the future, sustain growth –** Make a difference now \*and\* build for long-term success.
+**Job Description:**
+*   Lead Finance Automation & AI Integration: Drive continuous process enhancements by identifying inefficiencies and deploying automation solutions to optimize workflows, ensuring streamlined finance operations that support company growth. Oversee automation opportunities within the finance area by assessing and prioritizing potential projects, and recommending effective solutions. Additionally, serve as the AI and technology champion within the Finance team, actively exploring AI-driven automation opportunities and identifying impactful use cases for AI in finance. Present these cases to the Finance team across DocPlanner to promote AI adoption across the organization.
+*   Finance Saas advisor: Provide guidance on tools to enable Docplanner growth.  Utilize AI-driven and machine learning solutions to deliver efficiencies, enhanced flexibility, accuracy, and ensure legal & statutory compliance.
+*   Project Leadership: Lead and participate in cross-functional initiatives, such as M&A; business, markets and product launches/changes; New Finance  enhancements (implement new finance policies, reporting, updates, etc).
+*   User Support, Training & Documentation: Create training materials and conduct workshops to promote systems adoptions and best practices. Maintain up-to-date documentation to support efficient systems usage across teams. Deliver primary assistance to users by resolving system problems and responding to inquiries.
+**Qualifications:**
+*   Strong academic background. Bachelor’s degree in Finance, Accounting, IT based Business Administration or equivalent is a must. A Master degree or relevant certifications is a plus.
+*   7+ years of relevant experience in Finance operations, including direct responsibility on finance systems and processes (PTP, OTC, RTR).
+*   Tech-savvy (or tech-curious) mindset, not afraid of “getting your hands dirty” in understanding different tech solutions and tools in order to maximise their usefulness and the impact on team’s productivity.
+*   Strong analytical and problem-solving skills, with a focus on system optimization, data integrity, and scalable process improvements.
+*   Detail-oriented and well-organised, and not afraid to hold others accountable (regardless of role and seniority) when the required processes and procedures are not followed.
+*   Hands-on approach and positive “can do '' mindset. Ability to navigate complex situations , prioritizing effectively, and succeeding  in a dynamic, fast-paced environment, and leading projects autonomously.
+*   Excellent communication and interpersonal relationship skills. Ability to work independently.
+*   Experience with automation tools such as UiPath, Automation Anywhere, Blue Prism, Zapier, Make, 8n8 or similar. Advanced knowledge of Microsoft Office, particularly Excel and PowerPoint.
+*   Full professional proficiency and ability to work in English, written and spoken (you will be part of the Global Team); knowledge of any other group language highly preferred.
+**A big plus will be:**
+*   NetSuite experience.
+*   Familiarity with programming languages like Python, SQL, or JavaScript .
+*   Ability to create dashboards using financial data visualization tools like Tableau or Power BI.
+**Additional Information:**
+**What to Expect from Our Hiring Process**
+We like to keep things transparent and efficient! Here’s what the process usually looks like (though it might vary slightly depending on the role):
+**1️⃣ Intro Chat –** A first call with our Talent Acquisition Partner to explore mutual fit around relevant skills, value alignment, and motivation.
+**2️⃣ Hiring Manager Interview –** A deeper dive into your experience and aspirations with your future manager, who you’ll be reporting to in this role. Take this chance to ask anything on your mind—it’s just as much about making sure we’re the right fit for you, too.
+**3️⃣ Second Hiring Manager Interview**
+**4️⃣ Business Case Presentation**
+**Why You’ll Love It Here**
+**💙 Global Benefits –** No matter where you are, you’ll have access to:
+*   Healthcare insurance – so you can focus on what matters.
+*   Wellness that works for you – from gym memberships to mental health support, we’ve got you covered.
+*   Time off that counts – whether it’s a vacation, your birthday, or just a day to recharge, we believe in balance.
+*   ESOP (Employee Share Ownership Plan) after 6 months with us—because we believe in sharing our success!
+**📍 Local Perks –** Depending on your location, you will be entitled to local benefits like meal vouchers (ticket restaurant), transport allowances, or extended parental leave.
+**🚀 Career Growth –** We’re growing, and so can you! You’ll find lots of chances to learn, develop, and explore new paths—whether within your team or through cross-functional projects.
+**🌎 A Truly Global Team –** Work with talented people from all over the world in a diverse and inclusive environment.
+**⏳ Flexibility That Works for You –** Remote work and flexible hours aren’t just buzzwords here. While the extent of flexibility depends on your role and team, we value results over rigid schedules. Prefer an office setting? You're welcome at any of our hubs in Barcelona, Warsaw, Curitiba, Rio de Janeiro, Mexico City, Bogotá, Munich, Rome or Bologna.
+Please note: At this time, we are not able to sponsor visas for this position. To apply, you must already have the legal right to work in your country of residence or the location of the role.
+**What We Believe In**
+At Docplanner, our values guide everything we do:
+**📊 Focus on results –** we're here to make an impact.
+**🧠 Think like an owner –** take responsibility, drive outcomes.
+**✂️ Keep it simple, keep it lean –** smart solutions over complexity.
+**🔊 Be respectful and radically honest –** openness builds trust.
+**📚 Learn and be curious –** growth is part of the job.
+Don’t just take our word for it—check out our [Glassdoor](https://www.glassdoor.com.br/Avaliações/DocPlanner-Avaliações-E1071394.htm?countryRedirect=true) to hear what our people say!
+**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+We are committed to building a team that represents a variety of backgrounds, perspectives, and skills. We welcome applicants from all walks of life, regardless of gender, disability, or background, and are dedicated to fostering an inclusive workplace where everyone feels valued and empowered to contribute.

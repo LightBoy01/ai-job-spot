@@ -8,6 +8,9 @@ publishDate: 2025-07-11T12:00:00.000Z
 issueNo: 27
 volumeNo: 1
 imageUrl: /images/articles/unseen-foundations-job-industry.svg
+hub: AI & The World
+tags: []
+contentType: editorial
 ---
 
 The job market is fracturing. New titles appear weekly—Prompt Engineer, AI Ethicist, Context Engineer, AI Trainer—each a flare in the fog of technological disruption. For the ambitious professional, this landscape is both exhilarating and terrifying. Chasing the hot job title of the moment feels like a race without a finish line, a strategy built on sand. For a deeper dive into career resilience, explore the concept of [The Anti-Portfolio Career](/articles/the-anti-portfolio-career).

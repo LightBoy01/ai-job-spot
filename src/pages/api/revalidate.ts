@@ -5,10 +5,14 @@ export default async function handler(
   res: NextApiResponse
 ) {
   // 1. Check for a secret token to prevent unauthorized access
-  console.log('Revalidate API: Received secret:', req.query.secret);
-  console.log('Revalidate API: Expected secret:', process.env.REVALIDATE_SECRET_TOKEN);
-  console.log('Revalidate API: Secrets match?', req.query.secret === process.env.REVALIDATE_SECRET_TOKEN);
-  if (req.query.secret !== process.env.REVALIDATE_SECRET_TOKEN) {
+  const receivedSecret = req.body.secret;
+  const expectedSecret = process.env.REVALIDATE_SECRET_TOKEN?.trim();
+
+  console.log('Revalidate API: Received secret (trimmed):', receivedSecret?.trim());
+  console.log('Revalidate API: Expected secret (trimmed):', expectedSecret);
+  console.log('Revalidate API: Secrets match?', receivedSecret?.trim() === expectedSecret);
+
+  if (receivedSecret?.trim() !== expectedSecret) {
     return res.status(401).json({ message: 'Invalid token' });
   }
 

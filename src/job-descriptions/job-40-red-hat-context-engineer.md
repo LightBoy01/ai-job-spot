@@ -56,19 +56,14 @@ story_answer3: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.311Z'
 ---
-
 As a Prompt Engineer on the AI Testing & Workflow Validation team, you will design, test, and refine prompts for AI models to generate code and execute automated workflows. This role involves a mix of creativity in prompt design and rigorous testing to ensure AI-driven features are accurate and reliable.
-
 ### Responsibilities
-
 - Design and optimize prompts for AI-assisted code generation.
 - Collaborate with product owners and developers to translate requirements into effective prompting strategies.
 - Validate AI-generated outputs through structured test cases and regression testing.
 - Build or adapt internal tooling to streamline prompt testing and versioning.
 - Document prompt patterns and best practices for knowledge sharing.
-
 ### Qualifications
-
 - Bachelor’s degree in Computer Science or a related field, or equivalent practical experience.
 - Hands-on experience with large language models (e.g., GPT, LLaMA, Claude).
 - Strong coding skills in Python.

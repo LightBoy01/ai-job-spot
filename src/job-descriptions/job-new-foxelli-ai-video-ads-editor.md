@@ -32,23 +32,16 @@ source: Sourced by AI Job Spot
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.187Z'
 ---
-
 # AI Video Ads Editor
-
 ### Description
-
 Foxelli Group, a thriving direct-to-consumer (DTC) company, is seeking a creative and performance-driven AI Video Ads Editor. The ideal candidate will use AI tools to create high-impact, high-converting video ads for platforms like Meta (Facebook and Instagram). This role requires a blend of creativity and data-driven insights to produce content that not only looks good but also drives significant conversions and growth.
-
 ### Responsibilities
-
 - Create high-quality, AI-generated video ads for platforms like Meta.
 - Utilize AI tools for voiceovers, scriptwriting, animation, and video editing.
 - Collaborate with creative strategists and media buying teams to align video content with marketing goals.
 - Monitor video performance using data-driven insights to refine strategies.
 - Deliver high-quality videos on time and with attention to detail.
-
 ### Qualifications
-
 - **Mandatory:**
 - Proven experience creating video ads with a demonstrated history of high conversion rates.
 - Experience with AI tools for video creation and editing.

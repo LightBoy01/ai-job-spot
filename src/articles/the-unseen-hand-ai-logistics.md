@@ -12,6 +12,8 @@ tags:
   - Automation
   - Efficiency
 imageUrl: /images/articles/the-unseen-hand-ai-logistics.svg
+hub: AI & The World
+contentType: editorial
 ---
 
 In the grand theater of technological disruption, Artificial Intelligence often takes the stage in dazzling costumes—as a creative artist, a brilliant scientist, or a tireless digital assistant. Yet, its most profound impact may be happening behind the curtain, in the vast, intricate, and largely invisible world of logistics and supply chain management. This is the unseen hand of AI, a force that is quietly and fundamentally remaking the physical world of commerce, from the factory floor to your front door.

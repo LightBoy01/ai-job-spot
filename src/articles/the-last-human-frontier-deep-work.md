@@ -11,7 +11,9 @@ tags:
   - Focus
   - Productivity
   - Human Skills
+hub: The Human Advantage
 imageUrl: /images/articles/the-last-human-frontier-deep-work.svg
+contentType: editorial
 ---
 
 We stand at the precipice of an age defined by boundless information and unprecedented computational power. Artificial Intelligence, in its relentless march, is rapidly mastering tasks once thought exclusively human: complex data analysis, intricate pattern recognition, even the generation of creative content. Yet, amidst this digital deluge, a profound paradox emerges: as AI conquers the realm of shallow work and readily available answers, the most valuable human skill is becoming not the ability to process more, but the capacity to focus deeply on less. This is the last human frontier: the mastery of deep work.

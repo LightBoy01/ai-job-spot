@@ -1,0 +1,58 @@
+---
+id: hiringcafe-successfactors___eu___Worldline___829331002
+title: 'Data Science & AI (Bengaluru, KA, IN)'
+company: Worldline
+location: 'Bengaluru, Karnataka, India'
+applicationLink: 'https://jobs.worldline.com/job/Bengaluru-Data-Science-&-AI-KA/829331002/'
+postedDate: '2025-09-12T06:32:03.354Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - Develop models
+  - Deploy models
+  - Optimize infrastructure
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___Worldline___829331002'
+companyLogoUrl: null
+---
+**AI Expert**
+Bangalore
+**This is Worldline**
+We are the innovators at the heart of the payments technology industry, shaping how the world pays and gets paid. The solutions our people build today power the growth of millions of businesses tomorrow. From your local coffee shop to unicorns and international banks. From San Francisco to Auckland. We are in every corner of the world, in every part of commerce.  And just as we help our customers accelerate their business, we are committed to helping our people accelerate their careers. Together, we shape the evolution.
+**The Opportunity**
+At Worldline, our technology addresses the persistent challenges of the payment world. We design and operate leading digital payment and transactional solutions that enable sustainable economic growth and reinforce trust and security in our societies. If you are a highly skilled AI expert who will produce scalable software solutions in the Payments Domain. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment.
+We have many hardworking and dedicated peers that would love for you to work with them. We are committed to continuous improvement. We are always looking for new and innovative ways to improve quality, reduce costs, build excellent solutions, and grow customer happiness. We would like to welcome an organized, innovative and process driven colleague to our team.
+**Who Are We Looking For**
+We are looking for a talented Machine Learning Engineer with a background in Big Data and Cloud to join our team.
+**Key Responsibilities:**
+*   Develop machine learning models leveraging classical machine learning algorithms and Gen AI technologies.
+*   Design and implement new machine learning models tailed to our business cases.
+*   Deploy scalable machine learning models leveraging big data technologies.
+*   Optimize and maintain ML infrastructure, ensuring efficient model training and deployment.
+*   Stay updated with the latest industry trends and best practices in ML and big data.
+**Requirements:**
+*   Master’s degree in Machine Learning, Computer Science, Data Science or a related field. A PhD is a plus.
+*   Proven experience as a Machine Learning Engineer, Data Scientist, or similar role (>5 years).
+*   **Technical Skills:**
+\-      Proficiency in programming languages such as Python, R, Java.
+\-      Solid expertise in machine learning frameworks and libraries (e.g., TensorFlow, PyTorch, scikit-learn).
+\-      Strong proficiency of cloud platforms (e.g., Google Cloud, Azure) and containerization.
+\-      Experience with big data technologies such as Hadoop, Spark, or Kafka.
+\-      Experience with automation tools and platforms (e.g., UiPath, Blue Prism, Automation Anywhere).
+*   **Analytical Skills:**
+\-      Strong problem-solving skills with a data-driven mindset.
+\-      Ability to analyze complex datasets and derive meaningful insights.
+*   **Soft Skills:**
+\-      Strong communication and collaboration skills.
+\-      Ability to collaborate effectively with cross-functional teams.
+*   Certifications: Relevant certifications in AI, Bigdata, Cloud or automation are a plus.
+**Shape the evolution**
+We are on an exciting journey towards the next frontiers of payments technology, and we look for big thinkers, people with passion, can-do attitude and a hunger to learn and grow. Here you’ll work with ambitious colleagues from around the world, take on unique challenges as a team, and make a real impact on the society. With an empowering culture, strong technology and extensive training opportunities, we help you accelerate your career - wherever you decide to go. Join our global team of 18,000 innovators and shape a tomorrow that is yours to own.
+**_Learn more about life at Worldline at_** [**_Jobs.worldline.com_**](https://careers.worldline.com/en)
+**_We are proud to be an Equal Opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as an individual with a disability, or any applicable legally protected characteristics._**
+#LI-SK1

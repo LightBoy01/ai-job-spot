@@ -1,0 +1,72 @@
+---
+id: hiringcafe-grnhse___nice___4658831101
+title: 'Professional Services Engineer, CX'
+company: NICE
+location: Manila or Philippines
+applicationLink: 'https://boards.eu.greenhouse.io/nice/jobs/4658831101?gh_jid=4658831101'
+postedDate: '2025-09-25T18:44:17.000Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Configuring solutions
+  - Leading projects
+  - Providing consulting
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___nice___4658831101'
+companyLogoUrl: null
+---
+At NiCE, we don’t limit our challenges. We challenge our limits. Always. We’re ambitious. We’re game changers. And we play to win. We set the highest standards and execute beyond them. And if you’re like us, we can offer you the ultimate career opportunity that will light a fire within you.
+**So, what’s the role all about?
+**The **Professional Services Engineer** is a customer-facing, billable role responsible for delivering specialized expertise and solutions for NICE products and services. This includes implementing, configuring, and optimizing AI-driven applications, such as chatbots, knowledge assistants, and other digital solutions, for enterprise contact centers. The position combines technical and business responsibilities, requiring engagement with clients to understand their needs, provide consultative support, and deliver cutting-edge solutions.
+**How will you make an impact?
+**
+*   Technical Implementation:
+*   Configure, program, and develop NICE solutions, including AI, NLU, ACD, IVR, ASR, and CRM integrations.
+*   Lead the design and development of multiple AI and bot applications, ensuring alignment with customer requirements and industry best practices.
+*   Optimize and maintain multiple AI bots, including both generative and legacy models.
+*   Implement and enhance AI-driven services such as knowledge assistant engines and conversational intelligence.
+*   Project Management:
+*   Collaborate with project managers to design and oversee end-to-end project rollouts.
+*   Manage system lifecycle development, change control processes, and risk analysis for enterprise solutions.
+*   Ensure seamless project execution through inter-departmental coordination and clear communication.
+*   Business Consulting:
+*   Provide subject matter expertise on NICE digital products and AI solutions during client consultations.
+*   Conduct business analysis to assess user needs, design tailored solutions and provide industry guidance.
+*   Promote the use of AI tools to enhance decision-making and operational efficiency across business units.
+*   Leadership and Mentorship:
+*   Mentor and lead project teams, sharing expertise and fostering a collaborative environment.
+*   Develop documentation and processes for emerging digital products from R&D teams.
+**Have you got what it takes?
+**
+*   Bachelor’s degree in technical (e.g., Computer Science, Information Systems, Electrical Engineering) or business field (e.g., Marketing, MIS) or equivalent work experience.
+*   3+ years of professional experience, with 1+ years in digital channels or AI/Bot software applications preferred.
+*   Proven expertise in:
+*   Technical configuration and programming of AI and contact center technologies.
+*   CRM integrations, APIs, and other ecosystem technologies.
+*   Best practices for contact center operations and KPIs.
+*   Familiarity with:
+*   Generative AI models, NLU techniques, and automation principles.
+*   Industry trends and emerging technologies in AI and digital customer engagement.
+*   Desired personal traits:
+*   Analytical and inquisitive mindset.
+*   Team-oriented with strong interpersonal skills.
+*   Early adopter of innovative technologies.
+*   Strong sense of accountability and ownership.
+*   Professional communication, behavior and demeanor.
+**What’s in It for You?**
+Join an ever-growing, market-disrupting global company where teams of top talent work in a fast-paced, collaborative, and creative environment. NICE offers endless internal career opportunities across multiple roles, disciplines, domains, and locations. If you are passionate about innovation and thrive in dynamic settings, this is your chance to make an impact.
+**
+Flexible Work Model:**
+Experience the NICE-FLEX hybrid model with two days in the office and three days of remote work per week, fostering collaboration and innovation while maintaining work-life balance.
+Requisition ID: 8420
+Reporting To: Manager, Professional Services, CX
+Role Type: Individual Contributor
+_**About NiCE**_
+_NICE Ltd. (NASDAQ: NICE) software products are used by 25,000+ global businesses, including 85 of the Fortune 100 corporations, to deliver extraordinary customer experiences, fight financial crime and ensure public safety. Every day, NiCE software manages more than 120 million customer interactions and monitors 3+ billion financial transactions._
+_Known as an innovation powerhouse that excels in AI, cloud and digital, NiCE is consistently recognized as the market leader in its domains, with over 8,500 employees across 30+ countries._
+_NiCE is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, age, sex, marital status, ancestry, neurotype, physical or mental disability, veteran status, gender identity, sexual orientation or any other category protected by law._

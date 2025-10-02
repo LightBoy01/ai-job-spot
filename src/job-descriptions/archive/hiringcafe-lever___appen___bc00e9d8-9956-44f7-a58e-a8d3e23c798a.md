@@ -1,0 +1,43 @@
+---
+id: hiringcafe-lever___appen___bc00e9d8-9956-44f7-a58e-a8d3e23c798a
+title: Contribute to AI Voice Technology (Project Mavena); Israel (Hebrew)
+company: Appen
+location: Israel
+applicationLink: 'https://jobs.lever.co/appen/bc00e9d8-9956-44f7-a58e-a8d3e23c798a/apply'
+postedDate: '2025-09-30T05:28:39.732Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - Record commands
+  - Review guidelines
+  - Meet quality requirements
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$166,400 - $166,400'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/lever___appen___bc00e9d8-9956-44f7-a58e-a8d3e23c798a'
+companyLogoUrl: null
+---
+Join the CrowdGen team as an Independent Contractor for Project Mavena.
+We are seeking native Hebrew speakers to participate in our Voice Data Collection Project and help advance AI through speech.
+Why Join?:
+\- Contribute directly to the future of AI in your language
+\- Flexible participation — work anytime, anywhere
+\- One-time task completed in just a few hours
+Task Details:
+\- Record 500 short, scripted commands in Hebrew and English
+\- Estimated duration: ~2.5 hours (including guideline review)
+Requirements:
+\- Native speaker of Hebrew
+\- Fluent in English
+\- Currently residing in Israel
+\- Age 18+
+\- A smartphone compatible with the Appen Mobile app
+Payment:
+\- At least 90% (450 recordings) must pass quality review to qualify for payment
+\- Recordings below the 90% threshold are not eligible for payment
+This role is a project-based opportunity with CrowdGen, where you will join the CrowdGen Community as an Independent Contractor. If selected, you will receive an email from CrowdGen regarding the creation of an account using your application email address. You will need to log in to this account and reset the password, complete the setup requirements, and proceed with your application for this project-based role.
+Ready to make your voice count in AI? Apply now and help shape the future of technology!
+Join the CrowdGen team as an Independent Contractor for Project Mavena. We are seeking native Hebrew speakers to participate in our Voice Data Collection Project and help advance AI through speech. Why Join?: - Contribute directly to the future of AI in your language - Flexible participation — work anytime, anywhere - One-time task completed in just a few hours Task Details: - Record 500 short, scripted commands in Hebrew and English - Estimated duration: ~2.5 hours (including guideline review) Requirements: - Native speaker of Hebrew - Fluent in English - Currently residing in Israel - Age 18+ - A smartphone compatible with the Appen Mobile app Payment: - At least 90% (450 recordings) must pass quality review to qualify for payment - Recordings below the 90% threshold are not eligible for payment This role is a project-based opportunity with CrowdGen, where you will join the CrowdGen Community as an Independent Contractor. If selected, you will receive an email from CrowdGen regarding the creation of an account using your application email address. You will need to log in to this account and reset the password, complete the setup requirements, and proceed with your application for this project-based role. Ready to make your voice count in AI? Apply now and help shape the future of technology!

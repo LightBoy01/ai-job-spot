@@ -1,0 +1,50 @@
+---
+id: hiringcafe-successfactors___com___abudhabi02___732543622
+title: "Executive Manager -\_AI Engineering (Abu Dhabi, AE, 939)"
+company: ADCB
+location: 'Abu Dhabi, United Arab Emirates'
+applicationLink: "https://adcbcareers.com/job/Abu-Dhabi-Executive-Manager-\_AI-Engineering-Abu-939/732543622/"
+postedDate: '2025-09-29T17:15:54.955Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Engineering AI platforms
+  - Architecting components
+  - Building pipelines
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___com___abudhabi02___732543622'
+companyLogoUrl: null
+---
+Embark on a journey where your unique contributions are celebrated, and your professional growth is embraced. At ADCB, we nurture a diverse, inclusive community where every voice is valued.
+**About the business area**
+GBS is a group of highly skilled and talented professionals who form an essential part of ADCB's continued journey of success. With a proud history of commitment, innovation and delivery, GBS constantly strives for excellence whilst ensuring the highest standards of quality and risk awareness. Each and every member of the GBS family plays an integral role in driving ADCB's strategy, growth and digital evolution by working closely with our valued business partners to achieve exceptional customer experience through our outstanding service and support.
+We are actively seeking an ambitious professional to join our Group Business Service team at ADCB to work alongside passionate colleagues who share your ambition to redefine excellence in UAE banking.
+**In this role, your key responsibilities include:**
+*   Engineer Conversational AI platforms with LLM-based agents, reusable frameworks, and secure enterprise knowledge systems
+*   Architect AI/ML platform components, operationalize LLMs, and implement MLOps best practices
+*   Build ML pipelines using Azure/AWS, deploy foundation models, and manage cloud-native infrastructure
+*   Drive adoption of modern engineering practices, evaluate emerging tools, and improve platform reliability
+*   Manage self and team in line with ADCB’s people management policies, procedures, processes and practices to ensure adherence and to maximise own and employee contribution to business performance
+*   Organize and supervise the activities and work of the team to ensure that targets and objectives are achieved and the business plan is delivered in line with the required policies, processes, procedures and systems
+*   Implement approved departmental policies, processes and procedures, and ensure employee adherence so that work is carried out to the required standard while delivering the required standards of service to customers and stakeholders
+*   Manage and motivate the team to ensure they contribute to, and participate in, the identification and implementation of change initiatives, programmes and projects in line with the Bank’s standards
+*   Demonstrate Our Promise and apply the ADCB Service Standards to deliver the Bank’s required levels of service in all internal and external customer interactions
+**The ideal candidate should have the following experience**
+*   AI/ML engineering with expertise in LLMs, transformers, multimodal models, RAG, and vector databases
+*   NLP/NLU, personalization, and recommendation systems
+*   Scalable cloud-native AI platforms using microservices architecture
+*   Proficient in Python, Azure, AWS, SQL/NoSQL, GraphQL, REST APIs, Docker, Kubernetes, MLflow
+*   Strong stakeholder management, mentoring, and cross-functional collaboration
+*   Deep understanding of emerging AI trends and rapid prototyping
+*   Active engagement in AI communities and innovation initiatives
+What we offer:
+*   **Competitive Salary:** Additional to this, all employees are eligible to participate in one of our rewarding variable pay plans.
+*   **Comprehensive Benefits Package**: This includes market-leading medical insurance, group life and personal accident insurance, paid leave and leave airfare, employee preferential rates on loans and finance facilities, staff discounts and offers, and children education assistance (for certain job levels).
+*   **Flexible and Remote Working Options**: We understand the importance of work-life balance and offer flexible working arrangements, subject to eligibility and job requirements.
+*   **Learning and Development Opportunities**: We value and facilitate continuous learning and personal development, through a variety of exciting learning opportunities, such as structured instructor-led courses, a comprehensive e-Learning catalog, on-the-job training and professional development programs.
+At ADCB, we are dedicated to creating a respectful, caring and disciplined work environment that aligns with your career ambitions

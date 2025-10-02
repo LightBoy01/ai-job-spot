@@ -1,0 +1,53 @@
+---
+id: hiringcafe-lever___binance___f27099a1-daed-4927-a075-46d48107b4a3
+title: 'Data Science Engineer (NLP), P2P & Content'
+company: Binance
+location: 'Taipei, Taiwan, Taiwan'
+applicationLink: 'https://jobs.lever.co/binance/f27099a1-daed-4927-a075-46d48107b4a3/apply'
+postedDate: '2025-09-23T14:24:39.369Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - Apply NLP
+  - Design pipelines
+  - Deploy models
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/lever___binance___f27099a1-daed-4927-a075-46d48107b4a3
+companyLogoUrl: null
+---
+Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by over 280 million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, Web3 features, and more. We leverage the power of digital assets and blockchain to build an inclusive financial ecosystem to advance the freedom of money and improve financial access for people around the world.
+**About the Role**
+As a Data Science Engineer, you will leverage rich datasets at petabyte scale and state-of-the-art machine learning infrastructure to develop AI-driven products used by tens of millions of cryptocurrency users.
+You will collaborate closely with engineers, data analysts, business operations, and product managers to define and deliver solutions, features, algorithms, and products powered by advanced machine learning and data technologies.
+About the Role As a Data Science Engineer, you will leverage rich datasets at petabyte scale and state-of-the-art machine learning infrastructure to develop AI-driven products used by tens of millions of cryptocurrency users. You will collaborate closely with engineers, data analysts, business operations, and product managers to define and deliver solutions, features, algorithms, and products powered by advanced machine learning and data technologies.
+**Responsibilities:**
+*   Apply NLP techniques to preprocess and analyze large-scale textual data, developing and fine-tuning Large Language Models (LLMs) and multimodal models to generate actionable business insights.
+*   Design, build, and maintain end-to-end machine learning pipelines—including data ingestion, cleaning, feature engineering, model training, evaluation, deployment, and monitoring
+*   Lead the deployment of ML models in production environments with a focus on scalability, reliability, availability, and low-latency inference, leveraging cloud infrastructure for optimal performance.
+*   Collaborate with business and technical stakeholders to identify AI opportunities, align initiatives with organizational goals, and communicate insights effectively through data analysis and visualization.
+*   Stay abreast of the latest AI advancements, particularly in multimodal AI, to continuously integrate cutting-edge technologies into solutions.
+*   Explore the use of agentic AI to automate detection and monitoring within risk management systems, improving accuracy and response times.
+**Requirements:**
+*   Minimum 4 years of industry experience in AI/ML, preferably focused on NLP and/or multimodal AI, with a Master’s degree or higher in Computer Science, Data Science, or related fields.
+*   Proficient in big data technologies (e.g., Apache Spark, Hadoop, Kafka, VectorDB) or equivalent platforms.
+*   Skilled in programming languages such as Python or Java, with hands-on experience in ML/NLP libraries and deep learning frameworks (TensorFlow, PyTorch, Scikit-learn, SpaCy, NLTK).
+*   Strong understanding of modern machine learning and deep learning techniques, including transformer architectures (BERT, GPT), hyperparameter optimization, and methods for handling imbalanced datasets.
+*   Experience optimizing and deploying ML models for low-latency inference in production, familiar with end-to-end ML deployment processes including version control (Git), continuous integration/continuous deployment (CI/CD), and managing multiple environments (dev, QA, staging, production).
+**Preferred**
+*   Experience with productionising agentic AI systems or similar autonomous AI solutions is a plus.
+*   Prior experience in e-commerce or technology sectors is highly desirable.
+**Why Binance**
+• Shape the future with the world’s leading blockchain ecosystem
+• Collaborate with world-class talent in a user-centric global organization with a flat structure
+• Tackle unique, fast-paced projects with autonomy in an innovative environment
+• Thrive in a results-driven workplace with opportunities for career growth and continuous learning
+• Competitive salary and company benefits
+• Work-from-home arrangement (the arrangement may vary depending on the work nature of the business team)
+Binance is committed to being an equal opportunity employer. We believe that having a diverse workforce is fundamental to our success.
+_By submitting a job application, you confirm that you have read and agree to our_ **[_Candidate Privacy Notice_](https://www.binance.com/en/candidate/privacy/notice)**_._

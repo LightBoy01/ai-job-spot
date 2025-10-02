@@ -8,9 +8,10 @@ import { Article } from '@/lib/types';
 import RichTextEditor from '@/components/RichTextEditor';
 
 type ArticleFormData = Partial<
-  Omit<Article, 'id' | 'publishDate' | 'tags'> & {
+  Omit<Article, 'id' | 'publishDate' | 'tags' | 'contentType'> & {
     tags: string;
     publishDate: string;
+    contentType: 'editorial' | 'briefing';
   }
 >;
 
@@ -29,9 +30,12 @@ const AddNewArticle: React.FC = () => {
     issueNo: undefined,
     volumeNo: undefined,
     publishDate: new Date().toISOString().split('T')[0],
+    contentType: 'editorial',
+    sourceName: '',
+    originalUrl: '',
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value, type } = e.target;
     const isNumber = type === 'number';
     setFormData((prev) => ({
@@ -62,6 +66,22 @@ const AddNewArticle: React.FC = () => {
       newErrors.publishDate = 'Publish Date is required.';
     if (!formData.contentBody || formData.contentBody === '<p><br></p>')
       newErrors.contentBody = 'Article Content is required.';
+
+    if (formData.contentType === 'briefing') {
+      if (!formData.sourceName) {
+        newErrors.sourceName = 'Source Name is required for Briefings.';
+      }
+      if (!formData.originalUrl) {
+        newErrors.originalUrl = 'Original URL is required for Briefings.';
+      } else {
+        try {
+          // Simple URL validation
+          new URL(formData.originalUrl);
+        } catch (_) {
+          newErrors.originalUrl = 'Original URL must be a valid URL format.';
+        }
+      }
+    }
 
     if (
       formData.issueNo !== undefined &&
@@ -235,6 +255,77 @@ const AddNewArticle: React.FC = () => {
                     </span>
                   )}
                 </div>
+                {/* --- Content Type --- */}
+                <div>
+                  <label
+                    htmlFor="contentType"
+                    className="block text-sm font-semibold text-neutral-700 mb-2"
+                  >
+                    Content Type
+                  </label>
+                  <select
+                    id="contentType"
+                    name="contentType"
+                    value={formData.contentType}
+                    onChange={handleChange}
+                    className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
+                  >
+                    <option value="editorial">Editorial</option>
+                    <option value="briefing">Briefing</option>
+                  </select>
+                </div>
+
+                {/* --- Conditional Fields for Briefing --- */}
+                {formData.contentType === 'briefing' && (
+                  <>
+                    <div className="md:col-span-2 border-t border-neutral-300 pt-6">
+                      <h3 className="text-md font-semibold text-accent-dark mb-4">Briefing Details</h3>
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="sourceName"
+                        className="block text-sm font-semibold text-neutral-700 mb-2"
+                      >
+                        Source Name
+                      </label>
+                      <input
+                        type="text"
+                        id="sourceName"
+                        name="sourceName"
+                        value={formData.sourceName}
+                        onChange={handleChange}
+                        className={`w-full p-3 rounded-md border ${errors.sourceName ? 'border-red-500' : 'border-neutral-300'} outline-none transition`}
+                      />
+                      {errors.sourceName && (
+                        <span className="text-red-500 text-sm mt-1 block">
+                          {errors.sourceName}
+                        </span>
+                      )}
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="originalUrl"
+                        className="block text-sm font-semibold text-neutral-700 mb-2"
+                      >
+                        Original URL
+                      </label>
+                      <input
+                        type="url"
+                        id="originalUrl"
+                        name="originalUrl"
+                        value={formData.originalUrl}
+                        onChange={handleChange}
+                        className={`w-full p-3 rounded-md border ${errors.originalUrl ? 'border-red-500' : 'border-neutral-300'} outline-none transition`}
+                        placeholder="https://example.com/original-article"
+                      />
+                      {errors.originalUrl && (
+                        <span className="text-red-500 text-sm mt-1 block">
+                          {errors.originalUrl}
+                        </span>
+                      )}
+                    </div>
+                  </>
+                )}
               </div>
             </div>
 

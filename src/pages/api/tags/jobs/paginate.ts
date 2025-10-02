@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
-import { JobPosting } from '@/lib/types';
 import { z } from 'zod';
 import { Query } from 'firebase-admin/firestore';
 
@@ -9,18 +8,6 @@ const paginateSchema = z.object({
   startAfter: z.string().max(100).optional(),
   limit: z.coerce.number().int().positive().max(50).optional().default(10),
 });
-
-const serializeJob = (doc: FirebaseFirestore.DocumentSnapshot): JobPosting => {
-  const data = doc.data()!;
-  return {
-    id: doc.id,
-    ...data,
-    postedDate: data.postedDate.toDate(),
-    expirationDate: data.expirationDate
-      ? data.expirationDate.toDate()
-      : undefined,
-  } as JobPosting;
-};
 
 export default async function handler(
   req: NextApiRequest,
@@ -59,7 +46,27 @@ export default async function handler(
     }
 
     const snapshot = await jobsQuery.limit(limit).get();
-    const jobs = snapshot.docs.map(serializeJob);
+    const jobs = snapshot.docs.map(doc => {
+      const data = doc.data()!;
+      return {
+        id: doc.id,
+        title: data.title,
+        company: data.company,
+        location: data.location,
+        salaryRange: data.salaryRange ?? null,
+        isNew: data.isNew ?? false,
+        isFeatured: data.isFeatured ?? false,
+        companyLogoUrl: data.companyLogoUrl ?? null,
+        verificationDate: data.verificationDate ? data.verificationDate.toDate().toISOString() : null,
+        sourceUrl: data.sourceUrl ?? null,
+        jobLevel: data.jobLevel ?? null,
+        source: data.source ?? null,
+        tags: data.tags ?? [],
+        postedDate: data.postedDate.toDate().toISOString(),
+        expirationDate: data.expirationDate ? data.expirationDate.toDate().toISOString() : null,
+        applicationLink: data.applicationLink, // <-- ADDED THIS LINE
+      };
+    });
     const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1].id : null;
 
     res.status(200).json({ jobs, lastVisible });

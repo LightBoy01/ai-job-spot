@@ -1,0 +1,65 @@
+[
+  {
+    "type": "Article",
+    "adapter": "RSS",
+    "sourceName": "OpenAI Blog",
+    "feedUrl": "https://openai.com/blog/rss.xml",
+    "notes": "Native RSS feed.",
+    "status": "Active",
+    "fetchFrequency": "daily"
+  },
+  {
+    "type": "Article",
+    "adapter": "RSS",
+    "sourceName": "Google AI Blog",
+    "feedUrl": "http://googleaiblog.blogspot.com/atom.xml",
+    "notes": "Native RSS feed.",
+    "status": "Integrated",
+    "fetchFrequency": "daily"
+  },
+  {
+    "type": "Article",
+    "adapter": "RSS",
+    "sourceName": "TechCrunch AI",
+    "feedUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "notes": "Native RSS feed.",
+    "status": "Integrated",
+    "fetchFrequency": "daily"
+  },
+  {
+    "status": "Pending",
+    "type": "Job",
+    "adapter": "RSS",
+    "sourceName": "aijobs.net",
+    "feedUrl": "https://aijobs.net/feed/",
+    "notes": "Native RSS feed.",
+    "fetchFrequency": "daily"
+  },
+  {
+    "feedUrl": "https://blog.google/technology/ai/rss/",
+    "adapter": "RSS",
+    "fetchFrequency": "daily",
+    "sourceName": "Google AI Blog",
+    "type": "Article",
+    "status": "Pending"
+  },
+  {
+    "status": "Pending",
+    "type": "Job",
+    "adapter": "HIRING_CAFE",
+    "sourceName": "hiring.cafe",
+    "feedUrl": "https://hiring.cafe/api/search-jobs",
+    "notes": "Direct JSON API.",
+    "fetchFrequency": "daily"
+  },
+  {
+    "type": "Job",
+    "adapter": "HIRING_CAFE_API",
+    "sourceName": "Hiring.cafe API",
+    "notes": "Fetched via Hiring.cafe API",
+    "feedUrl": "https://hiring.cafe/api/search-jobs",
+    "keywords": "AI ",
+    "status": "Disabled",
+    "fetchFrequency": "daily"
+  }
+]

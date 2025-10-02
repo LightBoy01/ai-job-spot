@@ -6,6 +6,9 @@ publishDate: 2025-06-27T13:00:00.000Z
 issueNo: 2
 volumeNo: 1
 imageUrl: /images/articles/ai-in-education-personalizing-learning.svg
+hub: AI & The World
+tags: []
+contentType: editorial
 ---
 
 The career of the past was a ladder. You learned a trade, you got a job, and you climbed, rung by rung. The career of the present is a series of lily pads on a fast-moving stream. The ground beneath your feet is never stable for long. In this world, your only true job security is your ability to learn, adapt, and reinvent yourself at speed.

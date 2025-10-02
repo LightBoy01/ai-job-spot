@@ -21,24 +21,17 @@ source: greenhouse
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.159Z'
 ---
-
 Re:Build Manufacturing is a growing family of industrial and engineering businesses combining enabling technologies, operational superiority, and strategic M&A to build America’s next generation industrial company. At Re:Build we deploy deep expertise in engineering, operations management, and technology to supercharge the performance of our member companies.
-
 Cadonix is the undisputed global leader in cloud-delivered ECAD tools for full end-to-end design, simulation, manufacture and management of wire harness designs and costing. Created from the ground up for the new age of collaborative online working, the Arcadia suite runs in the web browser and offers unprecedented flexibility in terms of use, licensing, systems integration and supply chain collaboration.
-
 We are looking for a talented and motivated AI/ML Engineer to be a core builder of our initial AI solutions. Your first responsibility will be to develop prototypes and proof-of-concepts for our highest-impact use cases, such as creating a basic component recommender or a simple step-optimization algorithm. As these solutions mature, you will be responsible for building them into robust, scalable, and production-ready AI models. You will work closely with the AI Architect to bring the technical vision to life and lay the groundwork for our future AI-powered products.
-
 ### Responsibilities
-
 - Design, develop, and implement AI/ML models and algorithms for prototypes and production systems.
 - Analyze and preprocess large datasets for model training and validation.
 - Conduct experiments to test and optimize AI models for performance and accuracy.
 - Collaborate with the AI Architect, product and engineering teams to integrate AI solutions into our products.
 - Write clean, maintainable, and well-documented code.
 - Troubleshoot and debug AI applications to resolve technical issues.
-
 ### Qualifications
-
 - Bachelor's degree in Computer Science, Artificial Intelligence, or a related field.
 - Proven experience in AI and machine learning model development.
 - Strong programming skills in Python.

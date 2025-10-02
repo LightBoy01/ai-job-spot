@@ -1,0 +1,41 @@
+---
+id: hiringcafe-oraclecloud___ebuu.fa.ap1___63582
+title: 'Executive Manager, Cyber Risk'
+company: Westpac Banking Corporation
+location: 'Sydney, New South Wales, Australia'
+applicationLink: >-
+  https://ebuu.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/job/63582
+postedDate: '2025-09-24T22:45:29.000Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Lead oversight
+  - Influence strategy
+  - Advise governance
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/oraclecloud___ebuu.fa.ap1___63582'
+companyLogoUrl: null
+---
+*   Lead oversight of cyber risk across domains like identity and access, application security, data security, AI, and threat management
+*   Influence Group-wide cyber risk strategy, policy, and executive-level reporting
+*   Be a trusted advisor on business management of cyber risk ,emerging threats, and risk governance
+**What’s the role?**
+We’re looking for a senior cyber risk leader to join Westpac’s second line Cyber Risk team. In this role, you’ll provide oversight, insight, and challenge across the Group’s cyber risk landscape including application security, identity and access, third-party risk, and AI-related threats.
+You’ll work closely with senior stakeholders to shape cyber risk strategy, oversight controls, and ensure the Group operates within its cyber risk appetite. This is a high-impact role with visibility across executive forums and the opportunity to influence how Westpac manages cyber risk at scale.
+This is a full-time role based in Sydney with flexible working arrangement available.
+**What do I need?**
+We’re looking for someone who brings:
+*   Deep expertise in cybersecurity and operational risk
+*   Experience in one or more domains: application security, IAM, data security, AI, or threat detection and response
+*   Strong knowledge of frameworks like ISO 27001, NIST, SABSA, PCI DSS
+*   Proven ability to influence senior stakeholders and lead strategic initiatives
+*   Relevant certifications (e.g. CISSP, CISM, CISA) highly regarded
+**Create your future today**
+To get started, simply click on the APPLY or APPLY NOW button
+We’re all about creating a supportive and inclusive community. We welcome everyone – no matter your age, gender, background, or abilities. We also provide additional support to welcome our veterans, Indigenous Australians and neurodiverse community.
+If you need any adjustments during the recruitment process, you can find out more information and additional contact details by visiting the _"People with Disability and/or needing Accessibility Requirements"_ page on our [website](https://www.westpac.com.au/about-westpac/inclusion-and-diversity/Inclusion-means-everyone-matters/disability-and-accessibility/).

@@ -7,28 +7,11 @@ import matter from 'gray-matter';
 import DOMPurify from 'isomorphic-dompurify';
 import { z } from 'zod';
 import {
-  notifyUrlUpdate,
-  notifyUrlDelete,
+  notifyBatch,
 } from './scripts/indexing_api_client.ts';
 import dotenv from 'dotenv';
 import { exec } from 'child_process';
 import { promisify } from 'util';
-
-// Local, self-contained interface for the enrichment process
-interface JobToEnrich {
-  id: string;
-  description: string;
-  responsibilities?: string[];
-  qualifications?: string[];
-  jobLevel?: string | null;
-  employeeRole?: string | null;
-  salaryRange?: string | null;
-  story_question1?: string | null;
-  story_answer1?: string | null;
-  story_question2?: string | null;
-  story_answer2?: string | null;
-}
-
 
 const execAsync = promisify(exec);
 
@@ -36,190 +19,63 @@ dotenv.config();
 dotenv.config({ path: '.env.local', override: true });
 
 const SITE_URL = 'https://www.aijobspot.online';
+const isDryRun = process.argv.includes('--dry-run');
 
-// --- ZOD SCHEMAS ---
-export const articleSchema = z.object({
-  slug: z.string(),
-  title: z.string(),
-  author: z.string(),
-  publishDate: z.union([z.date(), z.string().pipe(z.coerce.date())]),
-  issueNo: z.number(),
-  volumeNo: z.number(),
-  tags: z.array(z.string()).optional(),
-  imageUrl: z.string().optional(),
-  excerpt: z.string(), // Added by our script
-  author_take_question1: z.string().optional(),
-  author_take_answer1: z.string().optional(),
-  author_take_question2: z.string().optional(),
-  author_take_answer2: z.string().optional(),
-  contentBody: z.string().optional(), // Added by our script
-});
+/**
+ * Seeds the 'sources' collection from the local JSON config file.
+ */
+async function seedSources(db: admin.firestore.Firestore): Promise<void> {
+  console.log('Seeding sources from local config...');
+  const sourcesPath = path.resolve(process.cwd(), 'src', 'config', 'sources.json');
+  
+  try {
+    const sourcesFile = await fs.readFile(sourcesPath, 'utf-8');
+    const sourcesData = JSON.parse(sourcesFile);
 
-export const jobSchema = z.object({
-  id: z.string(),
-  title: z.string(),
-  company: z.string(),
-  location: z.string(),
-  applicationLink: z.string().url(),
-  postedDate: z.union([z.date(), z.string().pipe(z.coerce.date())]),
-  expirationDate: z
-    .union([z.date(), z.string().pipe(z.coerce.date())])
-    .nullable()
-    .optional(),
-  tags: z.array(z.string()).optional(),
-  status: z.string(),
-  jobLevel: z.string().nullable().optional(),
-  employeeRole: z.string().nullable().optional(),
-  salaryRange: z.string().nullable().optional(),
-  source: z.string().nullable().optional(),
-  sourceUrl: z.string().url().nullable().optional(),
-  verificationDate: z
-    .union([z.date(), z.string().pipe(z.coerce.date())])
-    .nullable()
-    .optional(),
-  glassdoorLink: z.string().url().nullable().optional(),
-  crunchbaseLink: z.string().url().nullable().optional(),
-  companyLogoUrl: z.string().nullable().optional(),
-  applicationExperience: z.string().optional(),
-  excerpt: z.string(), // Added by our script
-  description: z.string().optional(),
-  responsibilities: z.array(z.string()).optional(),
-  qualifications: z.array(z.string()).optional(),
-  story_question1: z.string().optional(),
-  story_answer1: z.string().optional(),
-  story_question2: z.string().optional(),
-  story_answer2: z.string().optional(),
-  story_question3: z.string().optional(),
-  story_answer3: z.string().optional(),
-  companyCulture: z.string().optional(),
-});
-
-// --- ENRICHMENT SCRIPT LOGIC ---
-const ENRICH_BATCH_SIZE = 5;
-
-async function getPendingJobs(db: admin.firestore.Firestore): Promise<JobPosting[]> {
-    console.log(`Fetching up to ${ENRICH_BATCH_SIZE} jobs with status 'pending_review'...`);
-    const jobsRef = db.collection('jobs');
-    const q = jobsRef.where('status', '==', 'pending_review').limit(ENRICH_BATCH_SIZE);
-    const snapshot = await q.get();
-
-    if (snapshot.empty) {
-        console.log('No jobs found pending review.');
-        return [];
+    if (!Array.isArray(sourcesData)) {
+      throw new Error('sources.json is not a valid array.');
     }
 
-    const jobs: JobPosting[] = [];
-    snapshot.forEach(doc => {
-        jobs.push({ id: doc.id, ...doc.data() } as JobPosting);
-    });
+    const sourcesCollection = db.collection('sources');
+    const batch = db.batch();
 
-    console.log(`Found ${jobs.length} jobs to process.`);
-    return jobs;
-}
+    for (const source of sourcesData) {
+      if (!source.sourceName) {
+        console.warn('[SKIPPING] Source found without a sourceName.', source);
+        continue;
+      }
+      
+      // Convert ISO string back to Timestamp if it exists
+      if (source.lastFetchedAt) {
+        source.lastFetchedAt = admin.firestore.Timestamp.fromDate(new Date(source.lastFetchedAt));
+      }
 
-async function enrichJobData(job: JobPosting): Promise<Partial<JobPosting>> {
-    console.log(`Enriching job: ${job.id}`);
-    const prompt = `
-      Analyze the following job description text and return a JSON object with the following fields:
-      - "responsibilities": An array of strings, with each string being a key responsibility.
-      - "qualifications": An array of strings, with each string being a key qualification.
-      - "jobLevel": Infer the job level. Choose one of: ["Entry-Level", "Junior", "Mid-Senior", "Senior", "Lead", "Principal", "Director", "Executive"]. If unsure, return null.
-      - "employeeRole": Infer the employee role. Choose one of: ["Individual Contributor", "Manager", "Lead"]. If unsure, return null.
-      - "salaryRange": If a salary is mentioned, extract it as a string (e.g., "$150,000 - $200,000"). If not mentioned, return null.
-      - "story_question1": Generate an insightful question a curious candidate might ask about this role's impact.
-      - "story_answer1": Generate a compelling answer to question 1, highlighting the role's value.
-      - "story_question2": Generate an insightful question about the team or company culture.
-      - "story_answer2": Generate a compelling answer to question 2, reflecting a positive and collaborative environment.
-
-      JOB DESCRIPTION TEXT:
-      """
-      ${job.description}
-      """
-
-      JSON OUPUT:
-    `;
-
-    console.log(`---- AI PROMPT for ${job.id} ----\n${prompt}\n--------------------------`);
-
-    // SIMULATED AI RESPONSE
-    const simulatedAiResponse = {
-        responsibilities: [
-            "Lead product discovery efforts through user research and data analysis.",
-            "Prioritize product roadmap based on business impact.",
-            "Own the product execution process with designers and engineers."
-        ],
-        qualifications: [
-            "3+ years of product management experience in a technical environment.",
-            "Experience with both building new products (0->1) and scaling existing ones (1->n).",
-            "Familiarity with AI/ML systems or data infrastructure.",
-            "Strong systems thinking and communication skills."
-        ],
-        jobLevel: "Mid-Senior",
-        employeeRole: "Individual Contributor",
-        salaryRange: null,
-        story_question1: "Beyond the daily tasks, what is the real strategic impact of this Product Manager role?",
-        story_answer1: "You are not just managing features; you are shaping the future of clinician-AI interaction, directly contributing to our mission of restoring joy to the practice of medicine.",
-        story_question2: "How does the product team collaborate with engineering and clinical teams?",
-        story_answer2: "Collaboration is at our core. The product team acts as a bridge, embedding with engineering in agile sprints and holding regular deep-dive sessions with our community of clinician innovators."
-    };
-
-    return simulatedAiResponse;
-}
-
-async function enrichJobs() {
-    const { adminDb: db } = await getFirebaseAdmin();
-    const jobsToProcess = await getPendingJobs(db);
-
-    if (jobsToProcess.length === 0) return;
-
-    for (const job of jobsToProcess) {
-        if (!job.id) {
-          console.warn('[ENRICHMENT] Skipping job without an ID.', job);
-          continue;
-        }
-
-        try {
-            const enrichedData = await enrichJobData(job);
-            const finalPayload: Partial<JobPosting> = { status: 'pending_approval' };
-
-            // "Enrich, Don't Overwrite" Logic
-            if (!job.responsibilities || job.responsibilities.length === 0) finalPayload.responsibilities = enrichedData.responsibilities;
-            if (!job.qualifications || job.qualifications.length === 0) finalPayload.qualifications = enrichedData.qualifications;
-            if (!job.jobLevel) finalPayload.jobLevel = enrichedData.jobLevel;
-            if (!job.employeeRole) finalPayload.employeeRole = enrichedData.employeeRole;
-            if (!job.salaryRange) finalPayload.salaryRange = enrichedData.salaryRange;
-            if (!job.story_question1) {
-                finalPayload.story_question1 = enrichedData.story_question1;
-                finalPayload.story_answer1 = enrichedData.story_answer1;
-            }
-            if (!job.story_question2) {
-                finalPayload.story_question2 = enrichedData.story_question2;
-                finalPayload.story_answer2 = enrichedData.story_answer2;
-            }
-
-            console.log(`---- DRY RUN: Payload for job ${job.id} ----`);
-            console.log(JSON.stringify(finalPayload, null, 2));
-            console.log('---------------------------------------------\n');
-
-            // To run for real, uncomment the following line:
-            // await db.collection('jobs').doc(job.id).set(finalPayload, { merge: true });
-            await db.collection('jobs').doc(job.id).set(finalPayload, { merge: true });
-
-        } catch (error) {
-            console.error(`Failed to process job ${job.id}. Error:`, error);
-        }
+      const docRef = sourcesCollection.doc(source.sourceName);
+      batch.set(docRef, source, { merge: true });
     }
-    console.log('\nEnrichment script finished.');
+
+    await batch.commit();
+    console.log(`Successfully seeded ${sourcesData.length} sources.`);
+
+  } catch (error) {
+    if (error instanceof Error && (error as NodeJS.ErrnoException).code === 'ENOENT') {
+      console.warn('Skipping sources seeding: src/config/sources.json not found.');
+    } else {
+      console.error('Error seeding sources:', error);
+      throw error; // Re-throw to fail the seed process if the file is invalid
+    }
+  }
 }
-
-// --- END ENRICHMENT SCRIPT LOGIC ---
-
 
 /**
  * Executes the database backup script.
  * @throws {Error} If the backup script fails.
  */
 export async function runBackup(): Promise<void> {
+  if (isDryRun) {
+    console.log('[DRY RUN] Skipping database backup.');
+    return;
+  }
   console.log('Starting database backup...');
   try {
     const { stdout, stderr } = await execAsync('bash scripts/backup_database.sh');
@@ -262,6 +118,12 @@ export async function processDirectory(
       const plainTextContent = content.replace(/\n/g, ' ').replace(/(\*\*|\*|_|`|\[|\]|\(|\)|#)/g, '');
       data.excerpt = plainTextContent.substring(0, 160);
 
+      for (const key in data) {
+        if (typeof data[key] === 'string') {
+          data[key] = DOMPurify.sanitize(data[key], { USE_PROFILES: { html: false } });
+        }
+      }
+
       let finalData: any = { ...data };
 
       if (contentType === 'jobs') {
@@ -294,6 +156,61 @@ export async function processDirectory(
         finalData.contentBody = DOMPurify.sanitize(await marked(processedContent));
       }
 
+      const articleSchema = z.object({
+        slug: z.string(),
+        contentType: z.enum(['editorial', 'briefing']),
+        sourceName: z.string().optional(),
+        originalUrl: z.string().url().optional(),
+        title: z.string(),
+        author: z.string(),
+        publishDate: z.union([z.date(), z.string().pipe(z.coerce.date())]),
+        issueNo: z.number(),
+        volumeNo: z.number(),
+        tags: z.array(z.string()).optional(),
+        imageUrl: z.string().optional(),
+        hub: z.string().optional(),
+        excerpt: z.string(),
+        author_take_question1: z.string().optional(),
+        author_take_answer1: z.string().optional(),
+        author_take_question2: z.string().optional(),
+        author_take_answer2: z.string().optional(),
+        contentBody: z.string().optional(),
+      });
+
+      const jobSchema = z.object({
+        id: z.string(),
+        title: z.string(),
+        company: z.string(),
+        location: z.string(),
+        applicationLink: z.string().url(),
+        postedDate: z.union([z.date(), z.string().pipe(z.coerce.date())]),
+        expirationDate: z.union([z.date(), z.string().pipe(z.coerce.date())]).nullable().optional(),
+        tags: z.array(z.string()).optional(),
+        status: z.string(),
+        jobLevel: z.string().nullable().optional(),
+        employeeRole: z.string().nullable().optional(),
+        salaryRange: z.string().nullable().optional(),
+        hasSalary: z.boolean().optional(),
+        source: z.string().nullable().optional(),
+        sourceUrl: z.string().url().nullable().optional(),
+        verificationDate: z.union([z.date(), z.string().pipe(z.coerce.date())]).nullable().optional(),
+        glassdoorLink: z.string().url().nullable().optional(),
+        crunchbaseLink: z.string().url().nullable().optional(),
+        companyLogoUrl: z.string().nullable().optional(),
+        applicationExperience: z.string().optional(),
+        excerpt: z.string(),
+        description: z.string().optional(),
+        responsibilities: z.array(z.string()).optional(),
+        qualifications: z.array(z.string()).optional(),
+        story_question1: z.string().optional(),
+        story_answer1: z.string().optional(),
+        story_question2: z.string().optional(),
+        story_answer2: z.string().optional(),
+        story_question3: z.string().optional(),
+        story_answer3: z.string().optional(),
+        companyCulture: z.string().optional(),
+      });
+
       try {
         if (contentType === 'jobs') jobSchema.parse(finalData);
         else articleSchema.parse(finalData);
@@ -315,49 +232,102 @@ export async function processDirectory(
   return items;
 }
 
+
 /**
  * Deletes documents from a Firestore collection that do not have a corresponding local file.
- * @param collectionRef A reference to the Firestore collection.
- * @param localIds A Set of IDs from the local markdown files.
- * @param collectionName The name of the collection ('jobs' or 'articles').
+ * @returns A promise that resolves to an array of URLs that were deleted.
  */
 export async function syncDeletions(
   adminDb: admin.firestore.Firestore,
   collectionRef: admin.firestore.CollectionReference,
   localIds: Set<string>,
   collectionName: 'jobs' | 'articles'
-) {
+): Promise<string[]> {
   console.log(`Syncing deletions for collection: ${collectionRef.path}...`);
   const remoteSnapshot = await collectionRef.select().get();
   const remoteIds = new Set(remoteSnapshot.docs.map((doc) => doc.id));
   const idsToDelete = [...remoteIds].filter((id) => !localIds.has(id));
+  const urlsToDelete: string[] = [];
 
   if (idsToDelete.length === 0) {
     console.log(`No documents to delete from ${collectionRef.path}.`);
-    return;
+    return [];
   }
 
-  console.log(`Found ${idsToDelete.length} documents to delete from ${collectionRef.path}:`, idsToDelete);
+  console.log(`Found ${idsToDelete.length} documents to delete from ${collectionRef.path}.`);
+
+  if (isDryRun) {
+    console.log('[DRY RUN] The following documents would be deleted:');
+    idsToDelete.forEach(id => console.log(`- ${collectionRef.path}/${id}`));
+    return idsToDelete.map(id => `${SITE_URL}/${collectionName}/${id}`);
+  }
 
   const deleteBatch = adminDb.batch();
   for (const id of idsToDelete) {
     deleteBatch.delete(collectionRef.doc(id));
-    if (collectionName === 'jobs') {
-      const url = `${SITE_URL}/jobs/${id}`;
-      await notifyUrlDelete(url);
-    }
+    urlsToDelete.push(`${SITE_URL}/${collectionName}/${id}`);
   }
 
   await deleteBatch.commit();
   console.log(`Successfully deleted ${idsToDelete.length} orphaned documents from ${collectionRef.path}.`);
+
+  await notifyBatch(urlsToDelete, 'URL_DELETED');
+  return urlsToDelete;
 }
 
 /**
+ * Upserts a batch of items into a Firestore collection.
+ * @returns A promise that resolves to an array of URLs that were upserted.
+ */
+async function upsertInBatches(
+  adminDb: admin.firestore.Firestore,
+  collectionRef: admin.firestore.CollectionReference,
+  items: any[],
+  idField: string,
+  collectionName: 'jobs' | 'articles'
+): Promise<string[]> {
+    const urlsUpserted: string[] = [];
+    const batchSize = 400;
+    console.log(`Found ${items.length} ${collectionName} to process for upsert...`);
+
+    for (let i = 0; i < items.length; i += batchSize) {
+        const batchItems = items.slice(i, i + batchSize);
+        const batch = adminDb.batch();
+        console.log(`Processing batch ${i / batchSize + 1} for ${collectionRef.path} (items ${i + 1}-${i + batchItems.length})`);
+
+        for (const item of batchItems) {
+            const docId = item[idField];
+            if (!docId) {
+                console.warn(`[SKIPPING] Item found without an '${idField}'.`, item);
+                continue;
+            }
+            const docRef = collectionRef.doc(docId);
+            if (isDryRun) {
+                console.log(`[DRY RUN] Would upsert document: ${collectionRef.path}/${docId}`);
+            } else {
+                batch.set(docRef, item, { merge: true });
+            }
+            urlsUpserted.push(`${SITE_URL}/${collectionName}/${docId}`);
+        }
+
+        if (!isDryRun) {
+            await batch.commit();
+            console.log(`Batch ${i / batchSize + 1} committed successfully.`);
+        }
+    }
+    return urlsUpserted;
+}
+
+
+/**
  * Triggers on-demand revalidation for a list of paths in Next.js.
- * @param paths An array of URL paths to revalidate.
  */
 export async function revalidatePaths(paths: string[]) {
-  const secret = process.env.REVALIDATE_SECRET_TOKEN;
+  if (isDryRun) {
+      console.log(`[DRY RUN] Would revalidate ${paths.length} paths.`);
+      return;
+  }
+  const secret = process.env.REVALIDATE_SECRET_TOKEN?.trim();
   if (!secret) {
     console.warn('[REVALIDATION SKIPPED] REVALIDATE_SECRET_TOKEN not set.');
     return;
@@ -370,10 +340,10 @@ export async function revalidatePaths(paths: string[]) {
       body: JSON.stringify({ secret, path }),
     })
       .then(async (res) => {
+        const body = await res.json();
         if (res.ok) {
-          console.log(`[REVALIDATED] ${path}`);
+          console.log(`[REVALIDATED] ${path}: Status ${res.status}`, body);
         } else {
-          const body = await res.json();
           console.error(`[REVALIDATION FAILED] for ${path}: Status ${res.status}`, body);
         }
       })
@@ -390,14 +360,22 @@ export async function revalidatePaths(paths: string[]) {
  * The main orchestration function for the seeding process.
  */
 export async function seedFirestore() {
-  try {
-    await runBackup();
-  } catch (error) {
-    process.exit(1);
+  if (isDryRun) {
+    console.log('*** RUNNING IN DRY-RUN MODE. NO CHANGES WILL BE MADE TO THE DATABASE. ***\n');
+  } else {
+    console.log('*** WARNING: RUNNING IN LIVE MODE. ALL CHANGES WILL BE WRITTEN TO THE DATABASE. ***\n');
   }
 
-  console.log('Starting intelligent Firestore data seeding from Markdown files...');
+  // try {
+  //   await runBackup();
+  // } catch (error) {
+  //   process.exit(1);
+  // }
+
+  console.log('Starting intelligent Firestore data seeding from local files...');
   const { adminDb: db } = await getFirebaseAdmin();
+
+  await seedSources(db); // Seed sources from config file
 
   const projectRoot = process.cwd();
   const articlesDir = path.join(projectRoot, 'src', 'articles');
@@ -406,43 +384,26 @@ export async function seedFirestore() {
   const jobsCollection = db.collection('jobs');
   const articlesCollection = db.collection('articles');
 
-
   const processedJobs = await processDirectory(jobsDir, 'jobs');
   const processedArticles = await processDirectory(articlesDir, 'articles');
 
   const localJobIds = new Set(processedJobs.map((j) => j.id).filter(Boolean));
   const localArticleSlugs = new Set(processedArticles.map((a) => a.slug).filter(Boolean));
 
-  await syncDeletions(db, jobsCollection, localJobIds, 'jobs');
-  await syncDeletions(db, articlesCollection, localArticleSlugs, 'articles');
+  // const deletedJobUrls = await syncDeletions(db, jobsCollection, localJobIds, 'jobs');
+  // const deletedArticleUrls = await syncDeletions(db, articlesCollection, localArticleSlugs, 'articles');
+  const deletedJobUrls: string[] = [];
+  const deletedArticleUrls: string[] = [];
 
-  const upsertInBatches = async (adminDb: admin.firestore.Firestore, collectionRef: admin.firestore.CollectionReference, items: any[], idField: string) => {
-    const batchSize = 400; // Firestore batch limit is 500, use 400 to be safe
-    for (let i = 0; i < items.length; i += batchSize) {
-      const batchItems = items.slice(i, i + batchSize);
-      const batch = adminDb.batch();
-      console.log(`Processing batch ${i / batchSize + 1} for ${collectionRef.path} (items ${i + 1}-${i + batchItems.length})`);
-      for (const item of batchItems) {
-        if (!item[idField]) {
-          console.warn(`[SKIPPING] Item found without an '${idField}' in its frontmatter.`, item);
-          continue;
-        }
-        const docRef = collectionRef.doc(item[idField]);
-        batch.set(docRef, item, { merge: true });
-      }
-      await batch.commit();
-      console.log(`Batch ${i / batchSize + 1} committed successfully.`);
-    }
-  };
+  const upsertedJobUrls = await upsertInBatches(db, jobsCollection, processedJobs, 'id', 'jobs');
+  const upsertedArticleUrls = await upsertInBatches(db, articlesCollection, processedArticles, 'slug', 'articles');
 
-  console.log(`Found ${processedJobs.length} job files to process for upsert...`);
-  await upsertInBatches(db, jobsCollection, processedJobs, 'id');
+  const allUpdatedUrls = [...upsertedJobUrls, ...upsertedArticleUrls];
 
-  console.log(`Found ${processedArticles.length} article files to process for upsert...`);
-  await upsertInBatches(db, articlesCollection, processedArticles, 'slug');
+  if (!isDryRun && allUpdatedUrls.length > 0) {
+    await notifyBatch(allUpdatedUrls, 'URL_UPDATED');
+  }
 
-  // Revalidation logic needs to be adjusted if we process many files,
-  // as it might hit rate limits. For now, we keep it simple.
   const pathsToRevalidate = [
     '/',
     '/articles',
@@ -451,23 +412,30 @@ export async function seedFirestore() {
   ];
   await revalidatePaths(pathsToRevalidate);
 
+  if (isDryRun) {
+      console.log('\n--- Dry Run Report ---');
+      console.log(`SUMMARY:`);
+      console.log(`- To be DELETED: ${deletedJobUrls.length} jobs, ${deletedArticleUrls.length} articles.`);
+      console.log(`- To be UPSERTED: ${upsertedJobUrls.length} jobs, ${upsertedArticleUrls.length} articles.`);
+      console.log(`- URLs for Google Indexing: ${allUpdatedUrls.length} (updated), ${deletedJobUrls.length + deletedArticleUrls.length} (deleted).`);
+      console.log(`- Paths to Revalidate: ${pathsToRevalidate.length}`);
+      console.log('\nDETAILS:');
+      if(deletedJobUrls.length > 0) console.log('Jobs to be DELETED:', deletedJobUrls);
+      if(deletedArticleUrls.length > 0) console.log('Articles to be DELETED:', deletedArticleUrls);
+      if(upsertedJobUrls.length > 0) console.log('Jobs to be UPSERTED:', upsertedJobUrls);
+      if(upsertedArticleUrls.length > 0) console.log('Articles to be UPSERTED:', upsertedArticleUrls);
+  }
 }
 
 // --- EXECUTION BLOCK ---
 if (process.env.NODE_ENV !== 'test') {
-  const args = process.argv.slice(2);
-  if (args.includes('--enrich')) {
-    console.log('--enrich flag detected. Running job enrichment process...');
-    enrichJobs().catch(err => console.error(err));
-  } else {
-    seedFirestore()
-      .then(() => {
-        console.log('\nSeeding process completed successfully.\n');
-        process.exit(0);
-      })
-      .catch((error) => {
-        console.error('\nSeeding process failed.\n', error);
-        process.exit(1);
-      });
-  }
+  seedFirestore()
+    .then(() => {
+      console.log('\nSeeding process completed successfully.\n');
+      process.exit(0);
+    })
+    .catch((error) => {
+      console.error('\nSeeding process failed.\n', error);
+      process.exit(1);
+    });
 }

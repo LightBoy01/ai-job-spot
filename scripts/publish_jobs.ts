@@ -1,39 +1,72 @@
-import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.ts';
+import fs from 'fs/promises';
+import path from 'path';
+import matter from 'gray-matter';
+
+const JOB_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
 
 /**
- * This script finds job postings with a 'pending_approval' status
+ * This script finds job postings with a 'pending_approval' status in their frontmatter
  * and updates them to 'published'.
  */
 async function publishApprovedJobs() {
-  console.log('Starting job publishing process...');
-  const { adminDb } = await getFirebaseAdmin();
-
-  const jobsToPublishRef = adminDb.collection('jobs');
-  const query = jobsToPublishRef.where('status', '==', 'pending_approval');
+  const isDryRun = process.argv.includes('--dry-run');
+  console.log(isDryRun ? 'Starting job publishing process in --dry-run mode...' : 'Starting job publishing process...');
+  
+  let publishedCount = 0;
+  const warnings: string[] = [];
+  const filesToPublish: string[] = [];
 
   try {
-    const snapshot = await query.get();
+    const files = await fs.readdir(JOB_DIR);
 
-    if (snapshot.empty) {
-      console.log('No jobs found with status \'pending_approval\'. Nothing to do.');
-      return;
+    for (const file of files) {
+        if (!file.endsWith('.md')) continue;
+
+        const filePath = path.join(JOB_DIR, file);
+        try {
+            const fileContent = await fs.readFile(filePath, 'utf8');
+            const { data, content } = matter(fileContent);
+
+            if (data.status === 'pending_approval') {
+                filesToPublish.push(file);
+                if (!isDryRun) {
+                    data.status = 'published';
+                    const newFileContent = matter.stringify(content, data);
+                    await fs.writeFile(filePath, newFileContent, 'utf8');
+                }
+                publishedCount++;
+            }
+        } catch (error: any) {
+            warnings.push(`Failed to process file ${file}: ${error.message}`);
+        }
     }
 
-    console.log(`Found ${snapshot.size} jobs to publish.`);
+    if (isDryRun) {
+        console.log('\n--- Dry Run Report ---');
+        if (filesToPublish.length > 0) {
+            console.log(`Found ${filesToPublish.length} jobs to publish:`);
+            filesToPublish.forEach(f => console.log(`- ${f}`));
+        } else {
+            console.log("No jobs with status 'pending_approval' found.");
+        }
+        console.log('No files were changed.');
+    } else {
+        console.log('\n--- Publish Report ---');
+        if (filesToPublish.length > 0) {
+            console.log(`Successfully published ${filesToPublish.length} jobs:`);
+            filesToPublish.forEach(f => console.log(`- ${f}`));
+        } else {
+            console.log('No jobs with status \'pending_approval\' were found to publish.');
+        }
+    }
 
-    // Firestore allows up to 500 operations in a single batch.
-    const batch = adminDb.batch();
-    snapshot.docs.forEach(doc => {
-      console.log(` - Publishing job: ${doc.id}`);
-      const docRef = jobsToPublishRef.doc(doc.id);
-      batch.update(docRef, { status: 'published' });
-    });
+    if (warnings.length > 0) {
+        console.log('\nEncountered warnings:');
+        warnings.forEach(w => console.log(`- ${w}`));
+    }
 
-    await batch.commit();
-    console.log(`Successfully published ${snapshot.size} jobs.`);
-
-  } catch (error) {
-    console.error('Error during job publishing process:', error);
+  } catch (error: any) {
+    console.error('Error during job publishing process:', error.message);
     process.exit(1);
   }
 }

@@ -23,6 +23,8 @@ async function getAuthenticatedClient() {
   return auth;
 }
 
+const INDEXING_API_BATCH_ENDPOINT = 'https://indexing.googleapis.com/batch';
+
 async function notify(url: string, type: 'URL_UPDATED' | 'URL_DELETED') {
   const auth = await getAuthenticatedClient();
   if (!auth) return;
@@ -51,12 +53,13 @@ async function notify(url: string, type: 'URL_UPDATED' | 'URL_DELETED') {
 
     if (response.ok) {
       console.log(
-        `[Indexing API] Successfully notified Google of ${type} for ${url}. Response:`,
-        JSON.stringify(content, null, 2)
+        `[Indexing API] Successfully notified Google of ${type} for ${url}.`
       );
     } else {
       console.error(
-        `[Indexing API] Error notifying Google for ${url}. Status: ${response.status}, Response:`,
+        `[Indexing API] Error notifying Google for ${url}. Status: ${
+          response.status
+        }, Response:`,
         JSON.stringify(content, null, 2)
       );
     }
@@ -68,5 +71,64 @@ async function notify(url: string, type: 'URL_UPDATED' | 'URL_DELETED') {
   }
 }
 
+export async function notifyBatch(
+  urls: string[],
+  type: 'URL_UPDATED' | 'URL_DELETED'
+) {
+  if (urls.length === 0) {
+    return;
+  }
+
+  const auth = await getAuthenticatedClient();
+  if (!auth) return;
+
+  const boundary = `----${Date.now()}----`;
+  const body = urls
+    .map(url => {
+      const content = JSON.stringify({ url, type });
+      return `--${boundary}
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+Content-ID: <${url}>
+
+POST /v3/urlNotifications:publish
+Content-Type: application/json
+
+${content}`;
+    })
+    .join('\n') + `\n--${boundary}--`;
+
+  try {
+    const token = await auth.getAccessToken();
+    const response = await fetch(INDEXING_API_BATCH_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': `multipart/mixed; boundary=${boundary}`,
+        Authorization: `Bearer ${token.token}`,
+      },
+      body: body,
+    });
+
+    if (response.ok) {
+      console.log(
+        `[Indexing API] Successfully sent batch notification for ${urls.length} URLs of type ${type}.`
+      );
+      // Optionally, you can process the multipart response here if needed
+    } else {
+      const errorContent = await response.text();
+      console.error(
+        `[Indexing API] Error sending batch notification. Status: ${response.status}, Response:`,
+        errorContent
+      );
+    }
+  } catch (error) {
+    console.error(
+      `[Indexing API] Exception while sending batch notification:`,
+      error
+    );
+  }
+}
+
 export const notifyUrlUpdate = (url: string) => notify(url, 'URL_UPDATED');
 export const notifyUrlDelete = (url: string) => notify(url, 'URL_DELETED');
+

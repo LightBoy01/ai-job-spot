@@ -1,0 +1,60 @@
+---
+id: hiringcafe-successfactors___eu___SF2013___1328258057
+title: 'AI Creative and Visual Designer -  Internship (Barcelona, ES)'
+company: Zurich
+location: 'Barcelona, Catalonia, Spain'
+applicationLink: >-
+  https://www.careers.zurich.com/job/Barcelona-AI-Creative-and-Visual-Designer-Internship/1328258057/
+postedDate: '2025-09-30T13:56:18.238Z'
+expirationDate: null
+tags:
+  - Creative and Art Services
+  - Design prompts
+  - Test outputs
+  - Collaborate teams
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___SF2013___1328258057'
+companyLogoUrl: null
+---
+At **Zurich Duo**, we are more than creators - we are innovators, problem-solvers, and experts - crafting with purpose and evolving together to drive meaningful impact for our customers and the business.
+Our can-do attitude is our foundation, and learning never stops. We take a hands-on approach, encouraging curiosity and continuous growth in a supportive, dynamic, and equal environment. Passion drives us, collaboration fuels us, and excellence defines us. Every challenge is an opportunity, every success is shared.
+Rooted in Zurich and globally curious, we are strategic allies who accelerate business goals and shape the future together. At Zurich Duo, your creativity thrives, your voice matters, and your impact is real.
+### About the Opportunity
+We’re looking for a curious, hands‑on AI Designer intern to support the transformation of our in‑house design agency as part of our Zurich AI Lab. You’ll help shape how generative AI is used to create content and videos, improve creative workflows, and bring new ideas from prototype to production. This is an opportunity to learn, experiment, and make real impact working with designers, content strategists, and engineers across the business.
+You’ll be part of a team helping Zurich’s design agency become faster, smarter and more future‑facing. Your work will enhance how we produce client and internal communications, reduce repetitive work, and unlock new creative possibilities while keeping quality and brand compliance front of mind.
+### What you’ll do
+*   Design, test and refine generative prompts for image, text and video models to deliver on creative briefs.
+*   Support creation of AI‑generated content and video assets (scripts, storyboards, edited video drafts, motion graphics prompts) for marketing, corporate and internal communications.
+*   Build and maintain reusable prompt libraries, templates and style guides aligned to Zurich’s brand guidelines and tone of voice.
+*   Collaborate with designers and copywriters to identify use cases and test various solutions.
+*   Run small experiments and evaluate model outputs for quality, bias and safety; document findings and recommend improvements.
+*   Help create training materials and run demos/workshops to upskill colleagues in AI tools and best practices.
+*   Keep up to date with generative AI trends, tools and ethical guidelines; suggest responsible use‑cases for the business.
+### What you’ll bring
+*   Current enrolment in a Bachelor’s or Master’s programme in Design, Multimedia, Human‑Computer Interaction, Media Production, or a related field.
+*   Practical experience (personal projects, coursework, internships) with generative AI tools for text, image and/or video. Familiarity with prompt engineering and model behaviour (capabilities/limitations).
+*   Basic video production skills: storyboarding, editing (e.g., Premiere Pro, Final Cut), or motion graphics (After Effects) — or a strong willingness to learn.
+*   Strong visual sense and understanding of brand, layout and storytelling.
+*   Comfortable working with creative and multi‑disciplinary teams.
+*   Curious, experimental mindset with a focus on measurable outcomes and continuous learning.
+*   Good written and verbal communication skills; ability to explain technical concepts to non‑technical colleagues.
+### What’s in it for you
+*   Real, hands‑on experience shaping AI‑driven creative production in a global insurer.
+*   Mentorship from experienced designers and engineers.
+*   Opportunity to present work to senior stakeholders and influence change.
+*   Learning budget and access to learning resources and workshops.
+*   Competitive internship stipend (details depend on location) and flexible working arrangements.
+### You are the heart & soul of Zurich!
+At Zurich, we like to think outside the box and challenge the status quo. We take an optimistic approach by focusing on the positives and constantly asking What can go right?
+We highly value the experience and know-how of our employees and offer a wide range of opportunities across business areas to encourage you to apply for new opportunities within Zurich when you are ready for your next career step.
+Let’s continue to grow together!
+*   Location(s):  ES - Barcelona
+*   Remote working:
+*   Schedule: Part Time
+*   Recruiter name: Marcel Sanz Quintana
+*   Closing date:

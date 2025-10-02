@@ -1,0 +1,61 @@
+---
+id: hiringcafe-successfactors___eu___SwissRe___1252715601
+title: 'Angular Junior Developer - Student Role (Bratislava, SK)'
+company: Swiss Re Group | Swiss Re
+location: 'Bratislava, Bratislava, Slovakia'
+applicationLink: >-
+  https://careers.swissre.com/job/Bratislava-Angular-Junior-Developer-Student-Role/1252715601/
+postedDate: '2025-09-30T08:19:20.107Z'
+expirationDate: null
+tags:
+  - Software Development
+  - Develop features
+  - Collaborate seniors
+  - Write code
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$20,800 - $20,800'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___SwissRe___1252715601'
+companyLogoUrl: null
+---
+We are looking for talented students with Angular skills! Join our team and put your development knowledge to work on real projects while continuing your studies. This opportunity offers valuable industry experience that will boost both your skills and your resume – the perfect complement to your academic journey.
+**About the Role**
+As a student Angular Developer, you'll get to work on actual web applications that matter, with the flexibility to accommodate your class schedule. You'll code alongside experienced developers who are genuinely interested in helping you grow and learn the ropes of professional development. We believe in creating an environment where you can gain practical experience without compromising your education.
+**Key Responsibilities**
+*   Develop and build features for web applications using the Angular framework
+*   Team up with senior developers to implement new functionality and improvements
+*   Write clean code that follows best practices and is maintainable by the team
+*   Hunt down and fix bugs and issues in existing applications
+*   Get involved in code reviews to improve your skills (we keep feedback constructive!)
+*   Keep up with emerging trends and technologies in frontend development
+*   Help out with testing and documentation (important skills for any developer)
+**About the Team**
+You'll be joining the Application Development Services (ADS) team, a friendly group of tech professionals who create custom software solutions using agile methodologies. We handle everything from building new applications to designing architecture and providing ongoing support. Our team values knowledge sharing and creates an environment where new developers can learn, contribute, and grow their skills.
+**About You**
+You're a student with enthusiasm for web development and creating great user experiences. You can balance your coursework while making meaningful contributions to professional projects. You're curious by nature, enjoy solving technical challenges, and are eager to learn from experienced developers while bringing your fresh ideas to the table.
+We are looking for candidates who meet these requirements:
+*   Intermediate knowledge of Angular framework and its core concepts
+*   Solid foundation in HTML and CSS fundamentals
+*   Experience with AI prompting and understanding how to use it effectively
+These are additional nice to haves:
+*   Experience with Git or other version control systems
+*   Some exposure to E2E testing with Playwright
+*   An eye for good UI/UX design principles
+*   Familiarity with Agile development methods
+*   Experience working with RESTful APIs
+*   Basic understanding of backend concepts
+*   Good communication skills and ability to work in a team
+*   Skills in managing study commitments alongside work responsibilities
+The minimum gross base salary for this role is 10 EUR/ per hour. Our final offer to you will be set up fairly, considering the skills and experience that you bring to the Swiss Re Group.
+We provide feedback to all candidates via email. If you have not heard back from us, please check your spam folder.
+#LI-Hybrid
+**About Swiss Re**
+Swiss Re is one of the world’s leading providers of reinsurance, insurance and other forms of insurance-based risk transfer, working to make the world more resilient. We anticipate and manage a wide variety of risks, from natural catastrophes and climate change to cybercrime. Combining experience with creative thinking and cutting-edge expertise, we create new opportunities and solutions for our clients. This is possible thanks to the collaboration of more than 14,000 employees across the world.
+Our success depends on our ability to build an inclusive culture encouraging fresh perspectives and innovative thinking. We embrace a workplace where everyone has equal opportunities to thrive and develop professionally regardless of their age, gender, race, ethnicity, gender identity and/or expression, sexual orientation, physical or mental ability, skillset, thought or other characteristics. In our inclusive and flexible environment everyone can bring their authentic selves to work and their passion for sustainability.
+If you are an experienced professional returning to the workforce after a career break, we encourage you to apply for open positions that match your skills and experience.
+.swissre\_footer { position: relative; margin-top: -50px; height: 30px; clear: both; margin-bottom: 20px; background: #EEE none repeat scroll 0% 0%; line-height: 30px; padding: 0px 10px; color: #AAA; font-family: "Arial,Helvetica,sans-serif"; } .swissre\_jobtemplate { width: 970px; max-width: 100%; height: auto; } .jobDisplay .job { font-family: "Arial" !important; font-size: 12px !important; } .joqReqDescription { max-width: 100%; height: auto; align: center; } .joqReqDescription ul { width: 787px; max-width: 100%; } .joqReqDescription p { width: 827px; max-width: 100%; }
+**Keywords:**
+**Reference Code:** 135548

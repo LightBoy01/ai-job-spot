@@ -1,0 +1,77 @@
+---
+id: >-
+  hiringcafe-smartrecruiters___insightsoftware___7da23a3c-a3fd-4e49-8f65-b96d608bf4bd
+title: 'Manager, Support'
+company: insightsoftware
+location: 'Hyderabad, Telangana, India'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/Insightsoftware/744000084859100-manager-support
+postedDate: '2025-09-30T11:10:16.380Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Lead teams
+  - Schedule coverage
+  - Drive AI
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___insightsoftware___7da23a3c-a3fd-4e49-8f65-b96d608bf4bd
+companyLogoUrl: null
+---
+**Job Description:**
+Location: India
+Employment Type: Full-time
+Job Description
+Responsibilities :
+*   Lead and manage global support teams, including hiring, onboarding, and performance reviews.
+*   Ensure 24/7 support coverage through effective scheduling and resource planning.
+*   Drive AI and automation initiatives to enhance support efficiency.
+*   Monitor customer sentiment and engage directly with clients to resolve issues and understand needs.
+*   Collaborate cross-functionally with product, engineering, and cloud teams to share updates and insights.
+*   Communicate product and infrastructure changes to clients proactively.
+*   Set, track, and report on team KPIs and goals.
+*   Maintain support documentation and foster a culture of continuous improvement and knowledge sharing.
+**Qualifications:**
+Qualifications
+**Must-Have Skills:**
+*   Bachelor's Degree in Business, Finance or Computer Science or relevant work experience
+*   5+ years in customer service or technical support management, ideally in financial environments with overall experience in the IT Industry between 12-15 Years
+*   Experience in Managing the teams and working in a Matrix Environment
+*   Proficient with Salesforce or similar ticketing systems.
+*   Hands-on experience with AI tools and implementing AI in support operations.
+*   Strong client-facing communication and interpersonal skills.
+*   Excellent problem-solving, critical thinking, and attention to detail.
+*   Proven ability to lead, mentor, and develop high-performing teams.
+*   Adaptable, organized, and effective in fast-paced, dynamic settings.
+*   Deep commitment to customer service excellence and empathetic client support.
+*   Required to work in U.S shifts or as defined by assigned requirements
+*   Willingness to be on-call on holidays or weekends or as required by the business
+**Nice-to-Have Skills:**
+*   Familiarity with ERP systems like NetSuite, Oracle, SAP
+*   Strong knowledge of databases (Postgres, SQL, Oracle)
+*   Experience with cloud-based solutions and infrastructure
+*   Knowledge of ITIL processes and best practices
+*   Passion for technology and customer success
+**Key Competencies:**
+*   Strategic Thinking
+*   Problem-Solving
+*   Data Analysis
+*   Executive Level Communication Skills
+*   Organization and Planning
+*   Cross-Functional Leadership
+*   Risk Management
+*   Stakeholder Management
+*   Resource Management
+*   Process Improvement
+**Additional Information:**
+All your information will be kept confidential according to EEO guidelines.
+\*\* At this time insightsoftware is not able to offer sponsorship to candidates who are not eligible to work in the country where the position is located. \*\*
+\*\* **At this time insightsoftware is not able to offer sponsorship to candidates who are not eligible to work in the country where the position is located**. \*\*
+[insightsoftware About Us: Hear From Our Team - InsightSoftware (wistia.com)](https://insightsoftware.wistia.com/medias/vzk90oshuy)
+Background checks are required for employment with insightsoftware, where permitted by country, state/province.
+At insightsoftware, we are committed to equal employment opportunity regardless of race, color, ethnicity, ancestry, religion, national origin, gender, sex, gender identity or expression, sexual orientation, age, citizenship, marital or parental status, disability, veteran status, or other class protected by applicable law. We are proud to be an equal opportunity workplace.

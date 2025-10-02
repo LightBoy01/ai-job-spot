@@ -14,6 +14,8 @@ tags:
   - Future of Work
   - Economics
 imageUrl: /images/articles/the-law-of-economic-gravity.svg
+hub: Career & Professional Strategy
+contentType: editorial
 ---
 
 It’s a strange feeling, isn’t it? You see a colleague in a seemingly adjacent role get a promotion that launches them into the stratosphere. You read about a new startup that automates a task you spent years mastering. You feel the ground shifting beneath your feet, a sense that the old rules of career progression—climb the ladder, deepen your niche—are becoming less reliable.

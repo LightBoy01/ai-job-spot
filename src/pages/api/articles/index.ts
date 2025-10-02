@@ -41,6 +41,7 @@ export default async function handler(
         title: articleData.title,
         author: articleData.author,
         slug: articleData.slug,
+        contentType: articleData.contentType ?? 'editorial',
         contentBody: sanitizedContentBody,
         excerpt: excerpt,
         publishDate: articleData.publishDate
@@ -49,9 +50,9 @@ export default async function handler(
             )
           : admin.firestore.Timestamp.now(),
         tags: articleData.tags || [],
-        issueNo: articleData.issueNo,
-        volumeNo: articleData.volumeNo,
-        imageUrl: articleData.imageUrl || null,
+        issueNo: articleData.issueNo ?? 1,
+        volumeNo: articleData.volumeNo ?? 1,
+        imageUrl: articleData.imageUrl === null ? undefined : articleData.imageUrl,
         author_take_question1:
           articleData.author_take_question1 === null
             ? undefined

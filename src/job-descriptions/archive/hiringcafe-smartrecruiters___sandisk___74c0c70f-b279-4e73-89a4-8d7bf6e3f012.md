@@ -1,0 +1,42 @@
+---
+id: hiringcafe-smartrecruiters___sandisk___74c0c70f-b279-4e73-89a4-8d7bf6e3f012
+title: 'Principal Engineer, Engineering'
+company: Sandisk
+location: 'Bengaluru, Karnataka, India'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/Sandisk/744000083629858-principal-engineer-engineering
+postedDate: '2025-09-24T08:43:30.192Z'
+expirationDate: null
+tags:
+  - Data and Analytics
+  - develop models
+  - implement AI
+  - analyze data
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___sandisk___74c0c70f-b279-4e73-89a4-8d7bf6e3f012
+companyLogoUrl: null
+---
+**Company Description:**
+Sandisk understands how people and businesses consume data and we relentlessly innovate to deliver solutions that enable today’s needs and tomorrow’s next big ideas. With a rich history of groundbreaking innovations in Flash and advanced memory technologies, our solutions have become the beating heart of the digital world we’re living in and that we have the power to shape.
+Sandisk meets people and businesses at the intersection of their aspirations and the moment, enabling them to keep moving and pushing possibility forward. We do this through the balance of our powerhouse manufacturing capabilities and our industry-leading portfolio of products that are recognized globally for innovation, performance and quality.
+Sandisk has two facilities recognized by the World Economic Forum as part of the Global Lighthouse Network for advanced 4IR innovations. These facilities were also recognized as Sustainability Lighthouses for breakthroughs in efficient operations. With our global reach, we ensure the global supply chain has access to the Flash memory it needs to keep our world moving forward.
+**Job Description:**
+We are seeking a highly skilled Senior Engineer to join our Applied AIML team. This role involves developing and implementing advanced machine learning and artificial intelligence solutions to solve complex problems and enhance our products and operations.
+**Qualifications:**
+**Qualifications:**
+*   **Education**: BE or MS in Computer Science, Engineering, or a related field.
+*   **Experience**: Proven experience in applied machine learning, natural language processing, and AI development.
+*   **Skills**: Proficiency in Python and at least one other programming language (e.g., C, Java, C++). Excellent data analytical skills and experience with large-scale data processing.
+*   **Interpersonal Skills**: Strong communication skills and ability to work effectively in a team environment.
+**Preferred Qualifications**:
+*   Experience with large language models (LLMs) and generative AI technologies.
+*   Familiarity with AI-powered products and services.
+**Additional Information:**
+Sandisk thrives on the power and potential of diversity. As a global company, we believe the most effective way to embrace the diversity of our customers and communities is to mirror it from within. We believe the fusion of various perspectives results in the best outcomes for our employees, our company, our customers, and the world around us. We are committed to an inclusive environment where every individual can thrive through a sense of belonging, respect and contribution.
+Sandisk is committed to offering opportunities to applicants with disabilities and ensuring all candidates can successfully navigate our careers website and our hiring process. Please contact us at [jobs.accommodations@sandisk.com](mailto:jobs.accommodations@sandisk.com) to advise us of your accommodation request. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.

@@ -1,0 +1,70 @@
+---
+id: hiringcafe-successfactors___eu___Bombardier___1253034901
+title: >-
+  Intern, Projects & Governance Coordinator, Organizational Learning (Winter
+  2026) (Mississauga, ON, CA, L5S 1W1)
+company: Bombardier
+location: 'Mississauga, Ontario, Canada'
+applicationLink: >-
+  https://jobs.bombardier.com/job/Mississauga-Intern,-Projects-&-Governance-Coordinator,-Organizational-Learning-(Winter-2026)-ON-L5S-1W1/1253034901/
+postedDate: '2025-09-30T15:35:51.468Z'
+expirationDate: null
+tags:
+  - Education services
+  - Develop plans
+  - Coordinate activities
+  - Drive milestones
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___Bombardier___1253034901'
+companyLogoUrl: null
+---
+**Innovation is in our DNA… is it in yours?**
+Bombardier is a global leader in aviation, creating innovative and game-changing planes. Our products and services provide world-class experiences that set new standards in passenger comfort, energy efficiency, reliability and safety. We are a global organization focused on working together with a team spirit.
+**Your boarding pass will include…**
+Several conferences, including:
+*   Meet An Executive
+*   Women Taking Flight
+Learning more about Bombardier, including:
+*   Bombardier Products conference
+*   Visits of the Bombardier sites
+*   Bombardier Academy of Learning
+Many social/networking opportunities, including:
+*   Volunteering
+*   Networking for Success
+*   5 à 7, Potluck, and much more!
+### **During your internship, you will contribute to:**
+*   Develop project plans, milestones, glide paths and supporting documentation
+*   Coordinate project activities for key operational initiatives that will impact all manufacturing sites across North America.
+*   Drive milestones and support the managing of project stakeholders.
+*   Craft clear communications to deliver key messages, using various mediums.
+*   Establish a mechanism for feedback and continuous improvement.
+*   Support the coordination of learning program logistics and manage training evidence.
+*   Facilitate recurring team and project meetings to enhance communication and collaboration.
+*   Support team engagement activities using creative tools.
+*   Advise on the use of AI, emerging, and established technologies to drive business agility and transformation
+**During your internship, you will learn:**
+-------------------------------------------
+*   Microsoft Office 365 tools and AI capabilities
+*   Communication and facilitation skills
+*   Adaptability in various cultures and languages
+*   Problem-solving and continuous improvement techniques and tools
+### **How to thrive in this role?**
+*   You take initiative to analyze the situation, build an action plan and implement activities with minimal supervision
+*   You are a creative problem solver, possess a curious mind and have a positive attitude
+*   You have a fearless attitude towards trying new things
+*   You are passionate about engaging with people and communicating with others
+*   You are familiar with project management tools and mindset
+*   You have superior speaking and written skills in English (French and Spanish is an asset)
+*   You are able to work onsite 2-3 days per week
+​
+**Boarding Information:**
+*   Location: Global 5500/6500
+*   Duration: 12 months
+*   Flexible workplace-Hybrid
+_It is important to note that our internship opportunities are open to students only, not new graduates. All our interns may be required to occasionally travel outside of Canada for training/work purpose._
+​

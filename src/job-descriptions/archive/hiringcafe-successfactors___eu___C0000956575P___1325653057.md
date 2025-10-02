@@ -1,0 +1,98 @@
+---
+id: hiringcafe-successfactors___eu___C0000956575P___1325653057
+title: 'Projectmedewerker beeldcollecties en AI (Gent, 9000)'
+company: Universiteit Gent
+location: 'Ghent, East Flanders, Belgium'
+applicationLink: >-
+  https://jobs.ugent.be/job/Gent-Projectmedewerker-beeldcollecties-en-AI-9000/1325653057/
+postedDate: '2025-09-15T13:54:16.206Z'
+expirationDate: null
+tags:
+  - Project and Program Management
+  - coordinate reporting
+  - manage datasets
+  - develop data plan
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___C0000956575P___1325653057'
+companyLogoUrl: null
+---
+*   Departement: Universiteitsdienst Onderwijs en Onderzoek; Onderzoek
+*   Tewerkstellingspercentage: 100% - tijdelijke functie
+*   Solliciteren kan tot en met 29-09-2025 (DD/MM/YYYY)
+Jouw opdracht
+=============
+**Als projectmedewerker Glashelder ondersteun je het team digitale collecties in de Boekentoren en de projectpartners bij het sturen en uitvoeren van de verschillende werkpakketten in dit project. De projectmedewerker wordt strategisch en technisch bijgestaan door uiteenlopende profielen.**
+**Universiteitsbibliotheek Gent - Boekentoren**
+De Universiteitsbibliotheek Gent is een netwerk van 10 faculteitsbibliotheken, verspreid in en rond Gent, en de Boekentoren. Het ‘bevorderen van open kenniscreatie’ is de missie van de Universiteitsbibliotheek. De centrale werking van de Universiteitsbibliotheek is gehuisvest in de Boekentoren, een modernistisch icoon en beschermd monument, ontworpen door Henry van de Velde in de jaren 1930. De Boekentoren is een bewaarbibliotheek met omvangrijke en belangrijke erfgoedcollecties. In de toren en ondergrondse depots is meer dan 60 km collectie opgesteld met niet alleen boeken en tijdschriften maar ook vele andere materialen. Het digitaliseren en digitaal ter beschikking stellen van deze collecties is een belangrijke opdracht van de Boekentoren. [https://boekentoren.gent/nl/artikels/de-magie-van-glasplaten](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fboekentoren.gent%2Fnl%2Fartikels%2Fde-magie-van-glasplaten&data=05%7C02%7CMarjolijn.Bracke%40UGent.be%7Cc4b46b0016c64eec456608ddf1cd9ea1%7Cd7811cdeecef496c8f91a1786241b99c%7C1%7C0%7C638932587617647939%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=crzBWX5l%2BLHenWPBTRQTaqLqbk4CM6ofBVwvrIQEq0I%3D&reserved=0)
+**Project Glashelder**
+Glashelder laat mens en machine samenwerken bij het verrijken van zo’n 61.000 gedigitaliseerde glasplaten die deel uitmaken van de erfgoedcollectie van Universiteit Gent - Boekentoren. Het bestudeert hoe we bestaande Visual Language Models en AI-technieken kunnen inzetten voor het kwalitatief beschrijven van omvangrijke beeldcollecties. De glasplaten dienen als laboratorium om te analyseren hoe processen van intelligent automatiseren, leren en valoriseren in een erfgoedcontext vorm krijgen. Een ethisch en juridisch kader biedt houvast bij de onvermijdelijke uitdagingen die AI met zich meebrengt.
+De projectpartners in dit project zijn het Gent Universiteitsmuseum (GUM), Ghent Centre for Digital Humanities (GCDH) en meemoo, Vlaams Instituut voor het Archief.
+Je werk omvat een divers takenpakket van sturende en uitvoerende taken waarin je in teamverband werkt aan:
+*   Opvolging van het project- en communicatieplan en rapportage naar de bevoegde instanties;
+*   Coördinatie van en participatie aan de stuur- en adviesgroepen, communicatie naar projectpartners en stakeholders;
+*   Opvolging automatische clustering en metadataverrijking door bestaande Visual Language Models en AI-technieken en de daaruit volgende (participatieve) validatie, in nauwe samenwerking met GCDH;
+*   Managen en cleanen van grote datasets;
+*   Mee uitwerken datamanagementplan;
+*   Sectorbrede communicatie over het project, in de vorm van (web)artikels, nieuwsbrieven, presentaties...
+De UGent en dit project biedt:
+*   Kans om doelgericht nieuwe technologieën en hun toepasbaarheid in de erfgoedsector en geesteswetenschappen te leren kennen;
+*   Een stimulerende en interdisciplinaire werkomgeving;
+*   Afwisseling tussen digitaal en menselijk werk;
+*   Een visueel en inhoudelijk interessante collectie om in te duiken;
+*   Samenwerken met een boeiend netwerk van partners werkzaam in innovatie in erfgoedbeheer en –participatie;
+*   Mogelijkheid tot verlenging bij goedkeuring volgende fases project.
+Voor meer informatie in verband met de functie-inhoud kan je contact opnemen met Sarah Eloy, conservator Digitale Collecties via sarah.eloy@ugent.be (Let op: stuur je sollicitatie niet via e-mail door maar solliciteer online.)
+Jouw profiel
+============
+Kennis en ervaring
+------------------
+*   Je hebt minstens een eerste relevante ervaring;
+*   Je hebt ervaring in digitale collectieregistratie, digital humanities en/of dataverwerking;
+*   Je bent vertrouwd met relevante digitale (internationale) standaarden, inzichten en methodes voor het beheren van en het omgaan met erfgoed en digitale bestanden;
+*   Je hebt interesse voor en affiniteit met AI en Machine Learning;
+*   Je hebt affiniteit met (visueel) erfgoed en de digitale uitdagingen;
+*   Ervaring met projectmanagement is een pluspunt;
+*   Je hebt een goede kennis MS Office (Excel bv.);
+*   Je hebt een uitstekende kennis van het Engels en het Nederlands;
+*   Je kan overlegmomenten organiseren en helder communiceren met projectpartners en betrokken stakeholders.
+Vaardigheden en attitudes
+-------------------------
+*   Je werkt doelgericht en neemt initiatief. Daarbij kan je goed prioriteiten stellen, plannen, organiseren en alle betrokkenen op de hoogte houden;
+*   Je bent goed in projectmatig werken en omgaan met strakke deadlines;
+*   Je bent heel nauwkeurig, methodisch en analytisch;
+*   Je bent een teamspeler, je houdt rekening met je collega’s en bent aanspreekbaar;
+*   Je hebt een oplossings- en resultaatgerichte attitude en kan vanuit jouw enthousiasme en expertise mensen motiveren om rond eenzelfde doel samen te werken;
+*   Je verwerkt ingewikkelde technische materie goed, en communiceert er helder over zodat ook leken het begrijpen.
+*   Je bent flexibel, je kan overweg met veranderingen en bereid om altijd bij te leren;
+*   Je bent niet bang om nieuwe tools te ontdekken en gebruiken;
+*   Je hebt goede mondelinge en schriftelijke vaardigheden die je kunt inzetten in de projectcommunicatie gericht op een publiek van erfgoedprofessionals.
+Wat bieden wij jou?
+===================
+Je wordt tewerkgesteld met een **contract van bepaalde duur voor een periode van 1 jaar (met mogelijkheid tot verlenging)** in functieklasse B. Lees op onze [website](https://www.ugent.be/nl/jobs/atp/verloningatp.htm) meer over onze verloning.
+De UGent zet sterk in op de loopbaanontwikkeling van haar medewerkers. Zo krijg je opportuniteiten om andere functies te ontdekken en nieuwe ervaringen op te doen binnen de UGent (zowel tijdelijk als permanent).
+Daarnaast krijg je:
+*   36 vakantiedagen (bij fulltime tewerkstelling van 38u/week)
+*   mogelijkheid tot thuiswerk en glijdende werkuren indien jouw job dit toelaat
+*   gunstige pensioenvoorwaarden
+*   een hospitalisatieverzekering
+*   terugbetaling van je abonnement openbaar vervoer en/of een fietsvergoeding voor woon-werkverkeer
+*   ecocheques
+*   een uitgebreid vormings- en opleidingsaanbod en ruime interne loopbaanmogelijkheden
+*   een mooie werk-privé balans
+*   ons voordelenplatform ‘benefits at work’ en een heel aantal andere voordelen zoals een uitgebreid sportaanbod tegen voordelige prijzen, voordeeltarief in de studentenrestaurants, gratis griepvaccinatie, …
+Interesse?
+==========
+Om te kunnen solliciteren voor deze vacature dien je in het bezit te zijn van een **diploma van bachelor.**
+Bezorg ons ten laatste op 29-09-2025 om 23.59 uur  de volgende documenten:
+*   Je cv
+*   Je motivatiebrief
+*   Een kopie van je diploma
+*   Indien je je diploma buiten de Europese Unie behaald hebt (met uitzondering van diploma's behaald in het Verenigd Koninkrijk vóór 31 januari 2020): een gelijkwaardigheidsattest van NARIC (www.naric.be)
+**Let op: je sollicitatie is enkel geldig indien je op het moment van solliciteren over het gevraagde diploma beschikt, én je ons voor de uiterste inschrijvingsdatum alle hierboven vermelde documenten bezorgt.**
+We vinden het belangrijk dat elke persoon in de beste omstandigheden kan deelnemen aan de selectieprocedure. Heb je een beperking? Geef ons vooraf een seintje via selecties@ugent.be zodat we redelijke aanpassingen kunnen voorzien.
+Meer vragen over online solliciteren of de selectieprocedure? Bekijk onze [FAQ](https://jobs.ugent.be/content/Over-solliciteren/?locale=nl_NL).

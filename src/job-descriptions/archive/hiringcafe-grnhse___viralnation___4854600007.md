@@ -1,0 +1,50 @@
+---
+id: hiringcafe-grnhse___viralnation___4854600007
+title: AI Integration Engineer
+company: Viral Nation Inc.
+location: 'Toronto, Ontario, Canada'
+applicationLink: 'https://job-boards.greenhouse.io/viralnation/jobs/4854600007'
+postedDate: '2025-09-30T22:32:23.932Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - design integrations
+  - deploy AI
+  - build pipelines
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___viralnation___4854600007'
+companyLogoUrl: null
+---
+At **Viral Nation,** we specialize in building social-first ecosystems for brands to connect with the modern consumer journey. Our integrated solutions align strategy, talent, media, and technology with culturally relevant creativity to scale the world’s fastest-growing digital brands. Viral Nation offers a fluid, creative, and growth-oriented environment that will support your ambitions to apply your talents in an open, collaborative, and fast-paced culture. Our ability to stay at the forefront of the industry has fuelled our success and will guide us in paving the path forward. We’re driven to push boundaries and think beyond today to deliver strategies, and we’re just getting started.
+While we continuously exceed our goals, we need your help – our success is only as great as our people. Strong performance leads to high expectations, and we must keep raising the bar!
+**Position Overview:**
+We are seeking a highly motivated and skilled AI Integration Engineer to be the bridge between cutting-edge AI capabilities and our core business operations. You will be responsible for designing, deploying, and scaling robust AI solutions, with a focus on Large Language Models (LLMs) and agentic workflows. The ideal candidate is a proactive, business-focused engineer who excels at translating complex technical possibilities into tangible business value.
+**Responsibilities:**
+*   **Design & Build Integrations:** Architect, develop, and maintain robust, scalable integration solutions that connect our AI systems (LLMs, agents) with business-critical platforms like Google Workspace, HubSpot, Snowflake, and other enterprise APIs.
+*   **Deploy & Scale AI Solutions:** Own the end-to-end lifecycle of deploying AI applications on Google Cloud Platform, ensuring they are performant, reliable, and cost-effective.
+*   **Develop Data Pipelines:** Implement and manage data pipelines in BigQuery and Snowflake to support AI agent augmentation, evaluation, and operational analytics.
+*   **Collaborate Cross-Functionally:** Partner with product managers, business stakeholders, software developers to define integration requirements and deliver end-to-end AI-powered features.
+*   **Troubleshoot & Optimize:** Diagnose and resolve complex integration issues, ensuring the high availability and performance of our AI infrastructure.
+*   **Maintain Technical Excellence:** Create and maintain comprehensive documentation, including architecture diagrams, API specifications, and deployment guides, while staying current with the latest advancements in AI and cloud technologies.
+**Qualifications and Skills:**
+*   **Core Technical Expertise (Must-Have):**
+*   3-5 years of experience with engineering, AI or LLM’s
+*   Demonstrated hands-on experience with **Google Cloud Platform (GCP)**, particularly **Vertex AI** and **BigQuery**.
+*   Proficiency in building and deploying AI solutions using **LangChain** and/or the **Google AI Language SDK**.
+*   Experience with agentic frameworks and platforms, specifically **AgentSpace**.
+*   Strong data integration and warehousing skills using **Snowflake**.
+*   **Additional Technical Skills:**
+*   Proficiency in a backend language, preferably Python or Node.js.
+*   Solid experience designing, building, and consuming REST APIs.
+*   Understanding of MLOps principles (CI/CD, monitoring, lifecycle management) for AI systems.
+*   Familiarity with workflow automation tools (e.g., n8n.io).
+*   **Business & Operational Skills:**
+*   Excellent problem-solving skills with the ability to translate business needs into technical solutions.
+*   Proven ability to manage multiple projects in a fast-paced, agile environment.
+*   Strong verbal and written communication skills, capable of explaining complex technical concepts to both technical and non-technical stakeholders.
+_Viral Nation is committed to diversity, equity and inclusion in our agency. Viral Nation welcomes applications from people with visible and non-visible disabilities. Accommodations are available on request for candidates taking part in all aspects of the recruiting and selection process._

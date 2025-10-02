@@ -1,0 +1,86 @@
+---
+id: hiringcafe-successfactors___eu___atlascopcoP___1250908501
+title: 'Group IT manager - India&Bangladesh (PUNE, Other/Not Applicable, India)'
+company: Home of Industrial Ideas
+location: 'Pune, Maharashtra, India'
+applicationLink: >-
+  https://www.careers.homeofindustrialideas.com/job/PUNE-Group-IT-manager-India&Bangladesh-Othe/1250908501/
+postedDate: '2025-09-25T13:53:56.164Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Own service
+  - Lead delivery
+  - Advise business
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/successfactors___eu___atlascopcoP___1250908501'
+companyLogoUrl: null
+---
+![Your future job](https://www.atlascopco.com/content/dam/atlas-copco/external-sites/hr-link/IT-1.jpg/jcr:content/renditions/cq5dam.web.800.800.jpeg "Working in great team")
+Our solutions are a key part of most industries - electronics, medical research, renewable energy, food production, infrastructure and many more. Working with us means working with the latest technologies and groundbreaking, sustainable innovations.
+**Join us on our journey for a better tomorrow.**
+Your role
+---------
+**Mission**
+Atlas Copco Group IT’s mission is to deliver secure, innovative, and sustainable technology solutions that empower our people, customers, and society to grow. As we accelerate our digital journey, we seek a **Group IT Manager** who will drive service delivery excellence and act as a strategic business advisor for the **sub-region: India & Bangladesh.**
+**You will report to Regional IT Service Delivery Manager, Asia Pacific, Hockey Ni**
+**Job Description**
+**Key Responsibilities**
+**Own the end-to-end IT service delivery for India & Bangladesh,** ensuring all services meet or exceed agreed SLAs and KPIs.
+**Lead and develop the on-site delivery organization,** fostering a culture of customer-centricity, accountability, and continuous improvement.
+**Act as a trusted advisor to business leaders,** understanding their strategies, challenges, and opportunities, and recommending innovative IT solutions such as AI-driven automation, data analytics, and enterprise integration.
+**Translate business needs into IT solutions,** recommending technology that drives efficiency, innovation, and growth, including cloud computing, DevOps, and low-code automation platforms.
+**Participate in business planning cycles,** providing IT input on digitalization, automation, and transformation initiatives, and championing the adoption of future-ready technologies.
+**Monitor, report, and optimize service performance,** proactively identifying and resolving issues to minimize business disruption.
+**Ensure compliance** with Group IT standards, security policies, and regulatory requirements.
+**Advise on IT investment decisions,** ensuring alignment with business priorities and Group IT strategy.
+**Identify and communicate technology trends, risks, and opportunities** relevant to the local business environment, including advancements in machine learning, data visualization, and enterprise integration
+**Champion user experience,** leveraging feedback (e.g., NPS) and data-driven insights to enhance satisfaction and loyalty.
+**Collaborate and coordinate with the other regions, global and regional IT teams** to ensure seamless delivery of standardized and aligned cross-border and enterprise-wide services.
+**Support change management and adoption** of new systems, processes, and ways of working, with a focus on digital transformation and upskilling in future IT competencies.
+**Drive cost optimization** by analyzing service consumption and recommending efficiency improvements.
+**Promote standardization and best practices** across locations, reducing complexity and enhancing agility.
+**Lead or support local/regional IT projects,** ensuring successful delivery and measurable business outcomes.
+**Foster a culture of innovation,** encouraging the team and business to explore new digital solutions.
+To succeed, you will need
+-------------------------
+**Skills & Experience**
+*   *   Extensive experience in IT service delivery management, ideally in a global or regional context, with hands-on exposure to AI, machine learning, and automation.
+*   Proven ability to build strong business relationships and act as a strategic advisor, leveraging data analytics and digital transformation expertise.
+*   Strong leadership, people management, and team development skills, with a track record of upskilling teams in cloud computing, DevOps, and cybersecurity.
+*   Deep understanding of ITIL, service management, and continuous improvement methodologies, as well as cloud infrastructure and enterprise integration.
+*   Experience with business process analysis, digital transformation, and change management, including the adoption of low-code and RPA solutions.
+*   Excellent communication, stakeholder management, and influencing skills, with the ability to translate complex technology trends into business value.
+*   Business acumen and the ability to align IT with organizational goals, driving innovation through AI, data analytics, and secure cloud solutions.
+**Educational Requirements**
+*   *   University degree or above.
+*   ITIL Foundation certification.
+*   Fluency in English and local language.
+**Personality Requirements**
+*   *   Customer-focused, proactive, and resilient.
+*   Strategic thinker with a passion for technology and business value.
+*   Collaborative, diplomatic, and able to unite diverse teams and stakeholders.
+*   Innovative, open-minded, and committed to continuous learning.
+*   Embodies Atlas Copco’s values: Commitment – Interaction – Innovation.
+In return, we offer
+-------------------
+*   A dynamic, inclusive, and ethical workplace that values continuous learning in areas such as AI, cloud computing, cybersecurity, data analytics, and automation.
+*   Opportunities to develop and apply future-ready IT skills, including hands-on experience with emerging technologies and digital transformation initiatives.
+*   Support for building strong soft skills, such as digital leadership, emotional intelligence, adaptability, and cross-cultural collaboration—empowering you to lead teams through change and innovation.
+*   Flexibility and support for work-life balance, enabling you to thrive both professionally and personally.
+*   A culture that encourages curiosity, creativity, and proactive problem-solving, where your ideas for leveraging technology to drive business value are welcomed.
+*   Access to global career development programs and mentorship, helping you grow as a leader in both technology and people management.
+*   The chance to make a real impact on business and society by championing secure, sustainable, and innovative IT solutions.
+Job location
+------------
+On-Site
+This role requires you to work on-site at our office in PUNE, India (IN). You will be part of a dynamic team and enjoy the benefits of face-to-face collaboration.
+Contact information
+-------------------
+**Diverse by nature and inclusive by choice**
+Bright ideas come from all of us. The more unique perspectives we embrace, the more innovative we are. Together we build a culture where difference is valued and we share a deep sense of purpose and belonging.

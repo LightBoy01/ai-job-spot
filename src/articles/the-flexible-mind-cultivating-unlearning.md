@@ -8,6 +8,9 @@ publishDate: 2025-08-01T09:00:00.000Z
 issueNo: 11
 volumeNo: 1
 imageUrl: /images/articles/the-flexible-mind-cultivating-unlearning.svg
+hub: Career & Professional Strategy
+tags: []
+contentType: editorial
 ---
 
 For decades, the professional playbook was simple: accumulate knowledge. Your career was a library, and your goal was to fill it with as many books as possible. But in an age where AI can access the entire library in an instant, this model is broken. The value of your knowledge is no longer static; it has a shelf life.

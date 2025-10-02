@@ -1,0 +1,51 @@
+---
+id: hiringcafe-grnhse___viralnation___4854601007
+title: 'AI Engineer, Content Generation'
+company: Viral Nation Inc.
+location: 'Toronto, Ontario, Canada'
+applicationLink: 'https://job-boards.greenhouse.io/viralnation/jobs/4854601007'
+postedDate: '2025-09-30T22:32:23.944Z'
+expirationDate: null
+tags:
+  - Software Development
+  - Design workflows
+  - Integrate systems
+  - Optimize prompts
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/grnhse___viralnation___4854601007'
+companyLogoUrl: null
+---
+At **Viral Nation,** we specialize in building social-first ecosystems for brands to connect with the modern consumer journey. Our integrated solutions align strategy, talent, media, and technology with culturally relevant creativity to scale the world’s fastest-growing digital brands. Viral Nation offers a fluid, creative, and growth-oriented environment that will support your ambitions to apply your talents in an open, collaborative, and fast-paced culture. Our ability to stay at the forefront of the industry has fuelled our success and will guide us in paving the path forward. We’re driven to push boundaries and think beyond today to deliver strategies, and we’re just getting started.
+While we continuously exceed our goals, we need your help – our success is only as great as our people. Strong performance leads to high expectations, and we must keep raising the bar!
+**Position Overview:**
+We are seeking a creative and technical AI Engineer to revolutionize our content creation lifecycle. You will specialize in designing, implementing, and optimizing generative AI solutions to produce high-quality text, image, and multimedia content at scale. This role requires a unique blend of engineering skill and a deep understanding of content strategy. You will be instrumental in building the systems that power our marketing, social media, and client communication efforts.
+**Responsibilities:**
+*   **Develop Generative Workflows:** Design and build agentic workflows and LLM-powered chains to automate content generation, summarization, personalization, and editing.
+*   **Integrate Content Systems:** Architect and develop robust integrations between our generative AI models and key business platforms, including Content Management Systems (CMS), marketing automation tools (HubSpot), and social media APIs.
+*   **Optimize Prompts & Models:** Engineer, refine, and evaluate prompts and fine-tune models to ensure outputs align with our brand voice, tone, and quality standards.
+*   **Implement Quality Guardrails:** Develop and deploy automated evaluation frameworks (AI Evals) and human-in-the-loop processes to govern content quality, originality, and brand safety.
+*   **Manage Data for Content AI:** Build and manage data pipelines in BigQuery and Snowflake that feed high-quality, relevant data (brand assets, knowledge bases) into our generative models.
+*   **Collaborate with Creative Teams:** Partner closely with marketing, creative, and product teams to identify and execute high-impact use cases for generative AI.
+**Qualifications and Skills:**
+*   **Core Technical Expertise (Must-Have):**
+*   3-5 years of experience with engineering, AI or LLM’s
+*   Demonstrated hands-on experience with **Google Cloud Platform (GCP)**, particularly **Vertex AI (including Gemini models)** and **BigQuery**.
+*   Proficiency in building and deploying AI solutions using **LangChain** and/or the **Google AI Language SDK**.
+*   Experience with agentic frameworks and platforms, specifically **AgentSpace**.
+*   Strong data integration and warehousing skills using **Snowflake**.
+*   **Additional Technical Skills:**
+*   Deep experience with prompt engineering and optimization techniques for models like Gemini, GPT-4, etc.
+*   Proficiency in a backend language, preferably Python or Node.js.
+*   Solid experience designing, building, and consuming REST APIs.
+*   Familiarity with workflow automation tools (e.g., n8n.io) for content pipelines.
+*   **Business & Operational Skills:**
+*   A creative mindset with an understanding of brand voice, content strategy, and marketing goals.
+*   Excellent problem-solving skills with the ability to translate creative requirements into technical systems.
+*   Proven ability to manage multiple projects in a fast-paced, agile environment.
+*   Strong communication skills to effectively bridge the gap between technical and creative teams.
+_Viral Nation is committed to diversity, equity and inclusion in our agency. Viral Nation welcomes applications from people with visible and non-visible disabilities. Accommodations are available on request for candidates taking part in all aspects of the recruiting and selection process._

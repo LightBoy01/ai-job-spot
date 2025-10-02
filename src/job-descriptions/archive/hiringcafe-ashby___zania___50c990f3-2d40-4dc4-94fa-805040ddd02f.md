@@ -1,0 +1,56 @@
+---
+id: hiringcafe-ashby___zania___50c990f3-2d40-4dc4-94fa-805040ddd02f
+title: Staff GRC Engineer
+company: Zania
+location: San Francisco or Palo Alto
+applicationLink: 'https://jobs.ashbyhq.com/zania/50c990f3-2d40-4dc4-94fa-805040ddd02f'
+postedDate: '2025-09-30T08:44:30.511Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - GRC development
+  - AI integration
+  - risk assessment
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$140,000 - $180,000'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/ashby___zania___50c990f3-2d40-4dc4-94fa-805040ddd02f'
+companyLogoUrl: null
+---
+**Shape the Future of Security Compliance with Zania**
+At Zania, we’re redefining security compliance through cutting-edge AI solutions. Our mission is to empower enterprises with intelligent AI agents that streamline security compliance processes with unmatched precision.
+Our team is composed of top innovators from industry leaders like Microsoft, Airbnb, Brex, Instacart, and GRC firms like PwC and Deloitte. Backed by a portfolio of Top 10 audit firms, Fortune 500 companies, and world-renowned universities, we are making a significant impact in the industry.
+### **The Role**
+We are looking for a highly skilled **Staff GRC Engineer** with experience in leading GRC initiatives at consulting or audit advisory firms (Big 4 or Big 10). In this role, you will collaborate closely with our AI and Engineering teams to act as the **GRC Subject Matter Expert (SME)**, providing technical guidance on integrating compliance requirements into AI models.
+You will directly contribute to building AI systems that perform autonomous risk assessments and compliance evaluations. This role demands a deep understanding of multiple GRC frameworks and the ability to translate manual GRC processes into automated, AI-driven workflows.
+**Key Responsibilities**
+1.  **GRC Framework Development and Integration**
+*   Develop and maintain comprehensive GRC policies and procedures based on industry standards (e.g., ISO, SOC2, GDPR, CCPA).
+*   Apply technical expertise to design automated compliance validation processes, reducing manual effort and improving accuracy.
+*   Build modular and scalable frameworks that can adapt to different client environments and compliance needs.
+2.  **AI Model Training and Development**
+*   Partner with AI engineers to translate GRC requirements into machine-readable formats.
+*   Provide structured training data and perform quality assurance on AI-generated compliance outputs.
+*   Develop technical documentation and specifications for GRC-driven AI algorithms.
+3.  **Risk Assessments & AI Training Material**
+*   Conduct thorough risk assessments and compliance audits, documenting them as training materials so the AI can learn to conduct assessments independently.
+4.  **Compliance Integration**
+*   Work with Product and Engineering teams to embed compliance requirements seamlessly into AI workflows, ensuring alignment with human decision-making.
+5.  **Vendor & Third-Party Risk Management**
+*   Assess vendors and third parties for compliance, using these evaluations as additional scenarios and data for AI training.
+6.  **Cross-Functional Collaboration & Strategy**
+*   Lead initiatives across legal, product, and security teams to build a unified GRC approach, aligning AI capabilities with broader business strategies.
+### **Qualifications**
+*   7+ years of experience in GRC roles, ideally with exposure to multiple frameworks (e.g., ISO, SOC2, GDPR, CCPA), and a strong background at top consulting firms (Big 4 or Big 10).
+*   Proven ability to develop and implement GRC frameworks and translate them into AI-driven workflows.
+*   Strategic leadership skills that bridge AI and GRC practices, enabling AI systems to perform human-level risk assessments.
+*   Strong analytical and communication abilities, with the capacity to provide clear, actionable guidance for both AI development and compliance strategy.
+*   Passion for working in a fast-paced, tech-driven environment where AI is at the forefront of transforming traditional GRC practices.
+### **What We Offer**
+*   **In-Office Environment**: This role is based in our San Francisco office, fostering collaboration and hands-on engagement with our cutting-edge AI initiatives.
+*   **Impact & Growth**: Lead crucial GRC initiatives and shape the future of AI-powered compliance within a rapidly growing startup.
+*   **Competitive Package**: Attractive salary and benefits, with a strong emphasis on professional development.
+Join us at Zania and be at the forefront of revolutionizing GRC with AI. If you’re ready to lead, innovate, and collaborate in an environment that champions cutting-edge technology, we’d love to hear from you!

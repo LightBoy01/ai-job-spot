@@ -10,7 +10,9 @@ tags:
   - Strategy
   - Critical Thinking
   - Future of Work
+hub: Mental Models & Frameworks
 imageUrl: /images/articles/the-red-pen-protocol.svg
+contentType: editorial
 ---
 
 For generations, the editor’s red pen was the ultimate arbiter of quality. It was a tool not of negation, but of elevation. With a few precise marks, it could challenge a weak argument, question a dubious source, and sharpen a brilliant-but-unfocused idea into a masterpiece. The red pen was a symbol of critical judgment, of a human mind applying its full depth of context, nuance, and strategic intent to a piece of work.

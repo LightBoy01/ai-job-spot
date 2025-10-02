@@ -1,0 +1,69 @@
+---
+id: hiringcafe-pinpoint_zincwork_393537
+title: AI & Automation Deployment Specialist
+company: Zinc
+location: 'London, United Kingdom'
+applicationLink: >-
+  https://zincwork.pinpointhq.com/en/postings/3c2e3586-721a-443f-b86c-2ba054bc3d33
+postedDate: '2025-09-30T13:46:41.616Z'
+expirationDate: null
+tags:
+  - Information Technology
+  - Diagnose workflows
+  - Design tools
+  - Lead adoption
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: '$70,000 - $80,000'
+hasSalary: true
+source: hiring.cafe
+sourceUrl: 'https://hiring.cafe/jobs/pinpoint_zincwork_393537'
+companyLogoUrl: null
+---
+As our first **AI & Automation Deployment Lead**, you’ll be key to driving how we use AI and automations internally at Zinc. You’ll lead the charge in embedding automation, copilots, and AI-enabled processes across Ops, Legal, People, GTM, and Finance — making us faster, more consistent, and less error-prone.
+You’ll partner with leaders across the business, and with our Tech and InfoSec teams, to deliver AI tools that are compliant, usable, and deliver real measurable value. You’ll be hands-on, both as a builder and as an enabler, helping teams adopt new ways of working and improving what we already have.
+**What success looks like:**
+*   We’ve embedded AI‐enabled tools into multiple core functions and have seen meaningful reductions in manual work, errors, and time-to-task.
+*   Our teams feel confident using AI-enabled tools, and adoption is high.
+*   InfoSec & compliance are fully satisfied for all deployed tools.
+*   The solutions you deliver are scalable and maintainable, balancing speed with quality and governance.
+*   Clear metrics are tracked & reported: e.g. hours saved/week, cost avoided, adoption rates, error reduction.
+Key Responsibilities 🗝️
+------------------------
+*   Diagnosing workflows across Ops, Legal, People, GTM, Finance to identify high-impact opportunities for AI/automation.
+*   Designing, testing, and deploying AI-powered tools (agents, copilots, workflow automations) that improve efficiency and quality.
+*   Taking ownership of InfoSec and compliance requirements for any AI tools or agents adopted.
+*   Collaborating with the Tech team to integrate, extend, or build bespoke AI/automation where off-the-shelf solutions don’t cut it.
+*   Leading the uptake across teams: training, documentation, evangelism, and helping people become fluent with AI tooling.
+*   Defining, tracking, and reporting on KPIs related to adoption, time saved, error reduction, and business impact.
+Skills, Knowledge and Expertise 🚀
+----------------------------------
+**Essential Skills and Experience**
+*   ~4+ years in roles centred on AI, automation, operations, or strategy — especially where you identified problems, built solutions, and delivered measurable outcomes.
+*   Direct experience implementing LLM-based solutions or AI/automation tools across multiple business functions.
+*   Strong familiarity with tools like Notion AI, Zapier, Copilot, HR/Legal AI platforms, automations (or equivalents).
+*   Strong analytical and metrics mindset: able to define what success looks like and measure it.
+*   Excellent communication and stakeholder management: you’ll often be working with non-technical stakeholders in Legal, Finance, People, etc.
+*   Proven ownership, self-drive, ability to work independently and get things done.
+**Desirable Skills**
+*   Programming or prototyping ability (Python, R, scripting) to help with proof-of-concepts.
+*   Experience in prompt engineering or fine-tuning LLMs.
+*   Experience with BI or analytics tools (SQL, dashboards) to build visibility into workflows.
+*   Prior experience at a high-growth startup or scaleup with rapid adoption of new tools/processes.
+What we offer 🍉
+----------------
+Zinc offers a chance to work on a product that brings a fresh perspective on data ownership in hiring
+*   24 days holiday + Bank Holidays + your birthday off 🎉
+*   £1200 annual benefits allowance ([ThanksBen](https://www.thanksben.com/), from month 2)
+*   Early finish Fridays (16:00)
+*   Yearly company retreat abroad ✈️
+*   30 days to Work from anywhere 🌍
+*   Enhanced Maternity, Paternity, and Adoption Leave (2 months full pay, then statutory)
+*   Statutory pension with NEST (3% employer, 5% employee)
+*   Zinc shares, issued through the EMI Scheme
+*   Unlimited access to [MoreHappi coaching](https://morehappi.com/employee/)
+*   Company socials, quarterly team socials Free Monday lunches
+*   Nursery workplace benefit scheme (Yellownest)
+*   Option to lease an electric car through Electric Car Scheme
+*   Celebrated Zinc anniversaries 🥳

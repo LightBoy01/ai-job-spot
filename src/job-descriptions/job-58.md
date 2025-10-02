@@ -64,27 +64,16 @@ companyCulture: >-
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.197Z'
 ---
-
 **Company Overview**
-
 Join the leader transforming healthcare waste management across America. MedPro Disposal is the nation's largest privately-held medical waste management company, serving 35,000+ providers across 48 states in a $2+ billion market. Since 2009, we've been the trusted partner helping healthcare facilities save up to 30% on waste management costs while maintaining 99% on-time service.
-
 **What we do:** We lead with comprehensive medical waste disposal solutions, plus pharmaceutical waste management, secure document destruction, and compliance training services—all powered by innovative technology and a client-first approach.
-
 **Why it matters:** We handle the critical but complex challenge of medical waste management so healthcare providers can focus on what they do best: delivering exceptional patient care.
-
 **Our impact:** From physician practices to hospitals, dental offices to long-term care facilities, we're trusted advisors and strategic partners—not just vendors. We combine proven expertise with environmental responsibility and comprehensive protection to solve complex operational challenges.
-
 **Ready to grow with us?**
-
 Join a fast-scaling, mission-driven company where we Do The Right Thing, roll up our sleeves with a "figure it out" attitude, and win as a team. We're building something meaningful—making healthcare safer, more compliant, and more efficient—one client at a time.
-
 **Position Overview:**
-
 We’re seeking a Go-to-Market Systems Specialist to own and optimize the platforms that power our revenue and operations teams. You’ll serve as the connective tissue between departments—managing, improving, and aligning our CRM, marketing automation, and sales enablement tools to help MedPro scale its operations, improve pipeline velocity, and deliver a best-in-class customer experience.
-
 ### Responsibilities
-
 - Serve as primary **Salesforce administrator** — manage configurations, user permissions, page layouts, validation rules, workflows, and automation.
 - Administer and enhance Go-To-Market platforms (Salesforce, Outreach, Instantly, Five9, Velocify, etc.).
 - Maintain and improve automation flows, campaign integrations, and CRM configurations.
@@ -96,9 +85,7 @@ We’re seeking a Go-to-Market Systems Specialist to own and optimize the platfo
 - Support API-based workflows (Zapier, MuleSoft) to ensure seamless data flow.
 - Train teams on CRM and automation best practices.
 - Document system processes, updates, and best practices.
-
 ### Qualifications
-
 - 2-3+ years in Salesforce administration and GTM/revenue systems management, ideally in a B2B environment.
 - Intermediate to Advanced Salesforce Admin skills (certification preferred).
 - Expertise in marketing automation platforms (Pardot/Marketing Cloud,HubSpot, Marketo).

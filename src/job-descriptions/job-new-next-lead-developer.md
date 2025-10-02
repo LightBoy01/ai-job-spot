@@ -25,23 +25,16 @@ source: Sourced by AI Job Spot
 sourceUrl: null
 verificationDate: '2025-09-22T16:53:14.165Z'
 ---
-
 # Lead Developer - Genesys Cloud & CCaaS
-
 ### Description
-
 Next is looking for a Lead Developer to spearhead the integration and development of AI Bot solutions as part of an ambitious Contact Centre modernization project. This role is a key part of the Next Communications Team and will be critical in shaping the future of the company’s cloud-based communications infrastructure.
-
 ### Responsibilities
-
 - Lead the design, development, and delivery of Contact Centre solutions that align with the wider CCaaS strategy.
 - Drive complex architectural changes, ensuring high standards of technical excellence.
 - Integrate AI-powered voice bots and other external systems (CRM, WFM, etc.) into the Genesys Cloud platform.
 - Lead technical discussions, provide architectural input, and mentor junior team members.
 - Take a lead role in diagnosing and resolving major technical issues.
-
 ### Qualifications
-
 - **Essential:**
 - Proven Lead Developer experience with a strong background in architecting and implementing Contact Centre solutions.
 - Extensive hands-on experience with CCaaS platforms like Genesys Cloud, NICE CXOne, or Amazon Connect.
