@@ -32,5 +32,5 @@
     "esm": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "storage", "scripts"]
+  "exclude": ["node_modules", "storage", "scripts", "archive"]
 }

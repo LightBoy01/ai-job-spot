@@ -266,7 +266,7 @@ const AddNewArticle: React.FC = () => {
                   <select
                     id="contentType"
                     name="contentType"
-                    value={formData.contentType}
+                    value={formData.contentType ?? 'editorial'}
                     onChange={handleChange}
                     className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
                   >
@@ -292,7 +292,7 @@ const AddNewArticle: React.FC = () => {
                         type="text"
                         id="sourceName"
                         name="sourceName"
-                        value={formData.sourceName}
+                        value={formData.sourceName ?? ''}
                         onChange={handleChange}
                         className={`w-full p-3 rounded-md border ${errors.sourceName ? 'border-red-500' : 'border-neutral-300'} outline-none transition`}
                       />
@@ -313,7 +313,7 @@ const AddNewArticle: React.FC = () => {
                         type="url"
                         id="originalUrl"
                         name="originalUrl"
-                        value={formData.originalUrl}
+                        value={formData.originalUrl ?? ''}
                         onChange={handleChange}
                         className={`w-full p-3 rounded-md border ${errors.originalUrl ? 'border-red-500' : 'border-neutral-300'} outline-none transition`}
                         placeholder="https://example.com/original-article"

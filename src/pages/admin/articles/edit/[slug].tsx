@@ -298,7 +298,7 @@ const EditArticlePage: React.FC<EditArticleProps> = ({ article }) => {
                   <select
                     id="contentType"
                     name="contentType"
-                    value={formData.contentType}
+                    value={formData.contentType ?? 'editorial'}
                     onChange={handleChange}
                     className="w-full p-3 rounded-md border border-neutral-300 outline-none transition"
                   >
