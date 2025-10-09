@@ -12,8 +12,8 @@ import {
   limit as limitTo,
   startAfter,
 } from 'firebase/firestore';
-import { db } from './firebase'; // Import the client-side db instance
-import { JobPosting, Article, AggregatedArticle } from './types';
+import { db } from '@/lib/firebase'; // Import the client-side db instance
+import { JobPosting, Article, AggregatedArticle } from './types.js';
 
 // Helper function to convert Firestore Timestamp to JavaScript Date
 const convertTimestampToDate = (

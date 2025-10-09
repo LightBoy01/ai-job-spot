@@ -2,27 +2,154 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import crypto from 'crypto';
 import matter from 'gray-matter';
-import pThrottle from 'p-throttle';
+import pLimit from 'p-limit';
+import { metricsCollector } from './utils/metrics.js';
+import logger from './utils/logger.js';
 
-import { IJobSource } from './types.js';
-import { SOURCES_TO_RUN } from './pipeline.config.js';
-import { writeJobFile } from './writer.js';
+// Job-specific imports
+import { IJobSource, StandardJob } from './types.js';
+import { getJobSources } from './pipeline.config.jobs.js';
+import { writeJobFile, writeBriefingFile } from './writer.js';
 import { normalizeCompanyName, normalizeJobTitle, normalizeLocation } from '../lib/normalization.js';
+
+// Briefing-specific imports
+import { IBriefingSource, StandardBriefing } from './types.js';
+import { getBriefingSources } from './pipeline.config.briefings.js';
+import { createRssSource } from './sources/rss.js';
+import { Source } from '../lib/types.js'; // This is the type from Firestore
+import { RssItem } from './adapters/rss-adapter.js';
 
 // --- Configuration ---
 const JOB_DESCRIPTIONS_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
+const BRIEFINGS_DIR = path.resolve(process.cwd(), 'src', 'content', 'briefings');
 const ARCHIVE_DIR = path.resolve(process.cwd(), 'scripts', 'archive');
-const FRESHNESS_THRESHOLD_HOURS = 30 * 24; // Only process jobs posted within the last 30 days
 
-interface LocalJobData {
-  filePath: string;
-  id: string;
+// --- Generic Helper Functions ---
+
+async function getLocalFilePaths(directory: string, sourceName: string): Promise<Map<string, string>> {
+    const localFiles = new Map<string, string>();
+    try {
+        const files = await fs.readdir(directory);
+        for (const file of files) {
+            if (!file.endsWith('.md')) continue;
+
+            const filePath = path.join(directory, file);
+            try {
+                const fileContent = await fs.readFile(filePath, 'utf-8');
+                const { data } = matter(fileContent);
+
+                const fileSource = data.source || data.sourceName; // Handle both job and briefing frontmatter
+
+                if (fileSource === sourceName && data.id) {
+                    localFiles.set(data.id, filePath);
+                }
+            } catch (readError) {
+                logger.warn({ err: readError, file }, `[Orchestrator] Could not read frontmatter for file. Skipping.`);
+            }
+        }
+    } catch (error) {
+        if (error instanceof Error && (error as NodeJS.ErrnoException).code !== 'ENOENT') {
+            logger.warn({ err: error, directory }, `[Orchestrator] Could not read directory.`);
+        }
+    }
+    return localFiles;
 }
 
-/**
- * Generates a consistent, source-agnostic ID for a job based on its core attributes.
- * This ID can be used for duplicate detection across different sources.
- */
+
+
+
+const isDryRun = process.argv.includes('--dry-run');
+
+// --- The New Generic Runner ---
+
+interface SourceRunnerConfig<T> {
+    source: IJobSource | IBriefingSource;
+    outputDir: string;
+    archiveDir: string;
+    writeFn: (item: T, id: string) => Promise<void>;
+    getIdFromRawItem: (rawItem: unknown) => string;
+}
+
+async function runSource<T extends StandardJob | StandardBriefing>(config: SourceRunnerConfig<T>) {
+    const { source, outputDir, archiveDir, writeFn, getIdFromRawItem } = config;
+    const sourceLogger = logger.child({ source: source.name });
+    
+    sourceLogger.info(`--- Syncing source ---`);
+    metricsCollector.increment('sources.processed');
+
+    try {
+        // 1. Fetch all items from the remote source
+        sourceLogger.info(`[Sync] Fetching items...`);
+        const remoteItems = await ('fetchJobs' in source ? source.fetchJobs(source.config) : source.fetchItems());
+
+        const remoteItemIds = new Set<string>();
+        const remoteItemMap = new Map<string, unknown>();
+
+        for (const rawItem of remoteItems) {
+            const id = getIdFromRawItem(rawItem);
+            if (id) {
+                remoteItemIds.add(id);
+                remoteItemMap.set(id, rawItem);
+            }
+        }
+        sourceLogger.info({ count: remoteItemIds.size }, `[Sync] Found unique items from source API.`);
+
+        // 2. Get all local files for this source
+        const localFilesForSource = await getLocalFilePaths(outputDir, source.name);
+        sourceLogger.info({ count: localFilesForSource.size }, `[Sync] Found local markdown files.`);
+
+        // 3. Archive stale local files
+        let archivedCount = 0;
+        for (const [localId, localPath] of localFilesForSource.entries()) {
+            if (!remoteItemIds.has(localId)) {
+                const fileName = path.basename(localPath);
+                if (isDryRun) {
+                    logger.info({ file: fileName }, `[DRY RUN] Would archive stale item.`);
+                } else {
+                    const newPath = path.join(archiveDir, fileName);
+                    await fs.rename(localPath, newPath);
+                    sourceLogger.info({ file: fileName }, `[Sync] Archived stale item.`);
+                }
+                metricsCollector.increment('items.archived');
+                archivedCount++;
+            }
+        }
+        if (archivedCount > 0) sourceLogger.info({ count: archivedCount }, `[Sync] Successfully processed stale items for archiving.`);
+
+        // 4. Refresh/create items
+        let successCount = 0;
+        let errorCount = 0;
+
+        for (const id of remoteItemIds) {
+            const rawItem = remoteItemMap.get(id);
+            if (!rawItem) continue;
+
+            try {
+                const transformedItem = source.transform(rawItem) as T;
+                if (isDryRun) {
+                    logger.info({ itemId: id }, `[DRY RUN] Would write file for item.`);
+                } else {
+                    await writeFn(transformedItem, id);
+                }
+                metricsCollector.increment('items.succeeded');
+                successCount++;
+            } catch (transformError: unknown) {
+                sourceLogger.error({ err: transformError, itemId: id }, `[Refresh] Error processing item.`);
+                metricsCollector.increment('items.failed');
+                errorCount++;
+            }
+        }
+        sourceLogger.info({ success: successCount, failed: errorCount }, `--- Source complete ---`);
+
+    } catch (error) {
+        sourceLogger.error({ err: error }, `[Orchestrator] Failed to run sync for source.`);
+        metricsCollector.increment('sources.failed');
+    }
+}
+
+
+// --- Job-Specific Functions ---
+
 function generateJobHashId(company: string, title: string, location:string): string {
   const normalizedCompany = normalizeCompanyName(company);
   const normalizedTitle = normalizeJobTitle(title);
@@ -31,223 +158,117 @@ function generateJobHashId(company: string, title: string, location:string): str
   return crypto.createHash('sha256').update(combinedString).digest('hex');
 }
 
-/**
- * Reads all local job files to get their IDs (hash-based).
- * This is used for efficient duplicate checking.
- * @returns A Map where the key is the hash-based job ID and the value is the LocalJobData.
- */
-async function getAllLocalJobHashIds(): Promise<Map<string, LocalJobData>> {
-  const localJobHashIds = new Map<string, LocalJobData>();
-  try {
-    const files = await fs.readdir(JOB_DESCRIPTIONS_DIR);
-    for (const file of files) {
-      if (!file.endsWith('.md')) continue;
-
-      const filePath = path.join(JOB_DESCRIPTIONS_DIR, file);
-      try {
-        const fileContent = await fs.readFile(filePath, 'utf-8');
-        const { data } = matter(fileContent);
-        
-        if (data.id) {
-          localJobHashIds.set(data.id, { filePath, id: data.id });
-        } else {
-          console.warn(`[Orchestrator] Warning: Skipping ${file} due to missing ID in frontmatter.`);
-        }
-      } catch (readError) {
-        console.warn(`[Orchestrator] Warning: Could not read frontmatter for ${file}. Skipping.`, readError);
-      }
-    }
-  }
-  catch (error: unknown) {
-    if (error instanceof Error && (error as NodeJS.ErrnoException).code !== 'ENOENT') {
-      console.warn(`[Orchestrator] Warning: Could not read job descriptions directory.`, error);
-    }
-  }
-  return localJobHashIds;
-}
-
-/**
- * Reads all local job files for a specific source to get their status and path.
- * @returns A Map where the key is the job ID and the value is its frontmatter.
- */
-async function getLocalJobs(sourceName: string): Promise<Map<string, unknown>> {
-    const localJobs = new Map<string, unknown>();
-    try {
-        const files = await fs.readdir(JOB_DESCRIPTIONS_DIR);
-        for (const file of files) {
-            if (!file.endsWith('.md')) continue;
-
-            const filePath = path.join(JOB_DESCRIPTIONS_DIR, file);
-            try {
-                const fileContent = await fs.readFile(filePath, 'utf-8');
-                const { data } = matter(fileContent);
-
-                if (data.source === sourceName && data.id) {
-                    localJobs.set(data.id, { ...data, filePath });
-                }
-            } catch (readError) {
-                console.warn(`[Orchestrator] Warning: Could not read frontmatter for ${file}. Skipping.`, readError);
-            }
-        }
-    }
-    catch (error: unknown) {
-        if (error instanceof Error && (error as NodeJS.ErrnoException).code !== 'ENOENT') {
-            console.warn(`[Orchestrator] Warning: Could not read job descriptions directory.`, error);
-        }
-    }
-    return localJobs;
-}
-
-
-/**
- * Processes a single job source: fetches, diffs, archives, and writes new/updated jobs.
- * @param source The job source to process.
- */
-async function processSource(source: IJobSource, allLocalJobHashIds: Map<string, LocalJobData>) {
-  console.log(`
---- Syncing source: ${source.name} ---
-`);
-  const now = new Date();
-  const freshnessCutoff = new Date(now.getTime() - FRESHNESS_THRESHOLD_HOURS * 60 * 60 * 1000);
-
-  try {
-    // 1. Fetch all jobs from the remote API
-    console.log(`[Sync] Fetching jobs from ${source.name}...`);
-    const remoteJobs = await source.fetchJobs();
-    
-    const remoteJobHashIds = new Set<string>();
-    const remoteJobMap = new Map<string, unknown>(); // Map hash ID to raw job data
-
-    let newJobsCount = 0;
-    let oldJobsSkippedCount = 0;
-
-    interface PartialRawJob {
-        v5_processed_job_data?: {
-            company_name?: string;
-            formatted_workplace_location?: string;
-            estimated_publish_date_millis?: number | string | null;
-        };
+interface RawJobForId {
+    v5_processed_job_data?: {
         company_name?: string;
-        job_information?: {
-            title?: string;
-        };
+        formatted_workplace_location?: string;
+    };
+    job_information?: {
         title?: string;
-        location?: string;
-    }
-
-    for (const rawJob of remoteJobs) {
-        const typedRawJob = rawJob as PartialRawJob;
-        const rawJobCompany = typedRawJob.v5_processed_job_data?.company_name || typedRawJob.company_name;
-        const rawJobTitle = typedRawJob.job_information?.title || typedRawJob.title;
-        const rawJobLocation = typedRawJob.v5_processed_job_data?.formatted_workplace_location || typedRawJob.location;
-        const rawJobPostedDate = typedRawJob.v5_processed_job_data?.estimated_publish_date_millis;
-
-        if (rawJobCompany && rawJobTitle && rawJobLocation && rawJobPostedDate) {
-            const postedDate = new Date(parseInt(String(rawJobPostedDate), 10));
-            if (isNaN(postedDate.getTime())) {
-                console.warn(`[Sync] Skipping remote job from ${source.name} due to invalid postedDate: ${rawJobPostedDate}`);
-                continue;
-            }
-
-            if (postedDate < freshnessCutoff) {
-                oldJobsSkippedCount++;
-                continue;
-            }
-
-            const hashId = generateJobHashId(rawJobCompany, rawJobTitle, rawJobLocation);
-            remoteJobHashIds.add(hashId);
-            remoteJobMap.set(hashId, rawJob);
-            newJobsCount++;
-        } else {
-            console.warn(`[Sync] Skipping remote job from ${source.name} due to missing company, title, location, or postedDate for hash ID generation.`);
-        }
-    }
-    console.log(`[Sync] Found ${remoteJobHashIds.size} unique hash IDs from source API. Processed ${newJobsCount} fresh jobs, skipped ${oldJobsSkippedCount} old jobs.`);
-
-    // 2. Get all local jobs for this source (for ID-based overwrite and archival)
-    const localJobsForSource = await getLocalJobs(source.name);
-    console.log(`[Sync] Found ${localJobsForSource.size} local markdown files for ${source.name}.`);
-
-    // 3. Archive stale local files that are no longer in the API response
-    let archivedCount = 0;
-    for (const [localId, localJobData] of localJobsForSource.entries()) {
-        if (!remoteJobHashIds.has(localId)) {
-            const oldPath = (localJobData as { filePath: string }).filePath;
-            const newPath = path.join(ARCHIVE_DIR, path.basename(oldPath));
-            await fs.rename(oldPath, newPath);
-            console.log(`[Sync] Archived stale job: ${path.basename(oldPath)}`);
-            archivedCount++;
-        }
-    }
-    if (archivedCount > 0) {
-        console.log(`[Sync] Successfully archived ${archivedCount} stale jobs.`);
-    }
-
-    // 4. Refresh/create jobs from the API data with hash-based duplicate check
-    let successCount = 0;
-    const skippedDuplicatesCount = 0;
-    let errorCount = 0;
-
-    for (const hashId of remoteJobHashIds) {
-        const rawJob = remoteJobMap.get(hashId);
-        if (!rawJob) continue;
-
-        try {
-            const oldJobData = localJobsForSource.get(hashId) as { status?: string } | undefined;
-            const oldStatus = oldJobData?.status;
-
-            if (allLocalJobHashIds.has(hashId)) {
-                // Overwrite existing job to ensure freshness
-                const standardJob = source.transform(rawJob, oldStatus);
-                standardJob.source = source.name;
-                await writeJobFile(standardJob, hashId);
-                successCount++;
-            } else {
-                // Write as a new job
-                const standardJob = source.transform(rawJob, oldStatus);
-                standardJob.source = source.name;
-                await writeJobFile(standardJob, hashId);
-                successCount++;
-            }
-        } catch (transformError: unknown) {
-            const errorMessage = transformError instanceof Error ? transformError.message : JSON.stringify(transformError);
-            console.error(`[Refresh] Error processing job with hash ID ${hashId} from ${source.name}: ${errorMessage}`);
-            errorCount++;
-        }
-    }
-    console.log(`--- Source ${source.name} complete. Refreshed/created: ${successCount}, Skipped Duplicates: ${skippedDuplicatesCount}, Errors: ${errorCount} ---
-`);
-
-  } catch (error) {
-    const fetchError = error instanceof Error ? error : new Error(JSON.stringify(error));
-    console.error(`[Orchestrator] Failed to run sync for source: ${source.name}`, fetchError);
-  }
+    };
+    company_name?: string;
+    title?: string;
+    location?: string;
 }
 
-/**
- * The main orchestrator for the data pipeline.
- */
-async function main() {
-  console.log('[Orchestrator] Starting Sync & Refresh pipeline...');
+function getJobIdFromRawItem(rawJob: unknown): string {
+    const typedRawJob = rawJob as RawJobForId; // Use the defined interface
+    const rawJobCompany = typedRawJob.v5_processed_job_data?.company_name || typedRawJob.company_name;
+    const rawJobTitle = typedRawJob.job_information?.title || typedRawJob.title;
+    const rawJobLocation = typedRawJob.v5_processed_job_data?.formatted_workplace_location || typedRawJob.location;
+    if (rawJobCompany && rawJobTitle && rawJobLocation) {
+        return generateJobHashId(rawJobCompany, rawJobTitle, rawJobLocation);
+    }
+    return '';
+}
+
+
+// --- Orchestrators ---
+
+export async function orchestrateJobs() {
+  logger.info('[Orchestrator] Starting JOBS Sync & Refresh pipeline...');
   await fs.mkdir(ARCHIVE_DIR, { recursive: true });
 
-  // Load all existing local job hash IDs for duplicate checking
-  const allLocalJobHashIds = await getAllLocalJobHashIds();
-  console.log(`[Orchestrator] Loaded ${allLocalJobHashIds.size} existing local job hash IDs.`);
+  const jobSources = await getJobSources();
+  const limit = pLimit(5); // Concurrency limit of 5
 
-  // Define a throttle to process 1 source every 7 seconds to be safe with APIs
-  const throttle = pThrottle({ limit: 1, interval: 7000 });
+  const promises = jobSources.map(source => 
+    limit(() => 
+        runSource<StandardJob>({
+            source,
+            outputDir: JOB_DESCRIPTIONS_DIR,
+            archiveDir: ARCHIVE_DIR,
+            writeFn: writeJobFile,
+            getIdFromRawItem: getJobIdFromRawItem,
+        })
+    )
+  );
 
-  const throttledProcessSource = throttle(async (source: IJobSource) => {
-    await processSource(source, allLocalJobHashIds);
-  });
+  await Promise.allSettled(promises);
 
-  await Promise.all(SOURCES_TO_RUN.map(source => throttledProcessSource(source)));
+  logger.info('[Orchestrator] JOBS Sync & Refresh pipeline finished.');
+}
 
-  console.log('\n[Orchestrator] Sync & Refresh pipeline finished.');
+async function orchestrateBriefings() {
+    logger.info('[Orchestrator] Starting BRIEFINGS Sync & Refresh pipeline...');
+    await fs.mkdir(ARCHIVE_DIR, { recursive: true });
+    await fs.mkdir(BRIEFINGS_DIR, { recursive: true });
+
+    const sources = await getBriefingSources();
+    logger.info({ count: sources.length }, `[Orchestrator] Found briefing sources in Firestore.`);
+
+    const limit = pLimit(5); // Concurrency limit of 5
+
+    const getBriefingIdFromRawItem = (rawItem: unknown) => {
+        const item = rawItem as RssItem;
+        return crypto.createHash('sha256').update(item.link).digest('hex');
+    };
+
+    const promises = sources.map(source => {
+        if (source.adapter === 'RSS' && source.feedUrl) {
+            const rssSource = createRssSource(source.sourceName, source.feedUrl);
+            return limit(() => 
+                runSource<StandardBriefing>({
+                    source: rssSource,
+                    outputDir: BRIEFINGS_DIR,
+                    archiveDir: ARCHIVE_DIR,
+                    writeFn: writeBriefingFile,
+                    getIdFromRawItem: getBriefingIdFromRawItem,
+                })
+            );
+        }
+        return Promise.resolve(); // Return a resolved promise for non-RSS sources
+    });
+
+    await Promise.allSettled(promises);
+
+    logger.info('[Orchestrator] BRIEFINGS Sync & Refresh pipeline finished.');
+}
+
+
+// --- Main Dispatcher ---
+
+async function main() {
+    const pipelineType = process.argv[2] || 'default';
+    logger.info({ pipelineType }, `[Pipeline] Received command.`);
+
+    switch (pipelineType) {
+        case 'jobs':
+            await orchestrateJobs();
+            break;
+        case 'briefings':
+            await orchestrateBriefings();
+            break;
+        default:
+            logger.info('[Pipeline] No pipeline type specified or type is unknown. Defaulting to "jobs".');
+            await orchestrateJobs();
+            break;
+    }
+
+    logger.info({ metrics: metricsCollector.getMetricsObject() }, '[Pipeline] Final metrics summary.');
 }
 
 main().catch(error => {
-  console.error('[Orchestrator] A critical error occurred during pipeline execution:', error);
+  logger.fatal({ err: error }, '[Orchestrator] A critical error occurred during pipeline execution.');
   process.exit(1);
 });

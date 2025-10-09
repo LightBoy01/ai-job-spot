@@ -65,4 +65,29 @@ describe('HiringCafeApiParser', () => {
     expect(parsedDetails.responsibilities).toEqual([]);
     expect(parsedDetails.qualifications).toEqual([]);
   });
+
+  it('should throw an error for invalid data structure', () => {
+    const parser = new HiringCafeApiParser();
+    const invalidJob = { foo: 'bar' }; // Missing required fields
+
+    expect(() => parser.parse(invalidJob)).toThrow();
+  });
+
+it('should sanitize the description HTML to prevent XSS', () => {
+    const parser = new HiringCafeApiParser();
+    const mockJobWithXss = {
+      job_information: {
+        title: 'Harmless Job',
+        description: '<p>This is a description.</p><script>alert("xss");</script>',
+      },
+      v5_processed_job_data: {
+        company_name: 'Secure Corp',
+      },
+    };
+
+    const parsedDetails = parser.parse(mockJobWithXss);
+
+    expect(parsedDetails.description).not.toContain('<script>');
+    expect(parsedDetails.description).toBe('<p>This is a description.</p>');
+  });
 });

@@ -1,0 +1,136 @@
+---
+id: 910fe8eecaba03fb9858631c6fa845fc39891bf9cc5abbdfd3ebb65feac8d220
+title: Principal Product Researcher
+company: lastminute.com
+location: 'Madrid, Madrid, Spain'
+applicationLink: >-
+  https://jobs.smartrecruiters.com/lastminutecom/744000086095920-principal-product-researcher
+postedDate: '2025-10-07T10:29:11.921Z'
+expirationDate: null
+tags:
+  - Research and Development (R&D)
+  - Define roadmap
+  - Lead studies
+  - Embed research
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+hasSalary: false
+source: hiring.cafe
+sourceUrl: >-
+  https://hiring.cafe/jobs/smartrecruiters___lastminutecom___b9469d34-2c44-4497-a882-4e38d1109d3b
+companyLogoUrl: null
+---
+**Company Description:**
+
+At lastminute.com, we live for the holidays. We are the European Travel-Tech leader in Dynamic Holiday Packages. With technology, we turn spontaneous thoughts into meaningful experiences, helping people travel the world.
+
+**Job Description:**
+
+We are looking for a **Principal Product Researcher** to join our team of around 1,700 people worldwide to help us power up the traveller's journey for millions of holidaymakers. If you are passionate about guiding product decisions through a deep understanding of  users, keep on reading, as you might be the perfect fit for this job. 
+
+**The job in brief:** 
+
+Job Title -  Principal Product Researcher
+
+Working model -  full-remote from Spain
+
+Team -  you will join the Revenues & Operations department.
+
+Level - Professional 
+
+Contract -  Permanent - full-time (EUR 36 h/week)
+
+**What your impact will be:**
+
+*   **Own the research practice and roadmap:** Define, evolve, and scale research processes, activities, and priorities across the organization.
+    
+*   **Lead impactful studies:** Plan, conduct, analyze, and present generative and evaluative research on our most critical problem spaces, touchpoints, and projects.
+    
+*   **Embed research into workflows:** Partner closely with cross-functional teams to integrate research into decision-making, ensuring insights are timely, actionable, and drive outcomes.
+    
+*   **Centralize and synthesize insights:** Connect data from user research, behavioral analytics, and business inputs into a shared repository that informs both strategic direction and day-to-day decisions.
+    
+*   **Champion the customer:** Advocate for user needs and perspectives in product discussions, ensuring decisions are grounded in a deep understanding of our travelers.
+    
+*   **Shape research operations:** Evolve research ops and documentation practices to increase visibility, accessibility, and impact of research across the company.
+    
+*   **Empower product teams:** Train, mentor, and enable product designers and product managers to conduct high-quality research independently, fostering a culture of continuous discovery.
+    
+*   **Develop scalable practices:** Create playbooks, templates, and tools that enable self-service research while maintaining rigor, quality, and consistency.
+    
+
+**Qualifications:**
+
+**Your expertise:**
+
+*   A naturally **curious mindset**, driven to uncover deep user insights.
+    
+*   **Extensive hands-on experience** in Product / UX Research, ideally within e-commerce, travel, or other consumer-facing industries.
+    
+*   Proven expertise in both generative and evaluative research, with the ability to translate insights into clear, actionable outcomes.
+    
+*   Fluency with AI tools to accelerate and scale UX research while maintaining quality and rigor.
+    
+*   A pragmatic and scientific approach, balancing methodological excellence with business needs and realities.
+    
+*   Experience mentoring and training cross-functional teams in research methods; leadership in building a culture of continuous discovery is a strong plus.
+    
+*   Advanced proficiency in English (written and spoken); knowledge of French, German, Italian, or Spanish is an advantage.
+    
+*   You value diversity and are respectful of cultural differences and backgrounds. 
+    
+*   You love to travel and feel that this is the place for you. :) 
+    
+
+**Additional Information:**
+
+**Perks of working with us:**
+
+How we work together:
+
+\- An inclusive, friendly, and international environment (you’ll be working with colleagues from +10 countries and over 48 nationalities)
+
+\- Shorter working week (36h as full time), with a half working day on Fridays  
+\- Flexible start and end of the working day  
+\- Possibility to work from anywhere for a period of time per year defined according to local regulations
+
+How we learn together:
+
+\- Fri-Yays: half a day on Friday morning with a no-meeting mandate and dedicated to deep work, personal growth, learning and training and/or focus time.
+
+\- Professional and managerial skills development training paths, access to e-learning platforms such as O’reilly, Udemy, Coursera (depending on the department), and to our internal platform offering bespoke training content
+
+Other perks:  
+\- 2 paid days off per year for volunteering purposes
+
+\- Occasional social events to foster connections among colleagues
+
+\- Travel industry discounts and flash exclusive staff fares
+
+\- We support our employees through life's significant moments with leave options (e.g parental responsibilities, marriages, bereavements, relocations, etc.) in line with local laws.
+
+Wish you were here? We do, too!
+
+**Selection process steps\*:**
+
+\- HR interview (10-30 minutes)
+
+\- 1st interview (Manager): soft skills + technical knowledge
+
+\- Test step online or offline
+
+\- 2nd interview (Manager + team member): Test review
+
+\- Only for senior roles: final meeting (30 mins) with the Director
+
+\- Offer extended  
+(\*Please note the process can slightly vary. The recruiter in charge will share more details when setting up the interview)
+
+**Our commitment to celebrate diversity and generate belonging**
+
+At the heart of our culture is a commitment to inclusion across race, gender, age, sexual orientation, religion, gender identity or expression, and accessibility. We strongly believe in an equal opportunity space, which is welcoming and celebrates the uniqueness of everyone who works here. We value different lived experiences and respect viewpoints, as we know unicity drives innovation. We want to make sure our people reflect the communities across the world we help travel.
+
+**Eligibility criteria:**  
+By submitting your information and application, you confirm that you are legally authorised to work in the country of employment and that you do not require visa sponsorship to obtain employment visa status.

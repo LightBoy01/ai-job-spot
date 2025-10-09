@@ -30,8 +30,41 @@ export type StandardJob = z.infer<typeof StandardJobSchema>;
 export interface IJobSource {
   // The unique name of the source
   name: string;
-  // The function that fetches raw data
-  fetchJobs: () => Promise<unknown[]>;
+  // Optional config object for source-specific settings
+  config?: Record<string, unknown>;
+  // The function that fetches raw data, accepting the config
+  fetchJobs: (config?: Record<string, unknown>) => Promise<unknown[]>;
   // The function that transforms raw data into a standard format
   transform: (rawJob: unknown, oldStatus?: string) => StandardJob;
+}
+
+
+// --- Briefings ---
+
+// Zod schema for the final, standardized briefing object.
+export const StandardBriefingSchema = z.object({
+    id: z.string(),
+    title: z.string(),
+    slug: z.string(),
+    author: z.string(),
+    publishDate: z.date(),
+    contentType: z.literal('briefing'),
+    sourceName: z.string(),
+    originalUrl: z.string().url(),
+    status: z.enum(['pending_review', 'content_incomplete', 'published']),
+    tags: z.array(z.string()),
+    excerpt: z.string(),
+    content: z.string(),
+});
+
+export type StandardBriefing = z.infer<typeof StandardBriefingSchema>;
+
+// Interface for a briefing source module
+export interface IBriefingSource {
+    // The unique name of the source
+    name: string;
+    // The function that fetches raw items
+    fetchItems: () => Promise<unknown[]>;
+    // The function that transforms a raw item into a standard format
+    transform: (rawItem: unknown) => StandardBriefing;
 }

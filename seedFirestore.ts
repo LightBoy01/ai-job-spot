@@ -1,4 +1,4 @@
-import { getFirebaseAdmin, admin } from './src/lib/firebaseAdmin.ts';
+import { getFirebaseAdmin, admin } from '@/lib/firebaseAdmin.ts';
 import type { JobPosting } from './src/lib/types.ts';
 import { marked } from 'marked';
 import fs from 'fs/promises';
@@ -390,10 +390,8 @@ export async function seedFirestore() {
   const localJobIds = new Set(processedJobs.map((j) => j.id).filter(Boolean));
   const localArticleSlugs = new Set(processedArticles.map((a) => a.slug).filter(Boolean));
 
-  // const deletedJobUrls = await syncDeletions(db, jobsCollection, localJobIds, 'jobs');
-  // const deletedArticleUrls = await syncDeletions(db, articlesCollection, localArticleSlugs, 'articles');
-  const deletedJobUrls: string[] = [];
-  const deletedArticleUrls: string[] = [];
+  const deletedJobUrls = await syncDeletions(db, jobsCollection, localJobIds, 'jobs');
+  const deletedArticleUrls = await syncDeletions(db, articlesCollection, localArticleSlugs, 'articles');
 
   const upsertedJobUrls = await upsertInBatches(db, jobsCollection, processedJobs, 'id', 'jobs');
   const upsertedArticleUrls = await upsertInBatches(db, articlesCollection, processedArticles, 'slug', 'articles');

@@ -83,8 +83,11 @@ export default function Articles({
         q: query,
         startAfter: startAfterId || '',
         limit: String(ARTICLE_FETCH_LIMIT),
-        filter: currentFilter === 'all' ? '' : currentFilter,
       });
+
+      if (currentFilter && currentFilter !== 'all') {
+        searchParams.append('filter', currentFilter);
+      }
 
       try {
         const response = await fetch(

@@ -36,13 +36,12 @@ def get_dynamic_page_source_selenium(url: str, timeout: int, selector: str):
         if selector == 'body':
             print("Warning: Waiting for 'body' selector. For best results on dynamic pages, provide a more specific --selector.", file=sys.stderr)
 
-        WebDriverWait(driver, timeout).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, selector))
-        )
         print("Dynamic content loaded.", file=sys.stderr)
         
-        html_content = driver.page_source
-        print(html_content)
+        element = WebDriverWait(driver, timeout).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, selector))
+        )
+        print(element.get_attribute('innerHTML'))
         
     except TimeoutException:
         print(f"Error: Page load timed out after {timeout} seconds. The selector '{selector}' was not found.", file=sys.stderr)

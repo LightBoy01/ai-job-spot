@@ -1,6 +1,6 @@
-import { GeminiProvider } from './providers/gemini';
+import { GeminiProvider } from './providers/gemini.js';
 import dotenv from 'dotenv';
-import type { AiProvider } from './providers/gemini';
+import type { AiProvider } from './providers/gemini.js';
 
 // Load environment variables
 dotenv.config({ path: '.env.local' });

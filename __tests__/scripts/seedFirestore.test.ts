@@ -8,7 +8,7 @@ import { processDirectory } from '../../seedFirestore.ts'; // Import the functio
 jest.mock('fs/promises');
 jest.mock('gray-matter');
 jest.mock('util');
-jest.mock('../../src/lib/firebaseAdmin', () => ({
+jest.mock('@/lib/firebaseAdmin.ts', () => ({
   __esModule: true,
   adminDb: {},
   admin: {

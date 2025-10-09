@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getFirebaseAdmin } from './firebaseAdmin';
+import { getFirebaseAdmin } from './firebaseAdmin.js';
 import type { DecodedIdToken } from 'firebase-admin/auth';
 import { parse } from 'cookie';
 

@@ -208,10 +208,21 @@ export const getServerSideProps: GetServerSideProps<SourcesPageProps> = async ()
   try {
     const { adminDb } = await getFirebaseAdmin();
     const sourcesSnapshot = await adminDb.collection('sources').get();
-    const sources = sourcesSnapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-    })) as SerializedSource[];
+    const sources = sourcesSnapshot.docs.map((doc) => {
+      const data = doc.data();
+      return {
+        id: doc.id,
+        sourceName: data.sourceName ?? null,
+        feedUrl: data.feedUrl ?? null,
+        type: data.type ?? null,
+        adapter: data.adapter ?? null,
+        status: data.status ?? null,
+        keywords: data.keywords ?? null,
+        fetchFrequency: data.fetchFrequency ?? null,
+        notes: data.notes ?? null,
+        lastFetchedAt: data.lastFetchedAt?.toDate().toISOString() ?? null,
+      };
+    }) as SerializedSource[];
 
     return {
       props: {

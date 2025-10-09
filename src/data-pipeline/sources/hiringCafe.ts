@@ -2,7 +2,7 @@
 import { gotScraping } from 'got-scraping';
 import { z } from 'zod';
 import TurndownService from 'turndown';
-import { StandardJob } from '../types.js';
+import { IJobSource, StandardJob } from '../types.js';
 
 // Zod schemas based on the user-provided snippet for type safety
 const GeoLocationSchema = z.object({
@@ -43,7 +43,7 @@ const ApiResponseSchema = z.object({
 
 type JobResult = z.infer<typeof JobResultSchema>;
 
-import { SOURCE_CONFIG } from '../pipeline.config.js';
+
 
 const API_URL = 'https://hiring.cafe/api/search-jobs';
 const turndownService = new TurndownService();
@@ -51,10 +51,11 @@ const turndownService = new TurndownService();
 /**
  * Fetches jobs from the hiring.cafe JSON API.
  */
-async function fetchJobs(): Promise<JobResult[]> {
+async function fetchJobs(config?: Record<string, unknown>): Promise<JobResult[]> {
     console.log('[hiring.cafe] Fetching jobs...');
     const allJobs: JobResult[] = [];
-    const maxPages = SOURCE_CONFIG['hiring.cafe'].maxPages; // Get from config
+    // Use maxPages from the dynamic config, with a sensible default
+    const maxPages = typeof config?.maxPages === 'number' ? config.maxPages : 1;
 
     for (let page = 0; page < maxPages; page++) {
         try {
@@ -145,7 +146,7 @@ function transform(rawJob: unknown, oldStatus?: string): StandardJob {
     return job;
 }
 
-export const hiringCafeSource = {
+export const hiringCafeSource: IJobSource = {
     name: 'hiring.cafe',
     fetchJobs,
     transform,

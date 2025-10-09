@@ -1,5 +1,5 @@
-import { JobFormData } from './validationSchemas';
-import { JobPosting } from './types';
+import { JobFormData } from './validationSchemas.js';
+import { JobPosting } from './types.js';
 
 export async function createJob(
   jobData: JobFormData,

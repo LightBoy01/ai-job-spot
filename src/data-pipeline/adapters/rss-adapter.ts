@@ -1,7 +1,7 @@
 import Parser from 'rss-parser';
 
 // Define a type for the items we expect from the RSS feed for clarity.
-export interface RssItem {
+export type RssItem = {
   title: string;
   link: string;
   isoDate?: string;

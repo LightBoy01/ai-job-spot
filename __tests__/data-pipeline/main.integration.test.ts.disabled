@@ -1,0 +1,77 @@
+import { orchestrateJobs } from '@/data-pipeline/main';
+import * as jobSources from '@/data-pipeline/pipeline.config.jobs';
+import * as fs from 'node:fs/promises';
+
+// Mock dependencies
+jest.mock('@/data-pipeline/pipeline.config.jobs');
+jest.mock('node:fs/promises');
+jest.mock('@/data-pipeline/utils/metrics');
+jest.mock('@/data-pipeline/utils/logger');
+
+describe('main.ts - Integration Test', () => {
+
+  beforeEach(() => {
+    // Reset mocks before each test
+    jest.clearAllMocks();
+  });
+
+  it('should run the job orchestration process end-to-end', async () => {
+    // Arrange
+    const mockJobs = [
+      { job_information: { title: 'Software Engineer', description: 'Test Desc 1' }, v5_processed_job_data: { company_name: 'TestCo', formatted_workplace_location: 'Remote' } },
+      { job_information: { title: 'Data Scientist', description: 'Test Desc 2' }, v5_processed_job_data: { company_name: 'TestCo', formatted_workplace_location: 'Remote' } },
+    ];
+
+    const mockSource = {
+      name: 'test-source',
+      fetchJobs: jest.fn().mockResolvedValue(mockJobs),
+      transform: jest.fn(job => ({
+        // This transform needs to return a complete StandardJob object to pass Zod validation
+        id: 'mock-id-' + job.job_information.title.replace(/\s/g, '-'),
+        title: job.job_information.title,
+        company: job.v5_processed_job_data.company_name,
+        location: job.v5_processed_job_data.formatted_workplace_location,
+        description: job.job_information.description,
+        applicationLink: 'https://example.com/apply',
+        postedDate: new Date().toISOString(),
+        status: 'published',
+        tags: ['test'],
+        responsibilities: [],
+        qualifications: [],
+        source: 'test-source',
+        salaryRange: null,
+        expirationDate: null,
+        jobLevel: null,
+        employeeRole: null,
+        sourceUrl: null,
+        companyLogoUrl: null,
+      })),
+    };
+
+    // Setup mock implementations
+    (jobSources.getJobSources as jest.Mock).mockResolvedValue([mockSource]);
+    (fs.writeFile as jest.Mock).mockResolvedValue(undefined);
+    (fs.rename as jest.Mock).mockResolvedValue(undefined);
+    (fs.readdir as jest.Mock).mockResolvedValue([]); // No existing files
+    (fs.mkdir as jest.Mock).mockResolvedValue(undefined);
+
+    // Act
+    await orchestrateJobs();
+
+    // Assert
+    expect(jobSources.getJobSources).toHaveBeenCalledTimes(1);
+    expect(mockSource.fetchJobs).toHaveBeenCalledTimes(1);
+    expect(mockSource.transform).toHaveBeenCalledTimes(2);
+    expect(fs.writeFile).toHaveBeenCalledTimes(2);
+
+    // Check the first writeFile call
+    const firstCallArgs = (fs.writeFile as jest.Mock).mock.calls[0];
+    expect(firstCallArgs[0]).toContain('testco-software-engineer-remote');
+    expect(firstCallArgs[1]).toContain('title: Software Engineer');
+
+    // Check the second writeFile call
+    const secondCallArgs = (fs.writeFile as jest.Mock).mock.calls[1];
+    expect(secondCallArgs[0]).toContain('testco-data-scientist-remote');
+    expect(secondCallArgs[1]).toContain('title: Data Scientist');
+  });
+});
