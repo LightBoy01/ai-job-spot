@@ -6403,6 +6403,60 @@ ignore@^7.0.0:
   resolved "https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz"
   integrity sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==
 
+impit-darwin-arm64@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit-darwin-arm64/-/impit-darwin-arm64-0.6.0.tgz"
+  integrity sha512-TmwV/NLVU9772IHGwT4FqvjAicOTY1ZrKQCUhFwO01MNIRF85HLwfOnNUKr0ibhPzyXsSqOqM+lhdCS/tG3atA==
+
+impit-darwin-x64@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit-darwin-x64/-/impit-darwin-x64-0.6.0.tgz"
+  integrity sha512-1vDMmuYuNqdh1NBYwgyNugGvn1f958Yt7u5k9pbhj7UKiWLc9tKrn6nsYUHVvuD998VrTz5RFSE3IEbeZ2J2NA==
+
+impit-linux-arm64-gnu@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit-linux-arm64-gnu/-/impit-linux-arm64-gnu-0.6.0.tgz"
+  integrity sha512-tD+cINgSVoP5GDBeP/5SXzm9ngf73RsyY+J8i5czXLZfeKfqWpQwKcxxcqGudAN86qzPUZLMEXFdHLBeO7hiKg==
+
+impit-linux-arm64-musl@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit-linux-arm64-musl/-/impit-linux-arm64-musl-0.6.0.tgz"
+  integrity sha512-obJRnpNBfbBJ8wv28ekwPHKQaF/tx1uAbKaNadPxwyRhj+vXZ9zDJfEET7Io7E5dL3uysjYh/4q3KsfbGS3w2Q==
+
+impit-linux-x64-gnu@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit-linux-x64-gnu/-/impit-linux-x64-gnu-0.6.0.tgz"
+  integrity sha512-R7EOwiQEN4N1gYLipf/8xTQReUxPt+CwH8KDlnVpAfwOxL6nVdxzI+LeEnZnEf44Rv+0/H9tmWAl5mAo1y524w==
+
+impit-linux-x64-musl@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit-linux-x64-musl/-/impit-linux-x64-musl-0.6.0.tgz"
+  integrity sha512-im4i8b0sDkRiCkwXtFtlesz6ltJZ26PjHfSvBaPwt4GieF7ZUyIo847ZrT9VyNOaI6uK8Mly7bgHnNl+4lc0Qw==
+
+impit-win32-arm64-msvc@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit-win32-arm64-msvc/-/impit-win32-arm64-msvc-0.6.0.tgz"
+  integrity sha512-McKzP3wGRzoOHuD8KPRSAmZi5NhpAo8gKEld3zaezJ3lzpo+fwiaj/Ft4tQsoQktPmjEDE95gfplbPx3gE9zNw==
+
+impit-win32-x64-msvc@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit-win32-x64-msvc/-/impit-win32-x64-msvc-0.6.0.tgz"
+  integrity sha512-ADz4SZc8wLMR+RKJwkZ+8gbxMilOlqra8AhGPx3hcc3p8C5dEbR2BS8D/bypKWC1Nv9WOn1uzoZ4FvnUE7R7zg==
+
+impit@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/impit/-/impit-0.6.0.tgz"
+  integrity sha512-BDft1Mm4V9itkzNX36Pw0Wr4kdGkDhbdDuD09MFpoQH0wM5SJmOWLrWFvze8agGT1LZaGMFS3edC5FX7lgSThQ==
+  optionalDependencies:
+    impit-darwin-arm64 "0.6.0"
+    impit-darwin-x64 "0.6.0"
+    impit-linux-arm64-gnu "0.6.0"
+    impit-linux-arm64-musl "0.6.0"
+    impit-linux-x64-gnu "0.6.0"
+    impit-linux-x64-musl "0.6.0"
+    impit-win32-arm64-msvc "0.6.0"
+    impit-win32-x64-msvc "0.6.0"
+
 import-fresh@^3.2.1:
   version "3.3.1"
   resolved "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz"
