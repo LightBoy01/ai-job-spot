@@ -44,7 +44,7 @@ export function createPlaywrightSource(sourceName: string, config: PlaywrightSou
                 title: job.title || '',
                 company: job.companyName || '',
                 description: job.description || '',
-                url: job.url || '',
+                applicationLink: job.url || '',
                 location: job.location || '',
                 source: sourceName,
                 // Other fields will need to be mapped here
