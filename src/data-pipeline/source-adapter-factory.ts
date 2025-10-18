@@ -44,7 +44,7 @@ export const sourceAdapterFactory = {
 
             case 'Playwright':
                 // For Playwright sources, we validate the config and create a source.
-                const playwrightConfig = sourceConfig.config as PlaywrightSourceConfig;
+                const playwrightConfig = sourceConfig.config as unknown as PlaywrightSourceConfig;
                 if (!playwrightConfig || !playwrightConfig.url || !playwrightConfig.selectors) {
                     logger.warn({ source: sourceConfig.name }, `[AdapterFactory] Playwright source is missing required config (url, selectors).`);
                     return null;

@@ -42,7 +42,7 @@ export function createPlaywrightSource(sourceName: string, config: PlaywrightSou
 
             return {
                 title: job.title || '',
-                companyName: job.companyName || '',
+                company: job.companyName || '',
                 description: job.description || '',
                 url: job.url || '',
                 location: job.location || '',
