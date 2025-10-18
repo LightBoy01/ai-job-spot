@@ -94,7 +94,7 @@ async function fetchJobs(config?: Record<string, unknown>): Promise<JobResult[]>
         try {
             const response = await gotScraping.post({
                 url: API_URL,
-                json: { size: 50, page: page, searchState: { sortBy: 'date' } },
+                json: { size: 50, page: page, searchState: { searchQuery: 'AI', sortBy: 'date' } },
                 retry: { limit: 3, methods: ['POST'], statusCodes: [408, 413, 429, 500, 502, 503, 504], errorCodes: ['ECONNRESET', 'ETIMEDOUT', 'ECONNREFUSED'] },
                 timeout: { request: 120000 }
             });
