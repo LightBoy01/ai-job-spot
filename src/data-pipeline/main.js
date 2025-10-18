@@ -3,6 +3,8 @@ import path from 'node:path';
 import crypto from 'crypto';
 import matter from 'gray-matter';
 import pLimit from 'p-limit';
+import { logger } from './utils/logger.js';
+import { logger } from './utils/logger.js';
 import { metricsCollector } from './utils/metrics.js';
 import { getJobSources } from './pipeline.config.jobs.js';
 import { writeJobFile, writeBriefingFile } from './writer.js';
@@ -31,13 +33,13 @@ async function getLocalFilePaths(directory, sourceName) {
                 }
             }
             catch (readError) {
-                console.warn(`[Orchestrator] Warning: Could not read frontmatter for ${file}. Skipping.`, readError);
+                logger.warn(`[Orchestrator] Warning: Could not read frontmatter for ${file}. Skipping.`, readError);
             }
         }
     }
     catch (error) {
         if (error instanceof Error && error.code !== 'ENOENT') {
-            console.warn(`[Orchestrator] Warning: Could not read directory ${directory}.`, error);
+            logger.warn(`[Orchestrator] Warning: Could not read directory ${directory}.`, error);
         }
     }
     return localFiles;
@@ -45,11 +47,11 @@ async function getLocalFilePaths(directory, sourceName) {
 const isDryRun = process.argv.includes('--dry-run');
 async function runSource(config) {
     const { source, outputDir, archiveDir, writeFn, getIdFromRawItem } = config;
-    console.log(`\n--- Syncing source: ${source.name} ---`);
+    logger.info(`\n--- Syncing source: ${source.name} ---`);
     metricsCollector.increment('sources.processed');
     try {
         // 1. Fetch all items from the remote source
-        console.log(`[Sync] Fetching items from ${source.name}...`);
+        logger.info(`[Sync] Fetching items from ${source.name}...`);
         const remoteItems = await ('fetchJobs' in source ? source.fetchJobs(source.config) : source.fetchItems());
         const remoteItemIds = new Set();
         const remoteItemMap = new Map();
@@ -60,28 +62,28 @@ async function runSource(config) {
                 remoteItemMap.set(id, rawItem);
             }
         }
-        console.log(`[Sync] Found ${remoteItemIds.size} unique items from source API.`);
+        logger.info(`[Sync] Found ${remoteItemIds.size} unique items from source API.`);
         // 2. Get all local files for this source
         const localFilesForSource = await getLocalFilePaths(outputDir, source.name);
-        console.log(`[Sync] Found ${localFilesForSource.size} local markdown files for ${source.name}.`);
+        logger.info(`[Sync] Found ${localFilesForSource.size} local markdown files for ${source.name}.`);
         // 3. Archive stale local files
         let archivedCount = 0;
         for (const [localId, localPath] of localFilesForSource.entries()) {
             if (!remoteItemIds.has(localId)) {
                 if (isDryRun) {
-                    console.log(`[DRY RUN] Would archive stale item: ${path.basename(localPath)}`);
+                    logger.info(`[DRY RUN] Would archive stale item: ${path.basename(localPath)}`);
                 }
                 else {
                     const newPath = path.join(archiveDir, path.basename(localPath));
                     await fs.rename(localPath, newPath);
-                    console.log(`[Sync] Archived stale item: ${path.basename(localPath)}`);
+                    logger.info(`[Sync] Archived stale item: ${path.basename(localPath)}`);
                 }
                 metricsCollector.increment('items.archived');
                 archivedCount++;
             }
         }
         if (archivedCount > 0)
-            console.log(`[Sync] Successfully processed ${archivedCount} stale items for archiving.`);
+            logger.info(`[Sync] Successfully processed ${archivedCount} stale items for archiving.`);
         // 4. Refresh/create items
         let successCount = 0;
         let errorCount = 0;
@@ -92,7 +94,7 @@ async function runSource(config) {
             try {
                 const transformedItem = source.transform(rawItem);
                 if (isDryRun) {
-                    console.log(`[DRY RUN] Would write file for item: ${id}`);
+                    logger.info(`[DRY RUN] Would write file for item: ${id}`);
                 }
                 else {
                     await writeFn(transformedItem, id);
@@ -102,16 +104,16 @@ async function runSource(config) {
             }
             catch (transformError) {
                 const errorMessage = transformError instanceof Error ? transformError.message : JSON.stringify(transformError);
-                console.error(`[Refresh] Error processing item with ID ${id} from ${source.name}: ${errorMessage}`);
+                logger.error(`[Refresh] Error processing item with ID ${id} from ${source.name}: ${errorMessage}`);
                 metricsCollector.increment('items.failed');
                 errorCount++;
             }
         }
-        console.log(`--- Source ${source.name} complete. Processed for writing: ${successCount}, Errors: ${errorCount} ---\n`);
+        logger.info(`--- Source ${source.name} complete. Processed for writing: ${successCount}, Errors: ${errorCount} ---\n`);
     }
     catch (error) {
         const fetchError = error instanceof Error ? error : new Error(JSON.stringify(error));
-        console.error(`[Orchestrator] Failed to run sync for source: ${source.name}`, fetchError);
+        logger.error(`[Orchestrator] Failed to run sync for source: ${source.name}`, fetchError);
         metricsCollector.increment('sources.failed');
     }
 }
@@ -135,7 +137,7 @@ function getJobIdFromRawItem(rawJob) {
 }
 // --- Orchestrators ---
 export async function orchestrateJobs() {
-    console.log('[Orchestrator] Starting JOBS Sync & Refresh pipeline...');
+    logger.info('[Orchestrator] Starting JOBS Sync & Refresh pipeline...');
     await fs.mkdir(ARCHIVE_DIR, { recursive: true });
     const jobSources = await getJobSources();
     const limit = pLimit(5); // Concurrency limit of 5
@@ -147,14 +149,14 @@ export async function orchestrateJobs() {
         getIdFromRawItem: getJobIdFromRawItem,
     })));
     await Promise.allSettled(promises);
-    console.log('\n[Orchestrator] JOBS Sync & Refresh pipeline finished.');
+    logger.info('\n[Orchestrator] JOBS Sync & Refresh pipeline finished.');
 }
 async function orchestrateBriefings() {
-    console.log('[Orchestrator] Starting BRIEFINGS Sync & Refresh pipeline...');
+    logger.info('[Orchestrator] Starting BRIEFINGS Sync & Refresh pipeline...');
     await fs.mkdir(ARCHIVE_DIR, { recursive: true });
     await fs.mkdir(BRIEFINGS_DIR, { recursive: true });
     const sources = await getBriefingSources();
-    console.log(`[Orchestrator] Found ${sources.length} briefing sources in Firestore.`);
+    logger.info(`[Orchestrator] Found ${sources.length} briefing sources in Firestore.`);
     const limit = pLimit(5); // Concurrency limit of 5
     const getBriefingIdFromRawItem = (rawItem) => {
         const item = rawItem;
@@ -174,12 +176,12 @@ async function orchestrateBriefings() {
         return Promise.resolve(); // Return a resolved promise for non-RSS sources
     });
     await Promise.allSettled(promises);
-    console.log('\n[Orchestrator] BRIEFINGS Sync & Refresh pipeline finished.');
+    logger.info('\n[Orchestrator] BRIEFINGS Sync & Refresh pipeline finished.');
 }
 // --- Main Dispatcher ---
 async function main() {
     const pipelineType = process.argv[2];
-    console.log(`[Pipeline] Received command: ${pipelineType || 'default'}`);
+    logger.info(`[Pipeline] Received command: ${pipelineType || 'default'}`);
     switch (pipelineType) {
         case 'jobs':
             await orchestrateJobs();
@@ -188,13 +190,13 @@ async function main() {
             await orchestrateBriefings();
             break;
         default:
-            console.log('[Pipeline] No pipeline type specified or type is unknown. Defaulting to "jobs".');
+            logger.info('[Pipeline] No pipeline type specified or type is unknown. Defaulting to "jobs".');
             await orchestrateJobs();
             break;
     }
-    console.log(metricsCollector.getSummary());
+    logger.info(metricsCollector.getSummary());
 }
 main().catch(error => {
-    console.error('[Orchestrator] A critical error occurred during pipeline execution:', error);
+    logger.error('[Orchestrator] A critical error occurred during pipeline execution:', error);
     process.exit(1);
 });

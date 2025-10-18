@@ -1,5 +1,5 @@
-
 import { PlaywrightCrawler, playwrightUtils } from 'crawlee';
+import logger from './logger.js';
 
 /**
  * Fetches the fully rendered HTML content of a page using a headless browser.
@@ -8,7 +8,8 @@ import { PlaywrightCrawler, playwrightUtils } from 'crawlee';
  * @returns The HTML content of the page's body.
  */
 export async function getDynamicPageSource(url: string): Promise<string> {
-  console.log(`[Crawler] Using headless browser for: ${url}`);
+  const log = logger.child({ crawler: 'playwright', url });
+  log.info(`Using headless browser`);
   let pageContent = '';
 
   // PlaywrightCrawler launches a headless browser to render the page.
@@ -25,16 +26,16 @@ export async function getDynamicPageSource(url: string): Promise<string> {
       });
     }],
 
-    async requestHandler({ page, log }) {
+    async requestHandler({ page }) {
       // Wait for the page to be reasonably loaded.
       await page.waitForLoadState('domcontentloaded');
       // Get the entire body's HTML.
       pageContent = await page.content();
-      log.info(`[Crawler] Successfully fetched content for ${url}`);
+      log.info(`Successfully fetched content`);
     },
 
-    failedRequestHandler({ request, log }) {
-      log.error(`[Crawler] Request for ${request.url} failed.`);
+    failedRequestHandler({ request }) {
+      log.error(`Request failed.`);
       throw new Error(`Crawlee failed to fetch ${request.url}`);
     },
   });

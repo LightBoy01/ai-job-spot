@@ -10,13 +10,8 @@ class MetricsCollector {
     this.metrics.set(key, currentValue + 1);
   }
 
-  getSummary(): string {
-    let summary = '\n--- Pipeline Metrics Summary ---\n';
-    for (const [key, value] of this.metrics.entries()) {
-      summary += `${key}: ${value}\n`;
-    }
-    summary += '------------------------------\n';
-    return summary;
+  getMetricsObject(): Record<string, number> {
+    return Object.fromEntries(this.metrics);
   }
 }
 

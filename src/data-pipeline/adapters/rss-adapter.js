@@ -1,4 +1,5 @@
 import Parser from 'rss-parser';
+import { logger } from '../utils/logger.js';
 const parser = new Parser();
 /**
  * Fetches and parses an RSS feed from a given URL.
@@ -7,7 +8,7 @@ const parser = new Parser();
  */
 export async function fetchAndParseRss(feedUrl) {
     try {
-        console.log(`  [RSS Adapter] Fetching feed: ${feedUrl}`);
+        logger.info(`  [RSS Adapter] Fetching feed: ${feedUrl}`);
         const feed = await parser.parseURL(feedUrl);
         if (!feed.items || feed.items.length === 0) {
             console.warn(`  [RSS Adapter] No items found in feed: ${feedUrl}`);

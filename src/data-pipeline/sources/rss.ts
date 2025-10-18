@@ -1,20 +1,26 @@
-import crypto from 'crypto';
 import { z } from 'zod';
 import { IBriefingSource, StandardBriefing, StandardBriefingSchema } from '../types.js';
 import { fetchAndParseRss, RssItem } from '../adapters/rss-adapter.js';
-
-function generateBriefingId(originalUrl: string): string {
-  const hash = crypto.createHash('sha256').update(originalUrl).digest('hex');
-  return `briefing-${hash}`;
-}
+import { generateBriefingId } from '../utils/id-generation.js';
 
 /**
  * Transforms a raw RSS item into our StandardBriefing format.
  */
-function transform(rawItem: unknown, sourceName: string): StandardBriefing {
-    // We cast to RssItem, but a more robust implementation would parse this with Zod.
-    // For this refactoring, we'll keep it as a cast to mirror the original logic.
-    const item = rawItem as RssItem;
+function transform(item: RssItem, sourceName: string): StandardBriefing | null {
+    // --- DATE FILTER ---
+    const publishDate = item.isoDate ? new Date(item.isoDate) : new Date();
+    const sevenDaysAgo = new Date();
+    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+    if (publishDate < sevenDaysAgo) {
+        return null; // Briefing is older than 7 days
+    }
+
+    // --- CONTENT QUALITY FILTER ---
+    const content = item.content || '';
+    if (content.length < 100) {
+        return null; // Content is too short
+    }
 
     const briefingId = generateBriefingId(item.link);
 
@@ -46,14 +52,14 @@ function transform(rawItem: unknown, sourceName: string): StandardBriefing {
         title: item.title,
         slug: briefingId,
         author: authorName, // Use the derived author name
-        publishDate: item.isoDate ? new Date(item.isoDate) : new Date(),
+        publishDate: publishDate,
         contentType: 'briefing' as const,
         sourceName: sourceName,
         originalUrl: item.link,
         status: (item.contentSnippet || item.content) ? 'pending_review' as const : 'content_incomplete' as const,
         tags: item.categories || [],
         excerpt: item.contentSnippet?.substring(0, 200) || item.content?.substring(0, 200) || '',
-        content: item.content || '',
+        content: content,
     };
 
     if (briefingData.status === 'content_incomplete') {
@@ -79,9 +85,9 @@ export function createRssSource(sourceName: string, feedUrl: string): IBriefingS
             return fetchAndParseRss(feedUrl);
         },
 
-        transform(rawItem: unknown): StandardBriefing {
+        transform(rawItem: unknown): StandardBriefing | null {
             // Pass the sourceName to the transform function
-            return transform(rawItem, sourceName);
+            return transform(rawItem as RssItem, sourceName);
         }
     };
 }

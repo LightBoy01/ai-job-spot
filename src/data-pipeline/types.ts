@@ -35,7 +35,23 @@ export interface IJobSource {
   // The function that fetches raw data, accepting the config
   fetchJobs: (config?: Record<string, unknown>) => Promise<unknown[]>;
   // The function that transforms raw data into a standard format
-  transform: (rawJob: unknown, oldStatus?: string) => StandardJob;
+  transform: (rawJob: unknown, oldStatus?: string) => StandardJob | null;
+}
+
+/**
+ * Defines the configuration required for a Playwright-based scraper.
+ */
+export interface PlaywrightSourceConfig {
+    sourceName: string;
+    url: string;
+    selectors: {
+        jobLinkSelector: string;
+        titleSelector: string;
+        companySelector: string;
+        locationSelector: string;
+        descriptionSelector: string;
+        paginationSelector?: string; // Optional
+    };
 }
 
 
@@ -63,8 +79,10 @@ export type StandardBriefing = z.infer<typeof StandardBriefingSchema>;
 export interface IBriefingSource {
     // The unique name of the source
     name: string;
+    // Optional config object for source-specific settings
+    config?: Record<string, unknown>;
     // The function that fetches raw items
     fetchItems: () => Promise<unknown[]>;
     // The function that transforms a raw item into a standard format
-    transform: (rawItem: unknown) => StandardBriefing;
+    transform: (rawItem: unknown) => StandardBriefing | null;
 }

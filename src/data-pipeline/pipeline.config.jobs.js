@@ -1,4 +1,6 @@
 import { getFirebaseAdmin } from '../lib/firebaseAdmin.js';
+import { logger } from './utils/logger.js';
+
 import { z } from 'zod';
 // Import all possible source adapters
 import { hiringCafeSource } from './sources/hiringCafe.js';
@@ -27,11 +29,11 @@ const JobSourceConfigSchema = z.object({
  * @returns A promise that resolves to an array of fully configured and validated job sources.
  */
 export async function getJobSources() {
-    console.log('[Config] Fetching dynamic job sources from Firestore...');
+    logger.info('[Config] Fetching dynamic job sources from Firestore...');
     const { adminDb } = await getFirebaseAdmin();
     const sourcesSnapshot = await adminDb.collection('job-sources').where('enabled', '==', true).get();
     if (sourcesSnapshot.empty) {
-        console.warn('[Config] No enabled job sources found in Firestore.');
+        logger.warn('[Config] No enabled job sources found in Firestore.');
         return [];
     }
     const sources = [];
@@ -39,14 +41,14 @@ export async function getJobSources() {
         const docData = doc.data();
         const validationResult = JobSourceConfigSchema.safeParse(docData);
         if (!validationResult.success) {
-            console.error(`[Config] Invalid job source configuration for doc '${doc.id}'. Skipping.`, validationResult.error);
+            logger.error(`[Config] Invalid job source configuration for doc '${doc.id}'. Skipping.`, validationResult.error);
             continue;
         }
         const configData = validationResult.data;
         const adapterName = configData.adapter;
         const sourceAdapter = sourceAdapterFactory[adapterName]; // Type assertion removed due to AdapterName being string
         if (!sourceAdapter) {
-            console.error(`[Config] No adapter found for name '${adapterName}' in doc '${doc.id}'. Skipping.`);
+            logger.error(`[Config] No adapter found for name '${adapterName}' in doc '${doc.id}'. Skipping.`);
             continue;
         }
         // Merge the database config into the source adapter to create the final source object
@@ -60,6 +62,6 @@ export async function getJobSources() {
         };
         sources.push(finalSource);
     }
-    console.log(`[Config] Successfully loaded and validated ${sources.length} job sources.`);
+    logger.info(`[Config] Successfully loaded and validated ${sources.length} job sources.`);
     return sources;
 }

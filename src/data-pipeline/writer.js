@@ -3,8 +3,11 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { StandardJobSchema } from './types.js';
 import DOMPurify from 'isomorphic-dompurify';
+import { logger } from './utils/logger.js';
+
 const JOB_OUTPUT_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
 const BRIEFING_OUTPUT_DIR = path.resolve(process.cwd(), 'src', 'content', 'briefings');
+
 /**
  * Writes a standardized job object to a Markdown file with YAML frontmatter.
  * @param job The standardized job object.
@@ -13,11 +16,13 @@ export async function writeJobFile(job, hashId) {
     // 1. Validate the job object before writing
     const validationResult = StandardJobSchema.safeParse(job);
     if (!validationResult.success) {
-        console.error(`[Writer] Invalid job object for "${job.title}". Skipping file write.`, validationResult.error);
+        logger.error(`[Writer] Invalid job object for "${job.title}". Skipping file write.`, validationResult.error);
         throw new Error('Invalid job data provided to writer.');
     }
+
     const { description, responsibilities, qualifications, ...frontmatterData } = job;
     frontmatterData.id = hashId; // Explicitly set the ID in frontmatter to the hashId
+
     // --- NEW: Sanitize and URL-decode the description ---
     let cleanedDescription = description;
     try {
@@ -26,11 +31,12 @@ export async function writeJobFile(job, hashId) {
     }
     catch {
         // If decoding fails, it might not be encoded, proceed with raw content
-        console.warn(`[Writer] Could not decode description for job ${job.id}. Proceeding with raw content.`);
+        logger.warn(`[Writer] Could not decode description for job ${job.id}. Proceeding with raw content.`);
     }
     // Then, sanitize the HTML content
     cleanedDescription = DOMPurify.sanitize(cleanedDescription, { USE_PROFILES: { html: true } });
     // --- END NEW ---
+
     // --- NEW: Sanitize frontmatter string values ---
     const frontmatterToSanitize = frontmatterData;
     for (const key of Object.keys(frontmatterToSanitize)) {
@@ -39,6 +45,7 @@ export async function writeJobFile(job, hashId) {
         }
     }
     // --- END NEW ---
+
     // 2. Construct the Markdown body using the cleanedDescription
     let body = cleanedDescription;
     if (responsibilities && responsibilities.length > 0) {
@@ -47,25 +54,32 @@ export async function writeJobFile(job, hashId) {
     if (qualifications && qualifications.length > 0) {
         body += '\n\n### Qualifications\n\n' + qualifications.map(q => `- ${q}`).join('\n');
     }
+
     // 3. Use gray-matter to create the final file content
     const fileContent = matter.stringify(body, frontmatterData);
+
     // 4. Create a unique and descriptive filename using the provided hashId
     const filename = `${hashId}.md`;
     const filePath = path.join(JOB_OUTPUT_DIR, filename);
+
     await fs.writeFile(filePath, fileContent, 'utf-8');
-    console.log(`[Writer] Successfully wrote job file: ${filename}`);
+    logger.info(`[Writer] Successfully wrote job file: ${filename}`);
 }
+
 /**
  * Writes a standardized briefing object to a Markdown file with YAML frontmatter.
  * @param briefing The standardized briefing object.
  */
 export async function writeBriefingFile(briefing, id) {
     const { content, ...frontmatterData } = briefing;
+
     const filename = `${id}.md`;
     const filePath = path.join(BRIEFING_OUTPUT_DIR, filename);
+
     const warningComment = `<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->`;
     const fileContentWithWarning = matter.stringify(content || '', frontmatterData);
     const finalContent = `${warningComment}\n\n${fileContentWithWarning}`;
+
     await fs.writeFile(filePath, finalContent, 'utf-8');
-    console.log(`[Writer] Successfully wrote briefing file: ${filename}`);
+    logger.info(`[Writer] Successfully wrote briefing file: ${filename}`);
 }

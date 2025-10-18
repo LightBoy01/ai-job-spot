@@ -1,12 +1,13 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import crypto from 'crypto';
+
 import matter from 'gray-matter';
 import pLimit from 'p-limit';
 import { metricsCollector } from './utils/metrics.js';
 import logger from './utils/logger.js';
 
-// Job-specific imports
+import { writeToDlq } from './utils/dlq.js';
+import { getJobIdFromRawItem, generateBriefingId } from './utils/id-generation.js';
 import { IJobSource, StandardJob } from './types.js';
 import { getJobSources } from './pipeline.config.jobs.js';
 import { writeJobFile, writeBriefingFile } from './writer.js';
@@ -15,8 +16,6 @@ import { normalizeCompanyName, normalizeJobTitle, normalizeLocation } from '../l
 // Briefing-specific imports
 import { IBriefingSource, StandardBriefing } from './types.js';
 import { getBriefingSources } from './pipeline.config.briefings.js';
-import { createRssSource } from './sources/rss.js';
-import { Source } from '../lib/types.js'; // This is the type from Firestore
 import { RssItem } from './adapters/rss-adapter.js';
 
 // --- Configuration ---
@@ -34,8 +33,14 @@ async function getLocalFilePaths(directory: string, sourceName: string): Promise
             if (!file.endsWith('.md')) continue;
 
             const filePath = path.join(directory, file);
+            let filehandle;
             try {
-                const fileContent = await fs.readFile(filePath, 'utf-8');
+                // Read only the first 1024 bytes to capture the frontmatter
+                filehandle = await fs.open(filePath, 'r');
+                const buffer = Buffer.alloc(1024);
+                const { bytesRead } = await filehandle.read(buffer, 0, 1024, 0);
+                const fileContent = buffer.toString('utf-8', 0, bytesRead);
+
                 const { data } = matter(fileContent);
 
                 const fileSource = data.source || data.sourceName; // Handle both job and briefing frontmatter
@@ -45,6 +50,8 @@ async function getLocalFilePaths(directory: string, sourceName: string): Promise
                 }
             } catch (readError) {
                 logger.warn({ err: readError, file }, `[Orchestrator] Could not read frontmatter for file. Skipping.`);
+            } finally {
+                await filehandle?.close();
             }
         }
     } catch (error) {
@@ -66,12 +73,13 @@ interface SourceRunnerConfig<T> {
     source: IJobSource | IBriefingSource;
     outputDir: string;
     archiveDir: string;
+    type: 'job' | 'briefing';
     writeFn: (item: T, id: string) => Promise<void>;
     getIdFromRawItem: (rawItem: unknown) => string;
 }
 
 async function runSource<T extends StandardJob | StandardBriefing>(config: SourceRunnerConfig<T>) {
-    const { source, outputDir, archiveDir, writeFn, getIdFromRawItem } = config;
+    const { source, outputDir, archiveDir, type, writeFn, getIdFromRawItem } = config;
     const sourceLogger = logger.child({ source: source.name });
     
     sourceLogger.info(`--- Syncing source ---`);
@@ -126,6 +134,9 @@ async function runSource<T extends StandardJob | StandardBriefing>(config: Sourc
 
             try {
                 const transformedItem = source.transform(rawItem) as T;
+                if (!transformedItem) {
+                    continue;
+                }
                 if (isDryRun) {
                     logger.info({ itemId: id }, `[DRY RUN] Would write file for item.`);
                 } else {
@@ -137,6 +148,8 @@ async function runSource<T extends StandardJob | StandardBriefing>(config: Sourc
                 sourceLogger.error({ err: transformError, itemId: id }, `[Refresh] Error processing item.`);
                 metricsCollector.increment('items.failed');
                 errorCount++;
+                // Write the failed item to the Dead Letter Queue
+                await writeToDlq(source.name, id, rawItem, transformError, type);
             }
         }
         sourceLogger.info({ success: successCount, failed: errorCount }, `--- Source complete ---`);
@@ -148,39 +161,7 @@ async function runSource<T extends StandardJob | StandardBriefing>(config: Sourc
 }
 
 
-// --- Job-Specific Functions ---
 
-function generateJobHashId(company: string, title: string, location:string): string {
-  const normalizedCompany = normalizeCompanyName(company);
-  const normalizedTitle = normalizeJobTitle(title);
-  const normalizedLocation = normalizeLocation(location);
-  const combinedString = `${normalizedCompany}-${normalizedTitle}-${normalizedLocation}`;
-  return crypto.createHash('sha256').update(combinedString).digest('hex');
-}
-
-interface RawJobForId {
-    v5_processed_job_data?: {
-        company_name?: string;
-        formatted_workplace_location?: string;
-    };
-    job_information?: {
-        title?: string;
-    };
-    company_name?: string;
-    title?: string;
-    location?: string;
-}
-
-function getJobIdFromRawItem(rawJob: unknown): string {
-    const typedRawJob = rawJob as RawJobForId; // Use the defined interface
-    const rawJobCompany = typedRawJob.v5_processed_job_data?.company_name || typedRawJob.company_name;
-    const rawJobTitle = typedRawJob.job_information?.title || typedRawJob.title;
-    const rawJobLocation = typedRawJob.v5_processed_job_data?.formatted_workplace_location || typedRawJob.location;
-    if (rawJobCompany && rawJobTitle && rawJobLocation) {
-        return generateJobHashId(rawJobCompany, rawJobTitle, rawJobLocation);
-    }
-    return '';
-}
 
 
 // --- Orchestrators ---
@@ -198,6 +179,7 @@ export async function orchestrateJobs() {
             source,
             outputDir: JOB_DESCRIPTIONS_DIR,
             archiveDir: ARCHIVE_DIR,
+            type: 'job',
             writeFn: writeJobFile,
             getIdFromRawItem: getJobIdFromRawItem,
         })
@@ -214,31 +196,27 @@ async function orchestrateBriefings() {
     await fs.mkdir(ARCHIVE_DIR, { recursive: true });
     await fs.mkdir(BRIEFINGS_DIR, { recursive: true });
 
-    const sources = await getBriefingSources();
-    logger.info({ count: sources.length }, `[Orchestrator] Found briefing sources in Firestore.`);
+    const briefingSources = await getBriefingSources();
+    logger.info({ count: briefingSources.length }, `[Orchestrator] Found briefing sources.`);
 
-    const limit = pLimit(5); // Concurrency limit of 5
+    const limit = pLimit(5);
 
-    const getBriefingIdFromRawItem = (rawItem: unknown) => {
-        const item = rawItem as RssItem;
-        return crypto.createHash('sha256').update(item.link).digest('hex');
-    };
-
-    const promises = sources.map(source => {
-        if (source.adapter === 'RSS' && source.feedUrl) {
-            const rssSource = createRssSource(source.sourceName, source.feedUrl);
-            return limit(() => 
-                runSource<StandardBriefing>({
-                    source: rssSource,
-                    outputDir: BRIEFINGS_DIR,
-                    archiveDir: ARCHIVE_DIR,
-                    writeFn: writeBriefingFile,
-                    getIdFromRawItem: getBriefingIdFromRawItem,
-                })
-            );
-        }
-        return Promise.resolve(); // Return a resolved promise for non-RSS sources
-    });
+    const promises = briefingSources.map(source =>
+        limit(() =>
+            runSource<StandardBriefing>({
+                source,
+                outputDir: BRIEFINGS_DIR,
+                archiveDir: ARCHIVE_DIR,
+                type: 'briefing',
+                writeFn: writeBriefingFile,
+                getIdFromRawItem: (rawItem: unknown) => {
+                    // The rawItem is now a validated RssItem from the adapter
+                    const item = rawItem as RssItem;
+                    return generateBriefingId(item.link);
+                },
+            })
+        )
+    );
 
     await Promise.allSettled(promises);
 
@@ -249,8 +227,14 @@ async function orchestrateBriefings() {
 // --- Main Dispatcher ---
 
 async function main() {
-    const pipelineType = process.argv[2] || 'default';
-    logger.info({ pipelineType }, `[Pipeline] Received command.`);
+    const args = process.argv.slice(2);
+    let pipelineType = 'jobs'; // Default to jobs
+
+    if (args.includes('briefings')) {
+        pipelineType = 'briefings';
+    } 
+
+    logger.info({ pipelineType, args }, `[Pipeline] Received command.`);
 
     switch (pipelineType) {
         case 'jobs':
@@ -258,10 +242,6 @@ async function main() {
             break;
         case 'briefings':
             await orchestrateBriefings();
-            break;
-        default:
-            logger.info('[Pipeline] No pipeline type specified or type is unknown. Defaulting to "jobs".');
-            await orchestrateJobs();
             break;
     }
 

@@ -3,6 +3,10 @@ import { gotScraping } from 'got-scraping';
 import { z } from 'zod';
 import TurndownService from 'turndown';
 import { IJobSource, StandardJob } from '../types.js';
+import { promises as fs } from 'fs';
+import path from 'path';
+import logger from '../utils/logger.js';
+
 
 // Zod schemas based on the user-provided snippet for type safety
 const GeoLocationSchema = z.object({
@@ -43,73 +47,129 @@ const ApiResponseSchema = z.object({
 
 type JobResult = z.infer<typeof JobResultSchema>;
 
+// --- ID Generation Logic (mirrored from main.ts) ---
 
+import { getJobIdFromRawItem } from '../utils/id-generation.js';
+
+// --- API and File System Configuration ---
 
 const API_URL = 'https://hiring.cafe/api/search-jobs';
+const JOB_DESCRIPTIONS_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
 const turndownService = new TurndownService();
 
+
 /**
- * Fetches jobs from the hiring.cafe JSON API.
+ * Fetches jobs from the hiring.cafe JSON API incrementally.
+ * It stops fetching when it encounters a job that already exists on the filesystem.
  */
 async function fetchJobs(config?: Record<string, unknown>): Promise<JobResult[]> {
-    console.log('[hiring.cafe] Fetching jobs...');
-    const allJobs: JobResult[] = [];
-    // Use maxPages from the dynamic config, with a sensible default
+    logger.info('[hiring.cafe] Fetching jobs incrementally...');
+    
+    // 1. Get existing job IDs from the filesystem.
+    const existingJobIds = new Set<string>();
+    try {
+        const files = await fs.readdir(JOB_DESCRIPTIONS_DIR);
+        for (const file of files) {
+            if (file.endsWith('.md')) {
+                existingJobIds.add(path.basename(file, '.md'));
+            }
+        }
+    } catch (error) {
+        logger.error({ err: error }, '[hiring.cafe] Could not read job descriptions directory. Falling back to full fetch.');
+        // If we can't read the directory, we can't do an incremental fetch.
+        // The Set will be empty, and it will proceed as a full fetch.
+    }
+    logger.info({ jobCount: existingJobIds.size }, `[hiring.cafe] Found existing jobs on disk.`);
+
+    const newJobs: JobResult[] = [];
     const maxPages = typeof config?.maxPages === 'number' ? config.maxPages : 1;
+    let stopFetching = false;
 
     for (let page = 0; page < maxPages; page++) {
+        if (stopFetching) {
+            logger.info('[hiring.cafe] Reached already processed jobs. Stopping fetch.');
+            break;
+        }
+
         try {
             const response = await gotScraping.post({
                 url: API_URL,
-                json: {
-                    size: 50,
-                    page: page,
-                    searchState: { searchQuery: 'AI', sortBy: 'date' },
-                },
-                retry: { 
-                    limit: 3, // Retry up to 3 times
-                    methods: ['POST'], // Retry on POST requests
-                    statusCodes: [408, 413, 429, 500, 502, 503, 504], // Retry on these status codes
-                    errorCodes: ['ECONNRESET', 'ETIMEDOUT', 'ECONNREFUSED'] // Retry on these network errors
-                }
+                json: { size: 50, page: page, searchState: { sortBy: 'date' } },
+                retry: { limit: 3, methods: ['POST'], statusCodes: [408, 413, 429, 500, 502, 503, 504], errorCodes: ['ECONNRESET', 'ETIMEDOUT', 'ECONNREFUSED'] },
+                timeout: { request: 120000 }
             });
 
             let rawData;
             try {
                 rawData = JSON.parse(response.body);
-            } catch {
-                console.error(`[hiring.cafe] Failed to parse JSON response. Raw body:`, response.body);
-                break; // Stop processing this source if we get invalid JSON
+            } catch (err) {
+                logger.error({ err, body: response.body }, `[hiring.cafe] Failed to parse JSON response.`);
+                break;
             }
 
             const parsedData = ApiResponseSchema.parse(rawData);
 
             if (parsedData.results.length === 0) {
-                console.log('[hiring.cafe] No more jobs found. Stopping.');
+                logger.info('[hiring.cafe] No more jobs found from API. Stopping.');
                 break;
             }
-            allJobs.push(...parsedData.results);
+
+            for (const rawJob of parsedData.results) {
+                const jobId = getJobIdFromRawItem(rawJob);
+                if (existingJobIds.has(jobId)) {
+                    // We've reached a job we already have. Stop after this page.
+                    stopFetching = true;
+                } else {
+                    newJobs.push(rawJob);
+                }
+            }
+
         } catch (error) {
-            console.error('[hiring.cafe] An error occurred during fetch:', error);
+            logger.error({ err: error }, '[hiring.cafe] An error occurred during fetch:');
             break;
         }
     }
-    console.log(`[hiring.cafe] Fetched a total of ${allJobs.length} jobs.`);
-    return allJobs;
+
+    logger.info({ newJobCount: newJobs.length }, `[hiring.cafe] Fetched a total of new jobs.`);
+    return newJobs;
 }
 
 /**
  * Transforms a raw job object from the hiring.cafe API into our StandardJob format.
  */
-function transform(rawJob: unknown, oldStatus?: string): StandardJob {
+function transform(rawJob: unknown, oldStatus?: string): StandardJob | null {
     const jobData = JobResultSchema.parse(rawJob);
     const { job_information: jobInfo, v5_processed_job_data: processedData, apply_url, id } = jobData;
+
+    // --- DATE FILTER ---
+    if (!processedData.estimated_publish_date_millis) {
+        return null; // Skip if no date is provided
+    }
+    const postedDate = new Date(parseInt(String(processedData.estimated_publish_date_millis), 10));
+    const sevenDaysAgo = new Date();
+    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+    if (postedDate < sevenDaysAgo) {
+        return null; // Job is older than 7 days
+    }
+
+    // --- AI KEYWORD FILTER ---
+    const aiKeywords = ['ai', 'artificial intelligence', 'machine learning', 'ml', 'deep learning', 'nlp', 'natural language processing', 'computer vision', 'data scientist', 'generative ai', 'llm', 'large language model', 'agentic ai'];
+    const title = jobInfo.title.toLowerCase();
+    const description = jobInfo.description.toLowerCase();
+
+    const hasAiKeyword = aiKeywords.some(keyword => title.includes(keyword) || description.includes(keyword));
+
+    if (!hasAiKeyword) {
+        return null; // Not an AI job
+    }
 
     const descriptionAsMarkdown = turndownService.turndown(jobInfo.description || '');
 
     // Sanity Check: Ensure the new description is not empty or trivial.
     if (!descriptionAsMarkdown || descriptionAsMarkdown.length < 50) {
-        throw new Error(`Skipping job ${id} due to invalid or empty description from API.`);
+        logger.warn({ jobId: id }, `Skipping job due to invalid or empty description from API.`);
+        return null;
     }
 
     let salaryRange: string | null = null;
@@ -127,7 +187,7 @@ function transform(rawJob: unknown, oldStatus?: string): StandardJob {
         company: processedData.company_name || 'Unknown Company',
         location: processedData.formatted_workplace_location || 'Remote',
         applicationLink: apply_url,
-        postedDate: processedData.estimated_publish_date_millis ? new Date(parseInt(String(processedData.estimated_publish_date_millis), 10)).toISOString() : new Date().toISOString(),
+        postedDate: postedDate.toISOString(),
         expirationDate: null, // Not provided by this source
         tags: [processedData.job_category, ...processedData.role_activities].filter(Boolean),
         status: newStatus as 'pending_review' | 'published' | 'expired',

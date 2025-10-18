@@ -9,7 +9,7 @@ dotenv.config({ path: '.env.local' });
 
 const JOB_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
 const ENRICH_BATCH_SIZE = 5;
-const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${process.env.AI_API_KEY}`;
+const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${process.env.AI_API_KEY}`;
 
 interface PendingJob {
   filePath: string;
@@ -18,7 +18,7 @@ interface PendingJob {
 }
 
 async function getPendingJobs(): Promise<PendingJob[]> {
-  console.log(`Scanning for all jobs with status 'pending_review'...`);
+  console.log(`Scanning for up to 25 jobs with status 'pending_review'...`);
   const pendingJobs: PendingJob[] = [];
   const files = await fs.readdir(JOB_DIR);
 
@@ -38,8 +38,13 @@ async function getPendingJobs(): Promise<PendingJob[]> {
     }
   }
   
-  console.log(`Found ${pendingJobs.length} total jobs to process.`);
-  return pendingJobs;
+  console.log(`Found ${pendingJobs.length} total pending jobs.`);
+  // Limit the number of jobs to process in a single run
+  const jobsToProcess = pendingJobs.slice(0, 25);
+  if (pendingJobs.length > 25) {
+    console.log(`Limiting this run to 25 jobs.`);
+  }
+  return jobsToProcess;
 }
 
 async function enrichJobData(jobContent: string): Promise<any | null> {
@@ -94,7 +99,13 @@ async function enrichJobData(jobContent: string): Promise<any | null> {
             responseType: 'json'
         });
 
-        const aiResponseText = response.body.candidates[0].content.parts[0].text;
+        const aiResponseText = response.body?.candidates?.[0]?.content?.parts?.[0]?.text;
+
+        if (!aiResponseText) {
+            console.error("Error: AI response was malformed or empty.", response.body);
+            return null;
+        }
+
         // Clean the response to ensure it is valid JSON
         const cleanedJsonString = aiResponseText.replace(/^```json\n|```$/g, '').trim();
         const enrichedData = JSON.parse(cleanedJsonString);
@@ -204,10 +215,10 @@ async function enrichJobs() {
                             console.error(`Failed to process file ${path.basename(job.filePath)}. Error:`, error);
                         }
             
-                        // Add a 3-second delay between requests to avoid rate limiting
+                        // Add a 7-second delay between requests to avoid rate limiting
                         if (jobsToProcess.indexOf(job) < jobsToProcess.length - 1) {
-                            console.log('Waiting for 3 seconds before the next job...');
-                            await new Promise(resolve => setTimeout(resolve, 3000));
+                            console.log('Waiting for 7 seconds before the next job...');
+                            await new Promise(resolve => setTimeout(resolve, 7000));
                         }
                     }    console.log(`\nEnrichment script finished. ${isDryRun ? '(DRY RUN)' : ''} Processed a total of ${totalProcessed} jobs.`);
 }

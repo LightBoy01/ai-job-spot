@@ -1,38 +1,53 @@
 import Parser from 'rss-parser';
+import { z } from 'zod';
+import logger from '../utils/logger.js';
+
+// Zod schema for robust validation of RSS items
+const RssItemSchema = z.object({
+  title: z.string(),
+  link: z.string().url(),
+  isoDate: z.string().optional(),
+  content: z.string().optional(),
+  contentSnippet: z.string().optional(),
+  creator: z.any().optional(), // Can be a string or an object in some feeds
+  categories: z.array(z.string()).optional(),
+});
 
 // Define a type for the items we expect from the RSS feed for clarity.
-export type RssItem = {
-  title: string;
-  link: string;
-  isoDate?: string;
-  content?: string;
-  contentSnippet?: string;
-  creator?: string;
-  categories?: string[];
-}
+export type RssItem = z.infer<typeof RssItemSchema>;
 
 const parser = new Parser();
 
 /**
  * Fetches and parses an RSS feed from a given URL.
  * @param feedUrl The URL of the RSS feed to parse.
- * @returns A promise that resolves to an array of parsed RSS items.
+ * @returns A promise that resolves to an array of parsed and validated RSS items.
  */
 export async function fetchAndParseRss(feedUrl: string): Promise<RssItem[]> {
+  const log = logger.child({ adapter: 'rss-adapter', feedUrl });
   try {
-    console.log(`  [RSS Adapter] Fetching feed: ${feedUrl}`)
+    log.info(`Fetching feed`);
     const feed = await parser.parseURL(feedUrl);
     
     if (!feed.items || feed.items.length === 0) {
-      console.warn(`  [RSS Adapter] No items found in feed: ${feedUrl}`);
+      log.warn(`No items found in feed`);
       return [];
     }
 
-    // Ensure we only return items that have a title and a link
-    return feed.items.filter(item => item.title && item.link) as RssItem[];
+    // Use safeParse to validate each item and filter out invalid ones.
+    const validatedItems = feed.items.map(item => {
+        const result = RssItemSchema.safeParse(item);
+        if (!result.success) {
+            log.warn({ err: result.error, itemTitle: item.title }, `Invalid RSS item found. Skipping.`);
+            return null;
+        }
+        return result.data;
+    }).filter((item): item is RssItem => item !== null);
+
+    return validatedItems;
 
   } catch (error) {
-    console.error(`  [RSS Adapter] Failed to fetch or parse RSS feed: ${feedUrl}`, error);
+    log.error({ err: error }, `Failed to fetch or parse RSS feed`);
     // Re-throw the error to be handled by the calling pipeline
     throw error;
   }

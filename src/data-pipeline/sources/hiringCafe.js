@@ -1,6 +1,7 @@
 import { gotScraping } from 'got-scraping';
 import { z } from 'zod';
 import TurndownService from 'turndown';
+import { logger } from '../utils/logger.js';
 // Zod schemas based on the user-provided snippet for type safety
 const GeoLocationSchema = z.object({
     lat: z.number(),
@@ -39,7 +40,7 @@ const turndownService = new TurndownService();
  * Fetches jobs from the hiring.cafe JSON API.
  */
 async function fetchJobs(config) {
-    console.log('[hiring.cafe] Fetching jobs...');
+    logger.info('[hiring.cafe] Fetching jobs...');
     const allJobs = [];
     // Use maxPages from the dynamic config, with a sensible default
     const maxPages = typeof config?.maxPages === 'number' ? config.maxPages : 1;
@@ -64,22 +65,22 @@ async function fetchJobs(config) {
                 rawData = JSON.parse(response.body);
             }
             catch {
-                console.error(`[hiring.cafe] Failed to parse JSON response. Raw body:`, response.body);
+                logger.error(`[hiring.cafe] Failed to parse JSON response. Raw body:`, response.body);
                 break; // Stop processing this source if we get invalid JSON
             }
             const parsedData = ApiResponseSchema.parse(rawData);
             if (parsedData.results.length === 0) {
-                console.log('[hiring.cafe] No more jobs found. Stopping.');
+                logger.info('[hiring.cafe] No more jobs found. Stopping.');
                 break;
             }
             allJobs.push(...parsedData.results);
         }
         catch (error) {
-            console.error('[hiring.cafe] An error occurred during fetch:', error);
+            logger.error('[hiring.cafe] An error occurred during fetch:', error);
             break;
         }
     }
-    console.log(`[hiring.cafe] Fetched a total of ${allJobs.length} jobs.`);
+    logger.info(`[hiring.cafe] Fetched a total of ${allJobs.length} jobs.`);
     return allJobs;
 }
 /**
