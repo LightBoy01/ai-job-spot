@@ -13,7 +13,7 @@
     "lint:scripts": "tsc --project tsconfig.scripts.json",
     "scrape:got": "ts-node scripts/get_page_source_got.ts",
     "lint:content": "ts-node scripts/lint-content.ts",
-    "pipeline:jobs": "./node_modules/.bin/tsc --project tsconfig.pipeline.json && node dist/data-pipeline/main.js",
+    "pipeline:jobs": "./node_modules/.bin/tsc --project tsconfig.pipeline.json && ls -R dist && node dist/data-pipeline/main.js",
     "pipeline:briefings": "./node_modules/.bin/tsc --project tsconfig.pipeline.json && node dist/data-pipeline/main.js briefings",
     "pipeline:briefings:dry-run": "ts-node src/data-pipeline/main.briefings.ts --dry-run",
     "pipeline:reprocess-dlq": "./node_modules/.bin/tsc --project tsconfig.pipeline.json && node dist/pipeline/reprocess-dlq.js",
