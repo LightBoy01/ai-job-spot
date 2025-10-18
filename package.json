@@ -17,7 +17,7 @@
     "pipeline:briefings": "./node_modules/.bin/tsc --project tsconfig.pipeline.json && node dist/data-pipeline/main.js briefings",
     "pipeline:briefings:dry-run": "ts-node src/data-pipeline/main.briefings.ts --dry-run",
     "pipeline:reprocess-dlq": "./node_modules/.bin/tsc --project tsconfig.pipeline.json && node dist/pipeline/reprocess-dlq.js",
-    "seed": "ts-node --esm=false seedFirestore.cts",
+    "seed": "tsc --project tsconfig.seed.json && node dist/seedFirestore.cjs",
     "test": "jest --testPathIgnorePatterns=__tests__/pages/api --testPathIgnorePatterns=src/components/Footer.test.tsx",
     "test:api": "jest --config=jest.config.api.cjs __tests__/pages/api",
     "test:scripts": "jest __tests__/scripts",

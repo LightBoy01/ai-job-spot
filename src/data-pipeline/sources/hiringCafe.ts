@@ -1,5 +1,5 @@
 
-import { gotScraping } from 'got-scraping';
+import { Impit } from 'impit';
 import { z } from 'zod';
 import TurndownService from 'turndown';
 import { IJobSource, StandardJob } from '../types.js';
@@ -92,22 +92,28 @@ async function fetchJobs(config?: Record<string, unknown>): Promise<JobResult[]>
         }
 
         try {
-            const response = await gotScraping.post({
-                url: API_URL,
-                json: { size: 50, page: page, searchState: { searchQuery: 'AI', sortBy: 'date' } },
+            const impit = new Impit({ browser: "chrome" });
+            const response = await impit.fetch(API_URL, {
+                method: 'POST',
                 headers: {
+                    'Content-Type': 'application/json',
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
                     'Accept-Language': 'en-US,en;q=0.9',
                 },
-                retry: { limit: 3, methods: ['POST'], statusCodes: [408, 413, 429, 500, 502, 503, 504], errorCodes: ['ECONNRESET', 'ETIMEDOUT', 'ECONNREFUSED'] },
-                timeout: { request: 120000 }
+                body: JSON.stringify({ size: 50, page: page, searchState: { searchQuery: 'AI', sortBy: 'date' } }),
             });
+
+            if (!response.ok) {
+                logger.error({ status: response.status, statusText: response.statusText }, '[hiring.cafe] Received non-OK response.');
+                break;
+            }
 
             let rawData;
             try {
-                rawData = JSON.parse(response.body);
+                rawData = await response.json();
             } catch (err) {
-                logger.error({ err, body: response.body }, `[hiring.cafe] Failed to parse JSON response.`);
+                const bodyText = await response.text();
+                logger.error({ err, body: bodyText }, `[hiring.cafe] Failed to parse JSON response.`);
                 break;
             }
 

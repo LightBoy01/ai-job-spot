@@ -13,6 +13,6 @@
     "target": "ES2022",
     "lib": ["ES2022"]
   },
-  "include": ["seedFirestore.ts"],
+  "include": ["seedFirestore.cts"],
   "exclude": ["node_modules", "**/*.test.ts", "**/*.spec.ts"]
 }

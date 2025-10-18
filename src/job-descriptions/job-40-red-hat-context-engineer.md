@@ -25,8 +25,8 @@ jobLevel: null
 employeeRole: Individual Contributor
 salaryRange: '$189,600 - $312,730 per year'
 source: null
-glassdoorLink: 'https://www.glassdoor.com/Overview/Working-at-Red-Hat-EI_IE8868.11,18.htm'
-crunchbaseLink: 'https://www.crunchbase.com/organization/red-hat'
+glassdoorLink: "https://www.glassdoor.com/Overview/Working-at-Red-Hat-EI_IE8868.11,18.htm"
+crunchbaseLink: "https://www.crunchbase.com/organization/red-hat"
 story_question1: What is the most exciting challenge for this role in the first 90 days?
 story_answer1: >-
   The most exciting challenge for the Prompt Engineer in the first 90 days will

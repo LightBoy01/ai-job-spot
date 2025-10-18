@@ -31,15 +31,8 @@ companyLogoUrl: null
 applicationExperience: >-
   Application is via a Greenhouse job board. The company notes: 'If you have
   some of the experience listed but not all, please apply anyway.'
-story_question1: >-
-  What makes this role a unique opportunity at the intersection of AI and
-  biology?
-story_answer1: >-
-  This isn't just another ML role. It's a chance to be at the absolute frontier
-  of generative AI for drug discovery. You'll be building the foundational
-  models that could design the next generation of life-saving therapies. It
-  requires a deep passion for both machine learning and the biological sciences,
-  and offers the chance to make a tangible impact on human health.
+story_question1: "What makes this role a unique opportunity at the intersection of AI and biology?"
+story_answer1: "This isn't just another ML role. It's a chance to be at the absolute frontier of generative AI for drug discovery. You'll be building the foundational models that could design the next generation of life-saving therapies. It requires a deep passion for both machine learning and the biological sciences, and offers the chance to make a tangible impact on human health."
 ---
 FL117, a venture-back stealth AI x bio startup, is seeking a highly skilled **ML Scientist.** Here you will build out the architectures, training pipelines and overall development of next-gen multi-modal generative models for biomolecular design. We are looking for those excited to work on ambitious projects in a fast-paced environment to push the frontier of AI-powered drug discovery.
 ### Responsibilities
