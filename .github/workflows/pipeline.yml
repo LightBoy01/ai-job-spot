@@ -72,10 +72,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-playwright-
 
-      - name: 3.2. Run Impit Diagnostic Test
-        id: impit_test
-        continue-on-error: true
-        run: node --loader ts-node/esm scripts/diagnostics/test_impit.ts
 
       - name: 4. Run Standalone got-scraping Test
         run: node --loader ts-node/esm scripts/scraping/test_got_scraping.ts
