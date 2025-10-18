@@ -41,13 +41,25 @@ export function createPlaywrightSource(sourceName: string, config: PlaywrightSou
             const job = rawJob as any; // Cast to any for now
 
             return {
+                id: job.id || `playwright-${Date.now()}`,
                 title: job.title || '',
                 company: job.companyName || '',
-                description: job.description || '',
-                applicationLink: job.url || '',
                 location: job.location || '',
+                applicationLink: job.url || '',
+                postedDate: new Date().toISOString(),
+                expirationDate: null,
+                tags: [],
+                status: 'pending_review',
+                jobLevel: null,
+                employeeRole: null,
+                salaryRange: null,
                 source: sourceName,
-                // Other fields will need to be mapped here
+                sourceUrl: job.url || null,
+                companyLogoUrl: null,
+                hasSalary: false,
+                description: job.description || '',
+                responsibilities: [],
+                qualifications: [],
             };
         },
     };
