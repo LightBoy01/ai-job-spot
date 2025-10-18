@@ -47,6 +47,8 @@ jobs:
   scrape-and-upload-artifact:
     name: Scrape Jobs and Upload Artifact
     runs-on: ubuntu-latest
+    env:
+      FIREBASE_SERVICE_ACCOUNT_BASE64: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BASE64 }}
     steps:
       - name: 1. Check out repository code
         uses: actions/checkout@v4
