@@ -1,5 +1,4 @@
-import { z, ZodIssueCode } from 'zod';
-import type { RefinementCtx, infer as ZodInfer } from 'zod';
+const { z, ZodIssueCode } = require('zod');
 
 // Helper for optional string that can be null or empty
 const optionalString = z
@@ -16,7 +15,7 @@ const optionalUrl = z
   .optional()
   .transform((e: string | null | undefined) => (e === '' ? null : e));
 
-export const ArticleSchema = z.object({
+const ArticleSchema = z.object({
   slug: z
     .string()
     .min(1, 'URL Slug is required.')
@@ -52,7 +51,7 @@ export const ArticleSchema = z.object({
   author_take_answer2: z.string().nullable().optional(),
   sourceName: optionalString,
   originalUrl: optionalUrl,
-}).superRefine((data: { contentType: string; sourceName?: string | null; originalUrl?: string | null }, ctx: RefinementCtx) => {
+}).superRefine((data: { contentType: string; sourceName?: string | null; originalUrl?: string | null }, ctx: z.RefinementCtx) => {
   if (data.contentType === 'briefing') {
     if (!data.sourceName) {
       ctx.addIssue({
@@ -71,7 +70,7 @@ export const ArticleSchema = z.object({
   }
 });
 
-export const SeedArticleSchema = z.object({
+const SeedArticleSchema = z.object({
   slug: z.string(),
   contentType: z.enum(['editorial', 'briefing']),
   sourceName: z.string().optional(),
@@ -92,7 +91,7 @@ export const SeedArticleSchema = z.object({
   contentBody: z.string().optional(),
 });
 
-export const SeedJobPostingSchema = z.object({
+const SeedJobPostingSchema = z.object({
   id: z.string(),
   title: z.string(),
   company: z.string(),
@@ -128,9 +127,7 @@ export const SeedJobPostingSchema = z.object({
   companyCulture: z.string().optional(),
 });
 
-export type ArticleFormData = ZodInfer<typeof ArticleSchema>;
-
-export const JobPostingSchema = z
+const JobPostingSchema = z
   .object({
     id: z.string().optional(), // ID is optional for new jobs
     title: z.string().min(1, 'Job Title is required.'),
@@ -192,4 +189,9 @@ export const JobPostingSchema = z
     }
   );
 
-export type JobFormData = ZodInfer<typeof JobPostingSchema>;
+module.exports = {
+    ArticleSchema,
+    SeedArticleSchema,
+    SeedJobPostingSchema,
+    JobPostingSchema
+}

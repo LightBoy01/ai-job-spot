@@ -1,17 +1,16 @@
-import type * as FirebaseAdmin from 'firebase-admin';
-import admin from 'firebase-admin';
-import fs from 'fs';
-import path from 'path';
+const admin = require('firebase-admin');
+const fs = require('fs');
+const path = require('path');
 
 // A promise to hold the initialized admin services.
-let adminPromise: Promise<{ 
+let adminPromise: Promise < {
   admin: typeof admin;
-  adminApp: FirebaseAdmin.app.App;
-  adminDb: FirebaseAdmin.firestore.Firestore;
-  adminAuth: FirebaseAdmin.auth.Auth;
+  adminApp: admin.app.App;
+  adminDb: admin.firestore.Firestore;
+  adminAuth: admin.auth.Auth;
 }> | null = null;
 
-async function getServiceAccount(): Promise<FirebaseAdmin.ServiceAccount> {
+async function getServiceAccount(): Promise<admin.ServiceAccount> {
   // Method 1: Use local JSON file (for local development)
   try {
     const keyFilePath = path.join(process.cwd(), 'ai-jobs-spot-92a1f1a8b08e.json');
@@ -23,7 +22,7 @@ async function getServiceAccount(): Promise<FirebaseAdmin.ServiceAccount> {
         clientEmail: serviceAccountJSON.client_email,
         privateKey: serviceAccountJSON.private_key,
         projectId: serviceAccountJSON.project_id,
-      } as FirebaseAdmin.ServiceAccount;
+      } as admin.ServiceAccount;
     }
   } catch (e) {
     console.error('Error reading or parsing local service account file:', e);
@@ -45,19 +44,19 @@ async function getServiceAccount(): Promise<FirebaseAdmin.ServiceAccount> {
         clientEmail: serviceAccountJSON.client_email,
         privateKey: serviceAccountJSON.private_key,
         projectId: serviceAccountJSON.project_id,
-      } as FirebaseAdmin.ServiceAccount;
+      } as admin.ServiceAccount;
     } catch (e) {
       console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_BASE64:', e);
     }
   }
-  
+
   throw new Error(
     'Firebase Admin SDK credentials not set or invalid. Please set FIREBASE_SERVICE_ACCOUNT_BASE64 or provide a valid service account JSON file.'
   );
 }
 
-async function initializeAdminApp(): Promise<FirebaseAdmin.app.App> {
-  const existingApp = admin.apps.find((app: FirebaseAdmin.app.App | null) => app?.name === 'ADMIN');
+async function initializeAdminApp(): Promise<admin.app.App> {
+  const existingApp = admin.apps.find((app: admin.app.App | null) => app?.name === 'ADMIN');
   if (existingApp) {
     return existingApp;
   }
@@ -102,4 +101,4 @@ const getFirebaseAdmin = () => {
   return adminPromise;
 };
 
-export { getFirebaseAdmin, admin };
+module.exports = { getFirebaseAdmin, admin };

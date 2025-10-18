@@ -97,3 +97,7 @@ ai-jobs-spot-92a1f1a8b08e.json
 .env.vercel
 # Transient build artifacts for content pipelines
 /src/content/briefings/
+
+# Local pipeline configuration
+pipeline.config.local.ts
+

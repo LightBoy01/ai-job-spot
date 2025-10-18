@@ -71,7 +71,7 @@ jobs:
             ${{ runner.os }}-playwright-
 
       - name: 4. Run Standalone got-scraping Test
-        run: npx ts-node scripts/scraping/test_got_scraping.ts
+        run: node --loader ts-node/esm scripts/scraping/test_got_scraping.ts
 
       - name: 5. Run Diagnostic Fetch Test
         run: npx ts-node scripts/diagnostics/test_fetch.ts
