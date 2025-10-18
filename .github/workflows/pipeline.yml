@@ -74,7 +74,7 @@ jobs:
         run: node --loader ts-node/esm scripts/scraping/test_got_scraping.ts
 
       - name: 5. Run Diagnostic Fetch Test
-        run: npx ts-node scripts/diagnostics/test_fetch.ts
+        run: node --loader ts-node/esm scripts/diagnostics/test_fetch.ts
 
       - name: 6. Run the scraping pipeline
         run: npm run pipeline:run
@@ -154,7 +154,7 @@ jobs:
       - name: 8. Publish Approved Jobs
         env:
           FIREBASE_SERVICE_ACCOUNT_BASE64: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BASE64 }}
-        run: npx ts-node scripts/publish_jobs.ts
+        run: node --loader ts-node/esm scripts/publish_jobs.ts
 
       - name: 9. Commit and Push Changes
         run: |
