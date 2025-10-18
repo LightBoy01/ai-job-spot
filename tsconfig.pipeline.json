@@ -12,7 +12,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
-    "outDir": "dist/data-pipeline"
+    "outDir": "dist"
   },
   "include": ["src/data-pipeline/**/*.ts"],
   "exclude": ["node_modules"]
