@@ -33,7 +33,7 @@ async function fetchViaPlaywright(config: PlaywrightSourceConfig): Promise<unkno
 export function createPlaywrightSource(sourceName: string, config: PlaywrightSourceConfig): IJobSource {
     return {
         name: sourceName,
-        config,
+
         fetchJobs: () => fetchViaPlaywright(config),
         transform: (rawJob: unknown): StandardJob => {
             // This transformation logic will depend heavily on the structure of the data
@@ -45,9 +45,7 @@ export function createPlaywrightSource(sourceName: string, config: PlaywrightSou
                 companyName: job.companyName || '',
                 description: job.description || '',
                 url: job.url || '',
-                location: {
-                    raw: job.location || ''
-                },
+                location: job.location || '',
                 source: sourceName,
                 // Other fields will need to be mapped here
             };
