@@ -73,26 +73,29 @@ jobs:
       - name: 4. Run Standalone got-scraping Test
         run: node --loader ts-node/esm scripts/scraping/test_got_scraping.ts
 
-      - name: 5. Run Diagnostic Fetch Test
+      - name: 5. Run Standalone impit Test
+        run: node --loader ts-node/esm scripts/scraping/test_impit.ts
+
+      - name: 6. Run Diagnostic Fetch Test
         run: node --loader ts-node/esm scripts/diagnostics/test_fetch.ts
 
-      - name: 6. Run the scraping pipeline
+      - name: 7. Run the scraping pipeline
         run: npm run pipeline:jobs
 
-      - name: 7. Display pipeline log on failure or success
+      - name: 8. Display pipeline log on failure or success
         if: always()
         run: |
           echo "--- Start of Pipeline Log ---"
           cat pipeline_run.log || echo "Log file not found."
           echo "--- End of Pipeline Log ---"
 
-      - name: 8. List files in output directory
+      - name: 9. List files in output directory
         if: always()
         run: |
           echo "--- Listing files in src/job-descriptions ---"
           ls -R src/job-descriptions
 
-      - name: 9. Upload scraped jobs artifact
+      - name: 10. Upload scraped jobs artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -101,7 +104,7 @@ jobs:
             src/job-descriptions/
             pipeline_run.log
 
-      - name: 10. Check for Scraped Output and Alert on Failure
+      - name: 11. Check for Scraped Output and Alert on Failure
         if: ${{ success() }}
         run: |
           if [ $(find src/job-descriptions -name "*.md" 2>/dev/null | wc -l) -eq 0 ]; then
