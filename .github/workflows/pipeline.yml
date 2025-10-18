@@ -77,7 +77,7 @@ jobs:
         run: node --loader ts-node/esm scripts/diagnostics/test_fetch.ts
 
       - name: 6. Run the scraping pipeline
-        run: npm run pipeline:run
+        run: npm run pipeline:jobs
 
       - name: 7. Display pipeline log on failure or success
         if: always()
