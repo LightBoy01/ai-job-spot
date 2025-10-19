@@ -24,6 +24,10 @@
   p {
     @apply text-base sm:text-lg;
   }
+
+  hr {
+    @apply border-t border-neutral-200 h-px my-12;
+  }
 }
 
 .ad-container {
@@ -40,7 +44,7 @@
 }
 
 .article-content p {
-  @apply text-lg text-neutral-800 leading-relaxed mb-6;
+  @apply text-lg text-neutral-800 leading-loose mb-6;
 }
 
 .article-content p:first-of-type::first-letter {
@@ -92,7 +96,7 @@
 }
 
 .job-description p {
-  @apply text-lg text-neutral-800 leading-relaxed mb-6;
+  @apply text-lg text-neutral-800 leading-loose mb-6;
 }
 
 .job-description ul {
@@ -120,10 +124,4 @@ input:focus,
 textarea:focus,
 select:focus {
   @apply ring-2 ring-offset-2 ring-secondary-light ring-opacity-75;
-}
-
-@layer base {
-  hr {
-    @apply border-t-0 bg-gradient-to-r from-transparent via-secondary/50 to-transparent h-px my-12;
-  }
 }

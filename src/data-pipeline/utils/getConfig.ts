@@ -9,9 +9,9 @@ const localConfigFile = path.resolve(process.cwd(), 'src', 'data-pipeline', 'pip
 
 async function fetchFromFirestore<T extends object>(
     collectionName: string,
-    whereClauses: [string, WhereFilterOp, any][] = []
-): Promise<any[]> {
-    logger.info({ collection: collectionName }, `[Config] Fetching dynamic sources from Firestore...`);
+    whereClauses: [string, WhereFilterOp, string | number | boolean | Date][] = []
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+): Promise<Record<string, any>[]> {    logger.info({ collection: collectionName }, `[Config] Fetching dynamic sources from Firestore...`);
     const { adminDb } = await getFirebaseAdmin();
     
     let query: Query = adminDb.collection(collectionName);
@@ -29,7 +29,8 @@ async function fetchFromFirestore<T extends object>(
     return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 }
 
-async function fetchFromLocalFile(configType: 'jobs' | 'briefings'): Promise<any[]> {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function fetchFromLocalFile(configType: 'jobs' | 'briefings'): Promise<Record<string, any>[]> {
     logger.info({ file: localConfigFile }, `[Config] Loading sources from local configuration file...`);
     try {
         const localConfig = await import(localConfigFile);
@@ -60,9 +61,10 @@ export async function loadAndValidateSourceConfigs<T extends object>(
     configType: 'jobs' | 'briefings',
     collectionName: string,
     schema: z.ZodSchema<T>,
-    whereClauses: [string, WhereFilterOp, any][] = []
+    whereClauses: [string, WhereFilterOp, string | number | boolean | Date][] = []
 ): Promise<T[]> {
-    let rawConfigs: any[];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let rawConfigs: Record<string, any>[];
 
     if (useLocalConfig) {
         rawConfigs = await fetchFromLocalFile(configType);
@@ -75,8 +77,8 @@ export async function loadAndValidateSourceConfigs<T extends object>(
         // Firestore returns Timestamps, Zod often expects Dates. We need to convert before validation.
         const dataToValidate = { ...rawConfig };
         for (const key in dataToValidate) {
-            if ((dataToValidate as any)[key] instanceof Timestamp) {
-                (dataToValidate as any)[key] = (dataToValidate as any)[key].toDate();
+            if (dataToValidate[key] instanceof Timestamp) {
+                dataToValidate[key] = dataToValidate[key].toDate();
             }
         }
 

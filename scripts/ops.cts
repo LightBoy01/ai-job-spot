@@ -27,7 +27,17 @@ async function main() {
       break;
 
     case 'hygiene':
-      await runHygiene(isDryRun);
+      if (!contentType) {
+        console.error('Error: The \'hygiene\' operation requires a --type argument.');
+        console.error('Example: --run=hygiene --type=jobs');
+        process.exit(1);
+      }
+      if (contentType === 'jobs' || contentType === 'briefings') {
+        await runHygiene(contentType, isDryRun);
+      } else {
+        console.error(`Error: Unknown content type '${contentType}' for hygiene.`);
+        process.exit(1);
+      }
       break;
 
     case 'enrich':

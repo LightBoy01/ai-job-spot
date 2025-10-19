@@ -11,7 +11,7 @@ export interface JobPosting {
   preferredQualifications?: string[]; // Optional list of preferred qualifications
   location: string;
   salaryRange?: string | null; // Optional
-  postedDate: Date;
+  postedDate: Date | null;
   expirationDate?: Date | null; // Optional expiration date for job postings
   applicationLink: string;
   applicationExperience?: string | null; // e.g., "Redirects to Workday; 15-20 minute application"

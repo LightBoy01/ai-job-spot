@@ -3,7 +3,7 @@ import {
   getArticles,
   getArticleBySlug,
   getJobsByTag,
-} from '@/lib/firestoreClient';
+} from '@/lib/firestoreAdminClient';
 import { SerializedArticle, SerializedJobPosting } from '@/lib/types';
 import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
@@ -71,8 +71,6 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
   const authorBio = authors[article.author] || null;
   const { jobs: relevantJobs } = await getJobsByTag(article.tags || [], 5); // Fetch 5 relevant jobs based on the article's tags
 
-  console.log(`Relevant Jobs for article ${article.slug}:`, relevantJobs); // Debugging line
-
   return {
     props: {
       article: {
@@ -89,7 +87,7 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
       authorBio,
       relevantJobs: relevantJobs.map((job) => ({
         ...job,
-        postedDate: job.postedDate.toISOString(),
+        postedDate: job.postedDate ? job.postedDate.toISOString() : null,
         expirationDate: job.expirationDate
           ? job.expirationDate.toISOString()
           : null,
@@ -206,7 +204,7 @@ export default function ArticlePage({
                   {author}
                 </span>
               </p>
-              <hr className="border-t border-neutral-300 my-8" />
+              <hr />
               <p className="text-neutral-500 text-sm">
                 {publishDate && `Published on ${formatDate(publishDate)}`}
                 {issueNo !== undefined && volumeNo !== undefined && (
@@ -235,7 +233,7 @@ export default function ArticlePage({
             />
 
             {authorBio && (
-              <div className="mt-12 p-8 bg-neutral-50 rounded-lg shadow-sm border border-neutral-200">
+              <div className="mt-12 p-8 bg-neutral-50 rounded-lg shadow-md border border-secondary-light">
                 <h3 className="text-xl font-serif font-semibold text-primary-dark mb-2">
                   About {authorBio.name}
                 </h3>

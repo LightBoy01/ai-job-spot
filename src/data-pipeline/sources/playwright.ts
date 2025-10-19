@@ -24,6 +24,15 @@ async function fetchViaPlaywright(config: PlaywrightSourceConfig): Promise<unkno
     return Promise.resolve([]);
 }
 
+interface PlaywrightRawJob {
+    id?: string;
+    title?: string;
+    companyName?: string;
+    location?: string;
+    url?: string;
+    description?: string;
+}
+
 /**
  * Creates a new job source that uses Playwright for dynamic scraping.
  * @param sourceName The name of the source.
@@ -35,17 +44,21 @@ export function createPlaywrightSource(sourceName: string, config: PlaywrightSou
         name: sourceName,
 
         fetchJobs: () => fetchViaPlaywright(config),
-        transform: (rawJob: unknown): StandardJob => {
+        transform: (rawJob: unknown): StandardJob | null => {
             // This transformation logic will depend heavily on the structure of the data
             // extracted by the Playwright script. For now, it's a placeholder.
-            const job = rawJob as any; // Cast to any for now
+            const job = rawJob as PlaywrightRawJob;
+
+            if (!job.url) {
+                return null;
+            }
 
             return {
                 id: job.id || `playwright-${Date.now()}`,
                 title: job.title || '',
                 company: job.companyName || '',
                 location: job.location || '',
-                applicationLink: job.url || '',
+                applicationLink: job.url,
                 postedDate: new Date().toISOString(),
                 expirationDate: null,
                 tags: [],

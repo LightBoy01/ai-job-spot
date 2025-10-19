@@ -21,13 +21,16 @@ interface LayoutProps {
  */
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="min-h-screen bg-neutral-cream font-sans">
+    <div className="min-h-screen bg-neutral-cream font-sans flex flex-col">
       {/* The Navbar is rendered at the top of every page */}
       <Navbar />
 
-      {/* Main content area */}
-      <main className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        {children}
+      {/* Main content area that grows to push the footer down */}
+      <main className="flex-grow">
+        {/* Inner container for content width and padding */}
+        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+          {children}
+        </div>
       </main>
       <Footer />
     </div>

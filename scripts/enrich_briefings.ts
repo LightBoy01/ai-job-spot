@@ -102,7 +102,7 @@ async function enrichBriefingData(briefingContent: string, originalTitle: string
     }
 }
 
-async function enrichBriefings(isDryRun = false) {
+export async function enrichBriefings(isDryRun = false) {
     if (isDryRun) {
         console.log('--- DRY RUN MODE: No files will be written. ---');
     }
@@ -165,11 +165,15 @@ async function enrichBriefings(isDryRun = false) {
 }
 
 // --- EXECUTION BLOCK ---
-const isDryRun = process.argv.includes('--dry-run');
-enrichBriefings(isDryRun)
-  .then(() => {
-    console.log('\nBriefing enrichment process completed successfully.\n');
-  })
-  .catch((error) => {
-    console.error('\nBriefing enrichment process failed.\n', error);
-  });
+if (require.main === module) {
+    const isDryRun = process.argv.includes('--dry-run');
+    enrichBriefings(isDryRun)
+    .then(() => {
+        console.log('\nBriefing enrichment process completed successfully.\n');
+    })
+    .catch((error) => {
+        console.error('\nBriefing enrichment process failed.\n', error);
+    });
+}
+
+module.exports = { enrichBriefings };

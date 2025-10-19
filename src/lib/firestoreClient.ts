@@ -363,4 +363,3 @@ export async function getAggregatedArticles(
 
   return { articles, lastVisible };
 }
-

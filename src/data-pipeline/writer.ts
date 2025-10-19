@@ -2,12 +2,21 @@
 import matter from 'gray-matter';
 import { promises as fs } from 'fs';
 import path from 'path';
-import { StandardJob, StandardJobSchema, StandardBriefing } from './types.js';
+import { StandardJob, StandardJobSchema, StandardBriefing, StandardBriefingSchema } from './types.js';
 import DOMPurify from 'isomorphic-dompurify';
 import logger from './utils/logger.js';
+import slugify from 'slugify';
 
 const JOB_OUTPUT_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
 const BRIEFING_OUTPUT_DIR = path.resolve(process.cwd(), 'src', 'content', 'briefings');
+
+function createSlug(text: string): string {
+  return slugify(text, {
+    lower: true,
+    strict: true,
+    remove: /[*+~.()'"!:@]/g,
+  });
+}
 
 /**
  * Writes a standardized job object to a Markdown file with YAML frontmatter.
@@ -58,8 +67,10 @@ export async function writeJobFile(job: StandardJob, hashId: string): Promise<vo
   // 3. Use gray-matter to create the final file content
   const fileContent = matter.stringify(body, frontmatterData);
 
-  // 4. Create a unique and descriptive filename using the provided hashId
-  const filename = `${hashId}.md`;
+  // 4. Create a unique and descriptive filename
+  const companySlug = createSlug(job.company);
+  const titleSlug = createSlug(job.title);
+  const filename = `${hashId}-${companySlug}-${titleSlug}.md`;
   const filePath = path.join(JOB_OUTPUT_DIR, filename);
 
   await fs.writeFile(filePath, fileContent, 'utf-8');
@@ -71,12 +82,36 @@ export async function writeJobFile(job: StandardJob, hashId: string): Promise<vo
  * @param briefing The standardized briefing object.
  */
 export async function writeBriefingFile(briefing: StandardBriefing, id: string): Promise<void> {
+    // 1. Validate
+    const validationResult = StandardBriefingSchema.safeParse(briefing);
+    if (!validationResult.success) {
+        logger.error({ err: validationResult.error, briefingTitle: briefing.title }, `[Writer] Invalid briefing object. Skipping file write.`);
+        throw new Error('Invalid briefing data provided to writer.');
+    }
+
     const { content, ...frontmatterData } = briefing;
     const filename = `${id}.md`;
     const filePath = path.join(BRIEFING_OUTPUT_DIR, filename);
 
+    // 2. Sanitize content
+    const sanitizedContent = DOMPurify.sanitize(content || '', { USE_PROFILES: { html: true } });
+
+    // 3. Sanitize frontmatter
+    const frontmatterToSanitize = frontmatterData as Record<string, unknown>;
+    for (const key of Object.keys(frontmatterToSanitize)) {
+        // Sanitize all string fields except 'excerpt' which can be multi-line
+        if (typeof frontmatterToSanitize[key] === 'string' && key !== 'excerpt') {
+            frontmatterToSanitize[key] = (frontmatterToSanitize[key] as string).replace(/\r?\n/g, ' ').trim();
+        }
+        // Sanitize strings within the tags array
+        if (key === 'tags' && Array.isArray(frontmatterToSanitize[key])) {
+            frontmatterToSanitize[key] = (frontmatterToSanitize[key] as string[]).map(tag => tag.replace(/\r?\n/g, ' ').trim());
+        }
+    }
+
+    // 4. Construct final file
     const warningComment = `<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->`;
-    const fileContentWithWarning = matter.stringify(content || '', frontmatterData);
+    const fileContentWithWarning = matter.stringify(sanitizedContent, frontmatterData);
     const finalContent = `${warningComment}\n\n${fileContentWithWarning}`;
 
     await fs.writeFile(filePath, finalContent, 'utf-8');

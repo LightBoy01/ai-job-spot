@@ -137,10 +137,9 @@ interface FileInfo {
   contentHash?: string;
 }
 
-async function archiveFiles(contentType: ContentType) {
+async function archiveFiles(contentType: ContentType, isDryRun: boolean) {
   const config = CONFIG[contentType];
   console.log(`--- Starting File Archival for ${contentType} ---`);
-  const isDryRun = process.argv.includes('--dry-run');
   console.log(isDryRun ? 'Running in --dry-run mode. No files will be moved.' : 'Running in live mode.');
 
   const filesToArchive = new Map<string, { reason: string; fileInfo: FileInfo }>();
@@ -283,20 +282,27 @@ async function archiveFiles(contentType: ContentType) {
 
 // --- Main Execution ---
 
-async function main() {
-  const contentType = process.argv[2] as ContentType;
+export async function runHygiene(contentType: ContentType, isDryRun: boolean) {
   if (!contentType || !CONFIG[contentType]) {
     console.error("Please specify a valid content type: 'jobs' or 'briefings'.");
-    console.error("Usage: ts-node scripts/content-hygiene.ts <jobs|briefings> [--dry-run]");
     process.exit(1);
   }
 
   try {
     await sanitizeFiles(contentType);
-    await archiveFiles(contentType);
+    await archiveFiles(contentType, isDryRun);
   } catch (error) {
     console.error(`An unexpected error occurred in main for ${contentType}:`, (error as Error).message);
   }
 }
 
-main();
+async function main() {
+  const contentType = process.argv[2] as ContentType;
+  const isDryRun = process.argv.includes('--dry-run');
+  
+  await runHygiene(contentType, isDryRun);
+}
+
+if (process.env.NODE_ENV !== 'test') {
+    main();
+}

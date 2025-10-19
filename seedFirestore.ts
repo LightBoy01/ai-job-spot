@@ -360,17 +360,23 @@ export async function revalidatePaths(paths: string[]) {
  * The main orchestration function for the seeding process.
  */
 export async function seedFirestore() {
+  const withBackup = process.argv.includes('--with-backup');
+
   if (isDryRun) {
     console.log('*** RUNNING IN DRY-RUN MODE. NO CHANGES WILL BE MADE TO THE DATABASE. ***\n');
   } else {
     console.log('*** WARNING: RUNNING IN LIVE MODE. ALL CHANGES WILL BE WRITTEN TO THE DATABASE. ***\n');
   }
 
-  // try {
-  //   await runBackup();
-  // } catch (error) {
-  //   process.exit(1);
-  // }
+  if (withBackup && !isDryRun) {
+    try {
+      await runBackup();
+    } catch (error) {
+      process.exit(1);
+    }
+  } else if (withBackup && isDryRun) {
+    console.log('[DRY RUN] Skipping database backup (backup does not run in dry mode).\n');
+  }
 
   console.log('Starting intelligent Firestore data seeding from local files...');
   const { adminDb: db } = await getFirebaseAdmin();

@@ -93,7 +93,7 @@ async function reprocessDlqForSource(sourceName: string) {
                     break;
 
                 default:
-                    throw new Error(`Unknown DLQ item type: ${(dlqItem as any).type}`);
+                    throw new Error(`Unknown DLQ item type: ${dlqItem.type}`);
             }
 
             if (!transformedItem) {

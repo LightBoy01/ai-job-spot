@@ -44,14 +44,28 @@ const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
             </div>
           )}
           <div className="flex-grow" />
-          <p className="mt-4 text-base font-sans text-neutral-600">
-            By {author} on {formatDate(publishDate)}
-            {issueNo !== undefined && volumeNo !== undefined && (
-              <span className="block text-sm text-neutral-500 mt-1">
-                Vol. {volumeNo}, Issue No. {issueNo}
-              </span>
+          <div className="mt-4 text-base font-sans text-neutral-600">
+            <p>
+              By {author} on {formatDate(publishDate)}
+              {issueNo !== undefined && volumeNo !== undefined && (
+                <span className="block text-sm text-neutral-500 mt-1">
+                  Vol. {volumeNo}, Issue No. {issueNo}
+                </span>
+              )}
+            </p>
+            {article.contentType === 'briefing' && article.sourceName && article.originalUrl && (
+                <p className="mt-2 text-sm text-neutral-500">
+                    Source: <a 
+                        href={article.originalUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-medium text-primary-dark hover:underline truncate"
+                    >
+                        {article.sourceName} ↗
+                    </a>
+                </p>
             )}
-          </p>
+          </div>
         </div>
       </div>
     </Link>

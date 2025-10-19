@@ -4,7 +4,7 @@ import {
   getJobs,
   getJobById,
   getRelevantArticles,
-} from '@/lib/firestoreClient';
+} from '@/lib/firestoreAdminClient';
 import { SerializedJobPosting, SerializedArticle } from '@/lib/types';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
@@ -29,10 +29,10 @@ const generateJobPostingSchema = (job: SerializedJobPosting) => {
     ${plainDescription}
     
     Responsibilities:
-    ${job.responsibilities?.join('\\n')}
+    ${job.responsibilities?.join('\n')}
     
     Qualifications:
-    ${job.qualifications?.join('\\n')}
+    ${job.qualifications?.join('\n')}
   `.trim();
 
   const employmentTypes = [
@@ -66,7 +66,7 @@ const generateJobPostingSchema = (job: SerializedJobPosting) => {
   if (job.salaryRange) {
     const currencyMatch = job.salaryRange.match(/[A-Z]{3}|[$€₹£]/);
     const currency = currencyMatch ? currencyMatch[0] : 'USD';
-    const numbers = job.salaryRange.match(/\\d+/g)?.map(Number);
+    const numbers = job.salaryRange.match(/\d+/g)?.map(Number);
     if (numbers && numbers.length > 0) {
       salary = {
         '@type': 'MonetaryAmount',
@@ -213,7 +213,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                   </div>
                 </div>
 
-                <hr className="border-t border-neutral-300 my-8" />
+                <hr />
                 {job.salaryRange ? (
                   <div className="mt-4 text-2xl text-accent-dark font-semibold">
                     {job.salaryRange}
@@ -267,7 +267,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                   )}
                 </div>
                 <div className="text-sm text-neutral-500 mt-4">
-                  Posted on {formatDate(job.postedDate)}
+                  {job.postedDate && `Posted on ${formatDate(job.postedDate)}`}
                   {job.expirationDate && (
                     <span className="ml-4">
                       Expires on {formatDate(job.expirationDate)}
@@ -436,7 +436,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
               {/* --- DYNAMIC PROVENANCE TRAIL --- */}
               {(job.source || job.verificationDate) && (
                 <section className="my-12">
-                  <div className="bg-neutral-50 border border-neutral-200 rounded-lg p-6">
+                  <div className="bg-neutral-50 border border-secondary-light rounded-lg p-6 shadow-md">
                     <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">
                       Provenance Trail
                     </h3>
@@ -622,7 +622,7 @@ export const getStaticProps: GetStaticProps<
   const serializedJob: SerializedJobPosting = {
     ...job,
     id: job.id!,
-    postedDate: job.postedDate.toISOString(),
+    postedDate: job.postedDate ? job.postedDate.toISOString() : null,
     expirationDate: job.expirationDate
       ? job.expirationDate.toISOString()
       : null,
