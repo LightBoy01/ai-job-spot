@@ -59,6 +59,14 @@ export async function writeToDlq(
 
     const safeSourceName = sanitizeForFilePath(sourceName);
     const sourceDlqDir = path.join(DLQ_DIR, safeSourceName);
+
+    // Security: Ensure the constructed DLQ path is within the main DLQ directory
+    if (!path.resolve(sourceDlqDir).startsWith(path.resolve(DLQ_DIR))) {
+        logger.error({ sourceDlqDir }, `[DLQ] CRITICAL: Invalid source name resulted in path traversal attempt. Cannot write to DLQ.`);
+        return; // Return early to prevent further execution
+    }
+
+    // eslint-disable-next-line security/detect-non-literal-fs-filename -- Path is validated above
     await fs.mkdir(sourceDlqDir, { recursive: true });
 
     // Sanitize the ID to make it a valid filename
@@ -66,6 +74,13 @@ export async function writeToDlq(
     const filename = `${safeItemId}.json`;
     const filePath = path.join(sourceDlqDir, filename);
 
+    // Security: Ensure the final file path is within the intended DLQ source directory
+    if (!path.resolve(filePath).startsWith(path.resolve(sourceDlqDir))) {
+        logger.error({ filePath }, `[DLQ] CRITICAL: Invalid item ID resulted in path traversal attempt. Cannot write to DLQ.`);
+        return;
+    }
+
+    // eslint-disable-next-line security/detect-non-literal-fs-filename -- Path is validated above
     await fs.writeFile(filePath, JSON.stringify(item, null, 2), 'utf-8');
 
     logger.warn({ source: sourceName, file: filename }, `[DLQ] Wrote failed item to Dead Letter Queue.`);

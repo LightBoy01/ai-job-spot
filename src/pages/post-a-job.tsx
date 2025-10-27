@@ -83,7 +83,7 @@ const PostAJobPage: React.FC = () => {
     }
     if (
       !formData.contactEmail ||
-      !/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(formData.contactEmail)
+      !/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(formData.contactEmail)
     ) {
       newErrors.contactEmail = 'A valid Contact Email is required.';
     }

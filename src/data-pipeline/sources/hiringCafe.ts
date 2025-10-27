@@ -1,5 +1,5 @@
 
-import { Impit } from 'impit';
+import { gotScraping } from 'got-scraping';
 import { z } from 'zod';
 import TurndownService from 'turndown';
 import { IJobSource, StandardJob } from '../types.js';
@@ -92,32 +92,19 @@ async function fetchJobs(config?: Record<string, unknown>): Promise<JobResult[]>
         }
 
         try {
-            const impit = new Impit({ browser: "chrome" });
-            const response = await impit.fetch(API_URL, {
+            const response = await gotScraping({
+                url: API_URL,
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-                    'Accept-Language': 'en-US,en;q=0.9',
-                },
-                body: JSON.stringify({ size: 50, page: page, searchState: { searchQuery: 'AI', sortBy: 'date' } }),
+                json: { size: 50, page: page, searchState: { searchQuery: 'AI', sortBy: 'date' } },
+                responseType: 'json',
             });
 
-            if (!response.ok) {
-                logger.error({ status: response.status, statusText: response.statusText }, '[hiring.cafe] Received non-OK response.');
+            if (response.statusCode !== 200) {
+                logger.error({ status: response.statusCode, statusText: response.statusMessage }, '[hiring.cafe] Received non-OK response.');
                 break;
             }
 
-            let rawData;
-            try {
-                rawData = await response.json();
-            } catch (err) {
-                const bodyText = await response.text();
-                logger.error({ err, body: bodyText }, `[hiring.cafe] Failed to parse JSON response.`);
-                break;
-            }
-
-            const parsedData = ApiResponseSchema.parse(rawData);
+            const parsedData = ApiResponseSchema.parse(response.body);
 
             if (parsedData.results.length === 0) {
                 logger.info('[hiring.cafe] No more jobs found from API. Stopping.');

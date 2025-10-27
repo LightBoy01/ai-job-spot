@@ -3,6 +3,7 @@ import { getFirebaseAdmin, admin } from '@/lib/firebaseAdmin';
 import { JobPostingSchema } from '@/lib/validationSchemas';
 import DOMPurify from 'isomorphic-dompurify';
 import { marked } from 'marked';
+import logger from '@/data-pipeline/utils/logger'; // Import the logger
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aijobspot.online';
 
@@ -17,6 +18,7 @@ export default async function handler(
   const idToken = req.headers.authorization?.split('Bearer ')[1];
 
   if (!idToken) {
+    logger.warn({ ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress }, 'Job post attempt without ID token.');
     return res.status(401).json({ message: 'Unauthorized: No token provided' });
   }
 
@@ -29,6 +31,7 @@ export default async function handler(
     // Optional: Check if the user has an admin custom claim
     const userRecord = await adminAuth.getUser(uid);
     if (!userRecord.customClaims || !userRecord.customClaims.admin) {
+      logger.warn({ uid, ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress }, 'Job post attempt by non-admin user.');
       return res.status(403).json({ message: 'Forbidden: Not an admin' });
     }
 
@@ -36,6 +39,7 @@ export default async function handler(
     const validationResult = JobPostingSchema.safeParse(req.body);
 
     if (!validationResult.success) {
+      logger.warn({ uid, ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress, errors: validationResult.error.flatten() }, 'Job post validation failed.');
       return res.status(400).json({
         message: 'Invalid job posting data',
         errors: validationResult.error.flatten(),
@@ -132,11 +136,12 @@ export default async function handler(
       revalidatePath(`/jobs/${newJobRef.id}`),
     ]);
 
+    logger.info({ uid, ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress, jobId: newJobRef.id }, 'Job posting created successfully.');
     res
       .status(201)
       .json({ message: 'Job posting created successfully', job: jobToSave });
   } catch (error) {
-    console.error('Error creating job posting:', error);
+    logger.error({ ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress, error: error instanceof Error ? error.message : String(error) }, 'Error creating job posting.');
     if (error instanceof Error) {
       return res
         .status(500)

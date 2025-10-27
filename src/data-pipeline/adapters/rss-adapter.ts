@@ -1,6 +1,7 @@
 import Parser from 'rss-parser';
 import { z } from 'zod';
 import logger from '../utils/logger.js';
+import { fetchPageSource } from '../scraping-client.js';
 
 // Zod schema for robust validation of RSS items
 const RssItemSchema = z.object({
@@ -26,9 +27,10 @@ const parser = new Parser();
 export async function fetchAndParseRss(feedUrl: string): Promise<RssItem[]> {
   const log = logger.child({ adapter: 'rss-adapter', feedUrl });
   try {
-    log.info(`Fetching feed`);
-    const feed = await parser.parseURL(feedUrl);
-    
+    log.info(`Fetching feed using got-scraping`);
+    const xmlString = await fetchPageSource(feedUrl);
+    const feed = await parser.parseString(xmlString);
+
     if (!feed.items || feed.items.length === 0) {
       log.warn(`No items found in feed`);
       return [];

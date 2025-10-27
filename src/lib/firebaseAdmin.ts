@@ -1,11 +1,9 @@
 import admin from 'firebase-admin';
-import fs from 'fs';
-import path from 'path';
 
 
 
 // A promise to hold the initialized admin services.
-let adminPromise: Promise<{ 
+let adminPromise: Promise<{
   admin: typeof admin;
   adminApp: admin.app.App;
   adminDb: admin.firestore.Firestore;
@@ -13,24 +11,7 @@ let adminPromise: Promise<{
 }> | null = null;
 
 async function getServiceAccount(): Promise<admin.ServiceAccount> {
-  // Method 1: Use local JSON file (for local development)
-  try {
-    const keyFilePath = path.join(process.cwd(), 'ai-jobs-spot-92a1f1a8b08e.json');
-    if (fs.existsSync(keyFilePath)) {
-      console.log('Using local service account file for Firebase Admin.');
-      const serviceAccountString = fs.readFileSync(keyFilePath, 'utf8');
-      const serviceAccountJSON = JSON.parse(serviceAccountString);
-      return {
-        clientEmail: serviceAccountJSON.client_email,
-        privateKey: serviceAccountJSON.private_key,
-        projectId: serviceAccountJSON.project_id,
-      } as admin.ServiceAccount;
-    }
-  } catch (e) {
-    console.error('Error reading or parsing local service account file:', e);
-  }
-
-  // Method 2: Use Base64 environment variable (for Vercel/production)
+  // Use Base64 environment variable (for Vercel/production)
   if (process.env.FIREBASE_SERVICE_ACCOUNT_BASE64) {
     try {
       const decodedServiceAccount = Buffer.from(
@@ -51,12 +32,11 @@ async function getServiceAccount(): Promise<admin.ServiceAccount> {
       console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_BASE64:', e);
     }
   }
-  
+
   throw new Error(
-    'Firebase Admin SDK credentials not set or invalid. Please set FIREBASE_SERVICE_ACCOUNT_BASE64 or provide a valid service account JSON file.'
+    'Firebase Admin SDK credentials not set or invalid. Please set FIREBASE_SERVICE_ACCOUNT_BASE64.'
   );
 }
-
 async function initializeAdminApp(): Promise<admin.app.App> {
   const existingApp = admin.apps.find((app) => app?.name === 'ADMIN');
   if (existingApp) {

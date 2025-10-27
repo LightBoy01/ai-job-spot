@@ -1,18 +1,28 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { getFirebaseAdmin } from '../../../lib/firebaseAdmin';
+import crypto from 'crypto';
 
 // A simple secret to prevent unauthorized access to this monitoring endpoint.
 // In a real-world scenario, this should be a more robust, rotating secret stored in environment variables.
-const MONITORING_SECRET =
-  process.env.MONITORING_SECRET || 'default-secret-for-dev';
+const MONITORING_SECRET = process.env.MONITORING_SECRET;
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
   // --- Authentication ---
+  if (!MONITORING_SECRET) {
+    console.error('MONITORING_SECRET environment variable is not set.');
+    return res.status(500).json({ message: 'Server configuration error.' });
+  }
+
   const { secret } = req.query;
-  if (secret !== MONITORING_SECRET) {
+  // Ensure both are strings before converting to Buffer
+  const secretBuffer = Buffer.from(secret as string || '', 'utf8');
+  const monitoringSecretBuffer = Buffer.from(MONITORING_SECRET, 'utf8');
+
+  // Use timingSafeEqual to prevent timing attacks
+  if (secretBuffer.length !== monitoringSecretBuffer.length || !crypto.timingSafeEqual(secretBuffer, monitoringSecretBuffer)) {
     return res.status(401).json({ message: 'Unauthorized' });
   }
 

@@ -92,7 +92,7 @@ export default function Articles({
       const { articles: newFetchedArticles, lastVisible: newLastVisible } = await response.json();
 
       setHasMore(newFetchedArticles.length === ARTICLE_FETCH_LIMIT);
-      setDisplayedArticles(prev => isNewSearch ? newFetchedArticles : [...prev, ...newFetchedArticles.filter(a => !prev.find(p => p.id === a.id))]);
+      setDisplayedArticles(prev => isNewSearch ? newFetchedArticles : [...prev, ...newFetchedArticles.filter((a: SerializedArticleSummary) => !prev.find((p: SerializedArticleSummary) => p.id === a.id))]);
       setLastDocId(newLastVisible);
     } catch (error) {
       console.error('Error fetching articles:', error);

@@ -3,10 +3,9 @@
 // To use it, copy it to `pipeline.config.local.ts` and customize it.
 // IMPORTANT: `pipeline.config.local.ts` is in .gitignore and should NOT be committed.
 
-import { IJobSource, IBriefingSource } from './types.js';
+import { IJobSource } from './types.js';
 import { Source } from '../lib/types.js'; // Assuming this is the type for briefing sources from Firestore
 import { hiringCafeSource } from './sources/hiringCafe.js';
-import { createRssSource } from './sources/rss.js';
 
 // --- Local Job Source Configuration ---
 // This array will be used instead of fetching from the 'job-sources' collection in Firestore.

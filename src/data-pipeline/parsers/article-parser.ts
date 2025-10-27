@@ -1,6 +1,5 @@
 import { gotScraping } from 'got-scraping';
 import TurndownService from 'turndown';
-import path from 'path';
 import { JSDOM } from 'jsdom';
 import { Readability } from '@mozilla/readability';
 import logger from '../utils/logger.js';

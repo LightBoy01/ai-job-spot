@@ -173,12 +173,13 @@ export const getServerSideProps: GetServerSideProps<
       const { postedDate, expirationDate, ...rest } = job;
       return {
         ...rest,
-        postedDate:
-          postedDate && 'toDate' in postedDate
+        postedDate: postedDate
+          ? 'toDate' in postedDate
             ? (postedDate as { toDate: () => Date }).toDate().toISOString()
-            : new Date(postedDate).toISOString(),
+            : new Date(postedDate).toISOString()
+          : null,
         expirationDate: expirationDate
-          ? expirationDate && 'toDate' in expirationDate
+          ? 'toDate' in expirationDate
             ? (expirationDate as { toDate: () => Date }).toDate().toISOString()
             : new Date(expirationDate).toISOString()
           : null,

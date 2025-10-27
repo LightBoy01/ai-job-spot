@@ -4,9 +4,11 @@ import { exec } from 'child_process';
 // This endpoint is called by the Vercel Cron Job scheduler.
 // Its only purpose is to execute our system job worker script.
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  // It's good practice to add some form of protection, even for cron jobs.
-  // Here, we could check for a secret header that only Vercel would know.
-  // For now, we'll keep it simple.
+  const CRON_SECRET = process.env.CRON_SECRET;
+
+  if (!CRON_SECRET || req.headers.authorization !== `Bearer ${CRON_SECRET}`) {
+    return res.status(401).json({ message: 'Unauthorized' });
+  }
 
   console.log('[Cron API] Received request to run system job worker.');
 

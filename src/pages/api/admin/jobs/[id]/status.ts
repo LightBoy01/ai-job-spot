@@ -2,6 +2,12 @@ import type { NextApiResponse } from 'next';
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import * as admin from 'firebase-admin';
+import { z } from 'zod';
+
+// Define a Zod schema for the status update
+const JobStatusSchema = z.object({
+  status: z.enum(['published', 'rejected'], { message: 'Invalid status provided.' }),
+});
 
 export default async function handler(
   req: AuthenticatedNextApiRequest,
@@ -17,15 +23,21 @@ export default async function handler(
   }
 
   const { id } = req.query;
-  const { status } = req.body;
 
   if (typeof id !== 'string') {
     return res.status(400).json({ error: 'Invalid job ID' });
   }
 
-  if (!['published', 'rejected'].includes(status)) {
-    return res.status(400).json({ error: 'Invalid status' });
+  // Validate the request body using Zod
+  const validationResult = JobStatusSchema.safeParse(req.body);
+  if (!validationResult.success) {
+    return res.status(400).json({
+      message: 'Validation failed',
+      details: validationResult.error.flatten().fieldErrors,
+    });
   }
+
+  const { status } = validationResult.data;
 
   try {
     const { adminDb } = await getFirebaseAdmin();

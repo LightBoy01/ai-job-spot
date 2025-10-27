@@ -33,8 +33,16 @@ async function reprocessDlqForSource(sourceName: string) {
 
     const safeSourceName = sanitizeForFilePath(sourceName);
     const sourceDlqDir = path.join(DLQ_DIR, safeSourceName);
+
+    // Security: Ensure the constructed DLQ path is within the main DLQ directory
+    if (!path.resolve(sourceDlqDir).startsWith(path.resolve(DLQ_DIR))) {
+        logger.fatal({ sourceDlqDir }, `[Reprocess] Invalid source name resulted in path traversal attempt. Aborting.`);
+        process.exit(1);
+    }
+
     let files: string[] = [];
     try {
+        // eslint-disable-next-line security/detect-non-literal-fs-filename -- Path is validated above
         files = await fs.readdir(sourceDlqDir);
     } catch (error) {
         if (error instanceof Error && (error as NodeJS.ErrnoException).code === 'ENOENT') {
@@ -55,6 +63,14 @@ async function reprocessDlqForSource(sourceName: string) {
 
     for (const file of files) {
         const filePath = path.join(sourceDlqDir, file);
+
+        // Security: Ensure the file path is within the source-specific DLQ directory
+        if (!path.resolve(filePath).startsWith(path.resolve(sourceDlqDir))) {
+            logger.warn({ filePath }, `[Reprocess] Detected potential path traversal for file. Skipping.`);
+            continue;
+        }
+
+        // eslint-disable-next-line security/detect-non-literal-fs-filename -- Path is validated above
         const fileContent = await fs.readFile(filePath, 'utf-8');
         const dlqItem = JSON.parse(fileContent) as DlqItem;
 
@@ -102,6 +118,8 @@ async function reprocessDlqForSource(sourceName: string) {
                 logger.info({ source: sourceName, file }, `[Reprocess] Successfully reprocessed and wrote file.`);
             }
 
+            // Path is already validated at the top of the loop
+            // eslint-disable-next-line security/detect-non-literal-fs-filename -- Path is validated at loop start
             await fs.unlink(filePath);
             successCount++;
 

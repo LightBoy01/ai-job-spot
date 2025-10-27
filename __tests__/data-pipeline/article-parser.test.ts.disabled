@@ -6,6 +6,16 @@ jest.mock('got-scraping', () => ({
   gotScraping: jest.fn(),
 }));
 
+jest.mock('../../src/data-pipeline/utils/logger', () => ({
+  __esModule: true, // This is important for ES modules
+  default: {
+    info: jest.fn(),
+    warn: jest.fn(),
+    error: jest.fn(),
+    debug: jest.fn(),
+  },
+}));
+
 describe('fetchAndParseArticle', () => {
   // Restore mocks after each test
   afterEach(() => {

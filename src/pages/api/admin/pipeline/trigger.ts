@@ -1,6 +1,13 @@
 import type { NextApiResponse } from 'next';
 import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
 import { validateCsrfToken } from '../../csrf';
+import { z } from 'zod';
+
+// Define a Zod schema for the expected request body
+const PipelineTriggerSchema = z.object({
+  ref: z.string().optional(), // 'ref' is derived from env, but good to validate if present
+  // Add other potential body parameters here if the API is extended
+});
 
 export default async function handler(
   req: AuthenticatedNextApiRequest,
@@ -26,11 +33,22 @@ export default async function handler(
     return res.status(403).json({ message });
   }
 
+  // Validate the request body using Zod
+  const validationResult = PipelineTriggerSchema.safeParse(req.body);
+  if (!validationResult.success) {
+    return res.status(400).json({
+      message: 'Validation failed',
+      details: validationResult.error.flatten().fieldErrors,
+    });
+  }
+
+  const { ref } = validationResult.data;
+
   const githubPat = process.env.GITHUB_PAT;
   const repoOwner = process.env.GITHUB_REPO_OWNER;
   const repoName = process.env.GITHUB_REPO_NAME;
   const workflowId = 'aggregate.yml'; // The name of your workflow file
-  const branch = process.env.VERCEL_GIT_COMMIT_REF || 'main';
+  const branch = ref || process.env.VERCEL_GIT_COMMIT_REF || 'main'; // Use validated ref or fallback
 
   if (!githubPat || !repoOwner || !repoName) {
     const missingVars = [];

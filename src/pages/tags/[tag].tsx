@@ -241,7 +241,7 @@ export const getStaticProps: GetStaticProps<
         jobLevel: job.jobLevel ?? null,
         source: job.source ?? null,
         tags: job.tags ?? [],
-        postedDate: job.postedDate.toISOString(),
+        postedDate: job.postedDate ? job.postedDate.toISOString() : null,
         expirationDate: job.expirationDate ? job.expirationDate.toISOString() : null,
         applicationLink: job.applicationLink, // <-- ADDED THIS LINE
       })),

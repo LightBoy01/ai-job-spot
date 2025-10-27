@@ -21,8 +21,10 @@ export function setCsrfTokenCookie(res: NextApiResponse) {
 // This is the validation middleware function we will import into our protected API routes.
 export function validateCsrfToken(req: NextApiRequest): Promise<void> {
   return new Promise((resolve, reject) => {
+    // eslint-disable-next-line security/detect-object-injection -- CSRF_HEADER_NAME is a hardcoded constant, not user-controlled.
     const tokenFromHeader = req.headers[CSRF_HEADER_NAME] as string;
     const cookies = parse(req.headers.cookie || '');
+    // eslint-disable-next-line security/detect-object-injection -- CSRF_COOKIE_NAME is a hardcoded constant, not user-controlled.
     const tokenFromCookie = cookies[CSRF_COOKIE_NAME];
 
     if (!tokenFromHeader || !tokenFromCookie || tokenFromHeader !== tokenFromCookie) {

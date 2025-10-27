@@ -53,7 +53,9 @@ export function validatePayload(
 ): Record<string, string> {
   const errors: Record<string, string> = {};
 
-  for (const key in schema) {
+  /* eslint-disable security/detect-object-injection */
+  // This is safe because the keys being iterated are from the developer-defined schema, not user input.
+  for (const key of Object.keys(schema)) {
     const rules = schema[key];
     const value = payload[key];
 
@@ -66,6 +68,7 @@ export function validatePayload(
       }
     }
   }
+  /* eslint-enable security/detect-object-injection */
 
   return errors;
 }
@@ -106,8 +109,10 @@ export const isFutureDate =
 export const isAfter =
   (otherField: string, otherFieldLabel: string): ValidationRule =>
   (value: unknown, payload?: Record<string, unknown>) => {
-    if (!value || !payload || !payload[otherField]) return null;
+    // eslint-disable-next-line security/detect-object-injection
+    if (!value || !payload || !Object.prototype.hasOwnProperty.call(payload, otherField) || !payload[otherField]) return null;
     const date = new Date(value as string);
+    // eslint-disable-next-line security/detect-object-injection
     const otherDate = new Date(payload[otherField] as string);
     if (isNaN(date.getTime()) || isNaN(otherDate.getTime()))
       return 'Invalid date format for comparison.';
@@ -122,6 +127,7 @@ export const slugify = (str: string) => {
   const from = 'àáäâèéëêìíïîòóöôùúüûñç·/_,:;';
   const to = 'aaaaeeeeiiiioooouuuunc------';
   for (let i = 0, l = from.length; i < l; i++) {
+    // eslint-disable-next-line security/detect-non-literal-regexp -- The regex pattern is constructed from a hardcoded, safe string.
     str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
   }
 

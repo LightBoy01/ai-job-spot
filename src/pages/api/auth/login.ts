@@ -1,6 +1,8 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { serialize } from 'cookie';
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
+import { rateLimit } from '@/lib/rateLimit'; // Import the rateLimit function
+import logger from '@/data-pipeline/utils/logger'; // Import the logger
 
 export default async function handler(
   req: NextApiRequest,
@@ -11,9 +13,16 @@ export default async function handler(
     return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 
+  // Apply rate limiting
+  if (!rateLimit(req)) {
+    logger.warn({ ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress }, 'Rate limit exceeded for login attempt.');
+    return res.status(429).json({ message: 'Too Many Requests' });
+  }
+
   const { idToken } = req.body;
 
   if (!idToken) {
+    logger.warn({ ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress }, 'Login attempt without ID Token.');
     return res.status(400).json({ message: 'ID Token is required' });
   }
 
@@ -36,10 +45,11 @@ export default async function handler(
       })
     );
 
+    logger.info({ uid: (await adminAuth.verifySessionCookie(sessionCookie)).uid, ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress }, 'User logged in successfully.');
     return res.status(200).json({ message: 'Logged in successfully' });
   } catch (error) {
     // If token verification fails, createSessionCookie throws an error.
-    console.error('Authentication error:', error);
+    logger.warn({ ip: req.headers['x-forwarded-for'] || req.socket.remoteAddress, error: error instanceof Error ? error.message : String(error) }, 'Authentication failed for login attempt.');
     return res
       .status(401)
       .json({ message: 'Authentication failed. Invalid token.' });

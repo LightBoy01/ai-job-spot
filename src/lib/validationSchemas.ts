@@ -20,7 +20,8 @@ export const ArticleSchema = z.object({
     .string()
     .min(1, 'URL Slug is required.')
     .regex(
-      /^[a-z0-9]+(?:-[a-z0-9]+)*$/,
+      // eslint-disable-next-line security/detect-unsafe-regex -- This is a standard and safe slug regex pattern.
+      /^[a-z0-9]+(-[a-z0-9]+)*$/,
       'URL Slug must be lowercase, alphanumeric, and use hyphens for spaces (e.g., my-awesome-article).'
     ),
   contentType: z.enum(['editorial', 'briefing']).default('editorial'),

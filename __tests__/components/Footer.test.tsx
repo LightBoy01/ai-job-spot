@@ -14,7 +14,8 @@ describe('Footer Component', () => {
 
   it('should render the section headings', () => {
     expect(screen.getByText('Quick Links')).toBeInTheDocument();
-    expect(screen.getByText('Legal & Contact')).toBeInTheDocument();
+    expect(screen.getByText('Company')).toBeInTheDocument();
+    expect(screen.getByText('Connect')).toBeInTheDocument();
   });
 
   it('should render quick links correctly', () => {

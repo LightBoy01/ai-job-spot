@@ -76,9 +76,10 @@ export async function loadAndValidateSourceConfigs<T extends object>(
     for (const rawConfig of rawConfigs) {
         // Firestore returns Timestamps, Zod often expects Dates. We need to convert before validation.
         const dataToValidate = { ...rawConfig };
-        for (const key in dataToValidate) {
-            if (dataToValidate[key] instanceof Timestamp) {
-                dataToValidate[key] = dataToValidate[key].toDate();
+        for (const key of Object.keys(dataToValidate)) {
+            const value = dataToValidate[key as keyof typeof dataToValidate];
+            if (value instanceof Timestamp) {
+                dataToValidate[key as keyof typeof dataToValidate] = value.toDate();
             }
         }
 

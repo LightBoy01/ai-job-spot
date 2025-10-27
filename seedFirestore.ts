@@ -1,14 +1,15 @@
-import { getFirebaseAdmin, admin } from '@/lib/firebaseAdmin.ts';
-import type { JobPosting } from './src/lib/types.ts';
+import { getFirebaseAdmin, admin } from './src/lib/firebaseAdmin.ts';
+import type { JobPosting } from './src/lib/types.js';
 import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 import DOMPurify from 'isomorphic-dompurify';
 import { z } from 'zod';
+import { articleSchema, jobSchema } from './src/lib/schemas';
 import {
   notifyBatch,
-} from './scripts/indexing_api_client.ts';
+} from './scripts/indexing_api_client.js';
 import dotenv from 'dotenv';
 import { exec } from 'child_process';
 import { promisify } from 'util';
@@ -156,61 +157,6 @@ export async function processDirectory(
         finalData.contentBody = DOMPurify.sanitize(await marked(processedContent));
       }
 
-      const articleSchema = z.object({
-        slug: z.string(),
-        contentType: z.enum(['editorial', 'briefing']),
-        sourceName: z.string().optional(),
-        originalUrl: z.string().url().optional(),
-        title: z.string(),
-        author: z.string(),
-        publishDate: z.union([z.date(), z.string().pipe(z.coerce.date())]),
-        issueNo: z.number(),
-        volumeNo: z.number(),
-        tags: z.array(z.string()).optional(),
-        imageUrl: z.string().optional(),
-        hub: z.string().optional(),
-        excerpt: z.string(),
-        author_take_question1: z.string().optional(),
-        author_take_answer1: z.string().optional(),
-        author_take_question2: z.string().optional(),
-        author_take_answer2: z.string().optional(),
-        contentBody: z.string().optional(),
-      });
-
-      const jobSchema = z.object({
-        id: z.string(),
-        title: z.string(),
-        company: z.string(),
-        location: z.string(),
-        applicationLink: z.string().url(),
-        postedDate: z.union([z.date(), z.string().pipe(z.coerce.date())]),
-        expirationDate: z.union([z.date(), z.string().pipe(z.coerce.date())]).nullable().optional(),
-        tags: z.array(z.string()).optional(),
-        status: z.string(),
-        jobLevel: z.string().nullable().optional(),
-        employeeRole: z.string().nullable().optional(),
-        salaryRange: z.string().nullable().optional(),
-        hasSalary: z.boolean().optional(),
-        source: z.string().nullable().optional(),
-        sourceUrl: z.string().url().nullable().optional(),
-        verificationDate: z.union([z.date(), z.string().pipe(z.coerce.date())]).nullable().optional(),
-        glassdoorLink: z.string().url().nullable().optional(),
-        crunchbaseLink: z.string().url().nullable().optional(),
-        companyLogoUrl: z.string().nullable().optional(),
-        applicationExperience: z.string().optional(),
-        excerpt: z.string(),
-        description: z.string().optional(),
-        responsibilities: z.array(z.string()).optional(),
-        qualifications: z.array(z.string()).optional(),
-        story_question1: z.string().optional(),
-        story_answer1: z.string().optional(),
-        story_question2: z.string().optional(),
-        story_answer2: z.string().optional(),
-        story_question3: z.string().optional(),
-        story_answer3: z.string().optional(),
-        companyCulture: z.string().optional(),
-      });
-
       try {
         if (contentType === 'jobs') jobSchema.parse(finalData);
         else articleSchema.parse(finalData);
@@ -245,7 +191,7 @@ export async function syncDeletions(
 ): Promise<string[]> {
   console.log(`Syncing deletions for collection: ${collectionRef.path}...`);
   const remoteSnapshot = await collectionRef.select().get();
-  const remoteIds = new Set(remoteSnapshot.docs.map((doc) => doc.id));
+  const remoteIds = new Set(remoteSnapshot.docs.map((doc: { id: string }) => doc.id) as string[]);
   const idsToDelete = [...remoteIds].filter((id) => !localIds.has(id));
   const urlsToDelete: string[] = [];
 
@@ -393,8 +339,8 @@ export async function seedFirestore() {
   const processedJobs = await processDirectory(jobsDir, 'jobs');
   const processedArticles = await processDirectory(articlesDir, 'articles');
 
-  const localJobIds = new Set(processedJobs.map((j) => j.id).filter(Boolean));
-  const localArticleSlugs = new Set(processedArticles.map((a) => a.slug).filter(Boolean));
+  const localJobIds = new Set(processedJobs.map((j: { id: string }) => j.id).filter(Boolean));
+  const localArticleSlugs = new Set(processedArticles.map((a: { slug: string }) => a.slug).filter(Boolean));
 
   const deletedJobUrls = await syncDeletions(db, jobsCollection, localJobIds, 'jobs');
   const deletedArticleUrls = await syncDeletions(db, articlesCollection, localArticleSlugs, 'articles');

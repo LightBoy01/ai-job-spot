@@ -11,7 +11,6 @@ import { getJobIdFromRawItem, generateBriefingId } from './utils/id-generation.j
 import { IJobSource, StandardJob } from './types.js';
 import { getJobSources } from './pipeline.config.jobs.js';
 import { writeJobFile, writeBriefingFile } from './writer.js';
-import { normalizeCompanyName, normalizeJobTitle, normalizeLocation } from '../lib/normalization.js';
 
 // Briefing-specific imports
 import { IBriefingSource, StandardBriefing } from './types.js';
@@ -28,14 +27,23 @@ const ARCHIVE_DIR = path.resolve(process.cwd(), 'scripts', 'archive');
 async function getLocalFilePaths(directory: string, sourceName: string): Promise<Map<string, string>> {
     const localFiles = new Map<string, string>();
     try {
+        // eslint-disable-next-line security/detect-non-literal-fs-filename -- Path is trusted
         const files = await fs.readdir(directory);
         for (const file of files) {
             if (!file.endsWith('.md')) continue;
 
             const filePath = path.join(directory, file);
+
+            // Security: Ensure the resolved path is still within the intended directory
+            if (!path.resolve(filePath).startsWith(path.resolve(directory))) {
+                logger.warn({ file: filePath }, `[Orchestrator] Detected potential path traversal. Skipping file.`);
+                continue;
+            }
+
             let filehandle;
             try {
                 // Read only the first 1024 bytes to capture the frontmatter
+                // eslint-disable-next-line security/detect-non-literal-fs-filename -- Path is validated above
                 filehandle = await fs.open(filePath, 'r');
                 const buffer = Buffer.alloc(1024);
                 const { bytesRead } = await filehandle.read(buffer, 0, 1024, 0);
@@ -115,6 +123,14 @@ async function runSource<T extends StandardJob | StandardBriefing>(config: Sourc
                     logger.info({ file: fileName }, `[DRY RUN] Would archive stale item.`);
                 } else {
                     const newPath = path.join(archiveDir, fileName);
+
+                    // Security: Double-check that paths are within their intended directories before renaming
+                    if (!path.resolve(localPath).startsWith(path.resolve(outputDir)) || !path.resolve(newPath).startsWith(path.resolve(archiveDir))) {
+                        sourceLogger.error({ localPath, newPath }, `[Sync] Detected potential path traversal during archive. Aborting rename.`);
+                        continue;
+                    }
+
+                    // eslint-disable-next-line security/detect-non-literal-fs-filename -- Paths are validated above
                     await fs.rename(localPath, newPath);
                     sourceLogger.info({ file: fileName }, `[Sync] Archived stale item.`);
                 }

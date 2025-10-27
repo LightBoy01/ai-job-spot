@@ -2,6 +2,8 @@ import { z } from 'zod';
 import { IJobSource } from './types.js';
 import { loadAndValidateSourceConfigs } from './utils/getConfig.js';
 import { sourceAdapterFactory } from './source-adapter-factory.js';
+import { loadSourcesFromCache, saveSourcesToCache } from './utils/source-cache.js';
+import logger from './utils/logger.js';
 
 // --- Individual Schema Definitions for each adapter type ---
 
@@ -61,12 +63,28 @@ const JobSourceConfigSchema = z.discriminatedUnion("adapter", [
  * @returns A promise that resolves to an array of fully configured and validated job sources.
  */
 export async function getJobSources(): Promise<IJobSource[]> {
+  const forceRefresh = process.argv.includes('--force-refresh');
+
+  if (!forceRefresh) {
+    const cachedSources = await loadSourcesFromCache();
+    if (cachedSources) {
+      logger.info('[Config] Using cached job sources.');
+      const sources = cachedSources
+        .map(config => sourceAdapterFactory.createSource(config))
+        .filter((source): source is IJobSource => source !== null && 'fetchJobs' in source);
+      return sources;
+    }
+  }
+
+  logger.info('[Config] Fetching job sources from Firestore.');
   const jobSourceConfigs = await loadAndValidateSourceConfigs(
     'jobs',
     'job-sources',
     JobSourceConfigSchema,
     [['enabled', '==', true]]
   );
+
+  await saveSourcesToCache(jobSourceConfigs);
 
   const sources = jobSourceConfigs
     .map(config => sourceAdapterFactory.createSource(config))

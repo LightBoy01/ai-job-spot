@@ -66,7 +66,10 @@ const EditArticlePage: React.FC<EditArticleProps> = ({ article }) => {
     if (!formData.author) newErrors.author = 'Author is required.';
     if (!formData.slug) {
       newErrors.slug = 'URL Slug is required.';
-    } else if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(formData.slug)) {
+    } else if (
+      // eslint-disable-next-line security/detect-unsafe-regex -- This is a standard and safe slug regex pattern.
+      !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(formData.slug)
+    ) {
       newErrors.slug =
         'URL Slug must be lowercase, alphanumeric, and use hyphens for spaces (e.g., my-awesome-article).';
     }
