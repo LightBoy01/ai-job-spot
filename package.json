@@ -24,6 +24,8 @@
     "test": "jest --testPathIgnorePatterns=__tests__/pages/api --testPathIgnorePatterns=src/components/Footer.test.tsx",
     "test:api": "jest --config=jest.config.api.cjs __tests__/pages/api",
     "test:scripts": "jest __tests__/scripts",
+    "indexing:status": "ts-node scripts/indexing-client.ts status",
+    "indexing:submit": "ts-node scripts/indexing-client.ts submit",
     "test:indexing": "ts-node scripts/test_indexing_api.ts",
     "create": "ts-node scripts/create_content.ts",
     "aggregate": "tsc --project tsconfig.pipeline.json && node dist/pipeline/run_aggregation.js",
@@ -50,7 +52,7 @@
     "repair-content": "ts-node scripts/repair-content.ts",
     "sources:list": "ts-node scripts/manage-sources.ts list",
     "sources:add": "ts-node scripts/manage-sources.ts add",
-    "tweet": "DRY_RUN=false ./node_modules/.bin/ts-node scripts/social/post-to-twitter.ts",
+    "tweet": "DRY_RUN=false ts-node --project tsconfig.json --cwd . scripts/social/post-to-twitter.ts",
     "tweet:dry-run": "./node_modules/.bin/ts-node scripts/social/post-to-twitter.ts"
   },
   "dependencies": {
