@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run Twitter Posting Script
-        run: ./node_modules/.bin/ts-node scripts/social/post-to-twitter.ts
+        run: npm run tweet
         env:
           DRY_RUN: 'false'
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
