@@ -1,10 +1,11 @@
 name: Post to Social Media
 
-on:
-  schedule:
-    # Runs every 4 hours
-    - cron: '0 */4 * * *'
-  workflow_dispatch: # Allows manual triggering
+# Temporarily disabled by commenting out the 'on' trigger.
+# on:
+#   schedule:
+#     # Runs every 4 hours
+#     - cron: '0 */4 * * *'
+#   workflow_dispatch: # Allows manual triggering
 
 jobs:
   post-to-twitter:
@@ -22,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Debug Working Directory
-        run: pwd
+      - name: Debug File Structure
+        run: ls -R
 
       - name: Run Twitter Posting Script
         run: npm run tweet
