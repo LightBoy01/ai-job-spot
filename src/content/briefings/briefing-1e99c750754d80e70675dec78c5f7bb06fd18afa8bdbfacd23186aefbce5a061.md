@@ -8,7 +8,7 @@ contentType: briefing
 sourceName: AI News | VentureBeat
 originalUrl: >-
   https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in
-status: pending_approval
+status: published
 tags:
   - AI
   - DataDecisionMakers

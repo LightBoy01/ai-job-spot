@@ -10,7 +10,7 @@ contentType: briefing
 sourceName: Engadget
 originalUrl: >-
   https://www.engadget.com/science/space/blue-origin-scrubs-new-glenns-second-flight-due-to-bad-weather-214349212.html?src=rss
-status: pending_approval
+status: published
 tags:
   - Science
   - Space &amp; Astronomy

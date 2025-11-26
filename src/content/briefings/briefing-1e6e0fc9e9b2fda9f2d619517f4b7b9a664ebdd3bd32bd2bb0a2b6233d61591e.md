@@ -10,7 +10,7 @@ contentType: briefing
 sourceName: AI – AI-TechPark
 originalUrl: >-
   https://ai-techpark.com/vast-data-partners-with-coreweave-in-1-17b-ai-infrastructure-deal/
-status: pending_approval
+status: published
 tags:
   - AI
   - AI Infrastructure

@@ -10,7 +10,7 @@ contentType: briefing
 sourceName: Get AI Insights For Your Organization From Forrester
 originalUrl: >-
   https://www.forrester.com/blogs/dont-fear-being-odd-embrace-observability-driven-development-for-faster-safer-innovation/
-status: pending_approval
+status: published
 tags:
   - Agile
   - AI Insights

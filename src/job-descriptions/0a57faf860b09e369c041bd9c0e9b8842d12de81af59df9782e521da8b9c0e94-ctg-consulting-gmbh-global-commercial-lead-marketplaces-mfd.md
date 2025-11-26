@@ -9,7 +9,7 @@ postedDate: '2025-11-21T16:31:53.000Z'
 expirationDate: null
 tags:
   - Strategic Marketing
-status: pending_approval
+status: published
 jobLevel: Lead
 employeeRole: Lead
 salaryRange: null

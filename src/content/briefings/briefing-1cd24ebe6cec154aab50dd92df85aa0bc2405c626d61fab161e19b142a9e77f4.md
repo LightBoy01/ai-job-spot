@@ -10,7 +10,7 @@ contentType: briefing
 sourceName: THE DECODER
 originalUrl: >-
   https://the-decoder.com/the-white-house-has-paused-a-federal-order-that-would-have-overridden-state-level-ai-regulations/
-status: pending_approval
+status: published
 tags:
   - AI and society
   - Artificial Intelligence

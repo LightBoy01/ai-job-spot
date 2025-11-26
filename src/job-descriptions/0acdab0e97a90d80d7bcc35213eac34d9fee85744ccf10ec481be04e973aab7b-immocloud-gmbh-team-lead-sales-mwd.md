@@ -10,7 +10,7 @@ expirationDate: null
 tags:
   - Management
   - Team Leader
-status: pending_approval
+status: published
 jobLevel: Lead
 employeeRole: Lead
 salaryRange: null

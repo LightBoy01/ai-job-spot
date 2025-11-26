@@ -7,7 +7,7 @@ publishDate: 2025-11-10T05:00:00.000Z
 contentType: briefing
 sourceName: cs.LG updates on arXiv.org
 originalUrl: 'https://arxiv.org/abs/2509.22426'
-status: pending_approval
+status: published
 tags:
   - cs.LG
   - cs.GT
