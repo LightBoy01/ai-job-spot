@@ -9,48 +9,50 @@ postedDate: '2025-11-25T09:31:45.000Z'
 expirationDate: null
 tags:
   - Information Systems
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/acoris-ag/system-architect-darmstadt-6393
 companyLogoUrl: null
+companyCulture: >-
+  acoris AG fosters a flexible, collaborative, and appreciative culture with a
+  strong emphasis on genuine teamwork and flat hierarchies. They actively
+  promote employee development through continuous training, modern tools,
+  exciting projects, and paid Microsoft certifications, all while ensuring
+  work-life balance with trust-based working hours and location.
+story_question1: >-
+  How does acoris AG ensure that complex M365 migration and integration projects
+  for diverse mid-sized clients truly deliver tangible business value, beyond
+  just technical implementation?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what we do
+  here. At acoris, it's never just about the 'tech for tech's sake.' We pride
+  ourselves on deeply understanding our clients' unique business challenges and
+  then tailoring M365 solutions that aren't just robust, but genuinely
+  transformative. Our platform and consulting teams work hand-in-hand, often
+  co-creating concepts directly with the client's IT and decision-makers. It's a
+  collaborative dance where every team member, from concept to implementation,
+  is empowered to contribute ideas and ensure the solution truly fits. We see
+  ourselves as long-term partners, not just vendors, and the real value comes
+  from seeing our clients thrive with the modern workplaces we help them build.
+story_question2: >-
+  With the rapid evolution of Microsoft Cloud Services, how does acoris AG
+  ensure its team members are continuously at the cutting edge, both
+  individually and as a collective knowledge base?
+story_answer2: >-
+  The tech landscape is always moving, especially with Microsoft Cloud, and we
+  embrace that challenge! Learning isn't just a benefit here; it's ingrained in
+  our culture. We offer regular, paid advanced training and fully support
+  Microsoft certifications – it's crucial for us to be experts for our clients.
+  But beyond formal training, it's the daily collaboration and the 'Duz-Kultur'
+  (informal address) that makes the difference. We have a very flat hierarchy,
+  so sharing knowledge isn't just encouraged, it's spontaneous. You'll find
+  yourself in continuous exchange with team leads, sharing insights from
+  different projects, and collectively cracking those 'hard nuts.' It's a
+  dynamic environment where curiosity is celebrated, and everyone's input
+  genuinely shapes our evolving service portfolio.
 ---
-Die acoris AG ist ein innovativer IT-Dienstleister rund um Microsoft 365 und moderne Zusammenarbeit.
-
-Dich erwarten flexible Arbeitszeiten, echtes Teamwork und eine offene, wertschätzende Unternehmenskultur. Wir fördern deine Entwicklung aktiv – mit Weiterbildung, modernen Tools und spannenden Projekten.
-
-Aufgaben
---------
-
-*   Du entwickelst mit an Konzepten für die Implementierung und den Betrieb von Lösungen auf Basis der Microsoft M365 Plattform
-*   Du stehst im direkten Dialog mit IT-Mitarbeitenden und Entscheidern spannender Mittelstandsunternehmen und realisierst die entwickelten Konzepte gemeinsam mit den Kollegen aus unserem Plattform- und Consulting-Team
-*   Du arbeitest in Projekten wie bspw.: Überführung einer on premise Infrastruktur in eine Modern Workplace Architektur auf Basis M365 oder in der Zusammenführung, Aufspaltung oder Migration von M365 Tenants
-*   Du erarbeitest Dir kontinuierlich neues Wissen im Betrieb und der Absicherung von Kundeninfrastrukturen basierend auf den Microsoft Cloud Services
-*   Du stehst im kontinuierlichen Austausch mit unseren Teamleads im Consulting und Development zur Weiterentwicklung unseres Lösungs- und Leistungsportfolios
-
-Qualifikation
--------------
-
-*   Du arbeitest seit mehreren Jahren mit Freude in kleinen Teams mit starkem Fokus auf die Lösung infrastruktureller Herausforderungen und Probleme im Microsoft-Umfeld für Kunden im Mittelstand
-*   Dich reizen anspruchsvolle technische Aufgaben rund um MS Serversysteme, Netzwerk und die MS Cloud (O365 / D365 / Powerplattform / Azure)
-*   Du liebst es im Team mit anderen technische Fragestellungen zu lösen und harte Nüsse zu knacken
-*   Du bist neugierig auf den nächsten Schritt in einem neuen, technologisch führenden Umfeld und möchtest dich mit deinem Wissen bei uns einbringen und weiterentwickeln
-*   Du hast ein Studium oder eine Berufsausbildung im Informatik-Bereich erfolgreich abgeschlossen, mindestens 4 Jahre Berufserfahrung und verfügst über sichere Deutschkenntnisse auf mindestens C1/2-Niveau
-
-Benefits
---------
-
-*   Arbeiten bei einem langfristigen Microsoft-Partner und einem der besten IT-Dienstleister Deutschlands
-*   Vertrauensarbeitszeit und Vertrauensarbeitsort – inkl. Eventlocation in Mallorca
-*   Flexible Arbeitszeiten | Firmenlaptop und Firmenhandy
-*   Unterstützung Betriebliche Altersvorsorge | Firmenevents | Givve Card | kostenlose Parkplätze | kostenlose Getränke | regelmäßige bezahlte Weiterbildungen
-*   spannende Aufgaben | Weiterentwicklung | bezahlte Microsoft-Zertifizierungen
-*   Teamspirit | Duz-Kultur | partnerschaftliche Zusammenarbeit ohne Hierarchiegrenzen
-*   Wir arbeiten mit den Technologien: Microsoft Cloud Services, M365 Services, Power Platform, SharePoint on premise und den Projektmanagementmethoden PMI, Scrum sowie ITIL.
-
-Wir freuen uns auf Deine Bewerbung!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nacoris AG is an innovative IT service provider specializing in Microsoft 365 and modern collaboration solutions. They are seeking a dedicated individual to co-develop and implement M365 solutions for exciting mid-sized companies. This role offers flexible working hours, genuine teamwork, and an open, appreciative corporate culture that actively promotes professional development through continuous training, modern tools, and engaging projects. The company is a long-term Microsoft partner and recognized as one of Germany's best IT service providers. They utilize technologies such as Microsoft Cloud Services, M365 Services, Power Platform, SharePoint on-premise, and project management methods like PMI, Scrum, and ITIL.\n\n### Responsibilities\n- Co-develop concepts for the implementation and operation of solutions based on the Microsoft M365 platform.\n- Engage in direct dialogue with IT employees and decision-makers of exciting medium-sized companies, realizing developed concepts together with colleagues from the platform and consulting team.\n- Work on projects such as migrating on-premise infrastructure to an M365-based Modern Workplace architecture, or consolidating, splitting, or migrating M365 tenants.\n- Continuously acquire new knowledge in the operation and security of customer infrastructures based on Microsoft Cloud Services.\n- Maintain continuous exchange with team leads in Consulting and Development to further evolve the solution and service portfolio.\n\n### Qualifications\n- Several years of joyful experience working in small teams with a strong focus on solving infrastructural challenges and problems in the Microsoft environment for medium-sized customers.\n- Enthusiasm for demanding technical tasks related to MS server systems, networking, and the MS Cloud (O365 / D365 / Power Platform / Azure).\n- A passion for solving technical questions collaboratively in a team and tackling complex challenges.\n- Curiosity about the next step in a new, technologically leading environment, eager to contribute knowledge and further develop within the company.\n- Successfully completed a degree or vocational training in computer science, with at least 4 years of professional experience, and strong German language skills (C1/2 level minimum).\n\n### Author's Take\nThis is an excellent opportunity for a skilled Mid-Senior IT professional who thrives on solving complex Microsoft infrastructure challenges and wants to make a tangible impact for mid-sized clients. acoris AG stands out with its commitment to employee growth, offering regular paid training and Microsoft certifications, alongside a highly collaborative and trust-based work environment (including remote work options and flexible hours). The emphasis on 'Duz-Kultur' and flat hierarchies suggests a truly supportive and engaging team dynamic where your contributions are valued. If you have a solid background in Microsoft Cloud Services and a proactive learning mindset, this role provides a fantastic platform for continuous development and exciting project work within a top-tier IT service provider. Plus, the mention of an 'event location in Mallorca' hints at a fun, engaging company culture beyond just the daily work!
