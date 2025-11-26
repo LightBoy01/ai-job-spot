@@ -81,4 +81,4 @@ Dein Praktikum kannst du bei uns ab einer Dauer von 3 Monaten absolvieren. Bitte
 
 Bei uns zählt die fachliche Qualifikation, das Talent und die Persönlichkeit, unabhängig von kultureller und sozialer Herkunft, Geschlechtsidentität, Hautfarbe, Alter, Religion, Weltanschauung, sexueller Orientierung oder Behinderung. Wir freuen uns besonders über Bewerbungen, die die Vielfalt unseres Teams kontinuierlich bereichern und einen Perspektivwechsel fördern und verstärken. Bewerbungen von strukturell diskriminierten Menschen sind deshalb ausdrücklich erwünscht und werden besonders berücksichtigt.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -1,6 +1,6 @@
 ---
 id: 61509461185029a6591dbb4bada81f991c995f54ca448f6176c5aeef2f6994c9
-title: Debitorenbuchhalter / Finanzbuchhalter (m/w/d) | 40.000-55.000 Jahresgehalt
+title: Debitorenbuchhalter / Finanzbuchhalter (m/w/d) | 40.000-55.000€ Jahresgehalt
 company: Riverstate Premium Recruiting
 location: Hamburg
 applicationLink: >-

@@ -64,4 +64,4 @@ Du erhältst einen praxisnahen Einblick in agile Entwicklungsprozesse, kannst ak
 
 Wenn Du Lust auf eine Veränderung hast, ruf uns einfach an. Gerne kannst du dir auch ein erstes Bild über unsere Plattform machen, oder uns deine Fragen senden.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

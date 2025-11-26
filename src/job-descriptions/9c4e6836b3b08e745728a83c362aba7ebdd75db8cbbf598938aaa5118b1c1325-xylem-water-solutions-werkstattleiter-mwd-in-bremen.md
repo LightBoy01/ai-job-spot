@@ -71,4 +71,4 @@ Für Rückfragen steht Ihnen Ward Barbar, Corporate Recruiter, gerne unter +49 1
 
 Xylem ist ein Arbeitgeber, der Chancengleichheit fördert. Wir möchten, dass sich Menschen unabhängig von ihrer Nationalität, Hautfarbe, Religion, ethnischen Herkunft, Geschlecht, sexuellen Orientierung, Geschlechtsidentität oder -ausdruck, Alter, Behinderung oder anderer gesetzlich geschützten Merkmale nicht nur bei Xylem, sondern überall auf der Welt zu Hause fühlen. Für uns bedeuten Vielfalt, Gleichstellung und Teilhabe mehr als nur eine Richtlinie oder eine Reihe von Methoden. Vielfalt, Gleichstellung und Teilhabe sind grundlegende Bestandteile unserer Unternehmenskultur und ein Schlüssel zu langfristigem Wachstum.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

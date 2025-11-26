@@ -60,4 +60,4 @@ Benefits
 **Klingt spannend?**  
 Bei ecowindow bist du Teil eines Unternehmens, das Nachhaltigkeit und Innovation großschreibt. Wir geben dir den Freiraum, deine Ideen einzubringen, und bieten dir gleichzeitig die Sicherheit einer langfristigen Perspektive.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

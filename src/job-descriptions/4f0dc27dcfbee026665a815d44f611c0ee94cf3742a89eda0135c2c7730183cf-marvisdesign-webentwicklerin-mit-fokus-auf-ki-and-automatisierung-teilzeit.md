@@ -58,4 +58,4 @@ Du solltest richtig gut sein in dem, was du tust – und Lust haben, neue Dinge 
 
 Wenn du dich in dieser Rolle siehst, dann schreib uns. Persönlich, formlos oder mit Portfolio – wir freuen uns auf deine Nachricht an ----- design
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

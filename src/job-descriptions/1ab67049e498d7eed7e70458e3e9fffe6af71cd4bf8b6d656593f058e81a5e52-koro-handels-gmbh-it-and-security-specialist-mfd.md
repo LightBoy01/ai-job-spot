@@ -64,4 +64,4 @@ Sounds good?
 
 Then send us your application and all other relevant documents (CV and motivation letter) via our website. We are looking for team members, not just co-workers! We are curious to know who you are and what moves you, so feel free to tell us already in a few introductory sentences.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

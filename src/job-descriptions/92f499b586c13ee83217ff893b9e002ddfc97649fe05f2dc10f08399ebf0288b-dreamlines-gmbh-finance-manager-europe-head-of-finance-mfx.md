@@ -64,4 +64,4 @@ Benefits
 *   Regular team events and company celebrations
 *   Complete hardware package that we deliver to your home
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

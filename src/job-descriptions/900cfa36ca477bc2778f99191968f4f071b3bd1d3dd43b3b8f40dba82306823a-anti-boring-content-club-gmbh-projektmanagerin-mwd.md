@@ -65,4 +65,4 @@ Bist du bereit für den coolsten Job, den du jemals hattest? Dann zeig uns, was 
 
 **_XOXO - der Club._**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

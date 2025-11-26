@@ -57,4 +57,4 @@ Benefits
 
 Schließe dich unserem dynamischen Team als Prüfungsleiter für die Wirtschaftsprüfung an und erlebe persönliche Beratung auf Augenhöhe, fachliche Exzellenz und ein modernes Arbeitsumfeld in Hamburg. Werde Teil von NPP!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

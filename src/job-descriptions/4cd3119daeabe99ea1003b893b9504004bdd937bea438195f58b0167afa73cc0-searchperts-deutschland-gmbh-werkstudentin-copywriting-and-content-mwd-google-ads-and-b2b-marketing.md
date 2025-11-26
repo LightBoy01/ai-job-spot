@@ -54,4 +54,4 @@ Wenn du beim Lesen mehrfach gedacht hast: ‚Das bin ich‘, dann bewirb dich je
 
 Schick uns einfach deinen Lebenslauf mit Anschreiben + 1–2 kurzen Schreibproben zu.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

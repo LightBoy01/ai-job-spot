@@ -52,4 +52,4 @@ Benefits
 *   **Attraktives Gesamtpaket** – Zuschüsse für Kita, ÖPNV und VWL, betriebliche Altersvorsorge, Corporate Benefits.
 *   **Gesundheit & Teamgeist** – EGYM Wellpass, BusinessBike und abwechslungsreiche Firmenevents von Outdoor bis Offsite.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

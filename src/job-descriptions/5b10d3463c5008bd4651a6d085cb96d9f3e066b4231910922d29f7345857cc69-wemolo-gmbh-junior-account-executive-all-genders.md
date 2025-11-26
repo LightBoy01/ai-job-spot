@@ -69,4 +69,4 @@ Falls du Fragen hast, schreibe gerne an Elisa Fürter unter .
 
 Ready to own (y)our growth?
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

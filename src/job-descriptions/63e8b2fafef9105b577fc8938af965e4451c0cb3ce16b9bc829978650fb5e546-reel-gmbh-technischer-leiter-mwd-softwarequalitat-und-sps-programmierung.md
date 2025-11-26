@@ -66,4 +66,4 @@ Benefits
 **Ihre persönliche Ansprechpartnerin:** Stephanie Diener  
 Tel.: +49 (0)931 404 73-12 44
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

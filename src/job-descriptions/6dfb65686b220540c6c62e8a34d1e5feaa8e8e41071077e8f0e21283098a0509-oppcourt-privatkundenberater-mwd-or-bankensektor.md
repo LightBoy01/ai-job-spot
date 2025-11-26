@@ -48,4 +48,4 @@ Benefits
 
 Wir freuen uns auf Ihre Bewerbung – im nächsten Schritt stellen wir Ihnen ein paar kurze Fragen zu Ihren Qualifikationen, überwiegend im Ja/Nein-Format.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

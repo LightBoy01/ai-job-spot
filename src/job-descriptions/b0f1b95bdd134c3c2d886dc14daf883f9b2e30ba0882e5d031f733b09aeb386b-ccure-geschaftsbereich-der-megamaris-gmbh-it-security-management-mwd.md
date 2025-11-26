@@ -54,4 +54,4 @@ Wir freuen und über Deine Bewerbung!
 
 Bei Fragen steht dir Nelly unter 06131 8945212 gerne zur Verfügung.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -56,4 +56,4 @@ Wir freuen uns über deine Bewerbung!
 
 Schick uns kurz ein paar Sätze zu dir, deiner Verfügbarkeit und – falls vorhanden – erste Erfahrungen in Marketing/Social/Ads.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

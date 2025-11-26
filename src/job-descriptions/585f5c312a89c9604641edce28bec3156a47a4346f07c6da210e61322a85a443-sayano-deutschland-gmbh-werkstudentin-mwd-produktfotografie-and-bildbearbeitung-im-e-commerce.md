@@ -64,4 +64,4 @@ Es können nur vollständige Bewerbungen mit **Lebenslauf**, **Anschreiben** und
 
 Falls du schon Hobby Projekte oder **Arbeitsproben** im Bereich Bildgestaltung hast, dann füge diese gerne deiner Bewerbung bei.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

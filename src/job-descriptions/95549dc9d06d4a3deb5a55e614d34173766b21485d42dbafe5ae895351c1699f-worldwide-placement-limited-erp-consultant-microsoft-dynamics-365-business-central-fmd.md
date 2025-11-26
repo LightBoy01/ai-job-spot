@@ -79,4 +79,4 @@ Benefits
 2.  First interview (online): With Managing Director & Recruiter (General Suitability & Experience).
 3.  Second interview (on-site): With team & recruiter (includes a task to be completed beforehand).
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -114,4 +114,4 @@ Werkstudent:in (m/w/d), 15–20 h/Woche
 *   Faire Vergütung
 *   Start: ab sofort möglich
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

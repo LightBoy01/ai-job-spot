@@ -69,4 +69,4 @@ Benefits
 
 Wenn Dich die Herausforderung reizt, ein innovatives Unternehmen erfolgreich mitzugestalten, dann sende uns einfach Deinen Lebenslauf und Dein Anschreiben über das untenstehende Formular zu.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

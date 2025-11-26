@@ -125,4 +125,4 @@ Als **Senior Product Manager Teamlead, Light Technology (m/w/d)** übernimmst du
 
 Die Adam Hall Group ist ein stabiler und international führender Hersteller für Event­technologie mit einer klaren Mission: Wir wollen Menschen durch Veranstaltungs­technik ermöglichen, ihre Leidenschaft und schöne Momente miteinander zu teilen. Bei uns arbeiten jeden Tag mehr als 400 Mitarbeiterinnen und Mitarbeiter aus verschiedenen Nationen mit Herzblut und Leidenschaft an der Zukunft von Live-Events. Dabei setzen wir auf gegenseitiges Vertrauen, Transparenz und den fairen Umgang miteinander als Werte unserer Unternehmenskultur. Als Teil des Adam Hall Group Teams kannst du dich auf ein kreatives und inspirierendes Arbeitsumfeld freuen, in dem du deine Ideen einbringen kannst und so sein kannst, wie du bist! Denn wir bei der Adam Hall Group glauben daran, dass kreative Ideen und Produkte nur durch Vielfalt, Chancengleichheit und Gemeinschaftlichkeit entstehen können! 
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

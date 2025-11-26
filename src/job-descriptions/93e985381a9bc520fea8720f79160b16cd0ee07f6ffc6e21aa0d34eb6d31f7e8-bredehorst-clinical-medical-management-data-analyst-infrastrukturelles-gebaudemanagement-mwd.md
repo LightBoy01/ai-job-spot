@@ -50,4 +50,4 @@ Warum wir?
 *   **Urban Sports Club & EGYM Wellpass:** Sie haben Zugang zu einem breiten Netzwerk an Sport- und Wellnessangeboten – von Fitnessstudios über Massagen bis hin zu Padel, Schwimmen und mehr. Sie entscheiden, was Ihnen gut tut.
 *   **Deutschlandticket:** Wir bezuschussen Ihr Ticket für den öffentlichen Nahverkehr – nachhaltig, bequem und kostenfrei für Sie.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

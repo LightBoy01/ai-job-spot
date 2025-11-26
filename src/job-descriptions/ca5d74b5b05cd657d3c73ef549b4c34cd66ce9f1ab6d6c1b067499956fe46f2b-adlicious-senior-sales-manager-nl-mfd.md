@@ -65,4 +65,4 @@ Benefits
 *   A very nice remote team in Germany that will support you and will make you feel part of a team even if you are on remote working
 *   Regular digital calls with your team, online events and the opportunity to meet up in person with colleagues.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

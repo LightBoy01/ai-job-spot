@@ -61,4 +61,4 @@ Benefits
 
 JobAtlas betreut die Personalsuche für dieses Unternehmen. Dein Ansprechpartner Johannes Baumann steht Dir zur Seite und unterstützt Dich im gesamten Bewerbungsprozess. Bei Fragen vorab erreichst Du ihn vormittags persönlich unter 0201-31042252.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

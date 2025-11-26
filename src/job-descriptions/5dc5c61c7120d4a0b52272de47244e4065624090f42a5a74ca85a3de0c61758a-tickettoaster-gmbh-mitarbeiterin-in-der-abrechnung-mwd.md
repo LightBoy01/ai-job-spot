@@ -66,4 +66,4 @@ Wir freuen uns darauf, Dich kennenzulernen!
 Art der Stelle: Vollzeit, Teilzeit, Festanstellung  
 Arbeitsstunden: 30-40 pro Woche
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

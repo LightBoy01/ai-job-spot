@@ -66,4 +66,4 @@ Wir sind Audare, ein junges Beratungs- und Umsetzungsteam mit Fokus auf digitale
 Unsere Mission: Wir helfen großen Einzelhändlern dabei, ihre IT-Infrastruktur stabil, effizient und zukunftsfähig zu machen.  
 Von Kassensystemen über Netzwerke bis hin zu Filialprojekten – wir sind nah am Geschäft, pragmatisch im Vorgehen und immer mit dem Anspruch, Prozesse zu vereinfachen und nachhaltig zu verbessern.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

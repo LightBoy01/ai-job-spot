@@ -105,4 +105,4 @@ Wenn wir dein Interesse geweckt haben und du uns jetzt davon überzeugen möchte
 Wir freuen uns auf dich!  
 Dein Natsana Team
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

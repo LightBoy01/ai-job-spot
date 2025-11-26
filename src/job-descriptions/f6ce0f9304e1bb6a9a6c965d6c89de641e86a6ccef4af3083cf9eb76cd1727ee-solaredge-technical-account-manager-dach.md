@@ -4,8 +4,8 @@ title: Technical Account Manager - DACH
 company: SolarEdge
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/solaredge/remote-technical-account-manager-dach-munich-31808
-postedDate: '2025-11-21T03:42:08.000Z'
+  https://www.arbeitnow.com/jobs/companies/solaredge/remote-technical-account-manager-dach-munich-212938
+postedDate: '2025-11-24T15:42:09.000Z'
 expirationDate: null
 tags:
   - Remote
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/solaredge/remote-technical-account-manager-dach-munich-31808
+  https://www.arbeitnow.com/jobs/companies/solaredge/remote-technical-account-manager-dach-munich-212938
 companyLogoUrl: null
 ---
 **Are you ready to power the future?**

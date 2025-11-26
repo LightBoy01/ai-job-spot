@@ -4,8 +4,8 @@ title: Senior Accountant (m/w/d) 100%
 company: FlexBase Service AG
 location: Laufenburg
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/flexbase-service-ag/senior-accountant-100-laufenburg-102675
-postedDate: '2025-11-24T09:32:50.000Z'
+  https://www.arbeitnow.com/jobs/companies/flexbase-service-ag/senior-accountant-100-laufenburg-178839
+postedDate: '2025-11-25T07:01:52.000Z'
 expirationDate: null
 tags:
   - Finance
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/flexbase-service-ag/senior-accountant-100-laufenburg-102675
+  https://www.arbeitnow.com/jobs/companies/flexbase-service-ag/senior-accountant-100-laufenburg-178839
 companyLogoUrl: null
 ---
 Einleitung
