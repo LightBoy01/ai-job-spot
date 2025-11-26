@@ -27,7 +27,7 @@ jobs:
         run: ls -R
 
       - name: Run Twitter Posting Script
-        run: npm run tweet
+        run: ./node_modules/.bin/ts-node scripts/post-to-twitter.ts --live
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
