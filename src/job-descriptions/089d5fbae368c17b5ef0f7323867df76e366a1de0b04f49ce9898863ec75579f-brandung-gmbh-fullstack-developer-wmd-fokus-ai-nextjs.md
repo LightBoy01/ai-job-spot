@@ -9,7 +9,7 @@ postedDate: '2025-11-24T16:02:01.000Z'
 expirationDate: null
 tags:
   - Software Development
-status: pending_approval
+status: published
 jobLevel: Mid-Senior
 employeeRole: Individual Contributor
 salaryRange: null

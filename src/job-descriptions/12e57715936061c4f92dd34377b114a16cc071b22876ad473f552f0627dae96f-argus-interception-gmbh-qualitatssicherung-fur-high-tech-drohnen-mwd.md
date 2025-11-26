@@ -9,57 +9,51 @@ postedDate: '2025-11-25T08:31:55.000Z'
 expirationDate: null
 tags:
   - Quality Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/argus-interception-gmbh/qualitatssicherung-fur-high-tech-drohnen-rotenburg-200783
 companyLogoUrl: null
+companyCulture: >-
+  Argus Interception fosters a motivated and collaborative team environment with
+  a strong emphasis on work-life balance, offering 30 days of vacation, flexible
+  working hours, and mobile work. The company is fast-growing and innovative,
+  providing significant opportunities for professional growth within a
+  mission-critical security sector.
+story_question1: >-
+  How does quality assurance directly contribute to the mission-critical
+  reliability and safety of Argus Interception's drone interception systems,
+  especially given the sensitive nature of protecting critical infrastructure?
+story_answer1: >-
+  When I joined Argus Interception, I quickly realized that QA here isn't just
+  about checklists; it's about safeguarding critical infrastructure. My role
+  ensures that every component, every assembly, and every system performs
+  flawlessly. Imagine a scenario where an unauthorized drone poses a threat, and
+  our interception system needs to react instantly and precisely. My daily work
+  — from meticulous inspections to identifying and addressing even the smallest
+  deviation — directly translates into the system's absolute reliability. It's
+  incredibly rewarding to know that the quality we build into our drones ensures
+  the safety of sensitive sites and contributes to national security. There's a
+  real sense of purpose, knowing that our collective efforts protect against
+  real-world threats.
+story_question2: >-
+  Given the innovative and rapidly evolving nature of drone technology and
+  counter-drone systems, how does Argus Interception support continuous learning
+  and adaptation for its Quality Assurance team members?
+story_answer2: >-
+  Working in a field as dynamic as drone interception means there's always
+  something new to learn. Argus Interception truly fosters a culture of
+  continuous improvement, and that extends to our professional development. I've
+  had opportunities to dive deep into new testing methodologies and even
+  contribute to the development of improved quality processes like 8D or FMEA.
+  The company encourages us to stay at the forefront of technology, not just
+  through internal knowledge sharing but also by providing resources for further
+  training. Being part of a growing company in an innovative sector means we're
+  constantly tackling new challenges, and there's a clear path to expanding our
+  skills and expertise as the technology advances. It's never boring, and you're
+  always growing alongside the company.
 ---
-Für unser Fertigungs-Team suchen wir zum nächstmöglichen Zeitpunkt einen **Qualitätssicherer (Fertigung) (m/w/d)\* .**
-
-Aufgaben
---------
-
-**Deine Aufgaben**
-
-*   Du führst Zwischen- und Endprüfungen von Bauteilen, Baugruppen und Systemen durch.
-*   Du überwachst und stellst die Einhaltung von Qualitätsstandards in der Fertigung sicher.
-*   Du erstellst Prüfpläne, Prüfprotokolle und Qualitätsdokumentationen.
-*   Du analysierst und bearbeitest interne und externe Qualitätsabweichungen und leitest Korrektur- sowie Vorbeugemaßnahmen ein.
-*   Du wirkst an der kontinuierlichen Verbesserung von Qualitätsprozessen und Produktionsabläufen mit (z. B. nach 8D, Ishikawa, FMEA).
-*   Du unterstützt die Produktion und Herstellung der Drohnen.
-*   Du arbeitest eng mit Entwicklung, Produktion, Einkauf und Projektmanagement zusammen, um eine ganzheitliche Qualitätssicherung sicherzustellen – einschließlich des Einfliegens der Systeme.
-
-Qualifikation
--------------
-
-**Dein Profil**
-
-*   Du hast eine technische Ausbildung (z. B. Industriemechaniker, Mechatroniker, Elektroniker), eine Weiterbildung zum Techniker oder Qualitätsfachmann oder ein Studium in einem relevanten Bereich, z. B. Maschinenbau, Elektrotechnik, Wirtschaftsingenieurwesen.
-*   Du verfügst über Kenntnisse in Qualitätsstandards und -methoden, z. B. Produktsicherheitsrichtlinien.
-*   Du hast Erfahrung im Umgang mit Prüfmitteln und Tools: Messmittel wie Messschieber, Mikrometer, Koordinatenmessmaschine, Softwaretools, sowie im Lesen und Interpretieren von Prüfplänen, Prüfmittelverwaltung und Kalibrierung.
-*   Du bringst Teamfähigkeit, Kommunikationsstärke sowie ein hohes Maß an Eigeninitiative und Qualitätsbewusstsein mit.
-*   Du besitzt analytisches Denkvermögen, Genauigkeit, Lösungskompetenz, Sorgfalt, Verantwortungsbewusstsein und Durchsetzungsvermögen (insbesondere bei Reklamationen oder Eskalationen).
-*   Idealerweise hast Du Erfahrung im Projektmanagement und eine Auditor-Ausbildung.
-*   Du verfügst über gute Deutsch- und Englischkenntnisse in Wort und Schrift.
-
-Benefits
---------
-
-**Unser Angebot**
-
-*   Nach einer umfassenden Einarbeitung arbeitest Du eigenständig in einem verlässlichen Arbeitsumfeld.
-*   Dich erwarten abwechslungsreiche Tätigkeiten in einem motivierten Team.
-*   Wir bieten Dir Sicherheit durch eine unbefristete Anstellung in einem stark wachsenden Unternehmen.
-*   Wir legen viel Wert auf Work-Life-Balance: 30 Tage Urlaub im Jahr, flexible Arbeitszeiten sowie mobiles Arbeiten.
-
-**Über uns**
-
-Die Argus Interception GmbH bietet seit 2023 mit Sitz in Rotenburg (Wümme) eine innovative und derzeit einzigartige Lösung für das sichere Abfangen unautorisierter Drohnen. Das Herzstück des High-Performance C-UAS Systems ist die Abfangdrohne mit integriertem Netzwerfer, die zusammen mit der Bodenstation den definierten Luftraum überwacht, eindringende, unautorisierte Drohnen automatisiert abfängt und diese zur Beweissicherung ablegt.
-
-Mit unserem System schützen wir sicherheitskritische Infrastruktur vor Gefahren aus der Luft.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nFor our manufacturing team, we are looking for a Quality Assurance Specialist (Manufacturing) (m/f/d) to start as soon as possible.\n\nArgus Interception GmbH, founded in 2023, provides an innovative and currently unique solution for the secure interception of unauthorized drones. The core of its high-performance C-UAS system is an interception drone with an integrated net launcher, which, together with the ground station, monitors defined airspace, automatically intercepts invading, unauthorized drones, and secures them for evidence. With this system, the company protects safety-critical infrastructure from aerial threats.\n\n### Responsibilities\n- Conduct interim and final inspections of components, assemblies, and systems.\n- Monitor and ensure compliance with quality standards in manufacturing.\n- Create test plans, test reports, and quality documentation.\n- Analyze and process internal and external quality deviations and initiate corrective and preventive measures.\n- Participate in the continuous improvement of quality processes and production workflows (e.g., according to 8D, Ishikawa, FMEA).\n- Support the production and manufacturing of drones.\n- Work closely with development, production, purchasing, and project management to ensure holistic quality assurance – including the flight testing of systems.\n\n### Qualifications\n- Technical education (e.g., industrial mechanic, mechatronics technician, electronics technician), further training as a technician or quality specialist, or a degree in a relevant field, e.g., mechanical engineering, electrical engineering, industrial engineering.\n- Knowledge of quality standards and methods, e.g., product safety guidelines.\n- Experience in handling testing equipment and tools: measuring instruments such as calipers, micrometers, coordinate measuring machines, software tools, as well as in reading and interpreting test plans, test equipment management, and calibration.\n- Team spirit, strong communication skills, a high degree of initiative, and quality awareness.\n- Analytical thinking, precision, problem-solving skills, conscientiousness, responsibility, and assertiveness (especially in case of complaints or escalations).\n- Ideally, experience in project management and an \\\"Auditor\\\" certification.\n- Good German and English language skills, both written and spoken.\n\n### Author's Take\nThis is a compelling opportunity for a dedicated Quality Assurance Specialist to join a pioneering company in the counter-drone technology sector. The role offers significant responsibility in ensuring the reliability of critical security systems, working with cutting-edge technology. The emphasis on continuous improvement, collaborative teamwork, and a strong work-life balance makes this an attractive position for professionals seeking impact and personal growth in a stable, yet rapidly expanding environment. Ideal candidates will possess a blend of technical expertise, analytical rigor, and a proactive mindset.

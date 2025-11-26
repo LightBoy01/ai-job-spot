@@ -11,7 +11,7 @@ postedDate: '2025-11-24T10:01:57.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_approval
+status: published
 jobLevel: Mid-Senior
 employeeRole: Individual Contributor
 salaryRange: null

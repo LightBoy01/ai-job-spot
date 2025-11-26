@@ -9,7 +9,7 @@ postedDate: '2025-11-21T16:01:42.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_approval
+status: published
 jobLevel: Lead
 employeeRole: Lead
 salaryRange: null

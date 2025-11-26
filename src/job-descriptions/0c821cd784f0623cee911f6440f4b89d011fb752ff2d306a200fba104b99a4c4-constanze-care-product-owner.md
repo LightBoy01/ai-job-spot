@@ -9,7 +9,7 @@ postedDate: '2025-11-24T11:32:23.000Z'
 expirationDate: null
 tags:
   - Product Management
-status: pending_approval
+status: published
 jobLevel: Mid-Senior
 employeeRole: Individual Contributor
 salaryRange: null
