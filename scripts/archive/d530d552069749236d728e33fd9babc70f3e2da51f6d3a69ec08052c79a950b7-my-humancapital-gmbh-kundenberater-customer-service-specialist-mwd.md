@@ -4,8 +4,8 @@ title: Kundenberater / Customer Service Specialist (m/w/d)
 company: MY Humancapital GmbH
 location: Rostock
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-customer-service-specialist-rostock-56748
-postedDate: '2025-10-31T01:31:33.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-customer-service-specialist-rostock-225270
+postedDate: '2025-11-21T01:34:41.000Z'
 expirationDate: null
 tags:
   - Customer Service
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-customer-service-specialist-rostock-56748
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-customer-service-specialist-rostock-225270
 companyLogoUrl: null
 ---
 Im Auftrag unseres Kunden in Rostock suchen wir Sie zum nächstmöglichen Zeitpunkt als „**Kundenberater / Customer Service Specialist (m/w/d)“.**

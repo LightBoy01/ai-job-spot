@@ -1,0 +1,64 @@
+---
+id: 1b53ac5d341b68009812a88632d112688e41ed29761bd0a8f16da338577b15f8
+title: IT Systemadministrator / Fachinformatiker (m/w/d) Schwerpunkt Sophos Security
+company: bauXpert GmbH
+location: Bad Bramstedt
+applicationLink: >-
+  https://www.arbeitnow.com/jobs/companies/bauxpert-gmbh/it-systemadministrator-fachinformatiker-schwerpunkt-sophos-security-bad-bramstedt-234831
+postedDate: '2025-11-25T15:32:31.000Z'
+expirationDate: null
+tags:
+  - IT Security
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: arbeitnow
+sourceUrl: >-
+  https://www.arbeitnow.com/jobs/companies/bauxpert-gmbh/it-systemadministrator-fachinformatiker-schwerpunkt-sophos-security-bad-bramstedt-234831
+companyLogoUrl: null
+---
+Wir sind die Systemzentrale einer starken Gruppe von norddeutschen Baustoffhändlern – zupackend, bodenständig, zuverlässig. 19 mittelständische Unternehmen sind an derzeit 36 Standorten mit rund 1.000 Mitarbeitern für unsere Kunden da. Wir erwirtschaften einen Jahresumsatz von rund € 400 Mio. Einem wesentlichen Teil unserer Gesellschafter stellen wir eine zentrale IT-Infrastruktur zur Abwicklung sämtlicher Geschäftsprozesse zur Verfügung und betreiben dafür ein eigenes Rechenzentrum mit derzeit rund 620 Anwendern.
+
+Zur Verstärkung unseres IT-Teams in Bad Bramstedt bei Hamburg suchen wir einen engagierten neuen Kollegen (m/w/d) der Spaß daran hat, unsere IT-Infrastruktur aktiv mitzugestalten und den IT-Betrieb zuverlässig und sicher am Laufen zu halten.
+
+Aufgaben
+--------
+
+*   Als Fachmann für Sophos-Produkte unterstützt du unsere Kunden und das IT-Team in Fragen der IT-Security.
+*   Mit Deiner Unterstützung werden der reibungslose Betrieb und die Weiterentwicklung der zentralen IT-Infrastruktur auf Basis von Microsoft-Systemen sichergestellt.
+*   Du installierst und pflegst Anwendungen im Rechenzentrum und stellst diese technisch bereit.
+*   Du bearbeitest eigenständig Support-Tickets.
+*   Du führst Fehlerdiagnosen durch und behebst technische Störungen.
+*   Du übernimmst eigene - und unterstützt gemeinsame - IT-Projekte.
+
+Qualifikation
+-------------
+
+*   Erfolgreich abgeschlossene Ausbildung im IT-Bereich (z. B. Fachinformatiker Systemintegration, Systemelektroniker) oder vergleichbare Qualifikation
+*   Erfahrung / Zertifizierung im Umgang mit Lösungen vom Hersteller Sophos mit Sophos XGS Firewall, Sophos Central Cybersecurity
+*   Fundierte Kenntnisse in Microsoft Server-Betriebssystemen und Server-Virtualisierung
+*   Idealerweise weitere Erfahrung / Zertifizierung im Umgang mit Lösungen von Herstellern wie Citrix, Veeam, HPE Alletra Storage oder NinjaOne.
+*   Du arbeitest gerne eigenständig und zielorientiert.
+*   Du hast eine gute Team- und Kommunikationsfähigkeit.
+
+Benefits
+--------
+
+*   Ein spannender Job in einem modernen und innovativen Unternehmen
+*   Offene Türen und schnelle Entscheidungswege
+*   Gestaltungsfreiraum und vielfältige Entwicklungsperspektiven
+*   Strukturierte Einarbeitung On-the-Job für den optimalen Einstieg
+*   Leistungsgerechte Vergütung mit weiteren Benefits
+*   Modernes Büro und Arbeitsequipment, Smartphone inkl. privater Nutzung
+*   Unbefristeter Arbeitsvertrag
+*   Flexible Arbeitszeiten (Gleitzeit) und 30 Tage Urlaub
+*   Mobiles Arbeiten möglich
+*   Weiterbildungsangebote
+*   JobRad, Tankkarte, Corporate Benefits, kostenfreier Kaffee & Getränke und Vergünstigungen im Baustoffhandel
+
+HABEN WIR DEIN INTERESSE GEWECKT?
+
+Dann sende uns Deinen Lebenslauf an Michael Becker. Er steht Dir für Fragen zum Bewerbungsverfahren telefonisch unter 04192 - 90644-50 oder über die Bewerbungsplattform zur Verfügung.
+
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

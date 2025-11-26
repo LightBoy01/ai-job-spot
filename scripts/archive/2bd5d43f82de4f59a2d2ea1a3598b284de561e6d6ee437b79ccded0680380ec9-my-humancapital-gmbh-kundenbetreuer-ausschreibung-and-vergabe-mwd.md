@@ -4,8 +4,8 @@ title: Kundenbetreuer Ausschreibung & Vergabe (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenbetreuer-ausschreibung-vergabe-munich-428125
-postedDate: '2025-10-31T01:31:27.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenbetreuer-ausschreibung-vergabe-munich-148665
+postedDate: '2025-11-07T01:34:10.000Z'
 expirationDate: null
 tags:
   - Customer Service
@@ -15,30 +15,45 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenbetreuer-ausschreibung-vergabe-munich-428125
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenbetreuer-ausschreibung-vergabe-munich-148665
 companyLogoUrl: null
+description: >-
+  Description\nOn behalf of our partner company in Munich, we are looking for a
+  "Customer Advisor for Tendering &amp; Awarding (m/f/d)" to join at the
+  earliest possible date. In this key role, you will be the central point of
+  contact for customers utilizing an e-tendering platform, providing essential
+  support and guidance to ensure smooth public procurement processes.\n\n###
+  Responsibilities\nAs a Customer Advisor for Tendering &amp; Awarding, your
+  main tasks will include:\n* Serving as the central point of contact for
+  customers regarding all aspects of using the e-tendering platform.\n*
+  Providing telephone support and handling written correspondence with customers
+  and sales partners.\n* Supporting tendering authorities through various
+  processes, including:\n    * Setting up user accounts.\n    * Assigning roles
+  and rights.\n    * Creating announcements.\n    * Scheduling and process
+  control.\n    * Uploading tender documents.\n* Undertaking administrative
+  duties such as master data maintenance, customer administration, and general
+  office, sales, and administrative tasks.\n* Designing and conducting internal
+  and external product and online training for customers and employees.\n\n###
+  Qualifications\nTo be successful in this role, you should possess:\n* Ideally,
+  a completed commercial apprenticeship, e.g., as an Office Administrator,
+  Industrial Clerk, Public Administration Clerk, or a comparable
+  qualification.\n* Profound knowledge of tendering and awarding procedures,
+  especially for construction, service, and supply contracts, including
+  applicable legal bases such as VOB, UVgO, and VgV.\n* Experience in creating
+  national and European announcements, ideally using eForms or similar online
+  tendering forms.\n* Strong training competence and a genuine enjoyment in
+  clearly conveying technical knowledge, both in workshops and online.\n*
+  Proficient German language skills.\n\n### Author's Take\nThis is a fantastic
+  opportunity for an organized and customer-focused individual with a solid
+  background in public procurement. Located in the heart of Munich, our partner
+  company offers a stable, permanent position within a dynamic environment.
+  You'll benefit from comprehensive onboarding with experienced colleagues,
+  numerous professional development opportunities, and a culture defined by flat
+  hierarchies and appreciative collaboration. If you thrive on variety,
+  continuous learning, and making a tangible impact on public processes, this
+  role provides a challenging yet rewarding path to grow your expertise. Join a
+  team where your contributions are valued, and your development is prioritized.
+responsibilities: []
+qualifications: []
 ---
-### Description
-We are seeking a **Customer Advisor for Tendering & Awarding (m/f/d)** for our partner company in Munich, to join the team as soon as possible. In this central role, you will serve as the primary point of contact for clients regarding the use of our e-tendering platform, ensuring a smooth and compliant experience for all users.
-
-### Responsibilities
-*   Provide comprehensive telephone support and manage written correspondence with clients and sales partners.
-*   Assist tendering authorities throughout the entire process, including setting up user accounts, assigning roles and rights, creating announcements, scheduling, managing workflows, and uploading tender documents.
-*   Undertake administrative duties such as maintaining master data, managing customer accounts, and handling general office, sales, and administrative tasks.
-*   Design and conduct internal and external product and online training sessions for both customers and employees.
-
-### Qualifications
-*   Ideally, you possess a completed commercial apprenticeship, for instance, as an Office Administrator, Industrial Clerk, Administrative Specialist, or a comparable qualification.
-*   You bring sound knowledge of tendering and awarding procedures, particularly concerning construction, service, and supply contracts, including familiarity with relevant legal frameworks like VOB, UVgO, and VgV.
-*   You have practical experience in creating national and European announcements, ideally utilizing eForms or similar online tendering forms.
-*   You possess strong training competence and genuinely enjoy conveying complex technical knowledge in an understandable manner, both in workshops and online.
-*   Excellent German language skills are essential for effective communication.
-
-### Author's Take
-**Q1: What's the real impact of this role on the company's mission or its clients?**
-
-From an insider's perspective, this role is absolutely pivotal. You're not just providing support; you're the linchpin that ensures public procurement processes run smoothly, transparently, and legally. Our clients, often public sector entities, rely on us to navigate complex legal frameworks like VOB, UVgO, and VgV. Your expertise directly helps them allocate public funds effectively and fairly, minimizing legal risks and maximizing efficiency. It’s incredibly rewarding to know your daily work contributes to crucial public services and builds trust in the system.
-
-**Q2: How does the company foster professional growth and a positive work environment?**
-
-The company truly invests in its people. We have a strong onboarding process where experienced colleagues guide you, ensuring you're never left to figure things out alone. Beyond that, there are numerous internal training and development opportunities, allowing you to deepen your expertise in e-tendering or explore other areas. The culture is one of collaboration and respect, characterized by flat hierarchies and quick decision-making. Your voice is heard, and your contributions are valued in a dynamic, supportive team environment right in the heart of Munich. It’s a place where you can genuinely grow and make a difference.
+### Description\nOn behalf of our partner company in Munich, we are looking for a **\"Customer Advisor for Tendering & Awarding (m/f/d)\"** to join at the earliest possible date. In this key role, you will be the central point of contact for customers utilizing an e-tendering platform, providing essential support and guidance to ensure smooth public procurement processes.\n\n### Responsibilities\nAs a Customer Advisor for Tendering & Awarding, your main tasks will include:\n* Serving as the central point of contact for customers regarding all aspects of using the e-tendering platform.\n* Providing telephone support and handling written correspondence with customers and sales partners.\n* Supporting tendering authorities through various processes, including:\n    * Setting up user accounts.\n    * Assigning roles and rights.\n    * Creating announcements.\n    * Scheduling and process control.\n    * Uploading tender documents.\n* Undertaking administrative duties such as master data maintenance, customer administration, and general office, sales, and administrative tasks.\n* Designing and conducting internal and external product and online training for customers and employees.\n\n### Qualifications\nTo be successful in this role, you should possess:\n* Ideally, a completed commercial apprenticeship, e.g., as an Office Administrator, Industrial Clerk, Public Administration Clerk, or a comparable qualification.\n* Profound knowledge of tendering and awarding procedures, especially for construction, service, and supply contracts, including applicable legal bases such as VOB, UVgO, and VgV.\n* Experience in creating national and European announcements, ideally using eForms or similar online tendering forms.\n* Strong training competence and a genuine enjoyment in clearly conveying technical knowledge, both in workshops and online.\n* Proficient German language skills.\n\n### Author's Take\nThis is a fantastic opportunity for an organized and customer-focused individual with a solid background in public procurement. Located in the heart of Munich, our partner company offers a stable, permanent position within a dynamic environment. You'll benefit from comprehensive onboarding with experienced colleagues, numerous professional development opportunities, and a culture defined by flat hierarchies and appreciative collaboration. If you thrive on variety, continuous learning, and making a tangible impact on public processes, this role provides a challenging yet rewarding path to grow your expertise. Join a team where your contributions are valued, and your development is prioritized.

@@ -4,8 +4,8 @@ title: Vertriebscontroller im Bankenumfeld (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/vertriebscontroller-im-bankenumfeld-munich-302200
-postedDate: '2025-10-31T01:31:30.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/vertriebscontroller-im-bankenumfeld-munich-117897
+postedDate: '2025-11-21T01:34:46.000Z'
 expirationDate: null
 tags:
   - Controlling
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/vertriebscontroller-im-bankenumfeld-munich-302200
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/vertriebscontroller-im-bankenumfeld-munich-117897
 companyLogoUrl: null
 ---
 Im Auftrag unseres Partnerunternehmens in München suchen wir Sie zum nächstmöglichen Zeitpunkt als **„Vertriebscontroller im Bankenumfeld (m/w/d)“.**

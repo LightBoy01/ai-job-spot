@@ -4,8 +4,8 @@ title: Speditionskaufmann (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/speditionskaufmann-munich-438671
-postedDate: '2025-10-31T01:31:21.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/speditionskaufmann-munich-366773
+postedDate: '2025-11-21T01:34:44.000Z'
 expirationDate: null
 tags:
   - Purchasing
@@ -16,46 +16,39 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/speditionskaufmann-munich-438671
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/speditionskaufmann-munich-366773
 companyLogoUrl: null
 ---
-Unser Partnerunternehmen in München sucht Sie als **„Speditionskaufmann (m/w/d)“**. Wenn Sie eine verantwortungsvolle und abwechslungsreiche Tätigkeit suchen, dann sollten Sie sie diese Position nicht entgehen lassen.
-
-**Benefits**
-------------
-
-*   **IGM-Tarifvertrag:** Erhalten Sie eine attraktive Entlohnung gemäß des IG Metall Tarifvertrag
-*   **Flexibilität**: Genießen Sie die Freiheit durch flexible Arbeitszeiten im Gleitzeitmodell
-*   **Teamspirit**: Auf Sie wartet eine kollegiale und motivierende Arbeitsatmosphäre
-*   **Onboarding:** Sie erwartet eine professionelle Einarbeitung von den Experten der Abteilung
-*   **Sicherheit:** Arbeiten Sie in einer krisensicheren und zukunftsorientierten Branche
-*   **Weiterentwicklung:** Zahlreiche Weiterbildungs- und Entwicklungsmöglichkeiten
+Im Auftrag unseres Partnerunternehmens in München suchen wir Sie zum nächstmöglichen Zeitpunkt als **„Speditionskaufmann (m/w/d)“.**
 
 **Aufgaben**
 ------------
 
-*   Als Speditionskaufmann (m/w/d) sind Sie verantwortlich für die Terminverfolgung sowie Lieferschein- und Rechnungsbearbeitung und Auftragsabwicklung
-*   Sie prüfen Export-Dokumente und überwachen die Einhaltung relevanter Export- und KWGK-Regularien
-*   Außerdem stellen Sie die fristgerechte Abholung durch Speditionen sicher
-*   Die Abstimmung mit Unterlieferanten gehört ebenfalls zu Ihrem Aufgabenbereich
-*   Einkommende Rückfragen klären Sie in Zusammenarbeit mit den zuständigen Abteilungen
-*   Die Kalkulation von Angeboten sowie die Dokumentation sämtliche Vertriebsvorgänge erfolgt durch Sie
-*   Auch die Einhaltung der angebotenen Auftragskonditionen behalten Sie im Blick
+*   Als **Speditionskaufmann (m/w/d)** organisieren und steuern Sie den reibungslosen Ablauf nationaler und internationaler Warenströme
+*   Dabei planen und disponieren Sie Transporte in Abstimmung mit Lieferanten, Kunden und Transportunternehmen unter Berücksichtigung von Terminen, Kosten und Effizienz
+*   Sie führen Preis- und Konditionsverhandlungen mit Spediteuren, vergleichen Angebote und tragen aktiv zur Optimierung logistischer Abläufe bei
+*   Zudem übernehmen Sie die Kommunikation mit allen Beteiligten in deutscher und englischer Sprache und sorgen für eine transparente Auftragsabwicklung
+*   Sie erstellen, prüfen und verwalten Transport- und Zolldokumente und stellen eine vollständige Dokumentation aller Versandprozesse sicher
 
 **Qualifikation**
 -----------------
 
-*   Sie verfügen über eine abgeschlossene, kaufmännische Ausbildung, bspw. zum Speditionskaufmann (m/w/d), Kaufmann für Groß- und Außenhandelsmanagement (m/w/d), Kaufmann für Transport und Logistikdienstleistung (m/w/d) oder haben eine vergleichbare Ausbildung
-    
-*   Idealerweise konnte Sie bereits Berufserfahrung als Speditionskaufmann (m/w/d) in den Bereichen Zoll, Gefahrgut und Schwerlast sammeln
-    
-*   Ihre Organisations- und Koordinationsfähigkeit gepaart mit Ihrer Dienstleistungsorientierung zeichnen Sie aus
-    
-*   Zudem überzeugen Sie durch Ihre selbstständige, strukturierte und zuverlässige Arbeitsweise
-    
-*   Gute EDV-Kenntnisse sowie sichere Deutschkenntnisse runden Ihr Profil ab
-    
+*   Sie bringen eine Ausbildung als Speditionskaufmann (m/w/d), Kaufmann für Spedition und Logistikdienstleistung (m/w/d) oder eine vergleichbare Qualifikation, wie Industriekaufmann (m/w/d) oder Groß- und Außenhandelskaufmann (m/w/d), mit
+*   Sie verfügen idealerweise über Berufserfahrung in der Transportdisposition, Speditionsabwicklung oder im Bereich Logistikmanagement
+*   Zudem verfügen Sie über gute Kenntnisse in MS Office
+*   Sie arbeiten strukturiert, behalten auch in hektischen Phasen den Überblick und überzeugen durch Ihr Organisationstalent
+*   Sehr gute Deutsch- und gute Englischkenntnisse zeichnen Sie aus
 
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Anna-Maria Holz** gerne unter **089 954 287 105** zur Verfügung.
+**Benefits**
+------------
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+*   **Langfristige Jobmöglichkeit:** Das Unternehmen sucht langfristige Unterstützung im Rahmen einer unbefristeten Festanstellung
+*   **Work-Life-Balance:** Freuen Sie sich auf flexible Arbeitszeiten
+*   **Zentrale Lage:** Das Unternehmen befindet sich im Herzen Münchens mit bester Verkehrsanbindung
+*   **Wertschätzende Arbeitskultur:** Die Abteilung legt großen Wert auf ein positives Miteinander. Sie erwartet eine Du-Kultur und ein spürbares Vertrauen der Führungskräfte
+*   **Modernes Umfeld**: Sie erwartet eine moderne Arbeitsumgebung, mit neuesten Gerätschaften
+*   **Weiterentwicklung**: Das Unternehmen bietet zahlreiche Weiterbildungs- und Entwicklungsmöglichkeiten
+
+Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Simon Schneider** gerne unter 089 954 287 104 zur Verfügung.
+
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -4,8 +4,8 @@ title: Controller (m/w/d) in Voll- oder Teilzeit
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/controller-in-voll-oder-teilzeit-munich-272748
-postedDate: '2025-10-31T01:31:22.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/controller-in-voll-oder-teilzeit-munich-127563
+postedDate: '2025-11-21T01:34:31.000Z'
 expirationDate: null
 tags:
   - Controlling
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/controller-in-voll-oder-teilzeit-munich-272748
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/controller-in-voll-oder-teilzeit-munich-127563
 companyLogoUrl: null
 ---
 Controller (m/w/d) – strategische und operative Steuerung.

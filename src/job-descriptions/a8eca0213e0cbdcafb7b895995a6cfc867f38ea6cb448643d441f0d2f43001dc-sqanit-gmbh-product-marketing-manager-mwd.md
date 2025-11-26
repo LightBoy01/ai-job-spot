@@ -4,8 +4,8 @@ title: Product Marketing Manager (m/w/d)
 company: sqanit GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/sqanit-gmbh/product-marketing-manager-munich-214522
-postedDate: '2025-11-21T16:01:48.000Z'
+  https://www.arbeitnow.com/jobs/companies/sqanit-gmbh/product-marketing-manager-munich-145606
+postedDate: '2025-11-25T11:31:45.000Z'
 expirationDate: null
 tags:
   - Marketing Manager
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/sqanit-gmbh/product-marketing-manager-munich-214522
+  https://www.arbeitnow.com/jobs/companies/sqanit-gmbh/product-marketing-manager-munich-145606
 companyLogoUrl: null
 ---
 **Wir sind Status Quo Breaker, Game Changer und Kunden-Helden!**

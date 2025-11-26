@@ -4,8 +4,8 @@ title: Hausmeister in München (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hausmeister-in-munchen-munich-327464
-postedDate: '2025-10-31T01:31:25.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hausmeister-in-munchen-munich-123155
+postedDate: '2025-11-21T01:34:34.000Z'
 expirationDate: null
 tags:
   - Building
@@ -17,7 +17,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hausmeister-in-munchen-munich-327464
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hausmeister-in-munchen-munich-123155
 companyLogoUrl: null
 ---
 Hausmeister (m/w/d) in München – starten Sie jetzt Ihre neue berufliche Herausforderung!
@@ -53,4 +53,4 @@ Unser Partnerunternehmen in München sucht Sie als **„Hausmeister (m/w/d)“**
 
 Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Veronica Wild** gerne unter **089 954 287 106** zur Verfügung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

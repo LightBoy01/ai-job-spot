@@ -4,8 +4,8 @@ title: Interim Projektleiter - Pharmabranche (m/w/d)
 company: MY Humancapital GmbH
 location: Braunschweig
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/interim-projektleiter-pharmabranche-braunschweig-298362
-postedDate: '2025-10-31T01:31:21.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/interim-projektleiter-pharmabranche-braunschweig-67996
+postedDate: '2025-11-21T01:34:30.000Z'
 expirationDate: null
 tags:
   - Project Management
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/interim-projektleiter-pharmabranche-braunschweig-298362
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/interim-projektleiter-pharmabranche-braunschweig-67996
 companyLogoUrl: null
 ---
 Interim Projektleiter (m/w/d) – Rückbau, GMP-Projekte & Teamführung im regulierten Umfeld.

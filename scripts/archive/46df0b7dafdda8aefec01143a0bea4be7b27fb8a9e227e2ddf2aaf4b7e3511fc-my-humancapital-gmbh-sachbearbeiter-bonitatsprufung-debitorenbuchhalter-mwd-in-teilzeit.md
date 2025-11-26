@@ -4,45 +4,96 @@ title: Sachbearbeiter Bonitätsprüfung / Debitorenbuchhalter (m/w/d) in Teilzei
 company: MY Humancapital GmbH
 location: Ismaning
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/sachbearbeiter-bonitatsprufung-debitorenbuchhalter-in-teilzeit-ismaning-309177
-postedDate: '2025-10-31T01:31:31.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/sachbearbeiter-bonitatsprufung-debitorenbuchhalter-in-teilzeit-ismaning-360906
+postedDate: '2025-11-07T01:34:15.000Z'
 expirationDate: null
 tags:
   - Accounts Receivable
 status: published
-jobLevel: Junior
+jobLevel: Mid-Senior
 employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/sachbearbeiter-bonitatsprufung-debitorenbuchhalter-in-teilzeit-ismaning-309177
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/sachbearbeiter-bonitatsprufung-debitorenbuchhalter-in-teilzeit-ismaning-360906
 companyLogoUrl: null
+companyCulture: >-
+  The company cultivates a supportive and trusting work environment,
+  characterized by flexible part-time hours and home office options,
+  demonstrating a strong commitment to work-life balance. It fosters a positive,
+  collaborative team spirit and actively supports employee growth through
+  diverse training and development opportunities.
+story_question1: >-
+  The role involves highly sensitive tasks like fraud detection and credit
+  assessment. Can you share an example of a challenging situation where the
+  team's expertise and collaborative spirit truly made a difference in ensuring
+  a secure and positive outcome for the company?
+story_answer1: >-
+  Absolutely. I recall a complex case involving a series of suspicious
+  applications that looked legitimate on the surface. We had to dive deep,
+  cross-referencing multiple data points and coordinating closely with the
+  Competence Center. It wasn't just about spotting anomalies; it was about
+  understanding patterns and potential motivations. Thanks to our structured
+  process and the open communication fostered by our 'Du-Kultur,' we identified
+  the fraudulent activity early on, preventing a significant financial loss. It
+  truly highlights how much our leadership trusts us to act autonomously and how
+  our collective vigilance protects the company.
+story_question2: >-
+  Beyond the day-to-day responsibilities, what kind of professional growth and
+  development can a new Sachbearbeiter Bonitätsprüfung / Debitorenbuchhalter
+  expect within the company, especially given the mentioned support for further
+  education?
+story_answer2: >-
+  Growth here is really tailored to your ambitions. We have colleagues who
+  started in this role and have since specialized further in financial crime
+  investigation, even taking on external certifications supported by the
+  company. Others have expanded their knowledge into broader accounts receivable
+  management, leveraging the opportunities to optimize processes with the
+  Competence Center. The company genuinely invests in your learning, whether
+  it’s advanced Excel training, SAP modules, or even legal aspects related to
+  our work. It’s not just about annual reviews; it’s an ongoing conversation
+  about where you want to go and how we can help you get there.
+story_question3: >-
+  The job description highlights a focus on work-life balance with flexible
+  hours and home office. How does this translate into the daily experience
+  within the team, and what aspects of the 'modern environment' do you
+  personally appreciate the most?
+story_answer3: >-
+  The work-life balance isn't just a bullet point – it's woven into our daily
+  rhythm. With the option for 20-30 hours and home office, it's genuinely
+  possible to manage personal commitments without feeling overwhelmed. Our team
+  understands and supports each other's schedules, which really reinforces the
+  'positive Miteinander.' Personally, I love the modern office. Beyond the
+  latest equipment, having a top-notch canteen makes a huge difference. It's not
+  just food; it's a space to connect with colleagues in a relaxed atmosphere,
+  which subtly yet powerfully contributes to that trusting and appreciative
+  culture.
 ---
 ### Description
-Join our partner company in Ismaning as a **Part-time Credit Assessment Specialist / Accounts Receivable Clerk (m/w/d)**. This permanent position offers a unique opportunity to play a crucial role in safeguarding the company's financial health through meticulous credit checks and proactive fraud detection. You will be part of a supportive team that values collaboration, trust, and a positive working environment, complete with flexible hours (20-30 hours/week), home office options, and excellent development opportunities.
+Our partner company in Ismaning is looking for a **Creditworthiness Clerk / Accounts Receivable Accountant (m/f/d)** to join their team as soon as possible. This is a permanent part-time position (20-30 hours per week) where you will play a crucial role in assessing creditworthiness and detecting fraud, ensuring secure and traceable financial processes. You'll work within a supportive, trusting culture that values work-life balance and offers significant opportunities for professional and personal development.
 
 ### Responsibilities
-As a Credit Assessment Specialist / Accounts Receivable Clerk, your key responsibilities will include:
-*   Manually reviewing credit reports and accurately assessing creditworthiness.
-*   Managing fraud detection checklists and ensuring a secure, transparent verification process.
-*   Processing service requests within the system and meticulously documenting all relevant cases.
-*   Coordinating inquiries from law enforcement (police and public prosecutor's office) and potentially serving as a witness in legal proceedings.
-*   Collaborating closely with the Accounts Receivable department and the Competence Center to optimize workflows and facilitate information exchange.
+*   As a **Creditworthiness Clerk / Accounts Receivable Accountant (m/f/d)**, you will manually review credit reports and assess creditworthiness.
+*   You will be responsible for processing review lists for fraud detection, ensuring a secure and traceable review process.
+*   You will process service requests in the system and professionally document all relevant cases.
+*   You will coordinate inquiries from the police and public prosecutor's office and, if necessary, appear as a witness in court proceedings.
+*   Furthermore, you will work closely with accounts receivable colleagues and the Competence Center to optimize processes and exchange information.
 
 ### Qualifications
-To be successful in this role, you should possess:
-*   A completed commercial apprenticeship, such as an Office Management Assistant, Industrial Clerk, Wholesale and Foreign Trade Management Assistant, or a comparable qualification.
-*   Ideally, experience in B2C credit assessment and fraud detection.
-*   Proficiency in MS Office, particularly Excel; familiarity with SAP is a desirable advantage.
-*   A structured, diligent, and analytical approach to your work.
-*   Fluent German language skills.
+*   You have a completed commercial apprenticeship, e.g., as an Office Management Assistant (m/f/d), Industrial Clerk (m/f/d), Wholesale and Foreign Trade Clerk (m/f/d), or a comparable qualification.
+*   Ideally, you are familiar with the B2C credit assessment environment and have experience in fraud detection.
+*   You are proficient in MS Office, especially Excel; ideally, you have already worked with SAP.
+*   Furthermore, a structured, meticulous, and analytical approach to work is self-evident for you.
+*   Fluent German language skills complete your profile.
 
 ### Author's Take
+This is a fantastic opportunity for an experienced commercial professional to join a company that truly values its employees. The role of **Creditworthiness Clerk / Accounts Receivable Accountant** offers a unique blend of financial scrutiny and operational optimization, making a real impact on the company's security.
 
-**1. Given the focus on credit assessment and fraud detection, what's the most surprising or impactful aspect of this role for someone coming from a purely accounting background?**
+What stands out is the company's commitment to employee well-being:
+*   **Outstanding Work-Life Balance**: Enjoy flexible working hours (20-30 hours/week) and the option for home office, perfectly suiting those seeking a harmonious professional and personal life.
+*   **Supportive Culture**: Experience a friendly 'Du-Kultur' (informal address) and strong trust from leadership, fostering a positive and collaborative team environment.
+*   **Growth Opportunities**: The company actively supports your professional and personal development with numerous training options, ensuring you can continuously evolve.
+*   **Modern Amenities**: Work in a contemporary environment equipped with the latest tools and enjoy the benefits of an excellent in-house canteen.
+*   **Exclusive Benefits**: Take advantage of attractive employee discounts at hundreds of partner companies.
 
-*Insider's Perspective:* "It's definitely the blend of rigorous analytical work with the unexpected challenge of legal coordination. You're not just looking at numbers; you're often the first line of defense against financial risk, and that includes direct engagement with police and prosecutors. It can feel like being a financial detective! What's truly impactful is realizing how your meticulous work directly protects the company's assets and reputation. It's not just about approving credit; it's about ensuring every transaction is secure and legitimate. The satisfaction comes from knowing you've safeguarded the business from potential threats."
-
-**2. How does the company's emphasis on "Work-Life-Balance" and "Wertschätzende Arbeitskultur" truly manifest, especially for a part-time position like this?**
-
-*Insider's Perspective:* "It's more than just buzzwords here. For a part-time role, the flexible hours (20-30 hours a week) combined with the genuine home office option are huge. It allows you to really integrate work with your personal life without feeling like you're constantly juggling. The 'Du-Kultur' is pervasive – everyone, from entry-level to leadership, is on a first-name basis, fostering a flat hierarchy and open communication. You feel trusted to manage your tasks and contribute meaningfully, rather than just being a cog in the machine. Plus, the commitment to professional development, even for part-timers, means your growth is actively supported. It genuinely feels like a place where your contributions are valued, and your well-being is prioritized."
+If you are a meticulous and analytical individual looking for a long-term, part-time role with excellent benefits and a supportive team, this position in Ismaning could be your next ideal career step.

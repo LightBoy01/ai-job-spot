@@ -4,8 +4,8 @@ title: Paid Social Creative Strategist (m/w/d)
 company: spized GmbH
 location: Cologne
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/spized-gmbh/paid-social-creative-strategist-cologne-293746
-postedDate: '2025-11-21T10:33:27.000Z'
+  https://www.arbeitnow.com/jobs/companies/spized-gmbh/paid-social-creative-strategist-cologne-393289
+postedDate: '2025-11-26T10:32:03.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/spized-gmbh/paid-social-creative-strategist-cologne-293746
+  https://www.arbeitnow.com/jobs/companies/spized-gmbh/paid-social-creative-strategist-cologne-393289
 companyLogoUrl: null
 ---
 Willst du endlich deine kreativen Ideen im Ads-Bereich voll ausleben und dabei die Performance von hochbudgetierten Kampagnen mitgestalten? Dann bist du bei uns genau richtig!

@@ -77,6 +77,7 @@ async function getLocalFilePaths(directory: string, sourceName: string): Promise
 
 
 const isDryRun = process.argv.includes('--dry-run');
+const isForceRefresh = process.argv.includes('--force-refresh'); // New: Check for force refresh argument
 
 // --- The New Generic Runner ---
 
@@ -94,6 +95,9 @@ async function runSource<T extends StandardJob | StandardBriefing>(config: Sourc
     const sourceLogger = logger.child({ source: source.name });
     
     sourceLogger.info(`--- Syncing source ---`);
+    if (isForceRefresh) {
+        sourceLogger.info(`[Sync] Force refresh detected. Proceeding with full data fetch and archive.`);
+    }
     metricsCollector.increment('sources.processed');
 
     try {

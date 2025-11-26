@@ -74,4 +74,4 @@ Noch ein paar Worte zum Schluss
 
 Wir bieten dir eine abwechslungsreiche Tätigkeit, bei der du selbstständig arbeiten und deine Ideen einbringen kannst. Dies ist verbunden mit der Möglichkeit, sich weiterzuentwickeln, sei es die Arbeit mit neuen Technologien oder einer individuellen Weiterbildung. In unseren Teams kommunizieren wir auf Augenhöhe und gehen offen aufeinander zu.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

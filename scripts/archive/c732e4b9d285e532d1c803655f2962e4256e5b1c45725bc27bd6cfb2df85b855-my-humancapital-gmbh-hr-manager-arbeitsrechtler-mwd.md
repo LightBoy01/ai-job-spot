@@ -4,8 +4,8 @@ title: HR Manager / Arbeitsrechtler (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hr-manager-arbeitsrechtler-munich-13017
-postedDate: '2025-10-31T01:31:27.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hr-manager-arbeitsrechtler-munich-163256
+postedDate: '2025-11-21T01:34:35.000Z'
 expirationDate: null
 tags:
   - HR
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hr-manager-arbeitsrechtler-munich-13017
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hr-manager-arbeitsrechtler-munich-163256
 companyLogoUrl: null
 ---
 Im Auftrag unseres Partnerunternehmens in München suchen wir Sie zum nächstmöglichen Zeitpunkt als **„HR Manager / Arbeitsrechtler (m/w/d)“.**

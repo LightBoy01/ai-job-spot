@@ -4,8 +4,8 @@ title: Marketing Manager (w/m/d)
 company: ONCARE GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/oncare-gmbh/marketing-manager-munich-155657
-postedDate: '2025-11-21T16:01:46.000Z'
+  https://www.arbeitnow.com/jobs/companies/oncare-gmbh/marketing-manager-munich-43744
+postedDate: '2025-11-25T10:32:13.000Z'
 expirationDate: null
 tags:
   - Marketing Manager
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/oncare-gmbh/marketing-manager-munich-155657
+  https://www.arbeitnow.com/jobs/companies/oncare-gmbh/marketing-manager-munich-43744
 companyLogoUrl: null
 ---
 **Gestalte die Zukunft der Gesundheitsversorgung mit uns!**
