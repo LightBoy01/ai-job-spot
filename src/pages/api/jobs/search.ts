@@ -12,6 +12,7 @@ const searchSchema = z.object({
   location: z.string().max(100).optional(),
   jobLevel: z.string().max(50).optional(),
   tags: z.string().max(200).optional(), // Comma-separated tags
+  sortOrder: z.enum(['asc', 'desc']).optional().default('desc'), // Sort order for postedDate
 });
 
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
@@ -53,6 +54,7 @@ export default async function handler(
       location,
       jobLevel,
       tags,
+      sortOrder,
     } = validation.data;
 
     res.setHeader(
@@ -67,7 +69,6 @@ export default async function handler(
 
     // Apply exact match filters first
     if (location) {
-      // This is a simplification. A real app might need more flexible location search.
       query = query.where('location', '==', location);
     }
     if (jobLevel) {
@@ -76,26 +77,21 @@ export default async function handler(
     if (tags) {
       const tagsArray = tags.split(',').map(tag => tag.trim()).filter(t => t);
       if (tagsArray.length > 0) {
-        // Firestore limitation: You can only have one 'array-contains-any' clause per query.
         query = query.where('tags', 'array-contains-any', tagsArray);
       }
     }
 
-    // The general search term 'q' is harder to implement efficiently with Firestore
-    // due to its query limitations. A common strategy is to create a 'keywords'
-    // array field in each document containing relevant terms (title, company, etc.)
-    // in lowercase, and then use an 'array-contains' query.
     if (searchTerm) {
         const keywords = searchTerm.toLowerCase().split(' ').filter(k => k);
         if (keywords.length > 0) {
-            // This assumes a 'keywords' field exists in your documents.
-            // You would need to populate this field when creating/updating jobs.
             query = query.where('keywords', 'array-contains-any', keywords);
         }
     }
 
-    // Always order by date as the final sort criterion
-    query = query.orderBy('postedDate', 'desc');
+    // Always order by completenessScore as the primary sort criterion, then by postedDate
+    query = query
+        .orderBy('completenessScore', 'desc')
+        .orderBy('postedDate', sortOrder);
 
     // Apply pagination
     if (startAfterId) {

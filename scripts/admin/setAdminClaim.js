@@ -2,9 +2,9 @@
 // Run this script in a secure, trusted environment (e.g., your local machine, a Cloud Function)
 // NOT directly in your Next.js frontend.
 
-const admin = require('firebase-admin');
-const path = require('path');
-const fs = require('fs');
+import * as admin from 'firebase-admin';
+import * as path from 'path';
+import * as fs from 'fs';
 
 // --- Grand Mind Rule: Seek First to Understand ---
 // This script grants a Firebase user the 'admin: true' custom claim.

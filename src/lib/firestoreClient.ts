@@ -12,7 +12,7 @@ import {
   limit as limitTo,
   startAfter,
 } from 'firebase/firestore';
-import { db } from '@/lib/firebase'; // Import the client-side db instance
+import { db } from './firebase.js'; // Import the client-side db instance
 import { JobPosting, Article, AggregatedArticle } from './types.js';
 
 // Helper function to convert Firestore Timestamp to JavaScript Date
@@ -93,6 +93,8 @@ const processArticleData = (
     issueNo: data?.issueNo,
     volumeNo: data?.volumeNo,
     imageUrl: data?.imageUrl || null,
+    sourceName: data?.sourceName || null,
+    originalUrl: data?.originalUrl || null,
     author_take_question1: data?.author_take_question1 || null,
     author_take_answer1: data?.author_take_answer1 || null,
     author_take_question2: data?.author_take_question2 || null,

@@ -1,6 +1,6 @@
 
-import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.ts';
-import { fetchAndParseRss } from '../src/data-pipeline/adapters/rss-adapter.ts';
+import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.js';
+import { fetchAndParseRss } from '../src/data-pipeline/adapters/rss-adapter.js';
 import type { Source } from '../src/lib/types.js';
 import process from 'process';
 

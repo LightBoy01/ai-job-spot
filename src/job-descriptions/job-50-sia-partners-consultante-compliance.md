@@ -32,5 +32,5 @@ Au sein d’une équipe de consultants expérimentés et en plein essor, vous ac
 - Analyse réglementaire et mise en place de plans de conformité en réponse à des exigences réglementaires et conduite du changement.
 - Identification et mise en place de solutions innovantes (IA / GenIA, RPA, Chatbot…).
 ### Qualifications
-Diplômé(e) d’une grande école d’ingénieur ou de commerce ou titulaire d’un Master 2 en Droit / Conformité (double cursus apprécié) au sein d’une grande Université, vous justifiez d’une expérience dans le conseil ou dans le cadre de missions en lien avec la conformité (stage ou 1er emploi).
+Diplômée d’une grande école d’ingénieur ou de commerce ou titulaire d’un Master 2 en Droit et Conformité, double cursus apprécié, au sein d’une grande Université, vous justifiez d’une expérience dans le conseil ou dans le cadre de missions en lien avec la conformité, stage ou 1er emploi.
 Vous êtes curieux(se) et aimez travailler en équipe ? Vous souhaitez rejoindre un environnement professionnel dynamique et motivant ? Vous parlez français et anglais couramment dans un contexte professionnel ? Alors rejoignez-nous !

@@ -8,11 +8,19 @@ import { getArticles } from '@/lib/firestoreClient';
 import { SerializedArticleSummary } from '@/lib/types';
 import { ARTICLE_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
+import { useSessionScrollRestoration, getInitialStateFromSession, ScrollRestorationConfig } from '@/hooks/useSessionScrollRestoration';
 
 interface ArticlesProps {
   initialArticles: SerializedArticleSummary[];
   lastDocId: string | null;
 }
+
+const articleScrollConfig: ScrollRestorationConfig = {
+  listKey: 'articleListingArticles',
+  lastDocIdKey: 'articleListingLastDocId',
+  hasMoreKey: 'articleListingHasMore',
+  scrollPosKey: 'articleListingScrollPos',
+};
 
 export default function Articles({ 
   initialArticles,
@@ -20,10 +28,16 @@ export default function Articles({
 }: ArticlesProps) {
   const router = useRouter();
   
+  const {
+    initialItems: sessionArticles,
+    initialLastDocId: sessionLastDocId,
+    initialHasMore: sessionHasMore,
+  } = getInitialStateFromSession<SerializedArticleSummary>(articleScrollConfig);
+
   // State management
-  const [displayedArticles, setDisplayedArticles] = useState(initialArticles);
-  const [lastDocId, setLastDocId] = useState(initialLastDocId);
-  const [hasMore, setHasMore] = useState(initialArticles.length === ARTICLE_FETCH_LIMIT);
+  const [displayedArticles, setDisplayedArticles] = useState(sessionArticles || initialArticles);
+  const [lastDocId, setLastDocId] = useState(sessionLastDocId || initialLastDocId);
+  const [hasMore, setHasMore] = useState(sessionHasMore !== null ? sessionHasMore : initialArticles.length === ARTICLE_FETCH_LIMIT);
   const [loading, setLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const isFetching = useRef(false);
@@ -33,41 +47,24 @@ export default function Articles({
     setIsMounted(true);
   }, []);
 
-  // Restore state from sessionStorage on mount
-  useEffect(() => {
-    const savedArticles = sessionStorage.getItem('articleListingArticles');
-    const savedLastDocId = sessionStorage.getItem('articleListingLastDocId');
-    const savedHasMore = sessionStorage.getItem('articleListingHasMore');
-    const savedScrollPos = sessionStorage.getItem('articleListingScrollPos');
+  const handleFilterChange = (newFilter: 'all' | 'editorial' | 'briefing') => {
+    router.push({
+      pathname: router.pathname,
+      query: { ...router.query, filter: newFilter },
+    }, undefined, { shallow: true });
+  };
 
-    if (savedArticles && savedArticles !== 'null') {
-      setDisplayedArticles(JSON.parse(savedArticles));
-    }
-    if (savedLastDocId && savedLastDocId !== 'null') {
-      setLastDocId(savedLastDocId);
-    }
-    if (savedHasMore && savedHasMore !== 'null') {
-      setHasMore(JSON.parse(savedHasMore));
-    }
-    if (savedScrollPos) {
-      window.scrollTo(0, parseInt(savedScrollPos, 10));
-      sessionStorage.removeItem('articleListingScrollPos');
-    }
-  }, []);
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+  };
 
-  // Save state to sessionStorage on route change
-  useEffect(() => {
-    const handleRouteChangeStart = () => {
-      sessionStorage.setItem('articleListingArticles', JSON.stringify(displayedArticles));
-      sessionStorage.setItem('articleListingLastDocId', lastDocId || '');
-      sessionStorage.setItem('articleListingHasMore', JSON.stringify(hasMore));
-      sessionStorage.setItem('articleListingScrollPos', window.scrollY.toString());
-    };
-    router.events.on('routeChangeStart', handleRouteChangeStart);
-    return () => {
-      router.events.off('routeChangeStart', handleRouteChangeStart);
-    };
-  }, [displayedArticles, lastDocId, hasMore, router.events]);
+  // Hook for saving and restoring state
+  useSessionScrollRestoration({
+    items: displayedArticles,
+    lastDocId,
+    hasMore,
+    config: articleScrollConfig,
+  });
 
   // Derived state for filtering
   const filter = (router.query.filter === 'editorial' || router.query.filter === 'briefing')
@@ -109,19 +106,36 @@ export default function Articles({
     return () => clearTimeout(handler);
   }, [searchQuery, filter, fetchArticles]);
 
-  // UI Handlers
-  const handleFilterChange = (newFilter: 'all' | 'editorial' | 'briefing') => {
-    router.push({ pathname: router.pathname, query: { ...router.query, filter: newFilter === 'all' ? undefined : newFilter } }, undefined, { shallow: true });
-  };
-  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => setSearchQuery(e.target.value);
-  const loadMore = () => {
-    if (hasMore && !loading) fetchArticles(searchQuery, lastDocId, filter);
-  };
+  const loader = useRef(null);
+
+  const handleObserver = useCallback((entries: IntersectionObserverEntry[]) => {
+    const target = entries[0];
+    if (target.isIntersecting && hasMore && !loading) {
+      fetchArticles(searchQuery, lastDocId, filter);
+    }
+  }, [hasMore, loading, searchQuery, lastDocId, filter, fetchArticles]);
+
+  useEffect(() => {
+    const option = {
+      root: null,
+      rootMargin: "20px",
+      threshold: 0
+    };
+    const observer = new IntersectionObserver(handleObserver, option);
+    if (loader.current) observer.observe(loader.current);
+  }, [handleObserver]);
+
+
 
   // Button styles
-  const allClass = `px-6 py-3 rounded-lg font-semibold transition-colors ${filter === 'all' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700 hover:bg-neutral-300'}`;
-  const editorialClass = `px-6 py-3 rounded-lg font-semibold transition-colors ${filter === 'editorial' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700 hover:bg-neutral-300'}`;
-  const briefingClass = `px-6 py-3 rounded-lg font-semibold transition-colors ${filter === 'briefing' ? 'bg-primary text-white' : 'bg-neutral-200 text-neutral-700 hover:bg-neutral-300'}`;
+  const getButtonClass = (buttonFilter: 'all' | 'editorial' | 'briefing') => {
+    const baseClass = "px-6 py-3 rounded-lg font-semibold transition-colors font-sans tracking-wide";
+    if (filter === buttonFilter) {
+      return `${baseClass} bg-primary text-white shadow-md`;
+    } else {
+      return `${baseClass} bg-neutral-cream/60 text-primary-dark/80 hover:bg-primary/10 hover:text-primary-dark`;
+    }
+  };
 
   return (
     <Layout>
@@ -131,15 +145,15 @@ export default function Articles({
       </Head>
       <div className="container mx-auto px-4 py-12 font-serif">
         <h1 className="page-title mb-6">Insights & Musings</h1>
-        <p className="text-xl text-neutral-600 mb-12 text-center max-w-2xl mx-auto">
+        <p className="text-xl text-neutral-600 mb-12 text-center max-w-2xl mx-auto font-sans">
           Delve into our curated collection of articles and guides on the evolving landscape of AI careers and technology.
         </p>
         
         <div className="mb-12 flex flex-col items-center"> 
           <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-            <button onClick={() => handleFilterChange('all')} className={allClass}>All Content</button>
-            <button onClick={() => handleFilterChange('editorial')} className={editorialClass}>Editorials</button>
-            <button onClick={() => handleFilterChange('briefing')} className={briefingClass}>Curated Briefings</button>
+            <button onClick={() => handleFilterChange('all')} className={getButtonClass('all')}>All Content</button>
+            <button onClick={() => handleFilterChange('editorial')} className={getButtonClass('editorial')}>Editorials</button>
+            <button onClick={() => handleFilterChange('briefing')} className={getButtonClass('briefing')}>Curated Briefings</button>
             <div className="cursor-pointer" title="Editorials are original content from AI Job Spot. Briefings are curated summaries of external articles with links to the source.">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-neutral-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -149,14 +163,14 @@ export default function Articles({
           <input
             type="text"
             placeholder="Search by title, author, or tags..."
-            className="w-full max-w-lg p-4 border border-neutral-300 rounded-lg"
+            className="w-full max-w-lg p-4 font-sans border-2 border-primary-dark/20 bg-neutral-cream/30 rounded-lg shadow-inner focus:ring-2 focus:ring-secondary focus:border-secondary transition-all"
             value={searchQuery}
             onChange={handleSearchChange}
           />
         </div>
 
         {displayedArticles.length === 0 && !loading ? (
-          <p className="text-center text-neutral-600 text-lg">No articles found. Please check back later or refine your search.</p>
+          <p className="text-center text-neutral-600 text-lg font-serif">No articles found. Please check back later or refine your search.</p>
         ) : (
           <div className="space-y-10">
             {(() => {
@@ -187,16 +201,12 @@ export default function Articles({
           </div>
         )}
 
-        <div className="text-center mt-12">
-          {loading ? (
-            <p className="text-neutral-600">Loading more articles...</p>
-          ) : hasMore ? (
-            <button onClick={loadMore} className="bg-primary text-white font-bold py-3 px-8 rounded-lg hover:bg-primary-dark transition-colors duration-300">
-              Load More
-            </button>
-          ) : (
-            <p className="text-neutral-600">You&apos;ve reached the end of the article listings.</p>
+        <div className="text-center mt-12 h-10">
+          {loading && <p className="text-neutral-500 font-sans">Loading more articles...</p>}
+          {!hasMore && displayedArticles.length > 0 && (
+            <p className="text-neutral-600 font-serif text-lg pt-8 border-t border-neutral-200">You&apos;ve reached the end of the article listings.</p>
           )}
+          <div ref={loader} />
         </div>
       </div>
     </Layout>

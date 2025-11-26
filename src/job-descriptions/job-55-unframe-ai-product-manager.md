@@ -24,25 +24,25 @@ companyLogoUrl: >-
   https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/278/610/original/Favicon.png?1741795378
 glassdoorLink: null
 crunchbaseLink: null
-story_question1: >-
+story_question1: |-
   What is the most exciting challenge for an AI Product Manager at Unframe in
   the first 90 days?
-story_answer1: >-
+story_answer1: |-
   The most exciting challenge will be to take ownership of a new AI-powered
   feature from concept to launch. You will be working closely with our customers
   to understand their needs, and with our engineering team to build a solution
   that exceeds their expectations. This is a great opportunity to have a direct
   impact on our product and our customers.
-story_question2: >-
+story_question2: |-
   What is a quality you're looking for in a candidate that isn't on the formal
   job description?
-story_answer2: >-
+story_answer2: |-
   We are looking for a product manager who is obsessed with the user experience.
   We want someone who can put themselves in the shoes of our users and who is
   passionate about building products that are not only powerful, but also
   intuitive and easy to use. A deep sense of empathy for the user is a must.
 story_question3: How does this role contribute to the company's larger mission?
-story_answer3: >-
+story_answer3: |-
   This role is central to Unframe's mission of building AI-powered products that
   address real-world challenges. By defining and delivering our product roadmap,
   you will be directly contributing to our ability to solve our customers' most

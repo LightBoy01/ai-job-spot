@@ -42,101 +42,52 @@ export default async function handler(
     }
 
     const { q: searchTerm, startAfter: startAfterId, limit, filter } = validation.data;
-    const lowerSearchTerm = searchTerm.toLowerCase();
 
     res.setHeader(
       'Cache-Control',
       'public, s-maxage=60, stale-while-revalidate=300'
     );
 
-    const articles: Article[] = [];
-    const fetchedDocIds = new Set<string>();
+    let query: Query = adminDb.collection('articles');
 
-    // Function to fetch and process a query result
-    const fetchAndProcess = async (baseQuery: Query, currentFilter?: 'editorial' | 'briefing') => {
-      let currentQuery = baseQuery;
-      if (currentFilter) {
-        currentQuery = currentQuery.where('contentType', '==', currentFilter);
-      }
-      if (startAfterId) {
-        const startAfterDoc = await adminDb
-          .collection('articles')
-          .doc(startAfterId)
-          .get();
-        if (startAfterDoc.exists) {
-          currentQuery = currentQuery.startAfter(startAfterDoc);
-        }
-      }
-      const snapshot = await currentQuery.limit(limit).get();
-      snapshot.docs.forEach((doc) => {
-        if (!fetchedDocIds.has(doc.id)) {
-          articles.push(serializeArticle(doc));
-          fetchedDocIds.add(doc.id);
-        }
-      });
-    };
-
-    // --- Multi-field Search Queries ---
+    // Apply filters
+    if (filter) {
+      query = query.where('contentType', '==', filter);
+    }
     if (searchTerm) {
-      // 1. Search by Title (prefix match)
-      await fetchAndProcess(
-        adminDb
-          .collection('articles')
-          .where('title', '>=', searchTerm)
-          .where('title', '<=', searchTerm + '\uf8ff')
-          .orderBy('title')
-          .orderBy('publishDate', 'desc'),
-        filter
-      );
-
-      // 2. Search by Author (prefix match)
-      await fetchAndProcess(
-        adminDb
-          .collection('articles')
-          .where('author', '>=', searchTerm)
-          .where('author', '<=', searchTerm + '\uf8ff')
-          .orderBy('author')
-          .orderBy('publishDate', 'desc'),
-        filter
-      );
-
-      // 3. Search by Tags (array-contains-any)
-      await fetchAndProcess(
-        adminDb
-          .collection('articles')
-          .where('tags', 'array-contains-any', [searchTerm])
-          .orderBy('publishDate', 'desc'),
-        filter
-      );
-    } else {
-      // If no search term, return all published articles, paginated
-      await fetchAndProcess(
-        adminDb.collection('articles').orderBy('publishDate', 'desc'),
-        filter
-      );
+      // Firestore requires the first orderBy to be on the field used in an inequality filter.
+      // Since we are now primarily ordering by publishDate, we cannot also use a range filter on title.
+      // A more complex search would require a dedicated search service like Algolia or Typesense.
+      // For now, we will add a filter on tags which is a common use case.
+      query = query.where('tags', 'array-contains', searchTerm.toLowerCase());
     }
 
-    // --- Simple Relevance Scoring and Deduplication ---
-    articles.sort((a, b) => {
-      // Prioritize exact title matches
-      const aTitleMatch = a.title.toLowerCase().includes(lowerSearchTerm);
-      const bTitleMatch = b.title.toLowerCase().includes(lowerSearchTerm);
-      if (aTitleMatch && !bTitleMatch) return -1;
-      if (!aTitleMatch && bTitleMatch) return 1;
+    // Apply ordering
+    query = query.orderBy('publishDate', 'desc');
 
-      // Then by publish date
-      return (b.publishDate?.getTime() || 0) - (a.publishDate?.getTime() || 0);
-    });
+    // Apply pagination
+    if (startAfterId) {
+      const startAfterDoc = await adminDb
+        .collection('articles')
+        .doc(startAfterId)
+        .get();
+      if (startAfterDoc.exists) {
+        query = query.startAfter(startAfterDoc);
+      }
+    }
 
-    // Manual pagination after merging and sorting
-    const paginatedArticles = articles.slice(0, limit);
+    query = query.limit(limit);
+
+    const snapshot = await query.get();
+    const articles = snapshot.docs.map(serializeArticle);
+
     const lastVisibleArticle =
-      paginatedArticles.length > 0
-        ? paginatedArticles[paginatedArticles.length - 1]
+      articles.length > 0
+        ? articles[articles.length - 1]
         : null;
 
     res.status(200).json({
-      articles: paginatedArticles,
+      articles: articles,
       lastVisible: lastVisibleArticle ? lastVisibleArticle.id : null,
     });
   } catch (error) {

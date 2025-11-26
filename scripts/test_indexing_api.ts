@@ -1,4 +1,4 @@
-import { notifyUrlUpdate } from './indexing_api_client.ts';
+import { notifyUrlUpdate } from './indexing_api_client.js';
 import dotenv from 'dotenv';
 import { promises as fs } from 'fs';
 import path from 'path';

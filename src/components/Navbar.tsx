@@ -28,6 +28,7 @@ const Navbar = () => {
   // DRY Principle: Store nav links in an array to avoid repetition
   const navLinks = [
     { href: '/', label: 'Jobs' },
+    { href: '/tools/career-simulator', label: 'Tools' },
     { href: '/articles', label: 'Articles' },
   ];
 

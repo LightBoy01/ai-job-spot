@@ -55,7 +55,7 @@ To help you identify your primary and secondary archetypes, consider these quest
 - **For the Explainer:** Are you skilled at simplifying complex ideas, building consensus, or communicating vision? Do you thrive on bridging technical and non-technical worlds?
 - **For the Sustainer:** Are you driven by long-term stability, risk mitigation, and continuous improvement? Do you excel at building robust systems and ensuring their ethical operation?
 
-Instead of forcing yourself into a single box, consider identifying your "major" and "minor" archetypes. You might be a Trainer at your core, but you can strategically develop your skills as an Explainer to maximize your impact. The future belongs to those who can not only perform their core function but also speak the language of the other two.
+Instead of forcing yourself into a single box, consider identifying your "major" and "minor" archetypes. You might be a Trainer at your core, but you can strategically develop your skills as an Explainer to maximize your impact. The future belongs to those who can not only perform their core function but also speak the language of the other two. This self-assessment is a crucial first step in the broader discipline of [Career Cartography: Mapping Your Professional Future in the Age of AI](/articles/career-cartography-mapping-your-future).
 
 ## Conclusion: Find Your Place in the Cathedral
 

@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="630" fill="#121212"/>
+<defs>
+<pattern id="jaggedNoise" patternUnits="userSpaceOnUse" width="50" height="50">
+    <path d="M-10 10 l20 -20 M-10 30 l40 -40 M10 50 l40 -40" stroke="#333" stroke-width="0.5" />
+</pattern>
+<radialGradient id="rippleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E0E0E0" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#C0C0C0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#808080" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#jaggedNoise)" />
+<circle cx="600" cy="315" r="200" fill="#F5F5F5" stroke="#DCDCDC" stroke-width="2"/>
+<circle cx="600" cy="315" r="100" fill="none" stroke="url(#rippleGradient)" stroke-width="8">
+  <animate attributeName="r" from="0" to="300" dur="4s" repeatCount="indefinite" />
+  <animate attributeName="opacity" from="1" to="0" dur="4s" repeatCount="indefinite" />
+</circle>
+<g transform="translate(100 100)">
+  <text font-family="'Playfair Display', serif" font-size="32" fill="#E0E0E0" text-anchor="middle">
+    <tspan x="500" y="550">The Signal in the Silence</tspan>
+  </text>
+</g>
+</svg>

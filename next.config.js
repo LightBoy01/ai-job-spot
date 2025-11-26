@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  outputFileTracingRoot: process.cwd(),
   reactStrictMode: true,
   images: {
-    domains: ['localhost', 'aijobspot.online', 'www.aijobspot.online'],
+
+    domains: ['localhost', 'aijobspot.online'],
   },
   async headers() {
     const cspHeader = `
@@ -32,24 +34,10 @@ const nextConfig = {
       },
     ];
   },
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'ai-job-spot.vercel.app',
-          },
-        ],
-        destination: 'https://aijobspot.online/:path*',
-        permanent: true,
-      },
-    ];
-  },
   webpack: (config) => {
     config.watchOptions = {
       ...config.watchOptions,
+      poll: 1000, // Check for changes every second
       ignored: [
         '**/.git/**',
         '**/.next/**',
@@ -57,11 +45,6 @@ const nextConfig = {
         '**/storage/**',
         '**/data_pipelines_venv/**',
         '**/archive/**',
-        '**/..',
-        '**/../..',
-        '/',
-        '/data',
-        '/data/data',
       ],
     };
     return config;

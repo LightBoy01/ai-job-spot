@@ -1,0 +1,135 @@
+import * as configGetters from '@/data-pipeline/utils/getConfig';
+import { loadAndValidateSourceConfigs } from '@/data-pipeline/utils/getConfig';
+import { z } from 'zod';
+import { Timestamp } from 'firebase-admin/firestore';
+
+// Mock the entire module to spy on its functions
+jest.mock('@/data-pipeline/utils/getConfig', () => ({
+  ...jest.requireActual('@/data-pipeline/utils/getConfig'),
+  fetchFromFirestore: jest.fn(),
+  fetchFromLocalFile: jest.fn(),
+}));
+
+// Define a simple test schema
+const TestSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  status: z.enum(['Active', 'Inactive']),
+  type: z.string(),
+  createdAt: z.date().optional(),
+});
+
+type TestType = z.infer<typeof TestSchema>;
+
+const mockedFetchFromFirestore = jest.spyOn(configGetters, 'fetchFromFirestore');
+const mockedFetchFromLocalFile = jest.spyOn(configGetters, 'fetchFromLocalFile');
+
+describe('loadAndValidateSourceConfigs', () => {
+  beforeEach(() => {
+    jest.clearAllMocks();
+    process.argv = process.argv.filter(arg => arg !== '--use-local-config');
+  });
+
+  describe('Firestore Data Fetching', () => {
+    it('should fetch, validate, and return configs from Firestore', async () => {
+      // Arrange
+      const firestoreDocs = [
+        { id: 'firestore-1', name: 'Firestore Job 1', status: 'Active', type: 'Job', createdAt: Timestamp.fromDate(new Date()) },
+        { id: 'firestore-2', name: 'Firestore Job 2', status: 'Inactive', type: 'Job' },
+      ];
+      mockedFetchFromFirestore.mockResolvedValue(firestoreDocs);
+
+      // Act
+      const result = await loadAndValidateSourceConfigs<TestType>('jobs', 'test-collection', TestSchema);
+
+      // Assert
+      expect(mockedFetchFromFirestore).toHaveBeenCalledWith('test-collection', []);
+      expect(result).toHaveLength(2);
+      expect(result[0].name).toBe('Firestore Job 1');
+      expect(result[0].createdAt).toBeInstanceOf(Date);
+    });
+
+    it('should skip invalid configs from Firestore', async () => {
+      // Arrange
+      const firestoreDocs = [
+        { id: 'valid-1', name: 'Valid Job', status: 'Active', type: 'Job' },
+        { id: 'invalid-1', name: 'Invalid Job', status: 'Pending', type: 'Job' }, // Invalid status
+      ];
+      mockedFetchFromFirestore.mockResolvedValue(firestoreDocs);
+
+      // Act
+      const result = await loadAndValidateSourceConfigs<TestType>('jobs', 'test-collection', TestSchema);
+
+      // Assert
+      expect(result).toHaveLength(1);
+      expect(result[0].id).toBe('valid-1');
+    });
+
+    it('should handle empty Firestore collection', async () => {
+        // Arrange
+        mockedFetchFromFirestore.mockResolvedValue([]);
+  
+        // Act
+        const result = await loadAndValidateSourceConfigs<TestType>('jobs', 'test-collection', TestSchema);
+  
+        // Assert
+        expect(result).toHaveLength(0);
+      });
+  });
+
+  describe('Local File Data Fetching', () => {
+    beforeEach(() => {
+        process.argv.push('--use-local-config');
+    });
+
+    it('should load and validate job configs from local file', async () => {
+        // Arrange
+        const localConfigs = [
+            { id: 'local-1', name: 'Local Active Job', status: 'Active', type: 'Job' },
+            { id: 'local-2', name: 'Local Inactive Job', status: 'Inactive', type: 'Job' },
+        ];
+        mockedFetchFromLocalFile.mockResolvedValue(localConfigs);
+
+        // Act
+        const result = await loadAndValidateSourceConfigs<TestType>('jobs', 'any-collection', TestSchema);
+
+        // Assert
+        expect(mockedFetchFromLocalFile).toHaveBeenCalledWith('jobs');
+        expect(mockedFetchFromFirestore).not.toHaveBeenCalled();
+        expect(result).toHaveLength(2);
+        expect(result[0].name).toBe('Local Active Job');
+    });
+
+    it('should apply whereClauses to local job configs', async () => {
+        // Arrange
+        const localConfigs = [
+            { id: 'local-1', name: 'Local Active Job', status: 'Active', type: 'Job' },
+            { id: 'local-2', name: 'Local Inactive Job', status: 'Inactive', type: 'Job' },
+        ];
+        mockedFetchFromLocalFile.mockResolvedValue(localConfigs);
+
+        // Act
+        const result = await loadAndValidateSourceConfigs<TestType>('jobs', 'any-collection', TestSchema, [['status', '==', 'Active']]);
+  
+        // Assert
+        expect(result).toHaveLength(1);
+        expect(result[0].name).toBe('Local Active Job');
+      });
+
+    it('should load and validate briefing configs from local file', async () => {
+        // Arrange
+        const localConfigs = [
+            { id: 'local-3', name: 'Local Active Briefing', status: 'Active', type: 'Briefing' },
+        ];
+        mockedFetchFromLocalFile.mockResolvedValue(localConfigs);
+
+        // Act
+        const result = await loadAndValidateSourceConfigs<TestType>('briefings', 'any-collection', TestSchema);
+  
+        // Assert
+        expect(mockedFetchFromLocalFile).toHaveBeenCalledWith('briefings');
+        expect(result).toHaveLength(1);
+        expect(result[0].name).toBe('Local Active Briefing');
+      });
+  });
+});

@@ -60,8 +60,8 @@ async function renameJobFiles() {
           const newFilePath = path.join(JOB_DESCRIPTIONS_DIR, newFilename);
           await fs.rename(filePath, newFilePath);
         }
-      } catch (error: any) {
-        errors.push(`Failed to process ${file}: ${error.message}`);
+      } catch (error: unknown) {
+        errors.push(`Failed to process ${file}: ${(error as Error).message}`);
       }
     }
 
@@ -84,13 +84,13 @@ async function renameJobFiles() {
       errors.forEach(e => console.log(`- ${e}`));
     }
 
-  } catch (error: any) {
-    console.error(`\nFATAL: Could not read directory ${JOB_DESCRIPTIONS_DIR}`, error);
+  } catch (error: unknown) {
+    console.error(`\nFATAL: Could not read directory ${JOB_DESCRIPTIONS_DIR}`, (error as Error).message);
     process.exit(1);
   }
 }
 
-renameJobFiles().catch(err => {
-  console.error('An unexpected error occurred:', err);
+renameJobFiles().catch((err: unknown) => {
+  console.error('An unexpected error occurred:', (err as Error).message);
   process.exit(1);
 });

@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="630" fill="#222222"/>
+<defs>
+<linearGradient id="bronzeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:#CD7F32;stop-opacity:1" />
+  <stop offset="100%" style="stop-color:#8C5A23;stop-opacity:1" />
+</linearGradient>
+<pattern id="noisePattern" patternUnits="userSpaceOnUse" width="20" height="20">
+    <path d="M0 5 L20 15 M0 15 L20 5" stroke="#444444" stroke-width="1"/>
+</pattern>
+</defs>
+<rect width="1200" height="630" fill="url(#noisePattern)" />
+<path d="M 600 550 L 600 200 L 550 200 L 600 100 L 650 200 L 600 200" fill="url(#bronzeGradient)" />
+<polygon points="600,100 1200,315 600,200" fill="rgba(255, 235, 156, 0.7)"/>
+<polygon points="600,100 0,315 600,200" fill="rgba(255, 235, 156, 0.7)"/>
+<g transform="translate(100 100)">
+  <text font-family="'EB Garamond', serif" font-size="32" fill="#CD7F32" text-anchor="middle">
+    <tspan x="500" y="550">The Signal Filter Framework</tspan>
+  </text>
+</g>
+</svg>

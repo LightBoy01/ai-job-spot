@@ -37,7 +37,7 @@ async function sanitizeFiles(directoryPath: string) {
       let hasChanges = false;
 
       // Sanitize Frontmatter (only string values)
-      const sanitizedFrontmatter: { [key: string]: any } = {};
+      const sanitizedFrontmatter: { [key: string]: unknown } = {};
       for (const [key, value] of Object.entries(frontmatter)) {
         if (typeof value === 'string') {
           let cleanedValue = value;
@@ -273,7 +273,7 @@ async function archiveJobFiles(directoryPath: string, isDryRun: boolean) {
         const newPath = path.join(ARCHIVE_DIR, fileInfo.baseName);
         try {
           await fs.rename(oldPath, newPath);
-        } catch (e: any) {
+        } catch (e: unknown) {
           warnings.push(`Failed to archive ${fileName}: ${e.message}`);
         }
       }

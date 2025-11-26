@@ -6,6 +6,8 @@ const path = require('path');
 const matter = require('gray-matter');
 const DOMPurify = require('isomorphic-dompurify');
 const { SeedArticleSchema, SeedJobPostingSchema } = require('../src/lib/validationSchemas.cts');
+type SeedArticle = z.infer<typeof SeedArticleSchema>;
+type SeedJob = z.infer<typeof SeedJobPostingSchema>;
 const { CONTENT_MODEL } = require('../src/config/content-model.cts');
 
 const SITE_URL = 'https://www.aijobspot.online';
@@ -13,7 +15,7 @@ const SITE_URL = 'https://www.aijobspot.online';
 async function processDirectory(
   directoryPath: string,
   contentType: 'jobs' | 'articles'
-): Promise<any[]> {
+): Promise<(SeedJob | SeedArticle)[]> {
   const items = [];
   try {
     const files = await fs.readdir(directoryPath);
@@ -40,7 +42,7 @@ async function processDirectory(
         }
       }
 
-      let finalData: any = { ...data };
+      const finalData: Partial<SeedJob | SeedArticle> = { ...data };
 
       if (contentType === 'jobs') {
         let description = content;
@@ -50,8 +52,8 @@ async function processDirectory(
         const qualRegex = /\n###\s+Qualifications\n/i;
         const qualMatch = content.match(qualRegex);
         const respMatch = content.match(respRegex);
-        let respIndex = respMatch?.index ?? -1;
-        let qualIndex = qualMatch?.index ?? -1;
+        const respIndex = respMatch?.index ?? -1;
+        const qualIndex = qualMatch?.index ?? -1;
 
         if (qualIndex !== -1) {
           qualifications = content.substring(qualIndex + qualMatch![0].length).split('\n').map((s: string) => s.replace(/^\s*-\s*/, '').trim()).filter(Boolean);
@@ -97,7 +99,7 @@ async function processDirectory(
 async function upsertInBatches(
   adminDb: FirestoreTypes.Firestore,
   collectionRef: FirestoreTypes.CollectionReference,
-  items: any[],
+  items: (SeedJob | SeedArticle)[],
   idField: string,
   collectionName: string,
   isDryRun: boolean
@@ -136,7 +138,7 @@ async function upsertInBatches(
 
 async function seedContent(db: FirestoreTypes.Firestore, isDryRun: boolean) {
     const projectRoot = process.cwd();
-    const allProcessedItems: any[] = [];
+    const allProcessedItems: (SeedJob | SeedArticle)[] = [];
     const allUpsertedUrls: string[] = [];
 
     for (const [contentType, config] of Object.entries(CONTENT_MODEL)) {

@@ -1,4 +1,4 @@
-import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.ts';
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin.js';
 
 async function getJob(jobId: string) {
   const { adminDb } = await getFirebaseAdmin();

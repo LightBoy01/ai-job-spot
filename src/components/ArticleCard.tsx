@@ -16,7 +16,7 @@ const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
     <Link href={`/articles/${slug}`} passHref className="block group">
       <div className="relative bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out border border-neutral-200/80 hover:border-secondary/50 overflow-hidden h-full flex flex-col">
         {article.contentType === 'briefing' && (
-          <span className="absolute top-0 left-0 bg-neutral-500 text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10">
+          <span className="absolute top-0 left-0 bg-accent-dark text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10">
             BRIEFING
           </span>
         )}
@@ -38,7 +38,7 @@ const ArticleCard = React.memo(({ article }: ArticleCardProps) => {
           </h3>
           {hub && (
             <div className="mb-3">
-              <span className="inline-block bg-primary-extralight text-primary-dark text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+              <span className="inline-block border border-secondary/30 bg-secondary/10 text-secondary-dark text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
                 {hub}
               </span>
             </div>

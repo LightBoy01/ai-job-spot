@@ -6,6 +6,7 @@ import useAuth from '@/hooks/useAuth';
 import AdminLayout from '@/components/AdminLayout';
 import { Article } from '@/lib/types';
 import RichTextEditor from '@/components/RichTextEditor';
+import { calculateArticleCompleteness } from '@/lib/completenessScore';
 
 type ArticleFormData = Partial<
   Omit<Article, 'id' | 'publishDate' | 'tags' | 'contentType'> & {
@@ -80,7 +81,7 @@ const AddNewArticle: React.FC = () => {
         try {
           // Simple URL validation
           new URL(formData.originalUrl);
-        } catch (_) {
+        } catch {
           newErrors.originalUrl = 'Original URL must be a valid URL format.';
         }
       }
@@ -114,11 +115,21 @@ const AddNewArticle: React.FC = () => {
     setIsSubmitting(true);
     const toastId = toast.loading('Submitting article...');
 
+    // Prepare data for submission and completeness calculation
+    const articleDataForSubmission = {
+      ...formData,
+      publishDate: formData.publishDate ? new Date(formData.publishDate) : new Date(),
+      tags: formData.tags ? formData.tags.split(',').map(t => t.trim()) : [],
+    };
+
     try {
       if (!user) {
         throw new Error('You must be logged in to perform this action.');
       }
       const token = await user.getIdToken();
+
+      // Calculate completeness score before submission
+      const completenessScore = calculateArticleCompleteness(articleDataForSubmission as Article);
 
       const response = await fetch('/api/admin/articles', {
         method: 'POST',
@@ -126,7 +137,7 @@ const AddNewArticle: React.FC = () => {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${token}`,
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...articleDataForSubmission, completenessScore }),
       });
 
       if (!response.ok) {

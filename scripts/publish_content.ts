@@ -52,8 +52,8 @@ async function publishApprovedContent(contentType: ContentType) {
                 }
                 publishedCount++;
             }
-        } catch (error: any) {
-            warnings.push(`Failed to process file ${file}: ${error.message}`);
+        } catch (error: unknown) {
+            warnings.push(`Failed to process file ${file}: ${(error as Error).message}`);
         }
     }
 
@@ -79,16 +79,16 @@ async function publishApprovedContent(contentType: ContentType) {
     }
 
     if (warnings.length > 0) {
-        console.log('
-Encountered warnings:');
+        console.log(`
+Encountered warnings:`);
         warnings.forEach(w => console.log(`- ${w}`));
     }
 
-  } catch (error: any) {
-    if (error.code === 'ENOENT') {
+  } catch (error: unknown) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
         console.error(`Error: Directory not found for ${contentType}: ${config.dir}`);
     } else {
-        console.error(`Error during ${contentType} publishing process:`, error.message);
+        console.error(`Error during ${contentType} publishing process:`, (error as Error).message);
     }
     process.exit(1);
   }
@@ -109,10 +109,10 @@ async function main() {
 ${contentType} publishing process completed successfully.
 `);
         process.exit(0);
-    } catch (error) {
+    } catch (error: unknown) {
         console.error(`
 ${contentType} publishing process failed.
-`, error);
+`, (error as Error).message);
         process.exit(1);
     }
 }

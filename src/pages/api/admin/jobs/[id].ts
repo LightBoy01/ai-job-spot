@@ -63,13 +63,35 @@ export default async function handler(
         : [];
 
       const updatedJobData: Partial<FirestoreJobPosting> = {
-        ...jobData,
+        // Explicitly map fields to ensure type safety
+        title: jobData.title,
+        company: jobData.company,
+        location: jobData.location,
+        applicationLink: jobData.applicationLink,
+        status: jobData.status,
+        isNew: jobData.isNew,
+        jobLevel: jobData.jobLevel,
+        employeeRole: jobData.employeeRole,
+        companyLogoUrl: jobData.companyLogoUrl ?? undefined,
+        // Sanitize and transform fields
         description: sanitizedDescription,
         postedDate: postedTimestamp,
         expirationDate: expirationTimestamp,
         verificationDate: verificationTimestamp,
+        source: jobData.source ?? undefined,
+        applicationExperience: jobData.applicationExperience ?? undefined,
+        story_question1: jobData.story_question1 ?? undefined,
+        story_answer1: jobData.story_answer1 ?? undefined,
+        story_question2: jobData.story_question2 ?? undefined,
+        story_answer2: jobData.story_answer2 ?? undefined,
+        story_question3: jobData.story_question3 ?? undefined,
+        story_answer3: jobData.story_answer3 ?? undefined,
+        companyCulture: jobData.companyCulture ?? undefined,
+        glassdoorLink: jobData.glassdoorLink ?? undefined,
+        crunchbaseLink: jobData.crunchbaseLink ?? undefined,
+        salaryRange: jobData.salaryRange ?? undefined,
         tags: jobData.tags
-          ? jobData.tags.split(',').map((tag) => tag.trim())
+          ? (Array.isArray(jobData.tags) ? jobData.tags : jobData.tags.split(',')).map((tag) => tag.trim())
           : [],
         responsibilities: responsibilitiesArray,
         qualifications: qualificationsArray,

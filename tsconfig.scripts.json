@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "allowImportingTsExtensions": false
+  },
+  "include": ["scripts/**/*.ts"],
+  "exclude": ["node_modules", "scripts/debug/**/*.ts", "scripts/archive/**/*.ts", "scripts/migrations/**/*.ts"]
+}

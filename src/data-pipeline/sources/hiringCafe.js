@@ -79,6 +79,9 @@ async function fetchJobs(config) {
             logger.error('[hiring.cafe] An error occurred during fetch:', error);
             break;
         }
+
+        // Add a delay to avoid rate-limiting
+        await new Promise(resolve => setTimeout(resolve, 3000));
     }
     logger.info(`[hiring.cafe] Fetched a total of ${allJobs.length} jobs.`);
     return allJobs;

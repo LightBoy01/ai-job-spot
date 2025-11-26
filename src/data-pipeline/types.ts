@@ -67,7 +67,7 @@ export const StandardBriefingSchema = z.object({
     contentType: z.literal('briefing'),
     sourceName: z.string(),
     originalUrl: z.string().url(),
-    status: z.enum(['pending_review', 'content_incomplete', 'published']),
+    status: z.enum(['pending_review', 'content_incomplete', 'published', 'pending_approval']),
     tags: z.array(z.string()),
     excerpt: z.string(),
     content: z.string(),

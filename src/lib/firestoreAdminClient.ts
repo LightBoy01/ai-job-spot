@@ -2,9 +2,9 @@
 // This file exports functions that are pre-configured for the SERVER-SIDE Firebase Admin SDK.
 // They are intended for use in server-side code (e.g., getStaticProps, API routes) and should not be used in client components.
 
-import { getFirebaseAdmin } from './firebaseAdmin';
+import { getFirebaseAdmin } from './firebaseAdmin.js';
 import { JobPosting, Article } from './types.js';
-import { admin } from './firebaseAdmin';
+import { admin } from './firebaseAdmin.js';
 
 // Helper function to convert Firestore Timestamp to JavaScript Date
 const convertTimestampToDate = (

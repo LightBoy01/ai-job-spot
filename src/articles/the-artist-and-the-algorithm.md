@@ -2,7 +2,7 @@
 slug: the-artist-and-the-algorithm
 title: 'The Artist and the Algorithm: A Dialogue on Creativity in the Age of AI'
 author: The AI Strategist
-publishDate: '2025-09-14T11:00:00.000Z'
+publishDate: '2025-10-24T10:00:00.000Z'
 issueNo: 31
 volumeNo: 1
 tags:
@@ -10,7 +10,7 @@ tags:
   - AI Ethics
   - Future of Work
   - Art
-imageUrl: /images/articles/the-artist-and-the-algorithm.svg
+imageUrl: /images/articles/the-artist-and-the-algorithm-v2.svg
 hub: The Human Advantage
 contentType: editorial
 ---

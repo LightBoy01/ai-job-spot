@@ -2,7 +2,7 @@
 slug: the-signal-in-the-silence
 title: 'The Signal in the Silence: The Power of Deliberate Inaction in the Age of AI'
 author: The AI Strategist
-publishDate: '2025-09-11T10:00:00.000Z'
+publishDate: '2025-10-10T10:00:00.000Z'
 issueNo: 29
 volumeNo: 1
 tags:
@@ -11,7 +11,7 @@ tags:
   - Productivity
   - Mindfulness
   - Leadership
-imageUrl: /images/articles/the-signal-in-the-silence.svg
+imageUrl: /images/articles/the-signal-in-the-silence-v2.svg
 hub: The Human Advantage
 contentType: editorial
 ---

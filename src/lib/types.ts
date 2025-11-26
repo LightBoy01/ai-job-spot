@@ -4,30 +4,28 @@ export interface JobPosting {
   id?: string; // Optional, as Firestore generates this
   title: string;
   company: string;
-  companyLogoUrl?: string | null; // The new field for the company logo
+  companyLogoUrl?: string | null;
   description: string; // This can be a full HTML description or a summary
   responsibilities?: string[]; // A list of key responsibilities
   qualifications?: string[]; // A list of required qualifications
   preferredQualifications?: string[]; // Optional list of preferred qualifications
   location: string;
-  salaryRange?: string | null; // Optional
-  postedDate: Date | null;
+  salaryRange?: string | null;
+  postedDate: Date;
   expirationDate?: Date | null; // Optional expiration date for job postings
   applicationLink: string;
-  applicationExperience?: string | null; // e.g., "Redirects to Workday; 15-20 minute application"
+  applicationExperience?: string | null;
   tags: string[]; // e.g., ['AI', 'Machine Learning', 'Remote']
-  jobLevel?: string | null; // e.g., P40
-  employeeRole?: string | null; // e.g., Individual Contributor
+  jobLevel?: string | null;
+  employeeRole?: string | null;
   status?: 'draft' | 'pending_review' | 'pending_approval' | 'published' | 'rejected'; // Workflow status
   isNew?: boolean;
   isFeatured?: boolean;
-  source?: string | null; // Source of the job posting (e.g., scraped from a specific site)
-  sourceUrl?: string | null; // The direct URL to the original job posting
-  verificationDate?: Date | null; // The date AI Job Spot last verified the listing
+  source?: string | null;
+  sourceUrl?: string | null;
   glassdoorLink?: string | null;
   crunchbaseLink?: string | null;
 
-  // Human Context Q&A
   story_question1?: string | null;
   story_answer1?: string | null;
   story_question2?: string | null;
@@ -35,6 +33,7 @@ export interface JobPosting {
   story_question3?: string | null;
   story_answer3?: string | null;
   companyCulture?: string | null;
+  verificationDate?: Date | null;
 }
 
 export type FirestoreJobPosting = Omit<
@@ -58,9 +57,9 @@ export interface Article {
   id?: string;
   title: string;
   author: string;
-  publishDate: Date | null;
-  contentBody: string;
-  excerpt: string;
+  publishDate: Date;
+  contentBody: string | null;
+  excerpt: string | null;
   tags: string[];
   slug: string;
   contentType: 'editorial' | 'briefing';
@@ -68,14 +67,14 @@ export interface Article {
   originalUrl?: string | null;
   issueNo: number;
   volumeNo: number;
-  hub?: string;
+  hub?: string | null;
   imageUrl?: string | null;
 
   // Optional fields for author Q&A
-  author_take_question1?: string;
-  author_take_answer1?: string;
-  author_take_question2?: string;
-  author_take_answer2?: string;
+  author_take_question1?: string | null;
+  author_take_answer1?: string | null;
+  author_take_question2?: string | null;
+  author_take_answer2?: string | null;
 }
 
 export type FirestoreArticle = Omit<Article, 'publishDate'> & {
@@ -127,7 +126,7 @@ export type SerializedJobSummary = Omit<
 
 export interface SerializedArticle extends Omit<Article, 'publishDate'> {
   publishDate: string | null;
-  excerpt: string;
+  excerpt: string | null;
 }
 
 // A more lightweight type for the article cards, excluding the full content.

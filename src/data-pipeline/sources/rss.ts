@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import logger from '../utils/logger.js';
 import { IBriefingSource, StandardBriefing, StandardBriefingSchema } from '../types.js';
 import { fetchAndParseRss, RssItem } from '../adapters/rss-adapter.js';
 import { generateBriefingId } from '../utils/id-generation.js';
@@ -7,21 +7,8 @@ import { generateBriefingId } from '../utils/id-generation.js';
  * Transforms a raw RSS item into our StandardBriefing format.
  */
 function transform(item: RssItem, sourceName: string): StandardBriefing | null {
-    // --- DATE FILTER ---
     const publishDate = item.isoDate ? new Date(item.isoDate) : new Date();
-    const sevenDaysAgo = new Date();
-    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
-
-    if (publishDate < sevenDaysAgo) {
-        return null; // Briefing is older than 7 days
-    }
-
-    // --- CONTENT QUALITY FILTER ---
     const content = item.content || '';
-    if (content.length < 100) {
-        return null; // Content is too short
-    }
-
     const briefingId = generateBriefingId(item.link);
 
     // --- NEW: Robust author handling ---

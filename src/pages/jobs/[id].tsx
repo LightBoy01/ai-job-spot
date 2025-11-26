@@ -8,6 +8,7 @@ import {
 import { SerializedJobPosting, SerializedArticle } from '@/lib/types';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 import { formatDate } from '@/lib/dateUtils';
 import AdContainer from '@/components/AdContainer';
 import Image from 'next/image';
@@ -16,6 +17,8 @@ import FeaturedBadge from '@/components/FeaturedBadge'; // New import
 import { useState } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import DOMPurify from 'isomorphic-dompurify';
+import Icon from '@/components/Icon';
+import Breadcrumbs, { Breadcrumb } from '@/components/Breadcrumbs';
 
 interface JobDetailsProps {
   job: SerializedJobPosting;
@@ -132,6 +135,12 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
   const sanitizedDescription = DOMPurify.sanitize(job.description);
   const sanitizedCulture = job.companyCulture ? DOMPurify.sanitize(job.companyCulture) : '';
 
+  const breadcrumbs: Breadcrumb[] = [
+    { label: 'Home', href: '/', isCurrent: false },
+    { label: 'Jobs', href: '/', isCurrent: false },
+    { label: job.title, href: `/jobs/${job.id}`, isCurrent: true },
+  ];
+
   return (
     <Layout>
       <Head>
@@ -170,21 +179,21 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
         />
       </Head>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <Breadcrumbs crumbs={breadcrumbs} />
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-12">
           {/* Main Content */}
-          <div className="md:col-span-2">
-            <article>
-              <header className={`mb-10 border-b border-neutral-200 pb-8 ${job.isFeatured ? 'bg-amber-50/50 p-6 rounded-lg border-2 border-amber-500 ring-2 ring-amber-300' : ''}`}>
-                <div className="flex items-start space-x-6 mb-6">
-                  {/* Logo or Fallback */}
-                  <div className="flex-shrink-0 w-24 h-24 bg-neutral-100 rounded-xl flex items-center justify-center border border-neutral-200">
+          <div className="md:col-span-2 min-w-0">
+              <article className="break-words">
+                  <header className={`mb-10 border-b border-neutral-200 pb-8 ${job.isFeatured ? 'bg-amber-50/50 p-6 rounded-lg border-2 border-amber-500 ring-2 ring-amber-300' : ''}`}>
+                    <div className="flex items-start space-x-6 mb-6">                  {/* Logo or Fallback */}
+                  <div className="flex-shrink-0 w-24 h-24 bg-white rounded-xl flex items-center justify-center border-2 border-neutral-200 shadow-sm p-2">
                     {job.companyLogoUrl ? (
                       <Image
                         src={`/api/image-proxy?url=${encodeURIComponent(job.companyLogoUrl)}`}
                         alt={`${job.company} logo`}
-                        width={96}
-                        height={96}
-                        className="w-full h-full object-contain rounded-xl"
+                        width={88}
+                        height={88}
+                        className="object-contain rounded-lg"
                       />
                     ) : (
                       <span className="text-3xl font-bold text-primary-dark">
@@ -198,8 +207,8 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                     )}
                   </div>
                   {/* Title and Company */}
-                  <div className="flex-1">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary-dark leading-tight mb-3">
+                  <div className="flex-1 pt-2 min-w-0">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary-dark leading-tight mb-2 break-words whitespace-normal">
                       {job.title}
                       {job.isFeatured && (
                         <span className="ml-4 inline-block align-middle">
@@ -207,66 +216,31 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                         </span>
                       )}
                     </h1>
-                    <div className="text-2xl text-neutral-700">
-                      {job.company}
+                    <div className="text-2xl text-neutral-700 font-light">
+                      at {job.company}
                     </div>
                   </div>
                 </div>
 
-                <hr />
-                {job.salaryRange ? (
-                  <div className="mt-4 text-2xl text-accent-dark font-semibold">
-                    {job.salaryRange}
-                  </div>
-                ) : (
-                  <div className="mt-4 text-lg text-neutral-500 italic">
-                    Salary: Not Disclosed
-                  </div>
-                )}
-                <div className="mt-6 flex flex-col space-y-3 text-lg text-neutral-600">
-                  <div className="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 mr-2 text-neutral-500"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={1.5}
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                    <span>{job.location}</span>
-                  </div>
-                  {job.jobLevel && (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 mt-8 pt-6 border-t border-neutral-200/80">
+                  {job.salaryRange ? (
                     <div className="flex items-center">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-6 w-6 mr-2 text-neutral-500"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={1.5}
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M12 6.253v11.494m-5.747-6.99H17.747"
-                        />
-                      </svg>
-                      <span>{job.jobLevel}</span>
+                      <Icon name="salary" className="h-7 w-7 mr-3 text-accent" />
+                      <span className="text-xl text-accent-dark font-semibold">{job.salaryRange}</span>
+                    </div>
+                  ) : (
+                    <div className="flex items-center">
+                       <Icon name="salary" className="h-7 w-7 mr-3 text-neutral-400" />
+                      <span className="text-lg text-neutral-500 italic">Salary Not Disclosed</span>
                     </div>
                   )}
+                  <div className="flex items-center">
+                    <Icon name="location" className="h-7 w-7 mr-3 text-accent" />
+                    <span className="text-xl text-neutral-700">{job.location}</span>
+                  </div>
                 </div>
-                <div className="text-sm text-neutral-500 mt-4">
+
+                <div className="text-sm text-neutral-500 mt-6">
                   {job.postedDate && `Posted on ${formatDate(job.postedDate)}`}
                   {job.expirationDate && (
                     <span className="ml-4">
@@ -278,15 +252,16 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
 
               {/* Story Behind the Role */}
               <section className="my-12 md:my-16">
-                <div className="p-6 md:p-8 bg-secondary/5 rounded-lg border-l-4 border-secondary">
-                  <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-dark mb-8">
+                <div className="p-8 bg-gradient-to-br from-secondary/5 to-secondary/10 rounded-lg border-l-4 border-secondary shadow-lg">
+                  <h2 className="text-3xl font-serif font-bold text-primary-dark mb-6 flex items-center">
+                    <Icon name="story" className="h-8 w-8 mr-4 text-secondary" />
                     The Story Behind the Role
                   </h2>
                   {job.story_answer1 != null ? (
-                    <div className="space-y-8">
+                    <div className="space-y-8 pl-12 border-l-2 border-secondary/20 ml-4">
                       {job.story_question1 && job.story_answer1 != null && (
                         <div>
-                          <h3 className="text-lg md:text-xl font-semibold font-serif text-primary/90">
+                          <h3 className="text-xl font-semibold font-serif text-primary/90">
                             {job.story_question1}
                           </h3>
                           <p className="mt-2 text-neutral-700 prose prose-lg max-w-none">
@@ -296,7 +271,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                       )}
                       {job.story_question2 && job.story_answer2 != null && (
                         <div>
-                          <h3 className="text-lg md:text-xl font-semibold font-serif text-primary/90">
+                          <h3 className="text-xl font-semibold font-serif text-primary/90">
                             {job.story_question2}
                           </h3>
                           <p className="mt-2 text-neutral-700 prose prose-lg max-w-none">
@@ -306,7 +281,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                       )}
                       {job.story_question3 && job.story_answer3 != null && (
                         <div>
-                          <h3 className="text-lg md:text-xl font-semibold font-serif text-primary/90">
+                          <h3 className="text-xl font-semibold font-serif text-primary/90">
                             {job.story_question3}
                           </h3>
                           <p className="mt-2 text-neutral-700 prose prose-lg max-w-none">
@@ -316,7 +291,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                       )}
                     </div>
                   ) : (
-                    <p className="text-neutral-600 italic">
+                    <p className="text-neutral-600 italic pl-12">
                       This job posting does not yet have the &quot;Story Behind
                       the Role&quot; section. Check back later for more
                       insights!
@@ -325,9 +300,9 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                 </div>
               </section>
 
-              <section className="prose prose-base sm:prose-lg max-w-none mx-auto job-description">
+              <section className="prose prose-base sm:prose-lg mx-auto">
                 <div
-                  className="prose prose-base sm:prose-lg max-w-none mx-auto job-description"
+                  className="prose prose-base sm:prose-lg mx-auto overflow-x-auto"
                   dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
                 />
 
@@ -338,7 +313,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                     </h2>
                     <ul className="list-disc pl-5 space-y-2">
                       {job.responsibilities.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <li key={index} className="break-words">{item}</li>
                       ))}
                     </ul>
                   </>
@@ -351,7 +326,7 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                     </h2>
                     <ul className="list-disc pl-5 space-y-2">
                       {job.qualifications.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <li key={index} className="break-words">{item}</li>
                       ))}
                     </ul>
                   </>
@@ -375,12 +350,13 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
               {/* Company Culture Section */}
               {job.companyCulture && (
                 <section className="my-12 md:my-16">
-                  <div className="p-6 md:p-8 bg-neutral-50 rounded-lg border-l-4 border-neutral-300">
-                    <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-dark mb-8">
+                  <div className="p-8 bg-neutral-50 rounded-lg border-l-4 border-neutral-300">
+                    <h2 className="text-3xl font-serif font-bold text-primary-dark mb-6 flex items-center">
+                       <Icon name="culture" className="h-8 w-8 mr-4 text-neutral-500" />
                       Our Culture
                     </h2>
                     <div
-                      className="prose prose-lg max-w-none text-neutral-700"
+                      className="prose prose-lg max-w-none text-neutral-700 pl-12 border-l-2 border-neutral-200 ml-4"
                       dangerouslySetInnerHTML={{ __html: sanitizedCulture }}
                     />
                   </div>
@@ -389,18 +365,19 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
 
               <div className="my-12">
                 {job.applicationExperience != null && (
-                  <div className="mb-6 p-4 bg-neutral-100 border border-neutral-200 rounded-lg">
-                    <h3 className="text-lg font-semibold text-neutral-800 mb-2">
+                  <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                    <h3 className="text-lg font-semibold text-blue-800 mb-2 flex items-center">
+                      <Icon name="info" className="h-6 w-6 mr-3" />
                       Application Insights
                     </h3>
-                    <p className="text-neutral-600">
+                    <p className="text-blue-700 pl-9">
                       {job.applicationExperience}
                     </p>
                   </div>
                 )}
                 <button
                   onClick={handleApplyClick}
-                  className="inline-block bg-primary-dark hover:bg-primary text-white font-bold py-3 px-6 rounded-lg transition-colors text-lg"
+                  className="inline-block bg-primary-dark hover:bg-primary text-white font-serif font-semibold py-4 px-10 rounded-lg transition-all duration-300 ease-in-out text-lg shadow-md hover:shadow-lg transform hover:-translate-y-px"
                 >
                   Apply Now
                 </button>
@@ -416,14 +393,15 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                 confirmButtonClassName="bg-primary text-white hover:bg-primary-dark"
               />
 
-              <div className="mt-10 flex flex-wrap gap-3">
+              <div className="mt-10 flex flex-wrap gap-2">
                 {(job.tags || []).map((tag) => (
-                  <span
+                  <Link
+                    href={`/tags/${encodeURIComponent(tag.toLowerCase())}`}
                     key={tag}
-                    className="bg-secondary-light text-secondary-dark text-sm font-medium px-3 py-1 rounded-md"
+                    className="border border-secondary/30 bg-secondary/10 text-secondary-dark text-xs font-semibold px-3 py-1.5 rounded-md hover:bg-secondary-dark hover:text-white transition-colors duration-200"
                   >
                     {tag}
-                  </span>
+                  </Link>
                 ))}
               </div>
 
@@ -435,80 +413,51 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
 
               {/* --- DYNAMIC PROVENANCE TRAIL --- */}
               {(job.source || job.verificationDate) && (
-                <section className="my-12">
-                  <div className="bg-neutral-50 border border-secondary-light rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">
+                <section className="my-16">
+                  <div className="bg-secondary/5 border border-secondary/20 rounded-lg p-6">
+                    <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4 flex items-center">
+                      <Icon name="provenance" className="h-6 w-6 mr-3 text-neutral-500" />
                       Provenance Trail
                     </h3>
-                    <p className="text-sm text-neutral-600 mb-4">
+                    <p className="text-sm text-neutral-600 mb-5 pl-9">
                       To ensure authenticity, we track the origin and
                       verification history of our listings.
                     </p>
-                    <ul className="text-sm space-y-2 text-neutral-700">
+                    <ul className="text-sm space-y-4 text-neutral-800">
                       {job.source && (
-                        <li className="flex items-center">
-                          <svg
-                            className="h-4 w-4 mr-2 text-secondary"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M10 20l4-16m4 4l-4 4-4-4"
-                            />
-                          </svg>
-                          <strong>Source:</strong>
-                          <span className="ml-2">{job.source}</span>
+                        <li className="grid grid-cols-[auto,1fr] gap-x-3 items-start">
+                          <Icon name="source-alt" className="h-5 w-5 mt-0.5 text-secondary" />
+                          <div>
+                            <strong className="font-semibold">Source:</strong>
+                            <span className="ml-2 font-mono bg-neutral-200 px-2 py-1 rounded-md text-xs">{job.source}</span>
+                          </div>
                         </li>
                       )}
                       {job.verificationDate && (
-                        <li className="flex items-center">
-                          <svg
-                            className="h-4 w-4 mr-2 text-secondary"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                            />
-                          </svg>
-                          <strong>Last Verified:</strong>
-                          <span className="ml-2">
-                            {formatDate(job.verificationDate)}
-                          </span>
+                        <li className="grid grid-cols-[auto,1fr] gap-x-3 items-start">
+                          <Icon name="calendar" className="h-5 w-5 mt-0.5 text-secondary" />
+                          <div>
+                            <strong className="font-semibold">Last Verified:</strong>
+                            <span className="ml-2 font-medium">
+                              {formatDate(job.verificationDate)}
+                            </span>
+                          </div>
                         </li>
                       )}
                       {job.sourceUrl && (
-                        <li className="flex items-center">
-                          <svg
-                            className="h-4 w-4 mr-2 text-secondary"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-                            />
-                          </svg>
-                          <strong>Original Posting:</strong>
-                          <a
-                            href={job.sourceUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="ml-2 text-primary hover:underline"
-                          >
-                            View Original
-                          </a>
+                        <li className="grid grid-cols-[auto,1fr] gap-x-3 items-start">
+                          <Icon name="source" className="h-5 w-5 mt-0.5 text-secondary" />
+                          <div>
+                            <strong className="font-semibold">Original Posting:</strong>
+                            <a
+                              href={job.sourceUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="ml-2 text-primary hover:underline font-medium"
+                            >
+                              View Original
+                            </a>
+                          </div>
                         </li>
                       )}
                     </ul>
@@ -527,24 +476,11 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block bg-neutral-50 border border-neutral-200 rounded-lg p-6 hover:bg-neutral-100 hover:border-neutral-300 transition-all duration-200"
+                className="block bg-primary/5 border border-primary/10 rounded-lg p-6 hover:bg-primary/10 hover:border-primary/20 transition-all duration-300"
               >
                 <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4 flex items-center">
                   Company Research
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 inline-block ml-2 text-neutral-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
+                  <Icon name="external-link" className="h-5 w-5 inline-block ml-2 text-neutral-500" />
                 </h3>
                 <ul className="space-y-3">
                   {job.glassdoorLink != null && (
@@ -651,6 +587,12 @@ export const getStaticProps: GetStaticProps<
     companyCulture: job.companyCulture ?? null,
   };
 
+  if (id === '01118332cc3aeb166f1c5fcc027578db4d57a573ecfd96289b632e14fad2c42a') {
+    console.log('--- DEBUG START: JOB HTML ---');
+    console.log(serializedJob.description);
+    console.log('--- DEBUG END: JOB HTML ---');
+  }
+
   return {
     props: {
       job: serializedJob,
@@ -659,6 +601,8 @@ export const getStaticProps: GetStaticProps<
         publishDate: article.publishDate
           ? article.publishDate.toISOString()
           : '',
+        issueNo: article.issueNo ?? null,
+        volumeNo: article.volumeNo ?? null,
       })),
     },
     revalidate: 60, // Re-generate the page every 60 seconds

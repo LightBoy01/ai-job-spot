@@ -11,7 +11,12 @@ const JOB_OUTPUT_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
 const BRIEFING_OUTPUT_DIR = path.resolve(process.cwd(), 'src', 'content', 'briefings');
 
 function createSlug(text: string): string {
-  return slugify(text, {
+  // Handle potential CJS/ESM interop issues with slugify
+  type SlugifyFunc = (text: string, options?: object) => string;
+  const slugifyModule = slugify as { default: SlugifyFunc } | SlugifyFunc;
+  const slugifyFn = typeof slugifyModule === 'function' ? slugifyModule : slugifyModule.default;
+
+  return slugifyFn(text, {
     lower: true,
     strict: true,
     remove: /[*+~.()'"!:@]/g,

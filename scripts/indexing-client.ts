@@ -94,10 +94,9 @@ async function submitUrl(url: string) {
     const data = await response.json();
 
     if (response.ok) {
-      console.log('\n--- Submission Successful ---');
-      console.log(`URL: ${data.urlNotificationMetadata.latestUpdate.url}`);
-      console.log(`Update Type: ${data.urlNotificationMetadata.latestUpdate.type}`);
-      console.log(`Notification Time: ${new Date(data.urlNotificationMetadata.latestUpdate.notifyTime).toUTCString()}`);
+      console.log(`\n--- Submission Successful ---`);
+      console.log(`URL '${url}' was successfully submitted for indexing.`);
+      console.log('It may take some time for Google to process the request.');
       console.log('---------------------------\n');
     } else {
       console.error(`\n[ERROR] Failed to submit URL. API responded with ${response.status}:`);

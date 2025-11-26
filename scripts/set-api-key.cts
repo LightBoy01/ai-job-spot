@@ -8,7 +8,7 @@ const PROVIDER_VARS: Record<string, string> = {
   gemini: 'AI_API_KEY',
   openai: 'OPENAI_API_KEY', // For future use
   anthropic: 'ANTHROPIC_API_KEY', // For future use
-  revalidate: 'REVALIDATE_SECRET_TOKEN', // Bonus: allow updating other keys too
+  revalidate: 'REVALIDATE_SECRET_TOKEN',
 };
 
 const ENV_FILE_PATH = path.resolve(process.cwd(), '.env.local');
@@ -36,33 +36,15 @@ async function setApiKey() {
     output: process.stdout,
   });
 
-  // Create a hidden input for the key
-  const question = (query: string): Promise<string> =>
-    new Promise((resolve) => {
-      const onData = (char: Buffer) => {
-        const key = char.toString();
-        if (key === '\r' || key === '\n' || key === '\u0004') {
-          // End of input
-          process.stdin.setRawMode(false);
-          process.stdin.removeListener('data', onData);
-          rl.close();
-          resolve('');
-        } else if (key === '\u0003') {
-          // Ctrl+C
-          process.exit(1);
-        } else {
-          // Regular character
-          process.stdout.write('*');
-          resolve(key);
-        }
-      };
-
-      rl.question(query, (answer) => {
-          resolve(answer);
-      });
+  const question = (query: string): Promise<string> => new Promise((resolve) => {
+    rl.question(query, (answer: string) => {
+        resolve(answer);
     });
+  });
 
   const key = await question(`Please enter the new API key for ${provider} (${variableName}): `);
+
+  rl.close();
   console.log('\n'); // Newline after input
 
   if (!key.trim()) {

@@ -25,10 +25,20 @@ const TagsPage: NextPage<TagsPageProps> = ({ tags }) => {
         <div className="flex flex-wrap gap-4">
           {tags.length > 0 ? (
             tags.map((tag) => (
-              <Link key={tag} href={`/tags/${tag}`} passHref>
-                <span className="inline-block bg-primary-light text-primary-dark px-6 py-3 rounded-full text-lg font-semibold hover:bg-primary transition-colors hover:text-white shadow-md">
-                  #{tag}
-                </span>
+              <Link
+                key={tag}
+                href={`/tags/${encodeURIComponent(tag.toLowerCase())}`}
+                passHref
+                className="block w-full sm:w-auto"
+              >
+                <div className="h-full bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out border border-neutral-200/80 hover:border-secondary/50 text-center sm:text-left">
+                  <h2 className="text-xl font-serif font-bold text-primary-dark group-hover:text-secondary-dark transition-colors">
+                    #{tag}
+                  </h2>
+                  <p className="text-sm text-neutral-500 mt-1 font-sans">
+                    Explore Hub &rarr;
+                  </p>
+                </div>
               </Link>
             ))
           ) : (

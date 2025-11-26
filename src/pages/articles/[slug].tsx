@@ -143,11 +143,11 @@ export default function ArticlePage({
     <Layout>
       <Head>
         <title>{`${title} | AI Job Spot`}</title>
-        <meta name="description" content={article.excerpt} />
+        <meta name="description" content={article.excerpt || ''} />
         <meta name="author" content={author} />
         <meta name="keywords" content={article.tags.join(', ')} />
         <meta property="og:title" content={`${title} | AI Job Spot`} />
-        <meta property="og:description" content={article.excerpt} />
+        <meta property="og:description" content={article.excerpt || ''} />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
@@ -190,8 +190,8 @@ export default function ArticlePage({
             </h1>
             {hub && (
               <div className="mb-4">
-                <Link href={`/tags/${hub.toLowerCase().replace(/ /g, '-')}`} passHref>
-                  <span className="inline-block bg-secondary-light text-secondary-dark text-sm font-semibold px-3 py-1 rounded-full uppercase tracking-wider cursor-pointer hover:bg-secondary-dark hover:text-white transition-colors">
+                <Link href={`/tags/${encodeURIComponent(hub.toLowerCase())}`} passHref>
+                  <span className="inline-block border border-secondary/30 bg-secondary/10 text-secondary-dark text-sm font-semibold px-3 py-1 rounded-full uppercase tracking-wider cursor-pointer hover:bg-secondary-dark hover:text-white transition-colors">
                     {hub}
                   </span>
                 </Link>
@@ -216,7 +216,7 @@ export default function ArticlePage({
             </div>
 
             {article.contentType === 'briefing' && article.originalUrl && article.sourceName && (
-              <div className="my-8 p-4 bg-neutral-100 border-l-4 border-neutral-400 text-neutral-700" role="alert">
+              <div className="my-8 p-4 bg-neutral-50/70 rounded-lg border border-neutral-200/80 text-neutral-700" role="alert">
                 <p className="font-semibold">Content Source</p>
                 <p className="text-sm">
                   This is a curated briefing. The original article was published on{' '}
@@ -228,12 +228,24 @@ export default function ArticlePage({
             )}
 
             <div
-              className="prose prose-base sm:prose-lg max-w-none font-sans text-neutral-800 leading-relaxed article-content"
-              dangerouslySetInnerHTML={{ __html: contentBody }}
+              className="prose prose-base sm:prose-lg max-w-none font-sans text-neutral-800 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: contentBody || '' }}
             />
 
+            <div className="mt-12 flex flex-wrap gap-2">
+              {(article.tags || []).map((tag) => (
+                <Link
+                  href={`/tags/${encodeURIComponent(tag.toLowerCase())}`}
+                  key={tag}
+                  className="border border-secondary/30 bg-secondary/10 text-secondary-dark text-xs font-semibold px-3 py-1.5 rounded-md hover:bg-secondary-dark hover:text-white transition-colors duration-200"
+                >
+                  {tag}
+                </Link>
+              ))}
+            </div>
+
             {authorBio && (
-              <div className="mt-12 p-8 bg-neutral-50 rounded-lg shadow-md border border-secondary-light">
+              <div className="mt-12 p-8 bg-primary/5 rounded-lg border border-primary/10">
                 <h3 className="text-xl font-serif font-semibold text-primary-dark mb-2">
                   About {authorBio.name}
                 </h3>
@@ -283,7 +295,7 @@ export default function ArticlePage({
             {/* Behind the Article Section */}
             {article.author_take_answer1 && (
               <section className="my-12 md:my-16">
-                <div className="p-6 md:p-8 bg-secondary/5 rounded-lg border-l-4 border-secondary">
+                <div className="p-6 md:p-8 bg-secondary/5 rounded-lg border border-secondary/20">
                   <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-dark mb-8">Behind the Article</h2>
                   <div className="space-y-8">
                     {article.author_take_question1 && article.author_take_answer1 && (

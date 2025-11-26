@@ -1,38 +1,53 @@
 import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
-import { gotScraping } from 'got-scraping';
+
 import dotenv from 'dotenv';
+
+import { z } from 'zod';
 
 dotenv.config({ path: '.env.local' });
 
+const EnrichedBriefingDataSchema = z.object({
+  frontmatterFields: z.object({
+    suggestedTitle: z.string(),
+    suggestedTags: z.string(),
+  }),
+  markdownBody: z.string(),
+});
+
+type EnrichedBriefingData = z.infer<typeof EnrichedBriefingDataSchema>;
+
+import { callGeminiApi } from '../src/data-pipeline/utils/ai.js';
+import { sanitizeAndParseJson } from './utils/ai-response-parser.js';
+
 const BRIEFINGS_DIR = path.resolve(process.cwd(), 'src', 'content', 'briefings');
-const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${process.env.AI_API_KEY}`;
 
 interface PendingBriefing {
   filePath: string;
-  frontmatter: { [key: string]: any };
+  frontmatter: { [key: string]: unknown };
   content: string;
 }
-
-import { globSync } from 'glob';
 
 // ... (rest of the imports)
 
 async function getPendingBriefings(): Promise<PendingBriefing[]> {
-  console.log(`Scanning for up to 25 briefings with status 'pending_review'...`);
+  console.log("Scanning for briefings with status 'pending_review'...");
   const pendingBriefings: PendingBriefing[] = [];
   try {
-    const files = globSync('**/*.md', { cwd: BRIEFINGS_DIR, ignore: 'archive/**' });
+    const files = await fs.readdir(BRIEFINGS_DIR);
 
     for (const file of files) {
+      if (!file.endsWith('.md')) continue;
+
       const filePath = path.join(BRIEFINGS_DIR, file);
       try {
-        const fileContent = await fs.readFile(filePath, 'utf8');
-        
-        // Use a resilient check against the raw file content to bypass frontmatter parsing issues.
-        if (fileContent.includes('status: pending_review')) {
-          const { data, content } = matter(fileContent);
+        const rawFileContent = await fs.readFile(filePath, 'utf8');
+        // Clean the content by removing the auto-generated warning comment
+        const cleanedFileContent = rawFileContent.replace(/<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->\s*/, '');
+        const { data, content } = matter(cleanedFileContent);
+
+        if (data.status === 'pending_review') {
           pendingBriefings.push({ filePath, frontmatter: data, content });
         }
       } catch (error) {
@@ -45,15 +60,40 @@ async function getPendingBriefings(): Promise<PendingBriefing[]> {
     }
   }
   
+  const limitArg = process.argv.find(arg => arg.startsWith('--limit='));
+  let limit = 25; // Default limit
+
+  if (limitArg) {
+      const limitValue = parseInt(limitArg.split('=')[1], 10);
+      if (!isNaN(limitValue) && limitValue > 0) {
+          limit = Math.min(limitValue, 100); // Enforce max limit of 100
+      }
+  }
+  
   console.log(`Found ${pendingBriefings.length} total pending briefings.`);
-  const briefingsToProcess = pendingBriefings.slice(0, 25);
-  if (pendingBriefings.length > 25) {
-    console.log(`Limiting this run to 25 briefings.`);
+  const briefingsToProcess = pendingBriefings.slice(0, limit);
+
+  if (pendingBriefings.length > limit) {
+    console.log(`This run will be limited to processing ${limit} briefings.`);
   }
   return briefingsToProcess;
 }
 
-async function enrichBriefingData(briefingContent: string, originalTitle: string): Promise<any | null> {
+export async function enrichBriefingData(briefingContent: string, originalTitle: string): Promise<EnrichedBriefingData | null> {
+    console.log("Sending content to AI for enrichment...");
+
+    if (!process.env.AI_API_KEY) {
+        console.warn("AI_API_KEY environment variable not set. Using simulated AI response.");
+        // SIMULATED AI RESPONSE
+        return {
+            frontmatterFields: {
+                suggestedTitle: "This is a simulated title",
+                suggestedTags: "AI, Simulation, Testing",
+            },
+            markdownBody: `### Summary\nThis is a simulated summary.\n\n### Why It Matters\nThis is a simulated analysis of why it matters.`
+        };
+    }
+
     const prompt = `
       Analyze the following article content, which is a briefing on a topic in the AI industry. Your task is to analyze it and provide insightful, original commentary.
       Return ONLY a single, valid JSON object with two top-level keys: "frontmatterFields" and "markdownBody".
@@ -66,68 +106,67 @@ async function enrichBriefingData(briefingContent: string, originalTitle: string
           - ### Summary: A concise, one-paragraph summary of the key information in the original content.
           - ### Why It Matters: A new, original analysis section. Explain the broader implications of this news. Why does it matter to a professional in the AI space? What's the bigger picture or the underlying trend? Provide a strong, insightful take.
 
-      Do not add any fields that are not requested. The entire output must be a single JSON object.
+      IMPORTANT: The entire output MUST be a single, valid JSON object. The markdownBody value must be a single-line string with all special characters properly escaped.
+
+      EXAMPLE of a valid markdownBody value:
+      "markdownBody": "### Summary\\nThis is a summary.\\n\\n### Why It Matters\\nThis matters because of \\"reasons\\". It's important."
+
+      Pay close attention to escaping all double quotes (") with (\\") and all newline characters with (\\n) within the markdownBody string value.
+
+      Do not add any fields that are not requested.
 
       ARTICLE CONTENT TO ANALYZE:
-      """
       ${briefingContent}
-      """
 
       JSON OUTPUT:
     `;
 
-    try {
-        console.log('Enriching briefing content...');
-        const response = await gotScraping.post({
-            url: GEMINI_API_URL,
-            json: {
-                contents: [{ parts: [{ text: prompt }] }],
-            },
-            responseType: 'json'
-        });
+    const aiResponseText = await callGeminiApi(prompt);
 
-        const aiResponseText = response.body?.candidates?.[0]?.content?.parts?.[0]?.text;
-
-        if (!aiResponseText) {
-            console.error("Error: AI response was malformed or empty.", response.body);
-            return null;
-        }
-        
-        const cleanedJsonString = aiResponseText.replace(/^```json\n|```$/g, '').trim();
-        return JSON.parse(cleanedJsonString);
-
-    } catch (error: any) {
-        console.error("Error during AI enrichment:", error.response ? error.response.body : error.message);
+    if (!aiResponseText) {
         return null;
     }
+    
+    return sanitizeAndParseJson(aiResponseText, EnrichedBriefingDataSchema);
 }
 
 export async function enrichBriefings(isDryRun = false) {
+    console.log('\n--- [START] Briefing Enrichment Script ---');
     if (isDryRun) {
-        console.log('--- DRY RUN MODE: No files will be written. ---');
+        console.log('--- DRY RUN MODE: No files will be written. ---\n');
     }
 
-    let totalProcessed = 0;
     const briefingsToProcess = await getPendingBriefings();
+    const summary = {
+        totalFound: briefingsToProcess.length,
+        successfullyProcessed: 0,
+        skipped: 0,
+        failed: 0,
+    };
 
-    if (briefingsToProcess.length === 0) {
+    if (summary.totalFound === 0) {
         console.log('No pending briefings found to process.');
+        console.log('--- [END] Briefing Enrichment Script ---');
         return;
     }
 
     for (const briefing of briefingsToProcess) {
+        const briefingIndex = briefingsToProcess.indexOf(briefing) + 1;
+        const fileName = path.basename(briefing.filePath);
+        console.log(`\n--- [${briefingIndex}/${summary.totalFound}] Processing: ${fileName} ---`);
+
         try {
-            console.log(`\nProcessing file: ${path.basename(briefing.filePath)}`);
-            const enrichedData = await enrichBriefingData(briefing.content, briefing.frontmatter.title);
+            const enrichedData = await enrichBriefingData(briefing.content, briefing.frontmatter.title as string);
 
             if (!enrichedData || !enrichedData.markdownBody || !enrichedData.frontmatterFields) {
-                console.log(`Skipping file ${path.basename(briefing.filePath)} due to incomplete AI response.`);
+                console.log(`Skipping file ${fileName} due to incomplete AI response.`);
+                summary.skipped++;
                 continue;
             }
 
             const newFrontmatter = { ...briefing.frontmatter };
-            newFrontmatter.title = enrichedData.frontmatterFields.suggestedTitle || newFrontmatter.title;
-            const existingTags = new Set((newFrontmatter.tags || []).map((t: string) => t.trim()));
+            newFrontmatter.title = enrichedData.frontmatterFields.suggestedTitle || newFrontmatter.title as string;
+            const existingTags = new Set(((newFrontmatter.tags as string[]) || []).map((t: string) => t.trim()));
             const suggestedTags = (enrichedData.frontmatterFields.suggestedTags || '').split(',').map((t: string) => t.trim()).filter(Boolean);
             suggestedTags.forEach((tag: string) => existingTags.add(tag));
             newFrontmatter.tags = Array.from(existingTags);
@@ -136,44 +175,55 @@ export async function enrichBriefings(isDryRun = false) {
             const newBody = enrichedData.markdownBody;
             const newFileContent = matter.stringify(newBody, newFrontmatter);
 
-            console.log(`\n📊 Summary of Changes for ${path.basename(briefing.filePath)}:`);
+            console.log(`\n📊 Summary of Changes for ${fileName}:`);
             console.log(`- Title updated to: "${newFrontmatter.title}"`);
-            console.log(`- Tags updated to: ${newFrontmatter.tags.join(', ')}`);
+            console.log(`- Tags updated to: ${(newFrontmatter.tags as string[]).join(', ')}`);
             console.log("- Body content was rewritten with 'Summary' and 'Why It Matters' sections.");
 
             if (isDryRun) {
-              console.log(`\n--- DRY RUN: Changes for ${path.basename(briefing.filePath)} ---`);
+              console.log(`\n--- DRY RUN: Changes for ${fileName} ---`);
               console.log(newFileContent);
-              console.log(`--- END DRY RUN: ${path.basename(briefing.filePath)} ---\n`);
+              console.log(`--- END DRY RUN: ${fileName} ---\n`);
             } else {
               await fs.writeFile(briefing.filePath, newFileContent, 'utf8');
-              console.log(`Successfully enriched and updated ${path.basename(briefing.filePath)}`);
+              console.log(`✅ Successfully enriched and updated ${fileName}`);
             }
-            totalProcessed++;
+            summary.successfullyProcessed++;
 
-            // Add a 7-second delay between requests to avoid rate limiting
             if (briefingsToProcess.indexOf(briefing) < briefingsToProcess.length - 1) {
-                console.log('Waiting for 7 seconds before the next briefing...');
-                await new Promise(resolve => setTimeout(resolve, 7000));
+                console.log('Waiting for 15 seconds before the next briefing...');
+                await new Promise(resolve => setTimeout(resolve, 15000));
             }
             
         } catch (error) {
-            console.error(`Failed to process file ${path.basename(briefing.filePath)}. Error:`, error);
+            console.error(`❌ Failed to process file ${fileName}. Error:`, error);
+            summary.failed++;
         }
     }
-    console.log(`\nEnrichment script for briefings finished. ${isDryRun ? '(DRY RUN)' : ''} Processed a total of ${totalProcessed} briefings.`);
+
+    console.log('\n--- [END] Briefing Enrichment Script ---');
+    console.log('--- Final Summary ---');
+    console.log(`Total Briefings Found: ${summary.totalFound}`);
+    console.log(`✅ Successfully Processed: ${summary.successfullyProcessed}`);
+    console.log(`⏭️ Skipped: ${summary.skipped}`);
+    console.log(`❌ Failed: ${summary.failed}`);
+    console.log('-----------------------\n');
 }
 
-// --- EXECUTION BLOCK ---
-if (require.main === module) {
-    const isDryRun = process.argv.includes('--dry-run');
-    enrichBriefings(isDryRun)
-    .then(() => {
-        console.log('\nBriefing enrichment process completed successfully.\n');
-    })
-    .catch((error) => {
-        console.error('\nBriefing enrichment process failed.\n', error);
-    });
+import { fileURLToPath } from 'url';
+
+// ... (rest of the file)
+
+async function main() {
+    const isMainModule = process.argv[1] && fileURLToPath(import.meta.url).endsWith(process.argv[1]);
+
+    if (isMainModule) {
+        const isDryRun = process.argv.includes('--dry-run');
+        await enrichBriefings(isDryRun);
+    }
 }
 
-module.exports = { enrichBriefings };
+main().catch(error => {
+    console.error("An unexpected error occurred during briefing enrichment:", error);
+    process.exit(1);
+});

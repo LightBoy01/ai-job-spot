@@ -31,6 +31,7 @@ export async function fetchAndParseRss(feedUrl: string): Promise<RssItem[]> {
     const xmlString = await fetchPageSource(feedUrl);
     const feed = await parser.parseString(xmlString);
 
+
     if (!feed.items || feed.items.length === 0) {
       log.warn(`No items found in feed`);
       return [];

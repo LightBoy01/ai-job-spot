@@ -1,60 +1,30 @@
 import { z } from 'zod';
 import { IJobSource } from './types.js';
+import { Source } from '@/lib/types.js';
 import { loadAndValidateSourceConfigs } from './utils/getConfig.js';
 import { sourceAdapterFactory } from './source-adapter-factory.js';
 import { loadSourcesFromCache, saveSourcesToCache } from './utils/source-cache.js';
 import logger from './utils/logger.js';
 
-// --- Individual Schema Definitions for each adapter type ---
-
-const HiringCafeConfigSchema = z.object({
-  // HiringCafe might have specific config options in the future
-}).optional();
-
-const RssConfigSchema = z.object({
-  feedUrl: z.string().url(),
-}).optional();
-
-const PlaywrightConfigSchema = z.object({
-  url: z.string().url(),
-  selectors: z.object({
-    jobLinkSelector: z.string(),
-    titleSelector: z.string(),
-    companySelector: z.string(),
-    locationSelector: z.string(),
-    descriptionSelector: z.string(),
-    paginationSelector: z.string().optional(),
-  }),
-}).optional();
-
-
-// --- Discriminated Union ---
-
-const JobSourceConfigSchema = z.discriminatedUnion("adapter", [
-  z.object({
-    id: z.string(),
-    name: z.string(),
-    enabled: z.boolean(),
-    adapter: z.literal("HiringCafe"),
-    config: HiringCafeConfigSchema,
-  }),
-  z.object({
-    id: z.string(),
-    name: z.string(),
-    enabled: z.boolean(),
-    adapter: z.literal("RSS"),
-    config: RssConfigSchema,
-    // feedUrl is a legacy property we should still support for now
-    feedUrl: z.string().url().optional(),
-  }),
-  z.object({
-    id: z.string(),
-    name: z.string(),
-    enabled: z.boolean(),
-    adapter: z.literal("Playwright"),
-    config: PlaywrightConfigSchema,
-  }),
-]);
+// This schema is now aligned with the `Source` type from `lib/types.ts`
+const JobSourceConfigSchema = z.object({
+  id: z.string(),
+  sourceName: z.string(),
+  feedUrl: z.string().url().nullable().optional(), // Optional for non-RSS sources
+  type: z.enum(['Job', 'Article']),
+  adapter: z.enum(['RSS', 'Playwright', 'HiringCafe', 'HIRING_CAFE', 'HIRING_CAFE_API', 'Arbeitnow']),
+  status: z.enum(['Pending', 'Active', 'Inactive']),
+  keywords: z.array(z.string()).optional(),
+  fetchFrequency: z.enum(['daily', 'weekly', 'monthly']).optional(),
+  lastFetchedAt: z.date().nullable().optional(),
+  notes: z.string().optional(),
+  // The 'enabled' field is used in the query but is part of the Source type.
+  enabled: z.boolean().optional(),
+  baseUrl: z.string().url().optional(),
+  remote: z.boolean().optional(),
+  visa_sponsorship: z.boolean().optional(),
+  maxPages: z.number().optional(), // Add maxPages to the schema
+});
 
 
 /**
@@ -70,7 +40,13 @@ export async function getJobSources(): Promise<IJobSource[]> {
     if (cachedSources) {
       logger.info('[Config] Using cached job sources.');
       const sources = cachedSources
-        .map(config => sourceAdapterFactory.createSource(config))
+        .filter(config => config.type === 'Job') // Filter for job sources first
+        .map(config => sourceAdapterFactory.createSource({
+            name: config.sourceName,
+            adapter: config.adapter,
+            feedUrl: config.feedUrl,
+            config: { ...config } // Pass the whole original config object
+        }))
         .filter((source): source is IJobSource => source !== null && 'fetchJobs' in source);
       return sources;
     }
@@ -78,17 +54,28 @@ export async function getJobSources(): Promise<IJobSource[]> {
 
   logger.info('[Config] Fetching job sources from Firestore.');
   const jobSourceConfigs = await loadAndValidateSourceConfigs(
-    'jobs',
-    'job-sources',
-    JobSourceConfigSchema,
-    [['enabled', '==', true]]
+    'jobs', // Firestore collection group
+    'sources', // Target collection ID
+    JobSourceConfigSchema as z.ZodSchema<Source>, // Cast to satisfy the generic function
+    [['type', '==', 'Job'], ['enabled', '==', true]]
   );
 
   await saveSourcesToCache(jobSourceConfigs);
 
   const sources = jobSourceConfigs
-    .map(config => sourceAdapterFactory.createSource(config))
+    .map(config => sourceAdapterFactory.createSource({
+        name: config.sourceName,
+        adapter: config.adapter,
+        feedUrl: config.feedUrl,
+        config: { ...config } // Pass the whole original config object
+    }))
     .filter((source): source is IJobSource => source !== null && 'fetchJobs' in source);
+
+  // Manually add the local hiring.cafe source
+  // sources.push(hiringCafeSource);
+  // logger.info('[Config] Manually added local hiring.cafe source.');
+
+
 
   return sources;
 }

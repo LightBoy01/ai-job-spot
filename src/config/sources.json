@@ -1,65 +1,1602 @@
 [
   {
-    "type": "Article",
-    "adapter": "RSS",
     "sourceName": "OpenAI Blog",
     "feedUrl": "https://openai.com/blog/rss.xml",
-    "notes": "Native RSS feed.",
-    "status": "Active",
-    "fetchFrequency": "daily"
-  },
-  {
-    "type": "Article",
     "adapter": "RSS",
-    "sourceName": "Google AI Blog",
-    "feedUrl": "http://googleaiblog.blogspot.com/atom.xml",
     "notes": "Native RSS feed.",
-    "status": "Integrated",
-    "fetchFrequency": "daily"
-  },
-  {
-    "type": "Article",
-    "adapter": "RSS",
-    "sourceName": "TechCrunch AI",
-    "feedUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "notes": "Native RSS feed.",
-    "status": "Integrated",
-    "fetchFrequency": "daily"
-  },
-  {
-    "status": "Pending",
-    "type": "Job",
-    "adapter": "RSS",
-    "sourceName": "aijobs.net",
-    "feedUrl": "https://aijobs.net/feed/",
-    "notes": "Native RSS feed.",
-    "fetchFrequency": "daily"
-  },
-  {
-    "feedUrl": "https://blog.google/technology/ai/rss/",
-    "adapter": "RSS",
     "fetchFrequency": "daily",
-    "sourceName": "Google AI Blog",
     "type": "Article",
-    "status": "Pending"
+    "status": "Active"
   },
   {
-    "status": "Pending",
-    "type": "Job",
-    "adapter": "HIRING_CAFE",
-    "sourceName": "hiring.cafe",
-    "feedUrl": "https://hiring.cafe/api/search-jobs",
-    "notes": "Direct JSON API.",
-    "fetchFrequency": "daily"
+    "sourceName": "Google AI Blog",
+    "adapter": "RSS",
+    "notes": "Native RSS feed.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "feedUrl": "https://blog.google/technology/ai/rss/",
+    "status": "Active"
   },
   {
+    "sourceName": "TechCrunch AI",
+    "adapter": "RSS",
+    "notes": "Native RSS feed.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "feedUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Activision Research Blog",
+    "feedUrl": "https://radiant-seahorse.pikapod.net/?action=display&bridge=ActivisionResearchBridge&format=Atom",
+    "adapter": "RSS",
+    "type": "Article",
+    "status": "Active",
+    "fetchFrequency": "daily",
+    "notes": "Generated via RSS-Bridge."
+  },
+  {
+    "sourceName": "Arbeitnow Jobs",
+    "adapter": "Arbeitnow",
     "type": "Job",
-    "adapter": "HIRING_CAFE_API",
-    "sourceName": "Hiring.cafe API",
-    "notes": "Fetched via Hiring.cafe API",
-    "feedUrl": "https://hiring.cafe/api/search-jobs",
-    "keywords": "AI ",
-    "status": "Disabled",
-    "fetchFrequency": "daily"
+    "status": "Active",
+    "keywords": [
+      "AI",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "remote": true,
+    "visa_sponsorship": true,
+    "fetchFrequency": "daily",
+    "notes": "Jobs from Arbeitnow API, filtered for AI, remote, and visa sponsorship."
+  },
+  {
+    "sourceName": "404 Media",
+    "feedUrl": "https://www.404media.co/rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Ahead of AI",
+    "feedUrl": "https://magazine.sebastianraschka.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI Accelerator Institute | Future of Artificial Intelligence",
+    "feedUrl": "https://aiacceleratorinstitute.com/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI – AI-TechPark",
+    "feedUrl": "https://ai-techpark.com/category/ai/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI Archives | KnowTechie",
+    "feedUrl": "https://knowtechie.com/category/ai/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI Business",
+    "feedUrl": "https://aibusiness.com/rss.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AIModels.fyi",
+    "feedUrl": "https://aimodels.substack.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI News",
+    "feedUrl": "https://www.artificialintelligence-news.com/feed/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI News | VentureBeat",
+    "feedUrl": "https://venturebeat.com/category/ai/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI Now Institute",
+    "feedUrl": "https://ainowinstitute.org/category/news/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Ai Prompt Programming",
+    "feedUrl": "https://www.reddit.com/r/aipromptprogramming)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI – SiliconANGLE",
+    "feedUrl": "https://siliconangle.com/category/ai/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI Snake Oil",
+    "feedUrl": "https://aisnakeoil.substack.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "AI – Uber Engineering Blog",
+    "feedUrl": "https://eng.uber.com/category/articles/ai/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Anaconda Blog",
+    "feedUrl": "https://www.anaconda.com/blog/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Analytics India Magazine",
+    "feedUrl": "https://analyticsindiamag.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Announcements",
+    "feedUrl": "https://stability.ai/blog?format=rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Ars Technica",
+    "feedUrl": "https://feeds.arstechnica.com/arstechnica/index)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Artificial Intelligence",
+    "feedUrl": "https://www.reddit.com/r/artificial)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Artificial intelligence (AI) – The Conversation",
+    "feedUrl": "https://theconversation.com/europe/topics/artificial-intelligence-ai-90/articles.atom)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Artificial intelligence (AI) | The Guardian",
+    "feedUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "artificial intelligence Archives",
+    "feedUrl": "https://spacenews.com/tag/artificial-intelligence/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Artificial Intelligence – Futurism",
+    "feedUrl": "https://futurism.com/categories/ai-artificial-intelligence/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Artificial Intelligence Latest",
+    "feedUrl": "https://www.wired.com/feed/tag/ai/latest/rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Artificial Intelligence News",
+    "feedUrl": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Artificial Intelligence | TechRepublic",
+    "feedUrl": "https://www.techrepublic.com/rssfeeds/topic/artificial-intelligence/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Artificialis",
+    "feedUrl": "https://medium.com/feed/artificialis)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Big Data – SiliconANGLE",
+    "feedUrl": "https://siliconangle.com/category/big-data/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Blog",
+    "feedUrl": "https://machinelearningmastery.com/blog/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Blog Archives • David Stutz",
+    "feedUrl": "https://davidstutz.de/category/blog/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Blog Content",
+    "feedUrl": "https://www.together.xyz/blog?format=rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Blog",
+    "feedUrl": "https://neptune.ai/blog/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Blog on EleutherAI Blog",
+    "feedUrl": "https://blog.eleuther.ai/index.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Blog",
+    "feedUrl": "https://pyimagesearch.com/blog/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Bloomberg Technology",
+    "feedUrl": "https://feeds.bloomberg.com/technology/news.rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Business Insider",
+    "feedUrl": "https://feeds.businessinsider.com/custom/all)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Business Latest",
+    "feedUrl": "https://www.wired.com/feed/category/business/latest/rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Chain of Thought",
+    "feedUrl": "https://every.to/chain-of-thought/feed.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Chip Huyen",
+    "feedUrl": "https://huyenchip.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Computer Vision",
+    "feedUrl": "https://www.reddit.com/r/computervision)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Computerworld",
+    "feedUrl": "http://www.computerworld.com/index.rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Context by Cohere",
+    "feedUrl": "https://txt.cohere.ai/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Crunchbase News",
+    "feedUrl": "https://news.crunchbase.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "cs.CL updates on arXiv.org",
+    "feedUrl": "https://arxiv.org/rss/cs.CL)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "cs.CV updates on arXiv.org",
+    "feedUrl": "https://arxiv.org/rss/cs.CV)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "cs.LG updates on arXiv.org",
+    "feedUrl": "https://arxiv.org/rss/cs.LG)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "DagsHub Blog",
+    "feedUrl": "https://dagshub.com/blog/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Dark Reading",
+    "feedUrl": "https://www.darkreading.com/rss_simple.asp)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Databricks",
+    "feedUrl": "https://www.databricks.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Datafloq",
+    "feedUrl": "https://datafloq.com/feed/?post_type=post)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Data Machina",
+    "feedUrl": "https://datamachina.substack.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Datanami",
+    "feedUrl": "https://www.datanami.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Data Science",
+    "feedUrl": "https://www.reddit.com/r/datascience)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "DebuggerCafe",
+    "feedUrl": "https://debuggercafe.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Deephaven Blog",
+    "feedUrl": "https://deephaven.io/blog/rss.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Deep Learning",
+    "feedUrl": "https://www.reddit.com/r/deeplearning)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "DeepMind Blog",
+    "feedUrl": "https://deepmind.com/blog/feed/basic/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Deep Tech",
+    "feedUrl": "https://tech.eu/category/deep-tech/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Department of Product",
+    "feedUrl": "https://departmentofproduct.substack.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "DEV Community",
+    "feedUrl": "https://dev.to/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "EE Times",
+    "feedUrl": "https://www.eetimes.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Engadget",
+    "feedUrl": "https://www.engadget.com/rss.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Eugene Yan",
+    "feedUrl": "https://eugeneyan.com/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Explosion",
+    "feedUrl": "https://explosion.ai/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Freethink",
+    "feedUrl": "https://www.freethink.com/feed/all)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Generational",
+    "feedUrl": "https://www.generational.pub/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Get AI Insights For Your Organization From Forrester",
+    "feedUrl": "https://www.forrester.com/blogs/category/artificial-intelligence-ai/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "gHacks Technology News",
+    "feedUrl": "https://www.ghacks.net/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Gizmodo",
+    "feedUrl": "https://gizmodo.com/rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Global News",
+    "feedUrl": "https://globalnews.ca/tag/artificial-intelligence/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Google AI Blog",
+    "feedUrl": "http://googleaiblog.blogspot.com/atom.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Gradient Flow",
+    "feedUrl": "https://gradientflow.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Hacker Noon",
+    "feedUrl": "https://hackernoon.com/tagged/ai/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "HealthTech Magazine",
+    "feedUrl": "https://feeds.feedburner.com/HealthTechMagazine)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Hugging Face",
+    "feedUrl": "https://huggingface.co/blog/feed.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "IEEE Spectrum",
+    "feedUrl": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "InfoQ",
+    "feedUrl": "https://feed.infoq.com/ai-ml-data-eng/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "InfoWorld Analytics",
+    "feedUrl": "https://www.infoworld.com/category/analytics/index.rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "InfoWorld Machine Learning",
+    "feedUrl": "https://www.infoworld.com/category/machine-learning/index.rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "insideBIGDATA",
+    "feedUrl": "https://insidebigdata.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Interconnects",
+    "feedUrl": "https://www.interconnects.ai/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "International Business Times",
+    "feedUrl": "https://www.ibtimes.com/rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "JMLR",
+    "feedUrl": "https://www.jmlr.org/jmlr.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "KDnuggets",
+    "feedUrl": "https://www.kdnuggets.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "LangChain",
+    "feedUrl": "https://blog.langchain.dev/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Last Week in AI",
+    "feedUrl": "https://lastweekin.ai/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Latent Space",
+    "feedUrl": "https://www.latent.space/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Latest from Sifted",
+    "feedUrl": "https://sifted.eu/feed/?post_type=article)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Latest stories for ZDNET in Artificial-Intelligence",
+    "feedUrl": "https://www.zdnet.com/topic/artificial-intelligence/rss.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Latest stories for ZDNET in Big-Data",
+    "feedUrl": "https://www.zdnet.com/topic/big-data/rss.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Lightning AI",
+    "feedUrl": "https://lightning.ai/pages/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Machine Learning",
+    "feedUrl": "https://www.reddit.com/r/MachineLearning)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Machine Learning & Big Data Blog – BMC Software | Blogs",
+    "feedUrl": "https://www.bmc.com/blogs/categories/machine-learning-big-data/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Machine Learning Blog | ML @CMU | Carnegie Mellon University",
+    "feedUrl": "https://blog.ml.cmu.edu/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Machine learning : nature.com subject feeds",
+    "feedUrl": "https://www.nature.com/subjects/machine-learning.rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "machinelearningnews",
+    "feedUrl": "https://www.reddit.com/r/machinelearningnews)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "MarkTechPost",
+    "feedUrl": "https://www.marktechpost.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Microsoft Research",
+    "feedUrl": "https://www.microsoft.com/en-us/research/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Mila",
+    "feedUrl": "https://mila.quebec/en/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "MIT News",
+    "feedUrl": "https://news.mit.edu/topic/mitmachine-learning-rss.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "MIT Technology Review",
+    "feedUrl": "https://www.technologyreview.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Mozilla Foundation Blog",
+    "feedUrl": "https://foundation.mozilla.org/en/blog/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Natural Language Processing",
+    "feedUrl": "https://www.reddit.com/r/LanguageTechnology)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Neural Interfaces News",
+    "feedUrl": "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Neural Networks, Deep Learning and Machine Learning",
+    "feedUrl": "https://www.reddit.com/r/neuralnetworks)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "New Scientist",
+    "feedUrl": "https://www.newscientist.com/subject/technology/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "News on Artificial Intelligence and Machine Learning",
+    "feedUrl": "https://phys.org/rss-feed/technology-news/machine-learning-ai/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "News on Artificial Intelligence and Machine Learning",
+    "feedUrl": "https://techxplore.com/rss-feed/machine-learning-ai-news/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "News, Tutorials, AI Research",
+    "feedUrl": "https://www.assemblyai.com/blog/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Nicholas Carlini",
+    "feedUrl": "https://nicholas.carlini.com/writing/feed.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "NVIDIA Technical Blog",
+    "feedUrl": "https://developer.nvidia.com/blog/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "NYT > Technology",
+    "feedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "One Useful Thing",
+    "feedUrl": "https://www.oneusefulthing.org/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Paperspace Blog",
+    "feedUrl": "https://blog.paperspace.com/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "PetaPixel",
+    "feedUrl": "https://petapixel.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "philschmid blog",
+    "feedUrl": "https://www.philschmid.de/feed.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Playing with AI",
+    "feedUrl": "https://erichartford.com/rss.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Posts on Max Woolf's Blog",
+    "feedUrl": "https://minimaxir.com/post/index.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Product Hunt — The best new products, every day",
+    "feedUrl": "https://www.producthunt.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Python Insider",
+    "feedUrl": "https://feeds.feedburner.com/PythonInsider)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Quanta Magazine",
+    "feedUrl": "https://api.quantamagazine.org/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Radix",
+    "feedUrl": "https://medium.com/feed/radix-ai-blog)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "R-bloggers",
+    "feedUrl": "https://feeds.feedburner.com/RBloggers)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Replicate Blog",
+    "feedUrl": "https://replicate.com/blog/rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Replicate Codex",
+    "feedUrl": "https://notes.replicatecodex.com/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Rest of World",
+    "feedUrl": "https://restofworld.org/feed/latest)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Robotics Research News",
+    "feedUrl": "https://www.sciencedaily.com/rss/computers_math/robotics.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Robotics",
+    "feedUrl": "https://tech.eu/category/robotics/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Scientific American Content: Global",
+    "feedUrl": "http://rss.sciam.com/ScientificAmerican-Global)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "SemiAnalysis",
+    "feedUrl": "https://www.semianalysis.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Silicon RepublicSilicon Republic",
+    "feedUrl": "https://www.siliconrepublic.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Simon Willison's Weblog",
+    "feedUrl": "https://simonwillison.net/atom/everything/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Stack Overflow Blog",
+    "feedUrl": "https://stackoverflow.blog/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "stanford-crfm-website.github.io",
+    "feedUrl": "https://crfm.stanford.edu/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "stat.ML updates on arXiv.org",
+    "feedUrl": "https://arxiv.org/rss/stat.ML)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Stories by Netflix Technology Blog on Medium",
+    "feedUrl": "https://medium.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Stories by ODSC",
+    "feedUrl": "https://medium.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Synced",
+    "feedUrl": "https://syncedreview.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Synthedia",
+    "feedUrl": "https://synthedia.substack.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "TechCrunch",
+    "feedUrl": "https://techcrunch.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Techmeme",
+    "feedUrl": "https://www.techmeme.com/feed.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Tech Monitor",
+    "feedUrl": "https://techmonitor.ai/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Technology Archives",
+    "feedUrl": "https://www.reutersagency.com/feed/?best-topics=tech)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "TechSpot",
+    "feedUrl": "https://www.techspot.com/backend.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "TechTalks",
+    "feedUrl": "https://bdtechtalks.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Algorithmic Bridge",
+    "feedUrl": "https://thealgorithmicbridge.substack.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Berkeley Artificial Intelligence Research Blog",
+    "feedUrl": "https://bair.berkeley.edu/blog/feed.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "THE DECODER",
+    "feedUrl": "https://the-decoder.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Gradient",
+    "feedUrl": "https://thegradient.pub/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Information",
+    "feedUrl": "https://www.theinformation.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Intrinsic Perspective",
+    "feedUrl": "https://www.theintrinsicperspective.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The New Stack",
+    "feedUrl": "https://thenewstack.io/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Next Web",
+    "feedUrl": "https://thenextweb.com/neural/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Register",
+    "feedUrl": "https://www.theregister.com/software/ai_ml/headlines.atom)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Rundown AI",
+    "feedUrl": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "TheSequence",
+    "feedUrl": "https://thesequence.substack.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Stack",
+    "feedUrl": "https://www.thestack.technology/latest/rss/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The TensorFlow Blog",
+    "feedUrl": "https://blog.tensorflow.org/feeds/posts/default?alt=rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The TRADE",
+    "feedUrl": "https://www.thetradenews.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Verge",
+    "feedUrl": "https://www.theverge.com/rss/index.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "The Voicebot Podcast",
+    "feedUrl": "http://feeds.libsyn.com/102459/rss)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Towards AI",
+    "feedUrl": "https://pub.towardsai.net/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Towards Data Science",
+    "feedUrl": "https://towardsdatascience.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Unite.AI",
+    "feedUrl": "https://www.unite.ai/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Unwind AI",
+    "feedUrl": "https://unwindai.substack.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "VICE US",
+    "feedUrl": "https://www.vice.com/en/rss/topic/ai)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Visual Studio Magazine",
+    "feedUrl": "https://visualstudiomagazine.com/rss-feeds/news.aspx)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Voicebot.ai",
+    "feedUrl": "https://voicebot.ai/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Weights & Biases: Fully Connected",
+    "feedUrl": "https://wandb.ai/fully-connected/rss.xml)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Windows Blog",
+    "feedUrl": "https://blogs.windows.com/feed)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "Wolfram Blog",
+    "feedUrl": "https://blog.wolfram.com/feed/)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
+  },
+  {
+    "sourceName": "ΑΙhub",
+    "feedUrl": "https://aihub.org/feed?cat=-473)",
+    "adapter": "RSS",
+    "notes": "New source added via CLI.",
+    "fetchFrequency": "daily",
+    "type": "Article",
+    "status": "Active"
   }
 ]

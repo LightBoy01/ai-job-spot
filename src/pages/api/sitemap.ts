@@ -51,6 +51,13 @@ export default async function handler(
   </sitemap>`;
     }
 
+    // pSEO sitemap
+    sitemapIndex += `
+  <sitemap>
+    <loc>${WEBSITE_URL}/api/sitemaps/pseo</loc>
+    <lastmod>${lastModified}</lastmod>
+  </sitemap>`;
+
     sitemapIndex += '\n</sitemapindex>';
 
     res.setHeader('Content-Type', 'text/xml');

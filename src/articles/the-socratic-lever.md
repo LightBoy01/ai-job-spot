@@ -2,7 +2,7 @@
 slug: the-socratic-lever
 title: 'The Socratic Lever: A Framework for Leading Through Questions'
 author: The AI Strategist
-publishDate: '2025-09-30T10:00:00.000Z'
+publishDate: '2025-10-31T10:00:00.000Z'
 issueNo: 32
 volumeNo: 1
 tags:
@@ -10,7 +10,7 @@ tags:
   - Mental Models
   - Strategic Thinking
   - Communication
-imageUrl: /images/articles/the-socratic-lever.svg
+imageUrl: /images/articles/the-socratic-lever-v2.svg
 hub: Mental Models & Frameworks
 contentType: editorial
 ---

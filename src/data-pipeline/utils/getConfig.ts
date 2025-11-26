@@ -7,7 +7,7 @@ import path from 'node:path';
 const useLocalConfig = process.argv.includes('--use-local-config');
 const localConfigFile = path.resolve(process.cwd(), 'src', 'data-pipeline', 'pipeline.config.local.ts');
 
-async function fetchFromFirestore<T extends object>(
+async function fetchFromFirestore(
     collectionName: string,
     whereClauses: [string, WhereFilterOp, string | number | boolean | Date][] = []
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -30,7 +30,7 @@ async function fetchFromFirestore<T extends object>(
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-async function fetchFromLocalFile(configType: 'jobs' | 'briefings'): Promise<Record<string, any>[]> {
+export async function fetchFromLocalFile(configType: 'jobs' | 'briefings'): Promise<Record<string, any>[]> {
     logger.info({ file: localConfigFile }, `[Config] Loading sources from local configuration file...`);
     try {
         const localConfig = await import(localConfigFile);

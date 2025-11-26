@@ -2,6 +2,8 @@ import { IJobSource, IBriefingSource, PlaywrightSourceConfig } from './types.js'
 import { hiringCafeSource } from './sources/hiringCafe.js';
 import { createRssSource } from './sources/rss.js';
 import { createPlaywrightSource } from './sources/playwright.js';
+import { createGoogleCseSource, GoogleCseConfig } from './sources/google-cse.js';
+import { createArbeitnowSource, ArbeitnowConfig } from './sources/arbeitnow.js';
 import logger from './utils/logger.js';
 
 /**
@@ -14,6 +16,10 @@ export interface SourceConfig {
     config?: Record<string, unknown>;
     // Briefing-specific properties
     feedUrl?: string;
+    baseUrl?: string;
+    keywords?: string[];
+    remote?: boolean;
+    visa_sponsorship?: boolean;
 }
 
 /**
@@ -52,6 +58,30 @@ export const sourceAdapterFactory = {
                 playwrightConfig.sourceName = sourceConfig.name;
                 return createPlaywrightSource(sourceConfig.name, playwrightConfig);
 
+            case 'GoogleCSE':
+                // For Google CSE sources, we validate the config and create a source.
+                const googleCseConfig = sourceConfig.config as unknown as GoogleCseConfig;
+                if (!googleCseConfig || !googleCseConfig.apiKey || !googleCseConfig.cseId || !googleCseConfig.query) {
+                    logger.warn({ source: sourceConfig.name }, `[AdapterFactory] Google CSE source is missing required config (apiKey, cseId, query).`);
+                    return null;
+                }
+                return createGoogleCseSource(sourceConfig.name, googleCseConfig);
+
+
+            case 'Arbeitnow':
+                // For Arbeitnow sources, we validate the config and create a source.
+                const arbeitnowConfig: ArbeitnowConfig = {
+                    baseUrl: sourceConfig.config?.baseUrl as string,
+                    keywords: sourceConfig.config?.keywords as string[],
+                    remote: sourceConfig.config?.remote as boolean,
+                    visa_sponsorship: sourceConfig.config?.visa_sponsorship as boolean,
+                    maxPages: sourceConfig.config?.maxPages as number | undefined,
+                };
+                if (!arbeitnowConfig.baseUrl) {
+                    logger.warn({ source: sourceConfig.name }, `[AdapterFactory] Arbeitnow source is missing required config (baseUrl).`);
+                    return null;
+                }
+                return createArbeitnowSource(arbeitnowConfig);
 
             // To add a new source type, add a case here.
             // case 'YourNewSource':

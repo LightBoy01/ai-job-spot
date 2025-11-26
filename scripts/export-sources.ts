@@ -1,4 +1,4 @@
-import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.ts';
+import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.js';
 import { promises as fs } from 'fs';
 import path from 'path';
 

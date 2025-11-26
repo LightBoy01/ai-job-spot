@@ -7,7 +7,7 @@ const JOB_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
 
 interface PendingJob {
   filePath: string;
-  frontmatter: { [key: string]: any };
+  frontmatter: { [key: string]: unknown };
   content: string;
 }
 
@@ -46,7 +46,16 @@ async function getPendingJobs(limit = -1): Promise<PendingJob[]> {
   return pendingJobs;
 }
 
-async function enrichJobData(jobContent: string): Promise<any | null> {
+interface EnrichedJobData {
+  frontmatterFields: {
+    jobLevel: string | null;
+    employeeRole: string | null;
+    salaryRange: string | null;
+  };
+  markdownBody: string;
+}
+
+async function enrichJobData(jobContent: string): Promise<EnrichedJobData | null> {
     const prompt = `
       Analyze the following job description text. Your task is to clean, structure, and enrich it. 
       Return ONLY a single, valid JSON object with two top-level keys: "frontmatterFields" and "markdownBody".
@@ -81,13 +90,13 @@ async function enrichJobData(jobContent: string): Promise<any | null> {
         const cleanedJsonString = aiResponseText.replace(/^\\`\\`\\`json\\n|\\`\\`\\`$/g, '').trim();
         return JSON.parse(cleanedJsonString);
 
-    } catch (error: any) {
+    } catch (error: unknown) {
         console.error("Error during AI enrichment:", error.message);
         return null;
     }
 }
 
-function summarizeChanges(oldFrontmatter: any, newFrontmatter: any, oldBody: string, newBody: string): string {
+function summarizeChanges(oldFrontmatter: Record<string, unknown>, newFrontmatter: Record<string, unknown>, oldBody: string, newBody: string): string {
     const changes: string[] = [];
     for (const key in newFrontmatter) {
         if (oldFrontmatter[key] !== newFrontmatter[key]) {

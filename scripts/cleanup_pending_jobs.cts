@@ -1,5 +1,5 @@
 
-import { getFirebaseAdmin } from './src/lib/firebaseAdmin.cts';
+import { getFirebaseAdmin, admin } from './src/lib/firebaseAdmin.cts';
 
 async function deletePendingJobs() {
   console.log('Connecting to Firebase...');
@@ -20,7 +20,7 @@ async function deletePendingJobs() {
 
   console.log(`Found ${snapshot.size} pending jobs. Starting deletion...`);
 
-  snapshot.docs.forEach((doc: any, index: any) => {
+  snapshot.docs.forEach((doc: admin.firestore.QueryDocumentSnapshot, index: number) => {
     batch.delete(doc.ref);
     count++;
     if (count % batchSize === 0 || index === snapshot.size - 1) {

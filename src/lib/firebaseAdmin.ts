@@ -10,32 +10,24 @@ let adminPromise: Promise<{
   adminAuth: admin.auth.Auth;
 }> | null = null;
 
-async function getServiceAccount(): Promise<admin.ServiceAccount> {
-  // Use Base64 environment variable (for Vercel/production)
-  if (process.env.FIREBASE_SERVICE_ACCOUNT_BASE64) {
-    try {
-      const decodedServiceAccount = Buffer.from(
-        process.env.FIREBASE_SERVICE_ACCOUNT_BASE64,
-        'base64'
-      ).toString('utf8');
-      const serviceAccountJSON = JSON.parse(decodedServiceAccount);
-      if (typeof serviceAccountJSON.private_key === 'string') {
-        serviceAccountJSON.private_key = serviceAccountJSON.private_key.replace(/\\n/g, '\n');
-      }
-      console.log('Using environment variable for Firebase Admin.');
-      return {
-        clientEmail: serviceAccountJSON.client_email,
-        privateKey: serviceAccountJSON.private_key,
-        projectId: serviceAccountJSON.project_id,
-      } as admin.ServiceAccount;
-    } catch (e) {
-      console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_BASE64:', e);
-    }
-  }
+import fs from 'fs/promises';
 
-  throw new Error(
-    'Firebase Admin SDK credentials not set or invalid. Please set FIREBASE_SERVICE_ACCOUNT_BASE64.'
-  );
+async function getServiceAccount(): Promise<admin.ServiceAccount> {
+  // Use local JSON file directly to bypass environment variable parsing issues.
+  try {
+    const serviceAccountPath = '/data/data/com.termux/files/home/ai-job-spot/ai-jobs-spot-92a1f1a8b08e.json';
+    const serviceAccountFile = await fs.readFile(serviceAccountPath, 'utf8');
+    const serviceAccountJSON = JSON.parse(serviceAccountFile);
+    console.log('Using local JSON file for Firebase Admin.');
+    return {
+      clientEmail: serviceAccountJSON.client_email,
+      privateKey: serviceAccountJSON.private_key,
+      projectId: serviceAccountJSON.project_id,
+    } as admin.ServiceAccount;
+  } catch (e) {
+    console.error('Error reading or parsing service account file:', e);
+    throw new Error('Could not load service account from file. Ensure ai-jobs-spot-92a1f1a8b08e.json exists.');
+  }
 }
 async function initializeAdminApp(): Promise<admin.app.App> {
   const existingApp = admin.apps.find((app) => app?.name === 'ADMIN');

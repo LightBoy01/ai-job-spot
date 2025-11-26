@@ -9,10 +9,10 @@ import FormField from '@/components/FormField';
 import RichTextEditor from '@/components/RichTextEditor';
 import { getJobById } from '@/lib/firestoreClient';
 import { SerializedJobPosting } from '@/lib/types';
+import { calculateJobCompleteness } from '@/lib/completenessScore';
 import { useForm, Controller } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { JobPostingSchema, JobFormData } from '@/lib/validationSchemas';
-import { updateJob } from '@/lib/adminApi';
 
 interface EditJobProps {
   job: SerializedJobPosting | null;
@@ -74,7 +74,50 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
 
     try {
       const token = await user.getIdToken();
-      const updatedJob = await updateJob(job.id, data, token);
+
+      const jobDataForSubmission = {
+        ...data,
+        postedDate: data.postedDate ? new Date(data.postedDate) : new Date(),
+        expirationDate: data.expirationDate ? new Date(data.expirationDate) : undefined,
+        verificationDate: data.verificationDate ? new Date(data.verificationDate) : undefined,
+        applicationExperience: data.applicationExperience ?? undefined,
+        story_question1: data.story_question1 ?? undefined,
+        story_answer1: data.story_answer1 ?? undefined,
+        story_question2: data.story_question2 ?? undefined,
+        story_answer2: data.story_answer2 ?? undefined,
+        story_question3: data.story_question3 ?? undefined,
+        story_answer3: data.story_answer3 ?? undefined,
+        companyCulture: data.companyCulture ?? undefined,
+        glassdoorLink: data.glassdoorLink ?? undefined,
+        crunchbaseLink: data.crunchbaseLink ?? undefined,
+        salaryRange: data.salaryRange ?? undefined,
+        tags: data.tags ? (Array.isArray(data.tags) ? data.tags : data.tags.split(',').map(t => t.trim())) : [],
+        responsibilities: data.responsibilities ? (Array.isArray(data.responsibilities) ? data.responsibilities : data.responsibilities.split('\n').filter(r => r.trim() !== '')) : [],
+        qualifications: data.qualifications ? (Array.isArray(data.qualifications) ? data.qualifications : data.qualifications.split('\n').filter(q => q.trim() !== '')) : [],
+        preferredQualifications: data.preferredQualifications ? (Array.isArray(data.preferredQualifications) ? data.preferredQualifications : data.preferredQualifications.split('\n').filter(p => p.trim() !== '')) : [],
+        excerpt: data.description ? data.description.replace(/<[^>]+>/g, '').substring(0, 160) + '...' : '',
+        id: job.id,
+        status: data.status || 'draft',
+      };
+
+      // Calculate completeness score before submission
+      const completenessScore = calculateJobCompleteness(jobDataForSubmission);
+
+      const response = await fetch(`/api/admin/jobs/${job.id}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({ ...jobDataForSubmission, completenessScore }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to update job');
+      }
+
+      const updatedJob = await response.json();
 
       toast.success(`Job "${updatedJob.title}" updated successfully!`, {
         id: toastId,

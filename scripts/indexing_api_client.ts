@@ -1,26 +1,30 @@
 import { JWT } from 'google-auth-library';
 import fetch from 'node-fetch';
 
+
 const INDEXING_API_ENDPOINT =
   'https://indexing.googleapis.com/v3/urlNotifications:publish';
 
 // This function is designed to be called from a server-side script
 async function getAuthenticatedClient() {
-  const keyFilePath = process.env.GOOGLE_INDEXING_KEY_FILE;
+  try {
+    const keyFilePath = process.env.GOOGLE_INDEXING_KEY_FILE;
 
-  if (!keyFilePath) {
-    console.warn(
-      '[Indexing API] GOOGLE_INDEXING_KEY_FILE environment variable not set. Skipping notification.'
-    );
+    if (!keyFilePath) {
+      console.error('[Indexing API] GOOGLE_INDEXING_KEY_FILE environment variable is not set. Indexing API will not function.');
+      return null;
+    }
+
+    const auth = new JWT({
+      keyFile: keyFilePath,
+      scopes: ['https://www.googleapis.com/auth/indexing'],
+    });
+
+    return auth;
+  } catch (error) {
+    console.error('[Indexing API] Failed to create JWT client from key file.', error);
     return null;
   }
-
-  const auth = new JWT({
-    keyFile: keyFilePath,
-    scopes: ['https://www.googleapis.com/auth/indexing'],
-  });
-
-  return auth;
 }
 
 const INDEXING_API_BATCH_ENDPOINT = 'https://indexing.googleapis.com/batch';

@@ -8,6 +8,7 @@ import AdminLayout from '@/components/AdminLayout';
 import { getArticleBySlug } from '@/lib/firestoreClient';
 import { SerializedArticle, Article } from '@/lib/types';
 import RichTextEditor from '@/components/RichTextEditor';
+import { calculateArticleCompleteness } from '@/lib/completenessScore';
 
 type ArticleFormData = Partial<
   Omit<Article, 'id' | 'publishDate' | 'tags' | 'contentType'> & {
@@ -88,7 +89,7 @@ const EditArticlePage: React.FC<EditArticleProps> = ({ article }) => {
         try {
           // Simple URL validation
           new URL(formData.originalUrl);
-        } catch (_) {
+        } catch {
           newErrors.originalUrl = 'Original URL must be a valid URL format.';
         }
       }
@@ -123,20 +124,32 @@ const EditArticlePage: React.FC<EditArticleProps> = ({ article }) => {
     setIsSubmitting(true);
     const toastId = toast.loading('Updating article...');
 
+    // Prepare data for submission and completeness calculation
+    const articleDataForSubmission = {
+      ...formData,
+      publishDate: formData.publishDate ? new Date(formData.publishDate) : new Date(),
+      tags: formData.tags ? formData.tags.split(',').map(t => t.trim()) : [],
+    };
+
     try {
       if (!user) {
         throw new Error('You must be logged in to perform this action.');
       }
       const token = await user.getIdToken();
 
-      const response = await fetch(`/api/admin/articles/${article.id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify(formData),
-      });
+      // Calculate completeness score before submission
+      const completenessScore = calculateArticleCompleteness(articleDataForSubmission as Article);
+
+      const response = await fetch(`/api/admin/articles/${article.id}`,
+        {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ ...articleDataForSubmission, completenessScore }),
+        }
+      );
 
       if (!response.ok) {
         const errorData = await response.json();

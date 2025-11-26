@@ -36,7 +36,7 @@ async function publishApprovedJobs() {
                 }
                 publishedCount++;
             }
-        } catch (error: any) {
+        } catch (error: unknown) {
             warnings.push(`Failed to process file ${file}: ${error.message}`);
         }
     }
@@ -65,7 +65,7 @@ async function publishApprovedJobs() {
         warnings.forEach(w => console.log(`- ${w}`));
     }
 
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Error during job publishing process:', error.message);
     process.exit(1);
   }

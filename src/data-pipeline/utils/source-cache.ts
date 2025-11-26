@@ -2,25 +2,22 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import logger from './logger.js';
-import { IJobSource, IBriefingSource } from '../types.js';
+import { Source } from '@/lib/types.js'; // Correctly import the Source type
 
 const CACHE_DIR = path.resolve(process.cwd(), '.cache', 'data-pipeline');
 const CACHE_FILE_PATH = path.join(CACHE_DIR, 'sources.json');
 const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
 
-// A source can be for jobs or briefings
-type SourceConfig = IJobSource | IBriefingSource;
-
 export interface CachedSourceData {
   timestamp: number;
-  sources: SourceConfig[];
+  sources: Source[]; // Use the correct Source type
 }
 
 /**
  * Saves the provided source configurations to the local cache.
  * @param sources The source configurations to cache.
  */
-export async function saveSourcesToCache(sources: SourceConfig[]): Promise<void> {
+export async function saveSourcesToCache(sources: Source[]): Promise<void> { // Use the correct Source type
   try {
     await fs.mkdir(CACHE_DIR, { recursive: true });
     const dataToCache: CachedSourceData = {
@@ -38,7 +35,7 @@ export async function saveSourcesToCache(sources: SourceConfig[]): Promise<void>
  * Loads the source configurations from the local cache if available and not stale.
  * @returns The cached source configurations or null if the cache is invalid.
  */
-export async function loadSourcesFromCache(): Promise<SourceConfig[] | null> {
+export async function loadSourcesFromCache(): Promise<Source[] | null> { // Use the correct Source type
   try {
     const cachedDataString = await fs.readFile(CACHE_FILE_PATH, 'utf-8');
     const cachedData: CachedSourceData = JSON.parse(cachedDataString);

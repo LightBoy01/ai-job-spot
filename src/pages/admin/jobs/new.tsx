@@ -6,12 +6,12 @@ import useAuth from '@/hooks/useAuth';
 import AdminLayout from '@/components/AdminLayout';
 import RichTextEditor from '@/components/RichTextEditor';
 import FormField from '@/components/FormField';
+import { calculateJobCompleteness } from '@/lib/completenessScore';
 import { Controller } from 'react-hook-form';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { JobPostingSchema, JobFormData } from '@/lib/validationSchemas';
-
-import { createJob } from '@/lib/adminApi';
+import crypto from 'crypto';
 
 const AddNewJob: React.FC = () => {
   const router = useRouter();
@@ -62,20 +62,59 @@ const AddNewJob: React.FC = () => {
 
   const liveFormData = watch();
 
-  const onSubmit = async (data: JobFormData) => {
-    setIsSubmitting(true);
-    const toastId = toast.loading('Submitting job posting...');
+        const onSubmit = async (data: JobFormData) => {
+          setIsSubmitting(true);
+          const toastId = toast.loading('Submitting job posting...');
+      
+          if (!user) {
+            toast.error('You must be logged in to perform this action.');
+            setIsSubmitting(false);
+            toast.dismiss(toastId);
+            return;
+          }
+      
+          try {
+            const token = await user.getIdToken();
+      
+            const jobDataForSubmission = {
+              ...data,
+              postedDate: data.postedDate ? new Date(data.postedDate) : new Date(),
+              expirationDate: data.expirationDate ? new Date(data.expirationDate) : undefined,
+              verificationDate: (data.verificationDate ? new Date(data.verificationDate) : undefined) as Date | undefined,
+              applicationExperience: data.applicationExperience ?? undefined,
+              story_question1: data.story_question1 ?? undefined,
+              story_answer1: data.story_answer1 ?? undefined,
+              story_question2: data.story_question2 ?? undefined,
+              story_answer2: data.story_answer2 ?? undefined,
+              story_question3: data.story_question3 ?? undefined,
+              story_answer3: data.story_answer3 ?? undefined,
+              companyCulture: data.companyCulture ?? undefined,
+              glassdoorLink: data.glassdoorLink ?? undefined,
+              crunchbaseLink: data.crunchbaseLink ?? undefined,
+              salaryRange: data.salaryRange ?? undefined,
+              tags: data.tags ? data.tags.split(',').map(t => t.trim()) : [],
+              responsibilities: data.responsibilities ? data.responsibilities.split('\n').filter(r => r.trim() !== '') : [],
+              qualifications: data.qualifications ? data.qualifications.split('\n').filter(q => q.trim() !== '') : [],
+              preferredQualifications: data.preferredQualifications ? data.preferredQualifications.split('\n').filter(p => p.trim() !== '') : [],
+              excerpt: data.description ? data.description.replace(/<[^>]+>/g, '').substring(0, 160) + '...' : '',
+              status: data.status || 'draft',
+              id: crypto.randomBytes(16).toString('hex'),
+            };            // Calculate completeness score before submission
+            const completenessScore = calculateJobCompleteness(jobDataForSubmission);
+      
+            const response = await fetch('/api/admin/jobs', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                Authorization: `Bearer ${token}`,
+              },
+              body: JSON.stringify({ ...jobDataForSubmission, completenessScore }),
+            });      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to add job');
+      }
 
-    if (!user) {
-      toast.error('You must be logged in to perform this action.');
-      setIsSubmitting(false);
-      toast.dismiss(toastId);
-      return;
-    }
-
-    try {
-      const token = await user.getIdToken();
-      const newJob = await createJob(data, token); // Use the new abstracted function
+      const newJob = await response.json();
 
       toast.success(`Job "${newJob.title}" added successfully!`, {
         id: toastId,

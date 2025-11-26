@@ -2,7 +2,7 @@
 slug: the-signal-filter-framework
 title: 'The Signal Filter: A Framework for Attention Management in the Age of AI'
 author: The AI Strategist
-publishDate: '2025-09-13T10:00:00.000Z'
+publishDate: '2025-10-17T10:00:00.000Z'
 issueNo: 30
 volumeNo: 1
 tags:
@@ -10,7 +10,7 @@ tags:
   - Productivity
   - Mental Models
   - Deep Work
-imageUrl: /images/articles/the-signal-filter-framework.svg
+imageUrl: /images/articles/the-signal-filter-framework-v2.svg
 hub: Mental Models & Frameworks
 contentType: editorial
 ---

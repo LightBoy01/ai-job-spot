@@ -1,4 +1,4 @@
-import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.ts';
+import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.js';
 
 async function verifyFirestoreState() {
   console.log('Connecting to Firestore...');

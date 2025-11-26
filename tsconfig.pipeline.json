@@ -18,6 +18,6 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/data-pipeline/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": ["src/data-pipeline/**/*.ts", "scripts/**/*.ts"],
+  "exclude": ["node_modules", "scripts/debug/**/*.ts", "scripts/archive/**/*.ts", "scripts/migrations/**/*.ts"]
 }

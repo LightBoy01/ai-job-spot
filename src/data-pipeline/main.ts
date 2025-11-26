@@ -11,6 +11,7 @@ import { getJobIdFromRawItem, generateBriefingId } from './utils/id-generation.j
 import { IJobSource, StandardJob } from './types.js';
 import { getJobSources } from './pipeline.config.jobs.js';
 import { writeJobFile, writeBriefingFile } from './writer.js';
+import { isJobHighQuality, isBriefingHighQuality } from './utils/quality-filter.js';
 
 // Briefing-specific imports
 import { IBriefingSource, StandardBriefing } from './types.js';
@@ -21,6 +22,8 @@ import { RssItem } from './adapters/rss-adapter.js';
 const JOB_DESCRIPTIONS_DIR = path.resolve(process.cwd(), 'src', 'job-descriptions');
 const BRIEFINGS_DIR = path.resolve(process.cwd(), 'src', 'content', 'briefings');
 const ARCHIVE_DIR = path.resolve(process.cwd(), 'scripts', 'archive');
+
+const PIPELINE_CONCURRENCY = 3;
 
 // --- Generic Helper Functions ---
 
@@ -153,6 +156,46 @@ async function runSource<T extends StandardJob | StandardBriefing>(config: Sourc
                 if (!transformedItem) {
                     continue;
                 }
+
+                // Global Quality Filter for Jobs
+                if (type === 'job') {
+                    if (!isJobHighQuality(transformedItem as StandardJob)) {
+                        metricsCollector.increment('items.skipped.quality');
+                        continue; // Skip to the next item
+                    }
+                }
+
+                // Global Quality Filter for Briefings
+                if (type === 'briefing') {
+                    const minScore = source.config?.minScore as number | undefined;
+                    if (!isBriefingHighQuality(transformedItem as StandardBriefing, minScore)) {
+                        metricsCollector.increment('items.skipped.quality');
+                        continue; // Skip to the next item
+                    }
+                }
+
+                // Overwrite Protection for Published Content
+                const localFilePath = localFilesForSource.get(id);
+                if (type === 'job' && localFilePath) {
+                    try {
+                        // Security: Re-validate path before reading
+                        if (!path.resolve(localFilePath).startsWith(path.resolve(outputDir))) {
+                            sourceLogger.error({ file: localFilePath }, `[Overwrite Protection] Detected potential path traversal. Skipping.`);
+                            continue;
+                        }
+                        const existingContent = await fs.readFile(localFilePath, 'utf-8');
+                        const { data: existingFrontmatter } = matter(existingContent);
+
+                        if (existingFrontmatter.status === 'published') {
+                            sourceLogger.info({ itemId: id }, `[Overwrite Protection] Skipping update for already published item.`);
+                            metricsCollector.increment('items.skipped.published');
+                            continue; // Skip to the next item
+                        }
+                    } catch (readError) {
+                        sourceLogger.warn({ err: readError, itemId: id }, `[Overwrite Protection] Could not read existing file to check status. Proceeding with overwrite.`);
+                    }
+                }
+
                 if (isDryRun) {
                     logger.info({ itemId: id }, `[DRY RUN] Would write file for item.`);
                 } else {
@@ -171,7 +214,7 @@ async function runSource<T extends StandardJob | StandardBriefing>(config: Sourc
         sourceLogger.info({ success: successCount, failed: errorCount }, `--- Source complete ---`);
 
     } catch (error) {
-        sourceLogger.error({ err: error }, `[Orchestrator] Failed to run sync for source.`);
+        sourceLogger.error(`[Orchestrator] Failed to run sync for source. Reason: ${(error as Error).message}`);
         metricsCollector.increment('sources.failed');
     }
 }
@@ -187,7 +230,8 @@ export async function orchestrateJobs() {
   await fs.mkdir(ARCHIVE_DIR, { recursive: true });
 
   const jobSources = await getJobSources();
-  const limit = pLimit(5); // Concurrency limit of 5
+  logger.info({ count: jobSources.length }, `[Orchestrator] Found and configured ${jobSources.length} job sources to process.`);
+  const limit = pLimit(PIPELINE_CONCURRENCY); // Concurrency limit
 
   const promises = jobSources.map(source => 
     limit(() => 
@@ -213,9 +257,9 @@ async function orchestrateBriefings() {
     await fs.mkdir(BRIEFINGS_DIR, { recursive: true });
 
     const briefingSources = await getBriefingSources();
-    logger.info({ count: briefingSources.length }, `[Orchestrator] Found briefing sources.`);
+    logger.info({ count: briefingSources.length }, `[Orchestrator] Found and configured ${briefingSources.length} briefing sources to process.`);
 
-    const limit = pLimit(5);
+    const limit = pLimit(PIPELINE_CONCURRENCY);
 
     const promises = briefingSources.map(source =>
         limit(() =>
@@ -264,7 +308,14 @@ async function main() {
     logger.info({ metrics: metricsCollector.getMetricsObject() }, '[Pipeline] Final metrics summary.');
 }
 
-main().catch(error => {
-  logger.fatal({ err: error }, '[Orchestrator] A critical error occurred during pipeline execution.');
-  process.exit(1);
-});
+logger.info('--- [PIPELINE START] ---');
+main()
+  .then(() => {
+    logger.info('--- [PIPELINE SUCCESS] ---');
+    process.exit(0);
+  })
+  .catch(error => {
+    logger.fatal({ err: error }, '[Orchestrator] A critical error occurred during pipeline execution.');
+    logger.error('--- [PIPELINE FAILED] ---');
+    process.exit(1);
+  });

@@ -16,20 +16,20 @@ const Sidebar = ({ title, items }: SidebarProps) => {
       <h3 className="text-xl font-serif font-semibold text-primary-dark mb-4">
         {title}
       </h3>
-      <ul className="space-y-4">
+      <ul className="-mx-6 -mb-6">
         {items.map((item) => (
-          <li key={item.id}>
+          <li key={item.id} className="border-b border-neutral-200/80 last:border-b-0">
             {'slug' in item ? (
               <Link
                 href={`/articles/${item.slug}`}
-                className="text-primary hover:text-primary-dark transition-colors"
+                className="block px-6 py-4 font-medium text-neutral-700 hover:bg-primary/5 hover:text-primary-dark transition-colors duration-200"
               >
                 {item.title}
               </Link>
             ) : (
               <Link
                 href={`/jobs/${item.id}`}
-                className="text-primary hover:text-primary-dark transition-colors"
+                className="block px-6 py-4 font-medium text-neutral-700 hover:bg-primary/5 hover:text-primary-dark transition-colors duration-200"
               >
                 {item.title}
               </Link>

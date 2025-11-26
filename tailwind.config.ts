@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import typography from '@tailwindcss/typography';
 
 const config: Config = {
   content: [
@@ -46,81 +47,133 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      typography: ({ theme }: { theme: any }) => ({
+      typography: ({ theme }: { theme: (path: string) => string }) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.neutral.800'),
+            '--tw-prose-body': theme('colors.neutral.800'),
+            '--tw-prose-headings': theme('colors.primary.dark'),
+            '--tw-prose-lead': theme('colors.neutral.700'),
+            '--tw-prose-links': theme('colors.secondary.dark'),
+            '--tw-prose-bold': theme('colors.neutral.900'),
+            '--tw-prose-counters': theme('colors.secondary.dark'),
+            '--tw-prose-bullets': theme('colors.secondary.DEFAULT'),
+            '--tw-prose-hr': theme('colors.neutral.200'),
+            '--tw-prose-quotes': theme('colors.neutral.600'),
+            '--tw-prose-quote-borders': theme('colors.secondary.DEFAULT'),
+            '--tw-prose-captions': theme('colors.neutral.500'),
+            '--tw-prose-code': theme('colors.accent.dark'),
+            '--tw-prose-pre-code': theme('colors.neutral.100'),
+            '--tw-prose-pre-bg': theme('colors.neutral.800'),
+            '--tw-prose-th-borders': theme('colors.neutral.300'),
+            '--tw-prose-td-borders': theme('colors.neutral.200'),
+
             h1: {
-              color: theme('colors.primary.dark'),
-              fontFamily: theme('fontFamily.serif').join(', '),
+              fontFamily: (theme('fontFamily.serif') as unknown as string[]).join(', '),
               fontWeight: '700',
             },
             h2: {
-              color: theme('colors.primary.dark'),
-              fontFamily: theme('fontFamily.serif').join(', '),
-              fontWeight: '600',
+              fontFamily: (theme('fontFamily.serif') as unknown as string[]).join(', '),
+              fontWeight: '700',
+              marginTop: '2em',
+              marginBottom: '1em',
             },
             h3: {
-              color: theme('colors.primary.dark'),
-              fontFamily: theme('fontFamily.serif').join(', '),
+              fontFamily: (theme('fontFamily.serif') as unknown as string[]).join(', '),
               fontWeight: '600',
+              marginTop: '1.8em',
+              marginBottom: '0.8em',
             },
             h4: {
-              color: theme('colors.primary.dark'),
-              fontFamily: theme('fontFamily.serif').join(', '),
+              fontFamily: (theme('fontFamily.serif') as unknown as string[]).join(', '),
               fontWeight: '600',
             },
+            p: {
+              fontFamily: (theme('fontFamily.sans') as unknown as string[]).join(', '),
+              lineHeight: '1.85',
+              marginBottom: '1.5em',
+            },
+            'p:first-of-type::first-letter': {
+              fontSize: '4.5rem',
+              fontFamily: (theme('fontFamily.serif') as unknown as string[]).join(', '),
+              fontWeight: '700',
+              color: theme('colors.primary.dark'),
+              float: 'left',
+              paddingRight: '0.5rem',
+              paddingTop: '0.25rem',
+              lineHeight: '0.8',
+            },
             a: {
-              color: theme('colors.secondary.dark'),
               fontWeight: '500',
               textDecoration: 'none',
+              transition: 'color 0.3s',
               '&:hover': {
                 color: theme('colors.secondary.DEFAULT'),
                 textDecoration: 'underline',
               },
             },
-            p: {
-              fontFamily: theme('fontFamily.sans').join(', '),
-              lineHeight: '1.75',
-              marginBottom: '1em',
-            },
             ul: {
-              listStyleType: 'disc',
-              paddingLeft: '1.5em',
-              li: {
-                marginBottom: '0.5em',
-              },
+              listStyleType: 'none',
+              paddingLeft: '0',
+            },
+            'ul > li': {
+              position: 'relative',
+              paddingLeft: '1.75rem',
+              marginBottom: '0.5rem',
+            },
+            'ul > li::before': {
+              content: '"\\2022"',
+              position: 'absolute',
+              left: '0px',
+              color: 'var(--tw-prose-bullets)',
+              fontSize: '1.5rem',
+              lineHeight: '1.75rem',
             },
             ol: {
-              listStyleType: 'decimal',
-              paddingLeft: '1.5em',
-              li: {
-                marginBottom: '0.5em',
-              },
+              listStyleType: 'none',
+              paddingLeft: '0',
             },
-            strong: {
-              color: theme('colors.neutral.900'),
+            'ol > li': {
+              position: 'relative',
+              paddingLeft: '1.75rem',
+              marginBottom: '0.5rem',
+            },
+            'ol > li::before': {
+              content: 'counter(list-item) "."',
+              counterIncrement: 'list-item',
+              position: 'absolute',
+              left: '0px',
+              fontFamily: (theme('fontFamily.serif') as unknown as string[]).join(', '),
+              fontWeight: '700',
+              color: 'var(--tw-prose-counters)',
             },
             blockquote: {
-              borderLeftColor: theme('colors.secondary.DEFAULT'),
-              color: theme('colors.neutral.600'),
               fontStyle: 'italic',
+              borderLeftWidth: '0.25rem',
+              backgroundColor: theme('colors.neutral.50'),
+              padding: '1.5rem',
+              marginTop: '2rem',
+              marginBottom: '2rem',
+            },
+            'blockquote p': {
+              fontSize: '1.25rem',
+              lineHeight: '1.75rem',
+            },
+            strong: {
+              color: 'var(--tw-prose-bold)',
             },
             code: {
               backgroundColor: theme('colors.neutral.100'),
-              color: theme('colors.accent.dark'),
               padding: '0.2em 0.4em',
               borderRadius: '0.25em',
             },
             pre: {
               backgroundColor: theme('colors.neutral.800'),
-              color: theme('colors.neutral.100'),
             },
           },
         },
       }),
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [typography],
 };
 export default config;

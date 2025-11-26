@@ -2,7 +2,7 @@
 slug: the-red-pen-protocol
 title: 'The Red Pen Protocol: A Strategist’s Guide to Auditing AI'
 author: The AI Strategist
-publishDate: 2025-09-08T09:00:00.000Z
+publishDate: '2025-10-03T10:00:00.000Z'
 issueNo: 28
 volumeNo: 1
 tags:
@@ -11,7 +11,7 @@ tags:
   - Critical Thinking
   - Future of Work
 hub: Mental Models & Frameworks
-imageUrl: /images/articles/the-red-pen-protocol.svg
+imageUrl: /images/articles/the-red-pen-protocol-v2.svg
 contentType: editorial
 ---
 

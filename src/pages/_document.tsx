@@ -7,7 +7,12 @@ class MyDocument extends Document {
         <Head>
           <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
           <link rel="icon" href="/favicon.ico" /> {/* Fallback for older browsers */}
-          {/* You can add other favicon sizes/types here if needed, e.g., apple-touch-icon.png */}
+          {/* AdSense Script */}
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT}`}
+            crossOrigin="anonymous"
+          />
         </Head>
         <body>
           <Main />

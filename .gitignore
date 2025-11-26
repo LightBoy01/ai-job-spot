@@ -101,3 +101,6 @@ ai-jobs-spot-92a1f1a8b08e.json
 # Local pipeline configuration
 pipeline.config.local.ts
 
+# Large directories to ignore for deployments
+/.npm/
+/temp_sources/

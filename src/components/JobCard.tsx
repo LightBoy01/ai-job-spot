@@ -2,8 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { SerializedJobSummary } from '@/lib/types';
+import Icon from './Icon';
 import { formatDate } from '@/lib/dateUtils';
-import FeaturedBadge from './FeaturedBadge'; // New import
+import { getInitials } from '@/lib/stringUtils';
 
 interface JobCardProps {
   job: SerializedJobSummary;
@@ -23,30 +24,15 @@ interface JobCardProps {
  * @returns {JSX.Element} The rendered JobCard component.
  */
 const JobCard = React.memo(({ job }: JobCardProps) => {
-  const { id, title, company, location, salaryRange, isNew, isFeatured, companyLogoUrl } = // Added isFeatured
+  const { id, title, company, location, salaryRange, isNew, isFeatured, companyLogoUrl } =
     job;
-
-  const getInitials = (companyName: string) => {
-    return companyName
-      .split(' ')
-      .map((word) => word[0])
-      .slice(0, 2)
-      .join('')
-      .toUpperCase();
-  };
 
   return (
     <Link
       href={`/jobs/${id}`}
       passHref
       className={`block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden h-full flex flex-col
-        ${isFeatured ? 'border-2 border-amber-500 ring-2 ring-amber-300' : 'border border-neutral-200/80 hover:border-secondary/50'}`}
-    >
-      {isFeatured && (
-        <div className="absolute top-0 left-0 z-10 p-2">
-          <FeaturedBadge />
-        </div>
-      )}
+        ${isFeatured ? 'border-2 border-amber-500 ring-2 ring-amber-300' : 'border border-neutral-200/80 hover:border-secondary/50'}`}>
       {isNew && (
         <span className="absolute top-0 right-0 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">
           NEW
@@ -55,14 +41,14 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
       {job.verificationDate && (
         <span
           className="absolute top-0 left-0 bg-brand-gold text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10"
-          title={`Last verified on ${formatDate(job.verificationDate)}`}
+          title={`This job was last verified as active on ${formatDate(job.verificationDate)}.`}
         >
           VERIFIED
         </span>
       )}
       <div className="flex-grow flex flex-col">
+        {/* Card Header */}
         <div className="flex items-start space-x-4 mb-4">
-          {/* Logo or Fallback */}
           <div className="flex-shrink-0 w-16 h-16 bg-neutral-100 rounded-md flex items-center justify-center border border-neutral-200">
             {companyLogoUrl ? (
               <Image
@@ -78,12 +64,11 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
               </span>
             )}
           </div>
-          {/* Title and Company */}
-          <div className="flex-1">
-            <h3 className="text-2xl font-serif font-bold text-primary-dark group-hover:text-secondary-dark transition-colors leading-tight">
+          <div className="flex-1 min-w-0">
+            <h3 className="text-2xl font-serif font-bold text-primary-dark group-hover:text-secondary-dark transition-colors leading-tight break-words line-clamp-2">
               {title}
             </h3>
-            <p className="mt-1 text-base text-neutral-600 flex items-center">
+            <p className="mt-1 text-base text-neutral-600 flex items-center break-words">
               {company}
               {job.sourceUrl && (
                 <a
@@ -92,112 +77,72 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
                   rel="noopener noreferrer"
                   className="ml-2 text-neutral-500 hover:text-primary-dark"
                   title="View original job posting"
+                  onClick={(e) => e.stopPropagation()}
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
+                  <Icon name="external-link" className="h-4 w-4" />
                 </a>
               )}
             </p>
           </div>
         </div>
 
-        {salaryRange ? (
-          <p className="mt-2 text-lg text-accent-dark font-semibold">
-            {salaryRange}
-          </p>
-        ) : (
-          <p className="mt-2 text-base text-neutral-500 italic">
-            Salary: Not Disclosed
-          </p>
-        )}
+        {/* Salary Info */}
+        <div className="my-2">
+          {salaryRange ? (
+            <p className="text-lg text-accent-dark font-semibold">
+              {salaryRange}
+            </p>
+          ) : (
+            <p className="text-base text-neutral-500 italic">
+              Salary: Not Disclosed
+            </p>
+          )}
+        </div>
 
-        <div className="flex-grow" />
-
-        <div className="mt-4 border-t border-neutral-200 pt-4 flex flex-col space-y-3 text-sm text-neutral-600">
-          <div className="flex items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 mr-2 text-neutral-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={1.5}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-            </svg>
-            <span>{location}</span>
+        {/* Tags */}
+        <div className="mt-auto pt-4">
+          <div className="flex flex-wrap gap-2">
+            {(job.tags || []).slice(0, 4).map((tag) => (
+              <Link
+                href={`/tags/${encodeURIComponent(tag.toLowerCase())}`}
+                key={tag}
+                onClick={(e) => e.stopPropagation()}
+                className="border border-secondary/30 bg-secondary/10 text-secondary-dark text-xs font-semibold px-3 py-1.5 rounded-md hover:bg-secondary-dark hover:text-white transition-colors duration-200"
+              >
+                {tag}
+              </Link>
+            ))}
           </div>
-          {job.jobLevel && (
-            <div className="flex items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 mr-2 text-neutral-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={1.5}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 6.253v11.494m-5.747-6.99H17.747"
-                />
-              </svg>
-              <span>{job.jobLevel}</span>
-            </div>
-          )}
-          {job.source && (
-            <div className="flex items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 mr-2 text-neutral-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={1.5}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-                />
-              </svg>
-              <span>Via: {job.source}</span>
-            </div>
-          )}
         </div>
+      </div>
 
-        <div className="mt-5 flex flex-wrap gap-2">
-          {(job.tags || []).map((tag) => (
-            <span
-              key={tag}
-              className="border border-secondary/30 bg-secondary/10 text-secondary-dark text-xs font-medium px-2.5 py-1 rounded-md"
-            >
-              {tag}
-            </span>
-          ))}
+      {/* Card Footer */}
+      <div className="mt-4 border-t border-neutral-200 pt-4 flex flex-col space-y-3 text-sm text-neutral-700">
+        <div className="flex items-center">
+          <Icon
+            name="location"
+            className="h-5 w-5 mr-2.5 text-neutral-500 flex-shrink-0"
+          />
+          <span className="truncate" title={location}>{location}</span>
         </div>
+        {job.jobLevel && (
+          <div className="flex items-center">
+            <Icon
+              name="level"
+              className="h-5 w-5 mr-2.5 text-neutral-500 flex-shrink-0"
+            />
+            <span>{job.jobLevel}</span>
+          </div>
+        )}
+        {job.source && (
+          <div className="flex items-center">
+            <Icon
+              name="source"
+              className="h-5 w-5 mr-2.5 text-neutral-500 flex-shrink-0"
+            />
+            <span className="truncate">Via: {job.source}</span>
+          </div>
+        )}
       </div>
     </Link>
   );

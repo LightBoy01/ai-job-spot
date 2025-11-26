@@ -1,0 +1,53 @@
+---
+id: 4d93101d647f7654fcc5dfacaed3202d80f1ab01d54cad2e8786d4c86953d551
+title: Kundenberater Private Banking (m/w/d) Stuttgart
+company: MY Humancapital GmbH
+location: Stuttgart
+applicationLink: >-
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-private-banking-stuttgart-324498
+postedDate: '2025-11-21T01:34:46.000Z'
+expirationDate: null
+tags:
+  - Private Banking
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
+source: arbeitnow
+sourceUrl: >-
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-private-banking-stuttgart-324498
+companyLogoUrl: null
+---
+Im Auftrag unseres Partnerunternehmens in Stuttgart suchen wir Sie zum nächstmöglichen Zeitpunkt als **„Kundenberater Private Banking (m/w/d)“.**
+
+**Aufgaben**
+------------
+
+*   Als **Kundenberater Private Banking (m/w/d)** unterstützen Sie Senior-Berater bei der ganzheitlichen Betreuung und Beratung anspruchsvoller Privatkunden sowie institutioneller Investoren
+*   Dabei pflegen Sie bestehende Kundenbeziehungen im gehobenen Privatkundensegment und tragen aktiv zum Auf- und Ausbau langfristiger Partnerschaften bei
+*   Sie wirken bei der Akquise neuer Kunden mit, begleiten Vertriebsaktivitäten und unterstützen beim strategischen Ausbau des zugewiesenen Kundenstamms
+*   Sie führen ziel- und abschlussorientierte Beratungsgespräche, erkennen Kundenbedarfe und entwickeln daraus maßgeschneiderte Anlagestrategien unter Berücksichtigung von Risikoprofilen und regulatorischen Anforderungen
+*   Zudem übernehmen Sie Aufgaben in unterschiedlichen Projekten des Bereichs Private Banking und bringen eigene Ideen zur Prozessoptimierung und Kundenbindung ein
+
+**Qualifikation**
+-----------------
+
+*   Sie übernehmen Aufgaben in unterschiedlichen Projekten des Bereichs Private Banking und bringen eigene Ideen zur Prozessoptimierung und Kundenbindung ein
+*   Sie verfügen über erste Berufserfahrung im Bankenumfeld, idealerweise im Private Banking, Wealth Management oder in der Vermögensberatung
+*   Sie beherrschen den sicheren Umgang mit MS Office, insbesondere mit Word, Excel und PowerPoint
+*   Sie zeichnen sich durch hohe Serviceorientierung, Kommunikationsstärke und ein souveränes Auftreten im Kundenkontakt aus
+*   Sehr gute Deutschkenntnisse zeichnen Sie aus
+
+**Benefits**
+------------
+
+*   **Langfristige Jobmöglichkeit:** Das Unternehmen sucht langfristige Unterstützung im Rahmen einer unbefristeten Festanstellung
+*   **Work-Life-Balance:** Freuen Sie sich auf flexible Arbeitszeiten mit anteiliger Homeoffice-Möglichkeit
+*   **Zentrale Lage:** Das Unternehmen befindet sich im Herzen Stuttgarts
+*   **Wertschätzende Arbeitskultur:** Die Abteilung legt großen Wert auf ein positives Miteinander. Sie erwartet eine Du-Kultur und ein spürbares Vertrauen der Führungskräfte
+*   **Modernes Umfeld**: Sie erwartet eine moderne Arbeitsumgebung, mit neuesten Gerätschaften
+*   **Weiterentwicklung**: Das Unternehmen bietet zahlreiche Weiterbildungs- und Entwicklungsmöglichkeiten
+
+Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Simon Schneider** gerne unter 089 954 287 111 zur Verfügung.
+
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

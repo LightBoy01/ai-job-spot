@@ -6,8 +6,7 @@ import { jobSchema, articleSchema } from '../seedFirestore.ts';
 function generateMarkdownForSchema(schemaName, schema) {
   let markdown = `## ${schemaName}\n\n`;
   markdown += '| Field | Type | Required |\n';
-  markdown += '|---|---|---|
-';
+  markdown += '|---|---|---|\n';
 
   const shape = schema.shape;
   for (const key in shape) {
@@ -49,8 +48,7 @@ async function main() {
   console.log('Generating content schema documentation from Zod schemas...');
 
   let fullMarkdown = '# Content Schema Documentation\n\n';
-  fullMarkdown += 'This document is auto-generated from the Zod schemas in `seedFirestore.ts`.
-';
+  fullMarkdown += 'This document is auto-generated from the Zod schemas in `seedFirestore.ts`.\n';
   fullMarkdown += 'It represents the single source of truth for the required frontmatter fields for jobs and articles.\n\n';
 
   fullMarkdown += generateMarkdownForSchema('Jobs Schema (`jobSchema`)', jobSchema);

@@ -132,11 +132,14 @@ const TagPage: NextPage<TagPageProps> = ({
           content={`Find the latest jobs and articles related to ${tag}.`}
         />
       </Head>
-      <div className="max-w-6xl mx-auto px-4 py-12">
+      <div className="max-w-6xl mx-auto px-4 py-12 text-center">
         <h1 className="page-title text-4xl sm:text-5xl md:text-6xl mb-4">
           #{tag}
         </h1>
-        <div className="mt-12">
+        <p className="mt-2 text-lg text-neutral-600 font-sans max-w-2xl mx-auto">
+          A curated collection of jobs and articles related to &quot;{tag}&quot;. Explore the opportunities and insights shaping this domain.
+        </p>
+        <div className="mt-12 text-left">
           <h2 className="text-3xl font-serif font-bold text-primary-dark mb-6">
             Jobs
           </h2>
@@ -147,7 +150,10 @@ const TagPage: NextPage<TagPageProps> = ({
               ))}
             </div>
           ) : (
-            <p className="text-neutral-600">No jobs found for this tag.</p>
+            <div className="text-center py-16 px-6 bg-neutral-50/70 rounded-lg border border-neutral-200/80">
+              <h3 className="text-xl font-serif text-primary-dark">No Matching Jobs</h3>
+              <p className="text-neutral-600 mt-2 max-w-md mx-auto">There are currently no open positions for this tag. Please check back later or explore our other hubs.</p>
+            </div>
           )}
           {loadingJobs && (
             <p className="text-center text-neutral-600 mt-8">
@@ -166,6 +172,9 @@ const TagPage: NextPage<TagPageProps> = ({
             slot={process.env.NEXT_PUBLIC_ADSENSE_TAG_PAGE_SLOT || ''}
           />
         </div>
+
+        <hr className="my-16 border-t border-neutral-200/80" />
+
         <div className="mt-12">
           <h2 className="text-3xl font-serif font-bold text-primary-dark mb-6">
             Articles
@@ -177,7 +186,10 @@ const TagPage: NextPage<TagPageProps> = ({
               ))}
             </div>
           ) : (
-            <p className="text-neutral-600">No articles found for this tag.</p>
+            <div className="text-center py-16 px-6 bg-neutral-50/70 rounded-lg border border-neutral-200/80">
+              <h3 className="text-xl font-serif text-primary-dark">No Matching Articles</h3>
+              <p className="text-neutral-600 mt-2 max-w-md mx-auto">There are currently no articles or briefings for this tag. Please check back later or explore our other hubs.</p>
+            </div>
           )}
           {loadingArticles && (
             <p className="text-center text-neutral-600 mt-8">

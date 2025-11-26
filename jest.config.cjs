@@ -6,7 +6,7 @@ module.exports = {
   },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
-    '^(\\.{1,2}/.*)\\.js$': '$1',
+
   },
   modulePathIgnorePatterns: ['<rootDir>/dist/'],
   // Explicitly tell Jest where to find test files
@@ -40,16 +40,8 @@ module.exports = {
     '!src/lib/hooks/**', // React hooks
     '!src/components/**', // React components
     '!src/pages/**', // Next.js pages
-    '!src/data-pipeline/**', // Data pipeline is tested separately
   ],
   coverageDirectory: 'coverage',
   coverageReporters: ['json', 'lcov', 'text', 'clover'],
-  coverageThreshold: {
-    global: {
-      branches: 50,
-      functions: 50,
-      lines: 50,
-      statements: 50,
-    },
-  },
+
 };

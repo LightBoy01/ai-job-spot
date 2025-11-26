@@ -3,15 +3,14 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import logger from './utils/logger.js';
-import { IJobSource, IBriefingSource, StandardJob, StandardBriefing } from './types.js';
+import { StandardJob, StandardBriefing } from './types.js';
+import { RssItem } from './adapters/rss-adapter.js';
+import { sanitizeForFilePath } from './utils/sanitization.js';
 import { getJobSources } from './pipeline.config.jobs.js';
 import { getBriefingSources } from './pipeline.config.briefings.js';
 import { getJobIdFromRawItem } from './utils/id-generation.js';
 import { writeJobFile, writeBriefingFile } from './writer.js';
 import { writeToDlq } from './utils/dlq.js';
-import { createRssSource } from './sources/rss.js';
-import { RssItem } from './adapters/rss-adapter.js';
-import { sanitizeForFilePath } from './utils/sanitization.js';
 
 const DLQ_DIR = path.resolve(process.cwd(), 'data', 'dead-letter-queue');
 const MAX_RETRIES = 3;
@@ -136,15 +135,27 @@ async function reprocessDlqForSource(sourceName: string) {
 }
 
 async function main() {
-    const sourceName = process.argv[2];
-    if (!sourceName) {
-        logger.fatal('[Reprocess] A source name must be provided as an argument. Ex: `npm run pipeline:reprocess-dlq hiring.cafe`');
-        process.exit(1);
+    logger.info('[Reprocess] Starting DLQ reprocessing for all sources...');
+    
+    let sourceDirs: string[];
+    try {
+         
+        sourceDirs = await fs.readdir(DLQ_DIR);
+    } catch (error) {
+        if (error instanceof Error && (error as NodeJS.ErrnoException).code === 'ENOENT') {
+            logger.info('[Reprocess] DLQ directory not found. Nothing to reprocess.');
+            return;
+        }
+        throw error;
     }
 
-    // Sanitize the input from the command line before using it.
-    const safeSourceName = sanitizeForFilePath(sourceName);
-    await reprocessDlqForSource(safeSourceName);
+    for (const sourceName of sourceDirs) {
+        // We can pass the sourceName directly to reprocessDlqForSource, 
+        // as it includes its own sanitization and safety checks.
+        await reprocessDlqForSource(sourceName);
+    }
+
+    logger.info('[Reprocess] Full DLQ reprocessing cycle complete.');
 }
 
 main().catch(error => {

@@ -26,26 +26,26 @@ companyLogoUrl: >-
   https://www.cognizant.com/content/dam/cognizant_foundation/glovs/src/img/logo-full-color-rgb.svg
 glassdoorLink: null
 crunchbaseLink: null
-story_question1: >-
+story_question1: |-
   What is the most exciting challenge for a Gen AI Engineer at Cognizant in the
   first 90 days?
-story_answer1: >-
+story_answer1: |-
   The most exciting challenge will be to dive into our ongoing Generative AI
   projects and start contributing to the development of our next-generation AI
   solutions. You will be working with cutting-edge technologies and will have
   the opportunity to make a significant impact on our products and services. We
   are looking for someone who can quickly learn and adapt to our fast-paced
   environment.
-story_question2: >-
+story_question2: |-
   What is a quality you're looking for in a candidate that isn't on the formal
   job description?
-story_answer2: >-
+story_answer2: |-
   We are looking for a creative and innovative thinker who can come up with new
   and exciting ideas for using Generative AI. We want someone who is not afraid
   to challenge the status quo and who can think outside the box. A passion for
   AI and a desire to push the boundaries of what is possible are essential.
 story_question3: How does this role contribute to the company's larger mission?
-story_answer3: >-
+story_answer3: |-
   This role is at the heart of Cognizant's strategy to be a leader in the AI
   space. By developing innovative Generative AI solutions, you will be directly
   contributing to our ability to help our clients transform their businesses and

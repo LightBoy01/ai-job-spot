@@ -28,27 +28,27 @@ companyLogoUrl: >-
   https://wac-cdn.atlassian.com/dam/jcr:e9ef2428-be13-4637-93e0-17c1714a7247/Atlassian-horizontal-blue-rgb.svg
 glassdoorLink: null
 crunchbaseLink: null
-story_question1: >-
+story_question1: |-
   What is the most exciting challenge for a Product Manager at Atlassian in the
   first 90 days?
-story_answer1: >-
+story_answer1: |-
   The most exciting challenge will be to immerse yourself in our sales and
   support workflows and identify the most impactful opportunities for automation
   and AI. You will be working with a wealth of data and will have the
   opportunity to make a real difference to the efficiency and effectiveness of
   our teams. We are looking for someone who can hit the ground running and start
   delivering value from day one.
-story_question2: >-
+story_question2: |-
   What is a quality you''re looking for in a candidate that isn''t on the formal
   job description?
-story_answer2: >-
+story_answer2: |-
   We are looking for a product manager who is a true team player. At Atlassian,
   we believe that great things are achieved through collaboration. We want
   someone who can build strong relationships with our sales, support, and
   engineering teams, and who can work effectively in a cross-functional
   environment. A positive and collaborative attitude is a must.
 story_question3: How does this role contribute to the company''s larger mission?
-story_answer3: >-
+story_answer3: |-
   This role is key to Atlassian''s mission of unleashing the potential of every
   team. By building intelligent and automated solutions for our sales and
   support teams, you will be directly contributing to our ability to provide a

@@ -16,29 +16,19 @@ const optionalUrl = z
   .transform((e) => (e === '' ? null : e));
 
 export const ArticleSchema = z.object({
-  slug: z
-    .string()
-    .min(1, 'URL Slug is required.')
-    .regex(
-      // eslint-disable-next-line security/detect-unsafe-regex -- This is a standard and safe slug regex pattern.
-      /^[a-z0-9]+(-[a-z0-9]+)*$/,
-      'URL Slug must be lowercase, alphanumeric, and use hyphens for spaces (e.g., my-awesome-article).'
-    ),
-  contentType: z.enum(['editorial', 'briefing']).default('editorial'),
+  slug: z.string().min(1, 'URL Slug is required.'),
   title: z.string().min(1, 'Article Title is required.'),
   author: z.string().min(1, 'Author is required.'),
   publishDate: z.string().min(1, 'Publish Date is required.'),
-  contentBody: z
-    .string()
-    .min(1, 'Article Content is required.')
-    .refine((data) => data !== '<p><br></p>', 'Article Content is required.'),
+  contentBody: z.string().min(1, 'Article Content is required.'),
+  contentType: z.enum(['editorial', 'briefing']).default('editorial'),
   tags: z.array(z.string()).optional(),
-  issueNo: z
+  issueNo: z.coerce
     .number()
     .int()
     .positive('Issue Number must be a positive number.')
     .optional(),
-  volumeNo: z
+  volumeNo: z.coerce
     .number()
     .int()
     .positive('Volume Number must be a positive number.')
@@ -70,7 +60,26 @@ export const ArticleSchema = z.object({
   }
 });
 
-export type ArticleFormData = z.infer<typeof ArticleSchema>;
+export type ArticleFormData = {
+  slug: string;
+  contentType: 'editorial' | 'briefing';
+  title: string;
+  author: string;
+  publishDate: string;
+  contentBody: string;
+  tags?: string[];
+  issueNo?: number;
+  volumeNo?: number;
+  imageUrl?: string | null;
+  excerpt?: string;
+  author_take_question1?: string | null;
+  author_take_answer1?: string | null;
+  author_take_question2?: string | null;
+  author_take_answer2?: string | null;
+  sourceName?: string | null;
+  originalUrl?: string | null;
+};
+
 
 export const JobPostingSchema = z
   .object({

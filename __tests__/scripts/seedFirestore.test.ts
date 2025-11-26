@@ -1,7 +1,5 @@
-import { exec } from 'child_process';
 import fs from 'fs/promises';
 import matter from 'gray-matter';
-import { promisify } from 'util';
 import { processDirectory } from '../../seedFirestore.ts'; // Import the function to test
 
 // --- Centralized Mocks ---
@@ -51,9 +49,9 @@ describe('seedFirestore.ts - processDirectory', () => {
     const mockFileContent = '---\n...frontmatter...\n---\nThis is the job description.\n\n### Responsibilities\n- Develop AI models.\n\n### Qualifications\n- PhD in AI.';
 
     // Mock the file system to return one job file
-    mockFs.readdir.mockResolvedValue(['test-job-1.md'] as any);
+    mockFs.readdir.mockResolvedValue(['test-job-1.md']);
     mockFs.readFile.mockResolvedValue(mockFileContent);
-    mockFs.stat.mockResolvedValue({ size: 500 } as any); // Add this mock
+    mockFs.stat.mockResolvedValue({ size: 500 }); // Add this mock
 
     // Mock gray-matter to parse the frontmatter and content
     mockMatter.mockReturnValue({
@@ -99,9 +97,7 @@ describe('seedFirestore.ts - processDirectory', () => {
 
     const mockFileContent = '---\n...frontmatter...\n---\nThis is the article body.';
 
-    mockFs.readdir.mockResolvedValue(['test-article.md'] as any);
-    mockFs.readFile.mockResolvedValue(mockFileContent);
-    mockFs.stat.mockResolvedValue({ size: 500 } as any); // Add this mock
+    mockFs.stat.mockResolvedValue({ size: 500 }); // Add this mock
 
     mockMatter.mockReturnValue({
         data: mockArticleData,
@@ -126,7 +122,7 @@ describe('seedFirestore.ts - processDirectory', () => {
     // --- Arrange ---
     const invalidJobData = { id: 'bad-job', title: 'Incomplete Job' }; // Missing required fields
 
-    mockFs.readdir.mockResolvedValue(['bad-job.md'] as any);
+    mockFs.readdir.mockResolvedValue(['bad-job.md']);
     mockFs.readFile.mockResolvedValue('content');
     mockMatter.mockReturnValue({ data: invalidJobData, content: 'content' });
 
@@ -157,9 +153,9 @@ describe('seedFirestore.ts - processDirectory', () => {
 
     const mockFileContent = '---\n...frontmatter...\n---\nArticle body.';
 
-    mockFs.readdir.mockResolvedValue(['content-type-article.md'] as any);
+    mockFs.readdir.mockResolvedValue(['content-type-article.md']);
     mockFs.readFile.mockResolvedValue(mockFileContent);
-    mockFs.stat.mockResolvedValue({ size: 500 } as any); // Add this mock
+    mockFs.stat.mockResolvedValue({ size: 500 }); // Add this mock
     mockMatter.mockReturnValue({
         data: mockArticleData,
         content: 'Article body.',

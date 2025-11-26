@@ -14,7 +14,7 @@ const url: string = process.argv[2];
     console.error(`Fetching ${url} with got-scraping...`);
     const { body } = await gotScraping({ url });
     console.log(body);
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error(`Error fetching page: ${error.message}`);
     process.exit(1);
   }
