@@ -10,7 +10,7 @@ on:
 
   # Runs on a schedule (e.g., every hour)
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 */4 * * *'
 
 jobs:
   enrich-and-deploy:
@@ -53,6 +53,7 @@ jobs:
           commit_message: 'chore(content): Process and publish content batch'
           file_pattern: 'src/job-descriptions/*.md src/content/briefings/*.md'
           commit_options: '--no-verify'
+          push_options: '--force-with-lease'
 
       - name: 'Prepare Indexing API Key and Seed Database if changes were committed'
         if: steps.auto-commit-step.outputs.changes_detected == 'true'
