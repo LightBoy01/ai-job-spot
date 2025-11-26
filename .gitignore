@@ -103,4 +103,4 @@ pipeline.config.local.ts
 
 # Large directories to ignore for deployments
 /.npm/
-/temp_sources/
+/temp_sources//.cache/
