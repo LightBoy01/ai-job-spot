@@ -15,10 +15,6 @@ type Job = z.infer<typeof jobSchema>;
 import {
   notifyBatch,
 } from './scripts/indexing_api_client.js';
-import dotenv from 'dotenv';
-
-dotenv.config();
-dotenv.config({ path: '.env.local', override: true });
 
 const SITE_URL = 'https://www.aijobspot.online';
 const isDryRun = process.argv.includes('--dry-run');

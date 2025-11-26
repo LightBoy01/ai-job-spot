@@ -13,7 +13,23 @@ let adminPromise: Promise<{
 import fs from 'fs/promises';
 
 async function getServiceAccount(): Promise<admin.ServiceAccount> {
-  // Use local JSON file directly to bypass environment variable parsing issues.
+  // Check for credentials in environment variables (for CI/CD)
+  if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
+    try {
+      console.log('Using FIREBASE_SERVICE_ACCOUNT_JSON environment variable for Firebase Admin.');
+      const serviceAccountJSON = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
+      return {
+        clientEmail: serviceAccountJSON.client_email,
+        privateKey: serviceAccountJSON.private_key,
+        projectId: serviceAccountJSON.project_id,
+      } as admin.ServiceAccount;
+    } catch (e) {
+      console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_JSON environment variable:', e);
+      throw new Error('Could not parse service account from environment variable.');
+    }
+  }
+
+  // Fallback to local JSON file for local development
   try {
     const serviceAccountPath = '/data/data/com.termux/files/home/ai-job-spot/ai-jobs-spot-92a1f1a8b08e.json';
     const serviceAccountFile = await fs.readFile(serviceAccountPath, 'utf8');
@@ -25,8 +41,8 @@ async function getServiceAccount(): Promise<admin.ServiceAccount> {
       projectId: serviceAccountJSON.project_id,
     } as admin.ServiceAccount;
   } catch (e) {
-    console.error('Error reading or parsing service account file:', e);
-    throw new Error('Could not load service account from file. Ensure ai-jobs-spot-92a1f1a8b08e.json exists.');
+    console.error('Error reading or parsing local service account file:', e);
+    throw new Error('Could not load service account from file. Ensure ai-jobs-spot-92a1f1a8b08e.json exists or FIREBASE_SERVICE_ACCOUNT_JSON is set.');
   }
 }
 async function initializeAdminApp(): Promise<admin.app.App> {
