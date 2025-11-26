@@ -1,11 +1,11 @@
 name: Post to Social Media
 
 # Temporarily disabled by commenting out the 'on' trigger.
-# on:
-#   schedule:
-#     # Runs every 4 hours
-#     - cron: '0 */4 * * *'
-#   workflow_dispatch: # Allows manual triggering
+on:
+  schedule:
+    # Runs every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   post-to-twitter:
@@ -27,9 +27,8 @@ jobs:
         run: ls -R
 
       - name: Run Twitter Posting Script
-        run: npm run tweet
+        run: ts-node scripts/post-to-twitter.ts --live
         env:
-          DRY_RUN: 'false'
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
           TWITTER_API_KEY_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
