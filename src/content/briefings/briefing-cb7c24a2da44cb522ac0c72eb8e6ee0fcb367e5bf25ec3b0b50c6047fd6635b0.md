@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-cb7c24a2da44cb522ac0c72eb8e6ee0fcb367e5bf25ec3b0b50c6047fd6635b0
 title: A New Bridge Links the Strange Math of Infinity to Computer Science
@@ -14,7 +16,7 @@ tags:
 excerpt: >-
   Descriptive set theorists study the niche mathematics of infinity. Now,
   they’ve shown that their problems can be rewritten in the concrete language of
-  algorithms.
+  algorithms.            
 
   The post A New Bridge Lin
 ---

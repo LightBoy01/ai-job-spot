@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-8fe163366f7ffe8fd9ae7dc81a187eeb1c4f95e1dcb392a81be069eb64956eea
 title: Act On Real-Time Insights With A Consumer Intelligence Platform
@@ -17,8 +19,8 @@ tags:
   - social marketing
   - social media
 excerpt: >-
-  As media consumption becomes more fragmented and emerging formats gain
-  traction, marketers face challenges in tracking consumer feedback, opinions,
-  and sentiment across multiple data sources in real t
+  Consumer intelligence platforms help marketing and consumer insights leaders
+  leverage real-time insights to better understand their customers (current and
+  prospective), refine their marketing and prod
 ---
-As media consumption becomes more fragmented and emerging formats gain traction, marketers face challenges in tracking consumer feedback, opinions, and sentiment across multiple data sources in real time. This growing need for a unified view of the consumer and faster insights is being answered by consumer intelligence platforms. What Are Consumer Intelligence Platforms? As social […]
+Consumer intelligence platforms help marketing and consumer insights leaders leverage real-time insights to better understand their customers (current and prospective), refine their marketing and product strategy, and monitor and manage their brand’s reputation. Learn some of the top use cases for these platforms in this preview of our new report, The Consumer Intelligence Platforms Landscape, Q4 2025.

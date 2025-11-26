@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-bfc65a84d6a6dbe589e26b43bef8d9032a573d14b7a236feb8cadc5af229ba17
 title: Microsoft begins preparing Windows 11 for its agentic AI future

@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-d9fa0fbfe9c46caa5accccf7b15771eb63cd8b10a05c971382974f55e0cf189a
 title: Edtech-Specific Startup Funding Stays Low
@@ -11,7 +13,7 @@ status: pending_review
 tags:
   - Artificial intelligence
   - Education tech
-  - M&amp;A
+  - M&A
   - Startups
   - Venture
 excerpt: >-

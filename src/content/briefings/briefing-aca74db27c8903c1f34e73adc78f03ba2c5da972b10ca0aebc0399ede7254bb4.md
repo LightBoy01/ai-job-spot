@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-aca74db27c8903c1f34e73adc78f03ba2c5da972b10ca0aebc0399ede7254bb4
 title: OpenText Redefines Enterprise Automation And AI
@@ -11,8 +13,8 @@ originalUrl: >-
 status: pending_review
 tags:
   - AI Insights
-  - Content Strategy &amp; Operations
-  - infrastructure &amp; operations
+  - Content Strategy & Operations
+  - infrastructure & operations
   - Knowledge management
   - security risk management
 excerpt: >-

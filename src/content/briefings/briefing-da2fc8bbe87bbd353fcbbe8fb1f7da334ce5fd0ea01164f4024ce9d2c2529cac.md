@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-da2fc8bbe87bbd353fcbbe8fb1f7da334ce5fd0ea01164f4024ce9d2c2529cac
 title: Rad Power Bikes’ batteries receive major fire risk warning
@@ -12,8 +14,8 @@ status: pending_review
 tags:
   - Transportation
   - e-bikes
-  - micromobility
   - Rad Power Bikes
+  - micromobility
 excerpt: >-
   The U.S Consumer Product Safety Commission claims Rad Power "refused to agree
   to an acceptable recall." Rad Power says the CPSC's solution would bankrupt

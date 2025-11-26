@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-38dde80258c6dab7ec65577b3e49dcbc9ac5f9708a43a9bea3241f13ede894de
 title: Amazon Prime is getting AI-powered Video Recaps for TV Shows

@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-d5dd48d5a9c8e1d0e55f521cfddaaf17b7287013bd06bb35b962fd8a6f80ebea
 title: Anthropic releases Opus 4.5 with new Chrome and Excel integrations
@@ -12,9 +14,9 @@ status: pending_review
 tags:
   - AI
   - TC
-  - Anthropic
-  - Claude
   - Context windows
+  - Claude
+  - Anthropic
   - excel
 excerpt: >-
   Anthropic has launched Opus 4.5, the latest version of its flagship model,

@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-226b0a161f77385e0d548abe9cbccacfdce181e584aff4c07c0bc456adafd054
 title: Image Classification with DINOv3

@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-28a48b6f6eccd831e6392e33cd6efddfa1c6ddbfbe1949b52767aa5b0ac83687
 title: >-
