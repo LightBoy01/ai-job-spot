@@ -55,8 +55,8 @@
     "sources:list": "ts-node scripts/manage-sources.ts list",
     "sources:add": "ts-node scripts/manage-sources.ts add",
     "sources:delete": "ts-node scripts/manage-sources.ts delete",
-    "tweet": "ts-node scripts/post-to-twitter.ts --live",
-    "tweet:dry-run": "ts-node scripts/post-to-twitter.ts",
+    "tweet": "tsc --project tsconfig.scripts.json && node dist/scripts/post-to-twitter.js --live",
+    "tweet:dry-run": "tsc --project tsconfig.scripts.json && node dist/scripts/post-to-twitter.js",
     "set-api-key": "ts-node scripts/set-api-key.cts",
     "backfill:completeness": "ts-node -r tsconfig-paths/register scripts/backfillCompletenessScore.ts",
     "backfill:completeness:dry-run": "ts-node -r tsconfig-paths/register scripts/backfillCompletenessScore.ts --dry-run"
