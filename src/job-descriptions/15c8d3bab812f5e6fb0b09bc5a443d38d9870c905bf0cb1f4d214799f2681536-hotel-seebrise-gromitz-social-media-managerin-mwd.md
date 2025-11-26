@@ -64,4 +64,4 @@ Benefits
 
 Klingt nach deinem Job? Dann freuen wir uns auf deine Bewerbung inkl. Lebenslauf – und vergiss nicht, ein paar Arbeitsproben (Fotos, Beiträge oder Reels), mit denen du uns deine kreative Seite zeigen kannst!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -80,4 +80,4 @@ Gemeinsam wachsen, nachhaltig wirken, Erfolg gestalten.
 
 Bei uns bist du mehr als ein Zahnrad im Getriebe – du bist ein Gestalter. Gemeinsam treiben wir Projekte voran, die nicht nur Unternehmen, sondern auch Menschen nachhaltig weiterbringen. Wir bieten dir Raum für deine Ideen, persönliche Entwicklung und echte Zusammenarbeit in einem Team, das Wert auf Vertrauen, Innovation und langfristigen Erfolg legt. Wenn du deine Karriere mit Sinn und Wirkung gestalten möchtest, bist du hier genau richtig.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

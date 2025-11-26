@@ -79,4 +79,4 @@ Warum wir? Das bieten wir Dir
 
 **Bist du bereit, unsere Infrastruktur mitzugestalten?** Dann freuen wir uns auf deine Bewerbung unter Angabe deiner Gehaltsvorstellung und des frühestmöglichen Eintrittstermins.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -4,8 +4,8 @@ title: Pflichtpraktikant (m/w/d) Industrial Engineering
 company: univativ GmbH
 location: Hanover
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/univativ-gmbh/pflichtpraktikant-industrial-engineering-hanover-346711
-postedDate: '2025-11-24T10:01:56.000Z'
+  https://www.arbeitnow.com/jobs/companies/univativ-gmbh/pflichtpraktikant-industrial-engineering-hanover-341356
+postedDate: '2025-11-26T13:01:57.000Z'
 expirationDate: null
 tags:
   - Engineering
@@ -15,32 +15,34 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/univativ-gmbh/pflichtpraktikant-industrial-engineering-hanover-346711
+  https://www.arbeitnow.com/jobs/companies/univativ-gmbh/pflichtpraktikant-industrial-engineering-hanover-341356
 companyLogoUrl: null
 ---
-**01.01.2026, , mit Option auf Verlängerung | 40 Stunden pro Woche | Hannover | Transport & Verkehr | Praktikant | Projekt-ID D202446678\_18S**
+**01.10.2025, 4 Monate, mit Option auf Verlängerung, mit Option auf Übernahme | 40 Stunden pro Woche | Hannover | Transport & Verkehr | Praktikant | Projekt-ID D202550178\_7S**
 
 univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
 
-Du studierst Maschinenbau und und bist auf der Suche nach einem Praktikumsplatz im Bereich des Industrial Engineerings? Zudem bringst Du bereits Kenntnisse in der Arbeit mit einem CAD-Programm mit und arbeitest darüber hinaus zuverlässig? Dann suchen wir genau Dich! Wir suchen intern für MAT3 im Team Process Engineering für den Bereich Work Instruction (WKI) einen Pflichtpraktikanten (m/w/d). Im Rahmen Deiner Tätigkeit bist Du für die Überprüfung und Bearbeitung von Arbeitsanweisungen zuständig, dokumentierst Deine Ergebnisse und gibst sie anschließend in SAP frei.
+Du studierst Maschinenbau oder Wirtschaftsingenieurwesen und bist auf der Suche nach einem Praktikumsplatz im Bereich des Industrial Engineerings? Zudem bringst Du bereits Kenntnisse in der Arbeit mit einem CAD-Programm mit und arbeitest darüber hinaus zuverlässig? Dann suchen wir genau Dich! Wir suchen intern für MAT3 im Team Process Engineering tatkräftige Unterstützung. Zu Deinen Aufgaben gehört die Pflege und Aktualisierung von Arbeitsplänen und -anweisungen im PLM-System sowie die Unterstützung bei der Umsetzung und Freigabe von Änderungen in der ERP-Software zur Sicherstellung aktueller Fertigungsdaten. Zudem bearbeitest Du Aufgaben im Änderungsmanagement, wirkst an der Einführung und Optimierung digitaler Fertigungsprozesse mit und unterstützt Prozessingenieure und Fertigungsteams bei der Umsetzung digitaler Lösungen. Abschließend prüfst und validierst Du Änderungen zur Sicherstellung der Datenqualität vor der Freigabe.
 
-Als spezialisierter Projektdienstleister liegt unser Fokus bei MAT3 auf der Förderung akademischer Nachwuchskräfte. Wir bieten Dir nicht nur spannende Projekte in unterschiedlichen Branchen, sondern auch die Möglichkeit, wertvolle Berufserfahrung zu sammeln. Darüber hinaus unterstützen wir Dich mit gezielten Weiterbildungen und eröffnen Dir langfristig die Möglichkeit verschiedene Karrierewege einzuschlagen. Das klingt nach der perfekten Karriereperspektive für Dich? Dann freuen wir uns auf Deine Bewerbung und darauf Dich bald bei uns im Team begrüßen zu dürfen!
+Als spezialisierter Projektdienstleister liegt unser Fokus bei MAT3 auf der Förderung akademischer Nachwuchskräfte. Wir bieten Dir nicht nur spannende Projekte in unterschiedlichen Branchen, sondern auch die Möglichkeit, wertvolle Berufserfahrung zu sammeln. Darüber hinaus unterstützen wir Dich mit gezielten Weiterbildungen und eröffnen Dir langfristig die Möglichkeit verschiedene Karrierewege einzuschlagen mit Fokus auf eine Spezialisten- oder Führungsrolle. Das klingt nach der perfekten Karriereperspektive für Dich? Dann freuen wir uns auf Deine Bewerbung und darauf Dich bald bei uns im Team begrüßen zu dürfen!
 
 Aufgaben
 --------
 
-*   Zu Deinen Aufgaben gehören die Revision und Anpassung von Arbeitsanweisungen gemäß des Unternehmensstandards
-*   Zudem bist Du für die Erfassung und Aufzeichnung der Ergebnisse verantwortlich
-*   Die Freigabe von Arbeitsplänen in SAP gehört ebenfalls zu Deinen Aufgaben
-*   Abgerundet wird Dein Profil mit der Überprüfung von Stücklisten anhand von 3D-Modellen
+*   Zu Deinen Aufgaben gehört die Bearbeitung und Aktualisierung von Arbeitsplänen und Arbeitsanweisungen im PLM-System
+*   Weiterhin unterstützt Du bei der Umsetzung und Freigabe von Änderungen in der ERP-Software, um sicherzustellen, dass Fertigungsdaten aktuell bleiben
+*   Darüber hinaus liegen die Bearbeitung von Aufgaben in Änderungsmanagement-Tools und die Mitwirkung an der Einführung und Optimierung digitaler Prozesse in der Fertigung in Deinem Aufgabenbereich
+*   Zudem unterstützt Du die Prozessingenieure und Fertigungsteams bei der Analyse und Umsetzung von digitalen Lösungen
+*   Abgerundet wird Dein Profil mit der Überprüfung und Validierung von Änderungen zur Sicherstellung der Datenqualität vor der endgültigen Freigabe
 
 Qualifikation
 -------------
 
-*   Ein laufendes Studium des Maschinenbaus
-*   Idealerweise erste Kenntnisse im Umgang mit einer ERP-Software sowie mit einem CAD-Programm
+*   Ein laufendes Studium des Maschinenbaus, Wirtschaftsingenieurwesens oder der Mechatronik
+*   Erste Kenntnisse im Umgang mit einem CAD-Programm sowie mit einer ERP-Software
+*   Kenntnisse in einer PLM-Software von Vorteil
 *   Verhandlungssichere Deutschkenntnisse (C1-Niveau)
-*   Ein hohes Maß an Qualitätsbewusstsein und eigenständigen Arbeiten
+*   Ein hohes Maß an Qualitätsbewusstsein und eigenständigem Arbeiten
 
 Benefits
 --------

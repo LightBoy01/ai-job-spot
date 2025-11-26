@@ -57,4 +57,4 @@ Why us?
 *   Working in international teams
 *   Option to use Jobrad, Wellpass, Deutschlandticket and corporate benefits
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

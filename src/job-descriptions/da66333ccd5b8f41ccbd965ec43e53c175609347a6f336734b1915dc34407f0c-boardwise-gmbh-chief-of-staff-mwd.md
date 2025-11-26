@@ -57,4 +57,4 @@ Benefits
 *   Moderne Tools, datengetriebenes Umfeld und kurze Entscheidungswege
 *   Remote-First, viel Vertrauen und ein Team, das ambitioniert, offen und unterstützend ist
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

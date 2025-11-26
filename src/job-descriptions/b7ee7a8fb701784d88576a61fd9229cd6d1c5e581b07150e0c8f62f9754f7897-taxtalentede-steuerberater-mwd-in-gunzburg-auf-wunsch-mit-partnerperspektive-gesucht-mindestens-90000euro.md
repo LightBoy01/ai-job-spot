@@ -2,7 +2,7 @@
 id: b7ee7a8fb701784d88576a61fd9229cd6d1c5e581b07150e0c8f62f9754f7897
 title: >-
   Steuerberater (m/w/d) in Günzburg, auf Wunsch mit Partnerperspektive, gesucht
-  - mindestens 90.000
+  - mindestens 90.000€
 company: Taxtalente.de
 location: Günzburg
 applicationLink: >-
@@ -75,4 +75,4 @@ Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen a
 *   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
 *   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

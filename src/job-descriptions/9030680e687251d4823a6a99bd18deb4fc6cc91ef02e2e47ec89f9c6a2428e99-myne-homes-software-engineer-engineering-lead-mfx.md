@@ -84,4 +84,4 @@ Benefits
 
 **If you want to take the chance and take-away valuable learnings while having fun building a future unicorn - we are looking forward to your application!**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

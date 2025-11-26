@@ -74,4 +74,4 @@ Wenn du Lust hast, unsere Produkttests mitzugestalten, Verantwortung zu überneh
 
 Schick uns einfach deinen Lebenslauf (gerne ohne langes Anschreiben) und ein paar Sätze dazu, warum du gut zu dieser Rolle passt.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

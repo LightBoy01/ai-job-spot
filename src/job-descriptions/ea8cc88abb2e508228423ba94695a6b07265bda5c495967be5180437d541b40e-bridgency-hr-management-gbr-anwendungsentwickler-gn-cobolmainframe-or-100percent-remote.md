@@ -64,4 +64,4 @@ Benefits
 
 Wenn Sie bereit sind, eine Schlüsselrolle in einem bedeutenden Digitalisierungsprojekt zu übernehmen und Ihre Expertise in der Cobol-Entwicklung einzubringen, freuen wir uns auf Ihre Bewerbung!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

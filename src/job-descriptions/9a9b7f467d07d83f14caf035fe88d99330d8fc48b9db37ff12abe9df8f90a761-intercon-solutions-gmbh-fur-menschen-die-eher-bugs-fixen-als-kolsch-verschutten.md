@@ -88,4 +88,4 @@ Dann schick uns deine Unterlagen.
 
 Wir melden uns schnell – ganz ohne Floskeln und ohne komische Überraschungen. Nur ein ehrliches Gespräch auf Augenhöhe.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

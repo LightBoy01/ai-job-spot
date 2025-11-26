@@ -47,4 +47,4 @@ Ihre Qualifikationen
 *   Moderne Mobilitätslösungen zur Unterstützung Ihres Arbeitsalltags
 *   Gesundheits- und Familienservices
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

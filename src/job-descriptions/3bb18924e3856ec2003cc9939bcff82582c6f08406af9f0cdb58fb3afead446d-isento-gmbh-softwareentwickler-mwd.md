@@ -63,4 +63,4 @@ Benefits
 *   Spannung: freu‘ Dich auch auf weitere spannende Projekte bei unseren Kunden und auf unsere hauseigenen Projekte im Bereich Robotik, KI und Machine Learning
 *   Ausgezeichnete Unternehmenskultur: wir sind seit drei Jahren in Folge ausgezeichnet als Top Arbeitgeber und legen großen Wert auf eine freundliche und von Respekt geprägte Arbeitsatmosphäre
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

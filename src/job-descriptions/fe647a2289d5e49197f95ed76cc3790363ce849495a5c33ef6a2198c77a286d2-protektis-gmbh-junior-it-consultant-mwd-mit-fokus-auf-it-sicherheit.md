@@ -50,4 +50,4 @@ Benefits
 
 Bist du bereit, gemeinsam mit uns den deutschen Mittelstand sicherer zu machen? Dann bewirb dich jetzt und sende deine Unterlagen als PDF. 💬
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

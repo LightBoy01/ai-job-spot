@@ -70,4 +70,4 @@ Dann bewerbe dich in nur 5 Minuten über den Bewerberfragebogen auf unserer Home
 
 Wir freuen uns darauf dich kennenzulernen!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

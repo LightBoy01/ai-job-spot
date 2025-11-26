@@ -58,4 +58,4 @@ Benefits
 
 Wir freuen uns auf deine Bewerbung. Bei Fragen melde Dich gerne direkt bei Eileen Marron (0221/2079 2241 bzw. per E-Mail)
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

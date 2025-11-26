@@ -73,4 +73,4 @@ Qualifikation
 
 Werde Teil eines engagierten Teams, das Fachkräfte für die Zukunft ausbildet – und finde bei uns nicht nur einen Job, sondern einen Ort, an dem du die Arbeitswelt von morgen aktiv mitgestalten kannst.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

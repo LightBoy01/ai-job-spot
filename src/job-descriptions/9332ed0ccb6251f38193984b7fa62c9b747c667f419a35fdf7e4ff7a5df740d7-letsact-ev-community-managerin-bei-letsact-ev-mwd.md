@@ -99,4 +99,4 @@ Der Bewerbungsprozess läuft in drei Schritten ab:
 
 Wir bei letsact setzen uns für eine vielfältige und inklusive Arbeitsumgebung ein. Daher ermutigen wir ausdrücklich FLINTA\*, queere Menschen, Menschen mit Behinderung sowie Personen mit unterschiedlichen sozialen und kulturellen Hintergründen, sich bei uns zu bewerben. Vielfalt bereichert unser Team und stärkt unsere Mission: “Gemeinsam einfach Gutes tun”. Solltest du individuelle Bedürfnisse oder Anforderungen im Bewerbungsprozess haben, zögere nicht, uns zu kontaktieren und wir finden gemeinsam eine Lösung. Wir freuen uns auf deine Bewerbung.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

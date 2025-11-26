@@ -77,4 +77,4 @@ Benefits
 
 Werde Teil unseres Teams und gestalte die Lernerlebnisse, die die Zukunft der Arbeit prägen. Wir möchten dich so bald wie möglich bei uns in Berlin an Bord holen und freuen uns auf deine Bewerbung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

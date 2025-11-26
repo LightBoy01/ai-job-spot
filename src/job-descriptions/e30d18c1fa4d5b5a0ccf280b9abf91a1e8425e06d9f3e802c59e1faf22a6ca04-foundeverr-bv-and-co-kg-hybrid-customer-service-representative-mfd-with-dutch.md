@@ -81,4 +81,4 @@ We have a wide variety of people working for us - career changers, students, mot
 
 **Job-ID:** 406144
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

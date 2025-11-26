@@ -70,4 +70,4 @@ Als Betroffener der Datenverarbeitung stehen Ihnen die nachfolgenden Rechte zu. 
 
 Zudem haben Sie nach Art. 21 Abs. 1 DSGVO das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Ihrer personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. f DSGVO erfolgt, Widerspruch einzulegen. Der Widerspruch ist in diesem Fall zu begründen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -78,4 +78,4 @@ Als **Full-Stack Growth Marketer (m/w/d)** für unsere Health App verantwortest 
 *   Ein echtes Growth Mindset – und Lust, Verantwortung zu übernehmen
     
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -79,4 +79,4 @@ Bei Fragen meld dich gern.
 
 Mehr über uns erfährst Du hier: [www.ghostoffice-berlin.de](http://www.ghostoffice-berlin.de)
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

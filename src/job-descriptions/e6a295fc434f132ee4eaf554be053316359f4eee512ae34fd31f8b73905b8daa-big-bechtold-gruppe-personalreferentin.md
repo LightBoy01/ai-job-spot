@@ -74,4 +74,4 @@ b.i.g. gruppe management gmbh
 Personalabteilung  
 0721 8206-290
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -68,4 +68,4 @@ Benefits
 
 Wenn du Freude daran hast, Menschen auf ihrem Weg in die Tech-Welt zu begleiten und dafür sowohl deine Recruiting-Expertise als auch deine Sales-Fähigkeiten nutzen willst, freuen wir uns auf deine Bewerbung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

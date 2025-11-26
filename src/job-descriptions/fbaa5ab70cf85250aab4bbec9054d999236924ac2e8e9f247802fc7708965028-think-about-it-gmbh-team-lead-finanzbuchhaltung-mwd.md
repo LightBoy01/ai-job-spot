@@ -75,4 +75,4 @@ Gesundheitscampus-Süd 19
 44801 Bochum  
 Tel: 0234/3336721-6067
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

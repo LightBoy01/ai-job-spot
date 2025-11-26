@@ -67,4 +67,4 @@ Wir ermutigen Personen aus Gruppen, die in der Technologiebranche traditionell u
 
 Bitte beachten: Im Rahmen unserer Bemühungen, einen unvoreingenommenen Bewerbungsprozess zu fördern, bitten wir Dich, in Deinem Lebenslauf keine Angaben zu Foto, Geschlecht, ethnischer Zugehörigkeit, Religion, Behinderung, sexueller Orientierung oder Alter zu machen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -54,4 +54,4 @@ Benefits
 
 • We want to grow together with you and support your personal and professional development.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

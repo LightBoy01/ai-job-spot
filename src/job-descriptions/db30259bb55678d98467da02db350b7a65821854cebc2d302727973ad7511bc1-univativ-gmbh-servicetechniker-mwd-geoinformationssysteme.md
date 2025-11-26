@@ -4,8 +4,8 @@ title: Servicetechniker (m/w/d) Geoinformationssysteme
 company: univativ GmbH
 location: Dachau
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/univativ-gmbh/servicetechniker-geoinformationssysteme-dachau-161261
-postedDate: '2025-11-24T11:02:23.000Z'
+  https://www.arbeitnow.com/jobs/companies/univativ-gmbh/servicetechniker-geoinformationssysteme-dachau-27668
+postedDate: '2025-11-26T07:31:30.000Z'
 expirationDate: null
 tags:
   - IT
@@ -15,10 +15,10 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/univativ-gmbh/servicetechniker-geoinformationssysteme-dachau-161261
+  https://www.arbeitnow.com/jobs/companies/univativ-gmbh/servicetechniker-geoinformationssysteme-dachau-27668
 companyLogoUrl: null
 ---
-**01.02.2026, | 37 Stunden pro Woche | Dachau | Energiewirtschaft | Berufserfahrener, Berufseinsteiger | 58000 bis 61000 € im Jahr | Projekt-ID A202551643\_1S**
+**01.02.2026, | 37 Stunden pro Woche | Dachau | Energiewirtschaft | Berufserfahrener, Berufseinsteiger | 58000 bis 61000 € im Jahr | Projekt-ID A202551643\_3S**
 
 univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
 
@@ -57,4 +57,4 @@ Benefits
 
 Wir freuen uns auf Deine Bewerbung
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

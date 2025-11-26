@@ -66,4 +66,4 @@ Benefits
 **👉** Bewirb dich jetzt und sichere dir einen Platz im nächsten Bootcamp.  
 Starte deine Karriere als UX/UI Designer und gestalte die digitale Welt von morgen!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

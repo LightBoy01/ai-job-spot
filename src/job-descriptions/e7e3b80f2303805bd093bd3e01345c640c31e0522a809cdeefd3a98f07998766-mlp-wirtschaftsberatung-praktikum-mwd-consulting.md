@@ -49,4 +49,4 @@ Benefits
 
 Wir freuen uns auf deine Bewerbung und dich vielleicht bald schon persönlich kennenzulernen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

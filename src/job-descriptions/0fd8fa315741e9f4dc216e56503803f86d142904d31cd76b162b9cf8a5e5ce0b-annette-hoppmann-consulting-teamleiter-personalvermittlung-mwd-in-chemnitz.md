@@ -63,4 +63,4 @@ Dann gestalte Deine Zukunft in einem Unternehmen, das Professionalität mit Herz
 
 Wir freuen uns auf Deine Bewerbung mit Angabe Deines Gehaltswunsches und frühestmöglichen Starttermins.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

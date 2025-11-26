@@ -51,4 +51,4 @@ Benefits
 
 _(Du bist_ _dir nicht 100 % sicher, ob_ _dein_ _Profil_ _passt? Kein Problem – überzeug_ _uns_ _mit_ _deinem Drive, deiner Vision und deiner_ _Neugier!)_
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

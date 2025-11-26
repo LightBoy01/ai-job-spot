@@ -60,4 +60,4 @@ WHAT WE VALUE
 
 _Alpas is proud to be an equal-opportunity employer. We view diversity as a moral imperative and competitive advantage. We are committed to equal employment opportunities regardless of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. If you have a disability or special need that requires accommodation, please let us know._
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

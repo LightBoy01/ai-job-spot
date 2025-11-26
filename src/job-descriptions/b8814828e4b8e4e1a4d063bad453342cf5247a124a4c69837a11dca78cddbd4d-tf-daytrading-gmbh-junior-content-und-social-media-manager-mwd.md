@@ -64,4 +64,4 @@ Egal ob Projekt, private Initiative oder Kundenauftrag: Wichtig ist nicht Perfek
 Du willst mit kreativen Ideen echten Mehrwert schaffen und aktiv zum Wachstum unserer Marke beitragen?  
 **Dann freuen wir uns auf deine Bewerbung!**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

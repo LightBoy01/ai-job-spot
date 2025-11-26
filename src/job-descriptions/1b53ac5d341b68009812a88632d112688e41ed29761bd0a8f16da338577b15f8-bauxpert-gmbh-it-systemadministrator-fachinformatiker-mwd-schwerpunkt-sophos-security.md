@@ -61,4 +61,4 @@ HABEN WIR DEIN INTERESSE GEWECKT?
 
 Dann sende uns Deinen Lebenslauf an Michael Becker. Er steht Dir für Fragen zum Bewerbungsverfahren telefonisch unter 04192 - 90644-50 oder über die Bewerbungsplattform zur Verfügung.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

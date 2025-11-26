@@ -67,4 +67,4 @@ Schau dir unsere CBTW Spotify Playlist an und erhalte einen ersten Eindruck von 
 
 **Jetzt bist du dran – wir freuen uns auf deine Bewerbung!**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

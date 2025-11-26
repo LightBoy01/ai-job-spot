@@ -63,4 +63,4 @@ Benefits
 
 Du möchtest Kunden mit Deiner Expertise individuell beraten und aktiv zum Wachstum unseres Unternehmens beitragen? Dann freuen wir uns auf Deinen Lebenslauf.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -67,4 +67,4 @@ Unser Techstack:
 
 Gestalte mit uns die digitalen Lösungen des Gesundheitswesens der Zukunft. Wenn Dich die Ausschreibung anspricht, sende uns Deinen Lebenslauf und Deine Gehaltsvorstellung mit dem frühestmöglichen Eintrittstermin.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -79,4 +79,4 @@ T: +49 221 8888 7896
 
 M: +49175 6819458
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

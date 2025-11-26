@@ -74,4 +74,4 @@ Werde Teil des perinova Teams und setze bei der Gestaltung des Modern Workplace 
 
 PS: Übrigens, klassische Bewerbungsgespräch gibt es bei uns nicht, wir lernen uns einfach bei per Teams-Call und einer Tasse Kaffee kennen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
