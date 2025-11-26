@@ -1,0 +1,52 @@
+# This GitHub Actions workflow is responsible for the first stage of the content pipeline:
+# Ingesting raw job and briefing data from external sources.
+# It runs once a day, fetches the data, and commits the resulting raw
+# Markdown files back to the repository with a 'pending_review' status.
+
+name: 'Content Pipeline: Daily Ingestion'
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Runs on a schedule (e.g., once a day at 6:00 AM UTC)
+  schedule:
+    - cron: '0 6 * * *'
+
+jobs:
+  ingestion:
+    name: 'Fetch and Ingest Content'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v4
+
+      - name: 'Set up Node.js'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 'Install Dependencies'
+        run: npm install
+
+      - name: 'Run Jobs Ingestion Pipeline'
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: npm run pipeline:jobs -- --force-refresh
+
+      - name: 'Run Briefings Ingestion Pipeline'
+env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: npm run pipeline:briefings -- --force-refresh
+
+      - name: 'Commit Ingested Files'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(content): Daily content ingestion'
+          file_pattern: 'src/job-descriptions/*.md src/content/briefings/*.md scripts/archive/*.md'
+          commit_options: '--no-verify' # Bypasses pre-commit hooks if any
+          

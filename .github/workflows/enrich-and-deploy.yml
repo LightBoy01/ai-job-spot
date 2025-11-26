@@ -1,0 +1,78 @@
+# This GitHub Actions workflow is the second stage of the content pipeline.
+# It runs on a frequent schedule to process the backlog of content
+# that was ingested by the 'daily-ingestion' workflow.
+
+name: 'Content Pipeline: Enrich and Deploy'
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Runs on a schedule (e.g., every hour)
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  enrich-and-deploy:
+    name: 'Enrich, Publish, and Deploy Content'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v4
+
+      - name: 'Set up Node.js'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 'Install Dependencies'
+        run: npm install
+
+      - name: 'Enrich Jobs'
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: npm run enrich:jobs -- --limit=200
+
+      - name: 'Enrich Briefings'
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: npm run enrich:briefings -- --limit=50
+
+      - name: 'Publish Jobs'
+        run: npm run publish:jobs
+
+      - name: 'Publish Briefings'
+        run: npm run publish:briefings
+        
+      - name: 'Commit Published Files'
+        id: auto-commit-step
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(content): Process and publish content batch'
+          file_pattern: 'src/job-descriptions/*.md src/content/briefings/*.md'
+          commit_options: '--no-verify'
+
+      - name: 'Prepare Indexing API Key and Seed Database if changes were committed'
+        if: steps.auto-commit-step.outputs.changes_detected == 'true'
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          REVALIDATE_SECRET_TOKEN: ${{ secrets.REVALIDATE_SECRET_TOKEN }}
+          GOOGLE_INDEXING_API_KEY_JSON: ${{ secrets.GOOGLE_INDEXING_API_KEY_JSON }} # Pass the raw JSON secret
+        run: |
+          KEY_FILE="temp_indexing_api_key.json"
+          # Ensure the KEY_FILE is created in the GitHub Actions runner environment
+          echo "$GOOGLE_INDEXING_API_KEY_JSON" > $KEY_FILE
+          
+          # Run seed with the GOOGLE_INDEXING_KEY_FILE environment variable set
+          # The 'rm $KEY_FILE' ensures cleanup even if npm run seed fails
+          GOOGLE_INDEXING_KEY_FILE=$KEY_FILE npm run seed && rm $KEY_FILE || { rm $KEY_FILE; exit 1; }
+
+        
+      - name: 'Trigger Vercel Deployment'
+        if: steps.auto-commit-step.outputs.changes_detected == 'true'
+        run: |
+          # Add a small delay to allow Firestore changes to propagate if needed
+          sleep 10
+          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"

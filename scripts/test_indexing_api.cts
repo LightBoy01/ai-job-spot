@@ -12,17 +12,17 @@ async function runTest() {
   console.log('[Test] Sending notifications for all articles...');
   console.log('--------------------------------------------------');
 
-  if (!process.env.GOOGLE_INDEXING_KEY_FILE) {
-    console.error('[Test FAILED] GOOGLE_INDEXING_KEY_FILE is not defined.');
+  if (!process.env.GOOGLE_INDEXING_KEY_FILE && !process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
+    console.error('[Test FAILED] Neither GOOGLE_INDEXING_KEY_FILE nor FIREBASE_SERVICE_ACCOUNT_JSON are defined.');
     console.error(
-      'Please ensure you have created a .env.development.local file and set the variable to your key file path.'
+      'Please ensure you have created a .env.development.local file and set one of the variables.'
     );
     return;
   }
 
   try {
     const files = await fs.readdir(ARTICLES_DIR);
-    const articleSlugs = files.filter(file => file.endsWith('.md')).map(file => path.basename(file, '.md'));
+    const articleSlugs = files.filter((file: string) => file.endsWith('.md')).map((file: string) => path.basename(file, '.md'));
 
     if (articleSlugs.length === 0) {
       console.warn('[Test] No articles found in src/articles.');

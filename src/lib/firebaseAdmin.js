@@ -4,6 +4,26 @@ import path from 'path';
 // A promise to hold the initialized admin services.
 let adminPromise = null;
 async function getServiceAccount() {
+    // Method 0: Use JSON environment variable (highest priority for CI/CD)
+    if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
+        try {
+            const serviceAccountJSON = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
+            if (typeof serviceAccountJSON.private_key === 'string') {
+                serviceAccountJSON.private_key = serviceAccountJSON.private_key.replace(/\\n/g, '\n');
+            }
+            console.log('Using FIREBASE_SERVICE_ACCOUNT_JSON environment variable for Firebase Admin.');
+            return {
+                clientEmail: serviceAccountJSON.client_email,
+                privateKey: serviceAccountJSON.private_key,
+                projectId: serviceAccountJSON.project_id,
+            };
+        }
+        catch (e) {
+            console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_JSON:', e);
+            // Fallback to other methods if parsing fails
+        }
+    }
+
     // Method 1: Use local JSON file (for local development)
     try {
         const keyFilePath = path.join(process.cwd(), 'ai-jobs-spot-92a1f1a8b08e.json');
