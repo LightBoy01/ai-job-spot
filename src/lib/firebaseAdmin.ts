@@ -18,6 +18,12 @@ async function getServiceAccount(): Promise<admin.ServiceAccount> {
     try {
       console.log('Using individual Firebase environment variables for Firebase Admin.');
       const privateKey = process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n');
+
+      // Enhanced Debugging for CI/CD
+      console.log(`[Debug] Private Key Length: ${privateKey.length}`);
+      console.log(`[Debug] Private Key Starts With: ${privateKey.substring(0, 30)}...`);
+      console.log(`[Debug] Private Key Ends With: ...${privateKey.substring(privateKey.length - 30)}`);
+      
       return {
         projectId: process.env.FIREBASE_PROJECT_ID,
         clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
