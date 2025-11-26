@@ -57,6 +57,9 @@ jobs:
       - name: 'Prepare Indexing API Key and Seed Database if changes were committed'
         if: steps.auto-commit-step.outputs.changes_detected == 'true'
         env:
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_CLIENT_EMAIL: ${{ secrets.FIREBASE_CLIENT_EMAIL }}
+          FIREBASE_PRIVATE_KEY: ${{ secrets.FIREBASE_PRIVATE_KEY }}
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           REVALIDATE_SECRET_TOKEN: ${{ secrets.REVALIDATE_SECRET_TOKEN }}
           GOOGLE_INDEXING_API_KEY_JSON: ${{ secrets.GOOGLE_INDEXING_API_KEY_JSON }} # Pass the raw JSON secret
