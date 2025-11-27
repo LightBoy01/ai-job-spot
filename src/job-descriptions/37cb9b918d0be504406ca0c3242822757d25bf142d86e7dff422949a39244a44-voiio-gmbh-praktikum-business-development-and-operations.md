@@ -9,76 +9,73 @@ postedDate: '2025-11-25T16:02:48.000Z'
 expirationDate: null
 tags:
   - Customer Service
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/voiio-gmbh/praktikum-business-development-operations-berlin-94722
 companyLogoUrl: null
+companyCulture: >-
+  voiio fosters a highly appreciative and values-driven corporate culture with
+  flat hierarchies and short decision paths. The team is supportive and
+  encourages individual growth through feedback and learning plans, promoting
+  collaboration and the contribution of new ideas.
+story_question1: >-
+  How does voiio measure the real-world impact of the Concierge Service, and
+  what are some of the most rewarding challenges faced in making a tangible
+  difference for families?
+story_answer1: >-
+  Oh, the impact is something you feel every single day here. When a parent
+  calls us, often they're at their wits' end trying to juggle work, childcare,
+  and personal life. Our Concierge Service isn't just about finding a babysitter
+  or a holiday camp; it's about giving them back peace of mind and precious
+  time. I remember a call from a single mother who desperately needed a
+  last-minute summer camp for her two kids. She was almost in tears. After a few
+  hours of intense searching and coordinating, we found the perfect fit. Hearing
+  the relief in her voice, and then getting a thank you email a week later
+  saying how much it saved her summer – that's what drives us. The challenge?
+  Sometimes it's like finding a needle in a haystack, especially with specific
+  needs or tight deadlines. But the team always pulls together; we genuinely
+  have each other's backs. Knowing that our meticulous research and empathetic
+  listening directly translates into a child having a great summer or a parent
+  avoiding burnout, that's incredibly rewarding.
+story_question2: >-
+  Given the focus on 'selbstständig und eigenverantwortlich arbeiten'
+  (independent and autonomous work), how does voiio ensure new team members,
+  especially interns, are effectively onboarded and supported to thrive in this
+  environment?
+story_answer2: >-
+  That's a fantastic question, and it's something we take very seriously. While
+  we absolutely encourage independence, 'eigenverantwortlich' doesn't mean 'on
+  your own.' From day one, you'll be paired with a mentor, usually a senior team
+  member, who guides you through our processes and helps you understand the
+  nuances of our services. We have a structured onboarding plan that includes
+  shadowing experienced concierges, access to our internal knowledge base, and
+  regular check-ins. The flat hierarchies mean you can walk up to anyone, even
+  our founders, to ask questions. And our 'Learning & Development Plan' is
+  tailored to you – it's not a generic checklist. We want you to grow, so we
+  provide ample feedback, support for professional development, and genuinely
+  listen to your ideas. We believe true autonomy comes from being well-supported
+  and having the tools and knowledge to succeed.
+story_question3: >-
+  The job description mentions 'Diversity unseres Teams kontinuierlich
+  bereichern' (continually enrich the diversity of our team). How does voiio
+  actively foster an inclusive environment where diverse perspectives are truly
+  valued and integrated into the company's mission?
+story_answer3: >-
+  Inclusivity is not just a buzzword for us; it's fundamental to our mission.
+  We're serving families from all walks of life, so our team *must* reflect that
+  diversity to truly understand and meet their needs. We actively seek out
+  candidates from diverse backgrounds, and once you're here, your voice is
+  genuinely heard. During our regular 'Strategietage,' for instance, everyone,
+  from interns to team leads, is encouraged to contribute ideas and challenge
+  existing approaches. We have open forums for feedback, and we proactively
+  ensure that our internal communication and team events are inclusive of
+  everyone, regardless of background or identity. It's about creating a space
+  where everyone feels safe, respected, and empowered to bring their whole
+  selves to work, knowing their unique perspective enriches our collective
+  problem-solving and our culture as a whole.
 ---
-Das bieten wir dir bei voiio:
------------------------------
-
-*   Mitarbeit in einem wachsendem Berliner Start-up mit einer starken Vision
-*   Sehr wertschätzende und werteorientierte Unternehmenskultur, in der das Team sich gegenseitig den Rücken stärkt und dich herzlich aufnimmt
-*   Flache Hierarchien, kurze Entscheidungswege und eine steile Lernkurve
-*   Individuelle Förderung durch Feedback und einen Learning & Development Plan
-*   Die Gelegenheit, deine Ideen einzubringen, indem du von Beginn an selbstständig und eigenverantwortlich arbeitest
-*   Unbegrenzter Zugriff auf unsere voiio-Plattform - von Vorträgen über Fitnesskurse bis hin zu psychologischer Unterstützung
-*   Gesponsertes Deutschlandticket oder monatlicher Wunschgutschein
-*   Schönes Büro in Berlin (Checkpoint Charlie)
-*   Regelmäßige Strategietage, unvergessliche Teamevents mit dem besten Team der Welt und vieles mehr
-
-Das macht deine Position so einzigartig:
-----------------------------------------
-
-Du möchtest einen echten Unterschied im Leben von Mitarbeitenden machen und Familien dabei helfen, ihren Alltag zu meistern? Bei voiio ist das unsere tägliche Mission! Unser Concierge Service findet für jede Herausforderung eine Lösung. Wenn du ein großes Herz und ein Talent für Organisation hast, bist du bei uns genau richtig! Deine bei uns Mission lautet:
-
-**Du bist ein:e Held:in für Familien:**  
-Du recherchierst liebevoll die besten Feriencamps und die zuverlässigsten Babysitter:innen und hilfst so, den Familienalltag zu erleichtern.
-
-**Du bist die vertrauensvolle Stimme von voiio:**  
-Du beantwortest Anfragen per E-Mail und Telefon, hörst genau zu und findest mit viel Einfühlungsvermögen die perfekte Lösung.
-
-**Du bist ein:e Brückenbauer:in:**  
-Du sorgst für eine reibungslose Vermittlung zwischen den suchenden Familien und unseren Betreuungsangeboten.
-
-Das zeichnet dich aus:
-----------------------
-
-*   Du hast ein großes Herz, ein offenes Ohr und den Wunsch, anderen zu helfen.
-*   Du liebst es, die Nadel im Heuhaufen zu finden und gibst bei der Recherche nicht so schnell auf.
-*   Du bist ein Organisationstalent und behältst auch bei mehreren Anfragen den Überblick.
-*   Du kommunizierst klar, freundlich und bist absolut verlässlich.
-*   Du sprichst fließend Deutsch und Englisch
-*   Du möchtest Praxiserfahrung in einem sinnstiftenden Umfeld sammeln.
-
-Ablauf
-------
-
-*   Schritt 1: CV Screening durch P&C
-*   Schritt 2: Culture Check mit P&C
-*   Schritt 3: Persönliches Interview mit Anny (Team Lead Service)
-
-Kontakt
--------
-
-Klingt spannend?
-
-Dann freuen sich Michele und Anny auf deine Bewerbung.
-
-**Keine Sorge, du musst kein langes Anschreiben verfassen**! Schick uns einfach deinen Lebenslauf und beantworte in ein paar kurzen Sätzen folgende Fragen:
-
-**1\. Wieso passt DU zu voiio und dieser Stelle?**
-
-2.  Was ist dir wichtig, wenn du mit Kund:innen Kontakt hast?
-
-**Die Stelle ist ab sofort zu besetzen. Bitte gib bei deiner Bewerbung deine zeitliche Verfügbarkeit bzw. dein Wunschstartdatum sowie die Art des Praktikums (freiwilliges Praktikum oder Pflichtpraktikum) an.**
-
-Dein Praktikum kannst du bei uns ab einer Dauer von 3 Monaten absolvieren. Bitte hab Verständnis dafür, dass wir freiwilligen Praktikant:innen nur ein 3-monatiges Praktikum anbieten können.
-
-Bei uns zählt die fachliche Qualifikation, das Talent und die Persönlichkeit, unabhängig von kultureller und sozialer Herkunft, Geschlechtsidentität, Hautfarbe, Alter, Religion, Weltanschauung, sexueller Orientierung oder Behinderung. Wir freuen uns besonders über Bewerbungen, die die Vielfalt unseres Teams kontinuierlich bereichern und einen Perspektivwechsel fördern und verstärken. Bewerbungen von strukturell diskriminierten Menschen sind deshalb ausdrücklich erwünscht und werden besonders berücksichtigt.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nvoiio is a growing Berlin-based startup with a strong vision, dedicated to making a real difference in the lives of employees and helping families master their daily lives. Our Concierge Service provides tailored solutions to everyday challenges, ensuring peace of mind for our users. We foster a highly appreciative and values-driven corporate culture where teamwork, flat hierarchies, and individual growth are paramount. This is a unique opportunity to gain practical experience in a meaningful environment, working autonomously and contributing your ideas from day one. You'll also enjoy unlimited access to our voiio platform (lectures, fitness, psychological support), a sponsored Deutschlandticket or monthly voucher, a nice office near Checkpoint Charlie, regular strategy days, and unforgettable team events.\n\n### Responsibilities\n- Lovingly research and identify the best holiday camps and most reliable babysitters to ease family life.\n- Serve as the trustworthy voice of voiio, answering inquiries via email and phone with empathy and precision.\n- Listen attentively to understand user needs and provide perfect solutions.\n- Act as a bridge-builder, ensuring seamless mediation between families seeking services and our comprehensive care offerings.\n\n### Qualifications\n- Possess a big heart, an open ear, and a genuine desire to help others.\n- Exhibit persistence in research, enjoying the challenge of finding the \"needle in the haystack.\"\n- Demonstrate strong organizational skills, maintaining an overview even with multiple concurrent inquiries.\n- Communicate clearly, kindly, and with absolute reliability.\n- Speak fluent German and English.\n- Eager to gain practical experience in a purpose-driven environment.\n\nvoiio values professional qualification, talent, and personality, embracing diversity regardless of cultural and social origin, gender identity, skin color, age, religion, worldview, sexual orientation, or disability. We especially welcome applications that enrich the diversity of our team and foster new perspectives.\n\n### Author's Take\nThis is an excellent Entry-Level Internship opportunity for someone passionate about making a tangible difference in people's lives through exceptional service and organization. voiio offers a supportive, values-driven startup environment with flat hierarchies, a strong focus on individual growth, and a genuinely collaborative team. It's a chance to gain hands-on experience in a meaningful role, with direct impact. The application process is streamlined, focusing on your CV and a few key questions rather than a lengthy cover letter. Ideal for individuals seeking a minimum 3-month internship, fluent in German and English, and eager to contribute to a diverse and inclusive team.

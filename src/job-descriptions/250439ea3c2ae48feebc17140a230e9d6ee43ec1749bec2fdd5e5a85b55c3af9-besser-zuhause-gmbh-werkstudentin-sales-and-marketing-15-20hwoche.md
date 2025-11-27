@@ -9,68 +9,52 @@ postedDate: '2025-11-24T15:32:39.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/besser-zuhause-gmbh/werkstudentin-sales-marketing-15-20h-woche-hamburg-489027
 companyLogoUrl: null
+companyCulture: >-
+  besser zuhause fosters an innovative and dynamic environment, prioritizing
+  employee growth through a steep learning curve and development opportunities.
+  The company encourages a high degree of autonomy and creative freedom,
+  supported by flexible working arrangements and a collaborative team spirit
+  characterized by flat hierarchies and personal appreciation.
+story_question1: >-
+  Given that this role is crucial for supporting both sales and marketing, how
+  does an Individual Contributor directly see the impact of their daily work on
+  'besser zuhause's' mission to help older people live independently?
+story_answer1: >-
+  That's a fantastic question, and it gets right to the heart of what makes
+  working here so rewarding. Even in a support role, you're not just processing
+  data or scheduling meetings; you're directly enabling our mission. When you
+  research a new lead, you're identifying potential partners who can bring our
+  smart building solutions to more seniors. When you keep our CRM updated,
+  you're ensuring our sales team has the insights to build strong relationships.
+  You'll literally see the pipeline grow because of your efforts, and knowing
+  that each new partnership translates into more elderly individuals
+  experiencing 'besser zuhause' – living longer, happier, and more independently
+  in their own homes – gives every task a profound sense of purpose. It’s
+  incredibly tangible here.
+story_question2: >-
+  The job description highlights a 'steile Lernkurve' and
+  'Entwicklungsperspektiven'. Can you share an example of how an entry-level
+  team member has grown within the company, perhaps by taking on new challenges
+  or responsibilities beyond their initial scope?
+story_answer2: >-
+  Absolutely. We pride ourselves on creating an environment where curiosity and
+  initiative are not just welcomed but actively encouraged. I remember Sarah,
+  who joined us a couple of years ago in a very similar support role. She
+  started by mastering our CRM and supporting event logistics. But she quickly
+  showed a keen eye for engaging content and proactively started contributing
+  ideas for our B2B social media. We saw her potential, supported her with
+  internal training, and now she’s a key player in our content marketing
+  strategy for partnerships, not just assisting but leading certain campaigns.
+  The flat hierarchies mean if you have a good idea and the drive to pursue it,
+  you'll be given the space and support to grow your responsibilities and carve
+  out your own path.
 ---
-**Besser zuhause …**
-
-…ist unsere Mission:  
-Wir helfen älteren Menschen, länger selbstbestimmt in ihrem Zuhause leben zu können – durch kluge bauliche Lösungen und persönliche Beratung.
-
-Aufgaben
---------
-
-Wir brauchen dich als Unterstützung für unser Sales & Marketing-Team im Bereich B2B/Kooperationen!  
-Du sorgst dafür, dass alles rund läuft, behältst den Überblick und hilfst dabei, neue Partner für besser zuhause zu begeistern.
-
-Unterstützung im Vertriebsprozess
-
-*   Du recherchierst spannende Leads und Zielgruppen und bringst unser Sales-Team auf neue Ideen.
-*   Du analysierst den Markt und erstellst Reports, die uns helfen, noch besser zu werden.
-*   Du hälst unser CRM-System auf dem neuesten Stand und pflegst die Daten unserer Kooperationspartner.
-
-Partnerbetreuung & Kommunikation
-
-*   Du beantwortest allgemeine Anfragen per Mail oder Telefon – immer mit einem offenen Ohr und einer Lösung parat.
-*   Du unterstützt uns bei Veranstaltungen und Online-Seminaren – ob Planung, Organisation oder Umsetzung.
-*   Du unterstützt die Erstellung und den Versand unserer monatlichen Newsletter mit spannendem Content
-
-Sales trifft Marketing
-
-*   Du kümmerst dich um Vertriebsunterlagen und Präsentationen – klar, ansprechend und auf den Punkt.
-*   Du hilfst bei der Erstellung und dem Versand von Mailings & Kampagnen – damit unsere Botschaft die richtigen Partner erreicht.
-*   Du bringst dich bei der Organisation von Messe-Auftritten und Events ein und sorgst dafür, dass alles rund läuft.
-*   Du unterstützt uns dabei, unsere B2B-Social Media-Accounts up to date zu halten und bringst deine Ideen für spannende Inhalte rund um besser zuhause ein.
-
-Qualifikation
--------------
-
-*   Strukturierte & eigenständige Arbeitsweise – Du behältst den Überblick, arbeitest zuverlässig und findest pragmatische Lösungen.
-*   Lernbereitschaft & Neugier – Du tauchst schnell in neue Themen ein und hast Lust, dich in Sales- und Marketingprozesse einzuarbeiten.
-*   Kommunikationsstärke – Du kannst dich klar und professionell ausdrücken, ob per E-Mail, Telefon oder in Meetings.
-*   Technische Affinität – Du arbeitest dich schnell in neue Tools ein und hast idealerweise erste Erfahrung mit CRM-Systemen.
-*   Teamgeist & Hands-on-Mentalität – Du arbeitest gerne mit anderen zusammen, bist hilfsbereit und bringst dich aktiv ins Team ein.
-
-Benefits
---------
-
-*   Flexibles Arbeiten – in unserer Zentrale in Hamburg und auch Home-Office
-*   Ein innovatives Umfeld mit einer steilen Lernkurve
-*   Viel Eigenverantwortung & kreative Gestaltungsmöglichkeiten
-*   Ein Team mit „a heart of gold“ und Spaß an der Arbeit
-*   Faire Vergütung
-
-**Warum besser zuhause?**
-
-*   Direkter Gestaltungsspielraum und kurze Entscheidungswege
-*   Flache Hierarchien und persönliche Wertschätzung
-*   Unterstützung durch einen starken Gesellschafterkreis
-*   Entwicklungsperspektiven in einem dynamisch wachsenden Unternehmen
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\n\"Besser zuhause\" is on a mission to empower older people to live independently in their homes longer through smart structural solutions and personal advice. We are looking for an enthusiastic **Sales & Marketing Support Specialist (B2B/Partnerships)** to join our team. In this role, you will be crucial in ensuring smooth operations, maintaining an overview, and helping us attract new partners to further our mission.\n\n### Responsibilities\n*   **Support in the Sales Process:**\n    *   Research exciting leads and target groups, bringing new ideas to our Sales Team.\n    *   Analyze the market and create reports to help us continuously improve.\n    *   Keep our CRM system up-to-date and maintain data for our cooperation partners.\n*   **Partner Care & Communication:**\n    *   Answer general inquiries via email or phone, always with an open ear and a solution ready.\n    *   Support us with events and online seminars, from planning and organization to execution.\n    *   Assist in the creation and distribution of our monthly newsletters with engaging content.\n*   **Sales meets Marketing:**\n    *   Manage sales documents and presentations – ensuring they are clear, appealing, and to the point.\n    *   Help create and send mailings & campaigns to ensure our message reaches the right partners.\n    *   Contribute to the organization of trade fair appearances and events, ensuring everything runs smoothly.\n    *   Support us in keeping our B2B social media accounts up-to-date and contribute your ideas for exciting content related to \"besser zuhause\".\n\n### Qualifications\n*   **Structured & Independent Work Style:** You maintain an overview, work reliably, and find pragmatic solutions.\n*   **Willingness to Learn & Curiosity:** You quickly dive into new topics and are eager to learn about sales and marketing processes.\n*   **Strong Communication Skills:** You can express yourself clearly and professionally, whether via email, phone, or in meetings.\n*   **Technical Affinity:** You quickly learn new tools and ideally have initial experience with CRM systems.\n*   **Team Spirit & Hands-on Mentality:** You enjoy working with others, are helpful, and actively contribute to the team.\n\n### Author's Take\nThis is a fantastic entry-level opportunity for someone eager to dive into the dynamic intersection of sales and marketing within a purpose-driven company. \"Besser zuhause\" offers a vibrant, innovative environment with a steep learning curve and significant opportunities for personal and professional growth. You'll benefit from high levels of autonomy, creative freedom, flexible working options (including home office), and a supportive team with flat hierarchies. If you're passionate about making a tangible difference in people's lives while developing your skills in a collaborative setting, this role provides direct impact and clear development pathways.

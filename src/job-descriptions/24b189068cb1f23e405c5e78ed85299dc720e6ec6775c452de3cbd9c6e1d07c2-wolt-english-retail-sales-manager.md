@@ -8,74 +8,66 @@ applicationLink: >-
 postedDate: '2025-11-25T21:45:12.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/wolt-english/retail-sales-manager-cologne-283566
 companyLogoUrl: null
+companyCulture: >-
+  Wolt fosters a dynamic, high-growth environment for self-starters who thrive
+  on challenge, learning, and building innovative solutions. The company
+  promotes autonomy, a flat hierarchy, and an inclusive culture with a focus on
+  work-life balance and team fun, offering flexible work and generous leave.
+story_question1: >-
+  Given Wolt's ambitious expansion into new retail partnerships, what are the
+  primary challenges this role will face in securing those partnerships in a new
+  market, and how does Wolt support its field sales team in overcoming them?
+story_answer1: >-
+  You know, when we launched this retail expansion in Hessen, the biggest hurdle
+  wasn't just finding potential partners; it was truly demonstrating how Wolt
+  could transform their business amidst established routines. But that's
+  precisely where the excitement lies! We don't just send you out on your own;
+  you're part of a highly collaborative team, constantly sharing insights and
+  refining strategies. We equip you with strong data, compelling success
+  stories, and regular check-ins. It's an incredibly entrepreneurial journey –
+  you own your pipeline, but you're never isolated. Seeing those initial
+  innovative retailers join us and then flourish on the platform? That's the
+  real impact you'll create and the joy we find in our work.
+story_question2: >-
+  The role requires frequent field work and occasional overnight stays. How does
+  Wolt ensure its field sales representatives maintain a healthy work-life
+  balance and stay connected to the team while frequently on the road?
+story_answer2: >-
+  That's a crucial question, and it's something we genuinely prioritize. While
+  the travel is a necessary part of expanding our footprint, we build
+  flexibility into your schedule. The '1-2 nights' isn't a weekly mandate, and
+  we empower you to manage your own pipeline and schedule to minimize disruption
+  to your personal life. We provide you with top-tier hardware – your choice of
+  MacBook or Chromebook and an iPhone – to ensure you're always connected,
+  whether it’s for our weekly virtual all-hands meetings or just casual
+  catch-ups with your immediate team. We also offer generous paid leave and
+  wellness subsidies, because we understand that recharging is vital. It’s all
+  about trust and autonomy; we expect results, but we also trust you to manage
+  your time effectively and leverage the robust support systems we have in place
+  to thrive.
+story_question3: >-
+  Considering the role's primary focus on initial partner acquisition and the
+  statement that tasks may evolve, how does Wolt envision the long-term growth
+  and development path for successful team members in this role?
+story_answer3: >-
+  That's the exhilarating aspect of working at Wolt – we're not just hiring for
+  immediate needs; we're investing in our future leaders. While the initial
+  focus is squarely on retail acquisition in Hessen, we fully anticipate this
+  role will evolve significantly. As you build expertise and strong
+  relationships, opportunities could open up in key account management, leading
+  new market launches, or even stepping into leadership positions as our sales
+  teams expand. We cultivate a strong culture of internal mobility and
+  continuous learning. We want you to grow with us, whether that's deepening
+  your sales mastery, mentoring new colleagues, or exploring entirely different
+  functions within our rapidly expanding global organization. Your career
+  journey here is truly what you make of it.
 ---
-About Wolt
-----------
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.  
-  
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-Wolt ist in Deutschland im August 2020 offiziell als Land Nr. 23 gestartet! Seit wir in Berlin begonnen haben, konnten wir mit vielen fantastischen Restaurants zusammenarbeiten, um Zehntausende von hungrigen Kunden zu beliefern. 
-
-Und jetzt freuen wir uns sehr, dir mitteilen zu können, dass wir gerade unsere Aktivitäten erweitern wollen! Daher brauchen wir energiegeladene Außendienstmitarbeiter, die die Gewinnung neuer Retail-Partner (Supermärkte, Drogeriemärkte, Blumenläden, kleinere Geschäfte etc.) für die Wolt-Plattform vorantreiben. Mit fortschreitender Zeit und mehr Restaurants können sich die Ziele und Aufgaben der Rolle weiterentwickeln – in erster Linie suchen wir jemanden, der sich in dieses spannende Projekt einarbeiten möchte! Du wirst fortlaufend engagierten Support erhalten und mit anderen Teams zusammenarbeiten. 
-
-**Deine Hauptaufgaben**
------------------------
-
-*   Du identifizierst potenzielle Partnerschaften mit Retail Geschäften und schließt mit ihnen Verkaufsabschlüsse ab, um unsere Verkaufsziele zu erreichen
-*   1-2 Tage Kaltakquise pro Woche (von zu Hause aus) und 3 Tage Außendienst pro Woche in Hessen (du musst ca. 1-2 Nächte pro Woche in Hotels schlafen - nicht jede Woche)
-*   Du organisierst dich und deine Pipeline selbst und baust neue Partnerschaften auf zu den Entscheidungsträgern und Geschäften
-*   Im persönlichen Verkaufsgespräch präsentierst du Wolt und verkaufst unseren Service vor Geschäftsleiter/in
-*   Mit Leidenschaft und Überzeugung gewinnst du potenzielle Kunden für eine erfolgreiche Partnerschaft mit Wolt
-
-**Was wir anbieten**
---------------------
-
-*   Die Möglichkeit, in einem internationalen Umfeld etwas Außergewöhnliches mitzugestalten
-*   Eine hohe Lern- und Wachstumskurve in einem global agierenden Technologieunternehmen
-*   Ein attraktives Gehalt und flexible Arbeitszeiten
-*   Eigenständiges Arbeiten in einem dynamischen Team
-*   Eine flache Hierarchie in einer Start-up-Atmosphäre
-*   Rabatt auf Wolt-Bestellungen
-*   ÖPNV-Zuschuss
-*   Wellness-Zuschuss (Urban Sports Club)
-*   Hardware deiner Wahl (MacBook oder Chromebook und iPhone)
-*   Wöchentliche (virtuelle) All-Hands-Meetings und regelmäßige Teamevents
-*   Flexible Arbeitszeiten + 30 Tage bezahlter Urlaub
-*   Firmenwagen als Option verfügbar
-
-**Our humble expectations**
----------------------------
-
-*   Du bringst Erfahrung im Vertrieb mit oder konntest dein Verkaufstalent bereits anderweitig unter Beweis stellen
-*   Freundlichkeit und eine große Überzeugungskraft zeichnen dich aus
-*   Du besitzt eine hohe Eigenmotivation, Zielstrebigkeit und bist kontaktfreudig
-*   Durch deine ausgeprägten Kommunikations- und Präsentationsfähigkeiten wirkst du sympathisch und selbstbewusst
-*   Du bist ein geborener/e Einflussnehmer:innen und magst es gern Leute zu überzeugen
-*   Du bist hartnäckig und kannst gut mit Ablehnung umgehen
-*   Du bist analytisch und Lösungsorientiert
-*   Abgeschlossenes Studium oder ähnliche Qualifikation durch abgeschlossene Ausbildung und/oder Berufserfahrung
-*   Du sprichst fließend Deutsch und hast solide Englischkenntnisse
-
-**Next steps**
---------------
-
-Wenn du in einem wachstumsstarken Umfeld arbeiten, Verantwortung übernehmen und Teil eines ehrgeizigen und lustigen Teams sein möchtest, dann bewirb dich jetzt, um das Gespräch in Gang zu bringen!
-
-Bitte beachte,  dass wir aufgrund von GDPR keine Bewerbungen per E-Mail akzeptieren. Stelle sicher, dass du dich über unsere Karriereseite bewirbst!
-
-Our Commitment to Diversity and Inclusion
------------------------------------------
-
-We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\nAt Wolt, we create technology that brings joy, simplicity, and earnings to neighborhoods worldwide. Since our start in 2014 with food delivery, we've expanded to delivering (almost) everything across over 500 cities in 30 countries. In 2022, we joined forces with DoorDash, further fueling our global expansion and big dreams.\\n\\nWorking at Wolt is demanding but incredibly exciting. You'll have unparalleled opportunities to learn, build, and ship more than in most other companies, facing challenges while enjoying the journey. If you're a self-starter with drive and an entrepreneurial spirit, this could be the ride of your life.\\n\\nWolt officially launched in Germany in August 2020. Having successfully partnered with fantastic restaurants and served tens of thousands of hungry customers in Berlin, we are now thrilled to announce a significant expansion of our activities! We are seeking energetic Field Sales Representatives to drive the acquisition of new retail partners (supermarkets, drugstores, florists, smaller shops, etc.) for the Wolt platform. While the role's goals and tasks may evolve over time, we are primarily looking for someone eager to immerse themselves in this exciting project, benefiting from continuous support and collaboration with other teams.\\n\\n### Responsibilities\\n- Identify potential retail partnerships and close sales deals to achieve sales targets.\\n- Conduct 1-2 days of cold calling per week (from home) and 3 days of field sales per week in Hessen, which may include occasional overnight stays (approx. 1-2 nights per week, not every week).\\n- Independently organize your pipeline and build new relationships with decision-makers and businesses.\\n- Present Wolt and sell our service directly to business managers during in-person meetings.\\n- Passionately and persuasively win over potential customers for a successful partnership with Wolt.\\n\\n### Qualifications\\n- Proven sales experience or demonstrated sales talent.\\n- Friendly demeanor and strong persuasive skills.\\n- High self-motivation, goal-orientation, and an outgoing personality.\\n- Excellent communication and presentation skills, enabling you to appear sympathetic and confident.\\n- A natural influencer who enjoys convincing people.\\n- Persistent and resilient in handling rejection.\\n- Analytical and solution-oriented mindset.\\n- Completed university degree or equivalent qualification through vocational training and/or professional experience.\\n- Fluent in German with solid English knowledge.\\n\\n### Author's Take\\nThis is an exciting opportunity for an ambitious, self-driven sales professional to play a pivotal role in Wolt's significant retail expansion in Germany. The company offers a vibrant, fast-paced startup culture with high autonomy, a steep learning curve, and excellent growth potential. While challenging, involving field travel and cold acquisition, the role is backed by a supportive team, attractive benefits (including flexible hours, generous leave, wellness, and hardware), and the chance to make a tangible impact on Wolt's growth in a global tech environment. It's ideal for someone who thrives on building relationships, achieving targets, and shaping the future of delivery services.

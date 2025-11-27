@@ -9,96 +9,68 @@ postedDate: '2025-11-25T14:01:55.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/finment-gmbh/investment-analyst-fernstudium-berlin-83546
 companyLogoUrl: null
+companyCulture: >-
+  FinMent fosters a high-performance, fast-paced, and collaborative startup
+  environment focused on continuous learning, personal development, and making a
+  significant impact. They emphasize autonomy, proactivity, and teamwork, while
+  also promoting financial literacy and work-life balance through unique
+  employee benefits like dual study programs and access to their financial
+  products.
+story_question1: >-
+  Wie trägt diese Rolle direkt zur Mission von FinMent bei, institutionelle
+  Geldanlagen zu demokratisieren, und was sind die größten Herausforderungen, um
+  komplexes Finanzwissen einem breiteren Publikum zugänglich zu machen?
+story_answer1: >-
+  Bei FinMent sind Sie nicht nur ein kleines Rad im Getriebe; Sie sind an
+  vorderster Front einer finanziellen Revolution. Als integraler Bestandteil
+  unseres Teams überbrücken Sie die Lücke zwischen hochentwickelten
+  Anlagestrategien und dem Einzelnen. Der wahre Zauber geschieht, wenn Sie
+  komplexe Marktanalysen und Investmentideen in verständliche Inhalte umwandeln
+  – denken Sie an fesselnde Erklärvideos und praktische Leitfäden. Die größte
+  Herausforderung? Die Einschüchterung durch Finanzen zu überwinden. Aber zu
+  sehen, wie unsere Community durch Ihre klaren, umsetzbaren Erkenntnisse
+  Vertrauen gewinnt und finanzielle Unabhängigkeit erlangt, ist unglaublich
+  lohnend. Es geht darum, Menschen zu befähigen, und Ihre direkte Unterstützung
+  unserer Kunden und der Investorengemeinschaft macht den entscheidenden
+  Unterschied.
+story_question2: >-
+  Welche Möglichkeiten gibt es für ein Teammitglied auf Einstiegsniveau, über
+  die Kernaufgaben hinaus, strategische Entscheidungen zu beeinflussen oder zur
+  Entwicklung neuer Anlagestrategien und unseres Handelssystems beizutragen?
+story_answer2: >-
+  Eines der besten Dinge an FinMent ist unser offener, unternehmerischer Geist.
+  Selbst als Einstiegslevel-Teammitglied wird Ihre Stimme unglaublich geschätzt.
+  Wir leben von neuen Ideen. Sie nehmen aktiv an Brainstorming-Sitzungen teil,
+  und wir erwarten wirklich, dass Sie 'mitdenken' und zur Verbesserung unseres
+  Handelssystems und neuer Anlagestrategien beitragen. Wir sind ein Startup,
+  daher liegen Agilität und Innovation in unserer DNA. Wenn Sie eine Chance
+  erkennen, diese recherchieren und einen überzeugenden Fall präsentieren,
+  finden Sie ein aufmerksames Publikum und die Freiheit, Ihre Vision mit
+  umzusetzen. Es ist ein Ort, an dem Initiative gefeiert wird, und Sie können
+  Ihre Spuren in unserer Entwicklung hinterlassen.
+story_question3: >-
+  Wie unterstützt FinMent Mitarbeiter im dualen Studium dabei, ihre akademischen
+  Ziele und anspruchsvollen Arbeitsaufgaben effektiv zu vereinbaren, um sowohl
+  im Studium als auch im Job erfolgreich zu sein?
+story_answer3: >-
+  Wir wissen, dass ein duales Studium eine große Verpflichtung ist, und wir sind
+  darauf ausgelegt, dies zu unterstützen. Unsere Kultur dreht sich um Wachstum
+  und persönliche Entwicklung, was auch Ihren akademischen Weg einschließt. Wir
+  fördern aktiv ein flexibles Arbeitsumfeld, in dem Sie Ihren Studienplan und
+  Projektfristen managen können. Die praktische Anwendung Ihres theoretischen
+  Wissens ist unmittelbar und konstant, was oft sowohl Ihr Studium als auch Ihre
+  Arbeit bereichert. Wir sehen Ihren akademischen Erfolg als unseren Erfolg, und
+  das Führungsteam steht Ihnen immer als Mentor zur Verfügung, um Ihnen zu
+  helfen, die Brücke zwischen Ihren Kursen und unseren innovativen
+  Finanzstrategien zu schlagen. Es ist eine symbiotische Beziehung, in der Sie
+  intellektuell und beruflich gleichzeitig wachsen.
 ---
-**Unsere Mission: “Lass Dein Geld noch effizienter für Dich arbeiten!”**
-
-Wir sind FinMent - ein schnell wachsendes, zweifach staatlich zertifiziertes FinTech Startup in Berlin. Wir demokratisieren das Wissen und den Zugang zur institutionellen Geldanlage mithilfe von innovativen Technologien, geprüftem Finanzwissen und exklusiven Strategien, die bisher nur institutionellen Investoren (Family Offices) mit +200 Millionen Euro Mindestkapital vorbehalten waren.
-
-Neben vielen weiteren Benefits erhälst du exklusiv:
-
-**Deine finanzielle Freiheit mit zusätzlichem Börseneinkommen:** Als Teil vom inneren Kreis erhälst du die einzigartige Möglichkeit kostenlos unser Produkte zu nutzen, um wie unsere Kunden ein regelmäßiges Börseneinkommen zu erzielen und finanziell frei zu werden. (Die Kunden zahlen dafür bis zu 36.000€).
-
-Begeisterst du Dich für Finanzen und bist du bereit, in einem profitabel wachsenden FinTech Start Up Deine Karriere durchstarten?
-
-Bewirb dich und teile uns mit: Warum sollen wir dir die Chance geben deinen Wunschberuf bei uns ausüben zu können und kostenlos den massiven Vorteil durch unsere Produkte geben, damit du jetzt schon ein gutes zusätzliches Einkommen durch die Börse erhälst?
-
-Aufgaben
---------
-
-**Was Dich erwartet**
-
-Du bist bei der Analyse, Entwicklung und Umsetzung von Inhalten zu Finanzen und Investment Themen beteiligt, zugleich betreust Du ganzheitlich unsere Kunden und die Community und hast die Möglichkeit, Deine Ideen eigenständig umzusetzen.
-
-*   Du beobachtest Märkte, analysierst Wertpapiere und entwickelst fundierte Investmentideen, die unser Handelsteam und unsere Kunden aktiv unterstützen.
-*   Du bist direkter Ansprechpartner für unsere Kunden und Investoren-Community – bei Fragen, Problemen oder rund um den Börsenhandel.
-*   Du planst und begleitest Maßnahmen zur Kundenbindung, Zufriedenheit und Weiterempfehlung – mit Fokus auf langfristige Beziehungen.
-*   Du entwickelst verständliche Inhalte wie Erklärvideos und Guides, um Finanzthemen einfach und praxisnah zu vermitteln.
-*   Du denkst mit, bringst eigene Ideen ein und hilfst aktiv bei der Verbesserung unseres Handelssystems und neuer Investmentstrategien.
-
-Qualifikation
--------------
-
-**Was Du mitbringen solltest**
-
-Du hast eine hohe Leistungsbereitschaft, Wissensdurst für Finanzthemen und willst Dich persönlich zu einem Spezialisten im Finanzbereich entwickeln.
-
-*   Du hast 6 Monate bis 1 Jahr praktische Erfahrung im Coaching und Betreuung von Kunden durch eine AusbildungPraktika oder ähnliche Tätigkeiten gesammelt
-*   Du hast eine starke Eigenmotivation und Leidenschaft für sauberes, agiles Prozess- und Projektmanagement.
-*   Du hast nachweislich gerne Verantwortung für deinen Themenbereich übernommen, auch wenn das außerhalb deiner Komfortzone war. Du hast Dinge ohne zu zögern angepackt, warst ergebnisorientiert und zügig in der Umsetzung.
-*   Du lernst und entwickelst dich eifrig, ob in deinem Job, dem Sektor in dem du arbeitest, aber auch privat! Du suchst proaktiv nach Feedback. Dabei behälst du den Erfolg des Teams im Auge.
-*   Du hast sehr gute analytische und strukturelle Fähigkeiten, um Szenarien im Vorfeld klar durchzudenken. Das was du durchgedacht hast, setzt du strukturiert um.
-*   Dein Deutsch ist idealerweise auf “Muttersprache” Level. Dein Englisch ist gut für Konversationen.
-*   Du hast idealerweise praktische Arbeitserfahrungen mit gängiger Finanz- und Chartsoftware (Z.B. TWS, Tradingview)
-
-Man erfüllt nicht immer alle Anforderungen. Das sollte Dich nicht aufhalten. Wenn Du wirklich Lust hast, mit uns zusammenzuarbeiten, freuen wir uns von Dir zu hören!
-
-Benefits
---------
-
-**Was wir bieten**
-
-100.000€ Stipendium für dein Studium an einer angesehen privaten Hochschule, Übernahme Deiner Studiengebühren sowie ein sehr gutes monatliches Gehalt
-
-*   Du hast eine starke Eigenmotivation und Leidenschaft für sauberes, agiles Prozess- und Projektmanagement.
-*   Du hast nachweislich gerne Verantwortung für deinen Themenbereich übernommen, auch wenn das außerhalb deiner Komfortzone war. Du hast Dinge ohne zu zögern angepackt, warst ergebnisorientiert und zügig in der Umsetzung.
-*   Du lernst und entwickelst dich eifrig, ob in deinem Job, dem Sektor in dem du arbeitest, aber auch privat! Du suchst proaktiv nach Feedback. Dabei behälst du den Erfolg des Teams im Auge.
-*   Du hast sehr gute analytische und strukturelle Fähigkeiten, um Szenarien im Vorfeld klar durchzudenken. Das was du durchgedacht hast, setzt du strukturiert um.
-*   Dein Deutsch ist idealerweise auf “Muttersprache” Level. Dein Englisch ist gut für Konversationen.
-*   Du hast idealerweise praktische Arbeitserfahrungen mit gängiger Finanz- und Chartsoftware (Z.B. TWS, Tradingview)
-
-**Dein duales Studium an einer privaten Hochschule mit Übernahme der Studiengebühren**
-
-Du wirst an einer renommierten privaten Hochschule Deinen Bachelor oder Master Abschluss absolvieren und direkt theoretisch erlernte Wissen in der Praxis anwenden.
-
-*   Dein Abschluss: Bachelor (B.A.) oder Master (M.A.)
-*   Deine Studiendauer: 7-8 Semester (Bachelor) bzw. 3-4 Semester (Master)
-*   Dein Studium: Semi-virtuelles Studienkonzept
-
-**Bist Du bereit zu den Digital-Pionieren in der Finanzbranche zu gehören?**
-
-Wenn du nach persönlichem und beruflichem Wachstum strebst und nach dem passenden positivem Umfeld suchst, bewirb dich jetzt!
-
-Wir sind bestrebt unsere Gemeinschaft einen weiten Schritt nach vorne zu bringen und mit unserer Arbeit einen entscheidenden Einfluss auf die Welt auszuüben. Wir ermöglichen, dass nicht nur unsere Kunden, sondern auch alle unsere Mitarbeiter ihre finanzielle Freiheit erreichen, um ihre großen Träume zu verwirklichen und ein Leben nach ihren Wunschvorstellungen zu genießen.
-
-Werde Teil unserer Erfolgsstory und gestalte mit uns die Zukunft der privaten Geldanlage im Rahmen der finanziellen Unabhängigkeit!
-
-Schick uns Deinen Lebenslauf und deine Arbeitsproben, die du schon verfasst hast.
-
-Wir freuen uns darauf dich kennenzulernen!
-
-Falls Du vorab Fragen hast, kannst Du uns direkt kontaktieren.
-
-**Ansprechperson:**  
-Maksat Munal  
-Personalverantwortlicher  
-+49 (0)30 606 902 41
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nFinMent ist ein schnell wachsendes, staatlich zertifiziertes FinTech Startup in Berlin mit der Mission, institutionelle Geldanlage zu demokratisieren. Wir nutzen innovative Technologien und geprüftes Finanzwissen, um exklusive Strategien zugänglich zu machen, die bisher nur Großinvestoren vorbehalten waren. Als Teil unseres Teams tauchst du direkt in die Welt der Finanzen ein und trägst aktiv zur Analyse, Entwicklung und Umsetzung von Investment-Inhalten bei. Du betreust unsere Kunden und die Community ganzheitlich und hast die Möglichkeit, eigene Ideen einzubringen und umzusetzen. Ein besonderes Highlight ist die einzigartige Chance, unsere Produkte kostenlos zu nutzen, um ein regelmäßiges Börseneinkommen zu erzielen und finanzielle Freiheit zu erlangen. Zudem bieten wir ein duales Studium an einer angesehenen privaten Hochschule, inklusive Übernahme der Studiengebühren und einem sehr guten monatlichen Gehalt, um deine berufliche und akademische Entwicklung optimal zu fördern.\n\n### Responsibilities\n*   Märkte beobachten, Wertpapiere analysieren und fundierte Investmentideen entwickeln, die unser Handelsteam und unsere Kunden aktiv unterstützen.\n*   Direkter Ansprechpartner für unsere Kunden und Investoren-Community bei Fragen, Problemen oder rund um den Börsenhandel sein.\n*   Maßnahmen zur Kundenbindung, Zufriedenheit und Weiterempfehlung planen und begleiten – mit Fokus auf langfristige Beziehungen.\n*   Verständliche Inhalte wie Erklärvideos und Guides entwickeln, um Finanzthemen einfach und praxisnah zu vermitteln.\n*   Aktiv mitdenken, eigene Ideen einbringen und bei der Verbesserung unseres Handelssystems und neuer Investmentstrategien mithelfen.\n\n### Qualifications\n*   6 Monate bis 1 Jahr praktische Erfahrung im Coaching und der Betreuung von Kunden, gesammelt durch Ausbildung, Praktika oder ähnliche Tätigkeiten.\n*   Hohe Leistungsbereitschaft und Wissensdurst für Finanzthemen sowie der Wunsch, sich persönlich zu einem Spezialisten im Finanzbereich zu entwickeln.\n*   Starke Eigenmotivation und Leidenschaft für sauberes, agiles Prozess- und Projektmanagement.\n*   Nachweisliche Übernahme von Verantwortung für eigene Themenbereiche, auch außerhalb der Komfortzone, mit ergebnisorientierter und zügiger Umsetzung.\n*   Eifriges Lernen und Entwickeln, sowohl beruflich als auch privat, mit proaktiver Suche nach Feedback und dem Blick für den Teamerfolg.\n*   Sehr gute analytische und strukturelle Fähigkeiten, um Szenarien im Vorfeld klar zu durchdenken und strukturiert umzusetzen.\n*   Deutschkenntnisse idealerweise auf Muttersprachler-Niveau und gute Englischkenntnisse für Konversationen.\n*   Idealerweise praktische Arbeitserfahrungen mit gängiger Finanz- und Chartsoftware (z.B. TWS, Tradingview).\n*   Wir wissen, dass man nicht immer alle Anforderungen erfüllt. Wenn Du wirklich Lust hast, mit uns zusammenzuarbeiten, freuen wir uns von Dir zu hören!\n\n### Author's Take\nDies ist eine außergewöhnliche Einstiegsposition bei einem dynamischen FinTech-Startup in Berlin, das sich der Demokratisierung des Finanzwissens verschrieben hat. Die Rolle bietet eine einzigartige Mischung aus direktem Kundensupport, inhaltlicher Entwicklung und der Möglichkeit, aktiv an Investmentstrategien mitzuwirken. Besonders hervorzuheben sind die unschlagbaren Vorteile: ein duales Studium an einer privaten Hochschule mit vollständiger Studiengebührenübernahme und einem sehr guten Gehalt, kombiniert mit der exklusiven Möglichkeit, die Produkte des Unternehmens zur persönlichen finanziellen Freiheit zu nutzen. Ideal für motivierte Talente mit erster Erfahrung und großer Leidenschaft für Finanzen, die in einem unterstützenden Umfeld wachsen und einen echten Einfluss ausüben möchten. FinMent sucht proaktive Persönlichkeiten, die bereit sind, Verantwortung zu übernehmen und das Team gemeinsam voranzubringen.

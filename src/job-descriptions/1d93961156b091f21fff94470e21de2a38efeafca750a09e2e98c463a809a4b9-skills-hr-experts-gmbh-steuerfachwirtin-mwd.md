@@ -9,66 +9,47 @@ postedDate: '2025-11-25T17:31:59.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/skills-hr-experts-gmbh/steuerfachwirtin-hamburg-444066
 companyLogoUrl: null
+companyCulture: >-
+  This firm fosters a flexible, family-friendly, and collaborative environment
+  with hybrid work options, valuing humor and open communication. Employees are
+  encouraged to continuously develop their skills through regular training and
+  specialization opportunities.
+story_question1: >-
+  How does this role contribute to the firm's approach to digital transformation
+  and handling complex client cases, especially given the emphasis on continuous
+  learning and independent client support?
+story_answer1: >-
+  Here, your expertise as a Steuerfachwirt truly shines. We're not just
+  crunching numbers; you'll be at the forefront of supporting our clients
+  through complex tax landscapes, often involving unique challenges that demand
+  deep understanding. What makes it exciting is our push for digitalization.
+  You'll actively contribute to streamlining our processes, making us more
+  efficient and responsive. It's incredibly rewarding to see the direct impact
+  of your work, providing clarity and creative solutions for our diverse
+  clientele, all while being supported by a team that genuinely values
+  continuous learning and a good laugh.
+story_question2: >-
+  Considering the flexible and family-friendly environment, what's a typical day
+  like, balancing client demands with personal well-being and professional
+  development?
+story_answer2: >-
+  A typical day here is anything but rigid. We embrace flexibility, allowing you
+  to tailor your work schedule to balance client commitments with personal life
+  – whether that's part-time, full-time, or utilizing our hybrid work options.
+  You might start your day with a complex tax declaration, transition to a
+  client consultation, and later contribute to a digitalization project. We
+  prioritize open communication and trust, ensuring you have the autonomy to
+  manage your workload effectively. And it's not all work; we actively encourage
+  participating in our continuous learning programs and teambuilding events,
+  making sure there's always an opportunity to grow and connect, all within a
+  supportive and humorous team environment.
 ---
-Für eine mittelständische Steuerberatungskanzlei sucht SKILLs eine(n) **Steuerfachwirt(in)** (m/w/d) in Hamburg.
-
-Welche Faktoren sind wichtig, damit sich Mitarbeiter in einer Steuerkanzlei wohlfühlen? Natürlich ein zufriedenstellendes Gehalt, aber sonst? Ein interessanter und abwechslungsreicher Mandantenkreis? Ein Arbeitsalltag, bei dem auch mal gemeinsam gelacht wird? Ein unkonventioneller, digitaler Arbeitsplatz, auch zum Wohlfühlen? Flexible Arbeitszeiten? Vielleicht gepaart mit der Möglichkeit zum regelmäßigen Homeoffice? Das Vertrauen des Chefs, welches diese Arbeitsmodelle überhaupt erst ermöglicht? Ein offenes, internationales Team? Freiwillige Zusatzleistungen?
-
-Unser Mandant ist eine inhabergeführte Steuerbratungskanzlei Mitten in einem der schönsten Stadtteile Hamburgs, in Eppendorf. Die Mitarbeiter können auf einen großen Erfahrungsschatz zurückgreifen: Sowohl in Bezug auf unterschiedliche Branchen, Tätigkeiten und Unternehmensformen als auch in Bezug auf besonders komplexe Fälle, die eine fachliche Expertise bzw. praktische Kenntnisse der steuerlichen Besonderheiten einer expliziten Fragestellung in einem bestimmten Bereich erfordern. Mit fundierter Kompetenz bietet das Team eine ganzheitliche und kreative Steuerberatung – einschließlich der Vertretung vor Finanzämtern und anderen Behörden.
-
-Aufgaben
---------
-
-*   Erstellung handels- und steuerrechtlicher Jahresabschlüsse, Gewinnermittlungen und EÜR
-*   Anfertigung komplexer Steuererklärungen (ESt, KSt, GewSt, USt usw.)
-*   Eigenständige Mandantenbetreuung und Kommunikation mit Finanzämtern und Behörden
-*   Prüfung und Qualitätssicherung laufender Finanzbuchhaltungen
-*   Begleitung von Betriebsprüfungen und Vorbereitung relevanter Unterlagen
-*   Unterstützung bei der Digitalisierung von Prozessen (z. B. DATEV)
-
-Qualifikation
--------------
-
-*   Abgeschlossene Weiterbildung zum **Steuerfachwirt (m/w/d)**
-*   Sicherer Umgang mit DATEV und MS Office
-*   Strukturierte, selbstständige und zuverlässige Arbeitsweise
-*   Freude an direktem Mandantenkontakt und Beratung
-*   Teamfähigkeit, Verantwortungsbewusstsein und Bereitschaft zur Weiterentwicklung
-*   Sie sind kontaktfreudig und können sich leicht auf verschiedene Mandanten einstellen und deren Fragen und Anliegen verantwortungsvoll bearbeiten
-*   Sie arbeiten mit Fachkenntnis mit Humor und guter Laune gerne im Team und eine vertrauensvolle und wertschätzende Arbeitsumgebung ist Ihnen wichtig
-
-Benefits
---------
-
-*   Ein unkonventionelles, mehr und mehr digitales Büro in einem tollen Fabrikloft in Eppendorf
-*   Es finden regelmäßig Veranstaltungen zu Fortbildung und Teambuilding statt, online oder in Weiterbildungsseminaren
-*   Es wird die Möglichkeit geboten, sich in Spezialgebieten, wie z.B. der Erbschaftssteuer, weiterzubilden
-*   Übernahme HVV-Ticket
-*   Monatlicher Zuschuss in Höhe von 50 Euro zur freien Verfügung (z.B. für Gym, Gutscheine, Jobrad)
-*   Ein attraktives Gehalt zzgl. Weihnachtsgeld
-*   Die Möglichkeit in Voll- oder Teilzeit zu arbeiten in einer sehr familienfreundlichen Kanzlei
-*   Und natürlich die Option auf hybrides Arbeiten
-
-Wenn Sie dieses Angebot anspricht, nehmen Sie bitte Kontakt mit uns auf.
-
-Sie erreichen unseren Personalberater Mikel Stahl in Hamburg unter:
-
-**Tel. 040 54887141 oder 0172 5960073**
-
-Projekt: H2524
-
-Selbstverständlich sichern wir Ihnen Vertraulichkeit sowie die sorgfältige Beachtung von Sperrvermerken zu.
-
-**SKILLs HR Business Experts – Büro Hamburg**
-
-Christoph-Probst-Weg 4 **|** 20251 Hamburg
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nThis is an exciting opportunity for a **Steuerfachwirt (Tax Specialist)** to join an owner-managed tax consultancy in the vibrant Eppendorf district of Hamburg. The firm boasts a wealth of experience, offering comprehensive and creative tax advice for a diverse and often complex client base across various industries. They prioritize a modern, digital, and supportive work environment, emphasizing employee well-being, continuous learning, and a collaborative team spirit with flexible work arrangements.\n\n### Responsibilities\n- Preparation of commercial and tax annual financial statements, profit calculations, and income surplus accounts (EÜR).\n- Creation of complex tax declarations (income tax, corporate tax, trade tax, VAT, etc.).\n- Independent client support and communication with tax authorities and agencies.\n- Review and quality assurance of ongoing financial accounting.\n- Support for tax audits and preparation of relevant documents.\n- Assistance with the digitalization of processes (z. B. DATEV).\n\n### Qualifications\n- Completed advanced training as a **Steuerfachwirt (Tax Specialist)**.\n- Proficient in DATEV and MS Office.\n- Structured, independent, and reliable way of working.\n- Enjoy direct client contact and consultation.\n- Team player, responsible, and willing to further develop.\n- You are communicative and can easily adapt to different clients and responsibly handle their questions and concerns.\n- You enjoy working in a team with professional expertise, humor, and a good mood, and a trusting and appreciative work environment is important to you.\n\n### Author's Take\nThis role offers a fantastic blend of professional challenge and an exceptional work environment. The firm stands out with its commitment to a modern, digital workplace, flexible working hours (including home office and hybrid options), and a strong emphasis on work-life balance, making it very family-friendly. Beyond an attractive salary and Christmas bonus, you'll benefit from numerous perks like an HVV-ticket subsidy, a monthly wellness allowance, and significant opportunities for continuous professional development and specialization. If you're a communicative, team-oriented Steuerfachwirt looking for a supportive culture where humor and expertise go hand-in-hand, this is a prime opportunity in a beautiful Hamburg location.

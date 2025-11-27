@@ -7,70 +7,63 @@ applicationLink: 'https://www.arbeitnow.com/jobs/companies/sumup/fullstack-engin
 postedDate: '2025-11-26T14:45:14.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: 'https://www.arbeitnow.com/jobs/companies/sumup/fullstack-engineer-berlin-25903'
 companyLogoUrl: null
+companyCulture: >-
+  SumUp fosters a highly collaborative and inclusive 'office-first' environment,
+  strongly committed to continuous learning and professional growth through
+  initiatives like Hack Days, L&D budgets, and a focus on diversity and
+  inclusion, while also supporting work-life balance with benefits like
+  sabbaticals.
+story_question1: >-
+  How does the work of the Field Sales Engineering Team directly impact SumUp's
+  mission and merchant success, especially in enabling teams to focus on
+  delivering value?
+story_answer1: >-
+  I remember when we first tackled the challenge of streamlining our sales
+  processes. The old system was clunky, slowing down our sales reps and, in
+  turn, delaying merchants from getting set up. Our team stepped in, building
+  robust microservices that automated much of the heavy lifting. The relief from
+  the sales team was palpable. They could suddenly spend more time understanding
+  merchant needs instead of battling internal tools. It's truly empowering to
+  see how our engineering work directly translates into faster merchant
+  onboarding and a smoother experience for our users, letting everyone focus on
+  what truly matters: empowering small businesses.
+story_question2: >-
+  Given the emphasis on microservices and global collaboration, what's a
+  significant technical challenge your team recently overcame, and how did the
+  team's culture of learning and collaboration contribute to its resolution?
+story_answer2: >-
+  One of the biggest hurdles we faced recently was scaling our event-driven
+  architecture to handle a massive influx of new merchant data across different
+  regions. It wasn't just a technical puzzle; it required coordinating with
+  multiple engineering teams globally. We leveraged our Hack Days for initial
+  brainstorming, bringing in experts from other tribes. The open feedback
+  culture meant no idea was dismissed, and we iterated quickly. Eventually,
+  through a combination of optimizing our Kafka streams and re-architecting
+  certain data models, we not only solved the immediate scaling issue but also
+  developed a more resilient system. It was a testament to our collective
+  intelligence and our commitment to tackling complex problems together, always
+  learning along the way.
+story_question3: >-
+  How does the 'office-first' setup at SumUp foster the collaborative
+  environment described, especially for a globally distributed team, and what
+  opportunities exist for personal growth within this structure?
+story_answer3: >-
+  Initially, the 'office-first' approach might sound traditional, but for us,
+  it's about intentional collaboration. Being physically together allows for
+  those spontaneous whiteboard sessions and quick, in-person discussions that
+  accelerate problem-solving and foster a stronger team bond. For a global
+  company like SumUp, it means our Berlin hub becomes a powerful nucleus where
+  ideas are forged, and then disseminated effectively. Outside of these
+  collaborative bursts, the company actively supports individual growth; my L&D
+  budget has been invaluable for attending specialized workshops, and the
+  internal mentorship programs ensure that even within an office setting, you're
+  constantly pushed to expand your skills and career horizons.
 ---
-As part of the Field Sales Engineering Team, you will maintain and enhance our Global Field Sales processes to enable our biggest mission. The team currently operates within the Platform Tribe, which is tasked with developing essential internal developer platforms for SumUp.
-
-You'll play a key role in developing software systems that empower both Sales and Engineering teams to identify the optimal systems and approaches for processes that benefit SumUp merchants and internal users alike. Our goal is to enable our users to concentrate on delivering value to our customers without being burdened by concerns about the underlying infrastructure.
-
-**What you'll do:**
-
-*   Design, build and maintain services integral to dependable and highly available production systems, following SumUp's microservice architecture
-*   Design, construct, and upkeep our services 
-*   Develop high-quality, scalable code adhering to Platform standards and best practices
-*   Collaborate with stakeholders to pinpoint pain points and collect feature requests
-*   Work closely with Sales, Data, and Software Engineers across Platform and Operations teams
-
-**You'll be great for this position if you have:**
-
-*   5+ years of programming experience in Typescript
-*   Prior experience with Fullstack Frameworks such as Next/Remix/Nuxt/Meteor
-*   Proficient in building and consuming RESTful APIs within a microservice environment
-*   Experience with SQL & Event driven architecture, specifically working with Postgres and Kafka
-*   Understanding of  fundamental system architecture, software design principles, data modelling, and API design
-*   Collaborative mindset and open to feedback in teamwork settings
-*   Demonstrated pride in engineering work and a strong sense of ownership in tasks
-
-**Why you should join SumUp:**
-
-🌍 Opportunity to work with SumUppers globally on large-scale fintech products used by millions of businesses worldwide, from our Berlin office. This involves an office-first setup
-
-🧑‍🔬 We take learning and experimentation seriously with Hack Days every second Friday, and entire [global Hack Weeks](https://www.youtube.com/watch?v=FBKiVCLompk).
-
-🌈 Commitment to Diversity and Inclusion: Be part of a workplace that values and promotes diversity, fostering an inclusive environment where everyone's perspectives are respected and embraced
-
-📚 A dedicated annual L&D budget of €2,000 for attending conferences and/or advancing your career through further education
-
-🚀 Enrollment onto our VSOP program: You will own a stake in SumUp's future success
-
-💶 A corporate pension scheme where we match up to 20% of your contributions
-
-🔄 30 Days Sabbatical: Enjoy the unique opportunity to take a well-deserved break with our 30 days sabbatical benefit after completing 3 years of employment with SumUp
-
-🔗 Referral Bonus: Earn additional rewards by referring talented individuals to join the SumUp team
-
-🚵🏾‍♂️ Numerous other benefits such as Urban Sports Club subsidy, Kita placement assistance, relocation assistance, subsidised office lunches
-
-**About us:**
-
-Be empowered to do more that matters.
-
-At SumUp, we're on a mission to empower small businesses across the globe by providing simple and affordable tools that allow them to thrive. Today, over 4 million businesses in 36 markets rely on SumUp as their financial partner to manage payments, finance and customer relationships.
-
-Our commitment to small businesses is reflected in our diverse team of over 3,000 SumUppers from over 90 nationalities, united by global collaboration and an innovative mindset. [Our core values](https://www.sumup.com/careers/culture/) lay the foundation for who we are and what we stand for, shaping our work culture and driving our success. We foster inclusivity and a continuous learning culture, providing a safe space for personal and professional growth. Our differences make us unique and strong as we strive to create an environment where everyone belongs and feels supported, no matter how they identify. 
-
-SumUp is proud to be an Equal Employment Opportunity employer, actively seeking and embracing diversity in our workforce. We don't make hiring or employment decisions based on race, colour, religion or religious belief, ethnic or national origin, nationality, sex, gender, gender identity, sexual orientation, disability, age or any other basis protected by applicable laws or prohibited by company policy. Our commitment extends beyond recruitment to creating a safe and respectful workplace where harassment of any form is strictly prohibited.
-
-Explore career opportunities with us and join a team driven by collaboration, innovation, and a shared vision of creating a world where everyone can build a thriving business. Discover more about our vibrant and inclusive work culture and how we work on our [careers website](https://www.sumup.com/careers/), and follow our journey on [LinkedIn](https://www.linkedin.com/company/sumup/) and [Instagram](https://www.instagram.com/insidesumup/).
-
-**Job Application Tip**
-
-We recognise that candidates feel they need to meet 100% of the job criteria in order to apply for a job. Please note that this is only a guide. If you don't tick every box, it's ok too because it means you have room to learn and develop your career at SumUp.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAs part of the Field Sales Engineering Team at SumUp, you will play a key role in maintaining and enhancing our Global Field Sales processes. Operating within the Platform Tribe, you'll develop essential internal developer platforms, focusing on creating software systems that empower both Sales and Engineering teams. The goal is to identify optimal systems and approaches, enabling users to concentrate on delivering value to SumUp merchants and internal users without being burdened by infrastructure concerns.\n\nSumUp is on a mission to empower over 4 million small businesses across 36 markets globally with simple and affordable financial tools. Our diverse team of over 3,000 \"SumUppers\" from 90+ nationalities fosters global collaboration, an innovative mindset, and a continuous learning culture. We are committed to diversity and inclusion, providing a safe space for personal and professional growth.\n\n### Responsibilities\n- Design, build and maintain services integral to dependable and highly available production systems, following SumUp's microservice architecture.\n- Design, construct, and upkeep our services.\n- Develop high-quality, scalable code adhering to Platform standards and best practices.\n- Collaborate with stakeholders to pinpoint pain points and collect feature requests.\n- Work closely with Sales, Data, and Software Engineers across Platform and Operations teams.\n\n### Qualifications\n- 5+ years of programming experience in Typescript.\n- Prior experience with Fullstack Frameworks such as Next/Remix/Nuxt/Meteor.\n- Proficient in building and consuming RESTful APIs within a microservice environment.\n- Experience with SQL & Event driven architecture, specifically working with Postgres and Kafka.\n- Understanding of fundamental system architecture, software design principles, data modelling, and API design.\n- Collaborative mindset and open to feedback in teamwork settings.\n- Demonstrated pride in engineering work and a strong sense of ownership in tasks.\n\n### Author's Take\nThis Mid-Senior Engineering role at SumUp offers a fantastic opportunity for a skilled Typescript developer with fullstack and microservices experience to make a significant impact on global sales processes. SumUp cultivates a highly collaborative, office-first, and inclusive environment that prioritizes continuous learning and professional development, backed by substantial L&D budgets and regular Hack Days. Beyond technical contributions, the company offers attractive benefits including a generous sabbatical program, corporate pension, and a VSOP program, emphasizing long-term career growth and employee well-being within a mission-driven fintech company. They actively encourage applications even if candidates don't meet every single criterion, highlighting a culture of learning and development.

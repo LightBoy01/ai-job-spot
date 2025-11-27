@@ -9,72 +9,45 @@ postedDate: '2025-11-26T08:02:30.000Z'
 expirationDate: null
 tags:
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/service-desk-dispatching-bad-soden-472839
 companyLogoUrl: null
+companyCulture: >-
+  thinkRED fosters a highly collaborative and dedicated team environment,
+  committed to shaping digitization with passion. They prioritize employee
+  growth through extensive onboarding, a buddy program, and an annual training
+  budget, alongside promoting work-life balance with home office options and
+  shared social activities.
+story_question1: >-
+  How does this Service Desk Coordinator role directly contribute to thinkRED's
+  mission of reliable and future-proof digitalization for public sector clients?
+story_answer1: >-
+  As an insider, I can tell you this role is absolutely central. You're the
+  first point of contact, the calm voice that brings order to potential chaos.
+  By efficiently prioritizing and coordinating technician deployments, you
+  ensure our public sector clients, from schools to government offices,
+  experience minimal downtime. This directly underpins our promise of reliable
+  digital infrastructure, keeping essential services running smoothly. It's not
+  just about closing tickets; it's about safeguarding critical operations and
+  building trust, one resolved issue at a time.
+story_question2: >-
+  Beyond the day-to-day coordination, what opportunities are there for a Service
+  Desk Coordinator to influence process improvements or take on new challenges
+  within thinkRED?
+story_answer2: >-
+  That's a great question and it speaks directly to our culture of individual
+  growth. While your primary focus is coordination, we actively encourage our
+  team members to look beyond the immediate. You'll be documenting processes and
+  communicating within the service desk, which puts you in a prime position to
+  identify bottlenecks or areas for improvement. We have an annual training
+  budget specifically for you to develop new skills, and we welcome ideas on
+  optimizing our internal service processes. Many of our team members start here
+  and, with their insights, grow into more specialized roles or even project
+  coordination, continuously shaping how we deliver excellent service.
 ---
-Standort: Bad Soden
-
-Start: Ab sofort | Arbeitszeiten: Vollzeit | Home-Office-Anteil möglich
-
-Die thinkRED versteht sich als IT-Partner für Behörden, Kommunen und Bildungseinrichtungen in Deutschland. In großen Hardware- und Dienstleistungsrahmenverträgen begleiten die Experten Kunden der öffentlichen Hand mit ausführlicher und individueller Beratung von der Konzeption der Infrastruktur über die Implementierung der Hardware bis hin zum professionell aufgebauten, langfristigen Support sowie in der medienpädagogischen wie technischen Fortbildung der Anwender.
-
-Arbeiten bei der thinkRED: Werde Teil unseres engagierten Teams und präge Visionen! Wir haben es uns zur Aufgabe gemacht, Digitalisierung ganzheitlich, zukunftsfähig und verlässlich zu gestalten. Mit viel Herzblut setzen wir uns für unsere Kunden und füreinander im Team ein.
-
-Aufgaben
---------
-
-*   zentrale Annahme, Priorisierung und Weiterleitung von IT-Serviceanfragen
-*   Koordination und Terminplanung von Technikereinsätzen (remote & vor Ort)
-*   enge Abstimmung mit Kunden, Technik-Teams und externen Dienstleistern
-*   Pflege und Bearbeitung von Tickets im ITSM-System
-*   Kontrolle offener Vorgänge und Nachverfolgung von Lösungsfristen
-*   Dokumentation der Abläufe und Kommunikation im Servicedesk-Umfeld
-*   Unterstützung bei der Optimierung interner Serviceprozesse
-
-Qualifikation
--------------
-
-*   abgeschlossene kaufmännische oder technische Ausbildung
-*   erste Erfahrung im IT-Support, Dispatching oder im Kundendienst
-*   ausgeprägte organisatorische Fähigkeiten und Stressresistenz
-*   souveränes, freundliches Auftreten – auch am Telefon
-*   sicherer Umgang mit MS Office
-*   Erfahrung mit IT-Ticketsystemen von Vorteil
-*   Teamfähigkeit und hohe Serviceorientierung
-*   strukturierte Arbeitsweise und schnelle Auffassungsgabe
-
-Benefits
---------
-
-*   Home-Office Anteil
-*   umfangreiches Onboarding ergänzt durch unser Buddy-Programm
-*   jährliches Weiterbildungsbudget
-*   Mitarbeiter werben Mitarbeiter-Prämie in Höhe von 1.000€
-*   kostenfreies Mittagessen am Healthy Wednesday
-*   Arbeitgeberzuschuss zur Vermögensbildung
-*   hoher Grad der persönlichen Entfaltung sowie individuelle Förderung
-*   Trainingsmöglichkeiten in kooperierendem Fitnessstudio
-*   Bike-Leasing-Angebote für Dich und Deine Familie
-*   Personalrabatte und Vergünstigungen bei zahlreichen Kooperationspartnern
-*   gemeinsame Freizeitaktivitäten
-
-Freue Dich auf ein Team, welches auch abseits der Arbeit zusammenhält. Auf unserer Karriereseite gewinnst Du einen ersten persönlichen Eindruck und erfährst, was die thinkRED auszeichnet.
-
-Du und die thinkRED - das passt?
-
-Wir freuen uns auf Deine aussagekräftige Bewerbung per E-Mail mit Angabe Deiner Gehaltsvorstellung und Deines frühestmöglichen Eintrittstermins!
-
-Bei fachlichen Rückfragen vermitteln wir Dir gerne schnell und unkompliziert den Kontakt zur Fachabteilung.
-
-thinkRED GmbH  
-z.H. Alexander Bieber  
-HR Manager  
-Tel: 0234/ 3336721-6067
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nthinkRED is an IT partner for public authorities, municipalities, and educational institutions in Germany, specializing in comprehensive IT solutions from infrastructure conception and hardware implementation to long-term support and user training. We are dedicated to shaping digitalization holistically, future-proof, and reliably. Join our engaged team where we commit ourselves with passion to our customers and to each other. This role offers the opportunity to be a crucial part of our mission by ensuring smooth IT service operations.\n\n### Responsibilities\n*   Central acceptance, prioritization, and forwarding of IT service requests.\n*   Coordination and scheduling of technician deployments (remote & on-site).\n*   Close coordination with customers, technical teams, and external service providers.\n*   Maintenance and processing of tickets in the ITSM system.\n*   Monitoring of open processes and tracking of resolution deadlines.\n*   Documentation of processes and communication within the service desk environment.\n*   Support in optimizing internal service processes.\n\n### Qualifications\n*   Completed commercial or technical training.\n*   Initial experience in IT support, dispatching, or customer service.\n*   Strong organizational skills and stress resistance.\n*   Confident, friendly demeanor – also on the phone.\n*   Proficient in MS Office.\n*   Experience with IT ticketing systems is a plus.\n*   Team player and highly service-oriented.\n*   Structured way of working and quick comprehension.\n\n### Author's Take\nThis Junior Service Desk Coordinator role at thinkRED is ideal for an organized and service-oriented individual looking to start or grow their career in IT support within a supportive, growth-focused company. You'll play a vital role in ensuring reliable IT services for public sector clients. thinkRED truly invests in its employees with comprehensive onboarding, a buddy program, an annual training budget, and a high degree of personal development opportunities. The company also fosters a strong team spirit, offering a home office option, health initiatives like \"Healthy Wednesday\" lunches, fitness studio access, bike leasing, and regular team activities, reflecting a genuine commitment to employee well-being and collaboration.

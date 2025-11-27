@@ -9,53 +9,50 @@ postedDate: '2025-11-26T13:31:56.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
+salaryRange: '€37,000 - €38,000 per year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/univativ-gmbh/technischer-sachbearbeiter-energiebranche-leipzig-396514
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a growth-oriented, supportive, and collaborative culture,
+  with a strong emphasis on career development through extensive training
+  opportunities and personalized career guidance. It encourages active
+  participation in innovative projects to expand knowledge and build
+  professional networks.
+story_question1: >-
+  How does this Technical Clerk role directly contribute to the modernization
+  and efficiency of critical energy infrastructure and digital processes within
+  the client's operations?
+story_answer1: >-
+  When you step into this Technical Clerk role, you're not just handling tasks;
+  you're actively shaping the future of our client's energy operations. Your
+  work in creating audit-relevant scenarios for the new SAP system and
+  meticulously conducting IT system tests is fundamental. It's about ensuring
+  that critical processes in network construction and maintenance are not only
+  robust but also optimized for the digital age. Think of yourself as a vital
+  link, identifying improvements and supporting the evolution of digital
+  planning and documentation in platforms like Confluence and Signavio. Your
+  contributions directly translate into more efficient, reliable, and modern
+  energy infrastructure for our client.
+story_question2: >-
+  For a 'Berufseinsteiger' (career starter) or 'Berufserfahrener' (experienced
+  professional), what specific support structures and development pathways can
+  be expected to ensure success and long-term career growth?
+story_answer2: >-
+  That's a fantastic question, and it gets right to the heart of our mission at
+  univativ. Whether you're a career starter or have some experience, we're
+  dedicated to your development. From day one, you'll have a personal contact
+  person – your dedicated 'career companion' – who's there to guide you, answer
+  questions, and help you navigate your journey. We don't just put you in a
+  role; we invest in you. We offer diverse on-the-job and off-the-job training
+  to help you become an expert. This role, in particular, is designed to be a
+  launchpad, enabling you to gain invaluable practical experience, build a
+  robust professional network across various clients, and continuously expand
+  your knowledge in an innovative team environment. Your growth truly is our
+  priority.
 ---
-**Baldmöglichst, bis zum 01.09.2026, mit Option auf Verlängerung, mit Option auf Übernahme | 38 Stunden pro Woche | Leipzig | Energiewirtschaft | Berufseinsteiger, Berufserfahrener | 37000 bis 38000 € im Jahr | Projekt-ID A202551667\_1S**
-
-univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
-
-Du besitzt ein abgeschlossenes Studium der Wirtschaftsingenieurswesen, Informatik, Energietechnik oder eine Ausbildung zum Techniker/Meister? Zudem konntest Du bereits Erfahrungen in der Datenverwaltung, analytischen Datenaufbereitung sowie Telekommunikationsplanung sammeln? Du bist kommunikativ und arbeitest agil, selbst in stressigen Situationen bewahrst Du Ruhe und behältst den Blick für das Wesentliche? Dann ist unsere Stelle als technischer Sachbearbeiter (m/w/d) genau das Richtige für Dich!
-
-Wir bieten Dir im Projekt unseres Kunden aus der Energiebranche einen spannenden Berufseinstieg. In der Position als technischer Sachbearbeiter (m/w/d) kannst Du Dein Wissen einbringen und wertvolle Praxiserfahrungen sammeln. In einem innovativen Team hast du die Möglichkeit, an spannenden Projekten mitzuarbeiten und Dein Wissen stetig zu erweitern! Das klingt nach einer faszinierenden Berufsperspektive? Dann bewirb Dich noch heute!
-
-Aufgaben
---------
-
-*   Zu Deinen Hauptaufgaben zählt die Erstellung von prüfungsrelevanten Anwendungsszenarien für das neue SAP-System unter Einbezug der Prozesse in Netzbau und Instandhaltung
-*   Ein wesentlicher Bestandteil Deiner Tätigkeit ist die Abstimmung und Durchführung von IT-Systemtests inklusive vollständiger Ergebniserfassung
-*   Dein Aufgabenbereich umfasst zudem die Vorstellung und Erläuterung der Testergebnisse gegenüber beteiligten Stakeholdern
-*   Du bist verantwortlich für die Erarbeitung von Verbesserungsansätzen für Abläufe auf Basis der Testergebnisse und Projektabstimmungen
-*   Abgerundet wird Dein Aufgabenprofil durch Unterstützung bei der Weiterentwicklung der digitalen Planungs- und Dokumentationsprozesse sowie der Prozessgrundlagen in Confluence und Signavio
-
-Qualifikation
--------------
-
-*   Ein abgeschlossenes Studium der Wirtschaftsingenieurswesen, Informatik, Energietechnik oder eine Ausbildung zum Techniker/Meister mit Erfahrungen im Umfeld der Telekommunikationsplanung
-*   Erste praktische Erfahrungen in der Datenverwaltung und analytische Datenaufbereitung
-*   Ein sicherer Umgang mit den MS Office Produkten
-*   Verhandlungssichere Deutschkenntnisse (C1) sowie fließende Englischkenntnisse in Wort und Schrift (B2)
-*   Eine schnelle Auffassungsgabe, analytisches Denken sowie eine eigenständige und selbständige Arbeitsweise
-
-Benefits
---------
-
-*   Ein Jahreslohn zwischen 37000 € und 38000 €
-*   Wir bilden Dich zum Experten aus und bieten Dir vielfältige Weiterbildungsmöglichkeiten on und off the Job an
-*   Während Deines Einsatzes hast Du einen persönlichen Ansprechpartner, der als Dein Karrierebegleiter für Dich da ist
-*   Mit uns sammelst Du Erfahrung und baust durch verschiedene Projekte Dein berufliches Netzwerk bei verschiedenen Kunden auf
-*   Nutze Deine Chance auf eine attraktive Prämie von bis zu 2.000 Euro für unser „Recruit a Friend“-Programm
-*   Bei uns erhältst Du Corporate Shopping Vorteile sowie Rabatte für ausgewählte Fitnessstudios
-
-**Wir konnten Dein Interesse wecken? Klasse!**
-
-Wir freuen uns auf Deine Bewerbung
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nunivativ is a project and personnel service provider dedicated to connecting students and graduates with exciting job opportunities at renowned companies. Your career is our mission, and your development is paramount to us.\n\nWe are seeking a **Technical Clerk (m/w/d)** to join a project with our client in the energy sector in Leipzig. This position, offered for 38 hours per week, provides an exciting opportunity for both career starters (\"Berufseinsteiger\") and experienced professionals (\"Berufserfahrener\") to contribute their knowledge and gain valuable practical experience. You will become part of an innovative team, working on engaging projects and continuously expanding your expertise. We are looking for an agile and communicative individual who maintains composure in stressful situations and keeps an eye on the essential objectives.\n\n### Responsibilities\n- Create audit-relevant application scenarios for the new SAP system, integrating processes in network construction and maintenance.\n- Coordinate and execute IT system tests, ensuring complete and accurate recording of results.\n- Present and explain test results to involved stakeholders.\n- Develop improvement approaches for existing processes based on test results and project agreements.\n- Support the further development of digital planning and documentation processes, as well as process fundamentals in Confluence and Signavio.\n\n### Qualifications\n- A completed degree in Industrial Engineering, Computer Science, Energy Technology, or a vocational qualification as a Technician/Master, with experience in telecommunications planning.\n- Initial practical experience in data management and analytical data processing.\n- Proficient in MS Office products.\n- Negotiation-level German (C1) and fluent English (B2), both written and spoken.\n- Possess quick comprehension, strong analytical thinking, and an independent, self-reliant working style.\n\n### Author's Take\nThis is an outstanding opportunity for individuals eager to establish or advance their career within the dynamic energy sector, focusing on critical IT systems and process optimization. univativ clearly prioritizes professional development, providing a supportive environment with dedicated career companions and extensive training programs, both on- and off-the-job. The role offers significant hands-on experience in a vital industry, allowing you to cultivate a strong professional network and contribute to impactful projects. With a competitive annual salary of €37,000 - €38,000 and attractive benefits, including a \"Recruit a Friend\" bonus of up to €2,000 and corporate shopping/fitness discounts, this position is highly appealing for motivated professionals.

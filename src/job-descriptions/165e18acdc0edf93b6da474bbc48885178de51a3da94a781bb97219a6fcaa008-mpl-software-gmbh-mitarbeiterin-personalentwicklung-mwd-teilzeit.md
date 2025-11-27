@@ -10,54 +10,64 @@ expirationDate: null
 tags:
   - Training
   - Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/mpl-software-gmbh/mitarbeiterin-personalentwicklung-teilzeit-achern-259845
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a highly collaborative and team-oriented environment,
+  prioritizing trust, enthusiastic commitment, and mutual support. They
+  emphasize flexibility for work-life balance, offer opportunities for personal
+  and professional development, and value appreciation, openness, and humor
+  within their team.
+story_question1: >-
+  Given the focus on optimizing HR processes, what's a recent example where this
+  role directly contributed to a significant improvement in employee experience
+  or operational efficiency, and what was the ripple effect across the company?
+story_answer1: >-
+  You know, just last quarter, we tackled the entire onboarding flow. It used to
+  be a bit clunky, with paperwork spread across different systems. Our new HR
+  specialist, working closely with the management team, spearheaded a project to
+  digitize most of it and integrate a new HRIS module. They brought fresh ideas,
+  challenged the old ways, and really drove the implementation. The result? New
+  hires now feel integrated much faster, their administrative burden is
+  significantly reduced, and HR can focus more on strategic initiatives rather
+  than just processing papers. It's truly transformed how we welcome talent and
+  reflects our commitment to continuous improvement and valuing our people from
+  day one.
+story_question2: >-
+  The description mentions 'targeted demanding and fostering' for development.
+  Can you share how mpl supports its HR team members in their professional
+  growth and balances that with the commitment to work-life flexibility?
+story_answer2: >-
+  Absolutely. Our 'targeted demanding and fostering' isn't just a phrase; it's
+  how we operate. For HR, it might mean supporting a certification in a specific
+  HR domain, providing access to workshops on payroll automation, or even
+  backing a project you propose to refine our internal processes. We believe in
+  empowering our team to take ownership. And for work-life balance, it's woven
+  into our DNA. We offer flexible working hours and trust our people to manage
+  their responsibilities. If you need to pick up your kids or have an
+  appointment, we focus on results, not just hours in a chair. It’s about mutual
+  trust and enabling everyone to thrive both professionally and personally.
+story_question3: >-
+  mpl emphasizes the optimal interplay of 'people, processes, and solutions'.
+  How does this philosophy extend to the internal HR function, and how would
+  this role contribute to fostering that synergy within our own team?
+story_answer3: >-
+  That's a fantastic question, and it's truly at the core of what we do, not
+  just for our clients but internally too. For HR, it means continuously
+  evaluating how our 'people' (our employees) interact with our 'processes'
+  (like onboarding, payroll, development) and the 'solutions' (our HR systems,
+  tools) we provide. This role is absolutely crucial here. You'd be the person
+  on the ground, seeing where processes might create friction, identifying areas
+  where a system update could boost efficiency, and most importantly, being the
+  first point of contact for our 'people'. Your insights and proactive
+  suggestions are vital in ensuring that our internal 'mpl' aligns perfectly,
+  making sure our employees have a smooth, supportive, and empowering
+  experience, which ultimately fuels their ability to deliver for our clients.
 ---
-Seit über 25 Jahren beraten und begleiten wir KMU´s bei der Digitalisierung von Unternehmensprozessen, um Kundenbeziehungen effizient und erfolgreich zu gestalten. Mit unserer Erfahrung von 300 aktiv betreuten Firmenkunden und 12.000 Usern in mehreren Branchen wissen wir, dass der nachhaltige Erfolg von CRM- und CPQ-Initiativen aus dem optimalen Zusammenspiel dreier entscheidender Faktoren resultiert: Menschen, Prozesse und Lösungen (mpl).
-
-Unsere Kunden verlassen sich stets auf unsere Zuverlässigkeit, unser Knowhow und unsere Präzision. Optimaler Service hat immer erste Priorität. Zusammenarbeit, Teamgeist, Vertrauen, Engagement mit Begeisterung zeichnet unsere tägliche Arbeit aus.
-
-Wenn Dir diese Faktoren genauso wichtig sind, dann bist Du bei uns genau richtig. Wir suchen Mitarbeiter:innen, die innovativ und zielorientiert die Zusammenarbeit intern wie extern gestalten und fördern.
-
-Aufgaben
---------
-
-*   Du kümmerst Dich für die Geschäftsführung und die Teams bei mpl operativ um alle administrativen HR-Prozessen, vom Onboarding bis zum Offboarding.
-*   Du pflegst Mitarbeiterdaten in unserem Personalsystem.
-*   Du erstellst Dokumente wie Arbeitsverträge, Vertragsänderungen, Bescheinigungen und Zeugnisse und stellst dabei eine hohe Daten- und Dokumentenqualität sicher.
-*   Du sorgst für eine korrekte, zuverlässige und pünktliche Gehaltsabrechnung in Zusammenarbeit mit unserem Steuerbüro.
-*   Du bearbeitest Mitarbeiteranfragen und stehst in engem Austausch mit der Geschäftsführung.
-*   Dein Antrieb ist es immer besser zu werden – mit Deinen Ideen, um HR-Prozesse zu optimieren und effizienter zu gestalten.
-
-Qualifikation
--------------
-
-*   Du hast eine abgeschlossene kaufmännische Ausbildung mit HR-Bezug oder einen Studienabschluss mit Schwerpunkt Betriebswirtschaft oder Personalmanagement.
-*   Idealerweise bringst Du bereits Erfahrung in der Personalentwicklung und/oder Gehaltsabwicklung mit.
-*   Du arbeitest strukturiert, zuverlässig und hast Freude daran, Menschen zu begleiten sowie Prozesse zu verbessern.
-*   Kommunikationsstärke, Empathie und ein hohes Verantwortungsbewusstsein zeichnen Dich aus.
-*   Du hast Lust, in einem Team zu arbeiten, das Wertschätzung, Offenheit und Humor lebt.
-
-Benefits
---------
-
-*   Herausforderungen. Damit du dein Know-How einsetzen kannst.
-*   Entwicklung. Durch gezieltes Fordern und Fördern.
-*   Ein Team, das zusammenarbeitet und sich ergänzt, um gemeinsam Ziele zu erreichen.
-*   Flexibilität, für eine optimale Work-Life-Balance.
-*   Raum, für eigenverantwortliches Handeln.
-*   Moderne und ergonomische Arbeitsplätze.
-*   Betriebliche Altersvorsorge über Unterstützungskasse.
-*   Weitere Corporate Benefits wie bspw. Rabatte auf Produkte und Dienstleistungen.
-
-Wir möchten dich kennenlernen.
-
-Bitte sende uns deine aussagekräftige Bewerbung!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nFor over 25 years, we have been advising and supporting SMEs in the digitalization of business processes to make customer relationships efficient and successful. With our experience of 300 actively managed corporate clients and 12,000 users across several industries, we know that the sustainable success of CRM and CPQ initiatives results from the optimal interplay of three crucial factors: people, processes, and solutions (mpl). Our clients consistently rely on our reliability, expertise, and precision. Optimal service always has top priority. Collaboration, team spirit, trust, and enthusiastic commitment characterize our daily work. If these factors are just as important to you, then you are exactly right with us. We are looking for employees who innovatively and goal-orientedly shape and promote internal and external collaboration.\n\n### Responsibilities\n*   You will operationally manage all administrative HR processes for the management and teams at mpl, from onboarding to offboarding.\n*   You will maintain employee data in our personnel system.\n*   You will create documents such as employment contracts, contract amendments, certificates, and references, ensuring high data and document quality.\n*   You will ensure correct, reliable, and timely payroll processing in cooperation with our tax office.\n*   You will process employee inquiries and maintain close communication with management.\n*   Your drive is to continuously improve – contributing your ideas to optimize and make HR processes more efficient.\n\n### Qualifications\n*   You have a completed commercial apprenticeship with an HR focus or a university degree with a specialization in business administration or human resources management.\n*   Ideally, you already have experience in HR development and/or payroll processing.\n*   You work in a structured and reliable manner and enjoy supporting people and improving processes.\n*   Strong communication skills, empathy, and a high sense of responsibility characterize you.\n*   You are eager to work in a team that values appreciation, openness, and humor.\n\n### Author's Take\nThis is a fantastic opportunity for a dedicated and proactive HR professional to join a company that truly values its people and collaborative spirit. If you're passionate about administrative excellence, process optimization, and contributing to a supportive work environment from onboarding to offboarding, you'll thrive here. The company offers a culture built on trust, team spirit, and flexibility, ensuring a healthy work-life balance. You'll have room for independent action and development through challenging tasks and targeted support, all within a modern workplace. This role is perfect for someone who enjoys a varied HR operational scope and wants to make a tangible impact by improving internal processes and employee experience.

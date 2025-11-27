@@ -10,79 +10,68 @@ expirationDate: null
 tags:
   - Remote
   - Business Consulting
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
+salaryRange: €60-90k p.a.
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/junto-education-gmbh/senior-learning-consultant-leadership-development-berlin-66691
 companyLogoUrl: null
+companyCulture: >-
+  Junto fosters a remote-first, flexible work environment with a strong emphasis
+  on entrepreneurial responsibility and continuous personal and professional
+  growth. There's close collaboration within a small, expert team dedicated to
+  innovative leadership development.
+story_question1: >-
+  How does Junto balance the need for client-specific leadership programs with
+  the goal of long-term scalability of your content product range, and what role
+  does this position play in achieving that balance?
+story_answer1: >-
+  It's an exciting challenge! As the 'didactic brain,' you're at the heart of
+  our strategy. Imagine crafting a bespoke program for a major client like
+  Celonis, understanding their unique needs through deep discovery. Then, the
+  real magic happens: you identify the core, reusable components – perhaps a
+  specific module on agile leadership or a framework for feedback – and design
+  it in a way that can be adapted and scaled across our other programs. We don't
+  just deliver; we innovate our product. Marius and Sarah are always pushing for
+  that perfect blend of customization and strategic scalability, and your
+  insights will directly shape how we evolve our entire offering. It's about
+  being deeply impactful on individual client success while building a robust,
+  future-proof product.
+story_question2: >-
+  With a remote-first setup and close collaboration with founders and experts,
+  what are the primary ways the team ensures effective knowledge sharing and
+  maintains a strong, cohesive culture?
+story_answer2: >-
+  That's a fantastic question, and it's something we're very intentional about.
+  While we're remote-first, we're far from isolated. Our regular offsites, like
+  the one coming up in Lisbon, are crucial – they're not just for strategy but
+  for building those personal bonds and having fun together. Day-to-day, we
+  leverage our tools effectively, but more importantly, we cultivate an
+  environment where asking questions and sharing insights is second nature.
+  You'll have direct, frequent touchpoints with Marius and Sarah, and we
+  actively encourage presenting your work and sharing learnings with the broader
+  team. Because we're a small, agile team, everyone's voice is heard, and we
+  celebrate collective wins. It truly feels like a close-knit group, despite the
+  distance.
+story_question3: >-
+  The potential to grow into a 'Head of Leadership Development' role with
+  company participation is very appealing. Could you elaborate on what that
+  growth path typically looks like at Junto, and what milestones or
+  contributions would define success in reaching that next level?
+story_answer3: >-
+  Absolutely, that's a key part of our vision for this role. We're looking for
+  someone who doesn't just execute but truly *owns* a significant part of our
+  future. Initially, it's about mastering the didactic design, proving your
+  ability to drive both client-specific and scalable program development. As you
+  demonstrate consistent impact, take initiative on new product ideas, and show
+  a clear aptitude for strategic leadership within your domain – perhaps even
+  starting to mentor others or lead broader initiatives – that's when the 'Head
+  of' discussion becomes very real. It's not a rigid timeline, but a recognition
+  of your entrepreneurial spirit and your demonstrated capacity to expand your
+  influence and responsibility. The company participation part reflects our
+  belief in sharing success with those who are instrumental in building it – we
+  want you to have a true stake in Junto's future.
 ---
-**Hey, wir sind Junto! 😊**  
-• Wir sind ein spezialisiertes Startup für Leadership Development für 100+ Kunden wie AOK, Celonis, Ottobock und REWE Digital  
-• Wir arbeiten eigenfinanziert mit kleinem Team und stabiler Auftragslage bis 2027 – für den nächsten Wachstumgsschritt suchen wir dich als _didaktisches Brain der Firma_  
-• Dein liegt Fokus auf der Konzeption, Entwicklung und Implementierung von blended Leadership Development Programmen auf Basis unseres Junto Lernkonzepts
-
-Aufgaben
---------
-
-**Deine Verantwortung:**
-
-1.  die Entwicklung _Klient:innen-spezifischer Führungsprogramme_ sowie
-2.  die langfristige _Skalierbarkeit unserer inhaltlichen Produktpalette_ & Didaktik
-
-**Deine Aufgaben:**
-
-1.  _Discovery_: Analyse von Zielgruppen-Bedarfen (Surveys, 1:1 Interviews usw.)
-2.  _Design_: Entwicklung von passgenauen Inhalten & Formaten für die Zielgruppe  
-    (z.B. Erstellung von Präsentationsmaterial inkl. Speaker Notes für Live-Online-Sessions)
-3.  _Delivery_: Briefing & Begleitung unserer Trainer:innen in den Online-Seminaren
-4.  _Iteration_: Kontinuierliche Weiterentwicklung auf Basis von Teilnehmenden-Feedback
-
-**Deine Schnittstellen:**
-
-*   _Intern_: Vor allem mit [Marius](https://www.linkedin.com/in/mariushepp/) (unser Gründer) und [Sarah](https://www.linkedin.com/in/sarah-goettinger/) (Learning Designerin) – zusätzliche Schnittpunkte zum weiteren Team ([Asif](https://www.linkedin.com/in/asifbutt1/), [Chiara](https://www.linkedin.com/in/chiaranathani/) und [Rashko](https://www.linkedin.com/in/rashko-angelinov/))
-*   _Extern_: Klientenkontakt von C-Level bis Praktikant:in und stehst in regelmäßigem Austausch mit unseren Referent:innen (z.B. [Tara](https://www.linkedin.com/in/tararule/), [Jens](https://de.linkedin.com/in/dr-jens-riese-b44887187), [Christian](https://www.linkedin.com/in/christian-rummel/))
-
-Qualifikation
--------------
-
-**Qualifikation**
-
-*   _2-5 Jahre Berufserfahrung_ im Projektumfeld (z.B. Unternehmensberatung)
-*   Erfahrung in der Entwicklung von _blended Lernreisen für Führungskräfte_
-*   Eigene _Leadership-Erfahrung oder Coaching-Ausbildung_ sind ein Plus
-
-Mindset
-
-*   _Hands-on_: Du bist bereit, dir gemeinsam mit uns “die Hände schmutzig zu machen” und richtig gute Powerpoints, Lernvideos und Templates selbst zu bauen
-*   _Product Thinking_: Du siehst die Entwicklung der Lernprogramme als dein Produkt mit nutzerzentrierter Discovery, agiler Pilotierung und daten-orientierter Weiterentwicklung
-*   _Grwoth Mindset_: Du entwickelst dich kontinuierlich weiter und deigene Begeisterung für Learning & Leadership Development ist ansteckend
-
-**Arbeitsweise**
-
-*   _Umsetzungsstärke_: Du arbeitest zielorientiert und pragmatisch aufs Endergebnis hin
-*   _Kommunikation_: Du bist präsentationsstark und gut strukturiert in Wort & Schrift
-*   _Nutzerzentrierung_: Du entwickelst Empathie für unsere FK-Zielgruppe & ihr Feedback
-*   _Auffassungsgabe_: Du arbeitest dich rasch in neuen Kontext ein & bist gut organisiert
-
-Benefits
---------
-
-*   _Vergütung_: €60-90k p.a., je nach Vorerfahrung
-*   _Remote-first_ mit hohem Maß an geografischer & zeitlicher Flexibilität mit regelmäßigen Offsites (im Dezember treffen wir uns z.B. eine Woche in Lissabon)
-*   Enge Zusammenarbeit mit _erfahrenem Gründer und Top-Expert:innen_ ihres Bereichs als Executive Coaches
-*   _Unternehmerische Eigenverantwortlichkeit_ mit der Chance, langfristig in eine Head of Leadership Development Rolle mit Unternehmensbeteiligung hineinzuwachsen
-*   _Weitere:_ Urban Sports Club & Co. gibt's natürlich auch ;-)
-
-**So sieht der weitere Prozess aus:**
-
-1.  Kennenlerngespräch mit Marius _(25-30 Min.)_
-2.  Kennenlerngespräch mit Asif _(25-30 Min.)_
-3.  Case Study mit Sarah und Chiara _(30-60 Min. + ca. 2-3h Vorbereitung)_
-4.  Vertragsangebot 🚀
-
-Wenn du dir unsicher bist, ob es passen könnte, probier's bitte einfach trotzdem. Wir freuen uns darauf, von dir zu hören! 😊
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nHey, we are Junto! We are a specialized startup for Leadership Development, serving over 100 clients like AOK, Celonis, Ottobock, and REWE Digital. We are self-funded with a small team and stable projects planned until 2027. For our next growth phase, we are looking for you to be the _didactic brain of the company_. Your focus will be on the conception, development, and implementation of blended Leadership Development programs based on our unique Junto learning concept.\n\n### Responsibilities\n**Your core responsibilities include:**\n1.  Developing client-specific leadership programs.\n2.  Ensuring the long-term scalability of our content product range and didactics.\n\n**Your specific tasks will involve:**\n*   **Discovery**: Analyzing target group needs through surveys, 1:1 interviews, etc.\n*   **Design**: Developing tailored content and formats for the target audience (e.g., creating presentation materials, including speaker notes for live-online sessions).\n*   **Delivery**: Briefing and supporting our trainers in online seminars.\n*   **Iteration**: Continuously developing programs based on participant feedback.\n\n**You will primarily interface with:**\n*   **Internally**: Marius (our founder) and Sarah (Learning Designer), with additional touchpoints to the wider team (Asif, Chiara, and Rashko).\n*   **Externally**: Clients ranging from C-Level to interns, and regular exchanges with our expert speakers (e.g., Tara, Jens, Christian).\n\n### Qualifications\n**To succeed in this role, you should have:**\n*   2-5 years of professional experience in a project environment (e.g., management consulting).\n*   Experience in developing blended learning journeys for leaders.\n*   Own leadership experience or a coaching certification is a strong plus.\n\n**We are looking for a mindset that is:**\n*   **Hands-on**: You are ready to \"get your hands dirty\" with us and actively build excellent PowerPoints, learning videos, and templates yourself.\n*   **Product Thinking**: You view the development of learning programs as your product, emphasizing user-centric discovery, agile piloting, and data-driven iteration.\n*   **Growth Mindset**: You continuously develop yourself, and your enthusiasm for Learning & Leadership Development is infectious.\n\n**Your ideal work style is:**\n*   **Implementation-driven**: You work in a goal-oriented and pragmatic manner towards the final result.\n*   **Communicative**: You have strong presentation skills and are well-structured in both written and verbal communication.\n*   **User-centric**: You develop empathy for our executive target group and their feedback.\n*   **Quick to grasp**: You quickly adapt to new contexts and are well-organized.\n\n### Author's Take\nThis is a fantastic opportunity for an experienced Learning Designer or Consultant looking to make a significant impact in a thriving, self-funded startup. As the \"didactic brain,\" you'll be instrumental in shaping Junto's core product, balancing bespoke client solutions with scalable, innovative leadership development programs. The role offers substantial entrepreneurial responsibility and a clear path to grow into a Head of Leadership Development with company participation. You'll work closely with the founder and a team of experts in a remote-first, flexible environment that values a \"hands-on\" and \"growth mindset.\" The competitive salary of €60-90k p.a. and regular team offsites add to the appeal. If you're passionate about leadership development and eager to contribute to a company's long-term success, this role provides an exciting platform for growth and influence. Don't hesitate to apply, even if you're not 100% sure it's a perfect fit!

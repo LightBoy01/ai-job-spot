@@ -8,64 +8,48 @@ applicationLink: >-
 postedDate: '2025-11-25T21:45:12.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/wolt-english/sales-compliance-manager-berlin-11378
 companyLogoUrl: null
+companyCulture: >-
+  Wolt fosters a fast-paced, challenging, and exciting environment where
+  self-starters can learn and build extensively. It emphasizes innovation,
+  growth, and actively cultivates an inclusive and diverse community.
+story_question1: >-
+  How does the Sales Compliance Manager navigate the tension between stringent
+  regulatory requirements and Wolt's fast-paced, entrepreneurial spirit to
+  ensure both compliance and business agility?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of this role.
+  When I first joined, I was curious about this too. What I've found is that
+  it's all about proactive partnership. We're not just gatekeepers; we're
+  enablers. We embed compliance from the ground up, working closely with sales,
+  legal, and engineering teams. Instead of waiting for issues, we're building
+  scalable, audit-ready systems and processes. It's challenging, yes, but
+  incredibly rewarding to see how we can uphold the highest standards without
+  stifling innovation. There's a real sense of ownership here, and your
+  solutions directly contribute to our ability to expand responsibly across new
+  markets.
+story_question2: >-
+  Beyond ticking compliance boxes, how does this role contribute directly to
+  Wolt's mission of empowering merchants and delivering exceptional value to
+  consumers?
+story_answer2: >-
+  While 'compliance' might sound like a back-office function, its impact here is
+  front and center. Think about it: our entire business relies on trust and
+  reliability, both with our merchants and our users. By ensuring our sales
+  systems and processes are robust and compliant, we're actually building the
+  foundation for sustainable growth. It means merchants can trust us with their
+  data and operations, knowing we're operating ethically and securely. This
+  allows our commercial teams to focus on building strong relationships and
+  expanding our selection, ultimately leading to a more diverse and valuable
+  offering for consumers. This role isn't just about rules; it's about
+  safeguarding our entire ecosystem and enabling us to scale our mission
+  globally with integrity.
 ---
-About Wolt
-----------
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.  
-  
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-About the Global Merchant Team
-------------------------------
-
-On the Global Merchant team, our mission is to provide best-in-class merchant selection—spanning restaurants and other verticals—to deliver exceptional value to consumers while empowering merchants to grow their businesses profitably on Wolt. We achieve this by building world class operations, launching innovative products and collaborating closely with commercial teams across our 30+ countries.
-
-Our five global subteams focus on distinct areas of the merchant lifecycle and experience but also our internal efficiency related to reaching our mission:
-
-*   The Merchant S&O (Strategy & Operations) team is responsible for our merchant and selection strategy, merchant experience, planning and performance tracking, operating model design as well as commercial go-to-market approaches
-*   The Revenue S&O team owns and develops the revenue strategy, goaling, sales operations processes, tools and enablement programs to support and improve the productivity of our countries' sales & account management teams.
-*   The Merchant Operations subteam focuses on smooth execution of core processes such as onboarding, in-store flows, self-service tooling and integrations - this in a very tight collaboration with our product teams
-*   The Enterprise team works directly with global current and prospective merchant partners to unlock and grow our joint business
-*   The B2B subteam owns and develops some of our newer service offerings for merchants - such as logistics as a service (Drive)
-
-About the Role
---------------
-
-We are looking for a **Sales Compliance Manager** to join the Merchant Strategy & Operations (S&O) team. In this role, you will operationalize compliance and governance within our merchant systems — ensuring that our processes scale responsibly, remain audit-ready, and drive efficient execution across teams.
-
-You'll bridge Sales Operations, Legal, and Systems teams — translating compliance and audit requirements into practical system workflows, data controls, and team enablement. This is a hands-on role for someone who enjoys driving implementations, improving system governance, and delivering compliance excellence at scale.
-
-What you will be doing
-----------------------
-
-*   **Implement Compliance Controls:** Integrate SOX, KYB/C, DAC7, and related compliance requirements into Salesforce and other sales or self service systems, ensuring that workflows and data models align with regulatory standards.
-*   **Establish Manual controls where Needed:** For areas where automation or system-based enforcement is not possible, design and operationalize manual controls—including documentation, review checkpoints, and approval flows—to ensure the process remains fully compliant end-to-end.
-*   **Support Audits & Risk Reviews:** Prepare and maintain audit documentation, support audit queries, and drive remediation actions for identified compliance gaps across sales systems and processes.
-*   **Ensure IT & Data Compliance:** Oversee GDPR, ITGC, and access control compliance within Salesforce and related tools — managing user access reviews, data retention policies, and governance logs.
-*   **Drive System Implementations & Enhancements:** Lead or support rollouts of new systems and functionalities in the Sales Compliance domain — Defining requirement, testing, and training to ensure successful adoption.
-*   **Enable Teams & Maintain Governance:**Deliver training, process documentation, and guidance to sales and operations teams ensuring compliance is embedded in daily system use and decision-making.
-
-Our Humble Expectations
------------------------
-
-*   Solid understanding of compliance frameworks (SOX, KYB/C, DAC7, GDPR) and their application in sales systems and processes
-*   Hands-on experience with Salesforce or similar internal systems; ability to translate compliance needs into system configurations or workflows
-*   Strong documentation, coordination, and communication skills across multiple stakeholders.
-*   Experience supporting audits, user access reviews, or data governance initiatives
-*   Detail-oriented, proactive, and execution-focused — comfortable managing multiple priorities in a fast-paced environment.
-
-Our Commitment to Diversity and Inclusion
------------------------------------------
-
-We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nWolt is a technology company focused on delivering \"almost everything\" across 500+ cities in 30 countries, having joined forces with DoorDash in 2022. The Global Merchant team strives to provide best-in-class merchant selection and value, empowering businesses to grow on Wolt. As a Sales Compliance Manager within the Merchant Strategy & Operations (S&O) team, you will be instrumental in operationalizing compliance and governance across merchant systems. This hands-on role involves ensuring processes scale responsibly, remain audit-ready, and drive efficient execution by bridging Sales Operations, Legal, and Systems teams to translate compliance requirements into practical workflows, data controls, and team enablement.\n\n### Responsibilities\n*   **Implement Compliance Controls:** Integrate SOX, KYB/C, DAC7, and similar requirements into Salesforce and other sales/self-service systems, aligning workflows and data models with regulatory standards.\n*   **Establish Manual Controls where Needed:** Design and operationalize manual controls, including documentation, review checkpoints, and approval flows, for areas where automation isn't feasible, ensuring end-to-end compliance.\n*   **Support Audits & Risk Reviews:** Prepare and maintain audit documentation, respond to audit queries, and drive remediation for identified compliance gaps across sales systems and processes.\n*   **Ensure IT & Data Compliance:** Oversee GDPR, ITGC, and access control compliance within Salesforce and related tools, managing user access reviews, data retention policies, and governance logs.\n*   **Drive System Implementations & Enhancements:** Lead or support new system/functionality rollouts in the Sales Compliance domain, defining requirements, testing, and training to ensure successful adoption.\n*   **Enable Teams & Maintain Governance:** Deliver training, process documentation, and guidance to sales and operations teams, embedding compliance into daily system use and decision-making.\n\n### Qualifications\n*   Solid understanding of compliance frameworks (SOX, KYB/C, DAC7, GDPR) and their application in sales systems and processes.\n*   Hands-on experience with Salesforce or similar internal systems, with the ability to translate compliance needs into system configurations or workflows.\n*   Strong documentation, coordination, and communication skills across multiple stakeholders.\n*   Experience supporting audits, user access reviews, or data governance initiatives.\n*   Detail-oriented, proactive, and execution-focused, comfortable managing multiple priorities in a fast-paced environment.\n\n### Author's Take\nThis is an exciting Mid-Senior level Individual Contributor role at Wolt, a rapidly expanding global tech company. It offers a unique opportunity for a compliance professional to make a significant impact by building and scaling robust compliance frameworks within a dynamic, entrepreneurial environment. If you thrive on challenges, enjoy driving implementations, and want to ensure responsible growth for a company that values ownership and inclusion, this hands-on position offers substantial growth and influence. It's perfect for someone who can bridge technical, legal, and operational needs in a fast-paced setting.

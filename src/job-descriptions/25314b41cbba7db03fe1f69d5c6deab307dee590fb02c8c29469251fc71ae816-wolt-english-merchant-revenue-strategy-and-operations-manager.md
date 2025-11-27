@@ -8,61 +8,64 @@ applicationLink: >-
 postedDate: '2025-11-26T07:45:11.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/wolt-english/merchant-revenue-strategy-operations-manager-berlin-457342
 companyLogoUrl: null
+companyCulture: >-
+  Wolt cultivates a challenging, exciting, and high-growth environment for
+  self-starters to learn, build, and take ownership. It values diversity,
+  continuous improvement, and cross-functional collaboration, offering a place
+  for ambitious individuals to make a significant impact.
+story_question1: >-
+  How will this role directly impact Wolt's strategic growth and market
+  expansion, especially given the emphasis on acting as a COO for the region?
+story_answer1: >-
+  From what I've seen, this role is absolutely central to our growth strategy.
+  You're not just executing; you're shaping how we win markets. Picture this:
+  you'll be building the very playbooks that our sales and account management
+  teams use daily, directly influencing revenue growth across an entire region.
+  It's about empowering our local teams, launching initiatives, and
+  fundamentally improving our merchant selection. Essentially, you're the engine
+  driving our commercial success, with a direct line to leadership. It's a
+  high-impact position for someone who loves to see their work directly
+  translate into tangible business results, and who thrives on the challenge of
+  building something impactful from the ground up.
+story_question2: >-
+  The description mentions building playbooks and defining processes where they
+  don't yet exist. What kind of support system or resources are in place for an
+  individual contributor tackling such significant, greenfield challenges?
+story_answer2: >-
+  That's a great question, and it really hits on the entrepreneurial spirit we
+  value here. While you'll have significant autonomy to build and test, you're
+  definitely not alone. You'll be embedded within the Merchant Revenue &
+  Operations team, working closely with experienced operators and getting direct
+  exposure to our Regional and General Managers. Think of it as having a
+  supportive network of peers and leadership who are invested in your success.
+  We encourage a culture of shared learning and knowledge exchange, so even as
+  you're defining new paths, you'll have colleagues to bounce ideas off,
+  collaborate with, and lean on for insights. It's a challenging environment,
+  but one where your ideas are valued, and you're empowered to make a real
+  difference with the backing of a driven team.
+story_question3: >-
+  How does the team ensure effective cross-functional alignment and
+  communication when driving strategic initiatives across diverse regional teams
+  and departments?
+story_answer3: >-
+  Ah, that's crucial here! With a footprint in 30+ countries, collaboration is
+  our backbone. We rely heavily on structured communication channels, regular
+  syncs, and clear documentation, but more importantly, on building strong
+  personal relationships. As the S&O Manager, you'll be a central connector,
+  acting as a bridge between central strategy and local execution. This means
+  you'll regularly engage with country sales, account management, product, and
+  leadership teams. We foster an open-door policy where everyone is encouraged
+  to voice ideas and challenges. The goal is to create a sense of shared
+  ownership and accountability, ensuring everyone understands the 'why' behind
+  initiatives and feels empowered to contribute, regardless of their location or
+  department.
 ---
-About Wolt
-----------
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.  
-  
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in +30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.
-
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-We are looking for an operator with a strong bias to action who is excited to solve problems and improve our business. You can flex between scrappy executing, data analysis, executive communication and cross-functional management. You'll join the **Merchant Revenue & Operations** team, where we're focused on building the best merchant selection for our customers.
-
-As the **Merchant Revenue S&O Manager**, you will be responsible for driving revenue growth across your region via our local Sales and Account Management teams. You will build an operating playbook to work with your region improving sales productivity, launching strategic initiatives, implementing centrally driven programs, product launches and more. You will act like the COO of the region you cover, working closely with the RGM & GMs and being accountable to hitting merchant goals and growing the business. This is an Individual Contributor role, based in Germany.
-
-**What you will be doing**
---------------------------
-
-*   Working with country sales, account management, and leadership teams to align and execute country merchant strategy.
-*   Flex between high-level planning with local GMs, setting country goals and devising how to achieve them to getting into the details of the sales process, shadowing reps and finding areas of opportunity to improve.
-*   Holding regular business reviews to dig into country performance, get frontline feedback and hold local teams accountable.
-*   Launch strategic initiatives to increase frontline productivity and gain marketshare.
-*   Build sales strategy foundations across goal setting, rep enablement, incentives, and deal analysis.
-
-**Our humble expectations**
----------------------------
-
-*   You have 5+ years work experience in consulting, investment banking, operations, technology, startups, or related experiences.
-*   You are naturally curious and work independently to capitalize on growth opportunities.
-*   You do not shy away from getting your hands dirty, building and testing – you are comfortable in a place where the playbooks are still to be defined and built.
-*   You enjoy solving problems, you are comfortable with data and have solid analytical skills (SQL a plus).
-*   You have experience using CRM systems (Pipedrive & Salesforce a plus) and working with technical teams.
-*   You have an ability to build cross-functional partnerships at all levels across many different teams to achieve common goals.
-*   You communicate clearly and concisely in written and verbal comms.
-*   You want to affect change every day, are result-oriented and can operate in fast-paced environments.
-
-**What we offer**
------------------
-
-If you are excited about working with the nicest of people, in a high-growth environment, taking ownership, and being part of an ambitious team, then click below to apply and let's get the conversation going!
-
-Along with a competitive salary and benefits, you will also be eligible for our long term incentive plan.
-
-Our Commitment to Diversity and Inclusion
------------------------------------------
-
-We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\nWolt is a technology company focused on delivery services, started with restaurant food and now expanding to \"delivery of (almost) everything\" across over 500 cities in 30+ countries. In 2022, Wolt joined forces with DoorDash. Working at Wolt is described as exciting and challenging, fostering a high-growth environment where individuals learn, build, and ship significantly. The company seeks self-starters with an entrepreneurial spirit.\\n\\nThe **Merchant Revenue S&O Manager** will join the Merchant Revenue & Operations team, dedicated to building the best merchant selection for customers. This Individual Contributor role, based in Germany, requires an operator with a strong bias to action, capable of flexing between scrappy execution, data analysis, executive communication, and cross-functional management. The manager will be responsible for driving regional revenue growth via local Sales and Account Management teams, acting as the COO of their covered region, working closely with RGMs and GMs, and being accountable for merchant goals and business growth.\\n\\n### Responsibilities\\n* Work with country sales, account management, and leadership teams to align and execute country merchant strategy.\\n* Flex between high-level planning with local GMs, setting country goals and devising how to achieve them, and getting into the details of the sales process, shadowing reps, and finding areas of opportunity to improve.\\n* Hold regular business reviews to dig into country performance, get frontline feedback, and hold local teams accountable.\\n* Launch strategic initiatives to increase frontline productivity and gain market share.\\n* Build sales strategy foundations across goal setting, rep enablement, incentives, and deal analysis.\\n\\n### Qualifications\\n* 5+ years work experience in consulting, investment banking, operations, technology, startups, or related experiences.\\n* Naturally curious and able to work independently to capitalize on growth opportunities.\\n* Not shy away from getting hands dirty, building and testing – comfortable in a place where playbooks are still to be defined and built.\\n* Enjoy solving problems, comfortable with data, and possess solid analytical skills (SQL a plus).\\n* Experience using CRM systems (Pipedrive & Salesforce a plus) and working with technical teams.\\n* Ability to build cross-functional partnerships at all levels across many different teams to achieve common goals.\\n* Communicate clearly and concisely in written and verbal communications.\\n* Desire to affect change every day, result-oriented, and able to operate in fast-paced environments.\\n\\n### Author's Take\\nThis is a highly impactful Senior Individual Contributor role for an ambitious operator with a strong entrepreneurial spirit. It offers a unique opportunity to act as a \"COO\" for a specific region, directly shaping sales strategy, driving revenue growth, and building critical operational playbooks from the ground up. The ideal candidate will thrive in a fast-paced, high-growth environment where autonomy, data-driven decision-making, and cross-functional collaboration are key to success. Wolt emphasizes a culture of learning, building, and fun, making it an excellent fit for those who enjoy significant challenges and want to see their efforts translate into tangible business results. The mention of competitive salary, benefits, and long-term incentive plan makes it an attractive package.

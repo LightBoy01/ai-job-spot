@@ -8,76 +8,55 @@ applicationLink: >-
 postedDate: '2025-11-24T21:45:15.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/apaleo/customer-education-manager-munchen-301077
 companyLogoUrl: null
+companyCulture: >-
+  Apaleo fosters a diverse and collaborative environment, empowering employees
+  with autonomy and ample growth opportunities. They prioritize work-life
+  balance through flexible work options and invest in team connection and
+  professional development.
+story_question1: >-
+  What is the biggest challenge a Customer Education Manager faces when
+  translating Apaleo's complex, API-first platform capabilities into actionable
+  learning journeys for such diverse audiences as hoteliers and developers, and
+  how does the company culture support overcoming this?
+story_answer1: >-
+  That's a fantastic question. The real challenge, and also the most rewarding
+  part, is bridging the gap between the technical depth of our API-first
+  platform and the varied needs of our users – from a hotelier focused on daily
+  operations to a developer building integrations. It's like teaching two
+  different languages simultaneously! However, our culture of 'building boldly'
+  and 'collaborating openly' is key here. We're empowered to experiment with
+  different learning formats, gather direct feedback from product and customer
+  success teams, and truly own the education strategy end-to-end. There’s a
+  strong sense of trust and transparency, so if an approach isn't working, we
+  iterate quickly, knowing our voice influences direction and our impact is
+  visible. Plus, with dedicated learning budgets and 360° feedback, there's
+  always support to grow new skills and tackle these complex problems
+  creatively.
+story_question2: >-
+  How does Apaleo ensure a Customer Education Manager can truly impact product
+  adoption and customer satisfaction, beyond just content creation?
+story_answer2: >-
+  It's all about direct influence and being deeply integrated into the product
+  lifecycle. Unlike some roles where education is an afterthought, here we're
+  seen as strategic partners. We don't just create content; we *drive* the
+  education strategy, aligning it with the customer journey from onboarding to
+  advanced usage. This means sitting at the table with Product, Marketing, and
+  Customer Success to identify those crucial knowledge gaps *before* they become
+  pain points. We're constantly using analytics and customer feedback, not just
+  to tweak articles, but to validate our learning paths and certifications
+  directly against adoption metrics. Our culture values autonomy and ownership,
+  meaning if you see a way to make a bigger impact – say, through a new blended
+  learning program or a certification that boosts specific feature adoption –
+  you're given the freedom and resources to bring that idea to life. Your work
+  is tangible; you're directly empowering customers to maximize their use of a
+  platform that's redefining hospitality.
 ---
-At **Apaleo**, we're revolutionizing the hospitality industry with our API-first property management platform, giving accommodation providers the power to build a tech ecosystem that enhances both guest experiences and staff efficiency. With seamless integrations to hundreds of apps through the Apaleo Store, our platform simplifies operations, elevates the guest journey, and drives revenue growth. 
-
-Are you ready to make an impact? We're looking for a **Customer Education Manager (f/m/d)** who will design, build, and maintain Apaleo's customer learning programs. Your mission is to ensure hoteliers, developers, and partners get the most out of our platform, by turning complex product capabilities into simple, actionable learning journeys. 
-
-You will own the full spectrum of customer education: from training content to self-service academies and other scalable learning initiatives. By empowering our customers to become self-sufficient and confident Apaleo users, you'll directly contribute to product adoption, customer satisfaction, and long-term success. 
-
-**What you'll do** 
-
-*   Develop and execute a **customer education strategy** aligned with our customer journey (onboarding → adoption → advancement). 
-
-*   Create engaging **learning content** (videos, interactive tutorials, help center articles, certifications, webinars, guides). 
-
-*   Build and manage our **customer academy**, ensuring resources are accessible, up to date, and user-friendly. 
-
-*   Partner with Customer Success, Product, Marketing, and Community teams to identify knowledge gaps and deliver impactful learning paths. 
-
-*   Introduce **scalable education formats** such as role-based curriculums, product certifications, or blended learning programs. 
-
-*   Use analytics and customer feedback to continuously **improve content effectiveness** and learning experiences. 
-
-*   Champion a **customer-first mindset**, helping hoteliers, developers, and partners to unlock the full potential of open hospitality tech.   
-     
-
-**What you bring** 
-
-*   +2 experience in **customer education, enablement, or training** (ideally in SaaS or hospitality tech). 
-
-*   Strong ability to **translate technical concepts into clear, accessible learning** for different audiences. 
-
-*   Knowledge of **learning design principles** (instructional design, micro-learning, e-learning). 
-
-*   Hands-on skills with **authoring tools and platforms** (e.g., LMS, video editing, e-learning tools). 
-
-*   Excellent **project management skills** and ability to drive initiatives end-to-end. 
-
-*   Collaborative, proactive, and customer-centric mindset. 
-
-*   Fluent in English (German and French languages are a plus). 
-
-### **What We Offer**
-
-### **Culture & Growth**
-
-*   **A Diverse & International Team:** Work alongside passionate professionals from over 20 nationalities, bringing unique cultural perspectives, backgrounds, and experiences to shape the future of hospitality tech.
-*   **Growth & Development:** As we scale, so do your opportunities. You'll benefit from 360° feedback reviews, a dedicated learning budget, and plenty of chances to take on more responsibility. Our evolving career framework ensures you have increasing opportunities to learn new skills, advance your career, and make an impact.
-*   **Autonomy & Ownership:** Great ideas can come from anywhere. We empower you to take responsibility, make decisions, and contribute directly in an environment built on trust, transparency, and collaboration.
-*   **Shape the Future of Hospitality Tech:** Be part of a fast-growing scale-up transforming the hospitality industry. From day one, your work drives real impact and you'll have the freedom to bring your ideas to life.
-*   **Competitive & Fair Compensation:** We believe great work deserves great pay. Our salaries are competitive and guided by benchmarking data to ensure fairness across all roles and teams. We make sure to recognize and reward performance and contribution.
-
-### **Perks & Lifestyle**
-
-*   **Flexible & Remote Work Options:** We focus on results, not clocking hours. You can work from home, the office or in a hybrid setup, with flexibility to adapt your schedule as long as it makes sense for your role, your team and our business.
-*   **Free Public Transport:** Travel across Germany with ease using our fully covered _Deutschland Ticket_.
-*   **Team Connection:** Strong connections fuel collaboration. We celebrate and connect through regular team dinners, company meetups, Oktoberfest celebrations, Christmas parties, and other offsite events.
-*   **Paid Time Off:** Enjoy **30 days of vacation** to fully disconnect, recharge, and return inspired.
-*   **Health & Wellbeing:** Prioritize your health with access to hundreds of gyms, fitness studios, and wellness options through our **EGYM Wellpass** membership.
-
-**What it means to join Apaleo:**
-
-Joining Apaleo means stepping into a space where hospitality is being redefined from the ground up. You won't just support innovation you'll help drive it. Your work will directly shape an intelligent, AI-first platform used by hospitality teams across the globe. Here, your ideas power real products, your voice influences direction, and your impact is visible at every level. At Apaleo, we build boldly, collaborate openly, and grow together fast.
-
-_We are proud to be an Equal Opportunity and Affirmative Action Employer, committed to fostering a diverse, inclusive, and welcoming workplace. We encourage applications from individuals of all backgrounds, regardless of race, color, religion, gender identity or expression, sex, national origin, age, marital status, disability, or any other characteristic protected by applicable law. Your personal data will be handled with the utmost care and in compliance with GDPR and relevant data protection regulations. We celebrate differences and believe that diversity enriches our team and drives innovation._
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nApaleo is revolutionizing the hospitality industry with its API-first property management platform, enabling accommodation providers to build tech ecosystems that enhance guest experiences and staff efficiency. With seamless integrations to hundreds of apps through the Apaleo Store, the platform simplifies operations, elevates the guest journey, and drives revenue growth.\n\nApaleo is seeking a Customer Education Manager (f/m/d) to design, build, and maintain its customer learning programs. This role's mission is to ensure hoteliers, developers, and partners maximize their use of the platform by transforming complex product capabilities into simple, actionable learning journeys. You will own the full spectrum of customer education, from training content to self-service academies and scalable learning initiatives, directly contributing to product adoption, customer satisfaction, and long-term success by empowering customers to become self-sufficient and confident Apaleo users.\n\n### Responsibilities\n- Develop and execute a comprehensive customer education strategy aligned with the customer journey (onboarding → adoption → advancement).\n- Create engaging learning content, including videos, interactive tutorials, help center articles, certifications, webinars, and guides.\n- Build and manage the customer academy, ensuring resources are accessible, up to date, and user-friendly.\n- Partner with Customer Success, Product, Marketing, and Community teams to identify knowledge gaps and deliver impactful learning paths.\n- Introduce scalable education formats such as role-based curriculums, product certifications, or blended learning programs.\n- Utilize analytics and customer feedback to continuously improve content effectiveness and learning experiences.\n- Champion a customer-first mindset, helping hoteliers, developers, and partners unlock the full potential of open hospitality tech.\n\n### Qualifications\n- +2 years of experience in customer education, enablement, or training (ideally in SaaS or hospitality tech).\n- Strong ability to translate technical concepts into clear, accessible learning for diverse audiences.\n- Knowledge of learning design principles (instructional design, micro-learning, e-learning).\n- Hands-on skills with authoring tools and platforms (e.g., LMS, video editing, e-learning tools).\n- Excellent project management skills and ability to drive initiatives end-to-end.\n- Collaborative, proactive, and customer-centric mindset.\n- Fluent in English (German and French languages are a plus).\n\n### Author's Take\nThis is an exciting opportunity for an experienced Customer Education professional to take full ownership of a critical function within a fast-growing, innovative scale-up. The role offers significant autonomy to shape and drive the customer learning strategy for a diverse user base, directly impacting product adoption and customer success. Apaleo emphasizes a collaborative, international environment with a strong focus on personal growth, development, and work-life balance through flexible work options and comprehensive benefits. If you're passionate about empowering users and thrive in a dynamic, impact-driven culture, this role offers a chance to genuinely redefine hospitality tech.

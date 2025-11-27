@@ -11,78 +11,51 @@ postedDate: '2025-11-26T14:32:01.000Z'
 expirationDate: null
 tags:
   - Administration
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/quaker-houghton/sachbearbeiterin-auftragsbearbeitung-versand-export-allgem-administration-monheim-am-rhein-178744
 companyLogoUrl: null
+companyCulture: >-
+  IMP Monheim fosters a supportive, collaborative, and customer-centric culture
+  where employees are seen as the greatest strength. The company is committed to
+  continuous learning, diversity, employee well-being, and provides
+  opportunities for growth within a team-oriented environment focused on shared
+  success.
+story_question1: >-
+  Given the intricacies of international shipping and export regulations, what's
+  the most challenging aspect of ensuring seamless logistics operations, and how
+  does the team support each other through these complexities?
+story_answer1: >-
+  Oh, the world of international logistics is a fascinating puzzle, isn't it?
+  The most challenging part is definitely staying ahead of the constantly
+  evolving customs regulations and ensuring every single document is perfect,
+  especially with dangerous goods sometimes involved. One tiny mistake can cause
+  huge delays. But honestly, that's where our team shines. We have a culture of
+  'no one gets left behind.' If someone is grappling with a particularly tricky
+  export case or a new customs requirement, we immediately huddle. We share
+  knowledge, double-check each other's work, and leverage our collective
+  experience. It's not just about getting the job done; it's about making sure
+  we all grow together and learn from every challenge, ultimately guaranteeing
+  our customers receive their specialized resins without a hitch.
+story_question2: >-
+  How does this administrative role directly contribute to IMP Monheim's core
+  mission of exceeding customer expectations, and what opportunities are there
+  to see the tangible impact of one's work?
+story_answer2: >-
+  That's a fantastic question, because it really gets to the heart of why this
+  role is so vital. While it's administrative, every single order confirmation,
+  every meticulously prepared shipping document, every customs declaration,
+  directly ensures our customers get the precise impregnation resins they need,
+  exactly when they need them. We're not just processing paperwork; we're
+  facilitating the delivery of critical solutions. You see the tangible impact
+  daily – from the successful dispatch of a complex international order to a
+  satisfied client who praises our smooth logistics. It’s incredibly rewarding
+  to know that our attention to detail and efficiency directly translates into
+  our customers' success, strengthening IMP's reputation as a reliable partner.
+  We're truly at the forefront of customer satisfaction, even behind the scenes.
 ---
-Unsere Mitarbeitenden sind unsere größte Stärke. Wir sind ein Team von Kolleg:innen, die zusammenarbeiten, um gemeinsam voranzukommen und die Erwartungen unserer Kund:innen zu übertreffen.
-
-Das Team der **IMP Monheim** spielt eine wichtige und wertschöpfende Rolle. Werden Sie Teil eines Teams, in dem die gegenseitige Unterstützung Teil der Kultur ist, in einem Unternehmen, in dem der Erfolg unserer Kund:innen unser eigener ist.
-
-Zum nächstmöglichsten Zeitpunkt suchen wir in Vollzeit eine:n:
-
-**Sachbearbeiter\*in Auftragsbearbeitung/Versand & Export / allgem. Administration**
-
-für den Standort **IMP Monheim**
-
-Aufgaben
---------
-
-*   Administrative Auftragsabwicklung aller Verkaufsaufträge im Warenwirtschaftssystem Alphaplan inkl. Dokumentenerstellung und Archivierung (Produktionsaufträge, Auftragsbestätigungen, Lieferscheine, Rechnungen, sonstige Ausfuhrbegleitdokumente, usw.)
-*   Erledigung der Zollformalitäten (u. a. Intrastat-Meldungen, Sanktionslistenprüfung oder Auskunftsersuchen an BAFA)
-*   Organisation der Transportlogistik (teilweise Gefahrgut) und Beauftragung von Spediteuren;
-*   Erstellung von Ursprungsdokumenten
-*   Kundenkorrespondenz in überwiegend englischer Sprache
-*   Angebotserstellung in Absprache mit der Verkaufsleitung/ Geschäftsführung
-*   Eingangs-Rechnungsbearbeitung (u.a. Eingang, Prüfung, EDV, Archivierung)
-*   Eingangspostbearbeitung
-*   eigenständiger Einkauf von Büromaterial und allgemeinem Verbrauchsmaterial
-*   Unterstützende Tätigkeit bei Erstellung von Statistiken (u.a. Transport-, Einkaufs-, Verkaufs- und Lagerstatistiken)
-*   Ausfertigung von Lieferantenbeurteilungen
-*   Allgemeine Bürotätigkeiten (u.a. Datenbankpflege, vorbereitende Arbeiten für Monatsabschluss und Jahresabschluss)
-
-Qualifikation
--------------
-
-*   Erfolgreich abgeschlossene Ausbildung zur/m Speditionskauffrau/-mann oder Groß- & Außenhandelskauffrau/-mann
-*   Mehrjährige Berufserfahrung in einer ähnlichen Position in einer Teamumgebung
-*   IT-Kenntnisse: Beherrschung von Microsoft Word, Excel und Outlook
-*   Sprachen: Deutsch auf professionellem Niveau in Wort und Schrift / Englischkenntnisse verhandlungssicher in Wort und Schrift
-*   Idealerweise Kenntnisse in Zoll- und Außenwirtschaftsangelegenheiten
-*   Soft Skills: Sie sind proaktiv, lösungsorientiert, offen für neue Vorgehensweisen und haben Spaß am Umgang mit internen und externen Kunden
-
-Benefits
---------
-
-Was ist für Sie drin?
-
-*   Konkurrenzfähiges Gehalt plus Urlaubs- und Weihnachtsgeld
-*   bis zu 2 Tage Freistellung für Freiwilligenarbeit jährlich möglich
-*   Attraktive Programme für Wohlbefinden, Integration von Frauen und Diversität
-*   Onboarding-Schulungen sowie kontinuierliche Lern- und Entwicklungsprogramme im Rahmen unserer QH University
-
-**Wer sind wir?**
-
-IMP ist ein führender Anbieter von Imprägnierung mit hochspezialisierten Imprägnierharzen.
-
-Wir konzentrieren uns auf das, was wir am besten können: Imprägnierung für höchste Ansprüche. Auf Basis unserer über 30-jährigen Erfahrung entwickeln und implementieren wir Lösungen, die sich exakt an den Bedürfnissen unserer Kunden orientieren – sowohl technisch als auch wirtschaftlich. Mit hochspezialisierten Imprägnierharzen und Wasserchemikalien stellen wir sicher, dass Sie sich auf zuverlässige Ergebnisse und reibungslose Prozesse verlassen können.
-
-Unsere Grundwerte verkörpern, wer wir als Unternehmen sind, leiten unsere Entscheidungen und inspirieren uns. Unser Engagement für diese Werte in Wort und Tat macht IMP Monheim sicherer und stärker. Sie sind die grundlegenden Überzeugungen, die unser internes Verhalten und unser Verhältnis zur Außenwelt bestimmen.
-
-**Unsere Werte sind:**
-
-*   Sicher leben
-*   Kundenerwartungen übertreffen
-*   Ergebnisse vorantreiben
-*   Vielfalt annehmen
-*   Gemeinsam Großes leisten
-*   Mit Integrität handeln
-
-**Wir freuen uns auf Ihre Bewerbung!**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nIMP Monheim, a leading provider of highly specialized impregnation resins, is seeking a dedicated Order Processing, Shipping & Export Clerk / General Administration professional for its Monheim location. The company prides itself on a culture where employees are its greatest strength, fostering teamwork, mutual support, and a commitment to exceeding customer expectations. This role is crucial in ensuring smooth administrative and logistical operations, directly supporting the company's core mission and its values of safety, customer focus, results, diversity, collaboration, and integrity.\n\n### Responsibilities\n- Administratively process all sales orders within the Alphaplan ERP system, including the creation and archiving of necessary documents such as production orders, order confirmations, delivery notes, invoices, and other export accompanying documents.\n- Handle all customs formalities, including Intrastat declarations, sanctions list checks, and requests for information from BAFA.\n- Organize transport logistics, which may involve dangerous goods, and appoint freight forwarders.\n- Create certificates of origin for goods.\n- Conduct customer correspondence, primarily in English.\n- Prepare offers in coordination with sales management and general management.\n- Process incoming invoices, including receipt, verification, data entry, and archiving.\n- Manage incoming mail.\n- Independently procure office supplies and general consumables.\n- Assist in the creation of various statistics, including transport, purchasing, sales, and inventory statistics.\n- Prepare supplier evaluations.\n- Perform general office duties, such as database maintenance and preparatory work for month-end and year-end closing.\n\n### Qualifications\n- Successfully completed vocational training as a freight forwarding agent (Speditionskauffrau/-mann) or a wholesale and foreign trade merchant (Groß- & Außenhandelskauffrau/-mann).\n- Several years of professional experience in a similar team-based position.\n- Proficient IT skills, specifically in Microsoft Word, Excel, and Outlook.\n- Professional proficiency in spoken and written German, and business-fluent English (spoken and written).\n- Ideally, possessing knowledge of customs and foreign trade matters.\n- Demonstrated soft skills including proactivity, a solution-oriented mindset, openness to new procedures, and enjoyment in interacting with both internal and external customers.\n\n### Author's Take\nThis is a pivotal Mid-Senior role at IMP Monheim, offering a chance to significantly contribute to international logistics and administrative efficiency. The company fosters a highly supportive, team-oriented environment focused on growth and employee well-being, complemented by competitive benefits like vacation and Christmas bonuses, and continuous learning programs. It's an excellent opportunity for a detail-oriented professional with strong organizational and language skills, especially in foreign trade, to thrive and make a tangible impact within a collaborative culture.

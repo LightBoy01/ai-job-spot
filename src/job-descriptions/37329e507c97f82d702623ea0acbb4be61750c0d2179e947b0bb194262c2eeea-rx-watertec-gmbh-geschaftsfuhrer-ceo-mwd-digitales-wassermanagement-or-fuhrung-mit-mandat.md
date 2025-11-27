@@ -11,53 +11,58 @@ tags:
   - Remote
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Executive
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/rx-watertec-gmbh/geschaftsfuhrer-ceo-digitales-wassermanagement-fuhrung-mit-mandat-karlsruhe-51854
 companyLogoUrl: null
+companyCulture: >-
+  RX-WATERTEC cultivates a remote-first culture emphasizing flexible work,
+  strong collaboration, and clear communication, valuing ownership and enabling
+  quick, expert-driven decisions. This fosters an interdisciplinary,
+  innovation-focused environment where employees can make a tangible impact on
+  climate-resilient infrastructure.
+story_question1: >-
+  What do you see as the single most critical challenge for RX-WATERTEC in its
+  journey to scale, and how will this CEO role directly address it?
+story_answer1: >-
+  Honestly, the biggest challenge isn't just about finding the right tech – it's
+  about navigating the unique ecosystem of the water industry. We're dealing
+  with public infrastructure, long sales cycles, and a need for deep trust. The
+  CEO isn't just a tech leader; they're an ambassador, building relationships
+  with municipalities and utility providers. Their job is to translate our
+  cutting-edge IoT and AI solutions into tangible, resilient infrastructure
+  improvements, proving our impact beyond just software. It’s about building a
+  legacy, not just a product.
+story_question2: >-
+  How does RX-WATERTEC's 'Remote-First with real team feeling' approach
+  translate into effective collaboration and innovation for a company focused on
+  physical infrastructure and B2B partnerships?
+story_answer2: >-
+  It's a balance, right? We're remote-first, but we're absolutely not
+  'remote-alone.' We prioritize structured collaboration tools, regular virtual
+  check-ins, and intentional opportunities for team building. But crucially, our
+  'real team feeling' also comes from the shared mission. Everyone understands
+  we're building solutions that make real-world infrastructure smarter and more
+  climate-resilient. That common purpose, combined with clear ownership and fast
+  decision-making, keeps us aligned and innovative, even when we're
+  geographically dispersed. It's about outcomes and trust, not just being in the
+  same room.
+story_question3: >-
+  With a Mittelstandsinvestor backing the company, how does this relationship
+  influence the strategic direction, operational autonomy, and long-term vision
+  for RX-WATERTEC?
+story_answer3: >-
+  It's a true partnership, not just an investment. The investor brings not only
+  capital but also a robust network and a deep understanding of scaling
+  successful businesses. This means the CEO has a real mandate and significant
+  autonomy to shape the company's future, but also strategic guidance and a
+  sounding board for major decisions. We're empowered to move fast and innovate,
+  knowing we have strong financial backing and experienced counsel. It’s about
+  leveraging that support to achieve our ambitious vision without the typical
+  corporate bureaucracy.
 ---
-**Deine Rolle: Ein skalierbares Watertech-Unternehmen formen – mit echtem Mandat**
-
-RX-WATERTEC entwickelt digitale Lösungen für Regenwassermanagement, Smart Infrastructure und klimaresiliente Städte. IoT, KI und Plattformtechnologien sind die Basis – der Bedarf in Kommunen und Infrastruktur wächst stark.
-
-Für die nächste Wachstumsphase suchen wir eine Führungspersönlichkeit, die Wasserbranche versteht, unternehmerisch denkt und ein Team durch Skalierung führt. Mit dem Mittelstandsinvestor im Rücken hast du Kapital, Umsetzungskraft und ein belastbares Netzwerk.
-
-Aufgaben
---------
-
-**Dein Auftrag**
-
-*   **Skalierbares Wachstum:** Du setzt die Unternehmensstrategie auf, verantwortest Umsatz, Ergebnis, Finanzierung und führst RX-WATERTEC durch die kommenden Skalierungsstufen.
-*   **Markt & Geschäftsentwicklung:** Du baust unseren Footprint im Markt aus, öffnest Türen zu Kommunen, Versorgern, Ingenieurbüros und Partnern und positionierst RX-WATERTEC als relevanten Player im digitalen Wassermanagement.
-*   **Produkt & Innovation:** Du erkennst, welche digitalen Lösungen der Markt braucht, und entwickelst gemeinsam mit Produkt und Technik ein skalierbares Portfolio.
-*   **Führung & Organisation:** Du baust ein Leadership-Team auf, schaffst Strukturen, Prozesse, Prioritäten und stärkst eine Kultur von Ownership, Klarheit und Zusammenarbeit.
-*   **Investor- & Stakeholder-Management:** Du kommunizierst strategisch, bereitest Entscheidungen vor und vertrittst RX-WATERTEC gegenüber unseren Investoren, Politik, Gremien und Marktpartnern.
-
-Qualifikation
--------------
-
-**Was du mitbringen musst**
-
-*   **Erfahrung in der Wasserwirtschaft:** Du kennst den Markt, seine Strukturen, seine Dynamiken. Wasserwirtschaft ist für dich kein Fremdwort, sondern dein berufliches Umfeld.
-*   **Unternehmerische Führung:** Du hast Organisationen aufgebaut oder durch Wachstumsphasen geführt – ob in Start-ups, Scale-ups oder in innovations- und digitalgetriebenen Bereichen.
-*   **Business Development & Marktaufbau.** Du hast Märkte eröffnet, Partnerschaften aufgebaut und komplexe B2B-/Infrastrukturprodukte erfolgreich in den Markt getragen.
-*   **Hands-on-Leadership:** Du führst nah am Team, triffst klare Entscheidungen und bringst Energie, Struktur und Verantwortung mit.
-*   **Kommunikationsstärke:** Du kannst komplexe Themen greifbar machen: gegenüber Teams, Investoren und Partnern.
-
-Benefits
---------
-
-**Dein Vorteil: Ein ScaleUp mit Substanz**
-
-*   **Mandat & Gestaltungsmacht:** Du führst das Unternehmen als CEO – mit Kapital, Rückendeckung und einem starken Investor.
-*   **Aufbauarbeit mit messbarem Impact**: Du gestaltest Lösungen, die reale Infrastruktur intelligenter machen. Kein Software-Play ohne Wirkung.
-*   **Remote-First mit echtem Teamgefühl**: Flexibles Arbeiten ohne Präsenzkultur, verbunden mit klarer Zusammenarbeit.
-*   **Interdisziplinäres Umfeld**: IoT, Software, Wasserwirtschaft, Infrastruktur und Klimaanpassung. Ein Umfeld, das Fachlichkeit und Innovation verbindet.
-*   **Schnelle Entscheidungen**: Keine Konzernstrukturen. Keine langen Schleifen. Entscheidungen dort, wo Expertise sitzt.
-*   **Innovations- und Tech-Fokus**: Du führst ein Unternehmen, dessen Kern aus Technologie, Daten und Skalierung besteht.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nRX-WATERTEC is developing digital solutions for rainwater management, smart infrastructure, and climate-resilient cities. Leveraging IoT, AI, and platform technologies, the company addresses a rapidly growing demand in municipalities and infrastructure sectors.\n\nFor its next growth phase, RX-WATERTEC is seeking a leadership personality who understands the water industry, thinks entrepreneurially, and can lead a team through significant scaling. Backed by a strong Mittelstand investor, this role comes with substantial capital, execution power, and a robust network. You will be instrumental in shaping a scalable watertech enterprise with a genuine mandate.\n\n### Responsibilities\n*   **Scalable Growth:** You will establish the corporate strategy, be responsible for revenue, results, and financing, and lead RX-WATERTEC through its upcoming scaling stages.\n*   **Market & Business Development:** You will expand our market footprint, open doors to municipalities, utilities, engineering firms, and partners, positioning RX-WATERTEC as a relevant player in digital water management.\n*   **Product & Innovation:** You will identify the digital solutions the market requires and develop a scalable portfolio collaboratively with the product and technology teams.\n*   **Leadership & Organization:** You will build a leadership team, create structures, processes, priorities, and foster a culture of ownership, clarity, and collaboration.\n*   **Investor- & Stakeholder-Management:** You will communicate strategically, prepare decisions, and represent RX-WATERTEC to our investors, politicians, committees, and market partners.\n\n### Qualifications\n*   **Experience in the Water Industry:** You know the market, its structures, and dynamics. Water management is not a foreign concept but your professional environment.\n*   **Entrepreneurial Leadership:** You have built organizations or guided them through growth phases – whether in startups, scale-ups, or in innovation- and digitally-driven areas.\n*   **Business Development & Market Expansion:** You have opened markets, built partnerships, and successfully introduced complex B2B/infrastructure products to the market.\n*   **Hands-on-Leadership:** You lead closely with the team, make clear decisions, and bring energy, structure, and responsibility.\n*   **Communication Skills:** You can make complex topics tangible: to teams, investors, and partners.\n\n### Author's Take\nThis is a high-impact Executive role leading RX-WATERTEC as CEO, with a clear mandate and strong backing from a Mittelstand investor. It offers a unique opportunity to shape the future of digital water management and climate-resilient cities, combining cutting-edge technology with real-world infrastructure challenges. The company culture is remote-first, fostering flexible work, strong collaboration, and quick, expert-driven decision-making. You will enjoy significant autonomy, the chance for measurable impact, and an innovative, interdisciplinary environment focused on tech, data, and scalability. This is an ideal position for a visionary leader passionate about making a tangible difference in critical infrastructure.

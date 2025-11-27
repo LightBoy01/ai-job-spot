@@ -10,63 +10,64 @@ expirationDate: null
 tags:
   - Remote
   - Distribution Marketing
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
+salaryRange: €150 - €300 per day
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/airlead-gmbh/nebenjob-als-promoter-green-energy-field-agent-teilzeit-vollzeit-dusseldorf-462384
 companyLogoUrl: null
+companyCulture: >-
+  Hyperplace fosters a dynamic, outdoor-centric 'crew' culture where individuals
+  actively contribute to a greener future without traditional sales pressure. It
+  emphasizes rapid personal and career growth, offering extensive travel and a
+  strong, supportive community, prioritizing a flexible lifestyle over a
+  conventional 9-5 office environment.
+story_question1: >-
+  The job description highlights a 'no sales, no paperwork' approach, focusing
+  on collecting contact details. How does this strategy effectively translate
+  into real impact, encouraging people to switch to green energy and save on
+  costs, and what role does the Field Agent's positive interaction play in the
+  overall success of Hyperplace's mission?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what we do.
+  Our 'no-sales' approach is actually our superpower. Think of it like this: the
+  energy transition is intimidating for many. People are wary of pushy
+  salespeople. Our Field Agents, our 'Crew,' aren't there to close a deal;
+  they're there to build trust, share enthusiasm, and simply open the door –
+  literally and figuratively – for a conversation. When you leave someone with a
+  genuine smile and a positive impression, having listened to their concerns and
+  offered a simple, no-pressure next step, you've done something incredibly
+  powerful. You've humanized the switch to green energy. The back office handles
+  the technicalities, but the initial spark, that feeling of genuine help and
+  connection, that's entirely on the Field Agent. It's about planting seeds of
+  change, not forcing a harvest. That initial positive vibe you create? That's
+  what allows our experts to then guide them through the process, making it feel
+  less like a transaction and more like a helpful hand in making a positive
+  choice for their home and the planet. You're the crucial first link in a chain
+  of real-world change.
+story_question2: >-
+  The opportunity for rapid advancement to 'Teamlead in Wochen' and extensive
+  'Crew-Reisen' across Europe sounds incredibly appealing and dynamic. How does
+  Hyperplace support individuals in balancing this fast-paced growth and travel
+  with personal stability and continued development, ensuring everyone feels
+  grounded within such a fluid and adventurous environment?
+story_answer2: >-
+  It's true, our environment is designed for dynamism and rapid growth – it's
+  definitely not a 'sit-still' kind of place! But that doesn't mean it's
+  chaotic. We structure our 'Crew-Reisen' with clear goals and excellent
+  logistical support, ensuring comfortable Airbnbs and a strong team presence.
+  The 'Teamlead in Wochen' isn't just a promise; it's built into our development
+  pathways with structured training and mentorship. We believe stability comes
+  from within the community itself – your crew becomes your second family on the
+  road. We also foster a culture of open communication and peer support. You're
+  never alone; you're always part of something bigger. Plus, the constant
+  exposure to new cities and challenges is, in itself, a form of personal
+  development that keeps you sharp and adaptable. It's about finding stability
+  in movement, knowing you're always surrounded by people who are just as
+  ambitious and supportive as you are. We celebrate individual success but
+  thrive on collective energy, making sure everyone feels empowered and
+  connected, no matter where our next adventure takes us.
 ---
-Bei Hyperplace bauen wir eine neue Generation von Energie-Promotern auf – eine Crew, die nicht im Büro versauert, sondern **draußen echte Veränderung bringt**.
-
-Kein Gelaber. Kein Papierkram. Kein Verkauf.
-
-Nur du, deine Präsenz, und Gespräche, die Menschen helfen **auf grüne Energie umzusteigen,** **ihre Stromkosten zu senken** und den **Planeten retten**!
-
-Wenn du einen Job willst, der sich nicht wie Arbeit anfühlt – **komm rein.**
-
-Aufgaben
---------
-
-*   Du klingelst an Türen in deiner Stadt und führst **sympathische Kurzgespräche** über Stromkostensenkung und Grüne Energie.
-*   Du nimmst **nur Kontaktdaten** auf – kein Vertrag, kein Verkauf.
-*   Du hinterlässt ein gutes Gefühl, wir übernehmen danach alles im Innendienst.
-*   Du bist das Gesicht der Crew – Energie, Charisma, guter Vibe.
-
-Qualifikation
--------------
-
-*   Mut mit fremde Menschen zu sprechen.
-*   Ein Lächeln, das Wände einreißt.
-*   Energie, die man spürt.
-*   Zuverlässigkeit – deine Crew verlässt sich auf dich.
-*   Lust, besser zu werden.
-*   Mind. 18 Jahre und solide Deutschkenntnisse.
-
-Benefits
---------
-
-*   **150–300 € pro Tag** – und ja, das ist realistisch.
-*   **Crew-Reisen**: Mit deinem Team eine Woche in _Berlin, München, Hamburg, Köln_. Oder wenn du Bock hast: **Frankreich, UK, Spanien, Schweden, Polen, Dänemark** – ein paar Tage oder gleich Monate Lerne die Sprache – oder lerne sie dort.
-*   **Lifestyle statt 9–5**: Draußen sein, bewegen, Menschen treffen.
-*   **Aufstieg in Wochen, nicht Jahren**: Vom Field Agent zum Teamlead.
-*   Airbnb-Wochen, neue Städte, neue Menschen, viel Energie.
-*   **Eine Community, die ballert**: junge Leute, die was wollen, nicht warten.
-
-\-> Weil wir etwas bauen, das größer ist als ein Job.
-
-\-> Ein Netzwerk, eine Crew, eine Bewegung.
-
-\-> Jeder Einsatz fühlt sich an wie ein kleiner Roadtrip.
-
-\-> Jeder Tag gibt dir das Gefühl, **vorwärts** zu kommen – finanziell, sozial, menschlich.
-
-Wenn du willst, dass 2026 ein **Gamechanger-Jahr** für dich wird:
-
-**Dann ist das dein Einstieg. 🔥🔥**
-
-**⚡ Jetzt bewerben und morgen schon draußen mit der Crew stehen.**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nJoin Hyperplace as an Energy Promoter and become part of a movement that's driving real change towards green energy, not from an office desk, but out in the field. This isn't about sales pitches or endless paperwork; it's about engaging in genuine, short conversations that help people understand how to reduce their electricity costs and contribute to saving the planet. If you're looking for a role that feels less like work and more like a lifestyle, one that offers rapid growth, travel, and a vibrant community, then this is your opportunity to make a tangible impact.\n\n### Responsibilities\n- Approach residents door-to-door in your city to initiate friendly, brief conversations about reducing electricity costs and transitioning to green energy.\n- Collect only contact details from interested individuals; this role involves no contracts or direct sales.\n- Ensure every interaction leaves a positive impression, setting the stage for the internal team to follow up effectively.\n- Represent the Hyperplace crew with high energy, charisma, and a genuinely positive attitude.\n\n### Qualifications\n- Courage and confidence to initiate conversations with strangers.\n- An inherently positive and approachable demeanor, capable of building rapport quickly.\n- High levels of energy and enthusiasm for engaging with the public.\n- Strong reliability and a commitment to being a dependable team member.\n- A proactive desire for continuous personal and professional improvement.\n- Must be at least 18 years old and possess solid German language skills.\n\n### Author's Take\nThis is a truly unique entry-level opportunity for individuals passionate about sustainability and seeking a dynamic, non-traditional career path. Hyperplace offers an exceptional compensation model with high daily earnings (€150-€300 per day) and an unparalleled benefits package including extensive crew travel across Europe, Airbnb stays, and rapid career progression from Field Agent to Teamlead in a matter of weeks. The emphasis on a \"lifestyle over 9-5\" and a \"community that rocks\" makes this role perfect for young, ambitious individuals who want to be part of a movement, not just a job. If you're ready for a \"Gamechanger-Jahr\" and thrive in an outdoor, social, and fast-paced environment, Hyperplace is calling. This is your chance to grow financially, socially, and personally while making a significant positive impact.

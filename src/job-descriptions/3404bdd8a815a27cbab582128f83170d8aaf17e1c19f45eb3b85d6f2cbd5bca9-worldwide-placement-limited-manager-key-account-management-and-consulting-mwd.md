@@ -9,77 +9,64 @@ postedDate: '2025-11-25T11:01:57.000Z'
 expirationDate: null
 tags:
   - Business Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/worldwide-placement-limited/manager-key-account-management-consulting-munich-271709
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative, values-driven environment with a strong
+  emphasis on personal development, career growth, and autonomy. It supports a
+  flexible work model, offering a good work-life balance with 30 vacation days
+  and a culture of appreciation and open communication.
+story_question1: >-
+  What is the most significant strategic challenge this role will address, and
+  how does the company empower its consultants to overcome such obstacles and
+  drive tangible client impact?
+story_answer1: >-
+  In this role, you're not just managing projects; you're shaping the future of
+  our clients' digital transformations. The biggest challenge often lies in
+  bridging the gap between a client's aspirational strategy and the practical,
+  sustainable implementation. We empower our consultants by giving them
+  significant autonomy and direct access to management, allowing for swift
+  decision-making and creative problem-solving. It's about building trust,
+  leveraging our collective expertise, and seeing those strategic goals
+  materialize into real, measurable success stories for market leaders. Our
+  values, especially 'Cooperation & Communication' and 'Personal Development,'
+  aren't just words – they're the bedrock of how we tackle these challenges
+  together, ensuring every win is a team effort and a learning opportunity.
+story_question2: >-
+  Given the focus on key account expansion and sales, what support systems and
+  collaborative dynamics exist to help a new leader successfully navigate and
+  grow these strategic client relationships?
+story_answer2: >-
+  Joining us, you'll find a highly supportive ecosystem for expanding key
+  accounts. You won't be building from scratch; we boast a repeat business rate
+  of over 90%, meaning you'll inherit strong foundations. Our collaborative
+  model, rooted in 'Cooperation & Communication,' means you'll work closely with
+  existing leadership and experienced teams. We share insights, co-create
+  strategies, and leverage each other's networks. Plus, with 'Personal
+  Development' as a core value, you'll have mentoring from management and the
+  freedom to innovate your approach to sales and growth, backed by a portfolio
+  of market-leading clients eager for our transformative solutions.
+story_question3: >-
+  What does "Great freedom in design and decision-making" truly look like in
+  practice for a leader in this position, particularly when balancing client
+  expectations with internal strategy and resource allocation?
+story_answer3: >-
+  That freedom isn't just a perk; it's fundamental to how we operate. As a
+  leader, you're empowered to truly own your strategic accounts and projects.
+  This means you’re not just executing; you’re designing the solution
+  architecture, defining the engagement model, and making critical decisions
+  that directly impact both client success and our company's growth. Of course,
+  it's a balance – aligning with our strategic goals and ensuring efficient
+  resource allocation – but the trust from management is immense. We value
+  initiative and entrepreneurial spirit, providing you the canvas and the tools
+  to paint a masterpiece, with management acting as a sounding board and
+  strategic partner, rather than a bottleneck. It's about calculated autonomy to
+  drive impact.
 ---
-**IMPORTANT NOTE: CANDIDATES MUST BE BASED AND HAVE WORKED WITH COMPANIES IN GERMANY**
-
-*   **Location: Munich, Germany**
-*   **Work Policy: Hybrid; home office flexible, no fixed rule**
-*   **Work Experience: Minimum 7 years of experience**
-*   **Language Requirement: German (C1) and English (C1) language proficiency**
-*   **Employment Type: Full-time**
-*   **Skills Required: Consulting, IT Project Management, Project Management, MS Office, Jira, Confluence, Sales Execution**
-*   **Industry: Management & IT Consulting**
-*   **Positions Available: 1**
-
-**Company Mission**
-
-As specialists in transforming strategic goals into sustainable digital solutions, we advise our clients on managing and implementing digitalization projects and on the transformation towards a future-proof business and IT organization. Our service portfolio encompasses the key elements of successful transformation projects: from consistent alignment with strategy, through the development of actionable target visions, the establishment of collaborative models, and comprehensive requirements management, to reliable implementation. Together with our technology partners, we assume implementation responsibility for complex IT solutions. Our clients include market leaders and industry heavyweights from the automotive, retail, and other sectors. A repeat business rate of over 90%, a managed total project volume of approximately €1.7 billion, and continuous growth since our founding in 2008 are just some of the key indicators of our success.
-
-**Core Values**
-
-Our values ​​are:  
-\- Joy & Fun  
-\- Appreciation & Respect  
-\- Cooperation & Communication  
-\- Personal development  
-\- Goal orientation
-
-Tasks
------
-
-*   Strategic responsibility for (multiple) key accounts and projects – from defining objectives to successful implementation
-*   Professional and disciplinary management of project managers and consultants in transformation and IT projects
-*   Building new customer relationships and/or expanding existing customer relationships, as well as actively contributing to sales and growth strategies
-*   Control and quality assurance of complex multi-project setups with a focus on efficiency, profitability and customer satisfaction
-*   Development and presentation of strategic concepts and decision-making documents at the management level
-*   Close collaboration with management to further develop service portfolios and internal structures
-
-Requirements
-------------
-
-As an experienced consultant with a strong understanding of people, business, and projects, you will actively shape the future of digital transformation. In this role, you will assume strategic responsibility for key clients and project portfolios, lead interdisciplinary teams, and make a significant contribution to the further development of our company. Together with our clients – leading companies in the automotive, retail, and insurance sectors – you will develop sustainable solutions, manage complex digitalization initiatives, and build long-term partnerships.
-
-What you need to be successful with us:
-
-*   Completed university degree ([B.Sc](http://B.Sc)./M.Sc./MBA or equivalent)
-*   7–10 years of experience in management or IT consulting with demonstrable sales experience
-*   Strong understanding of key account management and project control
-*   Proven sales success and enthusiasm for entrepreneurial activity
-*   Excellent German and English skills (C1) as well as proficient use of MS Office (especially PowerPoint & Excel)
-*   Empathetic, solution-oriented personality with clear communication, structure and negotiation skills
-*   Willingness to travel (~30%) and identification with the company's values
-
-Benefits
---------
-
-*   Key position with direct influence on company development and growth, reporting to management
-*   Great freedom in design and decision-making, and mentoring for consultants
-*   Broad customer and industry portfolio, multi-project management and active expansion of key accounts
-*   Flexible working model: Home office as needed, approx. 30% travel and a modern office at Munich East Station
-*   Permanent contract, 30 vacation days, Wellpass subsidy, JobRad (company bike scheme), corporate benefits platform
-*   High visibility and career opportunities in a growing, values-driven boutique consultancy
-
-🔎 Hiring Process  
-▪ Step 1 – CV screening & initial HR/recruiter call (culture & basic fit)  
-▪ Step 2 – Interview with management (leadership, sales & strategic fit)  
-▪ Step 3 – Final meeting/case with broader management team; offer decision
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\n**IMPORTANT NOTE: CANDIDATES MUST BE BASED AND HAVE WORKED WITH COMPANIES IN GERMANY.**\n\nThis role is located in Munich, Germany, with a hybrid work policy offering home office flexibility. We are a leading Management & IT Consulting firm specializing in transforming strategic goals into sustainable digital solutions for market leaders in automotive, retail, and other sectors. With a repeat business rate of over 90% and continuous growth since 2008, we pride ourselves on our client success and innovative approach.\n\nAs an experienced consultant with a strong understanding of people, business, and projects, you will actively shape the future of digital transformation. In this full-time position, you will assume strategic responsibility for key clients and project portfolios, lead interdisciplinary teams, and make a significant contribution to the further development of our company.\n\n### Responsibilities\n- Strategic responsibility for (multiple) key accounts and projects – from defining objectives to successful implementation.\n- Professional and disciplinary management of project managers and consultants in transformation and IT projects.\n- Building new customer relationships and/or expanding existing customer relationships, as well as actively contributing to sales and growth strategies.\n- Control and quality assurance of complex multi-project setups with a focus on efficiency, profitability, and customer satisfaction.\n- Development and presentation of strategic concepts and decision-making documents at the management level.\n- Close collaboration with management to further develop service portfolios and internal structures.\n\n### Qualifications\n- Completed university degree (B.Sc./M.Sc./MBA or equivalent).\n- Minimum 7-10 years of experience in management or IT consulting with demonstrable sales experience.\n- Excellent German (C1) and English (C1) language proficiency is required.\n- Strong understanding of key account management and project control.\n- Proven sales success and enthusiasm for entrepreneurial activity.\n- Proficient use of MS Office (especially PowerPoint & Excel), Jira, and Confluence.\n- Empathetic, solution-oriented personality with clear communication, structure, and negotiation skills.\n- Willingness to travel (~30%) and identification with the company's values.\n\n### Author's Take\nThis is an exceptional opportunity for a seasoned IT/Management Consultant ready to take on a leadership role with significant strategic impact. The company offers a vibrant, values-driven culture emphasizing personal development, collaboration, and respect, reflected in core values like 'Joy & Fun' and 'Appreciation.' You'll enjoy substantial autonomy, direct influence on company development, and clear career growth opportunities within a growing boutique consultancy known for its high client retention. The flexible hybrid work model, 30 vacation days, and other benefits like Wellpass and JobRad underscore a commitment to employee well-being and a supportive work-life balance.

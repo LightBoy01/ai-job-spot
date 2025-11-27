@@ -8,60 +8,51 @@ applicationLink: >-
 postedDate: '2025-11-25T00:45:17.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/apaleo/junior-onboarding-manager-german-speaking-munchen-333876
 companyLogoUrl: null
+companyCulture: >-
+  Apaleo fosters a collaborative, diverse, and growth-oriented culture with a
+  strong emphasis on work-life balance through flexible work options and
+  generous PTO. Employees are empowered with autonomy to shape the future of
+  hospitality tech and benefit from continuous learning and development.
+story_question1: >-
+  Given this is a Junior role, what's the typical learning curve like, and how
+  quickly can someone expect to take on more complex challenges or contribute to
+  strategic initiatives beyond core onboarding tasks?
+story_answer1: >-
+  Oh, the learning curve here is incredibly dynamic, and honestly, that's what
+  makes it so exciting! From day one, you're not just shadowing; you're actively
+  engaging with customers under the guidance of our senior specialists. We
+  believe in empowering our team, so as soon as you've got a solid grasp of the
+  basics – which our dedicated learning budget and 360° feedback system help
+  accelerate – you'll find opportunities to dive into more complex integrations,
+  contribute to process improvements, or even help shape how we introduce new
+  features. It's not about 'waiting your turn'; it's about demonstrating your
+  initiative and Apaleo will give you the runway to grow and make a real impact
+  on transforming hospitality.
+story_question2: >-
+  Apaleo is an API-first platform. How does this technical foundation influence
+  the onboarding process for customers, especially for someone in a Junior role,
+  and what kind of technical support or training is available to ensure success?
+story_answer2: >-
+  That's a fantastic question and it really gets to the heart of what makes
+  Apaleo special. Being API-first means our platform offers incredible
+  flexibility, but it also means our onboarding isn't just about clicking
+  buttons – it's about helping customers understand how to leverage that power.
+  For a Junior Onboarding Manager, this translates into a unique learning
+  experience. You'll gain practical insights into integration challenges and
+  solutions. Don't worry, you're not expected to be an API expert overnight! We
+  provide comprehensive training, access to our detailed documentation, and
+  constant support from senior team members and our product specialists. You'll
+  learn to translate technical capabilities into tangible business value for our
+  customers, making you a vital bridge between our innovative technology and
+  their operational needs. It's a skill set that's highly valued and
+  continuously developed here.
 ---
-### Join Apaleo and Shape the Future of Hospitality Tech!
-
-Apaleo is the world's most open, API-first property management platform powering the next generation of hospitality operations. Its modular, AI-powered infrastructure enables hoteliers to customise their tech stack, automate routine work, and deliver seamless, personalised guest experiences, powered by best-in-class apps and autonomous AI agents that adapt to every stay.
-
-If you're driven by the idea of making hospitality smarter, more human, and powered by cutting-edge technology, we'd love to hear from you. Are you up for the challenge? We're looking for a **Junior** **Onboarding Manager- German Speaking (f/m/d)** to join our team in Munich!
-
-### **What you are getting up to:**
-
-*   Support customers throughout the onboarding process, ensuring a smooth and successful integration with the system.
-*   Collaborate closely with senior onboarding specialists and other teams to understand customer needs and provide effective solutions.
-*   Guide customers through setup and configuration, offering training and assistance where needed.
-*   Monitor onboarding progress, track milestones, and ensure that timelines and deliverables are met.
-*   Communicate proactively with internal teams to resolve customer questions and feedback.
-*   Continuously learn and take on more responsibility as you grow within the role.
-
-### What we value:
-
-*   Strong motivation to learn and develop in a dynamic, fast-paced environment
-*   Proactive and solution-oriented mindset
-*   Excellent communication, organizational, and multitasking abilities
-*   Some experience or internship in customer onboarding, support, or software implementation (experience in SaaS or the hospitality industry is an advantage)
-*   **Fluency in English and German.**
-
-### **What We Offer**
-
-### **Culture & Growth**
-
-*   **A Diverse & International Team:** Work alongside passionate professionals from over 20 nationalities, bringing unique cultural perspectives, backgrounds, and experiences to shape the future of hospitality tech.
-*   **Growth & Development:** As we scale, so do your opportunities. You'll benefit from 360° feedback reviews, a dedicated learning budget, and plenty of chances to take on more responsibility. Our evolving career framework ensures you have increasing opportunities to learn new skills, advance your career, and make an impact.
-*   **Autonomy & Ownership:** Great ideas can come from anywhere. We empower you to take responsibility, make decisions, and contribute directly in an environment built on trust, transparency, and collaboration.
-*   **Shape the Future of Hospitality Tech:** Be part of a fast-growing scale-up transforming the hospitality industry. From day one, your work drives real impact and you'll have the freedom to bring your ideas to life.
-*   **Competitive & Fair Compensation:** We believe great work deserves great pay. Our salaries are competitive and guided by benchmarking data to ensure fairness across all roles and teams. We make sure to recognize and reward performance and contribution.
-
-### **Perks & Lifestyle**
-
-*   **Flexible & Remote Work Options:** We focus on results, not clocking hours. You can work from home, the office or in a hybrid setup, with flexibility to adapt your schedule as long as it makes sense for your role, your team and our business.
-*   **Free Public Transport:** Travel across Germany with ease using our fully covered _Deutschland Ticket_.
-*   **Team Connection:** Strong connections fuel collaboration. We celebrate and connect through regular team dinners, company meetups, Oktoberfest celebrations, Christmas parties, and other offsite events.
-*   **Paid Time Off:** Enjoy **30 days of vacation** to fully disconnect, recharge, and return inspired.
-*   **Health & Wellbeing:** Prioritize your health with access to hundreds of gyms, fitness studios, and wellness options through our **EGYM Wellpass** membership.
-
-**What it means to join Apaleo:**
-
-Joining Apaleo means stepping into a space where hospitality is being redefined from the ground up. You won't just support innovation you'll help drive it. Your work will directly shape an intelligent, AI-first platform used by hospitality teams across the globe. Here, your ideas power real products, your voice influences direction, and your impact is visible at every level. At Apaleo, we build boldly, collaborate openly, and grow together fast.
-
-_We are proud to be an Equal Opportunity and Affirmative Action Employer, committed to fostering a diverse, inclusive, and welcoming workplace. We encourage applications from individuals of all backgrounds, regardless of race, color, religion, gender identity or expression, sex, national origin, age, marital status, disability, or any other characteristic protected by applicable law. Your personal data will be handled with the utmost care and in compliance with GDPR and relevant data protection regulations. We celebrate differences and believe that diversity enriches our team and drives innovation._
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nApaleo is the world's most open, API-first property management platform powering the next generation of hospitality operations. Its modular, AI-powered infrastructure enables hoteliers to customise their tech stack, automate routine work, and deliver seamless, personalised guest experiences, powered by best-in-class apps and autonomous AI agents that adapt to every stay. If you're driven by the idea of making hospitality smarter, more human, and powered by cutting-edge technology, Apaleo wants to hear from you. They are seeking a **Junior Onboarding Manager - German Speaking (f/m/d)** to join their team in Munich.\n\n### Responsibilities\n- Support customers throughout the onboarding process, ensuring a smooth and successful integration with the system.\n- Collaborate closely with senior onboarding specialists and other teams to understand customer needs and provide effective solutions.\n- Guide customers through setup and configuration, offering training and assistance where needed.\n- Monitor onboarding progress, track milestones, and ensure that timelines and deliverables are met.\n- Communicate proactively with internal teams to resolve customer questions and feedback.\n- Continuously learn and take on more responsibility as you grow within the role.\n\n### Qualifications\n- Strong motivation to learn and develop in a dynamic, fast-paced environment.\n- Proactive and solution-oriented mindset.\n- Excellent communication, organizational, and multitasking abilities.\n- Some experience or internship in customer onboarding, support, or software implementation (experience in SaaS or the hospitality industry is an advantage).\n- Fluency in English and German.\n\n### Author's Take\nThis is an exciting opportunity for a motivated Junior Onboarding Manager to join Apaleo, a fast-growing scale-up at the forefront of hospitality tech innovation. The company culture emphasizes diversity, growth, and autonomy, offering a vibrant international team, dedicated learning budgets, and clear career development paths. You'll work in an environment built on trust and collaboration, with flexible and remote work options, 30 days of vacation, and perks like a Deutschland Ticket and EGYM Wellpass. This role is ideal for someone passionate about driving real impact, redefining hospitality from the ground up, and growing quickly within an AI-first, API-centric platform.

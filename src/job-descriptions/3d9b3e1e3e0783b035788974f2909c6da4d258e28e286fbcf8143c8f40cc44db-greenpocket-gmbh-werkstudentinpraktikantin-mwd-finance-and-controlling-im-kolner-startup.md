@@ -9,52 +9,47 @@ postedDate: '2025-11-25T08:02:38.000Z'
 expirationDate: null
 tags:
   - Controlling
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/greenpocket-gmbh/werkstudentin-praktikantin-finance-controlling-im-kolner-startup-cologne-356882
 companyLogoUrl: null
+companyCulture: >-
+  This agile, green startup fosters a supportive and collaborative environment
+  focused on sustainability and continuous learning. Employees benefit from a
+  balanced work-life with flexible hours and remote work options, alongside
+  regular team events and intensive onboarding.
+story_question1: >-
+  As an entry-level professional, how will my contributions in finance directly
+  impact the company's mission to drive a sustainable and climate-neutral
+  future?
+story_answer1: >-
+  That's a fantastic question! Even as a student, your role in managing
+  receivables, handling invoices, and preparing monthly reports is absolutely
+  crucial. Think of it this way: smooth financial operations ensure we can
+  invest more in developing our AI-driven software, expand our reach, and
+  ultimately help more businesses and households reduce their energy consumption
+  and CO2 footprint. You're not just processing numbers; you're enabling the
+  engine that powers our green mission. Your precision directly fuels our
+  ability to make a tangible difference for a sustainable future, and you'll see
+  that impact in our growth and the stories of our successful energy reduction
+  projects.
+story_question2: >-
+  The job mentions 'continuous learning' and 'taking skills to the next level.'
+  What specific opportunities or mentorship can I expect to receive as I grow
+  within this startup, especially as a student?
+story_answer2: >-
+  We pride ourselves on being a place where continuous learning isn't just a
+  buzzword, it's embedded in our DNA. As a student, you'll receive intensive
+  onboarding, directly mentored by our Head of Sales Control and Marketing,
+  which is a rare opportunity. You'll also work closely with an experienced
+  finance colleague who's always there with advice. Our flat hierarchy means
+  you'll have direct exposure to various aspects of our business, learning not
+  just finance, but also about the energy tech industry, agile methodologies,
+  and startup dynamics. We want you to grow with us, and we'll actively support
+  your development through hands-on experience and direct feedback.
 ---
-Du brennst für Zahlen? Controlling und Finanzen sind für Dich mehr als bloße Begriffe – sie sind Deine Leidenschaft? Du suchst eine herausfordernde Position, bei der Du Dein finanztechnisches Geschick unter Beweis stellen und kontinuierlich weiterentwickeln kannst? Dann bist Du bei uns genau richtig!
-
-**Das sind wir**
-
-Als agiles, grünes Startup und Spezialist für Energiemanagement- und Visualisierungssoftware beteiligen wir uns aktiv an der Gestaltung einer nachhaltigen, klimaneutralen Zukunft. So ist es unsere Mission, mit intuitiver, KI-getriebener Software das Management des Energieverbrauchs so einfach zu machen, dass es für wirklich jeden – egal ob Unternehmen oder Privathaushalt – zu einer Selbstverständlichkeit wird und Energieversorger und Unternehmenskunden wirksam sowohl Energieverbrauch als auch CO2-Fußabdruck reduzieren können. So machen wir mit unseren derzeit 35 talentierten Kollegen und Kolleginnen die Digitalisierung der Energiebranche zu einer echten Chance.
-
-Aufgaben
---------
-
-*   **🚀 Forderungs- & Fristenmanagement:** Du betreust das Forderungs- und Fristenmanagement und navigierst gemeinsam mit Deinem Teamlead durch die Welt effizienter Finanzprozesse
-*   **📤 Rechnungswesen:** Du bist der Organisationsprofi im Rechnungsausgang, behältst das Rechnungsausgangsbuch im Auge und bearbeitest Lieferantenrechnungen eigenständig mit Hilfe von DATEV
-*   **📆 Monatliches Reporting:** Dein Blick fürs Detail kommt bei der monatlichen Erstellung der Betriebswirtschaftlichen Auswertung (BWA) voll zur Geltung. Zudem unterstützt Du tatkräftig bei der quartalsweisen Vorbereitung der Gesellschafterversammlungen.
-*   **💸 Monatlicher Zahllauf:** Du verleihst dem monatlichen Zahllauf eine besondere Note und bleibst im Austausch mit unserer Steuerberatung für einen reibungslosen Finanzfluss
-
-Qualifikation
--------------
-
-*   Als eingeschriebene:r Student:in (mind. 3. Semester) der Betriebswirtschaftslehre, Wirtschaftswissenschaften oder eines vergleichbaren Fachs bist Du bei uns genau richtig
-*   Im Idealfall konntest Du schon in die Welt des Controllings und Finance in Rahmen von Praktika eintauchen
-*   Dein Talent in der Analyse von Finanzkennzahlen und sehr gute Excel-Kenntnisse zeichnen Dich aus
-*   Deine Liebe zum Detail macht Dich zum perfekten Sidekick, den das Finance Team im Zahlendschungel braucht
-*   Du überzeugst uns mit Deiner sehr guten Kommunikationsfähigkeit in Deutsch und Englisch sowie mit Deinem professionellen Auftreten
-
-Benefits
---------
-
-*   🌱 Eine **fantastische Kollegin,** die Dir in Finance-Fragen immer mit Rat und Tat zur Seite steht
-*   🌱 Erfahre eine **intensive Einarbeitung** durch unsere Leiterin für Vertriebssteuerung und Marketing für einen erfolgreichen Start in unserem Team
-*   🌱 Erlebe die **authentische Atmosphäre** eines Start-ups und gestalte aktiv die grüne Gründerszene mit
-*   🌱 Bei uns ist **kontinuierliches Lernen** Programm - hier kannst Du persönliche und fachliche Skills auf das nächste Level bringen
-*   🌱 Genieße die Freiheit einer **ausgewogenen Work-Life-Balance** mit flexiblen Arbeitszeiten und der Möglichkeit, bequem im Home Office zu arbeiten
-*   🌱 Erlebe **regelmäßige Teamevents** und entspannte Kicker-Pausen in einem motivierten und herzlichen Team
-*   🌱 **Unerschöpfliche Kaffee- und Wasservorräte** sowie regelmäßig frisches Obst stehen Dir jederzeit zur Verfügung
-*   🌱 Profitiere von unserer kulturell, sportlich sowie verkehrstechnisch **sehr gut angebundenen Lage** - Dein idealer Ausgangspunkt für beruflichen Erfolg und persönliche Entwicklung
-
-**Energiegeladenes Team sucht Verstärkung. Sei dabei – bewirb Dich!**
-
-Wenn Dich die Herausforderung reizt, ein innovatives Unternehmen erfolgreich mitzugestalten, dann sende uns einfach Deinen Lebenslauf und Dein Anschreiben über das untenstehende Formular zu.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAre you passionate about numbers, controlling, and finance? Do you seek a challenging position where you can showcase and continuously develop your financial skills? Then you’ve come to the right place! We are an agile, green startup specializing in energy management and visualization software, actively shaping a sustainable, climate-neutral future. Our mission is to make energy consumption management easy for everyone—businesses and private households—using intuitive, AI-driven software, helping energy providers and corporate clients effectively reduce both energy consumption and CO2 footprint. With our 35 talented colleagues, we're transforming the digitalization of the energy sector into a real opportunity.\n\n### Responsibilities\n- 🚀 **Receivables & Deadlines Management:** You will oversee receivables and deadlines management, navigating efficient financial processes alongside your Team Lead.\n- 📤 **Accounting:** You are the organizational pro in outgoing invoicing, keeping an eye on the outbound invoice ledger, and independently processing supplier invoices using DATEV.\n- 📆 **Monthly Reporting:** Your eye for detail will shine in the monthly creation of business evaluations (BWA). You will also actively support the quarterly preparation of shareholder meetings.\n- 💸 **Monthly Payment Run:** You will manage the monthly payment run and maintain communication with our tax advisors for a smooth financial flow.\n\n### Qualifications\n- Enrolled student (at least 3rd semester) in Business Administration, Economics, or a comparable field.\n- Ideally, you have already gained experience in controlling and finance through internships.\n- Your talent in analyzing financial key figures and very good Excel skills set you apart.\n- Your attention to detail makes you the perfect sidekick the Finance team needs in the \"numbers jungle\".\n- You impress us with your very good communication skills in German and English, as well as your professional demeanor.\n\n### Author's Take\nThis is an excellent entry-level opportunity for a passionate finance student to join an impactful green startup. The company offers a highly supportive environment with intensive onboarding, mentorship, and a strong emphasis on continuous learning and professional development. With flexible working hours, home office options, and regular team events, it strikes a great balance between challenging work and a positive, collaborative culture dedicated to a sustainable future.

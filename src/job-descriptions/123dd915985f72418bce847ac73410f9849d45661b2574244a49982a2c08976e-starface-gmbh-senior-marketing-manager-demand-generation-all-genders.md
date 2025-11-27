@@ -9,52 +9,51 @@ postedDate: '2025-11-24T14:03:00.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/starface-gmbh/senior-marketing-manager-demand-generation-all-genders-karlsruhe-274056
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a vibrant startup culture, emphasizing transparency,
+  cross-departmental collaboration, and communication on equal terms. It offers
+  significant autonomy and creative freedom, coupled with strong work-life
+  balance through flexible hours, mobile office options, and international
+  remote work.
+story_question1: >-
+  How does this Senior Marketing Manager role contribute to truly shaping the
+  company's growth strategy, especially with the unique focus on partner
+  structures in a dynamic, 'startup-like' environment?
+story_answer1: >-
+  Honestly, it's not just about running campaigns; it's about being an
+  architect. Here, you're not handed a fixed playbook. You're expected to come
+  in, analyze our current partner structures, and then *design* the entire
+  demand generation strategy from the ground up – from the initial concept to
+  the storyline, channel mix, content, and final analysis. The impact is direct
+  and visible because we're a transparent team; everyone sees how your campaigns
+  directly fuel our partners' success and, consequently, our own growth. It's
+  exhilarating to see your strategic thinking translate into tangible results,
+  especially when you have the freedom to innovate and collaborate closely with
+  sales and product.
+story_question2: >-
+  With the emphasis on 'flache Hierarchien' (flat hierarchies) and
+  'Gestaltungspielraum' (creative freedom), how does the company ensure
+  effective decision-making and project alignment, particularly for
+  cross-functional campaigns?
+story_answer2: >-
+  That's a great question, and it speaks to the heart of our 'STARFACE Team'
+  mentality. While we boast flat hierarchies and give you a huge amount of
+  creative freedom, it doesn't mean it's a free-for-all. We foster a culture of
+  open communication and direct feedback. For cross-functional campaigns,
+  alignment happens organically through constant dialogue – whether it's daily
+  stand-ups, specific project syncs with sales, key account management, or
+  product strategy. You lead these projects, but you're never alone. Decisions
+  are often made collaboratively, driven by data and shared goals. The
+  'communication on equal terms' isn't just a phrase; it's how we ensure
+  everyone is bought into the vision, and that ensures smooth execution despite
+  the absence of rigid, top-down directives.
 ---
-Wen suchen wir?
----------------
-
-Wir suchen eine/n Senior Marketing Manager - Demand Generation (all genders)
-
-Deine Aufgaben
---------------
-
-*   **Konzeption, Planung und Durchführung von Demand-Generation-Kampagnen** mit besonderem Fokus auf aktuellen Partnerstrukturen
-*   **Ganzheitliches Kampagnen-Thinking**: von der Zielsetzung über die Storyline und Kanalstrategie bis hin zu Content, Assets und Auswertung
-*   **Entwicklung zielgruppenorientierter Ansprache-Konzepte** für verschiedene Partnersegmente und Endkundengruppen
-*   **Cross- und Upselling-Kampagnen** zur Unterstützung der Partner bei Kundenausbau, Verlängerung und Portfolio-Erweiterung
-*   **Partner Enablement**: Erstellung von Kampagnenvorlagen, Toolkits, Content-Paketen und Assets, die Partner direkt adaptieren und einsetzen können
-*   **Eigenständige Leitung und Steuerung von Kampagnenprojekten** inklusive Abstimmung mit Vertrieb, Key Account Management, Produktstrategie und Marketing
-*   **Übergreifende Projektkoordination** sowie Sicherstellung konsistenter Kampagnen-Qualität, sowie Analyse und Bewertung
-
-Dein Profil
------------
-
-*   Mehrjährige Erfahrung im Demand Generation, Channel Marketing, Kampagnenmanagement oder B2B-Marketing
-*   Fähigkeit, Marketingkampagnen strukturiert von A bis Z zu durchdenken, zu planen und umzusetzen
-*   Stark ausgeprägtes Verständnis für Zielgruppen-Ansprache, Buyer Journeys und Partner-Marketing
-*   Erfahrung in der Entwicklung von Cross-Selling- und Upselling-Kampagnen sowie Enablement-Materialien für Partner
-*   Ausgeprägte Projektmanagement-Skills, analytisches und konzeptionelles Denken mit der Fähigkeit, komplexe Anforderungen in klare Maßnahmen zu übersetzen
-*   Strukturierte, eigenverantwortliche und proaktive Arbeitsweise, sowie starke Kommunikationsfähigkeiten
-
-Dein zukünftiger Arbeitsplatz
------------------------------
-
-*   Ein Unternehmen, das nicht nur vom Startup Charakter spricht, sondern ihn auch im täglichen Miteinander lebt
-*   Unternehmensweite Transparenz und abteilungsübergreifende Kommunikation – wir verstehen uns als ein großes STARFACE Team
-*   Flexible Arbeitszeiten, soweit keine Servicezeiten abzudecken sind
-*   Flache Hierarchien, die im täglichen Miteinander nicht zu spüren sind. Wir führen Kommunikation auf Augenhöhe
-*   Wir haben keinen Dresscode, wir wollen, dass Du dich an Deinem Arbeitsplatz wohlfühlst und authentisch bist
-*   Viel Gestaltungspielraum für Ideen und Lösungen
-*   Betriebliche Altersvorsorge, der obligatorische Obstkorb und Getränke verstehen sich von selbst
-*   Mobile Office und die Möglichkeit bis zu zwei Wochen im Jahr aus dem EU-Ausland zu arbeiten
-*   Regelmäßige Firmenfeiern und gerne auch an Freitagen ein Bier nach Vier mit den Kollegen
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nWe are seeking a **Senior Marketing Manager - Demand Generation** to drive our core growth initiatives. In this pivotal role, you will be responsible for conceptualizing, planning, and executing comprehensive demand generation campaigns with a strong emphasis on our current partner structures. You'll bring a holistic campaign mindset, from strategic objectives and storyline development to channel strategy, content creation, and meticulous performance evaluation. This position offers significant creative freedom and the opportunity to make a tangible impact within a dynamic, collaborative, and startup-like environment.\n\n### Responsibilities\n- Conceptualize, plan, and execute demand generation campaigns, with a special focus on current partner structures.\n- Apply a holistic campaign thinking approach: from objective setting, storyline, and channel strategy to content, assets, and evaluation.\n- Develop target-group-oriented communication concepts for various partner segments and end-customer groups.\n- Drive cross- and upselling campaigns to support partners in customer acquisition, retention, and portfolio expansion.\n- Enable partners by creating campaign templates, toolkits, content packages, and assets that partners can directly adapt and deploy.\n- Independently lead and manage campaign projects, including coordination with Sales, Key Account Management, Product Strategy, and Marketing.\n- Ensure overarching project coordination and consistent campaign quality, alongside comprehensive analysis and evaluation.\n\n### Qualifications\n- Several years of experience in Demand Generation, Channel Marketing, Campaign Management, or B2B Marketing.\n- Ability to thoroughly conceptualize, plan, and execute marketing campaigns from start to finish.\n- Strong understanding of target group communication, buyer journeys, and partner marketing.\n- Experience in developing cross-selling and upselling campaigns, as well as enablement materials for partners.\n- Excellent project management skills, analytical and conceptual thinking with the ability to translate complex requirements into clear actions.\n- Structured, self-reliant, and proactive work style, along with strong communication skills.\n\n### Author's Take\nThis is an exceptional opportunity for a seasoned Marketing Manager who thrives on autonomy and direct impact within a highly collaborative and transparent organization. The company genuinely embodies a \"startup character\" with flat hierarchies and a strong emphasis on communication at eye level. You'll have ample scope for shaping ideas and solutions, benefiting from flexible working hours, mobile office options, and even the unique perk of working remotely from EU countries for up to two weeks a year. Beyond the standard benefits like company pension and fresh fruit, the culture fosters authenticity, continuous learning, and a supportive team environment, making it an ideal place to grow your career and see your strategies come to life.

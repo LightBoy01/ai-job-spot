@@ -10,163 +10,74 @@ expirationDate: null
 tags:
   - Remote
   - Marketing Manager
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/finally-freelancing-gmbh/senior-performance-marketing-manager-hamburg-364616
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a high-impact, results-driven culture where individuals
+  have significant autonomy to build and scale critical systems. It emphasizes
+  professional growth through challenging projects and close collaboration with
+  leadership to achieve ambitious revenue goals, with a strong focus on
+  data-driven decisions and rapid execution.
+story_question1: >-
+  Considering the ambitious goal of scaling from 3M to 10M, what do you
+  anticipate will be the single biggest strategic hurdle for this role, beyond
+  just execution, and how does the company envision supporting its navigation?
+story_answer1: >-
+  That's a fantastic question, and it really hits at the heart of what makes
+  this role so exciting. Honestly, the biggest hurdle won't be a lack of budget
+  or creative ideas – Maruan is a genius at strategy and creative. It's going to
+  be maintaining peak efficiency and agility as we scale rapidly. We're talking
+  about transitioning from a successful 7-figure operation to a robust 8-figure
+  one, and that means every system needs to be perfectly tuned. The support here
+  isn't just about resources; it's about direct, unfiltered collaboration with
+  Maruan himself. You'll be in the trenches with him, iterating daily, testing
+  hypotheses, and seeing your impact immediately. There's no corporate
+  bureaucracy; just a laser focus on results and a team that genuinely wants you
+  to build the career-defining case study we're all aiming for. It's
+  challenging, yes, but incredibly rewarding because you're truly building the
+  engine of our growth.
+story_question2: >-
+  The description emphasizes understanding funnels, not just building them.
+  Could you elaborate on what a 'deep understanding' truly means in your
+  context, and how this role contributes to the strategic evolution of the
+  customer journey beyond just tactical execution?
+story_answer2: >-
+  Absolutely, that's a crucial distinction for us. 'Deep understanding' isn't
+  just about knowing how to drag and drop elements in FunnelCockpit. It means
+  you intuitively grasp the psychology behind each step, you can predict user
+  behavior, and you see the entire customer journey as a continuous flow, not a
+  series of disconnected pages. It means proactively identifying where friction
+  points might emerge, even before data tells us, and proposing solutions that
+  enhance the entire user experience and conversion path. This role isn't just
+  executing; it's about being the strategic architect for our revenue-generating
+  machine. You'll be central to evolving our entire customer journey, bringing
+  data-backed insights to Maruan's creative vision, and constantly pushing the
+  boundaries of what our funnels can achieve. It's about building a predictable
+  revenue engine, not just a series of pages.
+story_question3: >-
+  Given the remote nature and the high level of autonomy expected, how does
+  Finally Freelancing ensure clear communication, consistent performance
+  feedback, and support for continuous learning in such a fast-paced,
+  results-driven environment?
+story_answer3: >-
+  That's a vital point for any remote, high-performance team. Our communication
+  is designed to be direct, transparent, and frequent, but never micromanaging.
+  We use focused syncs, and you'll have direct access to Maruan for strategic
+  alignment and brainstorming. Performance feedback isn't a quarterly review;
+  it's embedded in our daily operations. You'll see the impact of your work
+  immediately in the KPIs, and we'll have regular check-ins to discuss results,
+  iterate on strategies, and identify areas for growth. The 'no micromanagement'
+  isn't just a perk; it's a philosophy built on trust in your expertise. We hire
+  senior talent because we expect you to drive results and proactively identify
+  opportunities. Support for learning comes through direct collaboration, access
+  to internal resources, and the sheer challenge of the mission itself – you'll
+  be learning and evolving at an incredible pace, supported by a founder who's
+  deeply invested in marketing excellence.
 ---
-**Baue die krasseste Case Study deiner Karriere:**  
-**Mitverantwortlich für die Skalierung von 3 Mio. → 10 Mio. Umsatz**
-
-Wir suchen einen Senior Performance Marketing Manager (Paid Ads & Funnels) – Remote / fest oder frei (Vollzeit!)
-
-**Wer wir sind**
-
-Finally Freelancing ist Marktführer für die Beratung von Freelancern & Dienstleistern im DACH-Raum.  
-Wir haben eine starke Brand, klare Positionierung, über 1.000 Kunden und 2–3 Mio. Jahresumsatz.
-
-Jetzt kommt der nächste Schritt:  
-**Wir skalieren auf 10 Mio. – schnell, sauber, profitabel.**
-
-Dafür suchen wir jemanden, der nicht einfach Ads schalten will, sondern jemand, der sagt:
-
-**„Ich will die beste Case Study meines Lebens bauen.  
-Ich will beweisen, dass ich ein Unternehmen auf 8-stellig skalieren kann.“**
-
-Wenn du so tickst, lies weiter.
-
-Aufgaben
---------
-
-**Deine Mission**
-
-Du wirst zum **Mitarchitekt** unserer Skalierung.  
-Der Founder (Maruan) bringt Strategie, Messaging & Kreativ-Power.  
-Du baust die Performance-Maschine, die jeden Monat **vorhersehbar Leads & Umsatz liefert.**
-
-Nach 12–24 Monaten sollst du stolz sagen können:  
-👉 _„Ich war der Performance Marketer, der Finally Freelancing auf 10 Mio. gebracht hat.“_
-
-Das ist die Case Study, die Türen öffnet.  
-In Deutschland. In Europa. Überall.
-
-**Wichtig: Für wen ist diese Stelle was?**
-
-Wenn du nebenbei noch 2–5 Kunden betreust: **Diese Stelle ist nicht für dich.**
-
-Wenn du eine Firma skalieren willst und die beste Case Study deiner Karriere bauen willst: **Bewirb dich.**
-
-**Deine Verantwortlichkeiten**
-
-**1\. Paid Ads – Meta**
-
-Das ist dein Spielfeld. Du ownst:
-
-*   Kampagnenaufbau, Testing, Skalierung
-*   Creative Testing & Performance-Angles
-*   Budgetmanagement im hohen 6-stelligen Bereich
-*   Retargeting & Full-Funnel-Strategien
-*   tägliche Optimierung nach KPIs
-*   Hypothesen & Experimente
-
-Wenn deine Ads performen → wächst die Firma.  
-Wenn die Firma wächst → gehört der Erfolg dir mit.
-
-**2\. Funnel-Building & Optimierung (FunnelCockpit)**
-
-Wir nutzen FunnelCockpit als zentrales Tool. Du bist verantwortlich für:
-
-*   Aufbau neuer Funnels
-*   Optimierung bestehender Customer Journeys
-*   A/B Testing
-*   Copy + Struktur (Basis von dir, Feinschliff mit Maruan)
-*   technische Umsetzung und saubere Automation
-*   Tracking-Struktur (Pixel, Events, GA4, UTMs)
-
-Du baust nicht „Landingpages“.  
-Du baust die Motorhaube des Umsatzes.
-
-**3\. Tracking & Analytics**
-
-Du stellst sicher, dass wir:
-
-*   echtes Performance-Tracking haben
-*   jede Zahl kennen
-*   jeden Engpass aufdecken
-*   datenbasiert Entscheidungen treffen
-
-Keine Blackbox.  
-Keine „ich glaube“.  
-Nur Klarheit → Skalierung.
-
-**4\. Creative Zusammenarbeit**
-
-Du arbeitest eng mit Maruan & unserem Videografen zusammen:
-
-*   du sagst, welche Creatives wir brauchen
-*   Videograf liefert die Videos
-*   Du testest und iterierst
-*   Gemeinsame Brainstormings mit Maruan
-
-Du bringst die Daten.  
-Wir bringen die Kreativität.  
-Zusammen baut ihr eine Conversion-Maschine.
-
-Qualifikation
--------------
-
-**Du passt perfekt, wenn du…**
-
-*   **Deutsch fließend** sprichst (egal, wo du lebst)
-*   Paid Ads im Coaching-/Beratungs-/Info-Space bereits erfolgreich umgesetzt hast (proven Track Record)
-*   Funnels wirklich verstehst (nicht nur baust)
-*   Tracking liebst und sauber arbeitest
-*   Verantwortung willst, kein Micromanagement
-*   Ergebnisse über Egos stellst
-*   schnell umsetzt
-*   Hypothesen testest, statt lange zu diskutieren
-*   remote arbeiten willst
-*   Bock hast, die eine **Case Study** zu bauen, die dich unsterblich macht
-
-**Was du in den ersten 90 Tagen erreichst**
-
-*   Dich in den aktuellen Funnel eingearbeitet hast
-*   Ads laufen sauber & profitabel
-*   Nachweislicher Aufwärtstrend des ROAS
-*   Preis pro Qualified Sales Call optimiert
-*   Creative Testing Maschinerie erstellt
-*   Eigenen Funnel komplett geschalten & validiert hast
-
-Benefits
---------
-
-**Warum diese Rolle ein Karriere-Sprungbrett ist**
-
-**Weil du NICHT:**
-
-*   in einer Konzernstruktur gefangen bist
-*   Ads schaltest, die niemand interessiert
-*   nur ein kleines Rädchen bist
-
-**Sondern:**
-
-*   einen direkten Einfluss auf Millionen-Umsatz hast
-*   mit einem Founder arbeitest, der Branding & Marketing lebt und atmet
-*   mit einem Videografen arbeitest, der High-Output liefert
-*   du das gesamte Performance-System mit aufbaust
-*   du die beste Case Study deiner Laufbahn kreierst
-
-Diese Rolle wird in deinem Portfolio stehen wie ein Siegel.
-
-**Bereit, die heftigste Case Study deiner Karriere zu bauen?**
-
-**Wenn ja – bewirb dich jetzt folgendermaßen:**
-
-*   Eine CV
-*   Ein Loom Video mit max. 10 Minuten, indem Du erklärst, welche Optimierungspotenziale unser aktueller Funnel hat
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nFinally Freelancing is the market leader for consulting freelancers and service providers in the DACH region, boasting a strong brand, clear positioning, over 1,000 customers, and 2-3 million in annual revenue. We are now embarking on the next phase: scaling rapidly, cleanly, and profitably to 10 million in revenue.\n\nWe are seeking a Senior Performance Marketing Manager (Paid Ads & Funnels) to be a key architect of this scaling journey. This remote, full-time (permanent or freelance) role is for someone who isn't just looking to run ads, but who is driven to build the best case study of their career and prove their ability to scale a company to 8 figures. If you're ready to be a co-architect of our growth and deliver predictable leads and revenue monthly, then this mission is for you.\n\n### Responsibilities\nAs a co-architect of our scaling, you will partner closely with the Founder (Maruan), who provides strategy, messaging, and creative power. Your mission is to build the performance machine that consistently delivers leads and revenue. After 12-24 months, you should be proud to say, \"I was the Performance Marketer who brought Finally Freelancing to 10 million.\"\n\nYour core responsibilities include:\n\n1.  **Paid Ads – Meta**: This is your primary domain. You will own:\n    *   Campaign setup, testing, and scaling.\n    *   Creative testing and performance angles.\n    *   High six-figure budget management.\n    *   Retargeting and full-funnel strategies.\n    *   Daily optimization based on KPIs.\n    *   Developing hypotheses and running experiments.\n    *   Your ad performance directly drives company growth and shared success.\n\n2.  **Funnel-Building & Optimization (FunnelCockpit)**: Utilizing FunnelCockpit as the central tool, you are responsible for:\n    *   Building new funnels.\n    *   Optimizing existing customer journeys.\n    *   A/B testing.\n    *   Developing copy and structure (with Maruan refining).\n    *   Technical implementation and clean automation.\n    *   Establishing tracking structure (Pixels, Events, GA4, UTMs).\n    *   You are building the \"hood of revenue,\" not just landing pages.\n\n3.  **Tracking & Analytics**: Ensure we have:\n    *   Genuine performance tracking.\n    *   Complete understanding of every metric.\n    *   Identification of every bottleneck.\n    *   Data-driven decision making.\n    *   No black boxes, only clarity for scaling.\n\n4.  **Creative Collaboration**: Work closely with Maruan and our videographer:\n    *   You determine what creatives are needed.\n    *   The videographer delivers the videos.\n    *   You test and iterate.\n    *   Participate in joint brainstorms with Maruan.\n    *   You bring the data; we bring the creativity. Together, you build a conversion machine.\n\n### Qualifications\nYou are a perfect fit if you:\n*   Speak **fluent German** (regardless of your location).\n*   Have a proven track record of successfully implementing paid ads in the coaching/consulting/info-product space.\n*   Truly **understand funnels** (not just build them).\n*   Love tracking and maintain meticulous data hygiene.\n*   Desire responsibility, not micromanagement.\n*   Prioritize results over ego.\n*   Execute quickly.\n*   Test hypotheses rather than engaging in lengthy discussions.\n*   Want to work remotely.\n*   Are excited to build the one **case study** that will solidify your career.\n\n**What you will achieve in the first 90 days:**\n*   You will have immersed yourself in the current funnel.\n*   Ads will be running cleanly and profitably.\n*   Demonstrable upward trend in ROAS.\n*   Price per Qualified Sales Call optimized.\n*   Creative testing machinery established.\n*   You will have launched and validated your own complete funnel.\n\n### Author's Take\nThis is an exceptional opportunity for a Senior Performance Marketing Manager who thrives on autonomy, high impact, and a direct contribution to revenue growth. It's a role designed to be a career springboard, offering direct influence over multi-million-euro revenue targets and close collaboration with a founder deeply invested in marketing. If you're looking to escape corporate structures and truly own the performance marketing system from end-to-end, this position provides the unique chance to build a defining case study that will elevate your professional portfolio significantly. The emphasis on data-driven decisions, rapid execution, and strategic funnel understanding points to a dynamic and challenging environment for top-tier talent.

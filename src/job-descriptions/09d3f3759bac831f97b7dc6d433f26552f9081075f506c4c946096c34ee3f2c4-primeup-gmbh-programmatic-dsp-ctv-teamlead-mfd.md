@@ -9,78 +9,55 @@ postedDate: '2025-11-25T09:01:44.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/primeup-gmbh/programmatic-dsp-ctv-teamlead-mfd-hamburg-432934
 companyLogoUrl: null
+companyCulture: >-
+  PrimeUp, part of the larger Grow Digital Group, fosters a dynamic and
+  growth-oriented environment where expertise is shared across 600+ experts.
+  They offer significant learning opportunities, creative freedom, and value a
+  customer-centric, results-driven approach. The culture also supports work-life
+  balance through flexible hours, home office options, and team events, all
+  within a modern Hamburg setting.
+story_question1: >-
+  As a Teamlead, how does PrimeUp empower you to truly innovate and push the
+  boundaries of full-funnel advertising for clients, especially within the
+  rapidly evolving Amazon ecosystem?
+story_answer1: >-
+  At PrimeUp, innovation isn't just a buzzword; it's our daily drive. As a
+  Teamlead, I'm not just managing campaigns; I'm orchestrating cutting-edge
+  strategies, especially in the Amazon ecosystem which changes almost by the
+  minute. The company provides incredible 'Beinfreiheit' – that's German for
+  creative freedom – to experiment with new programmatic advertising concepts
+  across DSP and PPC. What truly fuels this is the direct access to over 600
+  experts within the Grow Digital Group. If I need a deep dive into Google DV360
+  or Meta, I can tap into specialists right within our network. This
+  collaborative powerhouse means we're constantly learning, adapting, and
+  ultimately delivering truly performant, data-driven solutions that make a
+  tangible difference for our international top clients, positioning us as
+  rockstars in the fastest-growing marketing areas like CTV.
+story_question2: >-
+  Given the high pace of innovation and frequent changes in digital advertising,
+  how does PrimeUp ensure its team members stay motivated, continuously develop
+  their skills, and maintain a healthy work-life balance?
+story_answer2: >-
+  That's a fantastic question and one we take very seriously here. The digital
+  advertising landscape is a whirlwind, and we thrive on that energy! PrimeUp
+  actively encourages a 'steile Lernkurve' – a steep learning curve – by
+  providing extensive onboarding, direct mentorship from our experienced
+  leadership, and consistent exposure to diverse, international clients. We see
+  change not as a frustration, but as an opportunity, and we empower our teams
+  to seek, recognize, and leverage those opportunities for our clients.
+  Crucially, we understand that sustained high performance comes from a
+  well-supported team. That's why we offer flexible working hours, a hybrid home
+  office model (currently 3 days in the office, 2 from home), and perks like
+  sponsored Urban Sports Club memberships and team events. It's about creating
+  an environment where you can excel professionally while also enjoying life
+  outside of work in beautiful Hamburg.
 ---
-Über 50% des deutschen E-Commerce wird über Amazon und Online-Marktplätze initiiert – Tendenz steigend.
-
-Die PrimeUp GmbH ist eine führende Spezialagentur für Amazon Marketing, Retail Media und Marktplatz Business. Neben exzellenter Beratung, der Erstellung von E-Commerce Content in bis zu neun Sprachen, und professionellem Account Management, kümmern wir uns vor allem um Advertising und Retail Media Strategien. So sichern wir unseren Kunden profitables, überproportionales Wachstum und nachhaltigen Erfolg.
-
-Wir sind Teil der Grow Digital Group. Über 600 Experten in 13 Agenturen, die zu den besten ihres Fachs zählen, arbeiten an 6 Standorten in agilen Teams für das Wachstum unserer Kunden. Dank der Vernetzung aller Kompetenzen, die zum Auf- und Ausbau von digitalen Geschäftsmodellen erforderlich sind, kann die Grow Digital Group eine ganzheitliche und individuelle Betreuung anbieten.
-
-Unser Hauptsitz ist in Hamburg.
-
-Für unser wachsendes Team aus derzeit rund 25 Expert:inn:en, suchen wir dich als
-
-**Teamlead Full-Funnel Advertising (DSP/PPC) m/f/d**
-
-**Start:** flexibel
-
-**Anstellungsart:** Vollzeit (40 Std./Woche)
-
-Aufgaben
---------
-
-**Deine Aufgaben**
-
-*   Du leitest ein derzeit 6-köpfiges Team aus Advertising Managern und bist verantwortlich für die Entwicklung und Umsetzung von Best-in-Class Kampagnen.
-*   Mit deinem Team konzipierst und steuerst du anspruchsvolle Programmatic Advertising Kampagnen auf diversen Marketingplattformen. Den Schwerpunkt bilden dabei Amazon PPC (Sponsored Ads) und DSP Kampagnen entlang des gesamten Marketingfunnels: Von CTV, Online Video, Audio, Native bis zu Display Ads.
-*   Mit Expert:inn:en unserer Schwesteragenturen erarbeitest und verantwortest du ganzheitliche Programmatic Media Konzepte primär für Plattformen wie Amazon (DSP & PPC), Google/Youtube, Meta & Criteo.
-*   Du denkst dich in Zielgruppen deiner Kunden hinein, bist erfahren im Umgang mit unterschiedlichsten Marketingzielen und KPIs und leitetest daraus performante Kampagnen-, Audience- und Measurement-Konzepte ab.
-*   Du erstellst mit deinem Team überzeugende, datenbasierte, Reports, Insights und Handlungsempfehlungen und stellst diese deinen Kunden vor.
-
-Qualifikation
--------------
-
-**Das erwarten wir von dir**
-
-*   Du hast mehrjährige Erfahrung in der Steuerung von Programmatic Advertising und kennst dich mit der Amazon DSP, Google DV360 oder ähnlichen DSPs hervorragend aus.
-*   Ob Awareness oder ROAS-Ziele, ob CTV oder Search Ads: Du bist sicher im Umgang mit geeigneten Measurement Konzepten, wie Brand Lift Studies und Performance-KPIs.
-*   Erfahrung mit der Amazon Marketing Cloud (AMC) und GA4 sind ein Plus.
-*   Du hast den Wunsch dich beruflich weiterzuentwickeln, und zeigst ein entsprechend hohes Maß an Eigeninitiative und Engagement.
-*   Du hast bereits erste Führungserfahrung, idealerweise im Agenturumfeld.
-*   Hohe Innovationsgeschwindigkeit und häufige Veränderungen bringen dir Freude statt Frust. Du bist hochmotiviert Chancen für deine Kunden zu suchen, zu erkennen und zu nutzen.
-*   Du denkst kundenorientiert, bist zuverlässig und lieferst auch in Stresssituationen jederzeit hochwertige Ergebnisse.
-*   Du bist kommunikativ stark. Kolleg:inn:en und Kunden zu begeistern macht dir Spaß. Eine positive Ausstrahlung und Arbeitsethik zeichnen dich aus.
-*   Du bist zahlenaffin und sicher im Umgang mit großen Datenmengen und deren Analyse.
-*   Fließende Deutsch- und Englischkenntnisse zeichnen dich aus.
-*   Im Umgang mit Microsoft 365 und Google Workspace bist du sicher.
-
-Benefits
---------
-
-**Das bieten wir dir an**
-
-*   Ein umfassendes Onboarding- und Einarbeitung durch ein erfahrenes Leadership Team.
-*   Eine steile Lernkurve, viel Gestaltungsspielraum, Beinfreiheit, und die Perspektive ein Rockstar im derzeit wachstumsstärksten Marketingbereich (CTV) zu werden.
-*   Abwechslungsreiche Aufgaben, internationale Topkunden und Zugriff auf rund 600 Digital- und Marketing Experten unserer GROW Digital Group.
-*   Flexible Arbeitszeiten, sowie die Möglichkeit zum Homeoffice (derzeit 3/2 Regelung).
-*   Einen modernen Arbeitsplatz in der Hamburger Hafencity, gesponserte Urban Sport Club-Mitgliedschaft, kostenfreies Deutschlandticket, Team Events, und vieles mehr.
-
-Wenn wir dein Interesse geweckt haben, freuen wir uns auf deine Bewerbung. Bitte sende uns deinen Lebenslauf, Referenzen und Gehaltsvorstellung an:
-
-**Manuela Seidel Fragen?** Bitte kontaktiere uns unter 040/228 672 770
-
-**Wir freuen uns darauf, dich kennen zu lernen!**
-
-PrimeUp GmbH, Hongkongstr. 8, 20457 Hamburg
-
-part of GROW
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nPrimeUp GmbH, a leading specialist agency in Amazon Marketing, Retail Media, and Marketplace Business, is part of the extensive Grow Digital Group, which comprises over 600 experts across 13 agencies. Headquartered in Hamburg, PrimeUp excels in providing expert consulting, multi-language e-commerce content, professional account management, and sophisticated advertising and retail media strategies. Their mission is to secure profitable, above-average growth and sustainable success for clients. They are currently seeking a dynamic Teamlead Full-Funnel Advertising (DSP/PPC) to join their growing team of 25+ experts. This full-time role offers a flexible start date and involves leading a team to drive innovative advertising campaigns.\n\n### Responsibilities\n- Lead a team of currently 6 Advertising Managers, taking responsibility for the development and implementation of best-in-class campaigns.\n- Design and manage sophisticated programmatic advertising campaigns across various marketing platforms with your team, focusing on Amazon PPC (Sponsored Ads) and DSP campaigns across the entire marketing funnel, including CTV, Online Video, Audio, Native, and Display Ads.\n- Collaborate with experts from sister agencies to develop and oversee holistic programmatic media concepts, primarily for platforms such as Amazon (DSP & PPC), Google/YouTube, Meta, and Criteo.\n- Deeply understand your clients' target audiences, leveraging experience with various marketing objectives and KPIs to derive high-performing campaign, audience, and measurement concepts.\n- Create compelling, data-driven reports, insights, and recommendations with your team, and present these effectively to clients.\n\n### Qualifications\n- Several years of experience in managing programmatic advertising, with excellent proficiency in Amazon DSP, Google DV360, or similar DSPs.\n- Confident in applying appropriate measurement concepts, such as Brand Lift Studies and Performance KPIs, whether for awareness or ROAS goals, and across CTV or Search Ads.\n- Experience with Amazon Marketing Cloud (AMC) and GA4 is a plus.\n- A strong desire for professional development, demonstrating a high degree of initiative and commitment.\n- Initial leadership experience, ideally within an agency environment.\n- Enthusiasm for high innovation speed and frequent changes, motivated to identify and capitalize on opportunities for clients.\n- Customer-oriented, reliable, and capable of delivering high-quality results even in stressful situations.\n- Strong communication skills, enjoying inspiring colleagues and clients, characterized by a positive demeanor and work ethic.\n- Numerically proficient and confident in handling and analyzing large data sets.\n- Fluent in both German and English.\n- Proficient in Microsoft 365 and Google Workspace.\n\n### Author's Take\nThis is an exceptional opportunity for an experienced and ambitious advertising professional to step into a leadership role within a highly specialized and rapidly growing agency. As a Teamlead Full-Funnel Advertising (DSP/PPC), you'll not only guide a dedicated team but also significantly shape the programmatic advertising strategies for international top clients across cutting-edge platforms like Amazon DSP, Google DV360, and Meta. PrimeUp, as part of the extensive Grow Digital Group, offers unparalleled access to expertise and resources, ensuring a steep learning curve and ample opportunities for professional growth, especially in high-growth areas like CTV. The company fosters a dynamic, collaborative environment with significant creative freedom, supported by flexible working arrangements and attractive benefits, making it an ideal place for those who thrive on innovation, client success, and continuous development in a supportive culture.
