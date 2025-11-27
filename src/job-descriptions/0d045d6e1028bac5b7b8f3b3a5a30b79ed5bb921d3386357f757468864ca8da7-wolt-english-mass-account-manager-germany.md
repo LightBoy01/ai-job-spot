@@ -8,75 +8,51 @@ applicationLink: >-
 postedDate: '2025-11-25T07:45:11.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/wolt-english/mass-account-manager-germany-stuttgart-300405
 companyLogoUrl: null
+companyCulture: >-
+  The company culture at Wolt is described as dynamic, challenging, and
+  fast-paced, ideal for self-starters seeking rapid learning and growth
+  opportunities in a high-ownership environment. They emphasize collaboration,
+  diversity, and an entrepreneurial spirit, with a focus on impact and
+  continuous development.
+story_question1: >-
+  What's the biggest challenge for a Mass Account Management Specialist right
+  now, and how does success in this role directly impact Wolt's strategic growth
+  in Germany?
+story_answer1: >-
+  Honestly, the sheer scale is the biggest challenge and opportunity. We're
+  dealing with thousands of partners, and each initiative, whether it's rolling
+  out a new promotions tool or optimizing availability, needs to be scalable and
+  impactful. Success here isn't just about managing accounts; it's about being a
+  strategic architect for our entire German restaurant ecosystem. When you
+  reduce churn or boost adoption of our commercial tools, you're directly
+  contributing to our market dominance and helping thousands of local businesses
+  thrive. It's a role where your data-driven decisions have a tangible,
+  immediate impact on both Wolt's bottom line and the vibrancy of our local
+  communities.
+story_question2: >-
+  Given the emphasis on autonomy and initiative, how does Wolt support
+  Specialists in identifying and implementing new, scalable strategies for
+  partner success?
+story_answer2: >-
+  That's a fantastic question, and it gets right to the heart of how we operate.
+  At Wolt, we empower our Specialists with significant autonomy. You won't just
+  be executing; you'll be actively identifying gaps, analyzing data from our BI
+  tools, and proposing entirely new initiatives. We foster a culture where
+  experimentation is encouraged, and if you can back up an idea with data,
+  you'll be given the resources and cross-functional support to build and pilot
+  it. Think of it as owning your own mini-business line within the broader
+  German operations. We provide the data, the collaborative environment with
+  tech and operations teams, and the mentorship—especially through leading
+  initiatives and even mentoring Associates—to ensure your innovative strategies
+  see the light of day and genuinely scale. It's about driving change, not just
+  reacting to it.
 ---
-About Wolt
-----------
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.  
-  
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-Our Mass Account Management team is at the heart of Wolt's restaurant operations in Germany, supporting a vast and growing portfolio of partners. We are now hiring a Mass Account Management Specialist to take ownership of partner success across a high-volume portfolio — improving operational performance, reducing churn, and scaling adoption of our commercial tools.
-
-What you'll be doing
---------------------
-
-As a Mass Account Management Specialist, you'll take full ownership of a large merchant portfolio and work to elevate its operational performance through strategic, scalable initiatives. You'll use data to identify improvement opportunities, reduce partner churn, and lead the rollout of key levers such as Deals, Promotions, and Ads. This role is ideal for someone who thrives in an analytical environment, enjoys solving challenges at scale, and is passionate about building processes that help both Wolt and our partners grow sustainably.
-
-### **Day-to-day in this role you'll:**
-
-*   Manage the operational health and performance of a large group of restaurant partners
-*   Monitor and improve KPIs such as availability, active rate, rejection rate, and churn
-*   Design and lead initiatives that drive adoption of Promotions, Deals, and Ads
-*   Work with BI tools and dashboards to automate engagement and identify gaps
-*   Collaborate with cross-functional teams to improve tooling, communication, and outreach
-*   Create scalable solutions and mentor Associates on best practices
-
-Our humble expectations
------------------------
-
-*   3+ years in account management, operations, or growth roles
-*   Excellent German and English communication skills
-*   Strong data and process orientation
-*   Experience working with CRMs and BI platforms
-*   Proven ability to take initiative, improve systems, and work autonomously
-*   Bachelor's or Master's in a relevant field
-
-What we offer
--------------
-
-*   Key role in one of Germany's most impactful merchant-facing teams
-*   Ownership of scalable success strategies for thousands of partners
-*   Independent work in a dynamic, international team
-*   A fast-growing tech company with many career opportunities 
-*   Attractive salary package 
-*   Cool office in the heart of CITY
-*   Discount on Wolt orders
-*   Modern work equipment
-*   Various soft drinks, coffee and fruits in the office
-*   Urban Sports Club membership subsidy
-*   Deutschland Ticket subsidy
-*   Weekly all-hands meetings and regular team events
-*   Flexible working hours policy + 30 days of paid vacation
-
-Next steps
-----------
-
-If you are excited about working in a high-growth environment, taking ownership, and being part of an extremely ambitious team, then click below to apply and get the conversation going!
-
-We review applications on a rolling basis and will reach out to candidates whose profiles stand out. The process includes a call with our Talent Acquisition team, interviews with the hiring manager, and a final practical case round.
-
-Our Commitment to Diversity and Inclusion
------------------------------------------
-
-We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAt Wolt, a technology company known for its delivery service across over 500 cities in 30 countries, we're dedicated to bringing joy and simplicity through our platform. Having joined forces with DoorDash in 2022, we continue our rapid global expansion. This role is within our crucial Mass Account Management team in Germany, which supports a vast and growing portfolio of restaurant partners. As a Mass Account Management Specialist, you will take full ownership of ensuring partner success across a high-volume portfolio. Your primary goal will be to elevate operational performance, significantly reduce churn, and scale the adoption of Wolt's commercial tools through strategic, data-driven initiatives. This position is ideal for an analytical, challenge-driven individual passionate about building scalable processes for sustainable growth.\n\n### Responsibilities\n- Manage the operational health and performance of a large group of restaurant partners.\n- Monitor and improve key performance indicators (KPIs) such as availability, active rate, rejection rate, and churn.\n- Design and lead initiatives that drive adoption of Promotions, Deals, and Ads.\n- Work with BI tools and dashboards to automate engagement and identify gaps.\n- Collaborate with cross-functional teams to improve tooling, communication, and outreach.\n- Create scalable solutions and mentor Associates on best practices.\n\n### Qualifications\n- 3+ years of experience in account management, operations, or growth roles.\n- Excellent German and English communication skills are essential.\n- Strong data and process orientation.\n- Experience working with CRM and Business Intelligence (BI) platforms.\n- Proven ability to take initiative, improve systems, and work autonomously.\n- Bachelor's or Master's degree in a relevant field.\n\n### Author's Take\nThis Mass Account Management Specialist role at Wolt offers a unique opportunity for an ambitious individual to make a significant impact in a fast-paced, high-growth environment. You'll gain immense ownership over scalable success strategies for thousands of partners in Germany, leveraging data to drive tangible results. Wolt champions independent work, continuous learning, and career growth within its dynamic international team. With an attractive salary package, a commitment to diversity, and a vibrant office culture in CITY, this role is perfect for a self-starter who thrives on challenges and is eager to build and ship more than ever before.
