@@ -12,67 +12,57 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '$90,000 - $130,000 / Year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-lowenstein-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-11045
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a positive, growth-oriented environment, prioritizing
+  work-life balance through flexible hours and home office options. They
+  emphasize strong team collaboration, personal and financial appreciation, and
+  extensive development opportunities, including a clear path to partnership.
+story_question1: >-
+  Given the emphasis on individually tailored tasks and a path to partnership,
+  how does the firm support its consultants in shaping their unique career
+  trajectory and achieving their long-term professional goals within this
+  flexible framework?
+story_answer1: >-
+  Here, it's not just about doing tasks; it's about building *your* career. From
+  day one, we encourage you to align your responsibilities with your strengths
+  and passions. Our partners are truly invested in your growth, not just as a
+  tax expert, but as a future leader. We back this with comprehensive training
+  and a transparent path to partnership, ensuring that your journey here is as
+  unique and rewarding as you are. It's a place where your professional vision
+  isn't just accommodated, it's celebrated and actively supported.
+story_question2: >-
+  With the firm's commitment to digital processes and modern equipment, how does
+  this translate into practical benefits for a senior tax consultant, both in
+  terms of efficiency and client service innovation?
+story_answer2: >-
+  Our digital first approach is a game-changer. It means less time on tedious
+  manual tasks and more time on high-value advisory work. Think seamless data
+  integration, advanced analytical tools, and secure communication platforms
+  that make client interactions more efficient and impactful. This doesn't just
+  boost our productivity; it empowers us to offer truly innovative solutions and
+  a superior service experience, keeping us at the forefront of the industry.
+  It's about working smarter, not harder, and constantly pushing the boundaries
+  of what's possible in tax consulting.
+story_question3: >-
+  As someone considering a new role, how does TaxTalente's unique intermediary
+  service ensure I find a firm that truly aligns with my career aspirations and
+  values, beyond just the advertised role?
+story_answer3: >-
+  That's exactly why we exist! We act as your confidential advocate, deeply
+  understanding your specific criteria – from salary expectations and growth
+  ambitions to company culture preferences. Before you even have an interview,
+  we meticulously vet potential partner firms against your unique profile. We
+  handle the initial negotiations and ensure complete anonymity until you're
+  ready. Our goal isn't just to place you, but to find your perfect professional
+  match, eliminating 'pointless interviews' and ensuring a seamless, successful
+  transition into a firm where you truly belong and can thrive.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Löwenstein.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nThis role, facilitated by TaxTalente, the leading job-matching platform in tax consulting, offers a unique opportunity for an experienced Tax Consultant (m/f/d) to join a future-oriented partner firm in Löwenstein. The firm emphasizes a positive work environment where individuals are valued both financially and personally, offering unparalleled development opportunities, including a clear path to partnership. This position is ideal for professionals seeking a significant career advancement within a supportive, modern, and digitally-focused practice.\n\n### Responsibilities\nThe firm offers a highly customizable task profile, allowing you to align your responsibilities with your personal strengths and passions. Key areas of focus include:\n\n*   Preparation and review of annual financial statements.\n*   Preparation of tax declarations for both partnerships and corporations.\n*   Participation in specialized tax advisory projects tailored to your individual qualifications, such as inheritance tax or transformation tax law.\n*   Supporting and accompanying tax audits.\n*   Optional: Team leadership and personnel responsibility, providing a chance to mentor and guide colleagues.\n*   Engagement in further individually selectable areas of activity that genuinely interest you.\n\n### Qualifications\nTo ensure a mutual fit and success in this dynamic environment, candidates should ideally possess:\n\n*   A communicative disposition and a genuine enjoyment of client interaction.\n*   A meticulous, efficient, and conscientious approach to work.\n*   An openness and adaptability to digital work processes and modern tools.\n*   Optional: A natural understanding of leadership and a strong sense of responsibility towards employees.\n*   A successfully completed Tax Consultant (Steuerberater) examination.\n*   A profound passion for tax-related topics and ongoing professional development.\n\n### Author's Take\nThis is an exceptional opportunity for a seasoned Tax Consultant looking for more than just a job – it's a career-defining move. The emphasis on individual development, a clear partnership track, industry-leading compensation, and flexible working conditions truly sets this role apart. The firm's commitment to a positive, digitally-forward culture ensures a stimulating and supportive environment. TaxTalente further enhances this by providing a discreet, efficient, and highly personalized job search experience, making it an ideal choice for ambitious professionals seeking their next significant step without the usual hiring complexities.
