@@ -1,31 +1,43 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
-import { JobPosting } from '@/lib/types';
-import { Query } from 'firebase-admin/firestore';
+
+import { Query, Timestamp } from 'firebase-admin/firestore';
 import { z } from 'zod';
+
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
+import { isErrorWithMessage } from '@/lib/utils';
 
 // Define the schema for query parameter validation
 const searchSchema = z.object({
-  q: z.string().max(100).optional().default(''), // Search query
-  startAfter: z.string().max(100).optional(), // Firestore document ID for pagination
+  jobLevel: z.string().max(50).optional(),
   limit: z.coerce.number().int().positive().max(50).optional().default(10), // Page size
   location: z.string().max(100).optional(),
-  jobLevel: z.string().max(50).optional(),
-  tags: z.string().max(200).optional(), // Comma-separated tags
+  q: z.string().max(100).optional().default(''), // Search query
   sortOrder: z.enum(['asc', 'desc']).optional().default('desc'), // Sort order for postedDate
+  startAfter: z.string().max(100).optional(), // Firestore document ID for pagination
+  tags: z.string().max(200).optional(), // Comma-separated tags
 });
 
+function isTimestamp(value: unknown): value is Timestamp {
+  return value instanceof Timestamp;
+}
+
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
-const serializeJob = (doc: FirebaseFirestore.DocumentSnapshot): JobPosting => {
-  const data = doc.data()!;
+const serializeJob = (doc: FirebaseFirestore.DocumentSnapshot) => {
+  const data = doc.data();
+  if (!data) {
+    throw new Error('Document data is empty');
+  }
   return {
     id: doc.id,
     ...data,
-    postedDate: data.postedDate.toDate(), // Keep as Date object for now, will be stringified by res.json
-    expirationDate: data.expirationDate
-      ? data.expirationDate.toDate()
-      : undefined,
-  } as JobPosting;
+    expirationDate:
+      data.expirationDate && isTimestamp(data.expirationDate)
+        ? data.expirationDate.toDate().toISOString()
+        : null,
+    postedDate: isTimestamp(data.postedDate)
+      ? data.postedDate.toDate().toISOString()
+      : new Date().toISOString(),
+  };
 };
 
 export default async function handler(
@@ -42,19 +54,19 @@ export default async function handler(
     const validation = searchSchema.safeParse(req.query);
     if (!validation.success) {
       return res.status(400).json({
-        message: 'Invalid query parameters.',
         errors: validation.error.flatten(),
+        message: 'Invalid query parameters.',
       });
     }
 
     const {
-      q: searchTerm,
-      startAfter: startAfterId,
+      jobLevel,
       limit,
       location,
-      jobLevel,
-      tags,
+      q: searchTerm,
       sortOrder,
+      startAfter: startAfterId,
+      tags,
     } = validation.data;
 
     res.setHeader(
@@ -65,7 +77,9 @@ export default async function handler(
     // This is a simplified query builder. A real-world, complex search might use
     // a dedicated search service like Algolia or Typesense for better performance
     // and more advanced features than Firestore can provide alone.
-    let query: Query = adminDb.collection('jobs').where('status', '==', 'published');
+    let query: Query = adminDb
+      .collection('jobs')
+      .where('status', '==', 'published');
 
     // Apply exact match filters first
     if (location) {
@@ -75,27 +89,36 @@ export default async function handler(
       query = query.where('jobLevel', '==', jobLevel);
     }
     if (tags) {
-      const tagsArray = tags.split(',').map(tag => tag.trim()).filter(t => t);
+      const tagsArray = tags
+        .split(',')
+        .map((tag) => tag.trim())
+        .filter((t) => t);
       if (tagsArray.length > 0) {
         query = query.where('tags', 'array-contains-any', tagsArray);
       }
     }
 
     if (searchTerm) {
-        const keywords = searchTerm.toLowerCase().split(' ').filter(k => k);
-        if (keywords.length > 0) {
-            query = query.where('keywords', 'array-contains-any', keywords);
-        }
+      const keywords = searchTerm
+        .toLowerCase()
+        .split(' ')
+        .filter((k) => k);
+      if (keywords.length > 0) {
+        query = query.where('keywords', 'array-contains-any', keywords);
+      }
     }
 
     // Always order by completenessScore as the primary sort criterion, then by postedDate
     query = query
-        .orderBy('completenessScore', 'desc')
-        .orderBy('postedDate', sortOrder);
+      .orderBy('completenessScore', 'desc')
+      .orderBy('postedDate', sortOrder);
 
     // Apply pagination
     if (startAfterId) {
-      const startAfterDoc = await adminDb.collection('jobs').doc(startAfterId).get();
+      const startAfterDoc = await adminDb
+        .collection('jobs')
+        .doc(startAfterId)
+        .get();
       if (startAfterDoc.exists) {
         query = query.startAfter(startAfterDoc);
       }
@@ -105,18 +128,22 @@ export default async function handler(
 
     const snapshot = await query.get();
     const jobs = snapshot.docs.map(serializeJob);
-    const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1] : null;
+    const lastVisible =
+      snapshot.docs.length > 0
+        ? snapshot.docs[snapshot.docs.length - 1]
+        : null;
 
     res.status(200).json({
       jobs: jobs,
       lastVisible: lastVisible ? lastVisible.id : null,
     });
-
   } catch (error) {
     console.error('Error searching for jobs:', error);
     // Firestore throws specific errors for invalid queries, which can be caught here
-    if (error instanceof Error && error.message.includes('invalid')) {
-        return res.status(400).json({ message: `Invalid query: ${error.message}` });
+    if (isErrorWithMessage(error) && error.message.includes('invalid')) {
+      return res
+        .status(400)
+        .json({ message: `Invalid query: ${error.message}` });
     }
     res.status(500).json({ message: 'Internal server error' });
   }

@@ -1,20 +1,41 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+
+import {
+  DocumentSnapshot,
+  Query,
+  Timestamp,
+} from 'firebase-admin/firestore';
+
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
-import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
+import { AuthenticatedNextApiRequest, requireAdmin } from '@/lib/middleware';
 import { JobPosting } from '@/lib/types';
-import { DocumentSnapshot, Query } from 'firebase-admin/firestore';
+
+function isTimestamp(value: unknown): value is Timestamp {
+  return value instanceof Timestamp;
+}
 
 // Helper function to convert Firestore Timestamp to ISO string
-const processJobData = (docSnap: DocumentSnapshot): JobPosting => {
-  const data = docSnap.data()!;
-  return {
-    id: docSnap.id,
-    ...data,
-    postedDate: data.postedDate.toDate().toISOString(),
-    expirationDate: data.expirationDate
+const processJobData = (docSnap: DocumentSnapshot) => {
+  const data = docSnap.data();
+  if (!data) {
+    throw new Error(`Document data is empty for doc: ${docSnap.id}`);
+  }
+
+  const postedDate = isTimestamp(data.postedDate)
+    ? data.postedDate.toDate().toISOString()
+    : new Date().toISOString();
+
+  const expirationDate =
+    data.expirationDate && isTimestamp(data.expirationDate)
       ? data.expirationDate.toDate().toISOString()
-      : null,
-  } as JobPosting;
+      : null;
+
+  return {
+    ...data,
+    expirationDate,
+    id: docSnap.id,
+    postedDate,
+  };
 };
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -27,7 +48,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { q, startAfter: startAfterId, limit: limitStr } = req.query;
+  const { limit: limitStr, q, startAfter: startAfterId } = req.query;
 
   const searchTerm = typeof q === 'string' ? q : '';
   const pageLimit = limitStr ? parseInt(limitStr as string, 10) : 10;
@@ -64,7 +85,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     res
       .status(200)
       .json({ jobs, lastDocId: lastVisible ? lastVisible.id : null });
-  } catch (error) {
+  } catch (error: unknown) {
     console.error('Error searching admin jobs:', error);
     res.status(500).json({ error: 'Internal server error' });
   }

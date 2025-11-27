@@ -1,25 +1,35 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
-import { Article } from '@/lib/types';
-import { Query } from 'firebase-admin/firestore';
+
+import { Query, Timestamp } from 'firebase-admin/firestore';
 import { z } from 'zod';
+
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 
 // Define the schema for query parameter validation
 const searchSchema = z.object({
+  filter: z.enum(['editorial', 'briefing']).optional(), // New filter for content type
+  limit: z.coerce.number().int().positive().max(50).optional().default(10), // Page size
   q: z.string().max(100).optional().default(''), // Search query
   startAfter: z.string().max(100).optional(), // Firestore document ID for pagination
-  limit: z.coerce.number().int().positive().max(50).optional().default(10), // Page size
-  filter: z.enum(['editorial', 'briefing']).optional(), // New filter for content type
 });
 
+function isTimestamp(value: unknown): value is Timestamp {
+  return value instanceof Timestamp;
+}
+
 // Helper function to convert Firestore Timestamps to ISO strings for serialization
-const serializeArticle = (doc: FirebaseFirestore.DocumentSnapshot): Article => {
-  const data = doc.data()!;
+const serializeArticle = (doc: FirebaseFirestore.DocumentSnapshot) => {
+  const data = doc.data();
+  if (!data) {
+    throw new Error('Document data is empty.');
+  }
   return {
     id: doc.id,
     ...data,
-    publishDate: data.publishDate.toDate(), // Keep as Date object, will be stringified by res.json
-  } as Article;
+    publishDate: isTimestamp(data.publishDate)
+      ? data.publishDate.toDate().toISOString()
+      : new Date().toISOString(),
+  };
 };
 
 export default async function handler(
@@ -36,12 +46,17 @@ export default async function handler(
     const validation = searchSchema.safeParse(req.query);
     if (!validation.success) {
       return res.status(400).json({
-        message: 'Invalid query parameters.',
         errors: validation.error.flatten(),
+        message: 'Invalid query parameters.',
       });
     }
 
-    const { q: searchTerm, startAfter: startAfterId, limit, filter } = validation.data;
+    const {
+      filter,
+      limit,
+      q: searchTerm,
+      startAfter: startAfterId,
+    } = validation.data;
 
     res.setHeader(
       'Cache-Control',
@@ -82,9 +97,7 @@ export default async function handler(
     const articles = snapshot.docs.map(serializeArticle);
 
     const lastVisibleArticle =
-      articles.length > 0
-        ? articles[articles.length - 1]
-        : null;
+      articles.length > 0 ? articles[articles.length - 1] : null;
 
     res.status(200).json({
       articles: articles,

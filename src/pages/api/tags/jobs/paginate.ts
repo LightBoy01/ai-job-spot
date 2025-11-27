@@ -1,13 +1,39 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
+
+import { Query, Timestamp } from 'firebase-admin/firestore';
 import { z } from 'zod';
-import { Query } from 'firebase-admin/firestore';
+
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
+import { isErrorWithMessage } from '@/lib/utils';
 
 const paginateSchema = z.object({
-  tag: z.string().min(1).max(100),
-  startAfter: z.string().max(100).optional(),
   limit: z.coerce.number().int().positive().max(50).optional().default(10),
+  startAfter: z.string().max(100).optional(),
+  tag: z.string().min(1).max(100),
 });
+
+function isTimestamp(value: unknown): value is Timestamp {
+  return value instanceof Timestamp;
+}
+
+interface JobDocumentData {
+  applicationLink: string;
+  company: string;
+  companyLogoUrl?: null | string; // Fixed: null before string
+  expirationDate: unknown; // This will be Timestamp or null
+  isFeatured?: boolean;
+  isNew?: boolean;
+  jobLevel?: null | string; // Fixed: null before string
+  location: string;
+  postedDate: unknown; // This will be Timestamp
+  salaryRange?: null | string; // Fixed: null before string
+  source?: null | string; // Fixed: null before string
+  sourceUrl?: null | string; // Fixed: null before string
+  status: string; // Assuming status is always a string
+  tags?: string[];
+  title: string;
+  verificationDate?: unknown; // This will be Timestamp or null
+}
 
 export default async function handler(
   req: NextApiRequest,
@@ -22,12 +48,12 @@ export default async function handler(
     const validation = paginateSchema.safeParse(req.query);
     if (!validation.success) {
       return res.status(400).json({
-        message: 'Invalid query parameters.',
         errors: validation.error.flatten(),
+        message: 'Invalid query parameters.',
       });
     }
 
-    const { tag, startAfter: startAfterId, limit } = validation.data;
+    const { limit, startAfter: startAfterId, tag } = validation.data;
 
     let jobsQuery: Query = adminDb
       .collection('jobs')
@@ -46,32 +72,44 @@ export default async function handler(
     }
 
     const snapshot = await jobsQuery.limit(limit).get();
-    const jobs = snapshot.docs.map(doc => {
-      const data = doc.data()!;
+    const jobs = snapshot.docs.map((doc) => {
+      const data = doc.data() as JobDocumentData; // Cast to our interface
       return {
-        id: doc.id,
-        title: data.title,
+        applicationLink: data.applicationLink,
         company: data.company,
-        location: data.location,
-        salaryRange: data.salaryRange ?? null,
-        isNew: data.isNew ?? false,
-        isFeatured: data.isFeatured ?? false,
         companyLogoUrl: data.companyLogoUrl ?? null,
-        verificationDate: data.verificationDate ? data.verificationDate.toDate().toISOString() : null,
-        sourceUrl: data.sourceUrl ?? null,
+        expirationDate:
+          data.expirationDate && isTimestamp(data.expirationDate)
+            ? data.expirationDate.toDate().toISOString()
+            : null,
+        id: doc.id,
+        isFeatured: data.isFeatured ?? false,
+        isNew: data.isNew ?? false,
         jobLevel: data.jobLevel ?? null,
+        location: data.location,
+        postedDate: isTimestamp(data.postedDate)
+          ? data.postedDate.toDate().toISOString()
+          : new Date().toISOString(), // Fallback for postedDate
+        salaryRange: data.salaryRange ?? null,
         source: data.source ?? null,
+        sourceUrl: data.sourceUrl ?? null,
         tags: data.tags ?? [],
-        postedDate: data.postedDate.toDate().toISOString(),
-        expirationDate: data.expirationDate ? data.expirationDate.toDate().toISOString() : null,
-        applicationLink: data.applicationLink, // <-- ADDED THIS LINE
+        title: data.title,
+        verificationDate:
+          data.verificationDate && isTimestamp(data.verificationDate)
+            ? data.verificationDate.toDate().toISOString()
+            : null,
       };
     });
-    const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1].id : null;
+    const lastVisible =
+      snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1].id : null;
 
     res.status(200).json({ jobs, lastVisible });
   } catch (error) {
     console.error('Error paginating jobs by tag:', error);
-    res.status(500).json({ message: 'Internal server error' });
+    const message = isErrorWithMessage(error)
+      ? error.message
+      : 'Internal server error';
+    res.status(500).json({ message });
   }
 }

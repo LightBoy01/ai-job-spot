@@ -12,7 +12,7 @@ import {
   limit as limitTo,
   startAfter,
 } from 'firebase/firestore';
-import { db } from './firebase.js'; // Import the client-side db instance
+import { db } from './firebase'; // Import the client-side db instance
 import { JobPosting, Article, AggregatedArticle } from './types.js';
 
 // Helper function to convert Firestore Timestamp to JavaScript Date
@@ -230,10 +230,13 @@ export async function getRelevantArticles(
     return [];
   }
 
+  // Limit the tags array to 30 elements to avoid Firestore 'ARRAY_CONTAINS_ANY' limit
+  const queryTags = tags.slice(0, 30);
+
   const articlesCollectionRef = collection(db, 'articles');
   const q = query(
     articlesCollectionRef,
-    where('tags', 'array-contains-any', tags),
+    where('tags', 'array-contains-any', queryTags),
     orderBy('publishDate', 'desc'),
     limitTo(limit + 1) // Fetch one more to see if we need to exclude the current article
   );

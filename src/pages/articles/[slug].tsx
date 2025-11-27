@@ -51,7 +51,7 @@ const generateArticleSchema = (article: SerializedArticle) => {
 };
 
 export async function getStaticPaths() {
-  const { articles } = await getArticles();
+  const { articles } = await getArticles(100); // Fetch only 100 recent articles for static generation
   const paths = articles.map((article) => ({
     params: { slug: article.slug },
   }));

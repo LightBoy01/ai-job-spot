@@ -1,13 +1,32 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
+
+import { Query, Timestamp } from 'firebase-admin/firestore';
 import { z } from 'zod';
-import { Query } from 'firebase-admin/firestore';
+
+import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
+import { isErrorWithMessage } from '@/lib/utils';
 
 const paginateSchema = z.object({
-  tag: z.string().min(1).max(100),
-  startAfter: z.string().max(100).optional(),
   limit: z.coerce.number().int().positive().max(50).optional().default(10),
+  startAfter: z.string().max(100).optional(),
+  tag: z.string().min(1).max(100),
 });
+
+function isTimestamp(value: unknown): value is Timestamp {
+  return value instanceof Timestamp;
+}
+
+interface ArticleDocumentData {
+  author: string;
+  excerpt?: string;
+  imageUrl?: null | string; // Fixed: null before string
+  issueNo?: number;
+  publishDate: unknown; // This will be Timestamp or string
+  slug: string;
+  tags?: string[];
+  title: string;
+  volumeNo?: number;
+}
 
 export default async function handler(
   req: NextApiRequest,
@@ -22,12 +41,12 @@ export default async function handler(
     const validation = paginateSchema.safeParse(req.query);
     if (!validation.success) {
       return res.status(400).json({
-        message: 'Invalid query parameters.',
         errors: validation.error.flatten(),
+        message: 'Invalid query parameters.',
       });
     }
 
-    const { tag, startAfter: startAfterId, limit } = validation.data;
+    const { limit, startAfter: startAfterId, tag } = validation.data;
 
     let articlesQuery: Query = adminDb
       .collection('articles')
@@ -45,26 +64,32 @@ export default async function handler(
     }
 
     const snapshot = await articlesQuery.limit(limit).get();
-    const articles = snapshot.docs.map(doc => {
-      const data = doc.data()!;
+    const articles = snapshot.docs.map((doc) => {
+      const data = doc.data() as ArticleDocumentData; // Cast to our interface
       return {
-        id: doc.id,
-        title: data.title,
         author: data.author,
-        publishDate: data.publishDate ? data.publishDate.toDate().toISOString() : '',
-        slug: data.slug,
-        issueNo: data.issueNo,
-        volumeNo: data.volumeNo,
-        imageUrl: data.imageUrl ?? null,
-        tags: data.tags ?? [],
         excerpt: data.excerpt ?? '',
+        id: doc.id,
+        imageUrl: data.imageUrl ?? null,
+        issueNo: data.issueNo,
+        publishDate: isTimestamp(data.publishDate)
+          ? data.publishDate.toDate().toISOString()
+          : (data.publishDate as string) || '', // Ensure it's a string
+        slug: data.slug,
+        tags: data.tags ?? [],
+        title: data.title,
+        volumeNo: data.volumeNo,
       };
     });
-    const lastVisible = snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1].id : null;
+    const lastVisible =
+      snapshot.docs.length > 0 ? snapshot.docs[snapshot.docs.length - 1].id : null;
 
     res.status(200).json({ articles, lastVisible });
   } catch (error) {
     console.error('Error paginating articles by tag:', error);
-    res.status(500).json({ message: 'Internal server error' });
+    const message = isErrorWithMessage(error)
+      ? error.message
+      : 'Internal server error';
+    res.status(500).json({ message });
   }
 }

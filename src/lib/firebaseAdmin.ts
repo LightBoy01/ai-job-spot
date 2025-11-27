@@ -29,28 +29,29 @@ async function getServiceAccount(): Promise<admin.ServiceAccount> {
     }
   }
 
-  // 2. Fallback to parsing the full JSON from an environment variable
-  if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
+  // 2. Fallback to parsing a Base64 encoded JSON from an environment variable
+  if (process.env.FIREBASE_SERVICE_ACCOUNT_B64) {
     try {
-      console.log('Using FIREBASE_SERVICE_ACCOUNT_JSON environment variable for Firebase Admin.');
-      const serviceAccountJSON = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
+      console.log('Using FIREBASE_SERVICE_ACCOUNT_B64 environment variable for Firebase Admin.');
+      const decodedJson = Buffer.from(process.env.FIREBASE_SERVICE_ACCOUNT_B64, 'base64').toString('utf8');
+      const serviceAccountJSON = JSON.parse(decodedJson);
       return {
         clientEmail: serviceAccountJSON.client_email,
         privateKey: serviceAccountJSON.private_key,
         projectId: serviceAccountJSON.project_id,
       } as admin.ServiceAccount;
     } catch (e) {
-      console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_JSON environment variable:', e);
+      console.error('Error parsing FIREBASE_SERVICE_ACCOUNT_B64 environment variable:', e);
       // Fall through to the next method
     }
   }
 
   // 3. Fallback to local JSON file for local development
   try {
-    const serviceAccountPath = '/data/data/com.termux/files/home/ai-job-spot/ai-jobs-spot-92a1f1a8b08e.json';
+    const serviceAccountPath = process.env.GOOGLE_APPLICATION_CREDENTIALS || './ai-jobs-spot-92a1f1a8b08e.json'; // Use GOOGLE_APPLICATION_CREDENTIALS if set, otherwise default
     const serviceAccountFile = await fs.readFile(serviceAccountPath, 'utf8');
     const serviceAccountJSON = JSON.parse(serviceAccountFile);
-    console.log('Using local JSON file for Firebase Admin.');
+    console.log(`Using local JSON file for Firebase Admin: ${serviceAccountPath}`);
     return {
       clientEmail: serviceAccountJSON.client_email,
       privateKey: serviceAccountJSON.private_key,
@@ -58,9 +59,10 @@ async function getServiceAccount(): Promise<admin.ServiceAccount> {
     } as admin.ServiceAccount;
   } catch (e) {
     console.error('Error reading or parsing local service account file:', e);
-    throw new Error('Could not load service account. Ensure local file exists or environment variables (FIREBASE_PROJECT_ID, etc.) are set.');
+    throw new Error('Could not load service account. Ensure local file exists or environment variables (FIREBASE_PROJECT_ID, etc. or FIREBASE_SERVICE_ACCOUNT_B64) are set.');
   }
 }
+
 async function initializeAdminApp(): Promise<admin.app.App> {
   const existingApp = admin.apps.find((app) => app?.name === 'ADMIN');
   if (existingApp) {

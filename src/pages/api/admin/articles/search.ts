@@ -1,17 +1,34 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+
+import {
+  DocumentSnapshot,
+  Query,
+  Timestamp,
+} from 'firebase-admin/firestore';
+
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
-import { requireAdmin, AuthenticatedNextApiRequest } from '@/lib/middleware';
+import { AuthenticatedNextApiRequest, requireAdmin } from '@/lib/middleware';
 import { Article } from '@/lib/types';
-import { DocumentSnapshot, Query } from 'firebase-admin/firestore';
+
+function isTimestamp(value: unknown): value is Timestamp {
+  return value instanceof Timestamp;
+}
 
 // Helper function to convert Firestore Timestamp to ISO string
-const processArticleData = (docSnap: DocumentSnapshot): Article => {
-  const data = docSnap.data()!;
+const processArticleData = (docSnap: DocumentSnapshot) => {
+  const data = docSnap.data();
+  if (!data) {
+    throw new Error(`Document data is empty for doc: ${docSnap.id}`);
+  }
+  const publishDate = isTimestamp(data.publishDate)
+    ? data.publishDate.toDate().toISOString()
+    : new Date().toISOString(); // Fallback or throw error
+
   return {
-    id: docSnap.id,
     ...data,
-    publishDate: data.publishDate.toDate().toISOString(),
-  } as Article;
+    id: docSnap.id,
+    publishDate,
+  };
 };
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -24,7 +41,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { q, startAfter: startAfterId, limit: limitStr } = req.query;
+  const { limit: limitStr, q, startAfter: startAfterId } = req.query;
 
   const searchTerm = typeof q === 'string' ? q : '';
   const pageLimit = limitStr ? parseInt(limitStr as string, 10) : 10;
@@ -65,7 +82,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     res
       .status(200)
       .json({ articles, lastDocId: lastVisible ? lastVisible.id : null });
-  } catch (error) {
+  } catch (error: unknown) {
     console.error('Error searching admin articles:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
