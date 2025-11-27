@@ -9,62 +9,59 @@ postedDate: '2025-11-24T13:02:28.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/fincompare/junior-online-marketing-manager-hybrid-emsdetten-144985
 companyLogoUrl: null
+companyCulture: >-
+  FinCompare fosters a dynamic, international, and inclusive environment,
+  emphasizing flexibility (hybrid work, workation, flexible hours) and strong
+  support for employee well-being and growth through training, assistance
+  programs, and team events, all while collaboratively building a market-leading
+  platform.
+story_question1: >-
+  As a Junior Online Marketing Manager, what is the most exciting challenge you
+  expect to tackle, and how does your work directly contribute to FinCompare's
+  goal of becoming Germany's largest financing platform for SMEs?
+story_answer1: >-
+  The most exciting challenge for a Junior Online Marketing Manager here is
+  definitely optimizing our SEO/SEA for diverse brands. It's like being a
+  detective, constantly analyzing data and tweaking strategies to ensure SMEs
+  find us when they need financing most. When your keyword analysis leads to
+  higher rankings or your campaign adaptation boosts conversion, you directly
+  feel the impact. You're not just doing tasks; you're actively fueling our
+  growth towards becoming Germany's leading platform, making finance accessible
+  for thousands of businesses.
+story_question2: >-
+  Given the hybrid work model and the focus on continuous learning, how does
+  FinCompare specifically support the professional development of its junior
+  team members, especially in a remote-friendly setup?
+story_answer2: >-
+  We truly believe in growing our people. For junior team members, our hybrid
+  setup actually offers the best of both worlds: the flexibility to work from
+  home, coupled with optional in-office days for direct collaboration and
+  mentorship. We offer regular trainings, language courses, and dedicated time
+  for A/B test analysis and learning. We foster an environment where asking
+  questions is encouraged, and pragmatic problem-solving is valued over
+  perfection, giving you room to experiment, learn from mistakes, and quickly
+  take on more responsibility, all backed by a supportive team.
+story_question3: >-
+  The job description mentions a 'lean marketing implementation' and thinking in
+  'MVPs'. Can you elaborate on how this approach shapes daily work and what it
+  means for a Junior Manager contributing to strategy?
+story_answer3: >-
+  Thinking in MVPs is at the core of our marketing philosophy. For a Junior
+  Manager, this means you're empowered to try things, gather data quickly, and
+  iterate. Instead of months-long perfect campaigns, we launch minimum viable
+  products, analyze performance, and then refine. It’s incredibly dynamic and
+  collaborative. You'll be actively involved in recognizing blockers and finding
+  pragmatic solutions, not just executing. This approach means your
+  contributions, even small ones, have immediate impact and teach you agile
+  strategy development from day one, fostering a mindset of continuous
+  improvement and ownership.
 ---
-Unsere Vision ist es, kleinen und mittelständischen Unternehmen (KMU) den mühelosen Zugang zu den besten Finanzierungslösungen zu ermöglichen. Dafür verbindet FinCompare auf seiner einzigartigen Markt-Plattform KMU, Finanzinstitute und Finanzierungsberater:innen digital und persönlich, um das jeweils bestmögliche Finanzierungsergebnis zu erzielen. Schließ’ Dich uns an auf unserem Weg, Deutschlands größte Finanzierungsplattform für KMU zu werden.
-
-Wir suchen motivierte Menschen, die unser Team auf dem Weg in die digitale Zukunft der Unternehmensfinanzierung verstärken - und zwar insbesondere im Bereich/ Team als
-
-Junior Online Marketing Manager (m/w/d) - hybrid in NRW
--------------------------------------------------------
-
-Deine Aufgaben
---------------
-
-*   **Unterstützung bei der Lean Marketing-Umsetzung** insbesondere im Bereich Google SEO/SEA.
-*   **Bearbeitung von datenintensiven, wiederkehrenden SEO-Aufgaben** (z. B. Keyword-Analysen, Content-Tagging, Performance-Reports).
-*   **Übertragung und Anpassung von Best Practices** auf verschiedene Marken – z. B. Templates anpassen, einfache CMS-Änderungen vornehmen, Kampagnen aufsetzen.
-*   **Mitarbeit bei A/B-Tests** und schrittweises Erlernen der Auswertung von Testergebnissen.
-*   **Blockaden frühzeitig erkennen und pragmatisch lösen**, damit Projekte zügig vorankommen.
-
-Dein Profil
------------
-
-*   Erste **praktische Erfahrung im Online Marketing** – z. B. als Werkstudent:in oder durch relevantes Praktikum.
-*   Eine **lösungsorientierte, pragmatische Arbeitsweise** – du denkst in MVPs statt Perfektionismus.
-*   Grundkenntnisse in **SEO, SEA und digitalen Kampagnenabläufen**.
-*   Offenheit für Tools wie **Google Ads, Google Tag Manager oder WordPress** (Erfahrung von Vorteil, aber kein Muss).
-*   Interesse an **datenbasiertem Arbeiten**, Testing und Optimierung.
-*   **Neugierig** für neue Themen zu lernen.
-*   Deutsch auf muttersprachlichem Niveau und gute Englischkenntnisse.
-*   Du kannst idealerweise einmal pro Woche zu unserem Büro in Emsdetten pendeln.
-
-Warum wir?
-----------
-
-*   **Gestalte die Zukunft mit uns:** Sei Teil des Teams, das die größte Plattform für Unternehmensfinanzierung aufbaut und revolutioniere gemeinsam mit uns den Markt.
-*   **Attraktives Gehalt & Benefits:** Ein wettbewerbsfähiges Gehaltspaket sowie zahlreiche Zusatzleistungen, die deinen Erfolg und dein Wohlbefinden fördern.
-*   **Flexible Arbeitszeit & Workation:** Vertrauensarbeitszeit, 30 Tage Urlaub und die Möglichkeit, von überall aus zu arbeiten – ob von zu Hause oder auf Workation.
-*   **Sicherheit & Wohlstand:** Geförderte Altersvorsorge, Mitarbeiterrabatte und regelmäßige Teamevents für den sozialen Austausch.
-*   **Unterstützung für dich und deine Familie:** Zugang zu unserem Employee Assistance Program (EAP) für dich und deine Angehörigen – für alle Lebenslagen.
-*   **Wachse mit uns:** Regelmäßige Trainings und Sprachkurse, die deine persönliche und berufliche Entwicklung vorantreiben.
-*   **Modernes Arbeitsumfeld:** Arbeite flexibel entweder aus unserem modernen Berliner Büro oder von zu Hause aus – mit der technischen Ausstattung, die du für deine Arbeit brauchst.
-*   Dynamisches Team: Ein hochmotiviertes, internationales Team, das Wert auf Zusammenarbeit, offene Kommunikation und ein positives Arbeitsumfeld legt.
-
-Diversität & Inklusion
-----------------------
-
-Wir bei FinCompare glauben, dass ein vielfältiger und integrativer Arbeitsplatz Innovation, Kreativität und Erfolg fördert. Aus diesem Grund sind wir bestrebt, ein Team aufzubauen, das eine Vielzahl von Hintergründen, Perspektiven und Erfahrungen repräsentiert.
-
-Wir ermutigen Personen aus Gruppen, die in der Technologiebranche traditionell unterrepräsentiert sind, sich zu bewerben und beabsichtigen, alle Bewerbungen unabhängig von Geschlecht, ethnischer Zugehörigkeit, Abstammung, Religion, nationaler Herkunft, sexueller Orientierung, Alter, Staatsbürgerschaft, Familienstand, Behinderung oder Geschlechtsidentität gleichermaßen zu berücksichtigen.
-
-Bitte beachten: Im Rahmen unserer Bemühungen, einen unvoreingenommenen Bewerbungsprozess zu fördern, bitten wir Dich, in Deinem Lebenslauf keine Angaben zu Foto, Geschlecht, ethnischer Zugehörigkeit, Religion, Behinderung, sexueller Orientierung oder Alter zu machen.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nOur vision is to provide small and medium-sized enterprises (SMEs) with effortless access to the best financing solutions. To achieve this, FinCompare connects SMEs, financial institutions, and financing advisors digitally and personally on its unique market platform, ensuring the best possible financing outcome. Join us on our journey to become Germany's largest financing platform for SMEs.\n\nWe are looking for motivated individuals to strengthen our team on the path to the digital future of corporate finance, specifically in the role of:\n\n**Junior Online Marketing Manager (hybrid in NRW)**\n\n### Responsibilities\n*   Support the **lean marketing implementation**, especially in Google SEO/SEA.\n*   Process **data-intensive, recurring SEO tasks** (e.g., keyword analyses, content tagging, performance reports).\n*   **Transfer and adapt best practices** to various brands – e.g., adapt templates, make simple CMS changes, set up campaigns.\n*   Collaborate on **A/B tests** and gradually learn to evaluate test results.\n*   **Identify and pragmatically solve blockers** early, to ensure projects progress swiftly.\n\n### Qualifications\n*   First **practical experience in online marketing** – e.g., as a working student or through a relevant internship.\n*   A **solution-oriented, pragmatic working style** – you think in MVPs instead of perfectionism.\n*   Basic knowledge in **SEO, SEA, and digital campaign processes**.\n*   Openness to tools like **Google Ads, Google Tag Manager, or WordPress** (experience is a plus, but not a must).\n*   Interest in **data-driven work**, testing, and optimization.\n*   **Curiosity** to learn new topics.\n*   Native level German and good English skills.\n*   Ideally, you can commute to our office in Emsdetten once a week.\n\n### Author's Take\nThis is an excellent opportunity for an ambitious junior marketer eager to make a tangible impact within a rapidly growing FinTech company. FinCompare offers a dynamic, supportive, and flexible work environment, emphasizing continuous learning and collaboration. With a strong commitment to work-life balance (flexible hours, 30 days holiday, work-from-anywhere), professional development (trainings, language courses), and an inclusive culture, this role provides a solid foundation for building a career in digital marketing. You'll contribute directly to FinCompare's vision of revolutionizing SME financing, working with a pragmatic, data-driven approach.

@@ -9,54 +9,73 @@ postedDate: '2025-11-24T13:02:23.000Z'
 expirationDate: null
 tags:
   - Graphic Arts and Communication Design
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/liganova-gmbh/junior-graphic-designer-all-genders-stuttgart-173811
 companyLogoUrl: null
+companyCulture: >-
+  LIGANOVA fosters an inclusive and diverse environment, celebrating uniqueness
+  and encouraging personal growth through the mission 'Create the best version
+  of yourself'. The company is also committed to sustainability with its Green
+  Mindset initiative and offers a highly international, collaborative setting
+  with flexible team structures.
+story_question1: >-
+  Given the international scope and work with up to 80 languages, how does
+  LIGANOVA ensure consistency and cultural relevance across such a diverse range
+  of visual assets, and what role does a Junior Graphic Designer play in
+  maintaining that balance?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what makes our
+  team special. Here at LIGANOVA, we pride ourselves on delivering visually
+  impactful work globally, and managing consistency across 80 languages is a
+  fascinating challenge. As a Junior Graphic Designer, you're not just executing
+  designs; you're a crucial part of our quality control and cultural adaptation
+  process. We work with comprehensive CI guidelines, but it's your keen eye and
+  understanding of typography, color, and cultural nuances that truly bring a
+  design to life in each region. You'll collaborate closely with our
+  interdisciplinary project teams, from initial concept to final artwork,
+  ensuring that while the core message remains consistent, the local adaptation
+  resonates authentically. It's a dynamic environment where your creative input
+  directly impacts how our international clients perceive their brand, and we
+  value every perspective in making that happen.
+story_question2: >-
+  The job mentions an affinity for AI tools and automation. How is LIGANOVA
+  integrating AI into its design workflow, and what opportunities are there for
+  a Junior Graphic Designer to innovate and contribute to these advancements?
+story_answer2: >-
+  It’s exciting that you picked up on our focus on AI, because it’s truly
+  transforming how we approach design. We're not just using AI as a gimmick;
+  we're strategically integrating it to enhance efficiency and unlock new
+  creative possibilities. For a Junior Graphic Designer, this means you're at
+  the forefront of innovation. You won't just be handed tasks; you'll be
+  encouraged to experiment with AI tools for things like generative design
+  explorations, automated asset creation, or even language localization support.
+  We believe that by combining human creativity with AI's speed and analytical
+  power, we can deliver more sophisticated and personalized solutions for our
+  clients. There are regular opportunities to present your findings, share best
+  practices, and even contribute to developing our internal AI-driven workflows,
+  making your role far more impactful than just a traditional design position.
+story_question3: >-
+  Considering this is a 2-year parental leave cover, how does LIGANOVA support
+  professional growth and ensure the designer feels like a valued, long-term
+  contributor during their tenure?
+story_answer3: >-
+  That’s a very practical and important question, and it highlights our
+  commitment to everyone who joins us, regardless of the contract length. While
+  this role is a parental leave cover, we absolutely view every team member as
+  an integral part of our community. Our 'Create the best version of yourself'
+  mission isn't just a slogan; it's embedded in our daily interactions. You'll
+  receive continuous mentorship from experienced designers, participate in our
+  internal knowledge-sharing sessions, and be exposed to a diverse portfolio of
+  international projects that will significantly broaden your skillset. We
+  actively encourage learning new tools, including AI, and offer feedback loops
+  that foster rapid development. Many of our talented individuals, even those on
+  temporary contracts, have found extended opportunities within LIGANOVA because
+  their contributions were so valuable. We invest in you because we believe your
+  growth directly contributes to our collective success.
 ---
-JOIN US
--------
-
-_Ab Januar suchen wir für unser Team am Standort Stuttgart einen Junior Graphic Designer (all genders) - im Rahmen einer Elternzeitvertretung befristet auf 2 Jahre._  
-_Werde Teil unserer Community – wir freuen uns auf dich!_
-
-WHAT YOU DO
------------
-
-*   In unserem Graphic-Services-Team unterstützt du die Entwicklung und Umsetzung von grafischen Konzepten, Layouts und Key Visuals für verschiedene internationale Kunden
-*   Von der Erstellung eines Flyers bis zur Bespielung von großen Schaufenstern oder Messeständen – in unseren interdisziplinären Projektteams trägst du mit deiner fachlichen Expertise, Hands-on-Mentalität und deinem Ownership zum Erfolg des Projektes bei.
-*   Du unterstützt bei der Reinzeichnung/Erstellung von Daten für Print- und Webanwendungen und kommunizierst hierbei mit Lieferanten und Dienstleistern
-*   Du arbeitest an regionsspezifischen Layouts und erstellst verschiedene Assets in bis zu 80 Sprachen
-*   In enger Abstimmung mit dem Team erstellst du ästhetische und verständliche Grafiken und bereitest Präsentationen, Guidelines und Aufbauanleitungen professionell und visuell ansprechend auf.
-*   Mit deiner Affinität für KI Tools und Automatisierung trägst du zu einem innovativen und effizienten Arbeitsalltag bei
-
-WHO YOU ARE
------------
-
-*   Du hast eine erfolgreich abgeschlossene Ausbildung im Bereich Mediengestaltung (Digital & Print) oder Studium im Bereich Grafik/Kommunikationsdesign
-*   Du bist sicher im Umgang mit der Adobe Creative Suite (InDesign, Photoshop, Illustrator) und hast bereits Erfahrungen in der Anwendung von KI Tools
-*   Du bringst sehr gute Kenntnisse in Typographie und erste Erfahrungen im Umgang mit CI-Richtlinien mit
-*   Du hast ein gestalterisches Gespür, einen Blick für Farben und ein gutes technisches Verständnis
-*   Du arbeitest gut organisiert, strukturiert und hast eine schnelle Auffassungsgabe
-*   Du kommunizierst souverän auf Deutsch und Englisch
-
-WHAT TO EXPECT
---------------
-
-*   DIVERSITY & PEOPLE: Come as you are! Bei LIGANOVA wird eine Kultur der Inklusion gelebt und Diversity fasziniert uns. Einzigartigkeit wird zelebriert und gefördert, weshalb uns die gemeinsame Mission „Create the best version of yourself“ eint. Denn wir finden, dass gerade Vielfalt das größte kreative Potential birgt.
-*   GREEN MINDSET: Innovative Lösungen und unser Green Board geben Impulse für mehr Nachhaltigkeit im Office und darüber hinaus. Mit der Initiative Green Campaign Cycle führen wir unsere Kunden proaktiv an das Thema Green Transformation heran und stehen bei der Umsetzung mit unserer Expertise zur Seite.
-*   INTERNATIONALITY: Neben unserem HQ in Stuttgart sind auch unsere Offices in Berlin und Amsterdam zu vollständigen Dependancen gewachsen. Wir bieten Dir Vernetzung und regelmäßigen Austausch innerhalb der Units, fernab von starren Teamstrukturen.
-
-Is it a Match?
---------------
-
-Contact me:  
-Lhea  
-Team Leader People  
-+49 152 01876821
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nJoin LIGANOVA's Graphic Services team in Stuttgart as a Junior Graphic Designer (all genders). This is a temporary, 2-year position covering parental leave. You will contribute to the development and implementation of graphic concepts, layouts, and key visuals for a diverse range of international clients, working within interdisciplinary project teams.\n\n### Responsibilities\n- Support the development and implementation of graphic concepts, layouts, and key visuals for various international clients.\n- Contribute your expertise, hands-on mentality, and ownership to project success in interdisciplinary teams, from creating flyers to designing large shop windows or exhibition stands.\n- Assist with final artwork/data creation for print and web applications, communicating with suppliers and service providers.\n- Work on region-specific layouts and create various assets in up to 80 languages.\n- In close coordination with the team, create aesthetic and understandable graphics, and professionally prepare presentations, guidelines, and assembly instructions.\n- Contribute to an innovative and efficient workday with your affinity for AI tools and automation.\n\n### Qualifications\n- Successfully completed training in media design (Digital & Print) or a degree in graphic/communication design.\n- Proficient in Adobe Creative Suite (InDesign, Photoshop, Illustrator) and experienced in using AI tools.\n- Very good knowledge of typography and initial experience with corporate identity (CI) guidelines.\n- Strong design sense, an eye for color, and good technical understanding.\n- Highly organized, structured, and possess a quick grasp of new concepts.\n- Confident communication skills in both German and English.\n\n### Author's Take\nThis is a fantastic opportunity for a budding Junior Graphic Designer to gain significant international experience within a dynamic agency. Despite being a 2-year parental leave cover, the role offers exposure to diverse projects, cutting-edge AI tools, and a truly inclusive, sustainability-focused culture that champions personal growth. It's a chance to build a robust portfolio while contributing to a globally impactful team, making it valuable experience for any aspiring creative.

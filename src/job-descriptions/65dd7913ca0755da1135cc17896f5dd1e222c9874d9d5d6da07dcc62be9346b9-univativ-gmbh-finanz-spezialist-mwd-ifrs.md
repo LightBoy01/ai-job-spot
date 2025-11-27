@@ -9,54 +9,48 @@ postedDate: '2025-11-25T10:01:44.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
+salaryRange: '€66,000 - €76,000 per year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/univativ-gmbh/finanz-spezialist-ifrs-stuttgart-21133
 companyLogoUrl: null
+companyCulture: >-
+  univativ fosters a culture of career development and growth, offering exciting
+  opportunities with renowned companies. The client emphasizes an innovative
+  team environment where individuals contribute to complex projects and benefit
+  from diverse training opportunities through the e-academy.
+story_question1: >-
+  How does this role directly contribute to ensuring global financial integrity
+  across diverse international entities, and what are the most common challenges
+  in advising local companies on complex IFRS questions?
+story_answer1: >-
+  That's a fantastic question! As an IFRS Specialist here, you're not just
+  crunching numbers; you're truly a financial ambassador. We operate globally,
+  and ensuring every local entity adheres to IFRS standards is crucial for our
+  consolidated financial health. You'll dive deep into their specific
+  challenges, whether it's navigating new product introductions or adapting to
+  evolving regulations. It's incredibly rewarding to provide clear guidance,
+  simplify complex IFRS issues, and see your advice directly impact our
+  financial transparency and strategic decisions. You're empowered to be a
+  problem-solver and a trusted advisor, which is something we highly value.
+story_question2: >-
+  Beyond the immediate project scope, what opportunities exist for a specialist
+  in this role to influence broader process improvements or strategic
+  initiatives within the automotive client, and how is personal growth
+  supported?
+story_answer2: >-
+  That's exactly what makes this role so dynamic! We don't just want you to
+  maintain; we want you to innovate. While your core responsibilities involve
+  critical IFRS oversight, you'll actively participate in process improvements
+  and even new product launches. This means your insights from the IFRS
+  perspective directly shape how we operate and grow. As for personal growth,
+  univativ is truly committed. Through our e-academy, you have access to a
+  wealth of continuous learning opportunities. We see this as an investment in
+  your future, ensuring you're always at the forefront of financial expertise
+  and ready to take on new challenges as they arise. Your development is our
+  mission, and we live by that.
 ---
-**Baldmöglichst, bis zum 01.01.2027, mit Option auf Verlängerung | 40 Stunden pro Woche | Stuttgart | Automobilbranche | Berufseinsteiger, Berufserfahrener | 66000 bis 76000 € im Jahr | Projekt-ID A202551651\_1S**
-
-univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
-
-Du bist zahlenaffin, eine lösungsorientierte, eigenständige Arbeitsweise rundet Dein Profil ab? Dann suchen Dich als Finanz-Spezialisten (m/w/d) für den Bereich IFRS!
-
-Bei unserem Kunden handelt es sich um ein namhaftes Unternehmen aus der Automobilbranche. Du bist von Beginn an Teil eines innovativen Teams und arbeitest an komplexen Projekten mit. Wir konnten Dein Interesse wecken? Dann freuen wir uns auf Deine Bewerbung!
-
-Aufgaben
---------
-
-*   Zu Deinen Aufgaben gehört die monatliche Überprüfung der IFRS-Reporting-Packages der lokalen Gesellschaften
-*   Du unterstützt bei der IFRS-Bilanzierung und der Finanzberichterstattung
-*   Hierbei berätst Du die lokalen Gesellschaften zu IFRS-Fragen
-*   Zudem stellst Du Informationen und Berichte an die zentralen Accounting-Bereiche zusammen
-*   Du wirkst bei Produkteinführung und Prozessverbesserungen mit
-*   Ebenso bist Du für die Koordination mit anderen Geschäftsbereichen zuständig
-
-Qualifikation
--------------
-
-*   Ein abgeschlossenes Studium der Betriebswirtschaftslehre mit Schwerpunkt Accounting oder eine vergleichbare Qualifikation
-*   Gute Kenntnisse der Internationalen Rechnungsvorschriften (IFRS), idealerweise im Bereich Financial Services oder Banking
-*   Erfahrung in der Wirtschaftsprüfung oder Bilanzierung
-*   Prozessverständnis in der Einzel- und Konzernabschlusserstellung
-*   Kenntnisse in SAP
-*   Mindestens verhandlungssichere Deutsch- und gute Englischkenntnisse in Wort und Schrift
-
-Benefits
---------
-
-*   Ein Jahreslohn zwischen 66000 € und 76000 €
-*   Wir geben Dir innerhalb von 48 Stunden eine Rückmeldung auf Deine Bewerbung
-*   Dich erwarten vielfältige Weiterbildungsmöglichkeiten in unserer e-academy
-*   Bei uns erhältst Du Corporate-Shopping-Vorteile sowie Rabatte für ausgewählte Fitnessstudios
-*   Nutze Deine Chance auf eine attraktive Prämie von bis zu 2.000 Euro für unser „Recruit a Friend“-Programm
-
-**Wir konnten Dein Interesse wecken? Klasse!**
-
-Wir freuen uns auf Deine Bewerbung
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nUnivativ is a project and personnel service provider that offers students and graduates exciting jobs at renowned companies. Your career is our mission, as your development is important to us. We are looking for a financially astute, solution-oriented, and independent individual to join us as an IFRS Financial Specialist. This full-time position (40 hours/week) is located in Stuttgart within the automotive industry, starting as soon as possible until January 1, 2027, with an option for extension. Our client is a well-known company in the automotive sector, where you will become part of an innovative team from day one, working on complex projects. This role offers a salary between €66,000 and €76,000 annually and is open to both career starters and experienced professionals. Project ID: A202551651_1S.\n\n### Responsibilities\n- Monthly review of IFRS reporting packages from local entities.\n- Support for IFRS accounting and financial reporting.\n- Advising local entities on IFRS-related questions.\n- Compiling information and reports for central accounting departments.\n- Contributing to product launches and process improvements.\n- Coordinating with other business units.\n\n### Qualifications\n- Completed degree in Business Administration with a focus on Accounting or an equivalent qualification.\n- Strong knowledge of International Financial Reporting Standards (IFRS), ideally in the Financial Services or Banking sector.\n- Experience in auditing or accounting.\n- Process understanding in the preparation of individual and consolidated financial statements.\n- Proficiency in SAP.\n- Minimum business fluent German and good written and spoken English skills.\n\n### Author's Take\nThis is an excellent opportunity for a dedicated and analytically strong IFRS specialist to make a significant impact within a leading automotive company. Univativ, as your partner, prioritizes your career development, offering a supportive environment and extensive e-academy training. You'll gain valuable experience by advising international entities and contributing to critical financial processes and innovations. The role promises a competitive salary, a quick application feedback process, and attractive benefits, including corporate shopping advantages and a \\\"Recruit a Friend\\\" bonus. If you're a proactive problem-solver with a passion for IFRS, this role offers a clear path for growth and influence in a dynamic sector.

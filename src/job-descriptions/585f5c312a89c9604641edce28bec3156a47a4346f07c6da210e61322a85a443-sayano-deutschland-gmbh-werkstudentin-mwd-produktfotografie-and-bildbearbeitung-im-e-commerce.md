@@ -9,59 +9,45 @@ postedDate: '2025-11-25T11:31:41.000Z'
 expirationDate: null
 tags:
   - Online Marketing
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/sayano-deutschland-gmbh/werkstudentin-produktfotografie-bildbearbeitung-im-e-commerce-halle-saale-357604
 companyLogoUrl: null
+companyCulture: >-
+  This e-commerce company fosters a dynamic, 'learning by doing' environment
+  with flat hierarchies and short decision paths, encouraging direct
+  implementation of ideas. It promotes continuous growth and creativity within a
+  collaborative team, offering work-life balance through a hybrid work model and
+  modern amenities.
+story_question1: >-
+  How does the work of a working student in product photography directly
+  contribute to the company's e-commerce success and brand image across its
+  diverse markets?
+story_answer1: >-
+  As a Working Student in Product Photography, you're not just taking pictures;
+  you're crafting the visual narrative that connects our products with customers
+  in over 80 countries. Our e-commerce success hinges on captivating visuals,
+  and your retouched images on platforms like Amazon and Shopify directly
+  influence conversion rates and brand perception. You'll gain hands-on
+  experience in a fast-paced environment where your creative input and technical
+  skills immediately translate into tangible business impact, setting the stage
+  for a steep learning curve and real professional growth.
+story_question2: >-
+  Given the company's 'learning by doing' philosophy and agile environment, what
+  kind of opportunities will I have to take ownership of projects or experiment
+  with new techniques, especially as a student?
+story_answer2: >-
+  Our 'learning by doing' approach isn't just a motto; it's how we operate. As a
+  working student, you'll be encouraged to bring your ideas to the table and, in
+  many cases, lead their implementation. Whether it's experimenting with a new
+  lighting setup, proposing a fresh visual style for a product line, or
+  streamlining our studio processes, we value initiative. You'll work closely
+  with a supportive team that empowers you to take responsibility, test
+  hypotheses, and see your creative vision come to life without unnecessary
+  bureaucracy, fostering rapid skill development.
 ---
-Wir sind ein junges deutsches Unternehmen, das im Jahr 2016 gegründet wurde und international im Bereich **E-Commerce** tätig ist. Wir vereinen die komplette vertikale Wertschöpfungskette von der Entwicklung, der Produktion, dem Design, sowie dem Vertrieb und Kundenservice von Produkten im Bereich **Küche, Haushalt und Spielzeug**.
-
-Die größten und bekanntesten Marken hierbei sind **MIAMIO, Calmado** und **Tortillada**. Wir verkaufen unsere Produkte in über 80 Ländern auf 4 Kontinenten und sind dabei insbesondere auf den Vertrieb Online über **Shopify**, **Amazon,** oder **Otto** spezialisiert.
-
-Zur Verstärkung unseres Teams bieten wir zum nächstmöglichen Zeitpunkt ein:
-
-**Werkstudent:in (m/w/d) Produktfotografie & Bildbearbeitung im E-Commerce**
-
-Aufgaben
---------
-
-*   Unterstützung bei der **Produktfotografie** in unserem internen Fotostudio in Halle (Saale)
-*   **Bearbeitung und Retusche** von Produktbildern mit Adobe Photoshop und Lightroom
-*   Mithilfe bei der **Postproduktion von Foto- und Videomaterial** (Schnitt, Farbkorrektur etc.)
-*   Unterstützung bei der **Vor- und Nachbereitung von Shootings**: Setaufbau, Lichtsetzung und technische Umsetzung
-*   Mitarbeit bei der Organisation und **Weiterentwicklung** unseres firmeneigenen **Fotostudios**
-*   Gestaltung von Produktbildern und **Layouts** in Canva und Figma
-
-Qualifikation
--------------
-
-*   Du bist in einem Studiengang wie Medien, Marketing, Grafikdesign oder einem vergleichbaren Fachbereich immatrikuliert und suchst nach einem Werkstudium
-*   Erste Praxiserfahrung im Umgang mit Kamera und Fotografie – idealerweise mit Fokus auf Food, Interior oder Lifestyle
-*   Gute Kenntnisse in Adobe Photoshop und Lightroom
-*   Sicherer Umgang mit moderner Studioausstattung und Fototechnik
-*   Gespür für visuelles Storytelling, ästhetische Bildwelten und ein hohes Qualitätsbewusstsein
-*   Strukturierte, eigenverantwortliche Arbeitsweise mit einem hohen Maß an Selbstorganisation
-*   Teamorientierung und ausgeprägte kommunikative Fähigkeiten
-*   Gute Deutsch- und Englischkenntnisse in Wort und Schrift
-
-Benefits
---------
-
-*   Junges Unternehmen mit **kurzen Entscheidungswegen** und der Möglichkeit Ideen direkt umzusetzen. Wir sind sehr entscheidungsfreudig, mögen das Risiko und im Zweifelsfall setzen wir die Dinge eher um, als lange zu warten. Bei uns gibt es keine unnötige Bürokratie oder lange Entscheidungswege, die alles in die Länge ziehen. "**Learning by doing"** mit flachen Hierarchien gilt bei uns. Hast du gute Ideen? Dann testen wir diese gerne aus!
-*   Hohe Aufgabenvielfalt, **Verantwortung** und den direkten Einblick in eines der am schnellsten wachsenden Start-ups in Deutschland.
-*   Du arbeitest in einem Team mit Menschen, die ebenfalls für ihre Arbeit brennen und **Spaß** daran haben.
-*   Wir arbeiten in einem hochagilen und vollständig **digitalen Umfeld** und nutzen dabei eine sehr moderne IT- Infrastruktur. Dadurch hast du die Möglichkeit, wertvolle Kenntnisse zu erwerben und eine steile **Lernkurve** zu erleben.
-*   Unser Fotostudio befindet sich in Halle Ost in einem Büro- Neubau, du findest dort alles was zu einem **perfekten Arbeitsplatz** gehört, inklusive höhenverstellbarer Tische, ergonomischer Stühle, Tischkicker, Spielekonsole, einer Küche, kostenlose Getränke etc.
-*   Zusätzlich kann die Tätigkeit auch teilweise aus dem **Home Office** ausgeführt werden. 2 Tage pro Woche sollte die Tätigkeit vor Ort ausgeführt werden.
-*   Sehr **gutes Arbeitsklima** in einem dynamischen Team. Du wirst vom ersten Tag an zu einem wichtigen Bestandteil bei uns und bist mit allen deinen Ideen und deiner Kreativität willkommen.
-*   Faire Vergütung
-
-Es können nur vollständige Bewerbungen mit **Lebenslauf**, **Anschreiben** und **relevanten Zeugnissen** berücksichtigt werden.
-
-Falls du schon Hobby Projekte oder **Arbeitsproben** im Bereich Bildgestaltung hast, dann füge diese gerne deiner Bewerbung bei.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nJoin a young, dynamic German e-commerce company, established in 2016, with an international presence across 80+ countries and four continents. We manage the entire value chain, from development and production to design, sales, and customer service, for products in the Kitchen, Household, and Toy sectors, featuring well-known brands like MIAMIO, Calmado, and Tortillada. Specializing in online sales via platforms such as Shopify, Amazon, and Otto, we are seeking a motivated Working Student (m/f/d) for Product Photography & Image Editing to strengthen our team in Halle (Saale). This is an excellent opportunity for a student to gain hands-on experience in a fast-growing, agile e-commerce environment.\n\n### Responsibilities\n*   Provide support for product photography in our internal photo studio in Halle (Saale).\n*   Edit and retouch product images using Adobe Photoshop and Lightroom.\n*   Assist with the post-production of photo and video material, including editing and color correction.\n*   Support the pre- and post-production of photo shoots, including set-up, lighting, and technical execution.\n*   Contribute to the organization and continuous development of our in-house photo studio.\n*   Design product images and layouts using Canva and Figma.\n\n### Qualifications\n*   Currently enrolled in a relevant field of study such as Media, Marketing, Graphic Design, or a comparable discipline, seeking a working student position.\n*   Possess initial practical experience with cameras and photography, ideally with a focus on Food, Interior, or Lifestyle.\n*   Proficient in Adobe Photoshop and Lightroom.\n*   Comfortable and skilled in handling modern studio equipment and photography technology.\n*   Demonstrate a keen eye for visual storytelling, aesthetic imagery, and a high awareness of quality.\n*   Exhibit a structured, independent working style with strong self-organization.\n*   Be team-oriented with excellent communication skills.\n*   Good command of German and English, both written and spoken.\n\n### Author's Take\nThis Working Student role offers an exceptional chance to dive into the world of e-commerce photography within a rapidly growing startup. The company prides itself on a \\\"learning by doing\\\" culture, flat hierarchies, and short decision paths, meaning your ideas and creativity are not just welcome but encouraged and quickly implemented. You'll gain direct insight into advanced digital workflows and modern IT infrastructure, ensuring a steep learning curve. With a fantastic team atmosphere, state-of-the-art studio facilities, and the flexibility of hybrid work, this position is ideal for someone passionate about visual content who wants to make a real impact while developing valuable skills in a supportive and dynamic environment. Fair compensation is provided for your contributions.

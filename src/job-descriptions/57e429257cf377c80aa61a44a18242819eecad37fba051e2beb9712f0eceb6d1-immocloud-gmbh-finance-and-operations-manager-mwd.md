@@ -9,68 +9,48 @@ postedDate: '2025-11-24T21:01:51.000Z'
 expirationDate: null
 tags:
   - Business Operations
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/immocloud-gmbh/finance-operations-manager-dusseldorf-365595
 companyLogoUrl: null
+companyCulture: >-
+  immocloud fosters a dynamic environment where individuals take ownership and
+  drive growth, working collaboratively to build transparent financial
+  structures and optimized operational processes. They value structure,
+  reliability, and offer flexibility with a hybrid work model and ample
+  vacation.
+story_question1: >-
+  Given immocloud's rapid growth and the dual focus of this role on Finance and
+  Operations, what do you see as the biggest challenge in balancing strategic
+  financial oversight with the hands-on optimization of internal processes?
+story_answer1: >-
+  That's a fantastic question and gets right to the heart of what makes this
+  role so impactful. When I joined, the biggest hurdle was often the sheer pace
+  of growth. We needed robust financial reporting to make smart decisions, but
+  also scalable processes to keep things running smoothly without breaking. My
+  proudest moments have been seeing how a clear forecast or a streamlined
+  onboarding process directly contributes to our ability to scale confidently,
+  rather than just reacting. It's about building the rails while the train is
+  moving, and seeing your efforts directly enable the next stage of our journey.
+story_question2: >-
+  Beyond the immediate responsibilities, how does this role specifically
+  contribute to immocloud's long-term vision of digitalizing real estate
+  management, particularly in fostering an agile and compliant internal
+  environment?
+story_answer2: >-
+  This role is absolutely foundational to our long-term vision. Think of it this
+  way: to digitalize real estate management effectively, we need to be
+  incredibly efficient and trustworthy internally. My work in Operations, for
+  example, isn't just about 'tidying up' – it's about building an agile
+  infrastructure that allows our product teams to innovate faster, knowing that
+  our data is secure and our processes are compliant. On the Finance side,
+  transparent reporting ensures we're investing wisely in the future, supporting
+  initiatives that directly push our product forward. It’s about building a
+  robust internal engine that allows us to confidently pursue our ambitious
+  market goals, knowing we're operationally sound and financially savvy.
 ---
-immocloud digitalisiert die Immobilienverwaltung – mit über 15.000 Kunden und starkem Wachstum. Damit wir weiter skalieren können, suchen wir eine Person, die unser Unternehmen finanziell sauber steuert, interne Abläufe verbessert und den CEO im Tagesgeschäft spürbar entlastet.
-
-Wenn du Zahlen liebst, Struktur schaffst und gerne Verantwortung übernimmst, ist das deine Chance.
-
-Aufgaben
---------
-
-Als **Finance & Operations Manager (m/w/d)** sorgst du dafür, dass immocloud finanziell transparent, organisatorisch klar strukturiert und operativ zuverlässig funktioniert.  
-Du arbeitest eng mit dem CEO zusammen und übernimmst Verantwortung in zwei zentralen Bereichen:
-
-**1) Finance (ca. 50%)**
-
-*   Durchführung und Weiterentwicklung unseres monatlichen Reportings (KPIs, Forecasts, Cashflow)
-*   Erstellung von Analysen, Plan/Ist-Abgleichen und Entscheidungsgrundlagen für das Leadership
-*   Strukturierter Überblick über Kosten, Budgets und Verträge
-*   Vorbereitung der Unterlagen für Steuerberater, Banken und Shareholder
-*   Prüfung von Rechnungen, Vorbereitung des Zahlungsverkehrs (Freigabe beim CEO)
-*   Koordination der Buchhaltung, der Monatsabschlüsse und des Jahresabschlusses
-*   Koordination mit dem Steuerberater, inkl. Lohnbuchhaltung
-
-**2) Operations (ca. 50%)**
-
-*   Aufbau und Optimierung interner Prozesse, Workflows und Freigaberoutinen
-*   Organisation von Compliance- und Datenschutzthemen (AVVs, Policies, Dokumentation)
-*   Verwaltung und Optimierung unserer Tool- und Lizenzlandschaft
-*   Vertragsmanagement für Dienstleister und Lieferanten
-*   Koordination der Office-Managerin bei administrativen Themen
-*   Unterstützung bei On-/Offboarding-Prozessen (Dokumente, Rechte, Abläufe)
-*   Projektmanagement für ausgewählte interne Initiativen (z.B. Prozessoptimierungen)
-*   Sicherstellen, dass administrative Themen strukturiert, vollständig und zuverlässig erledigt werden
-
-Qualifikation
--------------
-
-*   Ein abgeschlossenes Studium in BWL, Finance, Wirtschaftswissenschaften, (Wirtschafts-)Informatik oder eine vergleichbare Qualifikation — optional ergänzt durch eine Weiterbildung in Buchhaltung
-*   3–6 Jahre Erfahrung in Finance, Controlling oder Business/Finance Operations, idealerweise im SaaS- oder Startup-Umfeld
-*   Exzellente Excel-Skills (Forecasting, Pivot, KPI-Modelle) und ein starkes Zahlenverständnis
-*   Erfahrung im Aufbau und der Optimierung von Prozessen sowie in der Zusammenarbeit mit verschiedenen Teams
-*   Interesse oder erste Erfahrung in Compliance- und Datenschutzthemen
-*   Strukturierte, zuverlässige und eigenständige Arbeitsweise mit hoher Verantwortungsübernahme
-*   Klarer, direkter Kommunikationsstil, gepaart mit Proaktivität, Vertrauenswürdigkeit und Diskretion
-*   Hohe Lernbereitschaft und die Fähigkeit, auch unter Druck den Überblick zu behalten
-
-Benefits
---------
-
-*   Großer Einfluss: Du arbeitest direkt mit dem CEO und prägst interne Strukturen und finanzielle Steuerung
-*   Hohe Sichtbarkeit: Deine Arbeit ist entscheidend für Transparenz, Stabilität und Wachstum
-*   Breite Rolle: Finance + Operations + Prozessaufbau + Compliance
-*   Flexibles Arbeiten: Hybrid möglich, wöchentliche Präsenz für 3 Tage in Düsseldorf notwendig
-*   30 Urlaubstage & faire Vergütung
-*   Ein Team, das Verantwortung übernimmt und gemeinsam wächst
-
-Wenn du gerne Ordnung in komplexe Themen bringst, Zahlen liebst und ein Unternehmen operativ stark machen willst – dann sollten wir sprechen. 🚀
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nimmocloud is digitizing real estate management, boasting over 15,000 customers and strong growth. To continue scaling, they are seeking a professional to ensure sound financial management, improve internal processes, and significantly relieve the CEO in daily operations.\n\nIf you love numbers, create structure, and enjoy taking on responsibility, this is your opportunity.\n\nAs the **Finance & Operations Manager (m/w/d)**, you will ensure immocloud functions with financial transparency, clear organizational structure, and operational reliability. You will work closely with the CEO and take responsibility in two central areas: Finance (approx. 50%) and Operations (approx. 50%).\n\n### Responsibilities\n**Finance (approx. 50%)**\n- Execution and continuous improvement of monthly reporting (KPIs, Forecasts, Cashflow)\n- Creation of analyses, plan/actual comparisons, and decision-making bases for Leadership\n- Structured overview of costs, budgets, and contracts\n- Preparation of documents for tax advisors, banks, and shareholders\n- Review of invoices, preparation of payment transactions (CEO approval)\n- Coordination of accounting, monthly, and annual closings\n- Coordination with tax advisors, including payroll accounting\n\n**Operations (approx. 50%)**\n- Setup and optimization of internal processes, workflows, and approval routines\n- Organization of compliance and data protection topics (DPAs, Policies, Documentation)\n- Management and optimization of tool and license landscape\n- Contract management for service providers and suppliers\n- Coordination of the Office Manager for administrative topics\n- Support with On-/Offboarding processes (documents, rights, procedures)\n- Project management for selected internal initiatives (e.g., process optimization)\n- Ensuring that administrative tasks are handled in a structured, complete, and reliable manner\n\n### Qualifications\n- Completed degree in Business Administration, Finance, Economics, (Business) Informatics, or a comparable qualification – optionally complemented by further education in accounting\n- 3–6 years of experience in Finance, Controlling, or Business/Finance Operations, ideally in a SaaS or startup environment\n- Excellent Excel skills (Forecasting, Pivot, KPI models) and strong numerical understanding\n- Experience in setting up and optimizing processes and in collaborating with various teams\n- Interest or initial experience in compliance and data protection topics\n- Structured, reliable, and independent working style with high responsibility\n- Clear, direct communication style, coupled with proactivity, trustworthiness, and discretion\n- High willingness to learn and the ability to maintain an overview even under pressure\n\n### Author's Take\nThis is a pivotal **Mid-Senior** role that offers significant influence and high visibility within a fast-growing SaaS company. Working directly with the CEO, the successful candidate will shape internal financial controls and operational structures, driving transparency and stability essential for continued scaling. The position provides a broad scope covering both Finance and Operations, alongside process building and compliance, making it ideal for someone who thrives on bringing order to complex challenges. immocloud fosters a culture of shared responsibility and growth, supporting a hybrid work model (3 days in Düsseldorf) and offering 30 days of vacation, emphasizing both impact and work-life balance. If you are passionate about numbers, process optimization, and want to make a tangible difference in a dynamic environment, this opportunity is for you.

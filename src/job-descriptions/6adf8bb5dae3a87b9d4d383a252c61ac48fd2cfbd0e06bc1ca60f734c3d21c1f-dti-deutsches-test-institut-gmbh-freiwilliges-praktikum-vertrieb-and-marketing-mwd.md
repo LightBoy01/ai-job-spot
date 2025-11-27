@@ -10,73 +10,49 @@ expirationDate: null
 tags:
   - Remote
   - Distribution Marketing
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/dti-deutsches-test-institut-gmbh/freiwilliges-praktikum-vertrieb-marketing-minden-115302
 companyLogoUrl: null
+companyCulture: >-
+  The Deutsches Test Institut offers a flexible, remote internship focused on
+  direct impact and learning within a B2B sales environment. There's close
+  collaboration with management, an open feedback culture encouraging new ideas,
+  and strong opportunities for professional growth and structured process
+  building.
+story_question1: >-
+  Given this is an internship focused on building out sales and marketing
+  processes, how quickly can an intern see their contributions directly
+  influencing business outcomes, and what kind of support is available to ensure
+  their ideas are not just heard but implemented?
+story_answer1: >-
+  Oh, that's what makes working here so exciting, even as an intern! You're not
+  just a cog in the machine; you're right there with the management. We actively
+  encourage you to bring your own ideas – whether it's for new target groups,
+  outreach strategies, or small campaigns. Your research into leads, the sales
+  materials you help craft, and even your suggestions for social media content,
+  all go straight into our active processes. You'll see your work being used,
+  tested, and impacting our outreach to brands and agencies almost immediately.
+  We're a lean team building something structured, so every contribution is
+  visible and vital. It's a fantastic place to learn by doing and truly own a
+  piece of the process from day one.
+story_question2: >-
+  How does the remote and flexible nature of this internship foster a sense of
+  belonging and effective collaboration, especially when working closely with
+  leadership?
+story_answer2: >-
+  That's a great question, and it's something we've put a lot of thought into.
+  Even though we're remote, our team fosters a very direct and open
+  communication style. We use dedicated tools for collaboration and have regular
+  check-ins – not just formal meetings, but also informal chats where ideas can
+  flow freely. Because you're working directly with the leadership, there's no
+  hierarchy slowing things down. We prioritize clarity, consistent feedback, and
+  making sure everyone feels connected and heard, regardless of physical
+  location. It's about transparency and mutual respect, ensuring that even from
+  a distance, your voice is a core part of our ongoing dialogue.
 ---
-Du möchtest lernen, wie B2B-Vertrieb wirklich funktioniert – von Lead-Recherche über Outreach bis hin zu Sales-Material und Marketing-Maßnahmen?  
-Im Praktikum Vertrieb & Marketing beim Deutsches Test Institut (DTI) unterstützt du uns dabei, Hersteller, Marken und Agenturen anzusprechen, unseren Vertriebsprozess zu strukturieren und Marketing-Inhalte rund um unsere Testsiegel aufzubauen.
-
-Aufgaben
---------
-
-Als Praktikant:in im Bereich **Vertrieb & Marketing** unterstützt du uns u. a. bei:
-
-*   **Lead-Recherche**: Identifikation potenzieller Kunden (Hersteller, Marken, Amazon-Seller, Agenturen) in definierten Produktkategorien
-*   Pflege und Strukturierung von Leads in unserer **Übersicht / CRM** (z. B. Branche, Produkt, Kontaktstatus)
-*   Vorbereitung und Versand von **E-Mail-Anschreiben & Follow-ups** auf Basis von Vorlagen
-*   Unterstützung bei der **Ansprache von Partnern** (z. B. Amazon- oder E-Commerce-Agenturen)
-*   Mitarbeit an **Vertriebsunterlagen**:
-*   kurze Onepager, Präsentationen, Angebotsübersichten
-*   Argumentationshilfen für Pre-Check, Volltest und Lizenzmodelle
-*   Unterstützung bei einfachen **Marketing-Aufgaben**, z. B.:
-*   Inhalte für Website-Sektionen oder Landingpages grob zusammentragen
-*   Zuarbeit für Social-Media-Posts (z. B. „Getestet von DTI“, Kundencases, Produkt-Referenzen)
-
-Qualifikation
--------------
-
-Das bringst du idealerweise mit:
-
-*   Eingeschriebene/r Student:in – z. B. in BWL, Marketing, Medien, E-Commerce, Wirtschaftspsychologie oder verwandten Studiengängen
-*   Interesse an **B2B-Vertrieb, E-Commerce und Markenkommunikation**
-*   Freude daran, strukturiert zu recherchieren und Infos sauber festzuhalten
-*   Sehr gutes Deutsch in Wort und Schrift (für E-Mails, Unterlagen, kurze Texte)
-*   Sicherer Umgang mit gängigen Office-Tools (v. a. Tabellen / Docs)
-*   Eigenständige, zuverlässige Arbeitsweise und keine Scheu vor Kontakt mit Unternehmen
-*   Nice to have: erste Berührungspunkte mit CRM-Tools, LinkedIn oder E-Mail-Outreach – aber kein Muss
-
-Benefits
---------
-
-*   **Remote-Praktikum** mit flexiblen Arbeitszeiten (in Abstimmung)
-    
-*   Einblick in **B2B-Vertrieb im E-Commerce-Umfeld** (Hersteller, Marken, Amazon-Seller, Agenturen)
-    
-*   Mitarbeit beim Aufbau eines **strukturierten Vertriebsprozesses** und Partnernetzwerks
-    
-*   Enge Zusammenarbeit direkt mit der Geschäftsführung – deine Arbeit landet nicht „im Ordner“, sondern wird genutzt
-    
-*   Offene Feedbackkultur und Möglichkeit, eigene Ideen einzubringen (z. B. Zielgruppen, Ansprache, kleine Kampagnen)
-    
-*   Angemessene Vergütung nach Absprache
-    
-*   **Qualifiziertes Praktikumszeugnis** mit detaillierten Aufgaben & Verantwortungsbereichen für Studium und Karriere
-    
-*   **Art der Anstellung:** Praktikum, freiwillig, max. 3 Monate
-    
-*   **Arbeitszeit:** Vollzeit (ca. 35–40 Stunden/Woche, nach Absprache)
-    
-*   **Standort:** Remote (Firmensitz: Minden, Deutschland)
-    
-*   **Start:** nach Vereinbarung (z. B. ab 01/2026)
-    
-*   **Gehalt:** „Vergütung nach Absprache“
-    
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAre you eager to learn how B2B sales truly function – from lead research and outreach to sales materials and marketing initiatives? In this Sales & Marketing Internship at Deutsches Test Institut (DTI), you will support us in approaching manufacturers, brands, and agencies, structuring our sales processes, and building marketing content around our test seals. This is a remote internship offering flexible working hours (by arrangement) and close collaboration directly with management, ensuring your work has a tangible impact and is actively utilized. You will gain deep insights into B2B sales within the e-commerce sector and contribute significantly to building a structured sales process and partner network.\n\n### Responsibilities\nAs an intern in Sales & Marketing, you will support us with tasks including:\n- **Lead Research**: Identifying potential customers (manufacturers, brands, Amazon sellers, agencies) in defined product categories.\n- Maintaining and structuring leads in our **overview / CRM** (e.g., industry, product, contact status).\n- Preparing and sending **email outreach & follow-ups** based on templates.\n- Supporting the **outreach to partners** (e.g., Amazon or e-commerce agencies).\n- Collaborating on **sales documents**:\n    - Short one-pagers, presentations, offer overviews.\n    - Argumentation aids for pre-checks, full tests, and license models.\n- Supporting simple **marketing tasks**, such as:\n    - Roughly compiling content for website sections or landing pages.\n    - Contributing to social media posts (e.g., \"Tested by DTI\", customer cases, product references).\n\n### Qualifications\nIdeally, you bring:\n- An enrolled student – e.g., in Business Administration, Marketing, Media, E-commerce, Business Psychology, or related fields.\n- Interest in **B2B sales, e-commerce, and brand communication**.\n- Enjoyment of structured research and maintaining information accurately.\n- Very good German skills, both written and spoken (for emails, documents, short texts).\n- Proficient in common Office tools (especially spreadsheets / docs).\n- An independent, reliable working style and no hesitation to contact companies.\n- Nice to have: initial contact points with CRM tools, LinkedIn, or email outreach – but not a must.\n\n### Author's Take\nThis internship at Deutsches Test Institut offers a unique opportunity for aspiring professionals to gain hands-on experience and make a real impact in B2B sales and marketing. You'll be instrumental in shaping sales processes and creating valuable marketing content, working directly with leadership. The remote setup with flexible hours, coupled with an open feedback culture, ensures a supportive and dynamic learning environment. This role is a fantastic springboard for your career, providing a qualified internship certificate detailing your comprehensive responsibilities and achievements.

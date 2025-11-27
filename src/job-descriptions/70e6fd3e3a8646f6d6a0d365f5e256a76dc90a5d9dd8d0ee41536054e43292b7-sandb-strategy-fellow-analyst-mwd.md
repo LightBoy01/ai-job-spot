@@ -10,36 +10,48 @@ expirationDate: null
 tags:
   - Remote
   - Business Consulting
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/sb-strategy/fellow-analyst-berlin-341372
 companyLogoUrl: null
+companyCulture: >-
+  S&B Strategy fosters a highly collaborative and growth-oriented environment
+  with flat hierarchies, where individuals can directly contribute to the
+  company's development. The company values team spirit, offering flexible work
+  arrangements, remote options, and regular social events to support work-life
+  balance and a strong sense of community.
+story_question1: >-
+  As an entry-level team member supporting strategic and M&A projects, how can I
+  quickly make a tangible impact, and what kind of mentorship or guidance can I
+  expect while working on independent tasks?
+story_answer1: >-
+  From day one, you're a vital part of our team, not just an observer. We
+  believe in empowering our junior talent. You'll be assigned distinct
+  sub-tasks, like market analyses or competitive landscaping, directly
+  contributing to client deliverables. Our flat hierarchies mean you'll work
+  closely with experienced partners, getting direct feedback and guidance. This
+  isn't just about 'doing tasks'; it's about learning by doing, seeing your work
+  integrated into real-world projects, and growing rapidly within a supportive,
+  collaborative environment.
+story_question2: >-
+  The job description mentions an interest in Smart Cities, Infrastructure, and
+  Sustainability. Could you share an example of a challenging project within
+  these domains where an entry-level consultant could truly contribute, and what
+  kind of innovative approaches S&B Strategy employs?
+story_answer2: >-
+  Absolutely! We recently worked on a project advising a major city on its smart
+  mobility strategy, specifically integrating sustainable transport solutions.
+  An entry-level consultant played a key role in analyzing global best practices
+  for urban last-mile logistics and assessing the socio-economic impact of
+  electric vehicle charging infrastructure. It was challenging because it
+  involved balancing technological innovation with public acceptance and
+  economic viability. Our approach is always data-driven and collaborative,
+  bringing diverse perspectives to the table. You'd be immersed in discussions,
+  developing insights that shape the future of urban living, right from the
+  start.
 ---
-**Deine Aufgaben**  
-Du bist vom ersten Tag an vollwertiges Teammitglied und unterstützt uns bei Strategie-, M&A- und Umsetzungsprojekten. Dabei arbeitest du eigenverantwortlich an Teilaufgaben wie z.B. die Analyse von Märkten, Identifikation von Entwicklungen im Wettbewerbsumfeld oder das Ableiten von Kundenanforderungen. Du dokumentierst deine Arbeitsergebnisse in Präsentationen und Excel-Modellen und diskutierst diese mit dem Projektleiter. Darüber hinaus unterstützt Du S&B Strategy im Business Development im Rahmen von Studien und Opinion Papers sowie in der Vorbereitung von Pitches.
-
-Dein Profil
-
-*   Du hast Interesse, die Arbeitsweise einer Boutique-Beratung kennen zu lernen und interessierst dich für Themen rund um Smart Cities, Infrastructure und Sustainability
-*   Du studierst mindestens im dritten Semester eines Bachelor- oder Masterstudiums
-*   Du denkst analytisch und begeisterst dich für strategische Fragestellungen
-*   Du hast bereits praktische Arbeitserfahrung sammeln können, Unternehmensberatung ist ein Plus
-*   Du bist geübt im Umgang mit PowerPoint, Excel und Word; Datenanalyse- und Statistik-Tools sind von Vorteil
-*   Du besitzt eine gute Ausdrucksweise und sehr gute Deutsch- und Englischkenntnisse
-*   Du arbeitest gerne im Team und feierst gerne gemeinsam Erfolge
-
-**Deine Benefits**
-
-*   spannende und abwechslungsreiche Projekte in einem schnell wachsenden Unternehmen mit Startup-Charakter
-*   ein hoch motiviertes Team mit flachen Hierarchien und enger Zusammenarbeit mit erfahrenen Partnern
-*   umfassendes Onboarding
-*   Möglichkeit, sich in die Entwicklung des Unternehmens einzubringen, z.B. durch Vorschläge zur Verbesserung von Arbeitstools und -prozessen
-*   regelmäßige Mitarbeiterevents und gemeinsame Aktivitäten
-*   flexible Arbeitszeiten und die Möglichkeit zum Home Office
-*   modernes Büro in zentraler Lage mit sehr guter öffentlicher Verkehrsanbindung
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nJoin S&B Strategy as an integral team member, supporting diverse strategy, M&A, and implementation projects. We are a fast-growing boutique consultancy with a startup character, offering an exciting environment where you can contribute to shaping the future of Smart Cities, Infrastructure, and Sustainability. You'll benefit from a highly motivated team, flat hierarchies, and close collaboration with experienced partners, alongside comprehensive onboarding and opportunities to influence company development. Enjoy flexible working hours, home office options, and regular team events in a modern, centrally located office.\n\n### Responsibilities\n*   Serve as a full team member from day one, actively supporting strategy, M&A, and implementation projects.\n*   Independently work on sub-tasks such as market analysis, identification of competitive developments, and derivation of customer requirements.\n*   Document your work results in presentations and Excel models, discussing them with the project manager.\n*   Support S&B Strategy in business development, including preparing studies, opinion papers, and pitch presentations.\n\n### Qualifications\n*   Interest in learning the working methods of a boutique consultancy and a passion for topics related to Smart Cities, Infrastructure, and Sustainability.\n*   Currently enrolled in at least the third semester of a Bachelor's or Master's degree program.\n*   Strong analytical thinking skills and enthusiasm for strategic challenges.\n*   Proven practical work experience; prior experience in management consulting is a plus.\n*   Proficiency in PowerPoint, Excel, and Word; knowledge of data analysis and statistics tools is an advantage.\n*   Excellent communication skills and very good proficiency in German and English.\n*   Enjoys working collaboratively in a team and celebrating shared successes.\n\n### Author's Take\nThis is an exceptional entry-level opportunity for an ambitious student or recent graduate passionate about strategic consulting and sustainable urban development. The role offers genuine responsibility and direct exposure to high-impact projects from day one. With its startup-like culture, emphasis on collaboration, and direct mentorship from experienced partners, S&B Strategy provides a fertile ground for rapid professional growth. The benefits package underscores a commitment to employee well-being and development, making this an ideal launchpad for a career in consulting.

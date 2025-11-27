@@ -9,53 +9,45 @@ postedDate: '2025-11-26T12:01:57.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/nuventura-gmbh/working-student-engineering-berlin-9243
 companyLogoUrl: null
+companyCulture: >-
+  Nuventura fosters a collaborative and growth-oriented culture, empowering
+  individuals with trusted ownership and providing constructive feedback. The
+  company emphasizes innovation, sustainability, and regular team engagement.
+story_question1: >-
+  Given this role supports the development of the next-generation prototype nu2,
+  how does a Working Student's practical contributions directly impact
+  Nuventura's mission to replace SF₆ and accelerate sustainable electrical
+  infrastructure?
+story_answer1: >-
+  As a working student here, you're not just observing; you're hands-on,
+  building the very prototypes that will define the future of sustainable
+  energy. Your work on _nu2_, from assembling components to refining drawings,
+  directly feeds into our R&D milestones. It’s incredibly rewarding to see your
+  practical input contribute to replacing harmful SF₆ with clean air, knowing
+  you're accelerating a real, tangible shift towards a greener electrical grid.
+  We value your fresh perspective and actively encourage you to suggest
+  improvements, making you a vital part of our mission-driven team.
+story_question2: >-
+  The job description mentions a commitment to growth and challenging
+  individuals. What kind of mentorship and learning opportunities can a Working
+  Student expect to truly develop their professional skills within Nuventura's
+  engineering teams?
+story_answer2: >-
+  We take your growth seriously. As a Working Student, you'll be embedded
+  directly within our experienced engineering teams, learning by doing. Our
+  engineers are committed to providing guidance, not just instructions. You'll
+  be challenged with real-world problems and encouraged to ask questions and
+  bring your own ideas. We foster a 'caring meritocracy' where constructive
+  feedback is a daily tool for improvement, ensuring you continuously refine
+  your skills and grow into your best professional self, supported every step of
+  the way by experts in the field.
 ---
-Nuventura is a Berlin-based climate-tech company developing a new generation of medium-voltage switchgear that is both highly innovative and environmentally sustainable. Our patented gas-insulated switchgear replaces SF₆ — one of the world’s most harmful greenhouse gases — with clean, dry air while maintaining the same reliability and performance as traditional systems.
-
-Our product portfolio is expanding rapidly through new development projects, industrial partnerships, and global scaling. As an interdisciplinary and engineering-driven company, we are committed to accelerating the transition toward sustainable electrical infrastructure and enabling utilities and manufacturers worldwide to adopt SF₆-free technology.
-
-To support this growth, we are looking for a **Working Student (f/m/x) Engineering** to join our development teams. As a Working Student (f/m/x) Engineering, you will actively support the development of our next-generation prototype _nu2_. This role gives you the chance to apply your early engineering skills in a highly practical environment and directly contribute to a key R&D milestone.
-
-Tasks
------
-
-*   **Support the assembly of prototype components**  
-    Assist in building the new R&D prototype _nu2_ by assembling sub-assemblies and mechanical parts under guidance from experienced engineers.
-*   **Help document the assembly process**  
-    Contribute to creating clear and simple work instructions based on the steps you carry out, helping ensure processes can be repeated reliably.
-*   **Prepare mechanical drawings (incl. basic GD&T)**  
-    Create or update mechanical detailed drawings with support from the engineering team, applying your initial knowledge of GD&T.
-*   **Record issues during assembly**  
-    Note down challenges or questions that arise during assembly work and share them with the team for troubleshooting and improvement.**Provide improvement suggestions**  
-    Bring in your observations and fresh perspective to suggest small, practical improvements for better assembly workflows or design usability.
-
-Requirements
-------------
-
-*   You are currently enrolled as a **student in** **Mechanical Engineering, Industrial Engineering**, or a related technical field and are eager to apply your coursework in real projects.
-*   You use your **initial design experience** to create or adapt technical drawings and approach design tasks with accuracy and structured thinking.
-*   You feel comfortable **working hands-on** with mechanical assemblies and enjoy learning through practical build activities.
-*   You communicate clearly in **English**, and you are able to understand or communicate technical information in **German**.
-*   You actively seek guidance when needed and approach new tasks with curiosity and a willingness to learn.
-*   You share issues or observations openly and collaborate with engineers to improve assembly workflows or design aspects.
-
-Benefits
---------
-
-*   You will be part of an innovative group of high-performance and experienced people from diverse backgrounds.
-*   We are committed to your growth and will challenge you directly to become the best professional version of yourself.
-*   We believe in a culture of trusted ownership, caring meritocracy, and constructive feedback where we elevate each other and challenge the status quo.
-*   A sustainable, down-to-earth, and passionate company.
-*   Free snacks, drinks and fruit basket every day. Exciting and regular team events, including a Christmas party, summer celebrations with a budget for departmental events.
-
-_Nuventura is an equal-opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees._
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nNuventura is a Berlin-based climate-tech company at the forefront of developing a new generation of environmentally sustainable medium-voltage switchgear. Our patented gas-insulated switchgear replaces SF₆ – one of the world's most harmful greenhouse gases – with clean, dry air, maintaining reliability and performance. With our product portfolio rapidly expanding, we are committed to accelerating the transition toward sustainable electrical infrastructure globally.\\n\\nWe are seeking a **Working Student (f/m/x) Engineering** to join our development teams. In this role, you will actively support the development of our next-generation prototype _nu2_. This is a fantastic opportunity to apply your early engineering skills in a highly practical environment and directly contribute to a key R&D milestone.\\n\\n### Responsibilities\\n* Support the assembly of prototype components: Assist in building the new R&D prototype _nu2_ by assembling sub-assemblies and mechanical parts under guidance from experienced engineers.\\n* Help document the assembly process: Contribute to creating clear and simple work instructions based on the steps you carry out, helping ensure processes can be repeated reliably.\\n* Prepare mechanical drawings (incl. basic GD&T): Create or update mechanical detailed drawings with support from the engineering team, applying your initial knowledge of GD&T.\\n* Record issues during assembly: Note down challenges or questions that arise during assembly work and share them with the team for troubleshooting and improvement.\\n* Provide improvement suggestions: Bring in your observations and fresh perspective to suggest small, practical improvements for better assembly workflows or design usability.\\n\\n### Qualifications\\n* You are currently enrolled as a student in Mechanical Engineering, Industrial Engineering, or a related technical field and are eager to apply your coursework in real projects.\\n* You use your initial design experience to create or adapt technical drawings and approach design tasks with accuracy and structured thinking.\\n* You feel comfortable working hands-on with mechanical assemblies and enjoy learning through practical build activities.\\n* You communicate clearly in English, and you are able to understand or communicate technical information in German.\\n* You actively seek guidance when needed and approach new tasks with curiosity and a willingness to learn.\\n* You share issues or observations openly and collaborate with engineers to improve assembly workflows or design aspects.\\n\\n### Author's Take\\nThis Working Student role at Nuventura offers an unparalleled opportunity for aspiring engineers to gain hands-on experience at a pioneering climate-tech company. You'll not only apply your foundational engineering knowledge to a tangible, high-impact project like the _nu2_ prototype but also contribute directly to replacing harmful greenhouse gases in electrical infrastructure. The company fosters a supportive, growth-oriented culture with a commitment to challenging you to become your best professional self, surrounded by experienced and diverse talent. If you're passionate about sustainability and eager to kickstart your engineering career with practical contributions, this role is an excellent fit.
