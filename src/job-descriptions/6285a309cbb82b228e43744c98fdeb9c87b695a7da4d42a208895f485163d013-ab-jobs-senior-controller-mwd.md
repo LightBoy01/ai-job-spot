@@ -9,76 +9,64 @@ postedDate: '2025-11-25T12:01:47.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ab-jobs/senior-controller-frankfurt-am-main-353918
 companyLogoUrl: null
+companyCulture: >-
+  firstcolo GmbH fosters a collaborative, innovative, and growth-oriented
+  culture. They prioritize employee well-being through flexible working hours,
+  hybrid options, generous vacation, and comprehensive health and development
+  programs, encouraging team spirit and impact.
+story_question1: >-
+  How does the Senior Controller role at firstcolo GmbH directly influence the
+  strategic financial decisions and the continuous growth of the company,
+  especially given the dynamic IT infrastructure market?
+story_answer1: >-
+  Here at firstcolo, the Senior Controller isn't just about crunching numbers;
+  you're truly at the heart of our strategic engine. Our mission to provide
+  top-tier IT infrastructure means we're constantly evolving, and your role is
+  pivotal in guiding that journey. You'll be the one providing the critical
+  insights for our management team, meticulously evaluating new investment
+  projects, and ensuring our financial stability as we expand. It's a place
+  where your analyses directly shape our future, enabling us to make informed
+  decisions that propel our growth in a competitive, fast-paced market. We value
+  proactivity, so expect to not just report, but to influence and drive.
+story_question2: >-
+  With the company's focus on developing controlling processes and integrating
+  sustainability metrics, what opportunities exist for a Senior Controller to
+  innovate within their function and drive new initiatives beyond standard
+  reporting?
+story_answer2: >-
+  This is one of the most exciting aspects of being a Controller here – you’re
+  not just maintaining, you’re innovating. We genuinely see our Senior
+  Controllers as drivers of change. For example, integrating sustainability
+  metrics into our reports isn't just a compliance task; it's about pioneering
+  new ways to measure our impact and efficiency. You'll have the autonomy to
+  identify and implement improvements in our controlling processes and systems,
+  perhaps leveraging tools like Jedox even further, or introducing entirely new
+  KPIs. If you're someone who thrives on optimizing, streamlining, and
+  introducing fresh perspectives, you'll find ample opportunity to leave your
+  mark and truly champion financial innovation.
+story_question3: >-
+  Given firstcolo's commitment to employee well-being and development, how are
+  career growth and work-life balance practically supported for a Senior
+  Controller, especially when navigating demanding financial cycles?
+story_answer3: >-
+  That's a fantastic question, and it speaks directly to our core values. We
+  truly believe that a happy, well-supported team is a productive team. For a
+  Senior Controller, we understand there are demanding periods, but we ensure
+  that's balanced. Our hybrid working model and flexible hours aren't just
+  buzzwords; they mean you have the autonomy to manage your schedule
+  effectively. With 30 days of annual leave, plus additional company holidays,
+  we actively encourage rest and rejuvenation. Furthermore, we're deeply
+  invested in your growth, offering various trainings and development
+  opportunities to ensure your career journey continues upwards. We foster an
+  environment where mutual support means you're never alone during intense
+  periods, and your well-being is always a priority.
 ---
-Wir von **AB-Jobs** suchen für unseren Kunden **firstcolo GmbH** eine\*n **Senior Controller (m/w/d)** für den Standort **60388 Frankfurt am Main, Remote.**
-
-\--------------------------------  
-**firstcolo GmbH**
-
-Sichere IT-Infrastrukturen sind das Rückgrat der digitalen Welt – und genau hier setzen wir an. Als Betreiber hochverfügbarer Rechenzentren in Frankfurt am Main bieten wir Unternehmen leistungsstarke Lösungen in den Bereichen Colocation, Managed IT und Cloud. Unser Erfolg basiert auf Stabilität, Fachwissen und einer klaren Mission: unseren Kunden die beste IT-Basis für ihr Wachstum zu bieten.
-
-**Dahinter steht das firstcolo-Team** - ein Mix aus ambitionierten Talenten und erfahrenen Branchen-Experten, die mit Leidenschaft und technischem Know-how an zukunftsweisenden Projekten arbeiten. Wir sind engagiert, denken in Lösungen und entwickeln smarte Technologien, die unsere Kunden wirklich voranbringen. Wenn du Verantwortung übernehmen, dich weiterentwickeln und nicht nur arbeiten, sondern etwas bewegen möchtest - in einem Umfeld, das Teamgeist und Innovation verbindet -, dann sind wir dein Perfect Match. Nicht nur ein Job - sondern Leidenschaft.
-
-Zur Verstärkung unseres Teams suchen wir dich als
-
-**Senior Controller (m/w/d)**
-
-**unbefristet in Vollzeit, Frankfurt am Main, Hybrid**
-
-Aufgaben
---------
-
-*   Du erstellst und analysierst das Reporting für von Monats-, Quartals- und Jahresabschluss sowie für die Konsolidierung gemäß HGB.
-*   Im Rahmen des Projekt- und Bereichscontrollings erstellst und bewertest du Projektkalkulationen und Businesspläne und bereitest komplexe Sachverhalte als Entscheidungsgrundlage für die Geschäftsleitung auf.
-*   Du erstellst Cashflow-Analysen und Liquiditätsplanungen zur Sicherstellung der finanziellen Stabilität des Unternehmens, entwickelst Finanzierungsmodelle und bewertest Investitionsprojekte.
-*   Du bist Treiber bei der Budgetplanung und -kontrolle, koordinierst den Forecast-Prozess, führst Abweichungsanalysen durch und leitest Steuerungsmaßnahmen ab.
-*   Du entwickelst unsere Controlling-Prozesse und -Systeme zur Steigerung der Effizienz und Transparenz weiter und integrierst Nachhaltigkeitskennzahlen in den Berichten.
-*   Du bist erster Ansprechpartner für die Durchführung und Weiterentwicklung interner Verrechnungsprozesse innerhalb der Unternehmensgruppe.
-
-Qualifikation
--------------
-
-*   Du hast ein **Studium mit Schwerpunkt Controlling / Finance** oder eine vergleichbare kaufmännische Ausbildung mit einschlägiger Berufserfahrung und Zusatzqualifikation erfolgreich abgeschlossen und arbeitest seit mindestens 5 Jahren im Controlling, vorzugsweise im Konzernumfeld.
-*   Dich zeichnen deine Expertise im Bereich **Konzernkonsolidierung**, **Cash Flow Management**, **Corporate Financing und HGB Bilanzierung** aus.
-*   Du bringst bereits praktische Erfahrung in der Erstellung und Prüfung von **Finanzmodellen und Businessplänen** mit.
-*   **Excel** beherrschst du sehr gut. Idealerweise konntest du bereits Erfahrung mit Jedox sammeln.
-*   Deine Arbeit erledigst du **strukturiert und äußerst gewissenhaft**.
-*   Dein Mindset ist **unternehmerisch, proaktiv und lösungsorientiert**.
-*   Abgerundet wird dein Profil durch technisches Produktverständnis, **hervorragende kommunikative Fähigkeiten in Deutsch und Englisch**, durch die es dir leicht fällt deine Ergebnisse für verschiedene Stakeholder in Form von Berichten und **Präsentationen** darzustellen, sowie solide Kenntnisse im **Projektmanagement**.
-
-Benefits
---------
-
-*   **Hybrides Arbeiten**: Verbinde das Beste aus beiden Welten und triff deine Kollegen bei uns vor Ort sowie online.
-*   **Flexible Arbeitszeiten**: Du weißt am besten, wann du was zu erledigen hast. Bei uns zählen die Ergebnisse, solange du dich an das Arbeitszeitgesetz hältst.
-*   **Leckeres Mittagessen auf Firmenkosten**: Genieße dienstags und donnerstags köstliche Mahlzeiten bei uns im Office und erfreue dich an einer riesigen Auswahl an Getränken und Snacks, darunter Müslis von MyMüsli und leckere Joghurts.
-*   **Deine Erholung: 30 Tage Urlaub** sind bei uns Standard. Ergänzend ist der 24.12. und 31.12. betriebsfrei. Überstunden kannst du selbstverständlich in Freizeit nehmen.
-*   **Gesundheitsförderung**: Wir legen Wert auf dein Wohlbefinden, mit Angeboten zur Förderung deiner physischen und mentalen Gesundheit, so zum Beispiel mit Walk\`n\`Talk, EGYM, oder unserem Gesundheits-Dialog.
-*   **Nachwuchsförderung**: Wir bezuschussen den Kita-Platz mit bis zu 150 Euro netto monatlich.
-*   **Entdecke deine Möglichkeiten**: Wir bieten dir verschiedene Trainings und Weiterbildungsmöglichkeiten für den nächsten Schritt auf deiner persönlichen Entwicklungsreise.
-*   **Gemeinsame Ziele**: Erfolge sind schöner, wenn sie zusammen gefeiert werden - Sommerfest, Weihnachtsfeier und Teamevents.
-*   ... Weitere **Benefits für deine Work-Life-Balance** – wirf einen Blick auf unsere Karriereseite.
-
-**Interesse geweckt?**
-
-Du hast Lust auf abwechslungsreiche Aufgaben in einem wachsenden Unternehmen? Du brennst für das, was du tust und möchtest mehr Entscheidungsspielraum?
-
-**Ansprechpartner**
-
-Antje Krämer - HR Manager
-
-**Dann freuen wir uns auf deine Bewerbung!**
-
-**firstcolo GmbH** • Kruppstraße 105 • 60388 Frankfurt am Main
-
-**www(punkt)firstcolo(punkt)net**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nfirstcolo GmbH is a leading operator of highly available data centers in Frankfurt am Main, providing secure IT infrastructures as the backbone of the digital world. We offer companies powerful solutions in colocation, managed IT, and cloud services, driven by stability, expertise, and a clear mission: to provide our customers with the best IT foundation for their growth.\n\nOur team is a dynamic mix of ambitious talents and experienced industry experts who work with passion and technical know-how on future-oriented projects. We are dedicated, solution-oriented, and develop smart technologies that truly advance our clients. If you want to take on responsibility, develop yourself, and make a real impact in an environment that combines team spirit and innovation, then we are your perfect match.\n\nWe are looking for a **Senior Controller (m/w/d)** to strengthen our team, for an unlimited, full-time position, hybrid in Frankfurt am Main.\n\n### Responsibilities\n*   Create and analyze reporting for monthly, quarterly, and annual financial statements, as well as for consolidation according to HGB (German Commercial Code).\n*   Within project and departmental controlling, create and evaluate project calculations and business plans, preparing complex issues as decision support for management.\n*   Generate cash flow analyses and liquidity planning to ensure the company's financial stability, develop financing models, and evaluate investment projects.\n*   Drive budget planning and control, coordinate the forecast process, conduct variance analyses, and derive control measures.\n*   Further develop our controlling processes and systems to increase efficiency and transparency, and integrate sustainability metrics into reports.\n*   Serve as the primary contact for the execution and further development of internal transfer pricing processes within the corporate group.\n\n### Qualifications\n*   Successfully completed a degree with a focus on Controlling / Finance or a comparable commercial education with relevant professional experience and additional qualifications, with at least 5 years of experience in controlling, preferably within a corporate group.\n*   Expertise in group consolidation, cash flow management, corporate financing, and HGB accounting.\n*   Practical experience in creating and reviewing financial models and business plans.\n*   Excellent command of Excel. Ideally, you have experience with Jedox.\n*   Highly structured and diligent work approach.\n*   Entrepreneurial, proactive, and solution-oriented mindset.\n*   Technical product understanding, excellent communication skills in German and English, enabling you to present your results effectively to various stakeholders in reports and presentations, and solid knowledge of project management.\n\n### Author's Take\nThis is an exciting opportunity for a seasoned Senior Controller to play a pivotal role in firstcolo GmbH's financial strategy and growth within the dynamic IT infrastructure sector. The company offers a supportive, innovative, and results-oriented environment, prioritizing work-life balance with flexible working hours, remote options, generous vacation, and strong professional development opportunities. Candidates with a proactive mindset and strong analytical skills who are eager to drive financial processes and contribute to strategic decisions will thrive here.
