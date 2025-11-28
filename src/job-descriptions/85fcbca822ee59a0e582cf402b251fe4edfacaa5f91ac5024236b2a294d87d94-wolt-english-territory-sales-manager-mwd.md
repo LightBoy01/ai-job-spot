@@ -8,70 +8,47 @@ applicationLink: >-
 postedDate: '2025-11-24T21:45:12.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/wolt-english/territory-sales-manager-stuttgart-1977
 companyLogoUrl: null
+companyCulture: >-
+  Wolt fosters a dynamic, challenging, and fast-paced environment that values
+  entrepreneurial spirit, autonomy, and continuous learning. They balance this
+  with a strong commitment to employee well-being, offering excellent work-life
+  balance, flexibility, and an inclusive international culture.
+story_question1: >-
+  Given the emphasis on actively developing a region and making it 'a
+  Wolt-Region,' what is the most significant impact a successful Business
+  Development Representative has, not just on sales targets, but on the overall
+  growth and brand presence of Wolt in Germany?
+story_answer1: >-
+  From my perspective, a successful BDR isn't just closing deals; they're laying
+  the foundational bricks for Wolt's future in Germany. You're the face of our
+  brand, directly engaging with local restaurants, and your efforts literally
+  transform neighborhoods into Wolt hubs. It’s incredibly rewarding to see a
+  region you developed thrive, knowing that every new partnership contributes to
+  both our aggressive growth targets and brings joy and convenience to thousands
+  of new customers. You're truly making a tangible difference, connecting local
+  businesses with a broader audience and helping them flourish.
+story_question2: >-
+  This role involves significant travel and independent work. How does Wolt
+  ensure field team members remain connected, supported, and motivated,
+  especially given the dynamic and challenging nature of expanding into new
+  territories?
+story_answer2: >-
+  That's a crucial point, as autonomy is a double-edged sword. While we empower
+  you with immense ownership, you're never truly alone. Our flat hierarchy means
+  direct access to leadership and immediate support. We have regular check-ins,
+  collaborative sales meetings where best practices are shared, and a vibrant
+  internal communication culture. Plus, the team itself is incredibly supportive
+  – we celebrate successes together and help each other overcome hurdles. We
+  also ensure you have the best tools, flexible working hours, and benefits like
+  wellness subsidies to maintain your personal well-being, making sure you feel
+  both challenged and cared for, even when you're on the road.
 ---
-About Wolt
-----------
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.  
-  
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-Wolt ist in Deutschland im August 2020 offiziell als Land Nr. 23 gestartet! Seit wir in Berlin begonnen haben, konnten wir mit vielen fantastischen Restaurants zusammenarbeiten, um Zehntausende von hungrigen Kunden zu beliefern. Und jetzt freuen wir uns sehr, dir mitteilen zu können, dass wir gerade unsere Aktivitäten erweitern wollen! Daher brauchen wir energiegeladene Außendienstmitarbeiter, die die Gewinnung neuer Restaurantpartner für die Wolt-Plattform vorantreiben.
-
-**Deine Hauptaufgaben**
------------------------
-
-*   Du entwickelst unsere Region und gestaltest sie aktiv mit
-*   Reisebereitschaft bis zu 300km am Tag mit Übernachtungen im Hotel
-*   Du identifizierst potenzielle Partnerschaften mit Restaurants und schließt mit ihnen Verkaufsabschlüsse ab, um unsere Verkaufsziele zu erreichen
-*   Du organisierst dich und deine Pipeline selbst und baust neue Partnerschaften auf zu den Entscheidungsträgern und Restaurants
-*   Im persönlichen Verkaufsgespräch präsentierst du Wolt und verkaufst unseren Service vor Restaurantleiter/in und Geschäftsführern
-*   Du machst aus deiner Region eine Wolt-Region
-
-**Was wir dir anbieten**
-------------------------
-
-*   **Internationale Atmosphäre:** Arbeite in einem global agierenden Technologieunternehmen und gestalte etwas Außergewöhnliches mit.
-*   **Lern- und Wachstumsmöglichkeiten:** Profitiere von einer steilen Lernkurve und entwickle dich in einem dynamischen Umfeld weiter.
-*   **Attraktive Vergütung:** Erhalte ein wettbewerbsfähiges Gehalt mit leistungsbezogenen Boni und flexible Arbeitszeiten.
-*   **Eigenverantwortung:** Arbeite selbständig in einem engagierten und dynamischen Team mit flachen Hierarchien.
-*   **Zusätzliche Benefits:** Rabatte auf Wolt-Bestellungen, ÖPNV-Zuschuss, Wellness-Zuschuss (Urban Sports Club), Wunsch-Hardware.
-*   **Work-Life-Balance:** 30 Tage Urlaub, flexible Arbeitszeiten, modernes Büro in Berlin.
-*   Firmenwagen als Option verfügbar
-
-**Our humble expectations**
----------------------------
-
-*   Du bringst +4 Jahre Erfahrung im Vertrieb mit oder konntest dein Verkaufstalent bereits anderweitig unter Beweis stellen (z.B. Erfahrung mit ganzen Verkaufszyklus). 
-*   Freundlichkeit und eine große Überzeugungskraft zeichnen Dich aus
-*   Du besitzt eine hohe Eigenmotivation, Zielstrebigkeit und bist kontaktfreudig
-*   Durch Deine ausgeprägten Kommunikations- und Präsentationsfähigkeiten wirkst Du überzeugend und selbstbewusst
-*   Abgeschlossenes Studium oder ähnliche Qualifikation durch abgeschlossene Ausbildung und Berufserfahrung
-*   Du sprichst fließend Deutsch und Englisch 
-
-**Next steps**
---------------
-
-Wenn du in einem wachstumsstarken Umfeld arbeiten, Verantwortung übernehmen und Teil eines ehrgeizigen und lustigen Teams sein möchtest, dann bewirb dich jetzt, um das Gespräch in Gang zu bringen!
-
-Bitte beachte,  dass wir aufgrund von GDPR keine Bewerbungen per E-Mail akzeptieren. Stelle sicher, dass du dich über unsere Karriereseite bewirbst!
-
-  
-  
-
-======
-
-Our Commitment to Diversity and Inclusion
------------------------------------------
-
-We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\nAt Wolt, we create technology that brings joy, simplicity, and earnings to communities worldwide. Starting with food delivery in 2014, we're now expanding to deliver (almost) everything across over 500 cities in 30 countries. In 2022, we joined forces with DoorDash, continuing our global expansion with big dreams.\\n\\nWorking at Wolt is challenging but exciting. You'll have unparalleled opportunities to learn, build, and ship more than in most companies, facing challenges while having fun. We seek self-starters with drive and entrepreneurial spirit for what could be the ride of your life.\\n\\nWolt officially launched in Germany in August 2020 as its 23rd country. Since our start in Berlin, we've partnered with numerous fantastic restaurants to serve tens of thousands of hungry customers. We are now significantly expanding our operations and are seeking energetic field staff to drive the acquisition of new restaurant partners for the Wolt platform.\\n\\n### Responsibilities\\n- Actively develop and shape your assigned region.\\n- Be willing to travel up to 300km daily, including overnight stays.\\n- Identify potential restaurant partners and close sales deals to achieve sales targets.\\n- Independently organize your pipeline and build new partnerships with decision-makers and restaurants.\\n- Present Wolt and sell our service directly to restaurant managers and owners in personal sales meetings.\\n- Transform your region into a \"Wolt-Region\".\\n\\n### Qualifications\\n- Possess 4+ years of sales experience or have demonstrated sales talent in other ways (e.g., experience with the entire sales cycle).\\n- Characterized by friendliness and strong persuasive power.\\n- Highly self-motivated, target-driven, and sociable.\\n- Act convincingly and confidently through excellent communication and presentation skills.\\n- Completed university degree or similar qualification through completed apprenticeship and professional experience.\\n- Fluent in German and English.\\n\\n### Author's Take\\nThis is a fantastic opportunity for a driven sales professional to make a significant impact on Wolt's growth in Germany. The role offers substantial autonomy, a steep learning curve, and the chance to actively shape a region. Wolt provides a competitive compensation package with performance bonuses, flexible working hours, and a generous 30 days of annual leave, supporting a strong work-life balance. Employees also benefit from an international atmosphere, flat hierarchies, and additional perks like Wolt discounts, a public transport subsidy, and a wellness allowance. A company car option is available, acknowledging the extensive travel required. Wolt is deeply committed to diversity and inclusion, fostering an empowering environment where everyone can excel.

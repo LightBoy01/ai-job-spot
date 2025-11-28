@@ -10,72 +10,49 @@ expirationDate: null
 tags:
   - Remote
   - Software Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/voffice-software/senior-svelte-entwickler-hamburg-2303
 companyLogoUrl: null
+companyCulture: >-
+  vOffice fosters a collaborative and solution-oriented environment with flat
+  hierarchies and regular team events. They prioritize employee growth through
+  development opportunities and support work-life balance with flexible,
+  family-friendly hours and 100% home office options.
+story_question1: >-
+  Given that vOffice is a market leader developing a new serverless cloud-native
+  platform, what are the most significant technical challenges this role will
+  tackle, and how will my contributions directly impact the product's success
+  and scalability?
+story_answer1: >-
+  That's a fantastic question, and it gets right to the heart of what makes this
+  role so exciting. We're not just iterating on existing features; you'll be
+  instrumental in building our next-generation serverless cloud-native platform
+  from the ground up. This means you'll be grappling with complex architectural
+  decisions, ensuring our solutions are not only robust and scalable but also
+  delightful for our diverse user base. Your work, particularly in Svelte 5,
+  will directly shape the user experience and the underlying infrastructure that
+  supports thousands of vacation rental properties. It's a chance to leave a
+  significant technical footprint on a product that's redefining an industry,
+  surrounded by a highly ambitious and supportive team.
+story_question2: >-
+  How does vOffice balance its rapid growth and market leadership with
+  maintaining a 'start-up feeling' and a flexible, family-friendly work
+  environment?
+story_answer2: >-
+  It's a balance we actively strive for, and honestly, it's one of our core
+  strengths. While we're growing fast and hold a strong market position, we've
+  deliberately cultivated a culture that retains the best aspects of a startup:
+  agility, a flat hierarchy, a strong sense of teamwork, and the feeling that
+  everyone can genuinely shape our success. The 'family-friendly' aspect isn't
+  just a buzzword; it's embedded in our flexible working hours and the 100% home
+  office option, which was a deliberate choice to support our team's well-being.
+  We believe that happy, well-supported developers do their best work, and that
+  translates directly into the quality of our product and our continued
+  innovation.
 ---
-Wir, das Team von vOffice, tun alles dafür, um unseren Kunden die Arbeit zu erleichtern. Die zahlreichen Auszeichnungen von Airbnb, [Booking.com](http://Booking.com) und vrbo (fewo-direkt) zeigen den Anspruch und die Qualität unserer Software.
-
-vOffice macht die professionelle Verwaltung und Vermarktung von Ferienunterkünften zum Kinderspiel. Von der Online-Buchung auf unseren Websites und Partnerportalen über die digitale Gästebetreuung bis hin zur Team-Einsatzplanung, dem Banking und der Buchhaltung wird alles über unsere moderne Cloudsoftware abgewickelt.
-
-Als junges und schnell wachsendes Unternehmen mit über 40 Mitarbeiter\*innen und Marktführer in Deutschland benötigen wir Unterstützung in der Produktentwicklung.
-
-Auf dich warten ein motiviertes Team, tolle Kunden und spannende Aufgaben! Bei uns kannst du dich weiterentwickeln und deine Stärken einbringen.
-
-Aufgaben
---------
-
-*   Als Senior Entwickler\*in bringst du eine mehrjährige Erfahrung in der Software-Entwicklung mit und bist maßgeblich an der Entwicklung unserer neuen serverless cloud-native Software-Plattform beteiligt.
-*   Du im wirst im Frontend Apps mit Svelte 5 implementieren.
-*   Im agilen Team wirst du technische Lösungen gestalten, erarbeiten, präsentieren, evaluieren und implementieren.
-*   Zu deinen Aufgaben gehört die Erstellung und Evaluierung von Architekturkonzepten.
-*   Du erstellst Best Practices und führst diese im Team ein.
-
-**Unser moderner Tech Stack:**
-
-Svelte | Cloud-Native | GitHub | Typescript | GraphQL
-
-Qualifikation
--------------
-
-**Must-have Skills:**
-
-*   Du hast mehrjährige Erfahrung in Frontend-Entwicklung mit JavaScript Frameworks (z. B. Svelte, React oder Vue)
-*   Deine Erfahrung in der Entwicklung mit NodeJS sprechen für sich
-*   Du bist Experte in Javascript & Typescript
-*   Professional Working English
-
-**Nice-to-have Skills:**
-
-*   Svelte Erfahrungen
-*   AWS Kenntnisse
-
-Benefits
---------
-
-Du arbeitest auf einem modernen Tech-Stack und bist Teil einer absoluten Produktneuentwicklung für die Tourismus-Branche. Die Zusammenarbeit mit externen Experten und einem hochambitionierten internen Developer Team macht den besonderen Reiz deiner Arbeit aus.
-
-Wir bieten dir:
-
-*   Ein internationales Team, flache Hierarchien und regelmäßige Team-Events.
-*   Ein großartiges Arbeitsklima mit einer team- und lösungsorientierten Arbeitsweise.
-*   Ein flexibles, familienfreundliches Arbeitszeitmodell.
-*   Office Standort: Hamburg, 100% Home Office möglich.
-*   30 Tage Urlaub und einen unbefristeten Arbeitsvertrag in Vollzeit.
-*   attraktive Vergütungs- & Weiterbildungsmöglichkeiten.
-
-Werde Teil eines sympathischen Teams in einem dynamischen Umfeld und arbeite mit den besten Kunden, die du dir vorstellen kannst.
-
-Das ist der richtige Job, wenn Du Bock hast auf:
-
-*   Moderne Software Development
-*   Start-up-Feeling
-*   Team-Work
-*   Gestalten und Gewinnen
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nvOffice is dedicated to simplifying work for its customers, a commitment reflected in numerous awards from Airbnb, Booking.com, and Vrbo. Specializing in professional management and marketing of vacation rentals, their modern cloud software streamlines everything from online bookings and digital guest support to team scheduling, banking, and accounting. As a young, rapidly growing company with over 40 employees and a market leader in Germany, vOffice is expanding its product development team. This role offers a motivated team, exciting tasks, and ample opportunities for professional growth.\n\nThe team utilizes a modern tech stack including Svelte, Cloud-Native principles, GitHub, TypeScript, and GraphQL.\n\n### Responsibilities\n*   As a Senior Developer, you will bring several years of software development experience and play a key role in the development of our new serverless cloud-native software platform.\n*   You will implement frontend applications using Svelte 5.\n*   Within an agile team, you will design, develop, present, evaluate, and implement technical solutions.\n*   Your tasks will include the creation and evaluation of architectural concepts.\n*   You will establish best practices and introduce them to the team.\n\n### Qualifications\n**Must-have Skills:**\n*   Several years of experience in frontend development with JavaScript frameworks (e.g., Svelte, React, or Vue).\n*   Proven experience in development with NodeJS.\n*   Expertise in JavaScript & TypeScript.\n*   Professional Working English.\n\n**Nice-to-have Skills:**\n*   Experience with Svelte.\n*   Knowledge of AWS.\n\n### Author's Take\nThis is a highly appealing opportunity for a Senior Frontend Developer eager to make a significant impact on a brand new, serverless cloud-native platform in the thriving tourism industry. You'll be part of a highly ambitious internal developer team, collaborating with external experts, and working with a modern tech stack. vOffice prides itself on an international team, flat hierarchies, and a great work climate characterized by a team and solution-oriented approach. The company strongly supports work-life balance with a flexible, family-friendly working model, 100% home office options, 30 days of vacation, and an unlimited full-time contract. Beyond the excellent benefits, you'll find a dynamic environment that fosters modern software development, a true \\\"start-up feeling,\\\" strong teamwork, and the chance to actively shape and win with innovative solutions.

@@ -12,67 +12,50 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Lead
+employeeRole: Lead
+salaryRange: '€90,000 - €130,000 / Jahr'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-memmingen-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-261280
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a supportive and growth-oriented environment, valuing
+  employees financially and personally. It emphasizes work-life balance through
+  flexible hours and home office options, promotes continuous professional
+  development, and encourages strong team collaboration within a modern, digital
+  setting.
+story_question1: >-
+  Given the firm's emphasis on personalized growth paths and optional team
+  leadership, how does a Tax Advisor truly shape their career here and
+  contribute to the strategic direction of the practice?
+story_answer1: >-
+  At our firm, your career isn't just a path, it's a landscape you co-create. We
+  truly believe in empowering our advisors. I remember when I first joined, I
+  was encouraged to identify areas where I wanted to deepen my expertise – be it
+  complex inheritance tax cases or M&A tax law. The optional team leadership
+  isn't just a title; it's an opportunity to mentor junior colleagues and
+  influence how we approach client solutions. What's truly special is the open
+  dialogue with partners about the firm's future. If you have an idea for a new
+  service line or a more efficient digital process, your voice is heard, and
+  you're given the autonomy and support to explore it. This isn't just about
+  doing your job; it's about building a legacy and potentially stepping into a
+  partnership yourself, with all the strategic input that entails.
+story_question2: >-
+  The job description highlights a digital and modern work environment. Can you
+  elaborate on how these aspects translate into daily workflows and client
+  interactions, making the role more efficient and engaging?
+story_answer2: >-
+  Absolutely. The digital environment here is a game-changer. Forget piles of
+  paper; everything from client documents to internal communication is
+  streamlined through advanced digital platforms. This means less administrative
+  burden and more time for actual advisory work. For instance, collaborating on
+  complex tax declarations is seamless with integrated software, allowing us to
+  review and share information instantly, even when working remotely. This
+  efficiency isn't just for us; it directly benefits our clients, enabling
+  faster responses and more proactive advice. It also frees us up to engage in
+  more stimulating, project-based work, rather than getting bogged down in
+  routine tasks, truly making the role more dynamic and forward-thinking.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Memmingen.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nTaxTalente is the #1 job-matching platform for job seekers in tax consulting, connecting professionals with attractive employers. We are currently seeking a highly motivated Tax Advisor (m/f/d) for one of our partner law firms in Memmingen. This role is ideal for individuals looking for a positive career change, seeking partnership opportunities, and valuing a supportive work environment that offers financial and personal appreciation. The position offers limitless development chances, diverse areas of activity, and an outstanding compensation package.\n\n### Responsibilities\nAt our partner firm, you have the unique opportunity to tailor your scope of duties based on your personal strengths and interests. Key responsibilities include:\n- Preparation and review of annual financial statements.\n- Preparation of tax declarations for partnerships and corporations.\n- Special tax consulting projects based on individual qualifications, e.g., in the areas of inheritance tax or reorganization tax law.\n- Supporting tax audits.\n- Team leadership and personnel responsibility (optional).\n- Other individually selectable areas of activity that you enjoy.\n\n### Qualifications\nTo ensure a mutual fit, we look for candidates who embody the following:\n- Communicative nature and enjoyment of interaction with clients.\n- Meticulous, efficient, and conscientious working style.\n- Openness to a digital way of working.\n- Leadership understanding and sense of responsibility towards employees (optional).\n- A successfully completed tax advisor examination (\"Steuerberaterexamen\").\n- Passion for tax-related topics.\n\n### Author's Take\nThis is an exceptional opportunity for an ambitious Tax Advisor to advance their career in a forward-thinking firm. The emphasis on personalized role design, generous compensation (€90,000 - €130,000 per year), and the explicit mention of a partner perspective truly set this role apart. The firm champions work-life balance with flexible working hours and home office options, alongside strong support for continuous professional development and a modern, digital workplace. Furthermore, applying through TaxTalente offers significant advantages: anonymity during the initial search, pre-vetted opportunities that match your criteria (including salary), and expert negotiation support. This role isn't just a job; it's a strategic move towards a fulfilling and impactful career, with the potential for leadership and partnership.

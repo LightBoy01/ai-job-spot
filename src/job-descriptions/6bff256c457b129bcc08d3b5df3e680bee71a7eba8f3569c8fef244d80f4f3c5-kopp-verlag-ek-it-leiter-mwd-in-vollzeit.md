@@ -9,101 +9,60 @@ postedDate: '2025-11-25T10:01:52.000Z'
 expirationDate: null
 tags:
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Director
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/kopp-verlag-ek/it-leiter-in-vollzeit-rottenburg-409139
 companyLogoUrl: null
+companyCulture: >-
+  The Kopp Verlag values independent thought, curiosity, and a passion for
+  challenging conventional narratives, actively shaping the future of media. It
+  offers a dynamic environment with opportunities for personal and professional
+  growth within a motivated team, coupled with strong benefits promoting
+  work-life balance and employee well-being.
+story_question1: >-
+  The Kopp Verlag stands for breaking conventional thought barriers. How does
+  the IT infrastructure and your role as IT Director directly enable or support
+  this unique editorial mission, especially regarding data integrity, security,
+  and content delivery in potentially controversial areas?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what makes
+  working here unique. Our mission to provide alternative perspectives isn't
+  just about content; it's deeply intertwined with our technical backbone. As IT
+  Director, you're not just maintaining servers; you're safeguarding the very
+  foundation of free information. We face unique challenges around security and
+  ensuring our platforms are resilient against attempts to suppress dissenting
+  voices. For example, our self-hosted Linux servers in the cloud are a
+  deliberate choice to maintain maximum control and independence. You'd be
+  instrumental in designing systems that are robust, secure, and agile enough to
+  deliver our content without compromise, ensuring our readers always have
+  access to the information they seek, even when it challenges the mainstream.
+  It's about empowering our journalists and editors with reliable tools, knowing
+  that the infrastructure you build directly contributes to our vision of an
+  open media landscape.
+story_question2: >-
+  The job description mentions a mix of established Windows technologies, a
+  specialized ERP, and self-hosted Linux cloud servers. What is the current
+  strategic vision for modernizing and integrating this diverse IT landscape,
+  and what role would the IT Director play in driving key initiatives like cloud
+  integration or process automation?
+story_answer2: >-
+  Our IT landscape is indeed a blend of robust, established systems and
+  cutting-edge cloud solutions, which presents both a challenge and an exciting
+  opportunity. The strategic vision is to create a highly resilient, scalable,
+  and secure environment that fully supports our rapid growth and digital
+  transformation. As IT Director, you would be at the helm of this evolution.
+  For instance, while our ERP system is critical, you'd be tasked with
+  optimizing its technical interfaces and ensuring its stability, while
+  simultaneously spearheading cloud integration projects for new services or
+  expanding our Linux footprint. We're looking to you to identify areas where
+  automation can streamline processes, leverage Microsoft 365 capabilities for
+  enhanced collaboration and security, and continually explore new technologies
+  that can give us a competitive edge. It's a role where strategic planning
+  meets practical execution, allowing you to leave a significant mark on our
+  technological future.
 ---
-Karriere beim Kopp Verlag – wir suchen Verstärkung!
-
-Beim Kopp Verlag arbeiten Menschen, die auf ihre Art und Weise einzigartig sind und sich nicht mit den Informationen begnügen, die ihnen Tagesschau und Tageszeitung liefern. Bei uns werden mit Mut, Neugier und Leidenschaft politisch korrekte Denkbarrieren durchbrochen und so die Zukunft der Medienwelt kreativ mitgestaltet.
-
-Der Kopp Verlag hat in den zurückliegenden 30 Jahren unzählige Erfolgsgeschichten geschrieben. Auch in Zukunft werden wir hart daran arbeiten, unseren Lesern einen Blick hinter die Kulissen des Mainstreams zu ermöglichen. Sie sind eingeladen, aktiv an dieser Erfolgsgeschichte mitzuwirken!
-
-Die Medien befinden sich weltweit in einem starken Wandel. Die mit dem Internet und der veränderten Mediennutzung verbundenen Marktentwicklungen sind eine große Herausforderung, aber auch eine besondere Chance für neue Medien. Solche Veränderungen haben ihren Ursprung im Bewusstsein derer, die den Wandel gestalten wollen. Kommen Sie zu uns und gestalten Sie den Wandel aktiv mit!
-
-**Sie sehen Ihre berufliche Zukunft in einem Medienhaus und E-Commerce-Unternehmen, in dem Sie persönlichen Erfolg mit einer sinnvollen Tätigkeit verbinden können?** Sie möchten täglich dazu beitragen, unseren Kunden mit spannenden Büchern und Informationen »die Augen zu öffnen«? Und ihnen neben Büchern, Zeitschriften und elektronischen Medien zudem mit Produkten aus den Bereichen Nahrungsergänzungsmittel, Wohlbefinden und Kosmetik sowie Outdoor & Survival Mehrwert bieten? Sie wollen für Menschen und mit Menschen zusammenarbeiten und etwas bewegen? Nehmen Sie die Herausforderung an! Wir packen an, worüber wenig später alle diskutieren. Kommen Sie zu uns, wenn Sie mit Menschen arbeiten wollen, die eine eigene Meinung haben und die Freiheit lieben!
-
-Der Kopp Verlag bietet Ihnen spannende und herausfordernde Aufgaben sowie Entwicklungschancen in einem innovativen, wachsenden Medienunternehmen. Werden Sie Teil eines motivierten, dynamischen Teams mit kreativen Ideen und anspruchsvollen Lösungswegen.
-
-Aufgaben
---------
-
-**IT-Leiter (m/w/d) in Vollzeit**
-
-Als modernes Verlagshaus mit starken digitalen Prozessen suchen wir zum nächstmöglichen Termin eine Führungspersönlichkeit in Vollzeit für unseren Unternehmenssitz in Rottenburg am Neckar, die unsere IT-Infrastruktur verantwortet, interne Anwender optimal unterstützt und die IT als serviceorientierten Partner der Fachbereiche versteht. Unsere Systemlandschaft basiert auf Windows-Technologien wie Active Directory, Hyper-V und Microsoft 365 sowie auf einer spezialisierten ERP-Lösung, deren fachliche Betreuung im Fachbereich liegt. Darüber hinaus betreiben wir selbst gehostete Linux-Server in der Cloud, deren sicherer Betrieb und kontinuierliche Absicherung für uns von höchster Priorität ist.
-
-**Ihre Aufgaben:**
-
-*   Führung, Organisation und Weiterentwicklung des IT-Teams (Administration, User-Support, Projekte)
-*   Sicherstellung eines serviceorientierten Anwendersupports für alle internen Mitarbeitenden (1st & 2nd Level)
-*   Kontinuierliche Verbesserung digitaler Arbeitsabläufe und der IT-Dienstleistungsqualität
-*   Gesamtverantwortung für die Windows-basierte IT-Infrastruktur inklusive Active Directory, Windows Server, Hyper-V, Netzwerk, Backup und IT-Security
-*   Administration und Weiterentwicklung der Microsoft 365 Umgebung, inklusive Security & Compliance
-*   Technische Betriebsverantwortung rund um das ERP-System (Server, Berechtigungen, Schnittstellen, Stabilität) – die fachliche und prozessuale Betreuung erfolgt im betreffenden Fachbereich
-*   Betrieb und Absicherung von selbst gehosteten Linux-Servern in der Cloud, inklusive
-*   Installation, Wartung und Absicherung von Servern
-*   Konfiguration von Firewalls, VPNs, Zugriffskontrollen
-*   Sicherstellung von Datensicherheit und Datenschutz gemäß den gesetzlichen Anforderungen
-*   SIEM, Monitoring und Patch-Management
-*   Planung und Steuerung von IT-Projekten (Modernisierung, Digitalisierung, Cloud-Integration)
-*   Auswahl, Steuerung und Qualitätssicherung externer IT-Dienstleister
-*   Verantwortung für IT-Sicherheitskonzepte, Datenschutzanforderungen und Notfallmanagement
-*   Budgetplanung, Lizenz- und Vertragsmanagement
-
-Qualifikation
--------------
-
-**Ihr Profil:**
-
-*   Studium der (Wirtschafts-)Informatik oder vergleichbare Qualifikation
-*   Mehrjährige Berufserfahrung in der Systemadministration, idealerweise mit Führungsverantwortung
-*   Sehr gute Kenntnisse in
-*   Windows Server & Active Directory
-*   Hyper-V und Virtualisierung
-*   Microsoft 365/Azure AD
-*   Netzwerktechnologien, IT-Security & Backup-Strategien
-*   Fundierte Kenntnisse im Betrieb und in der Absicherung von selbst gehosteten Linux-Servern (z. B. mit Ubuntu, Debian)
-*   Erfahrung in der Firewall-Konfiguration, Verschlüsselung, Zugriffskontrollen, Backupstrategien und Sicherheitsprotokollen
-*   Erfahrung im professionellen User-Support/IT-Service-Management
-*   Die Fähigkeit, Anwender, Stakeholder und Dienstleister gleichermaßen zu koordinieren
-*   Kommunikationsstark, lösungsorientiert, service- und menschzentriert
-*   Erfahrung im Umgang mit ERP-Systemen ist von Vorteil, eine fachliche ERP-Betreuung ist jedoch nicht erforderlich
-*   Sie besitzen sehr gute Deutsch- und Englischkenntnisse
-
-Benefits
---------
-
-**Das bieten wir Ihnen:**
-
-*   Firmenfitness mit EGYM Wellpass
-*   Hohe Mitarbeiterrabatte auf das gesamte Sortiment
-*   30 Tage Urlaub sowie 24. und 31.12. frei
-*   Attraktives Vergütungspaket
-*   Eigenes Betriebsrestaurant mit reichhaltigem Angebot, kostenloses Wasser, Kaffee und frisches Bio-Obst
-*   Gemeinsame Mitarbeiterevents
-*   Vermögenswirksame Leistungen und betriebliche Altersvorsorge
-*   Kurze Entscheidungswege und flache Hierarchien
-*   Parkmöglichkeiten für Auto und Fahrrad direkt am Gebäude
-*   Modern ausgestatteter Arbeitsplatz
-*   Möglichkeit zur Weiterentwicklung und langfristige Karriereperspektiven
-
-**Wir haben Ihr Interesse geweckt?**
-
-Dann freuen wir uns auf Ihre aussagekräftige Bewerbung mit:
-
-\- Anschreiben
-
-\- Lebenslauf
-
-\- Arbeits- und Ausbildungszeugnissen
-
-\- Kündigungsfrist und Eintrittstermin
-
-\- sowie Ihren Gehaltsvorstellungen
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nKopp Verlag is looking for a **Head of IT (m/f/d)** to join our team in full-time. We are a modern publishing house with strong digital processes, seeking a leadership personality for our Rottenburg am Neckar location. You will be responsible for our IT infrastructure, providing optimal support to internal users, and positioning IT as a service-oriented partner for all departments. Our system landscape is based on Windows technologies such as Active Directory, Hyper-V, and Microsoft 365, as well as a specialized ERP solution (with functional support managed by the respective department). Additionally, we operate self-hosted Linux servers in the cloud, where secure operation and continuous protection are our highest priority.\n\nAt Kopp Verlag, we are driven by courage, curiosity, and passion to challenge conventional thought barriers and creatively shape the future of the media world. With over 30 years of success, we are committed to providing our readers with a view behind the scenes of the mainstream. We invite you to actively contribute to this success story, connecting personal achievement with a meaningful purpose by helping our customers \"open their eyes\" with exciting books, information, and products across various categories including nutritional supplements, well-being, cosmetics, and outdoor & survival. Join us if you want to work with people who hold their own opinions and cherish freedom, making a tangible impact in a changing media landscape.\n\n### Responsibilities\n*   Lead, organize, and further develop the IT team (administration, user support, projects).\n*   Ensure service-oriented user support for all internal employees (1st & 2nd Level).\n*   Continuously improve digital workflows and IT service quality.\n*   Hold overall responsibility for the Windows-based IT infrastructure including Active Directory, Windows Server, Hyper-V, network, backup, and IT security.\n*   Administer and further develop the Microsoft 365 environment, including security & compliance.\n*   Manage technical operations around the ERP system (servers, permissions, interfaces, stability) – functional and process support is handled by the relevant department.\n*   Operate and secure self-hosted Linux servers in the cloud, including:\n    *   Installation, maintenance, and securing of servers.\n    *   Configuration of firewalls, VPNs, access controls.\n*   Ensure data security and data protection in accordance with legal requirements.\n*   Manage SIEM, monitoring, and patch management.\n*   Plan and steer IT projects (modernization, digitalization, cloud integration).\n*   Select, steer, and ensure quality of external IT service providers.\n*   Be responsible for IT security concepts, data protection requirements, and emergency management.\n*   Handle budget planning, license, and contract management.\n\n### Qualifications\n*   Degree in (Business) Informatics or a comparable qualification.\n*   Several years of professional experience in system administration, ideally with leadership responsibility.\n*   Very good knowledge in:\n    *   Windows Server & Active Directory.\n    *   Hyper-V and virtualization.\n    *   Microsoft 365/Azure AD.\n    *   Network technologies, IT security & backup strategies.\n*   Profound knowledge in the operation and securing of self-hosted Linux servers (e.g., Ubuntu, Debian).\n*   Experience in firewall configuration, encryption, access controls, backup strategies, and security protocols.\n*   Experience in professional user support/IT service management.\n*   Ability to coordinate users, stakeholders, and service providers equally.\n*   Strong communication skills, solution-oriented, service- and human-centric.\n*   Experience with ERP systems is an advantage (technical ERP support is not required).\n*   You possess very good German and English language skills.\n\n### Author's Take\nThis is a pivotal leadership role for an experienced IT professional eager to make a significant impact in a dynamic media and e-commerce environment. As Head of IT, you will drive the technological future, overseeing a diverse infrastructure and leading a dedicated team, all while supporting a company mission that champions independent thought and alternative perspectives. The role offers exciting challenges, from strategic project planning and cloud integration to ensuring robust security and seamless user support. Kopp Verlag fosters a culture of curiosity, innovation, and growth, complemented by an attractive benefits package including 30 days of vacation, comprehensive health initiatives, and opportunities for long-term career development within a flat hierarchy. This is an ideal opportunity for a proactive leader who thrives on both technical depth and strategic influence.

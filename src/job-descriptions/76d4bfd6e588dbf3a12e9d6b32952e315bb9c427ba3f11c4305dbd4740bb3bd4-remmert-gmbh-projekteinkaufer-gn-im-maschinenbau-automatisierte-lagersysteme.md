@@ -9,72 +9,46 @@ postedDate: '2025-11-25T10:01:42.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/remmert-gmbh/projekteinkaufer-gn-im-maschinenbau-automatisierte-lagersysteme-bunde-386724
 companyLogoUrl: null
+companyCulture: >-
+  Remmert fosters a family-like, growth-oriented culture with flat hierarchies
+  and short decision-making processes. They emphasize work-life balance through
+  flexible hours and mobile work, promote continuous learning, and build strong
+  team bonds through regular employee events.
+story_question1: >-
+  How does the Project Buyer role directly impact the successful delivery and
+  competitive edge of Remmert's innovative automated logistics solutions?
+story_answer1: >-
+  Oh, it's huge! As a Project Buyer here, you're not just sourcing parts; you're
+  truly the backbone of our projects. I remember a recent automated warehouse
+  system where we needed a very specific type of sensor. My team identified a
+  new supplier that offered superior technology at a better price, and
+  critically, could deliver within our tight project timeline. That single
+  strategic decision meant we could launch the system ahead of schedule and with
+  enhanced functionality, directly contributing to our client's satisfaction and
+  strengthening our market position. It's incredibly rewarding to see your
+  choices directly translate into tangible, high-tech solutions in the field.
+story_question2: >-
+  Given Remmert's long-standing history as a family-run business, how does this
+  ethos influence supplier relationships and the long-term sustainability of the
+  supply chain?
+story_answer2: >-
+  That's a great question, and it really speaks to who we are. Being a
+  family-run company since 1945 means we think in generations, not just
+  quarters. This philosophy extends directly to our suppliers. We're not just
+  looking for the cheapest deal; we're building genuine partnerships. We often
+  work with suppliers for decades, fostering trust and mutual growth. This
+  long-term view helps us ensure not just cost-effectiveness but also
+  reliability, quality, and adaptability in our supply chain, which is crucial
+  for our complex, custom automation projects. It creates a stable ecosystem
+  where innovation can thrive, knowing we have dependable partners supporting
+  us.
 ---
-Remmert ist spezialisiert auf automatisierte Lager- und Logistiksysteme. Wir wissen, wie man Bleche, Langgüter und Werkstücke platzsparend lagert und vollautomatisch bewegt. Maschinenbau/ Automation/Logistik - eine Branche mit Zukunftsperspektive!
-
-Seit 1945 sind wir ein familiengeführtes Unternehmen und das leben wir - Entwicklungsperspektiven, Kommunikation auf Augenhöhe und kurze Entscheidungswege.
-
-Wir wachsen kontinuierlich und suchen Kollegen/innen, die unser Team tatkräftig unterstützen.
-
-Aufgaben
---------
-
-*   **Bedarfsermittlung & Beschaffungsplanung:**  
-    Enge Zusammenarbeit mit Vertrieb, Konstruktion und Projektleitung zur Ableitung technischer Spezifikationen und Erstellung von Stücklisten sowie Beschaffungszeitplänen.
-*   **Lieferantenauswahl & -entwicklung:**  
-    Identifikation, Bewertung und Auswahl geeigneter Lieferanten unter Berücksichtigung von Qualitäts-, ESG- und Zertifizierungsstandards. Aufbau und Pflege langfristiger Lieferantenbeziehungen.
-*   **Vertrags- und Preisverhandlungen:**  
-    Ausarbeitung und Verhandlung von Rahmenverträgen, Preisstrukturen und Zahlungsbedingungen. Sicherstellung kostenoptimierter Beschaffung unter Berücksichtigung technischer Anforderungen.
-*   **Technisches Risiko- und Qualitätsmanagement:**  
-    Prüfung technischer Spezifikationen, Normen und Kompatibilität. Zusammenarbeit mit der Qualitätssicherung und Management von Abweichungen.
-*   **Lieferkettentracking & Terminmanagement:**  
-    Überwachung von Lieferterminen, Koordination der Anlieferung und Unterstützung bei Montage und Installation.
-*   **Kosteneffizienz & Budgetkontrolle:**  
-    Erstellung von Kostenübersichten, Durchführung von Preisanalysen und Mitwirkung bei der Budgetplanung.
-*   **Dokumentation & Berichtswesen:**  
-    Pflege von Beschaffungsdokumentationen und regelmäßige Statusberichte an die Projektleitung.
-*   **Prozessoptimierung & Digitalisierung:**  
-    Mitwirkung bei der Weiterentwicklung von Beschaffungsprozessen und Nutzung digitaler Tools zur Lieferantenbewertung.
-
-Qualifikation
--------------
-
-*   Abgeschlossene technische Ausbildung und kaufmännischer Weiterbildung mit Schwerpunkt Maschinenbau, Elektrotechnik oder vergleichbare Qualifikation; idealerweise Studium im Bereich Wirtschaftsingenieurwesen, Supply Chain Management oder eine einschlägige Weiterbildung.
-*   Fundierte Kenntnisse im Maschinenbau, idealerweise in den Bereichen Regalstahlbau, Ladungsträger, Fördertechnik und Automatisierungskomponenten.
-*   Erfahrung im Projekteinkauf, insbesondere in der Projektierungsphase.
-*   Ausgeprägte Verhandlungsstärke, Kenntnisse im Vertragsrecht und Lieferantenmanagement.
-*   SAP-Kenntnisse (Bestellabwicklung, Rechnungsworkflow) von Vorteil.
-*   Teamfähigkeit, strukturierte Arbeitsweise und hohe Eigeninitiative.
-
-Benefits
---------
-
-*   Unbefristeter Arbeitsvertrag mit 30 Tagen Urlaub
-*   Mobiles Arbeiten und flexible Arbeitszeiten
-*   Sonderboni wie Gewinnbeteiligung, Mitarbeiter-werben-Mitarbeiter, E-Bike Leasing, Anwesenheitsprämie und Fitnessstudiozuschuss
-*   Moderne Ausstattung ( Laptop, Handy, höhenverstellbarer Schreibtisch )
-*   Kaffee, Obst und Gemüse zum freien Verzehr
-*   Entwicklungsperspektiven in Form von regelmäßigem Austausch und Jahresgesprächen
-*   Förderung von Weiterbildungen mit vorhandenem Katalog für alle Berufsgruppen
-*   Regelmäßige Mitarbeiterevents (Sommerausflug, Wandertage sowie Weihnachtsfeiern für alle Kollegen und deren Familie)
-*   Betriebliche Altersvorsorge (Unterstützung der betrieblichen Altersvorsorge durch ein Zuschussmodell mit attraktiven Arbeitgeberbeiträgen)
-*   Betriebliches Gesundheitsmanagement (u.A. Gesundheitschecks, Vorsorgemaßnahmen während der Arbeitszeit, Laufgruppe, Teilnahme an Firmenläufen)
-
-Du bist eine langfristig orientierte Persönlichkeit und kannst Dir vorstellen zum Team Remmert zu gehören?
-
-**Dann freue ich mich auf Deine Bewerbung.**
-
-Mona Greve
-
-05732 - 896-406  
-0160 - 95292435 (WhatsApp möglich)
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nRemmert specializes in automated storage and logistics systems, focusing on space-saving storage and fully automated movement of sheets, long goods, and workpieces. As a family-run company since 1945, Remmert values development opportunities, open communication, and quick decision-making. The company is continuously growing and is looking for a dedicated Project Buyer to strengthen its team and contribute to the future-oriented industry of mechanical engineering, automation, and logistics. This role is pivotal in ensuring the timely and cost-efficient procurement of technical components for complex projects.\n\n### Responsibilities\n- **Requirements Analysis & Procurement Planning:** Close collaboration with sales, engineering, and project management to define technical specifications, create bills of materials, and establish procurement schedules.\n- **Supplier Selection & Development:** Identification, evaluation, and selection of suitable suppliers, considering quality, ESG, and certification standards. Building and maintaining long-term supplier relationships.\n- **Contract & Price Negotiations:** Drafting and negotiating framework agreements, price structures, and payment terms. Ensuring cost-optimized procurement while meeting technical requirements.\n- **Technical Risk & Quality Management:** Reviewing technical specifications, standards, and compatibility. Collaboration with quality assurance and managing deviations.\n- **Supply Chain Tracking & Deadline Management:** Monitoring delivery dates, coordinating deliveries, and supporting assembly and installation.\n- **Cost Efficiency & Budget Control:** Creating cost overviews, conducting price analyses, and contributing to budget planning.\n- **Documentation & Reporting:** Maintaining procurement documentation and providing regular status reports to project management.\n- **Process Optimization & Digitalization:** Contributing to the continuous development of procurement processes and utilizing digital tools for supplier evaluation.\n\n### Qualifications\n- Completed technical training and commercial further education with a focus on mechanical engineering, electrical engineering, or a comparable qualification; ideally, a degree in industrial engineering, supply chain management, or a relevant advanced training.\n- Profound knowledge in mechanical engineering, ideally in areas such as rack steel construction, load carriers, conveyor technology, and automation components.\n- Experience in project purchasing, especially in the project planning phase.\n- Strong negotiation skills, knowledge of contract law, and supplier management.\n- SAP knowledge (order processing, invoice workflow) is an advantage.\n- Team player, structured way of working, and high level of self-initiative.\n\n### Author's Take\nThis is an exceptional opportunity for an experienced Project Buyer looking to make a significant impact within a stable, growing, and innovative family-owned company. Remmert offers a supportive environment with ample development opportunities, flexible working hours, mobile work options, and a host of attractive benefits including profit sharing, e-bike leasing, and comprehensive health and wellness programs. The role demands strong negotiation and technical skills but rewards individuals with the chance to shape the success of cutting-edge automated logistics systems. If you're a long-term oriented individual eager to contribute to a collaborative team, this role offers both professional challenge and personal well-being.

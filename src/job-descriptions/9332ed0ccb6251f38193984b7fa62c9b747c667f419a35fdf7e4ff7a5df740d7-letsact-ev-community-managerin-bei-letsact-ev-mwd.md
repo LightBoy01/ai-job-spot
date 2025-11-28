@@ -10,93 +10,52 @@ expirationDate: null
 tags:
   - Remote
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/letsact-ev/community-managerin-bei-letsact-ev-berlin-203438
 companyLogoUrl: null
+companyCulture: >-
+  Letsact fosters a flexible, remote-first environment with strong team
+  collaboration and flat hierarchies. They offer significant autonomy,
+  opportunities for personal and professional growth, and are deeply committed
+  to social impact, diversity, and an inclusive culture.
+story_question1: >-
+  Given that we're targeting young people for voluntary engagement, what unique
+  challenges have Letsact faced in both attracting and retaining this
+  demographic, and how would this role specifically contribute to overcoming
+  them?
+story_answer1: >-
+  That's a fantastic question and it really gets to the heart of what we do.
+  Engaging young people isn't just about flashy campaigns; it's about authentic
+  connection and showing them the real impact they can make. One of our biggest
+  challenges is cutting through the noise and demonstrating that volunteering
+  can be flexible, digital, and genuinely rewarding. In this role, you're not
+  just managing a community; you're *igniting* a movement. You'll be the
+  architect of new formats, the storyteller behind our success stories, and the
+  direct link connecting passionate young individuals with meaningful causes.
+  You'll see firsthand how your creative ideas translate into active engagement,
+  helping thousands find their purpose and making a tangible difference in
+  society. It's incredibly rewarding to be part of something that truly
+  resonates with the next generation of changemakers.
+story_question2: >-
+  The role is initially project-based for a fixed term. Could you elaborate on
+  the long-term vision for this 'Engagement 2.0' project beyond July 2027 and
+  the potential for a permanent role based on its success?
+story_answer2: >-
+  It's true, this specific position is tied to our 'Engagement 2.0' project,
+  which is a key initiative for us right now. But let me be clear: we see this
+  as a foundational step. The success of this project, driven by your creativity
+  and strategic thinking, is absolutely critical to our growth. Our vision is to
+  solidify Letsact's position as the go-to platform for digital youth engagement
+  in Germany. We're constantly evolving and securing new funding for initiatives
+  that expand our reach and impact. If you come in, demonstrate impact, and
+  connect deeply with our mission and team – and we fully expect you to – a
+  longer-term future, potentially even a permanent role, is absolutely the
+  desired outcome. We're a growing non-profit, and talent like yours is what
+  builds our future. We're looking for someone to grow with us.
 ---
-**Letsact ist Deutschlands größte Ehrenamts-App – und eine Plattform für junges, digitales Engagement.**
-
-Als gemeinnütziger Remote-First-Verein vernetzen wir junge Menschen mit Non-Profits niederschwellig, digital und wirkungsvoll.
-
-Für unser Projekt **„Engagement 2.0 – digital vernetzt, gemeinsam engagiert“** suchen wir eine\_n Community Manager\_in, die\*der junge Menschen für freiwilliges Engagement begeistert. Du bringst Neugier für neue Formate mit, hast ein gutes Gespür für junge Zielgruppen und entwickelst kreative Ideen.
-
-Du denkst gerne strategisch, arbeitest eigenverantwortlich und behältst Projektziele und Timings im Blick. Bei uns bekommst du viel Gestaltungsspielraum, ein starkes Team im Rücken und eine klare Projektstruktur – fehlst nur noch du!
-
-**Die Stelle ist befristet vom 1.12.2025 bis 31.7.2027.** Eine Weiterbeschäftigung darüber hinaus ist gewünscht.
-
-**Arbeitsort:** Remote mit Anbindung an Berlin.
-
-Aufgaben
---------
-
-**Community & Netzwerk**
-
-Outreach: Gewinnung von Non-Profits und Freiwilligen
-
-*   Beratung von Organisationen zu digitalem Engagement
-*   Planung und Umsetzung von Events & Webinaren für die Community
-*   Begleitung von Freiwilligen bei der Projektfindung
-*   Entwicklung neuer Community-Formate
-*   Durchführung gezielter Outreach-Maßnahmen zur Gewinnung von Non-Profits und Volunteers
-
-**Marketing & Kampagnen**
-
-Konzeption & Umsetzung zielgruppenorientierter Kommunikationsmaßnahmen
-
-*   Erstellung von digitale Materialien, Printprodukte sowie Social-Media-Posts und Blogartikel, die das Engagement unserer Community sichtbar machen
-*   KPI-Tracking & Performance-Monitoring
-*   Entwicklung von Strategien zur Ansprache junger Zielgruppen
-*   Weiterentwicklung der Newsletter
-*   Briefing und Koordination externer Content-Creator
-
-**Evaluation & Reporting**
-
-Erstellung und Auswertung von Feedback-Formaten (z. B. Umfragen, Interviews)
-
-*   Monitoring & Optimierung der Maßnahmen
-*   Reporting & Verwendungsnachweise für Fördermittelgeber
-
-Qualifikation
--------------
-
-**Was du mitbringen solltest:**
-
-*   Erfahrung im Aufbau sowie der Begleitung von **Communities**
-*   Kommunikationsstärke, **Organisationstalent** und **Eigeninitiative**
-*   Ein gutes Gespür für die **Lebenswelten junger Menschen** und Lust, neue Kommunikationswege zu erschließen
-*   **Offenheit, Verantwortung** zu übernehmen und unsere klare Projektstruktur aktiv mit Leben zu füllen
-*   Begeisterung für freiwilliges Engagement – **Ehrenamt ist auch für dich eine Herzenssache**
-*   Eine **Startup-Mentalität** mit viel Eigeninitiative und Hands-on-Mentalität
-*   **Hervorragende Kommunikationsfähigkeiten** in Deutsch und Englisch, sowohl mündlich als auch schriftlich
-*   **Selbstständige, strukturierte und ergebnisorientierte Arbeitsweise**
-*   **Leidenschaft für soziales Engagement** und die Fähigkeit, andere dafür zu begeistern
-
-Benefits
---------
-
-**Was dich bei uns erwartet:**
-
-*   **Gestaltungsspielraum & Verantwortung:** Du bringst deine Ideen aktiv ein und gestaltest Maßnahmen und Kampagnen eigenständig.
-*   **Wirkung & Sinn:** Du arbeitest an einem gesellschaftlich relevanten Projekt mit echtem Impact und entwickelst dich dabei persönlich und fachlich weiter.
-*   **Team & Kultur:** Dich erwartet ein diverses, motiviertes Team mit flachen Hierarchien, Offenheit und Leidenschaft für gemeinsames Engagement.
-*   **Faire Vergütung:** Die Bezahlung orientiert sich am TVöD.
-*   **Flexibles Arbeiten:** Home office, oder ein Platz in einem Coworking-Space.
-
-**Dein Weg zu uns:**
-
-Es gibt keine feste Bewerbungsfrist – solange die Ausschreibung online ist, freuen wir uns über Bewerbungen. Wir wünschen uns jedoch eine zeitnahe Besetzung der Stelle.
-
-Der Bewerbungsprozess läuft in drei Schritten ab:
-
-1.  **Ein erstes telefonisches/online Kennenlerngespräch (ca. 30-45 Minuten)**
-2.  **Ein vertiefendes Gespräch (ca. 60 Minuten)**
-3.  **Auf gegenseitigen Wunsch Kennenlernen des erweiterten Teams**
-
-Wir bei letsact setzen uns für eine vielfältige und inklusive Arbeitsumgebung ein. Daher ermutigen wir ausdrücklich FLINTA\*, queere Menschen, Menschen mit Behinderung sowie Personen mit unterschiedlichen sozialen und kulturellen Hintergründen, sich bei uns zu bewerben. Vielfalt bereichert unser Team und stärkt unsere Mission: “Gemeinsam einfach Gutes tun”. Solltest du individuelle Bedürfnisse oder Anforderungen im Bewerbungsprozess haben, zögere nicht, uns zu kontaktieren und wir finden gemeinsam eine Lösung. Wir freuen uns auf deine Bewerbung.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nLetsact is Germany's largest volunteering app and a platform for young, digital engagement. As a remote-first non-profit, we connect young people with non-profits in a low-threshold, digital, and impactful way.\n\nFor our project \"Engagement 2.0 – digitally networked, jointly engaged,\" we are looking for a Community Manager who inspires young people for voluntary engagement. You should bring curiosity for new formats, a good sense for young target groups, and develop creative ideas. You enjoy thinking strategically, working independently, and keeping project goals and timelines in mind. We offer significant creative freedom, a strong supportive team, and a clear project structure – all that's missing is you!\n\nThe position is temporary from December 1, 2025, to July 31, 2027, with a desire for continued employment beyond this period. The work location is remote, with a connection to Berlin.\n\n### Responsibilities\n**Community & Network:**\n- Outreach: Acquiring non-profits and volunteers.\n- Advising organizations on digital engagement.\n- Planning and implementing events & webinars for the community.\n- Supporting volunteers in project finding.\n- Developing new community formats.\n- Conducting targeted outreach measures for non-profit and volunteer acquisition.\n\n**Marketing & Campaigns:**\n- Conceiving & implementing target group-oriented communication measures.\n- Creating digital materials, print products, social media posts, and blog articles to showcase community engagement.\n- KPI tracking & performance monitoring.\n- Developing strategies for addressing young target groups.\n- Further developing newsletters.\n- Briefing and coordinating external content creators.\n\n**Evaluation & Reporting:**\n- Creating and evaluating feedback formats (e.g., surveys, interviews).\n- Monitoring & optimizing measures.\n- Reporting & providing proof of use for funding providers.\n\n### Qualifications\n**What you should bring:**\n- Experience in building and supporting communities.\n- Strong communication skills, organizational talent, and self-initiative.\n- A good sense for the lives of young people and a desire to explore new communication channels.\n- Openness to take responsibility and actively fill our clear project structure with life.\n- Enthusiasm for voluntary engagement – volunteering is a matter of the heart for you.\n- A \"Startup-Mentality\" with a lot of initiative and a hands-on approach.\n- Excellent communication skills in German and English, both oral and written.\n- An independent, structured, and results-oriented way of working.\n- Passion for social engagement and the ability to inspire others.\n\n### Author's Take\nThis is a fantastic opportunity for a passionate and proactive Community Manager to make a tangible social impact at Germany's leading digital volunteering platform. The role offers significant autonomy, a remote-first setup with flexible working arrangements, and a supportive, diverse team culture committed to a shared mission. While initially project-based, Letsact expresses a clear desire for long-term engagement for the right candidate. It's ideal for someone with a 'Startup-Mentality' who thrives on engaging young audiences and driving strategic marketing initiatives for a cause they deeply believe in. The company's strong emphasis on diversity and inclusion also highlights a truly progressive and welcoming environment.

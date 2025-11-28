@@ -9,64 +9,50 @@ postedDate: '2025-11-25T08:02:38.000Z'
 expirationDate: null
 tags:
   - Product Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/greenpocket-gmbh/praktikantin-produktmanagement-im-kolner-startup-cologne-432103
 companyLogoUrl: null
+companyCulture: >-
+  This agile, green startup is dedicated to shaping a sustainable,
+  climate-neutral future through innovative energy management software. They
+  prioritize continuous learning and professional growth, offering intensive
+  onboarding and mentorship. The culture fosters a balanced work-life with
+  flexible hours and home office options, within a motivated, collaborative, and
+  friendly team that enjoys regular social events.
+story_question1: >-
+  As an entry-level contributor, how will my daily research and optimization
+  efforts directly contribute to the company's mission of shaping a sustainable,
+  climate-neutral future?
+story_answer1: >-
+  From day one, your insights from market analysis and competitive research will
+  be crucial. We're an agile startup, and every piece of data you gather and
+  every suggestion you make for optimizing our software or processes has a
+  direct ripple effect. You're not just 'doing tasks'; you're actively helping
+  us refine our AI-driven energy management solutions, making them more
+  intuitive and impactful. Seeing your input implemented and knowing it
+  contributes to reducing energy consumption and CO2 footprints for companies
+  and households alike is incredibly rewarding here. Plus, you'll be working
+  closely with experienced Product Owners and other teams, learning directly
+  from the best while making a tangible difference.
+story_question2: >-
+  How does the company foster a culture of continuous learning and professional
+  development, especially for student employees or new team members, and what
+  opportunities are there for growth beyond this initial role?
+story_answer2: >-
+  Continuous learning isn't just a buzzword here; it's embedded in our DNA. For
+  new team members and students, we have an intensive onboarding program where
+  you'll be mentored by experts across product management, system
+  administration, and development. We encourage challenging existing concepts
+  and bringing fresh perspectives. Beyond formal training, you'll gain hands-on
+  experience by directly contributing to product development and process
+  optimization, seeing your ideas come to life. Many of our current full-time
+  employees started as interns or student workers, demonstrating a clear path
+  for those who excel and are passionate about our mission. We invest in our
+  people because we know your growth fuels our collective success.
 ---
-Bist Du ein Techi mit einer Vorliebe für die Energiewirtschaft? Reizt es Dich, den Markt und die Konkurrenz zu analysieren und zu verstehen? Sei Teil unseres Teams und bringe Schwung in die Optimierung und Weiterentwicklung unserer Produkte!
-
-**Das sind wir**
-
-Als agiles, grünes Startup und Spezialist für Energiemanagement- und Visualisierungssoftware beteiligen wir uns aktiv an der Gestaltung einer nachhaltigen, klimaneutralen Zukunft. So ist es unsere Mission, mit intuitiver, KI-getriebener Software das Management des Energieverbrauchs so einfach zu machen, dass es für wirklich jeden – egal ob Unternehmen oder Privathaushalt – zu einer Selbstverständlichkeit wird und Energieversorger und Unternehmenskunden wirksam sowohl Energieverbrauch als auch CO2-Fußabdruck reduzieren können. So machen wir mit unseren derzeit 35 talentierten Kolleg:innen die Digitalisierung der Energiebranche zu einer echten Chance.
-
-Aufgaben
---------
-
-**📚 Recherche & Mitarbeit an Produkt- und Konzeptentwicklung:**
-
-*   **Recherche** innerhalb des Energiemarkts, **Konkurrenzanalysen des Wettbewerbs** sowie Idenftifikation von gesetzlichen Vorgaben für die **Implikationen zur Weiterentwicklung unserer Software**
-*   Einbringung von deinem **energiewirtschaftlichen Fachwissen**, um unsere Konzepte und Ausrichtung zu challangen und zu optimieren.
-
-**💻 Testing, Produkt- & Prozessoptimierung:**
-
-*   Behalte einen Überblick über die Qualität des Portals und arbeite eng mit unseren QA-Studis zusammen
-*   Bring deinen Input zur **Optimierung der Usability des Portals** ein und sehe, wie dies in der **Software umgesetzt** wird, um beim Kunden Mehrwerte zu erzeugen
-*   Fühle dem **Produktentwicklungsprozess bei GP** auf den Zahn und helfe uns **Schwachstellen zu identifizieren und zu optimieren.**
-
-**🖊 Dokumentation und Dokumentenerstellung:**
-
-*   Hilf uns dabei, den **Nutzen**, der unsere Software erzeugt, **greifbar und sichtbar** zu machen
-*   Erstelle dabei verschiedene Dokumentationen und Dokumente in **Zusammenarbeit mit unserer Marketing-Abteilung** und unserem **Projektmanagement-Team**
-
-Qualifikation
--------------
-
-*   Du bist eingeschriebene:r Student:in in einem energietechnischen Studiengang, der Wirtschafts- oder Medieninformatik, des Wirtschaftsingenieurwesens oder eines vergleichbaren Fachs
-*   Idealerweise konntest Du bereits bei vorherigen Praktika im Bereich Produktmanagement, sei es durch Wettbewerbs -und Marktanalyse, Innovationsmanagement oder Konzeption, Deinen Fußabdruck hinterlassen
-*   Dein Erfahrungsschatz oder tiefes Interesse gilt der Energiebranche (Energiewirtschaft, -technik, -markt)
-*   Neue Technologien und Produktentwicklung faszinieren Dich, und Du besitzt ein grundlegendes Verständnis für Technik
-*   Du bist ein konzeptioneller und analytischer Kopf, der eigenverantwortlich handelt und strukturiert arbeitet – für Dich sind das keine Fremdwörter
-*   Du überzeugst mit exzellenten Deutsch- oder Englischkenntnissen sowie sehr gute Fähigkeiten in MS Office
-
-Benefits
---------
-
-*   🌱 **Fantastische Product Owner**, die Dir immer mit Rat und Tat zur Seite stehen
-*   🌱 Erfahre eine **intensive Einarbeitung** durch unsere Experten aus Produktmanagement, Systemadministration und Entwicklung
-*   🌱 Erlebe die **authentische Atmosphäre** eines Start-ups und gestalte aktiv die grüne Gründerszene mit
-*   🌱 Bei uns ist **kontinuierliches Lernen** Programm - hier kannst Du persönliche und fachliche Skills auf das nächste Level bringen
-*   🌱 Genieße die Freiheit einer **ausgewogenen Work-Life-Balance** mit flexiblen Arbeitszeiten und der Möglichkeit, bequem im Home Office zu arbeiten
-*   🌱 Erlebe **regelmäßige Teamevents** und entspannte Kicker-Pausen in einem motivierten und herzlichen Team
-*   🌱 **Unerschöpfliche Kaffee- und Wasservorräte** sowie regelmäßig frisches Obst stehen Dir jederzeit zur Verfügung
-*   🌱 Profitiere von unserer kulturell, sportlich sowie verkehrstechnisch **sehr gut angebundenen Lage** - Dein idealer Ausgangspunkt für beruflichen Erfolg und persönliche Entwicklung
-
-**Energiegeladenes Team sucht Verstärkung. Sei dabei – bewirb Dich!**
-
-Wenn Dich die Herausforderung reizt, ein innovatives Unternehmen erfolgreich mitzugestalten, dann sende uns einfach Deinen Lebenslauf und Dein Anschreiben über das untenstehende Formular zu.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAre you a tech enthusiast with a passion for the energy industry? Are you excited to analyze and understand the market and competition? Join our team and energize the optimization and further development of our products!\n\nWe are an an agile, green startup specializing in energy management and visualization software, actively shaping a sustainable, climate-neutral future. Our mission is to make energy consumption management effortless for everyone – businesses and private households – through intuitive, AI-driven software. We empower energy providers and corporate clients to effectively reduce both energy consumption and CO2 footprint. With our 35 talented colleagues, we're transforming the digitalization of the energy sector into a real opportunity.\n\n### Responsibilities\n*   **Research & Collaboration on Product and Concept Development:**\n    *   Research the energy market, conduct competitor analyses, and identify legal requirements for their implications on software development.\n    *   Contribute your energy industry expertise to challenge and optimize our concepts and strategic direction.\n*   **Testing, Product & Process Optimization:**\n    *   Oversee portal quality and collaborate closely with our QA student team.\n    *   Provide input for optimizing portal usability and see it implemented in the software to create added value for customers.\n    *   Scrutinize the product development process at GP and help us identify and optimize weaknesses.\n*   **Documentation and Document Creation:**\n    *   Help us make the benefits generated by our software tangible and visible.\n    *   Create various documentation and documents in collaboration with our Marketing and Project Management teams.\n\n### Qualifications\n*   Enrolled student in an energy technology, business informatics, media informatics, industrial engineering, or comparable field of study.\n*   Ideally, prior internship experience in product management, e.g., in competitive and market analysis, innovation management, or conception.\n*   Experience or deep interest in the energy sector (energy economics, technology, market).\n*   Fascinated by new technologies and product development, with a basic understanding of technology.\n*   Conceptual and analytical thinker, acting independently and working structurally.\n*   Excellent German or English language skills and very good MS Office proficiency.\n\n### Author's Take\nThis is an outstanding opportunity for an enthusiastic student to gain hands-on experience within a dynamic and purpose-driven green startup. You'll work closely with fantastic Product Owners and experts, benefiting from intensive onboarding and a culture of continuous learning that fosters both personal and professional growth. The company embraces an excellent work-life balance with flexible hours and home office options, complemented by regular team events and a supportive, motivated team. If you're passionate about sustainable technology and eager to make a tangible impact, this role offers a perfect environment for development and contribution.

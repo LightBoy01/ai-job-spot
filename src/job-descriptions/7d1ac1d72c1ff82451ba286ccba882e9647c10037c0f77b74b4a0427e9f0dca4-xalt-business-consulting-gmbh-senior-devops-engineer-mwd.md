@@ -9,56 +9,72 @@ postedDate: '2025-11-26T13:02:00.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/xalt-business-consulting-gmbh/senior-devops-engineer-leipzig-266959
 companyLogoUrl: null
+companyCulture: >-
+  XALT fosters a highly collaborative, flat-hierarchical environment with a
+  strong emphasis on continuous learning, personal growth, and excellent
+  work-life balance, encouraging innovation and autonomy. They actively support
+  professional development through certifications and conferences, offer
+  flexible working hours, remote options, workation, and a wellbeing budget.
+story_question1: >-
+  Considering the diverse range of client projects, how does XALT ensure
+  successful adoption and long-term stability of the cutting-edge cloud
+  architectures and DevOps practices you implement, especially when clients
+  might have varying levels of technical maturity?
+story_answer1: >-
+  That's a fantastic question, and it's something we genuinely thrive on here.
+  When we approach a new client, it's never about a one-size-fits-all solution.
+  Our process is deeply collaborative from day one. We start by really listening
+  to their existing challenges and understanding their unique business goals.
+  Then, instead of just pushing the latest tech, we co-create a tailored
+  roadmap. We might introduce a cutting-edge AWS service or a new IaC approach,
+  but always with a strong focus on knowledge transfer and building internal
+  client capabilities. Our goal isn't just to deliver a solution, but to empower
+  their team to maintain and evolve it long-term. This focus on partnership and
+  enablement is baked into our culture – we see ourselves as an extension of
+  their team, not just a service provider.
+story_question2: >-
+  The job description mentions 3-6 months of demonstrable practical experience
+  with AI. How does XALT integrate AI into its cloud solutions and DevOps
+  practices, and what kind of projects can a new team member expect to
+  contribute to in this area?
+story_answer2: >-
+  Absolutely, AI is becoming an exciting frontier for us! While the core of our
+  work is still robust cloud architecture and DevOps, we're actively exploring
+  how AI can optimize and enhance these processes. For instance, we might be
+  looking at using AI for predictive analytics on cloud resource usage to
+  improve cost efficiency, or leveraging machine learning for anomaly detection
+  in monitoring high-availability systems. We also assist clients in deploying
+  their own AI/ML workloads on scalable cloud infrastructure. A new team member
+  with AI experience would be instrumental in identifying new opportunities,
+  perhaps prototyping AI-driven automation for CI/CD pipelines, or even
+  contributing to internal R&D projects exploring the next big thing in cloud
+  AI. It's a dynamic area where your ideas can truly shape our future offerings.
+story_question3: >-
+  The company emphasizes continuous learning and professional development. Could
+  you describe a specific instance or program where XALT significantly supported
+  an employee in acquiring a new certification or skill that directly impacted
+  their career growth or a project's success?
+story_answer3: >-
+  That's a core pillar of our culture! We genuinely believe that investing in
+  our people is investing in XALT's future. For example, we had an engineer who
+  was deeply interested in Kubernetes, even though it wasn't a primary focus for
+  his initial projects. We fully sponsored his Certified Kubernetes
+  Administrator (CKA) exam prep, provided dedicated study time, and even paired
+  him with a senior colleague who was already proficient. Shortly after he got
+  certified, a major client project came up requiring extensive Kubernetes
+  expertise. He became the go-to person, not only leading the technical
+  implementation but also mentoring others. It was a clear win-win: he advanced
+  his career, and we gained critical in-house expertise. This isn't an isolated
+  incident; whether it's an AWS certification, a conference in Berlin, or a
+  specialized online course, we empower our team to pursue their passions and
+  grow.
 ---
-Du bist ein talentierter Linux Administrator / DevOps Engineer und auf der Suche nach neuen Herausforderungen im **Cloud Computing** und in Sachen **Infrastructure** **as Code**? Du arbeitest – wie wir – gerne mit Tech & Tools wie **AWS** (z.B. VPC, IAM, EC2, RDS, S3, Lambda, Kinesis, Route53, NLB), **Azure** or **GCP,** Configuration as Code/CaC (z.B. Ansible, Terraform, Puppet, AWS SystemManager) **Docker**, **Kubernetes** (Rancher, Kops, EKS), Git, Gitlab (CI/CD), GitHub, IaC, **Atlassian** (Jira, Confluence, Compass) usw. ? Du hast Lust auf spannende und abwechslungsreiche Projekte? Dann werde Teil von Team XALT und unterstütze unser DevOps & Infrastructure Team in München, Leipzig und/oder Remote!
-
-Aufgaben
---------
-
-Das erwartet dich:
-
-*   Du berätst unsere Kunden zu DevOps-Prozessen, Cloud-Architektur und technischen Lösungen
-*   Du planst und sorgst für die Bereitstellung hoch verfügbarer, fehlertoleranter und skalierbarer Cloud-Lösungen
-*   Du konzipierst und optimierst Cloud Architekturen
-*   Du führst Cloud Migrationsprojekte durch
-*   Du bewegst dich dabei in einem stark agilen Umfeld und kannst durch deine Ideen die Softwarelösungen aktiv mitgestalten.
-*   Du analysierst Anforderungen, unterstützt bei der Steuerung und Koordination des fachlichen/technischen Entwurfs und evaluierst bereits bestehende sowie neue Lösungen und Konzepte
-
-Qualifikation
--------------
-
-**Das bringst du mit:**
-
-*   Du bringst erfolgreich abgeschlossene Projekte und mehrjährige Erfahrung mit Cloud-, DevOps-, DevSecOps, SRE-Konzepten bzw. DevOps-Tools und Technologien mit
-*   Du bist motiviert, dich im Bereich DevOps und Cloud stetig weiterzuentwickeln, Neues auszuprobieren und neueste Technologien zu testen
-*   Du hast Kenntnisse im Continuous Integration & Continuous Deployment (Bamboo, Jira, Confluence, Jenkins, Ansible, Docker, Kubernetes)
-*   Du bringst Kenntnisse in Infrastructure as Code (Ansible, Terraform) mit
-*   Du bist idealerweise schon Cloud/AWS-zertifiziert oder bist interessiert, Zertifizierungen mit unserer Unterstützung zu bekommen
-*   Du bringst 3–6 Monate belegbare Praxiserfahrung im Einsatz von KI mit.
-
-Benefits
---------
-
-**Das bieten wir dir:**
-
-*   Werde AWS-Profi: falls du die Zertifizierung nicht ohnehin schon hast, kannst du mit unserer Unterstützung folgende AWS-Certifications erhalten:
-*   **AWS Solutions Architect Associate / Professional**
-*   **AWS Certified DevOps Engineer – Professional**
-*   Gestalte ein wachsendes Unternehmen mit, in einem kreativen Umfeld mit kurzen Entscheidungswegen. Hierarchien? Nicht bei uns! Wir bieten kurze Kommunikationswege und stehen jederzeit für deine Ideen offen!
-*   Du bist einzigartig, deshalb wollen wir deine persönliche und professionelle Weiterentwicklung fördern. Dazu gehören Zertifizierungen, Konferenzen, Kurse und mehr.
-*   Weiterbildungsmöglichkeiten (z.B. Lernplatform, Konferenzen, Kurse etc.) und finanzielle Unterstützung für Zertifikate (z.B. Atlassian ACP-100, ACP-400, AWS, Azure, Kubernetes u.v.m.)
-*   Wir unterstützen dich mit einem Wellbeing Budget in Höhe von 50 Euro pro Monat. Ob es sich um eine Mitgliedschaft im Fitnessstudio, neue Laufschuhe, einen Amazon Gutschein oder ein leckeres Mittagessen handelt. Du entscheidest, wofür du es ausgibst.
-*   Bei uns legen wir Wert auf flexible und familienfreundliche Arbeitszeiten sowie mobiles Arbeiten und unterstützen Workation. Zusätzlich bieten wir 30 Tage Urlaub pro Jahr, damit du dich erholen und das Leben in vollen Zügen genießen kannst.
-*   Arbeite in außergewöhnlichen und modernen Büros in [München](https://www.instagram.com/reel/CRG1MNqhO2E/?igsh=MXNmOWl6bWpwN3l4cQ==) oder [Leipzig](https://www.instagram.com/p/C4gGmx5um3_/?img_index=1)!
-*   Erhalte die technische Ausstattung, die du dir wünschst (MacBook, Linux-Notebook oder Windows-PC)
-*   Kein stures abarbeiten von Tasks am Fließband - wir setzen immer auf neue Impulse und Ideen, sowohl bei unseren KundInnen als auch bei internen Projekten!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nXALT is seeking a talented Linux Administrator / DevOps Engineer passionate about **Cloud Computing** and **Infrastructure as Code**. The ideal candidate will be excited to work with modern technologies like **AWS** (VPC, IAM, EC2, RDS, S3, Lambda, Kinesis, Route53, NLB), **Azure**, **GCP**, Configuration as Code (Ansible, Terraform, Puppet, AWS SystemManager), **Docker**, **Kubernetes** (Rancher, Kops, EKS), Git, GitLab (CI/CD), GitHub, IaC, and **Atlassian** tools (Jira, Confluence, Compass). This role offers exciting and varied projects, supporting the DevOps & Infrastructure Team in Munich, Leipzig, or remotely.\n\n### Responsibilities\n*   Advise clients on DevOps processes, cloud architecture, and technical solutions.\n*   Plan and ensure the provision of highly available, fault-tolerant, and scalable cloud solutions.\n*   Design and optimize cloud architectures.\n*   Lead and execute cloud migration projects.\n*   Actively shape software solutions within a highly agile environment by contributing your ideas.\n*   Analyze requirements, support the management and coordination of technical designs, and evaluate existing and new solutions and concepts.\n\n### Qualifications\n*   Proven track record of successfully completed projects and several years of experience with Cloud, DevOps, DevSecOps, or SRE concepts, tools, and technologies.\n*   Motivation for continuous self-development in DevOps and Cloud, eager to experiment with new and latest technologies.\n*   Knowledge of Continuous Integration & Continuous Deployment (e.g., Bamboo, Jira, Confluence, Jenkins, Ansible, Docker, Kubernetes).\n*   Experience with Infrastructure as Code (e.g., Ansible, Terraform).\n*   Ideally, Cloud/AWS certified, or interested in obtaining certifications with company support.\n*   3-6 months of demonstrable practical experience in the application of AI.\n\n### Author's Take\nThis is an exceptional opportunity for a Mid-Senior DevOps Engineer looking for a company that truly invests in its people and offers a vibrant, innovative environment. XALT stands out with its commitment to continuous learning, offering extensive support for AWS, Azure, and Kubernetes certifications, alongside other professional development opportunities. The culture emphasizes flat hierarchies, open communication, and flexibility, including mobile work, workation, and 30 days of annual leave, plus a monthly wellbeing budget. The role promises diverse, challenging projects where your ideas are valued, moving away from routine tasks. The explicit mention of AI experience is a unique and forward-thinking requirement, indicating opportunities to work at the cutting edge of cloud and automation.

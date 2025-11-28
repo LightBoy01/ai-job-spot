@@ -8,80 +8,51 @@ applicationLink: >-
 postedDate: '2025-11-25T14:45:44.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/wolt-english/retail-onboarding-associate-berlin-243217
 companyLogoUrl: null
+companyCulture: >-
+  Wolt fosters a fast-growing, international, and collaborative culture where
+  individuals can learn quickly, grow continuously, and have real impact. It
+  values initiative and ideas within a supportive, low-hierarchy startup
+  atmosphere. The company also offers flexible working hours and generous
+  vacation, indicating a commitment to work-life balance alongside demanding
+  work.
+story_question1: >-
+  How does the Retail Onboarding Team balance the need for rapid scaling and
+  efficiency with ensuring a truly personalized and supportive experience for
+  each new retail partner, especially given Wolt's global expansion and diverse
+  range of merchants?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what makes
+  this role so dynamic. We're constantly iterating, but our secret sauce is a
+  blend of smart process automation and genuine human connection. We've built
+  robust internal tools and refined our workflows in Monday.com to handle the
+  repeatable parts efficiently, freeing up our team to focus on the unique needs
+  of each merchant. It's not just about getting them live; it's about making
+  them feel truly supported and empowered. We succeed when our partners feel
+  they have a trusted guide, not just a checklist, helping them navigate Wolt.
+  This balance means you get to optimize systems *and* build relationships,
+  seeing your direct impact on our partners' success stories.
+story_question2: >-
+  Beyond the initial launch, what are the key metrics or qualitative indicators
+  that define long-term success for a new retail partner onboarded by this team,
+  and how does this role directly contribute to those outcomes?
+story_answer2: >-
+  For us, the 'go-live' date is just the beginning. True success is measured by
+  a retailer's sustained engagement, their operational excellence on the
+  platform, and ultimately, their growth in orders and revenue with Wolt. This
+  role is absolutely critical here. By setting up partners impeccably from day
+  one—ensuring their assortment is optimized, photos are perfect, and they
+  understand the platform inside out—you lay the groundwork for their long-term
+  thriving. We regularly check in, track performance, and gather feedback, which
+  directly informs how we refine our onboarding strategy. Your work here
+  directly impacts not just immediate launches, but the health and expansion of
+  Wolt's entire retail ecosystem.
 ---
-About Wolt
-----------
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.  
-  
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-At Wolt, our Retail Onboarding Team ensures that new retail partners can launch quickly, professionally, and with an exceptional experience. We guide them through every step of the journey – from the first information to assortment setup, photo coordination, and ultimately going live on the platform. As we continue to scale, we constantly refine our processes to ensure an efficient and seamless onboarding experience.
-
-In this role, you will take ownership of the key stages of merchant onboarding, working closely with various internal teams to ensure our partners receive outstanding support from day one. Your mission is to create a smooth launch experience and set every new retailer up for long-term success on Wolt.
-
-What you'll be doing
---------------------
-
-In this role, you will guide new retail partners through every stage of their onboarding journey, ensuring they have a smooth, professional, and well-supported start on Wolt. You will work closely with internal teams, manage key onboarding steps, and clearly communicate requirements and next actions. Your focus is to create a seamless partner experience while maintaining high operational quality throughout the process.
-
-### **Day-to-day in this role you'll:**
-
-*   Collaborate with various teams across the organisation to ensure a smooth onboarding and service experience for our merchants
-*   Clearly communicate processes, requirements, and next steps to partners – via email/CRM and phone
-*   Monitor onboarding processes, document progress, proactively communicate updates, and track tasks in Monday.com and other Wolt tools
-*   Confidently use our systems, tools, and workflows
-
-Our humble expectations
------------------------
-
-We're looking for someone who thrives in a dynamic environment, works well with others, and takes ownership of delivering high-quality results. You enjoy solving challenges with a pragmatic mindset, communicate clearly with partners of all backgrounds, and bring a structured approach to your daily work. Most importantly, you care about creating a great experience for our merchants from the very beginning.
-
-*   Strong team orientation and a genuine desire to grow in a fast-changing environment.
-*   A proactive mindset and the ability to identify challenges early and propose creative, practical solutions.
-*   Strong customer and partner orientation, with the ability to communicate clearly with people of varying technical backgrounds.
-*   1+ years of experience in Sales, Support, Customer Success, or Account Management.
-*   Proficiency in Excel and/or Google Sheets.
-*   The ability to set goals, manage priorities, and deliver reliable, high-quality results.
-*   A structured, detail-oriented working style and great communication skills.
-*   Fluent German and English skills (C1 level); additional languages are a plus.
-
-What we offer
--------------
-
-At Wolt, you'll join a fast-growing global tech company where you can learn quickly, grow continuously, and have real impact from day one. This role gives you the opportunity to work in an international environment, shape how new retail partners experience Wolt, and collaborate with talented colleagues across multiple teams. You'll be part of a supportive, low-hierarchy culture where initiative is encouraged and your ideas are valued.
-
-On top of this, we offer:
-
-*   Competitive salary and flexible working hours
-*   Plenty of autonomy in a dynamic, collaborative team
-*   A friendly, open, start-up atmosphere with flat hierarchies
-*   Discount on Wolt orders
-*   Public transport allowance
-*   Wellness allowance (Urban Sports Club)
-*   Weekly virtual all-hands meetings and regular team events
-*   30 days of paid vacation
-
-Next steps
-----------
-
-After submitting your application, our Talent Acquisition team will review it on a rolling basis. If your profile matches what we're looking for, you'll be invited to a first conversation with our TA Partner to learn more about the role and your background. Following this, you will meet with the Hiring Manager for a deeper discussion about your experience and ways of working.
-
-Qualified candidates will be invited to complete a short assignment, which you'll present in a follow-up interview. Throughout the process, we aim to keep communication clear and timely, and you can expect regular updates at every stage.
-
-We encourage you to apply as soon as possible, as interviews will be scheduled continuously until we find the right candidate.
-
-Our Commitment to Diversity and Inclusion
------------------------------------------
-
-We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAt Wolt, a fast-growing global tech company, we're building the delivery of (almost) everything across over 500 cities in 30 countries. The Retail Onboarding Team is pivotal to this expansion, ensuring new retail partners launch quickly, professionally, and with an exceptional experience. This role specifically involves taking ownership of key stages of merchant onboarding, guiding partners from initial information to going live. Your mission is to collaborate with internal teams to provide outstanding support, create a smooth launch, and set every new retailer up for long-term success on Wolt.\n\n### Responsibilities\n- Guide new retail partners through every stage of their onboarding journey, ensuring a smooth, professional, and well-supported start.\n- Collaborate with various teams across the organisation to ensure a seamless onboarding and service experience for merchants.\n- Clearly communicate processes, requirements, and next steps to partners via email/CRM and phone.\n- Monitor onboarding processes, document progress, proactively communicate updates, and track tasks in Monday.com and other Wolt tools.\n- Confidently use Wolt's systems, tools, and workflows.\n\n### Qualifications\n- Strong team orientation and a genuine desire to grow in a fast-changing environment.\n- A proactive mindset and the ability to identify challenges early and propose creative, practical solutions.\n- Strong customer and partner orientation, with the ability to communicate clearly with people of varying technical backgrounds.\n- 1+ years of experience in Sales, Support, Customer Success, or Account Management.\n- Proficiency in Excel and/or Google Sheets.\n- The ability to set goals, manage priorities, and deliver reliable, high-quality results.\n- A structured, detail-oriented working style and great communication skills.\n- Fluent German and English skills (C1 level); additional languages are a plus.\n\n### Author's Take\nThis is an exciting Mid-Senior Individual Contributor role at Wolt, a rapidly expanding global tech company. It offers a unique opportunity to directly impact the growth of Wolt's retail network by ensuring new partners have a stellar onboarding experience. Candidates with 1+ years of experience in customer-facing roles, a proactive mindset, and strong organizational skills will thrive here. Wolt prides itself on a supportive, low-hierarchy culture that encourages autonomy and continuous learning in a fast-paced environment, complemented by competitive benefits and flexible working hours. It's ideal for someone who enjoys both structured processes and direct partner interaction.

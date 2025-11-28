@@ -8,80 +8,52 @@ applicationLink: >-
 postedDate: '2025-11-25T21:45:13.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/sumup/talent-acquisition-partner-sales-berlin-6196
 companyLogoUrl: null
+companyCulture: >-
+  SumUp fosters a collaborative, diverse, and inclusive "team-first" culture
+  with a strong emphasis on continuous learning, personal growth, and work-life
+  balance through generous leave and sabbatical programs. While valuing
+  collaboration, it also supports an office-first environment.
+story_question1: >-
+  How does this role directly impact SumUp's strategic growth, particularly in
+  scaling its commercial operations across Europe, and what are the unique
+  challenges and opportunities in a fast-paced environment like SumUp?
+story_answer1: >-
+  As a Talent Acquisition Partner, you're not just filling seats; you're the
+  architect behind our European commercial expansion. I remember when we were
+  struggling to keep up with the demand for sales talent. That's where this role
+  truly shines. You get to partner directly with sales leaders, not just take
+  orders, but strategically define who we need and how we'll find them. It's
+  exhilarating to see the direct impact as you bring in top-tier sales
+  professionals who then go on to drive millions in revenue. The biggest
+  challenge? Maintaining that 'SumUp magic' in candidate experience and hiring
+  quality while moving at warp speed. But that's also the fun part – you're
+  empowered to innovate and use data to constantly refine our approach, ensuring
+  we're not just growing, but growing smarter.
+story_question2: >-
+  Given SumUp's commitment to diversity, inclusion, and a "team-first" attitude,
+  how does the Talent Acquisition team actively integrate these values into the
+  hiring process, especially for high-volume sales roles, to ensure a truly
+  equitable and diverse candidate pool?
+story_answer2: >-
+  That's a fantastic question, and it's something we're incredibly passionate
+  about here. Our 'team-first' mantra extends deeply into how we build our
+  talent. For sales roles, it starts with crafting inclusive scorecards and
+  interview processes that focus on potential and transferable skills, not just
+  a narrow set of experiences. We actively work with Employer Branding to create
+  targeted messaging that resonates with a diverse audience, and we train our
+  hiring managers not just on 'what to ask' but 'how to listen' for diverse
+  perspectives. It’s a continuous journey, but the beauty of SumUp is that
+  you're encouraged to challenge the status quo and bring forward new ideas to
+  make our hiring even more equitable. We believe a diverse sales team is a
+  stronger, more innovative sales team, and you'll be at the forefront of making
+  that happen.
 ---
-**Talent Acquisition Partner (Sales Focused)**
-==============================================
-
-🕐 Fixed-term (1-year) contract · Full-time
-
-**About SumUp**
----------------
-
-We believe in the everyday hero — those who have the courage to follow their passion and the determination to realise their dreams.
-
-Small business owners are at the heart of all we do, so we're creating powerful, easy-to-use financial solutions to help them run their businesses. With a founder's mentality and a team-first attitude, our diverse teams across Europe, South America, and the United States work together to ensure that small business owners can be successful doing what they love.
-
-**About the Team**
-------------------
-
-You'll join our **Global Talent Acquisition team**, dedicated to finding and empowering the best talent across SumUp. This role will focus on the **Sales hiring stream** — one of the fastest-growing and most business-critical areas at SumUp.
-
-As a **Talent Acquisition Partner,** you'll work day-to-day with Sales leaders across Europe and help design and deliver a best-in-class, data-driven hiring process that supports our commercial expansion and raises the bar for hiring quality and candidate experience.
-
-You'll be based in one of our main hubs — [Berlin](https://www.sumup.com/careers/offices/berlin/), [London](https://youtu.be/uWNyTvZGeew?si=IiJBUDQe8yJpOFwq), or [Barcelona](https://www.youtube.com/watch?v=Q5xfa9S2Fmg) — and collaborate closely with colleagues across multiple European markets.
-
-**What You'll Do**
-------------------
-
-*   Own the **end-to-end recruitment process** for Sales roles across Europe.
-*   Partner with Sales leaders to **define scorecards, interview loops, and SLAs**, ensuring alignment and quality.
-*   Build **persona-based sourcing plans** and collaborate with Employer Branding to craft targeted messaging. 
-*   Maintain a **structured, data-informed process**, analysing funnel performance and driving improvements.
-*   Champion **candidate experience**, ensuring timely communication and a high standard of engagement.
-*   Leverage **automation and TA tools** (e.g. Greenhouse, Looker, Brighthire) to improve efficiency and consistency.
-*   Drive **weekly funnel reviews**, highlight insights, and partner with stakeholders to remove blockers.
-
-**You'll Be Great for This Role If You**
-----------------------------------------
-
-*   Bring **hands-on experience in high-volume Sales recruitment**, ideally across multiple European markets.
-*   Have a proven track record in **structured hiring** (scorecards, interviewer training, data-driven decision-making).
-*   Excel at **building relationships** with stakeholders and influencing hiring managers as a trusted advisor.
-*   Use **data and insights** to guide hiring strategy and continuously improve funnel performance.
-*   Have strong **communication and prioritisation skills**, thriving in a fast-paced, scale-up environment.
-*   Are naturally curious, proactive, and **motivated by creating great candidate and stakeholder experiences**.
-*   Fluency in English and an additional European language (e.g. French, Italian, German, or Spanish).
-
-**Why You Should Join SumUp**
------------------------------
-
-🌎 Opportunity to work with SumUppers globally on large-scale fintech products used by millions of businesses worldwide, from our Berlin office. This involves an office-first setup  
-🌈 Commitment to Diversity and Inclusion: be part of a workplace that values and promotes diversity, fostering an inclusive environment where everyone's perspectives are respected and embraced  
-📚 A dedicated annual L&D budget of €2000 for attending conferences and/or advancing your career through further education  
-💶 A corporate pension scheme where we match up to 20% of your contributions  
-🏖 Generous time off: enjoy 28 days of paid leave plus public holidays and special leave days  
-💪 Numerous other benefits such as Urban Sports Club subsidy, Kita placement assistance, subsidised office lunches  
-🌴 Break4me: 1-month sabbatical after 3 years of service  
-🔗 Referral Bonus: earn additional rewards by referring talented individuals to join the SumUp team
-
-At SumUp, we're on a mission to empower small businesses around the world with simple, affordable tools to help them start, run, and grow. More than 4 million merchants across 36 markets trust us as their financial partner — and we're just getting started.
-
-We're a global team of 3,000+ people from over 90 nationalities, united by curiosity, collaboration, and care. Our [core values](https://youtu.be/1axu-TmW088?si=5NjHKNq5n-1GbXc2) and [culture](https://youtu.be/XEH_nmJ9KZ4?si=pr6TdFl98FhpD5KG) shape everything we do, fostering inclusion, learning, and belonging.
-
-SumUp is proud to be an Equal Employment Opportunity employer, committed to building a safe, respectful, and diverse workplace where everyone can thrive.
-
-👉 Explore more about our culture on our [careers site](https://www.sumup.com/careers/), or follow us on [LinkedIn](https://www.linkedin.com/company/sumup/) and [Instagram](https://www.instagram.com/insidesumup/).
-
-**Job Application Tip**
-
-We recognise that candidates feel they need to meet 100% of the job criteria in order to apply for a job. Please note that this is only a guide. If you don't tick every box, it's ok too because it means you have room to learn and develop your career at SumUp.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nThis is a 1-year fixed-term, full-time contract role for a Talent Acquisition Partner with a strong focus on Sales hiring.\n\nSumUp empowers small business owners with powerful, easy-to-use financial solutions. With a founder's mentality and a team-first attitude, their diverse teams across Europe, South America, and the United States work together to ensure small business success.\n\nYou will join the Global Talent Acquisition team, specifically focusing on the Sales hiring stream, which is a fast-growing and business-critical area for SumUp. As a Talent Acquisition Partner, you will collaborate with Sales leaders across Europe to design and implement a best-in-class, data-driven hiring process. Your efforts will support commercial expansion and elevate hiring quality and candidate experience. You'll be based in one of SumUp's main hubs: Berlin, London, or Barcelona, and work closely with colleagues across multiple European markets.\n\n### Responsibilities\n*   Own the end-to-end recruitment process for Sales roles across Europe.\n*   Partner with Sales leaders to define scorecards, interview loops, and SLAs, ensuring alignment and quality.\n*   Build persona-based sourcing plans and collaborate with Employer Branding to craft targeted messaging.\n*   Maintain a structured, data-informed process, analysing funnel performance and driving improvements.\n*   Champion candidate experience, ensuring timely communication and a high standard of engagement.\n*   Leverage automation and TA tools (e.g. Greenhouse, Looker, Brighthire) to improve efficiency and consistency.\n*   Drive weekly funnel reviews, highlight insights, and partner with stakeholders to remove blockers.\n\n### Qualifications\n*   Hands-on experience in high-volume Sales recruitment, ideally across multiple European markets.\n*   Proven track record in structured hiring (scorecards, interviewer training, data-driven decision-making).\n*   Excel at building relationships with stakeholders and influencing hiring managers as a trusted advisor.\n*   Use data and insights to guide hiring strategy and continuously improve funnel performance.\n*   Strong communication and prioritisation skills, thriving in a fast-paced, scale-up environment.\n*   Naturally curious, proactive, and motivated by creating great candidate and stakeholder experiences.\n*   Fluency in English and an additional European language (e.g. French, Italian, German, or Spanish).\n\n### Author's Take\nThis is an exciting opportunity for an experienced Talent Acquisition professional to make a significant impact on SumUp's rapid growth within their critical Sales function. The role offers a high degree of autonomy to own the entire recruitment lifecycle and partner strategically with leaders, emphasizing data-driven decisions and continuous improvement.\n\nSumUp cultivates a supportive and inclusive culture that values diversity, collaboration, and continuous learning, offering a generous L&D budget, substantial time off, and even sabbaticals. While it's an office-first setup, the company clearly invests in its employees' well-being and professional development. The explicit \"Job Application Tip\" highlights a company that understands hiring nuances and encourages candidates to apply even if they don't meet every single criterion, showcasing a flexible and human-centric approach to recruitment. This fixed-term contract offers a chance to contribute to a global fintech success story.
