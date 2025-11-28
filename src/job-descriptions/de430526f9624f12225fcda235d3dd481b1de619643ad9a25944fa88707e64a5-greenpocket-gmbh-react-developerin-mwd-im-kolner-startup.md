@@ -9,77 +9,71 @@ postedDate: '2025-11-25T08:02:37.000Z'
 expirationDate: null
 tags:
   - Software Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/greenpocket-gmbh/react-developerin-im-kolner-startup-cologne-246046
 companyLogoUrl: null
+companyCulture: >-
+  This agile, green startup fosters a highly collaborative and growth-oriented
+  culture, deeply committed to sustainability. Employees benefit from flexible
+  working hours, home office options, and a unique monthly 'GreenDay' for
+  personal innovation, emphasizing work-life balance and continuous development
+  within a transparent and fun environment.
+story_question1: >-
+  The mission to simplify energy management with AI-driven software to combat
+  climate change is inspiring. As a Software Developer here, how does one
+  directly connect their daily coding tasks to this larger mission, and what
+  specific technical hurdles might arise when translating sustainable ideas into
+  scalable product features?
+story_answer1: >-
+  From my perspective, working here means every line of code contributes to a
+  greener future. We're not just building features; we're building tools that
+  empower individuals and companies to actively reduce their carbon footprint.
+  The biggest technical hurdle often lies in balancing cutting-edge AI
+  integration with robust, scalable microservice architectures, ensuring our
+  solutions are both intuitive and incredibly efficient. We tackle this by
+  fostering an environment of constant learning and open discussion, where even
+  initial ideas are critically examined for their long-term sustainability and
+  impact, rather than just immediate functionality. It's truly rewarding to see
+  your work directly influencing a positive environmental change.
+story_question2: >-
+  The concept of a 'GreenDay' where developers can dedicate a day each month to
+  their own ideas sounds incredibly innovative. Can you share a concrete example
+  of a feature or improvement that originated from a GreenDay initiative and was
+  successfully integrated into one of your core products, highlighting how such
+  personal projects are supported and nurtured?
+story_answer2: >-
+  Absolutely! GreenDays are a cornerstone of our innovation. I remember one
+  GreenDay where a colleague explored a novel way to visualize real-time energy
+  consumption data using an open-source library he'd been curious about. It
+  started as a small prototype, but the team quickly saw its potential for a
+  more engaging user experience. We brought it to the Architecture Board,
+  refined it through collaborative sprints, and now a version of that very
+  visualization is a key part of our enterprise dashboard, helping customers
+  grasp complex energy patterns instantly. It shows how much we trust our team's
+  creativity; if an idea resonates with our mission, there's always a path to
+  bring it to life, supported by coaching and team collaboration.
+story_question3: >-
+  Given the emphasis on agile teams, continuous collaboration through 'DevComs'
+  and the 'Architecture Board,' and flexible/remote work options, how does the
+  company ensure effective knowledge sharing and maintain strong team cohesion
+  across interdisciplinary groups, especially when not everyone is physically
+  co-located?
+story_answer3: >-
+  That's a great question, and it's something we actively cultivate. Beyond our
+  structured DevComs and Architecture Board, which are designed for cross-team
+  knowledge sharing and strategic alignment, we rely heavily on our transparent
+  communication channels—like dedicated Slack channels for specific tech topics
+  or challenges, and our meme-filled weekly team meetings that foster a sense of
+  belonging and lightheartedness. We also prioritize asynchronous documentation
+  in Confluence. What truly binds us, however, is our shared mission. Whether
+  we're pair programming from different cities or enjoying a Kicker tournament
+  in the office, there's an inherent understanding that we're all working
+  towards a sustainable future, and that common purpose drives our collaboration
+  and keeps us connected, no matter where we're working from.
 ---
-Du willst mehr sein als ein Byte im Datenmeer? Du möchtest gerne mit Leidenschaft Verantwortung in agilen Teams übernehmen und aktiv mit uns dazu beitragen, die Klimawende voranzutreiben? Dann sollten wir uns unbedingt kennenlernen!
-
-**Über uns**
-
-Als agiles, grünes Startup und Spezialist für Energiemanagement- und Visualisierungssoftware beteiligen wir uns aktiv an der Gestaltung einer nachhaltigen, klimaneutralen Zukunft. So ist es unsere Mission, mit intuitiver, KI-getriebener Software das Management des Energieverbrauchs so einfach zu machen, dass es für wirklich jeden – egal ob Unternehmen oder Privathaushalt – zu einer Selbstverständlichkeit wird und Energieversorger und Unternehmenskunden wirksam sowohl Energieverbrauch als auch CO2-Fußabdruck reduzieren können. So machen wir mit unseren derzeit 35 talentierten Kolleg:innen die Digitalisierung der Energiebranche zu einer echten Chance.
-
-Aufgaben
---------
-
-**UNSER TECHNOLOGY STACK**
-
-*   Kotlin, Spring, Java
-*   TypeScript, React, Redux, Recoil
-*   Jest, React Testing Library, Gauge & Taiko
-*   REST, OpenAPI
-*   SASS, CSS Modules
-*   Python, Pandas, NumPy
-*   IntelliJ IDEA, VS Code
-*   git, Maven, webpack
-*   GitOps, Gitlab CI, Argo CD
-*   PostgreSQL & TimescaleDB, MariaDB
-*   Jupyter Notebook
-*   Kubernetes, Helm, Kafka, Docker
-
-Als Teil eines motivierten und innovativen Teams kümmerst Du Dich um die Zukunft von nachhaltigem Energiemanagement. Ein hervorragendes und nachhaltiges Produkt beginnt mit einer klaren Idee und Vision. Als Software Developer:in bist Du in allen Schritten des Life-cycles Deines Produktes eingebunden und feilst mit unserem Produktmanagement und Architekten an der Strategie der Produktentwicklung. Ein hoher Anspruch, Präzision und kritisches Hinterfragen fangen für Dich schon vor dem Coding an.
-
-**DEINE AUFGABEN**
-
-*   Gemeinsam mit dem Entwickler:innenteam, den Product Ownern und den UX/UI-Designern treibst Du die Weiterentwicklung unserer SaaS-Lösungen (insbesondere Microservices) an
-*   Du designst, testest, wartest und verbesserst die Software fortlaufend sowohl selbstständig als auch in Deinem Team
-*   Du stehst dem Produktmanagement bei technischen Fragen beratend zur Seite und besprichst Dich mit Ihnen und dem Fachbereich zu fachlichen und technischen Anforderungen und deren Umsetzung
-*   Im DevOps Bereich bringst Du Dich zunehmend mitverantwortlich in Architektur, Programmierung und Tests ein
-*   Durch Pair Programming, Code Reviews und Prototyping entwickelst Du nicht nur unsere Produkte, sondern auch Dich kontinuierlich weiter
-*   Du tauschst Dich regelmäßig im Rahmen von „DevComs“ oder unserem Architecture Board mit unseren agilen und interdisziplinären Teams aus
-*   Du schaust über den eigenen Tellerrand hinaus, verwirklichst Deine Ideen in monatlichen GreenDays und hast die Möglichkeit, diese Ideen in die Produktentwicklung einzubringen
-
-Qualifikation
--------------
-
-*   Du hast Dein Studium im IT-Bereich erfolgreich abgeschlossen oder eine vergleichbare Ausbildung, mit der Du uns überzeugen kannst
-*   Darüber hinaus bringst Du bereits erste Erfahrung als Software Developer:in mit, idealerweise im SaaS-Umfeld
-*   Du hast erste Praxiserfahrungen mit Microservices und Cloudinfrastrukturen
-*   Du glänzt mit einem umfangreichen JavaScript-/TypeScript-Wissen, idealerweise im React-Kontext. Alternativ punktest Du mit einem sehr guten Java- oder Kotlin-Know-how und hast Erfahrung mit SpringBoot.
-*   Du kennst Dich im Umgang und in der Nutzung von Standardtools insb. im agilen Umfeld wie bspw. JIRA und Confluence zur Steuerung und Dokumentation der Entwicklung aus
-*   Als ein kreativer, analytisch denkender Kopf, hast Du Spaß an neuen Technologien und bringst ein gutes Qualitätsbewusstsein mit
-*   Du lebst die Startup-Mentalität, bist motiviert und packst gerne Dinge direkt an
-*   Du verfügst über gute Deutsch- sowie sehr gute Englischkenntnisse
-
-Benefits
---------
-
-*   Intensives Coaching und Weiterbildungsmöglichkeiten sowie Teilnahme an der DevCom und dem Architecture-Board
-*   Eine unbefristete Festanstellung mit der Möglichkeit, die grüne Gründerszene mitzugestalten
-*   Von kununu ausgezeichnete "Top-Company 2025" mit Startup-Atmosphäre und viel Gestaltungsspielraum, flachen Hierarchien und kurzen Wegen
-*   Flexible Arbeitszeiten und natürlich die Möglichkeit, aus dem Home Office zu arbeiten
-*   Take Your GreenDay! Lass den Alltag hinter Dir und widme einen Tag im Monat ganz Deinen eigenen Ideen
-*   Regelmäßige Teamevents (Bouldern, Brett- und Onlinespeielabende, etc.) und täglichen Kicker-Turnieren mit ehrgeizigen Kolleg:innen aka Kicker-Profis
-*   Ein Büro voll mit Sprint-Memes und tagesspezifischen Songs (z.B. endet der Freitag immer mit der Playlist "Good Vibes")
-*   Wöchentliche, transparente Teammeetings, die mit lustigen Memes vervollständigt werden
-*   Unerschöpfliche Kaffee- und Wasservorräte sowie regelmäßig frisches Obst
-*   Kulturell, sportlich sowie verkehrstechnisch sehr gut angebundene Lage
-
-Wenn Dich die Herausforderung reizt, uns auf unserer Mission zu begleiten, sende uns einfach Deinen Lebenslauf und Dein Anschreiben über das untenstehende Formular zu.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nDo you want to be more than just a byte in the data sea? Do you want to passionately take responsibility in agile teams and actively contribute with us to drive the climate transition? Then we should definitely get to know each other!\n\n**About Us**\nAs an agile, green startup and specialist in energy management and visualization software, we actively participate in shaping a sustainable, climate-neutral future. Our mission is to make energy consumption management so simple with intuitive, AI-driven software that it becomes a matter of course for everyone – whether businesses or private households – and enables energy providers and corporate customers to effectively reduce both energy consumption and their CO2 footprint. With our currently 35 talented colleagues, we are turning the digitalization of the energy industry into a real opportunity.\n\nAs part of a motivated and innovative team, you will be responsible for the future of sustainable energy management. An excellent and sustainable product begins with a clear idea and vision. As a Software Developer, you will be involved in all steps of your product's lifecycle and will refine the product development strategy with our product management and architects. High standards, precision, and critical questioning begin for you even before coding.\n\n**OUR TECHNOLOGY STACK**\n*   Kotlin, Spring, Java\n*   TypeScript, React, Redux, Recoil\n*   Jest, React Testing Library, Gauge & Taiko\n*   REST, OpenAPI\n*   SASS, CSS Modules\n*   Python, Pandas, NumPy\n*   IntelliJ IDEA, VS Code\n*   git, Maven, webpack\n*   GitOps, Gitlab CI, Argo CD\n*   PostgreSQL & TimescaleDB, MariaDB\n*   Jupyter Notebook\n*   Kubernetes, Helm, Kafka, Docker\n\n### Responsibilities\n*   Together with the development team, Product Owners, and UX/UI designers, you drive the continuous development of our SaaS solutions (especially microservices).\n*   You continuously design, test, maintain, and improve the software, both independently and within your team.\n*   You advise Product Management on technical questions and discuss functional and technical requirements and their implementation with them and the specialist department.\n*   In the DevOps area, you increasingly take co-responsibility in architecture, programming, and testing.\n*   Through pair programming, code reviews, and prototyping, you continuously develop not only our products but also yourself.\n*   You regularly exchange ideas with our agile and interdisciplinary teams within \"DevComs\" or our Architecture Board.\n*   You look beyond your own horizons, realize your ideas in monthly GreenDays, and have the opportunity to bring these ideas into product development.\n\n### Qualifications\n*   You have successfully completed your studies in the IT field or have a comparable education that convinces us.\n*   Furthermore, you already bring initial experience as a Software Developer, ideally in a SaaS environment.\n*   You have initial practical experience with microservices and cloud infrastructures.\n*   You shine with extensive JavaScript/TypeScript knowledge, ideally in a React context. Alternatively, you score with very good Java or Kotlin know-how and experience with SpringBoot.\n*   You are familiar with the use of standard tools, especially in an agile environment, such as JIRA and Confluence for controlling and documenting development.\n*   As a creative, analytically thinking mind, you enjoy new technologies and bring a good quality awareness.\n*   You embody the startup mentality, are motivated, and like to tackle things directly.\n*   You have good German and very good English language skills.\n\n### Author's Take\nThis is an exciting opportunity for a Junior Software Developer who wants to make a tangible impact on climate change within an agile, innovative, and green startup. The company fosters a highly collaborative environment with a strong emphasis on continuous learning and professional development, evident through coaching, pair programming, and dedicated 'DevComs.'\n\nWhat truly sets this role apart are the exceptional benefits and culture. You'll enjoy flexible working hours, home office options, and a permanent contract. The unique monthly 'GreenDay' allows you to pursue your own innovative ideas, fostering personal growth and direct contribution to product development. Recognized as a \"Top-Company 2025,\" the organization boasts a startup atmosphere with flat hierarchies, plenty of creative freedom, and a commitment to transparency, from weekly meetings to daily Kicker tournaments and a fun office vibe. If you're driven by purpose, enjoy a dynamic team, and want to continuously develop your skills while fighting for a sustainable future, this role offers an ideal platform.
