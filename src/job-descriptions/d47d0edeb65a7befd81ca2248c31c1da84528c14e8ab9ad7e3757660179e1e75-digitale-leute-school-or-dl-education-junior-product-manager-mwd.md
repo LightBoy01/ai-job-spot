@@ -9,101 +9,59 @@ postedDate: '2025-11-26T10:32:13.000Z'
 expirationDate: null
 tags:
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/digitale-leute-school-dl-education/junior-product-manager-berlin-415448
 companyLogoUrl: null
+companyCulture: >-
+  The company culture emphasizes learning, networking, collaborative growth,
+  practical application, and strong support for career development, connecting
+  professionals to shape the future of tech.
+story_question1: >-
+  Considering the rapid pace of digital product development, how does the
+  bootcamp ensure that graduates are not only knowledgeable but also immediately
+  impactful in a real-world product team?
+story_answer1: >-
+  That's a fantastic question, and it's something we've meticulously designed
+  our Product Management Bootcamp around. We don't just teach theory; our
+  trainers are seasoned Product Managers from leading tech companies, bringing
+  real-world scenarios and hands-on tools directly into the curriculum. We
+  simulate work in product teams, and you'll even get a dedicated mentor to
+  guide you. The goal isn't just a certificate; it's to equip you with the
+  practical skills and confidence to hit the ground running, making tangible
+  contributions from day one. We bridge the gap between learning and doing,
+  ensuring our graduates are truly 'product-ready'.
+story_question2: >-
+  The transition into a new career path can be challenging. How does Digitale
+  Leute actively support participants in navigating the job market and
+  connecting with potential employers after completing the bootcamp?
+story_answer2: >-
+  It's true, finding that first role can feel daunting, but that's where our
+  strong 'Hiring-Network' really shines. We don't just wave goodbye after the
+  bootcamp; we actively assist you in your job search through our extensive
+  network of partner companies, including industry leaders like Airbnb and
+  Porsche Digital. Our Career-Coaching module is dedicated to sharpening your
+  profile, optimizing your LinkedIn presence, preparing your application
+  documents, and confidently guiding you through interviews and case studies. We
+  literally help you prepare your resume and applications, working hand-in-hand
+  to connect you with opportunities that fit your new skills.
+story_question3: >-
+  With technology and product management evolving constantly, how does the
+  Digitale Leute School ensure its curriculum remains cutting-edge and relevant
+  to current industry demands?
+story_answer3: >-
+  That's a core tenet of our philosophy! Our curriculum isn't static; it's
+  dynamic and directly informed by the very industry leaders we partner with.
+  Our trainers aren't academics; they are active Product Managers and experts
+  from companies like Atlassian and Rewe Digital, meaning they're on the front
+  lines, dealing with the latest trends and challenges every day. This direct
+  connection ensures that the knowledge we impart is not just current, but also
+  critically acclaimed and highly practical. We're constantly refining our
+  modules based on real-world feedback and emerging best practices, so you're
+  always learning what matters most in today's digital landscape.
 ---
-Digitale Leute ist die Plattform für Produktmanagement, UX-Design und Engineering. Über Konferenzen, Bootcamps und unsere Community vernetzen wir Fach- und Führungskräfte der Digitalbranche. Gemeinsam mit Partnern wie Airbnb, Porsche Digital, Atlassian oder Rewe Digital gestalten wir die Software-Entwicklung von morgen.
-
-Mit der Digitale Leute School bieten wir praxisnahe Weiterbildungen für die Tech-Branche an. Ein Highlight ist unser Product Management Bootcamp – die ideale Chance für den Einstieg in Produkt Management.
-
-Unsere Trainer kommen aus führenden Tech-Unternehmen und vermitteln dir topaktuelles Produktmanagement Know-How. Nach dem Bootcamp unterstützen wir dich aktiv bei der Jobsuche über unser starkes Hiring-Network. Für Arbeitssuchende mit Bildungsgutschein ist die Teilnahme sogar komplett kostenlos.
-
-Der nächste Kurs startet bald – und es gibt noch freie Plätze! Diese Inhalte erwarten dich:
-
-Aufgaben
---------
-
-**Product Strategy & Discovery**
-
-Eine klare Produktstrategie hilft dir als Product Manager, das übergeordnete Ziel des Softwareprodukts zu definieren. Sie legt fest, welche Probleme dein Produkt löst, welche Bedürfnisse es erfüllt und welche Ziele es erreicht. Zudem bietet sie deinem gesamten Team eine gemeinsame Leitlinie und ermöglicht allen Beteiligten, auf dasselbe Ziel hinzuarbeiten.
-
-1.  Product Vision & Strategy
-2.  User Centricity
-3.  User Research & Interviews
-4.  Ideation & Problem-Solution Fit
-5.  Business Models & Product-Market Fit
-6.  Lean Product Management
-7.  Product Goals mit OKRs
-
-**Product & UX Design**
-
-Im Product Management sind nutzerzentriertes Design und eine gute User Experience entscheidend für den Erfolg. Du erlernst die Grundlagen von Usability, User Experience und User-Interface-Design für Product Manager. Außerdem lernst du die notwendigen Tools für eine effektive Kommunikation mit Designern.
-
-1.  Einführung ins UX/UI-Design & Tools
-2.  Informationsarchitektur & Wireframes
-3.  High-Fidelity-Prototyping
-4.  User-Tests & Validierungsmethoden
-
-**Product Delivery & Stakeholder Management**
-
-Als Product Manager steuerst du dein Team durch agile Prozesse wie Scrum oder Kanban, um eine erfolgreiche Produktentwicklung sicherzustellen. Du lernst, wie die zentralen Meetings – Daily, Backlog Refinement, Sprint Planning, Sprint Review und Sprint-Retrospektive – funktionieren und welche Erwartungen an dich hinsichtlich der Delivery gestellt werden. Zudem erhältst du wertvolle Einblicke in das Stakeholder-Management, um die Zusammenarbeit mit allen Beteiligten zu optimieren.
-
-1.  Agile Methoden
-2.  Elemente des Backlogs
-3.  Rituale & Regeltermine (I)
-4.  User Stories erstellen
-5.  Technischer Hintergrund
-6.  Rituale & Regeltermine II
-7.  Roadmapping & Planning
-8.  Workflows & Releases
-
-**Product Analytics & Testing**
-
-Als Product Manager misst du Wirkung statt Bauchgefühl: Du definierst klare KPIs, setzt sauberes Event-Tracking auf und liest Daten entlang von Funnel, Kohorten und Retention. So triffst du belastbare Entscheidungen, erkennst Risiken früh und bewertest Experimente sauber.
-
-1.  Application Monitoring: Tool-Deep-Dive
-2.  Manuelles (hands-on) Software-Testing
-3.  KPIs & Tracking-Events
-4.  Bug Reporting
-5.  Web-Analytics mit Google Analytics und Looker Studio
-
-**Career-Coaching**
-
-Unser Karriere-Coaching richtet sich an angehende Product Manager. Wir schärfen dein Profil, machen Projekte und Ergebnisse sichtbar und entwickeln eine praxisnahe Such- und Bewerbungsstrategie. So greifen Unterlagen und dein LinkedIn-Auftritt ineinander – und du gehst souverän durch Interviews und Cases.
-
-1.  Jobrecherche mit Keywords & Rollen
-2.  Analyse der eigenen Stärken & Schwächen
-3.  Lebenslauf und Bewerbungsunterlagen vorbereiten
-4.  Tipps zum Bewerbungsprozess
-
-Qualifikation
--------------
-
-*   Du bist ein Fan von Technologie und kannst Dich für digitale Produkte begeistern
-*   Du bist ehrgeizig und feierst gerne mit Deinem Team Euren gemeinsamen Erfolg
-*   Du hast Spaß an agilen Arbeitsweisen (Scrum, Kanban, Pairing etc.)
-*   Du kannst mit Deinen Visionen Kunden und Stakeholder von Deinen Plänen überzeugen
-*   Du arbeitest gern im Team, zeigst Eigeninitiative und bist pragmatisch
-*   Du hast Freude unternehmerisch zu denken
-*   Du bist mutig — Ungewisse Situationen nimmst Du gerne als Herausforderung an
-
-Benefits
---------
-
-*   Wir bilden dich innerhalb von 3 Monaten remote/online zum Product Manager aus (**deutschsprachi, mind. B2**)
-*   Wir unterstützen dich, schon während der Weiterbildung ein Unternehmen zu finden, das dir einen Jobeinstieg während oder nach dem Bootcamp bietet
-*   Die Ausbildung ist berufsbegleitend möglich
-*   Du bekommst einen Mentor, der Dich durch das Programm führt und wirst die Arbeit in Product Teams simulieren
-*   Nach drei Monaten kannst Du als Product Manager mit Zertifikat in digitale Produktteams einsteigen und weißt, was die Aufgaben eines strategisch Produktverantwortlichen sind
-
-Du erhältst ein Zertifikat, alle Kursmaterial & ein breites Netzwerk. Wir empfehlen für den Kurs ein Sprachniveau von B2 in der deutschen Sprache.
-
-Wir freuen uns auf deinen Lebenslauf und deine Bewerbung.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nDigitale Leute is a leading platform connecting specialists and executives in the digital industry through conferences, bootcamps, and a vibrant community. Together with partners like Airbnb, Porsche Digital, Atlassian, and Rewe Digital, we are shaping the future of software development.\n\nOur Digitale Leute School offers practical further training for the tech industry, with our Product Management Bootcamp being a highlight – an ideal opportunity for entry into Product Management. Our trainers come from leading tech companies, imparting up-to-date Product Management know-how. After the bootcamp, we actively support your job search through our strong Hiring Network. For job seekers with an education voucher, participation is even completely free.\n\nThe next course starts soon, and there are still places available! This 3-month remote/online program will train you to become a Product Manager (German language skills mind. B2). It is possible to complete the training while working. You will receive a mentor who guides you through the program and simulates work in Product Teams. After three months, you can join digital product teams as a Product Manager with a certificate, understanding the tasks of a strategically responsible product owner. You will receive a certificate, all course materials, and access to a broad network. We recommend a B2 level of German language proficiency for the course.\n\n### Responsibilities\nThis bootcamp will equip you to take on the following core responsibilities of a Product Manager:\n\n*   **Product Strategy & Discovery:** Define the overarching goal of software products, identify problems, needs, and objectives. Develop product vision, strategy, user-centricity, conduct user research, ideation, problem-solution fit, analyze business models, product-market fit, apply Lean Product Management, and set product goals with OKRs.\n*   **Product & UX Design:** Master user-centric design and User Experience fundamentals crucial for success. Learn usability, UX, and UI design basics for Product Managers, and acquire tools for effective communication with designers, including information architecture, wireframes, high-fidelity prototyping, and user testing.\n*   **Product Delivery & Stakeholder Management:** Guide your team through agile processes (Scrum, Kanban) for successful product development. Understand key meetings (Daily, Backlog Refinement, Sprint Planning, Sprint Review, Sprint Retrospective), manage delivery expectations, and optimize collaboration with all stakeholders. This includes working with backlog elements, user stories, roadmapping, planning, workflows, and releases.\n*   **Product Analytics & Testing:** Make data-driven decisions by defining KPIs, setting up event tracking, and analyzing data through funnels, cohorts, and retention. Learn application monitoring, manual software testing, bug reporting, and web analytics using tools like Google Analytics and Looker Studio.\n*   **Career Coaching:** Sharpen your professional profile, highlight projects and achievements, and develop a practical job search and application strategy. Prepare your resume and application documents, optimize your LinkedIn profile, and confidently navigate interviews and case studies.\n\n### Qualifications\nTo thrive in this bootcamp and future Product Management roles, you should ideally possess:\n\n*   A passion for technology and digital products.\n*   Ambition and a desire to celebrate collective success with your team.\n*   Enjoyment of agile working methods (Scrum, Kanban, Pairing etc.).\n*   The ability to convince customers and stakeholders of your plans with your visions.\n*   A collaborative spirit, showing initiative and a pragmatic approach.\n*   A keen interest in entrepreneurial thinking.\n*   Courage to embrace uncertain situations as challenges.\n\n### Author's Take\nThis Product Management Bootcamp from Digitale Leute offers a comprehensive and highly practical pathway into the rapidly growing field of product management. It's particularly appealing for ambitious individuals looking for a career transition or entry-level opportunities, providing not just theoretical knowledge but hands-on training from industry experts. The inclusion of a dedicated mentor, simulated product team work, and robust career coaching—culminating in active job search support through their extensive network—makes this an exceptionally valuable program for securing that crucial first role. The option for free participation with an education voucher further broadens accessibility, making it a strong recommendation for aspiring Product Managers seeking a structured, supportive, and career-focused entry point.

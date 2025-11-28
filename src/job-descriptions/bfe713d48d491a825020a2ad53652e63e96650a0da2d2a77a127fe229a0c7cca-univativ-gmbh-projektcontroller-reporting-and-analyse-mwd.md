@@ -9,55 +9,45 @@ postedDate: '2025-11-25T15:32:36.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
+salaryRange: '€48,000 - €51,000 per year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/univativ-gmbh/projektcontroller-reporting-analyse-quickborn-477007
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a strong culture of continuous learning and career
+  development, providing extensive training opportunities, certifications, and
+  personalized career coaching. It emphasizes mentorship and support to help
+  employees become experts in their field, ensuring their professional growth is
+  a top priority.
+story_question1: >-
+  How does the detailed financial analysis and reporting generated in this role
+  directly contribute to strategic decision-making and the future direction of
+  the energy supply?
+story_answer1: >-
+  As a Project Controller, you're not just crunching numbers; you're providing
+  the critical insights that steer the ship. Your analysis of financial
+  performance and project deviations directly informs our internal
+  decision-making bodies, helping us allocate resources effectively and identify
+  areas for improvement. It's incredibly rewarding to see your reports empower
+  senior leadership to make informed choices that ensure the stable and secure
+  energy supply for thousands, truly making you a part of shaping the future of
+  energy.
+story_question2: >-
+  Given the focus on professional development, what specific growth paths or
+  specialized training can a Project Controller expect to pursue to become an
+  expert in the energy sector's financial intricacies?
+story_answer2: >-
+  Our philosophy at univativ is all about nurturing talent. For a Project
+  Controller, this means a structured path to becoming an expert. Beyond
+  on-the-job mentoring with your personal career coach, you'll have access to
+  our e-academy, various certifications relevant to financial controlling, and
+  opportunities for individual further education. We'll support you in diving
+  deeper into energy economics, advanced reporting tools like Power BI, or even
+  project management methodologies, ensuring you build a robust skill set that's
+  highly valued in this dynamic industry.
 ---
-**Baldmöglichst, bis zum 01.12.2026 | 37 Stunden pro Woche | Quickborn | Energiewirtschaft | Berufserfahrener | 48000 bis 51000 € im Jahr | Projekt-ID A202551638\_1S**
-
-univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
-
-Du hast ein betriebswirtschaftliches Studium abgeschlossen und arbeitest gerne mit Zahlen und Analysen? Außerdem bringst Du bereits erste Einblicke im Controlling oder Rechnungswesen mit und fühlst Dich im Umgang mit digitalen Tools wohl? Dann suchen wir genau Dich als Projektcontroller – Reporting & Analyse (m/w/d)!
-
-Starte bei unserem Kunden aus der Energiebranche – einem führenden Anbieter für die sichere Stromversorgung. Gewinne spannende Einblicke in das Finanz- und Projektcontrolling und arbeite aktiv an der Planung, Analyse und Auswertung von Projekten mit. Bewirb Dich jetzt und werde Teil eines Teams, das die Zukunft der Energieversorgung mitgestaltet!
-
-Aufgaben
---------
-
-*   Du entwickelst aussagekräftige Finanzübersichten sowie Kennzahlen und bereitest diese adressatengerecht auf.
-*   Du analysierst regelmäßige Finanzabschlüsse und fasst die wichtigsten Erkenntnisse präzise zusammen.
-*   Du untersuchst Abweichungen zwischen Planung, Forecast und Ist-Daten und leitest daraus verständliche Handlungsempfehlungen ab.
-*   Du erstellst Unterlagen für interne Entscheidungs- und Steuerungsgremien und kommentierst die relevanten Finanzinformationen.
-*   Du stimmst dich mit Konzerngesellschaften zu finanziellen Daten ab und sorgst für konsistente und nachvollziehbare Informationen.
-*   Du führst kurzfristige Analysen und Spezialauswertungen durch, sobald neue Fragestellungen oder Anforderungen auftreten.
-
-Qualifikation
--------------
-
-*   Ein abgeschlossenes Hochschulstudium, idealerweise mit wirtschaftswissenschaftlicher Ausrichtung
-*   Praxiserfahrung im Controlling oder im Rechnungswesen
-*   Hohe Affinität zu Zahlen und Freude am Arbeiten mit Daten
-*   Analytische Stärke kombiniert mit einem lösungsorientierten, pragmatischen Arbeitsstil
-*   Sicherer Umgang mit MS Office, insbesondere Excel, sowie Kenntnisse im Umgang mit SAP
-*   Technisches Verständnis und Interesse an modernen Reporting-Tools wie Power BI
-*   Verhandlungssichere Deutschkenntnisse (mind. C1) und fließende Englischkenntnisse (mind. B2)
-
-Benefits
---------
-
-*   Ein Jahreslohn zwischen 48000 € und 51000 €
-*   Wir bilden Dich zum Experten aus und bieten Dir vielfältige Weiterbildungsmöglichkeiten on und off the Job an (z.B. verschiedene Zertifizierungen, univativ e-academy und individuelle Weiterbildungen)
-*   Während Deines Einsatzes hast Du einen persönlichen Ansprechpartner, der als Dein Karrierebegleiter für Dich da ist
-*   Mit uns sammelst Du praxisrelevante Berufserfahrung im Ingenieurbereich und kannst wichtige Kontakte für Dein Berufsleben knüpfen
-*   Bei uns erhältst Du Corporate Shopping Vorteile sowie Rabatte für ausgewählte Fitnessstudios
-
-**Wir konnten Dein Interesse wecken? Klasse!**
-
-Wir freuen uns auf Deine Bewerbung
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nunivativ is a project and personnel service provider dedicated to connecting students and graduates with exciting opportunities at renowned companies. Your career is our mission, and your development is at the heart of what we do. We are seeking a Project Controller - Reporting & Analysis (m/w/d) for our client in the energy sector, a leading provider ensuring secure power supply. If you have a business administration degree, enjoy working with numbers and analyses, and bring initial experience in controlling or accounting, and are comfortable with digital tools, this role is for you. You will gain exciting insights into financial and project controlling, actively participating in project planning, analysis, and evaluation.\n\n### Responsibilities\n- Develop meaningful financial overviews and key figures, preparing them for specific target audiences.\n- Analyze regular financial statements and precisely summarize the most important findings.\n- Investigate deviations between planning, forecast, and actual data, deriving understandable recommendations for action.\n- Prepare documents for internal decision-making and steering committees, commenting on relevant financial information.\n- Coordinate with group companies on financial data, ensuring consistent and comprehensible information.\n- Conduct short-term analyses and special evaluations as new questions or requirements arise.\n\n### Qualifications\n- A completed university degree, ideally with a focus on economics or business administration.\n- Practical experience in controlling or accounting.\n- High affinity for numbers and enjoyment of working with data.\n- Strong analytical skills combined with a solution-oriented, pragmatic working style.\n- Proficient in MS Office, especially Excel, and knowledge of SAP.\n- Technical understanding and interest in modern reporting tools such as Power BI.\n- Business-fluent German (min. C1) and fluent English (min. B2).\n\n### Author's Take\nThis is an excellent opportunity for an experienced professional with a background in finance or controlling to step into the dynamic energy sector. univativ's commitment to employee development, through personalized coaching and a variety of training programs, makes this role particularly appealing for those looking to grow their expertise. You'll not only contribute to critical financial analysis for a key energy provider but also benefit from a supportive environment focused on your long-term career journey. The combination of hands-on project controlling and continuous learning makes this a truly impactful and rewarding position.

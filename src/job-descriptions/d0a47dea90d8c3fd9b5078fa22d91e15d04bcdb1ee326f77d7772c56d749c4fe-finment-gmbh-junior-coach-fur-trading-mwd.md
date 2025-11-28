@@ -9,82 +9,73 @@ postedDate: '2025-11-25T13:32:15.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/finment-gmbh/junior-coach-fur-trading-berlin-209936
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a fast-paced, growth-oriented startup culture with a
+  strong emphasis on continuous learning, personal development, and employee
+  financial well-being. It aims for a collegial and family-like atmosphere with
+  direct communication and significant opportunities for impact and career
+  progression.
+story_question1: >-
+  Given the direct interaction with customers and the development of trading
+  strategies, how does FinMent measure the real-world impact of an Investment
+  Coach's work on customers' financial literacy and success, and what are the
+  biggest challenges in balancing educational content with practical trading
+  advice?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what we do
+  here. For us, impact isn't just about P&L; it's about empowerment. We measure
+  success by our customers' growing confidence and tangible results in the
+  market. When you see someone in our community, initially hesitant, start
+  making informed decisions and achieving their financial goals through the
+  strategies you've helped develop and the content you've created, that's our
+  biggest win. The challenge, of course, is distilling complex financial
+  concepts into actionable, easy-to-understand advice without oversimplifying or
+  creating unrealistic expectations. It's a delicate balance, but our tight-knit
+  team collaborates constantly to refine our approach, ensuring our educational
+  efforts truly resonate and provide lasting value. You'll have direct input
+  into shaping both our content and our customer interactions, making your mark
+  directly on their financial journeys.
+story_question2: >-
+  With the fast-paced startup environment and direct contact with leadership,
+  how much autonomy will I have to implement my own ideas for new investment
+  strategies or content formats, and what does the feedback and iteration
+  process look like?
+story_answer2: >-
+  Here at FinMent, autonomy isn't just a buzzword; it's how we thrive. From day
+  one, you'll be encouraged to bring your ideas forward – whether it's a new
+  trading strategy you've researched or an innovative way to present a complex
+  topic in a video. Because we have such short decision paths and direct access
+  to our strategic leadership, you won't get bogged down in bureaucracy. You'll
+  pitch your ideas, we'll collaboratively refine them, and then you'll run with
+  it. The feedback loop is quick and continuous, not just from your immediate
+  team, but often directly from our founders. It’s an environment where good
+  ideas, no matter their origin, are quickly tested and implemented, allowing
+  you to see your contributions come to life almost immediately.
+story_question3: >-
+  Beyond the initial onboarding and the annual training budget, what specific
+  mentorship or internal growth pathways does FinMent offer to help an
+  individual contributor evolve into a long-term expert or even a future leader
+  within the company?
+story_answer3: >-
+  Our commitment to your growth goes far beyond a budget – it's woven into our
+  DNA. Many of our current experts and leaders started in individual contributor
+  roles, just like this one. We foster a culture where knowledge sharing is
+  paramount; you'll have direct mentorship from seasoned finance professionals
+  and the strategic leadership team. We actively identify high-potential
+  individuals and craft personalized development plans, which might include
+  taking on cross-functional projects, shadowing leaders, or even representing
+  FinMent at industry events. As you master your current domain, we'll actively
+  discuss and pave the way for you to either deepen your expertise as a
+  recognized thought leader or transition into a leadership role, guiding future
+  teams. Your ambition dictates your trajectory here, and we're committed to
+  providing the support and opportunities to get you there.
 ---
-**Unsere Mission: “Lass Dein Geld noch effizienter für Dich arbeiten!”**
-
-Wir sind FinMent - ein schnell wachsendes, zweifach staatlich zertifiziertes FinTech Startup in Berlin. Wir demokratisieren das Wissen und den Zugang zur institutionellen Geldanlage mithilfe von innovativen Technologien, geprüftem Finanzwissen und exklusiven Strategien, die bisher nur institutionellen Investoren (Family Offices) mit +200 Millionen Euro Mindestkapital vorbehalten waren.
-
-Neben vielen weiteren Benefits erhälst du exklusiv:
-
-**Deine finanzielle Freiheit mit zusätzlichem Börseneinkommen:** Als Teil vom inneren Kreis erhälst du die einzigartige Möglichkeit kostenlos unser Produkte zu nutzen, um wie unsere Kunden ein regelmäßiges Börseneinkommen zu erzielen und finanziell frei zu werden. (Die Kunden zahlen dafür bis zu 36.000€).
-
-Begeisterst du Dich für Finanzen und bist du bereit, in einem profitabel wachsenden FinTech Start Up Deine Karriere durchstarten?
-
-Bewirb dich und teile uns mit: Warum sollen wir dir die Chance geben deinen Wunschberuf bei uns ausüben zu können und kostenlos den massiven Vorteil durch unsere Produkte geben, damit du jetzt schon ein gutes zusätzliches Einkommen durch die Börse aufbauen kannst?
-
-Aufgaben
---------
-
-**Was Dich erwartet**
-
-*   Du analysierst Wertpapiere und die aktuelle Marktlage, um Investitionsideen zu erstellen und das Handelsteam sowie unsere Kunden zu unterstützen
-*   Du bist mit potenziellen Kunden in Kontakt und coacht unsere Investoren Community bei Fragen sowie bei ihren Herausforderungen im Börsenhandel​ ​
-*   Du erschaffst einfache und fachlich tiefgründige Lehrvideos über die Themen persönliche Finanzen, Geldanlagen und Börse
-*   Du entwickelst das Handelssystems, der Konzipierung und Umsetzung neuer Anlage-/Tradingstrategien und setzt eigene Ideen um​
-
-Qualifikation
--------------
-
-**Was Du mitbringen solltest**
-
-*   Du hast 6 Monate bis 1 Jahr praktische Erfahrung im Coaching und Betreuung von Kunden durch eine Ausbildung, Praktika oder ähnliche Tätigkeiten gesammelt
-*   Du hast eine starke Eigenmotivation und Leidenschaft für sauberes, agiles Prozess- und Projektmanagement.
-*   Du hast nachweislich gerne Verantwortung für deinen Themenbereich übernommen, auch wenn das außerhalb deiner Komfortzone war. Du hast Dinge ohne zu zögern angepackt, warst ergebnisorientiert und zügig in der Umsetzung.
-*   Du lernst und entwickelst dich eifrig, ob in deinem Job, dem Sektor in dem du arbeitest, aber auch privat! Du suchst proaktiv nach Feedback. Dabei behälst du den Erfolg des Teams im Auge.
-*   Du hast sehr gute analytische und strukturelle Fähigkeiten, um Szenarien im Vorfeld klar durchzudenken. Das was du durchgedacht hast, setzt du strukturiert um.
-*   Dein Deutsch ist idealerweise auf “Muttersprache” Level. Dein Englisch ist gut für Konversationen.
-*   Du hast idealerweise praktische Arbeitserfahrungen mit gängiger Finanz- und Chartsoftware (Z.B. TWS, Tradingview)
-
-Man erfüllt nicht immer alle Anforderungen. Das sollte Dich nicht aufhalten. Wenn Du wirklich Lust hast, mit uns zusammenzuarbeiten, freuen wir uns von Dir zu hören!
-
-Benefits
---------
-
-**Was wir bieten**
-
-*   Ein attraktives und faires Gehalt mit klarer Steigerung nach dem Onboarding – Dein Einsatz zahlt sich direkt aus.
-*   Den Zugang zu FinMent Produkten um dein Vermögen mit regelmäßigem Börseneinkommen aufzubauen
-*   Ein positives und erfolgsorientiertes Arbeitsumfeld mit Wohlfühlatmosphäre und ein kollegialer sowie familiärer Umgang.
-*   Nimm langfristig eine Rolle als Experte und /oder Führungskraft ein.
-*   Eigener Verantwortungsbereich für den Erfolg deines Bereichs mit direkter Auswirkung auf die Unternehmensentwicklung.
-*   Echte Start-Up Atmosphäre, geprägt von kurze Entscheidungswege und direkter Kontakt zu der strategischen Geschäftsführung.
-*   Jährliches Weiterbildungsbudget bis zu 5.000€ und Fachwissen von Unternehmensexperten für deine persönliche Weiterbildung
-
-**Bist Du bereit zu den Digital-Pionieren in der Finanzbranche zu gehören?**
-
-Wenn du nach persönlichem und beruflichem Wachstum strebst und nach dem passenden positivem Umfeld suchst, bewirb dich jetzt!
-
-Wir sind bestrebt unsere Gemeinschaft einen weiten Schritt nach vorne zu bringen und mit unserer Arbeit einen entscheidenden Einfluss auf die Welt auszuüben. Wir ermöglichen, dass nicht nur unsere Kunden, sondern auch alle unsere Mitarbeiter ihre finanzielle Freiheit erreichen, um ihre großen Träume zu verwirklichen und ein Leben nach ihren Wunschvorstellungen zu genießen.
-
-Werde Teil unserer Erfolgsstory und gestalte mit uns die Zukunft der privaten Geldanlage im Rahmen der finanziellen Unabhängigkeit!
-
-Schick uns Deinen Lebenslauf und deine Arbeitsproben, die du schon verfasst hast.
-
-Wir freuen uns darauf dich kennenzulernen!
-
-Falls Du vorab Fragen hast, kannst Du uns direkt kontaktieren.
-
-**Ansprechperson:**  
-Maksat Munal  
-Personalverantwortlicher  
-+49 (0)30 606 902 41
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nFinMent is a rapidly growing, state-certified FinTech startup in Berlin on a mission to democratize access to institutional investment knowledge and strategies. They achieve this through innovative technology, verified financial expertise, and exclusive strategies previously reserved for institutional investors. This role offers a unique opportunity to kickstart your career in a profitable startup, contribute directly to empowering clients, and gain free access to their products to build your own passive income from the stock market.\\n\\n### Responsibilities\\n- Analyze securities and current market conditions to generate investment ideas and support the trading team and customers.\\n- Engage with potential clients and coach their investor community on questions and challenges in stock trading.\\n- Create simple yet in-depth educational videos on personal finance, investments, and the stock market.\\n- Develop the trading system, conceptualize and implement new investment/trading strategies, and execute your own ideas.\\n\\n### Qualifications\\n- 6 months to 1 year of practical experience in coaching and customer support gained through training, internships, or similar activities.\\n- Strong self-motivation and passion for clean, agile process and project management.\\n- Proven willingness to take responsibility for your subject area, even outside your comfort zone, tackling tasks decisively, result-oriented, and with swift execution.\\n- Eager to learn and develop, both in your job and privately, actively seeking feedback and keeping the team's success in mind.\\n- Excellent analytical and structural skills to clearly think through scenarios in advance and implement them systematically.\\n- German language skills ideally at \"native speaker\" level, and good conversational English.\\n- Ideally, practical work experience with common financial and charting software (e.g., TWS, Tradingview).\\nPlease note: You don't always meet all requirements. Don't let that stop you. If you are truly motivated to work with us, we look forward to hearing from you!\\n\\n### Author's Take\\nThis is an exceptional opportunity for an aspiring finance professional to join a dynamic and mission-driven FinTech startup. The role offers a unique blend of analytical work, direct customer engagement, content creation, and strategic development, providing a broad platform for impact. FinMent stands out with its commitment to employee financial empowerment, offering free product access and a generous annual training budget. The culture emphasizes a supportive, success-oriented, and family-like startup environment with direct access to leadership and clear pathways for long-term career growth into expert or leadership roles. If you're passionate about democratizing finance, thrive in a fast-paced environment, and are eager to make a tangible difference while investing in your own financial future, this role is a perfect fit.

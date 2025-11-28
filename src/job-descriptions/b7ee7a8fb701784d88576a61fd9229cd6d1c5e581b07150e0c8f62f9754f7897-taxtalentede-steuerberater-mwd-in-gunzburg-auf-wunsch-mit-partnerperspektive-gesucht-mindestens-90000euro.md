@@ -12,67 +12,51 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '€90,000 - €130,000 / Year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-gunzburg-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-12882
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a positive, growth-oriented culture with a strong emphasis
+  on work-life balance through flexible hours and home office options. They
+  prioritize individual and financial appreciation, offer extensive development
+  opportunities, including a path to partnership, and cultivate strong team
+  cohesion.
+story_question1: >-
+  Given the firm's unique approach to customizing responsibilities and offering
+  a clear path to partnership, how does the firm support a Senior Tax Consultant
+  in identifying and pursuing their long-term career aspirations, especially
+  concerning specialization and leadership?
+story_answer1: >-
+  As someone who's seen the journey here, I can tell you it's incredibly
+  personalized. From day one, you're not just slotted into a predefined role;
+  you actively shape your tasks based on your strengths and passions. The
+  partners are genuinely invested in your growth, whether that's deep diving
+  into a specific tax area like M&A or taking on team leadership. They provide
+  mentorship, fund advanced certifications, and critically, they listen. If
+  you're looking towards partnership, they lay out the roadmap transparently,
+  offering insights and opportunities to contribute to strategic decisions. It's
+  less about climbing a ladder and more about building your own professional
+  legacy within a supportive framework.
+story_question2: >-
+  The job description highlights a 'positive work environment' and 'strong team
+  cohesion,' even with flexible and remote work options. How does the firm
+  actively maintain this collaborative spirit and ensure new team members feel
+  fully integrated and supported?
+story_answer2: >-
+  That's something we're really proud of here. Despite our flexible hours and
+  remote work possibilities, we make a conscious effort to stay connected. We
+  have regular virtual and in-person team events – from casual get-togethers to
+  strategy sessions – that foster a strong sense of community. We use modern
+  digital tools that encourage constant communication and knowledge sharing, so
+  you never feel isolated. New team members are paired with a mentor, ensuring a
+  smooth onboarding and immediate support network. There's a genuine culture of
+  helping each other out, and everyone's voice is valued, creating an
+  environment where even complex challenges are tackled together, ensuring both
+  professional growth and personal well-being.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Günzburg.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nTaxTalente is the #1 job-matching platform for job seekers in tax consulting.\n\nAre you seeking a positive career change? Do you want to take the next step in your career, potentially even aiming for a partnership in a future-oriented firm? Do you finally want to work in a positive environment where you are financially and personally valued? Are you looking for activities that truly advance you?\n\nIf you identify with at least one of these points, you should contact us. We have the most attractive employers in the tax consulting industry in our network and bring together what belongs together. Limitless development opportunities with partner prospects, diverse areas of activity, salaries comparable to industry standards, and much more – contact us and we will support you on your career path!\n\nWe are currently seeking a **Senior Tax Consultant (m/w/d)** for one of our partner firms in Günzburg.\n\nFor any **questions**, you can always contact **Mr. Becker-Koch** directly by phone at **015901431130**, even after business hours.\n\n#### Why choose TaxTalente?\nFinding your dream job quickly, uncomplicatedly, and efficiently – a promise we keep thanks to our selective, broad, and nationwide network of firms. Your advantages with us at a glance:\n\n*   You no longer conduct **pointless job interviews** where you realize during the application process that it won't work out anyway (e.g., due to salary) – we clarify all your discussed criteria with the firm before your interview.\n*   **We conduct your salary negotiations** and are well aware of the industry's salary structures.\n*   **100% Anonymity** – as long as you don't give us the \\\"Go\\\" and agree to meet your potential new employer, no one will know your name or your previous employers – we can initially clarify your important criteria anonymously with our partner firms.\n*   **Attractive Firms** – the firms in our broad network are selectively chosen and clearly stand out from \\\"normal\\\" firms (e.g., regarding compensation, benefits, hierarchies, degree of digitalization, equipment, etc.).\n*   And best of all: Our entire service is **non-binding and completely free** for you.\n\n### Responsibilities\nWe believe in bringing together what belongs together, and a suitable activity profile naturally plays a decisive role. At our partner firm, you can extensively customize your area of responsibility based on your personal strengths and weaknesses. Key responsibilities include:\n\n*   **Preparation** and review of **annual financial statements**.\n*   **Preparation** of **tax returns** for partnerships and corporations.\n*   **Special tax consulting projects** based on **individual qualifications**, e.g., in areas like inheritance tax or corporate reorganization tax law.\n*   **Support** during **tax audits**.\n*   Team leadership and **personnel responsibility** (optional).\n*   **Other** individually **selectable areas of activity** that you enjoy.\n\n### Qualifications\nUltimately, it should be a good fit for both sides. Therefore, it would be beneficial if you possess the following:\n\n*   **Communicative nature** and enjoyment of client interaction.\n*   **Careful**, efficient, and **conscientious way of working**.\n*   Open to a **digital way of working**.\n*   **Leadership understanding** and **sense of responsibility** towards employees (optional).\n*   A successfully completed **tax consultant exam (Steuerberaterexamen)**.\n*   **Passion** for **tax topics**.\n\n### Author's Take\nThis is a fantastic opportunity for an experienced Tax Consultant (Steuerberater) looking for significant career advancement and personal growth. The role offers exceptional compensation (€90,000 - €130,000 annually) with a clear path to partnership, which is a rare and highly attractive prospect. What truly sets this position apart is the emphasis on autonomy; you can tailor your responsibilities to your strengths and interests, ensuring continuous engagement and development. The firm prioritizes a positive, supportive work environment with flexible hours and home office options, valuing both financial and personal well-being. Coupled with extensive professional development support and a strong team culture, this role promises not just a job, but a genuine career trajectory within a modern, forward-thinking firm.

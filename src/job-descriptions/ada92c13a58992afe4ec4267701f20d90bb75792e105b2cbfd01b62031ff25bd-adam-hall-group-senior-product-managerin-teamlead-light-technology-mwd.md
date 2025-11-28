@@ -10,119 +10,58 @@ expirationDate: null
 tags:
   - Other
   - associate's degree
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/adam-hall-group/senior-product-manager-in-teamlead-light-technology-neu-anspach-138097
 companyLogoUrl: null
+companyCulture: >-
+  The Adam Hall Group fosters a dynamic, creative, and inclusive environment,
+  driven by a shared passion for event technology. They prioritize individual
+  development and continuous learning, offering robust work-life balance through
+  flexible hours, health programs, and social events. The culture emphasizes
+  mutual trust, transparency, and collaboration, valuing diversity as key to
+  innovation.
+story_question1: >-
+  Beyond developing a leading product portfolio, how will this Senior Product
+  Manager Teamlead role actively cultivate the "Lumen Being" philosophy within
+  the team and directly influence Cameo's brand identity and emotional
+  connection with its global audience?
+story_answer1: >-
+  As a 'Lumen Being' myself, I can tell you that this role is at the very heart
+  of Cameo's mission. You won't just be managing products; you'll be sculpting
+  the soul of our brand. We truly believe light is more than just
+  technology—it's emotion, precision, and attitude. Your leadership will be
+  pivotal in translating this philosophy into tangible product experiences,
+  ensuring every innovation resonates with our vision. You'll inspire your team
+  to think beyond specifications, pushing them to understand the cultural and
+  emotional impact of our lighting solutions. This isn't just about market
+  share; it's about creating products that enable creativity, ignite passion,
+  and truly stand out on stages big and small, solidifying Cameo's place as a
+  global reference brand. It's a chance to build something truly special,
+  infused with purpose.
+story_question2: >-
+  The role highlights acting as a key integrator between R&D, Sales, Marketing,
+  and Operations. What specific strategies or support systems are in place at
+  Adam Hall Group to help a Senior Product Manager Teamlead effectively mediate
+  conflicts, ensure unified strategic decisions, and balance innovation with
+  commercial viability across these diverse stakeholders?
+story_answer2: >-
+  Being the integrator is indeed a critical aspect, and it's where you truly
+  become the central nervous system for Cameo. We foster an environment of open
+  communication and trust, where transparency is key. You'll lead strategic
+  forums like our 'Portfolio Strategy Days,' designed specifically to bring R&D,
+  Sales, Marketing, and Operations to the table. Your role isn't just to
+  moderate; it's to bundle perspectives, challenge assumptions, and forge clear,
+  viable strategic decisions that everyone can stand behind. We understand that
+  conflicts arise, especially when balancing groundbreaking innovation with
+  commercial realities. That's why we empower our leads with the autonomy and
+  support to facilitate robust discussions, negotiate trade-offs, and ultimately
+  drive consensus that serves the long-term vision of Cameo while ensuring
+  economic and technical feasibility. It’s about leading with conviction, but
+  always with an ear to the ground.
 ---
-Die Adam Hall Group ist ein führender Hersteller professioneller Eventtechnik und bietet innovative Lösungen für Audio-, Licht-, Bühnen- und Veranstaltungstechnik. Cameo® steht dabei für professionelle Lichttechnik mit Charakter & Momentum. Entwickelt von Lumen Beings für Lumen Beings. Wir glauben Licht ist mehr als Technologie. Es ist Emotion, Präzision und Haltung. Unsere Vision ist klar. Cameo® soll zu einer der führenden Marken für professionelles Licht weltweit werden. Mit Produkten, die Kreativität ermöglichen, Begeisterung auslösen und auf großen wie kleinen Bühnen überzeugen. Wir arbeiten dabei eng mit internationalen Entwicklungs-, Produktions- und Technologiepartnern zusammen, um Innovation, Qualität und Geschwindigkeit optimal zu verbinden.
-
-Als **Senior Product Manager Teamlead, Light Technology (m/w/d)** übernimmst du die Gesamtverantwortung für die Weiterentwicklung der Marke Cameo® und ihres Produktportfolios. Du führst ein Team aus Produktmanagern und Field Application Engineers, erkennst Marktpotenziale, definierst Roadmaps und förderst Innovationen, die Cameo als Referenzmarke stärken. Gleichzeitig agierst du als Integrator für R&D, Sales und Brand Management. Du bündelst Perspektiven und formst daraus klare strategische Entscheidungen. Neben deiner Führungsrolle wirkst du weiterhin operativ im Tagesgeschäft mit und übernimmst fachliche Verantwortung in ausgewählten Produkt- und Innovationsthemen. Du verbindest technisches Verständnis mit strategischer Denkweise, kommunizierst klar und führst mit Haltung. Wir suchen jemanden, der Licht nicht nur technisch, sondern auch kulturell versteht. Ein echtes Lumen Being mit Unternehmergeist, Innovationskraft und Gespür für das, was professionelle Lichttechnik morgen ausmacht.
-
-**Das sind deine Aufgaben:**
-
-**Strategie & Markenführung**
-
-*   Strategische Weiterentwicklung der Marke Cameo® und Definition langfristiger Technologie- und Produktpfade
-    
-*   Pflege und Priorisierung der markenweiten Roadmap
-    
-*   Analyse von Markt-, Kunden- und Technologietrends
-    
-*   Auswahl relevanter Technologien, Komponenten und Lieferanten in enger Zusammenarbeit mit R&D und Einkauf
-    
-
-**Portfolio- und Business-Verantwortung**
-
-*   Verantwortung für wirtschaftliche Kennzahlen des Portfolios (z. B. Umsatz, Marge, DB1–DB3, Launch-Erfolg)
-    
-*   Priorisierung von Anforderungen und Entscheidung über Feature-Trade-offs
-    
-*   Sicherstellung technischer und markenseitiger Konsistenz über alle Produktlinien
-    
-*   Initiierung kontinuierlicher Verbesserungen und Kostenoptimierungen
-    
-
-**Strategische Portfolioverantwortung**
-
-*   Fachliche Verantwortung für ein bis zwei strategisch relevante Produktlinien
-    
-*   Ableitung konkreter Roadmaps und Produktentscheidungen aus Markt- und Technologietrends
-    
-*   Sicherstellung wirtschaftlicher und technischer Tragfähigkeit von Innovationsinitiativen
-    
-*   Sparringspartner für R&D und Vertrieb bei zentralen Produktfamilien
-    
-
-**Führung & Teamentwicklung**
-
-*   Disziplinarische und fachliche Führung des PM-Teams (SPM, PM, JPM, FAE)
-    
-*   Coaching, Weiterentwicklung und Zielvereinbarungen
-    
-*   Sicherstellung klarer Rollen, Prioritäten und Prozesse
-    
-*   Moderation bereichsübergreifender Abstimmungsprozesse
-    
-
-**Schnittstellen & Kommunikation**
-
-*   Integrator zwischen R&D, Sales, Marketing und Operations
-    
-*   Moderation von Zielkonflikten und Herbeiführung tragfähiger Entscheidungen
-    
-*   Leitung strategischer Prozesse wie Portfolio Strategy Days und Roadmap-Formate
-    
-*   Repräsentation der Marke auf internen und externen Veranstaltungen
-    
-
-  
-  
-
-**Das bringst du mit:**
-
-*   5–10 Jahre Produktmanagement-Erfahrung, idealerweise in der Lichtindustrie
-    
-*   Mehrjährige Erfahrung in der fachlichen oder disziplinarischen Führung sowie in der Steuerung cross funktionaler Teams
-    
-*   Erfolgreiche Einführung und Betreuung marktrelevanter Produktlinien
-    
-*   Erfahrung in komplexen Entwicklungsportfolios und Projektabläufen
-    
-*   Fundierte Kenntnisse in Marktanalysen, Business Cases und Positionierung
-    
-*   Sicherer Umgang mit ERP-, PLM-, PIM- und Reporting-Tools (z. B. Power BI)
-    
-*   Strategisches, analytisches Denken und starke Entscheidungsfähigkeit
-    
-*   Klare Kommunikations- und Moderationskompetenz
-    
-*   Hohe technische Affinität zu Lichttechnologien
-    
-*   Begeisterung für professionelle Lichttechnik und deren kulturelle Relevanz
-    
-*   Sehr gute Englischkenntnisse
-    
-*   Reisebereitschaft und internationales Marktverständnis
-    
-
-**Bei uns erwartet dich:** 
-
-*   **ENTWICKLUNG UND WACHSTUM:** Wir bieten individuelle Entwicklungs- und Weiterbildungsmöglichkeiten in einem dynamischen mittelständischen Unternehmen. 
-    
-*   **FINANZIELLE STABILITÄT:** Bei uns erhältst du finanzielle Vorteile wie die betriebliche Altersvorsorge, Weihnachtsgeld, erfolgsabhängiges Urlaubsgeld, Ladestationen für dein E-Bike und E-Auto sowie andere betriebliche Leistungen 
-    
-*   **WORK-LIFE BALANCE:** Betriebliches Gesundheitsmanagement, Sportkurse, JobRad-Kooperation, Frühstück, Snacks und Mittagessen für alle Geschmäcker sowie leckerer Kaffee in unserem Betriebsrestaurant "Come Together", die Möglichkeit, an einem modernen und nachhaltigen Standort in hervorragender Lage im Taunus nahe Frankfurt am Main zu arbeiten, flexible Arbeitszeiten (und wenn möglich Hybridarbeit) 
-    
-*   **NAHBARKEIT UND PERSÖNLICHER KONTAKT:** Wir sind ein freundliches und offenes Team mit einer gemeinsamen Leidenschaft für Events. Durch AfterWork-Partys, Mitarbeiter-Events und Networking-Veranstaltungen zwischen den Teams schaffen wir Möglich­­­­­­­­­­­­­keiten für den abteilungsübergreifenden Austausch.
-    
-
-**Über die Adam Hall Group**  
-
-Die Adam Hall Group ist ein stabiler und international führender Hersteller für Event­technologie mit einer klaren Mission: Wir wollen Menschen durch Veranstaltungs­technik ermöglichen, ihre Leidenschaft und schöne Momente miteinander zu teilen. Bei uns arbeiten jeden Tag mehr als 400 Mitarbeiterinnen und Mitarbeiter aus verschiedenen Nationen mit Herzblut und Leidenschaft an der Zukunft von Live-Events. Dabei setzen wir auf gegenseitiges Vertrauen, Transparenz und den fairen Umgang miteinander als Werte unserer Unternehmenskultur. Als Teil des Adam Hall Group Teams kannst du dich auf ein kreatives und inspirierendes Arbeitsumfeld freuen, in dem du deine Ideen einbringen kannst und so sein kannst, wie du bist! Denn wir bei der Adam Hall Group glauben daran, dass kreative Ideen und Produkte nur durch Vielfalt, Chancengleichheit und Gemeinschaftlichkeit entstehen können! 
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAdam Hall Group is a leading international manufacturer of professional event technology, specializing in audio, light, stage, and event solutions. Our brand Cameo® epitomizes professional lighting with character and momentum, created by \"Lumen Beings for Lumen Beings.\" We believe light transcends technology; it's emotion, precision, and attitude. Our clear vision is for Cameo® to become a global leader in professional lighting, delivering products that inspire creativity and captivate audiences on any stage. We achieve this by collaborating closely with international partners to integrate innovation, quality, and speed.\n\nAs a Senior Product Manager Teamlead for Light Technology, you will hold overall responsibility for the strategic development of the Cameo® brand and its product portfolio. You will lead a dedicated team of Product Managers and Field Application Engineers, identifying market potentials, defining strategic roadmaps, and fostering innovations that strengthen Cameo's position as a reference brand. This pivotal role also serves as an integrator across R&D, Sales, and Brand Management, consolidating diverse perspectives into clear, actionable strategic decisions. While leading, you will also contribute operationally, taking technical ownership of selected product and innovation topics. We are seeking a visionary \"Lumen Being\" who combines deep technical understanding with strategic thinking, clear communication, and leadership with conviction, someone who grasps the cultural essence of light and possesses the entrepreneurial spirit to define the future of professional lighting.\n\n### Responsibilities\n- **Strategy & Brand Management**\n  - Strategically develop the Cameo® brand and define long-term technology and product pathways.\n  - Maintain and prioritize the brand-wide roadmap.\n  - Analyze market, customer, and technology trends.\n  - Select relevant technologies, components, and suppliers in close collaboration with R&D and purchasing.\n- **Portfolio & Business Responsibility**\n  - Assume responsibility for the commercial KPIs of the portfolio (e.g., revenue, margin, launch success).\n  - Prioritize requirements and make decisions on feature trade-offs.\n  - Ensure technical and market consistency across all product lines.\n  - Initiate continuous improvements and cost optimizations.\n- **Strategic Portfolio Leadership**\n  - Hold technical leadership for one to two strategically relevant product lines.\n  - Derive concrete roadmaps and product decisions from market and technology trends.\n  - Ensure economic and technical viability of innovation initiatives.\n  - Act as a sparring partner for R&D and Sales regarding key product families.\n- **Leadership & Team Development**\n  - Provide disciplinary and technical leadership for the PM team (SPM, PM, JPM, FAE).\n  - Offer coaching, professional development, and define goal agreements for team members.\n  - Ensure clear roles, priorities, and processes within the team.\n  - Moderate cross-departmental alignment processes.\n- **Interfaces & Communication**\n  - Act as an integrator between R&D, Sales, Marketing, and Operations.\n  - Moderate goal conflicts and facilitate sustainable decision-making.\n  - Lead strategic processes such as Portfolio Strategy Days and roadmap formats.\n  - Represent the brand at internal and external events.\n\n### Qualifications\n- 5-10 years of product management experience, ideally within the lighting industry.\n- Several years of experience in technical or disciplinary leadership, and in managing cross-functional teams.\n- Proven track record of successfully launching and managing market-relevant product lines.\n- Experience with complex development portfolios and project workflows.\n- Profound knowledge in market analysis, business cases, and product positioning.\n- Proficient in using ERP, PLM, PIM, and reporting tools (e.g., Power BI).\n- Possess strategic, analytical thinking and strong decision-making abilities.\n- Excellent communication and moderation skills.\n- High technical affinity for lighting technologies.\n- Enthusiasm for professional lighting technology and its cultural relevance.\n- Very good English language skills.\n- Willingness to travel and international market understanding.\n\n### Author's Take\nThis is a highly strategic and impactful leadership role for a seasoned Product Manager with a passion for lighting technology. The Adam Hall Group offers a unique opportunity to shape the global future of the Cameo brand, leading a diverse team and integrating critical functions across the business. The emphasis on both technical prowess and cultural understanding (\"Lumen Being\") indicates a deep-seated commitment to innovation and brand identity. With attractive benefits focusing on growth, financial stability, and work-life balance, this position is ideal for an entrepreneurial leader looking to make a significant mark in a dynamic, people-centric environment.

@@ -11,60 +11,45 @@ tags:
   - Remote
   - Media
   - Screen and Web Design
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/digitale-leute-school-dl-education/ui-designer-munich-53207
 companyLogoUrl: null
+companyCulture: >-
+  Digitale Leute fosters a supportive and practical learning environment,
+  emphasizing hands-on project work and close mentorship. They are dedicated to
+  facilitating career growth through a strong hiring network and collaborative
+  team simulations.
+story_question1: >-
+  How does the bootcamp's practical approach truly prepare participants for the
+  realities of working in a product team?
+story_answer1: >-
+  One of the things we hear most often from our graduates is how seamlessly they
+  transition into real-world product teams. It's because we don't just teach
+  theory; you're immediately immersed in projects, working in simulated product
+  teams with agile methods – just like you would at Airbnb or Porsche Digital.
+  Our trainers, who come from these top companies, bring that current industry
+  perspective directly into the classroom. It's less about memorizing and more
+  about doing, failing fast, learning, and collaborating. This hands-on
+  experience, combined with rigorous feedback and mentorship, builds not just
+  skills but also the confidence and problem-solving mindset that employers
+  truly value.
+story_question2: >-
+  Beyond the curriculum, what makes the Digitale Leute School's support for job
+  seekers truly stand out?
+story_answer2: >-
+  What truly sets us apart is our unwavering commitment to your career
+  post-bootcamp. It's not just about earning a certificate; it's about landing
+  that dream job. Our 'stronges Hiring-Network' isn't just a phrase; it's a
+  living ecosystem of top tech companies actively seeking talent. We don't just
+  give you a list; we provide personalized mentoring, resume workshops,
+  interview prep, and direct connections to our partners. We've seen countless
+  success stories because we act as a bridge, ensuring that the skills you gain
+  are directly aligned with industry needs and that you're perfectly positioned
+  to step into a digital product team.
 ---
-Digitale Leute ist die Plattform für Produktmanagement, UX-Design und Engineering. Über Konferenzen, Bootcamps und unsere Community vernetzen wir Fach- und Führungskräfte der Digitalbranche. Gemeinsam mit **Partnern wie Airbnb, Porsche Digital, Atlassian oder Rewe Digital** gestalten wir die Software-Entwicklung von morgen.
-
-Mit der Digitale Leute School bieten wir **praxisnahe Weiterbildungen für die Tech-Branche an**. Ein Highlight ist unser **Product Design Bootcamp – die ideale Chance für den Einstieg als UX/UI Designer.**  
-Unsere Trainer kommen aus führenden Tech-Unternehmen und vermitteln dir topaktuelles Know-How für Product Designer.
-
-Nach dem Bootcamp **unterstützen wir dich aktiv bei der Jobsuche über unser starkes Hiring-Network**.
-
-Für Arbeitssuchende mit Bildungsgutschein ist die Teilnahme sogar komplett kostenlos.
-
-**Der nächste Kurs startet bald – und es gibt noch freie Plätze!**
-
-Diese Inhalte erwarten dich:
-
-Aufgaben
---------
-
-**Was dich im Bootcamp erwartet**
-
-*   **User Research:** Verstehen, was Nutzer:innen wirklich brauchen
-*   **Prototyping & Wireframing:** Ideen visuell und interaktiv greifbar machen
-*   **Usability-Tests:** Designs testen, Feedback sammeln, Lösungen verbessern
-*   **Interface Design:** moderne, nutzerfreundliche Oberflächen gestalten
-*   **Agile Methoden:** Arbeiten mit Scrum & Kanban im TeamPraxisnahes Lernen: Du arbeitest in Projekten wie in echten Produktteams
-
-Qualifikation
--------------
-
-**Dein Profil**
-
-*   Begeisterung für Design, Technologie & digitale Produkte
-*   Teamorientiert, kommunikativ und offen für Feedback
-*   Gute Deutschkenntnisse (Kurs und Projekte finden größtenteils auf Deutsch statt)
-*   Quereinsteiger:in, Junior:in oder Umsteiger:in – du brauchst kein Vorwissen im Design, nur Motivation & Lernbereitschaft
-
-Benefits
---------
-
-**Deine Vorteile  
-✅** Kompakte 4-monatige Online-Weiterbildung (deutschsprachig, auch berufsbegleitend möglich)  
-✅ Zertifikat als Product Designer / UX/UI Designer  
-✅ Persönliches Mentoring & enge Betreuung  
-✅ Arbeiten in simulierten Product Teams – wie in der Praxis  
-✅ **Unterstützung bei der Bewerbung & Einstieg in digitale Produktteams**
-
-👉 Bewirb dich jetzt und sichere dir einen Platz im nächsten Bootcamp.  
-Starte deine Karriere als UX/UI Designer und gestalte die digitale Welt von morgen!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nDigitale Leute is a leading platform connecting professionals in product management, UX design, and engineering through conferences, bootcamps, and a vibrant community. We partner with industry giants like Airbnb, Porsche Digital, Atlassian, and Rewe Digital to shape the future of software development.\n\nOur Digitale Leute School offers highly practical training for the tech industry, with the Product Design Bootcamp being a prime opportunity to kickstart your career as a UX/UI Designer. You'll gain cutting-edge knowledge from expert trainers sourced from top tech companies. Post-bootcamp, we actively support your job search through our robust hiring network. For those with an education voucher, participation can be completely free.\n\nThis compact, 4-month online program (primarily in German) can be completed alongside work. Graduates receive a Product Designer / UX/UI Designer certificate, benefit from personal mentoring and close supervision, and work in simulated product teams, mirroring real-world experience.\n\n### Responsibilities\nAs a participant in the bootcamp, you will be responsible for:\n- **User Research:** Learning to understand genuine user needs.\n- **Prototyping & Wireframing:** Making ideas tangible through visual and interactive methods.\n- **Usability Testing:** Testing designs, gathering feedback, and iteratively improving solutions.\n- **Interface Design:** Crafting modern, user-friendly interfaces.\n- **Agile Methodologies:** Working within teams using Scrum & Kanban frameworks.\n- **Project-based Learning:** Engaging in practical projects simulating real product team environments.\n\n### Qualifications\nTo join the Product Design Bootcamp, you should have:\n- A strong passion for design, technology, and digital products.\n- A team-oriented mindset, strong communication skills, and openness to feedback.\n- Good German language skills (the course and projects are predominantly in German).\n- No prior design knowledge is required; we welcome career changers, juniors, or those transitioning fields, only requiring motivation and a willingness to learn.\n\n### Author's Take\nThis Product Design Bootcamp by Digitale Leute offers an exceptional launchpad for anyone aspiring to become a UX/UI Designer. Its strength lies in its intensely practical curriculum, taught by industry veterans, and the invaluable post-bootcamp support, including a powerful hiring network and personalized career assistance. The focus on real-world project simulation and agile methods ensures participants are not just theoretical experts but hands-on practitioners ready to contribute from day one. If you're passionate about shaping digital products and eager to accelerate your career, this program, especially with its potential for free enrollment, is a truly compelling opportunity.

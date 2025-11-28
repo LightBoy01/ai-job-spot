@@ -9,68 +9,48 @@ postedDate: '2025-11-25T19:32:18.000Z'
 expirationDate: null
 tags:
   - Administration
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/gfn-gmbh/assistenz-in-der-administration-und-kundenbetreuung-in-heilbronn-65582
 companyLogoUrl: null
+companyCulture: >-
+  GFN GmbH fosters an inclusive and appreciative culture within a small, dynamic
+  team, emphasizing employee well-being with generous benefits like 30 vacation
+  days, comprehensive health, and mobility support. They promote a supportive
+  environment for professional growth and value diversity among both employees
+  and participants.
+story_question1: >-
+  Given that the role involves close contact with individuals undergoing
+  professional reorientation, how does the administrative and customer support
+  function directly contribute to their success and the overall mission of GFN?
+story_answer1: >-
+  As an insider, I can tell you that this role is far more than just paperwork.
+  You're often the first face or voice our participants encounter. Your warmth,
+  efficiency, and ability to truly listen make a huge difference in their
+  journey. When you smoothly handle their documentation, answer their questions,
+  or connect them with the right resources, you're directly reducing their
+  stress and allowing them to focus on their learning. We see the impact daily,
+  watching people transform, and knowing we played a quiet but crucial part in
+  that, it's incredibly rewarding. Our supportive team ensures you're never
+  alone in navigating the unique stories of our diverse participants.
+story_question2: >-
+  The job description mentions working in a 'small, dynamic team where it
+  doesn't get boring.' Could you elaborate on how this team dynamic supports
+  handling the diverse administrative tasks and client interactions, especially
+  when adapting to new challenges?
+story_answer2: >-
+  Working in our small team is truly a highlight. Because we're lean, everyone
+  wears multiple hats and we rely heavily on each other. There's a constant buzz
+  of activity, from managing AZAV compliance to organizing training logistics
+  and supporting our participants. This means no two days are exactly alike,
+  which keeps things incredibly fresh. We openly communicate, jump in to help
+  whenever someone needs an extra hand, and collectively brainstorm solutions to
+  new situations. It's this collaborative spirit and the trust we have in each
+  other that allows us to adapt quickly, maintain high standards, and genuinely
+  enjoy our work, ensuring that 'boring' is never in our vocabulary!
 ---
-Die GFN GmbH begleitet als Bildungsanbieter mit IT-Spezialisierung deutschlandweit Menschen bei ihrer Weiterbildung und beruflichen Neuorientierung.
-
-**Für unser Trainingscenter in Heilbronn suchen wir dich als Assistenz in der Administration und Kundenbetreuung (m/w/x) - Vollzeit oder Teilzeit möglich.**
-
-Idealerweise hast du bereits erste Erfahrungen in der Weiterbildungsbranche, vorzugsweise in der geförderten Weiterbildung?
-
-Du hast Spaß daran, mit Menschen zu arbeiten, gehst offen auf sie zu, kannst aktiv zuhören und verstehst es, dich in andere Situationen hineinzuversetzen?
-
-Du hast Lust, in einem kleinen Team zu arbeiten, in dem es nicht langweilig wird?
-
-Dann bist du bei uns richtig!!
-
-Aufgaben
---------
-
-*   Büroorganisation und allgemeine Assistenzaufgaben (Telefon, Post, Bestellungen, Einkauf, Service)
-*   Selbstständige Betreuung unserer Kunden vor Ort und am Telefon
-*   Führung der Dokumentationsunterlagen gemäß den AZAV-Vorgaben
-*   Kontaktpflege zu der lokalen Handelskammer, Kostenträgern und Praktikumsbetrieben
-*   Administrative Vorbereitung und organisatorische Unterstützung der Umsetzung unseres Weiterbildungsangebotes
-
-Qualifikation
--------------
-
-*   Abgeschlossene kaufmännische Ausbildung
-*   Erste Erfahrungen in der Administration und Kundenbetreuung, idealerweise im Bereich der geförderten Weiterbildung
-*   Gute MS-Office Anwenderkenntnisse
-*   Sehr gute Deutschkenntnisse in Wort und Schrift
-*   Ausgeprägter Teamgeist, starke Serviceorientierung und Fähigkeit zum selbständigen Arbeiten
-*   Selbstbewusstsein, gewinnendes Auftreten und Fingerspitzengefühl
-*   Spaß an deiner Arbeit, Begeisterungsfähigkeit und hohe Eigeninitiative
-
-Benefits
---------
-
-*   **30 Urlaubstage** in Jahr bei einer 5-Tage-Woche
-*   **Mitarbeiterrabatte über Corporate Benefits:** Profitiere von exklusiven Vergünstigungen bei vielen bekannten Marken und Plattformen – für Technik, Mode, Reisen und mehr.
-*   **Jobrad-Leasing per Entgeltumwandlung:** Dein Wunschrad – ob E-Bike oder Fahrrad – sichern und bequem über die Gehaltsabrechnung zahlen. Dabei profitierst du von steuerlichen Vorteilen und attraktiven Konditionen.
-*   **EGYM Wellpass:** Wir unterstützen deine Gesundheit und Fitness mit einem monatlichen Zuschuss in Höhe von 46 €.
-*   **Internetpauschale:** Wir bezuschussen deine private Internetnutzung mit bis zu 40 € monatlich – steuer- und sozialversicherungsfrei.
-*   **Deutschland-Ticket für nur 9 €:** Du zahlst lediglich 9 € im Monat, den Rest übernehmen wir – für volle Mobilität im Nahverkehr deutschlandweit.
-*   **Gruppenunfallversicherung:** Ab deinem ersten Arbeitstag bist du automatisch über unsere Gruppenunfallversicherung abgesichert – für zusätzliche Sicherheit im beruflichen und privaten Bereich.
-
-(ggf. abweichend bei einem Teilzeitarbeitsverhältnis)
-
-Bei uns erwartet dich ein vorurteilsfreies, wertschätzendes Miteinander. Wir leben Vielfalt – sowohl mit unseren Teilnehmer:innen als auch im GFN-Team.
-
-Interessiert? Dann bewirb dich jetzt über unser Bewerbungsformular – inklusive
-
-Gehaltswunsch und frühestmöglichem Startdatum. Falls du noch Fragen hast, sprich uns gerne an.
-
-**Wir freuen uns auf dich!**
-
-GFN-ID: 10\_071\_26
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nGFN GmbH is a nationwide educational provider specializing in IT, supporting individuals in their further education and professional reorientation. We are looking for an **Assistant for Administration and Customer Support (m/w/x)** in our training center in Heilbronn, available full-time or part-time. If you enjoy working with people, are open, a good listener, and empathetic, and thrive in a small, dynamic team, then you've found the right place! We value a prejudice-free, appreciative, and diverse environment.\n\n### Responsibilities\n*   General office organization and administrative tasks (telephone, mail, orders, purchasing, service).\n*   Independent support and care for our customers on-site and by phone.\n*   Management of documentation according to AZAV guidelines.\n*   Maintaining contact with local chambers of commerce, funding bodies, and internship providers.\n*   Administrative preparation and organizational support for the implementation of our further education offerings.\n\n### Qualifications\n*   Completed commercial training.\n*   First experiences in administration and customer support, ideally in the field of funded further education.\n*   Good MS-Office user skills.\n*   Very good German language skills, both written and spoken.\n*   Strong team spirit, pronounced service orientation, and ability to work independently.\n*   Self-confidence, a winning demeanor, and tact.\n*   Enjoyment of your work, enthusiasm, and high initiative.\n\n### Author's Take\nThis is a fantastic opportunity for an organized, service-oriented individual with a passion for helping people. The role offers a diverse set of administrative and client-facing responsibilities within a supportive and dynamic small team. GFN GmbH clearly prioritizes employee well-being and a positive work environment, demonstrated by a generous benefits package including 30 vacation days, wellness programs, and mobility support. Ideal for someone looking to make a direct impact in the educational sector and grow professionally.

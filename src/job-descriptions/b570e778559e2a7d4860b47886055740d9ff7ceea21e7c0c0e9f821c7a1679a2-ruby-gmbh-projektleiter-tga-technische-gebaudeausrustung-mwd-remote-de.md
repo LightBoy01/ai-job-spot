@@ -12,94 +12,62 @@ tags:
   - Building
   - Supply
   - Safety Services Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ruby-gmbh/projektleiter-tga-technische-gebaudeausrustung-remote-de-munich-428772
 companyLogoUrl: null
+companyCulture: >-
+  Ruby fosters a vibrant, inclusive culture that values individual personality,
+  collaboration, and continuous growth. They encourage breaking new ground with
+  their Lean Luxury philosophy, offering opportunities for professional
+  development, work-life balance through initiatives like workations, and
+  emphasize a strong commitment to diversity, equity, and inclusion.
+story_question1: >-
+  How does this role directly contribute to Ruby's ambitious growth and 'Lean
+  Luxury' philosophy, especially given the rapid expansion across Europe?
+story_answer1: >-
+  As part of our Technical Services team, you're not just maintaining buildings;
+  you're truly shaping the future of Ruby. Every new opening means you're
+  bringing our unique Lean Luxury concept to life from the ground up, ensuring
+  our technical infrastructure supports our stylish yet efficient guest
+  experience. It's a hands-on role where your expertise directly impacts our
+  sustainability goals and operational excellence, allowing us to scale
+  responsibly while maintaining our distinct character. You're crucial in
+  ensuring that as Ruby grows, our commitment to innovation and quality remains
+  at the core.
+story_question2: >-
+  Ruby emphasizes 'leveling up your game' and 'innovation is part of our DNA'.
+  Can you share how the company concretely supports individual development and
+  encourages new ideas within a rapidly expanding environment?
+story_answer2: >-
+  Here at Ruby, we genuinely believe in growing together. 'Leveling up your
+  game' isn't just a phrase; it's woven into our daily operations. You'll have
+  access to trainings, coaching, and mentoring to help you develop both
+  professionally and personally. We actively encourage curiosity and new ideas –
+  whether it's optimizing a maintenance process, suggesting a new sustainable
+  technology, or improving our internal workflows. We're a lean organization, so
+  your voice is heard, and your innovative contributions truly make a
+  difference, helping us stay ahead in the hospitality industry. It’s a dynamic
+  environment where continuous learning and experimentation are part of our
+  collective journey.
+story_question3: >-
+  Given Ruby's strong emphasis on personality and individuality ('Bring your
+  personality to work'), how does this translate into the day-to-day team
+  dynamics and collaboration within the technical services department?
+story_answer3: >-
+  Our emphasis on personality isn't just a slogan; it's the heartbeat of our
+  'Rubyverse.' In the Technical Services department, this means we celebrate
+  diverse backgrounds and ways of thinking. We connect on a 'du' basis from day
+  one, fostering an open, informal atmosphere where everyone feels comfortable
+  bringing their authentic self to work. Whether it's lively discussions during
+  team events or simply sharing a laugh on a Monday, we believe that when
+  individuals feel valued and respected for who they are, collaboration thrives,
+  and innovation flourishes. It truly makes for a more energetic and enjoyable
+  workplace, where everyone contributes their unique 'groove' to our shared
+  success.
 ---
-**At Ruby, your personality really matters, your time really matters, and we strongly believe we groove way better** **together. At Ruby, we keep breaking new ground.**
-
-Hey Sunshine,
-
-du bist ein Profi, wenn es um die **Planung und Magie hinter den Kulissen** geht? Du findest, dass dein Arbeitsplatz ein Ort mit Charakter und Seele sein sollte, wo neue Ideen zum Leben erweckt werden? Dann bist du die fehlende Olive in unserem Martini, die fehlende Melodie in unserer Musik und der **Herzschlag von unserem Rubyverse**.
-
-Wir sind eine stark wachsende Hospitality-Gruppe mit bestehenden Hotels und Workspaces in den **spannendsten Locations Europas** und vielen weiteren Projekten im Bau. Wir gehen mit unserer **Lean Luxury Philosophie neue Wege** und schaffen so eine zeitgemäße und bezahlbare Form von Luxus. Unser [stylisches Corporate Office](https://www.youtube.com/watch?v=yCVyUoUczW4) in München bündelt hierbei alle Bau- bzw. Design-, Verwaltungs- und Vermarktungsfunktionen sowie viele aus dem Hotel ausgelagerte Front Office Tätigkeiten.
-
-Die zentrale Maintenance Abteilung innerhalb des Technical Services Departments betreut die technische Gebäudeausrüstung der Hotels und Workspaces und kümmert sich unter anderem um deren Instandhaltung sowie alle technischen- und sicherheitsrelevanten Prozesse.
-
-**Join us and make it your own story**
-
-Bei uns wird dir garantiert nicht langweilig, denn du:
-------------------------------------------------------
-
-*   Bist Teil des Projektteams und erste Ansprechperson für alle Fragen rund um die TGA
-*   Trägst die Verantwortung für die Inbetriebnahme der technischen Anlagen bei Neueröffnungen
-*   Begleitest und berätst die Bauherr:innen bei der Planung der haustechnischen Gewerke
-*   Führst Baubegehungen zur Qualitätskontrolle durch und bist verantwortlich für die Einhaltung der  
-    haustechnischen Standards
-*   Wirkst bei der Erstellung von Nachhaltigkeitskonzepten mit und leitest Begehungen mit externen Energiemanagementfirmen, um unsere Anlagen zu optimieren
-*   Erstellst Konzepte und Analysen von Wartungsprozessen sowie Kosten-Nutzen-Berechnungen von  
-    Energieeinsparmaßnahmen und Wirtschaftlichkeitsbetrachtungen
-*   Bist zuständig für die Optimierung und die Verfügbarkeit der technischen Anlagen der Bestandsimmobilie  
-    über die gesamte Mietlaufzeit
-
-Wir haben schon auf dich gewartet, denn du:
--------------------------------------------
-
-*   Hast ein Studium im Bereich technisches Gebäudemanagement oder eine vergleichbare Ausbildung abgeschlossen
-*   Bringst bereits mehrjährige Berufserfahrung in einem ähnlichen Bereich mit und hast vielleicht auch schon im Ausland gearbeitet
-*   Siehst ein professionelles Auftreten, Loyalität und Integrität als selbstverständlich an
-*   Bist gerne unterwegs und Reisen gegenüber nicht abgeneigt
-*   Kennst alle relevanten DIN-Normen wie deine Westentasche und auch Begriffe wie LLED, BREEAM oder DGNB sind für dich kein Neuland
-*   Bist den geschäftlichen Umgang sowohl mit Investoren und Bauherr:innen als auch mit Handwerker:innen gewohnt
-*   Verfügst über ausgezeichnete Deutsch- und Englischkenntnisse in Wort und Schrift
-
-**What's in for you? So grooven wir:**
-
-\--- | --- | [**Ruby, Ruby, Ruby**](https://open.spotify.com/intl-de/track/0VhhaYztcRWc7PEjJCjr1g)
-
-*   Dein Style, dein Lachen, deine Ideen – Bring your personality to work. Vielleicht mit einem neuen Tattoo, Piercing oder einer neuen Haarfarbe?
-*   Wir connecten am liebsten per du - dürfen wir vorstellen: Michael, Gründer von Ruby
-*   Better together – bei der Arbeit, bei Team Events oder einfach nur, weil Montag ist 😉 [**'Cause I'm having a good time**](https://open.spotify.com/intl-de/track/3lrNq7iGL5r3KS93YiKAbC)
-*   Even work is better at the beach – mit deiner Workation bei Ruby
-*   Keine Ausreden mehr – wir unterstützen dein Sportprogramm
-*   LEGEN..wait for it...DARY Staff Rates - für dich und deinen Travel Buddy
-
-**[Money, Money, Money](https://open.spotify.com/intl-de/track/7tqhbajSfrz2F7E1Z75ASX)**
-
-*   Sharing is caring – mit unserem Opening-Bonus, wächst mit Ruby auch dein Konto
-*   Egal, wie du zur Arbeit kommst – einen Mobility-Zuschuss gibt's on top
-*   Take it to the next level – sichere dir extra Cash durch Talent Scouting, halbjährliche Sonderzahlungen und eine individuelle Bonusvereinbarung **[Ain't no mountain high enough](https://open.spotify.com/intl-de/track/7tqhbajSfrz2F7E1Z75ASX)**
-*   Level up your game – mit Trainings, Coaching und Mentoring hast du die Chance, genau so sehr über dich hinauszuwachsen, wie auch Ruby wächst
-*   Innovation ist Teil unserer DNA – Lean Luxury, paperless, cashless, … you name it
-
-**Where have you been so long?**
-
-**Daily business? Nicht mit uns.** Egal, ob du einen Blick fürs Detail hast oder mit deiner kreativen und innovativen Art neue Wege gehen willst, ob du technikaffin bist oder doch eher Zahlen deine Leidenschaft sind - bei Ruby findest sicherlich auch du bald deinen Platz. Wir suchen ständig außergewöhnliche Charaktere und **leidenschaftliche Team Player.**
-
-Statt auf perfekte Lebensläufe setzen wir viel mehr Wert auf **tolle Persönlichkeiten**, die uns dabei helfen, Hotels und Workspaces mit **Herz und Seele** zu gestalten. Was auch immer deine Leidenschaft ist: Komm zu uns und schreibe deine eigene Geschichte mit Ruby.
-
-**Diversity, Equity & Inclusion**
-
-Wir glauben daran, dass...  
-...du lieben kannst, wen du willst  
-...du selbst entscheiden solltest, ob und mit welchen Pronomen du angesprochen werden möchtest  
-...du stolz auf deine Herkunft und Kultur sein kannst  
-...du dich nicht für deine Religion oder Weltanschauung rechtfertigen musst  
-...du gut bist, genauso wie du bist und unser Team und Rubys Vielfältigkeit einzigartig machst
-
-Damit können wir gar nicht: Ismen  
-Rassismus, Sexismus, Heterosexismus, Antisemitismus und alle weiteren derartigen Ismen, werden bei uns nicht toleriert.
-
-Wenn du wissen möchtest, was dich erwartet, dann höre doch mal in die Story von **Stefanie aus unserem Construction-Team in München** rein. Noch mehr **Ruby Stories** findest du hier:
-
-Get to know our People & Culture Team
--------------------------------------
-
-Your Ruby Recruitment Team
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAt Ruby, your personality really matters, your time really matters, and we strongly believe we groove way better together. We keep breaking new ground with our Lean Luxury philosophy, creating a contemporary and affordable form of luxury in exciting European locations.\n\nOur stylish Corporate Office in Munich centralizes all construction, design, administration, marketing, and many outsourced front office tasks. The central Maintenance Department within the Technical Services Department is responsible for the technical building equipment of our hotels and workspaces, focusing on maintenance, technical, and safety-relevant processes. We are a fast-growing hospitality group with existing properties and many more projects under construction.\n\n### Responsibilities\n- Be part of the project team and the first point of contact for all questions regarding building services (TGA).\n- Take responsibility for commissioning technical systems during new openings.\n- Accompany and advise developers on the planning of building services trades.\n- Conduct construction inspections for quality control and ensure compliance with building services standards.\n- Contribute to the creation of sustainability concepts and lead inspections with external energy management firms to optimize our systems.\n- Create concepts and analyses of maintenance processes, as well as cost-benefit calculations for energy-saving measures and economic feasibility studies.\n- Be responsible for the optimization and availability of technical systems in existing properties throughout their lease term.\n\n### Qualifications\n- Hold a degree in technical building management or a comparable qualification.\n- Bring several years of professional experience in a similar field, possibly with international experience.\n- Demonstrate professionalism, loyalty, and integrity.\n- Enjoy traveling and are not averse to it.\n- Know all relevant DIN norms like the back of your hand, and terms like LLED, BREEAM, or DGNB are not new to you.\n- Be accustomed to business dealings with investors and developers, as well as craftsmen.\n- Possess excellent German and English language skills, both written and spoken.\n\n### Author's Take\nThis is an exciting opportunity for a seasoned technical building management professional to join Ruby, a rapidly expanding hospitality group known for its innovative 'Lean Luxury' concept. The role offers significant impact, contributing directly to the successful launch and optimization of technical facilities across Europe. Ruby strongly emphasizes a unique, inclusive culture where individual personality, collaboration, and continuous growth are highly valued. Expect a dynamic environment with ample opportunities for professional development, work-life balance benefits like 'Workation,' and a strong commitment to diversity, equity, and inclusion. If you're a proactive problem-solver with a passion for sustainable technical solutions and a desire to shape a growing brand, Ruby offers a compelling next step.

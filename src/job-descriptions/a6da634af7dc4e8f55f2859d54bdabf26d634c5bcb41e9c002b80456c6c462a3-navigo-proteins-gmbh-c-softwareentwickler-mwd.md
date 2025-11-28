@@ -9,99 +9,53 @@ postedDate: '2025-11-26T12:01:59.000Z'
 expirationDate: null
 tags:
   - Software Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/navigo-proteins-gmbh/c-softwareentwickler-halle-saale-1682
 companyLogoUrl: null
+companyCulture: >-
+  Navigo Proteins fosters a collaborative and growth-oriented environment with a
+  strong emphasis on work-life balance through flexible hours. The company
+  values continuous learning and offers significant development opportunities
+  within a flat hierarchy.
+story_question1: >-
+  Given Navigo's focus on innovative protein engineering, how does the C#
+  Software Developer role directly contribute to the scientific breakthroughs
+  and product development that impact global partners in pharma and biotech?
+story_answer1: >-
+  That's a fantastic question and gets right to the heart of what makes this
+  role exciting! As a C# Developer here, you're not just writing code; you're
+  building the very tools that empower our scientists to achieve their
+  breakthroughs. Imagine developing the WPF applications that control advanced
+  lab instruments, or crafting data processing modules that analyze complex
+  protein structures. You'll work directly with our scientists, translating
+  their intricate needs into elegant software solutions. It's incredibly
+  rewarding to see your code directly accelerate the development of a 'Precision
+  Capturing' product or a therapeutic application, knowing it will have a
+  tangible impact on our worldwide partners. We truly believe in fostering that
+  direct connection between our tech team and our scientific mission, ensuring
+  your contributions are always meaningful and visible.
+story_question2: >-
+  The job description mentions a commitment to 'continuous improvement of
+  development processes' and exploring modern .NET web technologies like Blazor.
+  Can you elaborate on the team's approach to adopting new technologies and how
+  individual developers contribute to shaping the technical roadmap?
+story_answer2: >-
+  Absolutely! We're not just looking for someone to maintain existing systems;
+  we're seeking proactive individuals who are excited to evolve our tech stack.
+  Our 'Mitarbeit an Architektur- und Designentscheidungen' isn't just a bullet
+  point – it's a core expectation. We encourage everyone to bring ideas to the
+  table, whether it's suggesting a new framework, refining our CI/CD pipelines,
+  or exploring a fresh approach to a complex problem. The mention of Blazor
+  isn't just an option; it's a direction we're actively investigating for future
+  applications. We believe the best ideas often come from the trenches, from the
+  people who are hands-on with the code every day. Your voice will genuinely
+  contribute to shaping our technical roadmap, ensuring we stay at the forefront
+  of .NET development while directly supporting our cutting-edge biotech
+  mission.
 ---
-_Die Navigo Proteins GmbH ist ein etabliertes und erfolgreich wachsendes Biotechnologie-Unternehmen mit Sitz im Technologiepark Weinberg Campus der Stadt Halle/Saale. Als Spezialisten im Protein Engineering haben wir uns auf die Entwicklung innovativer Proteine für biotherapeutische, diagnostische und biotechnologische Anwendungen spezialisiert. In den Kerngeschäftsfeldern „Precision Capturing®“ und „Precision Targeting“ benutzen wir unsere patentierten Technologien, um hochspezifische Bindeproteine für chromatographische oder therapeutische Anwendungen hin maßzuschneidern. Zu unseren weltweiten Partnern und Kunden unserer etablierten Produkte zählen Pharma-, Life Science- und Biotech-Firmen._
-
-Zur Verstärkung unseres Teams suchen wir ab sofort einen
-
-**C# Softwareentwickler (m/w/d)**
-
-Aufgaben
---------
-
-*   Entwicklung und Wartung modularer .NET/WPF-Anwendungen
-*   Umsetzung neuer Features in Zusammenarbeit mit den Wissenschaftlern im MVVM-Stil (ViewModel-zentriert)
-*   Mitarbeit an Architektur- und Designentscheidungen
-*   Unterstützung bei der Integration von Webschnittstellen (z. B. REST-APIs)
-*   Mitarbeit bei der Einführung oder Weiterentwicklung von Blazor-basierten Anwendungen
-*   Sicherstellung von Codequalität, Testbarkeit und Wartbarkeit
-*   Enge Zusammenarbeit mit UI/UX, Test und Projektmanagement
-*   Beteiligung an Code Reviews und kontinuierlicher Verbesserung der Entwicklungsprozesse
-
-Qualifikation
--------------
-
-*   Abgeschlossenes Studium der Informatik, Software Engineering oder vergleichbare Ausbildung
-    
-*   Mehrjährige Berufserfahrung in der Softwareentwicklung mit C# und .NET (idealerweise .NET 6/8 >)
-    
-*   Erfahrung in der Entwicklung komplexer Desktop-Anwendungen mit WPF
-    
-*   Sicherer Umgang mit MVVM-Architekturen, bevorzugt mit Prism Framework
-    
-*   Sicherer Umgang mit Visual Studio
-    
-*   Gute Kenntnisse in objektorientierter Programmierung (OOP) und den SOLID-Prinzipien
-    
-*   Verständnis für Clean Architecture, Entkopplung und Schichtentrennung
-    
-*   Bereitschaft, sich in modernere .NET Webtechnologien wie Blazor und [ASP.NET](http://ASP.NET) WebAPI einzuarbeiten bzw. diese aktiv einzusetzen
-    
-*   Sehr gute Deutschkenntnisse in Wort und Schrift
-    
-*   Gute Englischkenntnisse wünschenswert
-    
-*   Strukturierte, analytische Denkweise und hohes Qualitätsbewusstsein
-    
-*   Teamfähigkeit und Kommunikationsstärke
-    
-*   Eigenverantwortliches, lösungsorientiertes Arbeiten
-    
-*   Bereitschaft zur kontinuierlichen Weiterbildung
-    
-*   Interesse an Softwarearchitektur und modernen .NET-Technologien
-    
-*   Optional bringen Sie mit:
-    
-*   Erste Erfahrung mit Blazor (Server oder WebAssembly) oder [ASP.NET](http://ASP.NET) Core WebAPI
-    
-*   Verständnis für client-seitige Kommunikation (REST, gRPC, JSON, HTTP)
-    
-*   Erfahrung mit REST/gRPC, MessageBus, SignalR oder ähnlichen Technologien
-    
-*   Erfahrung im Umgang mit Datenpersistenz (EF Core, MS-SQL, SQLite etc.)
-    
-*   Grundkenntnisse in UI-Tests, Performance-Profiling, Logging und Fehlerhandling
-    
-*   Erfahrung mit Clean Code, Refactoring und Architekturentscheidungen
-    
-
-Benefits
---------
-
-*   Attraktive Vergütung
-*   zahlreiche Gehaltsextras und Jahresbonus
-*   flexible Arbeitszeiten
-*   ausgewogene Work-Life-Balance
-*   Job Bike
-*   individuelle Weiterbildungsmöglichkeiten
-*   Betriebsveranstaltungen, Teamevents
-*   betriebliche Altersvorsorge
-
-Sie erwartet eine sehr abwechslungsreiche Tätigkeit mit Eigenverantwortung und guten Entwicklungsmöglichkeiten in einem zukunftsorientierten, international agierenden Unternehmen. Wenn Sie ein kollegiales Arbeitsklima, ein motiviertes Team mit flachen Hierarchien und eine langfristige berufliche Perspektive schätzen, dann freuen wir uns über Ihre aussagekräftige, vollständige Bewerbung unter Angabe Ihrer Gehaltsvorstellung und Ihres möglichen Eintrittstermins.
-
-\*\*Navigo Proteins GmbH\*\*  
-Herr Christian Schlossarek  
-Heinrich-Damerow-Str. 1  
-06120 Halle/Saale  
-Tel. +49 (0)345 27996-359
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nNavigo Proteins GmbH, an established and successfully growing biotechnology company located in the Technology Park Weinberg Campus in Halle/Saale, Germany, specializes in protein engineering. We develop innovative proteins for biotherapeutic, diagnostic, and biotechnological applications, utilizing patented technologies like \"Precision Capturing®\" and \"Precision Targeting\" to tailor highly specific binding proteins for chromatographic or therapeutic uses. Our global partners and customers include leading pharmaceutical, life science, and biotech firms.\n\nWe are currently looking to strengthen our team with a **C# Software Developer (m/f/d)**. In this role, you will be instrumental in developing and maintaining robust software solutions that directly support our cutting-edge scientific work and product development within a dynamic biotech environment.\n\n### Responsibilities\n*   Development and maintenance of modular .NET/WPF applications.\n*   Implementation of new features in collaboration with scientists, following the MVVM style (ViewModel-centric).\n*   Contribution to architecture and design decisions.\n*   Support in the integration of web interfaces (e.g., REST APIs).\n*   Participation in the introduction or further development of Blazor-based applications.\n*   Ensuring code quality, testability, and maintainability.\n*   Close collaboration with UI/UX, testing, and project management teams.\n*   Involvement in code reviews and continuous improvement of development processes.\n\n### Qualifications\n*   Completed degree in Computer Science, Software Engineering, or a comparable education.\n*   Several years of professional experience in software development with C# and .NET (ideally .NET 6/8 >).\n*   Experience in developing complex desktop applications with WPF.\n*   Proficiency in MVVM architectures, preferably with the Prism Framework.\n*   Proficient use of Visual Studio.\n*   Good knowledge of Object-Oriented Programming (OOP) and SOLID principles.\n*   Understanding of Clean Architecture, decoupling, and layer separation.\n*   Willingness to learn and actively apply modern .NET web technologies such as Blazor and ASP.NET WebAPI.\n*   Very good German language skills, both written and spoken.\n*   Good English language skills are desirable.\n*   Structured, analytical mindset and high quality awareness.\n*   Team player with strong communication skills.\n*   Independent, solution-oriented work ethic.\n*   Readiness for continuous further education.\n*   Interest in software architecture and modern .NET technologies.\n*   **Optional skills:**\n    *   Initial experience with Blazor (Server or WebAssembly) or ASP.NET Core WebAPI.\n    *   Understanding of client-side communication (REST, gRPC, JSON, HTTP).\n    *   Experience with REST/gRPC, MessageBus, SignalR, or similar technologies.\n    *   Experience in data persistence (EF Core, MS-SQL, SQLite etc.).\n    *   Basic knowledge of UI tests, performance profiling, logging, and error handling.\n    *   Experience with Clean Code, refactoring, and architectural decisions.\n\n### Author's Take\nThis is a compelling opportunity for a C# Software Developer looking to make a significant impact in the biotech sector. Navigo Proteins offers an attractive compensation package, including various salary extras and an annual bonus, alongside excellent work-life balance supported by flexible working hours and a Job Bike program. The company emphasizes individual growth with tailored professional development opportunities and a clear path for advancement. You'll thrive in a collaborative, motivated team with flat hierarchies and a collegial atmosphere, contributing to challenging and varied tasks within an innovative, internationally operating company. This role is ideal for someone who values autonomy, continuous learning, and a long-term career perspective in a future-oriented environment.

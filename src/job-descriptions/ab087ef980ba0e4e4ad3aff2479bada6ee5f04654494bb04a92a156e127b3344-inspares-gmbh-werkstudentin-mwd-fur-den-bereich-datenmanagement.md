@@ -10,58 +10,51 @@ expirationDate: null
 tags:
   - Quality Assurance
   - Inspection
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/inspares-gmbh/werkstudentin-fur-den-bereich-datenmanagement-erkelenz-292599
 companyLogoUrl: null
+companyCulture: >-
+  INspares fosters a collaborative and growth-oriented environment, focused on
+  building an innovative ecosystem for spare parts management. Employees are
+  encouraged to actively contribute to agile development processes, take on
+  responsibility, and directly influence product quality, ensuring a practical
+  and impactful learning experience.
+story_question1: >-
+  Given the critical nature of accurate data in the spare parts ecosystem,
+  what's the most challenging aspect of maintaining data quality, and how does
+  this role directly contribute to INspares' overarching vision?
+story_answer1: >-
+  That's a fantastic question, and it gets right to the heart of what makes this
+  role so vital. The most challenging aspect isn't just the sheer volume of
+  data, but ensuring its absolute precision across a vast array of electronic,
+  parametrizable components. Think of it: one incorrect parameter can lead to a
+  critical production halt for a client. This role is literally the bedrock of
+  our platform, OT360. You're not just entering data; you're safeguarding the
+  operational continuity of our customers and enabling the entire ecosystem of
+  manufacturers, suppliers, and repair services to function seamlessly. Your
+  meticulous work directly underpins our vision of 'Morgens schon das Ersatzteil
+  liefern' – ensuring the right part is delivered exactly when needed, keeping
+  the wheels of industry turning.
+story_question2: >-
+  How does INspares balance its ambitious growth phase with supporting the
+  personal and professional development of its team members, especially those in
+  foundational roles like this?
+story_answer2: >-
+  It’s true, we’re in an exciting growth phase, constantly pushing the
+  boundaries of what's possible in industrial spare parts. But we strongly
+  believe that our growth is intrinsically linked to the growth of our people.
+  For someone in this foundational data management role, you'll gain practical
+  insights into our agile development processes from day one. You're encouraged
+  to actively shape how we ensure data quality, giving you direct influence over
+  our product. Beyond the hands-on learning, we foster an environment where
+  questions are welcomed, and initiative is rewarded. You're not just a cog;
+  you're a valued contributor whose attention to detail directly impacts our
+  collective success, offering a unique opportunity to learn, take
+  responsibility, and make a tangible difference in a supportive team setting.
 ---
-**Morgens schon das Ersatzteil liefern**
-
-Das ist die Vision von INspares und unserer Plattform OT360. Wir geben unseren Kunden volle Transparenz über ihre eingesetzten Automatisierungskomponenten und halten so deren Produktion am Laufen.Gemeinsam mit anderen Beteiligten des Ersatzteilgeschäfts, wie Komponentenherstellern, Ersatzteillieferanten und Reparaturdienstleistern, bauen wir ein Ökosystem, von dem jeder profitiert. Du hilfst dabei die Erfassung von Komponenten zu vereinfachen, die Nutzbarkeit der gesammelten Daten zu erhöhen und all unsere Partner auf unserer Plattform zusammenzubringen. Für die nächste Phase unseres Wachstums suchen wir neue Teammitglieder, die uns bei der Realisierung unserer Vision unterstützen. Zur weiteren Verstärkung unseres Teams suchen wir Dich!
-
-Aufgaben
---------
-
-Für die Datenbankpflege suchen wir eine zuverlässige und genaue Person mit einer Computeraffinität.
-
-• **Sorgfältige Erfassung und Pflege** neuer Datensätze zu elektronisch-parametrierbaren Bauteilen in der Datenbank
-
-• **Überprüfung bestehender Bauteildaten** auf Vollständigkeit, Richtigkeit und Konsistenz
-
-• **Aktualisierung und Korrektur** fehlerhafter Parameter sowie eigenständige Behebung von Unstimmigkeiten
-
-• **Unterstützung bei der** **Dublettenprüfung**, um redundante Datensätze zu identifizieren und zu bereinigen
-
-• **Abstimmung mit Entwicklungs- und Fachabteilungen**, um eine einheitliche Datenqualität sicherzustellen
-
-• **Mit deinem technischen Verständnis und Blick fürs Detail** stellst du die Grundlage für präzise Analysen und verlässliche Entwicklungsprozesse sicher
-
-Qualifikation
--------------
-
-• Du bist eingeschriebene:r Student:in (Elektrotechnik; Informationstechnik oder Elektronik) suchst eine Werkstudierendentätigkeit im Bereich **Datenmanagement**.
-
-• Präzises Arbeiten liegt dir, und du hast ein ausgeprägtes Auge für Details.
-
-• Mit **MS Office** (vor allem Excel) oder ähnlichen Tools hast du bereits Erfahrung gesammelt.
-
-• Neue Systeme und Abläufe erschließt du dir schnell und zeigst großes Interesse an **datenbasierten Prozessen** sowie an der **Qualitätssicherung**.
-
-• Wiederkehrende Aufgaben erledigst du **zuverlässig** und arbeitest dabei **eigenverantwortlich**.
-
-• Sehr gute **Deutschkenntnisse** runden dein Profil ab.
-
-• Englischkenntnisse sind vor Vorteil aber nicht zwingend notwendig
-
-Benefits
---------
-
-Du erhältst einen praxisnahen Einblick in agile Entwicklungsprozesse, kannst aktiv mitgestalten und direkten Einfluss auf die Qualität unserer Produkte nehmen. Wenn Du eine verantwortungsvolle Aufgabe übernehmen möchten, hat INspares einiges zu bieten.
-
-Wenn Du Lust auf eine Veränderung hast, ruf uns einfach an. Gerne kannst du dir auch ein erstes Bild über unsere Plattform machen, oder uns deine Fragen senden.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nINspares, with its OT360 platform, is revolutionizing the industrial spare parts business by providing full transparency over automation components, ensuring continuous production for its customers. The company is building a collaborative ecosystem connecting component manufacturers, spare parts suppliers, and repair service providers, benefiting everyone involved. This role is crucial in simplifying the capture of components, enhancing the usability of collected data, and integrating all partners onto the platform, supporting INspares' vision for its next growth phase.\n\n### Responsibilities\n*   **Meticulous entry and maintenance** of new datasets for electronic-parametrizable components in the database.\n*   **Review of existing component data** for completeness, accuracy, and consistency.\n*   **Updating and correcting** erroneous parameters and independently resolving discrepancies.\n*   **Support for duplicate checking** to identify and clean up redundant datasets.\n*   **Coordination with development and technical departments** to ensure uniform data quality.\n*   Through technical understanding and attention to detail, **establish the foundation for precise analyses and reliable development processes.**\n\n### Qualifications\n*   Currently enrolled **student** (Electrical Engineering; Information Technology, or Electronics) seeking a **working student position in data management.**\n*   You are precise in your work and have a keen eye for details.\n*   You have experience with **MS Office** (especially Excel) or similar tools.\n*   You quickly grasp new systems and processes and show great interest in **data-driven processes** as well as **quality assurance.**\n*   You complete recurring tasks **reliably** and work **independently.**\n*   Very good **German language skills** complete your profile.\n*   English language skills are an advantage but not strictly necessary.\n\n### Author's Take\nThis is an excellent entry-level opportunity for a diligent and detail-oriented student passionate about data management and quality assurance. Working as a student, you'll gain invaluable hands-on experience within a critical, foundational role, directly contributing to the core functionality of an innovative platform. The company offers a chance to actively shape product quality within an agile development environment, providing practical insights and significant responsibility from day one. It's an ideal role for someone looking to apply their technical understanding and meticulous work ethic in a dynamic and supportive team, making a real impact in a growing ecosystem.

@@ -12,67 +12,66 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '€90,000 - €130,000'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-achern-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-201423
 companyLogoUrl: null
+companyCulture: >-
+  This organization fosters a positive, growth-oriented culture with boundless
+  development opportunities, including partnership prospects, and extensive
+  support for continuous learning. They prioritize work-life balance through
+  flexible hours and home-office options, encouraging strong team collaboration
+  in a modern, digital environment.
+story_question1: >-
+  Given the opportunity to self-assemble tasks and the clear path to
+  partnership, how does the firm ensure that individual strengths contribute to
+  collective success and how are challenges navigated during this professional
+  growth journey?
+story_answer1: >-
+  It's truly empowering here. When I joined, the idea of shaping my own role
+  based on my strengths sounded great, but I wondered if it would truly work in
+  practice. What I found is a very supportive environment. We have regular
+  check-ins, not just performance reviews, but genuine conversations about what
+  energizes us and where we see ourselves growing. The partners are incredibly
+  hands-on in mentoring, especially for those of us eyeing a partnership
+  ourselves. We tackle complex projects, often collaborating across different
+  expertise areas, which can be challenging, but it always leads to innovative
+  solutions and a real sense of shared accomplishment. It's about growing
+  together, not just individually.
+story_question2: >-
+  With the strong emphasis on digital workflows and modern equipment, how does
+  the firm ensure continuous learning and adaptation to new technologies for all
+  team members, and what support is available for this transition?
+story_answer2: >-
+  That's a question I had too! Coming from a more traditional firm, the
+  digital-first approach here was a pleasant surprise. They don't just equip us
+  with the latest tech; they invest heavily in training. We have dedicated
+  internal workshops, access to online learning platforms, and even external
+  specialists coming in to teach us about new software or process optimizations.
+  The transition was smooth because everyone, from partners to new hires, is
+  encouraged to embrace digital transformation. There's a real culture of
+  sharing best practices, and no one is left behind. It actually frees up so
+  much time from tedious tasks, allowing us to focus on the higher-value
+  advisory work for our clients.
+story_question3: >-
+  Beyond the attractive salary, the mention of `Nettolohnoptimierung` (net pay
+  optimization) is intriguing. Could you elaborate on how these unique benefits
+  contribute to an employee's overall financial well-being and the company's
+  commitment to valuing its team members?
+story_answer3: >-
+  Absolutely, the `Nettolohnoptimierung` really sets us apart. It's not just
+  about a high base salary; it's about maximizing what actually lands in your
+  pocket. Things like the monthly `Sachbezugsgutscheine` (benefit-in-kind
+  vouchers) are small touches that make a big difference, essentially tax-free
+  perks that boost our disposable income. But it's more than just the money; it
+  reflects a broader philosophy here. The firm genuinely cares about our
+  financial health and security. It's part of how they show they truly value our
+  contributions, creating a package that makes us feel appreciated and secure,
+  allowing us to focus on our work and personal lives without constant financial
+  worries. It’s a testament to their commitment to employee well-being.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Achern.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nTaxTalente is the No. 1 job-matching platform for job seekers in tax consulting. We are currently seeking a Tax Consultant (m/w/d) for one of our partner law firms in Achern. This role is ideal if you are looking for a positive career change, aiming for the next step, or even considering a partnership in a future-oriented firm where you are financially and personally valued. You'll finally work in a positive environment doing tasks that genuinely advance your career.\n\nAt our partner firm, you have the unique opportunity to **individually shape your area of responsibility** based on your personal strengths and weaknesses. The firm offers boundless development opportunities, including clear pathways to partnership, diverse areas of activity, and salaries competitive with the industry. Benefits include an exceptional remuneration of €90,000 to €130,000 per year, flexible working hours with home-office options, net pay optimization with monthly €50 benefit-in-kind vouchers, extensive support for further training (e.g., specialist advisor qualifications), state-of-the-art digital equipment, strong team cohesion, and regular team events.\n\n### Responsibilities\n- Preparation and review of annual financial statements\n- Preparation of tax returns for partnerships and corporations\n- Special tax advisory projects based on individual qualifications, e.g., in inheritance tax or transformation tax law\n- Support during tax audits\n- Team leadership and personnel responsibility (optional)\n- Further individually selectable areas of activity that you enjoy\n\n### Qualifications\n- Communicative nature and enjoyment of client interaction\n- Meticulous, efficient, and conscientious working style\n- Openness to digital working methods\n- Leadership understanding and sense of responsibility towards employees (optional)\n- Successfully completed tax advisor examination\n- Passion for tax topics\n\n### Author's Take\nThis is an outstanding opportunity for a dedicated Tax Consultant seeking significant career progression within a supportive and modern environment. What truly sets this role apart is the ability to **custom-design your responsibilities** according to your strengths, coupled with a genuine **partnership perspective**. The compensation package is truly exceptional, further enhanced by unique benefits like `net pay optimization` and substantial support for professional development.\n\nTaxTalente acts as your strategic partner, ensuring a seamless and efficient job search experience. They handle salary negotiations, provide 100% anonymity until you give the `go-ahead`, and only connect you with carefully selected, top-tier law firms that stand out in terms of compensation, benefits, digital maturity, and overall culture. This service is entirely free and non-binding for candidates, making it an incredibly advantageous path to finding your dream job without the typical frustrations of a job search.

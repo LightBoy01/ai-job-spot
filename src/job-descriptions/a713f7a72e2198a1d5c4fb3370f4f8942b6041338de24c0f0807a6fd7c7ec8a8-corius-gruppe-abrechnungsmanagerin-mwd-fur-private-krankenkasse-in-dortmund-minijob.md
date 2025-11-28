@@ -9,57 +9,52 @@ postedDate: '2025-11-25T07:32:13.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/corius-gruppe/abrechnungsmanagerin-fur-private-krankenkasse-in-dortmund-minijob-245684
 companyLogoUrl: null
+companyCulture: >-
+  The company cultivates a supportive and professional environment that strongly
+  prioritizes employee development and work-life balance. They offer extensive
+  training, regulated and flexible working hours, and encourage collaboration
+  within an engaged team, ensuring high-quality service delivery.
+story_question1: >-
+  How does this mini-job role, despite its part-time nature, significantly
+  contribute to the overall efficiency and high-standard patient experience at
+  such a large and specialized clinic?
+story_answer1: >-
+  You know, when I first heard 'Minijob-Basis,' I wondered about the real
+  impact. But here at MVZ Hansaklinik, it's totally different. Our billing isn't
+  just about numbers; it's the lifeline that keeps our state-of-the-art
+  dermatological and laser services accessible to everyone. As an
+  Abrechnungsmanager:in, even on a flexible schedule, I ensure that our patients
+  can focus on their health, not bureaucratic hurdles. I'm the bridge between
+  our amazing medical team and the insurance companies, making sure everything
+  runs smoothly. It's incredibly rewarding to know that my precise work allows
+  our doctors to perform at their best and keeps our patients feeling 'hautnah
+  verbunden' (closely connected) to top-tier care. Plus, the team here is so
+  supportive; we're always learning and growing together, even sharing insights
+  on new billing codes.
+story_question2: >-
+  What are the key challenges or complexities involved in billing for such a
+  specialized and extensive medical practice, especially concerning private
+  health insurance?
+story_answer2: >-
+  The complexity is definitely a fascinating part of the job! We're not just a
+  standard practice; we're one of Germany's largest dermatological clinics, with
+  a laser department that rivals university hospitals. This means dealing with a
+  vast array of highly specialized treatments and intricate billing codes,
+  especially with private health insurance. Every case can be unique, requiring
+  meticulous attention to detail and a deep understanding of ever-evolving
+  regulations. Keeping up with these changes, accurately translating complex
+  medical procedures into billing ziffern, and ensuring seamless communication
+  with various private insurers and our internal teams to prevent discrepancies
+  – that's where the real challenge and satisfaction lies. It's like being a
+  detective for data, ensuring every detail is perfectly aligned to support both
+  our clinic's operations and our patients' peace of mind.
 ---
-**hautnah verbunden**
-
-Sie suchen eine verantwortungsvolle Tätigkeit mit **geregelten Arbeitszeiten** und **individuellen Weiterbildungsmöglichkeiten**? Bei CORIUS geht beides.
-
-Herzlich willkommen im **MVZ Hansaklinik in Dortmund!** Wir sind eine der größten dermatologischen Praxen in Deutschland mit einer räumlichen und technischen Ausstattung auf Top-Niveau. Bei uns arbeiten mehr Ärzt:innen als in den meisten Universitätskliniken, unsere Laser-Abteilung ist eine der umfangreichsten in ganz Deutschland.
-
-Als Mitglied der Corius-Gruppe, dem größten Netzwerk dermatologischer und phlebologischer Praxen und Kliniken in Deutschland und der Schweiz, profitieren unsere Mitarbeiter:innen darüber hinaus von zahlreichen zusätzlichen Benefits, Fort- und Weiterbildungsangeboten und beruflichen Entfaltungsmöglichkeiten.  
-Seien Sie als Teil unseres engagierten Teams hautnah dabei!
-
-**Wir suchen**
-
-Das MVZ Hansaklinik in Dortmund sucht zum nächstmöglichen Zeitpunkt **eine:n Abrechnungsmanager:in (m/w/d)** **auf Minijob-Basis** zur Verstärkung ihres engagierten Teams.
-
-Aufgaben
---------
-
-*   Präzise Abrechnung medizinischer Leistungen
-*   Kommunikation mit den Krankenkassen
-*   Schulung von Kolleg:innen zu aktuellen Abrechnungsziffern
-*   Überwachung der Fristen und Einhaltung der gesetzlichen Vorgaben
-*   Schnittstelle zwischen dem Praxispersonal und der Krankenkassen
-
-Qualifikation
--------------
-
-*   Erfahrung mit der Abrechnung bei privaten Krankenkassen
-*   Aufgeschlossenheit, Freundlichkeit, Höflichkeit und Spaß an der Arbeit mit Menschen sind uns sehr wichtig
-*   Fließende Deutschkenntnisse
-
-Benefits
---------
-
-*   Interessante und abwechslungsreiche Tätigkeit
-*   Flexible Arbeitszeiten
-*   Unbefristetes Arbeitsverhältnis für eine Zusammenarbeit mit Perspektive
-*   Umfangreiche Fort-und Weiterbildung
-*   Über-marktübliche Bezahlung
-*   Angenehme Atmosphäre in modernsten und optimal ausgestatteten Räumlichkeiten
-*   Vielseitige Mitarbeitendenbenefits (Fahrrad-Leasing, betriebliche Altersvorsorge, Corporate Benefits, uvm.)
-
-**Wir freuen uns über Ihre vollständigen Bewerbungsunterlagen inkl. Anschreiben, Lebenslauf und Zeugnisse!**
-
-Bei Rückfragen steht Ihnen Frau Wolters jederzeit gerne zur Verfügung.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAre you seeking a responsible position with regulated working hours and individual development opportunities? At CORIUS, you'll find both. Welcome to MVZ Hansaklinik in Dortmund! We are one of Germany's largest dermatological practices, boasting top-tier spatial and technical equipment. We employ more doctors than most university clinics, and our laser department is one of the most comprehensive in Germany.\n\nAs a member of the Corius-Gruppe, the largest network of dermatological and phlebological practices and clinics in Germany and Switzerland, our employees benefit from numerous additional perks, further training, and professional development opportunities. Be an integral part of our dedicated team!\n\nMVZ Hansaklinik in Dortmund is seeking a **Billing Manager (m/f/d)** to join their engaged team on a **Minijob-Basis** as soon as possible.\n\n### Responsibilities\n- Precise billing of medical services.\n- Communication with health insurance companies.\n- Training colleagues on current billing codes.\n- Monitoring deadlines and ensuring compliance with legal requirements.\n- Interface between practice staff and health insurance companies.\n\n### Qualifications\n- Experience with private health insurance billing.\n- Open-mindedness, friendliness, courtesy, and enjoyment of working with people are very important to us.\n- Fluent German language skills.\n\n### Author's Take\nThis role at MVZ Hansaklinik, part of the extensive Corius-Gruppe, offers a unique opportunity for an experienced billing specialist. Despite being on a Minijob-Basis, the position is highly impactful, ensuring smooth financial operations for one of Germany's largest and most specialized dermatological practices. The company emphasizes professional development with 'umfangreiche Fort- und Weiterbildung' (extensive further training and education) and values work-life balance through 'flexible Arbeitszeiten' (flexible working hours) and 'geregelten Arbeitszeiten' (regulated working hours). You'll be joining an 'engagiertes Team' (engaged team) in 'modernsten und optimal ausgestatteten Räumlichkeiten' (modern and optimally equipped premises) and benefit from 'über-marktübliche Bezahlung' (above-market payment) and a wide range of additional employee benefits. This is an excellent chance to contribute significantly in a supportive and growth-oriented environment.

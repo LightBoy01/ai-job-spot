@@ -9,56 +9,49 @@ postedDate: '2025-11-26T11:32:42.000Z'
 expirationDate: null
 tags:
   - Online Marketing
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
+salaryRange: 700€ / month
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/isi-gmbh/stage-marketing-digital-darmstadt-328145
 companyLogoUrl: null
+companyCulture: >-
+  iSi GmbH fosters a meritocratic, growth-oriented environment where high
+  performance is recognized, and individuals are challenged to develop rapidly.
+  It promotes collaboration, team spirit, and a culture of feedback and
+  innovation, encouraging employees to bring forward their ideas and take
+  individual responsibility.
+story_question1: >-
+  How does this internship directly contribute to iSi GmbH's ambitious growth
+  plans, particularly in expanding market reach and product offerings?
+story_answer1: >-
+  It's a fantastic question, because your work here isn't just busywork; it's
+  central to our expansion! Our organic traffic growth, which you'll be
+  instrumental in driving through SEO, directly fuels our ability to enter new
+  markets and showcase our ever-growing product portfolio. Imagine optimizing
+  keywords that unlock thousands of potential customers in a new country, or
+  crafting content that positions us as the go-to expert for bathroom brands.
+  That's real, tangible impact. We're a young, international team, and your
+  insights will genuinely shape how we connect with customers globally, ensuring
+  our competitive pricing reaches the right eyes. We're building something
+  significant, and you'll be right there, learning and contributing at the heart
+  of it.
+story_question2: >-
+  Given the company's emphasis on a fast learning curve and individual
+  responsibility, what kind of support system is in place for interns to ensure
+  they successfully navigate challenges and maximize their growth?
+story_answer2: >-
+  While we definitely challenge our team to take initiative and embrace
+  responsibility, we also firmly believe in providing a strong support network.
+  As an intern, you won't be thrown into the deep end without a paddle. You'll
+  work closely with experienced online marketing professionals who act as
+  mentors, providing regular feedback and guidance. We have a culture of open
+  communication, meaning you can always ask questions and seek clarification.
+  Plus, with dedicated German classes and a collaborative team spirit, you'll
+  find ample resources and a friendly atmosphere to help you not just learn the
+  ropes of SEO, but truly master new skills and grow professionally. It's about
+  empowering you, not just tasking you.
 ---
-Le commerce en ligne vous intéresse? Vous avez la passion de travailler dans un environnement de vente en ligne et vous avez des idées sur la façon d'améliorer les processus pour faciliter la vie de nos consommateurs? Vous êtes proactif et pratique? Si c'est le cas, nous avons l'opportunité parfaite pour vous!
-
-iSi GmbH est une entreprise du secteur de l’e-commerce basée en Allemagne et fondé en 2012. Nous travaillons avec les grandes marques du monde de la salle de bains et nous vendons plus de 220 000 produits sur plusieurs marchés à des prix très compétitifs. Nous travaillons constamment à l'expansion de notre offre de produits et des marchés sur lesquels nous opérons.
-
-Dans tout ce que nous faisons, nous avons nos clients à l'esprit. Des clients satisfaits grâce à un bon service sont un facteur clé de succès. Travailler au sein de notre équipe signifie s'engager dans une méritocratie. Dans ce cadre, vous serez en mesure d'assumer la responsabilité individuelle de vos tâches et de vos objectifs, les performances élevées seront toujours reconnues. Notre vision claire est la croissance pour l'entreprise ainsi que pour les individus qui y travaillent. Travailler avec nous, c'est être mis au défi et bénéficier d'un soutien adéquat pour se développer en s'engageant dans une courbe d'apprentissage rapide. Nous sommes jeunes, à vocation internationale et nous maintenons une culture du retour d'information et de l'innovation. Cela signifie qu'il existe de nombreuses possibilités d'apporter vos propres idées. Chez iSi, nous travaillons ensemble comme une seule unité vers nos objectifs communs et nous les atteignons avec un grand sens de la collaboration et un esprit d'équipe.
-
-Vos missions
-------------
-
-L'optimisation des moteurs de recherche est au coeur du marketing en ligne. Vous aurez donc l'occasion de développer des compétences importantes qui vous seront d'une utilité inestimable tout au long de votre future carrière.
-
-Votre objectif principal sera d'aider à développer notre trafic organique grâce aux techniques d'optimisation des moteurs de recherche (SEO). Il s'agira d'analyser et d'influencer le positionnement des mots-clés organiques à l'aide d'Ahrefs, de prospecter les mots-clés, d'analyser les lacunes du contenu et bien d'autres choses encore.
-
-À l'issue du stage, vous en saurez plus sur ce mystérieux sujet qu'est le référencement. Vous serez en mesure non seulement de comprendre mais aussi d'influencer le classement organique des moteurs de recherche. Vous aurez de vraies responsabilités chez iSi, il n'y a pas de meilleur endroit pour apprendre des sujets de marketing en plein essor.
-
-*   Analyser des mots-clés organiques et des concurrents
-*   Créer du contenu pour les blogs et les annonces sur la base de l'analyse des mots clés et des études de marché.
-*   Analyser l'influence de nos classements de recherche organique à l'aide d'outils tels qu'Ahrefs
-*   Réaliser des activités de sensibilisation en ligne (par exemple, contacter les blogueurs, aider à construire notre marque en ligne, etc.)
-*   Responsable des réseaux sociaux (Instagram, Pinterest, Facebook) dans plusieurs pays.
-
-Vos compétences
----------------
-
-*   Vous avez une forte passion pour le E-Commerce et le marketing en ligne et vous pouvez traduire cette passion en actions concrètes.
-*   Vous êtes une personne autonome et curieuse, capable de s’adapter facilement et vous n'avez pas peur de prendre des initiatives.
-*   Une expérience dans le domaine du marketing en ligne est un atout.
-*   Vous parlez couramment français et anglais.
-
-Avantages
----------
-
-*   Salaire: 700€ / mois (vous pouvez aussi demander la bourse Erasmus)
-*   Des cours d'allemand réguliers
-*   Snacks et cafés gratuit
-*   Vacances: 1 jour / mois
-*   Date de début: Janvier 2026
-*   Durée: 5-6 mois
-
-Vous souhaitez prendre un bon départ dans votre carrière et le profil ci-dessus vous correspond?
-
-Alors postulez dès maintenant en envoyant votre candidature (CV et lettre de motivation) et nous vous répondrons dans les plus brefs délais.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAre you passionate about e-commerce? Do you thrive in an online sales environment with ideas on improving processes to enhance customer experience? If you're proactive and hands-on, iSi GmbH offers the perfect opportunity for you! We are an e-commerce company based in Germany, founded in 2012, working with major bathroom brands to sell over 220,000 products across multiple markets at competitive prices. We are constantly expanding our product offerings and market reach. Our customer-centric approach, coupled with a commitment to individual responsibility, meritocracy, and growth, defines our culture. You'll join a young, international team with a fast learning curve, where feedback and innovation are valued, and your ideas can genuinely contribute to our shared goals.\n\n### Responsibilities\nSearch Engine Optimization (SEO) is at the core of online marketing, and in this role, you will develop invaluable skills for your future career. Your primary objective will be to help grow our organic traffic through advanced SEO techniques. This involves analyzing and influencing organic keyword positioning using tools like Ahrefs, conducting keyword prospecting, analyzing content gaps, and much more. By the end of this internship, you will possess a deep understanding of SEO, capable of not only comprehending but also influencing organic search rankings with real responsibilities within iSi.\n\nKey responsibilities include:\n\n*   Analyzing organic keywords and competitors.\n*   Creating blog and ad content based on keyword analysis and market research.\n*   Analyzing the influence of our organic search rankings using tools such as Ahrefs.\n*   Executing online outreach activities (e.g., contacting bloggers, helping to build our online brand).\n*   Managing social media channels (Instagram, Pinterest, Facebook) across multiple countries.\n\n### Qualifications\nWe're looking for an enthusiastic individual ready to dive into the world of e-commerce and online marketing. To succeed in this role, you should possess:\n\n*   A strong passion for E-Commerce and online marketing, with the ability to translate this passion into concrete actions.\n*   An autonomous and curious personality, highly adaptable and not afraid to take initiative.\n*   Previous experience in online marketing is a definite asset.\n*   Fluency in both French and English is required.\n\n### Author's Take\nThis is an exceptional entry-level opportunity for an ambitious individual eager to kickstart a career in online marketing within a dynamic e-commerce environment. iSi GmbH offers a structured internship where you will gain hands-on experience in critical SEO and social media tasks, directly impacting the company's growth. The emphasis on a fast learning curve, individual responsibility, and a supportive, international team culture makes this an ideal place to learn and develop. With a competitive internship salary, regular German classes, and other perks, this role provides a comprehensive package for professional development starting January 2026.

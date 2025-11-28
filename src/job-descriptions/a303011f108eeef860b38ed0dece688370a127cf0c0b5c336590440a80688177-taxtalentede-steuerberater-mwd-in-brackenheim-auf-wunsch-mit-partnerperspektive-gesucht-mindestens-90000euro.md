@@ -12,67 +12,68 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
+salaryRange: '€90,000 - €130,000 per year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-brackenheim-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-140212
 companyLogoUrl: null
+companyCulture: >-
+  This company fosters a supportive and growth-oriented environment, offering
+  extensive development opportunities including partnership paths and support
+  for further education. It prioritizes work-life balance through flexible hours
+  and remote options, alongside promoting strong team collaboration and
+  individual autonomy in shaping responsibilities.
+story_question1: >-
+  Given the emphasis on self-curated tasks and partnership opportunities, what
+  does a successful journey toward partnership look like for a Tax Consultant
+  here, and how much autonomy is truly given to shape one's specialization?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of our culture
+  here. When I joined, I was excited by the promise of shaping my own path, and
+  I can tell you, it's not just talk. From day one, you're empowered to lean
+  into your strengths. If you're passionate about inheritance tax, you can dive
+  deep; if corporate reorganization tax is your thing, we'll support that. The
+  journey to partnership isn't a rigid ladder, but more of a tailored growth
+  path. It's about demonstrating expertise, client leadership, and a commitment
+  to our collective success. We provide the mentoring, the resources for further
+  specialization like Fachberater qualifications, and the client exposure. The
+  firm truly invests in you becoming a well-rounded leader who can eventually
+  contribute to the strategic direction of the firm, not just technically, but
+  also in developing our next generation of talent.
+story_question2: >-
+  The description highlights a commitment to digital processes and modern
+  equipment. Could you elaborate on how these tools practically enhance
+  efficiency and collaboration among the team, particularly with the flexible
+  and home-office options?
+story_answer2: >-
+  Absolutely! Our digital infrastructure is a game-changer, especially for
+  maintaining that crucial work-life balance. We've invested heavily in
+  cloud-based platforms and secure digital workflows, meaning whether you're in
+  the office or working remotely from home, you have seamless access to all
+  client files, software, and communication tools. This isn't just about
+  efficiency; it's about fostering a truly flexible and collaborative
+  environment. We use integrated communication platforms that allow for instant
+  team discussions, document sharing, and and even virtual client meetings. It
+  means less time on administrative tasks and more time on high-value client
+  advisory, and ensures that despite geographical flexibility, our team cohesion
+  remains strong and our clients receive consistent, top-tier service.
+story_question3: >-
+  With the flexibility offered, including home-office options, how does the firm
+  actively maintain its 'strong team cohesion and regular team events' to ensure
+  a connected and supportive culture for all?
+story_answer3: >-
+  That's a really important point for us! We believe flexibility shouldn't come
+  at the cost of connection. While we embrace home office and flexible hours,
+  we're very intentional about fostering our team spirit. We have a mix of
+  virtual and in-person team events – from regular informal online coffee breaks
+  to celebrate small wins, to quarterly social gatherings like our summer
+  barbecue or Christmas party, and even joint professional development
+  workshops. We also encourage informal mentoring and peer support, creating
+  channels for colleagues to connect and collaborate easily. It's about creating
+  opportunities for genuine interaction and ensuring everyone feels part of the
+  family, regardless of where they choose to work from on a given day.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Brackenheim.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nTaxTalente is the #1 job-matching platform for job seekers in tax consulting, connecting top talent with the most attractive employers in the industry. We are currently seeking a highly motivated Tax Consultant (m/f/d) for one of our esteemed partner firms in Brackenheim. This role is ideal for professionals looking for a significant career step, potentially towards partnership in a future-oriented firm. You will thrive in a positive work environment where your financial and personal contributions are highly valued, engaging in tasks that genuinely advance your career. This unique opportunity allows you to assemble your own area of responsibility based on your personal strengths, offering boundless development opportunities.\n\nFor any inquiries, feel free to contact Mr. Becker-Koch directly by phone at +49 1590 1431130 at any time, even after business hours.\n\n### Responsibilities\n- Preparation and review of annual financial statements\n- Preparation of tax declarations for individuals and corporations\n- Special tax consulting projects based on individual qualifications, e.g., in the areas of inheritance tax or corporate reorganization tax law\n- Support during tax audits\n- Team leadership and personnel responsibility (optional)\n- Further individually selectable areas of activity that you enjoy\n\n### Qualifications\n- Communicative nature and enjoyment of interacting with clients\n- Meticulous, efficient, and conscientious working style\n- Open to a digital way of working\n- Leadership understanding and responsibility towards employees (optional)\n- Successfully completed Tax Advisor exam\n- Passion for tax-related topics\n\n### Author's Take\nThis is an exceptional opportunity for an experienced Tax Consultant seeking a role with significant autonomy, outstanding compensation (€90,000 - €130,000 per year), and a clear path to partnership. The firm prioritizes work-life balance through flexible hours and home-office options, coupled with strong support for professional development and a modern, digital work environment. Beyond the attractive benefits, TaxTalente offers a streamlined, confidential, and free service to ensure a perfect match, handling salary negotiations and vetting potential employers to prevent unnecessary interviews. This role promises not just a job, but a career trajectory in a supportive and forward-thinking practice.

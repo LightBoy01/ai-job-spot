@@ -9,58 +9,63 @@ postedDate: '2025-11-26T08:32:12.000Z'
 expirationDate: null
 tags:
   - Web Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/eltako-gmbh/fullstack-entwickler-fellbach-486366
 companyLogoUrl: null
+companyCulture: >-
+  ELTAKO fosters a collaborative and innovative environment, driven by a team of
+  over 150 dedicated colleagues. The culture emphasizes agile practices, flat
+  hierarchies, and strong team spirit, offering flexible work arrangements and
+  significant opportunities for growth in the smart home market.
+story_question1: >-
+  Given the emphasis on building new web solutions and a cloud platform for
+  smart devices, what's the most exciting aspect of how this role directly
+  impacts ELTAKO's mission to turn every home into a Smart Home?
+story_answer1: >-
+  It's all about direct impact and shaping the future! As a Full-Stack Web
+  Developer, you're not just coding; you're literally building the bridges that
+  connect our smart devices to our customers. The new website and especially the
+  cloud solution you'd be working on are the central hubs for user interaction
+  and device networking. Imagine the satisfaction of seeing your code enable
+  seamless control over a smart home, or how your work contributes to our 75+
+  year legacy of innovation. It's truly exciting to contribute to a tangible
+  vision where technology enhances daily life, all while working in a tight-knit
+  team that values creative solutions.
+story_question2: >-
+  The role mentions ensuring performance, scalability, and security for modern
+  web applications in a growing market. What are some of the key technical
+  challenges you foresee in this area, and how does the team approach them?
+story_answer2: >-
+  That's a crucial point, especially with the rapid expansion of the Smart Home
+  market! The biggest challenges often lie in maintaining robust performance and
+  scalability as our user base and device ecosystem grow. We combat this by
+  leaning heavily into modern architectures like Microservices and Service-Mesh,
+  and by rigorously applying best practices in Git-driven development, Docker
+  for containerization, and automated deployments. Security is paramount, so we
+  embed it into every stage of development, from code reviews to automated
+  tests. It’s a collective effort where everyone brings an eye for clean,
+  secure, and scalable code, ensuring our solutions are not just functional but
+  future-proof.
+story_question3: >-
+  ELTAKO has a long history and is known for sustainability, quality, and
+  innovation. How does the company support the professional growth of its
+  developers, especially when working on cutting-edge technologies like Cloud,
+  IoT, and modern web frameworks?
+story_answer3: >-
+  Our history is a foundation, not a limitation – it drives us to continuously
+  innovate! Professional growth here isn't just encouraged; it's ingrained in
+  our culture. You'll be working hands-on with the latest technologies like
+  Vue.js, Nuxt.js, Python, Cloud, and IoT, directly shaping our future products.
+  We foster an environment where learning is continuous – through challenging
+  projects, code reviews, and the collaborative sharing of knowledge within our
+  'Spitzenteam'. With flat hierarchies and short decision paths, your ideas have
+  a direct impact. Plus, we equip you with modern technical gear and support a
+  flexible, agile way of working that allows you to expand your skills while
+  contributing to a company known for quality and forward-thinking solutions.
 ---
-Wir bei ELTAKO verfolgen ein gemeinsames Ziel: Aus jedem Home ein Smart Home zu machen. Unser Erfolgsrezept sind über 150 engagierte Kolleginnen und Kollegen in ganz Europa, die mit Ideenreichtum und technischer Leidenschaft unsere Produkte entwickeln – seit über 75 Jahren.
-
-Du suchst eine neue Herausforderung als **Full-Stack Web-Entwickler (m/w/d)**, bist ein Teamplayer und liebst es, sowohl im Frontend als auch im Backend smarte Lösungen zu bauen? Dann bist du bei uns genau richtig!
-
-Aufgaben
---------
-
-*   Du arbeitest an der Neuentwicklung unserer Webseite sowie interner Anwendungen und stellst sicher, dass diese performant und zukunftssicher sind.
-*   Du entwickelst und pflegst moderne Webanwendungen mit Schwerpunkt auf Vue.js, Python und idealerweise Nuxt.js.
-*   Du leistest einen wesentlichen Beitrag zur Entwicklung unserer Cloud-Lösung, die unser Kundenportal darstellt und unsere smarten Geräte vernetzt.
-*   Du automatisierst Deployments und Workflows in Cloud-Umgebungen.
-*   Du arbeitest mit Git für die Versionskontrolle und setzt Docker für die Containerisierung ein.
-*   Du unterstützt den Betrieb deiner entwickelten Lösungen und sorgst durch Analyse und Behebung von Fehlern für einen stabilen und reibungslosen Betrieb.
-
-Qualifikation
--------------
-
-*   Du hast eine abgeschlossene Ausbildung als Fachinformatiker Anwendungsentwicklung (m/w/d) oder ein abgeschlossenes Studium im Bereich Informatik, Mobile Medien, Medieninformatik o. Ä.
-*   Starke Affinität für Cloud, IoT-Technologien und Begeisterung für Smart-Home- und Smart-Building-Anwendungen.
-*   Du bringst fundierte Kenntnisse in Vue.js (idealerweise auch Nuxt.js) und Python für das Backend mit.
-*   Du hast mindestens 3 Jahre Erfahrung in der Entwicklung von Webanwendungen gesammelt und kannst dabei sowohl im Frontend als auch im Backend überzeugen.
-*   Service-Mesh und Microservices sind Teil deines Repertoires, und du bringst praktische Erfahrung aus Projekten im Cloud-Umfeld mit.
-*   Du bringst nicht nur ein Auge für sauberen Code mit – auch Skalierbarkeit, Performance und Sicherheit verlierst du bei der Entwicklung nie aus dem Blick.
-*   Git und Docker gehören für dich genauso zum Alltag wie Code-Reviews und eine klare Softwarearchitektur.
-*   Kenntnisse in automatisierten Tests (z. B. Unit- oder Integrationstests) runden dein Profil ab.
-*   Du arbeitest eigenständig, denkst mit und bist gleichzeitig ein echter Teamplayer.
-*   Verhandlungssichere Englisch- und Deutschkenntnisse (mind. C1) in Wort und Schrift
-
-Benefits
---------
-
-*   Eine verantwortungsvolle Rolle mit attraktiver Vergütung
-*   Eine unbefristete Festanstellung
-*   Moderne technische Ausstattung
-*   Arbeit an zukunftsweisenden Produkten im wachsenden Smart-Home-Markt
-*   Flache Hierarchien, kurze Entscheidungswege, agiles Arbeiten
-*   Flexible Arbeitszeiten und hybrides Arbeiten möglich
-*   30 Tage Urlaub im Jahr – mit steigendem Urlaubsanspruch basierend auf der Betriebszugehörigkeit
-*   Ein Spitzenteam und eine familiäre Arbeitsatmosphäre
-*   Arbeiten für ein renommiertes Unternehmen, dessen Name für Nachhaltigkeit, Qualität und Innovation steht
-
-CHALLENGE ACCEPTED?
-
-Dann freuen wir uns auf deine aussagekräftigen Bewerbungsunterlagen!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAt ELTAKO, we share a common goal: to turn every home into a Smart Home. Our success is driven by over 150 dedicated colleagues across Europe who, with creativity and technical passion, have been developing our products for over 75 years.\n\nAre you looking for a new challenge as a Full-Stack Web Developer (m/w/d)? Are you a team player who loves building smart solutions for both the frontend and backend? Then you've come to the right place!\n\n### Responsibilities\n- You will work on the new development of our website and internal applications, ensuring they are performant and future-proof.\n- You will develop and maintain modern web applications with a focus on Vue.js, Python, and ideally Nuxt.js.\n- You will make a significant contribution to the development of our Cloud solution, which serves as our customer portal and connects our smart devices.\n- You will automate deployments and workflows in Cloud environments.\n- You will use Git for version control and implement Docker for containerization.\n- You will support the operation of your developed solutions and ensure stable and smooth operation through analysis and error resolution.\n\n### Qualifications\n- Completed vocational training as an IT Specialist for Application Development (m/w/d) or a degree in Computer Science, Mobile Media, Media Informatics, or similar.\n- Strong affinity for Cloud and IoT technologies, and enthusiasm for Smart Home and Smart Building applications.\n- You bring profound knowledge in Vue.js (ideally Nuxt.js) and Python for the backend.\n- You have at least 3 years of experience in web application development, demonstrating expertise in both frontend and backend.\n- Service-Mesh and Microservices are part of your repertoire, and you have practical experience from projects in a Cloud environment.\n- You not only have an eye for clean code but also keep scalability, performance, and security in mind during development.\n- Git and Docker are as much part of your daily routine as code reviews and a clear software architecture.\n- Knowledge of automated tests (e.g., Unit or Integration tests) rounds off your profile.\n- You work independently, think proactively, and are a true team player.\n- Fluent English and German (at least C1) in spoken and written form.\n\n### Author's Take\nThis is an excellent opportunity for a passionate Mid-Senior Full-Stack Web Developer to join a renowned company with a rich history of over 75 years in innovation. ELTAKO offers a responsible role with attractive benefits, including modern technical equipment, flexible and hybrid working options, 30 days of holiday, and a supportive, familiar team atmosphere. If you're excited about making a real impact in the growing Smart Home market, working with cutting-edge technologies like Vue.js, Nuxt.js, Python, Cloud, and IoT, and thriving in an agile environment with flat hierarchies, this role provides significant growth potential and a chance to contribute to a sustainable and quality-driven vision.
