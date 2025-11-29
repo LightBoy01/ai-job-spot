@@ -12,67 +12,50 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '€90,000 - €130,000 / Jahr'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-freiburg-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-freiburg-im-breisgau-439427
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a positive, growth-oriented environment, offering
+  limitless development opportunities, including a path to partnership. It
+  emphasizes work-life balance through flexible hours and home office, strong
+  team collaboration, and significant investment in personal and professional
+  growth.
+story_question1: >-
+  This role offers the unique opportunity to shape one's own task profile. How
+  does the firm support this autonomy, and what does success look like for a Tax
+  Advisor proactively developing their niche?
+story_answer1: >-
+  It's all about empowerment here. From day one, we encourage our Tax Advisors
+  to lean into their strengths. You'll have dedicated senior mentors who act
+  more as navigators than managers, helping you identify areas where your
+  expertise can truly shine, whether that's in complex inheritance tax cases or
+  innovative digital solutions. Success isn't just about billable hours; it's
+  about seeing your specialized projects grow, earning client trust through your
+  unique insights, and perhaps even leading a small team in an area you've
+  championed. One of our Senior Advisors recently spearheaded a new digital tax
+  advisory service for startups, a passion project that quickly became a core
+  offering, proving that your vision can genuinely shape the firm's future.
+story_question2: >-
+  The mention of a 'partner perspective' is intriguing. Could you elaborate on
+  the typical timeline and support structure for an individual contributor
+  progressing towards partnership within the firm?
+story_answer2: >-
+  The 'partner perspective' isn't just a buzzword; it's a tangible career path
+  we actively cultivate. While timelines can vary based on individual growth and
+  firm needs, we typically see our senior advisors demonstrate their leadership
+  potential, client portfolio growth, and a strong commitment to the firm's
+  values over a 5-7 year period. The support structure is comprehensive: you'll
+  receive strategic mentorship from current partners, participate in leadership
+  development programs, and be given increasing responsibility in client
+  acquisition and firm management. We invest heavily in our future leaders,
+  understanding that their success is our collective success. It's a journey
+  built on mutual trust, continuous learning, and a shared vision for the future
+  of tax consulting.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Freiburg.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nTaxTalente is the premier job-matching platform connecting top tax professionals with leading firms. We are seeking highly qualified Tax Advisors (m/f/d) for one of our distinguished partner firms located in Freiburg. This is an exceptional opportunity for professionals looking for a significant career advancement, a positive and appreciative work environment, and the potential to achieve partnership. Our network boasts attractive employers offering boundless development opportunities, diverse professional fields, and competitive salaries. If you're ready for a change where your financial and personal contributions are truly valued, we encourage you to connect with us. For specific inquiries, feel free to contact Mr. Becker-Koch directly at +49 15901431130.\n\n### Responsibilities\nOur partner firm offers the unique flexibility to tailor your role based on your individual strengths and interests. Your key responsibilities may include:\n*   Preparing and reviewing annual financial statements.\n*   Preparing tax declarations for individuals and corporations.\n*   Leading specialized tax consulting projects based on your individual qualifications, such as in inheritance tax or corporate restructuring tax law.\n*   Supporting and guiding clients through tax audits.\n*   **Optional:** Taking on team leadership and personnel responsibility.\n*   Engaging in further individually selectable areas of activity that align with your passion and bring you professional satisfaction.\n\n### Qualifications\nWe are looking for a professional who aligns with our partner firm's values and requirements. The ideal candidate will possess:\n*   A communicative demeanor and genuine enjoyment in client interaction.\n*   A careful, efficient, and conscientious approach to work.\n*   Openness and adaptability to a digital working environment.\n*   **Optional:** An understanding of leadership and a strong sense of responsibility towards colleagues.\n*   A successfully completed Tax Advisor exam.\n*   A deep passion and enthusiasm for tax-related topics.\n\n### Author's Take\nThis is not just another job opening; it's a strategic career move facilitated by TaxTalente, designed for experienced Tax Advisors seeking unparalleled growth and recognition. The role offers an impressive salary range of €90,000 to €130,000 annually, coupled with a genuine partner perspective, reflecting the firm's commitment to investing in its talent. Beyond financial incentives, candidates can expect exceptional work-life balance through flexible hours and home office options, significant support for continuous professional development (e.g., specialized advisor qualifications), and a modern, digitally-equipped workplace. The emphasis on strong team cohesion and regular events underlines a vibrant, supportive culture. TaxTalente's service ensures a smooth, anonymous, and efficient job search, handling salary negotiations and connecting you only with meticulously selected, forward-thinking firms that truly stand out in the industry. This is an excellent opportunity for a professional ready to define their own path and thrive in a truly empowering environment.
