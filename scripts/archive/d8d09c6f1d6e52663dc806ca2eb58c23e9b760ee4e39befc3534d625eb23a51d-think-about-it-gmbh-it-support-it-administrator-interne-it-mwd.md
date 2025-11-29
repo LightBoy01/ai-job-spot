@@ -4,8 +4,8 @@ title: IT Support / IT Administrator - interne IT (m/w/d)
 company: think about IT GmbH
 location: Mainz
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/it-support-it-administrator-interne-it-mainz-491980
-postedDate: '2025-10-31T14:32:04.000Z'
+  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/it-support-it-administrator-interne-it-mainz-460658
+postedDate: '2025-11-26T08:02:29.000Z'
 expirationDate: null
 tags:
   - IT
@@ -15,78 +15,41 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/it-support-it-administrator-interne-it-mainz-491980
+  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/it-support-it-administrator-interne-it-mainz-460658
 companyLogoUrl: null
 companyCulture: >-
-  thinkRED fosters a collaborative and supportive team environment, emphasizing
-  holistic and reliable digitalization. They prioritize employee growth with
-  extensive onboarding, a buddy program, and a dedicated training budget,
-  alongside a focus on work-life balance through home-office options and various
-  social activities.
+  thinkRED fosters a supportive, team-oriented culture with a strong emphasis on
+  growth and employee well-being. They offer work-life balance through home
+  office options, provide ample learning opportunities via a buddy program and
+  annual training budget, and encourage personal development within a
+  collaborative environment.
 story_question1: >-
-  How does thinkRED ensure new team members feel integrated and supported,
-  especially given the emphasis on 'Heart and Soul' and teamwork?
+  How does this IT System Administrator role directly enable thinkRED's mission
+  to digitalize the public sector, and what impact can an individual contributor
+  truly make?
 story_answer1: >-
-  When I joined, I was immediately struck by the genuine warmth of the team. The
-  'Buddy-Programm' isn't just a name – my buddy helped me navigate everything
-  from system access to the best lunch spots. There's a real sense of 'all for
-  one' here; if you're stuck, someone always jumps in to help. It truly feels
-  like a family that's passionate about our mission to shape digitalization
-  responsibly, and that 'Herzblut' translates into how we treat each other every
-  day, even beyond work hours.
+  It's easy to think of IT administration as purely internal, but here at
+  thinkRED, your work is absolutely foundational to our public sector mission.
+  Imagine our experts advising schools or municipalities on complex IT projects;
+  they can only deliver that high level of service because they know our
+  internal systems – email, collaboration tools, databases – are robust and
+  reliable, thanks to you. You're the silent enabler, ensuring our
+  customer-facing teams have the flawless tools they need to make a tangible
+  difference in digitalization across Germany. Your impact is felt in every
+  successful project we deliver.
 story_question2: >-
-  The description mentions 'Eigenverantwortliches Patch- und Update-Management'
-  and 'Unterstützung bei IT-Projekten.' Can you give an example of a recent IT
-  project where a System Administrator made a significant, autonomous
-  contribution?
+  Beyond the core responsibilities, what specific opportunities exist for
+  professional development and specialization for an IT System Administrator at
+  thinkRED?
 story_answer2: >-
-  Absolutely. A great example was our recent shift to a new internal
-  documentation tool. While it was a team effort, one of our System
-  Administrators really took the lead on researching, piloting, and then rolling
-  out the chosen solution. They independently managed the vendor communication,
-  gathered feedback from internal users, and then orchestrated the migration and
-  training. It significantly improved our internal knowledge sharing, and it
-  showcased the kind of autonomy and impact you can have here, especially when
-  you demonstrate initiative and a structured approach. We empower our team to
-  own their areas.
-story_question3: >-
-  How does thinkRED balance the technical demands of managing complex IT
-  infrastructure for public sector clients with fostering a supportive internal
-  culture and promoting work-life balance?
-story_answer3: >-
-  It's a balance we actively strive for. On the technical side, we empower our
-  team with a generous annual training budget and encourage continuous learning,
-  knowing that the public sector demands robust and secure solutions. But we
-  also understand that intense work needs balance. That's why we champion
-  flexible work models like home office, offer tangible benefits like our
-  'Healthy Wednesday' lunches, and organize team events. We believe a happy,
-  well-supported team is a productive team. It's about having the right tools
-  and support to do your best work, but also having the space to recharge and
-  connect with your colleagues outside of pressing deadlines.
+  We're passionate about growth and truly believe in fostering our team's
+  potential. While you'll manage critical day-to-day operations, you're also
+  encouraged to actively participate in larger IT projects like system rollouts
+  or migrations, gaining exposure to new technologies and processes. We back
+  this up with a substantial annual training budget and a 'buddy program' to
+  help you settle in and identify growth areas. So, whether you want to deepen
+  your expertise in cloud security, virtualization, or a specific Microsoft 365
+  service, we provide the resources and environment to support your professional
+  journey here.
 ---
-### Description
-thinkRED operates as a dedicated IT partner for public authorities, municipalities, and educational institutions across Germany. Through significant hardware and service framework agreements, their experts provide comprehensive and individualized consulting to public sector clients. This support spans from infrastructure concept design and hardware implementation to professionally structured, long-term support, as well as media pedagogical and technical training for users.
-
-Join thinkRED's committed team and help shape visions! We are dedicated to delivering digitalization solutions that are holistic, future-proof, and reliable. With great passion, we advocate for both our customers and for each other within the team.
-
-### Responsibilities
-*   Maintenance and further development of our internal IT infrastructure (Windows/Microsoft environment)
-*   Administration of servers, clients, networks, and Microsoft 365 services
-*   User and rights management in Active Directory, along with support for hardware and software problems
-*   Independent patch and update management for our systems
-*   Documentation of systems, processes, and configurations
-*   Support for IT projects, e.g., rollouts, migrations, or the introduction of new tools
-*   1st and 2nd level support for our internal users – on-site and remotely
-*   Coordination with external service providers and suppliers
-
-### Qualifications
-*   Completed vocational training in IT or a comparable qualification
-*   Profound knowledge in Windows system administration (Server & Clients)
-*   Experience with network technologies and Microsoft 365
-*   Structured, independent, and service-oriented work ethic
-*   Team player with a strong sense of responsibility
-*   Ideally, experience with IT documentation tools and ticket systems
-*   Knowledge of IT security or virtualization is a plus
-
-### Author's Take
-This role at thinkRED, based in Mainz with home-office possibilities, offers a fantastic opportunity for a dedicated IT System Administrator to make a tangible impact on the company's internal infrastructure. You'll be part of an engaged team that values collaboration, personal growth, and a supportive environment. The company stands out with its commitment to employee well-being, offering extensive benefits such as a comprehensive onboarding process, an annual training budget, a "Buddy-Programm," free lunch on "Healthy Wednesdays," fitness studio partnerships, bike leasing, and numerous employee discounts. If you're looking for a role where your expertise in Windows and Microsoft 365 administration will be highly valued, and you thrive in a company that invests in its people and fosters a strong team spirit, then thinkRED could be your next great career move. They genuinely care about their team, both professionally and personally.
+### Description\nBased in Mainz, thinkRED serves as a dedicated IT partner for public authorities, municipalities, and educational institutions across Germany. We comprehensively support our public sector clients, from infrastructure conception and implementation to long-term professional support, including media-pedagogical and technical training for users.\n\nAt thinkRED, we invite you to become part of our committed team and help shape visions! Our mission is to design digitalization holistically, sustainably, and reliably. We apply passion and dedication to both our clients and our team.\n\n### Responsibilities\n- Manage and further develop our internal IT infrastructure (Windows-/Microsoft-environment)\n- Administer servers, clients, networks, and Microsoft 365 services\n- Handle user and rights management in Active Directory, and provide support for hardware and software issues\n- Independently manage patch and update processes for our systems\n- Document systems, processes, and configurations\n- Support IT projects, such as rollouts, migrations, or the introduction of new tools\n- Provide 1st and 2nd level support for our internal users – both on-site and remotely\n- Coordinate external service providers and suppliers\n\n### Qualifications\n- Completed education in the IT sector or a comparable qualification\n- Solid knowledge of Windows system administration (Server & Clients)\n- Experience with network technologies and Microsoft 365\n- Structured, independent, and service-oriented work ethic\n- Team player with a strong sense of responsibility\n- Ideally, experience with IT documentation tools and ticketing systems\n- Knowledge of IT security or virtualization is an advantage\n\n### Author's Take\nThis IT System Administrator position at thinkRED offers an exciting opportunity to significantly support the internal IT infrastructure of a company specializing in the public sector. The role focuses on administration and development within the Microsoft environment, along with providing essential internal user support. thinkRED emphasizes a strong team cohesion, offers flexible work arrangements including home office, provides an annual training budget, and ensures comprehensive onboarding through a buddy program. This role is ideal for dedicated individual contributors who wish to develop professionally in a supportive and growth-oriented environment, making a tangible impact on the company's mission to digitalize public services.

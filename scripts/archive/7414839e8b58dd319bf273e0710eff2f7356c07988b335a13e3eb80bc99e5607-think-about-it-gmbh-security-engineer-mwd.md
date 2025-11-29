@@ -4,8 +4,8 @@ title: Security Engineer (m/w/d)
 company: think about IT GmbH
 location: Bochum
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/security-engineer-bochum-375348
-postedDate: '2025-10-31T14:32:00.000Z'
+  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/security-engineer-bochum-13269
+postedDate: '2025-11-26T08:02:28.000Z'
 expirationDate: null
 tags:
   - IT
@@ -15,40 +15,44 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/security-engineer-bochum-375348
+  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/security-engineer-bochum-13269
 companyLogoUrl: null
 companyCulture: >-
-  The think Group cultivates a highly supportive and collaborative team culture,
-  evidenced by close cross-functional cooperation and social activities. They
-  prioritize employee well-being and work-life balance through generous home
-  office options, 'workation' opportunities, and various wellness benefits,
-  alongside a strong commitment to individual professional growth and
-  development.
+  The company fosters a collaborative and supportive environment, emphasizing
+  continuous learning and individual growth. They promote a healthy work-life
+  balance through flexible work options, including remote work and 'workation',
+  alongside robust team-building activities.
+story_question1: >-
+  Given the constantly evolving threat landscape, what's the most significant
+  challenge a Security Engineer faces here, and how does the team collaborate to
+  overcome it?
+story_answer1: >-
+  Oh, that's a fantastic question, and it really gets to the heart of what we
+  do. The biggest challenge, hands down, is staying one step ahead of the bad
+  guys while also ensuring our clients' operations run smoothly. It's like a
+  continuous chess game. What makes it manageable and even exciting here is our
+  collaborative spirit. When a complex incident arises, it's never just one
+  person's problem. We immediately swarm on it – bringing in system admins,
+  network experts, and even project managers to ensure a holistic response.
+  We're always sharing knowledge, whether it's in our daily stand-ups or during
+  dedicated knowledge-sharing sessions. This isn't just about 'fixing' things;
+  it's about learning, adapting, and continuously fortifying our defenses
+  together. It really embodies our 'one team' philosophy.
+story_question2: >-
+  With benefits like an annual training budget and 'workation', how does the
+  company truly support a Security Engineer's professional development and
+  work-life balance in practice?
+story_answer2: >-
+  That's one of the things I truly appreciate about working here. The annual
+  training budget isn't just a number on paper; it's genuinely encouraged.
+  Whether it's a new certification, a specialized course on cloud security, or
+  attending a conference, the company invests in us because they know it
+  strengthens the entire team. And 'Workation'? It's a game-changer! I've spent
+  weeks working from Spain, enjoying a different environment while still
+  delivering top-notch work. It's a testament to the trust the company places in
+  us and their commitment to our well-being. They understand that a refreshed
+  mind is a more productive mind, and that personal growth goes hand-in-hand
+  with professional growth. It really makes you feel valued, not just as an
+  employee, but as an individual.
 ---
-### Description
-Join the think Group team as a Security Engineer (m/w/d) at our Bochum location! We're seeking a passionate and skilled individual to strengthen our cybersecurity posture and advise clients on best practices. This role offers a unique blend of technical challenge and direct client impact, all within a company that deeply values its employees' growth, well-being, and a strong sense of community. You'll be part of a dynamic environment that provides extensive benefits, from flexible working models like home office and 'workation' to comprehensive professional development and a supportive team that thrives both in and out of work.
-
-### Responsibilities
-*   Plan, implement, and continuously develop security concepts for our client infrastructure.
-*   Conduct risk analyses, vulnerability scans, and penetration tests.
-*   Set up, configure, and operate security solutions.
-*   Perform Incident Response: analyze and handle security-relevant incidents.
-*   Advise our clients on best practices in Cyber Security, Awareness, and Compliance.
-*   Collaborate closely with our system administrators, network experts, and project managers.
-
-### Qualifications
-*   Completed technical degree or comparable education (e.g., IT specialist for system integration).
-*   Profound knowledge of IT security technologies.
-*   Experience with firewalls, IDS/IPS, endpoint security, and SIEM systems.
-*   Proficient in Windows and Linux environments.
-*   Knowledge of network and cloud security (Azure, M365, AWS is a plus).
-*   Analytical thinking, structured way of working, and high level of initiative.
-*   Good German and English language skills, both written and spoken.
-
-### Author's Take
-
-**Q1: How does a Security Engineer at think Group truly make an impact on clients and the overall business?**
-"From an insider's perspective, this role isn't just about managing systems; it's about being the frontline defender for our clients' digital assets. You're directly responsible for designing robust security architectures, proactively hunting for vulnerabilities, and rapidly responding to threats. Imagine the satisfaction of knowing you’ve just helped a client avoid a major breach, or guided them to adopt practices that significantly strengthen their posture. You’re not just a technician; you're a trusted advisor, a guardian of their infrastructure, and a key player in building long-term trust and resilience for businesses that rely on us. Your work directly translates into peace of mind for our clients and the continued reputation of think Group as a cybersecurity leader."
-
-**Q2: Beyond the technical work, what’s it really like to be part of the team and grow professionally here?**
-"It's a genuine team effort here. You know how some places say they're collaborative? We actually live it. Our buddy program isn't just for onboarding; it's a reflection of how we support each other day-to-day. We collaborate closely across departments, sharing knowledge and tackling complex challenges together. And it's not just work-work-work – the company actively encourages a healthy balance with benefits like generous home office options, annual 'workation' opportunities, and even free healthy lunches. Plus, the commitment to professional growth is real. With a dedicated annual budget for training and a focus on individual development, you're truly empowered to shape your career path and stay at the cutting edge of cybersecurity. It's a place where you feel valued, supported, and challenged to grow."
+### Description\nthink Group is looking for a Security Engineer (m/w/d) to join their team in Bochum. This role involves developing and implementing security concepts for client infrastructure, conducting various security analyses, and providing expert advice. You will work closely with other technical teams to ensure robust security solutions and incident response.\n\n### Responsibilities\n- Planning, implementation, and continuous development of security concepts for client infrastructure.\n- Conducting risk analyses, vulnerability scans, and penetration tests.\n- Setting up, configuring, and operating security solutions.\n- Incident Response: Analyzing and handling security-relevant incidents.\n- Advising clients on best practices in Cyber Security, Awareness, and Compliance.\n- Close collaboration with system administrators, network experts, and project managers.\n\n### Qualifications\n- Completed technical degree or comparable education (e.g., IT Specialist for System Integration).\n- Profound knowledge in IT security technologies.\n- Experience with firewalls, IDS/IPS, endpoint security, and SIEM systems.\n- Proficient in Windows and Linux environments.\n- Knowledge of network and cloud security (Azure, M365, AWS advantageous).\n- Analytical thinking, structured work approach, and a high level of self-initiative.\n- Good spoken and written German and English skills.\n\n### Author's Take\nThis is an excellent opportunity for a Security Engineer looking to join a dynamic and supportive team in Bochum. The company places a strong emphasis on professional development, offering an annual training budget and a comprehensive onboarding program with a buddy system. Employees benefit from a fantastic work-life balance, including home office options and up to four weeks of 'workation' from abroad. The collaborative culture, combined with various perks like an in-house fitness studio, bike-leasing, and team events, makes think Group an attractive employer committed to employee well-being and growth. They are looking for proactive individuals who want to make a real impact on client security.

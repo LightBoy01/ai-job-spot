@@ -4,8 +4,8 @@ title: IT-System Engineer (m/w/d)
 company: think about IT GmbH
 location: Bochum
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/it-system-engineer-bochum-13663
-postedDate: '2025-10-31T14:32:03.000Z'
+  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/it-system-engineer-bochum-167928
+postedDate: '2025-11-26T08:02:28.000Z'
 expirationDate: null
 tags:
   - IT
@@ -15,102 +15,38 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/it-system-engineer-bochum-13663
+  https://www.arbeitnow.com/jobs/companies/think-about-it-gmbh/it-system-engineer-bochum-167928
 companyLogoUrl: null
 companyCulture: >-
-  The thinkGROUP fosters an innovative and customer-oriented environment,
-  prioritizing continuous learning and professional development. They promote a
-  supportive team culture with strong work-life balance through flexible work
-  options and emphasize employee well-being and collaboration through various
-  benefits and team activities.
+  The thinkGROUP fosters a culture of continuous innovation and personal growth,
+  supporting employees with extensive training and development. They emphasize
+  strong team cohesion through collaborative projects and social activities,
+  while also offering flexibility with home office and 'workation' options.
 story_question1: >-
-  Given the responsibility for maintaining and migrating diverse client Windows
-  Server infrastructures, what's the most challenging aspect of ensuring
-  seamless transitions and continuous service excellence, and how does the
-  thinkGROUP support engineers in overcoming these hurdles?
+  Wie stellt die thinkGROUP sicher, dass IT-System Engineers kontinuierlich mit
+  den neuesten Technologien und Best Practices arbeiten können, insbesondere bei
+  der Migration älterer Systeme?
 story_answer1: >-
-  That's a fantastic question! The biggest challenge often lies in the sheer
-  variety of client environments and legacy systems we encounter. It’s not just
-  about technical skill; it’s about deep problem-solving and foresight. We
-  really lean on our collaborative spirit here. Every engineer has access to our
-  collective knowledge base and, crucially, a dedicated annual training budget
-  to keep skills sharp. Plus, our 'buddy program' ensures new team members get
-  immediate, hands-on support, making sure no one faces a complex migration or
-  critical incident alone. It’s truly a team effort to deliver that excellent
-  service.
+  Bei uns ist Stillstand ein Fremdwort! Als System Engineer bist du nicht nur
+  Verwalter, sondern Gestalter. Wir investieren gezielt in deine Weiterbildung –
+  jedes Jahr hast du ein Budget, um dich zu zertifizieren oder an Konferenzen
+  teilzunehmen. Wenn es um Migrationen geht, sehen wir das als Chance, unsere
+  Kunden auf den neuesten Stand der Technik zu bringen und gleichzeitig unsere
+  eigenen Fähigkeiten zu schärfen. Es ist unglaublich befriedigend, eine alte
+  Infrastruktur zu modernisieren und direkt zu sehen, wie die Performance und
+  Sicherheit für unsere Kunden steigt. Wir sind immer auf der Suche nach den
+  besten Lösungen, und dein Input ist dabei absolut entscheidend.
 story_question2: >-
-  The job description mentions a high degree of personal development and
-  individual support, alongside benefits like a buddy program and a yearly
-  training budget. How does thinkGROUP specifically foster a culture of
-  continuous learning and career advancement for an IT System Engineer?
+  Wie fördert die thinkGROUP eine gesunde Work-Life-Balance und flexibles
+  Arbeiten für ihre System Engineers?
 story_answer2: >-
-  Our commitment to growth is truly at the heart of thinkGROUP. Beyond the
-  annual training budget, which you can direct towards certifications or new
-  technologies, we hold regular internal knowledge-sharing sessions. We also
-  encourage engineers to take ownership of projects that stretch their
-  capabilities, giving them exposure to new areas like cloud integration or
-  advanced security. Our leadership actively mentors, and we have clear career
-  paths. It's not just about fixing systems; it's about evolving your expertise,
-  and we provide the tools, the time, and the encouragement to make that happen.
-  We truly believe your growth is our growth.
-story_question3: >-
-  With responsibilities like proactive monitoring and incident handling, the
-  role sounds demanding. How does thinkGROUP balance these demands with the
-  attractive benefits like home office options, workation, and team activities
-  to ensure a sustainable work-life balance and strong team cohesion?
-story_answer3: >-
-  You're right, our work is critical, but we firmly believe that a balanced,
-  happy team delivers the best results. The flexibility of home office and up to
-  four weeks of 'workation' in Europe are core to that. We trust our team to
-  manage their time effectively, focusing on outcomes rather than just hours. We
-  also prioritize transparent communication and smart resource allocation to
-  prevent burnout. Beyond that, our regular team events – from healthy Wednesday
-  lunches to company outings – are genuinely looked forward to. They're not just
-  perks; they're essential moments where we connect, recharge, and reinforce the
-  strong bonds that make our team resilient and supportive, both professionally
-  and personally.
+  Wir wissen, dass exzellente Leistung auch Erholung braucht. Deshalb ist bei
+  uns flexibles Arbeiten mit Home-Office-Anteilen selbstverständlich, und die
+  Möglichkeit zu bis zu vier Wochen 'Workation' pro Jahr aus dem europäischen
+  Ausland ist ein echtes Highlight. Das gibt uns die Freiheit, Arbeit und
+  Privatleben optimal zu verbinden, ohne den Teamzusammenhalt zu verlieren. Und
+  wenn wir mal nicht remote arbeiten, stärken wir unser Wir-Gefühl bei
+  gemeinsamen Mittagessen oder Sport im hauseigenen Fitnessstudio. Es ist eine
+  Kultur, die Vertrauen und Eigenverantwortung großschreibt.
 ---
-### Description
-thinkGROUP is a successful system house group that constantly strives for innovation and places great importance on the continuous optimization of our internal processes. The use of state-of-the-art technologies is not an end in itself, but an expression of our innovative spirit and lived customer orientation. Excellent IT service requires optimal systems. Our motivated team gives its best every day to delight our customers again and again.
-
-We are looking for you to join our IT-Consulting department as soon as possible at our **Bochum** location. Become part of thinkGROUP and support us as an **IT-System Engineer (m/f/d)**.
-
-### Responsibilities
-*   Operational responsibility for our customers' Windows Server infrastructure, including the products and features used.
-*   Processing of incidents and service requests.
-*   Proactive monitoring of Windows Servers in customer environments.
-*   Independent adaptation of system configurations and the creation and supplementation of corresponding documentation.
-*   Independent installation and project takeover in the Windows Server area.
-*   Migration of older installations to current standards, including all dependencies.
-*   Technical consulting for customers in connection with the current operating scenario.
-
-### Qualifications
-*   Completed technical degree or comparable training (e.g., IT specialist for system integration).
-*   Several years of professional experience in the above-mentioned activities.
-*   Knowledge of Windows 2008 - 2019 technologies, including migration paths for individual services.
-*   Knowledge of Windows Server up to 2024.
-*   Service-oriented and reliable way of working.
-*   Confident demeanor and good German and English language skills, both spoken and written.
-*   Practical experience in firewalling and Windows Powershell knowledge is an advantage.
-*   Certifications such as MCSA/MCSE and experience in incident and problem management are desirable.
-*   Driving license B for cars/small buses (old: FS 3) is desirable.
-
-### Author's Take
-This role at thinkGROUP offers an exciting opportunity for a seasoned IT System Engineer to become part of an innovative and customer-focused team. Beyond the technical challenges of managing diverse Windows Server infrastructures for clients, thinkGROUP truly invests in its employees.
-
-The company culture strongly emphasizes personal growth and work-life balance, evident through benefits such as:
-*   Flexible home office options
-*   Up to 4 weeks of 'Workation' annually (mobile working from European countries)
-*   Comprehensive onboarding complemented by a Buddy Program
-*   An annual budget for continuous professional development and training
-*   Employee referral bonuses (€1,000)
-*   Employer contribution of €200 for workplace glasses
-*   Free lunch on 'Healthy Wednesday'
-*   Employer contribution to wealth formation
-*   A high degree of personal development and individual support
-*   Access to an in-house fitness studio
-*   Bike leasing offers for you and your family
-*   Personal discounts and benefits with numerous cooperation partners
-*   Regular joint leisure activities, fostering a strong team spirit.
-
-thinkGROUP values a collaborative environment where teams stick together, even outside of work. If you're a proactive, service-oriented engineer looking for a role where your expertise is valued and your growth is prioritized, this could be an excellent fit. They are looking for candidates who specify their salary expectations and earliest possible start date in their application. For technical questions, direct contact with the specialist department can be arranged through HR Manager Alexander Bieber.
+### Description\nDie thinkGROUP ist eine dynamische Systemhausgruppe, die sich durch ihren Innovationsgeist und die kontinuierliche Optimierung interner Prozesse auszeichnet. Wir nutzen modernste Technologien, um unseren Kunden exzellenten IT-Service zu bieten. Werde Teil unseres motivierten Teams in Bochum als IT-System Engineer (m/w/d) im Fachbereich IT-Consulting und trage dazu bei, unsere Kunden täglich aufs Neue zu begeistern.\n\n### Responsibilities\n- Betriebsverantwortung für die Windows Server Infrastruktur unserer Kunden, einschließlich der eingesetzten Produkte und Features.\n- Bearbeitung von Incidents sowie Service Requests.\n- Proaktive Überwachung der Windows Server in den Kunden-Umgebungen.\n- Eigenständige Anpassung von Systemkonfigurationen sowie die Erstellung und Ergänzung entsprechender Dokumentationen.\n- Selbstständige Installation und Projektübernahme im Bereich Windows Server.\n- Migration älterer Installationen auf aktuelle Standards, inklusive sämtlicher Abhängigkeiten.\n- Fachliche Beratung von Kunden im Zusammenhang mit dem aktuellen Betriebsszenario.\n\n### Qualifications\n- Abgeschlossenes technisches Studium oder eine vergleichbare Ausbildung (z.B. Fachinformatiker/in Systemintegration).\n- Mehrjährige Berufserfahrung in den oben genannten Tätigkeiten.\n- Fundierte Kenntnisse der Technologien Windows Server 2008 - 2019, inklusive Migrationswege einzelner Dienste/Services.\n- Kenntnisse von Windows Server bis 2024.\n- Dienstleistungsorientierte und zuverlässige Arbeitsweise.\n- Sicheres Auftreten sowie sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift.\n- Praktische Erfahrung im Bereich Firewalling und Windows Powershell Know-how von Vorteil.\n- Zertifizierungen wie bspw. MCSA/MCSE sowie Erfahrung im Incident- und Problemmanagement wünschenswert.\n- Fahrerlaubnis B (PKW/Kleinbusse) wünschenswert.\n\n### Author's Take\nDiese Rolle bei der thinkGROUP bietet eine hervorragende Gelegenheit für erfahrene IT-System Engineers, die Wert auf Innovation, Eigenverantwortung und kontinuierliche Weiterentwicklung legen. Das Unternehmen fördert aktiv die persönliche Entfaltung durch jährliche Weiterbildungsbudgets und ein Buddy-Programm. Besonders attraktiv sind die modernen Arbeitsmodelle mit Home-Office-Anteilen und der Option auf bis zu vier Wochen Workation pro Jahr im europäischen Ausland, was eine ausgezeichnete Work-Life-Balance ermöglicht. Zudem wird der Teamzusammenhalt durch gemeinsame Aktivitäten und ein motiviertes Umfeld großgeschrieben. Ein echter Pluspunkt sind auch die vielfältigen Benefits wie Bike-Leasing, Arbeitgeberzuschüsse und ein hauseigenes Fitnessstudio.
