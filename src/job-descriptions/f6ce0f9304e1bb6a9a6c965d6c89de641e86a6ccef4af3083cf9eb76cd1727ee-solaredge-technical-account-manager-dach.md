@@ -9,70 +9,62 @@ postedDate: '2025-11-24T15:42:09.000Z'
 expirationDate: null
 tags:
   - Remote
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/solaredge/remote-technical-account-manager-dach-munich-212938
 companyLogoUrl: null
+companyCulture: >-
+  SolarEdge fosters a dynamic and collaborative culture, valuing creativity,
+  agility, and impactful work. They emphasize continuous learning and support
+  through a Buddy System and various training, offering a flexible, motivated,
+  and collegial environment with work-from-home options.
+story_question1: >-
+  Can you share an example of a particularly complex customer challenge this
+  role has faced, and how the team's collaborative approach led to a successful
+  resolution?
+story_answer1: >-
+  Absolutely. I remember a major commercial client experiencing intermittent
+  performance issues across multiple sites. It wasn't a simple fix; it required
+  deep dives into data, collaboration with our R&D and technical support teams,
+  and constant communication with the client. Our Account Managers truly shine
+  here – they're not just problem solvers, but also orchestrators. They
+  synthesized technical feedback, presented tailored solutions, and ensured the
+  client felt heard and supported throughout. The satisfaction of seeing their
+  systems return to optimal performance and receiving their gratitude truly
+  underscores the impact we make every day, driven by our commitment to customer
+  success and teamwork.
+story_question2: >-
+  How does this customer-facing role directly contribute to SolarEdge's broader
+  mission of accelerating clean energy adoption and product innovation?
+story_answer2: >-
+  This role is actually at the forefront of our mission! By being the primary
+  point of contact for our key accounts, we gather invaluable real-world
+  feedback. We're the eyes and ears on the ground, understanding customer needs,
+  pain points, and emerging trends. This intelligence is fed directly back to
+  our R&D and product development teams, helping us refine existing solutions
+  and innovate new ones that truly meet market demands. For example, a common
+  customer request might spark an idea for a new feature or service that
+  eventually rolls out globally. It’s incredibly rewarding to know that our
+  daily interactions directly shape the future of clean energy technology at
+  SolarEdge.
+story_question3: >-
+  Given the multidisciplinary environment, how does SolarEdge support an Account
+  Manager's continuous professional development, especially regarding new energy
+  technologies?
+story_answer3: >-
+  Our commitment to growth is a huge part of our culture. Beyond the initial
+  qualified induction and Buddy System, we actively encourage and fund numerous
+  further education measures and training courses. For an Account Manager, this
+  means access to the latest product training, deep dives into new AI-based
+  energy management systems, or even certifications in specific solar
+  technologies. We understand that the energy landscape is constantly evolving,
+  and we empower our team members to stay ahead of the curve. It's not just
+  about doing your job today, but about growing your expertise for tomorrow,
+  ensuring you're always equipped to provide the best solutions and insights to
+  our customers.
 ---
-**Are you ready to power the future?**
-
-At SolarEdge (NASDAQ: SEDG), we're a global leader in smart energy technology, with over 4,000 employees, offices in 34 countries, and millions of installations worldwide.
-
-Our innovative solutions include solar inverters, battery storage, backup systems, EV charging, and AI-based energy management. We're committed to making clean, green energy the primary power source for homes, businesses, and beyond.
-
-With the growing demand for electricity, the need for smart, clean energy sources is constantly rising. SolarEdge offers amazing opportunities to develop your skills in a multidisciplinary environment, covering everything from research and development to production and customer supply. Work with talented colleagues, tackle exciting challenges, and help create a sustainable future in an industry that's always evolving and innovating. Join us and be part of a company that values creativity, agility, and impactful work. 
-
-For our service team we are looking for committed, friendly and technology-enthusiastic reinforcement. If you enjoy dealing with people, are highly motivated and a real team player, then this position is just right for you!
-
-**Location:** DACH Region
-
-**Your tasks:**
-
-*   You are a key point of contact for defined accounts and locations for internal departments such as service, logistics or sales
-*   You will work closely with technical support to solve (escalated) problems and to process and further develop proactive activities
-*   You will be in charge of developing tailor-made customer service solutions to support strategic customer goals and intensify cooperation
-*   They ensure that customers are regularly trained and meet the required qualifications
-*   Regular creation and presentation of account analyses to optimize processes and products
-*   You will work closely with Technical Support and Sales
-
-**Your profile:**
-
-*   Committed and responsible personality with completed subject-specific studies in Electrical/Electronics Technologies, or comparable qualifications
-*   You have a high affinity for photovoltaics and have several years of experience in service, customer service or customer care
-*   They are customer-oriented, communicative and can convince complex facts and convey them in an understandable way. Always remain friendly to customers, colleagues and partners according to the situation
-*   You have mastered all common Microsoft Office products and can use them safely
-*   You have a good command of both German and English
-*   Willingness to travel occasionally for customer or site visits
-
-**We offer you:**
-
-*   Independent, demanding as well as varied activity
-*   Qualified induction and support in our Buddy System
-*   A detailed introduction to our products
-*   A high degree of responsibility and independent work
-*   Adequate pay and good social services
-*   Numerous further education measures/training courses
-*   A highly motivated team and a very colloquially environment
-*   Possibilities to work from home (optional)
-
-  
-  
-Country:  
-Germany  
-  
-City:  
-Munich  
-**Requirements**  
-
-*   Professional experience in Electrical/Electronics Technologies, Electrical Theory or Field Service. Solar Industry specific knowledge is a plus
-*   3-5+ year of experience in a customer facing role
-*   Professional verbal and written communication skills in Dutch and English
-*   Demonstrated project management, account management, organizational skills, and analytical aptitude
-*   Understanding of Microsoft Office tools and CRM reporting
-*   Willingness to travel, as needed
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nJoin SolarEdge, a global leader in smart energy technology (NASDAQ: SEDG), committed to making clean, green energy the primary power source worldwide. With millions of installations and operations in 34 countries, we're at the forefront of innovation with solutions including solar inverters, battery storage, EV charging, and AI-based energy management.\n\nWe are seeking a committed, friendly, and technology-enthusiastic **Account Manager** to reinforce our service team in the **DACH Region**. If you thrive in a multidisciplinary environment, enjoy building relationships, and are passionate about sustainable energy, this role offers exciting challenges and opportunities for skill development.\n\n### Responsibilities\n*   Serve as the primary point of contact for defined key accounts and locations, liaising with internal departments such as service, logistics, and sales.\n*   Collaborate closely with technical support to effectively resolve escalated customer issues and proactively develop customer engagement activities.\n*   Design and implement tailor-made customer service solutions to align with strategic customer goals and deepen cooperative relationships.\n*   Ensure that customers receive regular training and meet necessary qualifications for optimal product utilization.\n*   Conduct regular creation and presentation of comprehensive account analyses to drive process and product optimization.\n\n### Qualifications\nTo succeed in this role, you should possess:\n*   **Education & Experience**: A committed and responsible professional with completed subject-specific studies in Electrical/Electronics Technologies or comparable qualifications. You should have professional experience in Electrical/Electronics Technologies, Electrical Theory, or Field Service.\n*   **Customer-Facing Experience**: Several years, specifically 3-5+ years, of experience in a customer-facing role (service, customer service, or customer care).\n*   **Industry Affinity**: A high affinity for photovoltaics; solar industry-specific knowledge is a significant advantage.\n*   **Technical Skills**: Proficiency in all common Microsoft Office products and a solid understanding of CRM reporting.\n*   **Communication & Soft Skills**: Customer-oriented, highly communicative, with the ability to convey complex technical information clearly and maintain a friendly demeanor with customers, colleagues, and partners. Demonstrated project management, account management, organizational skills, and analytical aptitude.\n*   **Languages**: Professional verbal and written communication skills in both German and English.\n*   **Mobility**: Willingness to travel occasionally for customer or site visits as needed.\n\n### Author's Take\nThis is an excellent opportunity for a Mid-Senior level Account Manager who is passionate about renewable energy and customer success. SolarEdge, as a global leader, offers a stable yet dynamic environment where you can truly make an impact. The role is critical for fostering strong client relationships and ensuring optimal performance of cutting-edge energy solutions. With a strong emphasis on collaboration, continuous learning (supported by a Buddy System and training), and a flexible work environment (including remote options), this position is ideal for a proactive, technically inclined individual eager to contribute to a sustainable future. If you thrive on solving complex challenges and growing within a highly motivated, collegial team, this role promises significant professional development and rewarding work.

@@ -10,65 +10,53 @@ expirationDate: null
 tags:
   - Remote
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/fincompare/senior-online-marketing-manager-hybrid-in-nrw-emsdetten-225126
 companyLogoUrl: null
+companyCulture: >-
+  FinCompare cultivates a dynamic, international, and inclusive environment that
+  champions collaboration, open communication, and personal growth. Employees
+  benefit from significant flexibility, including remote work options and
+  'Workation,' alongside comprehensive benefits aimed at well-being and
+  continuous professional development.
+story_question1: >-
+  As a Senior Online Marketing Manager, how will my strategic decisions and
+  project leadership directly contribute to FinCompare achieving its vision of
+  becoming Germany's largest financing platform for SMEs, and what are the
+  primary challenges we anticipate in scaling to that level?
+story_answer1: >-
+  Here at FinCompare, your role as a Senior Online Marketing Manager isn't just
+  about executing campaigns; it's about being a vital architect of our digital
+  growth. Every SEO strategy you develop, every complex migration you lead, and
+  every SEA campaign you optimize directly fuels our expansion. Imagine the
+  tangible impact: you'll be instrumental in connecting thousands more SMEs with
+  the best financing solutions, solidifying our market leadership. The biggest
+  challenge? Navigating the dynamic digital landscape and continuously
+  innovating while maintaining our commitment to data-driven precision. It's an
+  exciting journey where your expertise truly moves the needle, backed by a team
+  that values your independent contributions and strategic vision.
+story_question2: >-
+  Given the emphasis on 'pragmatic, solution-oriented work' and balancing 'speed
+  and thoroughness,' what mechanisms are in place within FinCompare's hybrid
+  setup to ensure effective cross-functional collaboration and efficient project
+  execution, especially when driving complex initiatives like platform
+  migrations?
+story_answer2: >-
+  That's a core aspect of how we operate. Our hybrid model is built on trust and
+  empowering our teams. For complex, cross-functional projects like platform
+  migrations, we prioritize clear communication frameworks, leveraging
+  collaborative tools and structured check-ins that work regardless of location.
+  We encourage a culture where early identification of roadblocks is celebrated,
+  and you, as the project lead, are empowered to find pragmatic solutions
+  quickly. While speed is key, we never compromise on statistical validity or
+  quality – it's about making smart, data-backed decisions efficiently. Regular
+  knowledge-sharing sessions and team events, both virtual and in-person, also
+  ensure we stay connected, learn from each other, and maintain that crucial
+  collaborative spirit, whether you're in our Berlin office or on a Workation.
 ---
-Unsere Vision ist es, kleinen und mittelständischen Unternehmen (KMU) den mühelosen Zugang zu den besten Finanzierungslösungen zu ermöglichen. Dafür verbindet FinCompare auf seiner einzigartigen Markt-Plattform KMU, Finanzinstitute und Finanzierungsberater:innen digital und persönlich, um das jeweils bestmögliche Finanzierungsergebnis zu erzielen. Schließ’ Dich uns an auf unserem Weg, Deutschlands größte Finanzierungsplattform für KMU zu werden.
-
-Wir suchen motivierte Menschen, die unser Team auf dem Weg in die digitale Zukunft der Unternehmensfinanzierung verstärken - und zwar insbesondere im Bereich/ Team als
-
-Senior Online Marketing Manager (m/w/d) - hybrid in NRW
--------------------------------------------------------
-
-Deine Aufgaben
---------------
-
-*   **SEO (inkl. GEO)**: Eigenverantwortliche Entwicklung und Umsetzung unserer SEO-Strategie. Von klassischem Onpage/Offpage über technische SEO bis hin zu Generative Engine Optimization (GEO) für LLMs. Führung komplexer SEO-Projekte wie Plattform-Migrationen, inklusive Erhalt und Ausbau wichtiger Backlink- und Ranking-Werte.
-*   **SEA & Performance Marketing:** Steuerung unserer SEA-Kanäle inkl. Keyword-Strategie, Budgetplanung und Performance-Optimierung – mit klarem Fokus auf Effizienz, Skalierung und messbare Ergebnisse.
-*   **Definition und Priorisierung von Test-Roadmaps**, inklusive statistisch belastbarer A/B-Tests, Stichprobengrößen, Uplift-Analysen und Zeitmanagement.
-*   **Technische Umsetzung und Optimierung** von WordPress, Google Tag Manager und grundlegenden HTML/CSS-Anpassungen in Zusammenarbeit mit Entwickler:innen.
-*   **Schutz und Ausbau unserer SEO-Werte** bei Migrationen, ohne Risiko für bestehende Rankings einzugehen.
-*   **Pragmatische, lösungsorientierte Arbeitsweise**: Du erkennst Blockaden frühzeitig, findest praktikable Lösungen und treibst Projekte voran.
-*   **Balance zwischen Geschwindigkeit und Gründlichkeit**: Du handelst schnell, ohne die statistische Validität oder Qualität zu kompromittieren.
-*   **Team- und Wissensförderung**: Du teilst Erfahrungen, förderst andere und trägst zu einer Lean-Marketing-Kultur bei.
-
-Dein Profil
------------
-
-*   **5–7 Jahre Erfahrung im Online Marketing**, idealerweise mit b2b Marketing.
-*   **Fundierte Expertise in SEO und/oder SEA** – duale Expertise ist ein Plus.
-*   **Technisches Verständnis** für WordPress, Google Tag Manager sowie grundlegende Kenntnisse in HTML/CSS.
-*   **SEO-Know-how auf Senior-Level**: Site-Struktur, Landingpages, Content-Strategien, interne/externe Verlinkung, Performance-Optimierung (Speed/Mobile) und Verständnis zentraler Ranking-Faktoren.
-*   **SEA-Kompetenz** in Keyword-Strategie, Budgetsteuerung und Performance-Auswertung.
-*   **Sicherer Umgang mit Daten und Statistik** – Konfidenzintervalle, Uplift-Berechnungen, Stichprobengrößen und Testdauer-Abwägungen sind dir nicht unbekannt.
-*   **Entscheidungsstärke und Pragmatismus** – Du priorisiert MVPs, bewertest Risiken und handelt schnell, ohne statistische Sauberkeit zu opfern.
-*   **Deutsch** auf muttersprachlichem Niveau und gute **Englischkenntnisse**.
-
-Warum wir?
-----------
-
-*   **Gestalte die Zukunft mit uns:** Sei Teil des Teams, das die größte Plattform für Unternehmensfinanzierung aufbaut und revolutioniere gemeinsam mit uns den Markt.
-*   **Attraktives Gehalt & Benefits:** Ein wettbewerbsfähiges Gehaltspaket sowie zahlreiche Zusatzleistungen, die deinen Erfolg und dein Wohlbefinden fördern.
-*   **Flexible Arbeitszeit & Workation:** Vertrauensarbeitszeit, 30 Tage Urlaub und die Möglichkeit, von überall aus zu arbeiten – ob von zu Hause oder auf Workation.
-*   **Sicherheit & Wohlstand:** Geförderte Altersvorsorge, Mitarbeiterrabatte und regelmäßige Teamevents für den sozialen Austausch.
-*   **Unterstützung für dich und deine Familie:** Zugang zu unserem Employee Assistance Program (EAP) für dich und deine Angehörigen – für alle Lebenslagen.
-*   **Wachse mit uns:** Regelmäßige Trainings und Sprachkurse, die deine persönliche und berufliche Entwicklung vorantreiben.
-*   **Modernes Arbeitsumfeld:** Arbeite flexibel entweder aus unserem modernen Berliner Büro oder von zu Hause aus – mit der technischen Ausstattung, die du für deine Arbeit brauchst.
-*   Dynamisches Team: Ein hochmotiviertes, internationales Team, das Wert auf Zusammenarbeit, offene Kommunikation und ein positives Arbeitsumfeld legt.
-
-Diversität & Inklusion
-----------------------
-
-Wir bei FinCompare glauben, dass ein vielfältiger und integrativer Arbeitsplatz Innovation, Kreativität und Erfolg fördert. Aus diesem Grund sind wir bestrebt, ein Team aufzubauen, das eine Vielzahl von Hintergründen, Perspektiven und Erfahrungen repräsentiert.
-
-Wir ermutigen Personen aus Gruppen, die in der Technologiebranche traditionell unterrepräsentiert sind, sich zu bewerben und beabsichtigen, alle Bewerbungen unabhängig von Geschlecht, ethnischer Zugehörigkeit, Abstammung, Religion, nationaler Herkunft, sexueller Orientierung, Alter, Staatsbürgerschaft, Familienstand, Behinderung oder Geschlechtsidentität gleichermaßen zu berücksichtigen.
-
-Bitte beachten: Im Rahmen unserer Bemühungen, einen unvoreingenommenen Bewerbungsprozess zu fördern, bitten wir Dich, in Deinem Lebenslauf keine Angaben zu Foto, Geschlecht, ethnischer Zugehörigkeit, Religion, Behinderung, sexueller Orientierung oder Alter zu machen.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nOur vision at FinCompare is to provide small and medium-sized enterprises (SMEs) effortless access to the best financing solutions. We achieve this by digitally and personally connecting SMEs, financial institutions, and financing advisors on our unique market platform to secure the best possible financing outcomes. Join us on our journey to become Germany's largest financing platform for SMEs.\n\nWe are looking for motivated individuals to strengthen our team on the path to the digital future of corporate finance, specifically in the role of:\n\n**Senior Online Marketing Manager (m/f/d) - hybrid in NRW**\n\nThis role offers the chance to actively shape the future, revolutionize the market, and work in a dynamic, international team that values collaboration, open communication, and a positive working environment. We prioritize flexibility, offering trusted working hours, 30 days of vacation, and the possibility to work from anywhere – be it from home or on a workation. We are committed to fostering your personal and professional growth through regular training and language courses, ensuring you can grow with us.\n\n### Responsibilities\n*   **SEO (incl. GEO):** Independently develop and implement our SEO strategy. This ranges from classic on-page/off-page and technical SEO to Generative Engine Optimization (GEO) for LLMs. Lead complex SEO projects, such as platform migrations, including preserving and expanding crucial backlink and ranking values.\n*   **SEA & Performance Marketing:** Manage our SEA channels, including keyword strategy, budget planning, and performance optimization – with a clear focus on efficiency, scalability, and measurable results.\n*   **Define and prioritize test roadmaps,** including statistically sound A/B tests, sample sizes, uplift analyses, and time management.\n*   **Technical implementation and optimization** of WordPress, Google Tag Manager, and fundamental HTML/CSS adjustments in collaboration with developers.\n*   **Protect and expand our SEO values** during migrations, without risking existing rankings.\n*   **Pragmatic, solution-oriented approach:** You identify blockers early, find practical solutions, and drive projects forward.\n*   **Balance between speed and thoroughness:** You act quickly without compromising statistical validity or quality.\n*   **Team and knowledge promotion:** You share experiences, mentor others, and contribute to a lean marketing culture.\n\n### Qualifications\n*   **5-7 years of experience in online marketing,** ideally with B2B marketing.\n*   **Profound expertise in SEO and/or SEA** – dual expertise is a plus.\n*   **Technical understanding** of WordPress, Google Tag Manager, and basic knowledge of HTML/CSS.\n*   **Senior-level SEO know-how:** Site structure, landing pages, content strategies, internal/external linking, performance optimization (speed/mobile), and understanding of central ranking factors.\n*   **SEA competence** in keyword strategy, budget control, and performance evaluation.\n*   **Confident handling of data and statistics** – confidence intervals, uplift calculations, sample sizes, and test duration considerations are not new to you.\n*   **Decisiveness and pragmatism** – You prioritize MVPs, evaluate risks, and act quickly without sacrificing statistical rigor.\n*   **Native-level German** and good **English language skills.**\n\n### Author's Take\nThis Senior Online Marketing Manager role at FinCompare offers a significant opportunity to drive the growth of a leading platform in corporate finance. You'll operate with a high degree of autonomy, leading critical SEO and SEA initiatives that directly impact market leadership. The company emphasizes a flexible, hybrid work model with generous vacation and workation options, promoting a healthy work-life balance. You'll be part of a dynamic, international team that values collaboration, open communication, and continuous learning, supported by regular training and language courses. FinCompare is deeply committed to diversity and inclusion, actively fostering an environment where a wide range of backgrounds and perspectives thrive, making it an excellent place for impactful work and personal development.

@@ -9,53 +9,46 @@ postedDate: '2025-11-25T10:01:51.000Z'
 expirationDate: null
 tags:
   - Customer Service
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/vub-gmbh/customer-support-manager-cologne-124601
 companyLogoUrl: null
+companyCulture: >-
+  vub fosters an open, flat-hierarchical, and collaborative culture where active
+  participation and diverse perspectives are highly valued. The company is
+  committed to continuous learning and professional development, providing ample
+  growth opportunities for its employees.
+story_question1: >-
+  How does this role directly contribute to vub's mission of ensuring seamless
+  digital processes and maximizing customer value, especially with the
+  integration of new B2B SaaS applications?
+story_answer1: >-
+  From an insider's view, this role is truly at the heart of our mission. You're
+  not just processing orders; you're the face of our commitment to customer
+  success, directly impacting how our B2B clients experience our cutting-edge
+  SaaS solutions. By streamlining processes from digital ordering to invoicing
+  and strategically evolving client relationships towards technical interfaces,
+  you're a crucial architect of customer satisfaction and efficiency. It’s
+  challenging, yes, but incredibly rewarding to see your work directly translate
+  into improved client operations and trust, all within a team that values
+  innovation and proactive problem-solving.
+story_question2: >-
+  Given vub's welcoming stance towards career changers, what kind of support
+  system or onboarding can new team members expect to ensure a successful
+  transition and integration into the team culture?
+story_answer2: >-
+  We truly believe diverse backgrounds enrich our team, which is why we actively
+  welcome career changers – you bring fresh perspectives! For new team members,
+  we ensure a comprehensive onboarding process. This includes dedicated
+  mentorship from experienced colleagues, structured training on our B2B SaaS
+  applications and internal systems, and plenty of opportunities to shadow
+  different functions. Our flat hierarchies encourage open communication, so
+  you’ll quickly feel empowered to contribute and shape our shared team culture.
+  We're all about fostering a supportive environment where continuous learning
+  and mutual growth are not just buzzwords, but daily practice.
 ---
-vub ist ein führendes Fachinformations-Unternehmen im Herzen der Kölner Innenstadt. Unser Kerngeschäft umfasst den Handel mit Fachinformationen und vor allem den stark wachsenden Bereich von B2B SaaS Anwendungen.
-
-Bei der vub | Wissen mit System, konzentrieren wir uns also auf die Vermittlung weltweiten Wissens an große Unternehmen. Unser Ziel ist es, nahtlose digitale Prozesse zu gewährleisten, um maximalen Kundennutzen zu erzielen. Wir zeichnen uns durch technische Innovation, Zuverlässigkeit und persönlichen Service aus und streben danach, unseren Kundennutzen stetig zu verbessern.
-
-Um unsere Ziele zu erreichen, erweitern wir kontinuierlich unser Team und optimieren unsere Prozesse. Genau an der Schnittstelle zwischen Kundenzufriedenheit und kontinuierlicher Verbesserung, freuen wir uns auf Ihren Einsatz.
-
-Wir suchen engagierte und innovative Köpfe, die bereit sind, unser dynamisches Team zu verstärken und gemeinsam mit uns durchzustarten! Mit einem Team von mehr als 30 Kollegen setzen wir neue Standards für Top-Kunden aus der Wirtschaft, Forschung und dem öffentlichen Sektor. Quereinsteiger zB. aus der Gastronomie sind herzlich willkommen.
-
-Aufgaben
---------
-
-*   Eigenverantwortliche kaufmännische Betreuung unserer B2B Kunden, von der digitalen Bestellung, über Services bis zur Rechnungserstellung
-*   Steuerung und Koordination der Prozesse zwischen Online-Webshop, interner  
-    Warenwirtschaft und eingehender Kundenanfragen
-*   Auftragserstellung und auftragsbezogene Kommunikation bei vielfältigen Produktarten, zwischen Kunden und Lieferanten
-*   Strategische Weiterentwicklung unserer B2B Kunden, hin zu technischen Schnittstellen und digitalen Abläufen
-*   Kompetente telefonische und schriftliche Beratung unserer Kunden
-
-Qualifikation
--------------
-
-*   Erfolgreich abgeschlossenes Studium oder kaufmännische Ausbildung, z.B. als Groß- und Außenhandelskaufmann, Industriekaufmann, Buchhändler oder eine vergleichbare Qualifikation
-*   Wünschenswert: erste Berufserfahrung im Kundenservice und in der Auftragsabwicklung
-*   Zuverlässige und zielgerichtete Arbeitsweise mit einem kundenorientierten und verbindlichen Auftreten
-*   Sehr gute schriftliche und mündliche Kommunikationsfähigkeiten in Deutsch - Wünschenswert sind darüber hinaus Englischkenntnisse
-*   Sicherer Umgang mit MS-Office-Anwendungen und nutzerfreundlichen Webanwendungen
-*   Freude an der Arbeit mit einem Vielseitigen Team und bei der weiteren Ausgestaltung unserer gemeinsamen Teamkultur
-
-Benefits
---------
-
-*   Leistungsgerechte und attraktive Vergütung
-*   Langfristige, verantwortungsvolle Position mit vielseitigen Aufgaben
-*   Moderner Arbeitsort mit zentraler Lage in Köln und ausgezeichneter Verkehrsanbindung
-*   Unternehmenskultur, die Wert auf Offenheit, flache Hierarchien und aktive Mitgestaltung legt
-*   Steile Lernkurve, Förderung Ihrer beruflichen Entwicklung und kontinuierliche Weiterbildungsmöglichkeiten
-*   Zusätzliche Vorteile wie Urban Sports Club Mitgliedschaft, Möglichkeit eines Jobtickets, Corporate Benefits und mehr
-
-Wir freuen uns auf deine Bewerbung. Bei Fragen melde Dich gerne direkt bei Eileen Marron (0221/2079 2241 bzw. per E-Mail)
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nvub is a leading specialized information company based in the heart of Cologne, Germany. Our core business involves trading specialized information and, significantly, the rapidly growing area of B2B SaaS applications. We focus on delivering global knowledge to large enterprises, aiming to ensure seamless digital processes for maximum customer benefit. We pride ourselves on technical innovation, reliability, and personal service, striving for continuous improvement. This role is a key interface between customer satisfaction and ongoing process optimization, joining a dynamic team of over 30 colleagues who set new standards for top clients in business, research, and the public sector. We particularly welcome career changers, for example, from the gastronomy sector.\n\n### Responsibilities\n- Independent commercial support for our B2B customers, from digital orders and services to invoicing.\n- Steering and coordinating processes between the online webshop, internal merchandise management, and incoming customer inquiries.\n- Order creation and order-related communication for various product types, between customers and suppliers.\n- Strategic development of our B2B customers towards technical interfaces and digital workflows.\n- Competent telephone and written consultation for our customers.\n\n### Qualifications\n- Successfully completed university degree or commercial vocational training, e.g., as a wholesale and foreign trade merchant, industrial clerk, bookseller, or a comparable qualification.\n- Desirable: initial professional experience in customer service and order processing.\n- Reliable and goal-oriented work style with a customer-focused and committed demeanor.\n- Very good written and spoken communication skills in German – English language skills are also desirable.\n- Proficient in MS Office applications and user-friendly web applications.\n- Enjoy working with a diverse team and actively shaping our common team culture.\n\n### Author's Take\nThis is an excellent opportunity for someone looking for a long-term, responsible position with diverse tasks at a leading B2B SaaS company. vub offers an attractive, performance-based salary, a modern workplace in a central Cologne location with superb transport links. The company culture champions openness, flat hierarchies, and active participation, fostering a steep learning curve and continuous professional development. With additional benefits like Urban Sports Club membership and a job ticket, it's clear vub invests in its employees. The openness to welcome career changers highlights a truly inclusive and growth-oriented environment.

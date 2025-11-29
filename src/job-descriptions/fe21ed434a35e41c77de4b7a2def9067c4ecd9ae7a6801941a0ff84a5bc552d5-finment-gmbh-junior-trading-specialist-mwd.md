@@ -9,82 +9,49 @@ postedDate: '2025-11-26T00:02:08.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/finment-gmbh/junior-trading-specialist-berlin-99065
 companyLogoUrl: null
+companyCulture: >-
+  FinMent fosters a fast-paced, growth-oriented startup culture with a positive
+  and supportive 'familial' atmosphere. They prioritize continuous learning and
+  professional development, offering a significant training budget and a unique
+  benefit of free access to their financial products, empowering employees
+  towards personal financial freedom.
+story_question1: >-
+  Given this role involves working closely with the Senior-Trading-Team and
+  significant learning opportunities, what are the key avenues for continuous
+  professional development and how does FinMent support the transition from an
+  entry-level role to becoming a specialist or leader?
+story_answer1: >-
+  Here at FinMent, we believe in nurturing talent from day one. You'll not only
+  be supported by our Senior-Trading-Team, gaining hands-on experience in real
+  market analysis, but you'll also have a dedicated annual training budget of up
+  to €5,000 to pursue certifications or courses that align with your growth
+  path. We actively encourage our team members to take ownership and innovate,
+  and we have a clear trajectory for you to evolve into an expert or even a
+  future leader, shaping the very core of our financial strategies. Your success
+  is our success, and we invest heavily in helping you achieve your full
+  potential.
+story_question2: >-
+  The job description highlights a unique benefit: access to FinMent's products
+  for personal financial growth. Can you elaborate on how this benefit genuinely
+  empowers employees and creates a distinct culture of financial literacy and
+  independence within the company?
+story_answer2: >-
+  Absolutely! This is one of the most exciting perks we offer, and it really
+  embodies our mission. Imagine having the tools and exclusive strategies,
+  previously reserved for institutional investors, at your fingertips – for
+  free. Many of us have personally leveraged our products to build a regular
+  stock market income, moving closer to our own financial freedom. It's not just
+  a benefit; it's a living example of what we enable for our customers,
+  fostering a profound sense of understanding, belief, and personal stake in our
+  mission. It creates a highly engaged team where everyone is not just selling
+  financial freedom, but actively living it.
 ---
-**Unsere Mission: “Lass Dein Geld noch effizienter für Dich arbeiten!”**
-
-Wir sind FinMent - ein schnell wachsendes, zweifach staatlich zertifiziertes FinTech Startup in Berlin. Wir demokratisieren das Wissen und den Zugang zur institutionellen Geldanlage mithilfe von innovativen Technologien, geprüftem Finanzwissen und exklusiven Strategien, die bisher nur institutionellen Investoren (Family Offices) mit +200 Millionen Euro Mindestkapital vorbehalten waren.
-
-Neben vielen weiteren Benefits erhälst du exklusiv:
-
-**Deine finanzielle Freiheit mit zusätzlichem Börseneinkommen:** Als Teil vom inneren Kreis erhälst du die einzigartige Möglichkeit kostenlos unser Produkte zu nutzen, um wie unsere Kunden ein regelmäßiges Börseneinkommen zu erzielen und finanziell frei zu werden. (Die Kunden zahlen dafür bis zu 36.000€).
-
-Begeisterst du Dich für Finanzen und bist du bereit, in einem profitabel wachsenden FinTech Start Up Deine Karriere durchstarten?
-
-Bewirb dich und teile uns mit: Warum sollen wir dir die Chance geben deinen Wunschberuf bei uns ausüben zu können und kostenlos den massiven Vorteil durch unsere Produkte geben, damit du jetzt schon ein gutes zusätzliches Einkommen durch die Börse aufbauen kannst?
-
-Aufgaben
---------
-
-**Was Dich erwartet**
-
-*   Du beobachtest und wertest Marktbewegungen aus, um Chancen an der Börse frühzeitig zu identifizieren.
-*   Du unterstützt bei der operativen Umsetzung von Handelsstrategien unter Anleitung des Senior-Trading-Teams.
-*   Du erstellst kurze Marktkommentaren und Trade-Updates für interne Use-Cases und die Community.
-*   Du arbeitest eng mit Support, Coaching und Analyse zusammen, und unterstützt aktiv das Team.
-
-Qualifikation
--------------
-
-**Was Du mitbringen solltest**
-
-*   Du hast 6 Monate bis 1 Jahr praktische Erfahrung im Coaching und Betreuung von Kunden durch eine Ausbildung, Praktika oder ähnliche Tätigkeiten gesammelt
-*   Du hast eine starke Eigenmotivation und Leidenschaft für sauberes, agiles Prozess- und Projektmanagement.
-*   Du hast nachweislich gerne Verantwortung für deinen Themenbereich übernommen, auch wenn das außerhalb deiner Komfortzone war. Du hast Dinge ohne zu zögern angepackt, warst ergebnisorientiert und zügig in der Umsetzung.
-*   Du lernst und entwickelst dich eifrig, ob in deinem Job, dem Sektor in dem du arbeitest, aber auch privat! Du suchst proaktiv nach Feedback. Dabei behälst du den Erfolg des Teams im Auge.
-*   Du hast sehr gute analytische und strukturelle Fähigkeiten, um Szenarien im Vorfeld klar durchzudenken. Das was du durchgedacht hast, setzt du strukturiert um.
-*   Dein Deutsch ist idealerweise auf “Muttersprache” Level. Dein Englisch ist gut für Konversationen.
-*   Du hast idealerweise praktische Arbeitserfahrungen mit gängiger Finanz- und Chartsoftware (Z.B. TWS, Tradingview)
-
-Man erfüllt nicht immer alle Anforderungen. Das sollte Dich nicht aufhalten. Wenn Du wirklich Lust hast, mit uns zusammenzuarbeiten, freuen wir uns von Dir zu hören!
-
-Benefits
---------
-
-**Was wir bieten**
-
-*   Ein attraktives und faires Gehalt mit klarer Steigerung nach dem Onboarding – Dein Einsatz zahlt sich direkt aus.
-*   Den Zugang zu FinMent Produkten um dein Vermögen mit regelmäßigem Börseneinkommen aufzubauen
-*   Ein positives und erfolgsorientiertes Arbeitsumfeld mit Wohlfühlatmosphäre und ein kollegialer sowie familiärer Umgang.
-*   Nimm langfristig eine Rolle als Experte und /oder Führungskraft ein.
-*   Eigener Verantwortungsbereich für den Erfolg deines Bereichs mit direkter Auswirkung auf die Unternehmensentwicklung.
-*   Echte Start-Up Atmosphäre, geprägt von kurze Entscheidungswege und direkter Kontakt zu der strategischen Geschäftsführung.
-*   Jährliches Weiterbildungsbudget bis zu 5.000€ und Fachwissen von Unternehmensexperten für deine persönliche Weiterbildung
-
-**Bist Du bereit zu den Digital-Pionieren in der Finanzbranche zu gehören?**
-
-Wenn du nach persönlichem und beruflichem Wachstum strebst und nach dem passenden positivem Umfeld suchst, bewirb dich jetzt!
-
-Wir sind bestrebt unsere Gemeinschaft einen weiten Schritt nach vorne zu bringen und mit unserer Arbeit einen entscheidenden Einfluss auf die Welt auszuüben. Wir ermöglichen, dass nicht nur unsere Kunden, sondern auch alle unsere Mitarbeiter ihre finanzielle Freiheit erreichen, um ihre großen Träume zu verwirklichen und ein Leben nach ihren Wunschvorstellungen zu genießen.
-
-Werde Teil unserer Erfolgsstory und gestalte mit uns die Zukunft der privaten Geldanlage im Rahmen der finanziellen Unabhängigkeit!
-
-Schick uns Deinen Lebenslauf und deine Arbeitsproben, die du schon verfasst hast.
-
-Wir freuen uns darauf dich kennenzulernen!
-
-Falls Du vorab Fragen hast, kannst Du uns direkt kontaktieren.
-
-**Ansprechperson:**  
-Maksat Munal  
-Personalverantwortlicher  
-+49 (0)30 606 902 41
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nFinMent, a rapidly growing and government-certified FinTech startup in Berlin, is on a mission to democratize access to institutional investment knowledge and strategies. We empower individuals to achieve financial freedom by leveraging innovative technology and exclusive strategies previously only available to high-net-worth investors. This role offers a unique opportunity to kickstart your career in a profitable and dynamic startup, directly contributing to our mission and even benefiting from our products to build your own financial independence. We're looking for passionate individuals ready to observe market movements, support trading strategies, and engage with our vibrant community.\n\n### Responsibilities\n*   Observe and evaluate market movements to identify early opportunities in the stock market.\n*   Support the operational implementation of trading strategies under the guidance of the Senior Trading Team.\n*   Create short market commentaries and trade updates for internal use cases and the community.\n*   Work closely with Support, Coaching, and Analysis teams, actively contributing to team efforts.\n\n### Qualifications\n*   6 months to 1 year of practical experience in coaching and supporting clients, gained through training, internships, or similar activities.\n*   Strong self-motivation and a passion for clean, agile process and project management.\n*   Demonstrated willingness to take responsibility for your area, even outside your comfort zone, tackling tasks proactively, result-oriented, and efficiently.\n*   Eager to learn and develop, both professionally and personally, actively seeking feedback while keeping the team's success in mind.\n*   Excellent analytical and structural skills to thoroughly think through scenarios and implement them systematically.\n*   German language skills ideally at a native speaker level, and good English for conversations.\n*   Ideally, practical work experience with common financial and chart software (e.g., TWS, Tradingview).\n*   *Please note: You don't have to meet all requirements to apply. If you're enthusiastic about working with us, we'd love to hear from you!*\n\n### Author's Take\nThis is a fantastic opportunity for an ambitious individual eager to launch their career in FinTech. FinMent offers a unique blend of a fast-paced startup environment with a supportive, family-like culture focused on both professional and personal growth. The unparalleled benefit of free access to their financial products, allowing employees to build their own wealth, truly sets this role apart. With a generous training budget and clear paths for advancement, this is more than just a job – it's a chance to achieve financial independence while making a tangible impact in a pioneering company. If you're passionate about finance, growth, and making a real difference, this role is for you.

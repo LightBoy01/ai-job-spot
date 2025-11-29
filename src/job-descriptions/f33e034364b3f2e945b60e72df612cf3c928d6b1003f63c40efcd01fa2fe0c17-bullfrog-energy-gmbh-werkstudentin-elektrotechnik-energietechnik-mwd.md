@@ -9,50 +9,43 @@ postedDate: '2025-11-25T09:01:52.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/bullfrog-energy-gmbh/werkstudentin-elektrotechnik-energietechnik-munich-350064
 companyLogoUrl: null
+companyCulture: >-
+  Bullfrog Energy offers a highly collaborative and international environment
+  where working students gain practical experience from day one. The culture
+  emphasizes continuous learning, direct impact on projects, and flexibility to
+  accommodate academic commitments, fostering a path for long-term career growth
+  within the company.
+story_question1: >-
+  As a working student, how will my contributions directly impact Bullfrog
+  Energy's projects and the broader energy transition?
+story_answer1: >-
+  At Bullfrog Energy, you're not just a passive observer. From day one, your
+  support in developing technical concepts and analyzing sites will directly
+  feed into our real-world battery storage projects. Imagine seeing your
+  analysis shape a grid integration plan or contribute to a new energy system –
+  it's incredibly rewarding. We integrate your theoretical knowledge with
+  practical application, so you'll immediately feel the impact of your work in
+  advancing the energy transition. It's about empowering you to make a tangible
+  difference.
+story_question2: >-
+  How does Bullfrog Energy support the professional development and long-term
+  career aspirations of its working students?
+story_answer2: >-
+  We see our working student roles as a launchpad for future careers. You'll
+  work closely with founders and experienced engineers, gaining unparalleled
+  insights into the technical, regulatory, and economic aspects of energy
+  projects. We provide direct responsibility, a steep learning curve, and the
+  flexibility needed to balance your studies. Many of our former working
+  students have transitioned into full-time roles, growing with us. We invest in
+  your growth, offering not just a job, but a pathway to a meaningful career in
+  the renewable energy sector.
 ---
-München
-
-Bei Bullfrog Energy arbeitest du direkt mit unseren Gründern und Ingenieur:innen zusammen. Wir sind ein internationales Team aus Projektentwicklern, Software-Spezialisten, Energie- und Elektrotechnikern – strategisch in Berlin, München, Aachen und Paris verankert. Unser Team bringt jahrzehntelange Erfahrung in den Bereichen dezentrale Energieinfrastruktur, Netztechnik, Investment, Projektfinanzierung und digitale Innovation zusammen.
-
-Aufgaben
---------
-
-Als Werkstudent:in unterstützt du uns bei der technischen Entwicklung von Batteriespeicherprojekten. Deine Aufgaben umfassen:
-
-*   Mitarbeit bei der Erstellung und Ausarbeitung von technischen Konzepten für modulare Batteriespeicher und deren Netzintegration
-*   Unterstützung bei der technischen Analyse von Standorten (z. B. Netzanschlussbedingungen, Trafostationen, Lastprofile)
-*   Unterstützung bei der Dokumentation, Aufbereitung und Kommunikation von technischen Inhalten für Projekte
-
-Du verbindest so theoretisches Wissen aus deinem Studium mit der praktischen Arbeit an Projekten, die einen echten Beitrag zur Energiewende leisten.
-
-Qualifikation
--------------
-
-*   Eingeschriebenes Studium im Bereich Elektrotechnik, Energietechnik oder Wirtschaftsingenieurwesen mit Schwerpunkt Energie
-*   Erste Kenntnisse in Stromnetzen, Batteriespeichern oder erneuerbaren Energien sind von Vorteil
-*   Interesse an Netzintegration, Lastmanagement und Energiesystemen
-*   Selbstständige, strukturierte Arbeitsweise und die Fähigkeit, technische Inhalte verständlich aufzubereiten
-*   Freude an Teamarbeit und Kommunikationsstärke
-*   Sehr gute Deutsch- und Englischkenntnisse
-
-Benefits
---------
-
-*   Praxisnähe: Arbeite an realen Batteriespeicherprojekten und erhalte Einblicke in Netztechnik, Projektentwicklung und Energiemärkte.
-*   Verantwortung ab Tag 1: Du übernimmst Aufgaben, die direkten Einfluss auf unsere Projekte und deren technische Umsetzung haben.
-*   Lernkurve: Lerne, wie technische, regulatorische und wirtschaftliche Aspekte in der Projektpraxis zusammenspielen.
-*   Flexibilität: Flexible Arbeitszeiten, Homeoffice-Möglichkeiten und Rücksicht auf deinen Studienplan.
-
-Perspektive: Deine Werkstudentenstelle kann der Startpunkt für eine langfristige Karriere bei uns sein.
-
-Wir melden uns innerhalb von zwei Wochen bei dir. Der Prozess umfasst ein erstes Gespräch, eine kleine Case-Aufgabe und ein Kennenlernen mit unserem Team.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nBullfrog Energy is at the forefront of the energy transition, with an international team of project developers, software specialists, and energy engineers strategically located across Berlin, Munich, Aachen, and Paris. We bring together decades of experience in decentralized energy infrastructure, grid technology, investment, project financing, and digital innovation.\n\nAs a Working Student, you will collaborate directly with our founders and engineers, playing a vital role in the technical development of battery storage projects. This is a unique opportunity to apply your theoretical knowledge from your studies to practical, impactful projects that directly contribute to the energy transition.\n\n### Responsibilities\n*   Collaborate on the creation and elaboration of technical concepts for modular battery storage systems and their grid integration.\n*   Support the technical analysis of sites, including grid connection conditions, transformer stations, and load profiles.\n*   Assist in the documentation, preparation, and communication of technical content for ongoing projects.\n\n### Qualifications\n*   Enrolled in a degree program in Electrical Engineering, Energy Technology, or Industrial Engineering with a specialization in Energy.\n*   Initial knowledge of power grids, battery storage, or renewable energies is advantageous.\n*   Strong interest in grid integration, load management, and energy systems.\n*   Independent, structured working style with the ability to clearly prepare technical content.\n*   Enthusiasm for teamwork and strong communication skills.\n*   Very good German and English language skills.\n\n### Author's Take\nThis is an exceptional opportunity for an ambitious student looking to make a real impact in the renewable energy sector. Bullfrog Energy offers a highly practical, supportive, and flexible environment where you'll gain direct responsibility and invaluable experience from day one. Working alongside industry veterans, you'll not only contribute to cutting-edge battery storage projects but also build a strong foundation for a potential long-term career in a crucial field. The company's commitment to your growth and flexible working conditions make this an ideal stepping stone for your professional journey.

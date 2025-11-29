@@ -12,67 +12,46 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '€90,000 - €130,000 / Year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-stutensee-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-424419
 companyLogoUrl: null
+companyCulture: >-
+  The company offers a positive and appreciative work environment with limitless
+  development and partner opportunities. It promotes work-life balance through
+  flexible hours and home office, supports extensive professional development,
+  and fosters strong team cohesion with modern digital tools.
+story_question1: >-
+  How does the firm support individual career paths and specialization given the
+  option to customize tasks and pursue a partner perspective?
+story_answer1: >-
+  That's one of the most exciting aspects of working here! Unlike traditional
+  firms, we truly believe in empowering our tax advisors. From day one, you'll
+  work with leadership to map out a trajectory that aligns with your unique
+  strengths and ambitions. Whether you want to dive deep into specialized tax
+  law, build your leadership skills by mentoring junior colleagues, or even
+  start paving your way towards partnership, the path is flexible. We provide
+  extensive support for further certifications and continuous learning, ensuring
+  your growth is not just encouraged, but actively facilitated. It's about
+  building a career that truly excites you, not just fitting into a mold.
+story_question2: >-
+  What are the most significant technological advancements or digital processes
+  the firm has implemented that directly enhance a tax advisor's efficiency and
+  client service?
+story_answer2: >-
+  We've invested heavily in creating a cutting-edge digital environment,
+  precisely because we know how much it impacts efficiency and client
+  satisfaction. Our processes are largely paperless, leveraging advanced tax
+  software, AI-powered document analysis, and secure cloud platforms for
+  real-time collaboration with clients. This means less time on administrative
+  tasks and more time on strategic consulting. For instance, our integrated
+  client portals allow seamless data exchange and reporting, significantly
+  speeding up year-end processes and enabling us to offer proactive advice
+  rather than reactive solutions. It's truly a modern way to practice tax law,
+  freeing you to focus on high-value work.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Stutensee.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nTaxTalente is the leading job-matching platform for tax consulting professionals. We are currently looking for a **Tax Advisor (m/f/d)** for one of our distinguished partner firms in Stutensee. This role is ideal for professionals seeking a positive career change, aiming for the next step, or even aspiring to a partnership within a forward-thinking firm. You will finally work in a positive environment where you are valued both financially and personally, engaging in tasks that genuinely further your career. Our partner firm offers the unique opportunity to **customize your area of responsibility** based on your personal strengths and weaknesses, ensuring a perfect match.\n\n### Responsibilities\n- Preparation and review of annual financial statements.\n- Preparation of tax returns for partnerships and corporations.\n- Execution of special tax consulting projects based on individual qualifications, e.g., in inheritance tax or reorganization tax law.\n- Support for tax audits.\n- Team leadership and personnel responsibility (optional).\n- Further individually selectable areas of activity that bring you joy.\n\n### Qualifications\n- A communicative nature and enjoyment of interaction with clients.\n- A careful, efficient, and conscientious working style.\n- Openness to a digital way of working.\n- Leadership understanding and a sense of responsibility towards employees (optional).\n- A successfully completed tax advisor exam.\n- Passion for tax-related topics.\n\n### Author's Take\nThis is an exceptional opportunity for a qualified Tax Advisor looking for a significant career upgrade. The role offers an **extraordinary salary range of €90,000 to €130,000 per year**, with a clear **partner perspective** available for ambitious candidates. Beyond the attractive compensation, the firm prioritizes **work-life balance** with flexible working hours and home office options, coupled with state-of-the-art digital infrastructure. You'll receive extensive support for further professional development and benefit from strong team cohesion and regular events. TaxTalente ensures a seamless and efficient job search experience: we guarantee no wasted interviews by pre-clarifying your criteria, expertly handle salary negotiations, and maintain 100% anonymity until you're ready to connect. Our network comprises only select, top-tier firms that truly stand out in terms of remuneration, benefits, culture, and digitalization. Best of all, our comprehensive service is entirely free and non-binding for you. This role truly promises a positive, growth-oriented, and highly rewarding professional journey.

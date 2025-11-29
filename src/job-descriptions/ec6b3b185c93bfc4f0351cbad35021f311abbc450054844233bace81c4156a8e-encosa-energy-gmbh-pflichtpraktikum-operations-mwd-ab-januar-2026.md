@@ -9,75 +9,54 @@ postedDate: '2025-11-26T13:31:54.000Z'
 expirationDate: null
 tags:
   - Project Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/encosa-energy-gmbh/pflichtpraktikum-operations-ab-januar-2026-munich-484197
 companyLogoUrl: null
+companyCulture: >-
+  encosa fosters a dynamic and collaborative startup culture focused on
+  real-world impact in renewable energy. They prioritize individual initiative,
+  offer a steep learning curve through close mentorship, and promote a strong
+  team spirit with an open communication style. The company also supports
+  work-life balance through a hybrid setup and flexible working hours.
+story_question1: >-
+  What are the key challenges an intern might face in an operations role at
+  encosa, and how does the company support their growth and learning within such
+  a fast-paced environment?
+story_answer1: >-
+  In a fast-growing startup like encosa, the main challenge for an intern often
+  lies in managing multiple priorities and adapting quickly to evolving project
+  needs in the operations team. You'll be right at the heart of our energy
+  storage projects, from planning to implementation, which means learning on the
+  fly is key. But don't worry, you're not thrown into the deep end alone. Our
+  culture is all about 'Wertschätzung & Offenheit,' meaning we value your ideas
+  and foster a strong team feeling. You'll work closely with our founders and
+  experienced project leaders, ensuring a 'steile Lernkurve' through direct
+  mentorship and clear feedback. We encourage 'Eigeninitiative' and provide the
+  space to really make an 'echter Impact,' supporting you every step of the way
+  as you contribute to the energy transition.
+story_question2: >-
+  Given encosa's mission to reduce energy costs and CO2 emissions, how does the
+  operations team ensure the scalability and efficiency of its full-service
+  approach, especially when integrating new technologies or expanding into new
+  markets?
+story_answer2: >-
+  That's a fantastic question, and it gets right to the core of our operations.
+  Scalability and efficiency are paramount for us to achieve our mission. In
+  operations, we're constantly refining our processes for planning, steering,
+  and implementing battery storage projects. This includes leveraging
+  'intelligente Software' and working on 'Prozessverbesserung' to ensure that
+  our full-service model—from planning to installation and operation—is as
+  streamlined as possible. When new technologies emerge or we consider market
+  expansion, the operations team leads the charge in assessing feasibility,
+  optimizing logistics, and developing tools like our internal
+  'Speicher-Auslegung' tool. We foster a 'Startup-Vibes & Verantwortung'
+  environment, where everyone, even interns, is encouraged to contribute to
+  'Toolentwicklung & Coding' and 'Datenstrukturierung' to build a robust,
+  scalable foundation for our growth.
 ---
-🚀 **Unterstütze die Umsetzung der Energiewende – und sammle echte Praxiserfahrung in einem dynamischen Startup!**
-
-encosa steht für **„energy cost savings“** – und genau das ist unsere Mission.
-
-Wir helfen Gewerbe- und Industriekunden mit **Batteriespeichern und intelligenter Software**, Stromkosten zu senken und CO₂-Emissionen zu vermeiden.
-
-Als **Full-Service-Anbieter** übernehmen wir alles: von der Planung über Netzanschluss und Installation bis zum Betrieb.
-
-Im Bereich **Operations** laufen bei uns alle Fäden zusammen – hier werden Projekte geplant, gesteuert und erfolgreich umgesetzt.
-
-Wenn du ein Pflichtpraktikum suchst, bei dem du wirklich etwas bewegen kannst: **Let’s talk!**
-
-Aufgaben
---------
-
-💡 **Deine Rolle**
-
-Als **Praktikant:in im Bereich Operations** arbeitest du eng mit unserem Projektteam zusammen und unterstützt bei der Planung und Umsetzung unserer Batteriespeicherprojekte.
-
-Du bekommst tiefe Einblicke in operative Abläufe, Projektsteuerung und Prozessoptimierung – und bist mittendrin, wenn aus Konzepten reale Energieprojekte werden.
-
-⚡ **Deine Aufgaben**
-
-*   **Projektmanagement-Support:** Koordination von Terminen, Aufgaben und Kommunikationsprozessen rund um unsere Speicherprojekte
-*   **Dokumentation & Reporting:** Vorbereitung von Projektunterlagen und Reports für interne Abstimmungen und externe Partner
-*   **Recherche & Datenpflege:** Aufbau und Pflege von Daten zu Installateuren, Lieferanten und Netzwerken
-*   **Kommunikation:** Nachverfolgung offener Punkte, Einholen technischer Informationen bei Partnern
-*   **Prozessverbesserung:** Unterstützung bei der Weiterentwicklung unserer operativen Abläufe
-*   **Sonderprojekte:** Mitwirkung bei Themen wie Logistikplanung, Toolaufbau oder Datenstrukturierung
-*   **Toolentwicklung & Coding:** Unterstützung bei der Weiterentwicklung unseres internen Tools zur Speicher-Auslegung – inklusive Datenstruktur, Visualisierung und Energieanalysen
-
-Qualifikation
--------------
-
-🎯 **Dein Profil**
-
-*   Du absolvierst ein **Pflichtpraktikum** im Rahmen deines Studiums – z. B. in **Wirtschaftsingenieurwesen, Energie-/Elektrotechnik, Wirtschaftsinformatik oder einem vergleichbaren Studiengang**
-*   Du interessierst dich für **erneuerbare Energien, Startups und operative Umsetzung**
-*   Du arbeitest **strukturiert, zuverlässig und eigenständig** – und hast Spaß daran, Verantwortung zu übernehmen
-*   Du bist **kommunikativ**, kannst Informationen klar vermitteln und arbeitest gerne im Team
-*   Du bist sicher im Umgang mit **Excel, PowerPoint & Co.**, idealerweise auch mit Tools wie **Notion oder CRM-Systemen**
-*   Erste **Coding-Erfahrung** (z. B. in Python, JavaScript o. Ä.) ist ein Plus, kein Muss
-*   Du hast Lust auf ein Umfeld, in dem **Ideen zählen und Geschwindigkeit wichtig ist**
-
-Benefits
---------
-
-💡 **Echter Impact & Praxiserfahrung** – Du arbeitest an realen Projekten und siehst direkt, was du bewirkst
-
-🚀 **Startup-Vibes & Verantwortung** – Du bist Teil eines motivierten Teams mit kurzen Entscheidungswegen
-
-📈 **Steile Lernkurve** – Enge Zusammenarbeit mit Gründer:innen und operativen Projektleiter:innen
-
-🌍 **Beitrag zur Energiewende** – Gestalte mit, wie Unternehmen Energie nachhaltiger nutzen
-
-⚡ **Flexibles Arbeiten** – Hybrides Setup, flexible Arbeitszeiten & Wellpass-Fitnessprogramm inklusive
-
-💬 **Wertschätzung & Offenheit** – Wir fördern Eigeninitiative und echtes Teamgefühl
-
-📩 **Klingt gut? Dann bewirb dich jetzt – wir freuen uns auf dich!**  
-**Let’s build the next Energy-Unicorn together! ⚡**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nencosa, standing for \"energy cost savings,\" is on a mission to help commercial and industrial customers reduce electricity costs and avoid CO2 emissions through battery storage and intelligent software. As a full-service provider, we handle everything from planning and grid connection to installation and operation. The Operations department is where all threads converge, planning, steering, and successfully implementing projects. This mandatory internship offers a unique opportunity to gain real-world experience, make a tangible impact, and delve deep into operational processes, project steering, and process optimization within a dynamic startup environment, contributing directly to the energy transition.\n\n### Responsibilities\n- **Project Management Support:** Coordinate appointments, tasks, and communication processes for our storage projects.\n- **Documentation & Reporting:** Prepare project documents and reports for internal coordination and external partners.\n- **Research & Data Maintenance:** Build and maintain data on installers, suppliers, and networks.\n- **Communication:** Follow up on open items, gather technical information from partners.\n- **Process Improvement:** Support the further development of our operational processes.\n- **Special Projects:** Participate in topics such as logistics planning, tool development, or data structuring.\n- **Tool Development & Coding:** Assist in the further development of our internal storage design tool, including data structure, visualization, and energy analyses.\n\n### Qualifications\n- You are completing a mandatory internship as part of your studies (e.g., Industrial Engineering, Energy/Electrical Engineering, Business Informatics, or a comparable field).\n- You are interested in renewable energies, startups, and operational implementation.\n- You work structured, reliably, and independently, and enjoy taking on responsibility.\n- You are communicative, can convey information clearly, and enjoy working in a team.\n- You are proficient in Excel, PowerPoint & Co., ideally also with tools like Notion or CRM systems.\n- Initial coding experience (e.g., in Python, JavaScript, etc.) is a plus, but not a must.\n- You are enthusiastic about an environment where ideas count and speed is important.\n\n### Author's Take\nThis internship at encosa offers an exceptional opportunity for students passionate about renewable energy and startups to gain hands-on experience and make a significant impact. You'll be part of a dynamic, supportive team with short decision-making paths, experiencing a steep learning curve by working closely with founders and project leaders. The company values initiative, fosters a strong team spirit, and offers flexible working arrangements, including hybrid setup and flexible hours. It's an ideal role for someone looking to contribute meaningfully to the energy transition and build the next energy unicorn.

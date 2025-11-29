@@ -9,74 +9,44 @@ postedDate: '2025-11-24T14:03:03.000Z'
 expirationDate: null
 tags:
   - Controlling
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Lead
+employeeRole: Manager
+salaryRange: 'Up to €120,000 p.a.'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/fischer-partner-gesellschaft-fur-personal-mbh/leiter-finanzen-controlling-mit-sap-fur-die-immobilienbranche-esslingen-434197
 companyLogoUrl: null
+companyCulture: >-
+  This established real estate company fosters a supportive and growth-oriented
+  environment, emphasizing teamwork, flexible working hours, and a hybrid work
+  model for a healthy work-life balance. They are committed to employee
+  development, offering continuous learning opportunities and encouraging
+  leaders to mentor and empower their teams.
+story_question1: >-
+  What are the key strategic challenges in optimizing Finance & Controlling
+  processes, and how will this role contribute to the upcoming SAP migration?
+story_answer1: >-
+  As the Head of Finance & Controlling, you'll be at the forefront of shaping
+  our financial future. One of the biggest challenges, and opportunities, lies
+  in continuously refining our processes and spearheading the upcoming SAP
+  migration. You'll not just manage, but truly transform how we operate,
+  ensuring efficiency and accuracy while guiding your team through this exciting
+  technological leap. Your impact will be felt directly in our ability to make
+  data-driven decisions and enhance our overall financial health, a cornerstone
+  for our continued success in real estate.
+story_question2: >-
+  How does the company support the professional development of its leaders,
+  especially in fostering a collaborative and growth-oriented team environment
+  within Finance & Controlling?
+story_answer2: >-
+  Here, leadership isn't just about managing tasks; it's about nurturing talent.
+  We believe in empowering our leaders, offering continuous learning
+  opportunities to ensure you not only excel in your role but also inspire your
+  team to grow. You'll be central to developing your six-person team, guiding
+  them through hands-on support and providing the mentorship they need. Our
+  culture thrives on open communication and mutual support, ensuring that while
+  you drive financial excellence, you're also building a cohesive unit that
+  learns and achieves together.
 ---
-Für einen erfolgreichen, etablierten Immobilienentwickler und -bewirtschafter mit über 100 Mitarbeitenden im Raum Esslingen suchen wir Sie zum nächstmöglichen Zeitpunkt als
-
-**Leiter Finanzen & Controlling (w/m/d) mit SAP-Kenntnissen**
-
-bei einem **Homeoffice-Anteil von zwei Tagen pro Woche** nach erfolgreicher Einarbeitung.
-
-In Abhängigkeit von Ihren Kenntnissen und Erfahrungen können Sie hier im besten Falle **bis zu 120.000 € p.a.** (inkl. variablem Anteil) verdienen.
-
-Die Vollzeitstelle, die Ihnen **flexible Arbeitszeiten und Weiterbildungsmöglichkeiten** bietet, ist im Rahmen der Personalvermittlung zu besetzen. Bedeutet also: Sie haben von Anfang an ein festes Anstellungsverhältnis mit Ihrem neuen Arbeitgeber, der Sie gerne viele Jahre beschäftigen möchte.
-
-Der besseren Lesbarkeit wegen richten sich alle folgenden Bezeichnungen an alle Geschlechter.
-
-Aufgaben
---------
-
-**Voilà, so sieht Ihr neuer Job aus!**
-
-*   An der Erstellung der Monats-, Quartals- und Jahresabschlüsse wirken Sie weitgehend mit auf Basis Ihrer bisherigen Erfahrung in der Bilanzierung einer Immobiliengesellschaft
-*   Im Finance sind Sie Ihren Mitarbeitenden eine wertvolle Stütze, indem Sie diese in der laufenden Finanzbuchhaltung mehrerer Immobiliengesellschaften hands-on unterstützen. Gleiches gilt für das Thema Anlagenbuchhaltung
-*   Dabei führen Sie sechs Mitarbeitende fachlich wie disziplinarisch und entwickeln diese weiter
-*   Sie haben den Hut auf bei Cash-Forecasting und Liquiditätsplanung (wöchentlich)
-*   Bei der Planung weiterer Investitionen sind Sie ein wichtiger Sparringspartner
-*   Bei allen Themen rund um Bilanzierung sind Sie ein kompetenter Ansprechpartner
-*   Zusammen mit Ihren Mitarbeitenden erstellen Sie sowohl die mittel- und langfristigen Planungen als auch Soll-/Ist-Vergleiche
-*   Für die Beschlussfassungen der Gesellschafter sind Sie der vor- und nachbereitende Part
-*   Bei der laufenden Verbesserung der Prozesse in Finance & Controlling sowie bei Projektarbeiten (u.a. SAP-Migration) bringen Sie Ihre Erfahrung ein
-*   In allen Fragen rund um Finance & Controlling sind Sie gegenüber der Geschäftsführung sowie externen Partnern (u.a. WP/StB) ein kompetenter Ansprechpartner.
-
-Qualifikation
--------------
-
-**Das bringen Sie mit:**
-
-*   Gute Laune sowie Lust auf nette Kollegen und Teamarbeit (6 Mitarbeitende in Finance & Controlling)
-*   Sie verfügen über mindestens vier Jahre Berufserfahrung in einer vergleichbaren Position inkl. Führung, ebenso mindestens vier Jahre in der Immobilienbranche
-*   Idealerweise haben Sie Monats- und Jahresabschlüsse bereits selbstständig erstellt. Alternativ haben Sie daran bislang weitgehend mitgewirkt
-*   Dazu bringen Sie in jedem Fall gute Anwenderkenntnisse in SAP mit
-*   Sie kommunizieren mündlich und schriftlich in sehr gutem Deutsch
-*   Wir verzichten gerne auf weitere an dieser Stelle übliche persönliche Attribute und möchten Sie als Person kennenlernen. Wichtig ist zunächst, dass Sie Lust auf nette Kollegen haben und ein absoluter Teamplayer sind, der sich fachlich gerne weiter entwickeln möchte
-*   Uns ist klar, dass kaum jemand alle Anforderungen erfüllen wird. Auch solche Bewerbungen sind herzlich willkommen!
-
-**In 3 einfachen Schritten zu Ihrer neuen Anstellung:**
-
-1.) Bewerbungsunterlagen als PDF abspeichern (Verzichten Sie gerne und guten Gewissens auf ein Anschreiben).  
-2.) Bewerbung hier absenden  
-3.) Wir setzen uns sehr zeitnah mit Ihnen in Verbindung.
-
-Bei Fragen steht Ihnen unser Personalberater Uli Davidsson unter der Rufnummer 0711 / 528 509 - 16 jederzeit gerne zur Verfügung.
-
-**Kann man uns vertrauen? Wir meinen JA!**
-
-Fischer & Partner ist zum besten Personalvermittler der DACH-Region (Deutschland, Österreich, Schweiz) ausgezeichnet worden. Weiterempfehlungsrate: glatte 100%. Weitere Informationen unter:
-
-[https://www.kununu.com/de/fischer-partner-gesellschaft-fuer-personal-mbh/bewerbung?sort=newest](https://www.kununu.com/de/fischer-partner-gesellschaft-fuer-personal-mbh/bewerbung?sort=newest)
-
-**Was Sie sonst noch über uns wissen sollten:**
-
-Für Sie als Bewerber arbeiten wir **kostenfrei und mit höchster Diskretion**. Bevor wir Sie bei potenziellen Arbeitgebern in anonymisierter Form vorschlagen, sprechen wir immer zuerst mit Ihnen über die jeweilige Stelle! Ohne Ihre Zustimmung unternehmen wir keinen Schritt. Ihre Daten sind bei uns sicher!
-
-**Unser Qualitätsversprechen**: Wir beantworten jede Bewerbung sehr zuverlässig innerhalb von max. drei Werktagen, i.d.R. schneller. Wenn Sie also nach drei Werktagen nichts von uns gehört haben, kann es technische Gründe dafür geben. Bitte haken Sie in diesem Fall bei uns nach.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nThis role is for a Head of Finance & Controlling at an established real estate developer and manager based in the Esslingen area, boasting over 100 employees. The company is seeking an experienced leader to oversee its finance and controlling operations, offering a permanent, full-time position with excellent benefits including up to two days of home office per week after successful onboarding, flexible working hours, and opportunities for professional development. The ideal candidate will be an integral part of the leadership team, contributing to the company's financial strategy and operational excellence in a collaborative and growth-oriented environment.\n\n### Responsibilities\n- Participate significantly in the preparation of monthly, quarterly, and annual financial statements, leveraging experience in real estate accounting.\n- Provide hands-on support to the team in ongoing financial accounting for multiple real estate entities and asset accounting.\n- Lead, mentor, and develop a team of six employees, both functionally and disciplinarily.\n- Oversee weekly cash forecasting and liquidity planning.\n- Act as a key sparring partner for strategic investment planning.\n- Serve as a competent point of contact for all balance sheet-related topics.\n- Collaborate with the team on medium and long-term planning, as well as actual-vs-target comparisons.\n- Manage the preparation and follow-up of shareholder resolutions.\n- Drive continuous process improvement within Finance & Controlling and contribute to key projects, including SAP migration.\n- Be the primary contact for the management and external partners (e.g., auditors, tax advisors) regarding all finance and controlling inquiries.\n\n### Qualifications\n- At least four years of professional experience in a comparable leadership position, including team leadership.\n- A minimum of four years of experience within the real estate industry.\n- Proven experience in independently preparing monthly and annual financial statements, or significant contributions to their creation.\n- Proficient user knowledge of SAP is required.\n- Excellent communication skills in German, both written and spoken.\n- A strong team player with a positive attitude and a desire to collaborate effectively with colleagues.\n- A proactive mindset focused on continuous professional development. The company encourages applications even if not all requirements are fully met.\n\n### Author's Take\nThis is a compelling opportunity for an experienced Finance & Controlling leader to join a well-established real estate company. The role offers a fantastic blend of strategic oversight, team leadership, and hands-on involvement, particularly in critical areas like process optimization and SAP migration. With attractive benefits such as hybrid work, flexible hours, and a competitive salary, alongside a culture that values teamwork and professional growth, it's an ideal fit for someone looking to make a significant impact and develop their career long-term. The recruiting partner, Fischer & Partner, is highly reputable, ensuring a discreet and professional application process for candidates.
