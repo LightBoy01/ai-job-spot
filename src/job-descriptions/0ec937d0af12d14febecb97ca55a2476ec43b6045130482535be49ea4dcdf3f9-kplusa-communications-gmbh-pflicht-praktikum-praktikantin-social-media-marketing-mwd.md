@@ -9,53 +9,59 @@ postedDate: '2025-11-28T16:32:06.000Z'
 expirationDate: null
 tags:
   - Online Marketing
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/kplusa-communications-gmbh/pflicht-praktikum-praktikant-in-social-media-marketing-dusseldorf-259372
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a modern culture with strong team cohesion and a
+  supportive environment for professional development through internal training.
+  It emphasizes collaboration and continuous learning.
+story_question1: >-
+  Given this is an internship, how does the team ensure interns contribute
+  meaningfully to core social media strategies, beyond just execution, and what
+  kind of mentorship can I expect?
+story_answer1: >-
+  Absolutely! We see our interns not just as extra hands, but as future talent.
+  From day one, you'll be integrated into our social media scrum, contributing
+  ideas for content creation and strategy for key platforms like LinkedIn. Our
+  senior marketers act as mentors, guiding you through tools like CapCut and
+  Adobe Premiere, and encouraging you to experiment. Last year, one of our
+  interns proposed a new video series for a client that significantly boosted
+  engagement, showing that even as an intern, your ideas can have a real impact
+  and help shape the future of our clients' brands.
+story_question2: >-
+  The description mentions modern company culture and strong team cohesion. How
+  does this translate into daily collaboration and feedback, especially for
+  someone early in their career?
+story_answer2: >-
+  Our open-door policy isn't just a phrase – it's how we operate. You'll be part
+  of a well-integrated team where your input is valued. We have regular
+  stand-ups where everyone, including interns, shares progress and challenges.
+  Feedback is continuous and constructive, designed to help you grow. We
+  encourage asking questions and trying new things, knowing that learning is a
+  process. It's a supportive environment where you're never left feeling like
+  just a cog in the machine; you're truly part of the KplusA family,
+  contributing to exciting projects and learning from experienced professionals
+  who genuinely care about your development.
+story_question3: >-
+  The role emphasizes creative work with video and social media trends. Can you
+  share an example of a recent creative challenge or a particularly innovative
+  campaign where an intern's fresh perspective was crucial?
+story_answer3: >-
+  Definitely! We recently had a client looking to revitalize their LinkedIn
+  presence with short, engaging video content. Our team, including a new intern,
+  brainstormed ideas. The intern, with a finger on the pulse of current Reel
+  trends, suggested integrating a specific fast-cut editing style and a
+  challenge-response format. We gave them the reins to prototype some concepts
+  using CapCut. The results were fantastic – the videos garnered significantly
+  higher views and interactions than previous content. It was a clear example of
+  how a fresh pair of eyes, combined with an eagerness to experiment, can lead
+  to truly innovative and impactful results for our clients, and it's exactly
+  the kind of initiative we love to see.
 ---
-Bist du bereit für deine nächste Herausforderung im Social Media Marketing Bereich?
-
-Dann sind wir genau die richtigen für dich!
-
-Die KplusA Communications GmbH ist eine Eventagentur für Personenmarken und mittelständische Unternehmen. Wir machen Marken erlebbar und helfen durch eigene Business-Events zu mehr Umsatz, mehr Mitarbeitern und einem stärkeren Branding. Mit Hilfe unseres großen Netzwerks beraten und kreieren wir individuelle Eventkonzepte für unsere Kunden.
-
-Wir suchen nach einem engagierten Praktikanten, der uns bei der Planung und Umsetzung verschiedener Social Media Aktivitäten unterstützt. Als Teil unseres Teams erhältst du die einzigartige Gelegenheit, wertvolle praktische Erfahrungen zu sammeln.
-
-Aufgaben
---------
-
-*   Mitwirken beim Texten von Social-Media-Posts, vor allem für LinkedIn.
-*   Schneiden kurzer Videos, z.B. von Reels oder auch YouTube
-*   Hilfe bei der Erstellung und Umsetzung von Inhalten für unsere Markenauftritte.
-*   Mitarbeit bei der Entwicklung von Content für unseren Unternehmensaccount.
-*   Allgemeine Unterstützung im Bereich Social Media und Marketing
-
-Qualifikation
--------------
-
-*   Du hast Spaß am kreativen Arbeiten mit Video und erste Erfahrungen im Schnitt (z. B. mit CapCut, Adobe Premiere oder ähnlichen Tools).
-*   Du interessierst dich für Social Media, insbesondere Instagram und LinkedIn.
-*   Du hast ein gutes Gefühl für Bildsprache, Trends und knackige Formulierungen.
-*   Du arbeitest gerne eigenständig, bist zuverlässig und neugierig auf neue Tools und Formate.
-*   Du musst kein Profi sein – wichtig ist, dass du Lust hast, dich auszuprobieren und mit uns zu wachsen.
-*   Sicherer Umgang mit den gängigen MS-Office-Anwendungen
-*   Gute kommunikative Fähigkeiten und Teamgeist
-*   Organisationstalent und Kreativität
-*   Spaß am Umgang mit Menschen
-
-Benefits
---------
-
-*   **Attraktive Vergütung:** Unsere Mitarbeiter erhalten zusätzlich einen 50€-Zuschuss für das 49€ Ticket oder einen Parkplatz.
-*   **Ausführliche interne Schulungen:** Wir unterstützen Deine Weiterentwicklung durch unsere interne Schulungsplattform.
-*   **Moderne Unternehmenskultur:** Bei uns herrscht ein starker Zusammenhalt untereinander und du wirst Teil eines gut eingespielten Teams.
-*   **Gute Erreichbarkeit:** Unsere Büroräume befinden sich im Herzen von Düsseldorf Benrath und haben eine gute Verkehrsanbindung an die Autobahn und an den ÖPNV.
-
-Füge bitte in das Feld „Möchtest du noch etwas ergänzen die Wörter „**Social Media ist super**“ ein, um zu zeigen, dass du die Stellenanzeige vollständig gelesen hast. Andernfalls können wir die Bewerbung nicht berücksichtigen, weil wir eine große Anzahl an Anfragen erhalten.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAre you ready for your next challenge in social media marketing? Then we are exactly the right fit for you!\n\nKplusA Communications GmbH is an event agency for personal brands and medium-sized companies. We make brands tangible and help our clients achieve more sales, more employees, and stronger branding through our own business events. With the help of our large network, we advise and create individual event concepts for our customers.\n\nWe are looking for a dedicated intern to support us in the planning and implementation of various social media activities. As part of our team, you will receive the unique opportunity to gain valuable practical experience.\n\n### Responsibilities\n*   Participate in writing social media posts, especially for LinkedIn.\n*   Edit short videos, e.g., Reels or YouTube videos.\n*   Assist in the creation and implementation of content for our brand appearances.\n*   Collaborate on the development of content for our company account.\n*   General support in social media and marketing.\n\n### Qualifications\n*   You enjoy creative work with video and have initial editing experience (e.g., with CapCut, Adobe Premiere, or similar tools).\n*   You are interested in social media, especially Instagram and LinkedIn.\n*   You have a good sense of visual language, trends, and concise formulations.\n*   You like to work independently, are reliable, and curious about new tools and formats.\n*   You don't have to be a professional – it's important that you are eager to try things out and grow with us.\n*   Proficient in common MS-Office applications.\n*   Good communication skills and team spirit.\n*   Organizational talent and creativity.\n*   Enjoy interacting with people.\n\n### Author's Take\nThis is a fantastic entry-level internship opportunity at KplusA Communications GmbH for anyone passionate about social media and video content. You'll gain hands-on experience in a dynamic event agency, contributing to real client projects and learning industry best practices. The company offers a modern culture with strong team cohesion and a commitment to employee development through internal training. Plus, you'll receive attractive benefits like a subsidy for public transport or parking, and work in a well-connected Düsseldorf location. If you're eager to learn, creative, and ready to make an impact, this role is for you.\n\nP.S. To show you've thoroughly read the job description, please include \"Social Media ist super\" in your application's additional comments field.

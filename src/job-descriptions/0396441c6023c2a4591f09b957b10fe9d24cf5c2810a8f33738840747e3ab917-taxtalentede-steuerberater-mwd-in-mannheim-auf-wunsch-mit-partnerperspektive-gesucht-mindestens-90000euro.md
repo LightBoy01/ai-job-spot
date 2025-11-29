@@ -12,67 +12,55 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '€90,000 - €130,000 / Year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-mannheim-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-418259
 companyLogoUrl: null
+companyCulture: >-
+  This company fosters a positive, growth-oriented culture where employees are
+  financially and personally valued. It offers limitless development
+  opportunities, including a path to partnership, and promotes work-life balance
+  through flexible hours and home office. Strong team cohesion, support for
+  continuous learning, and personalized task composition are core to the
+  environment.
+story_question1: >-
+  How does this role truly allow a Tax Consultant to shape their own career path
+  and contribute directly to the firm's strategic direction, especially given
+  the 'optional' team leadership and customized task areas?
+story_answer1: >-
+  That's a fantastic question, and it gets to the heart of what makes working
+  here unique. We're not looking for someone to just tick boxes; we're seeking
+  proactive minds ready to truly sculpt their role. Think of it as a blank
+  canvas where you decide, based on your strengths and passions, what projects
+  you'll dive into—be it complex inheritance tax cases or advising on major
+  corporate restructuring. The 'optional' team leadership isn't just a footnote;
+  it's a genuine invitation to step up, mentor others, and contribute to our
+  growth if that's where your ambition lies. We foster an environment where your
+  insights aren't just heard, they're actively sought, directly influencing our
+  client strategies and firm development. We believe your growth fuels ours,
+  which is why we offer a clear path towards partnership for those who
+  consistently demonstrate leadership and vision.
+story_question2: >-
+  With the mention of a 'partnership perspective' and 'industry-level salaries,'
+  what tangible support and mentorship are in place to guide an ambitious Tax
+  Consultant towards achieving partner status?
+story_answer2: >-
+  It's true, the partnership perspective is one of our key differentiators, and
+  we don't just put it on paper—we actively cultivate it. From day one, you'll
+  be integrated into a system designed to fast-track your professional
+  development. This includes personalized mentorship from existing partners who
+  act as guides, sharing their expertise and insights into what it takes to
+  thrive. We invest heavily in your continuous education, covering advanced
+  qualifications like Fachberater programs, ensuring you're always at the
+  cutting edge of tax law. Furthermore, our flexible working models and home
+  office options aren't just perks; they're tools that allow you to manage your
+  time effectively, balancing client work, professional growth, and personal
+  life, all while building your portfolio towards partnership. We believe in
+  providing you with all the resources and a clear roadmap to not just reach,
+  but exceed your career aspirations.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Mannheim.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nTaxTalente is the number one job-matching platform for job seekers in tax consulting, specializing in connecting professionals with attractive employers in the tax advisory sector. We are currently seeking a highly motivated Tax Consultant (m/f/d) for one of our esteemed partner firms located in Mannheim. \n\nThis is an exceptional opportunity for professionals looking for a positive career change, eager to take the next step towards a partnership in a forward-thinking firm, and seeking a work environment where financial and personal contributions are genuinely valued. You will find activities that truly advance your career within a positive and supportive atmosphere. The firm prides itself on offering limitless development opportunities, diverse areas of activity, and compensation comparable to industry standards. \n\nFor any questions, you are welcome to contact Herr Becker-Koch directly by phone at 015901431130, anytime (even after work hours).\n\n### Responsibilities\nAt our partner firm, you'll have the unique opportunity to shape your own area of responsibility based on your personal strengths and preferences. Your tasks may include:\n- Creation and review of annual financial statements.\n- Preparation of tax returns for partnerships and corporations.\n- Special tax consulting projects based on individual qualifications, e.g., in the areas of inheritance tax or corporate restructuring tax law.\n- Support and accompaniment of tax audits.\n- Team leadership and personnel responsibility (optional).\n- Other individually selectable areas of activity that bring you joy.\n\n### Qualifications\nTo ensure a mutually beneficial fit, we are looking for candidates who possess the following:\n- A communicative nature and enjoyment of interaction with clients.\n- A meticulous, efficient, and conscientious working style.\n- Openness to a digital way of working and modern processes.\n- Leadership understanding and a strong sense of responsibility towards employees (optional).\n- A successfully completed tax advisor examination.\n- A genuine passion for tax topics and continuous learning.\n\n### Author's Take\nThis is an outstanding opportunity for an ambitious Tax Consultant to join a premier partner firm in Mannheim, facilitated by TaxTalente. The role stands out with an extraordinary compensation package ranging from €90,000 to €130,000 annually, coupled with a clear and tangible partnership perspective for those who aspire to lead. The firm deeply values work-life balance, offering flexible working hours and significant home office options, allowing you to tailor your work to your lifestyle. \n\nBeyond compensation, expect comprehensive support for continuous professional development, including funding for specialized consultant qualifications (Fachberater). The working environment is modern, fully digitized, and boasts a strong team cohesion fostered by regular team events. What truly sets this opportunity apart is the bespoke approach to your responsibilities, allowing you to focus on areas that leverage your strengths and passions. \n\nLeveraging TaxTalente for this search offers unparalleled advantages: you avoid fruitless interviews as criteria like salary are pre-cleared, your salary negotiations are expertly handled on your behalf, and your application remains 100% anonymous until you give the green light. You'll gain access to a network of selectively chosen, attractive firms that truly stand out in terms of compensation, benefits, digital maturity, and culture. Best of all, this invaluable service is entirely free and non-binding for you. This is more than just a job; it's a strategic career move designed for growth, recognition, and impact.

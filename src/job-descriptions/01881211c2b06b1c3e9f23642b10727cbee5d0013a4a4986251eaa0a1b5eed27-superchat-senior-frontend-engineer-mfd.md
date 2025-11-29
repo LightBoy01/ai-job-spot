@@ -9,73 +9,73 @@ postedDate: '2025-11-28T18:31:47.000Z'
 expirationDate: null
 tags:
   - Software Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/superchat/senior-frontend-engineer-berlin-66936
 companyLogoUrl: null
+companyCulture: >-
+  Superchat fosters a dynamic, inclusive startup environment that values
+  collaboration through regular events and offers strong opportunities for
+  accelerated personal and career growth with a significant personal development
+  budget. They also prioritize work-life balance through generous vacation, a
+  hybrid work model, and provide support for relocation to Berlin, all within a
+  positive and challenging atmosphere.
+story_question1: >-
+  How does the Frontend Engineer role directly contribute to Superchat's mission
+  of making business communication as easy as talking to a friend, and what's
+  the biggest technical challenge you foresee in achieving that seamless
+  experience?
+story_answer1: >-
+  That's a fantastic question! As a Frontend Engineer here, you're truly at the
+  forefront of our mission. You're not just coding; you're crafting the
+  intuitive interfaces that empower businesses to connect effortlessly with
+  their customers. We give our engineers full ownership, so you'll see your
+  ideas come to life and directly impact how thousands of businesses interact
+  daily. The biggest challenge? It's balancing the need for rapid feature
+  development in a fast-paced startup with maintaining a rock-solid, type-safe,
+  and scalable codebase. We're constantly pushing the boundaries of what's
+  possible with modern web tech, and we thrive on tackling those complex UX/UI
+  challenges to deliver truly magical experiences. It's exhilarating, and you're
+  surrounded by brilliant minds who love to innovate.
+story_question2: >-
+  Given the focus on personal development and an inclusive startup environment,
+  what does a typical collaboration look like between frontend, backend, and
+  design teams, and how are new ideas or technical improvements usually
+  championed?
+story_answer2: >-
+  Collaboration is really at the heart of how we operate. We believe the best
+  ideas come from diverse perspectives. A typical feature cycle starts with
+  designers bringing initial mock-ups, then we immediately pull in frontend and
+  backend engineers to discuss feasibility, technical approaches, and potential
+  improvements. It's a very iterative process. We use tools like Linear for
+  project management and have regular stand-ups, but more importantly, we foster
+  an open dialogue where anyone can challenge assumptions or propose a better
+  way. If you have a brilliant idea for a technical improvement or a new
+  approach, we encourage you to champion it – whether it's through a quick Slack
+  discussion, a dedicated proposal, or even a 'pizza & beer' brainstorming
+  session. We've seen many engineer-driven initiatives make it into our core
+  product, and that's something we're incredibly proud of as it fuels our
+  collective growth.
+story_question3: >-
+  For someone considering relocating to Berlin for this role, how does Superchat
+  support new team members in settling into the city and integrating into the
+  team, beyond just the relocation assistance?
+story_answer3: >-
+  We understand that moving to a new city, especially a new country, can be a
+  big step, and we want you to feel at home both professionally and personally.
+  Beyond the formal relocation assistance we offer with our agency partners, we
+  really focus on building a strong community. From the moment you join, you'll
+  have a buddy to help you navigate both Superchat and Berlin life. Our regular
+  team events – from legendary parties to casual sport activities and 'pizza &
+  beer' evenings – are fantastic ways to connect with colleagues outside of
+  work. Many of our team members are also international, so there's a shared
+  understanding and plenty of advice on everything from finding the best local
+  spots to navigating German bureaucracy. We truly believe that a happy team
+  member is a productive team member, and we're committed to making your
+  transition to Berlin and Superchat as smooth and enjoyable as possible.
 ---
-**At Superchat, we’re reimagining how businesses communicate with their customers. Our mission is simple: Communicating with a business should be as easy and natural as talking to a friend.**
-
-What you'll do:
----------------
-
-*   You develop and implement new features for our web applications and packages
-*   You maintain, optimize, and improve our existing codebase
-*   You work closely with backend engineers and designers to create seamless user experiences
-*   You take full ownership of features from implementation to deployment
-*   You bring in your own ideas to shape and enhance our product
-
-**What you'll bring:**
-----------------------
-
-*   You have 2+ years of experience in frontend development with TypeScript and React, Vue, Svelte or a similar framework
-*   You have built and maintained mid-to-large-scale web applications and are highly proficient in HTML, CSS and modern web development best practices
-*   You have advanced proficiency in TypeScript, including familiarity with utility types (Pick, Omit, Partial, Record), generics, conditional types, and type inference patterns to build robust, type-safe applications
-*   You have a strong eye for UX/UI and can translate designs into intuitive, user-friendly interfaces
-*   You are professionally fluent in written and spoken English
-
-**Tech stack:**
----------------
-
-*   Typescript / React / NextJS / React-Query / Storybook / TailwindCSS for our web application
-*   GitHub Actions for CI/CD
-*   Linear (project management)
-*   LaunchDarkly (feature flagging)
-*   Doppler (secret management)
-*   DataDog / Sentry / BetterUptime to monitor our services
-*   Typescript and React Native for our mobile application
-*   Kotlin with the Quarkus for our backend
-*   AWS: RDS with Postgres, S3, SQS, SNS, SES, Lambda, Cloudfront, Opensearch
-
-**Check out our entire tech stack:**
-
-Why Superchat:
---------------
-
-Aside from our people, culture and mission, there are a variety of additional benefits that help make Superchat a great place to work!
-
-*   26 days of paid vacation + 2 days off for Christmas and New Year's Eve (because we love what we do, but we also love vacation!)
-*   Regular company and team events like pizza & beer evenings, sport activities, legendary parties, and more!
-*   Annual personal development budget for conferences, courses, books, career coach, etc.
-*   An inclusive and exciting start-up environment culture that offers accelerated career and personal growth
-*   Beautiful office in the heart of Berlin (Prenzlauer Berg) equipped with ergonomic chairs, height adjustable desks, free snacks, beverages and overall good vibes
-
-Superchat is the most comprehensive messaging-suite for small and medium-sized businesses. Using our platform, businesses of all sizes can connect with customers via any channel (WhatsApp, Facebook Messenger, Instagram, Telegram and many more) and send out payment requests, collect reviews and sell products in a modern and convenient way.
-
-Superchat raised over $16.5 million in capital from leading Venture Capital funds Blossom Capital and 468 Capital as well as angel investors including the founders of Trivago, Lieferando and Lovoo.
-
-This is an on-site role in Berlin. We are offering a hybrid model with 2 days home office per week.
-
-**You have to move? - relocation without stress.** If you’re looking to relocate to Berlin, we’re ready to assist you with all the tips we have and an agency that can help you with all your needs. You’ll feel home in no time!
-
-At Superchat, we're looking for people with passion, grit, and integrity. You're encouraged to apply, even if your experience doesn't precisely match the job description. Your skills and passion will stand out - and set you apart - especially if your career has taken some extraordinary twists and turns. At Superchat, we welcome diverse perspectives and people who think rigorously and aren't afraid to challenge assumptions. Join us!
-
-We are looking forward to your application!
-
-With your application you agree to our
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nSuperchat is reimagining business communication, aiming to make it as easy and natural as talking to a friend. As a Frontend Engineer, you'll be instrumental in developing and optimizing their web applications, contributing to a comprehensive messaging suite for small and medium-sized businesses. This role offers the chance to take full ownership of features, work with a modern tech stack, and shape the product's future in a dynamic, inclusive startup environment in Berlin. Superchat is backed by over $16.5 million in capital and focuses on empowering businesses to connect with customers across various channels.\n\n### Responsibilities\n*   Develop and implement new features for our web applications and packages.\n*   Maintain, optimize, and improve our existing codebase.\n*   Collaborate closely with backend engineers and designers to create seamless user experiences.\n*   Take full ownership of features from implementation to deployment.\n*   Bring in your own ideas to shape and enhance our product.\n\n### Qualifications\n*   2+ years of experience in frontend development with TypeScript and a framework like React, Vue, or Svelte.\n*   Proven ability to build and maintain mid-to-large-scale web applications, with high proficiency in HTML, CSS, and modern web development best practices.\n*   Advanced proficiency in TypeScript, including familiarity with utility types (Pick, Omit, Partial, Record), generics, conditional types, and type inference patterns.\n*   Strong eye for UX/UI, capable of translating designs into intuitive, user-friendly interfaces.\n*   Professionally fluent in written and spoken English.\n*   **Tech Stack:** Experience with Typescript, React, NextJS, React-Query, Storybook, TailwindCSS, GitHub Actions, Linear, LaunchDarkly, Doppler, DataDog, Sentry, BetterUptime, React Native, Kotlin with Quarkus, and AWS services (RDS with Postgres, S3, SQS, SNS, SES, Lambda, Cloudfront, Opensearch) is highly beneficial.\n\n### Author's Take\nThis is an exciting Mid-Senior Frontend Engineer opportunity at Superchat, a well-funded startup revolutionizing business communication. The role offers significant autonomy (\"full ownership\") and impact, allowing you to directly shape the product's user experience. With a strong emphasis on personal growth (annual development budget, accelerated career growth) and a supportive, inclusive culture (team events, hybrid model, relocation assistance), it's ideal for someone who thrives in a fast-paced environment and wants to make a tangible difference. The modern tech stack and the opportunity to work in vibrant Berlin make this a highly attractive position for a driven frontend developer.

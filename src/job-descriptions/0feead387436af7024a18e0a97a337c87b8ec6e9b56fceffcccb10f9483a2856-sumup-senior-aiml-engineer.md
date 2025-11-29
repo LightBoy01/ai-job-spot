@@ -8,75 +8,64 @@ applicationLink: >-
 postedDate: '2025-11-28T21:45:13.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/sumup/senior-ai-ml-engineer-berlin-342113
 companyLogoUrl: null
+companyCulture: >-
+  SumUp fosters a people-positive, agile culture emphasizing purpose-driven
+  work, continuous learning, and strong cross-functional collaboration. They
+  offer significant growth opportunities through dedicated L&D budgets and
+  promote work-life balance with generous time off and sabbaticals.
+story_question1: >-
+  Given the existing large AI assistant infrastructure, what's the most critical
+  challenge for a new Senior AI/ML Engineer to tackle in their first 90 days to
+  significantly impact merchant and agent experience?
+story_answer1: >-
+  Welcome aboard! The first 90 days as a Senior AI/ML Engineer here are all
+  about diving deep into our existing AI Assistant infrastructure. Your most
+  critical challenge will be rapidly mastering its complexities and immediately
+  contributing to behavior improvements and rolling out agentic features.
+  Imagine the impact: by refining how our AI interacts and proactively assists,
+  you'll be directly contributing to our goal of automating nearly 40% of
+  merchant requests, freeing up our support agents for more complex issues and
+  truly levelling the playing field for small businesses. It's a fast-paced
+  environment where your technical leadership immediately translates into
+  tangible improvements for millions of users.
+story_question2: >-
+  How does SumUp balance the rapid development and deployment of new AI
+  features, like the Voice Assistant pilot, with ensuring the long-term
+  maintainability and scalability of the core ML infrastructure?
+story_answer2: >-
+  That's an excellent question, and it goes to the heart of our 'Founder's
+  Mentality' and 'Agility' values. We balance innovation with stability through
+  a strong culture of ownership and disciplined software development practices.
+  While you'll be leading exciting pilots like the Voice Assistant, your role
+  also emphasizes architecting reliable, scalable solutions and maintaining our
+  ML infrastructure and pipelines. We empower our engineers with autonomy to
+  choose the right tools and approaches, ensuring that new features are built on
+  a solid, maintainable foundation, leveraging CI/CD and MLOps tools. It’s about
+  building for today's impact while constantly thinking about tomorrow's
+  scalability.
+story_question3: >-
+  Beyond the technical challenges, how does SumUp specifically foster a culture
+  of continuous learning and growth for senior technical leaders, and how does
+  that translate into career progression opportunities within the Global
+  Operations team?
+story_answer3: >-
+  For senior technical leaders, continuous learning is woven into our DNA. We
+  truly believe in 'We Care' and investing in our people. Beyond the dedicated
+  €2000 annual L&D budget for conferences and further education, growth happens
+  daily through cross-functional collaboration with data scientists, product
+  managers, and other stakeholders across our global teams. You'll be constantly
+  exposed to new challenges and perspectives. As a technical leader, your impact
+  on our core products and infrastructure creates clear pathways for advancing
+  into principal roles, or even exploring broader technical leadership roles
+  across SumUp, driving innovation that directly empowers millions of small
+  businesses worldwide.
 ---
-At SumUp, we are motivated by the purpose of levelling the playing field for small businesses. We empower small business owners by creating simple and affordable tools to manage payments, finance and customer relationships. We are a passionate team that thrives on human connection, autonomy and the desire to constantly learn, guided by our values: Founder's Mentality, Team First, and We Care. We want to build an enduring organisation that is people-positive, disciplined and that constantly innovates from within. Agility is the essence of an enduring organisation and we strive to create an organisation that fosters it.
-
-In Global Operations, we build the best customer experience in fintech. The Senior AI/ML Engineer role is critical for developing and deploying the next generation of AI-driven solutions that automate support and drastically improve the experience for both our merchants and support agents. You will be a key expert who builds and maintains the ML infrastructure and tooling that powers our core products using advanced AI/ML models. This role is a replacement, essential for maintaining momentum as we expand complex use cases like our AI Assistant and translation tools.
-
-### What You'll Be Doing
-
-*   You will be the dedicated technical leader for the Operations AI team, focused on designing, developing, and deploying high-performance, scalable ML/AI solutions in production environments.
-*   Architect, design, develop, and deploy our AI solutions and systems into production environments, ensuring reliability, high performance, and scalability.
-*   Take ownership and technical leadership in the development and maintenance of main AI products, including the AI Assistant (automating ~40% of merchant requests), AI Translation (enabling cross-language agent service), and the AI Agent Copilot.
-*   Develop and maintain ML infrastructure and pipelines to support efficient data processing, model training, serving, and continuous monitoring.
-*   Optimise and fine-tune machine learning models, and collect, preprocess, and clean large text datasets to ensure high-quality input for model training and evaluation.
-*   Embrace software development principles, best practices, and industry standards, including version control (Git), CI/CD processes (GitHub actions), and unit testing frameworks.
-*   Collaborate closely with Data Scientists, Product Managers, Developers, and other business stakeholders to enhance customer experience and improve operational efficiency globally.
-*   Complex Onboarding: Rapidly master a large, existing AI assistant infrastructure, starting immediately with working on behaviour improvements and agentic rollouts.
-*   Pilot and Innovation: Lead the creation of the pilot for the Voice Assistant and design how to leverage current AI assistant components to empower new channels.
-
-### You'll Be Great for This Position If You Have
-
-*   7+ years of proven experience as a Machine Learning Engineer or AI Engineer, focusing on building and deploying scalable machine learning or AI solutions and data-driven systems.
-*   Expert-level Python proficiency and excellent software development engineering skills for designing computationally effective solutions in large-scale production.
-*   Strong previous experience as an ML or AI engineer, with models in production, and a strong understanding of artificial intelligence, machine learning, and deep learning concepts.
-*   Experience using GenAI / LLM API and experience evaluating LLM models in production.
-*   Experience building and deploying ML Models using Cloud platforms (AWS, GCP, or Azure).
-*   Familiarity with MLOps tools (e.g., MLFlow, Kubeflow, Airflow, Langfuse), and hands-on experience with Kubernetes, Git, and Airflow.
-*   Good understanding of data pipelines, API design, containers (Docker), and version control (Git).
-*   Experience building, maintaining, and scaling APIs, and deployment using CI/CD Pipelines in GitHub actions.
-*   A true team player attitude who thrives on cross-functional collaboration.
-*   Self-drive, proactiveness, and high adaptability in a fast-paced environment, with a commitment to data governance, quality, and ownership.
-*   A passion for AI Technology, excited to power SumUp's next generation of automated support tools, and able to translate complex concepts to non-technical stakeholders.
-
-### Why you should join SumUp
-
-🌎 Opportunity to work with SumUppers globally on large-scale fintech products used by millions of businesses worldwide, from our Berlin office. This involves an office-first setup.
-
-🌈 Commitment to Diversity and Inclusion: be part of a workplace that values and promotes diversity, fostering an inclusive environment where everyone's perspectives are respected and embraced.
-
-🚀 Enrolment onto our Virtual Stock Option programme: you will own a stake in SumUp's future success.
-
-📚 A dedicated annual L&D budget of €2000 for attending conferences and/or advancing your career through further education.
-
-💶 A corporate pension scheme where we match up to 20% of your contributions.
-
-🏖️ Generous time off: enjoy 28 days of paid leave plus public holidays and special leave days.
-
-🚵🏾‍♂️ Numerous other benefits such as Urban Sports Club subsidy, Kita placement assistance, subsidised office lunches.
-
-🌴 Break4me: 1-month sabbatical after 3 years of service.
-
-🔗 Referral Bonus: earn additional rewards by referring talented individuals to join the SumUp team.
-
-### About SumUp
-
-At SumUp, we're on a mission to empower small businesses around the world with simple, affordable tools to help them start, run, and grow. More than 4 million merchants across 36 markets trust us as their financial partner — and we're just getting started. We're a global team of 3,000+ people from over 90 nationalities, united by curiosity, collaboration, and care. Our core values and culture shape everything we do, fostering inclusion, learning, and belonging.
-
-SumUp is proud to be an Equal Employment Opportunity employer, committed to building a safe, respectful, and diverse workplace where everyone can thrive.
-
-👉 Explore more about our culture on our careers site, or follow us on LinkedIn and Instagram.
-
-**Job Application Tip**
-
-We recognise that candidates feel they need to meet 100% of the job criteria in order to apply for a job. Please note that this is only a guide. If you don't tick every box, it's ok too because it means you have room to learn and develop your career at SumUp.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\nAt SumUp, we are driven by the mission to level the playing field for small businesses, empowering them with simple, affordable tools for payments, finance, and customer relationships. We are a passionate team valuing human connection, autonomy, and continuous learning, guided by our core values: Founder's Mentality, Team First, and We Care. We strive to be a people-positive, disciplined, and agile organization that constantly innovates.\\n\\nThis Senior AI/ML Engineer role within Global Operations is crucial for building the best customer experience in fintech. You will develop and deploy next-generation AI-driven solutions that automate support and significantly enhance the experience for both our merchants and support agents. This is a key expert position focused on building and maintaining the ML infrastructure and tooling that powers our core products using advanced AI/ML models, expanding complex use cases like our AI Assistant and translation tools.\\n\\n### Responsibilities\\n*   Serve as the dedicated technical leader for the Operations AI team, designing, developing, and deploying high-performance, scalable ML/AI solutions in production.\\n*   Architect, design, develop, and deploy AI solutions and systems into production environments, ensuring reliability, high performance, and scalability.\\n*   Take ownership and technical leadership in the development and maintenance of main AI products, including the AI Assistant (automating ~40% of merchant requests), AI Translation (enabling cross-language agent service), and the AI Agent Copilot.\\n*   Develop and maintain ML infrastructure and pipelines to support efficient data processing, model training, serving, and continuous monitoring.\\n*   Optimize and fine-tune machine learning models, and collect, preprocess, and clean large text datasets for high-quality input.\\n*   Embrace software development principles, best practices, and industry standards, including version control (Git), CI/CD processes (GitHub actions), and unit testing frameworks.\\n*   Collaborate closely with Data Scientists, Product Managers, Developers, and other business stakeholders to enhance customer experience and improve operational efficiency globally.\\n*   Rapidly master a large, existing AI assistant infrastructure, immediately working on behavior improvements and agentic rollouts.\\n*   Lead the creation of the pilot for the Voice Assistant and design how to leverage current AI assistant components to empower new channels.\\n\\n### Qualifications\\n*   7+ years of proven experience as a Machine Learning Engineer or AI Engineer, focusing on building and deploying scalable machine learning or AI solutions and data-driven systems.\\n*   Expert-level Python proficiency and excellent software development engineering skills for designing computationally effective solutions in large-scale production.\\n*   Strong previous experience as an ML or AI engineer, with models in production, and a strong understanding of artificial intelligence, machine learning, and deep learning concepts.\\n*   Experience using GenAI / LLM API and experience evaluating LLM models in production.\\n*   Experience building and deploying ML Models using Cloud platforms (AWS, GCP, or Azure).\\n*   Familiarity with MLOps tools (e.g., MLFlow, Kubeflow, Airflow, Langfuse), and hands-on experience with Kubernetes, Git, and Airflow.\\n*   Good understanding of data pipelines, API design, containers (Docker), and version control (Git).\\n*   Experience building, maintaining, and scaling APIs, and deployment using CI/CD Pipelines in GitHub actions.\\n*   A true team player attitude who thrives on cross-functional collaboration.\\n*   Self-drive, proactiveness, and high adaptability in a fast-paced environment, with a commitment to data governance, quality, and ownership.\\n*   A passion for AI Technology, excited to power SumUp's next generation of automated support tools, and able to translate complex concepts to non-technical stakeholders.\\n\\n### Author's Take\\nThis is a pivotal Senior AI/ML Engineer role at SumUp, a purpose-driven fintech company empowering small businesses globally. It offers a unique opportunity to lead the development of next-generation AI solutions, including a critical AI Assistant and the creation of a Voice Assistant pilot, directly impacting customer experience and operational efficiency for millions of users. The company fosters a people-positive, agile culture emphasizing purpose-driven work, continuous learning (with a dedicated L&D budget), strong cross-functional collaboration, and work-life balance (generous time off, sabbaticals). With a clear focus on deploying scalable AI models in production and embracing modern MLOps practices, this role is ideal for an experienced, proactive engineer passionate about making a tangible difference with cutting-edge AI. SumUp also explicitly encourages applications even if candidates don't meet 100% of the criteria, signaling a supportive environment for growth and development.

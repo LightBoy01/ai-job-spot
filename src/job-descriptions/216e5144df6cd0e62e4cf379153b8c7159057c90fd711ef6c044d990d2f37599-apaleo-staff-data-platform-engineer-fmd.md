@@ -8,63 +8,72 @@ applicationLink: >-
 postedDate: '2025-11-27T07:45:14.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/apaleo/staff-data-platform-engineer-munich-434985
 companyLogoUrl: null
+companyCulture: >-
+  Apaleo fosters a collaborative, diverse, and international environment that
+  emphasizes autonomy, continuous learning, and significant career growth. They
+  prioritize work-life balance through flexible work options, generous vacation,
+  and robust wellness programs.
+story_question1: >-
+  How will the architecture for the AI-driven data warehouse evolve over the
+  next 12-18 months, and what are the key challenges you foresee in scaling it
+  to support Apaleo's ambitious vision for personalized guest experiences?
+story_answer1: >-
+  That's an excellent question! Our vision for the AI-driven data warehouse is
+  to become the neural network of hospitality tech, moving beyond basic
+  analytics to truly autonomous decision-making and hyper-personalized guest
+  experiences. Over the next year, we'll be intensely focused on integrating
+  advanced AI/ML capabilities directly into the data platform, leveraging vector
+  databases for semantic search, and developing intelligent agents that can
+  proactively optimize operations. The biggest challenge, and also the most
+  exciting opportunity, is harmonizing disparate data sources, ensuring
+  real-time data freshness, and building a multi-tenant architecture that can
+  securely and efficiently serve thousands of diverse properties while
+  maintaining peak performance. It's a foundational role where your
+  architectural decisions today will directly empower the hospitality
+  innovations of tomorrow, allowing hoteliers to truly anticipate and cater to
+  their guests' needs.
+story_question2: >-
+  Given Apaleo's emphasis on autonomy and an API-first ecosystem, how does the
+  Staff Data Platform Engineer navigate the balance between architectural
+  standardization and enabling individual teams to innovate rapidly on top of
+  the data platform?
+story_answer2: >-
+  It's a balance we actively manage, and it's where our culture of trust and
+  transparency truly shines. While we absolutely need robust architectural
+  standards for scalability, security, and maintainability—especially in a
+  multi-tenant, API-first environment—we also empower our engineers. As a Staff
+  Data Platform Engineer, you're not just a gatekeeper; you're a facilitator.
+  You'll set the strategic direction and provide core tooling, but you'll also
+  collaborate closely with product and engineering teams to understand their
+  unique data needs. We foster an environment where proposals for innovative
+  solutions are encouraged, and the core data team acts as consultants and
+  enablers, helping teams leverage the platform effectively rather than
+  dictating every implementation. It's about building a robust foundation that
+  allows for agile innovation at the edges, ensuring our platform is both
+  powerful and adaptable.
+story_question3: >-
+  Beyond the technical aspects, what is the most significant non-technical
+  impact a Staff Data Platform Engineer can have on Apaleo's mission to redefine
+  hospitality through technology?
+story_answer3: >-
+  The non-technical impact is immense and often underestimated. As a Staff Data
+  Platform Engineer, you're not just building databases; you're building trust
+  and enabling an entire ecosystem. Your work directly translates into the
+  confidence our customers have in our platform's ability to deliver accurate,
+  timely, and actionable insights. By architecting a robust, intelligent data
+  foundation, you empower our product teams to dream bigger, knowing the data
+  infrastructure can support their most ambitious AI-driven features. You also
+  champion a data-driven mindset across the company, influencing strategy,
+  fostering a culture of informed decision-making, and ultimately accelerating
+  our journey to make hospitality truly smarter and more human. It's about being
+  a strategic partner, not just a technical expert.
 ---
-### Join Apaleo and Shape the Future of Hospitality Tech!
-
-**Apaleo** is the world's most open, API-first property management platform powering the next generation of hospitality operations. Its modular, AI-powered infrastructure enables hoteliers to customise their tech stack, automate routine work, and deliver seamless, personalised guest experiences, powered by best-in-class apps and autonomous AI agents that adapt to every stay. If you're driven by the idea of making hospitality smarter, more human, and powered by cutting-edge technology, we'd love to hear from you.
-
-We're looking for a visionary **Staff Data Platform Engineer** who will architect and scale the next generation of **AI-ready data warehouse solutions** for our customers. This is a hands-on, strategic role for someone who blends deep technical expertise with forward-thinking product vision.
-
-**What You'll Be Up To**
-
-*   Lead the **architecture design** of Apaleo's next-gen **AI-driven data warehouse platform**, enabling real-time analytics, automation, and intelligent recommendations.
-*   Build **modular data layers** that connect structured and unstructured data, empowering **AI agents** to autonomously process insights and optimize decisions.
-*   Partner with **Business Analysts and Product teams** to translate business problems into scalable, intelligent data solutions.
-*   Design and implement **high-performance data pipelines** that feed advanced **AI/ML models**, ensuring data accuracy, freshness, and accessibility across the organization.
-*   Develop **smart reporting APIs** for hotel property- and chain-level analytics, allowing seamless integration from third-party apps through the Apaleo Store.
-*   Ensure best practices in data architecture, ETL, and cloud-native development.
-
-### **What You'll Bring to the Team**
-
-*   **5+ years** building and scaling **data warehouse or SaaS analytics platforms**, ideally within high-growth tech environments (e.g., e-commerce, travel, or delivery tech).
-*   Strong background in **data architecture, backend engineering, and ETL orchestration**, with hands-on experience in **Python, C#/.NET (or Java), SQL, and cloud-native tools (AWS, GCP, or Azure)**.
-*   Experience/strong interest in **AI-enabling architectures.**
-*   Understanding of **API-first ecosystems** and how to build **multi-tenant SaaS data infrastructures** that scale with business complexity.
-*   Ability to collaborate cross-functionally and translate abstract business problems into **data-centric solutions**.
-*   Passion for **emerging AI technologies** (e.g., vector databases, autonomous data agents, GenAI integrations).
-*   Strong communication and leadership skills to influence both technical and business stakeholders.
-*   Based in **Munich or Berlin, Germany** (or willing to relocate).
-
-### **What We Offer:**
-
-### **Culture & Growth**
-
-*   **A Diverse & International Team:** Work alongside passionate professionals from over 20 nationalities, bringing unique cultural perspectives, backgrounds, and experiences to shape the future of hospitality tech.
-*   **Growth & Development:** As we scale, so do your opportunities. You'll benefit from 360° feedback reviews, a dedicated learning budget, and plenty of chances to take on more responsibility. Our evolving career framework ensures you have increasing opportunities to learn new skills, advance your career, and make an impact.
-*   **Autonomy & Ownership:** Great ideas can come from anywhere. We empower you to take responsibility, make decisions, and contribute directly in an environment built on trust, transparency, and collaboration.
-*   **Shape the Future of Hospitality Tech:** Be part of a fast-growing scale-up transforming the hospitality industry. From day one, your work drives real impact and you'll have the freedom to bring your ideas to life.
-*   **Competitive & Fair Compensation:** We believe great work deserves great pay. Our salaries are competitive and guided by benchmarking data to ensure fairness across all roles and teams. We make sure to recognize and reward performance and contribution.
-
-### **Perks & Lifestyle**
-
-*   **Flexible & Remote Work Options:** We focus on results, not clocking hours. You can work from home, the office or in a hybrid setup, with flexibility to adapt your schedule as long as it makes sense for your role, your team and our business.
-*   **Free Public Transport:** Travel across Germany with ease using our fully covered _Deutschland Ticket_.
-*   **Team Connection:** Strong connections fuel collaboration. We celebrate and connect through regular team dinners, company meetups, Oktoberfest celebrations, Christmas parties, and other offsite events.
-*   **Paid Time Off:** Enjoy **30 days of vacation** to fully disconnect, recharge, and return inspired.
-*   **Health & Wellbeing:** Prioritize your health with access to hundreds of gyms, fitness studios, and wellness options through our **EGYM Wellpass** membership.
-
-**What it means to join Apaleo:**
-
-Joining Apaleo means stepping into a space where hospitality is being redefined from the ground up. You won't just support innovation you'll help drive it. Your work will directly shape an intelligent, AI-first platform used by hospitality teams across the globe. Here, your ideas power real products, your voice influences direction, and your impact is visible at every level. At Apaleo, we build boldly, collaborate openly, and grow together fast.
-
-_We are proud to be an Equal Opportunity and Affirmative Action Employer, committed to fostering a diverse, inclusive, and welcoming workplace. We encourage applications from individuals of all backgrounds, regardless of race, color, religion, gender identity or expression, sex, national origin, age, marital status, disability, or any other characteristic protected by applicable law. Your personal data will be handled with the utmost care and in compliance with GDPR and relevant data protection regulations. We celebrate differences and believe that diversity enriches our team and drives innovation._
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nApaleo is at the forefront of revolutionizing hospitality tech with its open, API-first property management platform. This platform leverages modular, AI-powered infrastructure to enable hoteliers to automate operations, customize their tech stack, and deliver personalized guest experiences through best-in-class apps and autonomous AI agents.\n\nWe are seeking a visionary **Staff Data Platform Engineer** to architect and scale Apaleo's next-generation **AI-ready data warehouse solutions**. This is a hands-on, strategic role for a leader who combines deep technical expertise with a forward-thinking product vision to make hospitality smarter and more human-centered.\n\n### Responsibilities\n- Lead the architecture design of Apaleo's next-gen AI-driven data warehouse platform, enabling real-time analytics, automation, and intelligent recommendations.\n- Build modular data layers that connect structured and unstructured data, empowering AI agents to autonomously process insights and optimize decisions.\n- Partner with Business Analysts and Product teams to translate complex business problems into scalable, intelligent data solutions.\n- Design and implement high-performance data pipelines that feed advanced AI/ML models, ensuring data accuracy, freshness, and accessibility across the organization.\n- Develop smart reporting APIs for hotel property- and chain-level analytics, allowing seamless integration from third-party apps through the Apaleo Store.\n- Ensure best practices in data architecture, ETL, and cloud-native development.\n\n### Qualifications\n- 5+ years of experience building and scaling data warehouse or SaaS analytics platforms, ideally within high-growth tech environments (e.g., e-commerce, travel, or delivery).\n- Strong background in data architecture, backend engineering, and ETL orchestration, with hands-on expertise in Python, C#/.NET (or Java), SQL, and cloud-native tools (AWS, GCP, or Azure).\n- Demonstrated experience or strong interest in AI-enabling architectures.\n- Understanding of API-first ecosystems and how to build multi-tenant SaaS data infrastructures that scale with business complexity.\n- Ability to collaborate cross-functionally and translate abstract business problems into data-centric solutions.\n- Passion for emerging AI technologies (e.g., vector databases, autonomous data agents, GenAI integrations).\n- Strong communication and leadership skills to influence both technical and business stakeholders.\n- Based in Munich or Berlin, Germany (or willing to relocate).\n\n### Author's Take\nThis Staff Data Platform Engineer role at Apaleo offers a truly exciting opportunity to be at the forefront of AI-driven innovation in the hospitality sector. You'll play a pivotal role in architecting the core data infrastructure that powers Apaleo's next generation of products, directly enabling personalized guest experiences and autonomous operations. The company fosters a diverse, international, and highly collaborative environment that emphasizes autonomy, continuous learning through dedicated budgets and 360° feedback, and significant career growth. With flexible work options, 30 days of vacation, and a focus on results over hours, Apaleo clearly values work-life balance. This is an impactful position for a seasoned data architect passionate about AI, eager to shape the future of an industry, and thrive in a fast-growing scale-up.

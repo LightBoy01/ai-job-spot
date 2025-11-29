@@ -12,67 +12,47 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
+salaryRange: '€90,000 - €130,000 per year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-heidelberg-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-292309
 companyLogoUrl: null
+companyCulture: >-
+  This firm fosters a highly supportive and progressive environment,
+  prioritizing professional growth towards partnership, flexible work
+  arrangements including home office, and strong team collaboration with regular
+  events. They value individual contributions, offer extensive development
+  opportunities, and ensure financial and personal appreciation within a modern,
+  digital setting.
+story_question1: >-
+  How does the firm enable a tax consultant to truly shape their career path and
+  potentially achieve partnership, beyond just the technical responsibilities?
+story_answer1: >-
+  At our firm, it's not just about crunching numbers; it's about building a
+  legacy. I remember when I first joined, the promise of customizing my role
+  seemed almost too good to be true. But it's real. My mentor, a seasoned
+  partner, encouraged me to take on complex M&A tax projects, which I was
+  passionate about, even though it wasn't strictly in my initial 'job
+  description'. This led to me spearheading a new client segment. The path to
+  partnership isn't just a distant dream here; it's a guided journey with
+  tangible milestones, where your individual strengths truly propel you forward.
+  It's about being valued for your unique expertise and ambition.
+story_question2: >-
+  With the emphasis on a digital and modern approach, how does the firm ensure
+  continuous learning and adaptation to new technologies and evolving tax laws?
+story_answer2: >-
+  Staying ahead in the tax world is critical, and our firm truly invests in it.
+  We're not just 'open to digital'; it's integrated into our DNA. For instance,
+  we have dedicated monthly workshops on emerging tax tech and legislative
+  changes, often led by internal experts or external specialists. I recently
+  completed a specialist qualification in inheritance tax, fully supported by
+  the firm – not just financially, but with dedicated time off for study. This
+  proactive approach means we're always equipped with the latest tools and
+  knowledge, turning potential challenges into opportunities for our clients and
+  ourselves. It truly makes a difference in handling complex cases and
+  delivering top-tier advice.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Heidelberg.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nTaxTalente is the #1 job-matching platform for tax professionals, offering a unique opportunity for experienced tax consultants seeking a significant career advancement. We are currently looking for a Senior Tax Consultant (m/f/d) for one of our distinguished partner firms in Heidelberg. This role is designed for ambitious professionals eager to take the next step towards a partnership, thrive in a supportive and digital environment, and benefit from industry-leading compensation and exceptional development prospects.\\n\\n### Responsibilities\\nAt our partner firm, you have the unique opportunity to tailor your scope of responsibilities based on your personal strengths and interests. Key responsibilities include:\\n- Preparation and review of annual financial statements.\\n- Preparation of tax declarations for partnerships and corporations.\\n- Leading special tax consulting projects based on individual qualifications (e.g., in inheritance tax or M&A tax law).\\n- Guiding and supporting clients through tax audits.\\n- Team leadership and personnel responsibility (optional, for those aspiring to manage).\\n- Engaging in other individually selectable activities that align with your passion and bring you joy.\\n\\n### Qualifications\\nTo ensure a mutual fit, we look for candidates who demonstrate:\\n- A communicative nature and enthusiasm for client interaction.\\n- A meticulous, efficient, and conscientious work approach.\\n- Openness and adaptability to digital work processes.\\n- Leadership understanding and a strong sense of responsibility towards colleagues and clients (optional, for those with leadership ambitions).\\n- A successfully completed tax consultant examination (Steuerberaterexamen).\\n- Genuine passion for tax-related topics and ongoing professional development.\\n\\n### Author's Take\\nThis is an outstanding opportunity for an ambitious Senior Tax Consultant to truly elevate their career. What sets this role apart is the genuine commitment to professional growth, culminating in a clear path to partnership, coupled with a highly attractive compensation package (€90,000 - €130,000 annually). The firm champions work-life balance through flexible hours and home office options, and heavily invests in continuous learning with comprehensive support for further qualifications. Beyond the excellent benefits, TaxTalente's service provides an invaluable advantage: seamless salary negotiation, strict anonymity, and pre-qualification of opportunities, ensuring you only engage with firms that truly align with your career aspirations and values. This isn't just a job; it's a strategic move for a rewarding, long-term career in a forward-thinking environment.

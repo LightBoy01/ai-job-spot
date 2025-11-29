@@ -9,43 +9,63 @@ postedDate: '2025-11-28T01:34:50.000Z'
 expirationDate: null
 tags:
   - HR
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/personalsachbearbeiter-in-teilzeit-rostock-9690
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative environment with a strong team spirit,
+  flat hierarchies, and fast decision-making. It prioritizes work-life balance
+  through flexible hours, part-time options, and hybrid work, while also
+  committing to employee growth via extensive training opportunities.
+story_question1: >-
+  How does this part-time HR Specialist role contribute to the overall
+  well-being and efficiency of the organization, especially with its
+  administrative focus?
+story_answer1: >-
+  Even as a part-time HR Specialist, your impact here is surprisingly
+  far-reaching. Think of it this way: you're the engine room for our most
+  valuable asset – our people. Every personal file you meticulously manage,
+  every contract you prepare, and every onboarding process you smooth out
+  directly contributes to a positive employee experience. It’s not just
+  paperwork; it’s about ensuring our colleagues feel supported, from their very
+  first day onwards. Because we have flat hierarchies and a strong team spirit,
+  your administrative work frees up our experts to focus on strategic
+  initiatives, knowing the foundations are rock solid. It’s a crucial role that
+  underpins our collaborative and growth-oriented culture.
+story_question2: >-
+  Given the flexibility of part-time hours and home office, how does the team
+  ensure seamless communication and effective collaboration, especially when
+  working on time-sensitive tasks?
+story_answer2: >-
+  That’s a great question, and it’s something we actively manage to ensure our
+  flexibility truly empowers us. We leverage a mix of digital tools for quick
+  check-ins and project updates, alongside dedicated team meetings to ensure
+  everyone is aligned. The 'Teamspirit' isn't just a buzzword here; it means we
+  genuinely support each other. If someone's working remotely or has a shorter
+  day, others step up, and we're very clear about task ownership and deadlines.
+  It comes down to trust and transparent communication – everyone knows their
+  contribution is valued, whether they're in the office or at home, enabling us
+  to make fast decisions and keep things moving efficiently.
+story_question3: >-
+  How are the provided 'numerous training and further education opportunities'
+  typically utilized by a part-time HR Specialist, and what kind of growth paths
+  are available?
+story_answer3: >-
+  We're truly committed to growth, regardless of your working hours. For a
+  part-time HR Specialist, these opportunities are highly personalized. We
+  encourage you to identify areas you're passionate about – maybe it's deeper
+  dives into specific HR software, mastering new legal aspects, or even project
+  management skills. You'd discuss this with your manager, and we'd find
+  suitable internal or external courses, often during your working hours. While
+  this role is administrative, we value internal progression; many colleagues
+  have expanded their responsibilities, specialized in areas like talent
+  acquisition or HR analytics, or even moved into more senior support roles.
+  It's about continuous learning and contributing your evolving expertise to our
+  team.
 ---
-Im Auftrag unseres Kunden in Rostock suchen wir Sie zum nächstmöglichen Zeitpunkt als „**Personalsachbearbeiter in Teilzeit (m/w/d)“.**
-
-**Aufgaben**
-------------
-
-*   Als **Personalsachbearbeiter in Teilzeit (m/w/d)** sind Sie für die Pflege und Verwaltung von Personalakten sowie HR-Daten in den eingesetzten Systemen verantwortlich
-*   Dabei erstellen Sie Arbeitsverträge, Bescheinigungen, Zeugnisse und weitere personalrelevante Dokumente
-*   Sie unterstützen den Onboarding-Prozess neuer Mitarbeitender und sorgen für eine reibungslose Integration
-*   Zudem koordinieren Sie Termine, übernehmen die Kommunikation mit internen und externen Ansprechpartnern und bearbeiten allgemeine administrative Aufgaben im HR-Bereich
-*   Sie wirken an Prozessoptimierungen mit und übernehmen Sonderaufgaben sowie projektbezogene Themen
-
-**Qualifikation**
------------------
-
-*   Sie bringen eine abgeschlossene kaufmännische Ausbildung mit, beispielsweise als Industriekaufmann (m/w/d), Kaufmann für Büromanagement (m/w/d), Großhandelskaufmann (m/w/d) oder mit Schwerpunkt Personal, oder verfügen über eine vergleichbare Qualifikation
-*   Idealerweise verfügen Sie über mindestens zwei Jahre Berufserfahrung im Bereich HR-Administration, Personalwesen oder als HR Assistant
-*   Zudem bringen Sie Erfahrung im Umgang mit HR-Software mit und sind sicher in der Anwendung von MS-Office-Programmen
-*   Eine strukturierte, sorgfältige und diskrete Arbeitsweise zeichnet Sie aus; zudem arbeiten Sie selbstständig, proaktiv und zielorientiert
-*   Sehr gute Deutschkenntnisse runden Ihr Profil ab
-
-**Benefits**
-------------
-
-*   **Flexibilität:** Genießen Sie die Freiheit durch flexible Arbeitszeiten bei einer 20- bis 30-Stunden-Woche mit anteiliger Homeoffice-Möglichkeit
-*   **Onboarding:** Sie erwartet eine professionelle Einarbeitung von den Experten der Abteilung
-*   **Teamspirit:** Freuen Sie sich auf eine flache Hierarchie, schnelle Entscheidungswege sowie regelmäßige Firmenevents
-*   **Weiterbildung:** Das Unternehmen bietet zahlreiche Fort- und Weiterbildungsmöglichkeiten
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Veronica Wild** gerne unter **089 954 287 106** zur Verfügung.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nOn behalf of our client in Rostock, we are looking for you as a \"Part-time HR Specialist (m/f/d)\" at the earliest possible date. In this role, you will be crucial for maintaining accurate HR data and supporting various administrative processes to ensure smooth operations within the human resources department.\n\n### Responsibilities\n- Maintaining and managing personnel files and HR data in the systems in use.\n- Preparing employment contracts, certificates, references, and other HR-related documents.\n- Supporting the onboarding process of new employees and ensuring their smooth integration.\n- Coordinating appointments, managing communication with internal and external contacts, and handling general administrative tasks within the HR department.\n- Participating in process optimization initiatives and undertaking special assignments and project-related topics.\n\n### Qualifications\n- You bring a completed commercial vocational training, for example as an Industrial Clerk, Office Management Clerk, Wholesale and Foreign Trade Clerk, or with a focus on HR, or possess a comparable qualification.\n- Ideally, you have at least two years of professional experience in HR administration, human resources, or as an HR Assistant.\n- You have experience with HR software and are proficient in MS Office programs.\n- A structured, meticulous, and discreet working style characterizes you; additionally, you work independently, proactively, and target-oriented.\n- Very good German language skills complete your profile.\n\n### Author's Take\nThis part-time HR Specialist role in Rostock offers a fantastic opportunity for an experienced administrative professional to join a supportive and growth-oriented company. With flexible working hours (20-30h/week) and hybrid options, it truly supports work-life balance. You'll benefit from a professional onboarding, a flat hierarchy, and a strong team spirit, alongside numerous opportunities for further education. It's ideal for someone who thrives in an administrative role, enjoys optimizing processes, and wants to contribute to a positive employee experience within a dynamic team.

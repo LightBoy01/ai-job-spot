@@ -10,67 +10,49 @@ expirationDate: null
 tags:
   - Product Design
   - Industrial Design
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/gls-nxt/senior-product-designer-berlin-72603
 companyLogoUrl: null
+companyCulture: >-
+  GLS/NXT fosters a collaborative and high-impact culture, emphasizing strategic
+  design, continuous learning, and innovation within a 'corporate startup'
+  environment. They offer flexible work conditions and numerous growth
+  opportunities, encouraging a strong sense of team and individual ownership.
+story_question1: >-
+  Given the complexity of logistics operations and the reliance on real-time
+  systems, what's the most challenging aspect of ensuring an intuitive user
+  experience for drivers and dispatchers, and how does the design team measure
+  the real-world impact of their solutions?
+story_answer1: >-
+  The biggest challenge, and also the most rewarding, is truly understanding the
+  on-the-ground reality for our drivers and dispatchers. We're not just moving
+  pixels; we're optimizing routes for millions of packages, helping drivers
+  navigate tight schedules, and ensuring dispatchers have critical real-time
+  data. It's a continuous balancing act of technical constraints, operational
+  realities, and user needs. We thrive on that complexity, constantly iterating
+  and measuring impact through direct user feedback, operational metrics like
+  delivery efficiency, and user satisfaction scores. It’s incredibly satisfying
+  to see our designs directly contribute to smoother operations and happier
+  users across Europe.
+story_question2: >-
+  GLS/NXT positions itself between corporate and startup cultures. How does this
+  unique environment translate into opportunities for professional growth and
+  autonomy for a designer, especially regarding challenging assumptions or
+  proposing innovative solutions?
+story_answer2: >-
+  That's a fantastic question, and it's truly at the heart of our culture. Being
+  a 'corporate startup' means we get the agility and speed to experiment and
+  innovate like a small team, but with the backing and reach of a large
+  enterprise. As a designer here, you're not just executing; you're empowered to
+  challenge assumptions, bring fresh ideas, and really own your projects from
+  concept to launch. We have the resources to invest in learning and
+  development, like the personal budget, and the scale to see your designs
+  impact millions. It’s a dynamic space where your ideas can genuinely shape the
+  future of logistics, backed by a supportive team eager to see you grow.
 ---
-**About This Role**
-
-You'll join our Product Design team at a pivotal moment as we evolve from ad-hoc execution to strategic partnership across GLS/NXT. Working in our compact, high-impact design team, you'll own the end-to-end consumer experience for logistics operations that move millions of packages across Europe daily. This role demands someone who thrives in complexity, translating intricate routing algorithms, real-time tracking systems, and multi-stakeholder workflows into intuitive mobile experiences that drivers, dispatchers, and customers rely on every day.
-
-**We're open to both mid-level and senior candidates for this position.** The final level and compensation will be determined during the interview process based on your experience, portfolio depth, and demonstrated skills. We're more interested in finding the right person who can grow with us than fitting a predetermined seniority box.
-
-Tasks
------
-
-**Tasks & Responsibilities**
-
-*   Lead end-to-end design for web & mobile products from problem framing through post-launch iteration, owning the complete user experience across all platforms
-*   Create flows, wireframes, interactive prototypes and high‑fidelity visuals that set the quality bar for the engineering team.
-*   Collaborate with product managers to shape feature roadmaps, using research insights and data to influence prioritization and scope decisions
-*   Partner closely with mobile engineers throughout implementation, participating in technical discussions, providing assets and specifications, and ensuring quality through design QA
-*   Contribute to our multi-platform design system, building native mobile components that scale across B2B and B2C applications while respecting iOS and Android platform conventions
-*   Present design work and rationale to stakeholders across product, engineering, operations, and leadership, building alignment through clear communication and storytelling
-*   Analyze usability and behavioral metrics to identify improvement opportunities and measure the impact of design changes on efficiency and user satisfaction
-
-Requirements
-------------
-
-**Requirements**
-
-*   **3+ years** of experience designing complex applications with demonstrated expertise in shipping native iOS and Android products at scale
-*   Strong research skills including user interviews, field studies, usability testing, and synthesis of insights into actionable design decisions
-*   Track record of close collaboration with engineering teams, comfortable discussing technical tradeoffs and finding creative solutions within platform limitations
-*   Strong written and verbal communication skills for documenting design decisions, facilitating workshops, and presenting to diverse audiences
-*   Excellence in Figma for design systems, collaborative workflows, and component architecture; ability to create prototypes that communicate interactions, transitions, and motion
-*   Demonstrated ability to work autonomously on ambiguous problems while actively seeking feedback and iteration opportunities
-
-Benefits
---------
-
-*   **Flexible work conditions:** Hybrid working mode with a tailored remote policy
-*   **Focus on learning:** A personal budget (1.000€) for learning and development initiatives
-*   **Physical space for ideas:** A great office space in Berlin Mitte with top-tier equipment
-*   **Transparent and competitive compensation:** A salary package that reflects your expertise and experience.
-*   **Active participation:** A clear bonus system enabling participation in your and the team’s performance
-*   **Engaging team culture:** Monthly team cooking, regular events and offsites
-*   **Vacation policy:** 30 days of yearly holiday
-*   **Reward system:** Rewards for the recommendation of additional team members
-*   **Dynamic workplace:** A digital environment with international projects and space to learn and grow
-
-Even if you do not meet every single requirement, we encourage you to apply if you believe you are well-suited for the role and can contribute meaningfully to our team.
-
-**About GLS/NXT**
-
-GLS/NXT was founded with the mission to build the next generation of logistic experiences driven by technology - core, adjacent & beyond. More specifically, our sphere of interest is the Logistics and eCommerce sector. We are entrepreneurs and hence always start with the user's needs. We are located between Corporate and Startups and leverage the benefits from both (startup speed and corporate muscle). GLS/NXT inhabits different project teams, acting as startups with business responsibility and setting their own vision and mission. GLS/NXT is part of the GLS IT Services GmbH.
-
-**Commitment to Diversity**
-
-GLS/NXT is an equal opportunity employer, which means we do not discriminate on the basis of race, colour, religion, marital status, age, national origin, ancestry, physical or mental disability, medical condition, pregnancy, genetic information, gender, sexual orientation, gender identity or expression. We celebrate diversity and are committed to creating an inclusive environment for all employees.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nJoin the Product Design team at GLS/NXT, a company founded to build the next generation of logistics experiences driven by technology, operating as a \"corporate startup\" that combines startup speed with corporate muscle. This role is pivotal, focusing on evolving design from ad-hoc execution to a strategic partnership across GLS/NXT. You'll be part of a compact, high-impact design team, owning the end-to-end consumer experience for logistics operations moving millions of packages daily across Europe. This position demands a designer who thrives in complexity, translating intricate routing algorithms, real-time tracking systems, and multi-stakeholder workflows into intuitive mobile experiences relied upon by drivers, dispatchers, and customers. GLS/NXT is actively seeking both mid-level and senior candidates, valuing the right person who can grow with the team over rigid seniority requirements. The final level and compensation will be determined during the interview process based on experience, portfolio depth, and demonstrated skills. GLS/NXT is an equal opportunity employer committed to diversity and an inclusive environment.\n\n### Responsibilities\n*   Lead end-to-end design for web & mobile products from problem framing through post-launch iteration, owning the complete user experience across all platforms.\n*   Create flows, wireframes, interactive prototypes, and high-fidelity visuals that set the quality bar for the engineering team.\n*   Collaborate with product managers to shape feature roadmaps, using research insights and data to influence prioritization and scope decisions.\n*   Partner closely with mobile engineers throughout implementation, participating in technical discussions, providing assets and specifications, and ensuring quality through design QA.\n*   Contribute to our multi-platform design system, building native mobile components that scale across B2B and B2C applications while respecting iOS and Android platform conventions.\n*   Present design work and rationale to stakeholders across product, engineering, operations, and leadership, building alignment through clear communication and storytelling.\n*   Analyze usability and behavioral metrics to identify improvement opportunities and measure the impact of design changes on efficiency and user satisfaction.\n\n### Qualifications\n*   3+ years of experience designing complex applications with demonstrated expertise in shipping native iOS and Android products at scale.\n*   Strong research skills including user interviews, field studies, usability testing, and synthesis of insights into actionable design decisions.\n*   Track record of close collaboration with engineering teams, comfortable discussing technical tradeoffs and finding creative solutions within platform limitations.\n*   Strong written and verbal communication skills for documenting design decisions, facilitating workshops, and presenting to diverse audiences.\n*   Excellence in Figma for design systems, collaborative workflows, and component architecture; ability to create prototypes that communicate interactions, transitions, and motion.\n*   Demonstrated ability to work autonomously on ambiguous problems while actively seeking feedback and iteration opportunities.\n*   Even if you do not meet every single requirement, GLS/NXT encourages you to apply if you believe you are well-suited for the role and can contribute meaningfully to the team.\n\n### Author's Take\nThis is a compelling opportunity for a Product Designer looking to make a significant impact within a dynamic and complex domain. The role offers the unique advantage of working in a \"corporate startup\" environment, blending the agility and innovation of a startup with the substantial resources and reach of a large corporation. With a clear focus on end-to-end ownership, collaboration with diverse stakeholders, and a commitment to continuous learning (including a €1,000 personal budget for development), this position is ideal for someone passionate about solving intricate problems and seeing their designs transform real-world logistics operations. The flexible hybrid work model, engaging team culture, and competitive compensation further enhance its appeal for a growth-oriented individual contributor.

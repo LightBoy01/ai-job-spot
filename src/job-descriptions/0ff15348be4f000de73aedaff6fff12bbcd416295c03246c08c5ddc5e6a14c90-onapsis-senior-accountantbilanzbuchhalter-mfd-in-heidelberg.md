@@ -8,60 +8,64 @@ applicationLink: >-
 postedDate: '2025-11-27T14:45:14.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/onapsis/senior-accountant-bilanzbuchhalter-in-heidelberg-311047
 companyLogoUrl: null
+companyCulture: >-
+  Onapsis fosters an open, dynamic, and collaborative environment with flat
+  hierarchies, emphasizing individual responsibility and offering strong support
+  for work-life balance, continuous learning, and well-being.
+story_question1: >-
+  Given the small finance team and global responsibilities, how does this role
+  contribute directly to the strategic financial reporting for the US parent
+  company, and what opportunities are there to refine and improve those
+  processes?
+story_answer1: >-
+  In our finance team, every member plays a pivotal role, especially when it
+  comes to the US-GAAP reporting. You're not just crunching numbers; you're the
+  backbone ensuring our American colleagues get accurate, timely insights that
+  steer global decisions. It's a challenging but incredibly rewarding position
+  where your meticulous work directly impacts the bigger picture. We highly
+  value proactive thinking – if you spot an inefficiency or a better way to
+  streamline our international reporting, you're empowered to suggest and even
+  lead those improvements. It’s a real chance to leave your mark, not just
+  maintain the status quo.
+story_question2: >-
+  With operations across multiple countries and different accounting standards
+  (HGB, US-GAAP), what are the most significant cross-functional challenges this
+  role faces, and how does the company support tackling them?
+story_answer2: >-
+  That's a great question, and it speaks to the complexity and excitement of our
+  global setup. The biggest challenge often lies in harmonizing local HGB
+  specifics with US-GAAP requirements, especially when dealing with various
+  international subsidiaries and their tax advisors. We overcome this by
+  fostering very open communication, not just within our small, cohesive finance
+  team, but also with our external partners and internal stakeholders. The
+  company champions a 'solution-oriented' mindset, meaning you're never left to
+  wrestle with these issues alone. We leverage robust ERP systems, and
+  crucially, we trust our team members to identify problems and collaborate on
+  innovative solutions, ensuring compliance and efficiency across the board.
+story_question3: >-
+  The description highlights a dynamic environment with opportunities for
+  process development. Can you share an example of how a Senior Accountant has
+  recently driven a significant improvement or learned a new skill that expanded
+  their impact within the global finance team?
+story_answer3: >-
+  Absolutely! One of our Senior Accountants recently took the initiative to
+  completely revamp our intercompany reconciliation process, which, given our
+  global footprint, was becoming quite complex. They didn't just identify the
+  problem; they researched new functionalities within our ERP system, proposed a
+  streamlined workflow, and then led the implementation across our international
+  entities. This wasn't just about efficiency; it significantly reduced
+  month-end closing times and improved accuracy. Moreover, we actively encourage
+  and fund relevant certifications or language courses – our company culture is
+  all about empowering you to grow, learn new skills, and take ownership of
+  projects that truly make a difference, even if it means stepping outside
+  traditional accounting tasks.
 ---
-**Unser Unternehmen**
-
-Onapsis ist ein schnell wachsendes, global agierendes Unternehmen im Bereich Cybersecurity. Wir suchen leidenschaftliche Mitarbeiter, die sich in einer offenen und dynamischen Umgebung wohlfühlen.
-
-Onapsis schützt die IT-Systeme, die die globale Wirtschaft steuern. Durch den Einsatz unserer zukunftsweisenden Plattform zum Schutz geschäftskritischer Anwendungen liefern wir unseren Kunden verwertbare Erkenntnisse im Bereich _Change Assurance, Automated Governance_ und _Continuous Monitoring_ und helfen ihnen dadurch Risiken zu erkennen, Arbeitsabläufe zu optimieren, Änderungen zu kontrollieren und das systemseitige Reporting zu automatisieren. Der integrierte Ansatz von Onapsis ermöglicht es Unternehmen ihre SAP- und Oracle-Systeme effektiv zu modernisieren, Cloud- und Mobility- Lösungen umzusetzen und gleichzeitig ihre ERP-, CRM-, PLM-, HCM-, SCM-, BI- und Cloud-basierten unternehmenskritischen Anwendungen zu schützen und Compliance sicherzustellen.
-
-Mit Hauptsitz in Boston, USA und Standorten in Heidelberg, Bukarest und Buenos Aires betreut Onapsis mehr als 300 der weltweit führenden Unternehmen und Organisationen, darunter viele der Global 2000.
-
-Für weitere Informationen folgen Sie uns auf Twitter oder LinkedIn, oder besuchen Sie uns unter [https://www.onapsis.com.](https://www.onapsis.com)
-
-**Stellenbeschreibung**
-
-**Senior Accountant / Bilanzbuchhalter (w/m/d) in Heidelberg**
-
-**(mind.30 h/Woche)**
-
-Als Teil der globalen Finanzorganisation der Onapsis-Gruppe verantworten wir den Bereich _Accounting International._
-
-Wir erstellen die Monats-, Quartals- und Jahresabschlüsse von zwei deutschen Gesellschaften nach HGB und berichten monatlich nach US-GAAP an unsere Muttergesellschaft in den USA. Unsere Aufgaben umfassen die Verantwortung für das Hauptbuch, die Betreuung sämtlicher Nebenbücher und die Abwicklung des Zahlungsverkehrs. Als kleines Finanzteam benötigen wir Menschen, die mitdenken und alle Aufgaben abdecken – vom Buchen bis zum Abstimmen und Abschließen – und sich für das Ergebnis verantwortlich fühlen.  
-
-Weiterhin verantworten wir europaweit die Gehaltsbuchhaltung und die Abschlüsse unserer ausländischen Töchter. Hier werden die lokalen Abschlüsse von den Steuerberatern im jeweiligen Land verantwortet. Die Zahlen werden von Onapsis vorbereitet und die Abschlüsse durch die externen  Steuerberater erstellt- und die endgültigen Zahlen von uns für die Konsolidierung übernommen. 
-
-**Ihre Aufgaben**
-
-*   Durchführung der Buchhaltung nach HGB (und teilweise US-GAAP)
-*   Identifizieren und Abwickeln der benötigten Zahlungsausgänge
-*   Ansprechpartner für unsere internen und externen Partner (Kollegen, Steuerberater, Dienstleister usw.)
-*   Kontenabstimmung, Intercompany Abstimmung, periodengerechte Abgrenzung, Erstellen von Monats- und Quartalsabschlüssen, Vorbereitung der Jahresabschlüsse 
-*   Überblick über die umsatzsteuerlichen Vorgänge (In- und Ausland), Erstellen, Prüfen und Versenden UVA
-*   Mitarbeit bei der Weiterentwicklung der Accounting Prozesse
-
-**Ihr Profil**
-
-*   Erfolgreich abgeschlossene kaufmännische Ausbildung mit Schwerpunkt Rechnungswesen oder ein wirtschaftswissenschaftliches Studium mit relevanten Schwerpunkten (Finanzen, Controlling, Rechnungswesen) oder Berufsausbildung mit Weiterbildung zum Bilanzbuchhalter
-*    Mindestens 3 Jahre Berufserfahrung in den oben genannten Aufgabenbereichen
-*   Sehr gute Excel-Kenntnisse, Erfahrung im Umgang mit ERP-Systemen sowie eine hohe Zahlen- und IT-Affinität
-*   Analytische Fähigkeiten, selbständiges und sorgfältiges Arbeiten, Verantwortungsbewusstsein, Flexibilität, sowie Team- und Kommunikationsfähigkeit
-*   Gute Englischkenntnisse in Wort und Schrift
-
-**Unser Angebot**
-
-*   Eine Tätigkeit mit verantwortungsvollen Aufgaben, flexiblen Arbeitszeiten, attraktiven Gehaltspaket und umfangreichen Benefits (u.a. JobRad, Kinderbetreuungszuschuss, 5 Tage voll bezahlten Krankheitstagen pro Kind, Englisch-Sprachunterricht, Fitnessangebot in Heidelberg)
-*   Innovativer und attraktiver Arbeitsplatz mit flachen Hierarchien und einer respektvollen, lösungsorientierten Kommunikation
-*   Flexible Arbeitszeiten und hybrides Arbeiten möglich
-*   Individuelles Onboarding und Buddy-Programm
-*   Unser Büro befindet sich zentral im Heidelberg Innovation Park unweit des Heidelberger Hauptbahnhofs, d.h. Sie erreichen uns sehr gut mit den öffentlichen Verkehrsmitteln und als Autofahrer besteht die Möglichkeit, kostenlos zu parken 
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nOnapsis is a rapidly growing, global cybersecurity company protecting the mission-critical IT systems that power the global economy. With headquarters in Boston, USA, and locations in Heidelberg, Bucharest, and Buenos Aires, Onapsis serves over 300 of the world's leading organizations, including many of the Global 2000.\n\nAs a **Senior Accountant / Bilanzbuchhalter (w/m/d) in Heidelberg**, you will be an integral part of Onapsis's global finance organization, specifically managing \"Accounting International\". This role is responsible for preparing monthly, quarterly, and annual financial statements for two German entities according to HGB, and reporting monthly under US-GAAP to the US parent company. The small, dynamic finance team requires proactive individuals who can cover all tasks, from booking to reconciliation and closing, and take ownership of the results. Additionally, the role involves payroll accounting across Europe and supporting the financial closings of foreign subsidiaries.\n\n### Responsibilities\n- Execution of accounting tasks according to HGB (and partially US-GAAP).\n- Identifying and processing necessary outgoing payments.\n- Main point of contact for internal and external partners (colleagues, tax advisors, service providers, etc.).\n- Account reconciliation, intercompany reconciliation, accrual accounting, preparing monthly and quarterly financial statements, and supporting annual financial statements.\n- Overview of VAT processes (domestic and international), preparing, reviewing, and submitting advance VAT returns.\n- Contribution to the continuous development of accounting processes.\n\n### Qualifications\n- Successfully completed commercial training with a focus on accounting, or a degree in economics with relevant specializations (finance, controlling, accounting), or vocational training with further qualification as a certified accountant (Bilanzbuchhalter).\n- At least 3 years of professional experience in the aforementioned areas of responsibility.\n- Very good Excel skills, experience with ERP systems, and a strong affinity for numbers and IT.\n- Analytical skills, independent and diligent work ethic, strong sense of responsibility, flexibility, as well as team and communication skills.\n- Good English language skills, both written and spoken.\n\n### Author's Take\nThis is a fantastic opportunity for a dedicated Senior Accountant to join a fast-paced, global cybersecurity leader. Onapsis offers a responsible role within a small, impactful finance team where your contributions directly influence international reporting. You'll benefit from a supportive culture with flat hierarchies, flexible and hybrid working options, and an attractive compensation package including various benefits like JobRad, childcare subsidies, family sick leave, English language training, and fitness programs. If you're looking for a role where you can truly make a difference, grow professionally, and enjoy excellent work-life balance, this is it.
