@@ -58,4 +58,4 @@ Dann freuen wir uns auf deine Bewerbung über das Onlineformular - professionell
 
 Du interessierst dich für eine alternative Position, einen anderen Standort oder möchtest dich initiativ bewerben? Ruf uns gerne an oder schreib uns eine E-Mail, wir antworten garantiert! 🙂
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

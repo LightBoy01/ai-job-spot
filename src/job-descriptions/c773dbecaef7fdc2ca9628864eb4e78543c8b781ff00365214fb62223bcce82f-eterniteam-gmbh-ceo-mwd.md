@@ -70,4 +70,4 @@ Benefits
 *   Nachfolge als Team! Wir stellen sicher, dass auch alle Deine Mitarbeitenden Anteile erhalten und somit incentiviert und motiviert mitarbeiten können
 *   EterniTeam bietet Dir als Unterstützung ein Trainingsprogramm vor dem Einsatz, Unterstützung durch unser Operations-Team, zentrale Services und einen kontinuierlichen Austausch in der Community - Du bist nicht auf Dich allein gestellt!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -42,4 +42,4 @@ Benefits
 *   On-site work in our beautiful office on Unter den Linden, Berlin
 *   A great environment for personal and professional growth as part of a scaling business
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

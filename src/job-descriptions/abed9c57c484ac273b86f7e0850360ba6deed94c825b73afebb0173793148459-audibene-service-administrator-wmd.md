@@ -63,4 +63,4 @@ Die Stelle ist besonders geeignet für dich, wenn du gerne an der Schnittstelle 
 
 audibene/hear.com ist eines der am schnellsten wachsenden Health-Tech-Unternehmen überhaupt. Unser einzigartiges digitales Geschäftsmodell hat die Branche und die Art, wie Hörversorgung bereitgestellt wird, revolutioniert. Seit unserem Start 2012 in Berlin ist unser Team von 2 auf über 1.200 Mitarbeiterinnen an 8 internationalen Standorten gewachsen – von Denver bis Seoul. Getrieben von dem Glauben, dass jeder Mensch gut hören sollte, um gut leben zu können, haben wir bereits mehr als 200.000 Kundinnen geholfen, die Freude am Leben zurückzugewinnen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

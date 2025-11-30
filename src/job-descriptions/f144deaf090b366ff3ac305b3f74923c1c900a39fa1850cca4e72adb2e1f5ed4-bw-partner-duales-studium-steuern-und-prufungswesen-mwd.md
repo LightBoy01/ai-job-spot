@@ -92,4 +92,4 @@ Dich spricht unsere Stellenanzeige an? Gerne würden wir dich kennenlernen! Bewi
 Céline Ortz (HR Manager)  
 Telefon: +49 711 1640 1254
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

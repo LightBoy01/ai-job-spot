@@ -70,4 +70,4 @@ Benefits
 
 Start is expected in December 2025. We offer a good salary as full-time employee based on experience. The job itself requires on-site presence in **Munich, Germany on a daily basis**.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

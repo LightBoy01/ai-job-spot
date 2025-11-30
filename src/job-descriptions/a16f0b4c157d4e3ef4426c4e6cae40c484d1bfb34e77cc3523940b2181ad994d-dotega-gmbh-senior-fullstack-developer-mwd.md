@@ -54,4 +54,4 @@ Benefits
 
 Wenn du Bock hast, Ownership zu übernehmen und ein Produkt mit echtem Impact zu bauen, dann bewirb dich unkompliziert mit CV oder LinkedIn. Wir freuen uns auf dich! 🙌
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

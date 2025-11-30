@@ -82,4 +82,4 @@ Does this sound like an interesting opportunity? We would love to hear from you.
 
 Our application process is short and consists of a screening call, a technical interview and an opportunity to get to know the team in person. We are looking forward to your application!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

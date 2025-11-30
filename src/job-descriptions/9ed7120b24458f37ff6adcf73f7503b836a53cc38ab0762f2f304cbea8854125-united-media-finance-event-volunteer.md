@@ -54,4 +54,4 @@ Private Equity Insights would not exist without our volunteers. Simple as that. 
 
 Hours to contribute: the day of the conference, plus 2h the afternoon before the event, for training session & rehearsals.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

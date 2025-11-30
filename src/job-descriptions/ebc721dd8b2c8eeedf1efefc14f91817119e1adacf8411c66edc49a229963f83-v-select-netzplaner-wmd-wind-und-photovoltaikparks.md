@@ -51,4 +51,4 @@ Benefits
 
 Wir haben Ihr Interesse geweckt? Dann bewerben Sie sich jetzt! Für Rückfragen oder weitere Details, stehen wir Ihnen auch gerne unter der 089 125 015 551 zur Verfügung.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -50,4 +50,4 @@ Worauf du dich freuen kannst - unsere Benefits
 *   **Teamgeist:** Du wirst Teil eines motivierten und kollegialen Teams, das sich schon auf Dich freut.
 *   **Attraktive Benefits:** Du bekommst diverse Benefits und coole Mitarbeiterevents.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

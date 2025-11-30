@@ -68,4 +68,4 @@ Das Jahresgehalt liegt – je nach Erfahrung und Qualifikation – voraussichtli
 Bist du bereit, die Energiewende in der Landwirtschaft mitzugestalten?  
 Dann freuen wir uns auf deine Bewerbung!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

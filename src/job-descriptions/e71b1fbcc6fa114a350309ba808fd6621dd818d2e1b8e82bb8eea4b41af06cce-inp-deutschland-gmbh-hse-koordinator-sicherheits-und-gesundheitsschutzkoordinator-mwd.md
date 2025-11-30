@@ -50,4 +50,4 @@ Benefits
 *   **Attraktive Benefits** – Flexible Arbeitszeiten mit Gleitzeitmodell, ein attraktives Gehaltspaket inkl. Urlaubs- und Weihnachtsgeld, Gesundheits- & Sportangebote sowie regelmäßige Mitarbeiterevents u.v.m.
 *   **Teamgeist & klare Werte** – Werden Sie Teil eines engagierten Teams, das auf Zusammenhalt, Respekt und Nachhaltigkeit setzt. Ein strukturiertes Onboarding-Programm sorgt dafür, dass Sie sich von Anfang an willkommen fühlen und erfolgreich durchstarten können
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

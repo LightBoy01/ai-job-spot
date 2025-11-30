@@ -48,4 +48,4 @@ Nice to have
 
 At hallo theo, you work on AI with real impact: we are not just building tools, we are reshaping the everyday reality of millions of people who live in and manage properties. You’ll join an interdisciplinary team of experts from real estate, tech and operations and help define how modern AI products are built and run in our industry. With a clear, ambitious vision and a tech- and AI-first operating model, you’ll have the autonomy and responsibility to shape our platform, our engineering practices and the future of property management in Germany.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

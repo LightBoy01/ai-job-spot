@@ -4,8 +4,8 @@ title: Senior Solutions Architect
 company: Automat-it
 location: Berlin
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/automat-it/remote-senior-solutions-architect-berlin-329007
-postedDate: '2025-11-21T15:42:11.000Z'
+  https://www.arbeitnow.com/jobs/companies/automat-it/remote-senior-solutions-architect-berlin-433571
+postedDate: '2025-11-27T06:42:10.000Z'
 expirationDate: null
 tags:
   - Remote
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/automat-it/remote-senior-solutions-architect-berlin-329007
+  https://www.arbeitnow.com/jobs/companies/automat-it/remote-senior-solutions-architect-berlin-433571
 companyLogoUrl: null
 ---
 Automat-it is where high-growth startups turn when they need to move faster, scale smarter, and make the most of the cloud. As an AWS Premier Partner and Strategic Partner, we deliver hands-on DevOps and FinOps and GenAI support that drives real results.
@@ -76,4 +76,4 @@ Automat-it is committed to fostering a workplace that promotes equal opportuniti
 *   Excellent written and verbal communication skills in both English and German
 *   Ability to work in a fast-paced environment 
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

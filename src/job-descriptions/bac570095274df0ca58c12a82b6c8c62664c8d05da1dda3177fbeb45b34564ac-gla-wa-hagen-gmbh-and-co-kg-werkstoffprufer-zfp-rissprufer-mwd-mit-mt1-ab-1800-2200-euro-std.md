@@ -65,4 +65,4 @@ Wir suchen motivierte Menschen, die bereit sind, ihre Kompetenzen einzubringen u
 \*\*Starte jetzt deinen Weg zum Traumjob beid er Gla-Wa GmbH – wir freuen uns auf deine Bewerbung!  
 \*\*Lerne uns kennen – wir sprechen über deine Ziele und begleiten dich auf deinem beruflichen Weg.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

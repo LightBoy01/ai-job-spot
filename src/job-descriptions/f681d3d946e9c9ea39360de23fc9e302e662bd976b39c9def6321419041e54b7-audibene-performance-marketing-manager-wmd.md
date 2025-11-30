@@ -65,4 +65,4 @@ Was wir bieten:
 
 Werde Teil unserer Mission, die Industrie der Hörvorsorge neuzudenken und so Leben zu verändern! **Bewirb dich jetzt!**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

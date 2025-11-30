@@ -88,4 +88,4 @@ _As part of our ongoing journey towards building a diverse, equitable and inclus
 
 _Sounds good? We are already looking forward to hearing from you! Check out also_ _,_ _and_ _to get an impression about_ **_!_**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

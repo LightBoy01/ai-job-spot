@@ -45,4 +45,4 @@ Das erwartet Dich
 *   Attraktive Zusatzleistungen: BVG-Deutschlandticket, Urban Sports Club-Mitgliedschaft oder Essenszuschüsse.
 *   Touristische Vorteile: DRV-Card und viele weitere Rabatte.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

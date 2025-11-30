@@ -72,4 +72,4 @@ Als Personalberaterin begleite ich dich diskret durch den gesamten Prozess.
 Du möchtest mehr erfahren oder dich direkt austauschen?  
 Ich freue mich über deine Kontaktaufnahme – unverbindlich, vertraulich und unkompliziert.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

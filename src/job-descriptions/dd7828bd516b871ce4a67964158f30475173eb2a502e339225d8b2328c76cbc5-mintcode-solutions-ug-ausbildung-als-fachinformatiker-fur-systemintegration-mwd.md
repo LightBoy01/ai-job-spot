@@ -64,4 +64,4 @@ Benefits
 
 Wenn du Teil eines Unternehmens sein möchtest, das nicht nur Wert auf technische Exzellenz legt, sondern auch auf deine persönliche Entwicklung, dann gestalte mit uns die Zukunft der IT!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

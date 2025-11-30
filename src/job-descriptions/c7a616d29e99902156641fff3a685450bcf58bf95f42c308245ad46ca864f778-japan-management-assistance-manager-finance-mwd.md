@@ -57,4 +57,4 @@ Bitte beachten Sie, dass wir nur Bewerbungen berücksichtigen können, deren Geh
 \- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 Die Vergütung orientiert sich an Ihrer Qualifikation und Ihren beruflichen Erfahrungen. Wir bitten Sie daher, bei der Angabe Ihrer Gehaltsvorstellung sowohl Ihr derzeitiges Einkommen als auch Ihre Kenntnisse und Erfahrungen realistisch einzubeziehen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

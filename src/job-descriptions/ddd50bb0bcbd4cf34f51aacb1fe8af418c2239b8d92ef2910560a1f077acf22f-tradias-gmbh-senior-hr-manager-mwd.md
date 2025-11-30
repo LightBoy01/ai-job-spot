@@ -62,4 +62,4 @@ Personenbezogene Formulierungen in der Stellenanzeige sind geschlechtsneutral zu
 
 tradias ist ein Arbeitgeber, der die Chancengleichheit fördert und unterstützt. Alle qualifizierten Bewerber werden ohne Rücksicht auf Religion, Geschlecht, nationale Herkunft, sexuelle Orientierung, Geschlechtsidentität, körperliche und oder mentale Beeinträchtigung oder andere durch das Landes-, Bundes- oder Kommunalrecht geschützte Merkmale bei der Einstellung berücksichtigt.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

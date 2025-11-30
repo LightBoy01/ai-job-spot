@@ -79,4 +79,4 @@ Eine Sache liegt uns aber noch auf dem Herzen:
 
 **Trau dich**, besonders, wenn du einer unterrepräsentierten Bevölkerungsgruppe angehörst. Auch wenn du nicht überall einen Haken setzen kannst, möchten wir dich ermutigen, dich trotzdem zu bewerben. Wir glauben, dass eine bunte Vielfalt von Perspektiven und Erfahrungen ein Team stärker macht - und je stärker unser Team ist, desto besser erreichen wir unsere Mission, Menschen zu mehr Energie im Alltag zu verhelfen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

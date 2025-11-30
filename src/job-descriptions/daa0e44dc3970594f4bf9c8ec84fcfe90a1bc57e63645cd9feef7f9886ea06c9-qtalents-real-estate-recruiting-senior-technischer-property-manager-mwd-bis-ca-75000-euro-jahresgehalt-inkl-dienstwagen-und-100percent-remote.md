@@ -88,4 +88,4 @@ Als renommierte Headhunting-Agentur in der Immobilienbranche stimmen wir jeden S
 
 Wir sind deutschlandweit auf die Immobilienbranche spezialisiert und besetzen Top-Vakanzen im Auftrag unserer Mandanten. Wir vermitteln Positionen nur für die Festanstellung - keine Zeitarbeit. Wir stimmen jeden Schritt gemeinsam mit Ihnen ab und stellen Sie nur mit Ihrem Einverständnis bei potentiellen Arbeitgebern vor. Ohne Ihre Einwilligung versenden wir Ihre Daten nicht an Dritte.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

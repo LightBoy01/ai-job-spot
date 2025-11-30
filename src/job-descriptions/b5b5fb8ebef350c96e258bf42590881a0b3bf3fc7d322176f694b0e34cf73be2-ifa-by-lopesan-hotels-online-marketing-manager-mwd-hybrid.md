@@ -85,4 +85,4 @@ Wir wertschätzen Vielfalt und begrüßen daher alle Bewerbungen - unabhängig v
 
 **Wir heißen Dich recht herzlich Willkommen im Team des IFA-Resorts!**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

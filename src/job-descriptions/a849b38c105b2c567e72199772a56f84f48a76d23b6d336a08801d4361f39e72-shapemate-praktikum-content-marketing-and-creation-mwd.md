@@ -62,4 +62,4 @@ Wir freuen uns auf deine Bewerbung 🚀
 
 👉 Aktuell bieten wir ein flexibles, unbezahltes Praktikum (2–3 Monate) oder in Form eines Pflichtpraktikums (bis zu 6 Monate) – mit klarer Aussicht auf eine anschließende Zusammenarbeit. Ob als Werkstudent oder Angestellter.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

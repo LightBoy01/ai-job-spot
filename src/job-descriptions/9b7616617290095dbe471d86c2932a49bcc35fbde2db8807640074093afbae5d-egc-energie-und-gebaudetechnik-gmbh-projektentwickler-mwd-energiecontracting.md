@@ -76,4 +76,4 @@ Benefits
 *   **Mitarbeitervergünstigungen:** Corporate Benefits mit vielfältigen Angeboten für unsere Mitarbeitenden.
 *   **Teil am Erfolg:** Mitarbeiterbeteiligungsprogramm, um direkt am Unternehmenserfolg teilzuhaben.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -72,4 +72,4 @@ Benefits
 
 Bist du bereit, diese spannende und verantwortungsvolle Aufgabe zu übernehmen und gemeinsam mit uns zu wachsen? Dann freuen wir uns auf deine Bewerbung. Gerne mit Angabe deiner Gehaltsvorstellung und deines möglichen Eintrittstermins.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

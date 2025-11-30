@@ -71,4 +71,4 @@ Du hast noch Fragen?
 
 Wir geben Dir unter +49 6171 5904- 286 gerne Antworten auf Deine Fragen. Wir freuen uns auf Dich!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

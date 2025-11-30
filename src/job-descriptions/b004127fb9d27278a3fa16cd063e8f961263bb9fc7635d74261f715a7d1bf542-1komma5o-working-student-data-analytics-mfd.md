@@ -58,4 +58,4 @@ Benefits
 *   You work remotely (Germany-wide), with offices in Hamburg, Berlin or Munich
 *   Create a healthy balance alongside your work and enjoy all the benefits of the EGYM Wellpass
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

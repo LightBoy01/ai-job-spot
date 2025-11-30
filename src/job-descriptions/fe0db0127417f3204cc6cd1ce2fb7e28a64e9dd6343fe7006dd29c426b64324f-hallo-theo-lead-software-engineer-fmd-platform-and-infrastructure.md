@@ -51,4 +51,4 @@ Nice to have
 
 At hallo theo, Platform Engineering is a core lever for transforming a traditional, offline industry into a modern, digital service. As Lead Platform Engineer, you join early enough to shape our architecture, standards and ways of working, while already having real customers, scale and funding behind you. You will work in a small, senior, cross-functional environment with direct access to Product and Data & Tech leadership, short decision paths and plenty of autonomy. Your work will make life easier for every engineer at hallo theo and directly impact how reliably and efficiently we can serve owners and tenants across Germany.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

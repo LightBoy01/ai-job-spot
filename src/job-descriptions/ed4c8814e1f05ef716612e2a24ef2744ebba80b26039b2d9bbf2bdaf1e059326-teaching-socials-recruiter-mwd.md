@@ -84,4 +84,4 @@ Was wir nicht suchen
 *   Corporate-Denke, langsame Prozesse, „nur Post & Pray“.
 *   Leute, die „nur einen Job“ wollen statt **sichtbaren Hiring-Impact**.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

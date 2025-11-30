@@ -77,4 +77,4 @@ Dein Weg zu uns
 
 Klingt gut? Dann schick uns deinen CV unter Angaben deiner Gehaltsvorstellung und deines frühestmöglichen Startdatums. Nick freut sich auf deine Bewerbung und steht dir für Fragen zur Verfügung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

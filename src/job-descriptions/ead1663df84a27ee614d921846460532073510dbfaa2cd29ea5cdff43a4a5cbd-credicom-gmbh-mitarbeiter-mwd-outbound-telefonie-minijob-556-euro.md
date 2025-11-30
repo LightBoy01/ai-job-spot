@@ -52,4 +52,4 @@ Benefits
 
 Sei Teil von credicom, wo deine Kommunikationsstärke zählt! Unterstütze unser Team im Herzen Berlins und gestalte individuelle Finanzierungslösungen. Bewirb dich jetzt als Mitarbeiter Outbound-Telefonie!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

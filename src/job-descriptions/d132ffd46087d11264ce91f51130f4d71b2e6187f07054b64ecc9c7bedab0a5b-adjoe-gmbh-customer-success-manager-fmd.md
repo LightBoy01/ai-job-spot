@@ -64,4 +64,4 @@ Fuel for the Journey: Benefits to Support Your Ambitions
 *   Thrive Where You Work: Enjoy the Alster lake view from our central office with top notch equipment, fun open spaces, and a large variety of snacks and drinks.
 *   **Join the Community!** Participate in regular team and company events, including hackathons and social gatherings. We work together, and we celebrate together, too.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -53,4 +53,4 @@ Benefits
 
 Für telefonische Vorabinformationen steht Dir Davide Alu unter der Telefonnummer +49 7621 966 396 zur Verfügung. Bewirb Dich mit Angabe Deiner Gehaltsvorstellung und des frühestmöglichen Eintrittstermins.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

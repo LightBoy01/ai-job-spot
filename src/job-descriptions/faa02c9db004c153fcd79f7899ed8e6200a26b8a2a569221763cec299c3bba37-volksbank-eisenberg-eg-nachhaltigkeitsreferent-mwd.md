@@ -91,4 +91,4 @@ Benefits
 
 Wir freuen uns über innovative Persönlichkeiten, die das Glas lieber halb voll als halb leer sehen. Wir bieten dir eine vielseitige Tätigkeit mit hoher Eigenverantwortung sowie hervorragende persönliche und fachliche Entwicklungsperspektiven. Uns liegt Nachhaltigkeit am Herzen, deshalb bewirb dich am besten online oder per E-Mail. Wir freuen uns auf Deine aussagekräftige Bewerbung. Gib uns bitte deinen möglichen Eintrittstermin und deine Gehaltsvorstellung an.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

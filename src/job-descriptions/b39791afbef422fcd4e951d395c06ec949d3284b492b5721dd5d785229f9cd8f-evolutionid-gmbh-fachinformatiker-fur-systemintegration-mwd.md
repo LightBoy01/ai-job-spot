@@ -69,4 +69,4 @@ Benefits
 
 Dann bewirb dich jetzt – ohne Anschreiben, ganz unkompliziert. Ein Lebenslauf (DE oder EN) genügt völlig.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

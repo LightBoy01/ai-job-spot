@@ -53,4 +53,4 @@ Nice to haves
 
 At hallo theo you work on a product with real impact, close to our customers and close to the code. You’ll see first-hand how your work changes how customers operate, while still building solutions that are robust and reusable across our platform. You’ll collaborate tightly with Product, Design, Sales and Customer Success, help shape our deployment playbook from the ground up, and grow into a key voice on how we connect our product to the real world.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -65,4 +65,4 @@ Benefits
 
 👉 Melde dich jetzt für ein unverbindliches Kennenlerngespräch und finde heraus, wie du als Projektingenieur (m|w|d) in der Siedlungswasserwirtschaft wirklich etwas bewegen kannst!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

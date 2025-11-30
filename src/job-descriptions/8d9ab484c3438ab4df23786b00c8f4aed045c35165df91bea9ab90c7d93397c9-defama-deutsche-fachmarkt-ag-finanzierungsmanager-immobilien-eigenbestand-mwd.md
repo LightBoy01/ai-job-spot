@@ -65,4 +65,4 @@ WAS MUSS MAN ÜBER UNS WISSEN?
 
 Wenn sich das nach Dir anhört, dann freuen wir uns auf Deine Bewerbung inklusive dem frühestmöglichen Eintrittstermin und einige Zeilen, warum Du die perfekte Besetzung für die Stelle bist. Bitte sende Deine Bewerbung auch gerne über unsere Homepage.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

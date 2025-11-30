@@ -39,4 +39,4 @@ Stellenanforderungen
 *   Hohe Umsetzungsgeschwindigkeit, Ownership-Mindset und die Fähigkeit, Themen strukturiert, eigenständig und endkundenzentriert voranzutreiben
 *   Teamplayer-Mentalität, verbunden mit einem klaren Qualitäts- und Ergebnisfokus
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

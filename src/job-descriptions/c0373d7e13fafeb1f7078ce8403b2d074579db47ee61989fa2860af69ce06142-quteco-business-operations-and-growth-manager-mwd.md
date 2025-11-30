@@ -60,4 +60,4 @@ Benefits
 
 Wenn du Verantwortung willst, dich in einer breiten Rolle beweisen möchtest und ein Unternehmen aktiv mit aufbauen willst, dann freuen wir uns sehr auf deine Bewerbung. Ein kurzer Lebenslauf oder dein LinkedIn-Profil reicht aus.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

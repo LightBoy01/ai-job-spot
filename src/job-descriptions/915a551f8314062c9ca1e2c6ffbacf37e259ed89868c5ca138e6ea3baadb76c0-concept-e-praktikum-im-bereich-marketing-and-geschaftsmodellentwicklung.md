@@ -51,4 +51,4 @@ Benefits
 
 Wenn du Lust hast, Teil eines innovativen Startups zu werden und gemeinsam mit uns an einer klimafreundlicheren Zukunft zu arbeiten, dann freuen wir uns auf deine Bewerbung! Bitte sende uns deinen Lebenslauf und ein kurzes Motivationsschreiben, in dem du beschreibst, warum du bei concept-e mitwirken möchtest.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
