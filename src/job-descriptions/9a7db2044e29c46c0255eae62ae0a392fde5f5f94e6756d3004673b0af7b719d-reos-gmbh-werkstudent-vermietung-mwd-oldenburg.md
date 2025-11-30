@@ -9,50 +9,63 @@ postedDate: '2025-11-28T12:32:07.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/reos-gmbh/werkstudent-vermietung-oldenburg-306006
 companyLogoUrl: null
+companyCulture: >-
+  This company fosters a collaborative and supportive environment, prioritizing
+  mutual growth and customer success. They encourage innovation and personal
+  authenticity, offering significant flexibility with remote work options, a
+  strong focus on employee well-being, and ample opportunities for professional
+  development and networking.
+story_question1: >-
+  How can someone in an entry-level role significantly impact tenant
+  satisfaction and the overall property management experience, especially given
+  the company's focus on "Customer Success"?
+story_answer1: >-
+  You know, when I started here, I thought it would just be about handling
+  paperwork and viewings. But it's so much more. Being the first point of
+  contact for tenants, coordinating their moves, and showcasing properties –
+  it's all about building trust and making sure they feel valued from day one.
+  Our 'Customer Success Is Our DNA' isn't just a slogan; it means we truly
+  listen, anticipate needs, and go the extra mile. The impact? Seeing a
+  prospective tenant light up during a viewing or a new resident settle in
+  smoothly – that's incredibly rewarding. You're not just managing properties;
+  you're helping people find their homes and ensuring their journey is positive,
+  which directly shapes our reputation and success.
+story_question2: >-
+  Given the emphasis on "Never Stop Reinventing" and "Digitalisierung"
+  (digitalization), what opportunities are there for new team members to
+  contribute innovative ideas or streamline processes in property management?
+story_answer2: >-
+  That's one of the most exciting parts about working here! We genuinely
+  encourage everyone, especially new team members, to challenge the status quo.
+  Remember 'Never Stop Reinventing'? It means we're constantly looking for
+  better ways to do things. For instance, when I first noticed some
+  inefficiencies in how we tracked tenant interactions, I brought it up. Instead
+  of being told to stick to the process, I was actually given the space to
+  research and propose a new digital tool. Now, my idea is in a pilot phase! If
+  you're passionate about digitalization and sustainability in real estate, this
+  is a place where your suggestions are not just heard, but actively supported
+  and potentially implemented, shaping the future of our operations.
+story_question3: >-
+  What kind of support and growth opportunities can an entry-level professional
+  expect to receive to develop their career in the real estate sector?
+story_answer3: >-
+  For someone just starting out, the 'Knowledge Base' and 'On The Job'
+  development are fantastic. It's not just generic training; it's tailored to
+  your individual needs and career aspirations. I've personally benefited from
+  mentorship, where experienced colleagues genuinely invest time in guiding you
+  through complex situations and sharing their insights. Plus, with our focus on
+  'Team First,' you're never alone. There's a strong culture of mutual support,
+  whether it's helping out with a tricky tenant query or collaborating on a new
+  marketing exposé. They truly want you to grow and thrive here, providing
+  resources and a supportive environment to help you become a real estate
+  expert.
 ---
-Dein täglicher Verantwortungsbereich:
--------------------------------------
-
-*   Du bist zentrale Ansprechperson vor Ort bei der Betreuung und Verwaltung unserer Objekte.
-*   Durch Dich werden Ein- und Auszüge der Mietenden sowie Wohnungsbesichtigungen professionell koordiniert und durchgeführt.
-*   Als verantwortliche Kontaktperson begleitest Du Mietinteressenten vom Erstkontakt bis hin zum Vertragsabschluss.
-*   Die Vermarktung von freistehenden Mieteinheiten und Neubauprojekten auf relevanten Portalen gehören ebenso zu Deinem Aufgabenbereich.
-*   Du bist verantwortlich für die Erstellung und Qualitätssicherung aussagekräftiger Exposés.
-
-Deine Kompetenzen:
-------------------
-
-*   Du befindest dich gerade in einem Studium, vorzugsweise im Immobilienbereich.
-*   Deine hohe Kunden- und Serviceorientierung ermöglichen Dir zu jeder Zeit - auch in anspruchsvollen Situationen - ein zuvorkommendes und besonnenes Auftreten.
-*   Dich begeistern Themengebiete wie: Digitalisierung, Immobilienwirtschaft & Nachhaltigkeit.
-*   Deine sehr gute Kommunikations- und Ausdrucksfähigkeit in Deutsch und gute Englischkenntnisse runden Dein Profil ab.
-
-Unsere Werte, dein Mindset:
----------------------------
-
-*   \*\*Team First:\*\*Ein Team, ein Ziel- Gemeinsam sind wir stark. Wir wachsen durch gegenseitige Unterstützung.
-*   **Customer Success Is Our DNA:** Identifiziere, hinterfrage und verfolge die Ziele Deines Kunden. Feiert gemeinsam den Erfolg.
-*   **Never Stop Reinventing:** Sei offen für Neues und gehe Veränderungen mutig an. Hinterfrage Prozesse, liefere Lösungsvorschläge und neue Ideen.
-*   **Be Yourself And Make Goals Work:** Sei Du selbst. Erreiche Großes!
-
-Deine Benefits bei uns:
------------------------
-
-*   **Remote Work:** Flexibles Arbeitsmodell – Arbeite bis zu 100% remote innerhalb Deutschlands oder nutze unser modernes Office in Hamburg nach Bedarf.
-*   **Wellbeing:** Betriebliches Gesundheitsmanagement – ein jährliches Gesundheitsbudget sowie eine bezuschusste Mitgliedschaft beim Urban Sports Club.
-*   **Altersvorsorge:** Attraktive Bezuschussung zur betrieblichen Altersvorsorge – sichere Deine Zukunft mit unserer Unterstützung.
-*   **Hardware:** Modernste Technik – damit wir gemeinsam innovativ bleiben.
-*   **Rabatte:** Attraktive Angebote – genieße attraktive Rabatte bei über 1.500 Anbietern aus den Bereichen Sport, Mobilität, Mode und Reisen und nutze unsere Sachbezugskarte von Edenred für zusätzliche Vergünstigungen.
-*   **Knowledge Base:** Gezielt und On The Job – ergreife die Chance für vielfältige, individuelle Entwicklungs- und Weiterbildungsmöglichkeiten.
-*   **Networking:** Nicht ohne mein Team – freue Dich auf regelmäßige Teamevents.
-*   Keine Sorge, wir haben die wirklich wichtigen Dinge nicht vergessen – bei uns gibt es auch kostenlose Limonade und den allseits beliebten Obstkorb.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nThis role is for a dedicated and customer-focused individual passionate about real estate, digitalization, and sustainability. As a key on-site contact, you will manage property operations, facilitate tenant relations from first contact to contract signing, and actively contribute to marketing vacant units and new projects. This is an excellent opportunity for a student in the real estate sector looking to gain hands-on experience in a dynamic and supportive environment.\n\n### Responsibilities\n*   Act as the central local contact person for the care and administration of our properties.\n*   Professionally coordinate and conduct tenant move-ins, move-outs, and apartment viewings.\n*   Guide prospective tenants from their initial contact through to the successful signing of their contract.\n*   Manage the marketing of vacant rental units and new construction projects on relevant online portals.\n*   Take responsibility for the creation and quality assurance of compelling and informative exposés.\n\n### Qualifications\n*   Currently enrolled in a university program, preferably with a focus on real estate.\n*   Demonstrates a high degree of customer and service orientation, maintaining a courteous and prudent demeanor even in challenging situations.\n*   Enthusiastic about topics such as digitalization, the real estate industry, and sustainability.\n*   Possesses very good communication skills and expressiveness in German, along with good English language skills.\n\n### Author's Take\nThis is an exceptional entry-level opportunity for a motivated student eager to kickstart their career in real estate. The company clearly values its employees, offering a flexible remote-first approach (within Germany), comprehensive well-being programs, and significant investment in professional development. Their strong emphasis on collaboration, innovation, and customer success, combined with a supportive team culture and modern perks, makes this a vibrant place to learn and grow. If you're ready to make a tangible impact and develop your skills in a forward-thinking environment, this role is for you.

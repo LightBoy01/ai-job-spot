@@ -9,74 +9,61 @@ postedDate: '2025-11-28T08:01:45.000Z'
 expirationDate: null
 tags:
   - Customer Service
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/surplex-gmbh/werkstudent-customer-service-1st-level-support-dusseldorf-332627
 companyLogoUrl: null
+companyCulture: >-
+  Surplex fosters a supportive, collaborative, and international environment
+  characterized by flat hierarchies and a young, integrated team. They
+  prioritize curiosity, learning, and personal development, offering a space for
+  creativity and mutual respect.
+story_question1: >-
+  What's the most challenging aspect of ensuring machines get to their new
+  owners globally, and how does the customer service team directly contribute to
+  overcoming these hurdles and ensuring customer satisfaction?
+story_answer1: >-
+  Honestly, the biggest challenge is the sheer logistics of moving industrial
+  machinery across borders. Every auction is unique, and sometimes unexpected
+  issues arise with transport or customs. Our team is the first line of defense;
+  we're the calm voice on the phone, the clear explanation in an email, making
+  sure our customers understand the process and feel supported. We don't just
+  solve problems; we build trust, ensuring that a buyer in Germany or worldwide
+  feels confident their machine will arrive safely, turning a complex process
+  into a seamless experience. It's incredibly rewarding when you know you've
+  helped someone successfully acquire a crucial piece of equipment.
+story_question2: >-
+  Given Surplex's recent integration into TBAuctions, how does this larger
+  structure impact the day-to-day operations and growth opportunities within the
+  customer service team, especially for temporary or part-time staff?
+story_answer2: >-
+  Joining TBAuctions has been a game-changer! While we maintain our Surplex
+  identity for continental Europe, it's opened up a massive network and
+  incredible learning opportunities. For our customer service team, it means
+  even more diverse international cases, but also access to shared best
+  practices and resources. Even as a temporary or part-time team member, you're
+  not just a cog in a machine; you're contributing to a rapidly expanding
+  international entity. There's a real sense of being part of something bigger,
+  and for those who show initiative, there are definitely pathways to grow with
+  us, whether it's extending your stay or taking on new responsibilities as we
+  scale.
+story_question3: >-
+  What specific traits or soft skills do you find most valuable in a 1st Level
+  Customer Service role at Surplex, beyond just language proficiency and
+  organizational skills?
+story_answer3: >-
+  Beyond the obvious, I'd say genuine curiosity and a proactive mindset are
+  golden. Our customers often deal with high-value assets, so their concerns can
+  be complex. Someone who isn't afraid to ask 'why?' or to dig a little deeper,
+  even if it means coordinating with other teams, truly shines. Empathy is also
+  crucial – understanding the customer's perspective and making them feel heard,
+  even when a solution isn't immediately apparent. It's about being a
+  problem-solver, yes, but also a reassuring guide through what can sometimes be
+  an intimidating process for our clients. That's where you truly make an
+  impact.
 ---
-**Wir brauchen dich – am besten sofort!**
-
-Unsere Projekte laufen auf Hochtouren und wir suchen kurzfristig motivierte Leute, die mit anpacken und dafür sorgen, dass alles rechtzeitig über die Bühne geht.
-
-Bei Surplex sind „Projekte“ übrigens nicht einfach irgendwelche Aufgaben – bei uns geht’s um Maschinen, die erfolgreich versteigert wurden und ihren Weg zum neuen Besitzer finden müssen.
-
-Deine Aufgaben:
----------------
-
-Du bist Teil unseres Customer Service-Teams und unterstützt im 1st Level Support du sorgst dafür, dass **unsere Kunden wissen, wo der Hase langläuft.**
-
-Konkret heißt das:
-
-*   Als erste Ansprechperson betreust und unterstützt du unsere Kundinnen aus Deutschland, Europa und weltweit per Telefon, Chat und Mail.
-    
-*   Eingehende und ausgehende Telefonate, Chats sowie E-Mails bearbeitest du souverän und serviceorientiert in unserem Ticketsystem.
-    
-*   Mit einem klaren Fokus auf Lösungen gehst du Anliegen professionell an.
-    
-*   Bei Fragen und Problemen rund um unsere Webplattform bist du verlässlicher Ansprechpartnerin.
-    
-*   Gemeinsam mit weiteren internen Teams stellst du sicher, dass unsere Kundinnen ein rundum positives Erlebnis haben.
-    
-
-Was du mitbringst:
-------------------
-
-*   Du hast **spontan Zeit und Lust, uns für** 12 Wochen aktiv zu unterstützen – vielleicht ja sogar länger.
-    
-*   Erste Erfahrungen im Kontakt mit Kunden? Jackpot! Aber kein Muss!
-    
-*   Du bist organisiert, telefonierst gern und bleibst auch dann entspannt, wenn’s mal drunter und drüber geht.
-    
-*   Du sprichst und schreibst sehr gutes Französisch und neben Deutsch ist Englisch auch kein Problem für dich – wenn du noch eine weitere Sprache mitbringst: umso besser!
-    
-*   Du fühlst dich in einem bunten, internationalen Team wohl und hast ca. 16–20 Stunden pro Woche Zeit – in den Semesterferien darf’s auch gern etwas mehr sein.
-    
-
-Auch wenn du nicht alle Anforderungen erfüllst, freuen wir uns auf deine Bewerbung.
------------------------------------------------------------------------------------
-
-Bei Surplex zählen Neugier, Lernbereitschaft und Entwicklung mehr als ein perfektes Häkchen bei allen Kriterien.
-
-Was wir dir bieten 🥳
----------------------
-
-*   💸 **Faire und sehr gute Bezahlung** – dein Einsatz soll sich lohnen
-*   😎 **Ein junges, eingespieltes Team**, in dem man sich schnell wohlfühlt
-*   🏢 **Ein modernes Office** mit Platz für Kreativität (und guten Kaffee 😉)
-*   🌍 **Ein internationales Umfeld** – bei uns triffst du auf spannende Menschen aus aller Welt
-*   🚀 **Flache Hierarchien** – kurze Wege, offene Ohren und ein Miteinander auf Augenhöhe
-
-Das ist Surplex
----------------
-
-Surplex ist seit über 25 Jahren eines der führenden Industrie-Auktionshäuser Europas und handelt weltweit mit gebrauchten Maschinen und Industrieanlagen. Unser engagiertes Team mit über 200 Mitarbeitenden arbeitet sowohl an unserem Hauptsitz in Düsseldorf als auch in 15 Niederlassungen in ganz Europa. Seit August 2024 sind wir Teil von TBAuctions – der führenden europäischen Multi-Brand-Plattform für digitale B2B-Auktionen gebrauchter Güter mit über 1.200 Mitarbeitenden. Innerhalb dieser Struktur verantworten wir die kontinentale Division und bringen unsere Expertise in den internationalen Markt ein.
-
-Bei Surplex verbinden wir die Vorteile des modernen Online-Handels mit persönlichem, klassischem Kundenservice. Wir begleiten unsere Kund:innen durch alle Schritte des Kauf- und Verkaufsprozesses, bieten maßgeschneiderte Lösungen und sorgen für höchste Zufriedenheit.
-
-**Werde Teil unseres Teams und gestalte mit uns die Zukunft des Gebrauchtmaschinenhandels!**
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nJoin Surplex, a leading European industrial auction house, as part of our Customer Service team. Our projects are in full swing, and we're looking for motivated individuals to jump in and ensure everything runs smoothly. At Surplex, \"projects\" mean ensuring successfully auctioned machines find their way to their new owners worldwide. You'll be a key part of our 1st Level Support, ensuring our customers are well-informed and guided through every step. This is a part-time, temporary role (12 weeks, with potential for extension), ideal for someone looking to gain valuable international customer service experience.\n\n### Responsibilities\n*   As the first point of contact, you will support and assist customers from Germany, Europe, and globally via phone, chat, and email.\n*   You will professionally and service-orientedly handle incoming and outgoing calls, chats, and emails within our ticket system.\n*   You will approach customer inquiries with a clear focus on finding solutions.\n*   You will be a reliable contact person for questions and issues related to our web platform.\n*   You will collaborate with other internal teams to ensure our customers have a consistently positive experience.\n\n### Qualifications\n*   You are spontaneously available and eager to support us actively for 12 weeks – perhaps even longer.\n*   Initial experience in customer contact is a plus, but not a requirement!\n*   You are organized, enjoy talking on the phone, and remain calm even when things get chaotic.\n*   You speak and write very good French, and English is not a problem for you in addition to German – if you bring another language, even better!\n*   You feel comfortable in a diverse, international team and have approximately 16–20 hours per week available – more during semester breaks is welcome.\n\nWe encourage you to apply even if you don't meet all requirements. At Surplex, curiosity, willingness to learn, and development count more than ticking every box perfectly.\n\n### Author's Take\nThis is a fantastic opportunity for an entry-level professional or a student looking to gain hands-on customer service experience in a fast-paced, international environment. Surplex prides itself on a young, close-knit, and international team with flat hierarchies and a culture that values learning and personal development. You'll enjoy fair compensation, a modern office, and the chance to contribute directly to the success of a leading European industrial auction house. The role offers a supportive atmosphere where you'll be part of a team committed to providing excellent service and ensuring customer satisfaction in a dynamic global market.

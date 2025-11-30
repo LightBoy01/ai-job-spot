@@ -9,63 +9,67 @@ postedDate: '2025-11-30T13:01:38.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/lionflence/artist-manager-influencer-manager-mulheim-109153
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative, supportive, and fun environment with a
+  strong emphasis on work-life balance (30 days vacation) and active
+  contribution within flat hierarchies. There are ample opportunities for
+  personal and professional growth through challenging tasks and constructive
+  feedback.
+story_question1: >-
+  How does Lionflence empower Artist Managers to truly shape their work and
+  contribute beyond day-to-day tasks, given the emphasis on "Mitgestalten statt
+  nur mitschwimmen" (actively shaping rather than just going with the flow)?
+story_answer1: >-
+  At Lionflence, 'Mitgestalten' isn't just a buzzword, it's how we operate. As
+  an Artist Manager here, you're not just executing; you're truly a co-creator.
+  Imagine collaborating directly with artists to brainstorm groundbreaking
+  content formats, then seeing those ideas come to life. We give you the freedom
+  to identify new talent, develop innovative strategies, and even influence our
+  internal processes. Our flat hierarchies mean your ideas are heard, and our
+  supportive team ensures you have the resources to turn those visions into
+  reality. It’s about building something impactful together, celebrating every
+  win, and constantly pushing the boundaries of what's possible in artist
+  management.
+story_question2: >-
+  With the mention of "perfekt abgestimmte selbst entwickelte Softwaresysteme"
+  (perfectly tailored, self-developed software systems), how do these
+  proprietary tools specifically enhance an Artist Manager's effectiveness and
+  allow them to focus more on strategic relationships rather than administrative
+  burden?
+story_answer2: >-
+  Our proprietary software systems are game-changers, truly designed by us, for
+  us – and for you. We built them precisely to eliminate the mundane
+  administrative tasks that often bog down artist managers. Think seamless
+  scheduling, automated contract tracking, and intuitive performance analytics,
+  all integrated into one ecosystem. This means you spend less time wrestling
+  with spreadsheets and more time actually engaging with artists, nurturing
+  relationships, and strategizing their growth. It frees you up to be proactive,
+  identify opportunities, and truly be a strategic partner to our talents,
+  knowing the tech has your back.
+story_question3: >-
+  Given Lionflence's focus on supporting companies in brand building and
+  developing its own software systems in addition to artist management, how does
+  this broader scope create unique cross-pollination opportunities or challenges
+  for an Artist Manager?
+story_answer3: >-
+  Our broader scope at Lionflence, encompassing brand building and in-house
+  software development, offers a truly unique dynamic for an Artist Manager. It
+  means you're not just part of a traditional talent agency; you're embedded in
+  an ecosystem that's constantly innovating. For instance, when we develop a new
+  software feature, your direct feedback from artist interactions helps shape
+  it. Or, when a brand client needs a specific campaign, you might collaborate
+  directly with our brand-building specialists to integrate an artist in a way
+  that truly resonates and builds both the artist's and the client's brand. It
+  provides incredible opportunities for cross-functional learning and leveraging
+  diverse expertise, though it also means we're always thinking about the bigger
+  picture and how all these elements intertwine for maximum impact.
 ---
-Was wir Dir bieten:
-
-*   Eine spannende Herausforderung, in der du dich weiterentwickeln kannst, rundum den Bereich Artistmanagement Medien/Social Media, Influencer Marketing und den dazugehörigen Technologien (Software Systeme)
-*   Perfekt abgestimmte selbst entwickelte Softwaresysteme für dich als Artistmanager/in und für deine Artists
-*   Eine verantwortungsvolle Position in einem engagierten Team
-*   Eigenverantwortliches Arbeiten
-*   Freiraum zum aktiven Gestalten durch flache Hierarchien und flexible Strukturen
-*   Ein vielseitiges, anspruchsvolles und spannendes Aufgabengebiet mit renommierten Kunden
-*   So sieht Work-Life-Balance aus: 30 Tage Urlaub
-*   Konstruktives Feedback wird gerne gesehen
-*   Unsere Firmenkultur hat offene Türen & Ohren, coole Kolleg\*innen und Spaß bei der Arbeit
-*   Ein hochmotiviertes, leistungsfähiges Team, welches gemeinsam arbeitet - aber auch gerne gemeinsame Erfolge feiert.
-*   Mitgestalten statt nur mitschwimmen - aktive Mitarbeit an fachlichen und kulturellen Themen die auch über den Tellerand hinausgehen
-*   Eine spannende Herausforderung, in der du dich weiterentwickeln kannst, rundum den Bereich Medien/Social Media, Influencer Marketing und den dazugehörigen Technologien (Software Systeme)
-*   Firmenhandy
-*   Firmenlaptop
-
-Aufgaben
---------
-
-Welche Aufgaben hättest Du?
-
-*   Du bist erster Ansprechpartner für unsere internen Talente
-*   Du unterstützt bei der Suche nach neuen Kooperationspartnern, erstellst neue Angebote und bearbeitest eingehende Anfragen
-*   Du zeigst dein Verhandlungsgeschick bei Verträgen sowie bei Preisverhandlungen mit Anbietern und Dienstleistern (Kooperationspartnern)
-*   Du entwickelst zusammen mit den Talents Konzepte wie auch Content-Formate und unterstützt sie bei der Realisierung
-*   Du fungierst als Schnittstelle zwischen den Talents und unseren Partnern, planst ihren Einsatz und sorgst für ihr Wohlbefinden
-*   Du identifizierst und akquirierst mögliche neue Talente für bestehende und zukünftige Formate und Sendungen
-*   Gemeinsam helfen wir ihnen, zukunftsorientiert zu arbeiten und schaffen neue Möglichkeiten über das Artist dasein hinaus
-
-Qualifikation
--------------
-
-Das bringst Du mit:
-
-*   mind. 1-3 Jahre Erfahrung im Bereich Influencer Marketing, Online Marketing z.B. in einer Digital, Social Media oder PR-Agentur
-*   Interesse und Gespür für neueste Digital- & Konsumententrends
-*   Sicherer Umgang mit allen gängigen Social Media Netzwerken und Online-Communities
-*   Idealerweise bereits Erfahrung in der Umsetzung und/oder der Konzeption von Social Media und Influencer Marketing Kampagnen
-*   Hohe Kreativität und Motivation
-*   Fließende Deutschkenntnisse und Englischkenntnisse in Wort und Schrift
-
-Über uns:
-
-Die Lionflence ist ein junges Unternehmen, welches sich auf Online Marketing, sowie Management spezialisiert hat. Aktuell ist der Hauptsitz in Mülheim an der Ruhr und Berlin gehört seit August 2022 dazu.
-
-Zudem unterstützen wir Unternehmen im Bereich Markenaufbau und entwickeln eigene Softwaresysteme. Es erwartet Dich ein erfolgreiches Unternehmen mit flachen Hierarchien.
-
-Als Circle-of-Marketing bieten wir Kunden ein umfassendes 360°-Dienstleistungspaket und somit auch Services, die über die gewohnten Dienstleistungen einer Marketing-Agentur hinausgehen.Unser idealer Kandidat ist ein Teamplayer mit ausgeprägten Fähigkeiten im Bereich zwischenmenschlicher Kommunikation und verfügt über praktische Erfahrung.Du hast ein starkes Interesse Artists zu betreuen und möchtest ab sofort spannende Aufgaben in dem Bereich Artist Management übernehmen?Du organisierst leidenschaftlich gerne und bist ein aufgeschlossener Mensch? Dann könntest du perfekt zu uns passen!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nLionflence is a dynamic and young company specializing in Online Marketing and Artist Management, with headquarters in Mülheim an der Ruhr and a Berlin office since August 2022. We empower companies with brand building and develop our own innovative software systems. As a \\\"Circle-of-Marketing,\\\" we offer clients a comprehensive 360° service package, extending beyond the conventional offerings of a marketing agency.\n\nWe pride ourselves on a culture of flat hierarchies and flexible structures, providing significant freedom for active participation and personal growth. We offer a responsible position within a highly motivated and high-performing team that values constructive feedback, open communication, and celebrating successes together. Enjoy a balanced work life with 30 days of vacation, supported by company phone and laptop. This is an exciting opportunity to actively shape the future of artist management within a forward-thinking environment.\n\n### Responsibilities\nAs an Artist Manager, your key responsibilities will include:\n- Acting as the primary point of contact for our internal talents.\n- Supporting the search for new cooperation partners, creating new offers, and processing incoming inquiries.\n- Demonstrating strong negotiation skills for contracts and pricing with providers, service providers, and cooperation partners.\n- Collaborating with talents to develop innovative concepts and content formats, and assisting in their realization.\n- Serving as the essential interface between talents and our partners, planning their engagements, and ensuring their well-being.\n- Identifying and acquiring potential new talents for existing and future formats and broadcasts.\n- Jointly working to enable talents to operate with a future-oriented mindset and create new opportunities beyond their immediate artist roles.\n\n### Qualifications\nTo succeed in this role, you should bring:\n- A minimum of 1-3 years of experience in Influencer Marketing or Online Marketing, ideally gained at a Digital, Social Media, or PR agency.\n- A strong interest in and keen sense for the latest digital and consumer trends.\n- Proficient handling of all common social media networks and online communities.\n- Ideally, prior experience in the implementation and/or conceptualization of social media and influencer marketing campaigns.\n- High levels of creativity and motivation.\n- Fluent German and English language skills, both written and spoken.\n\n### Author's Take\nThis is an exceptional opportunity for an aspiring or experienced Artist Manager looking to make a significant impact within a rapidly evolving digital landscape. Lionflence clearly values proactive individuals who thrive in a collaborative environment and are eager to contribute beyond their core responsibilities. The emphasis on proprietary software, flat hierarchies, and 30 days of vacation highlights a modern, employee-centric culture focused on efficiency, well-being, and innovation. If you're passionate about nurturing talent, skilled in digital marketing, and keen to shape the future of influencer campaigns, this role offers a compelling blend of challenge and support.
