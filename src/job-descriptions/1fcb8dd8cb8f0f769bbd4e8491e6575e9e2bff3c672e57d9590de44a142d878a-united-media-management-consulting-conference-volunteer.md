@@ -8,50 +8,47 @@ applicationLink: >-
 postedDate: '2025-11-27T21:45:14.000Z'
 expirationDate: null
 tags: []
-status: pending_review
+status: published
 jobLevel: null
-employeeRole: null
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/united-media/management-consulting-conference-volunteer-frankfurt-181063
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative and supportive environment, highly valuing
+  its volunteers who are crucial to building its global private equity
+  community. It offers significant opportunities for networking, professional
+  development, and skill enhancement, framed within a dynamic event management
+  context.
+story_question1: >-
+  How does this volunteer role directly contribute to the success of such a
+  high-profile event and what kind of growth can I expect from the experience?
+story_answer1: >-
+  As a volunteer, you're not just a helping hand; you're truly at the heart of
+  making our Private Equity conference a success. From pre-event preparations to
+  on-the-day execution, you'll be instrumental in ensuring a smooth experience
+  for 500+ industry leaders. What's truly special is the unparalleled access and
+  networking this provides – it's like a fast-track pass to the private equity
+  world. Many of our past volunteers have told us how this experience helped
+  them secure internships or even full-time roles, not just from the connections
+  made, but from the leadership and communication skills they honed with our
+  team.
+story_question2: >-
+  Beyond the immediate conference day, how does Private Equity Insights support
+  its volunteers in leveraging this experience for their long-term career
+  aspirations, especially regarding mentorship or future opportunities?
+story_answer2: >-
+  We view our volunteers as crucial members of our extended community, not just
+  temporary helpers. That's why we offer individual management training from our
+  core team and the official volunteer certificate, which is highly recognized
+  in the industry. The post-event dinner is more than just a thank you; it's a
+  prime opportunity to deepen connections with peers and our team in a relaxed
+  setting. Many of our volunteers stay connected, and we actively encourage
+  mentorship relationships that often spark during the event. We've seen
+  numerous success stories where these initial connections blossomed into
+  significant career opportunities, proving that this experience extends far
+  beyond just one day.
 ---
-### **Private Equity Conference Volunteer**  (Frankfurt 13th March)
-
-Do you want to expand your network with 500+ leaders, entrepreneurs, investors, limited and general partners of the Private Equity sector, plus develop your skills in leadership? Now is your chance!
-
-Private Equity Insights organises the largest global events enabling finance and investment innovation by connecting C-level executives, GPs and LPs, with entrepreneurs and investors. Our conferences bring together some of the most important big industry players such as Blackstone, BlackRock, Apollo, Carlyle, CVC, KKR, Permira, Oliver Wyman, Mercer, and many more. 
-
-We are looking for ambitious and talented people, who want to be a part of a team of 25+ peers and help us build, run and deliver the leading French Private Equity Conference. 
-
-Private Equity Insights would not exist without our volunteers. Simple as that. Join us and see how the world's largest Private Equity community is built – from the inside.
-
-**Join us at Westin Frankfurt on the 13th March 2026!**
-
-**You can get a better sense of the conference, in our [2023 Milan's highlight video](https://drive.google.com/file/d/1w9amNARIROInji1jERo8KzgPLCfemnQM/view?usp=drive_link).**
-
-**For more information please visit our website [here](https://pe-insights.com/private-equity-conferences/france/).**
-
-**PROFESSIONAL BENEFITS:**
-
-*   Expand your network with 500+ leaders, entrepreneurs, investors, limited and general partners of the Private Equity sector.
-*   Create your next business opportunity & meet your new mentor
-*   Develop your soft skills and receive individual training in management from the Private Equity Team
-*   Receive the official 2026 Private Equity Insights Volunteer Certificate
-
-**PERSONAL BENEFITS:**
-
-*   Take part in the 2026 Private Equity Insights Workshop, along with 25+ ambitious and talented people and learn the insights of running the leading Private Equity Conference and the possibilities that this entails
-*   Experience the unique atmosphere of Private Equity Insights on the day of the conference.
-*   Gain valuable knowledge, insights, and inspiration by listening and chatting to the world's leading speakers.
-*   Seize the opportunity to develop your competencies in communication and learn what it takes to create the leading event in Europe.
-
-**SOCIAL BENEFITS:**
-
-*   Create personal relationships with like-minded, hardworking professionals from the Volunteer Programme and from the Private Equity Insights team.
-*   Exclusive access to the official 2026 Private Equity Insights Dinner for all members of the Volunteer Programme after the event!
-
-Hours to contribute: the day of the conference, plus 2h the afternoon before the event, for training session & rehearsals.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nThis is an exciting volunteer opportunity to be part of the Private Equity Insights team, helping to organize and deliver the leading French Private Equity Conference in Frankfurt on March 13th, 2026. Private Equity Insights hosts major global events connecting over 500 C-level executives, GPs, LPs, entrepreneurs, and investors from top-tier firms like Blackstone and Carlyle. Volunteers are crucial to the success of these events, offering a unique chance to experience the private equity world from the inside, expand your professional network, and develop valuable skills.\n\n### Responsibilities\n- Collaborate with a team of 25+ peers to build, run, and deliver the leading French Private Equity Conference.\n- Attend a mandatory 2-hour training session and rehearsals on the afternoon before the event.\n- Contribute your full presence and support throughout the conference day on March 13th, 2026, ensuring a smooth and successful event.\n- Assist with various on-site tasks to ensure an exceptional experience for all attendees, speakers, and partners.\n\n### Qualifications\n- Ambitious and talented individuals eager to expand their network within the Private Equity sector.\n- A desire to develop soft skills, leadership, and gain hands-on experience in event management.\n- Ability to work collaboratively as part of a dynamic team.\n- Strong interest in finance, investment, and the private equity industry.\n- Available for training the afternoon before and for the full day of the conference (March 13th, 2026) in Frankfurt.\n\n### Author's Take\nThis isn't just a volunteer role; it's an unparalleled opportunity for aspiring professionals, students, or anyone looking to immerse themselves in the high-stakes world of Private Equity. The sheer networking potential with 500+ industry leaders from major firms is a significant draw, often leading to mentor relationships or future business opportunities. Beyond the networking, the offer of individual management training, soft skill development, and an official volunteer certificate provides tangible benefits for your CV. The exclusive access to the post-event dinner is a fantastic perk, allowing for deeper connections. If you're looking for a hands-on experience that combines professional growth with high-level industry exposure, this is an exceptional chance to make a lasting impression and gain invaluable insights.

@@ -8,56 +8,53 @@ applicationLink: >-
 postedDate: '2025-11-29T07:45:11.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/flix/ausbilder-zugpersonal-und-tf-stuttgart-221885
 companyLogoUrl: null
+companyCulture: >-
+  FlixTrain fosters a dynamic and growth-oriented environment, prioritizing
+  continuous learning and development through mentoring and educational
+  programs. They offer a hybrid work model for work-life balance and emphasize
+  individual impact within a collaborative team setting, valuing contributions
+  to shape company processes.
+story_question1: >-
+  Given the emphasis on safety, efficiency, and service quality, what's the most
+  challenging aspect of maintaining consistent training standards across diverse
+  locations like Berlin, Hamburg, and Stuttgart, and how does the team measure
+  the ultimate impact of their work on these key areas?
+story_answer1: >-
+  That's a fantastic question and really hits at the heart of what we do. The
+  biggest challenge, and also the most rewarding, is definitely ensuring that
+  every trainee, no matter where they are, receives the same high-quality,
+  impactful instruction. We tackle this by fostering a truly collaborative
+  training team where we regularly share best practices, refine our digital
+  learning tools, and standardize our materials. The impact? We see it directly
+  in our operational metrics: fewer incidents, smoother service delivery, and
+  overwhelmingly positive feedback from both our train staff and, ultimately,
+  our passengers. It's incredibly satisfying to know that your daily work
+  directly contributes to making travel safer and more enjoyable for thousands
+  of people every day.
+story_question2: >-
+  The job description mentions developing and updating training materials with a
+  focus on digital learning formats. Could you elaborate on FlixTrain's vision
+  for digital learning in this role and how new trainers are supported in
+  adapting to or innovating within these formats?
+story_answer2: >-
+  Absolutely! Digital learning is a cornerstone of our future strategy. We
+  believe it allows for greater flexibility, consistency, and engaging content
+  delivery, especially with our geographically dispersed teams. For this role,
+  it means you'll be instrumental not just in delivering traditional classroom
+  training but also in shaping our e-learning modules, interactive simulations,
+  and virtual resources. New trainers are never left to figure it out alone. We
+  have dedicated internal resources, workshops on digital pedagogy, and a strong
+  culture of peer-to-peer learning. You'll be paired with experienced colleagues
+  who are passionate about innovative learning methods, and your ideas for
+  improving digital formats will be genuinely welcomed and encouraged. It's a
+  chance to truly evolve the way we train.
 ---
-Bei FlixTrain bieten wir sichere Arbeitsplätze mit überdurchschnittlicher Bezahlung und tollen Zusatzleistungen. Du hast die Möglichkeit, dich in einem dynamischen Umfeld weiterzuentwickeln, in dem dein Einfluss wirklich zählt.
-
-Als Teil des Trainingsteams bereitest du unser Zugbegleitpersonal und unsere Triebfahrzeugführer:innen praxisnah und professionell auf den Einsatz im Betrieb vor und vermittelst dabei dein Wissen an zukünftige Kolleg:innen. Durch deine Trainings trägst du direkt zur Sicherheit, Effizienz und Servicequalität im Bahnbetrieb bei. Unsere Trainings finden in Berlin, Hamburg, Köln, Frankfurt und Stuttgart statt.
-
-**Über die Rolle**
-
-*   Organisiere und leite unsere Vor-Ort-Trainings für Zugassistent:innen, Zugführer:innen und Triebfahrzeugführer:innen
-*   Entwickle und aktualisiere Trainingsunterlagen mit Fokus auf digitale Lernformate
-*   Führe eigenständig Unterweisungen und Nachschulungen gemäß aktuellen Vorgaben durch
-*   Bereite theoretische und praktische Unterrichtseinheiten vor und führe sie durch
-*   Erstelle und analysiere Lernerfolgskontrollen zur Sicherung der Ausbildungsqualität
-*   Dokumentiere und reflektiere Unterrichtsergebnisse zur kontinuierlichen Verbesserung
-*   Arbeite eng mit anderen Trainer:innen zusammen, um Standards und Inhalte weiterzuentwickeln
-
-**Über Dich**
-
-*   Abgeschlossene bahnbetriebliche Ausbildung mit mind. 3 Jahren Berufserfahrung im Eisenbahnbereich
-*   Gültige Fahrberechtigung für Züge seit mindestens 2 Jahren
-*   Erfahrung als Trainer:in, Ausbilder:in oder Prüfer:in für Zugpersonal
-*   Hohe Reisebereitschaft und Flexibilität für deutschlandweite Einsätze mit Übernachtungen
-*   Sicherer Umgang mit MS Office und Interesse an digitalen Lernformaten
-*   Sehr gute Deutschkenntnisse (mind. C1)
-*   Teamfähigkeit, soziale Kompetenz und ausgeprägte Kommunikationsstärke
-
-_Bei uns zählt der Blick auf das Ganze – auch wenn du nicht alle Anforderungen zu 100 % erfüllst, aber dennoch glaubst, etwas bewegen zu können, freuen wir uns auf deine Bewerbung!_ 
-
-**Was Wir Bieten**
-
-*   **Reisevorteile:** 12 kostenlose Flix-Gutscheine + 12 Rabattgutscheine für Freunde & Familie.
-*   **Arbeiten von Überall:** Je nach Rolle kannst du bis zu 60 Tage pro Jahr von einem anderen Standort aus arbeiten.
-*   **Hybrides Arbeitsmodell:** Wir sind ein Unternehmen mit Bürokultur, bieten jedoch Flexibilität, um Arbeit und Leben in Einklang zu bringen.
-*   **Gesundheits- und Wohlfühlangebote:** Zugang zu vertraulichen Einzelberatungen, Kursen und Stressbewältigungsmaßnahmen – für dich und bis zu vier Familienangehörige.
-*   **Lernen & Entwicklung:** Nutze Sprachkurse, Schulungen und Experten-Sessions, um deine Fähigkeiten auszubauen.
-*   **Mentoring-Programm:** Vernetze dich mit erfahrenen Kollegen, um Einblicke zu gewinnen und deine Karriere zu beschleunigen.
-
-* * *
-
-**Warum Teil von Flix werden?** 
-
-Bei Flix konzentrieren wir uns darauf, Reisen einfach, sicher und erschwinglich zu gestalten – sowohl für unsere Passagiere als auch für unsere Mitarbeiter. Hier geht es schnell voran, und es gibt viel Raum, etwas zu bewegen. Wir wachsen und entwickeln uns täglich weiter und suchen Menschen, die bereit sind, sich einzubringen und die Art und Weise, wie wir arbeiten, mitzugestalten. 
-
-Wenn du einen Job suchst, in dem du wachsen und etwas bewirken kannst, dann bist du bei FlixTrain genau richtig. Hier kannst du Teil eines Teams werden, in dem dein Beitrag zählt und du deine Reise selbst gestalten kannst! 
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAt FlixTrain, we offer secure jobs with above-average pay and great additional benefits. You will have the opportunity to develop in a dynamic environment where your influence truly matters. As part of the Training team, you will professionally and practically prepare our train staff and engine drivers for their operational deployment, sharing your knowledge with future colleagues. Through your trainings, you will directly contribute to safety, efficiency, and service quality in railway operations. Our trainings take place in Berlin, Hamburg, Cologne, Frankfurt, and Stuttgart.\n\nWe believe in looking at the bigger picture – even if you don't meet all requirements 100%, but still believe you can make a difference, we look forward to your application! Flix focuses on making travel simple, safe, and affordable for both passengers and employees. We move fast, and there's plenty of room to make an impact. We're growing and evolving daily, looking for people ready to contribute and shape how we work. If you're seeking a role where you can grow and make a difference, FlixTrain is the place for you. Here, you can be part of a team where your contribution counts, and you can shape your own journey!\n\n### Responsibilities\n*   Organize and lead our on-site trainings for train assistants, train conductors, and engine drivers.\n*   Develop and update training materials with a focus on digital learning formats.\n*   Independently conduct instructions and refresher courses according to current regulations.\n*   Prepare and deliver theoretical and practical lessons.\n*   Create and analyze learning assessments to ensure training quality.\n*   Document and reflect on lesson results for continuous improvement.\n*   Work closely with other trainers to further develop standards and content.\n\n### Qualifications\n*   Completed railway-related training with at least 3 years of professional experience in the railway sector.\n*   Valid train driving license for at least 2 years.\n*   Experience as a trainer, instructor, or examiner for train personnel.\n*   High willingness to travel and flexibility for nationwide assignments with overnight stays.\n*   Proficient in MS Office and interested in digital learning formats.\n*   Very good German language skills (at least C1).\n*   Team player, strong social competence, and excellent communication skills.\n\n### Author's Take\nThis is a fantastic opportunity for an experienced railway professional with a passion for training and development. FlixTrain offers not just a secure job with competitive pay and benefits, but a dynamic environment where your expertise directly impacts the safety and quality of their operations. You'll have significant room to grow and innovate, particularly in digital learning, while benefiting from a hybrid work model that values flexibility and work-life balance. The company truly invests in its people, providing extensive learning and development resources, including language courses, expert sessions, and a mentoring program. Additionally, you'll enjoy attractive travel benefits, health and well-being offers, and the chance to shape the future of railway travel in a collaborative team.

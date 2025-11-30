@@ -10,68 +10,47 @@ expirationDate: null
 tags:
   - Sales
   - vocational
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/vly/barista-market-developerin-berlin-on-trade-cafes-172664
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative and supportive environment with a strong
+  team spirit, offering significant opportunities for professional growth
+  through channel development and individual coaching. They prioritize employee
+  well-being with various perks and a shared purpose in transforming the food
+  industry.
+story_question1: >-
+  How does this role directly contribute to vly's mission of transforming the
+  food industry, and what are the unique challenges and rewards of growing a new
+  sales channel for plant-based products in Berlin's competitive coffee scene?
+story_answer1: >-
+  As a Barista Market Developer, you're not just selling products; you're
+  spearheading a movement right here in Berlin. Imagine walking into a cafe,
+  sharing our story of healthier, sustainable plant-based alternatives, and
+  seeing the barista's face light up with interest. You're building
+  relationships, not just accounts. The biggest thrill? It's seeing those vly
+  bottles on shelves, knowing you single-handedly brought them there, and that
+  every sale contributes to a healthier planet. It's a challenging but
+  incredibly rewarding path, especially when you're backed by a team that
+  genuinely believes in this mission and celebrates every win, big or small.
+story_question2: >-
+  Beyond sales numbers, how does vly ensure its Barista Market Developers feel
+  connected to the company's broader mission and team, especially given the
+  independent nature of field sales?
+story_answer2: >-
+  That's a fantastic question, and it's something we truly prioritize. While
+  you're out there being the face of vly, you're never alone. We foster an
+  'Echtes Teamgefühl' through regular vly-Day events, team lunches, and offsites
+  where everyone, including our field team, comes together. These aren't just
+  social gatherings; they're opportunities to share insights, collaborate on new
+  ideas with marketing and product teams, and feel that collective pulse. Plus,
+  our individual coaching opportunities ensure your personal growth is always
+  aligned with our larger purpose. You're an integral part of our family, and
+  your contributions are celebrated across the board.
 ---
-Hey! **Wir sind vly** – ein innovatives FoodTech-Startup aus Berlin, das die Lebensmittelindustrie revolutioniert. Unser Ziel: Gesunde, pflanzliche Milchalternativen, die nicht nur dir guttun sondern auch unserem Planeten. Nach jahrelanger Forschung haben wir Produkte entwickelt, die deutlich weniger Zucker und mehr Protein enthalten, mit Preisen ausgezeichnet wurden und deutschlandweit erhältlich sind – wie unsere Milchalternativen aus Erbsenprotein und den allerersten Joghurt aus Ackerbohnenprotein. Aber das soll erst der Anfang sein!
-
-Deine Mission als **Barista Market Developer:in - Berlin** ist es, vly in der Berliner Kaffeewelt bekannt und groß zu machen. Deine Nordstern KPI wird die Anzahl an Einheiten, die über den Kanal verkauft werden, sein. Der Vertriebsweg kann die Direktbelieferung sein oder die Belieferung über den Großhandel.
-
-**Deine Rolle:**
-
-*   Du identifizierst & akquirierst neue Cafés bei welchen unsere vly Produkte vorhanden sein sollten.
-    
-*   Du betreust und baust bestehende Beziehungen auf, sodass das Volumen pro Partner wächst.
-    
-*   Du entwickelst Trade Marketing Konzepte eigenständig oder zusammen mit unserem Marketing Team.
-    
-*   Du arbeitest eng mit dem Marketing- und Produktteam, um unsere Partner optimal zu unterstützen
-    
-
-**Deine Benefits:**
-
-*   **Challenge**: Du baust einen wichtigen und großen Vertriebskanal auf.
-    
-*   **Purpose**: Es ist absolut essenziell, dass sich das Lebensmittelsystem zum Besseren verändert. Deine Rolle trägt direkt dazu bei, es gesünder und nachhaltiger zu machen.
-    
-*   **Echtes Teamgefühl:** Ein kreatives und motiviertes Team, das zusammenhält – inklusive regelmäßiger vly-Day-Events, gemeinsamer Team-Lunches und Offsite-Events.
-    
-*   **Moderne Ausstattung & Coaching:** Wir statten dich mit Mac/Windows-Equipment aus und bieten individuelle Coaching-Möglichkeiten.
-    
-*   **Mobilität:** BVG-Ticket für Berlin inklusive.
-    
-*   **Company-Fitness:** Wir geben dir einen großen Zuschuss zu einer Urban Sports Club Mitgliedschaft.
-    
-*   **FoodTech-Community:** Sei Teil einer wachsenden Bewegung, mit spannenden Events und Networking-Möglichkeiten.
-    
-*   **vly-Flatrate:** Genieße so viel vly, wie du willst! Dazu eine La Marzocco Kaffeemaschine im Office… 
-    
-
-*   **Erfahrung & Erfolge**: Du hast Berufserfahrung aus dem Sales mit Cafés. Dabei hast du bereits Deals geclosed.
-    
-*   **Kommunikation**: Du hast starke kommunikative Fähigkeiten und eine überzeugende Verhandlungsführung.
-    
-*   **Erfolgswille**: Du bist eigenverantwortlich, proaktiv und schnell. Der Aufbau von Partnerschaften mit Cafés begeistert dich.
-    
-*   **Netzwerk**: Du hast idealerweise ein bestehendes Netzwerk im Out-of-Home-Bereich.
-    
-*   **Leidenschaft**: Du brennst für Themen wie Kaffee, Gesundheit und Fitness. Du sprichst gerne mit Baristas und kannst idealerweise schon ein bisschen Latte Art 😉 Falls nicht, können wir nachhelfen.
-    
-*   **Reisebereitschaft**: Von Zeit zu Zeit bist du bereit, innerhalb Deutschlands zu reisen.
-    
-*   **Sprachgefühl**: Deutsch auf C2-Niveau (Muttersprache) und Englisch auf mindestens B2-Level.
-    
-*   **Nähe**: Du bist in Berlin ansässig und flexibel, um nah am Geschehen zu sein.
-    
-
-**Weitere Infos zur Position:** Wir können uns neben einer Anstellung auch eine Zusammenarbeit auf Freelance Basis vorstellen. Lass uns gerne im Videocall näher dazu sprechen.
-
-Bereit, die Lebensmittelwelt zu verändern? Dann bewirb dich jetzt und werde Teil von vly! Wir freuen uns darauf, dich kennenzulernen.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nvly is an innovative FoodTech startup from Berlin dedicated to revolutionizing the food industry with healthy, plant-based milk alternatives. After years of research, we've developed award-winning products like pea protein milk alternatives and the first fava bean protein yogurt, widely available across Germany. This is just the beginning!\n\nAs our **Barista Market Developer** in Berlin, your mission is to establish and significantly grow vly's presence within Berlin's vibrant coffee scene. Your main KPI will be the number of units sold through this channel, whether via direct supply or wholesale.\n\n### Responsibilities\n*   Identify and acquire new cafes where our vly products should be available.\n*   Nurture and expand existing relationships to increase volume per partner.\n*   Develop trade marketing concepts independently or in collaboration with our Marketing Team.\n*   Work closely with the Marketing and Product teams to optimally support our partners.\n\n### Qualifications\n*   **Experience & Achievements**: You have professional sales experience with cafes and have successfully closed deals in this sector.\n*   **Communication**: You possess strong communication skills and compelling negotiation tactics.\n*   **Drive for Success**: You are self-reliant, proactive, and fast-paced. Building partnerships with cafes genuinely excites you.\n*   **Network**: Ideally, you have an existing network in the out-of-home sector.\n*   **Passion**: You are passionate about coffee, health, and fitness. You enjoy conversing with baristas and ideally have some latte art skills (if not, we can help!).\n*   **Travel Readiness**: From time to time, you are willing to travel within Germany.\n*   **Language Skills**: Native-level German (C2) and at least B2-level English.\n*   **Location**: You are based in Berlin and flexible to be close to the action.\n\n### Author's Take\nThis is a unique opportunity to build a significant sales channel from the ground up, directly contributing to a healthier and more sustainable food system. You'll be joining a creative, motivated team that values genuine collaboration and celebrates success together, supported by regular team events, modern equipment, and individual coaching. Enjoy perks like a BVG ticket, Urban Sports Club subsidy, unlimited vly products, and an office La Marzocco coffee machine! We're open to both permanent employment and freelance collaboration, offering flexibility for the right candidate. If you're passionate about coffee, health, and making a real impact, and thrive in a dynamic startup environment, we'd love to hear from you.

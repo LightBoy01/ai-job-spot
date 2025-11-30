@@ -9,67 +9,62 @@ postedDate: '2025-11-29T08:01:52.000Z'
 expirationDate: null
 tags:
   - Online Marketing
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/lionflence/content-creator-mulheim-12273
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative and supportive culture with flat
+  hierarchies, emphasizing independent work, creative freedom, and continuous
+  personal development. They value work-life balance (30 days holiday),
+  constructive feedback, open communication, and enjoy celebrating team
+  successes in a fun environment.
+story_question1: >-
+  How does the Content Creator role directly contribute to the brand's growth
+  and engagement, particularly with new initiatives like Hiimia.official?
+story_answer1: >-
+  As an insider, I can tell you this role isn't just about churning out content;
+  it's about being the voice and visual heart of our brands. For
+  Hiimia.official, for instance, your creations directly shape how influencers
+  and artists perceive us. You're not just executing; you're ideating,
+  producing, and optimizing, seeing your work drive real engagement. The biggest
+  challenge, and also the most rewarding part, is constantly adapting to new
+  trends and ensuring our content always stands out in a crowded digital space.
+  It’s a dynamic environment where your creativity directly fuels our growth,
+  and we love celebrating those wins together.
+story_question2: >-
+  Given the emphasis on flat hierarchies and active participation, what specific
+  opportunities exist for a Content Creator to evolve their skills or influence
+  broader marketing strategies?
+story_answer2: >-
+  Here, 'Mitgestalten statt nur mitschwimmen' isn't just a phrase – it's how we
+  operate. Beyond honing your content creation skills across various media,
+  you'll be actively involved in shaping content formats and strategies
+  alongside our eCommerce, Marketing, and PR teams. We encourage you to bring
+  new ideas to the table, challenge the status quo, and even influence our tech
+  stack if you see a better way. We provide the freedom and resources to
+  experiment, learn new software, and truly make your mark, ensuring your
+  development isn't just linear but expansive across both technical and
+  strategic aspects of marketing.
+story_question3: >-
+  The job description highlights a highly motivated and collaborative team. Can
+  you describe a typical cross-functional project where the Content Creator
+  plays a pivotal role, highlighting the team dynamic?
+story_answer3: >-
+  Absolutely! Imagine a launch campaign for a new feature on Hiimia.official. As
+  the Content Creator, you're at the very core. It starts with a brainstorm
+  where you're collaborating directly with PR to craft the narrative, with
+  eCommerce to understand user pain points, and with marketing to define KPIs.
+  You then take the lead on storyboarding, scriptwriting, and producing all
+  visual and audio assets – from short social teasers to a compelling launch
+  video. The team is constantly providing constructive feedback, offering
+  support, and celebrating milestones. It’s a seamless flow where everyone's
+  expertise is valued, and your creative vision truly comes to life through
+  collective effort. We're serious about our work, but we also ensure there's
+  plenty of fun and mutual support along the way.
 ---
-Was wir Dir bieten:
-
-*   Eine verantwortungsvolle Position in einem engagierten Team
-*   Eigenverantwortliches Arbeiten
-*   Freiraum zum aktiven Gestalten durch flache Hierarchien und flexible Strukturen
-*   Ein vielseitiges, anspruchsvolles und spannendes Aufgabengebiet mit renommierten Kunden
-*   So sieht Work-Life-Balance aus: 30 Tage Urlaub
-*   Konstruktives Feedback wird gerne gesehen
-*   Unsere Firmenkultur hat offene Türen & Ohren, coole Kolleg\*innen und Spaß bei der Arbeit
-*   Ein hochmotiviertes, leistungsfähiges Team, welches gemeinsam arbeitet - aber auch gerne gemeinsame Erfolge feiert.
-*   Mitgestalten statt nur mitschwimmen - aktive Mitarbeit an fachlichen und kulturellen Themen die auch über den Tellerand hinausgehen
-*   Eine spannende Herausforderung, in der du dich weiterentwickeln kannst, rundum den Bereich Medien/Social Media, Influencer Marketing und den dazugehörigen Technologien (Software Systeme)
-*   Firmenhandy
-*   Firmenlaptop
-
-Aufgaben
---------
-
-Welche Aufgaben hättest Du?
-
-*   Als Content Creator (m/w/d) arbeitest du in unserem crossfunktionalen Lionflence Team.
-*   Unter Berücksichtigung relevanter KPIs und aktueller Marketingthemen erstellst, pflegst und entwickelst du Content für unsere Marken und Social Media Kanäle. Darunter fällt unsere Marke wie z.b Hiimia.official eine App für Influencer and Artists
-*   Du erstellst und entwickelst dynamische kreative Inhalte (Audio/Video/Bild) für Werbevideos, Produktmarketing-Videos, Werbeanzeigen, Events und andere unternehmensweite Projekte
-*   Du identifizierst kontinuierlich Potentiale für die verschiedensten Kanäle
-*   Du entwickelst in enger Zusammenarbeit mit eCommerce, Marketing und PR, Ideen und Konzepte für Contentformate und arbeitest an der zielgerichteten Umsetzung auf verschiedenen Kanälen
-*   Du wirkst in allen Phasen des Produktionszyklus mit, d.h. Erstellung von Skripten, Storyboards und Ressourcen Zuteilung, Definition von Deadlines und Auswahl der optimalen Medien für Projekte
-*   Du prüfst und optimierst das Community Management unserer Social Media Kanäle
-*   Gestaltung der Kampagneninhalte in Absprache mit dem Team unter Berücksichtigung der CI- und CC-Richtlinien
-*   Du trägst die Verantwortung der Video- und Audioprojekte: Dies beinhaltet auch die Auswahl des Programmformats für die finale Version, Erfassung/Import von Medien, Organisation von Rohmedien, Bearbeitung von Filmmaterial und Tondateien, Erstellung und Einfügen von statischen und bewegten Grafiken, Betitelung, Hinzufügen von Musik/Sprachnotizen/Sfx und Medienverwaltung
-
-Qualifikation
--------------
-
-Das bringst Du mit:
-
-*   Erfahrung im Bereich Content Creator, Online Marketing z.B. in einer Digital, Social Media oder PR-Agentur, insbesondere für Content-Kreation und -Management
-*   Du stehst gerne vor der Kamera und hast spaß neuen Content zu erstellen
-*   In deiner beruflichen Laufbahn hast du bereits Content für Social Media Kanäle, Marken oder Onlineshops umgesetzt bzw. warst idealerweise als Content Creator (m/w/d) tätig und bist daher mit sämtlichen Social Media Plattformen vertraut.
-*   Der Umgang mit gängiger Schnittsoftware wie Final Cut Pro X, Adobe After Effects oder Adobe Premiere ist für Dich kein Problem, ebenso sind Bildbearbeitungsprogrammen (Adobe Photoshop, inDesign, Gimp o.ä.) für ein Kinderspiel
-*   Du hast schon (erste) Erfahrung mit professionellem Produktionsequipment z.B. Kameras , Belichtung, Sounddesign, Vorproduktion/Planung, Storyboarding und Fotografie gemacht
-*   Interesse und Gespür für neueste Digital- & Konsumententrends
-*   Sicherer Umgang mit allen gängigen Social Media Netzwerken und Online-Communities
-*   Kenntnisse in der Arbeit mit Content Management Systemen und Tools, die zur Content Creation benötigt werden
-*   Hohe Kreativität und Motivation
-*   Fließende Deutschkenntnisse und Englischkenntnisse in Wort und Schrift,
-
-Über uns:
-
-Die Lionflence GmbH ist ein Unternehmen, welches sich auf Online Marketing, sowie Management spezialisiert hat.
-
-Zudem unterstützen wir Unternehmen im Bereich Markenaufbau und entwickeln eigene Softwaresysteme. Es erwartet Dich ein erfolgreiches Unternehmen mit flachen Hierarchien.
-
-Als Circle-of-Marketing bieten wir Kunden ein umfassendes 360°-Dienstleistungspaket und somit auch Services, die über die gewohnten Dienstleistungen einer Marketing-Agentur hinausgehen.Unser idealer Kandidat ist ein Teamplayer mit ausgeprägten Fähigkeiten im Bereich zwischenmenschlicher Kommunikation und verfügt über praktische Erfahrung.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nLionflence GmbH is a dynamic company specializing in Online Marketing, Management, brand building, and developing its own software systems. As a 'Circle-of-Marketing', they offer comprehensive 360° services to clients. They are seeking a highly motivated Content Creator to join their cross-functional team. This role is crucial for developing and managing engaging content across various digital platforms, playing a significant part in shaping brand narratives and driving engagement for their renowned clients and internal brands like Hiimia.official.\n\n### Responsibilities\n- Work as a Content Creator within a cross-functional Lionflence team.\n- Create, maintain, and develop content for brands (e.g., Hiimia.official) and social media channels, considering relevant KPIs and current marketing themes.\n- Produce and develop dynamic creative content (audio, video, image) for advertising videos, product marketing videos, advertisements, events, and other company-wide projects.\n- Continuously identify potential for various channels.\n- Collaborate closely with eCommerce, Marketing, and PR to develop ideas and concepts for content formats and ensure targeted implementation across different channels.\n- Participate in all phases of the production cycle, including script creation, storyboarding, resource allocation, deadline definition, and optimal media selection for projects.\n- Review and optimize community management for social media channels.\n- Design campaign content in consultation with the team, adhering to CI- and CC-guidelines.\n- Take responsibility for video and audio projects, encompassing program format selection for the final version, media capture/import, raw media organization, footage and audio file editing, creation/insertion of static and motion graphics, titling, adding music/voiceovers/SFX, and media management.\n\n### Qualifications\n- Experience in Content Creation and Online Marketing, ideally gained in a digital, social media, or PR agency, particularly in content creation and management.\n- Comfortable being in front of the camera and passionate about creating new content.\n- Demonstrated experience in implementing content for social media channels, brands, or online shops, ideally having worked as a Content Creator (m/w/d) and being familiar with all major social media platforms.\n- Proficiency in common editing software such as Final Cut Pro X, Adobe After Effects, or Adobe Premiere, as well as image editing programs (Adobe Photoshop, InDesign, Gimp or similar).\n- (First) experience with professional production equipment, including cameras, lighting, sound design, pre-production/planning, storyboarding, and photography.\n- Strong interest and intuition for the latest digital and consumer trends.\n- Secure command of all common social media networks and online communities.\n- Knowledge of Content Management Systems and tools necessary for content creation.\n- High level of creativity and motivation.\n- Fluent German and English language skills, both written and spoken.\n\n### Author's Take\nThis is an exciting and impactful opportunity for a creative Content Creator who thrives on shaping brand narratives and driving digital engagement. The role offers significant autonomy and the chance to contribute across the entire content lifecycle, from ideation to final production. With a strong emphasis on team collaboration, flat hierarchies, and professional development, Lionflence provides a supportive environment where your work directly contributes to both client success and internal brand growth. Ideal for a proactive team player eager to make a tangible mark in the media and influencer marketing space.

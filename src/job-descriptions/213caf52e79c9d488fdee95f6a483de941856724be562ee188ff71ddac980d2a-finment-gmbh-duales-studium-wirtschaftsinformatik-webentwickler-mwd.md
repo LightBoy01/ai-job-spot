@@ -9,95 +9,53 @@ postedDate: '2025-11-28T22:31:50.000Z'
 expirationDate: null
 tags:
   - Web Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/finment-gmbh/duales-studium-wirtschaftsinformatik-webentwickler-berlin-189693
 companyLogoUrl: null
+companyCulture: >-
+  FinMent is a fast-growing, dynamic FinTech startup in Berlin offering a
+  positive, collaborative, and familial work environment. The company deeply
+  invests in employee growth and education through a unique dual study program,
+  encouraging personal and professional development with a focus on making a
+  significant impact and achieving financial independence for all team members.
+story_question1: >-
+  How does FinMent's unique dual study program directly contribute to an
+  individual's career acceleration and financial independence, beyond just a
+  degree?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what we're
+  building here at FinMent. Our dual study program isn't just about getting a
+  degree; it's an immersive experience designed for rapid growth. Imagine
+  immediately applying cutting-edge financial tech knowledge you gain in
+  lectures to real-world projects that democratize institutional investing.
+  You're not just learning theory; you're actively shaping the future of finance
+  for everyday people. And the 'scholarship' isn't just tuition – it's a
+  launchpad. You're paid a competitive salary while studying, get a significant
+  budget for further development, and gain free access to our premium products.
+  This means while you're building systems to help others achieve financial
+  freedom, you're simultaneously building your own through direct application.
+  It's about empowering you to grow as an expert, a leader, and to achieve your
+  own financial goals right from the start, truly living our mission.
+story_question2: >-
+  What kind of impact can a Frontend/Backend Developer expect to make on the
+  core product and the overall mission of democratizing investment knowledge?
+story_answer2: >-
+  As a developer here, your impact is immediate and profound. You'll be a key
+  player in our product development team, building the very platforms that are
+  disrupting traditional finance. Think about it: you're taking complex
+  institutional investment strategies and making them accessible to private
+  investors through intuitive, powerful interfaces. You'll be involved
+  end-to-end, identifying new features, optimizing algorithms, and shaping the
+  user experience. Every line of code you write directly contributes to
+  empowering individuals with financial knowledge and tools that were once
+  exclusive. It's not just about coding; it's about building bridges to
+  financial independence for thousands, including yourself. Your work directly
+  fuels our mission and helps shape how people interact with their money, making
+  a tangible difference in their lives.
 ---
-**Unsere Mission: “Lass Dein Geld noch effizienter für Dich arbeiten!”**
-
-Wir sind FinMent - ein schnell wachsendes, zweifach staatlich zertifiziertes FinTech Startup in Berlin. Wir demokratisieren das Wissen und den Zugang zur institutionellen Geldanlage mithilfe von innovativen Technologien, geprüftem Finanzwissen und exklusiven Strategien, die bisher nur institutionellen Investoren (Family Offices) mit +200 Millionen Euro Mindestkapital vorbehalten waren.
-
-Neben vielen weiteren Benefits erhälst du exklusiv:
-
-**Deine finanzielle Freiheit mit zusätzlichem Börseneinkommen:** Als Teil vom inneren Kreis erhälst du die einzigartige Möglichkeit kostenlos unser Produkte zu nutzen, um wie unsere Kunden ein regelmäßiges Börseneinkommen zu erzielen und finanziell frei zu werden. (Die Kunden zahlen dafür bis zu 36.000€).
-
-Begeisterst du Dich für Finanzen und bist du bereit, in einem profitabel wachsenden FinTech Start Up Deine Karriere durchstarten?
-
-Bewirb dich und teile uns mit: Warum sollen wir dir die Chance geben deinen Wunschberuf bei uns ausüben zu können und kostenlos den massiven Vorteil durch unsere Produkte geben, damit du jetzt schon ein gutes zusätzliches Einkommen durch die Börse erhälst?
-
-Aufgaben
---------
-
-**Was Dich erwartet**
-
-Als Mitglied in unserem Produktentwicklungsteam übernimmst du eine Schlüsselrolle als Programmierer im Frontend und Backend.
-
-*   Du bist in den ganzheitlichen Entwicklungsprozess von unseren Finanzplattform eingebunden. Du identifizierst und entwickelst neue Features alles rund um Börsenhandel und Finanzielle Unabhängigkeit.
-*   Du entwickelst in einer dynamischen Startup Umgebung die neue Generation von Investmentsystemen für Privatanleger.
-*   Du unterstützt und entwickelst unserer Finanzplattform im Front und Backend.
-*   Du optimierst alle unternehmensinternen Prozesse und Algorithmen.
-*   Du gestaltest als Mitglied eines agilen Teams den Scrum-Prozess aktiv mit und begleitest alle Phasen von der Planung bis zur Retro mit.
-
-Qualifikation
--------------
-
-Wir gehen davon aus, dass Du ein Experte in deinem Themenbereich sein willst und bereit dafür bist, sich konstant weiterzuentwickeln - auch bei herausfordernden Aufgaben findest Du schnelle Lösungen und überzeugst mit starken Ideen.
-
-1.  Programmieren ist deine Leidenschaft und du bist ein Clean Coder.
-2.  Du kennst die Technologien wie JavaScript, React.js, HTML5, CSS, PHP. Dabei hast du eine präzise und detailverliebte Arbeitsweise.
-3.  Du bist ein Programmier-Allrounder, der sich durch seine Hands-on-Mentalität stetig weiterentwickeln möchte und Dinge gerne anpackt
-4.  Du möchtest und kannst Verantwortung für Deinen Themenbereich übernehmen, um daraus schnell persönlich zu wachsen.
-5.  Du packst Dinge an. Dabei bist du diszipliniert, eigenständig und ergebnisorientiert.
-6.  Dein Deutsch ist idealerweise auf B2 Level. Dein Englisch ist gut für Konversationen.
-
-Man erfüllt nicht immer alle Anforderungen. Das sollte Dich nicht aufhalten. Wenn Du wirklich Lust hast, mit uns zusammenzuarbeiten, freuen wir uns von Dir zu hören!
-
-Benefits
---------
-
-**Was wir bieten**
-
-Wir bieten dir nicht nur einen Job an, sondern Du wirst ein Mitglied unseres High-Performance-Teams, bestehend aus Digital- und Investment-Experten und nimmst eine bedeutende Rolle bei der Demokratisierung der Geldanlage ein. Daneben bieten wir Dir:
-
-*   **Privates Studium + einem überdurchschnittlichen Lohn:** 100.000€ Stipendium. Studium an einer angesehen privaten Hochschule, Übernahme Deiner Studiengebühren sowie ein sehr gutes monatliches Gehalt
-*   **Ein positives Arbeitsumfeld:** Wohlfühlatmosphäre und ein kollegialer und familiärer Umgang mit gemeinsamen Freizeitaktivitäten und Teamevents​.
-*   **Eigener Verantwortungsbereich:** Verantwortung für den Erfolg deines Bereichs mit direkter Auswirkung auf die Unternehmensentwicklung.
-*   **Echte Start-Up Atmosphäre**: Kurze Entscheidungswege und direkter Kontakt zu der strategischen Geschäftsführung.
-*   **Moderne Arbeitsumgebung:** Modernes Office mit einer sehr guten Verkehrsanbindung und arbeite mit State-of-the-Art Technologie.
-*   **Persönliche Weiterbildung:** Jährliches Weiterbildungsbudget bis zu 5.000€ und Fachwissen von Unternehmensexperten.
-*   **Zugang zu FinMent Produkten:** Baue dein Vermögen mit regelmäßigem Börseneinkommen auf.
-*   **Steile Karrierechancen:** Nimm langfristig eine Rolle als Experte und /oder Führungskraft ein.
-
-**Dein duales Studium an einer privaten Hochschule mit Übernahme der Studiengebühren**
-
-Du wirst an einer renommierten privaten Hochschule Deinen Bachelor oder Master Abschluss absolvieren und direkt theoretisch erlernte Wissen in der Praxis anwenden.
-
-*   Dein Abschluss: Bachelor (B.A.) oder Master (M.A.)
-*   Deine Studiendauer: 7-8 Semester (Bachelor) bzw. 3-4 Semester (Master)
-*   Dein Studium: Semi-virtuelles Studienkonzept
-
-**Bist Du bereit zu den Digital-Pionieren in der Finanzbranche zu gehören?**
-
-Wir sind bestrebt unsere Gemeinschaft einen weiten Schritt nach vorne zu bringen und mit unserer Arbeit einen entscheidenden Einfluss auf die Welt auszuüben. Wir ermöglichen, dass nicht nur unsere Kunden, sondern auch alle unsere Mitarbeiter ihre finanzielle Freiheit erreichen, um ihre großen Träume zu verwirklichen und ein Leben nach ihren Wunschvorstellungen zu genießen.
-
-Wenn du nach persönlichem und beruflichem Wachstum strebst und nach dem passenden positivem Umfeld suchst, bewirb dich jetzt!
-
-Werde Teil unserer Erfolgsstory und gestalte mit uns die Zukunft der privaten Geldanlage im Rahmen der finanziellen Unabhängigkeit!
-
-Schick uns Deinen Lebenslauf und ein Arbeitsproben, die du schon verfasst hast.
-
-Wir freuen uns darauf dich kennenzulernen!
-
-Falls Du vorab Fragen hast, kannst Du uns direkt kontaktieren.
-
-**Ansprechperson:**  
-Maksat Munal  
-Personalverantwortlicher  
-+49 (0)30 606 902 41
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\n**Our Mission: \\\"Let your money work even more efficiently for you!\\\"**\n\nFinMent is a fast-growing, dual state-certified FinTech startup in Berlin. We are democratizing knowledge and access to institutional investment through innovative technologies, proven financial expertise, and exclusive strategies previously reserved for institutional investors (family offices) with a minimum capital of +200 million Euros.\n\nAs a key member of our product development team, you will take on a crucial role as a Frontend and Backend Programmer. This is a unique opportunity to kickstart your career in a profitably growing FinTech startup, combining practical work with a fully sponsored dual study program. Beyond professional growth, you will also gain free access to our premium products, enabling you to build personal financial independence.\n\n### Responsibilities\n- You will be involved in the holistic development process of our financial platform, identifying and developing new features related to stock trading and financial independence.\n- You will develop the new generation of investment systems for private investors in a dynamic startup environment.\n- You will support and develop our financial platform in both the frontend and backend.\n- You will optimize all internal company processes and algorithms.\n- As a member of an agile team, you will actively shape the Scrum process and accompany all phases from planning to retro.\n\n### Qualifications\nWe expect you to aspire to be an expert in your field, constantly willing to develop further, find quick solutions to challenging tasks, and impress with strong ideas.\n- Programming is your passion, and you are a Clean Coder.\n- You are proficient in technologies like JavaScript, React.js, HTML5, CSS, PHP, demonstrating a precise and detail-oriented approach.\n- You are an all-round programmer with a hands-on mentality, eager to continuously develop and tackle new challenges.\n- You want to and can take responsibility for your area, enabling rapid personal growth.\n- You are disciplined, independent, and results-oriented in your work.\n- Ideally, your German is at a B2 level, and your English is good for conversations.\n\nPlease note: You don't always meet all requirements. That shouldn't stop you. If you are truly passionate about working with us, we look forward to hearing from you!\n\n### Author's Take\nThis is an exceptional opportunity for an aspiring developer, particularly those looking to combine higher education with practical, impactful work in the FinTech space. FinMent offers an unparalleled dual study program, covering tuition for a Bachelor's or Master's at a prestigious private university, alongside an above-average salary and a substantial scholarship. Beyond the academic and financial support, you'll join a high-performance team in a collaborative, family-like startup environment where personal and professional growth are paramount. You'll have significant responsibility, direct impact on the company's core mission of democratizing finance, and unique benefits including free access to products designed to foster your own financial independence. This role is ideal for a proactive, disciplined individual eager to contribute, learn, and grow rapidly within a supportive and innovative setting.

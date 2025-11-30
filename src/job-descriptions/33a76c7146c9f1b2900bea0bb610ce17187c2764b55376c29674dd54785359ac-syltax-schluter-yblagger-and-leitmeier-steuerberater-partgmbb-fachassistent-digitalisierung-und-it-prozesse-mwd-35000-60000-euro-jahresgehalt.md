@@ -11,81 +11,65 @@ postedDate: '2025-11-27T12:31:52.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/syltax-schluter-yblagger-leitmeier-steuerberater-partgmbb/fachassistent-digitalisierung-und-it-prozesse-35000-60000-eur-jahresgehalt-altdorf-427226
 companyLogoUrl: null
+companyCulture: >-
+  SYLTAX fosters a modern, future-oriented, and highly collaborative culture
+  that values digitalization, team spirit, and continuous learning. They
+  emphasize a supportive environment with flexible work options, including
+  significant home office, strong opportunities for professional development,
+  and regular team events to ensure work-life balance and strong collegial
+  bonds.
+story_question1: >-
+  How does SYLTAX measure the success of its digital transformation initiatives,
+  and what are some of the key challenges a Fachassistent might face in driving
+  this forward?
+story_answer1: >-
+  At SYLTAX, our success in digital transformation isn't just about implementing
+  new tools; it's about how those tools empower our team and improve client
+  experience. We track metrics like efficiency gains in processes, reduction in
+  manual effort, and positive feedback from both colleagues and clients
+  regarding our digital communication. The biggest challenge, honestly, is
+  change management – guiding everyone through new workflows and ensuring they
+  feel supported, not overwhelmed. It’s about being a digital ambassador,
+  showing how these innovations truly make life easier, not just different. It’s
+  incredibly rewarding to see a colleague embrace a new digital solution and
+  realize the time they've saved.
+story_question2: >-
+  With such a strong emphasis on team collaboration and personal growth, how
+  does SYLTAX specifically support a new Fachassistent in developing their
+  skills and integrating into the diverse team and client base?
+story_answer2: >-
+  From day one, you're not just thrown into the deep end. We pair new team
+  members with experienced mentors who are genuinely excited to share their 30+
+  years of knowledge. We also craft an individualized development plan, focusing
+  on your strengths and areas where you want to grow, offering both internal
+  workshops and external certifications. Integration into our diverse team is
+  organic – our 'Happy Fridays' and regular company events are fantastic for
+  informal networking, and with over 550 varied mandates, you'll quickly find
+  yourself collaborating on exciting projects across different industries. It’s
+  all about creating a space where you feel supported, can learn from everyone,
+  and where your unique contributions are valued.
+story_question3: >-
+  Given the flexibility, including up to 100% home office, how does SYLTAX
+  ensure a strong sense of team cohesion and foster a collaborative spirit among
+  both remote and on-site employees?
+story_answer3: >-
+  That's a fantastic question, and it's something we actively work on! While we
+  embrace flexibility, we're very deliberate about maintaining our 'Wir statt
+  ich' (We instead of me) mentality. Our 'Happy Fridays' and other social events
+  are designed to be inclusive, often with virtual participation options or
+  hybrid formats when possible. We also leverage modern communication and
+  collaboration tools extensively, making sure everyone feels connected and
+  heard, whether they're in the office or working remotely. We encourage regular
+  virtual check-ins, informal coffee breaks, and team-building activities that
+  transcend physical location. It’s about intentional connection and ensuring
+  that even when we’re apart, we’re still very much a team.
 ---
-**Modern. Zukunftsorientiert. Kollegial.**
-
-**Bei uns bist du richtig.**
-
-Ja, wir sprechen bayrisch. Ja, wir sind stolz auf unsere Wurzeln. Nein, wir sind keine eingestaubte Kanzlei. Ganz im Gegenteil!
-
-Du findest Steuerberatung und Papierkram gehören nicht zusammen? Wir auch! Hier bei SYLTAX legen wir höchsten Wert auf Digitalisierung und die Vorteile, die uns den Arbeitsalltag erleichtern.
-
-Digitalisierung ist aber nur zweitrangig. Am wichtigsten ist unser Team – und vielleicht gehörst du bald auch dazu? Egal ob “junger Hüpfer” oder “alter Hase”, bei uns wirst du mit offenen Armen empfangen. In unserer freundlichen Atmosphäre gelingt es dir, dich problemlos zu integrieren und deine neuen Kollegen kennenzulernen. Neben der Arbeit ist das auch auf unseren Firmenevents möglich. Ob Ausflüge, Feiern oder unsere „Happy Fridays“ – für jeden ist etwas dabei.
-
-Doch nicht nur das Team ist bunt gemischt. Mehr als 550 spannende Mandate in unterschiedlichen Branchen bringen Abwechslung in den Arbeitsalltag und lassen dich an neuen Herausforderungen wachsen. Dabei profitierst du von über 30 Jahren Berufserfahrung deiner Kollegen, die sie gerne mit dir teilen. Und wir freuen uns darauf, in Zukunft auch von dir zu lernen.
-
-Aufgaben
---------
-
-**Vielseitig. Herausfordernd. Individuell.**
-
-**Das erwartet dich.**
-
-Die Digitalisierung ist im vollen Gange – und du bald mittendrin. Als Fachassistent Digitalisierung und IT-Prozesse (m/w/d) wirkst du aktiv an der digitalen Entwicklung unserer Kanzlei mit. Neben deiner fachlichen Arbeit im Bereich des Steuerrechts ermöglichst du deinen Kollegen, alle Vorteile digitaler Lösungen in den Steueralltag zu integrieren und so die digitale Kommunikation mit unseren Mandanten zu optimieren.
-
-Wir erstellen mit dir dein passendes Tätigkeitsprofil, das die folgenden Bereiche beinhalten könnte:
-
-*   Verstärkung unseres Digitalisierungsteams
-*   Eigenverantwortliche Übernahme von Projekten im Bereich Digitalisierung
-*   Einführung neuer digitaler Lösungen
-*   Unterstützung des Teams und der Mandanten bei IT-bezogenen Fragen
-*   Digitale Finanzbuchhaltungen
-*   Digitale Lohn- und Gehaltsabrechnungen
-*   Jahresabschlüsse und Einnahmenüberschussrechnungen
-*   Steuererklärungen für Unternehmen und Privatpersonen
-
-Qualifikation
--------------
-
-**Einstellung. Kenntnisse. Fähigkeiten.**
-
-**Das bringst du mit.**
-
-Wir suchen Teamplayer, keine Einzelkämpfer. Egal, welche Ecken und Kanten du hast, wir nehmen dich so, wie du bist. Bei uns werden deine Stärken durch Herausforderungen gefördert und deine Schwächen durch kollegiale Hilfe und Weiterbildungen überwunden. Wenn dir die folgenden Qualifikationen nicht fremd sind, sind wir der perfekte Partner für deine Karriere:
-
-*   **Erfolgreiche Berufsausbildung:** Du hast eine abgeschlossene Ausbildung als Steuerfachangestellter (m/w/d), eine Fortbildung zum Fachassistenten Digitalisierung und IT-Prozesse (m/w/d), ein wirtschaftswissenschaftliches Hochschulstudium oder alternativ eine kaufmännische bzw. IT-bezogene Berufsausbildung mit mehrjähriger praktischer Erfahrung in einer Steuerkanzlei.
-*   **Digital dabei:** Du hast bereits Erfahrung mit DATEV und den zugehörigen Cloud-Lösungen gesammelt und kannst mit diesen gut umgehen.
-*   **Zielorientierte Arbeitsweise:** Du arbeitest eigenständig und verlierst durch deine strukturierte Arbeitsweise nicht das Ziel aus den Augen.
-*   **Wir statt ich:** Du arbeitest gerne im Team und förderst ein kooperatives Arbeitsumfeld.
-
-Benefits
---------
-
-**Homeoffice. Teamevents. Und vieles** **mehr.**
-
-**Das bieten wir dir.**
-
-Ohne unser Team funktioniert in der Kanzlei gar nichts. Deshalb sorgen wir für ein Arbeitsumfeld, auf das man sich an jedem Morgen freuen kann. Diese Benefits erwarten dich bei SYLTAX:
-
-*   **Flexibilität:** Damit du Berufliches und Privates bestmöglich aufeinander abstimmen kannst, bieten wir dir flexible Arbeitszeiten.
-*   **Homeoffice:** Bis zu 100 % Homeoffice nach zumindest teilweiser Einarbeitung vor Ort sind möglich.
-*   **Weiterbildung:** Individuelle Weiter- und Fortbildungen, sowohl intern als auch extern, helfen dir, dein volles Potenzial zu entfalten.
-*   **Teamevents:** Ob bei Ausflügen, Feiern oder am „Happy Friday“ – hier kommt jeder auf seine Kosten. Außerdem stärken wir zusammen Körper und Geist bei der aktiven Pause im Dojo bei uns im Gebäude.
-*   **Nettolohnoptimierung:** Mehr Netto vom Brutto durch die kostenlose Firmenkreditkarte mit monatlichem Guthaben.
-*   **Digital und modern:** Als Kanzlei mit dem DATEV- Siegel „Digitale Kanzlei“ sorgen wir dafür, dass dein Arbeitsplatz immer auf dem neuesten Stand der Technik ist und sich an deine Bedürfnisse anpasst.
-
-**Der Ball liegt bei dir.**
-
-**Werde Teil unseres Teams.**
-
-Auf dich wartet ein herzliches und ambitioniertes Team, um dich in deine berufliche Zukunft zu begleiten. Geh mit uns den nächsten Schritt und bewirb dich mit nur wenigen Klicks. Wir freuen uns auf dich!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nSYLTAX is a modern, future-oriented, and collegial tax consultancy based in Bavaria, actively shedding traditional paperwork in favor of digitalization. With over 30 years of experience and more than 550 diverse client mandates across various industries, the firm offers a dynamic and challenging environment focused on team collaboration, continuous learning, and individual growth. As a Specialist Assistant for Digitalization and IT Processes (m/w/d), you will be a key driver in the firm's digital transformation, actively shaping its evolution and enabling colleagues to seamlessly integrate digital solutions to optimize tax processes and client communication.\n\n### Responsibilities\nThe role offers versatile, challenging, and individualized tasks, with a custom-fit activity profile that may include:\n- Reinforcing the digitalization team.\n- Independently managing projects in the field of digitalization.\n- Introducing and implementing new digital solutions.\n- Providing support to the team and clients for IT-related questions.\n- Overseeing digital financial accounting processes.\n- Managing digital payroll and salary accounting.\n- Preparing annual financial statements and income surplus statements.\n- Completing tax returns for both corporate and private clients.\n\n### Qualifications\nSYLTAX seeks team players who are goal-oriented, structured, and thrive in a cooperative work environment. Ideal candidates will bring:\n- **Successful professional training:** A completed apprenticeship as a tax clerk (m/w/d), further training as a specialist assistant for digitalization and IT processes (m/w/d), a university degree in economics, or alternatively, a commercial or IT-related apprenticeship complemented by several years of practical experience in a tax firm.\n- **Digitally savvy:** Demonstrated experience and proficiency with DATEV software and its associated cloud solutions.\n- **Goal-oriented work style:** An ability to work independently with a structured approach, consistently keeping the overall objectives in sight.\n- **Team-oriented mindset:** A genuine enjoyment of collaborative work and a commitment to fostering a cooperative team environment.\n\n### Author's Take\nThis role at SYLTAX presents an exceptional opportunity for a digitally-minded professional to become a pivotal player in the digital transformation of a forward-thinking tax consultancy. The company clearly prioritizes its employees, offering a remarkably supportive, collaborative, and flexible work environment. Benefits include flexible working hours, the option for up to 100% home office (after initial on-site onboarding), extensive personalized professional development opportunities, and engaging team events that foster strong collegial bonds. The emphasis on mentorship, knowledge sharing, and individualized growth paths makes this an ideal position for someone eager to advance their career and make a tangible impact within a modern, welcoming Bavarian culture.

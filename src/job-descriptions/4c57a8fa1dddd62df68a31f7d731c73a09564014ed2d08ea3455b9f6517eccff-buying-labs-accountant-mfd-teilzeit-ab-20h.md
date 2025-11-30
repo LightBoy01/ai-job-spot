@@ -9,69 +9,52 @@ postedDate: '2025-11-28T15:32:24.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/buying-labs/accountant-teilzeit-ab-20h-hamburg-239001
 companyLogoUrl: null
+companyCulture: >-
+  Buying Labs fosters a modern, international, and highly collaborative
+  environment characterized by strong team spirit, mutual appreciation, and flat
+  hierarchies. They are committed to employee well-being, offering excellent
+  work-life balance through perks like flexible mobility options and free office
+  catering, while also providing genuine development opportunities for
+  individuals to take ownership and grow within a fast-paced, startup-like
+  setting.
+story_question1: >-
+  How does the part-time Accountant role directly contribute to maintaining the
+  financial health and strategic decision-making of Buying Labs, especially in
+  such a fast-paced international environment?
+story_answer1: >-
+  As an insider, I can tell you that the Accountant role, even on a part-time
+  basis, is absolutely crucial. You're not just crunching numbers; you're the
+  backbone of our financial integrity. By meticulously handling accounts
+  payable/receivable, ensuring data accuracy in DATEV and Excel, and
+  participating in monthly reports, you provide the clean, real-time data that
+  our leadership relies on for critical decisions. In our fast-paced,
+  international setting, having someone dedicated to these details means we can
+  react quickly to market changes and maintain our strong financial footing.
+  It's incredibly satisfying to know your precision directly enables the
+  company's growth and stability.
+story_question2: >-
+  Buying Labs emphasizes both structured, precise work and active process
+  improvement. Can you share an example of how a Junior Accountant can actively
+  contribute to making processes smarter and more efficient, and what kind of
+  support or autonomy they would have in doing so?
+story_answer2: >-
+  Absolutely! We truly believe in empowering everyone, regardless of their
+  'seniority level or title.' For an Accountant, this could mean identifying a
+  recurring manual task in our reconciliation process that could be automated
+  with a new Excel macro, or suggesting a better way to track open items in our
+  dunning management. We encourage you to speak up during team meetings or
+  one-on-ones, and if you have a well-thought-out idea, you'll be given the
+  space and support to explore and even implement it. For instance, a colleague
+  recently streamlined our invoice preparation, saving hours each month – a
+  direct result of their proactive input. It’s exciting to be part of a team
+  where your ideas genuinely contribute to making us smarter and more efficient.
 ---
-Unternehmensbeschreibung
-------------------------
-
-"Buying Labs is the leading global partner for sourcing and distributing premium consumer goods!"
-
-Du möchtest Teil eines modernen, internationalen Unternehmens sein und suchst eine Aufgabe, die Struktur, Zahlen und Teamspirit vereint? Dann bist du bei uns richtig: Für unser Finance-Team in Hamburg suchen wir eine engagierte und erfahrene Unterstützung in Teilzeit - jemanden, der Spaß an strukturierter, genauer Arbeit hat, gerne im Team arbeitet und sich im Rechnungswesen zuhause fühlt.
-
-Für unser Hamburger Office suchen wir daher ab sofort einen **Accountant (m/f/d) auf Teilzeitbasis (ab 20h)**.
-
-Deine Aufgaben
---------------
-
-*   Du unterstützt unser Accounting-Team in der Kreditoren- und Debitorenbuchhaltung und sorgst dafür, dass unsere Zahlen jederzeit sauber und aktuell sind
-*   Du bereitest Rechnungen vor, begleitest Zahlungsläufe und pflegst relevante Buchhaltungsdaten in DATEV und Excel
-*   Du wirkst an der Erstellung unserer monatlichen Finanzberichte mit - von der Aufbereitung der KPIs bis hin zu den finalen Abgleichen
-*   Du organisierst und begleitest das Mahn- und Forderungsmanagement und behältst offene Posten zuverlässig im Blick
-*   Du führst Datenchecks und Abgleiche zwischen DATEV, Excel und unseren internen Tools durch, damit alles korrekt zusammenläuft
-*   Du unterstützt bei Analysen rund um unsere Finance- und Unternehmensdaten und bringst dich aktiv ein, wenn es darum geht, Prozesse smarter und effizienter zu gestalten
-
-Dein Profil
------------
-
-*   Eine erfolgreich abgeschlossene kaufmännische Ausbildung oder ein Studium mit Finance-Bezug
-*   Relevante Berufserfahrung im Finanz- oder Rechnungswesen - ob durch Festanstellung, Ausbildung oder Praktika
-*   Ein ausgeprägtes Zahlenverständnis sowie Freude an sorgfältigem, strukturiertem und detailorientiertem Arbeiten
-*   Eine zuverlässige, organisierte Arbeitsweise und echte Teamplayer-Mentalität
-*   Freude an Teamarbeit
-*   Sicherer Umgang mit Microsoft Office, insbesondere Excel, sowie DATEV
-*   Fließende Deutsch- sowie gute Englischkenntnisse bringst du außerdem für die Zusammenarbeit in einem internationalen Umfeld mit
-
-Warum wir?
-----------
-
-*   **Ein großartiges Team & tolle Atmosphäre**  
-    Arbeite mit ambitionierten Kollegen in einem modernen, wertschätzenden Umfeld, wo Teamgeist und Spaß Hand in Hand gehen - selbst, wenn es schnell gehen muss.
-*   **Flache Hierarchien & echte Entwicklungschancen**  
-    Übernimm Verantwortung für deine Rolle und wachse gemeinsam mit uns. Wir fördern interne Entwicklung und schätzen jede Meinung - unabhängig von Senioritätslevel oder Titel.
-*   **Moderner Arbeitsplatz & hochwertige Ausstattung**  
-    Dich erwartet ein gut ausgestattetes Office mit höhenverstellbaren Tischen, mobilen Laufbändern, Klimaanlage und allem, was du für produktives Arbeiten brauchst.
-*   **Betrieblichen Altervorsorge mit Zuschuss**  
-    Wir unterstützen dich in deiner Altersvorsorge - mit einem 30%-igen Zuschuss auf deinen Beitrag.
-*   **Corporate Benefits Mitgliedschaft**  
-    Erhalte Zugang zu attraktiven und stetig wechselnden Rabatten bei zahlreichen Marken und Partnerunternehmen.
-*   **Deutschlandticket inklusive**  
-    Wir übernehmen die gesamten monatlichen Kosten des Deutschlandtickets - für eine bequeme und nachhaltige Mobilität in ganz Deutschland.
-*   **Flexible Bike-Optionen**  
-    Wähle zwischen einem kostenlosen "Swapfiets" (Original oder Deluxe 7) oder einem JobRad-Leasing mit 26€-Zuschuss pro Monat.
-*   **Kostenlose Verpflegung im Office**  
-    Freue dich jeden Freitag auf einen kostenlosen Lunch im Office sowie auf Bio-Obst und -Gemüse, Snacks, Getränke, Kaffee/Tee, gesunde Shots und saisonale Extras (z.B. Eiscreme, Suppe).
-*   **Individuelle Arbeitsplatzgestaltung**  
-    Zu deinem Start bei uns erhältst du einen 100€-Willkommensgutschein, um deinen Arbeitsplatz ganz nach deinen Bedürfnissen und deinem Geschmack einzurichten.
-*   **Refer-A-Friend-Programm**  
-    Du fühlst dich bei uns wohl? Super! Dann empfiehl uns gerne weiter und sichere dir attraktive Prämien. Als modernes Unternehmen verbinden wir die Mentalität eines Start-ups mit der Professionalität langjähriger Erfahrung in der Modebranche. Werde Teil eines schnell wachsenden Unternehmens mit großartigen Perspektiven!
-
-Klingt spannend für dich? Dann freuen wir uns auf deine Bewerbung!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\n\"Buying Labs is the leading global partner for sourcing and distributing premium consumer goods! We are a modern, international company that values structure, figures, and team spirit. For our Finance team in Hamburg, we are seeking dedicated and experienced part-time support – someone who enjoys structured, precise work, loves working in a team, and feels at home in accounting. We are immediately looking for an Accountant (m/f/d) for our Hamburg office on a part-time basis (from 20 hours per week).\"\n\n### Responsibilities\n- Support our accounting team in accounts payable and receivable, ensuring our figures are always clean and up-to-date.\n- Prepare invoices, manage payment runs, and maintain relevant accounting data in DATEV and Excel.\n- Participate in the preparation of our monthly financial reports, from KPI preparation to final reconciliations.\n- Organize and manage dunning and receivables, reliably keeping an eye on open items.\n- Perform data checks and reconciliations between DATEV, Excel, and our internal tools to ensure everything runs correctly.\n- Support analyses related to our finance and company data, and actively contribute to making processes smarter and more efficient.\n\n### Qualifications\n- Successfully completed commercial apprenticeship or a degree with a finance focus.\n- Relevant professional experience in finance or accounting, acquired through permanent employment, apprenticeship, or internships.\n- A strong understanding of numbers and enjoyment of careful, structured, and detail-oriented work.\n- A reliable, organized way of working and a true team player mentality.\n- Enjoyment of teamwork.\n- Proficient in Microsoft Office, especially Excel, as well as DATEV.\n- Fluent German and good English skills for collaboration in an international environment.\n\n### Author's Take\n\"This is an excellent opportunity for an Accountant looking for a part-time role within a modern, fast-growing international company. Buying Labs offers a highly collaborative and appreciative work environment with flat hierarchies and genuine development opportunities. The company significantly invests in employee well-being, providing a state-of-the-art office with ergonomic equipment, generous benefits like a company pension scheme, Germany Ticket, bike options, free healthy food, and a welcome voucher for personalizing your workspace. This role is perfect for someone who thrives on precision, teamwork, and contributing to process improvements while enjoying a supportive and progressive culture that combines startup dynamism with professional experience in the fashion industry.\"

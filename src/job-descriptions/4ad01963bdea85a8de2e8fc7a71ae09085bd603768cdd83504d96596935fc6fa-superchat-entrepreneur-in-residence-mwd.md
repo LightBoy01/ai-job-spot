@@ -9,57 +9,45 @@ postedDate: '2025-11-28T17:32:08.000Z'
 expirationDate: null
 tags:
   - Strategic Marketing
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/superchat/entrepreneur-in-residence-berlin-313227
 companyLogoUrl: null
+companyCulture: >-
+  Superchat fosters an inclusive, fast-paced startup culture that prioritizes
+  professional growth through strong onboarding, coaching, and feedback. It
+  emphasizes collaboration with a strong team spirit, celebrated through regular
+  team events, and empowers individuals with significant autonomy.
+story_question1: >-
+  Considering Superchat's rapid growth, how does this internship directly
+  contribute to scaling the business and what kind of impact can a successful
+  intern expect to have on key strategic decisions?
+story_answer1: >-
+  At Superchat, we don't just see interns; we see future leaders. You'll be
+  right at the heart of our growth engine, analyzing potential, crafting
+  strategies, and even directly influencing management decisions. Imagine seeing
+  your insights translated into real-world scaling efforts, or a social media
+  campaign you designed driving significant lead generation. It's not about
+  making coffee; it's about making a tangible impact on our market share and
+  being part of the next big leap for Superchat. We empower you with freedom and
+  responsibility because we trust your drive to innovate.
+story_question2: >-
+  The description mentions deep insights into various departments and autonomous
+  projects. How does Superchat ensure interns gain a comprehensive understanding
+  of these areas while also providing enough support and mentorship for
+  independent project success?
+story_answer2: >-
+  That's a fantastic question, and it's central to our approach. Our robust
+  onboarding program isn't just a checklist; it's a deep dive into our business.
+  You'll work closely with teams across Growth, Marketing, Sales, and RevOps,
+  getting hands-on with daily operations. For your autonomous projects, you're
+  never truly alone. We provide regular coaching and feedback sessions, ensuring
+  you have the guidance to succeed without stifling your innovative spirit. It's
+  a balance of pushing you to take ownership and providing a safety net of
+  experienced mentors who want to see you thrive and grow professionally.
 ---
-Bei Superchat gestalten wir die Kommunikation zwischen Unternehmen und ihren Kund\*innen neu. Unsere Mission ist klar: Die Kommunikation mit einem Unternehmen sollte so einfach und natürlich sein wie ein Gespräch mit deinen Freunden.
-
-Superchat ist aktuell stark am Wachsen und damit stehen viele spannende Themen an. **Deswegen suchen wir dich als Unterstützung!** 🚀
-
-So könnte dein Tag aussehen:
-----------------------------
-
-*   Du wirst Superchat weiter skalieren und unseren Marktanteil extrem vergrößern, indem du Wachstumspotenziale analysierst und entscheidungsrelevante Insights für unser Management aufbereitest
-*   Du entwickelst und implementierst Social Media und Marketingstrategien, um unsere Markenpräsenz zu stärken und organisches Wachstum sowie Lead-Generierung für Superchat voranzutreiben
-*   Du übernimmst eigenständige und eigenbestimmte Projekte in unterschiedlichen Unternehmensbereichen und führst diese zu einem erfolgreichen Abschluss
-*   Du erhältst tiefe Einblicke in Growth, Marketing, Sales, RevOps und Operational Excellence
-*   Du lernst das Daily-Business unserer Teams kennen, neben der Projektarbeit und der Unterstützung unseres Managements
-
-Das bringst du mit
-------------------
-
-*   Du studierst oder hast ein sehr erfolgreich abgeschlossenes Studium in einem für Start-ups relevanten Bereich (z. B. Wirtschafts- oder Naturwissenschaften) und hast Zeit für ein 3- bis 6-monatiges Praktikum
-*   Du hast in vorherigen praktischen Arbeitserfahrungen in Start-ups, Unternehmensberatungen oder im Investmentbanking
-*   Du stellst höchste Qualitätsansprüche an dich selbst und bringst ein hohes Verantwortungsbewusstsein mit
-*   Du hast viel Drive dich weiterzuentwickeln, und bist dir nicht zu schade, mitanzupacken
-*   Du hast Lust höchst analytisch und strukturiert zu arbeiten
-*   Du verfügst über Deutschkenntnisse auf muttersprachlichem Niveau sowie sehr gute Englischkenntnisse in Wort und Schrift (Spanischkenntnisse sind ein Pluspunkt)
-
-Deine Benefits:
----------------
-
-*   Du übernimmst eine Rolle, in der dir viel Freiheit gegeben wird und du für den nächsten Umsatzsprung von Superchat verantwortlich sein könntest
-*   Wir haben Product-Market Fit und die in Deutschland seltene Chance, Product-Led-Growth so wie er gedacht wurde, umzusetzen
-*   Du profitierst von einem starken Onboarding-Programm sowie regelmäßigen Coachings und Feedback, die deine professionelle Entwicklung fördern
-*   Du erlebst eine integrative Start-up-Kultur mit starkem Teamspirit und nimmst an regelmäßigen Team Events teil, bei denen wir unsere Ideen teilen und Erfolge feiern
-
-**Das sind wir:**
-
-Superchat wurde 2020 in Berlin von Yilmaz und Mika gegründet. Mit schon über 7.500 Unternehmenskunden sind wir auf starkem Wachstumskurs. Mit einer Series A-Finanzierung von 15,6 Mio. US-Dollar werden wir unter anderem von den führenden Investoren Blossom Capital und 468 Capital unterstützt.
-
-Wir bieten eine umfassende Messaging-Suite für Unternehmen, die alle Kommunikationskanäle (WhatsApp, Instagram, Facebook und viele mehr) in einer Plattform vereint. Das ermöglicht unseren Kunden, auf einfache Art und Weise Newsletter zu versenden, Kundenbeziehungen aufzubauen und Produkte und Dienstleistungen besser zu verkaufen.
-
-Wir sind davon überzeugt, dass Diversität Unternehmen besser macht. Wir freuen uns über alle Bewerber:innen. Unabhängig von Gender, Herkunft, Nationalität oder Glaube. Fühl dich frei und schicke uns gerne deine Bewerbung!
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-**Mit deiner Bewerbung stimmst du unseren Datenschutzrichtlinien zu.**
-
-\*\*Wir freuen uns auf deine Bewerbung! \*\*
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nSuperchat is revolutionizing communication between businesses and their customers. Our mission is to make business communication as simple and natural as talking to your friends. With over 7,500 business customers, Superchat is experiencing rapid growth, backed by $15.6M in Series A funding from leading investors like Blossom Capital and 468 Capital. We offer a comprehensive messaging suite that unifies all communication channels (WhatsApp, Instagram, Facebook, and more) in one platform, enabling businesses to easily send newsletters, build customer relationships, and sell products and services more effectively. This role offers significant freedom and the potential to be responsible for Superchat's next revenue leap, embodying true Product-Led-Growth.\n\n### Responsibilities\n*   Scale Superchat and significantly expand our market share by analyzing growth potentials and preparing decision-relevant insights for management.\n*   Develop and implement social media and marketing strategies to strengthen our brand presence and drive organic growth and lead generation for Superchat.\n*   Take on independent and self-determined projects in various company divisions and bring them to a successful conclusion.\n*   Gain deep insights into Growth, Marketing, Sales, RevOps, and Operational Excellence.\n*   Get to know the daily business of our teams, alongside project work and supporting our management.\n\n### Qualifications\n*   Currently studying or have successfully completed a degree in a start-up relevant field (e.g., economics or natural sciences) and are available for a 3- to 6-month internship.\n*   Previous practical work experience in start-ups, management consulting, or investment banking.\n*   You set the highest quality standards for yourself and bring a high sense of responsibility.\n*   You have a strong drive for personal development and are not afraid to get hands-on.\n*   You enjoy working highly analytically and structurally.\n*   Native-level German language skills and very good written and spoken English skills (Spanish skills are a plus).\n\n### Author's Take\nThis is an exceptional opportunity for an ambitious student or recent graduate to gain substantial, hands-on experience within a rapidly scaling German startup. Superchat offers a unique environment where interns are given significant autonomy on projects that directly impact the company's growth. The commitment to professional development through strong onboarding, regular coaching, and feedback is a major plus. Coupled with an inclusive culture, strong team spirit, and regular team events, this internship provides not just a learning experience but a chance to make a real difference and celebrate successes together. It's perfect for someone who thrives in a fast-paced, analytical, and supportive environment.

@@ -9,60 +9,49 @@ postedDate: '2025-11-28T12:32:08.000Z'
 expirationDate: null
 tags:
   - Business Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/feldenergy-gmbh/chief-of-staff-weissenburg-in-bayern-308164
 companyLogoUrl: null
+companyCulture: >-
+  feld.energy fosters a dynamic, innovative, and collaborative culture centered
+  on sustainability and the energy transition. They offer a hybrid work model,
+  emphasize high individual responsibility, and celebrate team successes,
+  promoting both professional growth and work-life balance.
+story_question1: >-
+  How does the Chief of Staff role directly influence the strategic direction
+  and practical execution of feld.energy's ambitious goal of combining
+  agriculture and renewable energy, particularly in navigating the unique
+  challenges of integrating these two sectors?
+story_answer1: >-
+  As Chief of Staff, you're truly at the nexus of everything we do. I remember a
+  few months ago when we were exploring a major new Agri-PV project. The
+  founders had a clear vision, but translating that into actionable steps,
+  coordinating with legal for permits, working with engineering on design, and
+  even engaging local agricultural partners – that's where this role shines. You
+  become the conductor, ensuring every part of the orchestra plays in harmony,
+  identifying potential bottlenecks before they arise, and pushing forward with
+  critical decisions. Your impact isn't just on paper; it's visible in every new
+  hectare transformed into a dual-purpose energy farm, directly accelerating
+  Germany's energy transition.
+story_question2: >-
+  Given the rapid growth and innovative nature of Agri-PV solutions, what are
+  some of the most significant upcoming strategic initiatives or projects the
+  Chief of Staff will be instrumental in driving forward in the next 12-18
+  months?
+story_answer2: >-
+  Looking ahead, a huge focus for us is scaling our operations and expanding
+  into new regions, potentially even beyond Germany. Imagine the complexity:
+  identifying viable new land, navigating diverse regulatory landscapes, and
+  forging new partnerships with local farming communities. The Chief of Staff
+  will be at the forefront of this expansion, running the project management for
+  these critical 'new market entry' initiatives. They’ll also be key in
+  optimizing our internal scaling processes – ensuring our innovative spirit
+  isn't lost as we grow, and that our teams remain agile and connected. It's
+  about building the infrastructure for our future impact.
 ---
-Über uns
---------
-
-feld.energy ist mehr als nur ein Unternehmen – wir sind eine Bewegung!
-
-Wir helfen Landwirten und Landeigentümern, Landwirtschaft und Energieerzeugung clever miteinander zu kombinieren. Mit unseren innovativen Agri-Photovoltaik-Lösungen schaffen wir doppelte Flächennutzung – für Lebensmittelproduktion und saubere Energie. So gestalten wir die Energiewende auf dem Land – nachhaltig, wirtschaftlich und zukunftsorientiert.
-
-Deine Mission
--------------
-
-Als **Chief of Staff (m/w/d)** bist du die rechte Hand der Gründer und Schnittstelle zwischen Geschäftsführung, Team und externen Partnern. Du stellst sicher, dass strategische Themen umgesetzt werden, Projekte ins Ziel kommen und die richtigen Prioritäten verfolgt werden.
-
-Deine Aufgaben
---------------
-
-*   Enge Zusammenarbeit mit den Gründern bei Strategie, Priorisierung und Entscheidungsfindung.
-*   Projektmanagement für Schlüsselinitiativen (z. B. neue Standorte, Investorenprojekte, Kooperationen).
-*   Vorbereitung und Nachverfolgung von Meetings, KPIs und Entscheidungsprozessen.
-*   Kommunikationsschnittstelle zwischen Geschäftsführung, Team und externen Stakeholdern (Investoren, Partner).
-*   Analyse von Markt- und Unternehmensdaten, Erstellung von Präsentationen & Reports.
-*   Aufbau und Optimierung interner Prozesse & Tools.
-
-Dein Profil
------------
-
-*   Abgeschlossenes Studium im Bereich Wirtschaft, Ingenieurwesen, Politik oder vergleichbar.
-*   Berufserfahrung im Startup-Umfeld, Consulting, Projektmanagement oder Business Development.
-*   Starke organisatorische Fähigkeiten & strukturierte Arbeitsweise.
-*   Exzellente Kommunikations- und Analyse-Skills.
-*   Freude daran, Hands-on Verantwortung zu übernehmen und in einem jungen, dynamischen Umfeld zu arbeiten.
-*   Interesse an erneuerbaren Energien, Landwirtschaft und Nachhaltigkeit.
-
-Warum wir?
-----------
-
-*   Eine Schlüsselrolle mit direkter Zusammenarbeit mit den Gründern.
-*   Ein dynamisches Arbeitsumfeld mit hoher Eigenverantwortung.
-*   Hybrides Arbeiten (Büro München + Remote).
-*   27 Tage für deine persönliche Erholung.
-*   Regelmäßige Team-Events und gemeinsames Feiern der Erfolge.
-*   Neueste technische Ausstattung und innovative Software, die deinen Arbeitsalltag erleichtert.
-*   Eine Unternehmenskultur, die auf Nachhaltigkeit, Innovation und Zusammenarbeit setzt.
-
-Bist du bereit, die Energiewende in der Landwirtschaft mitzugestalten?
-
-Dann freuen wir uns auf deine Bewerbung!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nfeld.energy is a pioneering company combining agriculture and energy generation through innovative Agri-Photovoltaics, enabling dual land use for food production and clean energy. We are shaping the energy transition in rural areas – sustainably, economically, and future-oriented. As Chief of Staff (m/w/d), you will be the right hand to the founders, serving as the central interface between management, the team, and external partners. Your mission is to ensure strategic initiatives are executed, projects reach their goals, and the right priorities are pursued.\n\n### Responsibilities\n- Close collaboration with the founders on strategy, prioritization, and decision-making.\n- Project management for key initiatives (e.g., new locations, investor projects, cooperations).\n- Preparation and follow-up of meetings, KPIs, and decision-making processes.\n- Communication interface between management, team, and external stakeholders (investors, partners).\n- Analysis of market and company data, creation of presentations & reports.\n- Development and optimization of internal processes & tools.\n\n### Qualifications\n- Completed degree in Business, Engineering, Politics, or a comparable field.\n- Professional experience in a startup environment, consulting, project management, or business development.\n- Strong organizational skills & structured way of working.\n- Excellent communication and analytical skills.\n- Enjoy taking hands-on responsibility and working in a young, dynamic environment.\n- Interest in renewable energies, agriculture, and sustainability.\n\n### Author's Take\nThis is a pivotal Chief of Staff role at feld.energy, offering the unique opportunity to work directly alongside the founders in a dynamic and impact-driven environment. If you're passionate about renewable energy, agriculture, and sustainability, and thrive on driving strategic initiatives from conception to execution, this position provides significant autonomy and a chance to make a tangible difference in shaping the energy transition. The company values collaboration, innovation, and offers a flexible hybrid work model, competitive benefits like 27 days of leave, and regular team events to celebrate successes.

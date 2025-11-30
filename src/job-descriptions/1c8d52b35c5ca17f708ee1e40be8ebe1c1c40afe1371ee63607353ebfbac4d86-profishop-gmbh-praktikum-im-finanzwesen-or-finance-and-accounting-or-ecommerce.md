@@ -9,59 +9,44 @@ postedDate: '2025-11-27T09:31:50.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
+salaryRange: '€800 - €1,000 per month (depending on degree level)'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/profishop-gmbh/praktikum-im-finanzwesen-finance-and-accounting-ecommerce-bremen-40794
 companyLogoUrl: null
+companyCulture: >-
+  PROFISHOP fosters a highly collaborative, supportive, and appreciative culture
+  that prioritizes learning, innovation, and strong team spirit. They offer
+  significant flexibility (hybrid work, flextime) and a positive work-life
+  balance, celebrating successes together and encouraging individual growth
+  within a friendly, dog-friendly environment.
+story_question1: >-
+  How does PROFISHOP ensure interns truly contribute to the company's innovation
+  and growth, beyond just assisting with daily tasks?
+story_answer1: >-
+  At PROFISHOP, we don't see our interns as just helpers; you're an integral
+  part of shaping the future of eCommerce. From day one, you're paired with a
+  personal 'buddy' who guides you, ensuring you're not just observing, but
+  actively driving projects. For instance, in finance, you won't just process
+  invoices; you'll analyze trends, suggest process improvements, and contribute
+  to reports that directly influence strategic decisions. We thrive on fresh
+  perspectives, and your ideas are truly valued in our collaborative and
+  growth-focused environment.
+story_question2: >-
+  Given the company's 'Top Company' status on Kununu, what specific aspects of
+  the team dynamic or support system make it such a positive workplace for new
+  joiners?
+story_answer2: >-
+  What truly makes PROFISHOP a 'Top Company' isn't just the modern office or the
+  benefits, but the genuine warmth and support within the team. We believe in
+  learning and growing together. When you join, you'll immediately feel part of
+  a friendly family where colleagues actively help each other, share knowledge,
+  and even celebrate successes with regular after-work events. The personal
+  buddy system ensures you always have someone to turn to, and our flexible,
+  dog-friendly environment reflects our commitment to a truly balanced and happy
+  workplace.
 ---
-Dein Praktikum bei PROFISHOP – Gestalte die Zukunft des eCommerce mit uns!
-
-Wir bei **PROFISHOP** lieben, was wir tun: Den digitalen Handel revolutionieren. Mit über 1,5 Millionen Produkten und innovativen Ideen gestalten wir eine Plattform, die Unternehmen genau das bietet, was sie brauchen – und zwar schnell, flexibel und zuverlässig.
-
-Doch was uns wirklich ausmacht, ist unser Team. Hier wird nicht nur gearbeitet, sondern auch gelernt, gelacht und gemeinsam Neues geschaffen. Unsere Kultur basiert auf Wertschätzung, Kreativität und Teamgeist – Werte, die uns vier Jahre in Folge zu einem Kununu-Top-Arbeitgeber gemacht haben.
-
-Als Praktikant:in bist Du ein wichtiger Teil dieser Erfolgsgeschichte. Egal ob Du tiefer ins Finanzwesen eintauchst, neue Prozesse mitgestaltest oder kreative Ideen einbringst: Bei uns bist Du mittendrin, statt nur dabei. Mit Deinem persönlichen Buddy und unserem unterstützenden Team hast Du alles, was Du brauchst, um Dein Praktikum zu einem echten Highlight zu machen.
-
-Aufgaben
---------
-
-*   **Hands-on Finance:** Du unterstützt unsere Debitoren- und Kreditorenbuchhaltung – hier lernst Du, wie echte Finanzprozesse ablaufen.
-*   **Rechnungskontrolle deluxe**: Du prüfst Rechnungen und Lieferscheine auf Herz und Nieren – Präzision ist Deine Superkraft.
-*   **Excel-Challenges**: Du erstellst Analysen, Reports und Übersichten – so wird Excel für Dich zum Spielplatz.
-*   **Controlling & Co.**: Du analysierst Konten, unterstützt bei der Erstellung von Reports und bringst Licht in die Zahlenwelt.
-*   **Globaler Touch**: Unsere internationale Ausrichtung bietet Dir Einblicke in Finanzprozesse über Deutschlands Grenzen hinaus.
-
-Qualifikation
--------------
-
-*   **Studium läuft? Läuft!** Du studierst einen wirtschaftsnahen Studiengang und suchst ein Pflichtpraktikum (mindestens 3 Monate).
-*   **Zahlen und Details sind Dein Ding:** Ob Rechnungen, Tabellen oder Analysen – Du liebst es, den Durchblick zu behalten und erkennst Fehler, die anderen entgehen.
-*   **Du behältst den Überblick** – organisiert, verlässlich und immer einen Schritt voraus. Vertraulichkeit & Diskretion? Für Dich selbstverständlich.
-*   **Teamplayer:in mit Köpfchen**: Zusammenarbeit macht Dir genauso viel Spaß wie selbstständiges Arbeiten.
-*   **Tools und Tech? Easy!**: Du bist fit in MS Office, weißt, wie Du Excel rockst und verfügst über gute Deutschkenntnisse.
-
-Benefits
---------
-
-*   **Abwechslung garantiert:** Spannende Aufgaben, die wirklich relevant sind, in einem dynamischen Umfeld – Langeweile hat bei uns keine Chance!
-*   **Work Your Way:** Ob Gleitzeit oder hybrides Arbeiten – wir machen Deinen Arbeitsalltag flexibel.
-*   **Award-Winning Arbeitgeber:** Wir sind nicht ohne Grund als „Top Company“ bei Kununu (2022-2025) ausgezeichnet worden – überzeug Dich selbst!
-*   **Arbeiten mit Wohlfühlfaktor:** Ein herzliches und freundschaftliches Team wartet auf Dich – und ja, auch Dein Hund ist bei uns herzlich willkommen!
-*   **Stylisches Office in bester Lage:** Unser modernes Büro in der Überseestadt Bremen hat alles, was das Herz begehrt – inklusive Getränken auf’s Haus und Parkplätzen vor der Tür.
-*   **Zeig, was in Dir steckt:** Bei uns bekommst Du Raum für Deine Ideen und kannst Dich so entfalten, wie es Dir gefällt.
-*   **Einzigartiger Teamspirit:** Ob Afterwork oder Teamevents – wir feiern gemeinsame Erfolge, weil wir sie gemeinsam erreichen!
-*   **Fair bezahlt:** Dein Einsatz wird belohnt – mit einer Praktikumsvergütung von 800 € (Bachelor) bis 1.000 € (Master) im Monat.
-
-**Ready for Onboarding? Dann melde Dich jetzt!**
-
-Wenn wir Dein Interesse geweckt haben, schicke uns gerne Deine vollständigen Bewerbungsunterlagen unter Angabe des frühestmöglichen Eintrittstermins und der geplanten Dauer Deines Praktikums.
-
-Deine Ansprechpartnerin Justine freut sich auf Deine Bewerbung.
-
-\*Deine ethnische Herkunft, Geschlecht, Religion oder Weltanschauung, Behinderung, Alter oder Deine sexuelle Identität spielen für uns keine Rolle. Hauptsache Du passt zu uns und brennst für Deinen Job.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nJoin PROFISHOP and help shape the future of eCommerce! We are passionate about revolutionizing digital trade, offering over 1.5 million products and innovative solutions to businesses quickly, flexibly, and reliably.\n\nWhat truly sets us apart is our team. Here, we not only work but also learn, laugh, and create new things together. Our culture is built on appreciation, creativity, and team spirit – values that have earned us \"Kununu Top Employer\" status for four consecutive years.\n\nAs an intern, you will be a vital part of this success story. Whether diving deep into finance, co-designing new processes, or contributing creative ideas, you'll be actively involved. With your personal buddy and our supportive team, you'll have everything you need to make your internship a true highlight.\n\n### Responsibilities\n- **Hands-on Finance:** Support our accounts receivable and payable departments, learning how real financial processes operate.\n- **Invoice Control Deluxe:** Thoroughly review invoices and delivery notes – precision is your superpower.\n- **Excel Challenges:** Create analyses, reports, and overviews, turning Excel into your playground.\n- **Controlling & Co.:** Analyze accounts, assist in report creation, bringing clarity to the world of numbers.\n- **Global Touch:** Our international focus offers insights into financial processes beyond Germany's borders.\n\n### Qualifications\n- **Student Life? Thriving!** You are currently studying an economics-related subject and are looking for a mandatory internship (minimum 3 months).\n- **Numbers and Details are Your Thing:** Whether invoices, tables, or analyses – you love to maintain an overview and spot errors others miss.\n- **You Keep an Overview:** Organized, reliable, and always a step ahead. Confidentiality & discretion are self-evident for you.\n- **Team Player with Brains:** You enjoy collaboration as much as independent work.\n- **Tools and Tech? Easy!:** You are proficient in MS Office, know how to rock Excel, and have good German language skills.\n\n### Author's Take\nThis is an outstanding opportunity for an ambitious student in an economics-related field seeking a hands-on, mandatory finance internship. PROFISHOP offers a uniquely supportive and dynamic environment where interns are genuinely integrated, supported by a personal buddy, and encouraged to contribute innovative ideas. The company's commitment to team spirit, flexibility (including hybrid work and flextime), and a positive work culture, evidenced by its 'Top Company' awards, makes it an ideal place to gain practical experience. The clear and fair internship compensation further highlights the value placed on interns.

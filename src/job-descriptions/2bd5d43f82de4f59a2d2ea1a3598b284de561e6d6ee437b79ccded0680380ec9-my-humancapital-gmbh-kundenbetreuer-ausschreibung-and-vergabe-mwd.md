@@ -9,45 +9,47 @@ postedDate: '2025-11-28T01:34:52.000Z'
 expirationDate: null
 tags:
   - Customer Service
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenbetreuer-ausschreibung-vergabe-munich-397930
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a supportive and growth-oriented environment, offering
+  extensive onboarding and development opportunities. With flat hierarchies and
+  a strong team spirit, collaboration and appreciative interaction are highly
+  valued.
+story_question1: >-
+  How does this role directly contribute to empowering clients to efficiently
+  navigate the e-procurement platform and ultimately achieve successful outcomes
+  in their tenders?
+story_answer1: >-
+  From where I stand, being a Customer Service Representative in Tendering &
+  Procurement is like being the key enabler for our clients. It's incredibly
+  rewarding to guide them through the e-procurement platform, especially when
+  they're tackling complex bids. We don't just answer questions; we demystify
+  the process, helping them set up accounts, manage deadlines, and upload
+  crucial documents. Seeing a client successfully close a tender because of our
+  direct support? That's the real win. Our team truly values this hands-on
+  approach, always ready to jump in and ensure every client feels confident and
+  competent.
+story_question2: >-
+  Given the dynamic nature of procurement regulations, how does the team stay
+  current, and what support is available for continuously developing expertise
+  in this role?
+story_answer2: >-
+  Staying ahead in procurement is a constant challenge, but it’s one we tackle
+  head-on together. Our company thrives on continuous learning; it's woven into
+  our culture. We regularly host internal workshops, often led by colleagues
+  who've recently mastered a new regulation, and we're actively encouraged to
+  attend external seminars and webinars. There's a dedicated budget for
+  professional development, and new e-forms or legal updates are always a topic
+  of lively discussion in our team meetings. We see evolving knowledge not as a
+  burden, but as an opportunity to sharpen our skills and provide even better
+  service, ensuring our clients are always compliant and competitive. It’s a
+  supportive ecosystem where everyone helps each other grow.
 ---
-Im Auftrag unseres Partnerunternehmens in München suchen wir Sie zum nächstmöglichen Zeitpunkt als **„Kundenbetreuer Ausschreibung & Vergabe (m/w/d)“.**
-
-**Aufgaben**
-------------
-
-*   Als **Kundenbetreuer Ausschreibung & Vergabe (m/w/d)** sind Sie zentraler Ansprechpartner für Kunden bei Belangen rund um die Nutzung der eVergabeplattform
-*   Hierbei leisten Sie telefonischen Support und führen schriftliche Korrespondenz mit Kunden und Vertriebspartnern
-*   Sie unterstützen ausschreibende Stellen im Prozess: Einrichten von Nutzerzugängen, Zuweisen von Rollen und Rechten, Erstellen von Bekanntmachungen, Terminplanung, Steuerung von Abläufen, Hochladen von Vergabeunterlagen etc.
-*   Darüber hinaus übernehmen Sie administrative Aufgaben wie die Pflege von Stammdaten, Kundenadministration sowie allgemeine Büro-, Vertriebs- und Verwaltungsaufgaben
-*   Sie gestalten und führen interne und externe Produkt- und Onlineschulungen für Kunden und Mitarbeitende durch
-
-**Qualifikation**
------------------
-
-*   Idealerweise verfügen Sie über eine abgeschlossene kaufmännische Ausbildung, bspw. als Bürokaufmann (m/w/d), Industriekaufmann (m/w/d), Verwaltungsfachangestellter (m/w/d) oder eine vergleichbare Ausbildung
-*   Sie bringen fundierte Kenntnisse im Ausschreibungs- und Vergabewesen mit, insbesondere bei Bau-, Dienst- und Lieferleistungen, inklusive der geltenden Rechtsgrundlagen wie VOB, UVgO, VgV
-*   Sie haben Erfahrung in der Erstellung nationaler und europaweiter Bekanntmachungen, idealerweise mit eForms oder vergleichbaren Online-Vergabeformularen
-*   Sie besitzen hohe Schulungskompetenz und Freude daran, technisches Wissen verständlich zu vermitteln – sowohl in Workshops als auch online
-*   Sichere Deutschkenntnisse zeichnen sie aus
-
-**Benefits**
-------------
-
-*   **Langfristige Jobmöglichkeit:** Freuen Sie sich auf eine unbefristete Festanstellung
-*   **Zentrale Lage:** Das Unternehmen befindet sich im Herzen Münchens
-*   **Onboarding:** Ihre erfahrenen Kollegen stehen Ihnen während der Einarbeitung mit Rat und Tat zur Seite
-*   **Entwicklung:** Firmenintern gibt es zahlreiche Weiterbildungs- und Entwicklungsmöglichkeiten
-*   **Vielseitigkeit:** Freuen Sie sich aufspannende und abwechslungsreiche Tätigkeiten in einem dynamischen Umfeld
-*   **Teamspirit:** Sie erwarten flache Hierarchien, kurze Entscheidungswege sowie eine wertschätzende Zusammenarbeit
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Veronica Wild** gerne unter **089 954 287 106** zur Verfügung.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nThis role, based in Munich, is for a Customer Service Representative specializing in Tendering & Procurement. You will serve as the central point of contact for clients using the e-procurement platform, providing essential support and guidance to ensure their successful participation in tendering processes.\n\n### Responsibilities\n*   Act as the primary contact for customers regarding all aspects of the e-procurement platform.\n*   Provide telephone support and written correspondence to customers and sales partners.\n*   Support contracting authorities throughout the tender process, including setting up user accounts, assigning roles and rights, creating announcements, scheduling, managing workflows, and uploading tender documents.\n*   Perform administrative tasks such as master data maintenance, customer administration, and general office, sales, and administrative duties.\n*   Design and conduct internal and external product and online training sessions for customers and employees.\n\n### Qualifications\n*   Ideally possess a completed commercial vocational training, e.g., as an office administrator, industrial clerk, administrative specialist, or a comparable qualification.\n*   Bring sound knowledge of tendering and procurement, especially for construction, service, and supply contracts, including applicable legal frameworks such as VOB, UVgO, and VgV.\n*   Have experience in creating national and European announcements, ideally with eForms or similar online tendering forms.\n*   Demonstrate strong training competence and enjoy clearly conveying technical knowledge, both in workshops and online.\n*   Proficient German language skills are essential.\n\n### Author's Take\nThis is an excellent opportunity for a detail-oriented and customer-focused individual with a strong background in procurement. The role offers stability with an indefinite employment contract and numerous development opportunities within a company that values continuous learning and growth. Located centrally in Munich, the company provides a supportive onboarding process, flat hierarchies, and a collaborative team environment. If you thrive in a dynamic setting and enjoy empowering clients through your expertise, this role offers both impact and personal development.

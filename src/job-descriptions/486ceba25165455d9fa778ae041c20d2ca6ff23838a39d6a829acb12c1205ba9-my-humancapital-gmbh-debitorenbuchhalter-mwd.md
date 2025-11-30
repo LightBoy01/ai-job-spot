@@ -9,47 +9,43 @@ postedDate: '2025-11-28T01:34:45.000Z'
 expirationDate: null
 tags:
   - Accounts Receivable
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/debitorenbuchhalter-munich-321874
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a friendly and collaborative environment with flat
+  hierarchies, emphasizing strong team spirit. It supports work-life balance
+  through regulated hours and hybrid home office options, while also providing
+  ample opportunities for professional and personal growth.
+story_question1: >-
+  How does the Accounts Receivable Accountant role directly contribute to the
+  firm's global financial health and compliance?
+story_answer1: >-
+  From my seat, the Accounts Receivable Accountant isn't just about crunching
+  numbers; it's about being a crucial part of our global financial heartbeat.
+  You're not just sending invoices; you're ensuring the seamless flow of funds
+  that fuels our international operations. The collaboration with the compliance
+  team is key, ensuring we navigate the complexities of international finance
+  smoothly. It's rewarding to see how your meticulous work directly supports our
+  firm's stability and growth, and you're never alone – the team here is
+  incredibly supportive, always ready to jump in and collaborate.
+story_question2: >-
+  With the mention of continuous development and a collaborative environment,
+  what does a typical growth path look like for someone in this role, and how
+  does the team support that?
+story_answer2: >-
+  Growth here is genuinely encouraged. While you'll master the core
+  responsibilities, the firm provides numerous internal training opportunities
+  to deepen your expertise, whether it's advanced accounting practices or
+  specialized software. What truly helps, though, is the open culture. Our flat
+  hierarchies mean you can easily connect with more experienced colleagues or
+  even partners, learning from their insights. We often cross-train and share
+  knowledge, making sure everyone feels empowered to take on new challenges and
+  build their career within the firm.
 ---
-Gestalte deine Zukunft in einer Kanzlei mit globaler Ausrichtung –  
-wo anspruchsvolle Mandate und persönliche Entwicklung Hand in Hand gehen.
-
-Im Auftrag unseres Kunden in München suchen wir Sie zum nächstmöglichen Zeitpunkt als „**Debitorenbuchhalter (m/w/d)**“.
-
-**Aufgaben**
-------------
-
-*   Als **Debitorenbuchhalter (m/w/d)** übernehmen Sie die Verantwortung für die Rechnungsstellung im In- und Ausland
-*   Dabei unterstützen Sie bei Monats- und Jahresabschlüssen sowie der laufenden Finanzbuchhaltung
-*   Sie bearbeiten und korrigieren erfasste Zeiteinträge im Abrechnungssystem
-*   Zudem erstellen und analysieren Sie Umsatzreports und wirken an Forecast-Reportings mit
-*   Sie prüfen den Mahnlauf, koordinieren Revenuegespräche und arbeiten eng mit dem Compliance-Team zusammen
-
-**Qualifikation**
------------------
-
-*   Sie haben eine erfolgreich abgeschlossene Berufsausbildung im kaufmännischen Bereich z.B. als Industriekaufmann (m/w/d), Bürokaufmann (m/w/d), Fremdsprachenkorrespondent (m/w/d) oder eine vergleichbare Qualifikation
-*   Idealerweise konnten Sie bereits Berufserfahrung als Buchhalter (m/w/d), Debitorenbuchhalter (m/w/d) oder in einer vergleichbaren Position sammeln
-*   Sie überzeugen durch Ihre Zuverlässigkeit sowie einer strukturierten und eigenverantwortliche Arbeitsweise
-*   Der sichere Umgang mit den gängigen MS-Office-Programmen zeichnet Sie aus
-*   Sehr gute Deutsch- und gute Englischkenntnisse runden Ihr Profil ab
-
-**Benefits**
-------------
-
-*   **Work-Life-Balance:** Freuen Sie sich auf geregelte Arbeitszeiten mit anteiligen Homeoffice-Möglichkeiten
-*   **Teamspirit**: Sie erwartet eine freundliche und kollegiale Unternehmenskultur sowie flache Hierarchien
-*   **Entwicklung:** Firmenintern werden Ihnen zahlreiche Möglichkeiten zur beruflichen und persönlichen Weiterbildung geboten
-*   **Arbeitsumfeld:** In München erwarten Sie moderne Büroräume
-*   **Events:** Freuen Sie sich auf einzigartige Teamevents
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Franziska Wild** gerne unter **089 954 287 104** zur Verfügung.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nOur client, a globally oriented law firm in Munich, is seeking an Accounts Receivable Accountant (m/f/d) to join their team as soon as possible. This role is crucial for managing domestic and international invoicing, supporting month and year-end closings, and contributing to the ongoing financial accounting processes. You will play a vital part in maintaining the financial health of the firm by ensuring accurate billing and timely collections, all within a supportive and development-focused environment.\n\n### Responsibilities\n*   Take responsibility for domestic and international invoicing.\n*   Support month-end and year-end closings as well as ongoing financial accounting.\n*   Process and correct recorded time entries in the billing system.\n*   Create and analyze sales reports and participate in forecast reporting.\n*   Review the dunning process, coordinate revenue discussions, and collaborate closely with the Compliance team.\n\n### Qualifications\n*   Successfully completed commercial vocational training (e.g., Industrial Clerk, Office Clerk, Foreign Language Correspondent) or a comparable qualification.\n*   Ideally, professional experience as an Accountant, Accounts Receivable Accountant, or in a comparable position.\n*   Reliable, structured, and independent working style.\n*   Proficient in common MS Office programs.\n*   Very good German and good English language skills.\n\n### Author's Take\nThis is an excellent opportunity for an experienced Accounts Receivable Accountant to join a global law firm in Munich. The role offers a fantastic balance of challenging financial tasks and a supportive environment, promoting both professional and personal growth. With regulated working hours, hybrid home office options, and a friendly, collaborative culture, it's an ideal place for someone seeking stability, development, and strong team spirit. The firm's commitment to work-life balance and continuous learning makes this a truly attractive position for long-term career development.

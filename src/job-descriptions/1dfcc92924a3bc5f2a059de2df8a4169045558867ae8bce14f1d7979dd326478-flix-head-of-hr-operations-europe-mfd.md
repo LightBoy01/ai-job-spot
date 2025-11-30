@@ -8,82 +8,54 @@ applicationLink: >-
 postedDate: '2025-11-29T07:45:11.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/flix/head-of-hr-operations-europe-munich-310837
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a dynamic, collaborative, and growth-oriented culture with
+  a strong emphasis on ownership and innovation, supported by robust learning
+  and development programs. They offer a hybrid work model, promote work-life
+  balance through perks like "Work from (M)Anywhere" and wellbeing support, and
+  encourage employees to take initiative and shape their career paths.
+story_question1: >-
+  How does the Head of HR Operations Europe directly contribute to Flix's
+  mission of making travel more accessible, sustainable, and affordable,
+  particularly through enhancing the employee experience across diverse European
+  markets?
+story_answer1: >-
+  That's a fantastic question! As the Head of HR Operations, you're not just
+  managing processes; you're building the backbone that supports our entire
+  European workforce. Think about it: our drivers, our tech teams, our customer
+  service – they're all integral to our mission. By streamlining payroll,
+  ensuring compliance, and creating a truly seamless 'hire-to-retire'
+  experience, you directly empower them to focus on what they do best:
+  connecting people through travel. When our employees feel supported, valued,
+  and unburdened by HR complexities, they're happier, more productive, and
+  ultimately, better equipped to deliver the accessible, sustainable travel
+  solutions Flix is known for. You're essentially optimizing the engine that
+  drives our people-first approach, making a tangible difference in their daily
+  lives and, by extension, in the experience of millions of travelers.
+story_question2: >-
+  Given the company's rapid global expansion, what are the primary challenges
+  and opportunities for this role in standardizing "Hire-to-Retire" processes
+  while navigating the diverse legal and cultural landscapes of Europe?
+story_answer2: >-
+  The rapid expansion truly presents a thrilling challenge. The main hurdle is
+  undoubtedly the incredible mosaic of European employment laws, tax
+  regulations, and cultural nuances. What works perfectly in Germany might be a
+  compliance nightmare in Spain. Your opportunity, however, is to be the
+  architect of a harmonized, yet adaptable, system. You'll lead the charge in
+  identifying common threads, leveraging technology like Workday to automate
+  where possible, and building strong relationships with local teams to ensure
+  buy-in and effective implementation. It's about crafting a core operational
+  excellence framework that can flex and adapt, ensuring our growth is
+  sustainable and compliant, while also enhancing the employee journey at every
+  touchpoint. This isn't just about process; it's about intelligent, empathetic
+  global integration.
 ---
-At Flix, we offer a dynamic work environment with competitive pay, strong growth opportunities, and a tech-driven approach to making travel more accessible, sustainable, and affordable.
-
-The Head of HR Operations Europe (m/f/d) will play a key role in shaping the People Operations unit, driving operational excellence, and leading international teams. This role reports directly to the Director of People Europe and India and is responsible for enhancing employee experience, compliance, and process efficiency across the region. 
-
-### **About the Role**
-
-**Leadership and Management:**
-
-*   Lead the People Operations Teams and Specialists directly and indirectly across Europe 
-
-**Operational Excellence:**
-
-*   Develop and implement a People Operations strategy with a particular focus on consistent, accurate and compliant payroll, benefits and mobility administration, to enhance operational excellence, streamlining processes and ensuring efficiency
-*   Ensure the efficient, effective and compliant delivery of People Operations services across all European regions, including employee lifecycle management, HR\-, payroll-, tax- compliance, payroll, mobility, benefits, and HRIS management
-*   Drive optimization and excellence in payroll processes across Europe, ensuring local teams and external payroll providers deliver high standards in areas such as Payroll Data Preparation, Validation, Third-Party Coordination, Payroll Review, Discrepancy Resolution, Financial Reporting, Data Privacy, Reconciliation, Post-Payroll Processing (including employee queries), Audit Reviews, and KPI Tracking
-*   Standardize and optimize "Hire-to-Retire" People Operations processes to ensure consistency, efficiency, and compliance across all regions in close alignment and partnership with the HR Tech team
-*   Lead initiatives to enhance employee experience and engagement through streamlined processes and responsive HR support
-
-**Global Collaboration:**
-
-*   Build and maintain strong relationships with regional HR teams, People Partners, Talent Acquisition teams, Compensation & Benefits, People Experience, Finance and Accounting stakeholders and Business Leaders to ensure alignment and support for global People Operations initiatives
-*   Act as a key point of contact for regional HR teams, providing strategic guidance and support on complex People Operations issues, local and global, internal and external audits as well as internal and external reporting
-*   Lead and guide the external payroll service provider, monitor and evaluate their performance to enhance quality and efficiency
-*   Ensure that necessary information to Accounting is provided, related to pensions and personnel-related provisions
-
-**Change Management:**
-
-*   Drive and support transformation towards more efficient, streamlined and excellent People Operations standards, ensuring that People Operations processes are adaptable and scalable to meet the evolving needs of the business
-*   Lead communication and training initiatives related to People Operations transformation, ensuring that teams are well-prepared, informed, and fully engaged, keeping all stakeholders aligned and up to date
-
-**Compliance and Risk Management:**
-
-*   Ensure compliance with local, regional, and global employment laws and payroll tax regulations, mitigating risks and ensuring that People Operations practices are legally sound
-*   Develop and maintain global HR policies and procedures that are aligned with the company's values and strategic objectives
-
-### **About You**
-
-*   Proven experience (12+ years) in a senior People Operations role, with a strong focus on European markets and international HR management
-*   Demonstrated success in leading and developing high-performing teams, both directly and indirectly, across multiple regions
-*   In-depth knowledge of HR operations, including employee lifecycle management, HR compliance, payroll, taxation, social security contributions and benefits administration
-*   Strong understanding of global employment laws and regulations, with the ability to navigate complex compliance issues, as well as navigate the teams through internal and external audit processes
-*   Exceptional leadership, communication, and interpersonal skills, with the ability to influence and engage stakeholders at all levels
-*   Strategic thinker with a hands-on approach to problem-solving and process improvement
-*   Experience with HRIS (ideally Workday) and other HR technologies, with the ability to leverage data, systems and AI to drive operational efficiency
-*   Ability to manage change and organisational transformations effectively and lead People Operations initiatives in a dynamic, fast-paced environment
-*   Fluent in English and German; additional languages are a plus
-
-We recognize that everyone carries a unique set of valuable skills and experiences. If you think you could have an impact even though you don't meet 100% of the requirements, we still encourage you to apply. We want to hear from you! 
-
-### **What We Offer**
-
-*   **Travel perks**: 12 free Flix vouchers + 12 discount vouchers for friends & family. 
-*   **Work from (M)Anywhere**: Depending on your role, work from another location for up to 60 days per year. 
-*   **Hybrid work model:** We are an office-first company, but we offer flexibility to balance work and life. 
-*   **Wellbeing support**: Access confidential 1:1 counselling, courses, and stress management for yourself and up to four family members.
-*   **Learning & Development****:** Take advantage of language classes, training courses, and expert-led sessions to grow your skills. 
-*   **Mentoring Program****:** Connect with experienced colleagues to gain insights and accelerate your career. 
-
-* * *
-
-### **Why Join Flix?**
-
-At Flix, you'll find teams that rally together to overcome challenges and spark creativity. We believe in ownership culture - giving you the freedom to take initiative, make an impact, and shape your own career path.  
-As we continue to expand across the globe, you can make a real difference in how we work.
-
-If you're ready to grow and lead your journey, Flix is the place for you! 
-
-[:](https://www.youtube.com/watch?v=YlHz7TiiRAw)**bid**
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAt Flix, we offer a dynamic work environment with competitive pay, strong growth opportunities, and a tech-driven approach to making travel more accessible, sustainable, and affordable.\n\nThe Head of HR Operations Europe (m/f/d) will play a key role in shaping the People Operations unit, driving operational excellence, and leading international teams. This pivotal role reports directly to the Director of People Europe and India and is responsible for enhancing employee experience, compliance, and process efficiency across the region.\n\nFlix fosters an ownership culture where teams rally together to overcome challenges, spark creativity, and make a real difference as the company expands globally. We support your journey with excellent benefits, including travel perks (free Flix vouchers + discounts for friends/family), a flexible hybrid work model and \"Work from (M)Anywhere\" options, comprehensive wellbeing support, and robust learning & development opportunities like language classes and a mentoring program. Join Flix to lead your own journey and make a tangible impact.\n\n### Responsibilities\n**Leadership and Management:**\n* Lead the People Operations Teams and Specialists directly and indirectly across Europe.\n\n**Operational Excellence:**\n* Develop and implement a People Operations strategy focusing on consistent, accurate, and compliant payroll, benefits, and mobility administration.\n* Ensure efficient, effective, and compliant delivery of People Operations services across all European regions, including employee lifecycle management, HR-, payroll-, tax- compliance, payroll, mobility, benefits, and HRIS management.\n* Drive optimization and excellence in payroll processes across Europe, ensuring high standards from local teams and external providers in areas like Data Preparation, Validation, Third-Party Coordination, Payroll Review, Discrepancy Resolution, Financial Reporting, Data Privacy, Reconciliation, Post-Payroll Processing (including employee queries), Audit Reviews, and KPI Tracking.\n* Standardize and optimize \"Hire-to-Retire\" People Operations processes for consistency, efficiency, and compliance across all regions, in close alignment with the HR Tech team.\n* Lead initiatives to enhance employee experience and engagement through streamlined processes and responsive HR support.\n\n**Global Collaboration:**\n* Build and maintain strong relationships with regional HR teams, People Partners, Talent Acquisition, Compensation & Benefits, People Experience, Finance, Accounting, and Business Leaders to ensure alignment on global People Operations initiatives.\n* Act as a key point of contact for regional HR teams, providing strategic guidance and support on complex People Operations issues, audits, and reporting.\n* Lead and guide external payroll service providers, monitoring and evaluating their performance.\n* Ensure necessary information related to pensions and personnel-related provisions is provided to Accounting.\n\n**Change Management:**\n* Drive and support transformation towards more efficient, streamlined, and excellent People Operations standards, ensuring adaptability and scalability.\n* Lead communication and training initiatives related to People Operations transformation, ensuring teams are informed, engaged, and aligned.\n\n**Compliance and Risk Management:**\n* Ensure compliance with local, regional, and global employment laws and payroll tax regulations, mitigating risks.\n* Develop and maintain global HR policies and procedures aligned with company values and strategic objectives.\n\n### Qualifications\n* Proven experience (12+ years) in a senior People Operations role, with a strong focus on European markets and international HR management.\n* Demonstrated success in leading and developing high-performing teams, both directly and indirectly, across multiple regions.\n* In-depth knowledge of HR operations, including employee lifecycle management, HR compliance, payroll, taxation, social security contributions, and benefits administration.\n* Strong understanding of global employment laws and regulations, with the ability to navigate complex compliance issues and audit processes.\n* Exceptional leadership, communication, and interpersonal skills, with the ability to influence and engage stakeholders at all levels.\n* Strategic thinker with a hands-on approach to problem-solving and process improvement.\n* Experience with HRIS (ideally Workday) and other HR technologies, with the ability to leverage data, systems, and AI for operational efficiency.\n* Ability to manage change and organizational transformations effectively and lead People Operations initiatives in a dynamic, fast-paced environment.\n* Fluent in English and German; additional languages are a plus.\n\n### Author's Take\nThis is a pivotal leadership role for a seasoned HR Operations professional looking to make a significant impact across a rapidly expanding, international organization. The Head of HR Operations Europe will not only drive strategic improvements in efficiency, compliance, and employee experience but also lead and develop diverse teams across a complex European landscape. Flix offers a dynamic, collaborative \"ownership culture\" where your expertise in global HR operations and change management will be crucial in shaping the future of People Operations. With a strong emphasis on growth, learning, and employee well-being, this role provides an excellent platform to lead critical transformations and directly contribute to the company's mission. Flix explicitly encourages applications from candidates who may not meet 100% of the requirements but believe they can bring valuable skills and experience.

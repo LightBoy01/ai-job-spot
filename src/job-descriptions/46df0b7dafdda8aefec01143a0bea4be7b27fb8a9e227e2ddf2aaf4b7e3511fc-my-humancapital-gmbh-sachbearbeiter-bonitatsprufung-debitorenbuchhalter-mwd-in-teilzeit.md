@@ -9,45 +9,60 @@ postedDate: '2025-11-28T01:34:55.000Z'
 expirationDate: null
 tags:
   - Accounts Receivable
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/sachbearbeiter-bonitatsprufung-debitorenbuchhalter-in-teilzeit-ismaning-249049
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a positive, collaborative environment with a 'Du-Kultur'
+  and trust from leadership, supported by flexible working hours and home office
+  options for a good work-life balance. Employees are encouraged to grow through
+  numerous development opportunities.
+story_question1: >-
+  How does this role directly contribute to the company's financial security and
+  integrity, especially given the fraud detection and legal coordination
+  aspects?
+story_answer1: >-
+  From my perspective, this role is far more than just processing numbers;
+  you're truly on the front lines of protecting our company's financial health.
+  When you're manually reviewing credit inquiries and spotting potential fraud,
+  you're directly preventing losses and ensuring we make sound business
+  decisions. What's really impactful is the trust placed in you to coordinate
+  with police and prosecutors, stepping up as a witness if needed. It's a
+  sensitive area, but it shows how much value we place on a secure and
+  transparent process, and how much leadership trusts us to handle critical
+  situations with diligence and care. It's challenging, but incredibly rewarding
+  to know you're safeguarding the business.
+story_question2: >-
+  Given the focus on optimizing processes and collaborating with the Accounts
+  Receivable team and Competence Center, what kind of initiatives or projects
+  can a new Credit Check Specialist expect to contribute to beyond their daily
+  tasks?
+story_answer2: >-
+  What I love about our team is that we're always looking to improve. Beyond
+  your core responsibilities, you'll actively participate in dialogues with the
+  Accounts Receivable team and our Competence Center. For instance, we recently
+  refined our fraud detection checklists based on insights from the Credit Check
+  Specialist team, making our process even more robust. You won't just follow
+  procedures; you'll have the opportunity to suggest improvements, helping us
+  streamline workflows and enhance our overall efficiency. It's a very
+  collaborative environment where your ideas are genuinely heard and can lead to
+  tangible improvements.
+story_question3: >-
+  How does the company support long-term professional development and career
+  growth for an individual contributor in this specialized area?
+story_answer3: >-
+  The company genuinely invests in its people for the long haul. As an
+  individual contributor in this specialist area, you'll find ample support for
+  both your professional and personal development. We have internal training
+  programs, and they're very open to external certifications relevant to credit
+  checking, fraud analysis, or even specific software skills like advanced Excel
+  or SAP. They want you to grow, stay sharp, and feel challenged, so there's
+  always a path to deepen your expertise or even explore related areas within
+  finance. It's not just a job; it's a career where your growth is truly valued.
 ---
-Im Auftrag unseres Partnerunternehmens in Ismaning suchen wir Sie zum nächstmöglichen Zeitpunkt als **„Sachbearbeiter Bonitätsprüfung / Debitorenbuchhalter (m/w/d)“ in Teilzeit.**
-
-**Aufgaben**
-------------
-
-*   Als **Sachbearbeiter Bonitätsprüfung / Debitorenbuchhalter (m/w/d)** prüfen Sie manuell Bonitätsauskünfte und bewerten Kreditfähigkeiten
-*   Dabei verantworten Sie die Bearbeitung von Prüflisten zur Betrugserkennung und sorgen für einen sicheren und nachvollziehbaren Prüfprozess
-*   Sie bearbeiten Service Requests im System und dokumentieren alle relevanten Fälle fachgerecht
-*   Sie koordinieren Anfragen von Polizei und Staatsanwaltschaft und treten ggf. als Zeuge in gerichtlichen Verfahren auf
-*   Zudem arbeiten Sie eng mit den Debitoren und dem Competence Center zusammen, um Abläufe zu optimieren und Informationen auszutauschen
-
-**Qualifikation**
------------------
-
-*   Sie bringen eine abgeschlossene kaufmännische Ausbildung, z. B. als Kaufmann für Büromanagement (m/w/d), Industriekaufmann (m/w/d), Großhandelskaufmann (m/w/d) oder eine vergleichbare Qualifikation mit
-*   Idealerweise kennen Sie sich im B2C-Bonitätsprüfungs-Umfeld aus und verfügen über Erfahrung in der Betrugserkennung
-*   Sie sind versiert im Umgang mit MS Office, insbesondere Excel; wünschenswerterweise haben Sie bereits mit SAP gearbeitet
-*   Zudem ist eine strukturierte, sorgfältige und analytische Arbeitsweise für Sie selbstverständlich
-*   Sichere Deutschkenntnisse runden Ihr Profil ab
-
-**Benefits**
-------------
-
-*   **Langfristige Jobmöglichkeit:** Das Unternehmen sucht langfristige Unterstützung im Rahmen einer unbefristeten Festanstellung
-*   **Work-Life-Balance:** Flexible Arbeitszeiten bei einer 20- bis 30-Stunden-Woche sowie anteilige Homeoffice-Möglichkeit
-*   **Wertschätzende Arbeitskultur:** Die Abteilung legt großen Wert auf ein positives Miteinander. Sie erwartet eine Du-Kultur und ein spürbares Vertrauen der Führungskräfte.
-*   **Zahlreiche Weiterbildungs- und Entwicklungsmöglichkeiten**: Ihre fachliche und persönliche Weiterbildung wird unterstützt.
-*   **Modernes Umfeld**: Sie erwartet eine moderne Arbeitsumgebung, mit neuesten Gerätschaften und eine top Kantine.
-*   **Exklusive Vergünstigungen und Mitarbeiterrabatte**: Ihr Geldbeutel freut sich - denn Sie können bei mehreren Hundert Partnerunternehmen vergünstigt einkaufen.
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Veronica Wild** gerne unter **089 954 287 106** zur Verfügung.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nThis part-time position (20-30 hours/week) is for a Credit Check Specialist / Accounts Receivable Accountant in Ismaning, Germany. The role involves diligently conducting manual credit assessments, identifying fraud, and ensuring secure financial processes. You will also provide essential administrative support and collaborate with internal departments to optimize workflows.\n\n### Responsibilities\n- As a Credit Check Specialist / Accounts Receivable Accountant (m/f/d), you will manually review credit information and assess creditworthiness.\n- You will be responsible for processing fraud detection checklists, ensuring a secure and traceable review process.\n- You will handle service requests in the system and professionally document all relevant cases.\n- You will coordinate inquiries from the police and public prosecutor's office, potentially acting as a witness in court proceedings.\n- You will also collaborate closely with the Accounts Receivable team and the Competence Center to optimize processes and exchange information.\n\n### Qualifications\n- Completed commercial training, e.g., as an office management clerk, industrial clerk, wholesale clerk, or a comparable qualification.\n- Ideally, experience in B2C credit assessment and fraud detection.\n- Proficiency in MS Office, especially Excel; SAP experience is a plus.\n- A structured, diligent, and analytical approach to work is self-evident.\n- Fluent German language skills complete your profile.\n\n### Author's Take\nThis is a compelling opportunity for a meticulous individual seeking a stable, part-time role with significant impact. The company clearly values its employees, offering a supportive \"Du-Kultur\" and leadership trust, alongside excellent work-life balance through flexible hours and home office options. With a focus on continuous learning and a modern work environment, this position not only offers professional growth in a critical financial function but also a truly positive and appreciative workplace culture. The explicit mention of long-term employment and development opportunities makes this an attractive choice for someone looking to build a career in credit management and fraud detection.

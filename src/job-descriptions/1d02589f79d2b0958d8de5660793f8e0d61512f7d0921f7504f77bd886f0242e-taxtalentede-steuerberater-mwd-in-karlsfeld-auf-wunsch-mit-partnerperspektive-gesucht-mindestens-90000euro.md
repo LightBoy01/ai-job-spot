@@ -12,67 +12,53 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '$90,000 - $130,000'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-karlsfeld-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-155618
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a positive and appreciative work environment with a strong
+  emphasis on continuous professional development and clear paths to
+  partnership. It champions flexibility, offering remote work options and
+  flexible hours, alongside modern digital tools and a supportive team culture
+  that encourages collaboration and regular social events.
+story_question1: >-
+  Given the emphasis on individually selecting tasks and the optional team
+  leadership, how does the firm ensure a cohesive service delivery while
+  fostering individual growth and autonomy for its Tax Advisors?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of our culture
+  here. We believe our strength comes from empowering our tax advisors. When you
+  join us, you'll find a supportive environment where your expertise is
+  genuinely valued. We have a robust internal knowledge-sharing system and
+  regular team meetings, but beyond that, we trust our professionals to manage
+  their client portfolios and projects with a high degree of autonomy. The
+  'optional' team leadership isn't just a tacked-on responsibility; it's a
+  natural progression for those who want to mentor and shape the next
+  generation. We've seen that by allowing our advisors to craft their roles
+  around their strengths and passions, they deliver exceptional, highly
+  specialized advice, which ultimately benefits our clients and keeps everyone
+  engaged and growing.
+story_question2: >-
+  With the promise of 'industry-level salaries' and 'partner perspective,' how
+  does the firm concretely support the long-term career aspirations and
+  financial well-being of its tax advisors beyond the initial compensation?
+story_answer2: >-
+  It’s true, we’re committed to offering remuneration that reflects the high
+  caliber of our talent, putting us on par with industry standards, not just
+  typical law firm compensation. But it goes deeper than that. The 'partner
+  perspective' isn't just a marketing phrase; it’s a tangible career path for
+  those who demonstrate exceptional leadership, client development, and
+  strategic thinking. We provide extensive support for further specialist
+  qualifications, covering costs and time, because we know your growth is our
+  growth. Plus, our net wage optimization schemes and generous benefits like
+  home office flexibility and team events aren’t just perks—they’re designed to
+  enhance your overall quality of life and financial health, fostering a sense
+  of belonging and long-term commitment. We want our advisors to build their
+  legacy with us, both professionally and personally.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Karlsfeld .
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nThe job is for a Tax Advisor (m/w/d) at a partner law firm in Karlsfeld, facilitated by TaxTalente, a leading job-matching platform in tax consulting. This role offers a unique opportunity for experienced professionals seeking significant career progression, including potential partnership. The firm values personal and financial appreciation, a positive work environment, and provides extensive development opportunities. Candidates will benefit from flexible work arrangements, modern digital tools, and a supportive team culture.\\n\\n### Responsibilities\\n- Prepare and review annual financial statements.\\n- Draft tax declarations for both partnerships and corporations.\\n- Lead special tax consulting projects based on individual expertise, such as in inheritance tax or corporate restructuring tax law.\\n- Support and accompany clients during tax audits.\\n- *Optional:* Take on team leadership and personnel responsibility.\\n- Engage in other individually selectable areas of activity that align with personal interests and bring professional satisfaction.\\n\\n### Qualifications\\n- Possess excellent communication skills and enjoy interacting with clients.\\n- Demonstrate a careful, efficient, and conscientious approach to work.\\n- Be open and adapt to a modern, digital work environment.\\n- *Optional:* Exhibit leadership understanding and a strong sense of responsibility towards colleagues.\\n- Successfully completed the German Tax Advisor (Steuerberater) examination.\\n- Show a genuine passion for complex tax topics and challenges.\\n\\n### Author's Take\\nThis is an outstanding opportunity for a qualified Tax Advisor looking to significantly advance their career within a forward-thinking law firm. TaxTalente, as the facilitating platform, ensures a highly personalized and efficient job search process, eliminating frustrating interviews and handling salary negotiations. The role itself offers exceptional remuneration ($90,000 - $130,000 per year) and a clear path to partnership, alongside unparalleled flexibility with home office options and support for continuous professional development. The firm fosters a positive, modern, and collaborative environment, enabling professionals to shape their roles based on their strengths. This is ideal for someone passionate about tax, seeking both professional growth and work-life balance in a highly supportive setting.

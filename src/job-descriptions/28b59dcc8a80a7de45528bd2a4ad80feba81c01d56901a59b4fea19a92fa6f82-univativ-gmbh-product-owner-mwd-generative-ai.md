@@ -9,54 +9,50 @@ postedDate: '2025-11-28T13:32:18.000Z'
 expirationDate: null
 tags:
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '€88,000 - €98,000'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/univativ-gmbh/product-owner-generative-ai-stuttgart-176292
 companyLogoUrl: null
+companyCulture: >-
+  The company strongly emphasizes continuous professional development and
+  growth, offering extensive training and certification opportunities. It
+  fosters a collaborative environment, encouraging interdisciplinary teamwork
+  and knowledge sharing to drive innovation, especially in cutting-edge fields
+  like Generative AI.
+story_question1: >-
+  Given the rapid evolution of Generative AI, what are the most exciting
+  strategic challenges this Product Owner will tackle to ensure the solutions
+  developed provide long-term, scalable value across the entire organization?
+story_answer1: >-
+  Oh, that's a fantastic question! As an insider, I can tell you the energy
+  around GenAI here is palpable. The biggest thrill for this PO will be
+  navigating the uncharted waters of a rapidly evolving tech landscape. It's not
+  just about building cool features; it's about pioneering a scalable, secure,
+  and compliant central GenAI tech stack that truly empowers every department.
+  You'll be at the forefront, not just integrating the latest LLMs, but also
+  defining how they create tangible, measurable business value. This role
+  demands foresight and a collaborative spirit, as you'll be working
+  hand-in-hand with our GenAI Competence Center to evangelize best practices and
+  ensure our innovations aren't just one-off projects, but foundational shifts.
+  It's truly a chance to leave a lasting impact on our digital future.
+story_question2: >-
+  How does the company ensure effective collaboration and synergy between the
+  internal agile teams and external GenAI service providers to maintain product
+  consistency and quality?
+story_answer2: >-
+  That's a crucial point, and it's something we've put a lot of thought into.
+  Our approach is deeply integrated. The Product Owner acts as the central
+  orchestrator, not just defining work packages but truly embedding the external
+  partner into our agile processes. This means regular syncs, shared KPIs, and
+  robust quality assurance from day one. We leverage tools like Jira and
+  Confluence to maintain full transparency across all teams, internal and
+  external. The goal is a seamless collaboration where both parties contribute
+  to a unified vision, ensuring consistency and high quality across all GenAI
+  products. It's less about outsourcing and more about an extended, integrated
+  team working towards a common goal, guided by the PO's clear vision.
 ---
-**Baldmöglichst, bis zum 01.07.2027 | 38 Stunden pro Woche | Stuttgart | Energiewirtschaft | Berufserfahrener | 88000 bis 98000 € im Jahr | Projekt-ID A202551689\_1S**
-
-univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
-
-Du möchtest die Zukunft von Generative AI aktiv mitgestalten? Dann übernimm als Product Owner (m/w/d) Generative AI Verantwortung für spannende Use Cases, moderne Technologien und die Zusammenarbeit mit interdisziplinären Teams. Bei uns kombinierst Du technisches Know-how mit agiler Steuerung und schaffst echten Mehrwert für den gesamten Konzern.
-
-Wir geben Deiner Karriere den Kick! Starte erfolgreich bei unserem Kunden aus der Energiebranche durch! In einem innovativen Team hast Du die Möglichkeit, an spannenden Projekten mitzuarbeiten und Dein Wissen stetig zu erweitern! Das klingt nach einer faszinierenden Berufsperspektive? Dann bewirb Dich noch heute!
-
-Aufgaben
---------
-
-*   Du übernimmst die Erhebung, Strukturierung und Priorisierung von Anforderungen und steuerst die Umsetzung in agilen Teams (Scrum/Kanban)
-*   In enger Zusammenarbeit mit Data Scientists (m/w/d), KI-Entwicklern (m/w/d), UX/UI-Designern (m/w/d), IT-Architekten (m/w/d) und weiteren Product Ownern (m/w/d) sorgst Du für Synergien, Konsistenz und Wiederverwendbarkeit
-*   Du steuerst die Zusammenarbeit mit einem bestehenden GenAI-Dienstleister – von der Definition von Arbeitspaketen über die Qualitätssicherung bis hin zu Statusmeetings und Eskalationsmanagement
-*   Mit der Definition von KPIs sowie der Erstellung von Management-Berichten und Präsentationen machst Du den Erfolg der GenAI-Produkte messbar und transparent
-*   Du arbeitest mit einem modernen Tech-Stack (Azure, AWS, Containerisierung, CI/CD, MLOps) und integrierst sowohl Open-Source- als auch kommerzielle LLMs – stets mit Fokus auf Sicherheit, Skalierbarkeit und Compliance
-*   Gemeinsam mit dem GenAI Competence Center unterstützt Du Fachbereiche bei der Umsetzung von Use Cases, stellst einen skalierbaren zentralen Techstack bereit und förderst den Wissensaustausch sowie Best Practices im Konzern
-
-Qualifikation
--------------
-
-*   Ein abgeschlossenes Studium im Bereich Informatik, Wirtschaftsinformatik, Data Science oder eine vergleichbare Qualifikation
-*   Mehrjährige Erfahrung als Product Owner (m/w/d) im digitalen Umfeld sowie fundierte Kenntnisse in KI/ML, insbesondere Generative AI und LLMs
-*   Erfahrung in der Steuerung externer Partner und sicherer Umgang mit agilen Methoden und Tools (z. B. Scrum, Jira, Confluence)
-*   Technisches Verständnis von Cloud-Plattformen (Azure, AWS, GCP), MLOps sowie Grundkenntnisse in Softwareentwicklung und Datenarchitektur
-*   Starke Kommunikations- und Koordinationsfähigkeiten, kombiniert mit strukturierter Arbeitsweise, Eigenverantwortung sowie Innovationsfreude
-*   Mindestens verhandlungssichere Deutschkenntnisse in Wort und Schrift
-
-Benefits
---------
-
-*   Ein Jahreslohn zwischen 88000 € und 98000 €
-*   Wir geben Dir innerhalb von 48 Stunden eine Rückmeldung auf Deine Bewerbung
-*   Mit uns sammelst Du Erfahrung und baust durch verschiedene Projekte Dein berufliches Netzwerk bei verschiedenen Kund:innen auf. Dabei unterstützen wir Dich als Karrierebegleiter (m/w/d)
-*   Wir bilden Dich zum/r Experten/in aus und bieten Dir vielfältige Weiterbildungsmöglichkeiten on und off the Job an (z.B. verschiedene Zertifizierungen und individuelle Weiterbildungen)
-*   Nutze Deine Chance auf eine attraktive Prämie von bis zu 2.000 Euro für unser Programm „Recruit a Friend“
-
-**Wir konnten Dein Interesse wecken? Klasse!**
-
-Wir freuen uns auf Deine Bewerbung
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nUnivativ is a project and personnel service provider that offers exciting jobs to students and graduates at renowned companies. Your career is our mission, as your development is important to us.\n\nDo you want to actively shape the future of Generative AI? Then take on responsibility as a Product Owner (m/f/d) Generative AI for exciting use cases, modern technologies, and collaboration with interdisciplinary teams. Here, you combine technical know-how with agile steering and create real added value for the entire group.\n\nWe give your career a kick! Start successfully with our client in the energy sector! In an innovative team, you have the opportunity to participate in exciting projects and continuously expand your knowledge! Does that sound like a fascinating career perspective? Then apply today!\n\n### Responsibilities\n- Gather, structure, and prioritize requirements, steering implementation within agile teams (Scrum/Kanban).\n- Ensure synergy, consistency, and reusability through close collaboration with Data Scientists, AI Developers, UX/UI Designers, IT Architects, and other Product Owners.\n- Manage collaboration with an existing GenAI service provider, including defining work packages, quality assurance, status meetings, and escalation management.\n- Define KPIs and create management reports and presentations to ensure the measurability and transparency of GenAI product success.\n- Work with a modern tech stack (Azure, AWS, Containerization, CI/CD, MLOps) and integrate both open-source and commercial LLMs, always focusing on security, scalability, and compliance.\n- Support business units in implementing use cases, provide a scalable central tech stack, and foster knowledge exchange and best practices across the group, in collaboration with the GenAI Competence Center.\n\n### Qualifications\n- Completed degree in Computer Science, Business Informatics, Data Science, or a comparable qualification.\n- Several years of experience as a Product Owner in a digital environment, with profound knowledge in AI/ML, especially Generative AI and LLMs.\n- Experience in managing external partners and proficient use of agile methods and tools (e.g., Scrum, Jira, Confluence).\n- Technical understanding of cloud platforms (Azure, AWS, GCP), MLOps, and basic knowledge in software development and data architecture.\n- Strong communication and coordination skills, combined with a structured approach, personal responsibility, and a passion for innovation.\n- Proficient German language skills (at least C1 level) in spoken and written.\n\n### Author's Take\nThis is an exceptional opportunity for a seasoned Product Owner passionate about Generative AI to make a significant impact within a leading company in the energy sector. The role offers the chance to shape cutting-edge AI solutions, working with a modern tech stack and collaborating across diverse, innovative teams. The company prioritizes employee growth, providing extensive training and career support, along with attractive benefits like quick application feedback and a referral bonus. If you're looking to drive innovation and build a scalable AI future, this highly collaborative and growth-oriented environment is for you.

@@ -9,78 +9,51 @@ postedDate: '2025-11-27T16:01:52.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/new-com-media-gmbh/pflicht-praktikum-content-production-munich-456962
 companyLogoUrl: null
+companyCulture: >-
+  New Com offers a dynamic, collaborative, and fun startup environment with flat
+  hierarchies and high professionalism. The company fosters creativity and
+  growth, encouraging team members to bring in their ideas and contribute to
+  projects with significant potential, all while supporting work-life balance
+  through hybrid and flexible work options.
+story_question1: >-
+  How does this entry-level Content Producer role directly contribute to New
+  Com's mission of empowering experts and educating a wide audience through its
+  diverse content formats?
+story_answer1: >-
+  As an insider, I can tell you that even at an entry-level, your fingerprints
+  will be all over our most impactful content. You're not just cutting videos or
+  sound bites; you're shaping the narrative that helps experts reach millions.
+  Imagine taking a raw podcast episode and crafting those compelling social
+  snippets that go viral, or designing visuals that perfectly encapsulate a key
+  learning. Your work directly fuels our growth, giving our experts the platform
+  they deserve and ensuring their valuable insights resonate with our audience.
+  It's incredibly rewarding to see your creative efforts translate into real
+  engagement and learning outcomes, knowing you're a vital part of democratizing
+  knowledge.
+story_question2: >-
+  Given the rapid pace of digital trends and content formats, how does New Com
+  support its content producers in staying innovative and continuously
+  developing their skills?
+story_answer2: >-
+  That's a fantastic question, and it's something we genuinely prioritize here.
+  Being a young startup, we live and breathe innovation. We encourage everyone
+  to bring their ideas to the table – no matter how junior you are. We have
+  regular brainstorms where new trends are dissected, and you'll be actively
+  involved in developing new content ideas and formats based on performance
+  KPIs. Beyond that, the collaborative environment means you're constantly
+  learning from seasoned performance marketers and fellow content creators.
+  Plus, with the sheer variety of tasks – from podcast post-production to paid
+  social ads and organic short-form content – you're always gaining hands-on
+  experience in cutting-edge techniques. We're all about empowering you to
+  experiment, learn, and grow alongside the company, ensuring you're always at
+  the forefront of the content game.
 ---
-🎧🎬 **Podcast-Liebe. Social Skills. Production-Power. Dein Einstieg ins echte Content Game.**
-
-Du liebst Podcasts, deine Bildschirmzeit auf Social ist dir nicht peinlich, kein Trend geht an dir vorbei und du schneidest gerne Content, der richtig performt?
-
-Dann haben wir die perfekte Stelle für dich!
-
-Wir bei New Com sind ein junges Start-up, das Marketing neu denkt. Mit unseren Formaten – dem New Com Podcast, der New Com Academy, dem New Com Summit und weiteren Event- und Community-Formaten – geben wir Expert:innen eine Bühne und wollen, dass so viele Menschen wie möglich von ihnen lernen können.
-
-Aufgaben
---------
-
-🎧 **1\. Podcast Production**
-
-*   Du übernimmst gemeinsam mit unserem Team die komplette Post-Production unserer Podcasts
-*   Schnitt der Podcast-Folgen (Intro, Outro, Ads, Soundoptimierung)
-*   Erstellung von Social Media Snippets
-*   Visuelle & inhaltliche Zusammenfassung wichtiger Learnings (für weitere Plattformen)
-*   Unterstützung bei Themen, Redaktionsplanung & Strukturierung
-
-🎬 **2\. Paid Social Production & Strategy Support**
-
-*   Du arbeitest eng mit unserem Performance Marketing zusammen
-*   Unterstützung bei der Entwicklung von Paid-Strategien & Konzepten
-*   Produktion von Paid Social Video Ads (Meta)
-
-📱 **3\. Organic Social Media Production**
-
-*   Du produzierst organischen Content, der Reichweite & Interaktion bringt
-*   Entwicklung von Content-Ideen & Formaten (basierend auf KPI-Zielen)
-*   Unterstützung bei der Produktion von organischem Social Media Content (vor und hinter der Kamera)
-*   Schnitt & Bearbeitung von Short-Form Content
-*   Erstellung von Statics & CI-konformen Visuals
-*   Planung & Posting der Inhalte
-*   Community-Management (Kommentare & Nachrichten)
-
-✉️ **4\. Newsletter & Mailflows**
-
-*   Unterstützung bei der Erstellung unserer Mail-Flows
-*   Analyse und Ableitung kleiner Learnings (je nach Erfahrungsstand)
-
-Qualifikation
--------------
-
-*   Studium in Medien, Marketing, Kommunikation, Design o. Ä. – oder du überzeugst uns, dass du das nicht brauchst
-*   Erste Erfahrung im Audio- und Videoschnitt (Adobe Creative Cloud o. Ä.)
-*   Interesse an Podcasts, Social Media & digitalen Trends
-*   Selbstständige, zuverlässige und strukturierte Arbeitsweise
-*   Sehr gutes Sprachgefühl & Deutschkenntnisse (mind. C1) in Wort und Schrift
-
-Benefits
---------
-
-*   Ein junges Team mit echtem Startup-Spirit, kollegialer Atmosphäre, flachen Hierarchien und jeder Menge Spaß bei gleichzeitig hoher Professionalität
-*   Tiefe Einblicke in Podcast-, Paid- und Social-Content-Produktion
-*   Vielfältige Möglichkeiten, eigene Ideen einzubringen und an spannenden Projekten mit großem Wachstumspotenzial mitzuwirken
-*   Hybrides Arbeiten mit festen Office-Tagen in München
-*   Flexible Arbeitszeiten und die Möglichkeit zu Remote Work
-*   Modernes, helles Office direkt am Olympiapark – mit Blick über die Stadt und sehr guter ÖPNV-Anbindung
-*   Freie Drinks, Snacks und Kaffee jederzeit im Office
-*   Dein eigenes MacBook für die Arbeit
-
-Wir freuen uns auf deine Bewerbung als (Pflicht-Parktikant:in)
-
-Schick uns deinen Lebenslauf **und sag uns, welcher Podcast und welcher Social Account dich zuletzt richtig inspiriert hat.** 💛
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nDo you love podcasts and are you on the pulse of digital trends? Then you've come to the right place! At New Com, we are a young startup rethinking marketing. We provide a stage for experts through our diverse formats like the New Com Podcast, the New Com Academy, and various event and community formats, to make knowledge accessible to as many people as possible. Join our team and kickstart your career in the real content game.\n\n### Responsibilities\n*   **Podcast Production**: Together with our team, you'll manage the complete post-production of our podcasts, including editing (intro, outro, ads, sound optimization), creating social media snippets, and visually summarizing key learnings for various platforms. You'll also support with topics, editorial planning, and structuring.\n*   **Paid Social Production & Strategy Support**: You will work closely with our Performance Marketing team, assisting in the development of paid strategies and concepts, and producing paid social video ads for platforms like Meta.\n*   **Organic Social Media Production**: You'll produce engaging organic content to boost reach and interaction. This includes developing content ideas and formats based on KPI goals, supporting organic social media content production (both in front of and behind the camera), editing short-form content, creating statics and CI-compliant visuals, planning and posting content, and community management (comments & messages).\n*   **Newsletter & Mailflows**: You will support the creation of our mail flows and assist with analysis and deriving small learnings, depending on your experience level.\n\n### Qualifications\n*   A degree in Media, Marketing, Communication, Design, or a similar field – or you can convince us that formal education isn't necessary.\n*   Initial experience in audio and video editing (e.g., Adobe Creative Cloud).\n*   Strong interest in podcasts, social media, and digital trends.\n*   An independent, reliable, and structured approach to work.\n*   Excellent language skills and German proficiency (at least C1) in both spoken and written communication.\n\n### Author's Take\nThis is an exceptional opportunity for an aspiring content creator to dive deep into the world of digital media within a vibrant Munich-based startup. New Com offers a unique blend of \"Startup-Spirit\" and high professionalism, characterized by a collaborative, fun-loving team and flat hierarchies. You'll gain hands-on experience across a broad spectrum of content production – from podcasts to paid and organic social media – with ample room to contribute your own ideas and grow with the company. The benefits package, including hybrid and flexible work options, a modern office with great views, and free snacks, highlights a strong commitment to employee well-being and a supportive work environment. If you're passionate about podcasts and social media and ready to make a real impact, New Com is eager to hear from you. Don't forget to tell them which podcast and social account have inspired you recently!

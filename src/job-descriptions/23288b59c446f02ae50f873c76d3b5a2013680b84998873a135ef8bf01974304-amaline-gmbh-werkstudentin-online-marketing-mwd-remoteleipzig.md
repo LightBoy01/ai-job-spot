@@ -10,54 +10,67 @@ expirationDate: null
 tags:
   - Remote
   - Marketing Manager
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/amaline-gmbh/werkstudentin-online-marketing-remote-leipzig-zossen-472576
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a flexible, positive, and growth-oriented environment with
+  a focus on continuous learning, teamwork, and autonomy. They value performance
+  and offer unique perks like coworking trips and home office flexibility,
+  promoting a good work-life balance.
+story_question1: >-
+  With such a broad range of responsibilities from Amazon account management to
+  optimizing various ad platforms and website analytics, how does the team
+  ensure consistent focus and effectively measure the cumulative impact of these
+  diverse efforts on client success?
+story_answer1: >-
+  That's a fantastic question, and it gets right to the heart of how we operate.
+  When you join us, you quickly learn that while the tasks are diverse, they all
+  funnel into a clear objective: driving client ROAS and growth. We achieve this
+  by fostering a culture of ownership and smart prioritization. We use agile
+  principles, breaking down large projects into manageable sprints, and we're
+  heavily data-driven. Every week, we review KPIs, not just individual campaign
+  performance, but the holistic impact across all channels. What really makes it
+  work, though, is the open communication. If you hit a roadblock or need to
+  re-prioritize, the team is always there to brainstorm and support. It's about
+  collective success, and seeing our clients thrive is the ultimate measure of
+  our impact.
+story_question2: >-
+  The description mentions taking responsibility from day one and opportunities
+  for rapid growth. What kind of mentorship or support structure is in place to
+  help a new team member effectively navigate such a dynamic and impactful role,
+  especially given the continuous learning expectation?
+story_answer2: >-
+  That's a critical point for us. While we absolutely believe in empowering our
+  team members with significant responsibility from the get-go, we don't just
+  throw you in the deep end. Our 'young and motivated team' culture means
+  exactly that – we thrive on collaboration and mutual support. Every new hire
+  is paired with a seasoned colleague who acts as a mentor, guiding them through
+  the initial learning curve, sharing best practices, and helping them
+  prioritize. We also have regular knowledge-sharing sessions, dedicated
+  training resources, and an open-door policy. You're encouraged to ask
+  questions, challenge ideas, and bring your unique perspective. It's a
+  fast-paced environment, but you'll always feel supported, challenged, and that
+  you're truly growing every single day.
+story_question3: >-
+  With the emphasis on flexible home office work and optional coworking trips,
+  how does the team maintain strong collaboration and a cohesive 'young and
+  motivated' team spirit across different working locations and engagement
+  models?
+story_answer3: >-
+  It's a balance we actively cultivate! While flexibility is a huge benefit, we
+  recognize the importance of staying connected. We utilize a suite of digital
+  collaboration tools for daily stand-ups, project discussions, and even virtual
+  coffee breaks. We also make sure to have regular team-building activities,
+  both virtual and in-person – our coworking trips to Barcelona are a fantastic
+  example, allowing us to deeply connect, share ideas, and build those personal
+  bonds that are harder to forge remotely. It's about intentional effort:
+  fostering an environment where everyone feels heard, valued, and part of
+  something bigger, regardless of where they're working that day.
 ---
-Wenn Du ein Händchen für Zahlen hast, Dich für Online Marketing begeisterst und gerne in einem jungen flexiblen Team arbeitest, suchen wir ab sofort genau Dich.
-
-Aufgaben
---------
-
-*   Betreuung von Amazon Accounts für unsere Kunden in der Produktion und aus dem E-Commerce
-*   Aufbau und Optimierung von Amazon, Google, Bing und Youtube Werbekampagnen
-*   Keywordrecherche und Marktanalyse zur Vorbereitung neuer Kampagnen
-*   Optimierung von Webseiten für Suchmaschinen, wie Google und KI-Modelle, wie ChatGPT
-*   Optimierung von Conversion-optimierten Landing-Pages und Onlineshops
-*   Durchführung und Planung von Aktionen und Abverkaufskampagnen
-*   Onboarding neuer Marketing-Kanäle inklusive Tracking-Implementierung
-*   Website und Produkt-Analyse mit Google Analytics und Microsoft Clarity mit Handlungsempfehlungen
-*   Erstellung von Briefings für weitere Stakeholder und Prüfung der Ergebnisse (IT, Grafik, Text, etc.)
-*   Gesamtportfolio-Analyse und Optimierung zur Steigerung des ROAS
-*   Weitere Aufgaben mit starken Bezug zum Marketing im E-Commerce
-
-Qualifikation
--------------
-
-*   Du hast erweiterte Kenntnisse in Microsoft Excel und weiteren Office-Anwendungen
-*   Im Idealfall Erfahrung in der Betreuung von Amazon Konten / Google Ads / Erstellung von Webseiten oder Social Media Auftritten
-*   Du liebst Herausforderungen und hast den Ehrgeiz jeden Tag ein Stück zu wachsen und bringst diese Begeisterung in deine Arbeit mit ein
-*   Du bringst ein hohes Maß an Selbstständigkeit und Eigenverantwortung mit
-*   Deine Handlungen sind lösungsorientiert und Du meisterst auch knifflige Situationen souverän
-*   Du besitzt die Fähigkeit dich selbstständig zu informieren und dein Wissen an andere weiter zu geben
-*   Freundlichkeit und Selbstsicherheit im Umgang mit Kunden und Geschäftspartnern sind für dich selbstverständlich
-
-Benefits
---------
-
-*   Bei uns übernimmst Du Verantwortung ab Tag 1
-*   Durch den frühen Einstieg, sind gute Karriere-Chancen vorprogrammiert
-*   Arbeite in einem positiven Umfeld mit jungen und motivierten Kollegen
-*   Du lernst jeden Tag dazu und kannst viele neue Eindrücke sammeln
-*   Auf Wunsch nimmst Du an unseren Coworking-Reisen nach Barcelona teil
-*   Freies flexibles Arbeiten aus dem Home-Office
-*   Performance-abhängige Bonuszahlungen nach Probezeit vereinbar
-
-Falls du noch nachdenkst, brauchst du nicht. Bewirb dich einfach jetzt! Sende uns etwas Kreatives und deinen Lebenslauf per E-Mail. Bis bald.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nIf you have a knack for numbers, are passionate about online marketing, and enjoy working in a young, flexible team, we are looking for you immediately to join our dynamic e-commerce marketing team. You'll take on responsibility from day one in a positive, motivated environment that values continuous learning and offers excellent career growth opportunities.\n\n### Responsibilities\n- Manage Amazon accounts for our production and e-commerce clients.\n- Set up and optimize Amazon, Google, Bing, and YouTube advertising campaigns.\n- Conduct keyword research and market analysis to prepare new campaigns.\n- Optimize websites for search engines like Google and AI models like ChatGPT.\n- Optimize conversion-focused landing pages and online shops.\n- Plan and execute promotions and sales campaigns.\n- Onboard new marketing channels, including tracking implementation.\n- Analyze websites and products using Google Analytics and Microsoft Clarity, providing actionable recommendations.\n- Create briefings for other stakeholders (IT, graphics, text, etc.) and review results.\n- Perform overall portfolio analysis and optimization to increase ROAS.\n- Handle additional tasks with a strong focus on e-commerce marketing.\n\n### Qualifications\n- Advanced knowledge of Microsoft Excel and other Office applications.\n- Ideally, experience in managing Amazon accounts, Google Ads, website creation, or social media presences.\n- A love for challenges and the ambition to grow every day, bringing this enthusiasm to your work.\n- A high degree of independence and personal responsibility.\n- A solution-oriented approach, confidently mastering tricky situations.\n- The ability to independently gather information and share your knowledge with others.\n- Friendliness and self-confidence in dealing with customers and business partners are natural for you.\n\n### Author's Take\nThis is an exceptional opportunity for an enthusiastic individual looking to make a significant impact in e-commerce marketing. The company offers a supportive, flexible, and highly motivated work environment, emphasizing early responsibility and clear career progression. With perks like flexible home office options, performance-based bonuses, and even optional coworking trips to Barcelona, it's clear they invest in their team's well-being and growth. If you're eager to learn, take initiative, and contribute to client success from day one, don't hesitate – apply now and send something creative along with your CV!

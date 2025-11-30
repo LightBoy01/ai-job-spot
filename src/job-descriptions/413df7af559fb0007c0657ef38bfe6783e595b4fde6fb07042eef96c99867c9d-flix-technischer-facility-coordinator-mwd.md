@@ -8,52 +8,51 @@ applicationLink: >-
 postedDate: '2025-11-27T21:45:13.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/flix/technischer-facility-coordinator-munchen-270312
 companyLogoUrl: null
+companyCulture: >-
+  Flix offers a modern, dynamic environment with strong growth opportunities and
+  a focus on making travel easy and sustainable. The company values learning,
+  development, and employee well-being, fostering a fast-paced culture where
+  individual contributions are recognized and work-life balance is supported
+  through various benefits.
+story_question1: >-
+  Beyond the day-to-day repairs, how does this 'hands-on' role directly
+  contribute to Flix's mission of making travel easier and more affordable
+  globally, especially given the rapid growth of the company?
+story_answer1: >-
+  It's interesting, isn't it? You might think a craftsman's role is purely about
+  fixing things, but here at Flix, it's far more impactful. Imagine our rapid
+  pace – new ideas, new teams, constant evolution. If our infrastructure isn't
+  running smoothly, if our offices aren't safe and comfortable, that directly
+  hinders our innovators, our customer support, our entire operation. By
+  ensuring everything from the lighting to the networking infrastructure is
+  flawless, you're not just 'repairing' – you're providing the stable foundation
+  that allows thousands of employees to focus on making global travel accessible
+  and sustainable. You're enabling the big picture by perfecting the small
+  details, and that's incredibly rewarding.
+story_question2: >-
+  The description mentions 'versatile development perspectives' and 'Lernen &
+  Entwicklung'. For an individual contributor in a technical, hands-on role,
+  what are some concrete examples of how career growth and skill enhancement are
+  supported at Flix?
+story_answer2: >-
+  That's a fantastic question, and it's something we genuinely prioritize. While
+  your core role is hands-on, the 'versatile development' isn't just for our
+  tech or marketing teams. For our craftsmen, it could mean sponsoring
+  certifications in advanced building technologies, specialized safety training,
+  or even project management courses if you're coordinating larger renovations.
+  We have internal language courses, expert sessions, and a robust mentoring
+  program where you could learn from colleagues with diverse backgrounds. Plus,
+  as we expand and innovate, new infrastructure challenges constantly emerge,
+  providing opportunities to apply new skills and take on more complex, varied
+  projects. Your journey here isn't static; it's about continuously refining
+  your craft and growing into new areas as the company evolves.
 ---
-Bei Flix erwartet dich ein modernes, dynamisches Arbeitsumfeld mit fairer Bezahlung, vielseitigen Entwicklungsperspektiven und der Chance, durch innovative Technologien Reisen weltweit einfacher, nachhaltiger und erschwinglicher zu gestalten.
-
-Um den reibungslosen Betrieb unserer Zentrale in **München** zu sichern, suchen wir einen praxisorientierten **Handwerker (m/w/d),** der/die den technischen Zustand unserer Räumlichkeiten gewährleistet, den täglichen Betrieb unterstützt und Renovierungsprojekte begleitet.
-
-**Über die Rolle**
-
-*   Sicherstellung des reibungslosen technischen Betriebs (Infrastruktur, Versorgung, Sicherheit)
-*   Erste Ansprechperson für technische Anliegen
-*   Durchführung kleiner Reparaturen / Elektroarbeiten und Koordination externer Handwerker, Lieferanten und Vermieter (m/w/d)
-*   Unterstützung bei Renovierungen und Wartungen
-*   Möbelaufbau sowie Unterstützung bei Umzügen und internen Standortetagenwechsel
-*   Überwachung von Einhaltung des Brandschutzes (Arbeitssicherheit) und Dokumentation
-
-**Über Dich**
-
-*   Abgeschlossene technische Ausbildung (z. B. Elektriker (m/w/d), Gebäudetechnik o. Ä.) und mind. 2 Jahre relevante Berufserfahrung
-*   Gute Kenntnisse in Gebäudeinstandhaltung, Elektrotechnik und Handwerk
-*   Starke Kommunikationsfähigkeit im Umgang mit Dienstleistern und Vermietern
-*   Fließendes Deutsch (C1+); Englisch von Vorteil
-*   Sicherer Umgang mit MS Office; AutoCAD / Ticketing von Vorteil
-*   Organisiert, lösungsorientiert und belastbar
-*   Teamgeist, sowie körperliche Eignung (Sicherheit, bis zu 15 kg heben zu können)
-
-Bei uns zählt der Blick auf das Ganze – auch wenn du nicht alle Anforderungen zu 100 % erfüllst, aber dennoch glaubst, etwas bewegen zu können, freuen wir uns auf deine Bewerbung! 
-
-**Was Wir Bieten**
-
-*   Reisevorteile: 12 kostenlose Flix-Gutscheine + 12 Rabattgutscheine für Freunde & Familie.
-*   Gesundheits- und Wohlfühlangebote: Zugang zu vertraulichen Einzelberatungen, Kursen und Stressbewältigungsmaßnahmen – für dich und bis zu vier Familienangehörige.
-*   Lernen & Entwicklung: Nutze Sprachkurse, Schulungen und Experten-Sessions, um deine Fähigkeiten auszubauen.Mentoring-Programm: Vernetze dich mit erfahrenen Kollegen, um Einblicke zu gewinnen und deine Karriere zu beschleunigen.
-
-Um weitere standortspezifische Vorteile für jedes Büro einzusehen, schau dir bitte diesen Link an: [Locations - Flix Career](https://flix.careers/locations/)
-
-* * *
-
-**Warum Teil von Flix werden?**
-
-Bei Flix konzentrieren wir uns darauf, Reisen einfach, sicher und preiswert zu gestalten – sowohl für unsere Passagiere als auch für unsere Mitarbeiter. Hier geht es schnell voran, und es gibt viel Raum, etwas zu bewegen. Wir wachsen und entwickeln uns täglich weiter und suchen Menschen, die bereit sind, sich einzubringen und die Art und Weise, wie wir arbeiten, mitzugestalten.Wenn du einen Job suchst, in dem du wachsen und etwas bewirken kannst, dann bist du bei FlixTrain genau richtig. Hier kannst du Teil eines Teams werden, in dem dein Beitrag zählt und du deine Reise selbst gestalten kannst!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAt Flix, you can expect a modern, dynamic work environment with fair pay, diverse development opportunities, and the chance to make travel worldwide easier, more sustainable, and more affordable through innovative technologies. To ensure the smooth operation of our headquarters in **Munich**, we are looking for a practical **Craftsman (m/f/d)** who will maintain the technical condition of our premises, support daily operations, and assist with renovation projects.\n\n### Responsibilities\n- Ensure smooth technical operation (infrastructure, supply, security)\n- First point of contact for technical concerns\n- Perform minor repairs / electrical work and coordinate external craftsmen, suppliers, and landlords\n- Support with renovations and maintenance\n- Furniture assembly and support with office moves and internal floor changes\n- Monitor compliance with fire protection (occupational safety) and documentation\n\n### Qualifications\n- Completed technical training (e.g., electrician, building technology, or similar) and at least 2 years of relevant professional experience\n- Good knowledge in building maintenance, electrical engineering, and general craftsmanship\n- Strong communication skills in dealing with service providers and landlords\n- Fluent German (C1+); English is a plus\n- Proficient in MS Office; AutoCAD / Ticketing experience is a plus\n- Organized, solution-oriented, and resilient\n- Team spirit and physical fitness (safety, able to lift up to 15 kg)\n\nAt Flix, we value a holistic view – even if you don't meet all requirements 100%, but still believe you can make a difference, we look forward to your application!\n\n### Author's Take\nThis is an excellent opportunity for a skilled and dedicated craftsman to join Flix's fast-paced environment in Munich. The role is crucial for ensuring the smooth daily operations of the headquarters, directly supporting the company's mission to revolutionize travel. Flix fosters a culture of continuous learning and development, offering language courses, expert sessions, and a mentoring program to help employees grow. Beyond professional development, the company deeply cares about employee well-being, providing confidential counseling and stress management resources for employees and their families, alongside attractive travel benefits with free and discounted Flix tickets. This role offers the chance to make a tangible impact, contribute to a global vision, and grow professionally within a supportive and dynamic team where every contribution counts.
