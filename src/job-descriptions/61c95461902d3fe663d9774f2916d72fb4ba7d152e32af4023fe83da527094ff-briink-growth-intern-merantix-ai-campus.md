@@ -9,54 +9,63 @@ postedDate: '2025-11-28T14:01:58.000Z'
 expirationDate: null
 tags:
   - Business Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/briink/growth-intern-merantix-ai-campus-berlin-355005
 companyLogoUrl: null
+companyCulture: >-
+  Merantix fosters a dynamic, collaborative, and community-first environment
+  dedicated to building Europe's leading AI ecosystem. It emphasizes
+  entrepreneurship, growth, open knowledge exchange, and innovation, providing
+  significant opportunities for driven individuals to make a tangible impact.
+story_question1: >-
+  Given the ambition to build Europe's most powerful AI ecosystem, how does the
+  Founder's Associate role directly contribute to shaping the future direction
+  and impact of the Merantix AI Campus and its community?
+story_answer1: >-
+  As a Founder's Associate, you're not just supporting; you're actively at the
+  helm of growth for our Berlin AI Campus. Imagine identifying a crucial
+  emerging trend in AI, then crafting the event that brings together the exact
+  founders, investors, and policymakers who are defining that future. Or
+  envision the ripple effect of a piece of content you've produced, amplifying
+  the groundbreaking work of one of our startups to a global audience. You'll be
+  instrumental in shaping the very conversations and collaborations that make
+  our ecosystem thrive, building bridges between brilliant minds and ensuring
+  our community truly sets the standard for AI innovation in Europe.
+story_question2: >-
+  The job emphasizes building a 'community-first organization'. Can you share an
+  example of how the team fosters genuine collaboration and knowledge exchange
+  within the AI Campus, and how a Founder's Associate would be integral to that?
+story_answer2: >-
+  Absolutely. One of our most impactful initiatives is our monthly 'AI Deep
+  Dive' series. We don't just host speakers; we curate interactive sessions
+  where experts from different AI domains present their latest research or
+  business cases, followed by open discussions and targeted networking. A
+  Founder's Associate would be critical here: from identifying potential
+  speakers and hot topics, to ensuring the event logistics are seamless, and
+  even crafting post-event content that continues the dialogue online. You'd be
+  the person on the ground, connecting attendees, observing feedback, and
+  constantly iterating to ensure these events genuinely foster collaboration and
+  propel our community forward.
+story_question3: >-
+  What does professional growth look like for a Founder's Associate at Merantix,
+  especially given the rapid evolution of the AI space and the entrepreneurial
+  nature of the role?
+story_answer3: >-
+  Growth as a Founder's Associate at Merantix is incredibly organic and driven
+  by your initiative. Because you're exposed to every facet of building an
+  ecosystem – from strategy and marketing to community engagement and project
+  management – you gain a panoramic view of the AI industry. Many of our
+  associates, after proving their capabilities in various high-impact projects,
+  have naturally transitioned into more specialized roles within our growth or
+  marketing teams, or even taken on greater ownership of new initiatives. The
+  entrepreneurial environment means you're encouraged to identify gaps, propose
+  solutions, and ultimately carve out your own path, supported by mentorship
+  from our leadership and the diverse expertise within the entire Merantix
+  ecosystem.
 ---
-What we do
-----------
-
-Our mission is dedicated to building Europe’s most powerful **AI ecosystem**: a platform where the brightest minds come together to transform future-defining ideas into reality. We foster inspiration, open knowledge exchange, and deep collaboration, setting the standard for AI innovation. Being part of our ecosystem means being recognized as a leader, an innovator, and a driving force in shaping the AI age.  
-Our platform is anchored by three flagship initiatives:
-
-*   The Merantix AI Campus in Berlin is a 6,000 sqm hub in the heart of the city, home to over 80 AI startups, investors, industry AI teams, and public organizations. Hosting more than 300 events annually, it brings together founders, operators, industry leaders, investors, and policymakers to dive deep into AI infrastructure and applied AI across sectors such as healthcare, biotech, industrials, and the future of work.
-*   The London AI Hub, our newest initiative and commitment to our pan-European footprint.
-*   The AI House, with its flagship meeting held annually during the World Economic Forum, features contributions from pioneers like Yann LeCun, Andrew Ng, Yoshua Bengio, Raquel Urtasun, and investor Ray Dalio.
-
-Your role
----------
-
-We’re looking for a driven, entrepreneurial mind to join us growing the Merantix AI Campus. As a **Founder’s Associate**, you’ll be at the heart of building an community-first organization - helping drive momentum, excellence, and purpose at the frontier of AI.
-
-You’ll also play a vital role in amplifying the voice of our AI ecosystem by creating compelling, strategic, and educational content for a global audience. You’ll work closely with our marketing team, to showcase and amplify the meaningful work, insights, and people building the future of AI.
-
-Your profile
-------------
-
-*   Work hand-in-hand with the growth team to own, execute, and steer a wide range of high-impact growth projects.
-*   Strengthen relationships with the leading **AI startups, AI infrastructure companies**, investors and industry leaders - building bridges and keeping our community growing.
-*   Shape the topics of our events and initiatives - bringing your ideas to the table to spotlight the most relevant topics and individuals in the world of AI.
-*   Keep our engine running smoothly by ensuring project materials and communication are sharp, timely, and aligned with our stakeholders.
-*   Work hand-in-hand with the marketing team to execute marketing strategies aligned with business and community goals.
-*   Creation of multimedia promotion for events, and producing post-event content (e.g. posters, event recaps, social media posts, photos, video snippets, etc.).
-
-What we offer
--------------
-
-We are looking for extraordinarily driven and capable talent with an outstanding track record. You (are):
-
-*   Driven by entrepreneurship and possess a growth mindset;
-*   Excel at multitasking, prioritizing, and proactively finding creative solutions to drive results;
-*   You have solid knowledge of marketing, content creation, graphic design, social media, or video production;
-*   Have previously at least done one internships in a similar environment;
-*   Demonstrate strong analytical and communication skills, with an in-depth attention to detail;
-*   You are comfortable navigating and discussing topics related to AI and innovation, and are curious to dive deeper into the space.
-*   You are experienced with common design and production tools such as Photoshop, Lightroom, AfterEffects, Canva, Figma, etc; and
-*   Based in Berlin.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nMerantix is dedicated to building Europe’s most powerful AI ecosystem, fostering inspiration, open knowledge exchange, and deep collaboration. This platform is anchored by flagship initiatives like the 6,000 sqm Merantix AI Campus in Berlin, which hosts over 80 AI startups and 300+ events annually, the London AI Hub, and the AI House at the World Economic Forum.\n\nAs a Founder’s Associate, you will be a driven, entrepreneurial mind at the core of growing the Merantix AI Campus. Your role involves driving momentum, excellence, and purpose within this community-first organization. You will also play a vital part in amplifying the voice of the AI ecosystem by creating compelling, strategic, and educational content for a global audience, working closely with the marketing team to showcase groundbreaking work and insights.\n\n### Responsibilities\n- Work hand-in-hand with the growth team to own, execute, and steer a wide range of high-impact growth projects.\n- Strengthen relationships with leading AI startups, AI infrastructure companies, investors, and industry leaders to build bridges and grow the community.\n- Shape the topics of events and initiatives, bringing fresh ideas to spotlight relevant AI subjects and individuals.\n- Ensure project materials and communication are sharp, timely, and aligned with stakeholders to keep the engine running smoothly.\n- Collaborate closely with the marketing team to execute marketing strategies aligned with business and community goals.\n- Create multimedia promotions for events and produce engaging post-event content (e.g., posters, event recaps, social media posts, photos, video snippets).\n\n### Qualifications\n- Driven by entrepreneurship and possess a growth mindset.\n- Excel at multitasking, prioritizing, and proactively finding creative solutions to drive results.\n- Solid knowledge of marketing, content creation, graphic design, social media, or video production.\n- Previously completed at least one internship in a similar environment.\n- Demonstrate strong analytical and communication skills, with an in-depth attention to detail.\n- Comfortable navigating and discussing topics related to AI and innovation, with a curiosity to dive deeper into the space.\n- Experienced with common design and production tools such as Photoshop, Lightroom, AfterEffects, Canva, Figma, etc.\n- Based in Berlin.\n\n### Author's Take\nThis Founder's Associate role at Merantix offers an exceptional opportunity for an ambitious and entrepreneurial individual passionate about AI and community building. It provides significant hands-on experience in a fast-paced, high-impact environment, directly contributing to the growth and visibility of Europe's leading AI ecosystem. Ideal for a junior professional seeking a role with broad exposure, creative freedom, and the chance to make a tangible difference in shaping the future of AI.

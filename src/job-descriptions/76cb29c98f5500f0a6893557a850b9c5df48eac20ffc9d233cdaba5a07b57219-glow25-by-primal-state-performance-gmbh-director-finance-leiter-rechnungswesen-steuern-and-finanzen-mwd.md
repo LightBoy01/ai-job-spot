@@ -10,78 +10,78 @@ expirationDate: null
 tags:
   - Remote
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Director
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/glow25-by-primal-state-performance-gmbh/director-finance-leiter-rechnungswesen-steuern-finanzen-rottendorf-21794
 companyLogoUrl: null
+companyCulture: >-
+  Glow25 fosters a dynamic, supportive, and growth-oriented culture where work
+  is fun and inspiring. They prioritize employee well-being with generous
+  benefits and professional development through their 'Glowcademy.' The company
+  values smart, empathetic individuals who take ownership, promoting a strong
+  sense of community and diversity, as reflected in their consistent 'Top
+  Company' recognition.
+story_question1: >-
+  Given Glow25's ambitious expansion into new European markets, how does the
+  Director Finance role strategically balance ensuring robust financial
+  compliance and control with enabling agile, rapid growth and innovation?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what makes
+  this role so pivotal here at Glow25. As the Director Finance, you're not just
+  a guardian of our financial health; you're truly an architect of our future.
+  We see finance as a strategic enabler, not a bottleneck. Your impact will be
+  in building scalable, future-proof financial systems and processes that not
+  only ensure regulatory compliance but actively support our dynamic D2C growth.
+  Imagine creating the financial backbone that allows us to confidently launch
+  into new European markets, knowing we have the transparency, liquidity, and
+  control in place. It’s about leveraging technology and smart processes to free
+  up our collective energy to innovate and deliver 'Glow-Moments' to an
+  ever-wider community. The culture here thrives on smart, empathetic
+  individuals who take ownership, and in finance, that means owning both the
+  rigor and the vision for expansion.
+story_question2: >-
+  Glow25 clearly values growth and continuous learning, as highlighted by the
+  'Glowcademy.' How does the Director Finance actively champion professional
+  development within their team, and what opportunities exist for a leader in
+  this role to contribute to the broader company's learning culture?
+story_answer2: >-
+  You've hit on one of our core tenets! 'Weiterkommen leicht gemacht' (making
+  progress easy) isn't just a tagline; it's deeply embedded in how we operate.
+  As Director Finance, you're not just managing a department; you're cultivating
+  talent. We expect our leaders to be mentors, to foster a culture of curiosity
+  and continuous improvement within their teams. This means not only providing
+  access to our Glowcademy and dedicated learning time but also actively
+  coaching, delegating challenging projects, and encouraging cross-functional
+  exposure. For you, it means the chance to build and shape a high-performing
+  finance team, developing future leaders and specialists. Beyond your team,
+  your insights from navigating complex financial landscapes will be invaluable
+  in shaping company-wide strategies, making you a key contributor to the
+  collective intelligence of Glow25.
+story_question3: >-
+  Operating in the regulated D2C supplement sector, the role of Director Finance
+  must navigate significant compliance complexities. How does Glow25 foster a
+  culture where strict regulatory adherence in finance coexists with the agility
+  and innovation expected of a fast-growing D2C brand, especially when expanding
+  internationally?
+story_answer3: >-
+  That's a critical point for a company like ours. We operate in an industry
+  where trust and compliance are non-negotiable, yet our D2C model demands speed
+  and adaptability. The key lies in our approach to process and system design –
+  it's about building 'future-proof' and 'revisionssicher' (audit-proof)
+  foundations from the start, rather than retrofitting. As Director Finance,
+  you'll be instrumental in developing scalable integrated financial processes
+  and digital system landscapes (ERP, Payment, E-Commerce, BI). This isn't just
+  about ticking boxes; it's about embedding compliance *into* our agile
+  workflows, using automation to handle large transaction volumes efficiently,
+  and providing transparent data that empowers quick, informed decisions. It's a
+  collaborative effort, working closely with Legal, Quality/Regulatory Affairs,
+  and Data & Analytics, ensuring that our innovative product launches and
+  international expansions are always underpinned by unwavering financial and
+  regulatory integrity. We believe that robust compliance *enables* sustainable
+  innovation.
 ---
-Willkommen bei Glow25!
-----------------------
-
-Wir sind ein dynamisches, schnell wachsendes Beauty- & Pro-Aging-Unternehmen aus Berlin.
-
-Unsere Herzensmission: Glow-Momente, die bleiben – für unsere Community und für uns als Team.
-
-Arbeit darf bei uns inspirieren, begeistern und Spaß machen. Dafür suchen wir smarte, empathische Menschen, die Verantwortung übernehmen und mit uns wachsen. Werde Teil von Glow25 und hilf uns, Schönheit neu zu definieren. Wir freuen uns auf dich!
-
-Das sind unsere aktuellen Herausforderungen und perspektivischen Ziele:
------------------------------------------------------------------------
-
-Als Director Finance übernimmst du die Gesamtverantwortung für die finanzielle Solidität, Transparenz und Skalierbarkeit unseres dynamisch wachsenden D2C-Unternehmens im Bereich Nahrungsergänzungsmittel. Du stellst sicher, dass die Finanz-Organisation unseres Unternehmens sowohl den regulatorischen Anforderungen als auch den Ansprüchen eines schnell wachsenden, digital getriebenen Geschäftsmodells gerecht wird. In dieser Rolle führst du die Bereiche Accounting, Tax und Treasury, gestalten Prozesse und Systeme zukunftssicher und schaffst damit die Basis für unsere Expansion in neue europäische Märkte. Du berichtest direkt an den CFO und bist ein zentraler Sparringspartner für Geschäftsführung, Controlling, Legal, Data & Analytics sowie Quality/RegulatoryAffairs.
-
-In diesem Bereich brauchen wir Deine Unterstützung:
----------------------------------------------------
-
-*   Verantwortung für die Finanzbuchhaltung, Bilanzierung undAbschlusserstellung nach HGB (perspektivisch IFRS)
-*   Erstellung von Monats-, Quartals- und Jahresabschlüssen
-*   Koordination der steuerlichen Belange in Zusammenarbeit mit externenSteuerberatern
-*   Sicherstellung von Ordnungsmäßigkeit, Transparenz und Compliance imgesamten Finanzbereich
-*   Vertrauensvolle Zusammenarbeit mit Wirtschaftsprüfern, Steuerberatern,Finanzbehörden, Banken und Versicherungen
-*   Aufbau und Weiterentwicklung skalierbarer integrierter Finanzprozesse unddigitaler Systemlandschaften (ERP, Payment, E-Commerce, BI,Automatisierung)
-*   Sicherstellung einer effizienten und revisionssicheren Verarbeitung großerTransaktionsvolumina und komplexen Datenflüssen ausD2C-Vertriebskanälen
-*   Einführung und Weiterentwicklung eines internen Kontrollsystems (IKS)
-*   Steuerung der Liquidität, Cashflow-Planung und Optimierung derFinanzierung
-*   Enge Abstimmung mit Controlling, Supply Chain und Data & Analytics zurSicherstellung durchgängiger, automatisierter Datenprozesse
-*   Führende Rolle bei internationalen Projekten (z. B. ERP-Rollout,europäische Expansion)
-
-Du bringst folgende Erfahrungen mit:
-------------------------------------
-
-*   Abgeschlossenes betriebswirtschaftliches Studium mit SchwerpunktFinanzen, Rechnungswesen oder vergleichbare Qualifikation
-*   Mindestens 10 Jahre Berufserfahrung im Finanz- oder Rechnungswesen,davon mehrere Jahre in leitender Funktion
-*   Erfahrung in wachstumsstarken oder internationalenUnternehmensstrukturen, idealerweise im D2C-, FMCG-, Food-, Pharmaoder Supplement-Umfeld
-*   Sehr gute Kenntnisse in HGB, IFRS-Erfahrung von Vorteil
-*   Tiefes Verständnis steuerlicher und regulatorischer Anforderungen inregulierten Branchen (Food, Pharma, Nutrition)
-*   Nachgewiesene Erfahrung im Umgang mit großen Transaktions- undDatenmengen (z. B. E-Commerce, Payment, Subscription)
-*   Routine im Einsatz moderner ERP- und Reporting-Systeme
-*   Analytisch, datengetrieben, mit klarer Prozessorientierung undpragmatischer Lösungsfähigkeit
-*   Nachgewiesene Erfahrung im Aufbau von Strukturen, Teams und internenKontrollsystemen
-*   Führungskompetenz, Hands-on-Mentalität und hohe Umsetzungsstärke
-*   Sehr gute Deutsch- und Englischkenntnisse
-
-Darauf kannst du dich freuen:
------------------------------
-
-*   **Deutschlandticket?** Klar, übernehmen wir. Du kommst easy, günstig und umweltfreundlich zur Arbeit.
-*   **Glow Card – jeden Monat ein Bonus.** 50 € Guthaben monatlich für lokale Anbieter – macht 600 € im Jahr extra für dich.
-*   **Weiterkommen leicht gemacht.** Mit unserer Glowcademy und Lernzeit pro Woche bleibst du immer am Ball.
-*   **40 % Mitarbeiterrabatt.** Auf das komplette Sortiment – das lohnt sich wirklich.
-*   **Urlaub, der dir guttut.** 30 Tage frei + 1 persönlicher Feiertag + bis zu 10 unbezahlte Tage extra, wenn du mal länger abschalten willst.
-*   **Gesundheit im Fokus.** Wir übernehmen bis zu 600 € im Jahr für Zusatzleistungen – von Brille bis Zahnreinigung.
-*   **Für später gut abgesichert.** Nach der Probezeit gibt’s 600 € Zuschuss zur Altersvorsorge – und wenn du selbst mit einzahlst, legen wir nochmal 20 % drauf.
-*   **Corporate Benefits & FutureBens**. Hol dir exklusive Rabatte und Vorteile bei vielen Partnern.
-*   **Glow25 Merch.** Unser Teamlook, dein Statement.
-*   **Kultur, die wirklich strahlt.** Seit fünf Jahren in Folge sind wir als Top Company bei Kununu ausgezeichnet - ein echtes Zeichen für unsere starke, positive und gelebte Kultur.
-
-Yay! Du hast es bis hierher geschafft!
---------------------------------------
-
-Wenn du jetzt immer noch liest, ist die Wahrscheinlichkeit groß, dass wir ein Match sind.
-
-Eine Sache liegt uns aber noch am Herzen: **Trau dich!** Vor allem als Frau oder als jemand einer unterrepräsentierten Bevölkerungsgruppe. Auch wenn du nicht überall einen Haken setzen kannst, möchten wir dich ermutigen, dich trotzdem zu bewerben. Wir glauben, dass eine bunte Vielfalt von Perspektiven und Erfahrungen ein Team stärker macht – und je stärker unser Team ist, desto besser erreichen wir unsere Mission, Menschen zu mehr Energie im Alltag zu verhelfen.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nWelcome to Glow25!\n\nWe are a dynamic, fast-growing beauty & pro-aging company based in Berlin. Our heartfelt mission: Glow moments that last – for our community and for us as a team. Work here should inspire, excite, and be fun. We are looking for smart, empathetic people who take responsibility and grow with us. Become part of Glow25 and help us redefine beauty. We look forward to meeting you!\n\nAs Director Finance, you will assume overall responsibility for the financial solidity, transparency, and scalability of our dynamically growing D2C company in the food supplement sector. You will ensure that our company's financial organization meets both regulatory requirements and the demands of a fast-growing, digitally driven business model. In this role, you will lead the Accounting, Tax, and Treasury departments, design future-proof processes and systems, and thus create the basis for our expansion into new European markets. You will report directly to the CFO and serve as a central sparring partner for management, controlling, legal, data & analytics, and quality/regulatory affairs.\n\n### Responsibilities\n*   Responsibility for financial accounting, balancing, and preparation of financial statements according to HGB (IFRS prospectively).\n*   Preparation of monthly, quarterly, and annual financial statements.\n*   Coordination of tax matters in cooperation with external tax advisors.\n*   Ensuring regularity, transparency, and compliance across the entire finance department.\n*   Trusted collaboration with auditors, tax advisors, financial authorities, banks, and insurance companies.\n*   Development and continuous improvement of scalable integrated financial processes and digital system landscapes (ERP, Payment, E-Commerce, BI, Automation).\n*   Ensuring efficient and audit-proof processing of large transaction volumes and complex data flows from D2C sales channels.\n*   Introduction and continuous improvement of an internal control system (ICS).\n*   Liquidity management, cash flow planning, and financing optimization.\n*   Close coordination with Controlling, Supply Chain, and Data & Analytics to ensure continuous, automated data processes.\n*   Leading role in international projects (e.g., ERP rollout, European expansion).\n\n### Qualifications\n*   Completed business studies with a focus on finance, accounting, or comparable qualification.\n*   At least 10 years of professional experience in finance or accounting, with several years in a leadership role.\n*   Experience in high-growth or international corporate structures, ideally in a D2C, FMCG, Food, Pharma, or Supplement environment.\n*   Very good knowledge of HGB; IFRS experience an advantage.\n*   Deep understanding of tax and regulatory requirements in regulated industries (Food, Pharma, Nutrition).\n*   Proven experience in handling large transaction and data volumes (e.g., e-commerce, payment, subscription).\n*   Routine in the use of modern ERP and reporting systems.\n*   Analytical, data-driven, with clear process orientation and pragmatic problem-solving ability.\n*   Proven experience in building structures, teams, and internal control systems.\n*   Leadership skills, hands-on mentality, and strong implementation capabilities.\n*   Very good German and English language skills.\n\n### Author's Take\nGlow25 offers a truly appealing environment for a seasoned finance leader. This isn't just a role; it's a chance to be a key architect in the international expansion of a dynamic D2C company. You'll lead critical financial functions, shape future-proof systems, and collaborate directly with the CFO and executive team. The company stands out with its commitment to employee well-being, offering generous benefits like a Deutschlandticket, monthly 'Glow Card' bonuses, substantial discounts, 30+ days of leave, and health/pension contributions. What truly shines is their vibrant culture, recognized as a 'Top Company' for five consecutive years. They actively encourage diverse applicants, especially women and individuals from underrepresented groups, emphasizing that a variety of perspectives strengthens the team. If you're a strategic finance expert with a hands-on approach, ready to build and grow within a supportive and inspiring culture, Glow25 wants to hear from you – even if you don't tick every single box!

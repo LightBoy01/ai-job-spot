@@ -9,63 +9,49 @@ postedDate: '2025-11-28T15:01:50.000Z'
 expirationDate: null
 tags:
   - IT Security
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/itestra-gmbh/expert-it-security-and-compliance-munich-351492
 companyLogoUrl: null
+companyCulture: >-
+  itestra fosters an innovative, collaborative, and forward-thinking culture,
+  emphasizing continuous learning and professional development. They prioritize
+  employee well-being and work-life balance through flexible work, community
+  events, and a transparent career path.
+story_question1: >-
+  Die Rolle betont, Compliance technologisch neu zu denken und maßgeblich
+  mitzugestalten. Wie sieht der Prozess aus, um innovative Lösungsansätze zu
+  entwickeln und sicherzustellen, dass sie auch von den Stakeholdern angenommen
+  werden?
+story_answer1: >-
+  Absolut! Hier bei itestra ist 'technologisch neu denken' keine Floskel,
+  sondern gelebte Realität. Stell dir vor, du sitzt in einem unserer 'Exchange
+  Days', wo jeder seine innovativen Ideen zur Compliance-Automatisierung pitchen
+  kann. Wir sind keine Verwalter, sondern Gestalter. Das Team wird dich dabei
+  unterstützen, deine Konzepte von der ersten Skizze bis zur Implementierung zu
+  bringen. Der Impact? Du siehst, wie deine Lösungen nicht nur unsere internen
+  Prozesse revolutionieren, sondern auch unseren internationalen Kunden helfen,
+  sicherer und effizienter zu werden. Es ist ein unglaubliches Gefühl, zu
+  wissen, dass du die Zukunft der IT-Sicherheit aktiv mitgestaltest, unterstützt
+  von einem Team, das Innovation lebt und atmet.
+story_question2: >-
+  Angesichts der Schnittstellenfunktion zu Kunden, Engineers und Fachbereichen:
+  Wie wird hier sichergestellt, dass die Balance zwischen technischer Innovation
+  und regulatorischen Anforderungen in Kundenprojekten optimal gelingt?
+story_answer2: >-
+  Das ist eine Kernkompetenz bei uns. Du bist nicht allein in dieser
+  Schnittstellenrolle. Wir haben hier eine Kultur des offenen Dialogs und der
+  Co-Creation. Bei komplexen Kundenprojekten arbeiten wir oft in agilen Teams,
+  wo du als unser Compliance-Experte von Anfang an dabei bist. Du bringst die
+  regulatorische Brille mit, unsere Engineers die technische Machbarkeit, und
+  gemeinsam finden wir die smartesten Lösungen. Wir sehen Compliance nicht als
+  Bremse, sondern als Katalysator für Vertrauen und Verlässlichkeit – das ist
+  eine Botschaft, die wir auch unseren Kunden mitgeben. Und genau da setzt dein
+  Impact an: Du übersetzt die Anforderungen in umsetzbare, technologische
+  Lösungen, die begeistern.
 ---
-Sicherheits- und Compliance-Anforderungen verändern sich schnell – wir entwickeln Lösungen, die heute und morgen Bestand haben.
-
-Informatik ist unsere Passion. Innovative Geschäftssysteme  
-unsere Mission.
-
-In agilen Engineering-Projekten realisieren wir maßgeschneiderte  
-Softwaresysteme für das digitale Business von morgen. Mit innovativer  
-Software-Renovierung erhalten wir den Wert vorhandener Software-Assets und  
-stellen Zukunftsfähigkeit sicher. Unsere Kunden sind internationale Konzerne  
-und erfolgreiche mittelständische Unternehmen, die sich durch Innovation sowie  
-Effizienz im Wettbewerb differenzieren. Wir konzipieren und realisieren die  
-Software-Systeme, die diesen Vorsprung schaffen.
-
-Über 200 hochqualifizierte Informatiker und Informatikerinnen - an 15 Standorten in 5  
-Ländern - die mit modernen Werkzeugen und innovativen Methoden arbeiten, machen  
-uns zu einem erfolgreichen Team.
-
-Du willst Compliance nicht nur verwalten, sondern technologisch neu denken? Du bewegst dich sicher zwischen IT, Security, Regulierung und Business – und möchtest damit echten Impact erzielen? Werde Teil von itestra und gestalte unseren IT Security und Compliance Bereich maßgeblich mit!
-
-Aufgaben
---------
-
-*   **Tech-driven Compliance:** Du entwickelst kreative IT-Lösungen, z. B. Datenbank- oder Automatisierungsansätze, die Compliance Informationen effizient verwalten und auswerten.
-*   **Shape, not manage**: Du treibst die Weiterentwicklung unserer Compliance - und IT Security Prozesse voran und gestaltest sie modern, effizient und zukunftssicher.
-*   **Strategic Interface**: Als erster Ansprechpartner für Compliance -, IT-Security und Datenschutzthemen arbeitest du eng mit unseren Kunden, unseren Software Engineers sowie weiteren Fachbereichen zusammen – du bist die kompetente Schnittstelle und trägst zu erfolgreichen Kundenprojekten bei.
-*   **Audit Insight & Knowledge Impact**: Du begleitest Zertifizierungsprozesse, analysierst Audit-Ergebnisse und entwickelst daraus zielgerichtete Verbesserungsmaßnahmen - durch aktualisierte Schulungen und klare Guidelines bist verantwortlich dafür, dass Security Wissen im Unternehmen nachhaltig gestärkt wird.
-*   **Contracts & Security:** Du steuerst und prägst das Vertragsmanagement im Bereich Datenschutz und Informationssicherheit und sorgst dafür, dass Sicherheit und Compliance integraler Bestandteil jeder Kundenbeziehung sind.
-
-Qualifikation
--------------
-
-*   Aus deinem abgeschlossenen Studium verfügst du über **Kenntnisse in Informatik sowie Wirtschaft oder Recht** und willst mit deinem Wissen **echten Impact** erzeugen.
-*   Du begeisterst dich für **IT-Security, regulatorische Anforderungen und digitale Risiken**– nicht, weil du Vorgaben verwalten willst, sondern weil du verstehst, wie sie Organisationen sicherer und resilienter machen.
-*   Begriffe wie **DSGVO, DORA, ISO 27001 & Co**. schrecken dich nicht ab – im Gegenteil: Du siehst sie als wertvollen Input, um Verlässlichkeit, Sicherheit und Vertrauen zu schaffen.
-*   Du denkst **kreativ, strukturiert und lösungsorientiert**: Statt Prozesse komplexer zu machen, entwickelst du smarte, effiziente Ansätze, um Security und Compliance Anforderungen technisch und organisatorisch umzusetzen.
-*   Du kannst komplexe Themen **verständlich und überzeugend kommunizieren** – egal ob gegenüber Kunden, Fachbereichen oder dem Management.
-*   Du arbeitest **eigenständig, verantwortungsbewusst und mit Hands on Mentalität** – du wartest nicht auf Aufgaben, sondern erkennst Handlungsbedarf und gehst ihn aktiv an.
-*   Du verfügst über **sehr gute Deutschkenntnisse sowie fließendes Englisch** in Wort und Schrift und fühlst dich in beiden Sprachen sicher im professionellen Umfeld.
-
-Benefits
---------
-
-*   **COMMUNITY**. Wöchentlicher Community Lunch. Spannende Events Off- und Online. Jährlich 2 Wochenenden mit Familie & Partnern.
-*   **VORWÄRTS**. Monatlicher Exchange Day. Auf dich abgestimmte Projektrotationen. Expertise Management & Trainings on demand.
-*   **FLEXIBEL**. Regionale Büros. Zu dir passende Arbeitszeiten & -orte.
-*   **GESUND.** Jobrad. Wellpass. Ergonomische Arbeitsplätze. Tischtennis & Kicker für den Pausenausgleich.
-*   **FAIR**. Transparentes Entwicklungsmodell - Leistung lohnt sich, Loyalität auch. Attraktive Boni & 30+ Urlaubstage.
-
-Wir freuen uns über deine Bewerbung!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nSecurity and compliance requirements are changing rapidly – we develop solutions that last today and tomorrow. Computer science is our passion. Innovative business systems are our mission.\n\nIn agile engineering projects, we create tailor-made software systems for tomorrow's digital business. With innovative software renovation, we preserve the value of existing software assets and ensure future viability. Our clients are international corporations and successful medium-sized companies that differentiate themselves through innovation and efficiency in competition. We conceive and realize the software systems that create this advantage.\n\nOver 200 highly qualified computer scientists – across 15 locations in 5 countries – working with modern tools and innovative methods, make us a successful team.\n\nDo you want to rethink compliance technologically, not just manage it? Do you move confidently between IT, security, regulation, and business – and want to achieve real impact with it? Become part of itestra and play a key role in shaping our IT Security and Compliance division!\n\n### Responsibilities\n- **Tech-driven Compliance:** You develop creative IT solutions, e.g., database or automation approaches, that efficiently manage and evaluate compliance information.\n- **Shape, not manage:** You drive the further development of our compliance and IT security processes, shaping them to be modern, efficient, and future-proof.\n- **Strategic Interface:** As the primary contact for compliance, IT security, and data protection topics, you work closely with our clients, our software engineers, and other departments – you are the competent interface and contribute to successful client projects.\n- **Audit Insight & Knowledge Impact:** You accompany certification processes, analyze audit results, and develop targeted improvement measures from them – through updated training and clear guidelines, you are responsible for sustainably strengthening security knowledge within the company.\n- **Contracts & Security:** You manage and shape contract management in data protection and information security, ensuring that security and compliance are integral components of every client relationship.\n\n### Qualifications\n- From your completed studies, you possess knowledge in **computer science as well as business or law** and want to generate **real impact** with your expertise.\n- You are enthusiastic about **IT security, regulatory requirements, and digital risks** – not because you want to manage specifications, but because you understand how they make organizations more secure and resilient.\n- Terms like **GDPR, DORA, ISO 27001 & Co.** don't deter you – on the contrary: you see them as valuable input to create reliability, security, and trust.\n- You think **creatively, structured, and solution-oriented:** Instead of making processes more complex, you develop smart, efficient approaches to technically and organizationally implement security and compliance requirements.\n- You can **communicate complex topics clearly and convincingly** – whether to clients, departments, or management.\n- You work ** independently, responsibly, and with a hands-on mentality** – you don't wait for tasks but recognize the need for action and actively address it.\n- You have **very good German skills and fluent English** in spoken and written form, and you feel confident in both languages in a professional environment.\n\n### Author's Take\nThis is an outstanding opportunity for an IT Security and Compliance expert who wants to move beyond mere administration and actively shape the future of compliance through technology. itestra offers a highly innovative, agile, and collaborative environment where your ideas will be valued, and you'll have a real impact on both internal processes and international client projects. The company strongly supports continuous learning, flexible work arrangements, and a vibrant community spirit with benefits like community lunches, exchange days, tailored project rotations, and 30+ vacation days. It's an ideal place for proactive professionals seeking growth and a healthy work-life balance.

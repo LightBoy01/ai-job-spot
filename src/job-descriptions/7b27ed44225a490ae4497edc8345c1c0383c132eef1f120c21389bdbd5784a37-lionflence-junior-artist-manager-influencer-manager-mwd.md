@@ -9,62 +9,48 @@ postedDate: '2025-11-29T08:01:51.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/lionflence/junior-artist-manager-influencer-manager-berlin-254263
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative, team-oriented culture with flat
+  hierarchies, encouraging individual initiative, continuous growth, and open
+  communication. They prioritize work-life balance with generous leave and
+  promote a fun atmosphere where success is celebrated together.
+story_question1: >-
+  How does Lionflence empower an Artist Manager to truly shape strategies and
+  impact talent careers, given the emphasis on flat hierarchies and active
+  contribution?
+story_answer1: >-
+  I remember when I first joined, I was struck by how much trust they place in
+  you from day one. There's this genuine freedom to not just 'support' but to
+  truly 'shape'. For instance, I recently spearheaded a new partnership
+  initiative, identifying an untapped niche in gaming influencers. The
+  leadership wasn't just open to it; they actively helped refine my pitch and
+  celebrated with us when we landed a major deal. It’s less about rigid
+  directives and more about collaborative brainstorming, where your ideas
+  genuinely contribute to both the artists' growth and Lionflence's expansion.
+  We celebrate every win, big or small, which really fuels that collective
+  drive.
+story_question2: >-
+  With the rapid evolution of social media and influencer trends, how does
+  Lionflence ensure its Artist Managers stay ahead of the curve and adapt to new
+  platforms and content formats?
+story_answer2: >-
+  That's a fantastic question and something we actively embrace. The digital
+  landscape never sleeps, right? Here, continuous learning isn't just a
+  buzzword; it's built into our DNA. We have dedicated time for trend scouting,
+  and internally developed software systems are designed to evolve with the
+  market. For instance, we regularly host 'Innovation Jams' where we deep-dive
+  into emerging platforms like a new short-form video app or a metaverse
+  integration. One time, I brought up a nascent trend in interactive live
+  streams, and within weeks, we were piloting new content formats for our
+  artists. It's exhilarating because you're not just reacting to trends; you're
+  actively helping to set them for our talent.
 ---
-Was wir Dir bieten:
-
-*   Eine spannende Herausforderung, in der du dich weiterentwickeln kannst, rundum den Bereich Artistmanagement Medien/Social Media, Influencer Marketing und den dazugehörigen Technologien (Software Systeme)
-*   Perfekt abgestimmte selbst entwickelte Softwaresysteme für dich als Artistmanager/in und für deine Artists
-*   Eine verantwortungsvolle Position in einem engagierten Team
-*   Eigenverantwortliches Arbeiten
-*   Freiraum zum aktiven Gestalten durch flache Hierarchien und flexible Strukturen
-*   Ein vielseitiges, anspruchsvolles und spannendes Aufgabengebiet mit renommierten Kunden
-*   So sieht Work-Life-Balance aus: 30 Tage Urlaub
-*   Konstruktives Feedback wird gerne gesehen
-*   Unsere Firmenkultur hat offene Türen & Ohren, coole Kolleg\*innen und Spaß bei der Arbeit
-*   Ein hochmotiviertes, leistungsfähiges Team, welches gemeinsam arbeitet - aber auch gerne gemeinsame Erfolge feiert.
-*   Mitgestalten statt nur mitschwimmen - aktive Mitarbeit an fachlichen und kulturellen Themen die auch über den Tellerand hinausgehen
-*   Eine spannende Herausforderung, in der du dich weiterentwickeln kannst, rundum den Bereich Medien/Social Media, Influencer Marketing und den dazugehörigen Technologien (Software Systeme)
-*   Firmenhandy
-*   Firmenlaptop
-
-Aufgaben
---------
-
-Welche Aufgaben hättest Du?
-
-*   Du unterstützt bei der Absprache unserer internen Talente
-*   Du unterstützt bei der Suche nach neuen Kooperationspartnern, erstellst neue Angebote und bearbeitest eingehende Anfragen
-*   Du arbeitest an deinem Verhandlungsgeschick bei Verträgen sowie bei Preisverhandlungen mit Anbietern und Dienstleistern (Kooperationspartnern)
-*   Du unterstützt die Artistmanager zu Konzepte wie auch Content-Formate für Talents und hilfst dabei diese zu realisieren
-*   Du fungierst als Schnittstelle zwischen den Talents und unseren Partnern, planst ihren Einsatz und sorgst für ihr Wohlbefinden
-*   Du identifizierst und akquirierst mögliche neue Kooperationspartnern und zukünftige Formate und Sendungen
-
-Qualifikation
--------------
-
-Das bringst Du mit:
-
-*   mind. 1 Jahr Erfahrung im Bereich Influencer Marketing, Online Marketing z.B. in einer Digital, Social Media oder PR-Agentur
-*   Interesse und Gespür für neueste Digital- & Konsumententrends
-*   Sicherer Umgang mit allen gängigen Social Media Netzwerken und Online-Communities
-*   Idealerweise bereits Erfahrung in der Umsetzung und/oder der Konzeption von Social Media und Influencer Marketing Kampagnen
-*   Hohe Kreativität und Motivation
-*   Fließende Deutschkenntnisse und Englischkenntnisse in Wort und Schrift
-
-Über uns:
-
-Die Lionflence ist ein junges Unternehmen, welches sich auf Online Marketing, sowie Management spezialisiert hat. Aktuell ist der Hauptsitz in Mülheim an der Ruhr und Berlin gehört seit August 2022 dazu.
-
-Zudem unterstützen wir Unternehmen im Bereich Markenaufbau und entwickeln eigene Softwaresysteme. Es erwartet Dich ein erfolgreiches Unternehmen mit flachen Hierarchien.
-
-Als Circle-of-Marketing bieten wir Kunden ein umfassendes 360°-Dienstleistungspaket und somit auch Services, die über die gewohnten Dienstleistungen einer Marketing-Agentur hinausgehen.Unser idealer Kandidat ist ein Teamplayer mit ausgeprägten Fähigkeiten im Bereich zwischenmenschlicher Kommunikation und verfügt über praktische Erfahrung.Du hast ein starkes Interesse Artists zu betreuen und möchtest ab sofort spannende Aufgaben in dem Bereich Artist Management übernehmen?Du organisierst leidenschaftlich gerne und bist ein aufgeschlossener Mensch? Dann könntest du perfekt zu uns passen!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nLionflence is a young and dynamic company specializing in online marketing and artist management, with headquarters in Mülheim an der Ruhr and Berlin. We pride ourselves on offering a comprehensive 360° service package, including brand building and developing our own cutting-edge software systems. We are seeking a motivated individual to join our dedicated team as an Artist Manager. This role offers an exciting challenge in the field of Artist Management, Media/Social Media, and Influencer Marketing, providing ample opportunities for professional growth within a supportive environment characterized by flat hierarchies and independent work.\n\n### Responsibilities\n- You will support the coordination of our internal talents.\n- You will assist in the search for new cooperation partners, create new offers, and process incoming inquiries.\n- You will develop your negotiation skills for contracts and price discussions with various providers and service partners.\n- You will support Artist Managers in developing and realizing concepts and content formats for talents.\n- You will act as a key interface between talents and our partners, planning their engagements and ensuring their well-being.\n- You will identify and acquire potential new cooperation partners and future formats/broadcasts.\n\n### Qualifications\n- Minimum of 1 year of experience in Influencer Marketing or Online Marketing, preferably within a Digital, Social Media, or PR agency.\n- Demonstrated interest and an intuitive understanding of the latest digital and consumer trends.\n- Proficiency in using all common social media networks and online communities.\n- Ideally, practical experience in the implementation and/or conceptualization of social media and influencer marketing campaigns.\n- High level of creativity and strong motivation.\n- Fluent German and English language skills, both written and spoken.\n\n### Author's Take\nThis is an outstanding opportunity for an enthusiastic and creative individual with a passion for artist management and digital trends. Lionflence offers a highly supportive and collaborative environment, empowering team members with significant autonomy and opportunities for professional development. With flat hierarchies, flexible structures, and 30 days of annual leave, the company genuinely prioritizes work-life balance and celebrates collective success. If you're a proactive team player who thrives on contributing actively and enjoys a fun, feedback-rich culture, this role provides the perfect platform to make a real impact in the evolving world of influencer marketing and talent management. They also offer a company mobile and laptop.

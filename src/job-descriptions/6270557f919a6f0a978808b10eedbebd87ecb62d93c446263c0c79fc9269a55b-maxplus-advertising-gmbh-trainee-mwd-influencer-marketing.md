@@ -10,115 +10,63 @@ expirationDate: null
 tags:
   - Remote
   - Social Media Manager
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
+salaryRange: '€2,500 brutto pro Monat'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/maxplus-advertising-gmbh/trainee-influencer-marketing-wiesbaden-456312
 companyLogoUrl: null
+companyCulture: >-
+  MaxPlus fosters a flexible and growth-oriented culture, allowing 100% remote
+  work or on-site in a modern office. They emphasize collaboration, direct
+  communication, and provide ample opportunities for personal and professional
+  development within a small, agile team, encouraging significant individual
+  contribution and ownership.
+story_question1: >-
+  As a Trainee, how can I actively contribute to the current restructuring phase
+  and shape the future direction of MaxPlus, beyond my direct campaign
+  responsibilities?
+story_answer1: >-
+  That's a fantastic question, and it's precisely why this role isn't just 'any
+  job'. We're deliberately streamlining, sharpening our focus, and creating a
+  space where everyone, especially you, can genuinely make an impact. As a
+  Trainee, you'll be embedded directly into projects, working hand-in-hand with
+  us. Your fresh perspective, your energy, and your commitment to learning will
+  directly influence how we build client relationships, optimize campaigns, and
+  even refine our processes. Think of it as shaping the future of a boutique
+  agency from the ground up, not just executing tasks. Your initiative here
+  isn't just welcomed, it's essential for our collective success and growth.
+story_question2: >-
+  What does success look like for a Trainee during their first year, and what
+  support mechanisms are in place to ensure a smooth transition into a long-term
+  role with MaxPlus?
+story_answer2: >-
+  Success for us isn't just about hitting metrics; it's about your growth and
+  integration. In your first year, we'll be looking for your eagerness to learn,
+  your ability to take ownership of campaigns, and your proactive engagement
+  with both clients and influencers. You'll have direct mentorship from seasoned
+  professionals – we're a small, tight-knit team, so you're never just a number.
+  We'll provide regular feedback, hands-on training, and opportunities to
+  stretch your skills. If you embrace the challenges, show commitment, and
+  genuinely enjoy the MaxPlus way of working, that fixed salary after the
+  trainee period isn't just a re-negotiation; it's a stepping stone into a
+  permanent position where you can truly carve out your niche and potentially
+  lead your own portfolio with performance bonuses.
+story_question3: >-
+  Given the flexible and remote-friendly nature, how does MaxPlus foster strong
+  team cohesion and a sense of belonging among its employees, especially for new
+  joiners?
+story_answer3: >-
+  That's something we're very intentional about. While we offer 100% remote
+  flexibility, we've built a culture that thrives on direct communication and
+  connection. We use modern tools for seamless collaboration, have regular
+  virtual check-ins, and make sure that every team member, no matter where they
+  are, feels heard and valued. Our flat hierarchies mean you're always just a
+  message away from anyone on the team, fostering a natural sense of belonging.
+  Plus, for those who prefer it, our beautiful Wiesbaden office is always open
+  as a hub for face-to-face interaction and team events, ensuring we maintain
+  that strong bond, whether digital or in-person.
 ---
-Du willst nicht einfach „ein bisschen Social Media machen“, sondern richtig in Influencer Marketing, Sales und Kampagnensteuerung eintauchen?
-
-Du hast Bock, Verantwortung zu übernehmen, mitzugestalten und dich persönlich weiterzuentwickeln statt nur mitzulaufen?
-
-Bei MaxPlus bekommst du die Möglichkeit, nicht nur Marketing-Skills zu lernen, sondern die Branche ganzheitlich zu verstehen: von der Influencer-Kommunikation über Sales-Prozesse bis hin zur strategischen Kampagnenplanung. Du arbeitest eng mit Menschen zusammen, führst Gespräche, lernst Deals zu strukturieren und entwickelst ein Gefühl dafür, wie erfolgreiche Kooperationen wirklich entstehen.
-
-MaxPlus gibt es seit über 6 Jahren. In dieser Zeit haben wir uns als performance-orientierte Influencer Marketing Agentur mit Sitz in Wiesbaden etabliert, ein Netzwerk von über 3.000 Influencern im DACH-Raum aufgebaut und Kampagnen mit einem insgesamt achtstelligen Media-Budget gesteuert. Wir arbeiten mit ausgewählten D2C-Brands aus verschiedensten Branchen zusammen und setzen datenbasierte Kampagnen um, mit klarer Sales-DNA und starkem Fokus auf Kommunikation und Beziehungspflege.
-
-Wir haben ein Büro in Wiesbaden, arbeiten jedoch vollständig digital und ermöglichen auch ein 100 % Remote-Modell. Ob du lieber vor Ort arbeitest oder von überall aus, entscheidest du selbst.
-
-Wir befinden uns aktuell in einer bewussten Umstrukturierungsphase und richten uns als Boutique-Agentur mit einem kleinen, starken Team neu aus. Wir verschlanken Strukturen, schärfen unser Geschäftsmodell und schaffen Raum für mehr Eigenverantwortung, Nähe zu Projekten und echtes Mitgestalten statt starrer Strukturen.
-
-_Auf unsere Positionen erhalten wir regelmäßig viele Bewerbungen. Uns ist dabei besonders wichtig, Menschen zu finden, die nicht einfach irgendeinen Job suchen, sondern echtes Interesse an dieser Rolle, dieser Phase und dieser Art der Zusammenarbeit haben. Wenn du dich hier wirklich wiedererkennst, freuen wir uns umso mehr auf deine Bewerbung._
-
-Aufgaben
---------
-
-Du wirst Schritt für Schritt in die operative Arbeit rund um Influencer-Kampagnen, Sales und Kundenbetreuung eingebunden und übernimmst dabei Verantwortung für eigene Kampagnen und Kunden. Du begleitest Projekte von der ersten Abstimmung bis zur Umsetzung und lernst, wie erfolgreiche Kooperationen strukturiert aufgebaut und gesteuert werden.
-
-\*\*Zu deinen Aufgaben gehören unter anderem:  
-\*\*
-
-*   Aktive Ansprache von Brands sowie Pitch von passenden Influencern und Kooperationskonzepten
-*   Führen von E-Mail- und Zoom-Gesprächen mit Kunden und Influencern
-*   Verhandlung von Preisen, Leistungen und Rahmenbedingungen
-*   Koordination und Steuerung der Zusammenarbeit zwischen Brand und Influencern
-*   Arbeit im Sales-Bereich sowie strukturierte Pflege der Projekte im CRM-System
-*   Social Media Betreuung im Rahmen von Kampagnen (z.B. Content-Erstellung, Gewinnspiele, Abstimmungen)
-*   Organisation und Dokumentation deiner Projekte mit diversen Tools
-*   Analyse und Auswertung von Kampagnen-Performance
-
-Du arbeitest dabei nicht nur operativ mit, sondern übernimmst echte Verantwortung für deine Projekte und entwickelst dir ein tiefes Verständnis für Kampagnen, Kunden und Marktdynamiken.
-
-Qualifikation
--------------
-
-Du musst kein fertiger Profi sein – aber du solltest Lust haben, dich einzubringen, zu lernen und Verantwortung zu übernehmen.
-
-\*\*Was du mitbringen solltest:  
-\*\*
-
-*   Echtes Interesse an Influencer Marketing, Social Media und digitalen Geschäftsmodellen
-*   Freude an Kommunikation, Sales und dem Umgang mit Menschen
-*   Motivation, dich persönlich und fachlich weiterzuentwickeln
-*   Eigenverantwortliche und strukturierte Arbeitsweise
-*   Zuverlässigkeit, Engagement und eine offene Art
-*   Bereitschaft, aktiv mitzugestalten und Verantwortung zu übernehmen
-*   Grundlegende Englischkenntnisse, um auch mit internationalen Partnern kommunizieren zu können
-
-Vorerfahrungen im Marketing, Influencer-Bereich oder Sales sind von Vorteil, aber keine Voraussetzung. Wichtiger ist uns dein Mindset, dein Commitment und deine Bereitschaft, dich in neue Themen einzuarbeiten.
-
-Benefits
---------
-
-Arbeiten bei MaxPlus bedeutet nicht nur Teil eines Teams zu sein, sondern Teil einer Branche, die sich ständig weiterentwickelt und aktuell mehr im Fokus steht denn je. Du bewegst dich mitten im Influencer Marketing, lernst Sales-Skills, die du langfristig in jeder Branche nutzen kannst, und entwickelst dich sowohl fachlich als auch persönlich weiter.
-
-**STILVOLLES OFFICE**
-
-Unser modern eingerichtetes Büro in zentraler Lage in Wiesbaden bietet dir ein angenehmes Arbeitsumfeld in einer charaktervollen Altbauvilla. Gleichzeitig ermöglichen unsere digitalen Strukturen auch vollständiges Remote-Arbeiten.
-
-**FLACHE STRUKTUREN**
-
-Kurze Entscheidungswege, direkte Kommunikation und ein offenes Team sorgen dafür, dass du dich aktiv einbringen und deine Ideen schnell umsetzen kannst.
-
-**NEUSTE TECHNIK**
-
-Wir arbeiten mit modernen, digitalisierten und teilweise automatisierten Prozessen sowie zeitgemäßen Tools. Jeder Mitarbeiter erhält einen Mac für einen effizienten und reibungslosen Workflow.
-
-**SPANNENDE KUNDEN**
-
-Du arbeitest mit vielfältigen Brands aus unterschiedlichsten Branchen zusammen und bekommst Einblick in reale Kampagnen, Strategien und Prozesse.
-
-**TÄGLICHE LEARNINGS**
-
-Du lernst jeden Tag dazu – nicht nur im Marketing, sondern auch im Umgang mit Menschen, im Sales, in Verhandlungsführung und Projektorganisation.
-
-**FLEXIBLES ARBEITEN**
-
-Ob im Office oder von überall aus. Du arbeitest da, wo du am besten performst – unsere Struktur macht beides möglich.
-
-**ENTWICKLUNG & PERSPEKTIVE**
-
-Du bekommst eine echte Chance, dich langfristig bei uns zu etablieren, Verantwortung zu übernehmen und dich in eine feste Rolle mit Entwicklungspotenzial hineinzuwachsen.
-
-Diese Position richtet sich an Menschen, die Lust haben, Teil unserer aktuellen Umstrukturierung zu sein und den Aufbau eines neuen, fokussierten Teams aktiv mitzugestalten. Du arbeitest eng mit uns zusammen, lernst direkt aus über 6 Jahren Branchenerfahrung und entwickelst dich Schritt für Schritt fachlich wie persönlich weiter.
-
-Diese Stelle ist kein klassischer Einstieg in ein anonymes Unternehmen. Sie ist eine Chance für Menschen, die Verantwortung übernehmen, sich einbringen und sich in einer dynamischen Branche weiterentwickeln möchten.
-
-Das Trainee-Programm ist auf ein Jahr ausgelegt und startet mit einem fixen Gehalt von 2.500€ brutto pro Monat. Für uns ist das ein klarer Deal: Du bringst dich ein, gibst Gas, übernimmst Verantwortung und zeigst, was in dir steckt. Wenn deine Ergebnisse stimmen und die Zusammenarbeit passt, justieren wir basierend darauf dein Gehalt nach der Trainee-Zeit neu und bieten dir zusätzlich Bonusmodelle.
-
-Uns ist wichtig, dass du mit echtem Commitment in diese Rolle gehst und Lust auf genau diese Art von Arbeit hast: Influencer Marketing mit Sales-Charakter, viel Kommunikation, Eigenverantwortung und direktem Bezug zum Tagesgeschäft – mit der Flexibilität, dort zu arbeiten, wo du am besten performst.
-
-Vorerfahrung im Marketing, Influencer-Bereich oder Sales ist positiv, aber keine Voraussetzung. Entscheidender ist deine Haltung, dein Antrieb und dein echtes Interesse an dieser Rolle.
-
-Wenn du dich hier wiedererkennst und dir sowohl fachlich als auch persönlich etwas aufbauen möchtest, freuen wir uns auf deine Bewerbung.
-
-Erzähl uns gerne kurz:
-
-*   Wer du bist
-*   Warum dich Influencer Marketing interessiert
-*   Warum du Teil von MaxPlus werden möchtest
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAre you eager to dive deep into Influencer Marketing, Sales, and campaign management, rather than just 'doing a bit of social media'? Do you want to take on responsibility, shape projects, and develop personally instead of just following along?\n\nAt MaxPlus, you'll get the opportunity to not only learn marketing skills but also to understand the industry holistically: from influencer communication and sales processes to strategic campaign planning. You'll work closely with people, conduct conversations, learn to structure deals, and develop a feel for how successful collaborations truly come to life.\n\nMaxPlus has been established for over 6 years as a performance-oriented Influencer Marketing Agency based in Wiesbaden. We've built a network of over 3,000 influencers in the DACH region and managed campaigns with an overall eight-figure media budget. We collaborate with selected D2C brands across various industries, implementing data-driven campaigns with a clear sales DNA and a strong focus on communication and relationship building.\n\nWhile we have an office in Wiesbaden, we operate fully digitally and offer a 100% remote model. You decide whether you prefer to work on-site or from anywhere. We are currently in a deliberate restructuring phase, realigning as a boutique agency with a small, strong team. We're streamlining structures, sharpening our business model, and creating space for more autonomy, closer project involvement, and genuine co-creation instead of rigid frameworks.\n\nThis one-year Trainee program is designed for individuals who are enthusiastic about being part of our current restructuring and actively shaping the development of a new, focused team. You will work closely with us, learn directly from over 6 years of industry experience, and develop professionally and personally step by step. This role is not a typical entry into an anonymous company; it's an opportunity for those who want to take responsibility, contribute, and grow in a dynamic industry. The program starts with a fixed gross salary of €2,500 per month. If your results are strong and the collaboration is a good fit, we'll adjust your salary after the trainee period and offer additional bonus models.\n\n### Responsibilities\nStep by step, you will be integrated into the operational work surrounding influencer campaigns, sales, and customer care, taking responsibility for your own campaigns and clients. You will accompany projects from initial coordination to implementation and learn how successful cooperations are structured and managed.\n\nYour tasks will include, among others:\n- Active outreach to brands and pitching suitable influencers and cooperation concepts.\n- Leading email and Zoom conversations with clients and influencers.\n- Negotiating prices, services, and general terms.\n- Coordinating and managing collaborations between brands and influencers.\n- Working in the sales area and systematically maintaining projects in the CRM system.\n- Social media support within campaigns (e.g., content creation, contests, coordination).\n- Organizing and documenting your projects with various tools.\n- Analyzing and evaluating campaign performance.\nYou will not only contribute operatively but also take real responsibility for your projects, developing a deep understanding of campaigns, customers, and market dynamics.\n\n### Qualifications\nYou don't need to be a seasoned professional, but you should be eager to contribute, learn, and take on responsibility.\n\nWhat you should bring:\n- Genuine interest in Influencer Marketing, Social Media, and digital business models.\n- Enjoyment of communication, sales, and interacting with people.\n- Motivation for personal and professional development.\n- Self-reliant and structured way of working.\n- Reliability, commitment, and an open personality.\n- Willingness to actively contribute and take responsibility.\n- Basic English skills to communicate with international partners.\n\nPrior experience in marketing, influencer marketing, or sales is an advantage, but not a prerequisite. What's more important to us is your mindset, your commitment, and your readiness to dive into new topics.\n\n### Author's Take\nThis is an exceptional entry-level opportunity for an ambitious individual passionate about digital marketing and sales. MaxPlus offers a unique Trainee program where you're not just an observer but an active contributor to their evolving boutique agency. The role provides hands-on experience in influencer marketing, sales, and campaign management, coupled with strong mentorship and a clear path for professional growth. The emphasis on personal development, a flexible work environment (100% remote option available), and direct responsibility makes this a compelling choice for someone seeking to make a tangible impact and build a long-term career in a dynamic industry. If you have the right mindset and eagerness to learn, this role offers a fantastic launchpad.

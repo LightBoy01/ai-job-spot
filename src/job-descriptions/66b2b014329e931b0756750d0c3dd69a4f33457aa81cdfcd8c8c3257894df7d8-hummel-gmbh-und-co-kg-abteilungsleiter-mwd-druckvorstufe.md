@@ -9,51 +9,71 @@ postedDate: '2025-11-28T13:32:19.000Z'
 expirationDate: null
 tags:
   - Graphic Arts and Communication Design
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/hummel-gmbh-und-co-kg/abteilungsleiter-druckvorstufe-magstadt-4291
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a dynamic environment where traditional craftsmanship
+  meets modern technology. It emphasizes continuous learning, digital
+  transformation, and strong inter-departmental collaboration within a dedicated
+  and collegiate team, offering significant scope for personal and professional
+  growth.
+story_question1: >-
+  How does this role drive the integration of cutting-edge digital printing
+  technologies with established traditional methods, and what impact will that
+  have on our future services?
+story_answer1: >-
+  Stepping into this role means you'll be at the helm of a crucial
+  transformation. Our company prides itself on blending the best of traditional
+  craftsmanship with modern innovation. Your leadership in the pre-press
+  department will be pivotal in harmonizing these worlds. We're looking for
+  someone who can not only manage daily operations but also spearhead the
+  adoption of advanced software, workflows, and automation. This isn't just
+  about efficiency; it's about pushing the boundaries of what we can offer our
+  clients, ensuring our data preparation is seamless for all print types, from
+  flexo to digital. You'll be instrumental in shaping our digital future, and
+  your direct impact will be seen in every high-quality, innovative print
+  project we deliver.
+story_question2: >-
+  Given the focus on "Weiterentwicklung der eingesetzten Softwarelösungen,
+  Workflows und Automatisierungen," what are the most pressing technological
+  challenges the pre-press department faces today, and what kind of support can
+  I expect to tackle them?
+story_answer2: >-
+  That's an excellent question, and it gets right to the heart of where we're
+  headed. Currently, one of our biggest challenges is scaling our automation
+  capabilities to keep pace with diverse client demands while maintaining the
+  precision our traditional processes are known for. We're looking at optimizing
+  our web-to-print systems and further streamlining our e-commerce interfaces.
+  You can expect significant support in this area, including investment in
+  modern technical equipment and the freedom to explore and implement new
+  solutions. You won't be tackling this alone; you'll have a dedicated team
+  eager to learn and a collaborative environment where you'll work closely with
+  IT, sales, and production to identify bottlenecks and co-create solutions. We
+  believe in empowering our leaders to drive innovation, and we'll provide the
+  resources and collaboration needed to succeed.
+story_question3: >-
+  Considering the emphasis on "Schulung, Motivation und Weiterentwicklung des
+  Teams," what is the current strength and specific development needs of the
+  pre-press team, and how would you envision my contribution to their growth?
+story_answer3: >-
+  Our pre-press team is incredibly dedicated and skilled, with a solid
+  foundation in both traditional and emerging digital processes. Their strength
+  lies in their commitment to quality and their willingness to adapt. In terms
+  of development needs, we see a fantastic opportunity to further enhance their
+  expertise in advanced automation tools, data management for diverse digital
+  platforms, and perhaps even cross-training in newer printing methodologies.
+  Your contribution would be invaluable in identifying these growth areas,
+  designing bespoke training programs, and fostering a culture of continuous
+  learning. We envision you as a mentor and a leader who inspires innovation,
+  helps team members embrace new technologies, and empowers them to take
+  ownership of their professional journey. Your ability to motivate and guide
+  them will be key to unlocking their full potential and ensuring our pre-press
+  department remains at the forefront of the industry.
 ---
-Unser Unternehmen ist ein leistungsstarker und innovativer Full-Service Dienstleister mit den Schwerpunkten **Flexodruck, Offsetdruck und Digitaldruck**. Wir verbinden traditionelles Handwerk mit modernster Technologie und betreuen ein breites Kundenspektrum aus Industrie, Handel und Agenturen. Zur Verstärkung und Weiterentwicklung unserer Druckvorstufe suchen wir ab sofort einen engagierten
-
-Aufgaben
---------
-
-*   Fachliche und organisatorische Leitung der Druckvorstufe
-*   Koordination, Planung und Kontrolle der täglichen Produktionsabläufe
-*   Sicherstellung einer reibungslosen Datenaufbereitung für Flexo-, Offset- und Digitaldruck
-*   Weiterentwicklung der eingesetzten **Softwarelösungen, Workflows und Automatisierungen**
-*   Schnittstellenmanagement zwischen **Druckvorstufe, E-Commerce, Webshop und Sachbearbeitung**
-*   Schulung, Motivation und Weiterentwicklung des Teams
-*   Enge Zusammenarbeit mit Vertrieb, Produktion und IT zur stetigen Prozessoptimierung
-*   Qualitätsmanagement und Sicherstellung von Farb- und Druckstandards
-
-Qualifikation
--------------
-
-*   Abgeschlossene Ausbildung oder Studium im Bereich **Drucktechnik, Mediengestaltung oder Medientechnik**
-*   Mehrjährige Berufserfahrung in der **Druckvorstufe im Bereich Flexodruck**, idealerweise mit Führungsverantwortung
-*   Fundierte Kenntnisse in gängigen **Druckvorstufen- und Workflow-Systemen** (z. B. Hybrid Software, Adobe Creative Suite, Enfocus, Esko o. ä.)
-*   Erfahrung im Umgang mit **Datenmanagement, Web-to-Print-Systemen**und **E-Commerce-Schnittstellen** von Vorteil
-*   Ausgeprägte Fach-, Methoden- und Sozialkompetenz
-*   Organisationsstärke, Kommunikationsfähigkeit und lösungsorientiertes Denken
-*   Bereitschaft, Prozesse aktiv zu gestalten und das Team in die Zukunft zu führen
-
-Benefits
---------
-
-*   Eine verantwortungsvolle Position mit Gestaltungsspielraum
-*   Ein engagiertes, kollegiales Team
-*   Moderne technische Ausstattung und abwechslungsreiche Aufgaben
-*   Möglichkeit zur Mitwirkung bei der digitalen Weiterentwicklung des Unternehmens
-*   Leistungsgerechte Vergütung und attraktive Sozialleistungen
-
-**Interessiert?**
-
-Dann freuen wir uns auf Ihre aussagekräftige Bewerbung (digital) mit Angabe Ihres **frühestmöglichen Eintrittstermins** und Ihrer **Gehaltsvorstellung**.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nOur company is a high-performing and innovative full-service provider specializing in **flexographic, offset, and digital printing**. We combine traditional craftsmanship with state-of-the-art technology and serve a broad customer base from industry, trade, and agencies. To strengthen and further develop our pre-press department, we are immediately seeking a dedicated **Head of Pre-press**.\n\n### Responsibilities\n- Technical and organizational leadership of the pre-press department\n- Coordination, planning, and control of daily production processes\n- Ensuring smooth data preparation for flexo, offset, and digital printing\n- Further development of deployed **software solutions, workflows, and automations**\n- Interface management between **pre-press, e-commerce, webshop, and administration**\n- Training, motivation, and development of the team\n- Close collaboration with sales, production, and IT for continuous process optimization\n- Quality management and ensuring color and print standards\n\n### Qualifications\n- Completed vocational training or degree in **print technology, media design, or media technology**\n- Several years of professional experience in **pre-press in flexo printing**, ideally with leadership responsibility\n- Sound knowledge of common **pre-press and workflow systems** (z. B. Hybrid Software, Adobe Creative Suite, Enfocus, Esko, or similar)\n- Experience with **data management, web-to-print systems**, and **e-commerce interfaces** is a plus\n- Strong technical, methodical, and social competence\n- Excellent organizational skills, communication ability, and solution-oriented thinking\n- Willingness to actively shape processes and lead the team into the future\n\n### Author's Take\nThis is an exceptional opportunity for a seasoned pre-press professional to take on a pivotal leadership role within an innovative printing company. You'll be instrumental in driving digital transformation, blending traditional expertise with cutting-edge technology. The role offers significant scope for strategic input, team development, and process optimization. You'll join a dedicated and collaborative team, benefit from modern equipment, and receive performance-based compensation along with attractive social benefits. If you're passionate about leading change and fostering growth in a dynamic environment, this role offers a rewarding career path.

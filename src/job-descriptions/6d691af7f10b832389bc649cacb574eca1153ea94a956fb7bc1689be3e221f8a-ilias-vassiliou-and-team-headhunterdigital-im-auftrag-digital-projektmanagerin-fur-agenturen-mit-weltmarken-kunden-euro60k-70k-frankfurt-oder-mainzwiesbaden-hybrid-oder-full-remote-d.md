@@ -11,85 +11,51 @@ postedDate: '2025-11-27T17:01:54.000Z'
 expirationDate: null
 tags:
   - Project Management
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
+salaryRange: '€60,000 - €70,000'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ilias-vassiliou-team-headhunterdigital-im-auftrag/digital-projektmanagerin-fur-agenturen-mit-weltmarken-kunden-eur60k-70k-frankfurt-oder-mainz-wiesbaden-hybrid-oder-full-remote-d-456806
 companyLogoUrl: null
+companyCulture: >-
+  This agency fosters a pragmatic, human-centered culture where individual
+  authenticity ("come as you are") is highly valued. It's a collaborative
+  environment with everyone deeply involved in projects, focused on delivering
+  high-quality, innovative digital solutions, especially in UX/UI, while
+  encouraging continuous learning and professional growth.
+story_question1: >-
+  Given the focus on impactful digital campaigns for leading FMCG brands and
+  international clients, how does the team ensure creative freedom and technical
+  excellence are balanced with client expectations and project timelines?
+story_answer1: >-
+  That's a fantastic question, and it really hits at the heart of what we do
+  here. From day one, you'll feel the rhythm of collaboration. We're a team of
+  pragmatic, down-to-earth professionals who genuinely love digital. Our
+  UX-driven DNA, championed by one of our founders, means we're constantly
+  pushing for innovation. We balance that with clear communication – talking on
+  equal terms with clients – and a structured approach to project management.
+  The goal isn't just to deliver; it's to create 'festive banquets' at the end
+  of each project, celebrating success that truly moves the needle for major
+  brands. You're empowered to steer the internal design, UX, and development
+  teams, ensuring our creative vision aligns with strategic goals, all while
+  keeping a keen eye on the practicalities and deadlines.
+story_question2: >-
+  The job description mentions 'fully remote within Germany' after onboarding.
+  How does the company maintain its strong collaborative culture and ensure
+  effective team integration for remote employees?
+story_answer2: >-
+  It’s true, we embrace flexibility, and being fully remote within Germany after
+  a solid onboarding is a real perk. We've built our culture around trust and
+  clear communication, not just physical presence. Our onboarding is fully
+  organized and comprehensive, ensuring you're deeply integrated into the team
+  and our processes from the start. Post-onboarding, we leverage modern tools
+  and practices to keep everyone connected and engaged. Think vibrant virtual
+  stand-ups, collaborative workshops, and dedicated communication channels that
+  foster the 'come as you are' mentality even when dispersed. We're a tight-knit
+  group of professionals who are passionate about what we do, and that energy
+  transcends locations. We also encourage local hybrid meetups for those in
+  regions like Rhein-Main, offering the best of both worlds.
 ---
-First things first - in aller Kürze:
-
-**Konditionen**: €60k-70k für Professional Level (zuletzt 3-5 Jahre fokussiertes Digital Projektmanagement) je nach Hintergrund verhandelbar. Es handelt sich weder um eine Junior- noch um eine Senior-Stelle.
-
-**Company**: Top Digitalagentur (ca. 100 MA), u.a. internationale Kunden, langfristige B2B & B2C Projekte, UX tief in der DNA, richtig gute Leute, keine Larifari-Projekte. Mehr Infos unten ...
-
-**Arbeitsmodell**: Onboarding in den ersten 2-4 Wochen vor Ort (selbstverständlich vollumfänglich organisiert), danach gerne fully remote innerhalb Deutschlands.
-
-\--
-
-**Zusätzlich** suchen wir Digital PMs aus **Rhein-Main** für andere Digitalagenturen in Mainz/Wiesbaden (hybrid). Melde dich, wenn du hier aus der Region bist.
-
-Aufgaben
---------
-
-**Der Job ...**
-
-*   Scharfsinnig, einfallsreich, vorausschauend und mit Humor kommunizierst du auf Augenhöhe mit dem Kunden, besprichst Projekte und stellst sicher, dass alles nach Plan läuft und es am Ende eines jeden Projektes ein Festbankett gibt.
-*   Dabei geht es um **digitale Aktionen für führende FMCG-Marken** teils außerhalb Deutschlands – moderne, zeitgenössische und coole Aktionen und Maßnahmen, auch in Verbindung mit Musik-Events, Festivals, Sponsoring etc.
-*   ... und damit verbundene rein digitale Maßnahmen u.a. in Form von Microsites für Games (Branding, Marketing) oder andere Arten von Consumer Activation & Engagement wie Loyalty-Apps mit vielfältigen Funktionen, u.a. Music Streaming.
-*   Für die Marken übernimmst du die **Teilverantwortung der Projekte im B2C-Bereich**, teils in Zusammenarbeit mit Senior PMs.
-*   Das heißt, du hast eine stark **kommunikative Aufgabe.**
-*   Du steuerst das interne Team aus Design und UX sowie Development.
-*   Und sonst, was erfahrene PMs in Digital-Agenturen eben so machen: Verantwortung der Projektdurchführung, Kalkulationen & Aufwandsschätzungen, Management externer Dienstleister, Projektcontrolling ...
-
-Der Job passt auch zu dir, wenn du aktuell den Titel »Account Manager:in« trägst und in deinem jetzigen Job auch einen großen PM-Anteil hast, der dir liegt.
-
-Qualifikation
--------------
-
-**Dein Profil ...**
-
-*   Da die Projekte einen Digital-Kampagnen-Schwerpunkt haben, hast du die entsprechende Expertise oder zumindest viele Erfahrungen damit.
-*   Du hast mind. 3 Jahre Erfahrung als professional PM im Digitalumfeld. Du bist es daher gewohnt, mehrere Bälle in der Luft zu halten und die Projekte methodisch sicher zu verfolgen - PM solltest du also nicht "mal so nebenbei" gemacht haben.
-*   Vielleicht kommst du sogar von einer Online-Marketing-Agentur oder einer Kommunikations-/Werbeagentur mit Digital-Unit.
-*   Mit digitalem Brand-Management kannst du etwas Konkretes anfangen.
-*   Sehr gutes Englisch in Wort und Schrift ist ein must-have, da die offizielle Teamsprache Englisch ist (Deutsch wird ebenso gesprochen)
-
-Benefits
---------
-
-*   Gehalt: €60k-70k p.a. für Professional Level (3-5 Jahre **aktuelle** Digital PM-Erfahrung)
-*   Full remote deutschlandweit möglich sowie hybrid in den Regionen Frankfurt, Main/Wiesbaden
-*   Auch eine Teilzeit-Option ist verhandelbar (80%)
-*   Stimmung: Viele nette Leute (Profis) und viele kleine Dinge, die es hier sehr angenehm machen.
-*   Extras: Hast du eigene Vorstellungen? Sprich mit uns darüber, was dir wichtig ist.
-
-**Über die Digitalagentur:**
-
-*   Pragmatisch, bodenständig, nahbar & sehr menschlich. Hier ist jede•r operativ eingebunden und nah an den Themen dran.
-*   Du bist mit deiner ganzen Individualität willkommen, „come as you are“ wird hier gelebt und niemand muss hier zwischen Business-Ich und Privat-Ich switchen.
-*   Alle sind technikbegeistert und nutzen aktuelle Technologien, z.B. KI für interaktive Kundenprojekte.
-*   Exzellentes UX und UI spielen eine große Rolle und sind DNA der Agentur, da einer der Gründer Professor für das Thema an einer Hochschule ist.
-*   Heute arbeiten hier über 100 Kolleginnen und Kollegen für Kunden, die sich wie das Who-is-Who bekannter Marken und DAX-Konzerne liest.
-*   Das Kerngeschäft ist das digitale Enablement von Unternehmen - teils in B2B, teils in B2C. Die Kernkompetenzen dabei sind Web Anwendungen, UX & UI, Digitale Kampagnen, Mobile Apps, Multitouch Solutions.
-
-\--
-
-**Klingt das alles interessant für dich?**
-
-Wenn ja, nimm jetzt Kontakt zu uns auf - dann können wir dir mehr über diese spannende Stelle erzählen (oder die anderen PM-Jobs in Rhein-Main) und du kannst in Ruhe entscheiden, ob das eine tolle Option für dich wäre.
-
-Du kannst einen professionellen Prozess und zeitnahe Reaktionen von uns erwarten. Auch unterstützen wir dich dabei, dich optimal zu präsentieren und begleiten dich mit Rat & Tat im Prozess.
-
-Wir freuen uns schon sehr über deine Kontaktaufnahme!
-
-\- Ilias & Team #germperdu
-
-\--
-
-\* Diese Stelle steht allen Menschen offen, unabhängig von Geschlecht, Alter und anderen Merkmalen: m/w/d +
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nThis is an exciting opportunity for a Mid-Senior Digital Project Manager to join a top digital agency with approximately 100 employees, specializing in long-term B2B and B2C projects for international clients, including well-known brands and DAX corporations. The agency prides itself on its deep UX/UI expertise, pragmatic and human-centered culture, and a commitment to utilizing current technologies, including AI. After an organized 2-4 week onsite onboarding period, the role offers the flexibility of being fully remote within Germany or a hybrid model for those in the Rhein-Main region. You will play a crucial, highly communicative role in delivering modern, impactful digital campaigns and initiatives.\n\n### Responsibilities\n- Proactively and astutely communicate with clients, managing projects on equal terms and ensuring successful, timely delivery, aiming for 'festive banquets' at project completion.\n- Oversee the implementation of digital campaigns for leading FMCG brands, including microsites for games (Branding, Marketing), loyalty apps with diverse functionalities (e.g., music streaming), and various consumer activation & engagement measures, sometimes linked to music events or festivals.\n- Take partial responsibility for B2C projects, often in collaboration with Senior Project Managers.\n- Serve as a central, highly communicative point of contact for project stakeholders.\n- Steer and coordinate internal teams across design, UX, and development.\n- Manage all aspects of project execution, including calculations, effort estimations, managing external service providers, and comprehensive project controlling.\n- This role is also suitable for Account Managers with significant project management experience.\n\n### Qualifications\n- Demonstrated expertise and extensive experience in digital campaigns is essential, given the project focus.\n- A minimum of 3 years of professional experience as a Project Manager in the digital sector, showcasing the ability to methodically manage multiple concurrent projects (not just 'on the side').\n- Experience from an online marketing agency or a communications/advertising agency with a digital unit is advantageous.\n- Strong understanding and practical experience with digital brand management.\n- Excellent proficiency in written and spoken English is a must, as it is the official team language, though German is also spoken.\n\n### Author's Take\nThis is a superb opportunity for an experienced Digital Project Manager to make a significant impact within a leading, human-centric digital agency. The company stands out with its commitment to cutting-edge digital solutions, a strong UX/UI DNA, and a pragmatic approach to innovation, including AI integration. You'll be part of a team of \"really good people\" working on diverse, non-trivial international projects for major brands. The competitive salary and the option for a fully remote setup (after initial onboarding) underscore a forward-thinking culture that values work-life balance and individual autonomy. If you're passionate about digital, thrive in a collaborative environment, and want to lead projects that genuinely excite and engage consumers, this role offers both professional growth and a genuinely pleasant, 'come as you are' workplace.

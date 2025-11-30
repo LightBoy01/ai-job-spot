@@ -8,59 +8,53 @@ applicationLink: >-
 postedDate: '2025-11-28T07:45:25.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/urban-sports-club/senior-key-account-manager-commercial-renewal-negotiation-all-genders-berlin-467117
 companyLogoUrl: null
+companyCulture: >-
+  Urban Sports Club, now part of Wellhub, fosters a vibrant, inclusive culture
+  that prioritizes employee well-being, growth, and work-life balance through
+  flexible work options and generous development budgets. They value
+  collaboration and empower individuals to make a significant impact in a
+  fast-growing, purpose-driven environment.
+story_question1: >-
+  With Urban Sports Club recently uniting with Wellhub, how does this
+  significant merger impact the strategic approach to managing and renewing
+  relationships with key corporate accounts, and what new opportunities or
+  challenges does it present for a Senior Account Manager?
+story_answer1: >-
+  It's an incredibly exciting time! The merger with Wellhub has truly expanded
+  our horizon, giving us access to an even larger ecosystem and more robust
+  resources. For a Senior Account Manager, it means we're now approaching
+  renewals with a much broader value proposition. We're not just offering Urban
+  Sports Club, but the power of the world's largest wellbeing platform. This
+  translates into more strategic conversations with clients, deeper integration
+  opportunities, and ultimately, more significant impact. Of course, it also
+  means adapting our pitch and understanding a more complex, unified offering,
+  but the growth potential and the ability to truly elevate our clients'
+  wellness programs are immense. It's about being at the forefront of a global
+  movement.
+story_question2: >-
+  Given the emphasis on revenue responsibility and negotiation, how does the
+  company ensure that client-centricity and the mission to inspire healthy lives
+  remain at the core of these commercial interactions, especially in challenging
+  negotiations?
+story_answer2: >-
+  That's a crucial point, and it's something we genuinely embed in our sales
+  philosophy. While revenue targets are vital, our mission to inspire active,
+  healthy lives is our north star. In every negotiation, even the tough ones, we
+  frame our solutions around the tangible benefits for the client's employees –
+  improved well-being, reduced stress, increased engagement. We're not just
+  selling a subscription; we're selling a healthier workforce. Our collaborative
+  culture means we're constantly sharing best practices and insights from
+  Customer Success and product teams, ensuring that our commercial approach is
+  always informed by real client needs and our overarching purpose. It's about
+  finding win-win scenarios where our clients see the immense value, and we
+  secure their long-term commitment to health.
 ---
-### Meet Urban Sports Club
-
-We are Europe's leading platform for sports and wellness. Our mission is to inspire people to lead active, healthy lives and with just one membership we offer access to thousands of fitness and wellness experiences across Europe.
-
-But what truly sets us apart? We believe our people are at the heart of everything we do. If you're curious about how we work, what we value and how you might grow with us, explore our [Culture Hub & Career Opportunities](https://culture.urbansportsclub.com/de/jobs).
-
-**\*Big news: Wellhub and Urban Sports Club unite!\***  
-Urban Sports Club is now a proud part of Wellhub, creating the world's largest wellbeing ecosystem. Together, we connect 39,000 corporate clients and 97,000 wellness partners across 18 countries, offering millions of people even more ways to stay active and take care of their health.
-
-This is an exciting moment to join us: you'll have the chance to be part of a global team and make a real impact on a fast-growing market. Be part of our growth story! Learn more about it [here](https://wellhub.com/en-us/blog/press-releases/wellhub-and-usc-unite/).
-
-### The opportunity 
-
-_We are looking for a Senior Account Manager, Commercial Renewal & Negotiation to fuel our growing B2B business.  
-This is a high-impact commercial role where you own the full revenue responsibility for our existing customer base. Your mission is to maximize the value and secure the long-term commitment of every client. It's also about inspiring people to live an active and healthy life. If you want to join our team in Berlin or Cologne, we look forward to receiving your application!_
-
-### What you will do
-
-*   You are responsible for the continuation and renegotiation of existing contracts (renewals) for our B2B clients with a strong focus on larger corporate accounts
-*   You analyze the existing portfolio, identify data-driven needs for action based on opportunities and risks (up and cross-sells), and initiate measures independently
-*   You are responsible for contract negotiations with (key) corporate accounts optimizing revenue and margins in close coordination with colleagues from related areas such as Sales, Customer Success, Legal, and Controlling
-*   You actively work on the continuous improvement of our processes and methods in the area of Account Renewal Management to position Urban Sports Club for a successful future in this area
-*   You understand the wishes and needs of our corporate clients and derive strategies & tactics  for specific contract negotiations and conclusions as well as for future product improvements
-
-### What you will need to succeed
-
-*   You have a minimum of 3 years experience in contract management & negotiation, sales, or key account management, ideally in a B2B environment (experience in pricing processes is a plus)
-*   You are results-oriented with a focus on revenue growth and able to independently assess the implications of various elements of contract design, e.g. on effort, costs, and strategic importance
-*   Your high numerical affinity & analytical mindset enables you to identify both risks and opportunities in the existing clients
-*   You have excellent communication skills in German and English; you are a persuasive negotiator and genuine sales talent
-*   You are confident and credible in discussions with executives up to senior management level
-*   You are resilient and persistent and thus able to withstand pressure, manage confrontation in challenging negotiations, and maintain composure under stress
-*   You have a strong product affinity and ability to represent and promote our solution externally with conviction
-*   You bring along excellent Google Sheets skills and a high proficiency in data-driven analysis
-
-### What's in it for you 
-
-*   **Free Urban Sports Club L Pro Membership + Friends and Family Discount:** Stay active with free membership, plus discounts for friends and family.
-*   **Flexible Work Model:** Enjoy a hybrid work setup, balancing on-site and remote work options to fit your lifestyle.
-*   **Extended Remote Work Options:** Work up to 120 days remotely within the EU, the UK, and Switzerland, including 30 days outside the EU. You'll also have the option to desk-swap at our other European offices.
-*   **WorkOUT Life Balance:** Take advantage of 30 days of paid vacation annually, plus two additional days for volunteering, flexible working hours, and complimentary access to our mental health provider Open Up.
-*   **Personal Development:** Receive an annual budget of €1,000 for professional growth, with regular internal training sessions and weekly German and English language classes.
-*   **Engaging Team Culture:** Participate in regular team and company events along with wellness initiatives that help you stay productive, healthy, and engaged in a hybrid work environment.
-
-_**Urban Sports Club is committed to providing a friendly, safe, and welcoming environment for everyone who applies for a position or already works with us, regardless of their sports preferences, gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion (or lack thereof).**_
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nUrban Sports Club, now part of Wellhub, is Europe's leading platform for sports and wellness, committed to inspiring active, healthy lives through a single membership providing access to thousands of fitness and wellness experiences. The recent union with Wellhub has created the world's largest wellbeing ecosystem, offering an exciting opportunity to join a global team and make a real impact in a fast-growing market.\n\nWe are seeking a **Senior Account Manager, Commercial Renewal & Negotiation** to drive the growth of our B2B business. This high-impact commercial role carries full revenue responsibility for our existing customer base, focusing on maximizing client value and securing long-term commitment. Join our team in Berlin or Cologne and be part of our growth story!\n\n### Responsibilities\n- Manage and renegotiate existing B2B client contracts, with a strong focus on larger corporate accounts.\n- Analyze the client portfolio to identify data-driven opportunities and risks (up-sells, cross-sells) and proactively implement strategic measures.\n- Lead contract negotiations with key corporate accounts to optimize revenue and margins, collaborating closely with Sales, Customer Success, Legal, and Controlling teams.\n- Continuously improve Account Renewal Management processes and methods to position Urban Sports Club for future success.\n- Understand corporate client needs to develop effective negotiation strategies and inform future product improvements.\n\n### Qualifications\n- Minimum 3 years of experience in contract management, negotiation, sales, or key account management, ideally in a B2B environment (experience in pricing processes is a plus).\n- Results-oriented with a strong focus on revenue growth, capable of independently assessing the implications of various contract design elements (e.g., effort, costs, strategic importance).\n- Strong numerical affinity and an analytical mindset to identify both risks and opportunities within existing client portfolios.\n- Excellent communication skills in German and English, with proven persuasive negotiation abilities and sales talent.\n- Confidence and credibility in discussions with executives up to senior management level.\n- Resilience and persistence to withstand pressure, manage confrontation in challenging negotiations, and maintain composure under stress.\n- Strong product affinity and ability to represent and promote our solution externally with conviction.\n- Excellent Google Sheets skills and high proficiency in data-driven analysis.\n\n### Author's Take\nThis Senior Account Manager role at Urban Sports Club, now part of the global Wellhub ecosystem, offers a fantastic opportunity for a seasoned commercial professional to drive significant impact. With full revenue responsibility for a key client base, you'll play a pivotal role in securing long-term partnerships and contributing to the company's ambitious growth. The company prides itself on a supportive and flexible culture, offering a generous \"WorkOUT Life Balance\" through hybrid work models, extensive remote options, and 30 days of vacation. Moreover, a dedicated annual budget for personal development, language classes, and a commitment to diversity and inclusion underscore a truly employee-centric environment. If you thrive on negotiation, data-driven strategy, and want to contribute to a mission that inspires healthy lives, this is an exciting next step.

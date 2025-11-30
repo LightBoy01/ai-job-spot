@@ -9,59 +9,58 @@ postedDate: '2025-11-28T15:01:56.000Z'
 expirationDate: null
 tags:
   - Helpdesk
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/seiwert-gmbh/erp-software-helpdesk-mitarbeiter-frankfurt-304267
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative, open, and flexible environment with flat
+  hierarchies, emphasizing work-life balance through flexible and remote work
+  options, and investing in employee growth and development.
+story_question1: >-
+  Considering the diverse needs of SMEs, what are the most challenging aspects
+  of ensuring consistently excellent ERP support, and how does the team
+  collaborate to overcome these hurdles?
+story_answer1: >-
+  As an ERP Support Specialist here, you're truly at the forefront of our
+  client's success. The biggest challenge is often translating complex technical
+  issues into understandable solutions for varied SME clients, some with limited
+  IT resources. But that's where our collaborative spirit shines. We don't just
+  fix problems; we analyze them proactively, leveraging SQL for deep dives, and
+  then work hand-in-hand with our development teams to optimize processes.
+  There's a real sense of shared ownership, knowing that our collective efforts
+  directly contribute to making our clients' businesses run smoother every day.
+story_question2: >-
+  For someone joining from a different background, like an IT Manager from an
+  SME, how is their unique perspective valued and integrated into improving our
+  ERP solutions and client support?
+story_answer2: >-
+  We genuinely value diverse backgrounds, especially IT managers from SMEs or
+  industry. They bring an invaluable 'customer-side' perspective, understanding
+  the real-world operational challenges that our clients face. This insight is
+  crucial; it helps us anticipate needs, refine our support strategies, and even
+  influence feature development. Their practical experience enriches our team
+  discussions and allows us to offer more empathetic and effective solutions. We
+  thrive on that blend of fresh perspectives and deep system knowledge,
+  fostering an environment where everyone's input shapes our success.
+story_question3: >-
+  With over 20 years of experience and 150+ successful projects, how does the
+  team stay innovative and ensure the ERP system continues to meet evolving
+  market demands for SMEs?
+story_answer3: >-
+  Our long history means we've seen a lot, but it also fuels our drive for
+  continuous innovation. It's not about resting on past successes; it's about
+  learning from every one of those 150+ projects. We empower our support
+  specialists to not just resolve issues, but to identify patterns and suggest
+  improvements. This feedback loop with our development teams is vital. We
+  constantly analyze client needs, industry trends, and technological
+  advancements to keep our Myfactory Cloud-ERP solution cutting-edge. It’s a
+  dynamic process, and everyone, especially those on the front lines, plays a
+  key role in shaping our future offerings and maintaining our reputation as a
+  trusted IT partner.
 ---
-Für unser wachsendes Team suchen wir einen engagierten ERP Support Specialist (m/w/d), der über fundierte technische Kenntnisse verfügt und unser Unternehmen dabei unterstützt, unseren Kunden einen erstklassigen Support zu bieten. Wir laden auch Quereinsteiger, wie z.B. IT-Manager aus KMU oder der Industrie, ein, sich zu bewerben! Wenn Sie Erfahrung im Umgang mit ERP-Systemen haben oder sich in einem technischen Umfeld gut zurechtfinden, freuen wir uns auf Ihre Bewerbung!
-
-Die Seiwert GmbH ist der zuverlässige IT-Partner für kleine und mittelständische Unternehmen (KMU), wenn es um ERP-Lösungen geht. Mit der Cloud-ERP-Software von Myfactory bieten wir unseren Kunden eine benutzerfreundliche und flexible Lösung, die perfekt auf die Bedürfnisse von KMUs zugeschnitten ist. Seit über 20 Jahren begleiten wir Unternehmen erfolgreich durch ihre ERP-Projekte – und haben dabei über 150 Projekte erfolgreich umgesetzt.
-
-Aufgaben
---------
-
-**Ihre Aufgaben:**
-
-*   **Erstklassiger Support:** Sie sind die erste Anlaufstelle für unsere Kunden bei technischen und fachlichen Fragen rund um das ERP-System.
-*   **Proaktive Fehleranalyse:** Sie identifizieren und beheben technische Probleme und leisten einen wichtigen Beitrag zur Optimierung der Systemprozesse.
-*   **SQL-Kenntnisse nutzen:** Sie führen SQL-Abfragen durch, um Daten zu analysieren und Fehler zu identifizieren.
-*   **Kundenschulungen:** Sie unterstützen unsere Kunden bei der Nutzung des ERP-Systems und geben wertvolle Tipps zur Systemoptimierung.
-*   **Teamarbeit:** Sie arbeiten eng mit unseren Entwicklerteams zusammen, um sicherzustellen, dass das ERP-System stets den Bedürfnissen unserer Kunden entspricht.
-
-Qualifikation
--------------
-
-**Ihr Profil:**
-
-*   **Fließende Deutschkenntnisse** in Wort und Schrift – klare Kommunikation ist für Sie selbstverständlich.
-*   **Erfahrung im ERP-Support** oder fundierte Kenntnisse im Umgang mit ERP-Systemen. Quereinsteiger mit Erfahrung im IT-Management, insbesondere in KMUs oder der Industrie, sind ebenfalls willkommen!
-*   **SQL-Kenntnisse** sind für Sie ein wichtiges Werkzeug, um Probleme zu lösen und Daten zu analysieren.
-*   Sie haben ein gutes Verständnis für die Herausforderungen von **KMU** und wissen, wie wichtig ein gut funktionierendes ERP-System für den Geschäftserfolg ist.
-*   Sie zeichnen sich durch eine strukturierte, lösungsorientierte Arbeitsweise aus und behalten auch bei komplexen Aufgaben den Überblick.
-*   Sie sind ein teamorientierter Mensch und schätzen den Austausch und die Zusammenarbeit mit anderen Fachabteilungen.
-
-Benefits
---------
-
-**Wir bieten Ihnen:**
-
-*   **Ein modernes und dynamisches Arbeitsumfeld**, in dem Ihre Ideen und Erfahrungen geschätzt werden.
-*   **Flache Hierarchien** und eine offene, kollegiale Unternehmenskultur.
-*   **Flexible Arbeitszeiten** und die Möglichkeit, teilweise im Homeoffice zu arbeiten.
-*   **Chancen zur beruflichen Weiterentwicklung** durch Schulungen und Weiterbildungsangebote.
-*   **JobRad:** Profitieren Sie von einem attraktiven Fahrrad-Leasing-Angebot.
-*   **Fitnessabo:** Bleiben Sie fit mit unserem Fitnessangebot.
-*   **Weitere Benefits:** Genießen Sie eine angenehme Arbeitsatmosphäre, regelmäßige Teamevents und kostenlose Getränke.
-
-**Haben wir Ihr Interesse geweckt?**
-
-Dann freuen wir uns auf Ihre Bewerbung! Senden Sie bitte Ihren Lebenslauf sowie ein Motivationsschreiben.
-
-**Gestalten Sie mit uns die Zukunft des ERP-Supports – wir freuen uns, Sie kennenzulernen!**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nWe are seeking a dedicated ERP Support Specialist (m/f/d) with sound technical knowledge to join our growing team and provide first-class support to our clients. We also welcome career changers, such as IT managers from SMEs or industry, to apply! If you have experience with ERP systems or are comfortable in a technical environment, we look forward to your application!\n\nSeiwert GmbH is the reliable IT partner for small and medium-sized enterprises (SMEs) when it comes to ERP solutions. With Myfactory's Cloud-ERP software, we offer our clients a user-friendly and flexible solution perfectly tailored to the needs of SMEs. For over 20 years, we have successfully guided companies through their ERP projects, completing over 150 projects.\n\n### Responsibilities\n*   **First-class Support:** You will be the primary point of contact for our customers regarding technical and functional questions about the ERP system.\n*   **Proactive Error Analysis:** You will identify and resolve technical problems and make a significant contribution to optimizing system processes.\n*   **Utilize SQL Skills:** You will perform SQL queries to analyze data and identify errors.\n*   **Customer Training:** You will support our customers in using the ERP system and provide valuable tips for system optimization.\n*   **Teamwork:** You will work closely with our development teams to ensure the ERP system consistently meets the needs of our customers.\n\n### Qualifications\n*   **Fluent German skills** (written and spoken) – clear communication is essential.\n*   **Experience in ERP support** or sound knowledge of ERP systems. Career changers with experience in IT management, especially in SMEs or industry, are also welcome!\n*   **SQL knowledge** is an important tool for you to solve problems and analyze data.\n*   You have a good understanding of the challenges faced by **SMEs** and know the importance of a well-functioning ERP system for business success.\n*   You are characterized by a structured, solution-oriented working style and maintain an overview even with complex tasks.\n*   You are a team-oriented individual and value exchange and collaboration with other departments.\n\n### Author's Take\nThis is an excellent opportunity for a dedicated ERP Support Specialist to join a stable yet dynamic IT partner focused on SME solutions. The role offers a stimulating blend of technical problem-solving, direct customer interaction, and collaborative teamwork with development. The company culture emphasizes flat hierarchies, flexibility (including remote options), and significant professional development opportunities. It's particularly appealing for those who thrive in a supportive, growth-oriented environment and want to make a tangible impact on client success, with a strong welcome extended to experienced career changers.

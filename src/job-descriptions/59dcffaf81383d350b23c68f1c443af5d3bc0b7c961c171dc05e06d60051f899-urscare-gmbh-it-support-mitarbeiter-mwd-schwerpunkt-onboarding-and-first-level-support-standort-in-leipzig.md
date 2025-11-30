@@ -11,97 +11,74 @@ postedDate: '2025-11-29T00:32:09.000Z'
 expirationDate: null
 tags:
   - Helpdesk
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/urscare-gmbh/it-support-mitarbeiter-schwerpunkt-onboarding-first-level-support-standort-in-leipzig-dresden-130427
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters an open and supportive culture focused on individual
+  growth and continuous learning, offering flexibility (home office options) and
+  promoting strong team collaboration through regular events and a positive
+  atmosphere where ideas are valued.
+story_question1: >-
+  How does this IT Support role, particularly with its focus on onboarding and
+  first-level support, directly contribute to the 'optimal functioning' of a
+  rapidly growing healthcare group like Urs Care, and what are the primary
+  challenges you'd expect in ensuring seamless operations for diverse teams?
+story_answer1: >-
+  Absolutely, it's a vital role, especially as we expand. Imagine a new
+  colleague starting their first day – your work ensures their workstation is
+  perfectly set up, their accounts are active, and they feel supported from day
+  one. You're the friendly face that turns potential tech headaches into smooth
+  sailing. We're a healthcare group, so every moment our systems are down or a
+  colleague is struggling with tech, it impacts patient care. Your quick,
+  empathetic support directly translates to our teams focusing on what matters
+  most: our patients. The biggest challenge? It’s often juggling multiple
+  priorities and being proactive, ensuring everyone feels heard and supported,
+  whether remotely or on-site. But that's where our open culture and team
+  collaboration really shine; we tackle problems together, and your ideas for
+  improvement are always welcomed and actively sought.
+story_question2: >-
+  The job mentions continuous development and an open culture. Can you share an
+  example of how an IT Support team member has grown within the company, perhaps
+  taking on new responsibilities or contributing to process improvements beyond
+  their core duties?
+story_answer2: >-
+  That's a fantastic question and something we actively encourage. For example,
+  we had an IT Support team member who started with us focusing primarily on
+  first-level tasks. They showed a keen interest in network infrastructure and,
+  through our internal training opportunities and their own initiative, they
+  began assisting our senior IT specialists with more complex network
+  configurations. Eventually, they took the lead on a project to optimize our
+  VPN access for home office users, significantly improving stability and
+  security. It wasn't just about technical skills; their ideas for streamlining
+  the support ticket system were also implemented, making life easier for
+  everyone. We truly value initiative and provide the space and resources for
+  you to carve out your own growth path here, whether that's specializing
+  further, taking on project leadership, or even exploring new tech areas that
+  benefit the group.
+story_question3: >-
+  Working in a healthcare group often involves handling sensitive data. How does
+  Urs Care ensure that IT support staff are equipped to manage data integrity
+  and security while still providing efficient and user-friendly support,
+  especially with the 'trustworthy personality' requirement?
+story_answer3: >-
+  You've hit on a critical point. Data security and patient privacy are
+  paramount in healthcare, and it's a responsibility we all share. For our IT
+  Support team, it starts with comprehensive initial and ongoing training on
+  data protection regulations like GDPR and internal security protocols. We also
+  implement access controls strictly on a 'need-to-know' basis. But beyond
+  technical measures, the 'trustworthy personality' aspect is about fostering a
+  culture of integrity and discretion. We empower our team members with the
+  knowledge and the systems to handle sensitive information appropriately,
+  giving them clear guidelines and immediate support if they encounter something
+  unusual. It's about trust and transparency – trust in our team members to do
+  the right thing, and transparency in our processes to ensure compliance. We
+  provide the tools and the training, but ultimately, it's the responsible
+  mindset of our team that truly protects our patients' data.
 ---
-**Werde Teil unseres bärenstarken Teams - Gestalte die digitale Zukunft mit uns!**
-
-**Wer wir sind:**
-
-Die Urs Care GmbH ist innerhalb der „Urs-Gruppe“ ein bundesweit stark wachsendes, innovatives Home-Care-Unternehmen und zählt heute zu den führenden Wundversorgern in Deutschland. Unser Fokus liegt auf der Behandlung von Patienten mit chronischen und chronisch infizierten Wunden.
-
-Unsere Vision ist es, eine innovative, zukunftsorientierte und inspirierende Arbeitsplattform für unsere Mitarbeiter zu gestalten, auf welcher sich Individualität und Potenziale voll entfalten können.
-
-Die Grundlage für die „Urs-Gruppe“ wurde 1995 mit der Eröffnung der Bären-Apotheke gelegt. Mittlerweile umfasst der moderne Leipziger Unternehmensverbund mit über 220 Mitarbeitern mehrere Apotheken mit Ärztehäusern, einen pharmazeutischen Großhandel, ein Home-Care-Unternehmen und eine Logistik- und Distributionsstrecke der patientenindividuellen Medikamentenverblisterung. Unsere Unternehmen zählen daher mittlerweile alle zu den führenden und anerkannten Gesundheitspartnern in und um Leipzig.
-
-Für den weiteren Ausbau unseres IT-Teams suchen wir zum nächstmöglichen Zeitpunkt Deine Unterstützung als:
-
-**IT-Support Mitarbeiter (m/w/d) - Schwerpunkt Onboarding & First-Level-Support - Standort in Leipzig**
-
-Deine Aufgaben bei uns:
-
-Deine **Hauptaufgaben**:
-
-· Bereitstellung von **First-Level-Support** bei technischen Anfragen und Weiterleitung komplexerer Störungen
-
-· **Einrichtung von Arbeitsplätzen** und Geräten (Windows, Android und iOS)
-
-· Durchführung des **IT-Onboarding-Prozesses** für neue Mitarbeiter
-
-· **Gewissenhafte Dokumentation**
-
-· **Betreuung** von _Clients und Peripheriegeräten_
-
-· Grundlegender **Support** für Clients von **_Telefonanlagen_** (Netphone, PBX-Cloud)
-
-· **_Inventarisierung_** von Hard- und Software
-
-Wir suchen eine **_zuverlässige_** und **_vertrauensvolle Persönlichkeit_,** die **_Spaß_** am **_First-Level-Support_** hat und gewissenhaft den **_Onboarding-Prozess_** neuer Mitarbeiter begleitet. Mit deinem **_Engagement_** in unserem wachsenden **_IT-Team_** trägst du wesentlich dazu bei, dass die **_Arbeitsabläufe_** für alle Mitarbeiter der Unternehmensgruppe optimal funktionieren. Dabei löst Du Probleme flexibel – ob remote per TeamViewer oder direkt vor Ort beim Nutzer. Deine **_umfassende Dokumentation_** ist uns sehr wichtig. Wir sind immer **_offen für neue Ideen_** zur Prozessoptimierung. Kenntnisse in Microsoft **_Intune_** wären ein **_zusätzliches Plus_**.
-
-**Dein Profil:**
-
-• Du verfügst über mindestens **_3 Jahre Berufserfahrung_** in relevanten IT-Bereichen.
-
-• Dein fundiertes **_IT-Support-Wissen_**, erworben durch eine Ausbildung, Studium oder vergleichbare Qualifikation bildet die Basis Deiner Kompetenz.
-
-· Du bringst Erfahrung als **_IT-Support_** mit.
-
-· **_Du hast Freude_** daran, Deine Kollegen gerne bei **_technischen Fragen_** – egal ob komplex oder grundlegend - zu unterstützen.
-
-· **_Kommunikationsfähigkeit_**, **_Kundenorientierung_** und eine **_ausgeprägte Serviceorientierung_** sind für Dich selbstverständlich.
-
-· Dein **_ausgeprägtes_** **_Verantwortungsbewusstsein_** und Deine **_Integrität_** machen Dich zu einem **_vertrauenswürdigen_** Teammitglied, besonders in Bezug auf den Umgang mit sensiblen Daten und _Informationen_.
-
-· Du hast **_Freude_** am lebenslangen **_Lernen_** und siehst Veränderungen als **_Chance_** zur **_persönlichen_** und fachlichen **_Weiterentwicklung_**.
-
-· Du bist ein **_Teamplayer_** und arbeitest gerne mit Kollegen zusammen, um **_gemeinsam_** Ziele zu erreichen.
-
-**Was wir Dir bieten:**
-
-Entfaltung und Wachstum
-
-· Eine **_offene Unternehmenskultur_**, die Deine \_individuelle Entwicklung\_fördert.
-
-· _Umfassende Einarbeitung_ und kontinuierliche **_Fort- und Weiterbildungsmöglichkeiten_**.
-
-Flexibilität und Sicherheit
-
-· **_Moderne Arbeitszeitmodelle_** mit **_Home-Office-Option_** und entsprechender Ausstattung.
-
-· Einen **_unbefristeten Arbeitsvertrag_** für langfristige Perspektiven.
-
-GEMEINSCHAFT und ATMOSPHÄRE werden bei uns großgeschrieben
-
-· Ein dynamisches **_Team_**, das sich auf Deine Verstärkung freut.
-
-· Regelmäßige **_Team- und Firmenevents_** für den Zusammenhalt über den Arbeitsalltag hinaus.
-
-Bei uns findest Du nicht nur einen Job, sondern einen Ort, an dem Du Dich **_beruflich_** und **_persönlich_** **_weiterentwickeln_** kannst. Wir legen Wert auf eine **_positive Arbeitsatmosphäre_**, in der Deine Ideen gehört und Deine Beiträge geschätzt werden.
-
-Weitere Informationen
-
-Du fühlst Dich angesprochen? Möchtest Du mitgestalten? Werde auch Teil der Urs-Familie und starte Deine Karriere bei der Urs Care!
-
-Wir freuen uns auf deine Bewerbung unter [URSCARE.DE](http://URSCARE.DE)
-
-Urs Care GmbH  
-Selliner Str. 5-9  
-04207 Leipzig
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\n**IT Support Specialist (m/f/d) - Focus Onboarding & First-Level Support - Leipzig Location**\n\nUrs Care GmbH, part of the \"Urs Group,\" is a rapidly growing, innovative home-care company across Germany, leading in wound care. Our vision is to create an innovative, future-oriented, and inspiring work platform where individuality and potential can fully unfold. Founded in 1995, the Urs Group has grown to over 220 employees in Leipzig, encompassing pharmacies, a pharmaceutical wholesaler, a home-care company, and logistics for patient-specific medication blistering. We are a leading healthcare partner in and around Leipzig.\n\nWe are seeking your support to further expand our IT team as an IT Support Specialist. You will be a reliable and trustworthy personality who enjoys first-level support and conscientiously accompanies the onboarding process for new employees. Your commitment will significantly contribute to optimal workflows for all employees across the group, solving problems flexibly both remotely and on-site. We are always open to new ideas for process optimization.\n\n**What we offer:**\nWe provide an open company culture that fosters individual development through comprehensive onboarding and continuous training. Enjoy modern working hours with home office options, an unlimited employment contract, and a dynamic team that values community and a positive atmosphere. We host regular team and company events.\n\n### Responsibilities\n- Provide First-Level Support for technical inquiries and escalate complex issues.\n- Set up workstations and devices (Windows, Android, and iOS).\n- Conduct the IT onboarding process for new employees.\n- Diligent documentation.\n- Support for clients and peripheral devices.\n- Basic support for clients of phone systems (Netphone, PBX-Cloud).\n- Inventory management of hardware and software.\n\n### Qualifications\n- You have at least 3 years of professional experience in relevant IT areas.\n- Your profound IT support knowledge, acquired through vocational training, studies, or comparable qualification, forms the basis of your competence.\n- You have experience as an IT Support specialist.\n- You enjoy supporting your colleagues with technical questions – whether complex or basic.\n- Communication skills, customer orientation, and a strong service orientation are self-evident for you.\n- Your strong sense of responsibility and integrity make you a trustworthy team member, especially concerning the handling of sensitive data and information.\n- You enjoy lifelong learning and see changes as an opportunity for personal and professional development.\n- You are a team player and enjoy collaborating with colleagues to jointly achieve goals.\n- Knowledge in Microsoft Intune is a plus.\n\n### Author's Take\nThis is an excellent opportunity for an experienced IT Support Specialist to join a rapidly growing healthcare group in Leipzig. The role offers a perfect blend of direct technical support and crucial HR-related IT tasks through employee onboarding. The company emphasizes a supportive, open culture with strong growth potential, continuous learning, and flexibility, including home office options. If you're passionate about ensuring smooth tech operations, supporting colleagues, and value a collaborative environment where your ideas are heard, this role provides a stable and developing career path within a vital industry. The focus on documentation and process optimization also highlights a commitment to efficiency and quality.

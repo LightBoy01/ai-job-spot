@@ -11,76 +11,50 @@ postedDate: '2025-11-29T15:32:20.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/remoteclip/ki-manager-ai-manager-mit-fokus-auf-outbound-kampagnen-clay-ki-automatisierung-hamburg-346430
 companyLogoUrl: null
+companyCulture: >-
+  RemoteClip fosters a culture of continuous learning and growth, offering
+  structured career paths, intensive onboarding with mentorship, and
+  professional development opportunities. The environment is highly
+  collaborative and supportive, valuing team spirit, open communication, and
+  individual initiative within a tech-affine setting, complemented by social
+  team events.
+story_question1: >-
+  Given the emphasis on AI and data-driven strategies, what's the most exciting
+  challenge for the AI Manager in identifying truly unique lead sources beyond
+  traditional methods, and how does the team typically approach experimenting
+  with new outreach techniques?
+story_answer1: >-
+  That's a fantastic question, and it gets right to the heart of what makes this
+  role so dynamic! The most exciting challenge is definitely uncovering those
+  'needle in a haystack' leads – going beyond LinkedIn to leverage new data
+  sources and AI models. We're constantly experimenting, often dedicating a
+  portion of our sprints to 'discovery' where everyone brings ideas. The beauty
+  here is that you're not just executing; you're truly a pioneer. The team
+  rallies around these innovations, celebrating successes and learning from
+  experiments together. It's about collective growth, and your insights are
+  genuinely valued in shaping our next big outreach breakthrough.
+story_question2: >-
+  How does the AI Manager role directly contribute to RemoteClip's mission of
+  making complex B2B solutions simple and visible for clients through
+  data-driven outbound campaigns?
+story_answer2: >-
+  Our mission isn't just a tagline; it's embedded in every outbound campaign we
+  craft. As an AI Manager, you're on the front lines, ensuring our clients'
+  complex offerings reach the *right* decision-makers with messages that truly
+  resonate. By deeply segmenting and personalizing our outreach using AI and
+  advanced data tools, we translate intricate value propositions into clear,
+  compelling narratives that capture attention. It's about precision targeting
+  and impactful communication, directly driving client visibility and
+  demonstrating our commitment to smart, results-oriented marketing. You're
+  essentially the architect of initial engagement, paving the way for our
+  clients' stories to be heard by those who need to hear them.
 ---
-Wir suchen einen **KI Manager (m/w/d)**, der unsere **Outbound-E-Mail-Kampagnen** auf das nächste Level bringt – von der **Datenrecherche** bis zur **automatisierten Kundenansprache**.
-
-Wenn du Spaß daran hast, mit **Tools wie Clay, KI und modernen Datentechnologien** zu arbeiten, kreative Wege findest, **relevante Leads zu identifizieren** und **clever skalierbare Kampagnen** aufzusetzen, dann bist du bei uns genau richtig.
-
-Du arbeitest strukturiert, analytisch und zugleich kreativ – und liebst es, Prozesse zu optimieren, Daten zu verstehen und daraus performante Marketingaktionen zu gestalten.
-
-Noch keine Erfahrung mit **Outbound**\-E-Mail-Kampagnen? Kein Problem!
-
-In unserer strukturierten Einarbeitung lernst du alles, was du brauchst, um **selbstständig hochwirksame Kampagnen** zu planen, umzusetzen und zu optimieren. Quereinsteiger mit technischem Verständnis oder Growth-Mindset sind ausdrücklich willkommen.
-
-**RemoteClip** ist eine führende **B2B-Marketingagentur**, spezialisiert auf **Video Content** und **Webseiten** für Unternehmen im Tech- und Industriebereich.
-
-Unsere Mission: Komplexe Lösungen einfach erklären und B2B Marken sichtbar machen – mit smartem Content und datengetriebenem Marketing.
-
-**Was dich erwartet:**
-
-*   **Attraktive, leistungsabhängige Vergütung:** Dein Engagement bestimmt dein Einkommen. Wenn Kunden Ihre Zusammenarbeit mit uns verlängern, wirst du an dem Erfolg beteiligt.
-*   **Strukturierter Aufstiegsplan:** Durch klar definierte Ziele und messbare Leistungen hast du bei uns die Möglichkeit, schrittweise in verantwortungsvollere Positionen aufzusteigen.
-*   **Intensives Onboarding:** Ein persönlicher Mentor begleitet dich, um dir einen optimalen Start zu ermöglichen.
-*   **Teamspirit und Zusammenhalt:** Bei uns erwartet dich ein motiviertes unterstützendes Team, welches dir bei Fragen immer zur Seite steht und deine Arbeit wertschätzt.
-*   **Klar strukturiertere Arbeitsabläufe:** Arbeite mit Checklisten und klaren Anleitungen, die dir deinen Arbeitsalltag erleichtern. So kannst du dich immer auf das Wesentliche konzentrieren.
-*   **Ausstattung:** Wir statten dich mit modernster Technik von Apple sowie Stehtischen und ergonomischen Stühlen aus.
-*   **Arbeiten mit internationalen Kunden:** Arbeite mit stark wachsenden innovativen B2B Unternehmen im ganzen DACH-Raum zusammen.
-
-Aufgaben
---------
-
-*   **Aufbau und Umsetzung von Outbound-E-Mail-Kampagnen** mit Tools wie **Clay**, KI-gestützten Plattformen und Automatisierungssystemen
-*   **Recherche, Strukturierung und Anreicherung von Kontaktdaten** (z. B. über LinkedIn, Unternehmensverzeichnisse, Datenbanken oder Web-Scraping-Tools)
-*   **Entwicklung von personalisierten Outreach-Strategien**, um Entscheidungsträger gezielt und skalierbar zu erreichen
-*   **Pflege, Segmentierung und Optimierung von Lead-Daten** im CRM-System zur Sicherstellung maximaler Relevanz und Zustellbarkeit
-*   **A/B-Testing, Performance-Analyse und Reporting** zur kontinuierlichen Verbesserung der Kampagnenqualität
-*   **Zusammenarbeit mit unserem Content- und Designteam**, um überzeugende E-Mail-Texte und Outreach-Sequenzen zu erstellen
-*   **Erprobung neuer Tools, Datenquellen und Automatisierungsideen**, um Prozesse ständig zu optimieren und neue Wege im Outbound-Marketing zu finden
-
-Qualifikation
--------------
-
-*   **Hohe Eigenmotivation, Lernbereitschaft und strukturierte Arbeitsweise** – du willst Prozesse verstehen, verbessern und eigenständig zum Erfolg führen
-*   **Technische Affinität und Neugier** für moderne Marketing-Tools wie **Clay, KI-basierte Data-Enrichment- oder Automatisierungstools**
-*   **Analytisches Denken** und Freude daran, mit Daten zu arbeiten, Muster zu erkennen und Strategien daraus abzuleiten
-*   **Talent im Verfassen von Werbetexten (Copywriting):** Du kannst überzeugende E-Mail-Texte und Outreach-Sequenzen schreiben, die Interesse wecken und zum Handeln motivieren
-*   **Kreativität in der Lead-Generierung:** Du findest neue, clevere Wege, um relevante Kontakte zu identifizieren und zu erreichen
-*   **Erfahrung im Marketing**, idealerweise im **B2B- oder Performance-Bereich**, sowie ein gutes Verständnis für Zielgruppen, Funnels und Conversion-Logik
-*   **Sehr gute schriftliche Ausdrucksfähigkeit** und ein Gespür für wirkungsvolle, zielgruppenorientierte Kommunikation
-*   **Verlässlichkeit und Prozessverständnis:** Du arbeitest präzise, dokumentierst sauber und setzt Projekte diszipliniert um
-*   **Teamgeist und Growth-Mindset:** Du teilst dein Wissen, lernst von anderen und bist offen für Feedback und neue Ideen
-
-Benefits
---------
-
-*   **Langfristige Perspektive:** Nach der Probezeit erhältst du bei uns einen **unbefristeten Arbeitsvertrag** – wir investieren nachhaltig in dein Wachstum.
-*   **Modernes Office im Herzen von Hamburg:** Genieße unser **helles Büro mit riesiger Dachterrasse** – perfekt zum kreativen Arbeiten oder kurzen Austausch im Team.
-*   **Top-Equipment & Tools:** Du arbeitest mit **Apple-Hardware**, ergonomischer Ausstattung und Zugang zu modernen **KI- und Automatisierungstools** wie Clay, um deine Arbeit effizient und smart zu gestalten.
-*   **Persönliche Weiterentwicklung:** Regelmäßige **Workshops, Schulungen und Coachings** bringen dich in den Bereichen **Marketing-Automatisierung, Copywriting und Datenanalyse** stetig weiter.
-*   **Inspirierendes, tech-affines Team:** Ein **ambitioniertes Umfeld**, in dem du Ideen einbringen, Neues ausprobieren und mit Gleichgesinnten wachsen kannst.
-*   **Teamkultur mit Spaßfaktor:** Freue dich auf **monatliche Teamabende, gemeinsame Projekte und offene Kommunikation** auf Augenhöhe.
-*   **Intensives Onboarding & Mentoring:** Du wirst individuell eingearbeitet und von einem erfahrenen Mentor begleitet, damit du von Anfang an erfolgreich durchstarten kannst.
-
-Eine abgeschlossene Ausbilung oder ein Studium sind von Vorteil aber keine Pflicht.
-
-Für uns zählt vor allem deine eigene Disziplin, Durchhaltevermögen und strategisches, logisches Denken.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nRemoteClip, a leading B2B marketing agency specializing in video content and websites for tech and industrial companies, is seeking an **AI Manager** to elevate their outbound email campaigns. This role focuses on leveraging AI, modern data technologies, and creative strategies to identify relevant leads and set up scalable campaigns, from data research to automated customer outreach. The company values structured, analytical, and creative approaches, emphasizing process optimization and data-driven marketing. Even without prior outbound experience, comprehensive onboarding and mentorship are provided, making it an ideal role for motivated individuals with a technical understanding or a growth mindset.\n\n### Responsibilities\n- Building and implementing outbound email campaigns using tools like Clay, AI-powered platforms, and automation systems.\n- Researching, structuring, and enriching contact data (e.g., via LinkedIn, company directories, databases, or web-scraping tools).\n- Developing personalized outreach strategies to reach decision-makers precisely and scalably.\n- Maintaining, segmenting, and optimizing lead data in the CRM system to ensure maximum relevance and deliverability.\n- Conducting A/B testing, performance analysis, and reporting for continuous improvement of campaign quality.\n- Collaborating with the content and design team to create compelling email texts and outreach sequences.\n- Experimenting with new tools, data sources, and automation ideas to continuously optimize processes and discover new avenues in outbound marketing.\n\n### Qualifications\n- High self-motivation, eagerness to learn, and a structured approach to work – you want to understand, improve processes, and independently drive success.\n- Technical affinity and curiosity for modern marketing tools such as Clay, AI-based data enrichment, or automation tools.\n- Analytical thinking and enjoyment of working with data, recognizing patterns, and deriving strategies.\n- Talent in copywriting: You can write persuasive email texts and outreach sequences that generate interest and motivate action.\n- Creativity in lead generation: You find new, clever ways to identify and reach relevant contacts.\n- Marketing experience, ideally in B2B or performance marketing, and a good understanding of target audiences, funnels, and conversion logic.\n- Excellent written communication skills and an instinct for effective, target-group-oriented communication.\n- Reliability and process understanding: You work precisely, document thoroughly, and implement projects disciplinedly.\n- Team spirit and growth mindset: You share your knowledge, learn from others, and are open to feedback and new ideas.\n- A completed education or degree is advantageous but not mandatory; discipline, perseverance, and strategic, logical thinking are paramount.\n\n### Author's Take\nThis is an exceptional opportunity for a driven individual looking to kickstart or advance their career in AI-driven marketing within a supportive and innovative environment. RemoteClip offers a structured career path, intensive onboarding with a personal mentor, and a commitment to long-term employee growth through an unlimited contract after probation. The culture fosters team spirit, continuous learning through workshops and coaching, and offers a modern office in Hamburg with top-tier equipment. You'll be part of an ambitious team working with cutting-edge tools and international B2B clients, where your creativity and analytical skills will directly impact campaign performance and client success.

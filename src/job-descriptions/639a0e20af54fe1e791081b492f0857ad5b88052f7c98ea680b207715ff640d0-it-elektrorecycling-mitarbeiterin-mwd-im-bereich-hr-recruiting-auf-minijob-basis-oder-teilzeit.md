@@ -11,47 +11,49 @@ postedDate: '2025-11-28T18:01:39.000Z'
 expirationDate: null
 tags:
   - HR
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/it-elektrorecycling/mitarbeiterin-im-bereich-hr-recruiting-auf-minijob-basis-oder-teilzeit-mannheim-321487
 companyLogoUrl: null
+companyCulture: >-
+  This company offers a pleasant work environment in a growing business,
+  emphasizing flexible working hours and a friendly, open atmosphere. It values
+  individuals who enjoy working with people, providing opportunities for
+  contributing to growth and potentially expanding one's impact.
+story_question1: >-
+  How does this HR/Recruiting support role, even on a part-time basis, directly
+  contribute to the company's strategic growth, and what are the opportunities
+  for an individual to develop within this capacity?
+story_answer1: >-
+  You know, it's easy to see a 'support' role as minor, but here, it's
+  absolutely foundational. We're a growing company, and our biggest asset is our
+  people. Your work in screening, managing applications, and ensuring a smooth
+  initial candidate experience directly impacts our ability to quickly identify
+  and onboard top talent. Think of it as being the first impression and the
+  crucial filter. Your efficiency and keen eye mean we're not just growing, but
+  growing with the *right* people. As for development, we're lean and agile; if
+  you show initiative, optimize processes, or bring fresh ideas to candidate
+  engagement, there's always room to take on more complex tasks and genuinely
+  shape our recruiting strategy. Your impact is felt immediately and visibly.
+story_question2: >-
+  Given the emphasis on candidate interaction and social media engagement, what
+  is the company's philosophy on maintaining a consistent and positive candidate
+  experience from the very first touchpoint?
+story_answer2: >-
+  That's a fantastic point, and it's central to our employer brand. Our
+  philosophy is simple: treat every candidate with respect, transparency, and
+  warmth, regardless of the outcome. We understand that applying for a job can
+  be stressful, so we aim to make the process as clear and human as possible.
+  Your role, especially with initial communications and phone interviews, is key
+  to setting that tone. We encourage clear, prompt responses and a genuine
+  curiosity about each person. While we have basic guidelines, we empower you to
+  bring your friendly, open personality to every interaction. We want candidates
+  to leave feeling positive about their experience with us, even if it doesn't
+  lead to a job, because that goodwill reflects directly on our company culture
+  and future talent acquisition.
 ---
-Wir suchen ab sofort Unterstützung im Bereich **HR / Recruiting** auf Minijob oder Teilzeit-Basis.  
-Wenn du Erfahrung in der Personalsuche hast, gerne mit Menschen arbeitest und dich in Social Media sicher bewegst, passt du perfekt zu uns.
-
-Aufgaben
---------
-
-*   Erstellen und Schalten von **Stellenanzeigen** auf Online-Plattformen (z. B. Kleinanzeigen, Facebook, Jobportale)
-*   **Sichtung von Bewerbungen** und erste Vorauswahl der Kandidat\*innen
-*   Beantworten von **Nachrichten und Anfragen** von Bewerber\*innen (per E-Mail, Chat oder Telefon)
-*   **Terminorganisation** für Telefon- und Vor-Ort-Bewerbungsgespräche
-*   Führen von **kurzen Telefoninterviews** (Basisfragen, erste Einschätzung, Notizen erstellen)
-*   Unterstützung bei **Vor-Ort-Interviews** (Begrüßung, Unterlagen prüfen, Daten aufnehmen)
-*   Pflege einer einfachen **Kandidatenliste** (z. B. in Excel oder einem ähnlichen Tool)
-*   Allgemeine Unterstützung im **HR-Büro** bei kleineren organisatorischen Aufgaben
-
-Qualifikation
--------------
-
-*   **Berufserfahrung im Recruiting / HR-Bereich** (z. B. in der Bewerberauswahl, Personalsuche oder Personaldisposition)
-*   Gute **Deutschkenntnisse in Wort und Schrift**
-*   Sicherer Umgang mit **Social Media** (z. B. Facebook, Instagram, Kleinanzeigen)
-*   Freundliche, offene und verbindliche Art im Umgang mit Menschen
-*   Zuverlässige, strukturierte und selbstständige Arbeitsweise
-*   Grundlegende **PC-Kenntnisse** (E-Mail, Dateien, einfache Listen/Tabellen)
-
-Benefits
---------
-
-*   Flexible Arbeitszeiten und die Möglichkeit, die Tätigkeit auf Teilzeitbasis (bis zu 20 Stunden/Woche) auszuführen
-*   Kostenloser Parkplatz
-*   Ein angenehmes Arbeitsumfeld in einem wachsenden Unternehmen
-
-**Wenn Sie Interesse an dieser Position haben, senden Sie bitte Ihre Bewerbungsunterlagen zusammen mit Ihrer Gehaltsvorstellung an uns.**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nWe are looking for immediate support in **HR / Recruiting** on a mini-job or part-time basis. If you have experience in personnel search, enjoy working with people, and are confident on social media, you are the perfect fit for us. This role is crucial for our growing team, ensuring a smooth and efficient recruitment process from initial contact to interview scheduling.\n\n### Responsibilities\n- Creating and posting **job advertisements** on online platforms (e.g., Kleinanzeigen, Facebook, job portals).\n- Reviewing applications and conducting an initial pre-selection of candidates.\n- Responding to messages and inquiries from applicants (via email, chat, or phone).\n- Organizing appointments for phone and on-site job interviews.\n- Conducting short phone interviews (basic questions, initial assessment, taking notes).\n- Supporting on-site interviews (welcoming candidates, checking documents, recording data).\n- Maintaining a simple candidate list (e.g., in Excel or a similar tool).\n- General support in the HR office with minor organizational tasks.\n\n### Qualifications\n- Professional experience in recruiting / HR (e.g., in candidate selection, personnel search, or personnel disposition).\n- Good German language skills in spoken and written word.\n- Confident use of social media (e.g., Facebook, Instagram, Kleinanzeigen).\n- Friendly, open, and reliable manner in dealing with people.\n- Reliable, structured, and independent way of working.\n- Basic PC skills (email, files, simple lists/tables).\n\n### Author's Take\nThis is an excellent opportunity for an organized and people-oriented individual to contribute significantly to a growing company's HR efforts. The role offers flexible working hours and a supportive environment, making it ideal for those seeking part-time engagement with real impact. You'll be a key player in shaping the candidate experience and helping the company scale by finding the right talent.

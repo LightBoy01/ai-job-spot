@@ -10,45 +10,71 @@ expirationDate: null
 tags:
   - Purchasing
   - Materials Administration and Logistics
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/materialdisponent-logistik-koordinator-munich-262519
 companyLogoUrl: null
+companyCulture: >-
+  This company fosters a culture of mutual respect and trust, evident in its
+  'Du-Kultur' and supportive leadership. It prioritizes work-life balance
+  through flexible hours and offers abundant opportunities for professional
+  growth and development within a modern work environment.
+story_question1: >-
+  Given the central role of coordinating between various departments like
+  intralogistics, production, and shipping, what's the most challenging aspect
+  of ensuring seamless, on-time order fulfillment, and how does success in this
+  role directly impact the company's overall operational efficiency?
+story_answer1: >-
+  The most challenging yet rewarding part is definitely orchestrating the
+  symphony of different departments, especially when unexpected hurdles arise.
+  It's like being the conductor of an orchestra, making sure every section is in
+  tune. When an urgent order comes in or a supply chain kink appears, my role is
+  to swiftly troubleshoot, prioritize, and re-align everyone to keep the
+  momentum going. When we successfully navigate these complexities and ensure
+  orders are dispatched punctually, you can literally see the ripple effect
+  across the entire organization – happy customers, efficient production, and a
+  robust bottom line. It's incredibly satisfying to know you're the linchpin
+  making it all happen, supported by a team that trusts you to make those
+  critical calls.
+story_question2: >-
+  This role is positioned within a market leader known for its crisis resistance
+  and modern environment. How does the company leverage its stability and
+  advanced infrastructure to empower Material Disponents to innovate or optimize
+  logistics processes beyond day-to-day coordination?
+story_answer2: >-
+  Working for a market leader truly provides a unique foundation. While the
+  day-to-day coordination is key, the stability means we're not just reacting;
+  we're also encouraged to look ahead. We have access to cutting-edge systems
+  like SAP R/3 and and modern equipment, which aren't just tools for basic
+  tasks, but platforms for optimization. For instance, after successfully
+  managing a peak season, I recently proposed an adjustment to our inventory
+  prioritization logic based on predictive analytics, which was readily
+  considered by management. This culture of trust from leadership really
+  empowers us to bring forward ideas for process improvements, knowing that even
+  small changes can contribute significantly to our long-term efficiency and
+  sustained market leadership, rather than just solving immediate problems.
+story_question3: >-
+  With the company's commitment to continuous development, what does a typical
+  career path look like for a Material Disponent, and what specific growth
+  opportunities are available to cultivate expertise and advance within the
+  organization?
+story_answer3: >-
+  The beauty of working here is that 'development' isn't just a buzzword; it's
+  genuinely integrated into our culture. For a Material Disponent, career paths
+  can be quite diverse. You could deepen your specialization in a particular
+  logistics area, perhaps becoming a subject matter expert in inventory
+  management or international shipping. Alternatively, with a strong grasp of
+  our operations, you might transition into a more strategic role within supply
+  chain planning or even into project management for logistics optimization
+  initiatives. The company actively supports these transitions through tailored
+  training programs, mentorship, and opportunities to lead smaller projects.
+  We're encouraged to discuss our aspirations with our leaders, and they
+  genuinely work with us to carve out a path that aligns with both our
+  individual goals and the company's evolving needs. It's a place where you can
+  truly build a meaningful career, not just hold a job.
 ---
-Im Auftrag unseres Partnerunternehmens im Münchner Norden suchen wir Sie zum nächstmöglichen Zeitpunkt als **„Materialdisponent / Logistik-Koordinator (m/w/d)“.**
-
-**Aufgaben**
-------------
-
-*   Als **Materialdisponent / Logistik-Koordinator (m/w/d)** verantworten Sie die Bestandsführung sowie die termingerechte Abwicklung aller Fertigungs- und Versandaufträge
-*   Dabei koordinieren Sie die Abläufe zwischen Intralogistik, Auftragsplanung, Materialsteuerung, Produktion, Lager, Versand und den angrenzenden Fachabteilungen
-*   Sie organisieren und überwachen Lagerthemen wie Inventuren, Priorisierungen, Klärungen und Abstimmungen mit dem Controlling
-*   Zudem prüfen Sie Versandaufträge im Lagerverwaltungssystem auf Vollständigkeit, bearbeiten Reklamationen sowie Fehlteile, klären Bestandsdifferenzen und übernehmen die Verwaltung von Artikeln mit Verfallsdatum
-*   Weiterhin erstellen Sie Bestellanforderungen in SAP, prüfen Rechnungen, unterstützen bei Systemfragen und übernehmen Aufgaben der Stammdatenpflege
-
-**Qualifikation**
------------------
-
-*   Sie bringen eine abgeschlossene Berufsausbildung als Industriekaufmann (m/w/d), Speditionskaufmann (m/w/d), Fachkraft für Lagerlogistik (m/w/d), Logistikkoordinator (m/w/d) oder eine vergleichbare Qualifikation mit
-*   Sie verfügen über Berufserfahrung als Materialdisponent (m/w/d), Logistik-Koordinator (m/w/d) oder in einer vergleichbaren Position
-*   Sie verfügen über sehr gute ERP-Kenntnisse, idealerweise in SAP R/3 und sind sicher im Umgang mit den gängigen MS-Office-Programmen
-*   Sie arbeiten strukturiert, verantwortungsbewusst und haben ein hohes Maß an Genauigkeit bei der Bearbeitung von Aufträgen und Beständen
-*   Sehr gute Deutschkenntnisse zeichnen Sie aus
-
-**Benefits**
-------------
-
-*   **Work-Life-Balance:** Freuen Sie sich auf flexible Arbeitszeiten
-*   **IGM-Tarifvertrag:** Erhalten Sie eine attraktive Entlohnung gemäß des IG Metall Tarifvertrags, der eine faire Bezahlung und klare Konditionen sicherstellt
-*   **Krisensicherheit beim Marktführer:** Kaum ein Unternehmen bietet eine derartige Sicherheit wie dieses
-*   **Wertschätzende Arbeitskultur:** Die Abteilung legt großen Wert auf ein positives Miteinander. Sie erwartet eine Du-Kultur und ein spürbares Vertrauen der Führungskräfte
-*   **Modernes Umfeld**: Sie erwartet eine moderne Arbeitsumgebung, mit neuesten Gerätschaften
-*   **Weiterentwicklung**: Das Unternehmen bietet zahlreiche Weiterbildungs- und Entwicklungsmöglichkeiten
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Veronica Wild** gerne unter 089 954 287 106 zur Verfügung.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nIn cooperation with our partner company in northern Munich, we are looking for a **Material Disponent / Logistics Coordinator (m/f/d)** to start as soon as possible. In this pivotal role, you will be responsible for inventory management and the timely processing of all production and shipping orders, acting as the central coordinator between various internal departments to ensure smooth logistical operations.\n\n### Responsibilities\n*   Manage inventory and ensure timely processing of all production and shipping orders.\n*   Coordinate workflows between intralogistics, order planning, material control, production, warehousing, shipping, and other relevant departments.\n*   Organize and monitor warehouse-related activities such as inventories, prioritizations, clarifications, and reconciliations with controlling.\n*   Verify the completeness of shipping orders in the warehouse management system, process complaints and missing parts, clarify inventory discrepancies, and manage articles with expiry dates.\n*   Create purchase requisitions in SAP, review invoices, provide support for system-related questions, and manage master data maintenance tasks.\n\n### Qualifications\n*   Completed vocational training as an Industrial Clerk, Shipping Clerk, Specialist for Warehouse Logistics, Logistics Coordinator, or a comparable qualification.\n*   Professional experience as a Material Disponent, Logistics Coordinator, or in a similar position.\n*   Very good ERP knowledge, ideally in SAP R/3, and proficiency in common MS Office programs.\n*   A structured and responsible working style with a high degree of accuracy in processing orders and managing inventories.\n*   Excellent German language skills.\n\n### Author's Take\nThis is an excellent opportunity for an experienced Material Disponent or Logistics Coordinator to join a crisis-resistant market leader in northern Munich. The role offers a dynamic environment where you are key to optimizing internal logistics flows. Beyond the core responsibilities, the company prides itself on a supportive \"Du-Kultur,\" trust-based leadership, and a strong commitment to work-life balance through flexible hours. With attractive compensation according to the IG Metall collective agreement and numerous opportunities for further education and development in a modern workplace, this position provides both stability and ample scope for professional growth.

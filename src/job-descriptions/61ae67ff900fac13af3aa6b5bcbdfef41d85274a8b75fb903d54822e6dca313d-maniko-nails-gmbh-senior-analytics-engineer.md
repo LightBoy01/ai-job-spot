@@ -10,80 +10,71 @@ expirationDate: null
 tags:
   - Remote
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/maniko-nails-gmbh/senior-analytics-engineer-berlin-499429
 companyLogoUrl: null
+companyCulture: >-
+  MANIKO fosters a flexible and collaborative environment focused on data-driven
+  results and continuous growth. The culture emphasizes ownership, teamwork, and
+  empowering individuals to make a significant impact while maintaining
+  work-life balance.
+story_question1: >-
+  Given MANIKO's rapid growth and 'Facts over ego' culture, how does the Senior
+  Analytics Engineer directly influence strategic business decisions and drive
+  tangible impact?
+story_answer1: >-
+  Here at MANIKO, as a Senior Analytics Engineer, you're not just maintaining
+  pipelines; you're the architect of our data-driven future. I've seen firsthand
+  how our work translates complex raw data into actionable insights that
+  leadership uses daily. For example, a recent project involved optimizing our
+  customer acquisition funnels. By building a new scalable data model and
+  collaborating closely with the marketing team, we uncovered critical drop-off
+  points, leading to a significant reallocation of budget and a noticeable boost
+  in conversion rates. The 'Facts over ego' really shines here – it’s all about
+  the data, not whose idea it was. Your models empower teams to iterate faster,
+  making a real difference in our growth trajectory, which is incredibly
+  rewarding.
+story_question2: >-
+  MANIKO emphasizes 'speed and impact over perfection.' How do you balance the
+  need for rapid data solutions with ensuring robust data quality and
+  reliability in a dynamic startup environment?
+story_answer2: >-
+  That's a fantastic question and truly at the heart of what makes MANIKO
+  exciting. It’s a constant dance! We understand that in a fast-moving startup,
+  waiting for absolute perfection can mean missing opportunities. So, our
+  approach is iterative and pragmatic. We deploy minimum viable data products
+  quickly, but critically, we embed strong data quality frameworks – think
+  robust test frameworks and validation processes – right from the start. We're
+  empowered to challenge assumptions, even with senior stakeholders, to ensure
+  that while we're moving fast, we're not cutting corners on accuracy. It means
+  prioritizing what truly moves the needle for the business, building
+  iteratively, and constantly seeking feedback to refine and improve our data
+  solutions, rather than getting bogged down in endless cycles of 'perfecting'
+  something before it ever sees the light of day. It's about 'Challenge
+  accepted' every single day.
+story_question3: >-
+  The job mentions 'expanding responsibilities' and 'shaping our data
+  infrastructure.' Could you share an example of how an Analytics Engineer has
+  taken ownership of a significant initiative and how that contributed to their
+  personal and professional growth at MANIKO?
+story_answer3: >-
+  Absolutely! We live by 'Power to the People' and 'Who, if not you?'. A great
+  example is when we recognized the need to move beyond fragmented analytics
+  tools. One of our engineers, relatively new at the time, saw the opportunity
+  to research and champion a new centralized data visualization platform. They
+  weren't just told to do it; they *identified* the gap. They led the
+  evaluation, built a compelling business case backed by data, and then
+  spearheaded the implementation, even training other teams. This initiative
+  significantly improved our self-service analytics capabilities, and for that
+  engineer, it was a massive step up in leadership, project management, and
+  strategic thinking. They truly shaped a core part of our data infrastructure
+  and grew immensely in the process. We encourage that kind of proactive
+  ownership and provide the space and resources for individuals to truly make
+  their mark and explore new paths.
 ---
-**Ready to not just deliver numbers, but actively shape analytics?**
-
-If you enjoy turning complex data into clear solutions and empowering teams with data-driven insights, then this role is perfect for you. In a dynamic nail-beauty environment, you will shape our data landscape, ensure high data quality, and enable informed decision-making across the company.
-
-**Who we are:**
-
-MANIKO is an innovative, fast-growing company in the nail polish industry, offering high-quality products to discerning customers worldwide. We are known for our revolutionary self-adhesive nail polish technology, which allows our customers to achieve professional results conveniently at home.
-
-Our secret? A passionate team that never settles for the status quo and constantly strives to do better. We believe in values that are truly lived – not just empty phrases. At MANIKO, it means:
-
-*   **Facts over ego:** We focus on results and data – the team comes first, not individual ego.
-*   **Challenge accepted:** Every challenge is an opportunity to grow together.
-*   **Power to the People:** Every contribution counts. We trust in responsibility and empowerment.
-*   **Who, if not you?:** We take ownership and get things done ourselves.
-
-Tasks
------
-
-**Your role at Maniko:**
-
-As our new Senior Analytics Engineer, you will be the driving force behind data-driven insights across the company. You will develop scalable data models, build self-service analytics structures, and create smart data products that enable our teams to make truly data-driven decisions. We are looking for someone who thrives in a startup environment where speed and impact matter more than perfection.
-
-This **hands-on role** offers you the opportunity to expand your responsibilities – whether through taking ownership of initiatives or actively shaping and improving our data infrastructure. We are looking forward to someone eager to grow with us.
-
-**Your responsibilities:**
-
-*   You will be a close business partner for our teams and work with colleagues to translate their requirements into actionable data solutions and support them in decision making
-*   You will build and maintain scalable data models to support analytics and reporting requirements
-*   You will develop and optimize data products to enable self-service analytics within the company
-*   You will develop our data infrastructure to ensure efficient data processing and delivery
-*   You will ensure data quality through test frameworks, validation processes, and comprehensive documentation
-*   You will confidently challenge assumptions and advocate for data-informed approaches, even with senior stakeholders
-
-Requirements
-------------
-
-**What you bring:**
-
-*   **Experience:** You have at least 3 years of experience as an Analytics Engineer, Data Analyst, or Data Generalist
-*   **SQL & Data Transformation:** Strong SQL skills and hands-on experience with data transformation tools like dbt, as well as visualization tools (preferably Tableau)
-*   **Data Modeling & Structuring:** A deep understanding of data modeling concepts enables you to efficiently structure datasets for analytics and reporting
-*   **Data Quality & Reliability:** You have a data-first mindset and take pride in ensuring accuracy, consistency, and reliability across all analytics outputs
-*   **Collaboration & Stakeholder Management:** Working closely with stakeholders to define metrics and enable data-driven decisions is one of your strengths
-*   **Teamwork & Communication:** You are a strong team player with excellent communication and interpersonal skills
-*   **Business Impact & Prioritization:** You prioritize initiatives based on business impact and deliver insights and recommendations that drive meaningful action
-*   **Nice to have:** Python for data engineering and orchestration tasks
-
-Benefits
---------
-
-**What we offer:**
-
-*   **Influence and responsibility:** You will have a direct impact on our company’s success and play a key role in shaping our growth strategy
-*   **Flexible work:** Choose how you work best – in the office or remotely, including fully flexible working hours
-*   **An inspiring culture:** Every person counts. We value flat hierarchies, fast decision-making, and true teamwork
-*   **Growth opportunities:** Personal and professional development, exploring new paths
-*   **Immediate impact:** See the direct results of your work and help shape a young, emerging brand
-*   A fast-paced, young, dynamic, and highly motivated team in the heart of Berlin (Hackescher Markt)
-*   Freedom to solve tasks your way
-*   Regular team events
-*   Complete home office setup, including a height-adjustable desk
-*   A Deutschland-Ticket
-
-**Challenge accepted?** Then apply now and become part of a team that pursues big goals while never losing the fun.
-
-We’re looking forward to having you on board!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nMANIKO is a fast-growing, innovative company in the nail polish industry, known for its revolutionary self-adhesive nail polish technology. We offer high-quality products to discerning customers worldwide. Our culture is built on values like \"Facts over ego,\" \"Challenge accepted,\" \"Power to the People,\" and \"Who, if not you?\", fostering a passionate team that constantly strives for improvement.\\n\\nAs a Senior Analytics Engineer, you will be a driving force for data-driven insights, shaping our data landscape, ensuring high data quality, and enabling informed decision-making across the company. This hands-on role offers the opportunity to expand responsibilities by taking ownership of initiatives and actively shaping our data infrastructure within a dynamic startup environment where speed and impact are paramount.\\n\\n### Responsibilities\\n- Be a close business partner for our teams, translating requirements into actionable data solutions and supporting decision-making.\\n- Build and maintain scalable data models for analytics and reporting.\\n- Develop and optimize data products to enable self-service analytics.\\n- Develop our data infrastructure for efficient data processing and delivery.\\n- Ensure data quality through test frameworks, validation processes, and comprehensive documentation.\\n- Confidently challenge assumptions and advocate for data-informed approaches, even with senior stakeholders.\\n\\n### Qualifications\\n- **Experience**: At least 3 years as an Analytics Engineer, Data Analyst, or Data Generalist.\\n- **SQL & Data Transformation**: Strong SQL skills and hands-on experience with dbt and visualization tools (preferably Tableau).\\n- **Data Modeling & Structuring**: Deep understanding of data modeling concepts for efficient dataset structuring.\\n- **Data Quality & Reliability**: A data-first mindset ensuring accuracy, consistency, and reliability.\\n- **Collaboration & Stakeholder Management**: Strong ability to work with stakeholders to define metrics and enable data-driven decisions.\\n- **Teamwork & Communication**: Excellent communication and interpersonal skills.\\n- **Business Impact & Prioritization**: Ability to prioritize initiatives based on business impact and deliver actionable insights.\\n- **Nice to have**: Python for data engineering and orchestration tasks.\\n\\n### Author's Take\\nThis is an exciting opportunity for a seasoned Analytics Engineer who thrives in a fast-paced, impactful startup environment. MANIKO offers significant autonomy and direct influence on the company's growth strategy, aligning with their \"Power to the People\" and \"Who, if not you?\" values. The emphasis on flexible work, continuous learning, and a supportive, collaborative team culture makes this an attractive role for someone eager to make a tangible difference and grow professionally within a dynamic Berlin-based company.

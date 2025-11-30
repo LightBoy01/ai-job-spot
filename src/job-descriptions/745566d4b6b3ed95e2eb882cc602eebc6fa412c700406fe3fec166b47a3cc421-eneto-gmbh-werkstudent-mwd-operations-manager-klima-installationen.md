@@ -10,75 +10,52 @@ expirationDate: null
 tags:
   - Remote
   - Process Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/eneto-gmbh/werkstudent-operations-manager-klima-installationen-berlin-185174
 companyLogoUrl: null
+companyCulture: >-
+  Eneto fosters a dynamic, remote-first environment ideal for students,
+  emphasizing direct collaboration with founders and technical teams. It offers
+  clear responsibilities, a steep learning curve in a growing market, and a
+  strong focus on improving processes and practical experience, with good
+  work-life balance through flexible hours.
+story_question1: >-
+  Given the rapid growth in the climate and heat pump market, how does this
+  Werkstudent role directly contribute to Eneto's ability to scale efficiently
+  and maintain high-quality customer and partner experiences?
+story_answer1: >-
+  That's a fantastic question, and it really hits at the heart of what makes
+  this role so impactful. As a Werkstudent in Operations, you're not just doing
+  administrative tasks; you're truly at the operational core of our expansion.
+  Every installation you coordinate, every technical detail you help refine,
+  every troubleshooting step you manage – it directly ensures our projects run
+  smoothly and our customers have a seamless experience. We're a remote-first
+  team, which means clear processes and strong communication are key, and you'll
+  be instrumental in keeping that engine running. You'll gain invaluable
+  hands-on experience in a booming industry, working directly with founders and
+  technical experts, truly seeing how your efforts translate into tangible
+  growth and customer satisfaction for a company that's making a real difference
+  in energy efficiency.
+story_question2: >-
+  With the emphasis on direct collaboration with founders and the technical
+  team, what's the typical feedback and mentorship structure like for a
+  Werkstudent, and how are ideas for process improvement typically incorporated?
+story_answer2: >-
+  That's a great insight into our culture! We pride ourselves on having very
+  short communication lines and a flat hierarchy. As a Werkstudent, you're not
+  just a cog in the machine; you're a valued member of the team. You'll be
+  working directly with the founders and our technical experts, meaning you'll
+  get immediate feedback and guidance. We encourage an open dialogue – if you
+  spot an inefficiency or have an idea to improve a process, we want to hear it.
+  Because you're seeing the complete process chain, your perspective is
+  incredibly valuable. We use digital tools for collaboration, and suggestions
+  for process improvements are often discussed in our regular syncs and quickly
+  implemented if they make sense. This isn't just about learning; it's about
+  contributing and actively shaping our operational excellence.
 ---
-Bei Eneto machen wir moderne Klimaanlagen- und Heizlösungen schnell, einfach und bezahlbar zugänglich. Mit hochwertigen Markenprodukten, klaren Prozessen, kurzen Installationszeiten und transparenten Festpreisen kommen Kunden ohne Aufwand zur optimalen Lösung. Unser Ziel: maximale Effizienz bei möglichst geringen Anschaffungskosten – ohne Komplexität oder lange Baustellen.
-
-Unsere Stärke: bundesweite Montageteams, standardisierte Abläufe und Systeme, die in 1 bis 2 Tagen montiert sind. Über 70.000 Kundenerfahrungen aus früheren Energieprojekten bilden unsere Basis. Unsere Geräte sind smart steuerbar und lassen sich flexibel mit anderen Systemen verbinden.
-
-Dafür suchen wir einen **Werkstudenten (m/w/d) Operations**, der die Schnittstelle zwischen Kund:innen, Handwerkern und unserem Team bildet und unsere Installationen operativ sauber durchsteuert.
-
-Aufgaben
---------
-
-\*\*Handwerker koordinieren  
-\*\*○ Zuordnung von Aufträgen zu passenden Partnerbetrieben (Klimatechniker, klassische Handwerker, Elektrotechnik).  
-○ Terminabstimmung zwischen Kund:innen und Partnern.  
-○ Sicherstellen, dass Qualität und Ausführung der Partnerbetriebe passen.
-
-\*\*Technische Feinplanung (Fachauslegung)  
-\*\*○ Unterstützung bei der Auslegung von Projekten: Positionierung der Innen- und Außengeräte, Leitungswege, Stromanschluss, Kondensatablauf etc.  
-○ Berechnung der Heizlast der Räume und Gebäude nach Norm.  
-○ Abstimmung technischer Details mit Handwerkern und Kund:innen.  
-○ Fachauslegung der Luft-Luft-Wärmepumpen (Leistung, Platzierung, technische Anforderungen).
-
-\*\*Troubleshooting im Tagesgeschäft  
-\*\*○ Klärung von Rückfragen (z. B. Zugang, Technik, Materialbedarf).  
-○ Nachhalten offener Punkte, damit Projekte nicht hängen bleiben.Operative Struktur & Dokumentation  
-○ Pflege von Daten in unseren Tools (z. B. CRM/Projektübersichten).  
-○ Sicherstellen, dass alle relevanten Infos für die Montage vorliegen (Fotos, Pläne, Freigaben).  
-○ Management von KfW-Anträgen (Unterlagen, Nachweise, Koordination).
-
-Qualifikation
--------------
-
-*   Eingeschriebene:r Student:in (z. B. Wirtschaftsingenieurwesen, BWL, Technische Gebäudeausrüstung (TGA), Elektrotechnik, (Energie-)Technik, Bauwesen oder vergleichbar).
-*   Sehr gute Deutschkenntnisse in Wort und Schrift.
-*   Strukturierte, zuverlässige Arbeitsweise – du magst To-do-Listen und klare Prozesse.
-*   Hohe Kommunikationsstärke: Du kannst mit Kund:innen und Handwerkern direkt, klar und verbindlich sprechen.
-*   Grundverständnis für Technik / Gebäudetechnik oder die Bereitschaft, dich schnell einzuarbeiten.Sicherer Umgang mit Laptop und gängigen Office-Tools (Tabellen, E-Mail, ggf. einfache CRM-/Projekttools).
-
-**Was wir dir bieten**
-
-*   Werkstudentenstelle mit ca. 20 Stunden/Woche, planbar neben dem Studium.
-*   Weitestgehend remote möglich, gelegentliche Abstimmungen/Workshops nach Bedarf.
-*   Direkte Zusammenarbeit mit den Gründern und unserem technischen Team – du siehst die komplette Prozesskette.
-*   Klar definierte Aufgaben, viel Verantwortung im Tagesgeschäft und die Möglichkeit, Abläufe aktiv mit zu verbessern.
-*   Erfahrung in einem wachsenden Markt (Energieeffizienz, Klima/Wärmepumpe), die sich im Lebenslauf sehen lassen kann.
-
-Benefits
---------
-
-*   Faire Stundenvergütung & klare Verantwortlichkeiten – du weißt genau, wofür du bezahlt wirst und wofür du zuständig bist.
-*   Remote-First – arbeiten von überall mit klaren Prozessen und digitalen Tools.
-*   Flexible Planung – ca. 20 Stunden pro Woche, ideal neben Studium & Klausurenphasen.
-*   Echter Einblick in die Praxis – Fachauslegung, Projektsteuerung, Handwerkerkoordination.
-*   Direkter Draht zu Gründern & Technik – schnelle Antworten, kurze Wege, keine Bürokratie.
-*   Steile Lernkurve – du siehst den kompletten Ablauf von Anfrage bis Installation.
-*   Wachstumsmarkt Klima/Wärmepumpe – wertvolle Erfahrung für deinen Lebenslauf.
-*   Gestaltungsspielraum – Abläufe verbessern, Prozesse schärfen, Verantwortung übernehmen.Perspektive – bei starkem Fit Einstieg in eine feste Rolle (Operations / Technik / PM).
-
-Klicke auf „Jetzt bewerben“ und sende uns:
-
-*   deinen Lebenslauf
-*   2–3 Sätze, warum du gut in eine Operations-/Koordinationsrolle passt
-*   optional: kurze Beispiele, wo du schon einmal Organisation/Koordination übernommen hast (Job, Uni, Projekte)
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nEneto makes modern air conditioning and heating solutions quick, easy, and affordable. We provide high-quality brand products with clear processes, short installation times, and transparent fixed prices, ensuring customers get optimal solutions without hassle. Our goal is maximum efficiency with minimal acquisition costs, avoiding complexity or lengthy construction periods.\n\nOur strength lies in nationwide installation teams, standardized procedures, and systems that can be installed in 1-2 days. We build on over 70,000 customer experiences from previous energy projects. Our smart-controlled devices can be flexibly connected to other systems.\n\nWe are looking for a **Working Student Operations (m/f/d)** to act as the interface between customers, craftsmen, and our team, ensuring our installations are operationally managed smoothly.\n\n### Responsibilities\n- **Coordinate Craftsmen**:\n    - Assign orders to suitable partner companies (climate technicians, traditional craftsmen, electrical engineers).\n    - Schedule appointments between customers and partners.\n    - Ensure the quality and execution of partner companies meet standards.\n- **Technical Fine Planning (Expert Design)**:\n    - Support in project design: positioning of indoor and outdoor units, routing of lines, power connection, condensate drainage, etc.\n    - Calculate heating loads for rooms and buildings according to standards.\n    - Coordinate technical details with craftsmen and customers.\n    - Expert design of air-to-air heat pumps (performance, placement, technical requirements).\n- **Daily Troubleshooting**:\n    - Clarify queries (e.g., access, technology, material requirements).\n    - Follow up on open items to prevent project delays.\n- **Operational Structure & Documentation**:\n    - Maintain data in our tools (e.g., CRM/project overviews).\n    - Ensure all relevant information for installation is available (photos, plans, approvals).\n    - Manage KfW applications (documents, proofs, coordination).\n\n### Qualifications\n- Enrolled student (e.g., Industrial Engineering, Business Administration, Technical Building Equipment (TGA), Electrical Engineering, (Energy) Technology, Construction, or similar).\n- Very good German language skills, both written and spoken.\n- Structured, reliable way of working – you like to-do lists and clear processes.\n- Strong communication skills: You can communicate directly, clearly, and bindingly with customers and craftsmen.\n- Basic understanding of technology/building technology or the willingness to quickly learn.\n- Proficient in using a laptop and common Office tools (spreadsheets, email, possibly simple CRM/project tools).\n\n### Author's Take\nThis is an excellent entry-level opportunity for a motivated student to gain hands-on experience in the rapidly growing climate and heat pump market. You'll work closely with founders and the technical team, offering a steep learning curve and genuine insights into project management, technical design, and operational coordination. The remote-first, flexible structure is ideal for balancing studies, and there's a real chance to influence processes and potentially transition into a permanent role after graduation. If you're organized, communicative, and eager to make a tangible impact in a sustainable industry, this role at Eneto offers invaluable practical experience and career development.

@@ -12,67 +12,57 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
+salaryRange: '$90,000 - $130,000'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-unterhaching-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-220277
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a supportive and appreciative culture, prioritizing
+  personal and professional growth with flexible work options like home office
+  and adaptable hours. It emphasizes strong team cohesion through regular events
+  and embraces modern, digital workflows.
+story_question1: >-
+  How does this role truly enable a tax consultant to shape their career path
+  towards partnership, beyond just the optional team leadership?
+story_answer1: >-
+  Here, it's not just about another tax consulting job; it's about building your
+  legacy. Many of us joined because we felt stuck elsewhere. The firm actively
+  encourages you to curate your portfolio based on your strengths, whether it's
+  specialized tax law or leading complex projects. That 'Partnerperspektive'
+  isn't just a buzzword; it's a mentorship-driven journey. You're given the
+  autonomy and resources to develop the skills and client relationships vital
+  for partnership, supported by a team that genuinely wants to see you succeed,
+  not compete with you.
+story_question2: >-
+  How does the firm balance client demands and the promise of flexible working
+  hours and home office?
+story_answer2: >-
+  That's a valid concern, and it's something we take seriously. The key lies in
+  our modern digital infrastructure and a culture of trust. We've invested
+  heavily in tools that enable seamless remote collaboration and efficient
+  client management. Plus, our strong team cohesion means colleagues often step
+  in to support each other when personal commitments arise. It's not about
+  clock-watching; it's about delivering quality results while respecting
+  personal boundaries. We believe that a well-rested and happy team is a
+  productive team, which ultimately benefits our clients too.
+story_question3: >-
+  How does the firm ensure that the "individually selectable activity areas"
+  truly lead to meaningful, growth-oriented work rather than just taking on
+  peripheral tasks?
+story_answer3: >-
+  This is where our approach truly shines. We understand that job satisfaction
+  comes from meaningful work. When we say 'individually selectable activity
+  areas,' it's about empowering you to deepen your expertise where it matters
+  most to you and the firm. This isn't about offloading mundane tasks; it's
+  about identifying your passion areas – be it complex inheritance tax cases,
+  M&A tax, or specific industry consulting – and actively aligning you with
+  projects that challenge and develop those skills. We have dedicated mentoring
+  and regular check-ins to ensure your chosen areas contribute directly to your
+  career growth and the firm's strategic goals, making sure every project is a
+  step forward, not sideways.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Unterhaching.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nTaxTalente is the #1 job-matching platform for tax consulting professionals. Are you seeking a positive career change? Do you want to take the next step in your career and potentially aim for a partnership in a future-oriented firm? Do you want to work in a positive environment where you are financially and personally valued? We are currently looking for a Tax Consultant (m/f/d) for one of our partner firms in Unterhaching. This role offers boundless development opportunities, including partnership prospects, diverse areas of activity, and salaries comparable to industry standards.\n\n### Responsibilities\nAt our partner firm, you can customize your area of responsibility based on your personal strengths and weaknesses.\n- Preparation and review of annual financial statements\n- Preparation of tax declarations for individuals and corporations\n- Specialized tax consulting projects based on individual qualifications, e.g., in inheritance tax or transformation tax law\n- Support during tax audits\n- Team leadership and personnel responsibility (optional)\n- Further individually selectable areas of activity that bring you joy\n\n### Qualifications\nTo ensure a good fit for both sides, you should possess the following:\n- Communicative nature and enjoyment of interaction with clients\n- Meticulous, efficient, and conscientious work style\n- Openness to a digital way of working\n- Leadership understanding and sense of responsibility towards employees (optional)\n- A successfully completed tax consultant examination\n- Passion for tax-related topics\n\n### Author's Take\nThis is an exceptional opportunity for an experienced Tax Consultant seeking significant career advancement, including a clear path to partnership, within a progressive and supportive firm. The role offers outstanding compensation ($90,000 - $130,000 per year), genuine work-life balance through flexible hours and home office, and extensive support for professional development. What truly sets this apart is the emphasis on personal growth, allowing you to tailor your responsibilities to your strengths and passions. The firm also provides modern digital equipment and fosters strong team cohesion through regular events. Furthermore, by working with TaxTalente, candidates benefit from a highly efficient, discreet, and tailored job search, ensuring anonymity, pre-vetting of criteria, and expert salary negotiation.

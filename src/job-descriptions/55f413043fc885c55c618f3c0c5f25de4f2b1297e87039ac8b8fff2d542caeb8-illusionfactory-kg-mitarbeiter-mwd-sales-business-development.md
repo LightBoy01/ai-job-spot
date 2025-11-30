@@ -9,60 +9,63 @@ postedDate: '2025-11-27T13:01:46.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/illusionfactory-kg/mitarbeiter-sales-business-development-neunkirchen-seelscheid-231111
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a supportive and flexible environment, prioritizing
+  employee well-being with flexible hours, remote work options, and ample growth
+  through continuous learning and personalized tool provision. They value
+  proactive individuals who contribute to team success and customer growth,
+  leveraging modern technologies like AI.
+story_question1: >-
+  As a Sales and Business Development professional, how will my efforts directly
+  contribute to the agency's 30-year legacy of driving digital growth for
+  clients, especially with the integration of AI-powered tools?
+story_answer1: >-
+  Oh, that's an excellent question! Here, you're not just making calls; you're
+  the voice and the face that opens doors to our next big success stories. We've
+  been at this for over 30 years, constantly evolving, and now with our
+  AI-powered lead tools, you're at the forefront of that evolution. Imagine
+  identifying a perfect client with the help of AI, then using your
+  communication skills to build that initial spark. You'll be directly
+  responsible for bringing in new business, expanding our client portfolio, and
+  ultimately, ensuring our agency's continued digital growth. It's incredibly
+  rewarding to see your efforts translate into real-world impact for our
+  clients' success.
+story_question2: >-
+  Given the mention of personalized hardware/tool provision and continuous
+  learning, how does the company actively support individual professional
+  development and ensure employees have the best resources to succeed in a
+  rapidly evolving sales landscape?
+story_answer2: >-
+  That's a core part of who we are! We genuinely believe that our success is
+  built on yours. For us, 'your hardware and tools – no problem' isn't just a
+  benefit; it's a philosophy. If there's a specific CRM feature you swear by, a
+  new AI sales assistant that could boost your efficiency, or even just a better
+  headset, we want to hear about it. We'll actively discuss and invest in what
+  empowers you. Beyond that, our 'Weiterbildungsmöglichkeiten' are tailored to
+  your ambitions – whether it's advanced sales techniques, mastering new digital
+  marketing insights, or diving deeper into AI for sales. We want you to grow,
+  innovate, and feel fully supported in leading the charge for our clients.
+story_question3: >-
+  The job description highlights flexible working hours and home office options.
+  How does the company ensure team cohesion and effective collaboration while
+  offering such flexibility?
+story_answer3: >-
+  We've really mastered the art of flexible collaboration over the years. We
+  trust our team to manage their time effectively, whether they're in the office
+  or working remotely. We achieve cohesion through regular, focused team
+  meetings – both virtually and in person – and dedicated communication channels
+  where ideas are shared freely. It's about clear goals and open dialogue, not
+  rigid hours. We prioritize results and well-being, understanding that a happy,
+  balanced team is a productive one. Plus, when we do come together, whether for
+  a project brainstorm or a team event, there's a genuine buzz because everyone
+  feels valued and connected, regardless of their daily work setup.
 ---
-Du **telefonierst gerne**, kannst Menschen begeistern und hast ein **gutes Gespür für Verkauf und Kommunikation**? Dann werde Teil unseres Teams!
-
-Wir suchen eine **engagierte Persönlichkeit**, die den Ausbau unserer Kundenbeziehungen aktiv vorantreibt und **mit modernen Tools arbeitet** – darunter auch KI-gestützte Systeme zur Leadgenerierung.
-
-Aufgaben
---------
-
-*   **Aktive Ansprache** potenzieller Neukunden per Telefon und LinkedIn
-*   **Nutzung unseres KI-gestützten Lead-Tools** zur Identifikation passender Ansprechpartner und Unternehmen
-*   **Pflege der Kundendatenbank** im CRM-System
-*   **Analyse und Qualifizierung von Leads**
-*   **Unterstützung bei der Entwicklung und Umsetzung von Vertriebsstrategien**
-*   **Erstellung und Nachverfolgung von Angeboten** in Abstimmung mit der Geschäftsführung
-
-Qualifikation
--------------
-
-*   Du **telefonierst gerne** und **gehst aktiv auf Menschen zu**
-*   Du hast bereits **Erfahrung im Vertrieb**, in der **Akquise oder im Kundenkontakt** – oder du bist ein Kommunikationstalent mit Motivation, dich einzuarbeiten
-*   Du **arbeitest strukturiert**, **denkst unternehmerisch** und bringst Durchhaltevermögen mit
-*   Du hast ein **gutes Gespür für Kundenbedürfnisse** und kannst diese überzeugend in Lösungen übersetzen
-*   **Sicherer Umgang mit** bekannten **digitalen Tools** (z. B. CRM-Systeme, Office, E-Mail, LinkedIn)
-*   **Interesse an modernen Vertriebs- und KI-Technologien**
-
-Benefits
---------
-
-*   unbefristeter Arbeitsvertrag
-*   30 Tage Urlaub
-*   flexible Arbeitszeiten
-*   atraktives Bonussystem
-*   Arbeitszeitkonto
-*   möglichkeit auch aus dem HomeOfffice zuarbeiten
-*   JobRad
-*   Corporatebenefits - attraktive Rabatte für unsere Mitarbeiter bei unzähligen Marken und Portalen
-*   Weiterbildungsmöglichkeiten
-*   deine Hardware und Tools. Du brauchst bestimmte **Hardware** für die effektive Arbeit? Oder ein bestimmtes **Tool**, das wir vielleicht noch nicht nutzen? **Kein Problem!** Lass uns darüber sprechen und die optimale Lösung finden!
-
-Wir sind eine inhabergeführte Marketingagentur mit Fokus auf  
-digitales Wachstum für unsere Kunden – von SEO und SEA über Webseiten  
-bis hin zu automatisierter Akquise. Seit über 30 Jahren entwickeln wir  
-Strategien, die Unternehmen erfolgreicher machen.
-
-Damit wir weiter wachsen, **suchen wir dich als kommunikativen Kopf im Sales und Business Development**, der mit Leidenschaft telefoniert, organisiert arbeitet und neue Kundenbeziehungen aufbaut.
-
-Wir freuen uns auf dich!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nDo you enjoy making calls, inspiring people, and have a good feel for sales and communication? Then become part of our team! We are looking for a dedicated personality who actively drives the expansion of our customer relationships and works with modern tools – including AI-powered systems for lead generation.\n\nWe are an owner-managed marketing agency focused on digital growth for our clients – from SEO and SEA to websites and automated acquisition. For over 30 years, we have been developing strategies that make companies more successful. To continue growing, we are looking for you as a communicative individual in Sales and Business Development, who passionately makes calls, works in an organized manner, and builds new customer relationships.\n\n### Responsibilities\n- Actively approach potential new customers via phone and LinkedIn\n- Utilize our AI-powered lead tool to identify suitable contacts and companies\n- Maintain the customer database in the CRM system\n- Analyze and qualify leads\n- Support the development and implementation of sales strategies\n- Prepare and follow up on offers in coordination with management\n\n### Qualifications\n- You enjoy making calls and actively approaching people\n- You have experience in sales, acquisition, or customer contact – or you are a communication talent motivated to learn the ropes\n- You work in a structured manner, think entrepreneurially, and bring perseverance\n- You have a good sense of customer needs and can convincingly translate them into solutions\n- Proficient use of common digital tools (e.g., CRM systems, Office, email, LinkedIn)\n- Interest in modern sales and AI technologies\n\n### Author's Take\nThis is a fantastic opportunity for a sales-driven individual who thrives on building relationships and leveraging modern tools, including AI. The company offers exceptional benefits, including permanent employment, generous vacation, flexible hours, attractive bonuses, remote work options, and significant investment in professional development and personalized tools. It's a role where your proactive approach is valued, and your growth is genuinely supported within a stable, experienced agency.
