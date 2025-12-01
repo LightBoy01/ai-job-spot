@@ -23,7 +23,14 @@ export async function requireAdmin(
   const sessionCookie = cookies.__session || '';
 
   if (!sessionCookie) {
-    res.status(401).json({ error: 'Unauthorized: No session cookie provided' });
+    // Redirect to login page instead of returning 401
+    // We return false to indicate the current handler should not proceed
+    if (req.url?.startsWith('/api/')) {
+        res.status(401).json({ error: 'Unauthorized: No session cookie provided' });
+    } else {
+        res.writeHead(302, { Location: '/admin/login' });
+        res.end();
+    }
     return false;
   }
 
@@ -31,15 +38,27 @@ export async function requireAdmin(
     const decodedToken = await adminAuth.verifySessionCookie(sessionCookie, true);
 
     if (decodedToken.admin !== true) {
-      res.status(403).json({ error: 'Forbidden: User is not an admin' });
+      if (req.url?.startsWith('/api/')) {
+          res.status(403).json({ error: 'Forbidden: User is not an admin' });
+      } else {
+          res.writeHead(302, { Location: '/' }); // Redirect non-admins to home
+          res.end();
+      }
       return false;
     }
 
     req.decodedIdToken = decodedToken;
     return true;
   } catch (e) {
-    console.error('Middleware: Error verifying session cookie:', e);
-    res.status(401).json({ error: 'Unauthorized: Invalid session cookie' });
+    // console.error('Middleware: Error verifying session cookie:', e); 
+    // Suppress loud error logs for expected auth failures (e.g. expired cookies)
+    
+    if (req.url?.startsWith('/api/')) {
+        res.status(401).json({ error: 'Unauthorized: Invalid session cookie' });
+    } else {
+        res.writeHead(302, { Location: '/admin/login' });
+        res.end();
+    }
     return false;
   }
 }
