@@ -8,7 +8,6 @@ import {
 
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { AuthenticatedNextApiRequest, requireAdmin } from '@/lib/middleware';
-import { JobPosting } from '@/lib/types';
 
 function isTimestamp(value: unknown): value is Timestamp {
   return value instanceof Timestamp;

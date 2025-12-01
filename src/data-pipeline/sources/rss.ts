@@ -1,4 +1,3 @@
-import logger from '../utils/logger.js';
 import { IBriefingSource, StandardBriefing, StandardBriefingSchema } from '../types.js';
 import { fetchAndParseRss, RssItem } from '../adapters/rss-adapter.js';
 import { generateBriefingId } from '../utils/id-generation.js';

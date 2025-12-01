@@ -6,6 +6,7 @@ import { admin } from './firebaseAdmin';
 
 // Future functions for the analysis engine will go here.
 // TODO: Define a strong type for the analysis report
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function getGitHubRepoList(uid: string): Promise<Record<string, any>[]> {
   try {
     const token = await getDecryptedGitHubToken(uid);
@@ -31,6 +32,7 @@ export async function getGitHubRepoList(uid: string): Promise<Record<string, any
  * @returns The user's GitHub profile data.
  */
 // TODO: Define a strong type for the analysis report
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function getGitHubUserProfile(uid: string): Promise<Record<string, any>> {
   try {
     const token = await getDecryptedGitHubToken(uid);
@@ -47,6 +49,7 @@ export async function getGitHubUserProfile(uid: string): Promise<Record<string, 
 }
 
 // TODO: Define a strong type for the analysis report
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function listCommitsForRepo(uid: string, owner: string, repo: string): Promise<Record<string, any>[]> {
     try {
         const token = await getDecryptedGitHubToken(uid);

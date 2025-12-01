@@ -1,5 +1,5 @@
-import { GeminiProvider } from './providers/gemini.js';
-import type { AiProvider } from './providers/gemini.js';
+import { GeminiProvider } from './providers/gemini';
+import type { AiProvider } from './providers/gemini';
 
 import dotenv from 'dotenv';
 

@@ -1,10 +1,9 @@
-
 // This file exports functions that are pre-configured for the SERVER-SIDE Firebase Admin SDK.
 // They are intended for use in server-side code (e.g., getStaticProps, API routes) and should not be used in client components.
 
-import { getFirebaseAdmin } from './firebaseAdmin.js';
-import { JobPosting, Article } from './types.js';
-import { admin } from './firebaseAdmin.js';
+import { getFirebaseAdmin } from './firebaseAdmin';
+import { JobPosting, Article } from './types';
+import { admin } from './firebaseAdmin';
 
 // Helper function to convert Firestore Timestamp to JavaScript Date
 const convertTimestampToDate = (
@@ -87,63 +86,83 @@ const processArticleData = (
 export async function getJobs(
   limit?: number
 ): Promise<{ jobs: JobPosting[]; lastVisible: admin.firestore.DocumentSnapshot | null }> {
-    const { adminDb } = await getFirebaseAdmin();
-    let q: admin.firestore.Query = adminDb.collection('jobs')
-        .where('status', '==', 'published')
-        .orderBy('postedDate', 'desc');
+    try {
+      const { adminDb } = await getFirebaseAdmin();
+      let q: admin.firestore.Query = adminDb.collection('jobs')
+          .where('status', '==', 'published')
+          .orderBy('postedDate', 'desc');
 
-    if (limit) {
-        q = q.limit(limit);
+      if (limit) {
+          q = q.limit(limit);
+      }
+
+      const querySnapshot = await q.get();
+      const jobs = querySnapshot.docs.map(processJobData);
+      const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
+
+      return { jobs, lastVisible };
+    } catch (error) {
+      console.error('Error fetching jobs:', error);
+      return { jobs: [], lastVisible: null };
     }
-
-    const querySnapshot = await q.get();
-    const jobs = querySnapshot.docs.map(processJobData);
-    const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
-
-    return { jobs, lastVisible };
 }
 
 
 export async function getJobById(id: string): Promise<JobPosting | null> {
-  const { adminDb } = await getFirebaseAdmin();
-  const jobDocRef = adminDb.collection('jobs').doc(id);
-  const jobDocSnap = await jobDocRef.get();
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    const jobDocRef = adminDb.collection('jobs').doc(id);
+    const jobDocSnap = await jobDocRef.get();
 
-  if (!jobDocSnap.exists) {
+    if (!jobDocSnap.exists) {
+      return null;
+    }
+    return processJobData(jobDocSnap);
+  } catch (error) {
+    console.error(`Error fetching job ${id}:`, error);
     return null;
   }
-  return processJobData(jobDocSnap);
 }
 
 export async function getArticles(
   limit?: number
 ): Promise<{ articles: Article[]; lastVisible: admin.firestore.DocumentSnapshot | null }> {
-  const { adminDb } = await getFirebaseAdmin();
-  let q: admin.firestore.Query = adminDb.collection('articles')
-    .orderBy('volumeNo', 'desc')
-    .orderBy('issueNo', 'desc');
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    let q: admin.firestore.Query = adminDb.collection('articles')
+      .orderBy('volumeNo', 'desc')
+      .orderBy('issueNo', 'desc');
 
-  if (limit) {
-    q = q.limit(limit);
+    if (limit) {
+      q = q.limit(limit);
+    }
+
+    const querySnapshot = await q.get();
+    const articles = querySnapshot.docs.map(processArticleData);
+    const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
+
+    return { articles, lastVisible };
+  } catch (error) {
+    console.error('Error fetching articles:', error);
+    return { articles: [], lastVisible: null };
   }
-
-  const querySnapshot = await q.get();
-  const articles = querySnapshot.docs.map(processArticleData);
-  const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
-
-  return { articles, lastVisible };
 }
 
 export async function getArticleBySlug(slug: string): Promise<Article | null> {
-  const { adminDb } = await getFirebaseAdmin();
-  const articlesCollectionRef = adminDb.collection('articles');
-  const q = articlesCollectionRef.where('slug', '==', slug);
-  const querySnapshot = await q.get();
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    const articlesCollectionRef = adminDb.collection('articles');
+    const q = articlesCollectionRef.where('slug', '==', slug);
+    const querySnapshot = await q.get();
 
-  if (querySnapshot.empty) {
+    if (querySnapshot.empty) {
+      return null;
+    }
+    return processArticleData(querySnapshot.docs[0]);
+  } catch (error) {
+    console.error(`Error fetching article ${slug}:`, error);
     return null;
   }
-  return processArticleData(querySnapshot.docs[0]);
 }
 
 export async function getJobsByTag(
@@ -154,21 +173,26 @@ export async function getJobsByTag(
     return { jobs: [], lastVisible: null };
   }
 
-  const { adminDb } = await getFirebaseAdmin();
-  let q: admin.firestore.Query = adminDb.collection('jobs')
-    .where('status', '==', 'published')
-    .where('tags', 'array-contains-any', tags)
-    .orderBy('postedDate', 'desc');
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    let q: admin.firestore.Query = adminDb.collection('jobs')
+      .where('status', '==', 'published')
+      .where('tags', 'array-contains-any', tags)
+      .orderBy('postedDate', 'desc');
 
-  if (limit) {
-    q = q.limit(limit);
+    if (limit) {
+      q = q.limit(limit);
+    }
+
+    const querySnapshot = await q.get();
+    const jobs = querySnapshot.docs.map(processJobData);
+    const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
+
+    return { jobs, lastVisible };
+  } catch (error) {
+    console.error('Error fetching jobs by tag:', error);
+    return { jobs: [], lastVisible: null };
   }
-
-  const querySnapshot = await q.get();
-  const jobs = querySnapshot.docs.map(processJobData);
-  const lastVisible = querySnapshot.docs.length > 0 ? querySnapshot.docs[querySnapshot.docs.length - 1] : null;
-
-  return { jobs, lastVisible };
 }
 
 export async function getRelevantArticles(
@@ -180,17 +204,22 @@ export async function getRelevantArticles(
     return [];
   }
 
-  const { adminDb } = await getFirebaseAdmin();
-  const articlesCollectionRef = adminDb.collection('articles');
-  const q = articlesCollectionRef
-    .where('tags', 'array-contains-any', tags)
-    .orderBy('publishDate', 'desc')
-    .limit(limit + 1); // Fetch one more to see if we need to exclude the current article
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    const articlesCollectionRef = adminDb.collection('articles');
+    const q = articlesCollectionRef
+      .where('tags', 'array-contains-any', tags)
+      .orderBy('publishDate', 'desc')
+      .limit(limit + 1); // Fetch one more to see if we need to exclude the current article
 
-  const querySnapshot = await q.get();
-  const articles = querySnapshot.docs
-    .map(processArticleData)
-    .filter((article) => article.id !== currentArticleId);
+    const querySnapshot = await q.get();
+    const articles = querySnapshot.docs
+      .map(processArticleData)
+      .filter((article) => article.id !== currentArticleId);
 
-  return articles.slice(0, limit);
+    return articles.slice(0, limit);
+  } catch (error) {
+    console.error('Error fetching relevant articles:', error);
+    return [];
+  }
 }

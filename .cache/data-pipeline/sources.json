@@ -1,0 +1,35 @@
+{
+  "timestamp": 1764157234290,
+  "sources": [
+    {
+      "id": "Arbeitnow",
+      "sourceName": "Arbeitnow",
+      "feedUrl": null,
+      "type": "Job",
+      "adapter": "Arbeitnow",
+      "status": "Active",
+      "keywords": [
+        "Ai",
+        "Ml",
+        "Nlp",
+        "Data",
+        "Prompt",
+        "Vibe",
+        "Editor",
+        "Artist",
+        "model",
+        "automation",
+        "chatbot",
+        "bot"
+      ],
+      "fetchFrequency": "daily",
+      "lastFetchedAt": null,
+      "notes": "Added via CLI",
+      "enabled": true,
+      "baseUrl": "https://arbeitnow.com/api/job-board-api",
+      "remote": false,
+      "visa_sponsorship": false,
+      "maxPages": 7
+    }
+  ]
+}
