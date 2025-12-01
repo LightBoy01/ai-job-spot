@@ -3,11 +3,11 @@ export interface VerifiedClaim {
   userId: string;
   platform: 'GITHUB' | 'HUGGING_FACE' | 'KAGGLE';
   category: 'AI_ENGINEERING' | 'OPEN_SOURCE_CONTRIBUTION' | 'MODEL_TRAINING';
-  assertion: string; // The human-readable claim, e.g., "Maintains repo 'fast-rag' with 500+ stars"
+  assertion: string; // The human-readable claim
   evidence: {
-    sourceUrl: string; // e.g., https://api.github.com/users/lightboy01/repos
-    snapshotHash: string; // Cryptographic hash of the raw data at verification time
-    dataSummary: Record<string, unknown>; // Minimal metadata to display (stars, forks, tags)
+    sourceUrl: string;
+    snapshotHash: string;
+    dataSummary: Record<string, unknown>;
   };
   verificationStatus: {
     verified: boolean;
@@ -26,4 +26,18 @@ export interface GithubRepoSummary {
   topics: string[];
   isFork: boolean;
   url: string;
+  updatedAt: string; // ISO date for activity tracking
+}
+
+export interface DeveloperDNA {
+  topLanguages: { name: string; percentage: number; color?: string }[];
+  archetype: string;
+  activeReposCount: number; // Repos updated recently
+  totalStars: number;
+  userType: 'Builder' | 'Architect' | 'Researcher' | 'Explorer';
+}
+
+export interface VerificationResult {
+  claims: VerifiedClaim[];
+  dna: DeveloperDNA;
 }

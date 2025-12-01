@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
@@ -51,18 +50,30 @@ export function useSessionScrollRestoration<T>({
 
   // Effect for RESTORING scroll position on mount
   useEffect(() => {
-    // We only want this to run once on mount
     if (typeof window !== 'undefined') {
       const savedScrollPos = sessionStorage.getItem(config.scrollPosKey);
       if (savedScrollPos) {
-        // Use a small timeout to allow the browser to render the rehydrated content
-        const timer = setTimeout(() => {
-          window.scrollTo(0, parseInt(savedScrollPos, 10));
-          // Once we've attempted to scroll, remove the key
-          sessionStorage.removeItem(config.scrollPosKey);
-        }, 100);
+        const targetScroll = parseInt(savedScrollPos, 10);
+        let attempts = 0;
+        const maxAttempts = 10; // Try for ~1 second (10 * 100ms)
 
-        return () => clearTimeout(timer);
+        const attemptScroll = () => {
+          // Check if the document is tall enough to scroll to the target
+          const currentHeight = document.documentElement.scrollHeight;
+          const viewportHeight = window.innerHeight;
+          
+          // If we can scroll to the target, or if we are at the bottom of the page
+          if (currentHeight >= targetScroll + viewportHeight || attempts >= maxAttempts) {
+            window.scrollTo(0, targetScroll);
+            sessionStorage.removeItem(config.scrollPosKey);
+          } else {
+            attempts++;
+            setTimeout(attemptScroll, 100); // Retry in 100ms
+          }
+        };
+
+        // Start the attempt loop
+        setTimeout(attemptScroll, 0);
       }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -83,13 +94,22 @@ export const getInitialStateFromSession = <T>(config: ScrollRestorationConfig) =
     };
   }
 
-  const savedItems = sessionStorage.getItem(config.listKey);
-  const savedLastDocId = sessionStorage.getItem(config.lastDocIdKey);
-  const savedHasMore = sessionStorage.getItem(config.hasMoreKey);
+  try {
+    const savedItems = sessionStorage.getItem(config.listKey);
+    const savedLastDocId = sessionStorage.getItem(config.lastDocIdKey);
+    const savedHasMore = sessionStorage.getItem(config.hasMoreKey);
 
-  return {
-    initialItems: savedItems ? (JSON.parse(savedItems) as T[]) : null,
-    initialLastDocId: savedLastDocId,
-    initialHasMore: savedHasMore ? JSON.parse(savedHasMore) : null,
-  };
+    return {
+      initialItems: savedItems ? (JSON.parse(savedItems) as T[]) : null,
+      initialLastDocId: savedLastDocId,
+      initialHasMore: savedHasMore ? JSON.parse(savedHasMore) : null,
+    };
+  } catch (e) {
+    console.warn('Failed to restore session state:', e);
+    return {
+      initialItems: null,
+      initialLastDocId: null,
+      initialHasMore: null,
+    };
+  }
 };

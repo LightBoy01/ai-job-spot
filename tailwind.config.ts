@@ -39,8 +39,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['Cormorant Garamond', 'sans-serif'],
+        sans: ['Lato', 'sans-serif'],
         serif: ['Playfair Display', 'serif'],
+        display: ['Cormorant Garamond', 'serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

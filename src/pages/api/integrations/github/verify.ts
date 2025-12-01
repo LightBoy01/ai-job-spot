@@ -4,6 +4,7 @@ import { analyzeGithubPortfolio } from '@/lib/verification/githubVerifier';
 import { GithubRepoSummary } from '@/lib/verification/types';
 import { rateLimit } from '@/lib/rateLimit';
 import logger from '@/data-pipeline/utils/logger';
+import { v4 as uuidv4 } from 'uuid';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
@@ -16,22 +17,73 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(429).json({ message: 'Too Many Requests' });
   }
 
-  // TODO: In a real app, we would get the token from the encrypted session or a secure cookie.
-  // For the MVP "Connect" flow, the client might send the token immediately after OAuth.
-  // Alternatively, and more securely, the token is stored in the DB during the OAuth callback,
-  // and we just use the user's session ID to retrieve it.
-  // For this implementation, we'll assume the client sends the token for the initial stateless check.
   const { token, userId } = req.body;
 
   if (!token || !userId) {
     return res.status(400).json({ message: 'Missing token or userId' });
   }
 
+  // --- MOCK VERIFICATION PATH ---
+  // Use a special token to trigger the "Perfect Profile" response for demos
+  if (token === 'MOCK_VERIFICATION_TOKEN') {
+    const mockResult = {
+      claims: [
+        {
+          id: uuidv4(),
+          userId: userId,
+          platform: 'GITHUB',
+          category: 'AI_ENGINEERING',
+          assertion: "Maintainer of AI repository 'neural-architect' with 1,250 stars.",
+          evidence: {
+            sourceUrl: 'https://github.com/mock-user/neural-architect',
+            snapshotHash: 'mock-hash-123',
+            dataSummary: { repoName: 'neural-architect', stars: 1250, topics: ['deep-learning', 'pytorch'] }
+          },
+          verificationStatus: {
+            verified: true,
+            timestamp: new Date().toISOString(),
+            method: 'OAUTH_API_DIRECT_READ',
+            confidenceScore: 1.0
+          }
+        },
+        {
+          id: uuidv4(),
+          userId: userId,
+          platform: 'GITHUB',
+          category: 'AI_ENGINEERING',
+          assertion: "Active AI Engineer with 12 public repositories focused on Machine Learning/AI.",
+          evidence: {
+            sourceUrl: 'https://github.com',
+            snapshotHash: 'mock-hash-456',
+            dataSummary: { repoCount: 12, topLanguages: ['Python', 'C++'] }
+          },
+          verificationStatus: {
+            verified: true,
+            timestamp: new Date().toISOString(),
+            method: 'OAUTH_API_DIRECT_READ',
+            confidenceScore: 0.95
+          }
+        }
+      ],
+      dna: {
+        topLanguages: [
+          { name: 'Python', percentage: 75, color: '#3572A5' },
+          { name: 'C++', percentage: 15, color: '#f34b7d' },
+          { name: 'CUDA', percentage: 10, color: '#3A4E3A' }
+        ],
+        archetype: 'The Architect',
+        activeReposCount: 8,
+        totalStars: 2450,
+        userType: 'Architect'
+      }
+    };
+    return res.status(200).json(mockResult);
+  }
+  // --- END MOCK PATH ---
+
   try {
     const octokit = new Octokit({ auth: token });
 
-    // Fetch all public repositories for the authenticated user
-    // Pagination handled by iterator for simplicity in MVP, but should be careful with limits
     const iterator = octokit.paginate.iterator(octokit.rest.repos.listForAuthenticatedUser, {
       visibility: 'public',
       per_page: 100,
@@ -51,18 +103,17 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           topics: repo.topics || [],
           isFork: repo.fork,
           url: repo.html_url,
+          updatedAt: repo.updated_at || new Date().toISOString(),
         });
       }
-      // Safety break for MVP: Don't process more than 200 repos to avoid timeouts
       if (repoSummaries.length >= 200) break;
     }
 
-    // Run the verification logic
-    const generatedClaims = analyzeGithubPortfolio(repoSummaries, userId);
+    const result = analyzeGithubPortfolio(repoSummaries, userId);
 
-    logger.info({ userId, claimCount: generatedClaims.length }, 'Generated claims for user');
+    logger.info({ userId, claimCount: result.claims.length }, 'Generated claims and DNA for user');
 
-    return res.status(200).json({ claims: generatedClaims });
+    return res.status(200).json(result);
 
   } catch (error: unknown) {
     logger.error({ error: String(error) }, 'Error verifying GitHub portfolio');
