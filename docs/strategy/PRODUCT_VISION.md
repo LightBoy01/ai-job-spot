@@ -2,7 +2,7 @@
 
 **Author:** Gemini
 **Date:** 2025-11-27
-**Version:** 2.0
+**Version:** 2.1
 
 ---
 
@@ -50,7 +50,31 @@ This is no longer a subjective score. It is a factual, auditable record of their
 
 ---
 
-## 3. The Four Great Obstacles (The Reality Check)
+## 3. How We Engineer "Perfect Trust" (The Green Checkmark)
+
+To make the "Green Checkmark" worthy of perfect (or near-perfect) trust, we must layer verification methods. A single data point can be faked; a web of data points is truth.
+
+### Level 1: The "Capability" Check (Automated, Low Friction)
+*   **Source:** GitHub, Kaggle, HuggingFace.
+*   **What it Proves:** "They can code."
+*   **Trust Mechanism:** Cryptographic proof of authorship. We verify they own the keys that signed the commits.
+*   **Status:** **MVP (Implemented).**
+
+### Level 2: The "Identity" Check (Social Graph)
+*   **Source:** LinkedIn, Twitter/X, Domain Ownership.
+*   **What it Proves:** "They are who they say they are."
+*   **Trust Mechanism:** Social triangulation. A GitHub account might be anonymous, but a GitHub account linked to a 5-year-old LinkedIn profile with 500 connections is a real person.
+*   **Status:** **Planned (V2).**
+
+### Level 3: The "Reputation" Check (Peer-to-Peer)
+*   **Source:** Previous co-workers, Managers.
+*   **What it Proves:** "They are good to work with."
+*   **Trust Mechanism:** "Staking Reputation." Instead of a random reference, a previous manager must "stake" their own verified profile to vouch for a claim. If the claim turns out to be a lie, the manager's reputation score takes a hit.
+*   **Status:** **Long-term Vision (V3).**
+
+---
+
+## 4. The Four Great Obstacles (The Reality Check)
 
 To achieve this vision, we must be honest about the immense challenges and address them head-on.
 
@@ -60,9 +84,9 @@ To achieve this vision, we must be honest about the immense challenges and addre
 
 #### 2. The Cold Start Problem: "The Spearhead Strategy"
 - **Risk:** Employers won't use it without candidates; candidates won't use it without employers.
-- **Mitigation:** We must "spearhead" a single, high-value niche. For example: **Freelance Web3 Developers.**
+- **Mitigation:** We must "spearhead" a single, high-value niche. For example: **AI & Machine Learning Engineers.**
     - **Step 1:** Build a tool *for them* that makes it easy to generate a verified portfolio they can use on *any* platform (not just ours). Give them a tangible benefit first.
-    - **Step 2:** Once we have a critical mass of the world's best Web3 developers using our verification tool, we become the *only* place for companies to hire them. The network effect begins.
+    - **Step 2:** Once we have a critical mass of the world's best AI developers using our verification tool, we become the *only* place for companies to hire them. The network effect begins.
 
 #### 3. The Trust & Privacy Mandate: "Zero-Knowledge Verification"
 - **Risk:** A single data breach would be catastrophic. Users will be (and should be) hesitant to connect their accounts.
@@ -74,17 +98,17 @@ To achieve this vision, we must be honest about the immense challenges and addre
 
 ---
 
-## 4. The Revised 10-Year Roadmap
+## 5. The Revised 10-Year Roadmap
 
 | Phase | Timeframe | The Evolution | The Value Proposition |
 |---|---|---|---|
-| 1. The Tool | Years 1-2 | "The Verified Portfolio" | We provide a free tool for a niche group (e.g., freelance developers) to create a cryptographically verified portfolio of their work. We are a utility, not a job board. |
+| 1. The Tool | Years 1-2 | "The Verified Portfolio" | We provide a free tool for a niche group (AI Engineers) to create a cryptographically verified portfolio of their work. We are a utility, not a job board. |
 | 2. The Marketplace | Years 3-5 | "The Highest-Signal Job Board" | Having captured a high-value niche, we open a job board. It becomes the only place to hire elite, pre-verified talent in that niche. Hiring risk drops to near-zero. |
 | 3. The Protocol | Years 6-10 | "The Trust API for Global Labor" | Other platforms (other job boards, banks, universities) begin using our "Trust API" to verify claims. We become the decentralized identity layer for professional credibility, taking a small fee for every verification call—the "Visa" for human capital. |
 
 ---
 
-## 5. Summary: The Long Game
+## 6. Summary: The Long Game
 
 The goal remains the same: a trillion-dollar valuation by solving the friction of trust.
 
