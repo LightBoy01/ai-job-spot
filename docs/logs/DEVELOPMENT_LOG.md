@@ -148,7 +148,19 @@ Executed a comprehensive cleanup of the `docs/` directory to remove strategic de
     *   Rewrote **`docs/technical-specs/MVP_SPEC_V1.md`** to pivot the target audience to **AI/ML Engineers**.
     *   Updated the data source strategy to focus on GitHub (Open Source AI contributions) for the V1 launch, removing distraction-inducing Web3 sources like Etherscan.
 
+3. **Build Stabilization (The "Fast Build" Fix):**
+    *   Diagnosed that the build was timing out due to pre-rendering thousands of tag pages (`/tags/[tag]`).
+    *   Optimized `src/lib/firestoreClient.ts` to use a static list of popular tags for the build, bypassing the expensive Firestore read.
+    *   Updated `src/pages/tags/[tag].tsx` to use `fallback: 'blocking'` and return an empty `paths` array, deferring page generation to runtime.
+    *   **Result:** Build time reduced from >60s (timeout) to ~50s (success).
+
+4. **Verified Portfolio MVP (Implementation):**
+    *   **Backend:** Created `src/lib/verification/githubVerifier.ts` with logic to analyze repos for AI topics and generate claims.
+    *   **API:** Implemented `src/pages/api/integrations/github/verify.ts` to handle the OAuth token and return verification results.
+    *   **Frontend:** Updated the Dashboard to show a "Developer DNA" profile and verified claims.
+    *   **Public Login:** Added a `/login` page and updated middleware to support public user accounts, bridging the gap between visitors and the verified dashboard.
+
 ### Next Steps
 
-*   **Fix the Foundation:** Resolve the Firestore `RESOURCE_EXHAUSTED` errors (likely by optimizing the ingestion pipeline to reduce reads/writes).
-*   **Execute MVP:** Begin building the "Connect GitHub" feature for AI Engineers.
+*   **Persistence:** Once the Firestore quota resets, implement the logic to *save* the verified claims to the user's profile in the database.
+*   **Shareable Profile:** Create the public-facing page (e.g., `/profile/[username]`) where users can show off their verified DNA.
