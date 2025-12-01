@@ -9,76 +9,52 @@ postedDate: '2025-11-30T13:32:28.000Z'
 expirationDate: null
 tags:
   - Controlling
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/bernsteinreiter-erlebnisreiterhofe/mitarbeiter-in-buchhaltung-und-controlling-ribnitz-damgarten-107276
 companyLogoUrl: null
+companyCulture: >-
+  The Bernsteinreiter group fosters a dynamic, innovative, and growth-oriented
+  environment within a friendly, motivated team. They highly value personal
+  development and continuous learning, embracing an open-minded, unconventional
+  approach to challenges and new ideas.
+story_question1: >-
+  Given the emphasis on automating financial processes to enable a controlling
+  function, what are the most exciting strategic contributions this role can
+  make to the overall growth and profitability of the Bernsteinreiter group?
+story_answer1: >-
+  That’s a brilliant question, and it really hits at the heart of what makes
+  this role so impactful! For us, automation isn't just about streamlining; it's
+  about transforming our financial operations from reactive to proactive.
+  Imagine being the architect of a system that provides real-time insights into
+  the performance of our four holiday resorts, optimizing everything from guest
+  occupancy to the profitability of our diverse offerings like horse riding,
+  restaurants, and camping. Your work here wouldn't just manage numbers; it
+  would directly inform strategic decisions, drive our continuous innovation,
+  and help us navigate new challenges, ensuring we stay at the forefront of
+  unique leisure experiences. It's about empowering growth through intelligent
+  finance.
+story_question2: >-
+  The job description highlights a 'modern workplace, where others vacation' and
+  stresses personal development. How does the Bernsteinreiter culture support
+  continuous learning and career advancement for an Individual Contributor,
+  especially given the company's dynamic and unconventional approach?
+story_answer2: >-
+  It’s true, our setting is quite idyllic, but we're far from a sleepy holiday
+  destination! The 'modern workplace' isn't just about the scenic views; it's
+  about a forward-thinking environment. For an Individual Contributor,
+  especially in finance, this translates into ample opportunities to grow. We're
+  constantly exploring new technologies and methods, and we actively encourage
+  our team members to lead these initiatives. Whether it’s workshops on advanced
+  controlling techniques, training in new digital tools, or even
+  cross-departmental projects that broaden your understanding of our business,
+  we provide the resources. Our 'unconventional' nature means we're always open
+  to new ideas you bring to the table for process improvement or skill
+  development, ensuring your career path here is as dynamic and fulfilling as
+  our company's journey.
 ---
-Die Bernsteinreiter umfassen 4 Erlebnisreiterhöfe mit Ferienparks an der Ostsee mit insgesamt 700 Pferde/Ponys, 1000 Betten in Ferienwohnungen, Ferienhäusern, Hotels sowie einen Naturcampingplatz, Streichelzoos, Spielwelten, Hofküchen und Restaurants, … . Ca. 180 Mitarbeiter in 40 verschiedenen Berufen bilden das Team der Bernsteinreiter.
-
-Zur Erweiterung unseres Teams suchen wir eine/n **moderne/n Finanzbuchhalter/in** für die Betreuung der Beherbergungs- und Gastronomiebetriebe der Bernsteinreiter-Gruppe betreut. Wir bieten eine abwechslungsreiche Stelle mit vielen persönlichen Gestaltungsmöglichkeiten in einem modernen, stetig wachsenden Team. Derzeit besteht die wichtigste Aufgabe in der Automatisierung der Buchhaltungsvorgänge, sodass der Finanzbuchhalter als Controller tätig werden kann.
-
-Aufgaben
---------
-
-\- Digitalisierung und Automatisierung der Buchhaltung der Bernsteinreiter¸ Pflege der digitalen Systemlandschaft mit notwendigen Schnittstellen
-
-\- Erstellung der laufenden monatlichen Finanzbuchhaltung durch Einlesen der Daten von Digitalsystemen
-
-\- Effizienzsteigerung durch gezieltes Controlling
-
-\- Kontierung und Buchung von Belegen
-
-\- Offene Posten Buchhaltung (Debitoren, Kreditoren)
-
-\- Mietvertragsadministration
-
-\- Kassenführung (Onlinekasse)
-
-\- Anlagenbuchhaltung
-
-\- Abstimmung von Verrechnungskonten (insbesondere innerhalb der Firmengruppe), Geldtransit, Darlehen und laufenden Verträgen
-
-\- Vorbereitung beziehungsweise Erstellung der monatlichen Umsatzsteuervoranmeldung
-
-\- Bearbeitung von Fördermittelanträgen und –abrechnungen, Erstellung von Kostenplänen
-
-\- Betreuung der Drittanbieter (Reisebüros, Booking, Expedia, Kurzurlaub, ….)
-
-Qualifikation
--------------
-
-Digitales Talent; Einschlägiger Berufsabschluss in der Branche, Erfahrungen in der Finanz- und Lohnbuchhaltung mit gängigen Systemen sowie in der Fördermittelakquise und –bearbeitung,
-
-Fähigkeit zum eigenverantwortlichen und zielorientierten Arbeiten
-
-Führerschein
-
-Persönliche Stärken: Verantwortungsbewusstsein, Flexibilität, Belastbarkeit, Freundlichkeit, Einsatzbereitschaft, Motivation/Leistungsbereitschaft, Selbstständiges Arbeiten
-
-Benefits
---------
-
-Ein motiviertes, freundliches Team
-
-viele begeisterte Gäste, Besucher und Reiter
-
-persönliche Entfaltungsmöglichkeiten
-
-vielfältige Möglichkeiten zur Fortbildung
-
-Einen abwechslungsreichen modernen Arbeitsplatz, wo andere Urlaub machen
-
-Wir Bernsteinreiter erfinden uns immer wieder neu. Wir scheuen keine Herausforderung. Wir sind immer offen für neue Ideen und dabei unkompliziert und unkonventionell.
-
-Hast du Lust bei uns mitzuwirken? Willst Du Dich verändern? Dann sei dabei und werde Teil der Bernsteinreiter!
-
-Sende und bitte Deine vollständige Bewerbung (Anschreiben, Foto und Lebenslauf) per Email. Bitte hab‘ Verständnis dafür, dass wir Deine schriftliche Bewerbung nicht wieder zurückschicken werden.
-
-Wir freuen uns auf Deine Bewerbung und darauf, Dich kennenzulernen!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nThe Bernsteinreiter group comprises 4 experience horse farms with holiday parks on the Baltic Sea, featuring a total of 700 horses/ponies, 1000 beds in holiday apartments, houses, hotels, as well as a natural campsite, petting zoos, play worlds, farm kitchens, and restaurants. Approximately 180 employees across 40 different professions form the Bernsteinreiter team.\\n\\nWe are seeking a **modern Financial Accountant** to expand our team, responsible for the accommodation and gastronomy businesses within the Bernsteinreiter Group. This is a varied position offering many personal development opportunities within a modern, continuously growing team. Currently, the most important task involves the automation of accounting processes, enabling the Financial Accountant to also act as a Controller.\\n\\n### Responsibilities\\n- Digitalization and automation of Bernsteinreiter accounting, maintenance of the digital system landscape with necessary interfaces.\\n- Preparation of ongoing monthly financial accounting by reading data from digital systems.\\n- Efficiency enhancement through targeted controlling.\\n- Account assignment and booking of receipts.\\n- Open item accounting (debtors, creditors).\\n- Rental agreement administration.\\n- Cash management (online cash register).\\n- Fixed asset accounting.\\n- Reconciliation of intercompany accounts (especially within the firm group), cash in transit, loans, and ongoing contracts.\\n- Preparation or submission of monthly VAT pre-registration.\\n- Processing of grant applications and settlements, creation of cost plans.\\n- Support of third-party providers (travel agencies, Booking, Expedia, Kurzurlaub, etc.).\\n\\n### Qualifications\\n- Digital talent.\\n- Relevant professional qualification in the industry.\\n- Experience in financial and payroll accounting with common systems, as well as in grant acquisition and processing.\\n- Ability to work independently and goal-oriented.\\n- Driver's license.\\n- Personal strengths: Sense of responsibility, flexibility, resilience, friendliness, commitment, motivation/willingness to perform, independent work.\\n\\n### Author's Take\\nThis is a fantastic opportunity for a digitally-savvy Financial Accountant looking to make a significant impact within a unique and rapidly evolving leisure group. The role offers a stimulating blend of traditional accounting with a strong focus on automation and controlling, positioning you at the heart of strategic financial decision-making. You'll join a motivated and friendly team in a modern workplace where others vacation, with excellent personal development and continuous training opportunities. The Bernsteinreiter group prides itself on its innovative spirit, openly embracing new ideas and challenges with an uncomplicated and unconventional approach. If you're eager to transform financial processes and thrive in a dynamic, growth-oriented environment, this is the place for you.
