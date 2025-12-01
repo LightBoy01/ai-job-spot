@@ -9,10 +9,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Runs on a schedule (e.g., once a day at 6:00 AM UTC)
-  schedule:
-    - cron: '0 6 * * *'
-
 jobs:
   ingestion:
     name: 'Fetch and Ingest Content'
