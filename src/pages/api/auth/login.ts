@@ -38,7 +38,7 @@ export default async function handler(
       'Set-Cookie',
       serialize('__session', sessionCookie, {
         httpOnly: true,
-        secure: process.env.NODE_ENV === 'production',
+        secure: process.env.NODE_ENV === 'production' && !req.headers.host?.includes('localhost') && !req.headers.host?.includes('10.50'), // Disable secure for local network testing if needed
         maxAge: expiresIn / 1000, // maxAge is in seconds
         path: '/',
         sameSite: 'lax',
