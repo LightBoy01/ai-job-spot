@@ -9,67 +9,56 @@ postedDate: '2025-11-27T20:32:12.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/teaching-socials/social-media-manager-praktikant-werkstudent-hockenheim-428553
 companyLogoUrl: null
+companyCulture: >-
+  Teaching Socials fosters a fast-paced, growth-oriented culture where
+  individual ownership, continuous learning, and direct impact are highly
+  valued. The company emphasizes rapid iteration, constructive feedback, and a
+  drive for results over perfectionism, encouraging team members to proactively
+  contribute to business growth.
+story_question1: >-
+  Given the emphasis on turning content into revenue, how does Teaching Socials
+  measure the holistic impact of short-form content beyond basic KPIs, and what
+  opportunities exist for a copywriter to contribute to strategic content
+  direction?
+story_answer1: >-
+  That's a fantastic question and touches on the core of what we do here. While
+  basic KPIs like reach and engagement are crucial, we dive much deeper. Our
+  content isn't just about views; it's about generating qualified leads and
+  appointments for our clients in the finance and real estate sectors. As a
+  Viral Short-Form Copywriter, you're not just executing; you're an integral
+  part of our 'content-to-revenue' machine. We regularly review performance in
+  detail, linking your hooks and calls-to-action directly to conversion rates.
+  You'll be experimenting with different angles, testing hypotheses, and your
+  insights from these iterations often feed directly into our broader content
+  strategy, influencing everything from topic selection to client messaging. We
+  want you to challenge norms and bring new ideas, because when your content
+  performs, our clients thrive, and so do we. It's a place where your creativity
+  directly impacts the bottom line, and that's incredibly rewarding.
+story_question2: >-
+  The short-form content landscape is constantly evolving. How does Teaching
+  Socials support its content creators in staying ahead of trends, adapting to
+  new platform algorithms, and continuously refining their craft?
+story_answer2: >-
+  You've hit on one of the biggest challenges and opportunities in this space!
+  The platforms don't stand still, and neither do we. Our culture is built on
+  'Lernlust' – a passion for learning. We encourage constant experimentation and
+  knowledge sharing. Every week, we have dedicated 'Insights Sessions' where we
+  discuss new trends, algorithm changes, and successful strategies observed
+  across the industry and within our own tests. You'll have access to internal
+  data, premium tools, and a collaborative environment where sharing what worked
+  (and what didn't!) is part of our DNA. We don't believe in micromanagement;
+  instead, we empower you to research, test, and bring innovative ideas to the
+  table. If you spot a new trend on TikTok, we want you to propose a test. If
+  you find a new editing technique, share it with the team. Your growth is our
+  growth, and we invest heavily in ensuring our team is always at the cutting
+  edge.
 ---
-Jobbeschreibung
----------------
-
-Viral Short-Form Copywriter (m/w/d) – Reels, TikTok & YouTube Shorts
---------------------------------------------------------------------
-
-Über Teaching Socials
----------------------
-
-Teaching Socials ist eines der schnellstwachsenden Unternehmensberatungen im DACH-Raum und das führende Beratungsunternehmen für Personal Brands im Finanz- und Immobilienbereich.
-
-Rolle & Wirkung
----------------
-
-Du bringst unsere Inhalte täglich auf die Plattformen – schnell, sauber, KPI-getrieben. Dein Output sorgt für Reichweite, Leads und qualifizierte Termine. Kurz: Du hilfst, aus Content Umsatz zu machen.
-
-Deine Aufgaben (Ownership)
---------------------------
-
-*   **Daily Publishing:** Tägliches Posten auf Instagram, TikTok, YouTube Shorts & LinkedIn – inkl. Caption-Erstellung, Hashtags/Tags und Upload.
-*   **Test-Reels:** Eigenständige Produktion & Veröffentlichung von Test-Reels inkl. Hypothesen (Hook/Angle), Caption & Auswertung erster KPI-Signale.
-*   **Carousels:** Gestaltung & Text (Caption) für Carousel-Posts entlang klarer Story-Arcs (Hook → Value → CTA).
-*   **Stories:** Planung, Gestaltung & Veröffentlichung von IG-Stories (Polls, Q&A, Countdown, Link-Sticker), inkl. leichter Motion/Sticker-Logik.
-*   **B-Rolls:** Produktion kurzer **7-Sekunden-B-Rolls** für unsere Content-Pipeline (shotlist-basiert, on brand).
-*   **Präsentationen:** Erstellung von Decks/Slides nach Vorgabe (z. B. für Webinare, Pitches, Case-Studies).
-*   **Media Kits:** Unterstützung bei Erstellung/Überarbeitung von Media Kits für Kooperationen.
-*   **KPI-Basics:** Erste Auswertung von Reach, Hook-Drop-off, ER, Saves/Shares; Ableitung einfacher Iterationen (neue Hook, neues Thumb, anderes Opening).
-
-Stellenanforderungen
---------------------
-
-Anforderungen
--------------
-
-*   **Plattform-Intuition:** Du kennst die Dynamik von Reels/TikTok/Shorts & LinkedIn (Hooks, Pattern Interrupts, Captions, CTAs).
-*   **Content-Handwerk:** Sicher im Schneiden/Trimmen von Short-Form (CapCut/Final Cut/DaVinci o. ä.), Thumbnails/Slides (Canva/Keynote/Figma).
-*   **Copy-Basis:** Klare, kurze Captions mit Hook → Value → CTA; kein Fülltext.
-*   **Struktur & Ownership:** Du arbeitest eigenständig, lieferst pünktlich und iterierst schnell.
-*   **Mindset:** Lernlust, Feedback-Liebe, hohe Taktzahl. Du willst Hebel bewegen, nicht nur
-
-Nice to have
-------------
-
-*   Verständnis für **Finance/Immobilien**\-Themen und B2B-Personal Branding.
-*   Erfahrung mit **Notion/Airtable/Drive** für Content-Pipelines.
-*   Erste Erfahrung mit **Vor-Ort-B-Roll** (Shotlist, Framing, Audio-Basics).
-
-Was wir nicht suchen
---------------------
-
-*   Template-Abschreiber oder AI-Only ohne eigenes Denken.
-*   Feedback-allergisch, ego-getrieben oder **Micromanagement-Bedarf**.
-*   Perfektionist:innen, die Deadlines reißen statt zu shippen.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nTeaching Socials is one of the fastest-growing consulting firms in the DACH region and a leading advisor for personal brands in the finance and real estate sectors. As a Viral Short-Form Copywriter (m/w/d) focusing on Reels, TikTok & YouTube Shorts, you will be crucial in bringing our content to platforms daily, ensuring it is fast, clean, and KPI-driven. Your output will generate reach, leads, and qualified appointments, directly helping to convert content into revenue.\n\n### Responsibilities\n- **Daily Publishing:** Daily posting on Instagram, TikTok, YouTube Shorts & LinkedIn, including caption creation, hashtags/tags, and upload.\n- **Test-Reels:** Independent production & publishing of test reels, including hypotheses (hook/angle), caption, and initial evaluation of KPI signals.\n- **Carousels:** Design & write captions for carousel posts following clear story-arcs (Hook → Value → CTA).\n- **Stories:** Plan, design & publish Instagram Stories (Polls, Q&A, Countdown, Link-Stickers), including light motion/sticker logic.\n- **B-Rolls:** Produce short 7-second B-rolls for our content pipeline (shotlist-based, on brand).\n- **Presentations:** Create decks/slides according to specifications (e.g., for webinars, pitches, case studies).\n- **Media Kits:** Support the creation/revision of media kits for collaborations.\n- **KPI-Basics:** Initial evaluation of Reach, Hook-Drop-off, Engagement Rate (ER), Saves/Shares; deriving simple iterations (new hook, new thumbnail, different opening).\n\n### Qualifications\n- **Required:**\n    - **Platform Intuition:** You understand the dynamics of Reels/TikTok/Shorts & LinkedIn (hooks, pattern interrupts, captions, CTAs).\n    - **Content Craft:** Proficient in cutting/trimming short-form video (CapCut/Final Cut/DaVinci or similar) and creating thumbnails/slides (Canva/Keynote/Figma).\n    - **Copywriting Basics:** Ability to write clear, concise captions with a Hook → Value → CTA structure; no filler text.\n    - **Structure & Ownership:** You work independently, deliver punctually, and iterate quickly.\n    - **Mindset:** Eager to learn, embraces feedback, high output pace. You want to move levers and make a real impact.\n- **Nice to Have:**\n    - Understanding of Finance/Real Estate topics and B2B Personal Branding.\n    - Experience with Notion/Airtable/Drive for content pipelines.\n    - Initial experience with on-site B-Roll (shotlist, framing, audio basics).\n- **We are NOT looking for:**\n    - Those who simply copy templates or rely solely on AI without original thought.\n    - Individuals who are feedback-allergic, ego-driven, or require micromanagement.\n    - Perfectionists who miss deadlines instead of shipping.\n\n### Author's Take\nThis role offers a significant opportunity for a driven short-form copywriter to directly impact revenue generation within a fast-paced, growth-oriented consulting firm. The emphasis on ownership, rapid iteration, and performance metrics, combined with a culture that values continuous learning and constructive feedback, makes it ideal for someone who wants to see their work directly translate into business results and grow significantly. The explicit \\\"what we are not looking for\\\" section provides clear cultural insights, highlighting a preference for proactive, adaptable, and results-focused individuals who prioritize shipping over perfect but delayed outcomes.

@@ -9,65 +9,53 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Executive
+employeeRole: Manager
+salaryRange: Six-figure salary with growth potential
 source: arbeitnow
 sourceUrl: 'https://www.arbeitnow.com/jobs/companies/eterniteam-gmbh/ceo-dortmund-47225'
 companyLogoUrl: null
+companyCulture: >-
+  EterniTeam fosters a supportive, entrepreneurial environment focused on
+  identifying and empowering talented leaders to drive growth and change in
+  established businesses. It values empathetic leadership, shared success
+  through employee ownership, and provides continuous development and community
+  support.
+story_question1: >-
+  How does EterniTeam ensure a smooth transition and successful modernization
+  for an established business, especially given the challenges of cultural
+  integration and change management for existing teams?
+story_answer1: >-
+  At EterniTeam, we understand that taking over an existing business is far more
+  than just financial management; it's about navigating human dynamics and
+  cultural inertia. Our approach begins with meticulous cultural matching,
+  ensuring that the new leader truly resonates with the company's existing
+  spirit. Beyond that, we provide a robust, tailored training program that
+  addresses potential gaps in skills, followed by continuous support from our
+  Operations Team. We believe in empowering our new CEOs with the autonomy to
+  innovate, but never alone. The secret lies in our shared ownership model –
+  giving employees actual stakes in the company fosters a collective
+  'Aufbruchstimmung' (spirit of new beginnings), making them active participants
+  in the modernization journey. It's about bringing everyone along,
+  transparently, towards a shared, prosperous future.
+story_question2: >-
+  The concept of taking full ownership and leadership of a company without
+  personal capital investment is unique. How does EterniTeam's model ensure the
+  long-term commitment and entrepreneurial drive of the incoming CEO, and how
+  does it truly feel like 'your company' from day one?
+story_answer2: >-
+  It's a common and excellent question! Our model is built on trust and a deep
+  belief in human capital over financial capital. While you don't invest your
+  own money upfront, your commitment is secured by something far more valuable:
+  your talent, your time, and the significant equity you *do* earn from day one.
+  This isn't just a job; it's an entrepreneurial journey where your ownership
+  stake grows annually, intrinsically linking your personal wealth creation to
+  the company's success. The 'hands-on' mentality is paramount because you are
+  truly in the cockpit. We provide the runway and the initial support, but the
+  flight path and the altitude are yours to command. This structure attracts
+  individuals who are driven by impact, responsibility, and the satisfaction of
+  building something lasting, knowing that their dedication directly translates
+  into a growing personal and professional legacy.
 ---
-**Wer sind wir?**
-
-EterniTeam hat die Lösung für Deutschlands größtes Problem im Unternehmertum: **die Unternehmensnachfolge.** Mit einem neuen, revolutionären Ansatz sichern wir die Nachfolge einiger der gut 1 Millionen Unternehmen, die alleine in diesem Jahrzehnt noch ihre Nachfolge regeln wollen bzw. müssen. Dabei stellen wir sicher, dass alle Beteiligten von der Lösung profitieren: die scheidenden und nachfolgenden Unternehmer:Innen und auch die Mitarbeitenden.
-
-Für diese Mission suchen wir talentierte Führungskräfte für die Übernahme der Geschäftsführung und Eigentümerschaft eines etablierten Betriebs in einer Größenordnung zwischen 2 und 10 Millionen Euro Jahresumsatz. Dabei erwarten wir von Dir keinen eigenen Kapitaleinsatz, stattdessen aber Dein Talent und nachhaltiges Engagement.
-
-**Neugierig geworden? Steige ein und direkt mit auf!**
-
-Aufgaben
---------
-
-**Wen suchen wir?**
-
-**Erfolg hat viele Gesichter!**
-
-Wir verstehen uns als Talentfinder ohne Voreingenommenheit. Um die ideale Lösung für die Unternehmensnachfolge unserer Zielunternehmen zu finden, wenden wir daher Persönlichkeitsprofile und kulturelles Matching an. Wer zu welchem Unternehmen wirklich passt, entscheidet sich daher im Einzelfall während des Placements.
-
-Daher suchen wir talentierte zukünftige Geschäftsführer:Innen, die sowohl in der Führung von Menschen als auch in der Verantwortung für Ergebnisse aufgehen. Unser eigens entwickeltes Trainingsprogramm schließt eventuell vorhandene Lücken, und unsere Betreuung nach dem Einsatz unterstützt in einzelnen Aufgaben und durch den stetigen Austausch.
-
-**Was sind deine Aufgaben?**
-
-*   Führung eines etablierten, nachhaltig profitablen Betriebs in einer Größe zwischen 1 Millionen und 10 Millionen Euro Umsatz, mit üblicherweise 12 bis 40 Mitarbeitenden
-*   Schaffung und/oder Stärkung einer Unternehmenskultur und Aufbruchstimmung im Wandel durch engagierte und empathische Führung
-*   Volle Ergebnisverantwortung für Dein Unternehmen mit Fokus auf GuV und Cashflow
-*   Einführung notwendiger Modernisierung mit unserer Unterstützung, bspw. durch die Einführung verbesserter Systeme und Prozesse
-*   Erste:r Ansprechpartner:In für wichtige Kunden und/oder Lieferanten des Unternehmens, Du baust die wichtigen Beziehungen auf und aus
-*   Advokat:In für die Unternehmensbeteiligung: wie Dir geben wir auch allen Deinen Mitarbeitern echte Anteile am Unternehmen, die dann jedes Jahr im Anteil und Wert wachsen - das erleichtert Dir den Start, und Du stellst dann durch transparente Kommunikation sicher, dass der notwendige Motivationsschub im Team ankommt
-*   Enge Zusammenarbeit mit unserem Operations Team insbesondere in der anfänglichen Zeit des Wandels
-*   Gestaltungsfreiheit beim Wachstum und der Veränderung des Unternehmens, wobei alle Mitarbeiter mit auf den Weg genommen werden müssen
-
-Qualifikation
--------------
-
-*   Mindestens 5 Jahre nachgewiesene Führungserfahrung für mindestens 5 Mitarbeitende, mindestens 10 Jahre generell Berufserfahrung
-*   Mindestens verhandlungssichere Deutschkenntnisse
-*   Erfahrungen im Bereich Unternehmensführung oder in der betriebswirtschaftlichen Verantwortung sind ein Plus
-*   Branchenerfahrungen oder staatlich anerkannte Zertifikate sind jeweils ein Plus
-*   Bereitschaft zu nachhaltigem Engagement - die Übernahme einer solchen Aufgabe ist keine Karrierestufe, das Unternehmens wird jedes Jahr mehr auch durch Anteile zu Deinem Unternehmen, insofern handelt es sich um ein langfristiges Commitment
-*   “Hands-on” Mentalität bei der Bewältigung von Aufgaben und Überwindung scheinbarer Hindernisse - Du bist im Cockpit Deines Unternehmens
-*   Dein Verantwortungsbewusstsein - für Dein Unternehmen, für Dein Team und für Dich selbst - ist ein Vorbild für die Menschen um Dich herum
-*   Deine Empathie, emotionale Intelligenz und Deine selbstbewusste und wertschätzende Kommunikation schaffen Vertrauen in Dich und Deine Arbeit
-
-Benefits
---------
-
-**Was ist unser Angebot?**
-
-*   Verantwortung und Gestaltungsspielraum ab Tag 1 - du bist Geschäftsführer:In von Deinem etablierten und nachhaltig profitablen Unternehmen
-*   Entsprechend erhältst du von Tag 1 ein marktübliches, sechsstelliges GF-Gehalt mit der Option auf Wachstum entsprechend dem Unternehmenserfolg
-*   Zusätzlich erhältst du, ohne eigenen Kapitaleinsatz, eine durch Deine jährlich wachsenden Anteile auch jährlich wachsende Dividende, die sich durch Unternehmenserfolg noch weiter erhöhen kann, und gleichzeitig ein attraktives unternehmerisches Vermögen aufbaut
-*   Nachfolge als Team! Wir stellen sicher, dass auch alle Deine Mitarbeitenden Anteile erhalten und somit incentiviert und motiviert mitarbeiten können
-*   EterniTeam bietet Dir als Unterstützung ein Trainingsprogramm vor dem Einsatz, Unterstützung durch unser Operations-Team, zentrale Services und einen kontinuierlichen Austausch in der Community - Du bist nicht auf Dich allein gestellt!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nEterniTeam addresses Germany's significant challenge in entrepreneurship: business succession. With a revolutionary approach, they secure the future of numerous companies seeking succession in this decade. Their mission ensures that all parties – outgoing and succeeding entrepreneurs, as well as employees – benefit from the solution.\n\nFor this mission, EterniTeam seeks talented leaders to take over the management and ownership of an established business with an annual turnover between 2 and 10 million Euros. No personal capital investment is expected; instead, your talent and sustainable commitment are key.\n\nEterniTeam sees itself as a talent finder without prejudice, using personality profiles and cultural matching to find the ideal fit for each business succession. They are looking for future CEOs who thrive in leading people and taking responsibility for results. A dedicated training program bridges any existing gaps, and post-placement support is provided through the Operations Team and continuous exchange.\n\n### Responsibilities\n- Lead an established, sustainably profitable business with an annual turnover between 1 million and 10 million Euros, typically with 12 to 40 employees.\n- Create and/or strengthen a positive company culture and a spirit of new beginnings during the transition through engaged and empathetic leadership.\n- Take full P&L and cash flow responsibility for your company.\n- Introduce necessary modernization with EterniTeam's support, for example, by implementing improved systems and processes.\n- Be the primary contact person for important customers and/or suppliers, building and expanding crucial relationships.\n- Advocate for employee participation: all employees will receive genuine company shares, which will grow in proportion and value each year. You will ensure transparent communication to deliver the necessary motivational boost to the team.\n- Collaborate closely with EterniTeam's Operations Team, especially during the initial phase of transition.\n- Enjoy creative freedom in the growth and transformation of the company, ensuring all employees are actively involved in the journey.\n\n### Qualifications\n- Minimum of 5 years of proven leadership experience managing at least 5 employees, and a minimum of 10 years of general professional experience.\n- Business-fluent German language skills (at least C1/C2 level).\n- Experience in corporate management or operational business responsibility is a significant plus.\n- Industry experience or state-recognized certificates are each a plus.\n- Willingness for sustained commitment: taking on such a role is not merely a career step; the company will become more \"yours\" each year through growing shares, representing a long-term commitment.\n- Possess a \"hands-on\" mentality for tackling tasks and overcoming apparent obstacles – you will be in the cockpit of your company.\n- Your sense of responsibility – for your company, your team, and yourself – serves as an example for those around you.\n- Your empathy, emotional intelligence, and confident, appreciative communication build trust in you and your work.\n\n### Author's Take\nThis is a truly unique and compelling opportunity for a seasoned leader with a strong entrepreneurial drive. EterniTeam offers the rare chance to step into a CEO role of an established, profitable company without the typical capital investment often required, while simultaneously building significant personal wealth through growing equity. The role blends autonomy with robust support, including a dedicated training program, operational assistance, and a community of peers.\n\nThe emphasis on empathetic leadership, cultural matching, and shared employee ownership through equity schemes sets this opportunity apart. It's ideal for someone who is ready to take full P&L responsibility, drive modernization and growth, and foster a collaborative environment, all within a framework designed for long-term success and impact. If you're looking to own and lead a business with significant backing and a clear path to shared prosperity, this role is a perfect fit.

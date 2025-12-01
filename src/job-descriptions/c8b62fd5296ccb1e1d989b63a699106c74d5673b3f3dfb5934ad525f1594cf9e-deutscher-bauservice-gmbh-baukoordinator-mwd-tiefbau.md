@@ -9,58 +9,47 @@ postedDate: '2025-11-28T17:02:05.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/baukoordinator-tiefbau-bad-kissingen-485990
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative, innovative, and team-oriented culture
+  with a "Start-up-Flair". It emphasizes growth, solution-driven approaches, and
+  employee well-being through flexible work, various benefits, and frequent team
+  events.
+story_question1: >-
+  How does this role contribute to maintaining the company's reputation for
+  quality and safety, and what opportunities are there for innovation?
+story_answer1: >-
+  From an insider's view, this role is truly the guardian of our project
+  excellence. You're not just overseeing construction sites; you're the crucial
+  bridge ensuring every detail aligns with our high standards for quality and
+  safety, from technical execution to final acceptance. What makes us successful
+  is our deeply ingrained team philosophy – we're solution-oriented and
+  innovative at heart. You'll be empowered to drive improvements, coordinate
+  with all stakeholders, and even support permit applications, directly
+  contributing to our reputation. This isn't just about following plans; it's
+  about finding better ways, and your 'langjährige Berufserfahrung' will be key
+  to fostering that innovation within our motivated team.
+story_question2: >-
+  Given the full project responsibility and travel requirements, how does the
+  company ensure employee well-being and a positive work-life balance?
+story_answer2: >-
+  That's a vital question, and it's something we truly prioritize, especially in
+  a role with such significant impact. While you'll be responsible for entire
+  construction sites and require 'Reisebereitschaft', we ensure it's balanced.
+  Travel is explicitly not on weekends, and our dedicated travel management
+  handles all accommodation bookings and payments, taking that burden off your
+  shoulders. We also champion flexible working hours (depending on the field)
+  and mobile working, reflecting our 'Start-up-Flair' commitment to a modern
+  work environment. Beyond that, benefits like a company car with private use,
+  betriebliche Altersvorsorge, and our Hansefit corporate fitness program are
+  all designed to support your well-being, ensuring you can thrive both
+  professionally and personally.
 ---
-Dir sind Qualität und Sicherheit auf Baustellen im Tiefbau wichtig? Du stehst gerne als Schnittstelle zwischen Auftraggeber, Kommunen und beauftragten Tiefbauunternehmen zur Verfügung?
-
-Dann bist Du bei uns genau richtig!
-
-Erfolgreich sind wir, weil wir als Team lösungsorientiert und innovativ handeln. Werde Teil unseres motivierten Teams und starte mit uns zusammen durch!
-
-Aufgaben
---------
-
-*   Du bist von der technischen Durchführung bis zur Abnahme für die Baustelle verantwortlich
-*   Du bist zuständig für die gesetzliche Einhaltung auf den Baustellen sowie für die Einhaltung der Baupläne
-*   Du koordinierst und leitest Baubesprechungen und führst Protokoll
-*   Du erstellst und prüfst Aufmaße und gewährleistest den effizienten und wirtschaftlichen Einsatz von Baustoffen sowie Baugeräten
-*   Du hast die Qualität und den Baufortschritt immer im Blick und dokumentierst die Arbeiten
-*   Du steuerst und koordinierst die beauftragten Fremdfirmen und überprüfst die Aufmaße
-*   Du unterstützt bei der Beantragung von Genehmigungen und der Kommunikation mit Behörden
-
-Qualifikation
--------------
-
-*   Du bist geprüfter Polier oder Techniker (m/w/d), hast einen Meister im Straßen- oder Tiefbau oder bist Bauingenieur (m/w/d) oder besitzt eine vergleichbare Ausbildung/Studium z.B im Garten- und Landschaftsbau
-*   Du verfügst bereits über langjährige Berufserfahrung im Tiefbau und im Straßenbau oder vergleichsweise im Garten- und Landschaftsbau
-*   Du verfügst über sichere MS Office Kenntnisse
-*   Du bringst Kenntnisse über die relevanten Vorschriften (DIN18300, ZTV, RSA21, VOB) mit
-*   Du hast sehr gute Sprachkenntnisse in Deutsch und hast mindestens ein Führerschein Klasse B
-*   Reisebereitschaft (nicht am Wochenende) setzen wir voraus
-
-Benefits
---------
-
-*   Firmenwagen (mit Privatnutzung)
-*   Flexible Arbeitszeiten (abhängig vom Berufsfeld)
-*   Erholungsbeihilfe
-*   Spesen/Verpflegungsmehraufwendungen
-*   Unterkunftsbuchung und Bezahlung übernimmt direkt unser Travelmanagement für dich
-*   Mobiles Arbeiten (abhängig vom Berufsfeld)
-*   Betriebliche Altersvorsorge
-*   Dienstrad - Leasing
-*   Firmenfitnessprogramm (Hansefit)
-*   Corporate Benefits
-*   Viele gemeinsame Events und Veranstaltungen
-*   Unternehmen mit Start-up-Flair
-
-Wir freuen uns auf DICH!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nIf quality and safety on civil engineering construction sites are important to you, and you enjoy acting as an interface between clients, municipalities, and contractors, then you are exactly right with us! We are successful because we act as a team, solution-oriented, and innovatively. Become part of our motivated team and take off with us! This role offers significant responsibility in managing construction projects from start to finish, supported by a collaborative team and excellent benefits like a company car, flexible hours, and various employee perks, all within a company boasting a \"Start-up-Flair\".\n\n### Responsibilities\n- You are responsible for the construction site from technical execution to final acceptance.\n- You ensure legal compliance on construction sites as well as adherence to construction plans.\n- You coordinate and lead construction meetings and keep minutes.\n- You create and review measurements and ensure the efficient and economical use of construction materials and equipment.\n- You always keep an eye on quality and construction progress and document the work.\n- You manage and coordinate commissioned external companies and review their measurements.\n- You support the application for permits and communication with authorities.\n\n### Qualifications\n- You are a certified foreman or technician (m/w/d), have a master's degree in road or civil engineering, or are a civil engineer (m/w/d), or possess a comparable education/degree (e.g., in gardening and landscaping).\n- You already have many years of professional experience in civil engineering and road construction, or comparably in gardening and landscaping.\n- You have solid MS Office skills.\n- You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\n- You have very good German language skills and at least a Class B driver's license.\n- Willingness to travel (not on weekends) is a prerequisite.\n\n### Author's Take\nThis is a highly responsible and impactful role for an experienced civil engineering professional who thrives in a dynamic, team-oriented environment. The company places a strong emphasis on quality, innovation, and employee well-being, offering excellent benefits such as a company car with private use, flexible working models, and various corporate perks. It's an outstanding opportunity to take full ownership of critical projects and contribute to a successful, motivated team with a modern \"Start-up-Flair\" culture.

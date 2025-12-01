@@ -9,43 +9,45 @@ postedDate: '2025-11-28T01:34:57.000Z'
 expirationDate: null
 tags:
   - Customer Service
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-customer-service-specialist-rostock-151566
 companyLogoUrl: null
+companyCulture: >-
+  This company fosters a culture of flexibility and work-life balance, offering
+  up to 60% home office and flexible hours. It promotes strong team spirit
+  through flat hierarchies, quick decision-making, and regular company events,
+  while also investing in employee growth with numerous training and development
+  opportunities.
+story_question1: >-
+  How does the team approach complex or urgent customer situations, especially
+  those involving roadside assistance or accidents, and what kind of support can
+  a new specialist expect?
+story_answer1: >-
+  Here, every call is an opportunity to make a real difference. When a customer
+  calls in distress – maybe stranded on the roadside or dealing with a damaged
+  home – the first thing we do is listen. Our professional onboarding ensures
+  you're quickly up to speed, learning from seasoned experts. You'll never feel
+  alone; the team spirit is incredible, and we have fast decision-making
+  processes. It's incredibly rewarding to coordinate immediate help and guide
+  someone through a difficult situation, knowing you’ve made their day a little
+  bit better.
+story_question2: >-
+  Given the focus on continuous learning and professional development, what
+  specific opportunities exist for a Customer Service Specialist to deepen their
+  expertise or advance their career within the company?
+story_answer2: >-
+  We truly believe in growing our people from within. As a Customer Service
+  Specialist, you'll start with a professional onboarding program, but that's
+  just the beginning. We offer a wide range of internal and external training
+  sessions, whether you want to dive deeper into specific insurance products,
+  refine your communication skills, or even explore other areas of the business.
+  The flat hierarchy means your ambitions are always visible, and we actively
+  encourage exploring new challenges, ensuring your career path here is dynamic
+  and full of possibilities.
 ---
-Im Auftrag unseres Kunden in Rostock suchen wir Sie zum nächstmöglichen Zeitpunkt als „**Kundenberater / Customer Service Specialist (m/w/d)“.**
-
-**Aufgaben**
-------------
-
-*   Als **Kundenberater / Customer Service Specialist (m/w/d)** übernehmen Sie die telefonische Aufnahme und Lösung von Kundenanliegen im Bereich Kfz-, Haus- oder Familienversicherung
-*   Dabei organisieren und koordinieren Sie erste Hilfsmaßnahmen für Kunden – z. B. Pannen-, Unfall- oder Abschlepphilfe
-*   Sie bearbeiten die E-Mail- und Telefonkorrespondenz mit Versicherungen, Dienstleistern und Partnern zur Klärung und Abwicklung von Sachverhalten
-*   Sie sind verantwortlich für die Rechnungsbearbeitung sowie die vollständige Dokumentation aller Vorgänge
-*   Durch Ihr professionelles Auftreten und Ihre lösungsorientierte Arbeitsweise tragen Sie aktiv zur hohen Kundenzufriedenheit und Kundenbindung bei
-
-**Qualifikation**
------------------
-
-*   Sie bringen eine Ausbildung als Industriekaufmann (m/w/d) oder eine vergleichbare Qualifikation, wie Speditionskaufmann (m/w/d), Hotelfachmann (m/w/d) oder Kaufmann für Büromanagement (m/w/d), mit. Auch engagierte Quereinsteiger sind herzlich willkommen
-*   Idealerweise haben Sie erste Erfahrungen als telefonischen Kundenbetreuer (m/w/d) oder in der Rechnungsbearbeitung bzw. Schadensregulierung gesammelt
-*   Sie verfügen über Begeisterung für Kundenkontakt und haben ein ausgeprägtes Servicebewusstsein
-*   Sie arbeiten zuverlässig, organisiert und sorgfältig und schätzen die Zusammenarbeit im Team
-*   Sehr gute Deutsch- sowie gute Englischkenntnisse runden Ihr Profil ab
-
-**Benefits**
-------------
-
-*   **Work-Life-Balance:** Genießen Sie die Freiheit durch flexible Arbeitszeiten mit anteiliger Homeoffice-Möglichkeit (bis zu 60%)
-*   **Onboarding:** Sie erwartet eine professionelle Einarbeitung von den Experten der Abteilung
-*   **Teamspirit:** Freuen Sie sich auf eine flache Hierarchie, schnelle Entscheidungswege sowie regelmäßige Firmenevents
-*   **Weiterbildung:** Das Unternehmen bietet zahlreiche Fort- und Weiterbildungsmöglichkeiten
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Veronica Wild** gerne unter **089 954 287 106** zur Verfügung.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nWe are looking for a \"Customer Service Specialist (m/w/d)\" in Rostock to join our client's team. In this role, you will be the primary contact for customers, handling telephone inquiries related to car, home, or family insurance, providing solutions, and coordinating essential assistance.\n\n### Responsibilities\n- As a Customer Service Specialist (m/w/d), you will handle and resolve customer inquiries by phone concerning car, home, or family insurance.\n- You will organize and coordinate initial assistance measures for customers, such as breakdown, accident, or towing services.\n- You will manage email and telephone correspondence with insurance companies, service providers, and partners to clarify and process cases.\n- You will be responsible for invoice processing and the complete documentation of all processes.\n- Through your professional demeanor and solution-oriented approach, you will actively contribute to high customer satisfaction and loyalty.\n\n### Qualifications\n- You have completed vocational training as an industrial clerk (m/w/d) or possess a comparable qualification, such as a forwarding agent (m/w/d), hotel specialist (m/w/d), or office management clerk (m/w/d). Dedicated career changers are also very welcome.\n- Ideally, you have initial experience as a telephone customer advisor (m/w/d) or in invoice processing/claims settlement.\n- You are enthusiastic about customer contact and have a strong service awareness.\n- You work reliably, organized, and meticulously, and value teamwork.\n- Very good German and good English skills complete your profile.\n\n### Author's Take\nThis is an excellent opportunity for a dedicated Customer Service Specialist who values a supportive and growth-oriented environment. The role offers a fantastic work-life balance with flexible working hours and significant home office possibilities (up to 60%). You'll benefit from a professional onboarding process, a strong team spirit with flat hierarchies, and numerous opportunities for further education and development. If you're passionate about helping customers and thrive in a collaborative setting, this role in Rostock could be a perfect fit.

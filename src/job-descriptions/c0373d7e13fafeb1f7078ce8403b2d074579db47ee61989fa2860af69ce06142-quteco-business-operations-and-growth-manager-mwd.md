@@ -9,55 +9,71 @@ postedDate: '2025-11-29T13:31:49.000Z'
 expirationDate: null
 tags:
   - Business Operations
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
+salaryRange: >-
+  €40,000 - €50,000 (fixed) + Performance-based commission (target >€120,000
+  possible)
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/quteco/business-operations-growth-manager-fellbach-440067
 companyLogoUrl: null
+companyCulture: >-
+  Quteco is a growing IT and consulting company that fosters a dynamic,
+  high-impact environment. It emphasizes direct contribution, rapid professional
+  growth towards leadership, and significant autonomy, all supported by flexible
+  working arrangements and a modern approach to technology.
+story_question1: >-
+  Given the emphasis on directly shaping the company's future and working
+  alongside the CEO, what's the most significant strategic challenge this role
+  will tackle in its first year, and how will success be measured beyond
+  operational metrics?
+story_answer1: >-
+  Oh, that's a great question, and it gets right to the heart of what makes this
+  role so exciting! From an insider's perspective, the biggest strategic
+  challenge for this position will be navigating our rapid growth while
+  maintaining our agile, customer-centric approach. We're expanding our service
+  offerings in critical areas like NIS2 and AI Act compliance, and building out
+  our partner network. Success isn't just about ticking off tasks; it's about
+  seeing you actively identify emerging opportunities, streamline our processes
+  to scale effectively, and truly feel like a co-owner in shaping our strategic
+  direction. We'll know you're succeeding when you're not just coordinating, but
+  actively initiating improvements that directly impact our market position and
+  operational efficiency, truly embodying that 'Chief of Staff' potential.
+story_question2: >-
+  The role involves a broad spectrum of responsibilities, from project
+  coordination to business development and IT maintenance. How does Quteco
+  support an individual in developing expertise across such diverse areas,
+  especially regarding the 'no fear of new topics' expectation?
+story_answer2: >-
+  It's true, this role is wonderfully diverse, and that's by design – we believe
+  in holistic development! We understand that no one starts as an expert in SAP,
+  IT, *and* legal compliance. That's why we emphasize a 'learn-as-you-go'
+  culture, supported by direct mentorship from the CEO and our specialized
+  teams. We're a smaller, dynamic firm, which means you won't be siloed. You'll
+  get hands-on exposure to every facet of our business, learning directly from
+  project experience and through continuous discussion. The 'no fear' part is
+  about your mindset – bring your curiosity, your drive to understand, and we'll
+  provide the context, the resources, and the collaborative environment to turn
+  you into a versatile powerhouse. Your growth isn't just a benefit; it's
+  essential for our collective success.
+story_question3: >-
+  With the potential to quickly advance to a 'Chief of Staff' role and the
+  significant 'Gestaltungsspielraum' (creative freedom), how does Quteco balance
+  this high level of autonomy and demanding work with supporting work-life
+  integration and preventing burnout?
+story_answer3: >-
+  That's a very fair concern, especially in a fast-paced environment. What sets
+  us apart is that 'Gestaltungsspielraum' isn't just about defining your tasks,
+  but also *how* and *when* you tackle them. We genuinely offer flexible working
+  hours and a remote component precisely because we trust our team to manage
+  their time effectively. We focus on results and impact, not just hours logged.
+  Our culture is about empowerment and mutual support. We proactively encourage
+  open communication if someone feels overwhelmed, and the CEO himself is very
+  conscious of ensuring a sustainable pace. The idea isn't to burn out, but to
+  foster a highly motivated and productive team that can sustain its impact
+  long-term. Your well-being is crucial for your ability to contribute
+  creatively and strategically.
 ---
-Die Quteco GmbH ist ein wachsendes IT- und Beratungsunternehmen in Stuttgart. Wir kombinieren SAP-, IT- und Rechtsberatung (NIS2, DSGVO, EU AI Act) und unterstützen Mittelstand & Konzerne bei Digitalisierungs- und Compliance-Projekten.
-
-Wir suchen eine Person, die direkt mit unserem CEO arbeitet und den Aufbau unseres Unternehmens aktiv mitgestaltet.
-
-Aufgaben
---------
-
-*   Koordination von Projekten, Partnern und internen Abläufen
-*   Strukturierung von Aufgaben, Prioritäten und Deadlines
-*   Vorbereitung von Unterlagen, Präsentationen und Angeboten
-*   Operative Unterstützung bei NIS2-, AI-Act-, SAP- und IT-Projekten
-*   Mitwirkung am Aufbau unseres Tele-Business und Partnernetzwerks
-*   Erstansprache von potenziellen Kunden & Terminvereinbarungen
-*   Recherche zu Leads, Ausschreibungen und neuen Geschäftsmöglichkeiten
-*   Unterstützung im Marketing (Whitepaper, Website, LinkedIn)
-*   Pflege und Organisation unserer Microsoft-365 Umgebung (Planner, SharePoint, Teams)
-
-Qualifikation
--------------
-
-*   2–6 Jahre Erfahrung in Operations, Projektmanagement, Consulting oder Business Development
-*   Strukturierte Arbeitsweise, schnelle Auffassungsgabe und hohes Verantwortungsbewusstsein
-*   Kommunikationsstärke (schriftlich & mündlich)
-*   Hands-on-Mentalität und unternehmerisches Denken
-*   Sehr gute Deutschkenntnisse
-*   Bonus: Erfahrung mit Microsoft 365 oder Prozessorganisation
-*   Keine Angst vor neuen Themen (SAP, IT, Recht – du lernst alles bei uns)
-
-Benefits
---------
-
-*   Fixgehalt **40.000–50.000 €**
-*   Leistungsorientierte Provision (Zielverdienst **\>120.000 €** möglich)
-*   Direkte Zusammenarbeit mit dem CEO
-*   Möglichkeit, schnell zur Rolle „Chief of Staff“ aufzusteigen
-*   Hoher Gestaltungsspielraum in einem innovativen Tech- und Beratungsumfeld
-*   Flexible Arbeitszeiten & Remote-Anteil
-*   Moderne Arbeitsweise mit Microsoft 365 & KI-Tools
-*   Ein kleiner, dynamischer Arbeitgeber, bei dem deine Arbeit echten Impact hat
-
-Wenn du Verantwortung willst, dich in einer breiten Rolle beweisen möchtest und ein Unternehmen aktiv mit aufbauen willst, dann freuen wir uns sehr auf deine Bewerbung. Ein kurzer Lebenslauf oder dein LinkedIn-Profil reicht aus.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nQuteco GmbH is a growing IT and consulting company based in Stuttgart. We combine SAP, IT, and legal consulting (NIS2, GDPR, EU AI Act) to support mid-sized companies and corporations with their digitalization and compliance projects. We are looking for an individual to work directly with our CEO and actively shape the development of our company.\n\n### Responsibilities\n- Coordinate projects, partners, and internal processes\n- Structure tasks, priorities, and deadlines\n- Prepare documents, presentations, and offers\n- Provide operational support for NIS2, AI Act, SAP, and IT projects\n- Contribute to building our tele-business and partner network\n- Initial contact with potential clients & scheduling appointments\n- Research leads, tenders, and new business opportunities\n- Support in marketing (whitepapers, website, LinkedIn)\n- Maintain and organize our Microsoft 365 environment (Planner, SharePoint, Teams)\n\n### Qualifications\n- 2-6 years of experience in Operations, Project Management, Consulting, or Business Development\n- Structured working style, quick comprehension, and a high sense of responsibility\n- Strong communication skills (written & verbal)\n- Hands-on mentality and entrepreneurial thinking\n- Excellent German language skills\n- Bonus: Experience with Microsoft 365 or process organization\n- No fear of new topics (SAP, IT, Legal – you'll learn everything with us)\n\n### Author's Take\nThis is an exceptional opportunity for an ambitious, hands-on professional to make a significant impact at a rapidly growing IT and consulting firm. Working directly with the CEO, you'll have unparalleled autonomy and influence in shaping the company's strategic direction, with a clear path to becoming a Chief of Staff. The role offers a diverse range of responsibilities across cutting-edge tech and compliance, supported by a dynamic culture that values growth, flexibility, and direct contribution. If you thrive on responsibility, enjoy broad challenges, and want to truly build something from the ground up, this role offers immense potential for professional development and a highly competitive compensation package.

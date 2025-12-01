@@ -9,59 +9,65 @@ postedDate: '2025-11-27T14:32:01.000Z'
 expirationDate: null
 tags:
   - Accounts Receivable
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/adjoe-gmbh/customer-success-manager-hamburg-29366
 companyLogoUrl: null
+companyCulture: >-
+  adjoe fosters a dynamic and fast-paced environment, emphasizing continuous
+  professional growth through feedback and development programs. They promote a
+  healthy work-life balance with a hybrid setup, flexible hours, generous
+  vacation, and remote work options, all within a collaborative community that
+  enjoys regular team events and a strong sense of ownership.
+story_question1: >-
+  In a rapidly evolving mobile ad tech landscape, how does the Customer Success
+  Manager directly influence adjoe's reputation and growth by turning new
+  partners into long-term successes, and what are the most rewarding aspects of
+  navigating those initial challenges?
+story_answer1: >-
+  As an insider, I can tell you that as a Customer Success Manager here, you're
+  not just guiding partners; you're building the future of adjoe. Every
+  successful onboarding, every optimized campaign, directly translates into our
+  market reputation and revenue growth. It's incredibly rewarding to see a new
+  partner, initially navigating our platform, become a confident, thriving
+  advertiser thanks to your expertise. The biggest challenge is always staying
+  ahead of the curve in a fast-paced environment, but that's also where the
+  thrill lies – constantly innovating and providing value that truly makes a
+  difference to their business and ours.
+story_question2: >-
+  adjoe highlights a 'driven and dynamic workforce' and a 'strong sense of
+  ownership'. How does this translate into daily collaboration within the
+  Advertiser Accounts team, and what support systems are in place to ensure
+  individual success within a high-performance culture?
+story_answer2: >-
+  The 'driven and dynamic' culture at adjoe means everyone is committed to
+  excellence, but never in isolation. Within the Advertiser Accounts team,
+  collaboration is key – we regularly support each other on challenging cases,
+  share best practices, and strategize together to ensure our partners' success.
+  There's a strong emphasis on mentorship and learning from each other.
+  Crucially, the company provides excellent support systems, from comprehensive
+  development programs and regular feedback sessions to mental health support
+  through our EAP, ensuring that while we push for high performance, we also
+  prioritize individual well-being and growth within a supportive framework.
+story_question3: >-
+  Given the global nature of adjoe's partnerships and teams, how does the
+  company ensure effective cross-regional collaboration and knowledge sharing,
+  particularly between the Advertiser Accounts team in Germany and the
+  Partnerships Teams across EMEA and the US?
+story_answer3: >-
+  Collaborating across continents is fundamental to our success. We're
+  structured to work in close partnership with our EMEA and US Partnerships
+  Teams right from the start. This involves regular sync-up calls, shared
+  communication channels on Slack, and a unified approach to client success. We
+  foster an open dialogue where insights from different markets are shared,
+  helping us adapt our strategies and platform features. This global teamwork
+  ensures that no matter where our partners are located, they receive
+  consistent, high-quality support and that we leverage collective intelligence
+  to continuously improve our offerings. It truly feels like one global team
+  driving a shared vision.
 ---
-Every great app out there deserves to be connected with the right users and the right revenue streams. And adjoe will give this to them.
-
-[adjoe](https://adjoe.io/) is a leading mobile ad platform developing cutting-edge advertising and monetization solutions that take its app partners’ business to the next level. Our unique ad unit Playtime has made us one of the fastest-growing ad platforms and top-ranking user acquisition sources for app publishers worldwide (ranked #1 for growth in the AppsFlyer Index). And that’s just the start: We’ve just launched our programmatic in-app platform to disrupt the status quo of mobile ad monetization. Again.
-
-Home to an [advanced tech stack](https://adjoe.io/company/adtech-stack/), powerful financial backing from Bertelsmann, and a long-term growth mindset, adjoe is part of the [applike group](https://applike-group.com/) ecosystem. A hub of disruption and thought leadership in the app economy, with a driven and dynamic workforce to be reckoned with.
-
-Be the next tech-driven, ambitious talent to join our growing teams!
-
-**Meet Your Team: Advertiser Accounts**
-
-As our Customer Success Manager and onboarding specialist you are part of the Advertiser Accounts Team in Germany and work in partnership with our Partnerships Teams across EMEA and the US. Guide our new Partners through the onboarding process and establish the first successful campaigns.
-
-What You Will Do
-----------------
-
-*   Drive the onboarding, retention, and overall success of our new partners
-*   Work in partnership with the sales team and our growth managers to guide new clients through the technical requirements of their implementation. Offer close support during the onboarding process through Slack and calls
-*   Provide proactive recommendations to optimize first campaigns and use of our platform
-*   Analyze KPIs related to the performance of your partners and take action accordingly
-*   Support your teammates in their day-to-day tasks
-*   Establish good relationships with your partners through day-to-day communication (Slack, Skype, emails, calls)
-*   Prepare reports and presentations for your partners
-*   Gather and communicate your partner’s needs internally with the right priorities, including technical troubleshooting.
-
-Who You Are
------------
-
-*   You have a minimum of 1-3 years experience in mobile user acquisition, success management, or account management in the ad tech space or a similar position (experience in the gaming industry is an advantage)
-*   You have an exceptional ability to communicate and foster new positive business relationships
-*   You understand the standard KPIs used in adtech (CPI, CPM, CPC, ARPDAU, etc.)
-*   You have outstanding communication skills (verbal and written), and you are fluent in English (other languages are a plus)
-*   You possess very good analytical skills
-*   You are mastering the Google Suite (especially Sheets & Slides)
-*   You have an output- and revenue-driven attitude
-*   You like to work in a fast-paced environment
-*   You enjoy a strong sense of ownership
-
-Fuel for the Journey: Benefits to Support Your Ambitions
---------------------------------------------------------
-
-*   **Invest in Your Future**: Regular feedback and our development program support your growth, helping you expand your skill set and achieve your career goals.
-*   **Easy Arrival to adjoe:** From signing to settling in Hamburg, we’ve got you covered. Need a visa? No problem. Ready to build your new life and career at adjoe in Hamburg? We support every ambition—from learning German to a relocation bonus that helps you settle in and make Hamburg feel like home.
-*   **Live Your Best Life, at Work and Beyond**: We work in a hybrid setup with 3 core office days, plus flexible working hours. Enjoy 30 vacation days, 3 weeks of remote work per year, and free access to an in-house gym with lots of different fitness classes and mental health support through our Employee Assistance Program (EAP).
-*   Thrive Where You Work: Enjoy the Alster lake view from our central office with top notch equipment, fun open spaces, and a large variety of snacks and drinks.
-*   **Join the Community!** Participate in regular team and company events, including hackathons and social gatherings. We work together, and we celebrate together, too.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nadjoe is a leading mobile ad platform renowned for developing cutting-edge advertising and monetization solutions, including its unique Playtime ad unit, which has driven significant growth for app publishers worldwide. As part of the applike group ecosystem, adjoe is focused on disrupting the mobile ad monetization status quo with an advanced tech stack and a long-term growth mindset.\n\nAs a Customer Success Manager and onboarding specialist within the Advertiser Accounts Team in Germany, you will play a pivotal role in guiding new partners through their onboarding journey and establishing their first successful campaigns, working closely with Partnerships Teams across EMEA and the US.\n\n### Responsibilities\n*   Drive the onboarding, retention, and overall success of adjoe's new partners.\n*   Collaborate with the sales team and growth managers to guide new clients through technical implementation, offering close support via Slack and calls.\n*   Provide proactive recommendations to optimize initial campaigns and maximize platform usage.\n*   Analyze key performance indicators (KPIs) related to partner performance and take decisive action.\n*   Support teammates in their daily tasks, fostering a collaborative environment.\n*   Cultivate strong relationships with partners through consistent day-to-day communication (Slack, Skype, emails, calls).\n*   Prepare detailed reports and presentations for partners.\n*   Gather and prioritize partner needs internally, including technical troubleshooting requests.\n\n### Qualifications\n*   A minimum of 1-3 years of experience in mobile user acquisition, success management, or account management within the ad tech space or a similar role (experience in the gaming industry is a plus).\n*   Exceptional ability to communicate effectively and foster positive new business relationships.\n*   Solid understanding of standard ad tech KPIs such as CPI, CPM, CPC, and ARPDAU.\n*   Outstanding verbal and written communication skills, with fluency in English required (other languages are advantageous).\n*   Possess very strong analytical skills to drive data-informed decisions.\n*   Proficiency in Google Suite, particularly Sheets and Slides.\n*   Demonstrate an output- and revenue-driven attitude.\n*   Enjoy working in a fast-paced and dynamic environment.\n*   Exhibit a strong sense of ownership over your responsibilities and outcomes.\n\n### Author's Take\nThis is a compelling opportunity for a driven individual with 1-3 years of experience to make a significant impact as a Customer Success Manager at adjoe, a fast-growing leader in mobile ad tech. The role offers substantial ownership in guiding new partners to success, directly contributing to the company's ambitious growth. adjoe fosters a dynamic culture that prioritizes professional development, offering regular feedback and growth programs. They support a healthy work-life balance with a hybrid model, flexible hours, generous vacation, and remote work options, alongside an engaging community with regular team events and hackathons. It's an ideal fit for an analytical, communicative, and results-oriented professional eager to thrive in a collaborative and innovative environment.

@@ -10,66 +10,45 @@ expirationDate: null
 tags:
   - Remote
   - Helpdesk
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/funnelcockpit/customer-support-100-remote-hamburg-163065
 companyLogoUrl: null
+companyCulture: >-
+  FunnelCockpit fosters a remote-first culture with 100% home office,
+  emphasizing open communication, flat hierarchies, and a collaborative
+  environment where ideas are welcomed. They provide strong mentorship for
+  growth and encourage active participation in product improvement, alongside
+  regular team events to build connection.
+story_question1: >-
+  How does the Customer Support role directly influence FunnelCockpit's product
+  development and overall success, beyond just resolving tickets?
+story_answer1: >-
+  As an insider, I can tell you that our customer support isn't just a helpdesk;
+  it's a vital feedback loop. Imagine being the first to spot a recurring
+  customer struggle, then having a direct channel to our product and dev teams.
+  Your insights directly shape new features, improve our AI, and refine the
+  knowledge base. It's incredibly rewarding to see a customer's pain point turn
+  into a product enhancement because of your input. You're not just supporting;
+  you're actively building the future of FunnelCockpit.
+story_question2: >-
+  Given the remote-first setup and focus on innovative tools, what kind of
+  growth opportunities are available for Customer Support specialists looking to
+  expand their skills within the company?
+story_answer2: >-
+  In our remote-first environment, growth is embedded in how we work. From day
+  one, you're paired with a mentor, ensuring you're never left adrift. Beyond
+  that, the nature of our business – constantly evolving our all-in-one
+  marketing tool – means you're always exposed to new challenges and
+  technologies. We actively encourage contributions to new features, improving
+  our AI, and refining our knowledge base. Many team members here started in one
+  area and naturally transitioned into others, whether that's deeper into
+  product, testing, or even content creation. The "Du-Kultur" and flat
+  hierarchies genuinely mean your voice is heard, and opportunities to learn and
+  expand your skills are abundant.
 ---
-Wir sind FunnelCockpit – ein innovatives Software-Unternehmen. Unsere Mission: das beste All-in-One-Marketing-Tool für kleine und mittelständische Unternehmen zu bauen. Und wir sind auf einem sehr guten Weg dorthin.
-
-Damit wir weiter wachsen können, suchen wir dich als Verstärkung im Customer Support. Du hilfst unseren Kunden dabei, FunnelCockpit erfolgreich im Alltag einzusetzen – freundlich, lösungsorientiert und mit technischem Verständnis.
-
-**So arbeiten wir**
-
-Wir sind ein Remote-First-Team ohne klassisches Büro. Du arbeitest zu 100% im Homeoffice – wenn du möchtest, auch in einem Co-Working Space.
-
-Für die Zusammenarbeit nutzen wir moderne Tools:
-
-*   Slack für Kommunikation und schnelle Absprachen
-*   Linear für Aufgabenplanung und Ticketmanagement
-*   Intercom für den direkten Kontakt mit Kunden
-
-Bei uns hast du immer ein offenes Ohr: Deine Ideen und Fragen sind willkommen, und wir haben Raum für kreativen Austausch. Du wirst von Anfang an intensiv betreut und mit einem Mentor an deinen Aufgaben begleitet.
-
-Aufgaben
---------
-
-*   Du betreust unsere Kunden über Intercom – schriftlich, freundlich und lösungsorientiert.
-*   Du dokumentierst Anfragen in Linear und arbeitest eng mit unserem Produkt- und Entwicklungsteam zusammen.
-*   Du testest neue Features und hilfst aktiv mit, unsere Knowledge Base und KI-Features zu verbessern.
-*   Du gibst Feedback aus dem Kundensupport weiter und trägst dazu bei, dass FunnelCockpit noch besser wird.
-*   Du bringst eigene Ideen ein und arbeitest selbstbestimmt – das ist bei uns ausdrücklich erwünscht.
-
-Qualifikation
--------------
-
-**Dein Profil**
-
-*   Du hast bereits Erfahrung im Kundenservice, idealerweise im digitalen Umfeld (z. B. SaaS, E-Commerce, IT-Support).
-*   Du sprichst fließend Deutsch und English – Englisch brauchst du für die Kommunikation mit unserem internationalen Entwicklerteam.
-*   Du hast ein gutes technisches Verständnis und keine Angst vor neuen Tools.
-*   Du bist solution-first, zuvorkommend und lösungsorientiert.
-*   Du arbeitest zuverlässig, strukturiert und selbstständig im Homeoffice.
-
-**Nice to have**
-
-*   Erfahrung mit anderen Marketing-Tools oder Landingpage-/Funnel-Buildern.
-*   Berührungspunkte mit SEO & Performance Marketing (z. B. Facebook Ads, Google Ads).
-
-Benefits
---------
-
-*   Flexible Arbeitszeiten – mit Hauptzeit zwischen 9:00 und 18:00 Uhr.
-*   Kurzes, intensives Onboarding mit persönlicher Mentor an deiner Seite.
-*   Offene Kommunikation, flache Hierarchien und echte Du-Kultur.
-*   Ein top ausgestatteter Arbeitsplatz: Wir stellen dir einen Laptop und bei Bedarf weiteres Zubehör.
-*   Möglichkeit zur Arbeit im Co-Working Space.
-*   Eine flexible, steuerfreie Sachzulage.
-*   Die Möglichkeit, dich aktiv bei neuen und spannenden Themen einzubringen – von Feature-Tests bis zur Mitgestaltung unserer Knowledge Base und KI-Features.
-*   Ein super Team – wir machen regelmäßige Teamevents und freuen uns jetzt schon auf deine Ideen.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nFunnelCockpit is an innovative software company on a mission to build the best all-in-one marketing tool for small and medium-sized businesses. To support our growth, we are looking for a Customer Support specialist to help our clients successfully use FunnelCockpit daily – friendly, solution-oriented, and with technical understanding.\n\nWe operate as a remote-first team, offering 100% home office work with the option to use a co-working space. Collaboration is facilitated through modern tools like Slack for communication, Linear for task and ticket management, and Intercom for direct customer contact. We foster an environment where ideas and questions are openly welcomed, allowing for creative exchange. You'll receive intensive onboarding and be supported by a personal mentor from day one.\n\n### Responsibilities\n- Provide friendly, solution-oriented written customer support via Intercom.\n- Document customer inquiries in Linear and collaborate closely with our product and development teams.\n- Test new features and actively contribute to improving our Knowledge Base and AI features.\n- Relay customer feedback to contribute to the continuous improvement of FunnelCockpit.\n- Proactively bring in your own ideas and work autonomously – this is expressly encouraged.\n\n### Qualifications\n**Your Profile**\n- Proven experience in customer service, ideally in a digital environment (e.g., SaaS, e-commerce, IT support).\n- Fluent in German and English; English is required for communication with our international development team.\n- Strong technical understanding and comfort with learning new tools.\n- Solution-first, courteous, and highly solution-oriented.\n- Reliable, structured, and capable of working independently in a home office setting.\n\n**Nice to Have**\n- Experience with other marketing tools or landing page/funnel builders.\n- Familiarity with SEO & Performance Marketing (e.g., Facebook Ads, Google Ads).\n\n### Author's Take\nThis is an excellent opportunity for a proactive customer support professional to join a growing, remote-first SaaS company. FunnelCockpit offers a supportive environment with strong mentorship, flexible working hours (main time between 9:00 and 18:00), flat hierarchies, and a genuine \"Du-Kultur\" (informal culture). You'll have opportunities to influence product development, contribute to new features, and actively shape the company's offerings. With a fully equipped home office, optional co-working space, and regular team events, it's an attractive role for someone looking to make a tangible impact and grow their career in a dynamic, innovative setting.

@@ -9,80 +9,50 @@ postedDate: '2025-11-27T12:31:53.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ifa-by-lopesan-hotels/online-marketing-manager-hybrid-berlin-26626
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a modern, flexible, and growth-oriented culture with a
+  strong emphasis on work-life balance, including hybrid work, 'Workation'
+  options, and generous special leave. It promotes an open, informal (using
+  'Du'), and collaborative 'Hands-On' team environment that values creativity,
+  open communication, and personal development through an internal academy. They
+  also embrace a dog-friendly office.
+story_question1: >-
+  Given the 'umfassende Modernisierung' and 'Dreh- und Angelpunkt für
+  zukünftiges Wachstum' mentioned for the Berlin office, what specific impact
+  will this Online Marketing Manager role have on shaping the digital presence
+  and growth strategy for IFA Hotels?
+story_answer1: >-
+  From an insider's perspective, this role isn't just about managing existing
+  content; it's about being a core architect of our digital future. You'll be at
+  the forefront, actively crafting the voice and visuals that define our hotels
+  online. Imagine seeing your creative content not only attract guests but also
+  directly contribute to the 'umfassende Modernisierung' of our brand's
+  perception and the ambitious growth goals of our new Berlin hub. It's a chance
+  to truly leave your mark and see your strategies translate into tangible
+  success for IFA Hotels, setting new standards across Central Europe.
+story_question2: >-
+  The job description highlights a strong focus on personal and professional
+  development, as well as an 'offene Unternehmenskultur'. How does the company
+  truly support continuous learning and career progression for someone in this
+  role, and what does 'per Du' teamwork look like in practice?
+story_answer2: >-
+  Here at IFA, growth isn't just a buzzword; it's a commitment woven into our
+  culture. Through our 'IFA by Lopesan Academy,' you'll have access to diverse
+  further training programs and targeted support to carve out your career path.
+  But it's more than formal training; it’s about daily interaction. Being a 'per
+  Du' team means breaking down hierarchical barriers. Whether it's brainstorming
+  new campaign ideas with a manager or seeking advice from a director,
+  communication is always open, direct, and collaborative. We're a 'Hands-On
+  Team' where everyone contributes, and your ideas are genuinely valued,
+  ensuring you're constantly learning from and contributing to a supportive,
+  creative environment.
 ---
-**Über uns:**
-
-Als Teil der LOPESAN Hotelgruppe mit Hauptsitz auf Gran Canaria betreuen wir die IFA Hotels in Deutschland und Österreich regional über unsere neue Zentrale in Berlin/Schönefeld. Dieser Schritt bedeutet eine umfassende Modernisierung, um Prozesse, Standards und Qualität in den einzelnen Hotels effizient zu unterstützen. Gleichzeitig wird unser Büro der Dreh- und Angelpunkt für zukünftiges Wachstum auf dem mitteleuropäischen Markt sein.
-
-**Join our Team!**
-
-Als Mitglied unseres Teams hast Du die einmalige Gelegenheit, die Zukunft der IFA Hotels aktiv mitzugestalten und maßgeblich zum Erfolg des Unternehmens beizutragen. Wir möchten, dass Du Dich bei uns als Teil einer besonderen Gemeinschaft fühlst, und die Chance hast, Dich persönlich und beruflich weiterzuentwickeln.
-
-Du willst den digitalen Vertrieb in der Hotellerie nicht nur verwalten, sondern aktiv gestalten? In dieser Rolle verantwortest du den Content und das Auftreten unserer Hotels. Du arbeitest an der Schnittstelle eng mit dem ganzen Marketing-Team zusammen – mit dem Ziel, Gäste zu begeistern und Umsatzpotenziale voll auszuschöpfen.
-
-Für unser Team in Berlin-Schönefeld suchen wir ab sofort nach einem: **Online Marketing Manager (m/w/d)**
-
-Aufgaben
---------
-
-*   Du erstellst inspirierende und gut strukturierte Inhalte für unsere Website und weitere Kanäle.
-*   Du sorgst dafür, dass unsere Inhalte nicht nur gut klingen, sondern auch gefunden werden – SEO gehört für dich ganz selbstverständlich dazu.
-*   Du analysierst, wie unsere Inhalte performen – und optimierst sie auf Basis von KPIs wie Reichweite, Engagement oder Conversions.
-*   Du bringst dich kreativ ein und hast Spaß daran, neue Ideen und Formate zu entwickeln.
-*   Du arbeitest eng mit verschiedenen Teams zusammen und bringst dich aktiv in unterschiedliche Marketingprojekte ein – zum Beispiel bei der Erstellung von Designs, Flyern, Präsentationen oder Social-Media-Kampagnen.
-*   Du achtest darauf, dass unsere Markenbotschaft auf allen Kanälen einheitlich und authentisch rüberkommt.
-*   Du hast ein Gespür für Trends im Digital- und Content-Marketing und bleibst gerne am Puls der Zeit.
-
-Qualifikation
--------------
-
-*   Abgeschlossene Ausbildung oder Studium im Fachbereich.
-*   Erste Kenntnisse in der Arbeit im Marketing-Bereich und mit Content Management Systemen (z. B. WordPress) sowie gängigen Tools zur Erfolgsmessung (z. B. Google Analytics).
-*   Gespür für zielgruppengerechte Kommunikation, kanalübergreifendes Storytelling und konsistente Markenführung.
-*   Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift.
-*   Background im Tourismussektor ist ein Plus.
-
-Benefits
---------
-
-**Hybrides Arbeiten -** Du arbeitest drei Tage aus unserem neuen Büro, ansonsten ist remote Arbeit problemlos möglich.
-
-**Lebens- und Arbeitsqualität -** Uns ist Flexibilität sehr wichtig, deswegen versuchen wir uns immer an Deinen Lebensstil anzupassen. Unsere attraktiven Work-Life-Balance-Lösungen, wie die Möglichkeit zur Workation und unsere großzügige Sonderurlaubsregelung, ermöglichen es Dir, Dein Privatleben in vollen Zügen und ohne Stress zu genießen.
-
-**Schnell und einfach unterwegs sein -** Mit dem Jobticket-Zuschuss bist du nicht nur schnell, sondern vor allem nachhaltig unterwegs. Unser Büro erreichst du ganz bequem mit der Regiobahn oder der S-Bahn. Solltest du doch einmal mit dem Auto kommen, stehen dir auch Parkplätze zur Verfügung.
-
-**Deine berufliche Entwicklung –** In unserer IFA by Lopesan Academy bieten wir dir vielseitige Weiterbildungsprogramme und gezielte Unterstützung für deine berufliche Weiterentwicklung.
-
-**Deine Freizeit und Sicherheit sind uns wichtig –** Wir bieten lukrative Mitarbeiter-Rabatte in allen IFA-Häusern weltweit und über Portale.
-
-**Partnerschaft -** Wir feiern die offene Unternehmenskultur und egal ob Manager\*in oder Direktor\*in, wir sind alle per „Du“. Bei uns wirst Du in einem Hands-On Team arbeiten, das auf Teamwork, Kreativität und offene Kommunikation setzt.
-
-**Unser Team = unser Erfolg –** Gemeinsam mit einem erfolgsorientierten Kollegenkreis schaffen wir sehr viel. Unsere Mitarbeiter\*innen können auch die Mitarbeiter werben und die Empfehlungsprämie erhalten.
-
-**Wuff wuff! -** Hunde im Office - In unserem Büro sind Hunde und andere „Feel-Good-Manager“ sehr gerne willkommen.
-
-**Wenn Du Teil unseres Teams werden möchtest und uns tatkräftig bei dieser tollen Herausforderung unterstützen möchtest, bewirb Dich bei uns.**
-
-**Dein Ansprechpartner:**
-
-Tomasz Gajec
-
-IFA by Lopesan Hotels
-
-Senior Talent Acquisition & Employer Branding Manager DE & AT
-
-**Hinweis:**
-
-Wir wertschätzen Vielfalt und begrüßen daher alle Bewerbungen - unabhängig von Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion/Weltanschauung, Behinderung, Alter sowie sexueller Orientierung und Identität. Die Auswahl der Bewerber\*innen erfolgt ausschließlich anhand von Qualifikationen.
-
-**Wir heißen Dich recht herzlich Willkommen im Team des IFA-Resorts!**
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAs part of the LOPESAN Hotel Group, headquartered in Gran Canaria, we manage IFA Hotels in Germany and Austria regionally from our new central office in Berlin/Schönefeld. This move represents a comprehensive modernization aimed at efficiently supporting processes, standards, and quality across our individual hotels. Simultaneously, our Berlin office will serve as the pivotal point for future growth in the Central European market.\n\nJoin our team and seize the unique opportunity to actively shape the future of IFA Hotels and significantly contribute to the company's success. We want you to feel part of a special community, with ample opportunities for personal and professional development.\n\nAre you looking to not just administer, but actively shape digital sales in the hotel industry? In this role as an **Online Marketing Manager (m/f/d)**, you will be responsible for the content and online presence of our hotels. You will work closely with the entire Marketing team, with the goal of inspiring guests and fully leveraging revenue potential. We are looking for an immediate start at our Berlin-Schönefeld office.\n\n### Responsibilities\n- Create inspiring and well-structured content for our website and other digital channels.\n- Ensure content is discoverable through effective SEO strategies.\n- Analyze content performance based on KPIs such as reach, engagement, or conversions, and optimize accordingly.\n- Contribute creatively to develop new ideas and formats.\n- Collaborate closely with various teams on marketing projects, including design, flyers, presentations, or social media campaigns.\n- Ensure a consistent and authentic brand message across all channels.\n- Stay abreast of trends in digital and content marketing.\n\n### Qualifications\n- Completed vocational training or university degree in a relevant field.\n- Initial experience in marketing, content management systems (e.g., WordPress), and common success measurement tools (e.g., Google Analytics).\n- A keen sense for target-group-oriented communication, cross-channel storytelling, and consistent brand management.\n- Very good German and English language skills, both written and spoken.\n- A background in the tourism sector is a plus.\n\n### Author's Take\nThis is an exceptional opportunity for an aspiring Online Marketing Manager to join the IFA Hotels team during a pivotal phase of modernization and growth. Based in their new Berlin/Schönefeld central office, the role offers a chance to actively shape the digital future of hotels, making a direct impact on revenue and brand presence.\n\nIFA Hotels truly stands out with its commitment to employee well-being and growth. The company culture is highly appealing, offering fantastic work-life balance solutions like hybrid work, 'Workation,' and generous special leave. Professional development is supported through the 'IFA by Lopesan Academy,' ensuring continuous learning. The informal 'per Du' culture, combined with a 'Hands-On Team' approach, fosters teamwork, creativity, and open communication. Plus, for dog lovers, the office is pet-friendly!\n\nThis role is ideal for a proactive individual with initial marketing experience who is eager to contribute significantly in a supportive, modern, and growth-oriented environment.

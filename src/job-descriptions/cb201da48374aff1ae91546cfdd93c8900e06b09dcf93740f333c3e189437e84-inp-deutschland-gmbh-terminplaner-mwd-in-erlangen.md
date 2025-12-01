@@ -9,52 +9,49 @@ postedDate: '2025-11-28T08:31:54.000Z'
 expirationDate: null
 tags:
   - Project Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/inp-deutschland-gmbh/terminplaner-in-erlangen-416308
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative and supportive environment with flat
+  hierarchies, emphasizing autonomy and significant growth opportunities through
+  continuous learning and international exposure. They are committed to
+  innovation and sustainability, valuing teamwork, respect, and a smooth
+  onboarding process.
+story_question1: >-
+  How does this role directly contribute to the company's commitment to
+  innovation and sustainability in the energy sector, and what opportunities are
+  there to implement new ideas?
+story_answer1: >-
+  From where I stand, being a Planner for HVDC projects here means you're not
+  just ticking boxes on a schedule; you're orchestrating the future of energy.
+  Every timeline we craft, every critical path we identify, directly supports
+  the rollout of sustainable energy solutions. Management truly values our
+  expertise, giving us significant autonomy. I remember proposing a new
+  scheduling methodology for a particularly complex international project.
+  Instead of pushback, I was encouraged to develop it, and now it's helping
+  streamline our biggest initiatives. This isn't just a job; it's a chance to
+  actively shape the energy transition with a team that genuinely cares about
+  collaboration and making a real impact.
+story_question2: >-
+  Given the emphasis on flat hierarchies and individual development, what does a
+  typical career progression look like for a Planner, and how are continuous
+  learning opportunities structured?
+story_answer2: >-
+  What's great about our flat hierarchy is that it accelerates growth. While
+  there isn't a rigid ladder, the path is wide open for those who want to take
+  on more complex challenges, mentor new team members, or even specialize in
+  particular aspects of project control. The company is fantastic about
+  investing in us; they've sponsored several advanced training courses in
+  project management tools and methodologies for me, and there are always
+  internal workshops and knowledge-sharing sessions. I've seen colleagues
+  transition into lead planner roles, project control management, or even move
+  into strategic planning functions by leveraging the international project
+  experience and continuous learning opportunities provided.
 ---
-**Als Terminplaner HGÜ (m/w/d) sind Sie verantwortlich für die terminliche Planung und Koordination anspruchsvoller HGÜ-Großprojekte von der Angebotsphase bis zur Abwicklung.** Mit technischem Verständnis und analytischem Blick entwickeln Sie belastbare Terminstrukturen, überwachen Projektfortschritte und unterstützen die Projektleitung bei der Einhaltung von Zeit- und Ablaufzielen.
-
-**Kennziffer 4351**
-
-**Einsatzort: Erlangen**
-
-Aufgaben
---------
-
-*   Erstellung und Pflege detaillierter Terminpläne in der Angebots-, Referenz- und Abwicklungsphase von HGÜ-Projekten
-*   Unterstützung der Gesamtterminplanung in enger Abstimmung mit der Projektleitung
-*   Projektspezifische Anpassung und Optimierung von Zeitplänen unter Anwendung bewährter Planungsmethoden
-*   Kontinuierliche Überprüfung der Zeitpläne unter Berücksichtigung technischer, organisatorischer und vertraglicher Rahmenbedingungen
-*   Eigenständige Entwicklung von Lösungsansätzen bei Abweichungen oder Zielkonflikten im Projektteam
-*   Abstimmung der Lösungsansätze mit der Gesamtprojektleitung und Terminplanung
-*   Erstellung interner und externer Berichte einschließlich Abweichungsanalysen, MTAs, S-Kurven und kritischem Pfad
-
-Qualifikation
--------------
-
-*   Abgeschlossenes Studium im Bereich Elektrotechnik oder Bauwesen oder vergleichbare Qualifikation
-*   Mehrjährige Berufserfahrung in der Projektabwicklung technischer Großprojekte, idealerweise im Anlagenbau oder in der Energiewirtschaft
-*   Sichere Kenntnisse in Primavera P6 und gängigen Projektsteuerungstools
-*   Routinierter Umgang mit Netzplantechnik, kritischem Pfad, Ressourcenmanagement und Abweichungsanalysen
-*   Reisebereitschaft (10–20 %) für projektbezogene Einsätze
-*   Fließende Deutsch- und Englischkenntnisse in Wort und Schrift
-
-Benefits
---------
-
-*   **Mit Energie in die Zukunft!** – Arbeiten Sie an innovativen und nachhaltigen Projekten im Bereich Energiewirtschaft und Anlagenbau
-*   **Eigenverantwortung & flache Hierarchien** – Wir vertrauen auf Ihre Kompetenz und bieten Ihnen ein hohes Maß an Gestaltungsspielraum
-*   **Individuelle Entwicklungsmöglichkeiten** – Wir unterstützen Sie dabei, Ihre Karriere durch Weiterbildungen, Schulungen und internationale Projekte gezielt voranzutreiben
-*   **Attraktive Benefits** – Sie profitieren von attraktiven Zusatzleistungen, z.B. 13. Gehalt, betrieblicher Altersvorsorge und Zuschüssen für nachhaltige Mobilität wie Bikeleasing oder Jobticket
-*   **Persönliche Betreuung** – Unsere Ansprechpartner:innen stehen Ihnen während des gesamten Projekts zur Seite und koordinieren eng mit unseren Kunden, um optimale Projekteinsätze für Sie zu gewährleisten
-*   **Teamgeist & klare Werte** – Werden Sie Teil eines engagierten Teams, das auf Zusammenhalt, Respekt und Nachhaltigkeit setzt. Ein strukturiertes Onboarding-Programm sorgt dafür, dass Sie sich von Anfang an willkommen fühlen und erfolgreich durchstarten können
-
-Werden Sie Teil eines dynamischen Teams und gestalten Sie gemeinsam mit uns die Energiewende! Bei uns haben Sie die Möglichkeit, Ihre Ideen einzubringen und aktiv an spannenden Herausforderungen zu arbeiten.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nAs an HVDC Scheduler (m/f/d), you will be responsible for the temporal planning and coordination of demanding HVDC large-scale projects from the offer phase to implementation. With technical understanding and an analytical eye, you will develop robust schedule structures, monitor project progress, and support project management in adhering to time and schedule targets.\\n\\nJoin a dynamic team and shape the energy transition with us! Here, you have the opportunity to contribute your ideas and actively work on exciting challenges.\\n\\n### Responsibilities\\n- Creation and maintenance of detailed schedules in the offer, reference, and implementation phases of HVDC projects\\n- Support overall scheduling in close coordination with project management\\n- Project-specific adaptation and optimization of schedules using proven planning methods\\n- Continuous review of schedules, considering technical, organizational, and contractual conditions\\n- Independent development of solutions for deviations or conflicting goals within the project team\\n- Coordination of solutions with overall project management and scheduling\\n- Preparation of internal and external reports, including deviation analyses, MTAs, S-curves, and critical path analysis\\n\\n### Qualifications\\n- Completed studies in electrical engineering or civil engineering or comparable qualification\\n- Several years of professional experience in the project execution of technical large-scale projects, ideally in plant construction or the energy industry\\n- Proficient knowledge of Primavera P6 and common project control tools\\n- Routine handling of network planning techniques, critical path, resource management, and deviation analyses\\n- Willingness to travel (10–20%) for project-related assignments\\n- Fluent German and English language skills, both written and spoken\\n\\n### Author's Take\\nThis is an excellent opportunity for an experienced scheduler eager to make a tangible impact on the energy transition. The role offers significant autonomy within a flat hierarchy, allowing you to contribute innovative ideas to large-scale HVDC projects. You'll benefit from dedicated personal support, ample opportunities for professional development, including further education and international projects, and attractive benefits like a 13th salary and sustainable mobility options. The company truly values team spirit, respect, and sustainability, ensuring a welcoming environment with a structured onboarding process.

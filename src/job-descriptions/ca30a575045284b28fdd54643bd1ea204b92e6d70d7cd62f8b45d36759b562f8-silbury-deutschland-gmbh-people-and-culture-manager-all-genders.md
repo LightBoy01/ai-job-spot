@@ -9,80 +9,49 @@ postedDate: '2025-11-28T18:31:55.000Z'
 expirationDate: null
 tags:
   - HR
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/silbury-deutschland-gmbh/people-culture-manager-all-genders-furth-288563
 companyLogoUrl: null
+companyCulture: >-
+  Silbury fosters a culture of professional and personal growth, emphasizing
+  humanity, open communication, and mutual support. They prioritize a welcoming,
+  appreciative environment with flexible work options, open knowledge exchange,
+  and actively shape their culture through collaborative initiatives like team
+  formats and values work.
+story_question1: >-
+  How can this role directly influence the strategic direction of Silbury, and
+  what are the key challenges in fostering both rapid growth and a strong,
+  human-centric culture?
+story_answer1: >-
+  Being a People & Culture Manager here isn't just about HR tasks; it's about
+  being a true co-creator of Silbury's future. From day one, you'll be
+  partnering directly with the Geschäftsführung, shaping our talent strategy and
+  evolving our work environment. The biggest challenge, and also the most
+  rewarding, is maintaining our vibrant, human-centric culture while we scale.
+  We're growing fast, so balancing that drive for progress with ensuring
+  everyone feels valued, supported, and has ample opportunities to learn and
+  develop is crucial. It's a continuous journey of innovation, feedback, and
+  truly listening to our people to build an inspiring workplace where everyone
+  thrives.
+story_question2: >-
+  Beyond the listed responsibilities, what unique initiatives or cultural
+  elements is Silbury particularly proud of, and how does the People & Culture
+  team contribute to their success?
+story_answer2: >-
+  What truly sets Silbury apart is our commitment to a genuinely open and
+  collaborative atmosphere – it's more than just buzzwords. We're really proud
+  of our regular 'Barcamps' and 'Wertearbeit' sessions, where everyone, from
+  interns to leadership, actively participates in shaping our company values and
+  future direction. The P&C team isn't just facilitating these; we're the
+  architects, designing the frameworks that empower our colleagues to drive
+  these initiatives. It's about fostering a sense of shared ownership and
+  ensuring that our culture evolves organically, truly reflecting the diverse
+  voices within Silbury. We don't just talk about community; we actively build
+  it, and the P&C role is at the heart of that construction.
 ---
-Du bist mehr als HR – du bist Gestalter\*in einer Arbeitswelt, in der Menschen wachsen und Silbury weiterkommt.  
-Als **People & Culture Manager (all genders)** entwickelst du Teams, Kultur und Strukturen. Du arbeitest eng mit der Geschäftsführung zusammen und übernimmst Verantwortung für die Weiterentwicklung unseres People-&-Culture-Bereichs. Du schaffst ein Umfeld, das sowohl Menschlichkeit als auch professionelles Wachstum fördert.
-
-Aufgaben
---------
-
-**Deine zentralen Aufgaben**
-
-**Recruiting & Talent Acquisition – Du bringst die richtigen Menschen ins Unternehmen**
-
-*   End-to-End-Recruiting für technische und nicht-technische Rollen
-*   Aktives Sourcing über LinkedIn, GitHub und relevante Communities
-*   Aufbau moderner Recruiting-Strategien und Talent-Pipelines
-*   Gestaltung eines wertschätzenden, effizienten Interviewprozesses
-*   Stärkung unserer Employer Brand in Zusammenarbeit mit Marketing
-
-**People & Culture – Du entwickelst Menschen, Teams und Organisationen**
-
-*   Vertrauensvoller Sparringspartner:in für Mitarbeitende, Führungskräfte und die Geschäftsführung
-*   Gestaltung des gesamten Employee Lifecycles – von Onboarding bis Offboarding
-*   Konzeption und Umsetzung von Lernformaten, Trainings und Entwicklungswegen
-*   Moderation von Feedback- und Perspektivgesprächen
-*   Gestaltung unserer Kultur, z. B. durch Teamformate, Barcamps oder Wertearbeit
-*   Übernahme von Bereichsverantwortung und Weiterentwicklung des People & Culture Bereichs
-
-**HR-Operations & Prozessgestaltung – Du bringst Struktur und Professionalität ein**
-
-*   Vertragsmanagement und Personaladministration
-*   Abstimmung mit externem Lohnbüro/Steuerkanzlei
-*   Weiterentwicklung unserer HR-Prozesse, Richtlinien und Standards
-*   Unterstützung bei arbeitsrechtlichen Themen und Compliance
-*   Erstellung qualifizierter Arbeitszeugnisse
-
-Qualifikation
--------------
-
-**Fachliche Stärken**
-
-*   Erfahrung im Bereich People und Culture, HR oder Talent Management
-*   Erfolgsnachweise im Recruiting und Active Sourcing
-*   Kaufmännisches Verständnis und Blick für wirtschaftliche Zusammenhänge
-*   Fähigkeit, HR-Prozesse strategisch wie operativ zu gestalten
-*   Kommunikationsstärke auf allen Ebenen
-*   Erfahrung in Organisations-, Kultur- oder Change-Themen von Vorteil
-
-**Persönliche Stärken**
-
-*   Empathie, Souveränität und Begeisterung für Menschen
-*   Strukturierte, proaktive Arbeitsweise
-*   Selbstständigkeit und Verantwortungsbewusstsein
-*   Freude am Austausch mit Mitarbeitenden, Führungskräften und Geschäftsführung
-
-Benefits
---------
-
-*   Ein buntes Büro mit freundlicher Atmosphäre im Herzen von Fürth mit Leuten, die für jeden Spaß zu haben sind.
-*   Ein offener Austausch auf Augenhöhe und eine herzliche Willkommenskultur.
-*   Mit flexiblen Arbeitszeiten kannst du bei uns deinen Arbeitstag an deine persönlichen Belange anpassen.
-*   Offener Wissensaustausch, gegenseitige Unterstützung und Online-Lern-Möglichkeiten helfen dir bei deiner Entwicklung.
-*   Unsere klassischen Benefits gibt es on top mit dazu.
-
-Wenn du Lust hast, People & Culture bei Silbury weiterzuentwickeln, freuen wir uns auf deine Bewerbung (Lebenslauf genügt).
-
-Lass uns gemeinsam eine inspirierende Arbeitswelt gestalten.
-
-Deine persönliche Ansprechpartnerin: Ramona Roth
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAs a People & Culture Manager at Silbury, you are more than just HR – you are a key shaper of a work environment where people can grow and the company thrives. You will develop teams, culture, and structures, working closely with management to drive the evolution of the People & Culture domain. Your mission is to create an environment that fosters both humanity and professional growth.\n\n### Responsibilities\n**Recruiting & Talent Acquisition – Bringing the right people into the company**\n- End-to-end recruiting for technical and non-technical roles.\n- Active sourcing via LinkedIn, GitHub, and relevant communities.\n- Building modern recruiting strategies and talent pipelines.\n- Designing an appreciative, efficient interview process.\n- Strengthening our Employer Brand in collaboration with Marketing.\n\n**People & Culture – Developing people, teams, and organizations**\n- Trusted sparring partner for employees, leaders, and management.\n- Shaping the entire employee lifecycle – from onboarding to offboarding.\n- Conceiving and implementing learning formats, trainings, and development paths.\n- Moderating feedback and perspective discussions.\n- Shaping our culture, e.g., through team formats, barcamps, or values work.\n- Taking area responsibility and developing the People & Culture domain.\n\n**HR Operations & Process Design – Bringing in structure and professionalism**\n- Contract management and personnel administration.\n- Coordination with external payroll office/tax consultancy.\n- Further development of our HR processes, guidelines, and standards.\n- Support with employment law topics and compliance.\n- Creation of qualified employment references.\n\n### Qualifications\n**Professional Strengths**\n- Experience in People & Culture, HR, or Talent Management.\n- Proven track record in recruiting and active sourcing.\n- Business acumen and understanding of economic contexts.\n- Ability to strategically and operationally design HR processes.\n- Strong communication skills at all levels.\n- Experience in organizational, cultural, or change management topics is a plus.\n\n**Personal Strengths**\n- Empathy, composure, and enthusiasm for people.\n- Structured, proactive working style.\n- Independence and sense of responsibility.\n- Enjoyment of exchange with employees, leaders, and management.\n\n### Author's Take\nThis is a pivotal role for an empathetic and strategic People & Culture professional eager to shape a growing company's human-centric environment. Silbury offers a collaborative culture with flexible work, strong growth opportunities through continuous learning, and a chance to directly influence organizational development alongside leadership. Ideal for someone passionate about fostering both individual well-being and collective success.

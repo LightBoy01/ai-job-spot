@@ -10,104 +10,55 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/mable-gmbh/founders-associate-voll-oder-teilzeit-vor-ort-in-karlsruhe-219945
 companyLogoUrl: null
+companyCulture: >-
+  Mable fosters a highly ambitious and fast-paced startup culture centered on
+  intense learning, personal mentoring, and close collaboration with the
+  founding team. The company values individuals who are eager to take on
+  significant responsibility, grow rapidly, and contribute to building something
+  impactful, with a strong emphasis on direct exposure to strategic
+  decision-making and all facets of a tech startup.
+story_question1: >-
+  Given the wide array of responsibilities, from operational support to investor
+  relations, what's the primary challenge in this role, and how does Mable
+  support an Entry-Level hire in effectively navigating such a diverse
+  portfolio?
+story_answer1: >-
+  That's a fantastic question, and it really hits at the heart of what makes
+  this role so unique and rewarding. The biggest challenge, and simultaneously
+  the greatest opportunity, is indeed the sheer breadth of exposure. You're not
+  just shadowing; you're actively contributing across finance, strategy,
+  product, and investor relations from day one. At Mable, we believe the best
+  way to learn is by doing, with direct mentorship. Nils, our CEO, is committed
+  to providing not just guidance but a deep understanding of *why* we do things,
+  empowering you to structure your work and take ownership. It's an environment
+  where curiosity is celebrated, and every question is an opportunity for
+  collective learning. You'll gain a holistic view of a high-growth SaaS startup
+  that would take years to achieve elsewhere, all while being a pivotal support
+  for our strategic initiatives.
+story_question2: >-
+  Mable is at the forefront of AI data optimization for D2C e-commerce. How does
+  this role directly contribute to the company's innovation and impact on client
+  success, especially from an Entry-Level perspective?
+story_answer2: >-
+  Even without prior experience, your contribution here is incredibly tangible.
+  You're positioned right at the intersection of our strategic decisions and
+  daily operations. For example, by supporting our financial modeling and
+  fundraising efforts, you're directly enabling the resources we need to further
+  innovate our AI platform. When you help refine internal communication or
+  prepare investor documents, you're articulating Mable's vision and impact to
+  the very people who fuel our growth. And when you assist in structuring the
+  CEO's tasks, you're freeing him to focus on critical product development and
+  client success initiatives. In essence, you're a force multiplier, ensuring
+  that our pioneering AI solutions can reach more D2C brands and revolutionize
+  their ad profitability faster. It's about empowering the core of Mable to keep
+  innovating and leading the market.
 ---
-Mable hat als **B2B SaaS Startup** die weltweit erste AI Data Optimization Platform für D2C E-Commerce Brands entwickelt. Diese optimiert die Trainingsdaten der AIs von Meta, Google & Co. und steigert damit automatisch die Ad-Profitabilität unserer Kunden.
-
-Unsere Kunden sind die schnellstwachsenden E-Commerce Brands Europas, unsere Partner die führenden Performance-Agenturen und wir kooperieren eng mit Meta & Co. Zudem haben wir mehrere Finanzierungsrunden mit VCs und Angel Investoren abgeschlossen.
-
-Als Gründer & CEO verantworte ich viele operative, fachliche und kommunikative Themen – von Kundenfragen und Produktkonzeption bis zu Financials, Partnerkommunikation und Investor Relations.
-
-**Ich suche eine Person, die mich im Gründer & CEO Alltag begleitet, vollen Einblick in meine Arbeits- und Kommunikationsprozesse erhält und mich Schritt für Schritt entlastet.**
-
-Die Rolle bietet außergewöhnliche Einblicke in den Aufbau eines Tech-Startups: in Finance, Produkt, Entscheidungsprozesse sowie in die Kommunikation mit Kunden, Partnern, Team und Investoren.
-
-Ideal für ambitionierte Studierende oder Berufseinsteiger, die keinen 0815-Job wollen, sondern bereit sind, viel Einsatz zu bringen, um extrem schnell zu lernen und sehr nah mit dem Gründerteam zu arbeiten.
-
-Ich suche eine Person, die mich im GrAlltag begleitet, vollen Einblick in meine Arbeits- und Kommunikationsprozesse erhält und mich Schritt für Schritt entlastet.
-
-Aufgaben
---------
-
-Du arbeitest direkt mit mir zusammen, erhältst Zugang zu meinen Kommunikationskanälen und unterstützt mich dabei, operative und fachliche Aufgaben strukturiert, effizient und vorausschauend zu bewältigen.
-
-**Operative Unterstützung**
-
-*   Strukturierung, Priorisierung und Vororganisation meiner Aufgaben
-*   Begleitung im Arbeitsalltag, Teilnahme an Terminen, Notizen & Follow-ups
-*   Übernahme von Aufgaben und Kommunikation in meinem Namen
-*   Unterstützung bei administrativen und organisatorischen Themen
-*   Unterstützung bei der Erstellung von Content für Marketing und Education
-
-**Financial Reporting, Fundraising & Investor Relations**
-
-*   Direkte Unterstützung bei unserer anstehenden Finanzierungsrunde
-*   Unterstützung bei der Erstellung von Financial Reports und Financial Modeling
-*   Ausarbeitung von Unterlagen für Management, Investoren und Fundraising
-
-**Unternehmerische Aufgaben**
-
-*   Unterstützung bei strategischen Themen, Roadmap-Planung und Priorisierung
-*   Sparring bei Entscheidungsvorbereitungen
-*   Mit zunehmender Erfahrung: schrittweise Übernahme größerer Aufgabenbereiche
-
-Qualifikation
--------------
-
-Du brauchst **keine Berufserfahrung**.
-
-Wirklich entscheidend sind Persönlichkeit, Integrität, Denkfähigkeit, Motivation und Kommunikationsstärke.
-
-Ich suche jemanden, der neugierig und vertrauenswürdig ist, logisch denken kann, Verantwortung annehmen möchte und bereit ist, in kurzer Zeit enorm viel zu lernen.
-
-**Muss-Kriterien**
-
-*   Sehr schnelle Auffassungsgabe & Freude daran, neue Themen zu verstehen
-*   Strukturierte Denkweise mit klaren, kausalen Argumentationsketten
-*   Zuverlässigkeit, Eigenständigkeit und hoher Qualitätsanspruch
-*   Kommunikationsstärke in Schrift und Sprache und ein Auge für Design von Folien etc.
-*   Bereitschaft, vor Ort in Karlsruhe zu arbeiten
-*   Bereitschaft, wenn notwendig auch mal zu unorthodoxen Arbeitszeiten zu arbeiten
-*   Motivation, sich intensiv weiterzuentwickeln und eng mit dem Gründerteam zusammenzuarbeiten
-*   Gute Balance zwischen Perfektionismus und Pragmatismus
-
-**Nice-to-have**
-
-*   Gute Excel- oder Google Sheets-Skills
-*   Erste Erfahrung oder Interesse an Finance/Controlling, KPI-Reporting, Financial Modeling
-*   Grundverständnis von AI, Performance Marketing oder E-Commerce
-*   Erfahrung mit Projektmanagement oder Startup-Strukturen
-
-Benefits
---------
-
-**Was diese Rolle besonders macht**
-
-*   Extrem steile Lernkurve durch tägliches Arbeiten direkt mit dem CEO
-*   Persönliches Mentoring, enge Zusammenarbeit und echte Weiterentwicklung
-*   Einblicke in alle Bereiche eines Tech-Startups: Produkt, Finance, Operations, Growth, Strategie
-*   Direkter Zugang zu tiefen Fachthemen wie Paid Social, Data Analytics & AI
-*   Vertrauen, Verantwortung und sukzessive Übergabe komplexerer Aufgaben
-*   Perfektes Training, um selbst eines Tages zu gründen oder eine Führungsposition in einem Startup zu übernehmen
-
-**Weitere Vorteile**
-
-*   Modernes Büro im Herzen von Karlsruhe
-*   Zugang zu allen Design Offices Coworking-Spaces deutschlandweit
-*   E-Gym Wellpass: Zugang zu fast allen Fitnessstudios in Deutschland
-*   Ein ambitioniertes Team, das gemeinsam etwas Großes aufbaut
-
-Diese Rolle ist ideal für Menschen, die Entrepreneurship nicht aus Büchern lernen, sondern live miterleben wollen. Wenn Du Lust hast, tief in ein Tech-Startup einzutauchen, eng mit dem Gründer zu arbeiten und in kurzer Zeit enorm zu wachsen, freue ich mich auf Deine Bewerbung.
-
-Ich freue mich darauf, Dich kennenzulernen!
-
-— **Nils Jessen, Gründer & CEO von Mable**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nMable is a pioneering B2B SaaS startup that has developed the world's first AI Data Optimization Platform specifically for D2C e-commerce brands. Our platform significantly enhances the training data for AI systems from industry leaders like Meta and Google, thereby automatically boosting our clients' ad profitability. Our rapidly growing customer base includes Europe's fastest-growing e-commerce brands, and we collaborate closely with leading performance agencies and tech giants. Having successfully closed multiple funding rounds with prominent VCs and Angel investors, Mable is poised for significant expansion.\n\nAs the CEO, I manage a wide array of operational, strategic, and communication-related responsibilities, from client inquiries and product conceptualization to financial oversight, partner relations, and investor communications. I am seeking a highly motivated individual to join me in my daily routine as Founder & CEO. This role offers unparalleled insights into my work processes and communication strategies, providing you with the opportunity to gradually take on responsibilities and significantly lighten my load. This is an exceptional chance to gain deep exposure to the inner workings of a tech startup, including finance, product development, strategic decision-making, and communication with all key stakeholders – customers, partners, the team, and investors. This position is ideal for ambitious students or career starters who are looking for more than a conventional job; it's for those ready to commit, learn at an accelerated pace, and work closely alongside the founding team.\n\n### Responsibilities\nWorking directly with the CEO, you will have access to key communication channels and provide crucial support in managing operational and strategic tasks efficiently and proactively.\n\n*   **Operational Support:**\n    *   Structuring, prioritizing, and pre-organizing the CEO's tasks.\n    *   Accompanying the CEO in daily work, attending meetings, taking notes, and managing follow-ups.\n    *   Taking over specific tasks and communications on behalf of the CEO.\n    *   Assisting with administrative and organizational matters.\n    *   Supporting the creation of content for marketing and educational purposes.\n*   **Financial Reporting, Fundraising & Investor Relations:**\n    *   Directly assisting with upcoming funding rounds.\n    *   Supporting the creation of financial reports and financial modeling.\n    *   Developing documents for management, investors, and fundraising activities.\n*   **Entrepreneurial Tasks:**\n    *   Contributing to strategic topics, roadmap planning, and prioritization processes.\n    *   Acting as a sparring partner for decision preparation.\n    *   Gradually taking over larger areas of responsibility as experience grows.\n\n### Qualifications\nNo prior professional experience is required for this role. What truly matters are your personality, integrity, cognitive abilities, motivation, and communication skills. I am looking for someone who is curious, trustworthy, a logical thinker, eager to take on responsibility, and ready to learn an immense amount in a short period.\n\n*   **Must-Have Criteria:**\n    *   Very fast comprehension and genuine enjoyment in understanding new topics.\n    *   Structured thinking with clear, causal argumentation.\n    *   Reliability, self-reliance, and a high standard for quality.\n    *   Strong communication skills, both written and verbal, with an eye for design in presentations.\n    *   Willingness to work on-site in Karlsruhe.\n    *   Preparedness to work unconventional hours when necessary.\n    *   High motivation for intensive personal development and close collaboration with the founding team.\n    *   A good balance between perfectionism and pragmatism.\n*   **Nice-to-Have Skills:**\n    *   Proficiency in Excel or Google Sheets.\n    *   Initial experience or interest in Finance/Controlling, KPI-Reporting, and Financial Modeling.\n    *   Basic understanding of AI, Performance Marketing, or E-Commerce.\n    *   Experience with project management or startup organizational structures.\n\n### Author's Take\nThis is an extraordinary opportunity for an ambitious individual to immerse themselves directly into the heart of a high-growth B2B SaaS startup. Working shoulder-to-shoulder with the CEO, you'll gain an unparalleled \"MBA in real-time,\" experiencing every facet of building a successful tech company from the ground up. The emphasis on direct mentorship, steep learning curves, and significant responsibility offers a unique launchpad for a career in entrepreneurship or startup leadership. If you thrive in dynamic environments, are eager to learn at an accelerated pace, and want to make a tangible impact from day one, Mable provides the perfect platform to achieve your career aspirations and potentially even inspire your own future venture.

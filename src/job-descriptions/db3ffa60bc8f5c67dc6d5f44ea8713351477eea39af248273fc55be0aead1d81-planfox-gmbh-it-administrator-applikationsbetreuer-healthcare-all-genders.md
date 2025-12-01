@@ -9,55 +9,64 @@ postedDate: '2025-11-27T15:32:02.000Z'
 expirationDate: null
 tags:
   - Project Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/planfox-gmbh/it-administrator-applikationsbetreuer-healthcare-all-genders-augsburg-441108
 companyLogoUrl: null
+companyCulture: >-
+  PLANFOX fosters an open, appreciative startup culture with flat hierarchies,
+  valuing teamwork and collaboration. They offer flexible work arrangements,
+  including remote options, to support work-life balance, and provide
+  opportunities for significant impact and personal growth in a meaningful
+  field.
+story_question1: >-
+  Considering the critical nature of healthcare IT, what's the most challenging
+  aspect of integrating the PLANFOX Patient Portal into diverse hospital
+  systems, and how does the team ensure security and stability during this
+  process?
+story_answer1: >-
+  The challenge lies in the sheer diversity of existing hospital IT landscapes –
+  each has its own quirks, legacy systems, and strict security protocols. But
+  that's also where the thrill is! We don't just 'install' software; we become
+  trusted partners, meticulously mapping out integrations, ensuring every HL7v2
+  and FHIR interface speaks perfectly, and fortifying network connections. It's
+  incredibly rewarding because every successful integration means healthcare
+  professionals have more time for patients, and patients themselves get better,
+  more streamlined access to their health data. The team's collaborative spirit
+  is key here; we tackle these complex puzzles together, always sharing
+  knowledge and celebrating each milestone, knowing we're making a real
+  difference.
+story_question2: >-
+  Given PLANFOX is a growing startup in a remote-friendly environment, how does
+  the company foster a sense of connection and ensure effective collaboration
+  among team members who might not always be in the same physical location?
+story_answer2: >-
+  It's a great question, especially for a distributed team like ours. We're very
+  intentional about building connections. Beyond regular stand-ups and project
+  syncs, we prioritize virtual team events, informal coffee chats, and even
+  dedicated "innovation sprints" where we all come together, whether virtually
+  or in person, to brainstorm and build. We've cultivated a culture of proactive
+  communication – people feel empowered to reach out, share ideas, and ask for
+  help. The flat hierarchies really shine here; you always feel heard, and ideas
+  are valued regardless of where they come from. It truly feels like a
+  supportive 'startup family,' even if we're spread across different locations.
+story_question3: >-
+  The job description mentions a 'personal Weiterbildungsbudget'. How does
+  PLANFOX support continuous learning and professional development, especially
+  in such a rapidly evolving field as digital health?
+story_answer3: >-
+  Oh, that's something we're incredibly proud of! The personal training budget
+  isn't just a line item; it's a real investment in our team. Whether it's a
+  specialized certification in a new networking technology, a conference on the
+  latest FHIR standards, or even a course in project management, we actively
+  encourage everyone to pursue what helps them grow. We also have internal
+  knowledge-sharing sessions, where colleagues present on new tools or best
+  practices they've discovered. It's a dynamic field, and PLANFOX thrives on
+  keeping our expertise sharp. We believe that when our team grows, our mission
+  to transform healthcare grows with it.
 ---
-WERDE TEIL UNSERER MISSION
---------------------------
-
-Bei PLANFOX gestalten wir die digitale Zukunft des Gesundheitswesens. Wir entwickeln smarte und vernetzte Softwarelösungen, die Prozesse vereinfachen, Informationsqualität verbessern und mehr Zeit für das Wesentliche schaffen – die Menschen. Entstanden aus einer Forschungskooperation der Universität Augsburg und mit Wurzeln in der XITASO Unternehmensgruppe verbinden wir wissenschaftliche Expertise mit technologischem Know-how und Leidenschaft für digitale Gesundheit.
-
-DIESE AUFGABEN ERWARTEN DICH
-----------------------------
-
-*   Du übernimmst gemeinsam mit dem Team die Verantwortung für die **technische Integration** unserer Cloud-Lösung - des PLANFOX Patientenportals - in die bestehende IT- und Systemlandschaft unserer Krankenhauskunden
-*   Dabei sorgst du für eine **stabile und sichere netzwerktechnische Verbindung** zwischen der PLANFOX-Cloud und den Krankenhausnetzwerken – unter Berücksichtigung aktueller Standards und Sicherheitsanforderungen
-*   Du **konfigurierst die notwendigen Schnittstellen (vorwiegend HL7v2 und FHIR) des Patientenportals** und stellst so einen zuverlässigen, standardkonformen Datenaustausch mit den kundenseitigen Systemen sicher
-*   **Du berätst die internen Stakeholde**r in Fragestellungen zu Infrastruktur und Architektur von IT-Systemlandschaften im Krankenhaus
-*   Du agierst als **technischer Ansprechpartner für die Konfiguration und Architektur** des Patientenportals
-
-DAS ZEICHNET DICH AUS
----------------------
-
-*   Unabhängig davon, ob du eine Ausbildung oder ein Studium abgeschlossen hast: **deine Praxiserfahrung in der Informatik oder Netzwerktechnik zählt für uns am Meisten**
-*   Du verfügst über Kenntnisse hinsichtlich **medizinischen Kommunikationsstandards (mit Fokus auf HL7v2 und HL7 FHIR)** und verfügst über praktische Erfahrung im Krankenhaus- oder Healthcare-IT-Umfeld
-*   **Netzwerktechnologien (HTTPS, TLS, TCP/IP, IPSec) sind dir vertraut** und erlauben Dir, unsere Cloud-Lösung in die Krankenhaus IT-Netzwerke zu integrieren
-*   Du hast Lust, deine Expertise und dein Engagement in **ein wachsendes Startup einzubringen** und hast Freude daran, die nächsten Entwicklungsschritte von PLANFOX aktiv mitzugestalten
-*   Du denkst **analytisch** und bringst Dein **Organisationstalent** gerne in Kundenprojekten ein
-*   Du **trittst professionell bei Kunden** und Partnern auf
-*   Deine Sprachkenntnisse machen es dir möglich, eine reibungsfreie Kommunikation mit unseren überwiegend **deutschsprachigen Kunden** sicherzustellen
-*   Du fühlst dich in einer **remote organisierten Arbeitsumgebung** wohl und arbeitest eigenverantwortlich sowie zuverlässig
-
-DAS BIETEN WIR
---------------
-
-*   **Gestaltungsspielraum und Verantwortung**, um die Weiterentwicklung von PLANFOX entscheidend mitzuprägen
-*   **Ein motiviertes und herzliches Team**, das dich unterstützt und gemeinsam mit dir wächst
-*   **Flexible Arbeitsgestaltung**, die dir Freiraum für eine gute Balance zwischen Beruf und Privatleben lässt
-*   Eine **offene, wertschätzende Start-up-Kultur** mit flachen Hierarchien und schnellen Entscheidungswegen
-*   Eine **sinnstiftende Aufgabe** mit spürbarem Impact, bei der du die Digitalisierung des Gesundheitssystems aktiv mitgestaltest
-*   **30 Urlaubstage, ein persönliches Weiterbildungsbudget** und zusätzliche Benefits, die dir Raum für Wachstum und Erholung geben
-*   Diese Stelle ist entweder **100%** **Remote**, oder in einem **Hybrid-Modell an unserem Standort in Augsburg** zu besetzen
-
-DEINE ANSPRECHPARTNERIN
------------------------
-
-**Julia Ondra**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nJoin Our Mission! At PLANFOX, we are shaping the digital future of healthcare. We develop smart and connected software solutions that simplify processes, improve information quality, and create more time for what matters most – people. Born from a research cooperation with the University of Augsburg and rooted in the XITASO Group, we combine scientific expertise with technological know-how and a passion for digital health.\n\n### Responsibilities\n* Together with the team, you will take responsibility for the **technical integration** of our cloud solution – the PLANFOX Patient Portal – into the existing IT and system landscapes of our hospital clients.\n* You will ensure a **stable and secure network connection** between the PLANFOX cloud and hospital networks, adhering to current standards and security requirements.\n* You will **configure the necessary interfaces (primarily HL7v2 and FHIR) of the Patient Portal**, ensuring reliable, standard-compliant data exchange with client-side systems.\n* You will **advise internal stakeholders** on questions regarding the infrastructure and architecture of IT system landscapes in hospitals.\n* You will act as the **technical point of contact for the configuration and architecture** of the Patient Portal.\n\n### Qualifications\n* Regardless of whether you have completed an apprenticeship or a degree: **your practical experience in IT or network technology counts most for us**.\n* You possess knowledge of **medical communication standards (with a focus on HL7v2 and HL7 FHIR)** and have practical experience in a hospital or healthcare IT environment.\n* **Network technologies (HTTPS, TLS, TCP/IP, IPSec) are familiar to you**, enabling you to integrate our cloud solution into hospital IT networks.\n* You are eager to contribute your expertise and commitment to **a growing startup** and enjoy actively shaping the next development steps of PLANFOX.\n* You think **analytically** and are happy to apply your **organizational talent** in customer projects.\n* You **present yourself professionally to customers** and partners.\n* Your language skills enable smooth communication with our predominantly **German-speaking customers**.\n* You feel comfortable in a **remotely organized work environment** and work independently and reliably.\n\n### Author's Take\nThis is an exceptional opportunity to join a dynamic and mission-driven startup at the forefront of digital healthcare transformation. PLANFOX offers a collaborative and supportive culture, evident in their motivated team and flat hierarchies. They prioritize work-life balance with flexible working arrangements and remote/hybrid options, alongside generous benefits like 30 vacation days and a personal development budget. If you're passionate about making a tangible impact in healthcare IT and thrive in an environment that values expertise, growth, and autonomy, this role provides significant scope to shape the future of patient care.

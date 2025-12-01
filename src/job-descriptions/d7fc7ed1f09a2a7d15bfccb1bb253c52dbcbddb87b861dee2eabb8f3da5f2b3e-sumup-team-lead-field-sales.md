@@ -8,116 +8,57 @@ applicationLink: >-
 postedDate: '2025-11-27T21:45:13.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/sumup/team-lead-field-sales-lowen-297217
 companyLogoUrl: null
+companyCulture: >-
+  SumUp fosters a growth-oriented culture centered on empowering small
+  businesses, offering significant autonomy and investing in employee
+  development. With flexible remote work, sabbaticals, and a range of benefits
+  from learning budgets to childcare support, the company actively promotes
+  work-life balance and a collaborative community spirit.
+story_question1: >-
+  Given this role's dual focus on leading a network of self-employed consultants
+  and actively shaping the German market strategy, what's the most significant
+  challenge in ensuring alignment between the field and HQ, and how does SumUp
+  support its leaders in overcoming it?
+story_answer1: >-
+  That's a sharp question, and it gets right to the heart of what makes this
+  role so impactful. The biggest challenge, and also the most rewarding, is
+  indeed maintaining that seamless flow between our agile field teams and the
+  strategic vision at HQ. We operate at an incredible pace, and our
+  self-employed consultants are entrepreneurs themselves – they need to feel
+  empowered, not micromanaged. We tackle this by fostering open communication
+  channels, regular feedback loops, and ensuring our Team Leads are genuinely
+  integrated into strategic discussions. We provide robust analytical tools to
+  help you translate raw market data into actionable insights for HQ, and
+  vice-versa, ensuring HQ's initiatives resonate on the ground. It's about
+  building trust and demonstrating that every voice from the field directly
+  contributes to SumUp's overall success in Germany. You're not just executing;
+  you're co-creating our future here.
+story_question2: >-
+  The job description highlights a unique aspect: managing 20-30 self-employed
+  Field Sales Consultants. What's the secret to successfully motivating and
+  scaling such a distributed, freelance-based sales force, and what kind of
+  support can a Team Lead expect to ensure their team's long-term success?
+story_answer2: >-
+  Managing a network of self-employed consultants is definitely unique, and it's
+  where the 'lead' in Team Lead really shines. The 'secret,' if there is one,
+  lies in nurturing a strong sense of partnership and entrepreneurship within
+  your team. These aren't just salespeople; they're independent business owners
+  choosing to partner with SumUp. Our success comes from providing them with
+  unparalleled products, continuous training, and robust support infrastructure,
+  ensuring they see SumUp as a powerful growth engine for their own ventures. As
+  a Team Lead, you'll be equipped with a substantial L&D budget, access to
+  performance analytics, and a direct line to sales leadership to troubleshoot
+  and innovate. We invest heavily in professional development, not just for our
+  direct employees, but also in the tools and training you'll use to uplift your
+  consultants. You'll be supported to create a vibrant, high-performing
+  community where mutual success is the driving force.
 ---
-🚀 Team Lead – Field Sales (Germany)
-------------------------------------
-
-📍 Location: Remote in Germany   
-🕹️ Department: Field Sales  
-💼 Employment Type: Permanent contract - Full-time
-
-### Empowering Small Businesses, One Sale at a Time
-
-At SumUp, we're building a world where small businesses can thrive.  
-As a global fintech leader operating in 30+ countries, we provide over 4 million merchants with simple, affordable, and innovative payment solutions — from card readers and POS systems to business accounts and online stores.
-
-To strengthen our footprint across Germany, we're looking for a Territory Manager who will lead, grow, and inspire our network of **self-employed Field Sales Consultants (FSCs)** — helping small merchants adopt SumUp's products and succeed in their business journey.
-
-### Your Mission
-
-You'll be the strategic link between our freelancers in the field and SumUp's sales leadership — ensuring our consultants are motivated, high-performing, and delivering real impact.
-
-Your key responsibilities:
-
-*   Lead and grow our national sales network: Recruit, manage, and support **20–30 self-employed Field Sales Consultants across Germany.**
-    
-*   Drive hands-on sales success: Actively sell SumUp's POS and payment products to local businesses, gaining direct market insights.
-    
-*   Coach and enable your team: Provide continuous training, performance reviews, and on-the-ground support to help FSCs hit targets.
-    
-*   Analyse and optimise performance: Monitor KPIs, analyse sales data, and design initiatives to increase acquisition and retention.
-    
-*   Shape the German strategy: Work closely with HQ to share local insights, design market initiatives, and scale our presence nationwide.
-    
-
-### We're Looking For Someone Who
-
-*   Has proven experience in field sales, ideally in fintech, POS, merchant services, or telecom.
-    
-*   **Has managed 10+ freelancers, consultants, or commission-based sales teams** across different regions.
-    
-*   Is an entrepreneurial, hands-on leader who thrives on ownership and impact.
-    
-*   Understands the needs of small business owners and how to build long-term customer relationships.
-    
-*   Brings strong analytical skills and confidence working with Salesforce, Tableau, or other CRM tools.
-    
-*   Is fluent in German and English.
-    
-
-### What We Offer
-
-We believe in rewarding results, empowering autonomy, and investing in your growth.
-
-Competitive Compensation & Benefits
-
-*   Competitive base salary + uncapped commissions
-    
-*   VSOP (Virtual Stock Option Plan): equivalent to ~2 months of annual fixed salary per year
-    
-*   Car allowance (or company car if based in Berlin)
-    
-*   30-day sabbatical after 3 years' tenure
-    
-*   Learning & Development budget: €2,000/year
-    
-
-Work Flexibility
-
-*   Fully remote role anywhere in Germany
-    
-*   Preferably based in Cologne or Berlin (offices available)
-    
-*   Regular travel across Germany (70–80% field-based)
-    
-
-Employee Benefits
-
-*   SumUp Corporate Pension Scheme: 20% match to employee contributions (up to Social Security cap)
-    
-*   Corporate Benefits platform: access to 1,500+ brands with up to 60% discounts
-    
-*   Futureben: 10–30% discount on sustainable goods
-    
-*   Mobility options: BVG ticket, Navit app, or bike leasing
-    
-*   Urban Sports Club membership (subsidised) + in-office gym
-    
-*   Team sports: Beach volleyball, football, bouldering, and running teams
-    
-*   In-office perks: Free Monday breakfast, subsidised lunches (Tues–Thurs, €5), snacks, drinks, and social events
-    
-*   Childcare support (Kita cooperation)
-    
-
-### Why Join SumUp?
-
-This isn't just a sales role — it's a chance to shape and scale SumUp's field presence across Germany. You'll work with autonomy, lead passionate entrepreneurs, and contribute directly to helping small businesses succeed.
-
-If you're a natural leader with strong field experience and a passion for growing people and performance — we'd love to meet you.
-
-👉 Apply now and help us take SumUp's German Field Sales to the next level.
-
-**Job Application Tip**
-
-We recognise that candidates feel they need to meet 100% of the job criteria in order to apply for a job. Please note that this is only a guide. If you don't tick every box, it's ok too because it means you have room to learn and develop your career at SumUp.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nSumUp is a global fintech leader, empowering over 4 million small businesses in 30+ countries with innovative payment solutions, from card readers to online stores. We are seeking a Territory Manager, also known as a Team Lead for Field Sales in Germany, to strengthen our national presence. This pivotal role involves leading, growing, and inspiring a network of 20-30 self-employed Field Sales Consultants (FSCs) across Germany. You will serve as the strategic link between our field freelancers and SumUp's sales leadership, ensuring high performance and significant impact by helping small merchants successfully adopt SumUp's products.\n\n### Responsibilities\n- Lead and grow our national sales network: Recruit, manage, and support 20–30 self-employed Field Sales Consultants across Germany.\n- Drive hands-on sales success: Actively sell SumUp's POS and payment products to local businesses, gaining direct market insights.\n- Coach and enable your team: Provide continuous training, performance reviews, and on-the-ground support to help FSCs hit targets.\n- Analyse and optimise performance: Monitor KPIs, analyse sales data, and design initiatives to increase acquisition and retention.\n- Shape the German strategy: Work closely with HQ to share local insights, design market initiatives, and scale our presence nationwide.\n\n### Qualifications\n- Proven experience in field sales, ideally in fintech, POS, merchant services, or telecom.\n- Managed 10+ freelancers, consultants, or commission-based sales teams across different regions.\n- An entrepreneurial, hands-on leader who thrives on ownership and impact.\n- Understands the needs of small business owners and how to build long-term customer relationships.\n- Strong analytical skills and confidence working with Salesforce, Tableau, or other CRM tools.\n- Fluent in German and English.\n\n### Author's Take\nThis is an exceptional opportunity for an experienced and entrepreneurial sales leader to significantly influence SumUp's expansion in Germany. As a Team Lead for Field Sales, you'll not only manage a substantial network of self-employed consultants but also directly contribute to and shape the national sales strategy. SumUp offers a vibrant, growth-focused environment with considerable autonomy, fostering both personal and professional development through a generous L&D budget and comprehensive benefits. The role's emphasis on empowering small businesses, coupled with a flexible, remote-first approach and a strong suite of perks, makes it particularly appealing for a leader passionate about impact, people development, and a dynamic work culture.

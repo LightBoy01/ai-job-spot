@@ -10,62 +10,47 @@ expirationDate: null
 tags:
   - Remote
   - Project Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/miro-personalvermittlung/senior-e-commerce-projektleitung-all-genders-retail-munich-4446
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative and informal environment with a strong
+  emphasis on work-life balance through flexible work models and family support.
+  It encourages individual autonomy and professional growth through a supportive
+  onboarding program and direct access to decision-makers.
+story_question1: >-
+  What are the biggest challenges in balancing the needs of diverse retail
+  clients with internal development timelines, and how does this role contribute
+  to overcoming them?
+story_answer1: >-
+  That's a fantastic question, and it really hits at the heart of what makes
+  this role so dynamic. Balancing the distinct needs of our varied retail
+  clients against our internal development roadmap is a constant, exhilarating
+  challenge. You're not just managing a project here; you're the bridge, the
+  translator, ensuring that every client's unique vision in e-commerce
+  translates into a tangible, successful solution. Your impact isn't just about
+  delivering on time and budget; it's about shaping strategic outcomes,
+  fostering deep client relationships, and directly seeing the fruits of your
+  labor influence market success. It's a place where your strategic input truly
+  moves the needle.
+story_question2: >-
+  How does the company's 'Duz-Kultur' and emphasis on individual responsibility
+  translate into practical opportunities for a project lead to innovate and
+  influence strategic decisions?
+story_answer2: >-
+  It's truly invigorating! The 'Duz-Kultur' isn't just a casual address; it's a
+  tangible reflection of our flat hierarchy and open communication. As a project
+  lead, you're empowered with significant decision-making leeway and direct
+  access to our leadership, even up to the board. This means your ideas, your
+  strategic insights, and your leadership in projects aren't just heard, they're
+  actively sought out and can directly shape our company's direction. We believe
+  true innovation thrives when everyone feels a sense of ownership and and can
+  contribute beyond their immediate tasks. It’s about being part of a small,
+  specialized team where your voice genuinely counts.
 ---
-*   IT-Projektleiter-Stellen gibt es viele!
-*   Sie suchen etwas besonderes?
-*   In der Retail-Branche sind Sie zu Hause?
-*   Eine Vakanz bei einem tollen Unternehmen, die man nicht an jeder Ecke  
-    findet?
-*   Perfekt!
-
-Aufgaben
---------
-
-In dieser Rolle als Senior e-commerce Projektleitung arbeiten Sie eng mit der Bereichsleitung e-commerce zusammen und übernehmen eine zentrale Rolle in der  
-Projektsteuerung von Softwareentwicklungsprojekten – von der frühen  
-Konzeptionsphase bis zur erfolgreichen fachlichen Umsetzung für verschiedene Kunden aus der Retailbranche.
-
-Mit Ihrem umfassenden know-how im e-commerce sowie Ihrer Erfahrung in der Kundenkommunikation und der fachlichen Zusammenarbeit übernehmen Sie eine führende Rolle und leisten einen entscheidenden Beitrag zum Erfolg der e-commerce-Einheit.
-
-Neben der Leitung von Projektteams übernehmen Sie auch die Verhandlungen auf Kundenseite und die Übernahme der Aufwandskalkulation um anschließend die Termin- und Budgetpläne einzuhalten.
-
-Qualifikation
--------------
-
-*   Mehrjährige Erfahrung in der Projektleitung sowie im Projektmangement
-*   Mehrjährige Tätigkeit in einem IT-Dienstleistungsunternehmen
-*   Erfahrung in der fachlichen Führung von Teams
-*   Sicheres Auftreten und stark in der Umsetzung von gängigen Projektmanagementmethoden
-*   Ausgeprägte Kommunikationsfähigkeit, sicheres Auftreten und hohe Durchsetzungsstärke
-*   Reisebereitschaft von ca. 30%
-
-Benefits
---------
-
-Besonders wichtig für den Unternehmenserfolg ist das gemeinsame Miteinander.
-
-Es besteht eine Duz-Kultur vom Vorstand bis zum Praktikanten.
-
-Und ein weiterer wichtiger Punkt ist das TOP Onboarding-Programm. Sie werden definitiv nicht alleine gelassen sondern erhalten von Beginn an das Gefühl dazu zugehören.
-
-Außerdem:
-
-*   **Verantwortung und Freiraum:** Arbeiten Sie eigenverantwortlich mit hohem Entscheidungsspielraum
-*   **Flexibles Arbeitsumfeld:** Hybrid-Modell (Office/HO) deutschlandweit oder beim Kunden vor Ort – die Mischung macht's
-*   **Raum für Familie:** Es werden Rahmenbedingungen geschaffen, die es ermöglichen, Berufsalltag und Familienleben in Einklang zu bringen.
-*   **Effiziente Strukturen:** Arbeiten Sie in einem kleinen, spezialisierten Team mit direktem Zugang zu Entscheidungsträgern
-*   **Modernes Arbeiten:** Profitieren Sie von der Infrastruktur eines führenden IT-Dienstleisters mit exzellentem technologischem Setup
-
-Werden Sie Teil eines professionellen Teams.
-
-**Jetzt bewerben!**
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nThis is a unique opportunity for an experienced e-commerce professional! Are you looking for a special role in the retail industry with a fantastic company? Perfect! As a Senior e-commerce Project Lead, you will work closely with the Head of e-commerce, taking on a central role in managing software development projects. This covers the entire lifecycle, from the early conceptual phase to successful technical implementation for various clients within the retail sector. Your comprehensive e-commerce expertise and experience in client communication and technical collaboration will be crucial in a leading position, making a significant contribution to the success of our e-commerce unit.\n\n### Responsibilities\n- Lead the project steering of software development projects from conception to successful implementation.\n- Work closely with the Head of e-commerce and various retail clients.\n- Leverage extensive e-commerce knowledge and experience in client communication and technical collaboration.\n- Lead project teams.\n- Conduct negotiations with clients.\n- Undertake effort estimations and ensure adherence to timelines and budgets.\n\n### Qualifications\n- Several years of experience in project leadership and project management.\n- Several years of experience working in an IT service company.\n- Experience in the technical leadership of teams.\n- Confident demeanor and strong in implementing common project management methods.\n- Excellent communication skills, confident appearance, and high assertiveness.\n- Willingness to travel approximately 30%.\n\n### Author's Take\nThis company places a high value on collaboration and a supportive environment, reflected in their informal \"Duz-Kultur\" from top to bottom and an exceptional onboarding program that ensures you feel integrated from day one. Employees benefit from significant responsibility and autonomy, flexible hybrid working models (office/home office, nationwide or on-site with clients), and strong support for work-life balance, including family-friendly conditions. You'll join a small, specialized team with efficient structures, direct access to decision-makers, and a modern technical setup provided by a leading IT service provider. This is an ideal role for someone seeking impact, flexibility, and a truly collaborative culture.

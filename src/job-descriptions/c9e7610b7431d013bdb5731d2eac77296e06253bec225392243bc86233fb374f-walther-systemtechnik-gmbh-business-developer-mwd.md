@@ -9,58 +9,51 @@ postedDate: '2025-11-28T10:01:48.000Z'
 expirationDate: null
 tags:
   - Business Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/walther-systemtechnik-gmbh/business-developer-germersheim-425189
 companyLogoUrl: null
+companyCulture: >-
+  Walther Systemtechnik fosters a dynamic, growth-oriented culture built on
+  quality, innovation, and global collaboration. It emphasizes teamwork, open
+  communication, and provides significant room for employees to contribute ideas
+  and actively shape the company's future, supported by comprehensive
+  onboarding.
+story_question1: >-
+  How does a Business Developer truly influence strategic direction and
+  contribute to tangible company growth, beyond just identifying opportunities?
+story_answer1: >-
+  Being a Business Developer here isn't just about finding leads; it's about
+  being an architect of our future. I remember when I first joined, I was tasked
+  with exploring new applications outside our traditional automotive sector. It
+  felt like a blank canvas. By diving deep into the medical technology space,
+  analyzing customer needs, and building strategic partnerships, I didn't just
+  open doors – I helped us craft entirely new product offerings. The company
+  truly empowers you to act on your insights, providing the resources and
+  freedom to turn a market trend into a profitable new business line. It’s
+  incredibly rewarding to see your strategic thinking directly translate into
+  new revenue streams and to know you’re shaping where Walther Systemtechnik is
+  headed.
+story_question2: >-
+  Given the focus on 'new markets' and 'innovation,' what mechanisms are in
+  place to ensure these ambitious initiatives are supported effectively across
+  departments, and how does the team integrate new insights into existing
+  processes?
+story_answer2: >-
+  That's a fantastic question, and it gets to the heart of how we operate. We’re
+  not a company where ideas get lost in silos. When I bring a promising new
+  market insight or application to the table, it immediately triggers
+  cross-functional discussions. Our flat hierarchies mean I can directly engage
+  with engineering, product development, and even senior management. We have
+  regular 'Innovation Sprints' where we collaboratively vet ideas, prototype
+  solutions, and strategize market entry. The goal is always to integrate these
+  'new worlds' into our existing framework seamlessly. My role in structuring
+  insights into a central knowledge platform also ensures that everyone has
+  access to the latest market intelligence, fostering a collective, informed
+  approach to our growth.
 ---
-Willkommen bei **Walther Systemtechnik GmbH** – einem führenden Unternehmen mit über 30 Jahren Erfahrung in der Entwicklung von wegweisenden Lösungen im Bereich **Dosieren und Auftragen** von flüssigen und pastösen Medien. In unserer dynamischen und wachstumsorientierten Unternehmenskultur spielen engagierte Mitarbeiterinnen und Mitarbeiter eine entscheidende Rolle.
-
-Als stolzes Mitglied der **HAHN Automation Group** und damit Teil der renommierten **RAG-Stiftung** teilen wir die Vision dieser internationalen Unternehmensgruppen. Wie  
-die HAHN Automation Group sind wir darauf ausgerichtet, durch innovative  
-Technologien die Industrie zu gestalten und die Zukunft aktiv mitzugestalten.
-
-Mit unseren Mitarbeitenden entwickeln und produzieren wir weltweit maßgeschneiderte Lösungen für verschiedene Industriezweige. Um unsere Erfolgsgeschichte fortzusetzen, suchen wir motivierte und qualifizierte Talente, die gemeinsam mit uns die Zukunft der Dosiertechnologie gestalten möchten.
-
-**Zur Verstärkung unseres Teams im Bereich Vertrieb suchen wir Dich – einen ambitionierten und dynamischen Business Developer (m/w/d), der Lust hat, unsere Geschäftsfelder auszubauen und neue Märkte zu erobern.** In dieser Rolle gestaltest Du aktiv die strategische Weiterentwicklung unseres Unternehmens und trägst gemeinsam mit unserem Vertriebsteam entscheidend zur Wirtschaftlichkeit und zum Wachstum bei.
-
-Werde Teil einer Unternehmenskultur, die auf Qualität, Innovation und globaler Zusammenarbeit basiert. **Deine Expertise und dein Engagement sind der Schlüssel, um unsere Mission weiter voranzubringen** – bei Walther Systemtechnik, wo Ihre Ideen zählen und Ihre Karriere wächst.
-
-Aufgaben
---------
-
-*   **Technisches Verständnis:** Du tauchst in die Welt unserer Dosierlösungen & Services ein und wirst zum Ideengeber für zukünftige Innovationen und Geschäftsmodelle.
-*   **Markt- und Wettbewerbsanalysen:** Du erkennst Trends, analysierst Kundenbedarfe und behältst den Wettbewerb stets im Blick.
-*   **Neue Branchen entdecken:** Du identifizierst spannende Anwendungen jenseits des Automobilsektors – z. B. in der Medizintechnik – und öffnest Türen zu neuen Märkten.
-*   **Netzwerkaufbau:** Du bist unser Gesicht auf Konferenzen, Tagungen und Branchenevents und knüpfst wertvolle Kontakte zu potenziellen Kunden und Partnern.
-*   **Teamwork:** Gemeinsam mit unserem jungen Vertriebsteam agierst Du als Wingman und Türöffner für neue Kunden und Absatzmärkte.
-*   **Wissensdatenbank:** Du wirst zum Branchenexperten und strukturierst Deine Erkenntnisse in einer zentralen Wissensplattform.
-
-Qualifikation
--------------
-
-*   **Technik begeistert** Dich – Du hast ein abgeschlossenes technisches Studium oder eine Ausbildung mit Weiterbildung zum Techniker.
-*   **Kommunikation** ist Deine Stärke, Networking Deine Leidenschaft.
-*   Du bist ein echter **Teamplayer** mit Organisationstalent.
-*   Strategisches Denken und eine **methodische Arbeitsweise** zeichnen Dich aus.
-*   Selbstbewusstes Auftreten und **Präsentationsgeschick** gehören zu Deinem Repertoire.
-*   **Hands-on-Mentalität** ist für Dich selbstverständlich – und Du hast Lust, die Zukunft der Walther Systemtechnik GmbH aktiv mitzugestalten.
-
-Benefits
---------
-
-Eine **angemessene** und **leistungsorientierte Vergütung**
-
-*   Ein **engagiertes Team** mit flachen Hierarchien
-*   Enge **Zusammenarbeit** mit **allen Abteilungen** im Rahmen einer **offenen** und **persönlichen Kommunikationskultur**
-*   Überdurchschnittlichen Spielraum für eigene Ideen und **aktive Mitgestaltung**
-*   Ein **umfangreiches Einarbeitungsprogramm**, um dich bestmöglich auf deine neue Herausforderung vorzubereiten
-*   Eine Vielzahl an **Zusatzleistungen** und **Mitarbeiterangeboten** z. B. Corporate Benefits, Bike-Leasing, Edenred-Card, Firmenevents, etc.
-
-**Wir freuen uns auf deine Bewerbung, gerne unter Angabe deiner Verfügbarkeit und Gehaltsvorstellung.**
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nWalther Systemtechnik GmbH, a proud member of the HAHN Automation Group and RAG-Stiftung, is a leading company with over 30 years of experience in developing innovative solutions for dosing and applying liquid and pasty media globally. We are looking for an ambitious and dynamic Business Developer (m/w/d) to strengthen our sales team. In this pivotal role, you will actively shape the strategic development of our company, expand our business fields, conquer new markets, and significantly contribute to our profitability and growth alongside our sales team. Our culture thrives on quality, innovation, and global collaboration, where your expertise and engagement are key to advancing our mission.\n\n### Responsibilities\n- **Technical Understanding:** Dive into our dosing solutions & services, becoming an idea generator for future innovations and business models.\n- **Market and Competitor Analyses:** Identify trends, analyze customer needs, and consistently monitor the competition.\n- **Discover New Industries:** Identify exciting applications beyond the automotive sector (e.g., in medical technology) and open doors to new markets.\n- **Network Building:** Represent the company at conferences, meetings, and industry events, forging valuable contacts with potential customers and partners.\n- **Teamwork:** Collaborate closely with our young sales team, acting as a wingman and door-opener for new customers and sales markets.\n- **Knowledge Database:** Become an industry expert by structuring your insights within a central knowledge platform.\n\n### Qualifications\n- **Technical Background:** You are passionate about technology and hold a completed technical degree or a technical apprenticeship with further qualification as a technician.\n- **Communication & Networking:** Communication is your strength, and networking is your passion.\n- **Team Player:** You are a genuine team player with strong organizational talent.\n- **Strategic & Methodical:** Strategic thinking and a methodical approach characterize your work.\n- **Presentation Skills:** Confident demeanor and presentation flair are part of your repertoire.\n- **Hands-on Mentality:** A hands-on mentality is self-evident for you, and you are eager to actively shape the future of Walther Systemtechnik GmbH.\n\n### Author's Take\nThis role at Walther Systemtechnik GmbH offers an exciting opportunity for a proactive Business Developer to significantly impact the company's strategic growth. With a clear mandate to explore new markets and innovate, coupled with a supportive, collaborative, and innovation-driven culture, this position is ideal for someone passionate about shaping the future of industrial technology. The company values individual contribution and provides ample room for professional development and active involvement in decision-making, offering an engaging environment within the broader HAHN Automation Group.

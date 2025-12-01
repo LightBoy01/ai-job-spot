@@ -10,55 +10,66 @@ expirationDate: null
 tags:
   - Remote
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
+salaryRange: '€73,000 - €83,000 per year'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/univativ-gmbh/data-analyst-power-bi-stuttgart-169674
 companyLogoUrl: null
+companyCulture: >-
+  The company strongly emphasizes career development and continuous learning,
+  offering extensive training, mentorship, and opportunities for professional
+  growth. It fosters a collaborative and innovative environment with significant
+  flexibility, including 100% remote work, promoting work-life balance.
+story_question1: >-
+  Given the company's commitment to data-driven decision-making, what is the
+  most significant challenge a Data Analyst faces in translating complex data
+  insights into actionable strategies for the energy sector?
+story_answer1: >-
+  That's a fantastic question and truly at the heart of what makes this role
+  exciting. One of the biggest challenges, and also our greatest opportunity, is
+  bridging the gap between raw data and strategic impact. We work in the dynamic
+  energy sector, which means dealing with vast, often complex datasets. An
+  analyst's role isn't just about building dashboards; it's about telling a
+  compelling data story that empowers our business units to make informed
+  decisions quickly. For example, recently, an analyst's insight into energy
+  consumption patterns helped us optimize resource allocation, leading to
+  significant efficiency gains. It's incredibly rewarding to see your work
+  directly influence the future of energy, and our collaborative,
+  learning-focused culture means you're always supported in finding innovative
+  ways to tackle these challenges.
+story_question2: >-
+  With the emphasis on 100% remote work and continuous learning, how does the
+  team ensure effective collaboration and knowledge sharing, especially for new
+  team members integrating into diverse projects?
+story_answer2: >-
+  That's a key aspect we've really focused on, especially with our remote-first
+  approach. We leverage modern communication and project management tools, but
+  more importantly, we foster a culture of active engagement. For new hires, we
+  pair them with a dedicated mentor who acts as a 'career companion,' guiding
+  them through their initial projects and helping them navigate our client
+  landscape. We also have regular virtual coffee breaks, dedicated
+  knowledge-sharing sessions, and 'Power-Up' workshops where team members
+  present on new technologies or successful case studies. The continuous
+  learning opportunities, from certifications to individual training, are
+  designed to keep everyone at the cutting edge, and sharing that knowledge is
+  integral to our collective growth.
+story_question3: >-
+  Considering the role involves working with both Power BI and Microsoft Fabric,
+  what opportunities are there for a Data Analyst to shape the future data
+  architecture and tooling decisions within the projects?
+story_answer3: >-
+  That's where the 'Berufserfahrener' aspect really comes into play, even for
+  those newer to the workforce who bring fresh perspectives. We're not just
+  looking for someone to maintain existing solutions; we want proactive
+  thinkers. With Fabric being a rapidly evolving platform, we encourage analysts
+  to experiment, explore new features, and bring forward ideas for architectural
+  improvements. For instance, a recent intern project explored integrating a new
+  monitoring tool within our Fabric environment, and it's now being piloted
+  across several initiatives. Your insights into performance, data quality, and
+  user experience directly feed into our technical roadmap, making you a true
+  architect of our data future, not just a user.
 ---
-**Baldmöglichst, bis zum 01.07.2027 | 38 Stunden pro Woche | Stuttgart | Energiewirtschaft | Berufseinsteiger, Berufserfahrener | 73000 bis 83000 € im Jahr | Projekt-ID A202551688\_1S**
-
-univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
-
-Du liebst es, Daten zu verstehen, zu visualisieren und daraus wertvolle Erkenntnisse abzuleiten? Als Data Analyst (m/w/d) übernimmst Du Verantwortung für moderne Data-Analytics-Lösungen auf Basis von Power BI und Microsoft Fabric und gestaltest aktiv die Datenlandschaft der Projekte mit. Werde Teil des Teams und bringe Deine Expertise in Reporting, Datenmodellierung und Automatisierung in spannende, abwechslungsreiche Aufgaben ein.
-
-Wir geben Deiner Karriere den Kick! Starte erfolgreich bei unserem Kunden aus der Energiebranche durch! In einem innovativen Team hast Du die Möglichkeit, an spannenden Projekten mitzuarbeiten und Dein Wissen stetig zu erweitern! Das klingt nach einer faszinierenden Berufsperspektive? Dann bewirb Dich noch heute!
-
-Aufgaben
---------
-
-*   Du bist verantwortlich für den Betrieb, die Weiterentwicklung sowie Optimierung von Data-Analytics-Lösungen inklusive Power BI und Fabric-Services
-*   Die Erstellung und Pflege von Berichten, Dashboards und Datenmodellen in Power BI und Fabric gehören ebenfalls zu Deinen Aufgaben
-*   Zusätzlich bist Du zuständig für die Integration, Automatisierung und das Management von Datenpipelines (Data Lake, Dataflows, Notebooks)
-*   Du stellst die Datenqualität, Performance und Umsetzung von Data-Cases im laufenden Betrieb sicher
-*   Die Zusammenarbeit mit Fachbereichen, die Anforderungsanalyse und Vermittlung von Erkenntnissen durch Data Storytelling runden Dein Aufgabenprofil ab
-
-Qualifikation
--------------
-
-*   Ein abgeschlossenes Studium im Bereich Informatik, Wirtschaftsinformatik oder eine vergleichbare Qualifikation
-*   Fundierte Kenntnisse in Microsoft Power BI (DAX, Power Query, Datenmodellierung) und Microsoft Fabric (Lakehouse, Data Engineering, Governance)
-*   Erfahrung mit Cloud-Technologien (insbesondere Azure) und modernen Datenarchitekturen
-*   Methodische Kompetenzen in Design Thinking, Data Storytelling und IBCS
-*   Sicherer Umgang mit IT-Prozessen, organisatorischen Rahmenbedingungen sowie kontinuierliche Lernbereitschaft und technologische Offenheit
-*   Mindestens verhandlungssichere Deutschkenntnisse in Wort und Schrift
-
-Benefits
---------
-
-*   Ein Jahreslohn zwischen 73000 € und 83000 €
-*   Maximale Flexibilität durch die Möglichkeit, 100 % Remote zu arbeiten
-*   Maximale Flexibilität durch die Möglichkeit 100% Remote zu arbeiten
-*   Wir geben Dir innerhalb von 48 Stunden eine Rückmeldung auf Deine Bewerbung
-*   Mit uns sammelst Du Erfahrung und baust durch verschiedene Projekte Dein berufliches Netzwerk bei verschiedenen Kund:innen auf. Dabei unterstützen wir Dich als Karrierebegleiter (m/w/d)
-*   Wir bilden Dich zum/r Experten/in aus und bieten Dir vielfältige Weiterbildungsmöglichkeiten on und off the Job an (z.B. verschiedene Zertifizierungen und individuelle Weiterbildungen)
-*   Nutze Deine Chance auf eine attraktive Prämie von bis zu 2.000 Euro für unser Programm „Recruit a Friend“
-
-**Wir konnten Dein Interesse wecken? Klasse!**
-
-Wir freuen uns auf Deine Bewerbung
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\nUnivativ is a project and personnel service provider dedicated to connecting students and graduates with exciting opportunities at renowned companies, with a strong focus on career development. As a Data Analyst (m/f/d), you will be instrumental in understanding, visualizing, and deriving valuable insights from data. You will take responsibility for modern Data Analytics solutions built on Power BI and Microsoft Fabric, actively shaping the data landscape of projects. This role involves bringing your expertise in reporting, data modeling, and automation to diverse and challenging tasks. Join our innovative team, working with a client in the energy sector, where you'll have the chance to contribute to exciting projects and continuously expand your knowledge.\\n\\n### Responsibilities\\n*   Operate, further develop, and optimize Data Analytics solutions, including Power BI and Fabric services.\\n*   Create and maintain reports, dashboards, and data models within Power BI and Fabric.\\n*   Integrate, automate, and manage data pipelines (Data Lake, Dataflows, Notebooks).\\n*   Ensure data quality, performance, and the successful implementation of data-driven use cases in ongoing operations.\\n*   Collaborate with various departments, conduct requirements analysis, and effectively communicate insights through Data Storytelling.\\n\\n### Qualifications\\n*   A completed degree in Computer Science, Business Informatics, or a comparable qualification.\\n*   Profound knowledge in Microsoft Power BI (DAX, Power Query, Data Modeling) and Microsoft Fabric (Lakehouse, Data Engineering, Governance).\\n*   Experience with Cloud technologies (especially Azure) and modern data architectures.\\n*   Methodological competencies in Design Thinking, Data Storytelling, and IBCS.\\n*   Proficient in IT processes, organizational frameworks, demonstrating continuous learning readiness and technological openness.\\n*   At least business-fluent German language skills, both written and spoken.\\n\\n### Author's Take\\nThis is a compelling opportunity for Data Analysts, whether you're an ambitious graduate or an experienced professional, looking to make a significant impact in the energy sector. The role offers a fantastic blend of cutting-edge Microsoft technologies (Power BI, Fabric, Azure) and strategic involvement in shaping data landscapes. Univativ's commitment to your career development is clear, with comprehensive benefits including a highly competitive salary, 100% remote work flexibility, fast feedback on applications, dedicated career support, and extensive on and off-the-job training opportunities. This position is ideal for someone who thrives in an innovative, collaborative environment and is eager to continuously learn and grow.

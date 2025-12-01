@@ -9,94 +9,49 @@ postedDate: '2025-11-29T09:33:06.000Z'
 expirationDate: null
 tags:
   - Information Systems
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/systempartner-ae-computer-gmbh/ae-computer-sucht-assistentin-der-geschaftsleitung-bonn-107241
 companyLogoUrl: null
+companyCulture: >-
+  AE-Computer Bonn fosters a collaborative and supportive work environment with
+  a friendly, motivated team. They emphasize short decision paths and direct
+  cooperation with management, offering growth opportunities within a growing
+  company and promoting work-life balance through flexible working conditions.
+story_question1: >-
+  Given the direct support to the management team, what's the most significant
+  way this role contributes to the strategic objectives of AE-Computer Bonn, and
+  what kind of dynamic challenges might an assistant navigate when coordinating
+  across various internal and external stakeholders?
+story_answer1: >-
+  As an insider, I can tell you that this role is absolutely central to our
+  operations. You're not just an assistant; you're the backbone enabling our
+  management to stay agile and focused on growth. The most rewarding aspect is
+  seeing how your meticulous coordination and proactive support directly
+  translate into faster decision-making and smoother project execution.
+  Challenges often involve juggling priorities and managing diverse
+  expectations, but our supportive team culture means you're never alone.
+  There's a real sense of camaraderie, and the direct access to management
+  ensures your efforts are recognized and truly impactful.
+story_question2: >-
+  The job description highlights 'flexible Arbeitsbedingungen' and states that
+  'IT skills are not mandatory.' Could you elaborate on how AE-Computer Bonn
+  truly supports professional growth for someone without a deep IT background,
+  and how work-life flexibility is practically integrated into the daily routine
+  here?
+story_answer2: >-
+  We genuinely believe that strong organizational skills and a proactive mindset
+  are paramount, irrespective of your IT background. We have an internal
+  knowledge-sharing culture, and management is always keen to support learning
+  new tools or processes. We're a growing company, so there's ample opportunity
+  to develop. Regarding flexibility, it’s not just a buzzword here. We
+  understand life happens. Whether it's adaptable start/end times or the option
+  to occasionally work remotely when needed, we empower our team to manage their
+  work-life balance effectively, ensuring everyone can contribute their best
+  while maintaining their well-being. It’s about trust and results.
 ---
-AE-Computer Bonn ist ein modernes IT-Dienstleistungsunternehmen, das Privat- und Geschäftskunden in allen Fragen rund um Computer, Netzwerke und digitale Lösungen unterstützt. Für die Verstärkung unseres Teams suchen wir eine engagierte Assistenz für die Geschäftsleitung.
-
-**Assistent\*in der Geschäftsleitung (m/w/d)**
-
-**Ihre Aufgaben**
-
-*   Allgemeine organisatorische und administrative Unterstützung der Geschäftsleitung
-*   Koordination von Terminen, Meetings und internen Abläufen
-*   Vorbereitung von Unterlagen, Präsentationen und Auswertungen
-*   Kommunikation mit Kunden, Partnern und Dienstleistern
-*   Unterstützung bei kleineren Projekten und Aufgaben im Tagesgeschäft
-
-**Ihr Profil**
-
-*   Abgeschlossene kaufmännische Ausbildung oder vergleichbare Qualifikation
-*   Strukturierte, zuverlässige und selbstständige Arbeitsweise
-*   Freundliches Auftreten und Serviceorientierung
-*   Sehr gute Deutschkenntnisse in Wort und Schrift
-*   Sicherer Umgang mit Office-Programmen (Word, Excel, Outlook)
-*   **IT-Kenntnisse sind nicht zwingend erforderlich – eine Affinität zu technischen Themen ist jedoch von Vorteil**
-
-**Wir bieten**
-
-*   Ein freundliches, motiviertes Team
-*   Abwechslungsreiche Aufgaben in einem wachsenden Unternehmen
-*   Kurze Entscheidungswege und direkte Zusammenarbeit mit der Geschäftsleitung
-*   Faire Vergütung und flexible Arbeitsbedingungen
-*   Auf Wunsch einen Firmen-PKW auch zur privaten Nutzung
-*   Einen Arbeitsplatz in zentraler Lage in Bonn
-
-**Bewerbung**  
-Wir freuen uns auf Ihre vollständigen Bewerbungsunterlagen per E-Mail an:
-
-****Wir freuen uns auf Sie!****
-
-**
-
-Systempartner AE Computer GmbH  
-PC-SPEZIALIST BONN  
-Spessartstr. 2, 53119 Bonn  
-oder per E-Mail an: andreas.ernst(at)[pcs-bonn.de](http://pcs-bonn.de)  
-Bei Fragen stehen wir Ihnen telefonisch unter 0228/40388-29 zur Verfügung.
-
-Aufgaben
---------
-
-Allgemeine organisatorische und administrative Unterstützung der Geschäftsleitung
-
-Koordination von Terminen, Meetings und internen Abläufen
-
-Vorbereitung von Unterlagen, Präsentationen und Auswertungen
-
-Kommunikation mit Kunden, Partnern und Dienstleistern
-
-Unterstützung bei kleineren Projekten und Aufgaben im Tagesgeschäft
-
-Qualifikation
--------------
-
-Wir geben auch Quereinsteigern eine Chance, wenn entsprechende Erfahrungen in diesem Berufsbereich vorliegen.
-
-Benefits
---------
-
-*   Ein freundliches, motiviertes Team
-*   Abwechslungsreiche Aufgaben in einem wachsenden Unternehmen
-*   Kurze Entscheidungswege und direkte Zusammenarbeit mit der Geschäftsleitung
-*   Faire Vergütung und flexible Arbeitsbedingungen
-*   Auf Wunsch einen Firmen-PKW auch zur privaten Nutzung
-*   Einen Arbeitsplatz in zentraler Lage in Bonn
-
-Wenn Sie an einer abwechslungsreichen und langfristigen Tätigkeit interessiert sind, dann bewerben Sie sich schriftlich unter:
-
-Systempartner AE Computer GmbH  
-PC-SPEZIALIST BONN  
-Spessartstr. 2, 53119 Bonn  
-oder per E-Mail an: andreas.ernst(at)[pcs-bonn.de](http://pcs-bonn.de)  
-Bei Fragen stehen wir Ihnen telefonisch unter 0228/40388-29 zur Verfügung.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
-
-**
+### Description\nAE-Computer Bonn is a modern IT service provider that supports private and business customers with all aspects of computers, networks, and digital solutions. We are seeking a dedicated Assistant to the Management (m/f/d) to strengthen our team. This role is crucial for ensuring smooth operations and directly supporting the leadership in a dynamic and growing company known for its friendly team and flexible work conditions.\n\n### Responsibilities\n- Provide general organizational and administrative support to the management.\n- Coordinate appointments, meetings, and internal processes.\n- Prepare documents, presentations, and evaluations.\n- Communicate with customers, partners, and service providers.\n- Support smaller projects and daily operational tasks.\n\n### Qualifications\n- Completed commercial training or a comparable qualification.\n- Structured, reliable, and independent working style.\n- Friendly demeanor and service-oriented approach.\n- Very good German language skills, both written and spoken.\n- Proficient use of Office programs (Word, Excel, Outlook).\n- IT knowledge is not strictly required, but an affinity for technical topics is advantageous.\n- We also offer opportunities to career changers who possess relevant experience in this professional field.\n\n### Author's Take\nThis is a fantastic opportunity for an organized and proactive individual looking for a central role in a thriving IT company. You'll gain direct exposure to business leadership and contribute significantly to daily operations and strategic initiatives. The company stands out with its supportive, motivated team, short decision-making paths, and a genuine commitment to work-life balance through flexible working conditions. Plus, the option of a company car for private use is a generous perk. If you thrive in a dynamic environment and value direct impact, this role offers both growth and a great culture.

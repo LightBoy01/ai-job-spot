@@ -8,104 +8,52 @@ applicationLink: >-
 postedDate: '2025-11-28T14:45:14.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/sumup/content-manager-product-growth-berlin-389389
 companyLogoUrl: null
+companyCulture: >-
+  SumUp cultivates a highly collaborative and inclusive 'team-first'
+  environment, deeply committed to continuous learning and professional growth
+  through generous L&D budgets. They also prioritize work-life balance, offering
+  ample time off and sabbaticals, ensuring employees have room to learn and
+  thrive.
+story_question1: >-
+  How does this role directly measure the impact of its content strategy on
+  merchant acquisition and retention, and what are the primary challenges in
+  ensuring content drives tangible business growth?
+story_answer1: >-
+  Honestly, it's incredibly rewarding to see our content directly influence how
+  small business owners discover and utilize SumUp. We don't just write; we're
+  integral to the entire go-to-market strategy for our Get Paid products. My
+  content, for instance, translates complex features into clear, benefit-led
+  messages for merchants, which directly impacts conversion rates on our landing
+  pages and product descriptions. The biggest challenge, but also the most
+  exciting part, is constantly iterating and refining our narratives based on
+  performance data. We're always asking: is this truly simplifying the
+  merchant's journey? Is it driving action? The team-first attitude here means
+  we openly share insights and learn from each other, ensuring our content
+  doesn't just look good, but performs brilliantly. You truly own the impact of
+  your words on millions of businesses.
+story_question2: >-
+  Given the global nature of SumUp and the diverse markets it serves, how does
+  the content team balance maintaining a consistent brand voice and messaging
+  framework while effectively localizing content to resonate with specific
+  regional merchant needs and cultural nuances?
+story_answer2: >-
+  That's a fantastic question and one we tackle daily! Our core messaging
+  frameworks provide a strong foundation, ensuring brand consistency across all
+  touchpoints. However, we're not rigid. We work hand-in-hand with our
+  Localization team and local marketing channels, sharing clear guidelines and
+  product USPs, but also actively seeking their input on regional specificities.
+  It's a delicate dance: we empower local teams with structured source content,
+  but also encourage them to inject the cultural nuances that make our message
+  truly land. This collaborative approach, embedded within our Content Chapter,
+  means we continuously learn and adapt, building a unified yet locally relevant
+  narrative that truly resonates with each merchant, no matter where they are.
 ---
-### **About SumUp**
-
-Small business owners are at the heart of everything we do. That's why we're creating powerful, easy-to-use financial solutions to help them run their businesses with confidence. With a founder's mentality and a 'team-first' attitude, our diverse teams across Europe, South America, and the United States work together to ensure that small business owners can thrive doing what they love.
-
-### **Team Description**
-
-You'll join the Get Paid Business line, the team driving the success of SumUp's Get Paid portfolio, our card readers and payment acceptance solutions used by millions of merchants across Europe and the rest of the world.  
-  
-This team is focused on building the products that power SumUp's Get Paid ecosystem — from backend and hardware development to platform and feature delivery — while also **accelerating growth, simplifying the customer journey, and building clear, conversion-driven narratives**. It brings together the cross-functional product teams building our Get Paid products, as well as a dedicated Growth team led by the VP Growth and supported by two Content Managers, **one of whom we are hiring** **for this** **role.** You'll work closely with product managers, designers, marketers, and channel leads to ensure every piece of content — from web pages to go-to-market campaigns — delivers clarity, quality, and merchant impact.
-
-This position is also part of the Content Chapter embedded within the Central Marketing team. The Content Chapter brings together all content managers across channels and business lines, creating a unified community of practice. It serves as a hub for knowledge sharing, alignment on best practices, cross-functional collaboration, and continuous improvement of SumUp's content standards.
-
-This role begins with a two-year fixed-term contract, with potential for extension based on future business needs.
-
-📍 Explore our [Berlin](https://www.sumup.com/careers/offices/berlin/) location
-
-### **What You'll Do**
-
-*   Support and contribute to end-to-end content strategy and execution for SumUp's **Get Paid (card reader)** products — from product launches to ongoing lifecycle communications  
-      
-    
-*   Contribute to the  development and maintenance of **messaging frameworks and narrative guidelines**, ensuring consistent, high-quality, and conversion-focused content across all channels  
-      
-    
-*   **Drive go-to-market content development** for new product launches — including web pages, PDPs, landing pages, packaging copy, and enablement materials in collaboration with Product and Marketing teams  
-      
-    
-*   Collaborate cross-functionally with **Product, Marketing, Design, and Localisation** to align content with business goals and merchant needs  
-      
-    
-*   Manage **content operations**, including briefing, documentation, and workflow visibility in tools like Jira and Notion  
-      
-    
-*   Use CMS tools to **build, update, and QA** web content, ensuring accuracy, accessibility, and strong SEO performance  
-      
-    
-*   **Support localization efforts** by providing structured source content, clear messaging guidance, and product-specific USPs to ensure consistency across markets
-
-### **You'll Be Great for This Role If**
-
-*   You have **3–6 years** of experience in content strategy, content management, or product marketing, ideally in **fintech, SaaS, or e-commerce**
-*   You're an excellent writer who can **translate technical product features into clear, benefit-led messages** for diverse audiences  
-      
-    
-*   You have hands-on experience with **CMS platforms** (e.g. Contentful, Builder.io) and are confident managing web publishing workflows  
-      
-    
-*   You're structured, data-informed, and comfortable owning **complex content ecosystems** end to end  
-      
-    
-*   You bring **strong stakeholder management**, operational discipline, and a proactive mindset  
-      
-    
-*   You have **native-level English fluency** and a passion for clear, customer-first communication  
-      
-    
-
-### **Why You Should Join SumUp**
-
-🌎 Opportunity to work with SumUppers globally on large-scale fintech products used by millions of businesses worldwide, from our Berlin office. This involves an office-first setup
-
-🌈 Commitment to Diversity and Inclusion: be part of a workplace that values and promotes diversity, fostering an inclusive environment where everyone's perspectives are respected and embraced
-
-🚀 Enrolment onto our Virtual Stock Option Programme: you will own a stake in SumUp's future success
-
-📚 A dedicated annual L&D budget of €2000 for attending conferences and/or advancing your career through further education
-
-💶 A corporate pension scheme where we match up to 20% of your contributions
-
-🏖 Generous time off: enjoy 28 days of paid leave plus public holidays and special leave days
-
-💪 Numerous other benefits such as Urban Sports Club subsidy, Kita placement assistance, subsidised office lunches
-
-🌴 Break4me: 1-month sabbatical after 3 years of service
-
- 🔗 Referral Bonus: earn additional rewards by referring talented individuals to join the SumUp team
-
-* * *
-
-At SumUp, we're on a mission to empower small businesses around the world with simple, affordable tools to help them start, run, and grow. More than 4 million merchants across 36 markets trust us as their financial partner — and we're just getting started.
-
-We're a global team of 3,000+ people from over 90 nationalities, united by curiosity, collaboration, and care. Our [core values](https://youtu.be/1axu-TmW088?si=5NjHKNq5n-1GbXc2) and [culture](https://youtu.be/XEH_nmJ9KZ4?si=pr6TdFl98FhpD5KG) shape everything we do, fostering inclusion, learning, and belonging.
-
-SumUp is proud to be an Equal Employment Opportunity employer, committed to building a safe, respectful, and diverse workplace where everyone can thrive.
-
-👉 Explore more about our culture on our [careers site](https://www.sumup.com/careers/), or follow us on [LinkedIn](https://www.linkedin.com/company/sumup/) and [Instagram](https://www.instagram.com/insidesumup/).
-
-**Job Application Tip**
-
-We recognise that candidates feel they need to meet 100% of the job criteria in order to apply for a job. Please note that this is only a guide. If you don't tick every box, it's ok too because it means you have room to learn and develop your career at SumUp.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\nSumUp is dedicated to empowering small business owners worldwide with robust, easy-to-use financial solutions. Joining the Get Paid Business line, you'll be part of the core team driving the success of SumUp's card readers and payment acceptance solutions, utilized by millions of merchants globally. This role is crucial for accelerating growth, simplifying the customer journey, and crafting clear, conversion-driven narratives across the Get Paid ecosystem.\\n\\nAs a Content Manager, you'll work cross-functionally with product managers, designers, marketers, and channel leads. Your mission will be to ensure every piece of content, from web pages to go-to-market campaigns, delivers clarity, quality, and significant merchant impact. This position is also integrated into the Content Chapter within the Central Marketing team, fostering a unified community for knowledge sharing, best practices, and continuous improvement of SumUp's content standards.\\n\\nPlease note: This role begins with a two-year fixed-term contract, with potential for extension based on future business needs.\\n\\n### Responsibilities\\n- Support and contribute to end-to-end content strategy and execution for SumUp's **Get Paid (card reader)** products — from product launches to ongoing lifecycle communications.\\n- Contribute to the development and maintenance of **messaging frameworks and narrative guidelines**, ensuring consistent, high-quality, and conversion-focused content across all channels.\\n- **Drive go-to-market content development** for new product launches — including web pages, PDPs, landing pages, packaging copy, and enablement materials in collaboration with Product and Marketing teams.\\n- Collaborate cross-functionally with **Product, Marketing, Design, and Localisation** to align content with business goals and merchant needs.\\n- Manage **content operations**, including briefing, documentation, and workflow visibility in tools like Jira and Notion.\\n- Use CMS tools to **build, update, and QA** web content, ensuring accuracy, accessibility, and strong SEO performance.\\n- **Support localization efforts** by providing structured source content, clear messaging guidance, and product-specific USPs to ensure consistency across markets.\\n\\n### Qualifications\\n- 3–6 years of experience in content strategy, content management, or product marketing, ideally in fintech, SaaS, or e-commerce.\\n- Excellent writing skills, capable of translating technical product features into clear, benefit-led messages for diverse audiences.\\n- Hands-on experience with CMS platforms (e.g., Contentful, Builder.io) and confidence managing web publishing workflows.\\n- Structured, data-informed approach, comfortable owning complex content ecosystems end to end.\\n- Strong stakeholder management, operational discipline, and a proactive mindset.\\n- Native-level English fluency and a passion for clear, customer-first communication.\\n\\n### Author's Take\\nThis Content Manager role at SumUp offers a fantastic opportunity for a driven content professional to make a significant impact on millions of small businesses globally. The position is ideal for someone with 3-6 years of experience who thrives in a highly collaborative, fast-paced environment and enjoys the challenge of crafting conversion-focused narratives for a fintech product. While initially a fixed-term contract, the potential for extension is noted. SumUp fosters a strong 'team-first' culture with a commitment to diversity, inclusion, and continuous learning, backed by a generous L&D budget. The company also prioritizes work-life balance, offering substantial time off and a unique sabbatical program, ensuring employees have ample support to grow and succeed. If you're passionate about clear, customer-first communication and want to directly contribute to business growth, this role provides an excellent platform to do so.

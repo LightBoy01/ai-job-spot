@@ -9,90 +9,67 @@ postedDate: '2025-11-28T22:31:56.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/finment-gmbh/junior-etf-aktien-analyst-berlin-182933
 companyLogoUrl: null
+companyCulture: >-
+  The culture fosters strong personal and professional growth, encouraging
+  long-term commitment and expert development within a collaborative, positive,
+  and familial startup environment. There's a clear emphasis on financial
+  well-being and a good work-life balance through shared activities, all while
+  driving innovation in FinTech.
+story_question1: >-
+  Given that FinMent democratizes access to institutional investment knowledge,
+  how does this specific role directly contribute to empowering individual
+  clients and making a tangible impact on their financial freedom?
+story_answer1: >-
+  From my perspective, working at FinMent means you're not just crunching
+  numbers; you're truly a catalyst for change in people's lives. Your market
+  analyses and investment reports aren't just documents – they're the insights
+  that empower our customers to make informed decisions, often for the very
+  first time, on par with what institutional investors typically access. When
+  you help develop a new trading strategy or refine our educational content,
+  you’re directly contributing to breaking down financial barriers and helping
+  individuals achieve the kind of financial independence we all strive for. It’s
+  incredibly rewarding to see the direct impact of your work on our mission to
+  democratize finance.
+story_question2: >-
+  The job description highlights a focus on continuous improvement in financial
+  education. What kind of support and resources are available for an individual
+  in this role to actively contribute to and innovate within FinMent's
+  educational offerings?
+story_answer2: >-
+  One of the things I love about FinMent is how much we value growth, both for
+  our customers and ourselves. For someone in this role, you’re not just
+  expected to consume information; you’re encouraged to actively shape it. We
+  have dedicated collaboration sessions with our Trading team, Support, and
+  Coaches, where your market insights are directly translated into actionable
+  learning content and customer recommendations. Plus, with a generous annual
+  personal development budget and direct access to our in-house investment
+  experts, you're constantly learning and empowered to bring fresh ideas to the
+  table, ensuring our financial education remains cutting-edge and truly
+  impactful for our community.
+story_question3: >-
+  FinMent emphasizes 'Startup Verantwortung' and the expectation to take
+  initiative. Can you share an example of how an employee in a similar role
+  successfully tackled a challenge outside their comfort zone, and what kind of
+  support they received?
+story_answer3: >-
+  Absolutely! I remember one instance where a junior analyst noticed a gap in
+  our market data visualization tools that was hindering client understanding.
+  It was technically outside their core market analysis tasks. Instead of just
+  reporting it, they proactively researched potential open-source solutions,
+  drafted a proposal, and even started prototyping a basic dashboard in their
+  spare time. The leadership team noticed their initiative, provided them with
+  dedicated time, additional resources, and even mentored them through the
+  implementation. It was fantastic to see how their willingness to step out of
+  their comfort zone directly led to a significant improvement in our
+  client-facing reports, showcasing that here, initiative is not just welcomed,
+  it's actively nurtured and supported.
 ---
-**Unsere Mission: “Lass Dein Geld noch effizienter für Dich arbeiten!”**
-
-Wir sind FinMent - ein schnell wachsendes, zweifach staatlich zertifiziertes FinTech Startup in Berlin. Wir demokratisieren das Wissen und den Zugang zur institutionellen Geldanlage mithilfe von innovativen Technologien, geprüftem Finanzwissen und exklusiven Strategien, die bisher nur institutionellen Investoren (Family Offices) mit +200 Millionen Euro Mindestkapital vorbehalten waren.
-
-Neben vielen weiteren Benefits erhälst du exklusiv:
-
-**Deine finanzielle Freiheit mit zusätzlichem Börseneinkommen:** Als Teil vom inneren Kreis erhälst du die einzigartige Möglichkeit kostenlos unser Produkte zu nutzen, um wie unsere Kunden ein regelmäßiges Börseneinkommen zu erzielen und finanziell frei zu werden. (Die Kunden zahlen dafür bis zu 36.000€).
-
-Begeisterst du Dich für Finanzen und bist du bereit, in einem profitabel wachsenden FinTech Start Up Deine Karriere durchstarten?
-
-Bewirb dich und teile uns mit: Warum sollen wir dir die Chance geben deinen Wunschberuf bei uns ausüben zu können und kostenlos den massiven Vorteil durch unsere Produkte geben, damit du jetzt schon ein gutes zusätzliches Einkommen durch die Börse erhälst?
-
-Aufgaben
---------
-
-**Was Dich erwartet**
-
-*   **Marktanalyse.** Du analysierst Wertpapiere und die aktuelle Marktlage, um Investitionsideen zu erstellen und das Handelsteam sowie unsere Kunden zu unterstützen
-*   **Dokumentation.** Du erstellst Investmentrepots und bereitetest Marktübersichten visuell für unsere Kunden auf
-*   **Problemlösung.** Du bist mitverantwortlich für die Weiterentwicklung des Handelssystems, der Konzipierung und Umsetzung neuer Anlage-/Tradingstrategien und setzt eigene Ideen um​
-*   **kontinuierliche Verbesserung.** Du hebst mit uns die finanzielle Bildung auf ein neues Niveau
-*   **Teamarbeit:** Du tauscht mit Trading, Support und Coaches, um Analysen in praktische Lerninhalte und kundennahe Empfehlungen zu überführen.
-
-Wir investieren in Deine invidivuelle Ausbildung, fördern gezielt Deine Weiterentwicklung und machen Dich Schritt-für-Schritt zum Experten – mit dem klaren Ziel auf eine langfristige Zusammenarbeit.
-
-Qualifikation
--------------
-
-**Was Du mitbringen solltest**
-
-Du hast eine hohe Leistungsbereitschaft, Wissensdurst für Finanzthemen und willst Dich persönlich zu einem Spezialisten im Finanzbereich entwickeln.
-
-*   **Erfahrung.** Du hast 6 Monate bis 1 Jahr praktische Erfahrung im Kundensupport gesammelt, idealerweise durch Praktika oder ähnliche Tätigkeiten
-*   **Leidenschaft.** Du hast Bock auf genau diesen Job! Du hast eine starke Eigenmotivation und Leidenschaft für sauberes, agiles Prozess- und Projektmanagement.
-*   **Startup Verantwortung.** Du hast nachweislich gerne Verantwortung für deinen Themenbereich übernommen, auch wenn das außerhalb deiner Komfortzone war. Du hast Dinge ohne zu zögern angepackt, warst ergebnisorientiert und zügig in der Umsetzung.
-*   **Persönliches Wachstum.** Du lernst und entwickelst dich eifrig, ob in deinem Job, dem Sektor in dem du arbeitest, aber auch privat! Du suchst proaktiv nach Feedback. Dabei behälst du den Erfolg des Teams im Auge.
-*   **Smart.** Du hast sehr gute analytische und strukturelle Fähigkeiten, um Szenarien im Vorfeld klar durchzudenken. Das was du durchgedacht hast, setzt du strukturiert um.
-*   **Sprache.** Dein Deutsch ist idealerweise auf “Muttersprache” Level. Dein Englisch ist gut für Konversationen.
-*   **Tools.** Du hast idealerweise praktische Arbeitserfahrungen mit gängiger Finanz- und Chartsoftware (Z.B. TWS, Tradingview)
-
-Man erfüllt nicht immer alle Anforderungen. Das sollte Dich nicht aufhalten. Wenn Du wirklich Lust hast, mit uns zusammenzuarbeiten, freuen wir uns von Dir zu hören!
-
-Benefits
---------
-
-**Was wir bieten**
-
-Wir bieten dir nicht nur einen Job an, sondern Du wirst ein Mitglied unseres High-Performance-Teams, bestehend aus Digital- und Investment-Experten und nimmst eine bedeutende Rolle bei der Demokratisierung der Geldanlage ein. Daneben bieten wir Dir:
-
-*   **Ein positives Arbeitsumfeld:** Wohlfühlatmosphäre und ein kollegialer und familiärer Umgang mit gemeinsamen Freizeitaktivitäten und Teamevents​.
-*   **attraktives Gehalt:** Mit klarer Steigerung nach dem Onboarding – Dein Einsatz zahlt sich direkt aus.
-*   **Eigener Verantwortungsbereich:** Verantwortung für den Erfolg deines Bereichs mit direkter Auswirkung auf die Unternehmensentwicklung.
-*   **Echte Start-Up Atmosphäre**: Kurze Entscheidungswege und direkter Kontakt zu der strategischen Geschäftsführung.
-*   **Moderne Arbeitsumgebung:** Modernes Office mit einer sehr guten Verkehrsanbindung und arbeite mit State-of-the-Art Technologie.
-*   **Persönliche Weiterbildung:** Jährliches Weiterbildungsbudget bis zu 5.000€ und Fachwissen von Unternehmensexperten.
-*   **Zugang zu FinMent Produkten:** Baue dein Vermögen mit regelmäßigem Börseneinkommen auf.
-*   **Steile Karrierechancen:** Nimm langfristig eine Rolle als Experte und /oder Führungskraft ein.
-
-**Bist Du bereit zu den Digital-Pionieren in der Finanzbranche zu gehören?**
-
-Wenn du nach persönlichem und beruflichem Wachstum strebst und nach dem passenden positivem Umfeld suchst, bewirb dich jetzt!
-
-Wir sind bestrebt unsere Gemeinschaft einen weiten Schritt nach vorne zu bringen und mit unserer Arbeit einen entscheidenden Einfluss auf die Welt auszuüben. Wir ermöglichen, dass nicht nur unsere Kunden, sondern auch alle unsere Mitarbeiter ihre finanzielle Freiheit erreichen, um ihre großen Träume zu verwirklichen und ein Leben nach ihren Wunschvorstellungen zu genießen.
-
-Werde Teil unserer Erfolgsstory und gestalte mit uns die Zukunft der privaten Geldanlage im Rahmen der finanziellen Unabhängigkeit!
-
-Schick uns Deinen Lebenslauf und deine Arbeitsproben, die du schon verfasst hast.
-
-Wir freuen uns darauf dich kennenzulernen!
-
-Falls Du vorab Fragen hast, kannst Du uns direkt kontaktieren.
-
-**Ansprechperson:**  
-Maksat Munal  
-Personalverantwortlicher  
-+49 (0)30 606 902 41
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nFinMent is a rapidly growing, state-certified FinTech startup based in Berlin, driven by the mission: \"Let your money work even more efficiently for you!\" We are democratizing the knowledge and access to institutional investment, leveraging innovative technologies, validated financial expertise, and exclusive strategies previously reserved for institutional investors like family offices with minimum capital of +200 million Euros.\n\nAs part of our team, you will not only embark on an exciting career path in a profitable and growing FinTech environment but also gain exclusive benefits, including complimentary access to our products. This unique opportunity allows you to generate a regular stock market income, working towards your financial freedom, similar to our clients who pay up to €36,000 for these advantages. We are committed to investing in your individual training, fostering your development, and guiding you step-by-step to become an expert, aiming for a long-term partnership.\n\n### Responsibilities\n*   **Market Analysis:** Analyze securities and current market conditions to generate investment ideas and support the trading team and our customers.\n*   **Documentation:** Create investment reports and visually prepare market overviews for our customers.\n*   **Problem Solving:** Be jointly responsible for the further development of the trading system, conceptualizing and implementing new investment/trading strategies, and executing your own ideas.\n*   **Continuous Improvement:** Elevate financial education to a new level with us.\n*   **Team Collaboration:** Exchange insights with trading, support, and coaches to translate analyses into practical learning content and customer-centric recommendations.\n\n### Qualifications\nWe are looking for someone with high dedication, a thirst for financial knowledge, and a strong desire to develop into a finance specialist.\n*   **Experience:** You have 6 months to 1 year of practical experience in customer support, ideally through internships or similar activities.\n*   **Passion:** You are genuinely excited about this job! You possess strong self-motivation and a passion for clean, agile process and project management.\n*   **Startup Responsibility:** You have demonstrable experience taking responsibility for your area, even if it was outside your comfort zone. You tackled tasks without hesitation, were results-oriented, and swift in execution.\n*   **Personal Growth:** You are eager to learn and develop, both in your job, your sector, and privately! You proactively seek feedback while keeping the team's success in mind.\n*   **Analytical Skills:** You possess very good analytical and structural abilities to clearly think through scenarios in advance. What you have thought through, you implement systematically.\n*   **Language:** Your German is ideally at a \"native speaker\" level. Your English is good for conversations.\n*   **Tools:** Ideally, you have practical working experience with common financial and charting software (e.g., TWS, Tradingview).\n\nDon't worry if you don't meet every single requirement. If you are genuinely enthusiastic about working with us, we encourage you to apply!\n\n### Author's Take\nThis is a fantastic opportunity for an ambitious individual looking to launch their career in FinTech, particularly for those passionate about finance and eager for rapid personal and professional growth. FinMent offers a unique blend of a fast-paced startup environment with a supportive, familial culture, emphasizing continuous learning and long-term career development. The role promises significant responsibility and direct impact on democratizing finance, coupled with an attractive benefits package, including exclusive access to their financial products and a generous budget for personal development. It's an ideal setting for someone who thrives on initiative, collaboration, and contributing directly to a mission of empowering financial freedom.

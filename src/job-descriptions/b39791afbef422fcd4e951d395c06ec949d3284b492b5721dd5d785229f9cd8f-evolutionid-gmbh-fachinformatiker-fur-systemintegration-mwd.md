@@ -9,64 +9,55 @@ postedDate: '2025-11-28T09:32:10.000Z'
 expirationDate: null
 tags:
   - System and Network Administration
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/evolutionid-gmbh/fachinformatiker-fur-systemintegration-munich-286644
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a familial, international, and open culture with strong
+  team cohesion and short communication paths. It prioritizes individual
+  development, values employee input for shaping processes, and offers a
+  dynamic, less bureaucratic environment with direct access to decision-makers.
+story_question1: >-
+  Given the diverse responsibilities spanning system administration, technical
+  support, and project work, how does the team ensure effective prioritization
+  and knowledge sharing to maintain high service quality across all areas?
+story_answer1: >-
+  That's a fantastic question, as it really gets to the heart of what makes this
+  role so dynamic. Because you're touching so many different aspects – from
+  hands-on system care for a major client, to troubleshooting our core
+  solutions, and even pushing forward smaller software projects – no two days
+  are alike. We manage this by fostering an incredibly collaborative
+  environment. You'll always have access to seasoned colleagues who are happy to
+  share their expertise, and our flat hierarchy means you can easily ping a lead
+  or even a decision-maker if you hit a complex challenge. We use agile
+  practices where appropriate, but more importantly, we cultivate a culture
+  where asking questions and sharing insights is the norm. It's about being
+  proactive and leveraging the collective brainpower of our close-knit,
+  international team to deliver the best solutions for our critical
+  infrastructure clients.
+story_question2: >-
+  How does the company specifically support continuous learning and growth for
+  someone looking to 'gradually grow into larger projects' within such a
+  critical and evolving field?
+story_answer2: >-
+  That's a core part of our philosophy here. We don't just say we offer
+  development opportunities; we actively live it. For someone like you, eager to
+  grow into bigger projects, it starts with a hands-on approach. You'll be
+  working directly with our solutions from day one, gaining practical
+  experience. But beyond that, we encourage a curious mindset. You'll
+  participate in technical specifications, documentation, and process analyses,
+  giving you a holistic view. Our short decision-making paths mean your ideas
+  aren't just heard, they're often implemented, giving you immediate impact and
+  ownership. Plus, in a field as vital as Identity and Access Management for
+  critical infrastructure, continuous learning is essential. We support
+  certifications, internal workshops, and provide mentors who've been in your
+  shoes. It’s less about formal training courses and more about embedding
+  learning into your daily work, constantly challenging you with new scenarios,
+  and giving you the space to experiment and master new skills.
 ---
-Wir sind einer der führenden Softwarehersteller im Bereich Identitäts- und Berechtigungsmanagement (PIAM). Unsere Plattform steuert, welche Personen in Unternehmen welche Zugänge und Berechtigungen erhalten – sowohl digital (IT-Zugriffe) als auch physisch (Gebäude, Fahrzeuge, Maschinen).
-
-Unsere Lösungen sind in kritischer Infrastruktur, Industrie, Luftfahrt und bei Technologiekonzernen im Einsatz – überall dort, wo Mitarbeitende und externe Partner schnell und sicher mit allen benötigten Zutritten und Ausweisen ausgestattet werden müssen.
-
-Aufgaben
---------
-
-In dieser Rolle arbeitest du in drei abwechslungsreichen Bereichen: Du betreust ein langfristiges Kundenprojekt, unterstützt den technischen Support unserer evolutionID-Lösungen und wirkst an der Umsetzung kleinerer Softwareprojekte mit. Dadurch erwartet dich ein vielseitiger Mix aus Systembetreuung, Support und Projektarbeit.
-
-Langfristiges Beratungsprojekt bei einem Großkunden
-
-*   **Zutritts- und Zeiterfassungssystem betreuen:** Du administrierst das System, verwaltest Berechtigungen und übernimmst regelmäßige Datenpflege.
-*   **Betrieb & Störungen koordinieren:** Du begleitest Updates und Upgrades, organisierst die Störungsbehebung und stimmst dich mit Fachbereichen sowie technischen Dienstleistern ab.
-*   **Ausweis- und Kartenmanagement übernehmen:** Du betreust das Ausweissystem vor Ort, wartest Ausweisdrucker und unterstützt bei der Einführung neuer Produktionslösungen.
-
-Technischer Support für evolutionID-Lösungen
-
-*   **Support-Tickets bearbeiten:** Du analysierst technische Anfragen, löst Supportfälle und unterstützt unsere Kunden rund um Software-, SaaS- und kleinere Hardwarethemen.
-*   **evolutionID-Module im Betrieb unterstützen:** Du betreust Ausweis-, Bild- und RFID-Komponenten, führst Systempflege durch und stellst den stabilen Betrieb unserer Lösungen sicher.
-
-Projektumsetzung & Projektierung
-
-*   **Kleinere Softwareprojekte umsetzen:** Du installierst, konfigurierst und testest unsere Anwendungen – mit schnellen, sichtbaren Erfolgserlebnissen.
-*   **Projektierung & Weiterentwicklung begleiten:** Du arbeitest an technischen Spezifikationen, Dokumentationen und Prozessanalysen mit und wächst schrittweise in größere Projekte hinein.
-
-Qualifikation
--------------
-
-*   **Relevante Berufserfahrung:** Du hast eine technische oder IT-nahe Ausbildung oder vergleichbare Erfahrung – entscheidend ist deine praktische Erfahrung im IT-Support oder technischen Umfeld.
-*   **Technisches Verständnis:** Du bringst Grundlagenwissen in IT mit und gehst versiert mit Softwaretools um. Kenntnisse zu Zutritts- oder Zeiterfassungssystemen sind ein Plus, aber kein Muss.
-*   **Problemlösekompetenz:** Du analysierst technische Anfragen schnell und pragmatisch und findest eigenständig Lösungen – auch in neuen oder unklaren Situationen.
-*   **Selbstständige Arbeitsweise:** Du arbeitest verantwortungsbewusst, hands-on, bist lernbereit und fühlst dich in einem dynamischen, wenig bürokratischen Umfeld wohl.
-*   **Starke Kommunikation:** Du trittst professionell auf und kommunizierst sicher –**Deutsch oder Englisch sprichst Du fließend**, die jeweils andere Sprache auf solidem Niveau.
-*   **Team- & Schnittstellenfähigkeit:** Du arbeitest gern mit verschiedenen internen Teams und Kunden zusammen und bewegst dich sicher in einer Rolle zwischen Support, Technik und Projektarbeit.
-*   **Hohe Präsenz vor Ort & Mobilität:** Du bist bereit, den Großteil deiner Arbeit in unserem neuen Büro am Leonrodplatz in München zu leisten und besitzt idealerweise einen Führerschein Klasse B für gelegentliche Kundentermine.
-
-Benefits
---------
-
-*   **Abwechslungsreicher Arbeitsalltag:** Unterschiedliche Tätigkeiten zwischen Systembetreuung, Support, Projektarbeit und gelegentlichen Kundeneinsätzen – kein Tag gleicht dem anderen.
-*   **Individuelle Entwicklungsmöglichkeiten:** Du kannst dich fachlich wie persönlich weiterentwickeln, eigene Ideen einbringen und aktiv mitgestalten – deine Vorschläge werden gehört und umgesetzt.
-*   **Familiäres & internationales Team:** Dich erwartet ein vielfältiges, offenes Team mit kurzen Kommunikationswegen, echtem Zusammenhalt und der Möglichkeit, schnell Verantwortung zu übernehmen.
-*   **Modernes Büro in Top-Lage:** Ein frisch bezogenes, modern ausgestattetes Büro am Leonrodplatz in München – zentral, gut angebunden und ideal für direkte Abstimmungen.
-*   **Kurze Entscheidungswege:** Du arbeitest in einem kleinen Unternehmen mit direktem Zugang zu den Entscheidern und kannst wirklich etwas bewegen.
-*   **Sicherer Markt & spannendes Technologiefeld:** Du arbeitest in einer wachsenden Branche rund um Identitäts-, Zugangs- und Berechtigungsmanagement – mit hoher Zukunftssicherheit.
-*   **Kundenkontakt & Praxisnähe:** Durch regelmäßigen Austausch mit Anwendern und Kundenteams erhältst du tiefe Einblicke in reale Einsatzszenarien und kannst technische Lösungen unmittelbar mitgestalten.
-
-**Interesse?**
-
-Dann bewirb dich jetzt – ohne Anschreiben, ganz unkompliziert. Ein Lebenslauf (DE oder EN) genügt völlig.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nOur company is a leading software manufacturer in Identity and Access Management (PIAM), providing a platform that controls digital and physical access permissions for individuals within organizations. Our solutions are critical for ensuring secure and rapid access management in demanding environments like critical infrastructure, industry, aviation, and technology corporations, equipping employees and external partners with necessary access and IDs.\n\n### Responsibilities\nIn this diverse role, you will engage in three key areas: long-term customer project support, technical assistance for evolutionID solutions, and participation in smaller software projects. This includes a versatile mix of system administration, support, and project work.\n\n**Long-term Consulting Project with a Major Customer:**\n* Administer access and time recording systems, manage authorizations, and perform regular data maintenance.\n* Coordinate operations and troubleshoot disruptions, oversee updates/upgrades, and liaise with departments and technical service providers.\n* Manage on-site ID and card systems, maintain ID printers, and support the implementation of new production solutions.\n\n**Technical Support for evolutionID Solutions:**\n* Analyze and resolve support tickets for software, SaaS, and minor hardware issues, assisting our customers comprehensively.\n* Provide operational support for evolutionID modules, including ID, image, and RFID components, perform system maintenance, and ensure stable solution operation.\n\n**Project Implementation & Planning:**\n* Install, configure, and test our applications for smaller software projects, achieving quick, visible successes.\n* Contribute to project planning and development by working on technical specifications, documentation, and process analyses, gradually growing into larger projects.\n\n### Qualifications\nWe are looking for an individual who can thrive in a dynamic technical environment with a blend of practical experience and strong problem-solving skills.\n\n* **Relevant Professional Experience:** Possess a technical or IT-related educational background or equivalent practical experience in IT support or a technical environment.\n* **Technical Understanding:** Demonstrate basic IT knowledge and proficiency with software tools. Familiarity with access or time recording systems is a plus, but not mandatory.\n* **Problem-Solving Skills:** Capable of quickly and pragmatically analyzing technical inquiries and independently finding solutions, even in novel or ambiguous situations.\n* **Independent Work Ethic:** Responsible, hands-on, eager to learn, and comfortable in a dynamic, less bureaucratic setting.\n* **Strong Communication:** Professional and confident communicator, fluent in either German or English, with a solid command of the other language.\n* **Team & Interface Capability:** Enjoy collaborating with various internal teams and clients, adept at navigating a role that spans support, technical work, and project management.\n* **High On-site Presence & Mobility:** Willingness to work primarily from our new Munich office (Leonrodplatz) and ideally possess a Class B driver's license for occasional customer visits.\n\n### Author's Take\nThis is an exciting opportunity for a proactive and technically inclined individual looking for a varied role with significant growth potential. The company offers a supportive, collaborative, and less bureaucratic culture where your ideas are valued, and you can truly make an impact in a critical and future-proof industry. With a mix of system administration, technical support, and project work, alongside individual development paths and a close-knit international team, it's an ideal environment to expand your skills and take on increasing responsibility.

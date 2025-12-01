@@ -9,81 +9,47 @@ postedDate: '2025-11-27T15:31:57.000Z'
 expirationDate: null
 tags:
   - Business Consulting
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/scaleon-gmbh/werkstudent-consulting-company-building-berlin-299284
 companyLogoUrl: null
+companyCulture: >-
+  scaleon is a strategic consulting firm with a pragmatic, hands-on approach.
+  They foster a culture of continuous learning, direct feedback, and long-term
+  development. The work environment is characterized by flat hierarchies,
+  flexible hours, hybrid work options, and a strong emphasis on work-life
+  balance (24 vacation days). They value collaboration, entrepreneurial spirit,
+  and a touch of humor.
+story_question1: >-
+  How does a working student meaningfully contribute to client strategy projects
+  while also shaping the company's internal growth and brand?
+story_answer1: >-
+  Being a working student here is far from just making coffee! From day one,
+  you're deeply integrated. On the client side, you'll be dissecting data,
+  crafting compelling presentations for top management, and helping shape
+  tangible business cases – it’s like a crash course in high-stakes consulting.
+  Simultaneously, you’re a key player in our own 'company building.' Imagine not
+  just observing, but actively driving our content strategy, optimizing internal
+  processes with AI, or shaping our employer brand. It’s an incredible
+  opportunity to see both sides of a fast-growing strategic consultancy, giving
+  you unparalleled insights and real ownership.
+story_question2: >-
+  Given the focus on "Company Building & Wachstum," what specific opportunities
+  exist for a working student to truly innovate and implement their own ideas
+  for internal improvement or growth?
+story_answer2: >-
+  This is where the 'Company Building' part really shines. We’re lean, agile,
+  and always looking for smart solutions. As a working student, you’re not just
+  executing; you’re encouraged to spot opportunities. For instance, we’ve had
+  working students research and implement new AI tools for knowledge management,
+  or completely revamp our social media engagement strategy. If you identify a
+  potential for process optimization, a new content format, or a way to
+  strengthen our employer brand, you’ll work directly with our founders to
+  develop and even pilot those ideas. It's a true test of entrepreneurial spirit
+  and a chance to leave a lasting mark on how we operate and grow.
 ---
-Jobbeschreibung
----------------
-
-Wir sind scaleon. Eine strategische Beratung für Unternehmen, die nicht nur über Transformation spricht, sondern dabei hilft, sie konsequent umzusetzen. In einer Welt, in der Stillstand Rückschritt bedeutet, helfen wir Organisationen, ihre Zukunft aktiv zu gestalten – mit klarer Strategie, nachhaltigen Strukturen und einer Kultur, die Veränderung trägt.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Unser Anspruch: Wir bringen Unternehmen von der Idee zur Umsetzung. Ob Strategy Execution, Organisationsentwicklung oder Skalierung – wir begleiten Führungsteams dabei, ambitionierte Ziele in messbare Erfolge zu verwandeln. Dabei denken wir analytisch, handeln pragmatisch und gestalten Veränderungen, die wirklich greifen.
-
-Wenn du in einem Umfeld arbeiten willst, das strategische Weitsicht mit echter Umsetzungskraft verbindet, bist du bei scaleon genau richtig. Hier treibst du Transformationen voran, die den Unterschied machen – für Unternehmen, Märkte und Menschen.
-
-**Was Du bewirkst**
-
-Als Werkstudent:in Consulting & Company Building bei scaleon wirst Du ein integraler Teil unseres Teams: Du unterstützt unsere Consultants bei der Arbeit an spannenden Strategieprojekten und hilfst aktiv dabei, den Wachstumskurs unseres Unternehmens voranzutreiben. Damit kombinierst Du strategische Exzellenz mit unternehmerischem Gestaltungswillen.
-
-Consulting & Strategie:
------------------------
-
-*   Du unterstützt unsere Consultants bei Strategieprojekten – mit Fokus auf Analysen, Recherchen oder der Entwicklung von Präsentationen.
-*   Du erhältst Einblicke in die Arbeit mit dem Top-Management unserer Klient:innen und lernst dabei, wie aus Daten und Ideen konkrete Lösungen werden.
-*   Du arbeitest an der Ausgestaltung von Business Cases und konzeptionellen Frameworks mit – immer im engen Austausch mit unseren Consultants.
-*   Du unterstützt bei der Erstellung von Angeboten und Pitch-Präsentationen für potenzielle Neukund:innen.
-
-Company Building & Wachstum:
-----------------------------
-
-*   Du treibst unsere internen Projekte voran – in engem Austausch mit unseren Gründern Philipp und Stefan.
-*   Du entwickelst Content-Strategien, managst unsere Social-Media-Kanäle und hilfst bei der Positionierung von scaleon als Strategy Execution Boutique.
-*   Du hilfst beim Aufbau unseres Netzwerks, gestaltest den Bewerbungsprozess mit und stärkst unsere Arbeitgebermarke.
-*   Du strukturierst unsere internen Wissensdatenbanken und sorgst für effektiven Wissenstransfer.
-*   Du identifizierst Potenziale für KI-gestützte Prozessoptimierung und setzt Lösungen um.
-
-Stellenanforderungen
---------------------
-
-Was Du mitbringst
-
-Wir suchen eine engagierte Persönlichkeit mit einem hohen Maß an Eigeninitiative, Lernfreude und Unternehmergeist. Du solltest sowohl analytisch stark als auch konzeptionell kreativ sein – und Lust haben, Dich in verschiedene Themen einzuarbeiten.
-
-*   Masterstudium in einem relevanten Bereich (z. B. Wirtschaft, Technik, Marketing, Informatik) mit exzellenten Leistungen.
-*   Erste Praxiserfahrungen in Beratung, Start-ups oder relevanten Themenbereichen (z. B. Marketing, Recruiting, KI, Business Development).
-*   Ausgeprägtes Interesse an Strategie, Innovation, digitalen Geschäftsmodellen und neuen Technologien.
-*   Analytisches Denkvermögen, strukturierte und lösungsorientierte Arbeitsweise.
-*   Hands-on-Mentalität, Ownership und Spaß an Teamarbeit.
-*   Tech-Affinität & Interesse an AI sind ein großes Plus.
-*   Sehr gute Deutschkenntnisse und verhandlungssicheres Englisch.
-*   In allen Sprachen kommunizierst Du offen, verbindlich, parkettsicher – und gerne auch mit Humor.
-
-Was wir anbieten
-----------------
-
-*   Du arbeitest direkt mit dem Top-Management unserer Klient:innen – im Mittelstand und in DAX Konzernen genauso wie in Tech-getriebenen und internationalen Scale-ups.
-*   Du lernst von unserem erfahrenen Team. Wir bereiten Dich vor auf einen Einstieg im Top Management Consulting.
-*   Du siehst das große Ganze, baust eine Firma mit uns auf und lernst, wie wir eine Beratungsbrand skalieren.
-*   Du baust Dein Netzwerk aus, bei Gründer:innen, Investor:innen und Top Management führender Unternehmen.
-*   Wir legen großen Wert auf gezielte Mitarbeiterentwicklung, regelmäßiges Training und Mentoring sowie Feedback auf Augenhöhe als Ergänzung zu intensivem Training on-the-Job. Wir wollen langfristig mit Dir arbeiten.
-*   Wir leben eine flache Organisation, arbeiten hybrid, haben flexible Arbeitszeiten und ermöglichen unter anderem mit 24 Urlaubstagen eine gute Balance zwischen Job, Sport und Privatleben.
-*   Wir bieten eine attraktive Vergütung entsprechend dem Standard führender Strategieberatungen.
-*   Wir haben ein modernes, helles Büro am Kurfürstendamm im Herzen Berlins.
-
-**Wer wir sind**
-
-Unsere Gründer sind erfahrene Unternehmer, Führungskräfte und Berater mit digitalem Background. Dies spiegelt sich in unserer pragmatischen Arbeitsweise wider. Wir haben flache Hierarchien und schnelle Wege. Jede/r kann mit unterschiedlicher Erfahrung zu uns kommen. Unsere kulturellen Werte hängen bei uns nicht an der Wand, sondern sie machen aus, wie wir mit unserem Gegenüber umgehen. Wir lachen gerne und nehmen uns selbst nicht zu ernst.
-
-Wir freuen uns auf Deine Bewerbung!
------------------------------------
-
-**Dein scaleon-Team**
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nscaleon is a strategic consultancy that goes beyond discussing transformation, actively helping companies implement it. In a world where stagnation means regression, we empower organizations to actively shape their future with clear strategies, sustainable structures, and a culture that embraces change. We guide leadership teams from idea to execution, turning ambitious goals into measurable success across strategy execution, organizational development, and scaling. If you're looking for an environment that combines strategic foresight with genuine implementation power, scaleon is the right place for you to drive transformations that make a real difference for companies, markets, and people.\n\nAs a Working Student in Consulting & Company Building, you will be an integral part of our team, supporting our consultants on exciting strategy projects and actively contributing to our company's growth. This role combines strategic excellence with an entrepreneurial drive for innovation.\n\n### Responsibilities\n**Consulting & Strategy:**\n*   Support consultants on strategy projects, focusing on analyses, research, and presentation development.\n*   Gain insights into working with top management clients, learning how data and ideas transform into concrete solutions.\n*   Contribute to the development of business cases and conceptual frameworks, in close collaboration with our consultants.\n*   Assist in preparing proposals and pitch presentations for potential new clients.\n\n**Company Building & Growth:**\n*   Drive our internal projects forward in close collaboration with our founders Philipp and Stefan.\n*   Develop content strategies, manage our social media channels, and help position scaleon as a Strategy Execution Boutique.\n*   Assist in building our network, shaping the application process, and strengthening our employer brand.\n*   Structure internal knowledge databases and ensure effective knowledge transfer.\n*   Identify potentials for AI-driven process optimization and implement solutions.\n\n### Qualifications\nWe are looking for a dedicated individual with a high degree of initiative, eagerness to learn, and entrepreneurial spirit. You should be analytically strong, conceptually creative, and keen to dive into diverse topics.\n*   Master's degree in a relevant field (e.g., Business, Technology, Marketing, Computer Science) with excellent academic performance.\n*   First practical experience in consulting, start-ups, or relevant areas (e.g., Marketing, Recruiting, AI, Business Development).\n*   Strong interest in strategy, innovation, digital business models, and new technologies.\n*   Analytical thinking, a structured and solution-oriented working approach.\n*   Hands-on mentality, ownership, and enjoyment of teamwork.\n*   Tech-affinity & interest in AI is a significant plus.\n*   Very good German language skills and business-fluent English.\n*   Communicate openly, reliably, confidently, and with humor in all languages.\n\n### Author's Take\nThis \"Working Student\" role at scaleon is an exceptional opportunity for an ambitious Master's student to gain hands-on experience in both client-facing strategy consulting and internal company building. It offers a unique blend of strategic analysis and entrepreneurial execution, working directly with founders and top-tier clients. The company emphasizes learning, mentorship, flat hierarchies, and a strong work-life balance. For someone looking to launch a career in top management consulting or build a startup, the exposure and responsibilities offered here are invaluable. The focus on AI and digital transformation also makes it highly relevant for future-proof skills.

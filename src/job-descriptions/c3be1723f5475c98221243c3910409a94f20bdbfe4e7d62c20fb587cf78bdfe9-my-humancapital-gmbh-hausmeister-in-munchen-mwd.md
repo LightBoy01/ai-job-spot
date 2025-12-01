@@ -11,46 +11,45 @@ tags:
   - Building
   - Supply
   - Safety Services Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hausmeister-in-munchen-munich-48416
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a supportive and collaborative environment with flat
+  hierarchies and a strong team spirit. They prioritize work-life balance
+  through a 39-hour week and offer ample opportunities for professional
+  development and varied, engaging work.
+story_question1: >-
+  How does the Hausmeister role directly contribute to creating a positive and
+  productive environment for events and daily operations at the facility?
+story_answer1: >-
+  Oh, that's a great question! As a Hausmeister here, you're really the backbone
+  of the facility. Imagine an important seminar needing quick tech support, or a
+  crucial event where room setup needs to be flawless – that's where you step
+  in. We see our Hausmeisters as vital enablers, ensuring everything runs
+  smoothly, from pristine rooms to functioning AV equipment. Your proactive
+  checks and quick fixes mean our staff can focus on their core tasks, and our
+  visitors always have a professional, welcoming space. It’s about more than
+  just maintenance; it’s about upholding our standard of excellence and directly
+  contributing to the success of every event and every workday.
+story_question2: >-
+  Given the need to coordinate various external service providers, what are the
+  key challenges and how is success measured in ensuring quality and efficiency?
+story_answer2: >-
+  Coordinating external partners definitely has its nuances. The biggest
+  challenge is ensuring that external cleaning crews or handymen adhere to our
+  specific quality and safety standards, especially when working on a tight
+  schedule or around ongoing activities. We overcome this by fostering strong,
+  clear communication and building trust. Success isn't just about getting the
+  job done; it's about timeliness, attention to detail, and minimal disruption
+  to our operations. We measure it by the seamless integration of these services
+  into our daily flow, ensuring that visitors and staff always experience a
+  clean, safe, and fully functional environment. Your organizational talent here
+  is truly invaluable.
 ---
-Hausmeister (m/w/d) in München – starten Sie jetzt Ihre neue berufliche Herausforderung!
-
-Unser Partnerunternehmen in München sucht Sie als **„Hausmeister (m/w/d)“**.
-
-**Aufgaben**
-------------
-
-*   Als **Hausmeister (m/w/d)** sind Sie verantwortlich für die Vorbereitung und Betreuung von Veranstaltungen, inklusive Aufbau und Umbau von Unterrichts- und Seminarräumen
-*   Dabei führen Sie regelmäßige Gebäude- und Raumkontrollen durch, überwachen Lagerräume und nehmen Warenlieferungen entgegen
-*   Sie koordinieren und kontrollieren externe Dienstleister wie Reinigungsfirmen oder Handwerksbetriebe und stellen die Einhaltung von Qualitäts- und Sicherheitsstandards sicher
-*   Zudem übernehmen Sie kleinere Reparaturen, Instandhaltungsarbeiten und Reinigungsaufgaben eigenständig und sorgen für Ordnung und Sauberkeit im gesamten Gebäude
-*   Auch die Betreuung der Medientechnik, regelmäßige Geräteprüfungen sowie die Unterstützung von Mitarbeitenden bei technischen Fragen gehören zu Ihrem Aufgabenbereich
-
-**Qualifikation**
------------------
-
-*   Sie bringen eine Ausbildung in einem handwerklichen oder technischen Beruf, wie Elektriker (m/w/d), Anlagenmechaniker für Sanitär-, Heizungs- und Klimatechnik (m/w/d), Tischler (m/w/d) oder eine vergleichbare Qualifikation als Haustechniker (m/w/d) oder Hausmeister (m/w/d), mit
-*   Sie verfügen über handwerkliches Geschick, technisches Verständnis und idealerweise bereits Erfahrung in der Hausmeistertätigkeit, Gebäudetechnik oder im Facility Management
-*   Zuverlässigkeit, Organisationstalent und eine strukturierte sowie eigenständige Arbeitsweise zeichnen Sie aus
-*   Sichere Deutschkenntnisse runden Ihr Profil ab
-
-**Benefits**
-------------
-
-*   **Work-Life-Balance:** Freuen Sie sich auf eine 39-Stunden-Woche
-*   **Fahrtkostenzuschuss:** Das Unternehmen übernimmt Ihre Fahrtkosten mit öffentlichen Verkehrsmitteln
-*   **Onboarding:** Ihre erfahrenen Kollegen stehen Ihnen während der Einarbeitung mit Rat und Tat zur Seite
-*   **Entwicklung:** Firmenintern gibt es zahlreiche Weiterbildungs- und Entwicklungsmöglichkeiten
-*   **Vielseitigkeit:** Freuen Sie sich auf spannende und abwechslungsreiche Tätigkeiten in einem dynamischen Umfeld
-*   **Teamspirit:** Sie erwarten flache Hierarchien, kurze Entscheidungswege sowie eine wertschätzende Zusammenarbeit
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Veronica Wild** gerne unter **089 954 287 106** zur Verfügung.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\nJoin our partner company in Munich as a dedicated Hausmeister (m/w/d). In this crucial role, you will ensure the smooth operation, maintenance, and cleanliness of the facility, playing a vital part in preparing and supporting various events and daily activities.\\n\\n### Responsibilities\\n* Prepare and support events, including setting up and rearranging classrooms and seminar rooms.\\n* Conduct regular building and room inspections, monitor storage areas, and receive goods deliveries.\\n* Coordinate and supervise external service providers such as cleaning companies or craftsmen, ensuring compliance with quality and safety standards.\\n* Perform minor repairs, maintenance work, and cleaning tasks independently, ensuring order and cleanliness throughout the building.\\n* Manage media technology, conduct regular equipment checks, and assist staff with technical inquiries.\\n\\n### Qualifications\\n* Completed vocational training in a craft or technical profession (e.g., electrician, plant mechanic for plumbing/heating/air conditioning, carpenter) or a comparable qualification as a building technician or caretaker.\\n* Demonstrated manual dexterity, technical understanding, and ideally prior experience in caretaking, building technology, or facility management.\\n* Reliability, strong organizational skills, and a structured, independent working approach.\\n* Proficient German language skills.\\n\\n### Author's Take\\nThis is an excellent opportunity for a skilled and organized individual to take on a multifaceted role in a supportive environment. The company values work-life balance, offering a 39-hour week, and invests in its employees with numerous internal development opportunities. With flat hierarchies and a focus on appreciative collaboration, you'll be part of a team where your contributions are recognized and your expertise is essential to maintaining a high-quality facility. The variety of tasks ensures that no two days are the same, making this a rewarding position for someone who enjoys practical work and operational excellence.

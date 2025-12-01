@@ -10,58 +10,49 @@ expirationDate: null
 tags:
   - Remote
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ticket-io-gmbh/senior-fullstack-entwickler-nodejs-cologne-271705
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative and self-organized environment with a
+  strong emphasis on work-life balance through flexible hours, remote options,
+  and generous leave. They value continuous learning and offer opportunities for
+  professional growth within an open and appreciative culture.
+story_question1: >-
+  Given the nature of event ticketing, how does the team ensure the software
+  remains robust and scalable, especially during high-demand periods like major
+  ticket releases, and what kind of impact does a successful deployment have on
+  the user experience and overall business?
+story_answer1: >-
+  That's a fantastic question and really hits at the heart of what we do. When a
+  major event goes live, it's all hands on deck. We've built our infrastructure
+  on AWS, leveraging microservices specifically to handle those peak loads.
+  What's truly rewarding is seeing hundreds of thousands of tickets processed
+  seamlessly – knowing that because of our robust solutions, fans get their
+  tickets without a hitch, and event organizers can focus on the show. It's a
+  huge collective effort, and when everything works as planned, you can
+  genuinely feel the positive ripple effect across the entire ecosystem, from
+  the happy customers to the successful events our platform enables.
+story_question2: >-
+  The job description mentions self-organized domain teams and a 'you built it,
+  you run it' motto. Could you elaborate on how this translates into daily
+  development practices and the level of autonomy and ownership individuals have
+  within the Fulfillment Team?
+story_answer2: >-
+  Absolutely. Our 'you built it, you run it' philosophy isn't just a slogan;
+  it's how we empower our engineers. Within the Fulfillment Team, we truly own
+  our domain, from conceptualizing new features to monitoring them in
+  production. This means you're involved from the very start – analyzing
+  requirements, making architectural decisions, and then seeing your code
+  deployed and used. There's a lot of trust and autonomy, which makes the work
+  incredibly engaging. If you see a way to improve something, you're encouraged
+  to drive that change. It’s challenging, yes, but it means you have a real
+  stake in the success of the features you build, fostering a deep sense of
+  responsibility and pride.
 ---
-Als neues Mitglied unseres Fulfillment Teams treibst Du mit uns den Entwicklungsprozess von Softwarelösungen für die Bereiche Ticketerstellung und Versand voran. Das Fulfillment Team ist eines der drei selbstorganisierten Domainteams der ticket i/O IT, die am Online-Ticketing für Veranstaltungen arbeiten. Derzeit besteht es aus 4 Personen, darunter ein Tech Lead sowie ein Product Owner.
-
-Insgesamt darfst Du dich auf 30 Teamkolleg:innen in der IT und dem Produktteam freuen. Neue Features sowie die Weiterentwicklung unserer Online-Ticketing Software treibst Du mit uns in Sprints voran. TypeScript (nodeJS) ist dabei unsere Programmiersprache der Wahl, als Framework vertrauen wir auf die Vorzüge von nestJS im Backend, sowie ReactJS im Frontend. Unsere Anwendung bauen und hosten wir auf AWS und schaffen so eine auf Micro-Services basierende und skalierbare Infrastruktur. Bist Du am Start?
-
-Wer wir sind? Wir sehen uns als innovatives Unternehmen der Ticketing- und Veranstaltungsbranche. Dabei verarbeiten wir die langjährigen Erfahrungen aus Event-, Freizeit- Sport- und Messebereich mit der besten Technologie zu einer intuitiven Softwarelösung. Seit 2014 sorgen mittlerweile gut 90 Mitarbeiter:innen mit viel Engagement für einen reibungslosen Ablauf vor, während und nach einer Veranstaltung.
-
-Aufgaben
---------
-
-*   Unterstütze dein Team in der ständigen Weiterentwicklung und Neu-Implementierung für das Erzeugen und Entwerten von Veranstaltungstickets sowie deren Versand
-*   Konzipiere und entwickle neue Features: von der Analyse der Anforderungen bis zur Umsetzung der einzelnen Entwicklungsschritte
-*   Wäge lösungsorientiert, pragmatisch und wirtschaftlich zwischen visionären Ideen und optimaler Software Architektur ab
-*   Übernimm die Prozessüberwachung (Monitoring) und berücksichtige dabei besonders die Skalierbarkeit
-*   Ein wenig Operation (DevOps), in Zusammenarbeit mit unseren beiden Administratoren
-*   Wir arbeiten nach dem Motto “you built it, you run it”, mit Unterstützung von unserem CoreTeam als Framework vertrauen wir auf die Vorzüge von nestJS im Backend, sowie React im Frontend
-
-Qualifikation
--------------
-
-*   Du magst die Arbeit in agilen Teams und arbeitest selbstorganisiert und eigenverantwortlich
-*   Du hast Erfahrung mit Distributed Systems
-*   Du kennst dich aus: vom Frontend zum Backend über die Infrastruktur hin bis zur Datenbank
-*   Du besitzt mehrjährige (berufliche) Erfahrung mit Node.js und gehst sicher mit JavaScript um (idealerweise mit TypeScript)
-*   Du hast einen Blick für saubere Architekturen und Schnittstellen
-*   Du perfektionierst deine Arbeit mit Hilfe von UnitTests & Co. und nutzt GIT um mit deinem Team im sync zu bleiben
-*   Du bist wissbegierig und hast keine Scheu, neue Programmiersprachen, Technologien und Methoden kennen zu lernen
-*   Du sprichst fließend Englisch und gutes Deutsch (mind. B2)
-*   Erfahrung mit DDD (Domain Driven Designs) oder AWS Kenntnissen sind ein Plus
-
-Benefits
---------
-
-*   Modernes Apple-Hardware, freie IDE-Auswahl, dazu zwei 4k-Bildschirme an den Arbeitsplätzen im Office
-*   Work-Life-Balance: Gleitzeit und Homeoffice (bis zu 100% remote), Firmenfitness (Urban Sports-Mitgliedschaft) & 30 Tage Urlaub plus 2 Tage Betriebsferien
-*   JobRad: Lease über uns dein neues Traummodell
-*   Gute Absicherung: profitiere von betrieblich bezuschusster Berufsunfähigkeits- und Altersvorsorge
-*   Eine offene und wertschätzende Atmosphäre im Arbeitsalltag und darüber hinaus - genieße mit uns einzigartige Sommerfeste, Weihnachtsfeiern und unterschiedlichste weitere Team-Aktivitäten
-
-Neben den fachlichen Anforderungen suchen wir Menschen, die zu uns passen. Erfahrung und Menschlichkeit sind für uns das Wichtigste. Einblicke zu Arbeit und Unternehmenskultur findest Du daher auch in unserem [kununu-Profil](https://www.kununu.com/de/ticket-io1) und bei [instagram](https://www.instagram.com/ticket.io/), schau gerne vorbei! 🙂
-
-Lust bekommen? Stelle zusätzliche Fragen oder bewirb dich direkt inkl. Lebenslauf, Link zu deinem Github-Account, Gehaltsvorstellung und möglichem Startdatum z. Hd. von Yvonne.
-
-Wir sind gespannt auf deine Bewerbung!  
-Dein Team von ticket i/O
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nJoin the Fulfillment Team as a Software Developer and drive the development process for software solutions related to ticket creation, validation, and dispatch. The Fulfillment Team is one of three self-organized domain teams within ticket i/O IT, focusing on online ticketing for events. You'll collaborate with approximately 30 IT and product team colleagues, pushing new features and evolving existing online ticketing software in sprints. The primary tech stack includes TypeScript (Node.js) with NestJS for the backend and ReactJS for the frontend. The application is built and hosted on AWS, creating a scalable, microservices-based infrastructure.\n\nticket i/O is an innovative company in the ticketing and event industry, combining extensive experience from events, leisure, sports, and trade fairs with cutting-edge technology to create intuitive software solutions. Since 2014, over 90 dedicated employees have ensured smooth operations before, during, and after events.\n\n### Responsibilities\n- Support the team in the continuous development and new implementation for generating, validating, and dispatching event tickets.\n- Design and develop new features, from requirements analysis to the implementation of individual development steps.\n- Make solution-oriented, pragmatic, and economical decisions between visionary ideas and optimal software architecture.\n- Take ownership of process monitoring, with a particular focus on scalability.\n- Perform operational tasks (DevOps) in collaboration with two administrators, adhering to the \"you built it, you run it\" philosophy.\n\n### Qualifications\n- Enjoy working in agile, self-organized, and independent teams.\n- Experience with Distributed Systems.\n- Comprehensive understanding from frontend to backend, infrastructure, and databases.\n- Several years of professional experience with Node.js and proficiency in JavaScript (ideally TypeScript).\n- A keen eye for clean architectures and interfaces.\n- Perfect your work using Unit Tests & co. and leverage GIT to stay synchronized with your team.\n- Eager to learn and not afraid to explore new programming languages, technologies and methods.\n- Fluent in English and good German (at least B2).\n- Experience with DDD (Domain Driven Designs) or AWS knowledge is a plus.\n\n### Author's Take\nThis is an excellent opportunity for a Mid-Senior Node.js/TypeScript Developer who thrives in an autonomous, collaborative, and agile environment. The role offers the chance to work on a high-impact product within the event ticketing industry, utilizing a modern tech stack on AWS. The company clearly values its employees, offering superb work-life balance benefits, continuous learning opportunities, and a supportive culture. If you're passionate about owning your work end-to-end and contributing to a scalable platform, this role promises significant engagement and growth.
