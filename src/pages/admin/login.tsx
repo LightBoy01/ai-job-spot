@@ -14,12 +14,12 @@ const AdminLogin: React.FC = () => {
   const router = useRouter();
   const { user } = useAuth(); // Use the auth state
 
-  // This useEffect will trigger the redirect once the user object is available
-  useEffect(() => {
-    if (user) {
-      router.push('/admin');
-    }
-  }, [user, router]);
+  // The redirect is handled in handleLogin after the session cookie is set
+  // useEffect(() => {
+  //   if (user) {
+  //     router.push('/admin');
+  //   }
+  // }, [user, router]);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -49,8 +49,8 @@ const AdminLogin: React.FC = () => {
       }
 
       toast.success('Login successful! Redirecting...', { id: toastId });
-      // The redirect is now handled by the useEffect hook.
-      // router.push('/admin'); // This line is removed.
+      // The redirect is now handled manually to ensure the cookie is set first
+      router.push('/admin');
     } catch (err) {
       const error = err as { code?: string; message?: string };
       console.error('Login error:', error);
