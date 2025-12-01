@@ -9,75 +9,70 @@ postedDate: '2025-11-27T13:01:50.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ksp-stubben-partner-mbb/diplom-finanzwirt-fh-in-vollzeit-dusseldorf-389997
 companyLogoUrl: null
+companyCulture: >-
+  KSP fosters a highly collaborative, familial, and open culture characterized
+  by flat hierarchies and strong teamwork, where mutual respect is paramount.
+  The firm strongly supports professional growth through tailored development
+  opportunities, including assistance for further certifications, and
+  prioritizes work-life balance with flexible, family-friendly hours and regular
+  team events.
+story_question1: >-
+  Given KSP's focus on international clients and specialized language desks, how
+  does this role specifically contribute to supporting diverse global mandates,
+  and what opportunities are there to engage with different cultures and legal
+  frameworks?
+story_answer1: >-
+  That's a fantastic question and truly at the heart of what makes working at
+  KSP so dynamic. As a tax specialist here, you're not just dealing with local
+  cases; you're often at the forefront of international tax structuring. For
+  instance, last month, I was involved in advising a major multinational on
+  their global tax strategy, collaborating closely with our China Desk to
+  navigate complex cross-border regulations. It's incredibly rewarding to see
+  your expertise directly impact international business decisions. The firm
+  actively encourages engaging with colleagues from different desks, and we have
+  internal workshops where we learn about various legal and cultural nuances. It
+  truly broadens your horizon and ensures your skills remain cutting-edge in a
+  globalized world.
+story_question2: >-
+  For someone aiming to pursue the tax consultant exam, how does KSP
+  specifically support its employees in achieving this significant professional
+  milestone, beyond just offering tailored training?
+story_answer2: >-
+  The journey to becoming a certified tax consultant is a challenging one, and
+  KSP is deeply committed to supporting our team members through it. It's more
+  than just providing courses; it's about creating an environment where you can
+  truly prepare. We offer flexible working hours, which is crucial for study
+  time, and many senior colleagues who have already passed the exam act as
+  mentors, sharing their insights and practical advice. We also try to align
+  your project work where possible with topics relevant to the exam, allowing
+  you to gain practical experience while studying. We understand that this is a
+  major investment in your future, and the firm sees it as an investment in
+  *our* future too, ensuring you have the best possible chance of success.
+story_question3: >-
+  KSP really emphasizes its flat hierarchies and strong team cohesion. Could you
+  share a specific example of how this culture translates into daily work,
+  perhaps in terms of collaboration on a complex project or how new ideas are
+  brought forward and implemented?
+story_answer3: >-
+  Absolutely. I recall a challenging case recently involving a tricky succession
+  planning for a long-standing family business. The complexity required input
+  from various experts – not just tax, but also legal aspects which we touch
+  upon. Instead of a rigid, top-down approach, our partners actively encouraged
+  an open brainstorming session involving even junior colleagues. My suggestion
+  for a specific clause, which I had researched, was not only heard but
+  seriously considered and ultimately incorporated into the client's solution.
+  This wasn't an exception; it's how we operate. New ideas are always welcome,
+  regardless of your seniority, and the ease of walking over to a partner's
+  office for a quick chat, rather than scheduling formal meetings, truly speeds
+  up decision-making and fosters a genuine sense of shared ownership and
+  collaboration.
 ---
-Bevor wir dir mehr über die Stelle erzählen, möchten wir uns kurz vorstellen – denn nicht nur du suchst den passenden Job, sondern auch wir das passende Teammitglied.
-
-**Wir stellen uns vor**
-
-KSP – rund 70 Persönlichkeiten, zwei Standorte in Düsseldorf und München, das nahezu gesamte Spektrum der Steuerberatung und Wirtschaftsprüfung und Mandate, die vom regionalen Mittelständler bis hin zum internationalen Konzern reichen. So weit, so gut – doch was unterscheidet uns wirklich von anderen Kanzleien unserer Größenordnung?
-
-Zum einen betreuen wir überdurchschnittlich viele größere und international aufgestellte Unternehmen. Mit unserem mehrsprachigen Team und unseren Spanish, China und Japan Desks beraten wir Mandanten direkt in ihrer Landessprache. Wer jedoch lieber den Fokus auf nationale Mandate legt, ist bei uns mindestens genauso richtig.
-
-Zum anderen – und das ist unserer Meinung nach noch viel wichtiger – sind es die unterschiedlichen Persönlichkeiten hinter KSP, die unsere Kanzlei prägen. Flache Hierarchien, kurze Entscheidungswege und ein starkes Miteinander sind bei uns keine Floskeln, sondern gelebte Praxis. Hier kennt jeder jeden, wir sind per Du und legen Wert auf eine offene, wertschätzende Arbeitsatmosphäre – denn die Arbeit macht deutlich mehr Spaß, wenn das Miteinander stimmt.
-
-Aufgaben
---------
-
-**Deine Aufgaben**
-
-Du hast dein Studium zum Diplom-Finanzwirt (FH) abgeschlossen und suchst bewusst nach einer neuen Perspektive außerhalb der Finanzverwaltung? Bei uns erwartet dich ein modernes, dynamisches Kanzleiumfeld, das fachlich viel zu bieten hat und dir die Möglichkeit gibt, gezielt weiterzukommen. Ob nationale Steuergestaltung, internationale Strukturen oder anspruchsvolle Mandate: Du kannst dein Wissen direkt einbringen, ausbauen und dich in dem Bereich entwickeln, der dich wirklich interessiert. Zu deinen Aufgaben gehören unter anderem:
-
-*   Du berätst unsere Mandanten in nationalen und internationalen Steuerfragen sowie zur optimalen Steuergestaltung. Auch bei privaten und betrieblichen Rechtsverhältnissen beziehst du steuerliche Aspekte gezielt mit ein.
-*   Du prüfst Steuerbescheide und erstellst entsprechende Steuererklärungen.
-*   Du erstellst je nach Stellenschwerpunkt ggf. auch Jahresabschlüsse für Personen- und Kapitalgesellschaften und begleitest steuerliche Betriebsprüfungen
-*   Du bearbeitest ggf. auch im geringem Umfang Finanzbuchhaltungen
-*   Du begleitest Betriebsprüfungen und steuerliche Rechtsmittelverfahren
-
-Qualifikation
--------------
-
-**Dein Profil**
-
-Du übernimmst gerne Verantwortung, findest fundierte Lösungen und willst deine Mandate eigenständig und vorausschauend betreuen? Gleichzeitig ist dir ein dynamisches Umfeld wichtig, das fachliche Tiefe, Internationalität und echtes Teamgefühl vereint? Dann bist du bei uns genau richtig.
-
-*   Du hast ein abgeschlossenes Studium als Diplom-Finanzwirt (FH) und strebst in Zukunft das Steuerberaterexamen an
-*   Du hast (erste) Berufserfahrung in der Finanzverwaltung oder in einer Steuerberatungskanzlei
-*   Du bist motiviert, dich in DATEV einzulernen oder kennst dich hier bereits mit aus
-*   Du überzeugst durch ein freundliches Auftreten, Teamgeist und eine sorgfältige, verlässliche Arbeitsweise.
-*   Du verfügst über gute Englischkenntnisse in Wort und Schrift oder möchtest diese durch die Unterstützung unseres Inhouse-Englischtrainers auffrischen bzw. weiterentwickeln.
-
-Benefits
---------
-
-**Unsere Benefits**
-
-Wir wissen, dass gute Arbeit gute Rahmenbedingungen benötigt. Deshalb legen wir großen Wert darauf, dass wir dich nicht nur während der Arbeitszeit optimal unterstützen, sondern mit den folgenden Benefits auch darüber hinaus dafür sorgen, dass du dich rundum wohlfühlst:
-
-*   **Attraktive Rahmenbedingungen:** Überdurchschnittliche Vergütung, flexible und familienfreundliche Arbeitszeiten.
-*   **Individuelle Förderung:** Auf dich zugeschnittene Fort- und Weiterbildungsangebote.
-*   **Modernes Arbeiten:** Ergonomische Arbeitsplätze, digitale Prozesse und eine erstklassige IT-Ausstattung.
-*   **Familiäres Team:** Flache Hierarchien, kurze Entscheidungswege und ein wirklich gutes Miteinander.
-*   **Fit bleiben:** JobRad, vergünstigte Fitnessstudio-Mitgliedschaft und Teilnahme an sportlichen Events.
-*   **Teamevents:** Regelmäßige und verschiedene Anlässe wie z.B.  Jubiläen, Feste, Geburtstage und Teamevents.
-
-**Klingt nach einem Umfeld, das zu dir passt?**
-
-Dann freuen wir uns auf deine Bewerbung! Falls du vorab Fragen hast oder uns einfach mal kennenlernen möchtest, melde dich gerne bei Julia.
-
-Wir sind gespannt, dich kennenzulernen!
-
-Deine Ansprechpartnerin:
-
-Julia Milles
-
-+4921190894400
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nBefore we tell you more about the position, we'd like to briefly introduce ourselves – because just as you're looking for the right job, we're also looking for the right team member.\n\nKSP – around 70 personalities, two locations in Düsseldorf and Munich, almost the entire spectrum of tax consulting and auditing, and mandates ranging from regional medium-sized companies to international corporations. But what truly distinguishes us from other firms of our size?\n\nFirstly, we serve an above-average number of larger and internationally operating companies. With our multilingual team and our Spanish, China, and Japan Desks, we advise clients directly in their native language. However, if you prefer to focus on national mandates, you are just as welcome here.\n\nSecondly – and in our opinion, even more important – it is the diverse personalities behind KSP that shape our firm. Flat hierarchies, short decision-making paths, and strong togetherness are not empty phrases for us, but lived practice. Here, everyone knows everyone, we are on first-name terms, and we value an open, appreciative working atmosphere – because work is much more fun when people get along.\n\nWe offer an attractive work environment with above-average compensation, flexible and family-friendly working hours, and state-of-the-art ergonomic workstations with digital processes and excellent IT equipment. We also support your well-being through JobRad, discounted gym memberships, and participation in sports events, alongside regular team events and celebrations. You will benefit from individual, tailored training and development opportunities, fostering continuous growth.\n\n### Responsibilities\nYou have completed your studies as a certified finance specialist (FH) and are deliberately looking for a new perspective outside of financial administration? With us, you can expect a modern, dynamic firm environment that offers a lot professionally and gives you the opportunity to advance specifically. Whether national tax structuring, international structures, or demanding mandates: You can directly apply and expand your knowledge and develop in the area that truly interests you. Your tasks include, among others:\n\n*   Advising our clients on national and international tax matters and optimal tax structuring. You will also specifically incorporate tax aspects into private and business legal relationships.\n*   Reviewing tax assessments and preparing corresponding tax declarations.\n*   Preparing annual financial statements for partnerships and corporations, depending on the focus of the position, and supporting tax audits.\n*   Potentially processing financial accounting to a small extent.\n*   Accompanying tax audits and tax appeal procedures.\n\n### Qualifications\nYou enjoy taking responsibility, finding well-founded solutions, and want to independently and proactively support your clients? At the same time, is a dynamic environment important to you that combines professional depth, internationality, and genuine team spirit? Then you are exactly right with us.\n\n*   You have a degree as a certified finance specialist (FH) and aim to take the tax consultant exam in the future.\n*   You have (initial) professional experience in financial administration or a tax consultancy firm.\n*   You are motivated to learn DATEV or are already familiar with it.\n*   You impress with a friendly demeanor, team spirit, and a meticulous, reliable work ethic.\n*   You have good English language skills, both written and spoken, or would like to refresh/further develop them with the support of our in-house English trainer.\n\n### Author's Take\nThis is a compelling opportunity for a driven Junior Tax Specialist looking to kickstart their career outside of public administration or accelerate it within a progressive private practice. KSP offers a unique blend of deep international exposure and a genuinely supportive, \"family-like\" culture with flat hierarchies. Candidates will find abundant opportunities for professional growth, including tailored support for the tax consultant exam, and a chance to work with diverse, complex mandates. The firm clearly values its employees, offering above-average compensation, flexible hours for work-life balance, and investing in modern workspaces and employee well-being. It's an ideal environment for someone who thrives on responsibility, continuous learning, and collaborative teamwork in an international context.

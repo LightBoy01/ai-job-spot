@@ -8,116 +8,66 @@ applicationLink: >-
 postedDate: '2025-11-27T21:45:13.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/sumup/team-lead-field-sales-baden-baden-263759
 companyLogoUrl: null
+companyCulture: >-
+  SumUp fosters a culture of high autonomy, ownership, and continuous growth,
+  empowering employees to lead and innovate. The company strongly supports
+  work-life balance through flexible remote options and comprehensive well-being
+  benefits, while promoting a collaborative and entrepreneurial spirit to help
+  small businesses thrive.
+story_question1: >-
+  What are the most significant challenges in leading a decentralized network of
+  self-employed sales consultants, and how does SumUp empower its leaders to
+  overcome them while maintaining a strong team culture?
+story_answer1: >-
+  Leading a network of self-employed consultants like our FSCs is truly unique.
+  It’s less about direct oversight and more about inspiration, strategic
+  enablement, and fostering a shared entrepreneurial spirit. The biggest
+  challenge is ensuring alignment and consistent performance across a diverse,
+  decentralized team. Here at SumUp, we tackle this by empowering our Team Leads
+  with significant autonomy and a robust learning and development budget. We
+  encourage a hands-on approach – you'll be actively selling alongside your
+  team, gaining direct market insights. This isn't just about hitting targets;
+  it's about shaping a culture where our consultants feel supported, trained,
+  and truly part of SumUp's mission to help small businesses thrive, making
+  their individual success a collective victory.
+story_question2: >-
+  Beyond sales targets, how does this role contribute to SumUp's broader
+  strategic vision for market penetration and product development in Germany?
+story_answer2: >-
+  This role is far more strategic than just managing a sales team. You're the
+  eyes and ears on the ground, the crucial link between our HQ and the real
+  needs of German small businesses. Your direct market insights from actively
+  selling and coaching are invaluable. You'll work closely with our leadership
+  to analyze performance, identify opportunities, and even design new market
+  initiatives. It's about shaping our German strategy, influencing everything
+  from product features to our national scaling efforts. You're not just
+  executing a plan; you're helping to write it, ensuring SumUp's offerings
+  genuinely resonate and lead the way in empowering local merchants.
+story_question3: >-
+  With a remote-first approach and extensive benefits, how does SumUp ensure its
+  employees, especially those in leadership roles with significant travel,
+  maintain a healthy work-life integration and feel connected to the company?
+story_answer3: >-
+  That's a fantastic question, and it's something we genuinely prioritize at
+  SumUp. We understand that a role like this, with its remote nature and 70-80%
+  field travel, requires strong support for work-life integration. Our fully
+  remote setup in Germany provides geographical flexibility, and for those who
+  prefer, we have offices in Cologne and Berlin. We back this up with tangible
+  benefits like a generous 30-day sabbatical after three years, a €2,000 annual
+  L&D budget, and comprehensive wellness perks like subsidised Urban Sports Club
+  memberships and corporate pension schemes. But beyond the benefits, we foster
+  connection through regular team events, strong internal communication
+  channels, and a culture that values autonomy and trusts you to manage your
+  schedule effectively. We believe that empowering our leaders with flexibility
+  and supporting their well-being is key to their success and our collective
+  impact.
 ---
-🚀 Team Lead – Field Sales (Germany)
-------------------------------------
-
-📍 Location: Remote in Germany   
-🕹️ Department: Field Sales  
-💼 Employment Type: Permanent contract - Full-time
-
-### Empowering Small Businesses, One Sale at a Time
-
-At SumUp, we're building a world where small businesses can thrive.  
-As a global fintech leader operating in 30+ countries, we provide over 4 million merchants with simple, affordable, and innovative payment solutions — from card readers and POS systems to business accounts and online stores.
-
-To strengthen our footprint across Germany, we're looking for a Territory Manager who will lead, grow, and inspire our network of **self-employed Field Sales Consultants (FSCs)** — helping small merchants adopt SumUp's products and succeed in their business journey.
-
-### Your Mission
-
-You'll be the strategic link between our freelancers in the field and SumUp's sales leadership — ensuring our consultants are motivated, high-performing, and delivering real impact.
-
-Your key responsibilities:
-
-*   Lead and grow our national sales network: Recruit, manage, and support **20–30 self-employed Field Sales Consultants across Germany.**
-    
-*   Drive hands-on sales success: Actively sell SumUp's POS and payment products to local businesses, gaining direct market insights.
-    
-*   Coach and enable your team: Provide continuous training, performance reviews, and on-the-ground support to help FSCs hit targets.
-    
-*   Analyse and optimise performance: Monitor KPIs, analyse sales data, and design initiatives to increase acquisition and retention.
-    
-*   Shape the German strategy: Work closely with HQ to share local insights, design market initiatives, and scale our presence nationwide.
-    
-
-### We're Looking For Someone Who
-
-*   Has proven experience in field sales, ideally in fintech, POS, merchant services, or telecom.
-    
-*   **Has managed 10+ freelancers, consultants, or commission-based sales teams** across different regions.
-    
-*   Is an entrepreneurial, hands-on leader who thrives on ownership and impact.
-    
-*   Understands the needs of small business owners and how to build long-term customer relationships.
-    
-*   Brings strong analytical skills and confidence working with Salesforce, Tableau, or other CRM tools.
-    
-*   Is fluent in German and English.
-    
-
-### What We Offer
-
-We believe in rewarding results, empowering autonomy, and investing in your growth.
-
-Competitive Compensation & Benefits
-
-*   Competitive base salary + uncapped commissions
-    
-*   VSOP (Virtual Stock Option Plan): equivalent to ~2 months of annual fixed salary per year
-    
-*   Car allowance (or company car if based in Berlin)
-    
-*   30-day sabbatical after 3 years' tenure
-    
-*   Learning & Development budget: €2,000/year
-    
-
-Work Flexibility
-
-*   Fully remote role anywhere in Germany
-    
-*   Preferably based in Cologne or Berlin (offices available)
-    
-*   Regular travel across Germany (70–80% field-based)
-    
-
-Employee Benefits
-
-*   SumUp Corporate Pension Scheme: 20% match to employee contributions (up to Social Security cap)
-    
-*   Corporate Benefits platform: access to 1,500+ brands with up to 60% discounts
-    
-*   Futureben: 10–30% discount on sustainable goods
-    
-*   Mobility options: BVG ticket, Navit app, or bike leasing
-    
-*   Urban Sports Club membership (subsidised) + in-office gym
-    
-*   Team sports: Beach volleyball, football, bouldering, and running teams
-    
-*   In-office perks: Free Monday breakfast, subsidised lunches (Tues–Thurs, €5), snacks, drinks, and social events
-    
-*   Childcare support (Kita cooperation)
-    
-
-### Why Join SumUp?
-
-This isn't just a sales role — it's a chance to shape and scale SumUp's field presence across Germany. You'll work with autonomy, lead passionate entrepreneurs, and contribute directly to helping small businesses succeed.
-
-If you're a natural leader with strong field experience and a passion for growing people and performance — we'd love to meet you.
-
-👉 Apply now and help us take SumUp's German Field Sales to the next level.
-
-**Job Application Tip**
-
-We recognise that candidates feel they need to meet 100% of the job criteria in order to apply for a job. Please note that this is only a guide. If you don't tick every box, it's ok too because it means you have room to learn and develop your career at SumUp.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nAt SumUp, a global fintech leader operating in 30+ countries, we're dedicated to empowering small businesses by providing simple, affordable, and innovative payment solutions to over 4 million merchants. As a Team Lead – Field Sales (Germany), you will be instrumental in strengthening our footprint across Germany. Your mission is to lead, grow, and inspire our network of 20-30 self-employed Field Sales Consultants (FSCs), ensuring they are motivated, high-performing, and effectively helping small merchants adopt SumUp's products and succeed. You will act as the strategic link between our field freelancers and SumUp’s sales leadership, driving both individual and team success.\\n\\n### Responsibilities\\n- Lead and grow our national sales network by recruiting, managing, and supporting 20–30 self-employed Field Sales Consultants across Germany.\\n- Drive hands-on sales success by actively selling SumUp's POS and payment products to local businesses, gaining direct market insights.\\n- Coach and enable your team through continuous training, performance reviews, and on-the-ground support to help FSCs hit targets.\\n- Analyse and optimise performance by monitoring KPIs, analysing sales data, and designing initiatives to increase acquisition and retention.\\n- Shape the German strategy by working closely with HQ to share local insights, design market initiatives, and scale our presence nationwide.\\n\\n### Qualifications\\n- Proven experience in field sales, ideally in fintech, POS, merchant services, or telecom.\\n- Demonstrated ability to manage 10+ freelancers, consultants, or commission-based sales teams across different regions.\\n- An entrepreneurial, hands-on leader who thrives on ownership and impact.\\n- Deep understanding of the needs of small business owners and how to build long-term customer relationships.\\n- Strong analytical skills and confidence working with Salesforce, Tableau, or other CRM tools.\\n- Fluent in both German and English.\\n\\n### Author's Take\\nThis is an exceptional opportunity for a seasoned sales leader with an entrepreneurial spirit to make a significant impact on SumUp's growth in Germany. The role offers substantial autonomy to shape strategy and lead a large network of self-employed consultants. SumUp fosters a culture of empowering autonomy and investing in growth, offering a competitive compensation package including uncapped commissions, VSOP, and a car allowance. The benefits are comprehensive, spanning generous learning & development budgets, a 30-day sabbatical, flexible remote work options (with 70-80% travel), and extensive well-being perks like corporate pension schemes, sports memberships, and childcare support. If you are passionate about developing people, driving performance, and contributing directly to the success of small businesses, this role provides a unique platform to scale a leading fintech's field presence and truly own your impact. SumUp also encourages applications even if you don't meet 100% of the criteria, emphasizing room for learning and development.

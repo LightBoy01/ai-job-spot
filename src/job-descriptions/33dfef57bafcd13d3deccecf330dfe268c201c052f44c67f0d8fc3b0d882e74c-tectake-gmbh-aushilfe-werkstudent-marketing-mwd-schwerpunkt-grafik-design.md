@@ -9,44 +9,46 @@ postedDate: '2025-11-30T00:32:06.000Z'
 expirationDate: null
 tags:
   - Graphic Arts and Communication Design
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/tectake-gmbh/aushilfe-werkstudent-marketing-schwerpunkt-grafik-design-hochberg-21216
 companyLogoUrl: null
+companyCulture: >-
+  tectake fosters a supportive, open, and collaborative work environment,
+  valuing work-life balance with flexible hours and modern workplaces. They
+  emphasize team spirit through events, support continuous learning, and promote
+  employee well-being with benefits like office dogs and free catering.
+story_question1: >-
+  How does this role directly contribute to tectake's continued growth, and what
+  opportunities are there for a working student to make a tangible impact on the
+  brand's visual identity?
+story_answer1: >-
+  As an insider, I can tell you that this role is crucial for our visual
+  presence. With our rapid growth, the sheer volume of product images and
+  marketing materials is immense. Your work on our Digital Asset Management
+  platform ensures that our product presentation is consistent and high-quality
+  across all channels. And when you're adapting graphics for newsletters or our
+  online shop, you're directly shaping how customers perceive our brand. We’re
+  not just looking for someone to push pixels; we want you to bring your fresh
+  perspective, learn from our team, and help us maintain our dynamic image as we
+  expand.
+story_question2: >-
+  Beyond the technical skills, what kind of soft skills or collaborative
+  approach do you find most valuable for success within the marketing team,
+  especially given the emphasis on team spirit and quick decision-making?
+story_answer2: >-
+  In our team, technical proficiency with Adobe Creative Cloud is a must, but
+  what truly sets people apart is their proactive and structured approach,
+  combined with a genuine team spirit. We thrive on open communication and quick
+  decision-making, so being able to articulate your ideas, receive feedback
+  gracefully, and adapt quickly is essential. We have office dogs, team events,
+  and an open culture for a reason – we believe that a harmonious and
+  collaborative atmosphere fosters creativity and efficiency. Someone who is
+  reliable, detail-oriented, and also enjoys being part of a vibrant team will
+  find a perfect fit here and grow immensely.
 ---
-tectake ist ein dynamisches E-Commerce-Unternehmen mit einem breiten und stetig wachsenden Produktsortiment rund um Wohnen, Haushalt, Freizeit und Hobby. Durch kontinuierliche Optimierungen setzen wir unsere erfolgreiche Entwicklung sowohl auf nationaler als auch auf internationaler Ebene fort. Um diesen Erfolg und das rasante Wachstum der letzten Jahre auch in Zukunft voranzutreiben, suchen wir für unseren Standort in Höchberg (Würzburg) eine **Aushilfe** oder einen **Werkstudenten im Bereich Marketing mit dem Schwerpunkt Grafik / Design (m/w/d)**.
-
-**Freuen darfst Du Dich auf:**
-------------------------------
-
-*   **Office Dogs** – Ein entspanntes und harmonisches Arbeitsumfeld durch tierische Begleiter
-*   **Corporate Benefits** – Attraktive Mitarbeiterrabatte und Vergünstigungen auf unser Sortiment
-*   ⚖**Family, friends and career** – Flexible Arbeitszeiten und ein moderner Arbeitsplatz für eine optimale Vereinbarkeit von Beruf und Privatleben
-*   **Teamspirit** – Gemeinsame Sportevents und Team-Veranstaltungen zur Stärkung des Zusammenhalts
-*   **More Benefits** – Unterstützung bei Weiterbildung und Teambuilding, ergonomische Arbeitsplätze, betriebliche Gesundheitsvorsorge sowie schnelle Entscheidungsprozesse in einer offenen Unternehmenskultur. Zusätzlich bieten wir kostenlose Verpflegungsmöglichkeiten
-
-**Deine Aufgaben:**
--------------------
-
-*   Aufbereitung von Bilddateien für unsere Digital Asset Management Plattform
-*   Upload und Organisation von Bildern sowie digitalen Inhalten auf unserer Digital Asset Management Plattform
-*   Unterstützung des Marketing-Teams bei der Gestaltung und Adaption von Grafiken für verschiedene digitale Inhalte (Newsletter, Onlineshop, Werbebanner, Werbemittel) im Tagesgeschäft
-*   Projektunterstützung
-*   Datenhandling und Erstellung druckfertiger PDF-Dateien
-*   Zudem besteht die Möglichkeit, Einblicke in weitere Themengebiete im Bereich Marketing, Grafik und Fotografie zu erhalten
-
-**Unsere Anforderungen an Dich:**
----------------------------------
-
-*   Idealerweise ein laufendes Studium in der Fachrichtung Digitale Medien, Kommunikationsdesign, Medien- und Kommunikationswissenschaften, Gestaltung oder Fotografie
-*   Erfahrung und fundierte Kenntnisse im Umgang mit den Programmen der Adobe Creative Cloud, insbesondere Photoshop, Illustrator und InDesign
-*   Selbstständige und zielorientierte Arbeitsweise
-*   Strukturiertes sowie zuverlässiges Vorgehen
-
-Werde Teil unseres tectake-Teams und entdecke unsere vielfältigen Mitarbeiterbenefits!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\ntectake is a dynamic e-commerce company with a broad and steadily growing product range for living, household, leisure, and hobby. Through continuous optimization, we continue our successful development both nationally and internationally. To drive this success and rapid growth in the coming years, we are looking for a part-time assistant or working student in Marketing with a focus on Graphics / Design (m/f/d) for our location in Höchberg (Würzburg). This role offers an opportunity to join a company that values a supportive, open, and collaborative work environment, promoting work-life balance with flexible hours, office dogs, team events, and various benefits for employee well-being and growth.\n\n### Responsibilities\n- Preparing image files for our Digital Asset Management platform.\n- Uploading and organizing images and digital content on our Digital Asset Management platform.\n- Supporting the marketing team in designing and adapting graphics for various digital content (newsletters, online shop, ad banners, promotional materials) in daily business.\n- Providing project support.\n- Handling data and creating print-ready PDF files.\n- Gaining insights into other areas of marketing, graphics, and photography.\n\n### Qualifications\n- Ideally, a current degree program in Digital Media, Communication Design, Media and Communication Sciences, Design, or Photography.\n- Experience and solid knowledge in using Adobe Creative Cloud programs, especially Photoshop, Illustrator, and InDesign.\n- An independent and goal-oriented working style.\n- A structured and reliable approach.\n\n### Author's Take\nThis is an excellent entry-level opportunity for a student or part-time worker passionate about graphic design and digital media. tectake offers a highly supportive and engaging work environment, evident through their extensive list of benefits, including flexible hours, office dogs, team-building activities, and support for further education. You'll gain practical experience with core marketing assets and the Adobe Creative Cloud suite, directly contributing to the visual identity of a rapidly growing e-commerce brand. The emphasis on quick decision-making and an open culture suggests a dynamic place to learn and grow.

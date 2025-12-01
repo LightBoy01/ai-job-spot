@@ -10,111 +10,70 @@ expirationDate: null
 tags:
   - Other
   - bachelor's degree
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/bonial-international-gmbh/team-lead-software-engineering-cfp-berlin-411437
 companyLogoUrl: null
+companyCulture: >-
+  Bonial fosters a high-performance, fast-paced, and collaborative environment
+  focused on professional and personal development. They prioritize employee
+  well-being, offering strong support through flexible working arrangements,
+  comprehensive benefits, and a vibrant social culture, all within an inclusive
+  workplace committed to diversity.
+story_question1: >-
+  Given Bonial's rapid growth and focus on automating campaign fulfillment, what
+  are the most significant technical and leadership challenges this team faces,
+  and how does Bonial support its leads in overcoming them?
+story_answer1: >-
+  You're stepping into a pivotal role, right at the heart of how Bonial delivers
+  value to our clients. The biggest challenge? Balancing the rapid scaling of
+  our platforms with the need for robust, automated solutions. We're constantly
+  pushing the envelope to make campaign fulfillment more efficient and
+  impactful. What makes it exciting is that you're not just leading a team;
+  you're shaping our technical strategy, ensuring our systems are not only
+  available and secure but also future-proof. Bonial empowers its leads by
+  fostering a culture of continuous learning and support, offering resources for
+  professional development, and encouraging an agile mindset to tackle these
+  complex problems head-on. We truly believe in giving our leaders the autonomy
+  to innovate and drive change, backed by a collaborative network of peers.
+story_question2: >-
+  The job description emphasizes maintaining a healthy team culture and
+  individual performance management. How does Bonial define and measure success
+  for its engineering leads in terms of team growth and well-being, beyond just
+  project delivery?
+story_answer2: >-
+  That's a fantastic question, and it really gets to the core of our 'Leader
+  leader mindset.' We understand that successful project delivery is just one
+  piece of the puzzle. For us, success for an engineering lead is deeply
+  intertwined with the growth and happiness of their team. We measure this
+  through a combination of consistent 1:1s, professional development plans,
+  regular feedback cycles, and team engagement surveys. It's about creating an
+  environment where every engineer feels supported, challenged, and empowered to
+  grow, both technically and personally. We prioritize psychological safety and
+  transparent communication, believing that a healthy, trusting team culture
+  naturally leads to higher quality work and greater innovation. Your role isn't
+  just to deliver features; it's to cultivate talent and build a resilient,
+  high-performing unit.
+story_question3: >-
+  With Bonial's commitment to flexibility, including hybrid work and working
+  from abroad, how does the company ensure strong collaboration and maintain its
+  vibrant social culture across distributed teams?
+story_answer3: >-
+  It's true, flexibility is a cornerstone of our employee well-being, and we've
+  put a lot of thought into making it work seamlessly. For collaboration, we
+  heavily lean on asynchronous communication, well-documented processes, and
+  regular, intentional sync-ups – both virtual and in-person. We invest in the
+  right tools and training to make remote collaboration as effective as
+  possible. As for our social culture, it's something we actively nurture. While
+  we love our modern office perks like free lunches and social events, we also
+  organize virtual team-building activities, online clubs, and encourage 'deep
+  work from anywhere, connect from everywhere' mentality. The goal is to ensure
+  that no matter where you are, you feel connected to the Bonial family and can
+  participate in our community, fostering those vital relationships that fuel
+  our collective success and enjoyment.
 ---
-**bonial helps you save time, money and paper!**
-
-We are a digital advertising partner for offline businesses - we support retailers in their marketing activities and help them find a new audience. **Would you like to join and be a part of digitalisation of retail?**
-
-Bonial is part of Axel Springer SE and is disrupting the retail landscape as the leading "Drive to Store" partner in Germany and France. Through our platforms "kaufDA" and "MeinProspekt" in Germany, and “Bonial” in France, we connect millions of users with their favorite shops and brands—driving real impact every single day.  
-We are in the midst of an exciting growth phase, scaling fast and transforming the way people discover retail. At Bonial, we thrive in a high-performance, fast-paced environment fueled by motivated, results-driven individuals who are passionate about making a difference. If you’re looking to be part of a dynamic team that’s shaping the future of retail, we’d love to meet you.
-
-bonial welcomes both **full- and part-timers!**
-
-  
-
-**INTRODUCTION** 
-
-In the Client Facing Platforms department we build systems and platforms that allow our Operations Managers create content and manage campaigns for our clients, effectively and at scale!
-
-In the Traffic Management team, we focus on effective campaign fulfilment by providing the right tools and solutions, and automating different steps of the process to ensure achieving the best possible results for both our users and clients.
-
-Some of the technologies we use are: java, python, postgresql, diverse aws services, spring boot, kubernetes, terraform, spinnaker…
-
-**Your responsibilities:**
-
-*   Responsible for leading a team of talented engineers
-    
-*   Work closely with Product & Development teams on company initiatives by building easy to maintain and scalable solutions
-    
-*   Ensure product/system availability, quality of service, stability, compliance and security
-    
-*   Responsible for having a reliable on-call process in place and being part of the rotation as an active member of the team
-    
-*   Ensure technical decisions are taken at the right time, peer-reviewed and challenged
-    
-*   Your main tasks will be the coordination of projects, ensuring our quality standards and the further development of our products in cooperation with other departments
-    
-*   Responsible for the growth of team members
-    
-*   Maintain and improve team performance and quality of life
-    
-*   Create a healthy team culture and transparent communication
-    
-*   Providing coaching and counselling via mentoring and one-to-one meetings
-    
-*   Build a culture of trust within the team
-    
-*   Individual performance management, expectations and continuous feedback
-    
-*   Identify opportunities for improvement and help the team to reach goals
-    
-*   Act as a delivery manager: ensure the projects are delivered on time and resolve the blockers on the way
-    
-
-  
-  
-
-**Your profile:**
-
-*   Experience in leading a team or ambition to lead a team
-    
-*   Proven experience as a software engineer
-    
-*   Willingness to work with both java and python. Expertise only required for one of these languages
-    
-*   Agile mindset and experience with modern development practices
-    
-*   A constructive, helpful mindset, enjoying a functional developer support role
-    
-*   A strong sense of ownership and integrity
-    
-*   Leader leader mindset: you understand everyone is a leader on their own scope
-    
-*   Communication skills
-    
-    Ability to explain complex domains or systems to non-technical people
-    
-
-Ability to clearly transmit vision and ideas
-
-**What we can offer you:**
-
-**Diversity** - proud to be an equal opportunity workplace where we aim to enable everyone to show up as their full selves. We are committed to equal employment opportunity and to being a safe space regardless of race, religion, sex, sexual orientation, age, disability, gender, gender identity or gender expression.
-
-**Development** - strong support for your professional development, backed-up by a feedback culture to help you identify your strengths and opportunities.
-
-**Wellbeing** - we believe mental health is as important as being fit. That's why we're giving you free access to nilo.health, a mental health app. In terms of physical training, other than our awesome gym in the office, we also cover part of the subscription to the Urban Sports Club. We can also offer you a corporate pension scheme so you don't have to worry about your retirement.
-
-**Sustainability** - together with our Green team, we offer you the opportunity to engage in projects that promote sustainability, environmental development and the impact that we make on our planet.
-
-**Flexibility** - at the moment, we offer flexible hours, a hybrid setup, and the option of working from abroad. We offer 28 days of holiday, additionally, you get an extra day for each calendar year (up to 30 days) and other occasions (moving, working on a social project, etc).
-
-**Modern office** - Zen Rooms where employees can pray, relax or simply have some quiet time; fully equipped gym in the office, and a roof terrace for amazing social events.
-
-**Free lunch** – whenever you’re at the office, we offer you different lunch options – and it’s all on us! Enjoy your lunch at a nearby restaurant that partners with us! Hot and cold drinks, fruit, regular varied and healthy breakfasts and other snacks at the office are, of course, always available for free for our employees.
-
-**Social Culture** – which encourages people to start conversations, build relationships and participate together in the community through regular team events.
-
-**Visa Sponsorship** – we provide visa sponsorship for those of you who are eager to join us from outside of Germany.**If you think you could fit the bill, we'd love to hear from you!**
-
-You can check out our [bonial\_people](https://www.instagram.com/bonial_people/) Instagram or read more about bonial culture and tech on [Medium](https://medium.com/insidebonial).
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nBonial is a leading digital advertising partner for offline businesses, part of Axel Springer SE, disrupting the retail landscape as the leading \"Drive to Store\" partner in Germany and France. Through platforms like \"kaufDA\" and \"MeinProspekt,\" we connect millions of users with their favorite shops and brands, driving real impact daily.\n\nWe are in an exciting growth phase, scaling fast and transforming retail discovery. At Bonial, we thrive in a high-performance, fast-paced environment fueled by motivated, results-driven individuals passionate about making a difference.\n\nThe Client Facing Platforms department builds systems that enable Operations Managers to create content and manage campaigns for clients effectively and at scale. Within this, the Traffic Management team focuses on effective campaign fulfillment by providing the right tools, solutions, and automation to achieve the best results for users and clients.\n\nSome of the technologies we use include: Java, Python, PostgreSQL, diverse AWS services, Spring Boot, Kubernetes, Terraform, Spinnaker.\n\n### Responsibilities\n- Lead a team of talented engineers.\n- Work closely with Product & Development teams to build easy-to-maintain and scalable solutions.\n- Ensure product/system availability, quality of service, stability, compliance, and security.\n- Maintain a reliable on-call process and participate in the rotation.\n- Ensure technical decisions are timely, peer-reviewed, and challenged.\n- Coordinate projects, ensure quality standards, and develop products in cooperation with other departments.\n- Foster the growth of team members.\n- Maintain and improve team performance and quality of life.\n- Create a healthy team culture and transparent communication.\n- Provide coaching and counseling via mentoring and one-to-one meetings.\n- Build a culture of trust within the team.\n- Manage individual performance, set expectations, and provide continuous feedback.\n- Identify improvement opportunities and help the team reach goals.\n- Act as a delivery manager, ensuring projects are delivered on time and resolving blockers.\n\n### Qualifications\n- Experience in leading a team or ambition to lead a team.\n- Proven experience as a software engineer.\n- Willingness to work with both Java and Python (expertise required for one).\n- Agile mindset and experience with modern development practices.\n- A constructive, helpful mindset, enjoying a functional developer support role.\n- A strong sense of ownership and integrity.\n- Leader leader mindset (understanding everyone is a leader in their own scope).\n- Strong communication skills:\n  - Ability to explain complex domains or systems to non-technical people.\n  - Ability to clearly transmit vision and ideas.\n\n### Author's Take\nThis is an exciting Lead Engineer role at Bonial, a company at the forefront of retail digitalization. You'll be instrumental in shaping the technical direction and delivery of critical client-facing platforms, specifically within Traffic Management. The culture emphasizes high performance, continuous development, and strong support for employee well-being, offering flexible working, comprehensive benefits, and a vibrant social environment. This role is perfect for an experienced software engineer with a 'Leader leader mindset' who is passionate about both technical excellence and fostering team growth in a dynamic, impactful setting. Bonial's commitment to diversity, development, and flexibility makes it an attractive place for those looking to make a significant impact.

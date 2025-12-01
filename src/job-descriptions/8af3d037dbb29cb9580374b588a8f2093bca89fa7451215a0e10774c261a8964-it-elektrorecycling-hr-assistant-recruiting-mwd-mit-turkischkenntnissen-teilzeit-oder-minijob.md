@@ -11,49 +11,59 @@ postedDate: '2025-11-28T18:01:40.000Z'
 expirationDate: null
 tags:
   - HR
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/it-elektrorecycling/hr-assistant-recruiting-mit-turkischkenntnissen-teilzeit-oder-minijob-mannheim-117077
 companyLogoUrl: null
+companyCulture: >-
+  The company offers flexible working hours and a collaborative, respectful team
+  environment. Employees benefit from direct contact with management and short
+  decision-making paths, fostering a culture of openness and growth.
+story_question1: >-
+  Given the emphasis on recruiting Turkish-speaking candidates and the direct
+  line to management, how does this role uniquely contribute to the company's
+  growth and foster a more diverse and inclusive workplace?
+story_answer1: >-
+  Honestly, this role is a hidden gem for someone who loves connecting with
+  people and sees the bigger picture. You're not just posting ads; you're the
+  first friendly face and voice for many of our candidates, especially those
+  from the Turkish-speaking community. Because we're a close-knit team with
+  direct access to the CEO, your feedback on candidate interactions or even
+  ideas for outreach are heard immediately. It truly shapes how we grow and
+  ensures we build a team that reflects the diverse talent out there. You're a
+  key player in our expansion, helping us find great people quickly and
+  efficiently.
+story_question2: >-
+  For someone with basic German looking to grow professionally, what kind of
+  support, training, or opportunities for development can one expect in this
+  role?
+story_answer2: >-
+  That's a fantastic question, and it speaks directly to our culture. We
+  genuinely value motivation and a willingness to learn above perfect language
+  skills. We're not just looking for someone to fill a slot; we're looking for
+  someone to grow with us. You'll work closely with experienced HR professionals
+  and even the management team, learning best practices in recruiting, social
+  media strategy, and candidate management. We believe in learning by doing,
+  with plenty of guidance and constructive feedback. There's real potential here
+  to expand your skills, especially in international recruiting and HR
+  processes, if you show initiative.
+story_question3: >-
+  The job description mentions flexible working hours. Could you share an
+  example of how this flexibility truly works in practice for team members,
+  especially in balancing personal commitments with professional
+  responsibilities?
+story_answer3: >-
+  Absolutely! We understand that life happens, and not everyone can fit into a
+  rigid 9-to-5. For instance, we've had team members who are parents and need to
+  drop off or pick up kids from school, so they might start earlier or later, or
+  adjust their break times. Others might be studying and need certain afternoons
+  free. The key is communication and ensuring tasks are completed effectively.
+  As long as we coordinate, and the work gets done, we're very adaptable. It's
+  all about mutual trust and respecting everyone's personal life, which helps
+  create a stress-free and productive environment for everyone.
 ---
-Wir suchen ab sofort Unterstützung im Bereich **HR / Recruiting** auf **Minijob oder Teilzeit-Basis**.
-
-Wenn du gerne mit Menschen arbeitest, **Türkisch** sprichst und dich in **Social Media** gut auskennst, könnte dieser Job gut zu dir passen – auch wenn dein Deutsch nicht perfekt ist.
-
-Aufgaben
---------
-
-*   Erstellen und Posten von **Job Ads / Stellenanzeigen** auf Online-Plattformen (z. B. Kleinanzeigen, Facebook, Online-Portale)
-*   Beantworten von Messages und Anfragen von Bewerber\*innen (per Chat, E-Mail oder Telefon)
-*   Terminkoordinierung für Telefon- und Vor-Ort-Interviews
-*   Führen von kurzen Telefon-Interviews mit Kandidat\*innen (Basic-Fragen stellen, Infos notieren)
-*   Unterstützung bei Job-Interviews vor Ort (Begrüßung, Unterlagen checken, Daten aufnehmen)
-*   Pflege einer einfachen Candidate List (z. B. Excel oder ähnliche Tools)
-*   Allgemeine Unterstützung im HR-Office bei kleinen organisatorischen Aufgaben
-
-Qualifikation
--------------
-
-*   Sehr gute **Türkischkenntnisse**, da viele Bewerber und Mitarbeitende Türkisch sprechen
-*   **Basic Deutsch** ist ausreichend – wichtig ist, dass du motiviert bist und lernen möchtest
-*   Sicher im Umgang mit **Social Media** (z. B. Facebook, Instagram, Kleinanzeigen)
-*   Freundliche, offene Art und Spaß an Kommunikation
-*   Zuverlässige, strukturierte und selbstständige Arbeitsweise
-*   Grundkenntnisse am PC (E-Mail, einfache Listen, Dateien)
-
-Benefits
---------
-
-*   Flexible Working Hours nach Absprache
-*   Direkter Kontakt zur Geschäftsführung und kurze Entscheidungswege
-*   Kollegiales, respektvolles Team
-
-Wenn du Interesse hast, schick uns bitte eine kurze Bewerbung in **Deutsch oder Türkisch** (kurzer Text über dich + Kontaktdaten, mit Lebenslauf):
-
-Wir freuen uns auf Ihre Bewerbung! Bei Fragen stehen wir Ihnen gerne zur Verfügung.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nWe are immediately seeking support in **HR / Recruiting** on a **Minijob or Part-time basis**. If you enjoy working with people, speak **Turkish**, and are proficient in **Social Media**, this job could be a great fit for you – even if your German isn't perfect.\n\n**Benefits include:**\n*   Flexible working hours by arrangement.\n*   Direct contact with management and short decision-making paths.\n*   A collegiate, respectful team environment.\n\n### Responsibilities\n*   Creating and posting **Job Ads / Vacancies** on online platforms (e.g., Kleinanzeigen, Facebook, online portals).\n*   Responding to messages and inquiries from applicants (via chat, email, or phone).\n*   Coordinating appointments for phone and on-site interviews.\n*   Conducting short phone interviews with candidates (asking basic questions, noting down information).\n*   Supporting on-site job interviews (greeting, checking documents, recording data).\n*   Maintaining a simple candidate list (e.g., Excel or similar tools).\n*   General support in the HR office for small organizational tasks.\n\n### Qualifications\n*   Very good **Turkish language skills**, as many applicants and employees speak Turkish.\n*   **Basic German** is sufficient – what's important is that you are motivated and eager to learn.\n*   Proficient in using **Social Media** (e.g., Facebook, Instagram, Kleinanzeigen).\n*   Friendly, open personality and enjoys communication.\n*   Reliable, structured, and independent working style.\n*   Basic PC skills (email, simple lists, files).\n\n### Author's Take\nThis is a fantastic entry-level or junior opportunity for someone eager to start a career in HR and recruiting, especially if you possess strong Turkish language skills and social media proficiency. The role offers excellent flexibility, direct exposure to management, and a supportive team environment. It's a chance to make a tangible impact by helping the company connect with diverse talent and grow, all while learning and developing valuable professional skills.

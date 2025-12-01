@@ -10,62 +10,53 @@ expirationDate: null
 tags:
   - Remote
   - Graphic Arts and Communication Design
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '€55,000 - €65,000'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/feldenergy-gmbh/100-remote-senior-bauzeichner-rhino-berlin-48605
 companyLogoUrl: null
+companyCulture: >-
+  feld.energy offers a dynamic, mission-driven culture focused on
+  sustainability, innovation, and collaboration. They prioritize work-life
+  balance with flexible hours and remote options, foster growth through
+  continuous learning, and celebrate team successes, all while working towards a
+  greener future.
+story_question1: >-
+  As a Senior Drafter, how do your designs specifically address the unique
+  challenges of integrating agricultural needs with photovoltaic energy
+  production on the same land, ensuring both sustainability and economic
+  viability?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what we do
+  here. At feld.energy, we're not just drawing lines on a page; we're designing
+  the future of sustainable land use. For a Senior Drafter, it means constantly
+  innovating to create Agri-PV solutions that maximize energy yield without
+  compromising crop health or farm operations. You'll be challenged to think
+  about everything from optimal panel height to irrigation integration, ensuring
+  our projects are not just functional but also economically smart for the
+  farmers. It's a true balancing act, and seeing your precise plans come to
+  life, knowing they're directly contributing to both food security and clean
+  energy, is incredibly rewarding. We thrive on collaboration, so you'll always
+  have engineers and agricultural experts to bounce ideas off, ensuring every
+  design is a win-win.
+story_question2: >-
+  Beyond the technical precision, how does the team foster an environment where
+  a Senior Drafter can actively contribute to process improvements and the
+  evolution of planning workflows, especially in a dynamic startup setting?
+story_answer2: >-
+  That's a point of pride for us! We truly believe that the best ideas often
+  come from those closest to the work, and as a Senior Drafter, your insights
+  into our planning workflows are invaluable. We don't just expect you to
+  execute; we empower you to innovate. There are regular brainstorming sessions
+  and dedicated channels for proposing improvements, whether it's optimizing our
+  Rhino/Grasshopper scripts or streamlining documentation. We're a startup, so
+  agility and continuous improvement are in our DNA. We value a proactive
+  mindset and actively encourage everyone to challenge the status quo and make
+  our processes smarter. Your ideas won't just be heard; they'll be implemented,
+  directly shaping how we build and scale our future projects. It's about being
+  an active part of our growth story, not just a cog in the machine.
 ---
-Über uns
---------
-
-feld.energy ist mehr als nur ein Unternehmen – wir sind eine Bewegung!  
-Wir helfen Landwirten und Landeigentümern, Landwirtschaft und Energieerzeugung clever miteinander zu kombinieren. Mit unseren innovativen Agri-Photovoltaik-Lösungen schaffen wir doppelte Flächennutzung – für Lebensmittelproduktion und saubere Energie. So gestalten wir die Energiewende auf dem Land – nachhaltig, wirtschaftlich und zukunftsorientiert.
-
-Deine Mission
--------------
-
-Als **Senior Bauzeichner (m/w/d)** trägst du eine Schlüsselrolle bei der Umsetzung unserer Vision in die Praxis: Du verwandelst Ideen und Konzepte in präzise, realisierbare Pläne – und legst damit das Fundament für Projekte, die Landwirtschaft und Energieproduktion neu denken. Mit deinem technischen Verständnis und deinem Blick fürs Detail stellst du sicher, dass jedes unserer Agri-PV-Projekte nicht nur funktional, sondern auch effizient, wirtschaftlich und ästhetisch geplant wird.
-
-Deine Aufgaben
---------------
-
-*   Als Senior Bauzeichner (m/w/d) modellierst und verfeinerst du technische Pläne für unsere Agri-PV-Projekte
-*   Du unterstützt bei der technischen Planung und der Erstellung von Genehmigungsunterlagen.
-*   Gemeinsam mit unseren Ingenieur:innen, Bauleiter:innen und externen Partnern sorgst du für eine reibungslose Abstimmung und Umsetzung.
-*   Du stellst stets den höchsten Qualitäts- und Dokumentationsstandard sicher.
-*   Mit dem Projektteam entwickelst du technische Konzepte und Visualisierungen weiter.
-*   Mit deinen Ideen trägst du aktiv bei, unsere Prozesse und Planungsabläufe effizienter und smarter zu gestalten.
-
-Dein Profil
------------
-
-*   Abgeschlossenes Studium im Bereich Bauingenieurwesen, Technische Gebäudeausrüstung, Elektrotechnik, Erneuerbare Energien oder eine vergleichbare technische Ausbildung mit relevanter Berufserfahrung.
-*   Mehrjährige Erfahrung im Bauingenieurwesen, der technischen Planung und/oder im konstruktiven Zeichnen (idealerweise im Bereich PV-, Bau- oder Infrastrukturprojekte).
-*   Kenntnisse mit Rhino zwingend erforderlich.
-*   Sicherer Umgang mit technischen Normen und Planungsrichtlinien.
-*   Kenntnisse in Grasshopper (parametrisches Modellieren) und Skript-basierten Planungsdesign sind ein Plus.
-*   Erfahrung oder Berührungspunkte mit der Arbeit in Start-ups sind von Vorteil.
-*   Selbstständige, strukturierte und zuverlässige Arbeitsweise.
-*   Sehr gute Deutschkenntnisse in Wort und Schrift.
-
-Warum wir?
-----------
-
-*   Flexible Arbeitszeiten und Remote-Work
-*   27 Tage für deine persönliche Erholung.
-*   Regelmäßige Team-Events und gemeinsame Feiern der Erfolge.
-*   Kostenlose Getränke und frisches Obst im Büro für deinen Energie-Boost.
-*   Neueste technische Ausstattung und innovative Software, die deinen Arbeitsalltag erleichtert.
-*   Top-Weiterbildungsmöglichkeiten im Bereich erneuerbare Energien und nachhaltige Geschäftsführung
-*   Eine Unternehmenskultur, die auf Nachhaltigkeit, Innovation und Zusammenarbeit setzt.
-
-Diese Position ist in Voll- oder Teilzeit Remote oder in der näheren Umgebung zu besetzen.  
-Das Jahresgehalt liegt – je nach Erfahrung und Qualifikation – voraussichtlich zwischen 55.000 € und 65.000 € brutto auf Vollzeit gerechnet.  
-Bist du bereit, die Energiewende in der Landwirtschaft mitzugestalten?  
-Dann freuen wir uns auf deine Bewerbung!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nfeld.energy is a pioneering company at the forefront of the energy transition, empowering farmers and landowners to intelligently combine agriculture with energy generation. Through innovative Agri-Photovoltaic solutions, we enable dual land use for food production and clean energy, fostering a sustainable, economic, and future-oriented rural energy landscape.\n\nAs a Senior Bauzeichner (m/w/d) – Senior Drafter, you will play a pivotal role in translating our vision into reality. You will transform concepts and ideas into precise, achievable plans, laying the foundation for projects that redefine agricultural and energy production. Your technical understanding and keen eye for detail will ensure that every Agri-PV project is planned not only functionally, but also efficiently, economically, and aesthetically. This position is available for full or part-time, remote or near our office.\n\n### Responsibilities\n*   Model and refine technical plans for our Agri-PV projects.\n*   Support technical planning and the creation of approval documents.\n*   Collaborate closely with our engineers, construction managers, and external partners to ensure smooth coordination and implementation.\n*   Maintain the highest quality and documentation standards consistently.\n*   Further develop technical concepts and visualizations with the project team.\n*   Actively contribute ideas to make our processes and planning workflows more efficient and smarter.\n\n### Qualifications\n*   Completed degree in Civil Engineering, Technical Building Equipment, Electrical Engineering, Renewable Energies, or a comparable technical education with relevant professional experience.\n*   Several years of experience in civil engineering, technical planning, and/or constructive drafting (ideally in PV, construction, or infrastructure projects).\n*   Mandatory proficiency with Rhino.\n*   Confident handling of technical standards and planning guidelines.\n*   Knowledge of Grasshopper (parametric modeling) and script-based planning design is a plus.\n*   Experience or exposure to working in startups is an advantage.\n*   Independent, structured, and reliable working style.\n*   Very good German language skills, both written and spoken.\n\n### Author's Take\nThis is an exciting opportunity for a Senior Drafter who is passionate about renewable energy and sustainable agriculture to make a tangible impact. Joining feld.energy means contributing to groundbreaking Agri-PV projects with a company that values innovation, collaboration, and continuous learning. With flexible working options, excellent professional development opportunities in renewable energies, and a culture that celebrates success, this role offers a chance to shape the future of energy production in a supportive and forward-thinking environment. The emphasis on contributing ideas for process improvement also suggests a dynamic role where your expertise will be truly valued beyond just execution.

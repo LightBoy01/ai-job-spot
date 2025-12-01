@@ -9,74 +9,67 @@ postedDate: '2025-11-27T12:31:57.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ksp-stubben-partner-mbb/steuerberater-in-voll-oder-teilzeit-dusseldorf-426939
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a supportive, familial, and collaborative environment with
+  flat hierarchies, emphasizing open communication and valuing individual growth
+  through tailored development programs and flexible working arrangements. They
+  also prioritize modern, digitally-supported workspaces and team events to
+  enhance well-being.
+story_question1: >-
+  As a Tax Consultant, you manage clients independently and holistically. Can
+  you share an example of a particularly challenging or rewarding client
+  situation where this autonomy truly made a difference, and how the firm's
+  culture supported you?
+story_answer1: >-
+  Absolutely! Just last quarter, I was navigating a complex international tax
+  structure for a new tech startup. The autonomy here at KSP meant I could dive
+  deep, truly understand their unique needs, and craft a bespoke solution. What
+  made it even better was the seamless support from our 'Spanish Desk' team when
+  I needed a specific regional insight. It's that blend of trust in your
+  expertise and a truly collaborative, 'per Du' environment that allows us to
+  not just solve problems, but to genuinely partner with our clients and see the
+  real-world impact of our work. It's incredibly rewarding to know you're
+  empowered to deliver your best, with the entire KSP family having your back.
+story_question2: >-
+  The description highlights both deep expertise and digital support. How does
+  KSP balance maintaining its strong professional foundation with embracing new
+  digital tools and processes, especially for an individual contributor managing
+  their own clients?
+story_answer2: >-
+  That's a fantastic question, and it's something we're very proud of. While our
+  core values are rooted in expert, personalized client care, we're equally
+  committed to leveraging technology. For me, that means tools like DATEV and
+  other digital platforms aren't just an add-on; they're integrated into my
+  daily workflow, freeing up time from administrative tasks so I can focus on
+  high-value strategic consulting. The firm constantly invests in modern
+  ergonomic workspaces and top-tier IT, and we have an open channel to suggest
+  improvements. It’s not about replacing human insight with tech, but empowering
+  our tax consultants to be even more efficient and effective, allowing us to
+  deliver 'praxisnah' solutions with precision.
+story_question3: >-
+  KSP serves an international clientele and even offers an in-house English
+  trainer. How does the firm specifically support its consultants in developing
+  their international advisory skills and language capabilities, beyond just
+  formal training?
+story_answer3: >-
+  The international aspect is truly one of KSP's distinguishing features. Beyond
+  the formal English trainer, which is a fantastic perk, the biggest support
+  comes from the actual exposure to diverse mandates and the expertise within
+  our specialized 'Desks' – like the Spanish, Chinese, and Japanese Desks. As an
+  individual contributor, I've had opportunities to work on cross-border cases
+  that naturally expand my understanding of different tax jurisdictions and
+  cultural nuances. There's a real willingness to share knowledge across the
+  team, so if you're keen on deepening your international profile, you're not
+  just encouraged, you're actively involved and supported by colleagues who are
+  experts in those fields. It's a continuous learning environment powered by
+  real-world challenges.
 ---
-Bevor wir dir mehr über die Stelle erzählen, möchten wir uns kurz vorstellen – denn nicht nur du suchst den passenden Job, sondern auch wir das passende Teammitglied.
-
-**Wir stellen uns vor**
-
-KSP – Rund 70 Persönlichkeiten, zwei Standorte in Düsseldorf und München, das nahezu gesamte Spektrum der Steuerberatung und Wirtschaftsprüfung und Mandate, die vom regionalen Mittelständler bis hin zum internationalen Konzern reichen. So weit so gut – doch was unterscheidet uns wirklich von anderen Kanzleien unserer Größenordnung?
-
-Zum einen betreuen wir überdurchschnittlich viele größere und international aufgestellte Unternehmen. Mit unserem mehrsprachigen Team und unseren Spanish, Chinese und Japanese Desks beraten wir Mandanten direkt in ihrer Landessprache. Wer jedoch lieber den Fokus auf nationale Mandate legt, ist bei uns mindestens genauso richtig.
-
-Zum anderen – und das ist unserer Meinung noch viel wichtiger – sind es die unterschiedlichen Persönlichkeiten hinter KSP, die unsere Kanzlei prägen. Flache Hierarchien, kurze Entscheidungswege und ein starkes Miteinander sind bei uns keine Floskeln, sondern gelebte Praxis. Hier kennt jeder jeden, wir sind per Du und legen Wert auf eine offene, wertschätzende Arbeitsatmosphäre – denn die Arbeit macht deutlich mehr Spaß, wenn das Miteinander stimmt.
-
-Aufgaben
---------
-
-**Deine Aufgaben**
-
-Als Steuerberater (m/w/d) übernimmst du bei uns eine zentrale Rolle. Du bist direkte Ansprechperson für deine Mandate und betreust Unternehmen sowie Privatpersonen umfassend in steuerlichen und wirtschaftlichen Fragestellungen – fachlich fundiert, digital unterstützt und immer praxisnah. Dabei gestaltest du aktiv mit, bringst dein Know-how ein und trägst zur Weiterentwicklung unserer Kanzlei bei.
-
-*   Du betreust deine Mandate ganzheitlich und eigenverantwortlich – von der laufenden Beratung bis zur steuerlichen Gestaltungsplanung.
-*   Du erstellst Jahresabschlüsse für Personen- und Kapitalgesellschaften und begleitest Betriebsprüfungen mit Überblick und Fachkompetenz.
-*   Du prüfst Steuerbescheide und übernimmst die Erstellung sowie fachliche Durchsicht von Steuererklärungen für Unternehmen und Privatpersonen.
-*   Du klärst umsatzsteuerliche Fragestellungen und unterstützt bei komplexen steuerlichen Sachverhalten – auch (sofern gewünscht) mit internationalem Bezug.
-
-Qualifikation
--------------
-
-**Dein Profil**
-
-Du übernimmst gerne Verantwortung, findest fundierte Lösungen und willst deine Mandate eigenständig und vorausschauend betreuen? Gleichzeitig ist dir ein Umfeld wichtig, das fachliche Tiefe, Internationalität und echtes Teamgefühl vereint? Dann bist du bei uns genau richtig.
-
-*   Du hast das Steuerberaterexamen erfolgreich abgeschlossen und bringst idealerweise erste bis mehrjährige Berufserfahrung mit.
-*   Du bist sicher im Umgang mit DATEV und kennst dich mit den gängigen digitalen Tools und Prozessen in der Steuerberatung aus.
-*   Du bewegst dich souverän in steuerlichen Fragestellungen – idealerweise auch mit internationalem Bezug.
-*   Du arbeitest diskret, verantwortungsbewusst und zuverlässig – mit dem Blick fürs Wesentliche.
-*   Du verfügst über gute Englischkenntnisse in Wort und Schrift und möchtest diese bei Bedarf durch die Unterstützung unseres Inhouse-Englischtrainers weiterentwickeln.
-
-Benefits
---------
-
-**Unsere Benefits**
-
-Wir wissen, dass gute Arbeit gute Rahmenbedingungen benötigt. Deshalb legen wir großen Wert darauf, dass wir dich nicht nur während der Arbeitszeit optimal unterstützen, sondern mit den folgenden Benefits auch darüber hinaus dafür sorgen, dass du dich rundum wohlfühlst:
-
-*   **Attraktive Rahmenbedingungen:** Überdurchschnittliche Vergütung, flexible und familienfreundliche Arbeitszeiten.
-*   **Individuelle Förderung:** Auf dich zugeschnittene Fort- und Weiterbildungsangebote.
-*   **Modernes Arbeiten:** Ergonomische Arbeitsplätze, digitale Prozesse und eine erstklassige IT-Ausstattung.
-*   **Familiäres Team:** Flache Hierarchien, kurze Entscheidungswege und ein wirklich gutes Miteinander.
-*   **Fit bleiben:** JobRad, vergünstigte Fitnessstudio-Mitgliedschaft und Teilnahme an sportlichen Events.
-*   **Teamevents:** Regelmäßige und verschiedene Anlässe wie z.B.  Jubiläen, Feste, Geburtstage und Teamevents.
-
-**Klingt nach einem Umfeld, das zu dir passt?**
-
-Dann freuen wir uns auf deine Bewerbung! Falls du vorab Fragen hast oder uns einfach mal kennenlernen möchtest, melde dich gerne bei Julia.
-
-Wir sind gespannt, dich kennenzulernen!
-
-Deine Ansprechpartnerin:
-
-Julia Milles
-
-+4921190894400
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nKSP is a tax consulting and auditing firm with approximately 70 professionals across two locations in Düsseldorf and Munich. We offer the full spectrum of tax consulting and auditing services to a diverse clientele ranging from regional medium-sized businesses to international corporations. What truly sets us apart is our significant involvement with larger, internationally oriented companies, supported by our multilingual team and specialized Spanish, Chinese, and Japanese Desks. We pride ourselves on flat hierarchies, short decision-making processes, and a strong sense of community, fostering an open and appreciative work atmosphere where everyone is on a first-name basis.\n\nAs a Tax Consultant (m/f/d), you will play a central role, serving as the direct contact person for your clients. You will provide comprehensive and expert advice to companies and private individuals on tax and economic matters, always supported digitally and with a practical focus. You will actively contribute your expertise and help shape the further development of our firm.\n\n### Responsibilities\n- Provide holistic and independent support to your clients, from ongoing consultation to tax planning.\n- Prepare annual financial statements for partnerships and corporations, and competently guide tax audits.\n- Review tax assessments and prepare as well as technically review tax declarations for companies and private individuals.\n- Clarify VAT issues and support complex tax matters, including (if desired) those with international relevance.\n\n### Qualifications\n- Successfully completed the tax advisor exam and ideally bring initial to several years of professional experience.\n- Proficient in DATEV and familiar with common digital tools and processes in tax consulting.\n- Confident in navigating tax matters, ideally also with an international focus.\n- Work discreetly, responsibly, and reliably, with an eye for the essential.\n- Possess good English skills, both written and spoken, and are open to further developing them with the support of our in-house English trainer if needed.\n\n### Author's Take\nThis is a compelling opportunity for an ambitious Tax Consultant looking to take on significant responsibility within a truly international and supportive environment. KSP stands out for its commitment to both professional excellence and employee well-being, offering flat hierarchies, a \"per Du\" culture, and a strong sense of team. The firm actively promotes individual growth through tailored training and development, alongside providing attractive compensation and flexible, family-friendly working hours. If you're seeking a role where you can independently manage diverse, often international, clients while benefiting from a modern, digitally supported workplace and a genuinely collaborative team spirit, KSP offers an ideal professional home with ample opportunities to thrive and make a real impact.

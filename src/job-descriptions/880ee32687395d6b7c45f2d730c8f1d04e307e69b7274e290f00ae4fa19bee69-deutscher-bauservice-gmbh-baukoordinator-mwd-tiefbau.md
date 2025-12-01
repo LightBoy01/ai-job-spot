@@ -9,58 +9,69 @@ postedDate: '2025-11-28T17:02:06.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/baukoordinator-tiefbau-wernigerode-484408
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative, solution-oriented, and innovative team
+  environment with a dynamic "start-up flair". It offers benefits like flexible
+  work arrangements and company events, indicating a focus on employee
+  well-being and a positive, engaging workplace culture.
+story_question1: >-
+  How does the company support individuals in maintaining high quality and
+  safety standards while managing the dynamic challenges and unexpected issues
+  that frequently arise on construction sites?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what makes our
+  team successful. Here, you're not just thrown into the deep end; you're
+  empowered. We have a robust framework for quality and safety, but we also
+  recognize that construction sites are dynamic. When unexpected issues pop up –
+  and they always do – we don't just point fingers. Our 'start-up flair' isn't
+  just a phrase; it means we encourage proactive problem-solving and
+  collaboration. You'll always have the backing of your team and leadership,
+  whether it's an urgent material delay or a tricky regulatory interpretation.
+  We regularly debrief, share lessons learned, and ensure everyone feels
+  supported in making critical decisions. It's about collective responsibility
+  and a shared commitment to excellence.
+story_question2: >-
+  Considering the role's extensive coordination with external companies and
+  authorities, what is the typical onboarding process or support system in place
+  to ensure a new team member can effectively navigate these complex
+  relationships and regulatory requirements?
+story_answer2: >-
+  Navigating those relationships is definitely a key part of the role, and we
+  understand it takes time to build trust and understand our specific processes.
+  When you join us, you won't be left to figure it out alone. Your first few
+  weeks will involve shadowing experienced colleagues on active projects,
+  getting introduced to our key partners and municipal contacts. We have
+  established communication channels and templates, and you'll receive
+  mentorship to understand our preferred approaches to negotiation and
+  compliance. Our team thrives on shared knowledge, so you’ll find everyone
+  willing to offer advice and share their experiences, making sure you feel
+  confident and capable in all your interactions. It’s all part of our
+  collaborative spirit – we succeed together.
+story_question3: >-
+  The job description mentions a 'solution-oriented and innovative team' with
+  'start-up flair.' Could you share an example of how this innovative approach
+  has recently led to a significant improvement or overcome a major challenge on
+  a project?
+story_answer3: >-
+  Absolutely! We recently faced a particularly challenging underground utility
+  conflict on a major road project that threatened to cause significant delays
+  and cost overruns. Instead of sticking to conventional methods, our team
+  initiated a cross-disciplinary brainstorming session involving our engineers,
+  site managers, and even representatives from the utility company. We leveraged
+  new 3D modeling software and drone surveys, which we'd been experimenting
+  with, to visualize the subterranean environment in unprecedented detail. This
+  innovative approach allowed us to identify a less invasive rerouting strategy
+  that saved weeks of work and prevented substantial rework. It was a perfect
+  example of how our 'start-up flair' isn't just about buzzwords; it's about
+  empowering everyone to think outside the box and embrace new technologies to
+  deliver better, more efficient results for our clients and the community.
 ---
-Dir sind Qualität und Sicherheit auf Baustellen im Tiefbau wichtig? Du stehst gerne als Schnittstelle zwischen Auftraggeber, Kommunen und beauftragten Tiefbauunternehmen zur Verfügung?
-
-Dann bist Du bei uns genau richtig!
-
-Erfolgreich sind wir, weil wir als Team lösungsorientiert und innovativ handeln. Werde Teil unseres motivierten Teams und starte mit uns zusammen durch!
-
-Aufgaben
---------
-
-*   Du bist von der technischen Durchführung bis zur Abnahme für die Baustelle verantwortlich
-*   Du bist zuständig für die gesetzliche Einhaltung auf den Baustellen sowie für die Einhaltung der Baupläne
-*   Du koordinierst und leitest Baubesprechungen und führst Protokoll
-*   Du erstellst und prüfst Aufmaße und gewährleistest den effizienten und wirtschaftlichen Einsatz von Baustoffen sowie Baugeräten
-*   Du hast die Qualität und den Baufortschritt immer im Blick und dokumentierst die Arbeiten
-*   Du steuerst und koordinierst die beauftragten Fremdfirmen und überprüfst die Aufmaße
-*   Du unterstützt bei der Beantragung von Genehmigungen und der Kommunikation mit Behörden
-
-Qualifikation
--------------
-
-*   Du bist geprüfter Polier oder Techniker (m/w/d), hast einen Meister im Straßen- oder Tiefbau oder bist Bauingenieur (m/w/d) oder besitzt eine vergleichbare Ausbildung/Studium z.B im Garten- und Landschaftsbau
-*   Du verfügst bereits über langjährige Berufserfahrung im Tiefbau und im Straßenbau oder vergleichsweise im Garten- und Landschaftsbau
-*   Du verfügst über sichere MS Office Kenntnisse
-*   Du bringst Kenntnisse über die relevanten Vorschriften (DIN18300, ZTV, RSA21, VOB) mit
-*   Du hast sehr gute Sprachkenntnisse in Deutsch und hast mindestens ein Führerschein Klasse B
-*   Reisebereitschaft (nicht am Wochenende) setzen wir voraus
-
-Benefits
---------
-
-*   Firmenwagen (mit Privatnutzung)
-*   Flexible Arbeitszeiten (abhängig vom Berufsfeld)
-*   Erholungsbeihilfe
-*   Spesen/Verpflegungsmehraufwendungen
-*   Unterkunftsbuchung und Bezahlung übernimmt direkt unser Travelmanagement für dich
-*   Mobiles Arbeiten (abhängig vom Berufsfeld)
-*   Betriebliche Altersvorsorge
-*   Dienstrad - Leasing
-*   Firmenfitnessprogramm (Hansefit)
-*   Corporate Benefits
-*   Viele gemeinsame Events und Veranstaltungen
-*   Unternehmen mit Start-up-Flair
-
-Wir freuen uns auf DICH!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAre quality and safety on civil engineering construction sites important to you? Do you enjoy serving as a crucial interface between clients, municipalities, and commissioned civil engineering companies?\n\nThen you are exactly right with us! We are successful because we act as a team, solution-oriented and innovative. Become part of our motivated team and take off with us!\n\n### Responsibilities\n- You are responsible for the construction site from technical execution to acceptance.\n- You are responsible for legal compliance on construction sites and adherence to building plans.\n- You coordinate and lead site meetings and keep minutes.\n- You prepare and check measurements and ensure the efficient and economical use of building materials and construction equipment.\n- You always monitor quality and construction progress and document the work.\n- You manage and coordinate commissioned external companies and check their measurements.\n- You assist with permit applications and communication with authorities.\n\n### Qualifications\n- You are a certified foreman (Polier) or technician (m/f/d), have a master craftsman (Meister) in road or civil engineering, or are a civil engineer (m/f/d), or possess a comparable education/degree, e.g., in horticulture and landscape construction.\n- You already have many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.\n- You have solid MS Office skills.\n- You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\n- You have very good German language skills and at least a Class B driver's license.\n- Willingness to travel (not on weekends) is required.\n\n### Author's Take\nThis is an exciting opportunity for an experienced civil engineering professional to take on significant responsibility in a dynamic and supportive team environment. The comprehensive benefits package, including a company car, flexible working options, and numerous company events, underscores the company's commitment to employee well-being and a vibrant workplace culture with a \"start-up flair\". This role offers the chance to make a tangible impact on projects while enjoying strong team collaboration and professional growth.

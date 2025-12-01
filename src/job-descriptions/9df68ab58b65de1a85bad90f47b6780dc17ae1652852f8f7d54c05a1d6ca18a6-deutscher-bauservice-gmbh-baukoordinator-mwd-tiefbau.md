@@ -9,58 +9,60 @@ postedDate: '2025-11-28T16:32:10.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/baukoordinator-tiefbau-schwabisch-hall-31007
 companyLogoUrl: null
+companyCulture: >-
+  The company emphasizes a team-oriented, solution-driven, and innovative
+  approach, fostering a motivated environment with start-up flair. They offer
+  flexibility (mobile work, flexible hours) and various social events,
+  suggesting a strong focus on work-life balance and team cohesion, alongside
+  opportunities for personal well-being.
+story_question1: >-
+  How can this role impact project success beyond just technical execution,
+  especially given the coordination with external partners and authorities?
+story_answer1: >-
+  Being at the heart of our construction projects, you're not just ensuring
+  technical compliance; you're the linchpin that connects everything. I remember
+  a particularly complex urban project where unforeseen underground utilities
+  threatened to derail our timeline. Our project lead, in a role much like this
+  one, didn't just point out the problem. They swiftly coordinated with the city
+  planners, re-negotiated with the excavation team, and found an innovative,
+  alternative approach that minimized delays and cost overruns. It’s this
+  proactive, solution-oriented mindset, coupled with seamless communication,
+  that truly defines success here and allows us to deliver high-quality
+  infrastructure while maintaining strong relationships with all stakeholders.
+story_question2: >-
+  Given the emphasis on innovation and team spirit, how does the company foster
+  continuous learning and professional growth for experienced professionals in
+  this role?
+story_answer2: >-
+  Even with 'langjährige Berufserfahrung,' the learning never stops here. Our
+  'start-up flair' isn't just a buzzword; it means we’re constantly exploring
+  new methods and technologies. We encourage knowledge sharing through regular
+  internal workshops and foster a culture where senior colleagues mentor
+  juniors, but also challenge each other to find better ways. I recently
+  attended a seminar on sustainable materials, fully sponsored by the company,
+  which directly influenced a new procurement strategy on my current site. We
+  believe in empowering our experts to not only execute but also to innovate and
+  evolve, ensuring everyone grows with us.
+story_question3: >-
+  What does 'Reisebereitschaft (nicht am Wochenende)' truly entail for this role
+  in practice, and how does the company support this aspect of the job?
+story_answer3: >-
+  The 'Reisebereitschaft' means you'll be on-site where the action is, often
+  Monday to Friday, overseeing different projects. But crucially, 'not on
+  weekends' is a core promise – we respect your personal time. The company makes
+  this seamless: our dedicated Travel Management team handles all bookings and
+  payments for your accommodation and travel, so you're not bogged down by
+  logistics. Plus, with a company car available for private use and generous per
+  diems, we ensure you’re comfortable and well-supported on the road. It's about
+  being present and impactful during the week, then fully recharging for your
+  personal life.
 ---
-Dir sind Qualität und Sicherheit auf Baustellen im Tiefbau wichtig? Du stehst gerne als Schnittstelle zwischen Auftraggeber, Kommunen und beauftragten Tiefbauunternehmen zur Verfügung?
-
-Dann bist Du bei uns genau richtig!
-
-Erfolgreich sind wir, weil wir als Team lösungsorientiert und innovativ handeln. Werde Teil unseres motivierten Teams und starte mit uns zusammen durch!
-
-Aufgaben
---------
-
-*   Du bist von der technischen Durchführung bis zur Abnahme für die Baustelle verantwortlich
-*   Du bist zuständig für die gesetzliche Einhaltung auf den Baustellen sowie für die Einhaltung der Baupläne
-*   Du koordinierst und leitest Baubesprechungen und führst Protokoll
-*   Du erstellst und prüfst Aufmaße und gewährleistest den effizienten und wirtschaftlichen Einsatz von Baustoffen sowie Baugeräten
-*   Du hast die Qualität und den Baufortschritt immer im Blick und dokumentierst die Arbeiten
-*   Du steuerst und koordinierst die beauftragten Fremdfirmen und überprüfst die Aufmaße
-*   Du unterstützt bei der Beantragung von Genehmigungen und der Kommunikation mit Behörden
-
-Qualifikation
--------------
-
-*   Du bist geprüfter Polier oder Techniker (m/w/d), hast einen Meister im Straßen- oder Tiefbau oder bist Bauingenieur (m/w/d) oder besitzt eine vergleichbare Ausbildung/Studium z.B im Garten- und Landschaftsbau
-*   Du verfügst bereits über langjährige Berufserfahrung im Tiefbau und im Straßenbau oder vergleichsweise im Garten- und Landschaftsbau
-*   Du verfügst über sichere MS Office Kenntnisse
-*   Du bringst Kenntnisse über die relevanten Vorschriften (DIN18300, ZTV, RSA21, VOB) mit
-*   Du hast sehr gute Sprachkenntnisse in Deutsch und hast mindestens ein Führerschein Klasse B
-*   Reisebereitschaft (nicht am Wochenende) setzen wir voraus
-
-Benefits
---------
-
-*   Firmenwagen (mit Privatnutzung)
-*   Flexible Arbeitszeiten (abhängig vom Berufsfeld)
-*   Erholungsbeihilfe
-*   Spesen/Verpflegungsmehraufwendungen
-*   Unterkunftsbuchung und Bezahlung übernimmt direkt unser Travelmanagement für dich
-*   Mobiles Arbeiten (abhängig vom Berufsfeld)
-*   Betriebliche Altersvorsorge
-*   Dienstrad - Leasing
-*   Firmenfitnessprogramm (Hansefit)
-*   Corporate Benefits
-*   Viele gemeinsame Events und Veranstaltungen
-*   Unternehmen mit Start-up-Flair
-
-Wir freuen uns auf DICH!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAre quality and safety on civil engineering construction sites important to you? Do you enjoy being the interface between clients, municipalities, and contracted civil engineering companies?\n\nThen you've come to the right place!\n\nWe are successful because we act as a team, solution-oriented and innovatively. Become part of our motivated team and take off with us! This challenging role involves full responsibility for construction projects from technical execution to final acceptance, ensuring legal compliance and smooth coordination across all stakeholders.\n\n### Responsibilities\n*   You are responsible for the construction site from technical execution to acceptance.\n*   You are responsible for legal compliance on the construction sites and for adherence to construction plans.\n*   You coordinate and lead construction meetings and keep minutes.\n*   You create and check measurements, and ensure the efficient and economical use of building materials and construction equipment.\n*   You always keep an eye on quality and construction progress, and document the work.\n*   You manage and coordinate contracted external companies and check their measurements.\n*   You assist with permit applications and communication with authorities.\n\n### Qualifications\n*   You are a certified foreman (Polier) or technician, have a master's degree in road or civil engineering, or are a civil engineer, or possess a comparable education/degree, e.g., in horticulture and landscape construction.\n*   You already have many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.\n*   You have solid MS Office skills.\n*   You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\n*   You have very good German language skills and at least a Class B driving license.\n*   Willingness to travel (not on weekends) is a prerequisite.\n\n### Author's Take\nThis is an excellent opportunity for an experienced and proactive civil engineering professional to take on significant responsibility in project management and coordination. The company cultivates a collaborative, innovative, and highly motivated team culture with a refreshing \"start-up flair.\" They clearly value their employees, offering a comprehensive benefits package designed to support work-life balance, professional growth, and overall well-being. These benefits include:\n\n*   Company car (with private use)\n*   Flexible working hours (depending on the field)\n*   Recreation allowance\n*   Expenses/increased meal allowances\n*   Accommodation booking and payment handled directly by our Travel Management\n*   Mobile working (depending on the field)\n*   Company pension scheme\n*   Company bike leasing\n*   Company fitness program (Hansefit)\n*   Corporate Benefits\n*   Many joint events and activities\n*   Company with start-up flair\n\nIf you're looking for a role where your expertise is truly impactful and you're supported by a forward-thinking team, this could be your next step. We look forward to YOU!

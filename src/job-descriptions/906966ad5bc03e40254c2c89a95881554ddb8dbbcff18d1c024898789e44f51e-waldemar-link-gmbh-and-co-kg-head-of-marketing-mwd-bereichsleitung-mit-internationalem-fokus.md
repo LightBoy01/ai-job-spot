@@ -9,55 +9,59 @@ postedDate: '2025-11-27T17:01:47.000Z'
 expirationDate: null
 tags:
   - Graphic Arts and Communication Design
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Director
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/waldemar-link-gmbh-co-kg/head-of-marketing-bereichsleitung-mit-internationalem-fokus-hamburg-112144
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a supportive and growth-oriented culture within the
+  future-proof medical technology sector. It emphasizes work-life balance
+  through flexible working and generous leave, strong collaboration for patient
+  well-being, and invests in employee development and long-term security. They
+  value individual motivation over strict adherence to all qualifications.
+story_question1: >-
+  As Head of Marketing, you're tasked with international brand positioning in a
+  regulated industry like MedTech. What's the most significant cultural or
+  market challenge you foresee in ensuring our brand resonates authentically
+  across diverse global regions, and how does the team approach overcoming such
+  hurdles?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what makes
+  this role so dynamic. From an insider's perspective, the biggest thrill—and
+  indeed, the challenge—is striking that delicate balance: maintaining a
+  consistent, powerful global brand identity while ensuring our message feels
+  genuinely local and relevant in each market. We're not just translating; we're
+  transcreating. Our team thrives on deep dives into local nuances,
+  collaborating incredibly closely with our international sales teams and
+  subsidiaries. It's about listening, understanding, and then adapting our
+  creative campaigns. We empower our regional teams to contribute their
+  insights, fostering a truly collaborative environment where everyone's input
+  shapes our global strategy. This collaborative spirit, combined with our
+  data-driven approach, is key to building that vibrant, authentic community
+  around our brand worldwide.
+story_question2: >-
+  Given the emphasis on work-life balance and a supportive environment, how does
+  the company ensure that the "Head of Marketing" role, with its broad
+  international responsibilities and team leadership, remains sustainable and
+  allows for personal growth without burnout?
+story_answer2: >-
+  It’s a valid concern, especially for a leadership role with such scope. What
+  makes LINK different is that our commitment to work-life balance isn't just a
+  bullet point; it's woven into our operational fabric. For a Head of Marketing,
+  this translates into a few key things: Firstly, the 'mobile working' isn't
+  just a perk – it's an accepted way of structuring your week, allowing
+  flexibility for personal commitments. Secondly, we have a culture of strong
+  delegation and trust. You'll lead a skilled team of 20, and the expectation is
+  to empower them, not micromanage. This distributes the workload effectively
+  and fosters their growth too. Finally, our senior leadership genuinely
+  advocates for healthy boundaries. We understand that strategic thinking
+  requires space and a clear head, so we prioritize smart work over long hours,
+  ensuring you have the bandwidth for both innovation and personal well-being.
+  The 30 days of holiday and regular team events for movement also play a
+  crucial role in recharging.
 ---
-Das ist Dein Aufgabengebiet
----------------------------
-
-In der Rolle als **Head of Marketing** bist Du zentral verantwortlich für die Positionierung unseres Unternehmens im internationalen Markt. Du sorgst dafür, dass unsere Marke klar, relevant und zukunftsorientiert wahrgenommen wird – intern wie extern. Dein Ziel ist es, durch strategisches Marketing und kreative Kampagnen die Unternehmensvision international erlebbar zu machen, neue Märkte zu erschließen und nachhaltiges Wachstum zu fördern.
-
-*   Du übernimmst die Führung und Weiterentwicklung der Bereiche **Marketing & Kommunikation**, **Events** und **Educational Events** mit rund **20 internationalen Kolleg:innen**
-*   Du verantwortest die **internationale strategische Markenführung** und entwickelst eine konsistente Markenidentität– inklusive **Corporate Communication** für die gesamte Unternehmensgruppe
-*   Du konzipierst und verantwortest **globale, crossmediale Marketingkampagnen** – von digital bis klassisch
-*   Du baust eine **lebendige Community** rund um unsere Marke auf und förderst echte Interaktion mit unseren Zielgruppen
-*   Du arbeitest eng mit **allen angrenzenden Bereichen** zusammen, um unsere Marke ganzheitlich zu positionieren
-*   Du bist im regelmäßigen Austausch mit dem **nationalen und internationalen Vertrieb** sowie den **Auslandsgesellschaften**
-
-Das bringst Du mit
-------------------
-
-*   Du hast **8–10 Jahre Erfahrung im strategischen, internationalen Marketing**, idealerweise in der **Medizintechnik** oder einer ähnlich regulierten Branche wie z. B. der **Pharmaindustrie**
-*   Du bringst **Führungserfahrung** mit und verstehst es, Menschen zu motivieren und weiterzuentwickeln
-*   **Markenführung**, **Kommunikationsstrategien** und **Community-Building** sind Deine Leidenschaft
-*   Du denkst **kreativ**, triffst Entscheidungen **datenbasiert** und bringst ein gutes Gespür für **kulturelle Unterschiede und Zielgruppen** mit
-*   Du bist **kommunikativ**, **empathisch** und handelst **eigenverantwortlich**
-
-**Unsere Stellenausschreibung gibt Dir einen Einblick in die Anforderungen der Position. Falls Du nicht alle Anforderungen mitbringst, kein Problem. Für uns zählst Du als Mensch und Deine Motivation.**
-
-Das kannst Du von uns erwarten
-------------------------------
-
-*   **Zukunftsbranche**: Du erhältst einen unbefristeten Arbeitsplatz in der Medizintechnik
-*   **Miteinander:** Gemeinsam für das Patientenwohl!
-*   **Onboarding:** Du startest mit einer intensiven und strukturierten Einarbeitung durch erfahrene Teammitglieder sowie durch unsere Veranstaltungen **My** **Link** und **We** **LINK**
-*   **Work-Life-Balance**: 37,5 Wochenstunden | 30 Tage Urlaub | mobiles Arbeiten
-*   **Zukunft? Gesichert!**: Wir sorgen zusammen für Deine Zukunft z.B. mit einer betriebliche Altersvorsorge inkl. Arbeitgeberzuschuss
-*   **C** **orporate** **B** **enefits** **:** Nutze zahlreiche Mitarbeitenden-Rabatte bei zahlreichen Kooperationspartnern
-*   **Mobilität**: 25% Zuschuss zum Deutschlandticket | kostenlose Parkplätze | überdachter Fahrradparkplatz | Bikeleasing
-*   **Umzugsstress?:** Nicht mit uns - nach Absprache übernehmen wir gern die Kosten Deines Umzugs mit einer steuerfreien Umzugspauschale bis zu einer Höhe von 964€
-*   **Bewegung:** Betriebssportprogramme | gemeinsame Sportevents
-
-Wenn Du Dich von dieser Position angesprochen fühlst und bereit bist, Teil unseres engagierten Teams zu werden, freuen wir uns darauf, Dich kennenzulernen.
-
-**WALDEMAR LINK GmbH & Co. KG**  
-Human Resources  
-Lena Wilms
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAs Head of Marketing, you will hold central responsibility for positioning our company in the international market. Your primary goal is to ensure our brand is perceived as clear, relevant, and future-oriented, both internally and externally. Through strategic marketing initiatives and creative campaigns, you will bring our corporate vision to life internationally, open new markets, and foster sustainable growth for the entire group.\n\n### Responsibilities\n- You will lead and develop the departments of Marketing & Communication, Events, and Educational Events, managing approximately 20 international colleagues.\n- You will be responsible for international strategic brand management, developing a consistent brand identity that includes Corporate Communication for the entire group.\n- You will conceptualize and manage global, cross-media marketing campaigns, encompassing both digital and traditional channels.\n- You will build a vibrant community around our brand and encourage genuine interaction with our target groups.\n- You will collaborate closely with all adjacent departments to ensure a holistic brand positioning.\n- You will maintain regular exchange with national and international sales teams as well as foreign subsidiaries.\n\n### Qualifications\n- You bring 8-10 years of experience in strategic, international marketing, ideally within medical technology or a similarly regulated industry such as pharmaceuticals.\n- You possess proven leadership experience and excel at motivating and developing people.\n- Brand management, communication strategies, and community-building are your passions.\n- You think creatively, make data-driven decisions, and have a strong understanding of cultural differences and target groups.\n- You are communicative, empathetic, and act with a high degree of autonomy.\n- *Even if you don't meet all the requirements, that's no problem. We value you as a person and your motivation.* \n\n### Author's Take\nThis is a highly impactful and strategic leadership role for an experienced marketing professional eager to drive global brand presence in the vital medical technology sector. The company clearly values its employees, offering excellent work-life balance, comprehensive benefits including structured onboarding and relocation support, and a collaborative environment focused on patient well-being. The emphasis on individual motivation over strict requirement adherence signals a supportive culture committed to growth and development.

@@ -9,75 +9,53 @@ postedDate: '2025-11-27T09:31:55.000Z'
 expirationDate: null
 tags:
   - Software Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Entry-Level
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/acemateai/founders-associate-business-development-working-student-berlin-49061
 companyLogoUrl: null
+companyCulture: >-
+  acemate fosters a fast-paced, high-autonomy 'builder culture' where a driven
+  team tackles tough educational challenges with minimal meetings. They
+  prioritize performance and continuous learning, offering flexibility including
+  remote work, complemented by regular team events and parties to build strong
+  camaraderie.
+story_question1: >-
+  Given acemate's rapid growth and mission to democratize personalized learning,
+  what's the most challenging yet rewarding strategic initiative a Founder's
+  Associate might tackle, and how does success directly impact the company's
+  vision?
+story_answer1: >-
+  Honestly, it's often the initiatives that start as a loose idea and you get to
+  shape them from the ground up. Take our recent market expansion into new
+  regions; it wasn't just about identifying leads, but understanding entirely
+  new educational landscapes, adapting our pitch, and even fine-tuning the
+  product experience for local needs. You're not just executing; you're often
+  pioneering. When a new institution signs on because of a partnership you
+  helped forge, or a new feature you helped define takes off with users, you
+  feel that direct connection to our mission of empowering educators. It's
+  incredibly rewarding because your fingerprints are all over acemate's growth
+  story.
+story_question2: >-
+  The job description highlights a 'builder culture' with minimized scheduled
+  meetings. Can you elaborate on what a typical day looks like for a Founder's
+  Associate in this environment, and how collaboration and knowledge sharing
+  happen effectively without extensive structured meetings?
+story_answer2: >-
+  A typical day is rarely 'typical,' which is the beauty of it. You might start
+  by diving into product analytics to understand user behavior, then quickly
+  jump into a spontaneous huddle with Paul (CPO) to brainstorm a new
+  monetization idea. Later, you could be drafting content for a B2C social media
+  campaign or preparing a pitch deck for a potential partner, working directly
+  with Antong (CEO). The 'minimized meetings' doesn't mean no communication; it
+  means highly efficient, ad-hoc discussions. We're big on tools like Slack for
+  quick syncs and shared documents for async collaboration. You're expected to
+  be proactive, tap colleagues directly when you need input, and take ownership.
+  It's less about scheduled check-ins and more about continuous, fluid
+  contribution and problem-solving, which fits perfectly with a 'builder'
+  mentality – just get it done, and iterate fast.
 ---
-acemate is building the leading AI learning & teaching platform for higher education institutions. We have strong traction, secured funding and are entering an exciting growth phase. We're looking for a passionate **Founder's Associate** to drive our product forward and help us scale.
-
-**About acemate**
-
-Founded less than a year ago, acemate has quickly become Germany's leading AI learning platform for higher and further education, trusted by top-tier institutions across four countries, including **University of Cologne**, **WHU** and the **Deutsche Industrie- und Handelskammer (DIHK)**.
-
-*   **Our Mission:** Democratizing access to personalized learning. We don’t believe that AI will replace educators. Instead, we empower them to design and deliver personalized learning experiences at scale.
-*   **Our Growth:** We've raised pre-seed funding and are growing rapidly. While we focus on higher education today, we're already expanding into new regions and markets.
-*   **Our Culture:** We’re a young, driven team passionate about tackling the toughest challenges in education. We embrace builder culture and minimize scheduled meetings for ad-hoc discussions and maximized focus on coding and creating.
-
-**Meet the Team**
-
-*   [**Antong**](https://www.linkedin.com/in/antongyin/) **(CEO):** BCG, BMW & Antler background, leads business strategy, DJ by night
-*   [**Jan**](https://www.linkedin.com/in/jan-tiegges/) **(CTO):** NLP research, experience from SAP & N26, morning bike commuter
-*   [**Paul**](https://www.linkedin.com/in/paulstefanherman/) **(CPO):** Product expert with startup and education research background, devoted dog dad
-*   [**Emile**](https://www.linkedin.com/in/emile-courthoud/) **(Fullstack):** Ex-founder with product & AI background, ETH graduate, avid runner
-*   [**Anas**](https://www.linkedin.com/in/muhammadanasafzal/) **(Fullstack):** TypeScript specialist, functional programming enthusiast, chief photography officer
-*   [**Rohit**](https://www.linkedin.com/in/rohit-kumar-saini/) **(Fullstack):** Specialist in modern large-scale web architecture, escape room explorer
-*   [**Ammar**](https://www.linkedin.com/in/ammarkhalid123/) **(Fullstack):** Ex‑founder with webdev and blockchain experience, a learning violinist
-
-Tasks
------
-
-**What You'll Do**
-
-As **Founder’s Associate Intern / Working Student**, you’ll work directly with Antong (CEO) and Paul (CPO) on high-impact topics across strategy, sales, marketing, product, operations and growth.
-
-**Tasks:**
-
-*   **Drive strategic initiatives:** from market expansion and pricing to new partnerships and product launches
-*   **Support the sales cycle:** help identify promising leads, prepare sales calls and play a key role in moving opportunities forward
-*   **Boost our B2C presence:** from social media (organic, paid, influencer) to SEO/SEA, referral loops, ambassador programs and other initiatives
-*   **Turn data into action:** analyze product data and user behavior to identify growth levers and test monetization ideas
-*   **Build our brand:** contribute to our content, events, community and thought leadership
-*   **Take charge of internal ops:** improve workflows, processes and help us scale internal systems across finance, investor relations and tooling
-
-Requirements
-------------
-
-**What We're Looking For**
-
-*   **Relevant experience:** You’ve worked in startups, consulting, VC, investment banking or other fast-paced, high-performance environments
-*   **Strategic & hands-on:** You can zoom out and think big, but you’re just as ready to roll up your sleeves and execute
-*   **Analytical mindset:** You’re comfortable with numbers, structured thinking, and turning data into decisions
-*   **Excellent communicator:** You’re fluent in **both German & English**, and comfortable leading conversations with users, customers and decision-makers
-*   **Commitment to excellence:** You’re driven to go above and beyond when it matters
-*   **AI-native:** You integrate AI in almost every workflow without outsourcing your thinking
-*   **Availability:** You're **based in Berlin**, enrolled at a university and available for the next 12 months
-
-Benefits
---------
-
-**Benefits**
-
-*   Working in a small but driven team built around performance and learning
-*   Flexible environment with high degree of autonomy and option to work remotely
-*   Frequent team events and acemate parties! 🥳
-
-**Ready to Join Us?**
-
-Send us your CV and anything else you’d like us to see, and let's build the future of education together.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nacemate is revolutionizing higher education with its leading AI learning & teaching platform. Founded less than a year ago, it has rapidly become Germany's premier platform, trusted by top-tier institutions like the University of Cologne, WHU, and DIHK across four countries. Their mission is to democratize access to personalized learning, empowering educators with AI rather than replacing them. Having secured pre-seed funding, acemate is in an exciting growth phase, expanding into new regions and markets.\n\nThe company culture is defined by a young, driven team passionate about tackling education's toughest challenges, embracing a 'builder culture' with minimized scheduled meetings to maximize focus on coding and creating. The team comprises experienced professionals from BCG, SAP, N26, and ETH, with diverse backgrounds in business, AI, product, and fullstack development, led by CEO Antong, CTO Jan, and CPO Paul.\n\nAs a **Founder's Associate Intern / Working Student**, you will be a pivotal part of this journey, working directly with the CEO (Antong) and CPO (Paul) on high-impact initiatives spanning strategy, sales, marketing, product, operations, and growth. This role offers an unparalleled opportunity to contribute across various facets of a rapidly scaling AI startup.\n\n### Responsibilities\nAs a Founder's Associate Intern / Working Student, you will be deeply involved in:\n*   **Driving strategic initiatives:** Contributing to market expansion, pricing strategies, new partnerships, and product launches.\n*   **Supporting the sales cycle:** Identifying promising leads, preparing sales calls, and actively moving opportunities forward.\n*   **Boosting our B2C presence:** Managing social media (organic, paid, influencer), optimizing SEO/SEA, developing referral loops, and ambassador programs.\n*   **Turning data into action:** Analyzing product data and user behavior to uncover growth levers and test monetization ideas.\n*   **Building our brand:** Contributing to content creation, events, community engagement, and thought leadership.\n*   **Taking charge of internal operations:** Improving workflows, processes, and scaling internal systems across finance, investor relations, and tooling.\n\n### Qualifications\nWe are looking for a candidate who meets the following criteria:\n*   **Relevant experience:** Previous experience in startups, consulting, VC, investment banking, or other fast-paced, high-performance environments.\n*   **Strategic & hands-on:** The ability to think big picture while also being ready to execute tasks with a hands-on approach.\n*   **Analytical mindset:** Comfortable with numbers, structured thinking, and adept at translating data into actionable decisions.\n*   **Excellent communicator:** Fluent in both German & English, capable of leading conversations with users, customers, and decision-makers.\n*   **Commitment to excellence:** A strong drive to go above and beyond when it matters most.\n*   **AI-native:** Integrates AI into almost every workflow, using it as a tool for efficiency without outsourcing critical thinking.\n*   **Availability:** Based in Berlin, currently enrolled at a university, and available for the next 12 months.\n\n### Author's Take\nThis is an exceptional \\\"Entry-Level\\\" opportunity for an ambitious, driven individual eager to gain broad experience at a rapidly scaling AI startup. The Founder's Associate role at acemate offers direct exposure to C-level decision-making and the chance to contribute across virtually every business function—from strategy and sales to product and operations. The company's \\\"builder culture\\\" emphasizes autonomy, learning, and performance in a flexible environment, making it ideal for someone who thrives on taking initiative and seeing immediate impact. Being based in Berlin and fluent in both German and English are key requirements, underscoring the company's local roots and international ambitions. This role is perfect for a proactive, analytical problem-solver who wants to make a tangible difference in the future of education with AI.

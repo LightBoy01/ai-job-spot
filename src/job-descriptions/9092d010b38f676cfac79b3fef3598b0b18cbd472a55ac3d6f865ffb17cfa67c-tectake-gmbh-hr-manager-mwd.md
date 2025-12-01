@@ -10,47 +10,46 @@ expirationDate: null
 tags:
   - Management
   - Team Leader
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/tectake-gmbh/hr-manager-igersheim-304957
 companyLogoUrl: null
+companyCulture: >-
+  The company cultivates a dynamic and supportive environment, prioritizing
+  employee well-being with flexible working hours and modern workspaces. It
+  fosters team cohesion through events, supports continuous learning, and
+  operates with an open culture that values quick decision-making.
+story_question1: >-
+  How does tectake balance its rapid growth and international expansion with the
+  need to maintain its unique team spirit and employee-centric culture,
+  particularly concerning HR strategy and talent retention?
+story_answer1: >-
+  That's a fantastic question, and it's something we genuinely prioritize here.
+  Our growth has been phenomenal, but we know our people are the core of that
+  success. As the HR Manager, you'd be central to this. We're constantly
+  evolving our HR strategy to not just attract top talent globally, but more
+  importantly, to ensure everyone feels valued and connected. Those team events,
+  the flexible hours, the focus on learning – they're not just perks, they're
+  intentional elements to preserve our unique 'tectake spirit' amidst change.
+  It's about proactive cultural stewardship, ensuring that as we grow, we grow
+  stronger together.
+story_question2: >-
+  With responsibilities spanning strategic HR development, digitalization of HR
+  tools, and overall HR management, what kind of support and resources can the
+  HR Manager expect to drive these initiatives effectively?
+story_answer2: >-
+  You won't be navigating this alone! We believe in empowering our team. You'll
+  find a very open corporate culture here with quick decision-making processes,
+  which means if you have a great idea for a new HR tool or a strategic
+  initiative, you'll get the backing and resources to implement it. Our
+  leadership is incredibly supportive of innovation, especially when it enhances
+  employee experience and efficiency. Plus, our comprehensive benefits, like
+  support for further training and an ergonomically designed workplace, are
+  there to ensure you have everything you need to succeed, both professionally
+  and personally.
 ---
-tectake ist ein dynamisches E-Commerce-Unternehmen mit einem breiten und stetig wachsenden Produktsortiment rund um Wohnen, Haushalt, Freizeit und Hobby. Durch kontinuierliche Optimierungen setzen wir unsere erfolgreiche Entwicklung sowohl auf nationaler als auch auf internationaler Ebene fort. Um diesen Erfolg und das rasante Wachstum der letzten Jahre auch in Zukunft voranzutreiben, suchen wir für unsere Zentrale in Igersheim einen **HR-Manager** **(m/w/d)** in Vollzeit.
-
-Freuen darfst Du Dich auf:
---------------------------
-
-*   **Office Dogs** – Ein entspanntes und harmonisches Arbeitsumfeld durch tierische Begleiter
-*   **Corporate Benefits** – Attraktive Mitarbeiterrabatte und Vergünstigungen auf unser Sortiment
-*   ⚖**Family, friends and career** – Flexible Arbeitszeiten und ein moderner Arbeitsplatz für eine optimale Vereinbarkeit von Beruf und Privatleben
-*   **Teamspirit** – Gemeinsame Sportevents und Team-Veranstaltungen zur Stärkung des Zusammenhalts
-*   **More Benefits** – Unterstützung bei Weiterbildung und Teambuilding, ergonomische Arbeitsplätze, betriebliche Gesundheitsvorsorge sowie schnelle Entscheidungsprozesse in einer offenen Unternehmenskultur. Zusätzlich bieten wir kostenlose Verpflegungsmöglichkeiten
-
-Deine Aufgaben:
----------------
-
-*   Übernahme der operativen und strategischen Gesamtverantwortung für den Bereich Human Resources
-*   Zentrale Ansprechperson in allen personalwirtschaftlichen sowie arbeitsrechtlichen Fragestellungen
-*   Verantwortung für die Weiterentwicklung der Personalstrategie zur Gewinnung von Fachkräften und zur nachhaltigen Mitarbeiterbindung
-*   Einführung und Steuerung von HR-Tools zur weiteren Digitalisierung und zur Unterstützung der HR-Arbeit
-*   Aufbereitung und Analyse von Personaldaten sowie Personalkosten
-
-Unsere Anforderungen an Dich:
------------------------------
-
-*   Abgeschlossenes Studium mit Schwerpunkt Personal, Recht oder Betriebswirtschaftslehre
-*   Mehrjährige Berufserfahrung sowie erste Führungsverantwortung im Bereich Human Resources eines international tätigen Unternehmens
-*   Fundierte Kenntnisse in allen Fragen des Arbeits- und Sozialversicherungsrechts
-*   Ausgeprägte analytische Fähigkeiten zur Erstellung relevanter Personalkennzahlen sowie zur Entwicklung und Umsetzung von Lösungen zur Förderung positiver Veränderungen
-*   Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift
-*   Erfahrung in der Entwicklung moderner Personalkonzepte sowie in der Implementierung innovativer HR-Tools
-*   Hohe Kommunikationsfähigkeit und Empathie im Umgang mit unterschiedlichen Hierarchieebenen
-*   Souveränes Auftreten, Hands-on-Mentalität, Überzeugungskraft sowie ausgeprägtes Verhandlungsgeschick
-
-Werde Teil unseres tectake-Teams und entdecke unsere vielfältigen Mitarbeiterbenefits!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\ntectake is a dynamic e-commerce company with a broad and steadily growing product range around living, household, leisure, and hobbies. Through continuous optimization, we continue our successful development both nationally and internationally. To drive this success and the rapid growth of recent years into the future, we are looking for an **HR Manager (m/f/d)** in full-time for our headquarters in Igersheim.\\n\\nYou can look forward to:\\n- **Office Dogs** – A relaxed and harmonious work environment thanks to animal companions\\n- **Corporate Benefits** – Attractive employee discounts and benefits on our product range\\n- **Family, friends and career** – Flexible working hours and a modern workplace for optimal work-life balance\\n- **Team spirit** – Joint sports events and team events to strengthen cohesion\\n- **More Benefits** – Support for further training and teambuilding, ergonomic workstations, company health care, and fast decision-making processes in an open corporate culture. Additionally, we offer free catering options.\\n\\n### Responsibilities\\n- Taking overall operational and strategic responsibility for the Human Resources department.\\n- Central contact person for all HR-related and labor law questions.\\n- Responsibility for the further development of the HR strategy for attracting skilled workers and for sustainable employee retention.\\n- Introduction and management of HR tools for further digitalization and to support HR work.\\n- Preparation and analysis of HR data and personnel costs.\\n\\n### Qualifications\\n- Completed degree with a focus on HR, Law, or Business Administration.\\n- Several years of professional experience and initial leadership responsibility in Human Resources within an internationally active company.\\n- Profound knowledge of all aspects of labor and and social security law.\\n- Strong analytical skills for generating relevant HR key figures, and for developing and implementing solutions to foster positive changes.\\n- Very good German and English language skills, both written and spoken.\\n- Experience in developing modern HR concepts and in implementing innovative HR tools.\\n- High communication skills and empathy in dealing with different hierarchical levels.\\n- Confident demeanor, hands-on mentality, persuasiveness, and strong negotiation skills.\\n\\n### Author's Take\\nThis is an excellent opportunity for a proactive and experienced HR professional to take on a pivotal strategic role within a rapidly growing international e-commerce company. The role offers overall responsibility for HR, emphasizing strategic development and digitalization, combined with a supportive culture that values work-life balance, continuous learning, and strong team cohesion. If you're looking to make a significant impact and shape the future of HR in a dynamic environment, this role at tectake is for you.

@@ -9,109 +9,74 @@ postedDate: '2025-11-27T20:32:13.000Z'
 expirationDate: null
 tags:
   - Software Development
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
+salaryRange: '€60,000 - €80,000 annually'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/getpress/ai-full-stack-engineer-berlin-107639
 companyLogoUrl: null
+companyCulture: >-
+  getpress fosters a highly collaborative, supportive, and flexible environment,
+  valuing openness and mutual respect. Employees are empowered with significant
+  autonomy and 'Gestaltungsspielraum' (creative freedom), especially in this
+  role, with clear long-term growth opportunities towards leadership positions.
+story_question1: >-
+  Given the ambition to build an 'AI-first system that acts as an operating
+  system for the entire organization,' what are the most significant technical
+  challenges you foresee in ensuring its reliability, scalability, and seamless
+  integration across all departments?
+story_answer1: >-
+  That's an excellent question, and it gets right to the heart of what makes
+  this role so exciting and challenging. The sheer breadth of this AI-first
+  system, touching everything from frontend interfaces for our PR managers to
+  complex agentic backends and customer dashboards, certainly presents a
+  multifaceted technical puzzle. The biggest challenge isn't just building the
+  components, but ensuring they integrate flawlessly, scale efficiently as our
+  operations grow, and remain robust against an ever-evolving AI landscape. We
+  approach this not with fear, but with a culture of radical ownership and
+  continuous learning. We trust our engineers to architect solutions, experiment
+  with new models, and drive the technical vision. It’s about building a solid
+  foundation today while anticipating tomorrow's needs, and that journey is
+  supported by open communication with management and a team that genuinely
+  backs each other up. You'll be the architect, and your input will shape how we
+  tackle these critical challenges head-on.
+story_question2: >-
+  With the rapid pace of AI innovation, how does getpress empower its engineers
+  to stay ahead of the curve, experiment with emerging technologies, and
+  integrate them into the core system while maintaining stability and security?
+story_answer2: >-
+  The speed of AI evolution is both a thrill and a challenge, and it's something
+  we embrace actively. We believe in providing immense 'Gestaltungsspielraum' –
+  creative freedom – to our engineers. This isn't a place where you're handed a
+  strict blueprint. Instead, you're encouraged to observe new models and tools,
+  experiment, and even dedicate time to 'technisches Experimentieren' for cost
+  optimization. We see you as the expert who will guide our tech stack. If a new
+  vector database or a specific LLM offers a clear advantage, you're empowered
+  to explore its integration. This flexibility extends to our work environment
+  too, where whether you're in the Berlin office or working remotely, the focus
+  is on outcomes and intelligent problem-solving. We ensure the necessary
+  resources and trust are there for you to innovate responsibly, knowing that
+  true progress often comes from pushing boundaries safely.
+story_question3: >-
+  The job description mentions this role will 'set new standards for how
+  agencies will work in the future' with AI. Can you elaborate on getpress's
+  unique vision for an 'AI-first system' and how it fundamentally differentiates
+  you from traditional PR agencies?
+story_answer3: >-
+  Absolutely, this is where we truly stand apart. When we talk about an
+  'AI-first system as an operating system for our entire organization,' we're
+  not just adding AI as a bolt-on feature. We're re-engineering the very fabric
+  of how a PR agency operates. Imagine intelligent agents handling research,
+  content processing, and clipping analysis, deeply integrated with our planning
+  dashboards and customer interfaces. This isn't about mere automation; it's
+  about creating a living, breathing system where AI actively augments human
+  intelligence, optimizes workflows, and provides unprecedented insights. It
+  frees our PR managers to focus on strategic thinking and client relationships,
+  while the system handles the heavy lifting, drives efficiency, and ensures
+  data-driven decision-making. We're not just a PR agency using AI; we're an
+  AI-powered operating system delivering PR results, and that fundamental shift
+  is what defines our future.
 ---
-Overview
---------
-
-Als AI & Full Stack Engineer (AI Engineering / Automation Engineering / System Architecture / Full-Stack Engineering mit AI-Schwerpunkt) entwickelst du gemeinsam mit uns ein AI-first System, das wie ein Betriebssystem unsere gesamte Organisation antreibt.
-
-Dieses System besteht aus:
-
-*   dem **Frontend** (AI-assisted entwickelt mit Claude Code), in dem unsere PR-Manager\*innen täglich arbeiten
-*   dem **Management-Dashboard** mit Planung, Kapazitäten und Performance
-*   dem **Kundeninterface**, das Ergebnisse, Daten und AI-generierte Reports abbildet
-*   einem **agentischem und workflow-basiertem Backend**, das Systeme intelligent miteinander verbindet (Supabase, Vektordatenbanken, API-Flows, Agenten, KI-Modellen)
-
-Deine Rolle
------------
-
-**Systemarchitektur & Ownership**
-
-*   Vollständige Verantwortung für das technische System (Frontend & Backend)
-*   Ownership der Systemarchitektur und Weiterentwicklung, inkl. Workflows, Datenstruktur, Schnittstellen, Compliance und Tech Stack (bisher vorwiegend Supabase, n8n, Make, Vercel, Perplexity, Azure OpenAI)
-
-**Frontend-Weiterentwicklung (Next.js, React)**
-
-*   Ausbau und Optimierung eines modularen internen Frontends
-*   Entwicklung KI-gestützte Interfaces für alle getpress Stakeholder
-
-**Agentisches und workflow-basierte Backend-Entwicklung**
-
-*   Entwicklung und Betreuung von KI-Agenten (z. B. für Research, Content Processing, Clipping-Auswertung) über No- und Low-Code Plattformen wie make und n8n
-*   Aufbau automatisierter Workflows & Orchestrierungen
-*   API Management und Verbindung aller Systeme (HubSpot, Slack, Google, interne Tools) über stabile Schnittstellen mit Monitoring und Error-Handling
-
-**Datenmanagement**
-
-*   Aufbau und Pflege einer Supabase-Architektur inkl. relationaler Daten- und Vektor-Datenbanken
-*   Verbindung mit Frontends, Agenten und Automatisierungen
-
-**Innovation & Skalierung**
-
-*   Beobachtung neuer Modelle und Tools
-*   Kostenoptimierung & technisches Experimentieren
-
-**Enablement & Dokumentation**
-
-*   Dokumentation und technisches Coaching
-*   Knowhow-Transfer ins Operations-Team
-
-Kurz gesagt: Diese Rolle ist für jemanden, der Systeme statt einzelner Features denkt — der Technologie als Organisationsprinzip versteht und mit KI, Daten und Code neue Maßstäbe dafür setzen möchte, wie Agenturen künftig arbeiten.
-
-Wer du bist
------------
-
-Du kommst aus einer Richtung wie AI Engineering, Full-Stack Engineering, System Architecture oder Full-Stack Engineering mit AI-Schwerpunkt? Perfekt — genau diese Erfahrung macht dich zur idealen Besetzung für unsere Rolle als **AI & Full Stack Engineer**.
-
-**Must-have:**
-
-*   **Erfahrung:** Mindestens 5 Jahre Erfahrung in Full-Stack-Entwicklung oder vergleichbaren Rollen (tiefes Verständnis von Softwareentwicklung)
-*   **Tech Stack:** Next.js, React, TypeScript, PostgreSQL, Claude Code (mit Offenheit für Cursor)
-*   **AI & Automation:** Praktische (auch außerberufliche) Erfahrung mit LLMs, Vektordatenbanken, Workflow-Orchestration, Azure/OpenAI API
-*   **Datenkompetenz:** Sicher in SQL, API Design, Schema-Design, Edge Functions, Query Optimization
-*   **Sprache:** Deutsch fließend (C1)
-*   **Mindset:** Ownership, pragmatisch, systemisch denkend, strukturiert, neugierig, DevOps: ”You build it, you run it"
-
-**Nice-to-have:**
-
-*   Langchain, Agentic systems
-*   n8n, make, supabase
-*   security monitoring (OAuth, RLS, GDPR)
-
-Was dich erwartet
------------------
-
-*   **Architekt des Tech-Layers:** Du bist der zentrale technische Dreh- und Angelpunkt und gestaltest mit, wie getpress Technologie denkt und nutzt
-*   **Real AI Work:** Keine PowerPoint-Automatisierung – du baust echte Systeme mit APIs, KI-Agenten und Datenbanken, die täglich hunderte Prozesse antreiben
-*   **Gestaltungsspielraum:** Du arbeitest direkt mit dem Management, setzt eigene Ideen um und definierst Standards, an denen sich die Teams orientieren
-*   **Langfristige Perspektive:** Entwicklung in Richtung Head of Automation / System Architect, ggf. Führung eines Tech-Teams bei entsprechender Entwicklung
-*   **Unterstützung und offene Arme:** Wir begegnen einander auf Augenhöhe – offen, ehrlich und mit echtem Interesse am Gegenüber. Wir lernen voneinander, geben einander Rückhalt und feiern gemeinsame Erfolge.
-*   **Flexibilität, die wirklich gelebt wird:** Ob im Berliner Office oder remote – wir setzen auf flexible Arbeitsmodelle mit viel Eigenverantwortung. Wir suchen jemanden, der in Berlin wohnt und auch Lust auf Officealltag hat. Doch wann und wie du deinen Arbeitsalltag gestaltest, entscheidest du selbst. Klare Kommunikation und Vertrauen sind dabei für uns selbstverständlich.
-
-**Dein Rahmen bei uns:**
-
-*   **Gehalt:** 60.000-80.000€ brutto jährlich
-*   **Urlaub:** 27 Tage -> 32 ab Jahr 2 -> unbegrenzt ab Jahr 3
-*   **Sachbezüge (Wahl aus 4):** Rewe-Gutschein, ÖPNV-Ticket, Urban Sports oder KiTa-Zuschuss
-*   **Tech Stack:** Du bist hier verantwortlich - bisher arbeiten wir mit Claude Code, du kannst auch gerne Cursor nutzen.
-*   betriebliche Altersvorsorge: 20% Zuschuss auf deine Einzahlungen
-*   … und natürlich haben wir auch kostenlosen Kaffee, Getränke, Snacks und wunderbare Off-und Onsites. :)
-
-Wie gehts weiter?
------------------
-
-**Das klingt genau nach dir?**  
-Dann sende uns deinen Lebenslauf sowie ein Video (bspw. Loom)-Video (max 5 Minuten) in dem wir dich und deine Arbeit ein bisschen besser kennenlernen:
-
-*   Motivation für die Bewerbung (2 min): Warum bewirbst du dich? Auf welchen Teil der Rolle freust du dich am meisten?
-*   Projektvorstellung (3 min): Führe uns kurz durch ein relevantes Projekt, auf das du stolz bist. Das kann ein berufliches oder privates Projekt sein (beachte NDAs). Zeige gerne deinen Tech Stack, erläutere kurz, was du gebaut hast und gib uns so einen authentischen Einblick in deine Arbeitsweise.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nAs an AI & Full Stack Engineer at getpress, you will be instrumental in developing an AI-first system that acts as an operating system for our entire organization. This strategic system encompasses:\n*   A **Frontend** (AI-assisted, developed with Claude Code) used daily by our PR managers.\n*   A **Management Dashboard** for planning, capacities, and performance.\n*   A **Customer Interface** displaying results, data, and AI-generated reports.\n*   An **agentic and workflow-based Backend** intelligently connecting systems (Supabase, vector databases, API flows, agents, AI models).\n\nThis is a pivotal role where you will be the central technical architect, working directly with management to shape how getpress leverages technology, defines standards, and drives innovation. We foster a collaborative and supportive environment, offering significant creative freedom and a long-term career path towards Head of Automation or System Architect, potentially leading a tech team. We champion flexible work models, whether from our Berlin office or remotely, valuing autonomy and clear communication.\n\n### Responsibilities\n*   **System Architecture & Ownership:** Take full responsibility for the technical system (frontend & backend), including architecture, workflows, data structure, interfaces, compliance, and tech stack evolution (currently Supabase, n8n, Make, Vercel, Perplexity, Azure OpenAI).\n*   **Frontend Development (Next.js, React):** Expand and optimize a modular internal frontend, developing AI-powered interfaces for all getpress stakeholders.\n*   **Agentic & Workflow-based Backend Development:** Develop and manage AI agents (e.g., for research, content processing, clipping analysis) using no- and low-code platforms like Make and n8n. Build automated workflows & orchestrations, manage APIs, and connect all systems (HubSpot, Slack, Google, internal tools) with stable interfaces, monitoring, and error handling.\n*   **Data Management:** Build and maintain a Supabase architecture, including relational and vector databases, connecting them with frontends, agents, and automations.\n*   **Innovation & Scaling:** Monitor new AI models and tools, focus on cost optimization, and engage in technical experimentation.\n*   **Enablement & Documentation:** Document systems and provide technical coaching and knowledge transfer to the Operations team.\n\n### Qualifications\n**Must-have:**\n*   **Experience:** At least 5 years of experience in Full-Stack Development or comparable roles, demonstrating a deep understanding of software development.\n*   **Tech Stack:** Proficiency in Next.js, React, TypeScript, PostgreSQL, Claude Code (with openness to Cursor).\n*   **AI & Automation:** Practical experience (including non-professional) with LLMs, vector databases, workflow orchestration, and Azure/OpenAI API.\n*   **Data Competence:** Secure knowledge in SQL, API Design, Schema Design, Edge Functions, and Query Optimization.\n*   **Language:** Fluent in German (C1).\n*   **Mindset:** Ownership, pragmatic, systemic thinking, structured, curious, with a DevOps \"You build it, you run it\" mentality.\n\n**Nice-to-have:**\n*   Experience with Langchain, Agentic systems.\n*   Familiarity with n8n, Make, Supabase.\n*   Knowledge of security monitoring (OAuth, RLS, GDPR).\n\n### Author's Take\nThis is an exceptional opportunity for a Senior AI & Full Stack Engineer who truly thinks in systems rather than isolated features, aiming to leverage technology as an organizational principle. If you're passionate about setting new standards for how agencies operate through AI, data, and code, this role offers unparalleled impact. You'll be at the forefront of real AI work, building complex, production-grade systems that power hundreds of daily processes, not just theoretical concepts. The \"You build it, you run it\" ethos is central here, offering complete ownership and autonomy. Combined with a supportive culture, flexible work arrangements, competitive salary (€60,000 - €80,000 annually), generous vacation starting at 27 days, and clear pathways for professional growth into leadership, getpress is looking for a pragmatic innovator ready to make a significant mark.

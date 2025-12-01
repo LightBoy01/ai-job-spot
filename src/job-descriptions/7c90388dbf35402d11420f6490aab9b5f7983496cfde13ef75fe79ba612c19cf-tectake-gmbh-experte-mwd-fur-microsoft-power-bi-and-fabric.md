@@ -9,53 +9,44 @@ postedDate: '2025-11-30T00:32:08.000Z'
 expirationDate: null
 tags:
   - Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/tectake-gmbh/experte-fur-microsoft-power-bi-fabric-hochberg-136309
 companyLogoUrl: null
+companyCulture: >-
+  tectake fosters a dynamic and open work environment that values work-life
+  balance through flexible hours and modern workspaces. The company promotes a
+  strong team spirit with joint events and supports continuous growth through
+  further education and fast decision-making, all while welcoming pets and
+  offering various employee benefits.
+story_question1: >-
+  How does this role directly contribute to tectake's strategic growth, and what
+  are the biggest challenges in standardizing BI across diverse product lines?
+story_answer1: >-
+  You know, what's really exciting about being the BI & Fabric Expert here at
+  tectake is seeing the direct impact of your work on our rapid international
+  growth. We're constantly expanding our product range, and your insights are
+  crucial for smart decision-making across all departments. The biggest
+  challenge? It's definitely harmonizing data from our various e-commerce
+  segments and ensuring everyone across the company understands and leverages
+  the power of BI. But that's also the fun part – building those bridges and
+  seeing the 'aha!' moments.
+story_question2: >-
+  What's the typical process for proposing and integrating new data-driven
+  applications or technologies, especially within the Microsoft ecosystem, and
+  how quickly can these ideas move from concept to implementation?
+story_answer2: >-
+  At tectake, we truly value curiosity and new ideas. If you identify a new
+  data-driven application or a promising technology in the Microsoft ecosystem,
+  you're encouraged to bring it forward. We have a very open culture with fast
+  decision-making processes. Typically, you'd present your idea and its
+  potential benefits, often as a proof-of-concept. If it aligns with our
+  strategic goals, you'll get the green light to explore and integrate it. We're
+  agile, so seeing your innovations go from concept to live implementation can
+  happen surprisingly fast, which is incredibly rewarding.
 ---
-tectake ist ein dynamisches E-Commerce-Unternehmen mit einem breiten und stetig wachsenden Produktsortiment rund um Wohnen, Haushalt, Freizeit und Hobby. Durch kontinuierliche Optimierungen setzen wir unsere erfolgreiche Entwicklung sowohl auf nationaler als auch auf internationaler Ebene fort. Um diesen Erfolg und das rasante Wachstum der letzten Jahre auch in Zukunft voranzutreiben, suchen wir für unseren Standort in Höchberg (Würzburg) einen **Experten (m/w/d)** **für Microsoft Power BI & Fabric** in Vollzeit.
-
-Freuen darfst Du Dich auf:
---------------------------
-
-*   **Office Dogs** – Ein entspanntes und harmonisches Arbeitsumfeld durch tierische Begleiter
-*   **Corporate Benefits** – Attraktive Mitarbeiterrabatte und Vergünstigungen auf unser Sortiment
-*   ⚖**Family, friends and career** – Flexible Arbeitszeiten und ein moderner Arbeitsplatz für eine optimale Vereinbarkeit von Beruf und Privatleben
-*   **Teamspirit** – Gemeinsame Sportevents und Team-Veranstaltungen zur Stärkung des Zusammenhalts
-*   **More Benefits** – Unterstützung bei Weiterbildung und Teambuilding, ergonomische Arbeitsplätze, betriebliche Gesundheitsvorsorge sowie schnelle Entscheidungsprozesse in einer offenen Unternehmenskultur. Zusätzlich bieten wir kostenlose Verpflegungsmöglichkeiten
-
-Deine Aufgaben:
----------------
-
-*   Entwicklung ganzheitlicher BI-Lösungen auf Basis von Microsoft Power BI und Fabric sowie Begleitung des gesamten Prozesses von der Konzeption bis zur Umsetzung
-*   Modellierung, Transformation sowie Visualisierung von Daten zur Erstellung aussagekräftiger Analysen und Ableitung konkreter Handlungsempfehlungen
-*   Verknüpfung unterschiedlicher Datenquellen, Einrichtung effizienter Datenflüsse und Sicherstellung stabiler Schnittstellen
-*   Erstellung und Pflege von Dataflows, Reports und Dashboards – von tiefgehenden Analyse-Tools bis hin zu übersichtlichen Management-Berichten
-*   Unterstützung interner Teams bei der Entwicklung und Umsetzung der BI-Strategien durch technisches und analytisches Know-how
-*   Definition relevanter Kennzahlen (KPIs) sowie Entwicklung von Modellen zur Erleichterung datenbasierter Entscheidungen und zur Messbarkeit von Prozessen
-*   Mitwirkung an der Weiterentwicklung der Datenarchitekturen und Automatisierungslösungen
-*   Förderung des Aufbaus einheitlicher BI-Standards und Best Practices im Unternehmen
-*   Strukturierte Dokumentation der Arbeit zur Sicherstellung skalierbarer und nachvollziehbarer Lösungen
-*   Identifizierung neuer Potenziale für datengetriebene Anwendungen sowie Einbringung eigener Ideen für zukünftige BI-Use-Cases
-
-Unsere Anforderungen an Dich:
------------------------------
-
-*   Abgeschlossenes Studium im Bereich (Wirtschafts-)Informatik, Wirtschaftswissenschaften oder einem vergleichbaren Studiengang
-*   Fundierte Erfahrung im Umgang mit Microsoft Power BI und Power Query
-*   Kenntnisse im Bereich Microsoft Fabric, insbesondere im Zusammenspiel mit Dataflows und Lakehouse-Architekturen
-*   Praxiserfahrung im Umgang mit SQL, Azure, Microsoft 365 und verschiedenen Schnittstellen-Integrationen
-*   Verständnis für Geschäftsprozesse, KPIs und Entscheidungslogiken sowie Fähigkeit zur Einordnung von Daten in diesen Kontext
-*   Fähigkeit zur klaren Strukturierung komplexer Sachverhalte und zur überzeugenden visuellen sowie inhaltlichen Aufbereitung
-*   Selbstständige und lösungsorientierte Arbeitsweise in Kombination mit Teamgeist und Neugier
-*   Freude am Ausprobieren neuer Technologien im Microsoft-Umfeld und Interesse an aktuellen Entwicklungen
-*   Begeisterung für die Arbeit mit Daten und Vermittlung des Mehrwerts von Business Intelligence
-
-Werde Teil unseres tectake-Teams und entdecke unsere vielfältigen Mitarbeiterbenefits!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\ntectake is a dynamic and rapidly growing e-commerce company specializing in a wide range of products for home, household, leisure, and hobbies. We are continuously optimizing our operations to drive successful development both nationally and internationally. To sustain this rapid growth, we are seeking a dedicated **Expert (m/f/d) for Microsoft Power BI & Fabric** to join our team in Höchberg (Würzburg). This role is crucial for developing holistic BI solutions that will inform strategic decisions and foster data-driven innovation within our open and collaborative environment. Enjoy benefits like flexible working hours, office dogs, team events, and continuous learning opportunities.\n\n### Responsibilities\n- Develop holistic BI solutions based on Microsoft Power BI and Fabric, overseeing the entire process from conception to implementation.\n- Model, transform, and visualize data to create insightful analyses and derive concrete recommendations for action.\n- Link diverse data sources, establish efficient data flows, and ensure stable interfaces.\n- Create and maintain dataflows, reports, and dashboards, ranging from in-depth analytical tools to clear management reports.\n- Support internal teams in developing and implementing BI strategies with your technical and analytical expertise.\n- Define relevant Key Performance Indicators (KPIs) and develop models to facilitate data-based decisions and measure processes.\n- Contribute to the further development of data architectures and automation solutions.\n- Promote the establishment of uniform BI standards and best practices throughout the company.\n- Structure and document your work to ensure scalable and traceable solutions.\n- Identify new potential for data-driven applications and contribute your own ideas for future BI use cases.\n\n### Qualifications\n- Completed degree in (Business) Informatics, Economics, or a comparable field.\n- Profound experience in using Microsoft Power BI and Power Query.\n- Knowledge of Microsoft Fabric, especially in conjunction with Dataflows and Lakehouse architectures.\n- Practical experience with SQL, Azure, Microsoft 365, and various interface integrations.\n- Strong understanding of business processes, KPIs, and decision logic, with the ability to contextualize data within these frameworks.\n- Ability to clearly structure complex issues and present them convincingly, both visually and in terms of content.\n- Independent and solution-oriented work ethic, combined with strong team spirit and curiosity.\n- Enthusiasm for experimenting with new technologies in the Microsoft environment and a keen interest in current developments.\n- Passion for working with data and conveying the added value of Business Intelligence.\n\n### Author's Take\nThis is a fantastic opportunity for a seasoned BI professional to make a significant impact within a rapidly growing e-commerce company. tectake offers a supportive and innovative environment where your expertise in Microsoft Power BI & Fabric will directly contribute to strategic decision-making and the company's future success. With a strong emphasis on work-life balance, continuous learning, and a vibrant team culture, it's an ideal role for someone looking to grow and lead in the data space.

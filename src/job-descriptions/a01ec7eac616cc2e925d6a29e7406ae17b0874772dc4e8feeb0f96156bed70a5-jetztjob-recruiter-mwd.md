@@ -8,93 +8,51 @@ postedDate: '2025-11-29T17:31:40.000Z'
 expirationDate: null
 tags:
   - HR
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: 'https://www.arbeitnow.com/jobs/companies/jetztjob/recruiter-bielefeld-352867'
 companyLogoUrl: null
+companyCulture: >-
+  Aramaz Digital fosters a vibrant culture focused on continuous professional
+  growth through regular coaching and feedback. They emphasize strong team
+  collaboration via events and a collegiate atmosphere, prioritizing employee
+  well-being with health benefits and a flexible work environment.
+story_question1: >-
+  Given Aramaz Digital's specialization in finding talent for Mittelstand,
+  especially within the food sector, what are the most significant hurdles
+  recruiters face in this unique market, and how does the company equip its team
+  to overcome them and deliver exceptional matches?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what we do.
+  Recruiting for the Mittelstand, particularly in the food industry, isn't just
+  about matching skills; it's about understanding distinct company cultures and
+  long-term vision. The biggest hurdle? Often it's conveying the incredible
+  impact these companies have and finding candidates who resonate with their
+  values. At Aramaz Digital, we tackle this by immersing ourselves deeply in our
+  clients' businesses. We don't just 'source'; we become strategic partners. Our
+  continuous training, expert coaching, and collaborative team environment
+  ensure you're always equipped with the latest insights and tools, turning
+  those 'hurdles' into exciting opportunities to make truly impactful
+  placements. It's incredibly rewarding to see the growth you enable, both for
+  our clients and for the candidates whose careers we help shape.
+story_question2: >-
+  The job description highlights actively shaping candidate journeys and
+  contributing ideas. Could you share an example of how a Recruiter's innovative
+  idea or process improvement has been directly implemented and positively
+  impacted Aramaz Digital's overall recruiting strategy or candidate experience?
+story_answer2: >-
+  Absolutely! We pride ourselves on a culture where ideas aren't just heard,
+  they're acted upon. A great example comes from one of our newer recruiters who
+  suggested we create more personalized, sector-specific 'welcome packs' for top
+  candidates during the interview process, detailing not just the role but also
+  the client's industry impact and company values. It was a simple but powerful
+  idea. We piloted it, saw a significant boost in candidate engagement and
+  acceptance rates, and now it's a standard part of our premium candidate
+  journey. It truly showcases how everyone here, regardless of tenure, has a
+  voice and the ability to drive meaningful change. We believe that the best
+  strategies emerge from the collective brilliance of our team.
 ---
-Jobbeschreibung
----------------
-
-Recruiter (m/w/d) - bei Aramaz Digital
-======================================
-
-Du kennst den Recruiting-Markt – wir haben die passende Mission.
-----------------------------------------------------------------
-
-Du bist Recruiter (m/w/d) mit Leidenschaft und bringst mindestens drei Jahre Erfahrung in der Personalvermittlung mit? Dann könnte das dein nächster Karriereschritt sein. Bei **Aramaz Digital** helfen wir Unternehmen aus Mittelstand, Industrie und Handel dabei, die passenden Talente zu finden – digital, effizient und mit Gespür für Menschen.
-
-Als **Recruiter (m/w/d)** übernimmst du eine Schlüsselrolle in unserem Recruiting-Team und trägst direkt zum Wachstum unserer Kunden und unseres Unternehmens bei.
-
-Profitiere als Recruiter (m/w/d) von unseren einzigartigen Benefits:
---------------------------------------------------------------------
-
-*   **Attraktive** **Vergütung**: Neben fairem Gehalt erwarten dich ungedeckelte Provisionszahlungen bei erfolgreicher Vermittlung.
-*   **Strukturiertes Onboarding**: Damit du schnell durchstartest, erhältst du eine umfassende Einarbeitung und professionelle Schulungen im Bereich Recruiting und Vertrieb.
-*   **Kontinuierliche** **Weiterentwicklung**: Regelmäßige Coachings und Feedback-Sessions von Top-Experten aus dem deutschsprachigen Raum helfen dir dabei, deine Fähigkeiten gezielt auszubauen.
-*   **FutureBens**: Profitiere von exklusiven Mitarbeiterrabatten bei über 160 Top-Marken – von Lifestyle über Gesundheit bis Reisen – mit Nachlässen von bis zu 45%.
-*   **Top**\-**Versorgung**: Moderner Kaffeevollautomat, Faema E61-Siebträgermaschine und Julius Meinl-Kaffee, hochwertige Tees und ein flexibles Lunch-System von Meyer Menü warten auf dich.
-*   **Zukunftssicherheit**: Als marktführende Recruiting-Beratung im Lebensmittel-Mittelstand bieten wir dir langfristige Perspektiven – Digitalisierung ist unsere DNA.
-*   **Team-Events**: Erlebe echten Teamspirit bei gemeinsamen Städte-Trips, unserem legendären Montagsbrunch und regelmäßigen Team-Events, die aus Kollegen Freunde machen.
-*   **Design meets Funktion**: Dein Arbeitsplatz mitten in der Bielefelder Innenstadt ist hochwertig ausgestattet.
-*   **Stabilität** & **Entwicklung**: Wir streben bei entsprechender Leistung eine unbefristete Anstellung an.
-*   **Gesundheit** im **Fokus**: Premium-Fitnessvertrag bei einem Studio deiner Wahl.
-*   **Teamkultur** & **Wertschätzung**: Kollegiale, leistungsorientierte Atmosphäre mit Fokus auf persönliches Wachstum.
-*   **Technik** & **Ergonomie**: Höhenverstellbare Tische, Herman Miller-Stühle und Apple-Technik (MacBook Air/Pro, iMac etc.).
-*   **Gesundheits-Benefit-System:** 600€ Gesundheitsbudget von der SIGNAL IDUNA für Massagen, Zahnbehandlungen, Sehhilfen etc.
-
-Deine spannenden Aufgaben bei Aramaz Digital als Recruiter (m/w/d):
--------------------------------------------------------------------
-
-1.  **Active Sourcing:** Du findest qualifizierte Talente über Plattformen wie Indeed, StepStone und LinkedIn.
-2.  **Ganzheitliches Recruiting:** Du begleitest den gesamten Auswahlprozess – von der Ausschreibung bis zur erfolgreichen Besetzung.
-3.  **Profiling:** Du erstellst aussagekräftige Kandidatenprofile und gibst unseren Kunden fundierte Entscheidungsgrundlagen.
-4.  **Kommunikation auf Augenhöhe:** Du führst strukturierte Interviews und weißt, wie man Talente überzeugt.
-5.  **Prozesse mitgestalten:** Du entwickelst unsere Candidate Journeys aktiv mit und bringst deine Ideen ein.
-6.  **Datenpflege:** Du hältst unseren Talentpool aktuell und strukturiert.
-7.  **Kundenberatung:** Du betreust Kunden professionell und erkennst Potenziale für Zusatzangebote.
-
-Deine Rolle als Recruiter / Talent Manager (m/w/d) bei Aramaz Digital:
-----------------------------------------------------------------------
-
-Du bist die erste Anlaufstelle für potenzielle Kandidaten und erkennst, was Menschen bewegt. Mit deinem Gespür für Talente bringst du ihre Stärken mit den Anforderungen unserer Kunden im Lebensmittel-Mittelstand zusammen – und sorgst dafür, dass die richtigen Menschen zueinanderfinden.
-
-Das bringst du mit:
--------------------
-
-*   **Erfahrung:** Mind. 3 Jahre Berufserfahrung in der Personalvermittlung oder im Recruiting – idealerweise mit Fokus auf KMU.
-*   **Menschenkenntnis:** Du erkennst Potenziale und weißt, worauf es ankommt.
-*   **Eigeninitiative:** Du arbeitest selbstständig, strukturiert und denkst unternehmerisch.
-*   **Kommunikationsstärke:** Du kannst andere für dich gewinnen – schriftlich und mündlich.
-*   **Tool-Kompetenz:** Du fühlst dich in Recruiting-Tools, CRM-Systemen und Plattformen zu Hause.
-
-Qualifikationen
----------------
-
-**Ausbildung:**  
-z. B. als
-
-*   Personaldienstleistungskaufmann (m/w/d)
-*   Personalreferent (m/w/d)
-*   Kaufmann für Büromanagement (m/w/d)
-*   Industriekaufmann (m/w/d)
-*   Consultant (m/w/d)
-
-**Studium:**  
-z. B. in
-
-*   Personalmanagement
-*   Human Resources Management
-*   Wirtschaftswissenschaften
-
-**Stärken:** Du arbeitest strukturiert, kommunizierst sicher auf allen Ebenen und verstehst es, Menschen zu begeistern.  
-**Leidenschaft:** Für dich ist Recruiting mehr als ein Job – du willst Menschen und Unternehmen erfolgreich zusammenbringen.
-
-**Dein nächster Karriereschritt als Recruiter (m/w/d) wartet – wir freuen uns auf dich!**
-
-Job ID #104561246 | #102348223
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nThis is an exciting opportunity for a passionate Recruiter (m/w/d) to join Aramaz Digital, a market-leading recruiting consultancy. With at least three years of experience in personnel placement, you will play a key role in helping companies from the Mittelstand, industry, and trade find suitable talents through digital, efficient, and human-centric methods. This position directly contributes to the growth of both clients and Aramaz Digital.\\n\\nYou'll benefit from a structured onboarding process and continuous professional development, including regular coaching and feedback from top experts. Aramaz Digital fosters a supportive and performance-oriented team culture with a focus on personal growth, enhanced by team events like city trips and Monday brunches. The company provides excellent employee benefits, including premium health and fitness options, attractive discounts via FutureBens, top-tier office equipment (Herman Miller chairs, Apple tech), and high-quality refreshments. As a future-proof company focused on digitalization, Aramaz Digital offers long-term perspectives and aims for permanent employment based on performance.\\n\\n### Responsibilities\\nAs a Recruiter at Aramaz Digital, your dynamic tasks will include:\\n- **Active Sourcing:** Identifying qualified talents via platforms like Indeed, StepStone, and LinkedIn.\\n- **Holistic Recruiting:** Managing the entire selection process, from job posting to successful placement.\\n- **Profiling:** Creating insightful candidate profiles to provide clients with informed decision-making bases.\\n- **Peer-Level Communication:** Conducting structured interviews and effectively persuading talents.\\n- **Process Co-creation:** Actively developing and contributing ideas to improve candidate journeys.\\n- **Data Maintenance:** Keeping the talent pool current and well-structured.\\n- **Client Consulting:** Providing professional client support and identifying potential for additional services.\\n\\n### Qualifications\\nTo succeed in this role, you should bring:\\n- **Experience:** A minimum of 3 years of professional experience in personnel placement or recruiting, ideally with a focus on SMEs.\\n- **People Skills:** The ability to recognize potential and understand what motivates people.\\n- **Proactiveness:** A self-starter who works independently, systematically, and thinks entrepreneurially.\\n- **Communication Strength:** Excellent written and verbal communication skills, capable of winning others over.\\n- **Tool Proficiency:** Comfortable with various recruiting tools, CRM systems, and talent platforms.\\n\\n**Education examples include:**\\n-   **Vocational Training:** Personaldienstleistungskaufmann (m/w/d), Personalreferent (m/w/d), Kaufmann für Büromanagement (m/w/d), Industriekaufmann (m/w/d), Consultant (m/w/d).\\n-   **University Studies:** Personalmanagement, Human Resources Management, Wirtschaftswissenschaften.\\n\\nYou are structured in your work, communicate confidently at all levels, and excel at inspiring people. For you, recruiting is more than just a job – you are passionate about successfully connecting people and companies.\\n\\n### Author's Take\\nThis is a compelling Mid-Senior Recruiter opportunity for a driven professional seeking to make a significant impact within a specialized and growing consultancy. Aramaz Digital stands out with its exceptional commitment to employee development, featuring structured onboarding, continuous coaching from industry experts, and a strong emphasis on internal growth and well-being. The culture is collegial, performance-oriented, and highly values individual contribution to process improvement. With uncapped commission potential, state-of-the-art technology, comprehensive health benefits, and a focus on long-term stability, this role offers a well-rounded package for an experienced recruiter eager to thrive in a supportive and innovative environment. The company's niche in the food-SME sector presents unique challenges and rewards for those passionate about connecting the right talent with impactful businesses.

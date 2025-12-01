@@ -9,44 +9,64 @@ postedDate: '2025-11-27T10:01:27.000Z'
 expirationDate: null
 tags:
   - HR
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/hr-sachbearbeiter-personalsachbearbeiter-in-berlin-116586
 companyLogoUrl: null
+companyCulture: >-
+  This company fosters an open and collaborative culture where mutual
+  appreciation and teamwork are highly valued. They prioritize work-life balance
+  through flexible working models, including home office options, and are
+  committed to employee growth and development by offering diverse training and
+  career advancement opportunities.
+story_question1: >-
+  How does this HR Administrator role directly contribute to the company's
+  overall operational efficiency and employee well-being beyond routine
+  administrative tasks?
+story_answer1: >-
+  You know, when I first started here, I thought it would be mostly paperwork.
+  But what quickly became clear is how vital this role is to the pulse of our
+  organization. When you're streamlining those central HR processes, creating
+  clear contracts, or even just advising an employee on a tricky situation,
+  you're not just ticking boxes. You're ensuring everyone feels supported,
+  understood, and that the company machinery runs smoothly. It's incredibly
+  satisfying to see how your meticulous work directly translates into a more
+  efficient, happier workplace. We're a tight-knit team, and everyone's
+  contribution, especially in HR, truly matters.
+story_question2: >-
+  Given the emphasis on ongoing development, what kind of specific growth
+  pathways or advanced training opportunities are typically available for an HR
+  Administrator looking to expand their expertise within the company?
+story_answer2: >-
+  That's a fantastic question, and it touches on one of our core values. We
+  don't just talk about growth; we actively invest in it. For an HR
+  Administrator, the path can be quite varied. We offer everything from
+  specialized certifications in labor law or HR analytics, to leadership
+  training if you're looking towards a more senior or managerial role in the
+  future. We regularly have internal workshops, access to online learning
+  platforms, and even support for external courses or conferences. The idea is
+  to tailor your development to your aspirations and the evolving needs of the
+  business. We want you to feel challenged and know that your career here has
+  real momentum.
+story_question3: >-
+  What is the most challenging aspect of this HR Administrator role,
+  particularly regarding advising employees on personal-related questions, and
+  how does the team support each other in navigating these complexities?
+story_answer3: >-
+  Honestly, one of the trickiest parts, but also one of the most rewarding, is
+  advising employees on sensitive or complex personal-related questions. You're
+  often dealing with situations that require empathy, discretion, and a deep
+  understanding of policies and legal frameworks. It's not always
+  straightforward, and you need to be able to balance individual needs with
+  company guidelines. But that's where our team culture really shines. We have
+  an open-door policy, and there's never a moment when you feel you're tackling
+  a tough situation alone. We regularly consult with each other, share best
+  practices, and even have senior HR colleagues who act as mentors. This
+  collaborative spirit ensures we always provide the best possible support to
+  our colleagues while upholding our professional standards.
 ---
-**Sie möchten Verantwortung im Personalwesen übernehmen?**  
-Im Auftrag unseres Partnerunternehmens in Berlin suchen wir Sie zum nächstmöglichen Zeitpunkt als **„HR-Sachbearbeiter / Personalsachbearbeiter (m/w/d)“.**
-
-**Aufgaben**
-------------
-
-*   Als **HR-Sachbearbeiter / Personalsachbearbeiter (m/w/d)** übernehmen Sie die Durchführung und Überwachung **zentraler Personalmaßnahmen** in einem definierten Verantwortungsbereich
-*   Sie erstellen **Stellenausschreibungen und Arbeitsverträge**, bearbeiten **Arbeitszeitänderungen** sowie **Arbeitszeugnisse und Bescheinigungen**
-*   Darüber hinaus **beraten und unterstützen Sie Mitarbeitende** in allen personalrelevanten Fragestellungen
-*   Sie arbeiten eng mit dem Personalcontrolling sowie der zentralen Lohn- und Gehaltsabrechnung zusammen
-*   Mit Ihrem Einsatz tragen Sie dazu bei, dass Prozesse effizient laufen und das Unternehmen optimal unterstützt wird
-
-**Qualifikation**
------------------
-
-*   Sie bringen eine **abgeschlossene kaufmännische Ausbildung** mit, z. B. als **Bürokaufmann** (m/w/d), **Kaufmann für Büromanagement** (m/w/d), **Industriekaufmann** (m/w/d) oder eine vergleichbare kaufmännische Qualifikation
-*   Sie verfügen über Berufserfahrung als Personalsachbearbeiter (m/w/d), Personalreferent (m/w/d) oder in einer vergleichbaren Position und idealerweise über fundierte Kenntnisse im **Arbeits-, Sozial- und Tarifrecht**
-*   Im Umgang mit den gängigen MS-Office-Programmen sind Sie sicher, bestenfalls haben Sie zudem Erfahrung mit SAP
-*   Ihre selbstständige, strukturierte, zuverlässige und serviceorientierte Arbeitsweise zeichnet Sie aus
-*   Sehr gute Deutsch- sowie gute Englischkenntnisse runden Ihr Profil ab
-
-**Benefits**
-------------
-
-*   ⏰ **Flexibles Arbeitsmodell** mit der Möglichkeit von Home-Office und einer 39-Stunden-Woche
-*   📚 **Vielfältige Fort- und Weiterbildungsmöglichkeiten**, um Ihre fachlichen Kenntnisse und Karriere gezielt auszubauen
-*   🤝 **Motivierendes Team und offene Unternehmenskultur**, in der Zusammenarbeit, Austausch und gegenseitige Wertschätzung großgeschrieben werden
-*   🚀 **Strukturiertes Onboarding**, das Ihnen den Start erleichtert und Sie vom ersten Tag an optimal unterstützt
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Veronica Wild** gerne unter 089 954 287 106 zur Verfügung.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nOur partner company in Berlin is seeking an experienced HR Administrator (m/f/d) to take on a pivotal role within their human resources department. This position involves managing central HR processes and providing essential support to employees, ensuring smooth operations and a well-supported workforce.\\n\\n### Responsibilities\\n- Conduct and monitor central HR measures within a defined area of responsibility.\\n- Create job advertisements and employment contracts, and accurately process working time changes, employment references, and certificates.\\n- Advise and support employees on all HR-relevant questions and concerns.\\n- Work closely and collaboratively with HR controlling and the central payroll department.\\n- Actively contribute to enhancing the efficiency of HR processes and providing optimal support to the company.\\n\\n### Qualifications\\n- Possess a completed commercial training, such as an office clerk (m/f/d), management assistant for office administration (m/f/d), industrial clerk (m/f/d), or a comparable commercial qualification.\\n- Bring professional experience as an HR Administrator (m/f/d), HR Consultant (m/f/d), or in a comparable position, ideally with sound knowledge of labor, social, and collective bargaining law.\\n- Be proficient in using common MS-Office programs; experience with SAP is a distinct advantage.\\n- Demonstrate an independent, structured, reliable, and service-oriented approach to your work.\\n- Exhibit very good German and good English language skills.\\n\\n### Author's Take\\nThis is an excellent opportunity for a dedicated HR professional to take on a responsible and impactful role in a company that truly values its employees. The flexible working model, including home office options and a 39-hour week, highlights a strong commitment to work-life balance. Furthermore, the promise of a motivating team, an open corporate culture emphasizing collaboration and mutual appreciation, and diverse training and development opportunities underscore a supportive environment for continuous professional growth. A structured onboarding process ensures a smooth and effective start, making this an appealing role for someone looking to contribute significantly to an HR team.

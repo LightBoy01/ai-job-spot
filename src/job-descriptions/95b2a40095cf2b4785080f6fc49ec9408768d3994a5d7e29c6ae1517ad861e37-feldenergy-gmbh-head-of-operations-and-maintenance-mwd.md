@@ -9,65 +9,58 @@ postedDate: '2025-11-27T20:32:14.000Z'
 expirationDate: null
 tags:
   - Business Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Director
+employeeRole: Manager
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/feldenergy-gmbh/head-of-operations-maintenance-munich-148331
 companyLogoUrl: null
+companyCulture: >-
+  Feld energy fosters a vibrant culture driven by sustainability, innovation,
+  and strong collaboration, aiming to revolutionize agriculture and energy. It
+  emphasizes employee growth through top-tier training, active participation in
+  company success, and a supportive environment with regular team events and
+  work-life balance.
+story_question1: >-
+  As the Head of O&M, you'll be building this function from the ground up. What
+  are the most critical initial challenges you foresee in establishing robust
+  O&M processes for Agri-PV plants across Germany, and how will you measure
+  early success beyond just uptime?
+story_answer1: >-
+  That's an excellent question, and it gets right to the heart of what makes
+  this role so exciting! From an insider's perspective, the biggest initial
+  challenge will be standardizing processes for a relatively nascent technology
+  like Agri-PV while simultaneously scaling. We're not just maintaining solar
+  panels; we're integrating them with agricultural practices. Success won't just
+  be about high uptime; it will be about creating a scalable, adaptable
+  framework that ensures optimal energy yield *and* supports agricultural
+  productivity. Early wins will involve proving our ability to quickly identify
+  and resolve issues, minimize operational costs without compromising safety or
+  environmental standards, and crucially, build a cohesive, highly skilled O&M
+  team that embodies our commitment to innovation and sustainability. It's about
+  laying the groundwork for a future where these systems are not just
+  operational, but truly optimized for their dual purpose.
+story_question2: >-
+  Feld energy positions itself as a 'movement' combining agriculture and energy.
+  How will the Head of O&M directly contribute to this broader mission, beyond
+  the technical execution, and what opportunities exist for cross-functional
+  innovation with other teams?
+story_answer2: >-
+  Our 'movement' isn't just a tagline; it's our DNA, and the Head of O&M is
+  central to making it a reality on the ground. Beyond ensuring the technical
+  excellence of our plants, you're the guardian of our promise to farmers and
+  the environment. Your operational insights will directly feed into our
+  engineering and asset management teams, helping us refine future designs and
+  optimize existing ones for both energy efficiency and agricultural yield.
+  Imagine collaborating with our R&D folks on new sensor technologies that
+  monitor soil health alongside panel performance, or working with our
+  agricultural experts to optimize plant spacing for crop growth. This role is
+  about seeing the bigger picture: how every kilowatt-hour generated and every
+  crop harvested under our panels contributes to a more sustainable future.
+  You're not just maintaining assets; you're nurturing the very symbiosis that
+  defines Agri-PV, driving innovation at the intersection of two vital
+  industries.
 ---
-Über uns
---------
-
-feld energy ist mehr als nur ein Unternehmen – wir sind eine Bewegung! Wir helfen Landwirten und Landeigentümern dabei, Landwirtschaft und Energieerzeugung clever miteinander zu kombinieren. Mit unseren innovativen Agri-Photovoltaik-Lösungen schaffen wir es, Flächen sowohl für die Lebensmittelherstellung als auch zur Energieerzeugung zu nutzen. So tragen wir dazu bei, Landwirtschaft nachhaltiger und profitabler zu gestalten. Klingt spannend? Werde Teil unseres Teams und mach gemeinsam mit uns die Energiewende in der Landwirtschaft möglich und bewerbe dich jetzt.
-
-Deine Mission
--------------
-
-Als **Head of Operations & Maintenance (m/w/d)** übernimmst du die Gesamtverantwortung für den technischen Betrieb, die Überwachung und Instandhaltung unserer Agri-PV-Anlagen in Deutschland. Du baust ein effizientes O&M-Team auf, entwickelst Prozesse und Systeme, die den langfristigen, sicheren und wirtschaftlichen Betrieb unserer Anlagen gewährleisten, und trägst damit maßgeblich zur Qualität und Skalierbarkeit unseres Geschäfts bei.
-
-Deine Aufgaben
---------------
-
-*   Aufbau und Leitung eines O&M-Teams zur Sicherstellung des Anlagenbetriebs und der Instandhaltung
-*   Sicherstellung eines reibungslosen, sicheren und umweltgerechten Betriebs unserer Anlagen innerhalb des vorgegebenen Budgets
-*   Entwicklung und Implementierung standardisierter O&M-Prozesse und -Tools, inklusive präventiver Wartungsstrategien
-*   Implementierung und Überwachung von HSE-Richtlinien (Health, Safety & Environment)
-*   Enge Zusammenarbeit mit internen Teams (EPC, Engineering, Asset Management) sowie Koordination externer Partner und Dienstleister
-*   Sicherstellung der SLA-Einhaltung und Steuerung von Wartungsverträgen
-*   Verantwortung für Budgetplanung und Wirtschaftlichkeit von Investitionen
-*   Technische Analyse und Optimierung der Betriebsdaten (Performance, Effizienzsteigerung) sowie Erstellung von Berichten und KPIs
-
-Dein Profil
------------
-
-*   Abgeschlossenes technisches Studium (z. B. Elektrotechnik, Energietechnik, Maschinenbau) oder vergleichbare Qualifikation
-*   Mehrjährige Erfahrung im Bereich Operations & Maintenance, idealerweise im PV- oder Energieanlagenumfeld
-*   Fundiertes Verständnis von elektrischen Anlagen, Mittelspannung und Netzanschlüssen
-*   Erfahrung in der Führung technischer Teams und externer Dienstleister
-*   Analytische, strukturierte Arbeitsweise mit ausgeprägtem Qualitäts- und Verantwortungsbewusstsein
-*   Begeisterung für nachhaltige Technologien und skalierbare Prozesse
-*   Reisebereitschaft zu unseren Anlagenstandorten in Deutschland
-*   Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift
-
-Warum wir?
-----------
-
-*   Echte Anteile am Unternehmenserfolg durch Mitarbeiterbeteiligungen.
-*   Zusammenarbeit mit erfolgreichen Serienunternehmern und innovativen Experten.
-*   27 Tage für deine persönliche Erholung.
-*   Regelmäßige Team-Events und gemeinsame Feiern der Erfolge.
-*   Kostenlose Getränke und frisches Obst im Büro für deinen Energie-Boost.
-*   Neueste technische Ausstattung und innovative Software, die deinen Arbeitsalltag erleichtert.
-*   Top-Weiterbildungsmöglichkeiten im Bereich erneuerbare Energien und nachhaltige Geschäftsführung
-*   Eine Unternehmenskultur, die auf Nachhaltigkeit, Innovation und Zusammenarbeit setzt.
-
-Diese Vollzeitstelle ist **hybrid** mit Standort in Bayern oder Baden-Württemberg – idealerweise in **München**.
-
-Bist du bereit, die Energiewende in der Landwirtschaft mitzugestalten?
-
-Dann freuen wir uns auf deine Bewerbung!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nFeld energy is pioneering a movement to revolutionize agriculture through innovative Agri-Photovoltaic solutions. We enable farmers and landowners to intelligently combine agriculture and energy generation, allowing land to be used for both food production and energy generation. This approach makes agriculture more sustainable and profitable, directly contributing to Germany's energy transition. Join our dynamic team and play a crucial role in shaping the future of sustainable farming and energy.\n\nAs **Head of Operations & Maintenance (m/w/d)**, you will take overall responsibility for the technical operation, monitoring, and maintenance of our Agri-PV plants throughout Germany. This pivotal role involves building an efficient O&M team, developing robust processes and systems to ensure the long-term, safe, and economical operation of our facilities, thereby making a significant contribution to the quality and scalability of our business.\n\n### Responsibilities\n- Build and lead an O&M team to ensure plant operation and maintenance.\n- Ensure smooth, safe, and environmentally compliant operation of our plants within the allocated budget.\n- Develop and implement standardized O&M processes and tools, including preventive maintenance strategies.\n- Implement and monitor HSE (Health, Safety & Environment) guidelines.\n- Work closely with internal teams (EPC, Engineering, Asset Management) and coordinate external partners and service providers.\n- Ensure SLA compliance and manage maintenance contracts.\n- Take responsibility for budget planning and the economic viability of investments.\n- Conduct technical analysis and optimization of operational data (performance, efficiency improvements), and prepare reports and KPIs.\n\n### Qualifications\n- Completed technical degree (e.g., Electrical Engineering, Energy Technology, Mechanical Engineering) or equivalent qualification.\n- Several years of experience in Operations & Maintenance, ideally within the PV or energy plant sector.\n- Profound understanding of electrical systems, medium voltage, and grid connections.\n- Experience in leading technical teams and external service providers.\n- Analytical, structured working approach with a strong sense of quality and responsibility.\n- Enthusiasm for sustainable technologies and scalable processes.\n- Willingness to travel to our plant locations across Germany.\n- Very good German and English language skills, both written and spoken.\n\n### Author's Take\nThis is an exceptional opportunity to join a pioneering company at the forefront of Germany's energy transition and sustainable agriculture. Feld energy offers a vibrant, innovative environment where you can directly influence strategic direction and build a critical function from the ground up. With employee ownership, generous vacation, and a focus on continuous learning, the company truly invests in its people. If you are a seasoned O&M leader passionate about renewable energy and ready to drive significant impact in a hybrid role (ideally in Munich), this is a chance to shape the future.

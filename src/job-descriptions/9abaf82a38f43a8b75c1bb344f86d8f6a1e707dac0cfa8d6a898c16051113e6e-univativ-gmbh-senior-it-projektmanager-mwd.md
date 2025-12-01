@@ -9,55 +9,65 @@ postedDate: '2025-11-28T14:02:01.000Z'
 expirationDate: null
 tags:
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
+salaryRange: '€60,000 - €64,000'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/univativ-gmbh/senior-it-projektmanager-hamburg-408309
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a dynamic and supportive environment with a strong
+  emphasis on employee growth and development, offering extensive training,
+  mentorship, and opportunities to make a real impact on digital transformation
+  projects. Collaboration is key, with a focus on transparent communication and
+  knowledge sharing.
+story_question1: >-
+  Considering the broad impact of digital transformation in the energy sector,
+  what are the most significant challenges a Senior IT Project Manager would
+  face in ensuring project goals align with long-term strategic objectives, and
+  how does the company support overcoming these?
+story_answer1: >-
+  The energy sector is highly dynamic, and navigating legacy systems alongside
+  rapid technological advancements presents a continuous challenge. As a Senior
+  IT Project Manager, your primary task isn't just project delivery, but
+  strategic alignment within this complexity. We understand this, which is why
+  we emphasize close collaboration with program leadership and key stakeholders
+  to define truly impactful goals. Our commitment to your development, through
+  certifications, the e-academy, and a dedicated career companion, ensures
+  you're equipped to tackle these challenges. Your insights here aren't just
+  appreciated; they directly shape our stable and future-oriented processes.
+story_question2: >-
+  The job description mentions a strong focus on knowledge sharing and
+  supporting others in developing their skills. Could you elaborate on how a
+  Senior IT Project Manager contributes to the growth of the team and the
+  broader project management community within the company?
+story_answer2: >-
+  Absolutely. We view our Senior IT Project Managers as leaders and mentors, not
+  just executors. You won't just be delivering projects; you'll actively
+  contribute to a culture of continuous learning. This means sharing your
+  accumulated experience, keeping abreast of new project management trends, and
+  proactively guiding junior colleagues. It's less about formal training
+  sessions and more about fostering an environment where peer-to-peer learning
+  and mutual support thrive, reinforced by our diverse training opportunities.
+  By empowering you to share and grow, we collectively strengthen our entire
+  project management capabilities and foster an innovative spirit.
+story_question3: >-
+  The role emphasizes finding pragmatic solutions for tasks that arise at short
+  notice. How does the company balance this need for agility with the
+  requirement for robust, long-term strategic planning in its IT transformation
+  initiatives?
+story_answer3: >-
+  That's a crucial balance we strive for. In a fast-evolving sector, agility is
+  non-negotiable, and our Senior Project Managers are empowered to identify and
+  implement pragmatic solutions for immediate needs. However, this isn't done in
+  isolation. Every agile response is carefully integrated into our overarching
+  strategic framework through transparent stakeholder communication, clear
+  project goal definition, and continuous oversight from program management. The
+  goal is always to ensure that quick, effective fixes also contribute
+  constructively to our stable, future-oriented processes, rather than creating
+  new silos or long-term issues. It's about 'smart' agility within a clear
+  strategic vision.
 ---
-**Baldmöglichst, bis zum 01.09.2026 | 37 Stunden pro Woche | Hamburg | Energiewirtschaft | Berufserfahrener | 60000 bis 64000 € im Jahr | Projekt-ID A202551645\_2S**
-
-univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
-
-Du hast ein Studium mit IT- oder energiewirtschaftlichem Schwerpunkt oder eine vergleichbare Qualifikation abgeschlossen und verfügst über mehrere Jahre Erfahrung in der Leitung anspruchsvoller Projekte? Außerdem bringst Du eine klare Kommunikationsstärke, analytisches Denken sowie Routine im Umgang mit klassischen und agilen Projektmanagementmethoden mit? Dann suchen wir genau Dich als Senior IT-Projektmanager (m/w/d)!
-
-Unser Kunde ist ein großes, europaweit tätiges Energieunternehmen, das digitale Lösungen und moderne Infrastrukturprojekte vorantreibt. Unterstütze spannende Transformations- und IT-Vorhaben, bringe Deine Erfahrung im Projektmanagement ein und leiste einen wichtigen Beitrag zu stabilen und zukunftsorientierten Prozessen. Freue Dich auf ein dynamisches Umfeld, in dem Deine Fähigkeiten und Ideen wirklich etwas bewegen.
-
-Aufgaben
---------
-
-*   Du übernimmst die Leitung von IT-Projekten oder koordinierst das Programmmanagement und sorgst gemeinsam mit der Programmleitung für eine zielgerichtete Umsetzung.
-*   Du pflegst einen engen Austausch mit allen Stakeholdern, kommunizierst transparent und stellst sicher, dass alle Beteiligten jederzeit informiert sind.
-*   Du bereitest klare Statusberichte und aussagekräftige Präsentationen vor und führst Termine mit Management und Gremien souverän durch.
-*   Du definierst Projektziele und behältst den Gesamtüberblick, sodass Projekte im Einklang mit strategischen Vorgaben umgesetzt werden.
-*   Du reagierst flexibel auf neue Anforderungen und findest pragmatische Lösungen für Aufgaben, die kurzfristig anfallen.
-*   Du teilst dein Wissen aktiv, verfolgst neue Trends im Projektmanagement und unterstützt andere dabei, ihre Fähigkeiten auszubauen.
-
-Qualifikation
--------------
-
-*   Ein abgeschlossenes Studium – vorzugsweise mit IT- oder energiewirtschaftlichem Bezug – oder eine vergleichbare Qualifikation
-*   Mehrjährige Berufserfahrung in der Leitung von Projekten, idealerweise in IT-nahen oder energiewirtschaftlichen Umgebungen
-*   Sehr gute analytische Fähigkeiten sowie die Fähigkeit, Herausforderungen strukturiert zu lösen und bestehende Arbeitsweisen sinnvoll weiterzuentwickeln
-*   Ein gutes Verständnis für betriebliche Abläufe und deren Wechselwirkungen
-*   Erfahrung mit klassischen und agilen Projektmanagementmethoden
-*   Verhandlungssichere Deutschkenntnisse (mind. C1) und fließende Englischkenntnisse (mind. B2)
-
-Benefits
---------
-
-*   Ein Jahreslohn zwischen 60000 € und 64000 €
-*   Wir bilden Dich zum Experten aus und bieten Dir vielfältige Weiterbildungsmöglichkeiten on und off the Job an (z.B. verschiedene Zertifizierungen, univativ e-academy und individuelle Weiterbildungen)
-*   Während Deines Einsatzes hast Du einen persönlichen Ansprechpartner, der als Dein Karrierebegleiter für Dich da ist
-*   Mit uns sammelst Du Erfahrung und baust durch verschiedene Projekte Dein berufliches Netzwerk bei verschiedenen Kunden auf
-*   Nutze Deine Chance auf eine attraktive Prämie von bis zu 2.000 Euro für unser „Recruit a Friend“-Programm
-*   Bei uns erhältst Du Corporate Shopping Vorteile sowie Rabatte für ausgewählte Fitnessstudios
-
-**Wir konnten Dein Interesse wecken? Klasse!**
-
-Wir freuen uns auf Deine Bewerbung
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\n\nunivativ is a project and personnel service provider that offers students and graduates exciting jobs at renowned companies. Your career is our mission, as your development is important to us.\n\nAre you a graduate with a focus on IT or energy economics, or do you have a comparable qualification and several years of experience leading demanding projects? Do you also possess strong communication skills, analytical thinking, and proficiency in both classical and agile project management methodologies? Then we are looking for exactly you as a Senior IT Project Manager!\n\nOur client is a large, pan-European energy company that drives digital solutions and modern infrastructure projects. Support exciting transformation and IT initiatives, contribute your project management experience, and make a significant contribution to stable and future-oriented processes. Look forward to a dynamic environment where your skills and ideas truly make a difference.\n\n### Responsibilities\n\n- Lead IT projects or coordinate program management, ensuring target-oriented implementation in collaboration with program leadership.\n- Maintain close communication with all stakeholders, communicate transparently, and ensure all parties are informed at all times.\n- Prepare clear status reports and impactful presentations, and confidently conduct meetings with management and committees.\n- Define project goals and maintain an overall overview, ensuring projects are implemented in line with strategic objectives.\n- React flexibly to new requirements and find pragmatic solutions for tasks that arise at short notice.\n- Actively share your knowledge, follow new trends in project management, and support others in developing their skills.\n\n### Qualifications\n\n- A completed degree – preferably with an IT or energy economics focus – or a comparable qualification.\n- Several years of professional experience in project leadership, ideally in IT-related or energy economics environments.\n- Excellent analytical skills and the ability to solve challenges structurally and meaningfully develop existing working methods.\n- A good understanding of operational processes and their interdependencies.\n- Experience with classical and agile project management methodologies.\n- Business fluent German language skills (min. C1) and fluent English language skills (min. B2).\n\n### Author's Take\n\nThis role offers a comprehensive benefits package designed to support your career growth and well-being. Expect a competitive annual salary between €60,000 and €64,000. univativ is committed to your development, providing diverse on-the-job and off-the-job training opportunities, including various certifications, access to the univativ e-academy, and individualized further education. You'll have a personal career companion throughout your assignment, gaining valuable experience and expanding your professional network through various client projects. The company also offers attractive perks like corporate shopping advantages and discounts for selected gyms, plus a \"Recruit a Friend\" program with a premium of up to €2,000.\n\nIf this exciting opportunity resonates with you and you're ready to contribute your expertise to a leading energy company, we encourage you to apply. This is a chance to truly make an impact in digital transformation within a supportive and growth-oriented environment.

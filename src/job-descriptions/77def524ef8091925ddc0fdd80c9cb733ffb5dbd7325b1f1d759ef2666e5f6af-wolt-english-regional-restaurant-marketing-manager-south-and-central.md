@@ -8,104 +8,56 @@ applicationLink: >-
 postedDate: '2025-11-30T07:45:11.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/wolt-english/regional-restaurant-marketing-manager-south-and-central-munich-394122
 companyLogoUrl: null
+companyCulture: >-
+  Wolt fosters a dynamic, challenging, and empowering culture for self-starters,
+  emphasizing collaboration, ownership, and impact. It offers significant growth
+  opportunities, a flexible hybrid work model, and promotes diversity and
+  inclusion within an exciting, fast-paced environment.
+story_question1: >-
+  Given the hybrid nature of this role, blending strategic planning with
+  hands-on execution, what's a recent example where you saw a Regional Marketing
+  Manager successfully pivot a strategic plan based on on-the-ground insights
+  from a restaurant partner?
+story_answer1: >-
+  Absolutely, I can think of a great example from last quarter. We had a broad
+  strategy for activating a specific cuisine type across a region, but our
+  Regional Manager, Sarah, spent a lot of time with a key partner in Munich.
+  They shared feedback that while the national campaign resonated, their local
+  customer base had a unique preference for certain seasonal ingredients not
+  heavily featured. Sarah didn't just log the feedback; she quickly iterated,
+  developing a hyper-local mini-campaign around those specific ingredients. She
+  coordinated a photoshoot, designed some in-app promotions, and even helped the
+  restaurant craft social media posts. The result? That specific restaurant saw
+  a 30% uplift in orders during the campaign period, far exceeding expectations
+  for the generic approach. It truly showed how empowering our regional teams to
+  act on local insights, even if it means tweaking a larger strategy, can yield
+  incredible results. It's that blend of autonomy and support that makes the
+  role so rewarding.
+story_question2: >-
+  The role emphasizes developing tailored strategies for different cities. What
+  are the key internal resources and cross-functional teams a Regional Marketing
+  Manager can leverage to deeply understand local market nuances and effectively
+  execute these localized campaigns?
+story_answer2: >-
+  That's a crucial point, as success here hinges on leveraging our internal
+  ecosystem. Firstly, you'll be embedded within a fantastic marketing team,
+  including specialists in growth, brand, and retention, who are always ready to
+  share insights and adapt national initiatives. But beyond that, your closest
+  allies will be the local account management and sales teams. They are on the
+  ground daily, have direct relationships with partners, and their qualitative
+  feedback is gold. We also have robust data analytics teams that provide
+  detailed performance metrics and market insights, helping you pinpoint trends
+  and opportunities. Plus, you'll collaborate with external agencies for
+  advertising, giving you more hands-on support. It’s a truly collaborative
+  environment where everyone's goal is to empower our partners and grow Wolt's
+  presence, ensuring you're never operating in a vacuum.
 ---
-About Wolt
-----------
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.  
-  
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-Wolt is one of Europe's fastest-growing tech companies, on a mission to make cities better places to live by building a platform that connects people with the best of their neighborhoods—whether it's food, groceries, or retail. Operating in over 25 countries, Wolt's success is driven by a deep focus on customer experience, local relevance, and a culture that empowers people to take ownership and make an impact.  
-  
-In Germany, our marketing team is made up of talented, passionate and impact-driven professionals working across brand, growth, retention, and partnerships marketing.  
-This role, **Regional Restaurant Marketing Manager**, offers a unique opportunity to shape Wolt's restaurant marketing strategy across **South** and **Central** Germany. With a strong focus on local market insight and partner collaboration, you'll develop tailored marketing plans that drive visibility and growth for our key restaurant partners in cities such as Munich, Frankfurt, and Stuttgart.
-
-What you'll be doing
---------------------
-
-**Location: Munich or Frankfurt Office (with regular travel to South and Central Germany), with regular visits to Berlin HQ.**
-
-As a Regional Marketing Manager for Restaurants, you'll be at the forefront of strengthening Wolt's brand and commercial success by building impactful, on-the-ground restaurant marketing strategies tailored to the gastronomy scene in South and Central Germany. Your focus will be on activating our key SMB Restaurant Partners in cities like **Munich, Frankfurt, Stuttgart** and beyond - bringing them visibility, growth, and customer engagement on the Wolt platform.
-
-This is a unique, hybrid role combining strategic marketing skills with a hands-on, partner-facing approach, ideally suited for someone who thrives at the intersection of local food culture, creative marketing, and commercial collaboration.
-
-### **Day-to-day in this role, you'll:**
-
-#### **Local Market Strategy & Partner Activation**
-
-*   Develop and execute tailored restaurant marketing strategies across cities in South and Central Germany, based on your local market expertise.
-*   Identify and capitalize on hyper-local marketing opportunities (e.g. city festivals, seasonal events, cultural moments).
-*   Build and leverage existing relationships with top-tier restaurant partners in the region to co-create exciting marketing activations.
-
-#### **Hands-On Campaign Execution**
-
-*   Activate restaurant partners through on-the-ground support - from campaign planning to execution - to drive customer demand and visibility.
-*   Execute 360 marketing plans, including advertising across various channels (paid, owned, earned), promotions, and co-branded initiatives.
-*   Collaborate closely with the local Berlin-based Marketing team and our agencies to adapt national strategies into localized initiatives.
-*   Manage regional/ partner marketing budgets, ensuring efficient resource allocation and adherence to financial targets.
-
-#### **Partner Relationship Management**
-
-*   Act as a trusted marketing advisor to key restaurant partners, helping them understand and use Wolt's marketing tools effectively.
-*   Closely collaborate with account management and local sales teams to align on priorities, performance goals, and joint marketing opportunities.
-
-**Performance Reporting, Data Analysis & Insights:**
-
-*   Track, analyze, optimize and report on marketing performance metrics at the regional and partner level.
-*   Use data-based insights to optimize marketing strategies and improve return on investment (ROI).
-*   Provide feedback from the field to continuously improve and shape local marketing strategies.
-
-Our humble expectations
------------------------
-
-*   Bachelor's or Master's degree in Marketing, with 6-8 years of marketing experience and a proven track record in campaign execution and partner collaboration.
-*   Strong ties to the gastronomy scene in South and Central Germany are definitely a plus - whether through previous roles in food-tech, e-commerce/market place, hospitality, FMCG, or lifestyle/urban marketing.
-*   Strategic thinking and results-oriented mindset.
-*   Hands-on attitude: You are comfortable rolling up your sleeves and moving from strategy to execution—whether coordinating a photo shoot at a restaurant, setting up a pop-up activation, or meeting partners face-to-face to bring a campaign to life.
-*   Bonus: Previous experience in sales or account management is a strong plus.
-*   Native German speaking & business fluent in English
-*   Compliance awareness and adaptability in a dynamic marketing landscape.
-*   Willingness to travel regularly in **South** and **Central** **Germany**, and to **Berlin HQ** on a monthly basis.
-
-What we offer
--------------
-
-*   **Exciting Challenges:** You'll be at the forefront of building the new vertical strategy at Wolt and creating marketing strategies for our partners, facing dynamic and engaging challenges in a fast-paced environment.
-*   **Impactful Work:** Your efforts will directly contribute to the success of our partners, helping them drive sales, attract new customers, and strengthen their awareness within the Wolt platform.
-*   **Professional Growth:** Joining a team of marketing experts, you'll have opportunities for career development and skill enhancement while staying at the cutting edge of digital marketing and analytics.
-*   **Collaborative Environment:** You'll work closely with external stakeholders, agencies, and cross-functional teams, fostering collaboration and innovation in achieving common goals.
-*   **Competitive Compensation:** We offer a competitive salary and benefits package, ensuring your dedication and expertise are rewarded appropriately.
-*   **Dynamic Culture:** Join a company known for its innovative and forward-thinking culture, where adaptability and strategic thinking are highly valued.
-*   **Immediate Impact:** Begin your role as soon as possible, making an immediate impact on our restaurant partners and the Wolt platform.
-*   **Flexible working hours & hybrid model**
-*   **Dog-friendly office culture.**
-
-Next steps
-----------
-
-If you're excited about working in a high-growth environment, taking ownership, and being part of an ambitious team, click below to apply and get the conversation started!
-
-Along with a competitive salary and benefits, you will also be eligible for:
-
-*   Opportunity to be part of building something exceptional in an international environment
-*   Lots of learning and growth in a globally scaling tech company
-
-After submitting your application, our Talent Acquisition team will review your profile. If it looks like a good fit, you'll go through a few rounds of interviews with the hiring manager, team members, and stakeholders. The process is designed to be transparent, efficient, and give you a real feel for life at Wolt.
-
-Please note that **we do not accept applications sent by mail**. You should submit your application through our careers website!
-
-Our Commitment to Diversity and Inclusion
------------------------------------------
-
-We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAt Wolt, we create technology that brings joy, simplicity, and earnings to neighborhoods worldwide. Since 2014, we've expanded from restaurant food delivery to delivering (almost) everything across over 500 cities in 30 countries. In 2022, we joined forces with DoorDash, continuing our ambitious global expansion. Working at Wolt is exciting and challenging, offering a unique opportunity to learn, build, and ship more than in most other companies. We're looking for a **Regional Restaurant Marketing Manager** to take ownership of Wolt's restaurant marketing strategy across South and Central Germany. This unique, hybrid role combines strategic marketing skills with a hands-on, partner-facing approach, focusing on activating key SMB Restaurant Partners in cities like Munich, Frankfurt, and Stuttgart. You will drive their visibility, growth, and customer engagement on the Wolt platform, strengthening Wolt's brand and commercial success through impactful, locally tailored strategies.\n\n### Responsibilities\n-   Develop and execute tailored restaurant marketing strategies for cities across South and Central Germany, leveraging deep local market expertise.\n-   Identify and capitalize on hyper-local marketing opportunities, such as city festivals, seasonal events, and cultural moments.\n-   Build and foster relationships with top-tier restaurant partners in the region to co-create exciting marketing activations.\n-   Provide on-the-ground support to activate restaurant partners, from campaign planning to execution, to drive customer demand and visibility.\n-   Execute 360 marketing plans, including advertising across various channels (paid, owned, earned), promotions, and co-branded initiatives.\n-   Collaborate closely with the Berlin-based Marketing team and external agencies to adapt national strategies into localized initiatives.\n-   Manage regional and partner marketing budgets, ensuring efficient resource allocation and adherence to financial targets.\n-   Act as a trusted marketing advisor to key restaurant partners, helping them understand and effectively utilize Wolt's marketing tools.\n-   Collaborate closely with account management and local sales teams to align on priorities, performance goals, and joint marketing opportunities.\n-   Track, analyze, optimize, and report on marketing performance metrics at the regional and partner level.\n-   Utilize data-based insights to optimize marketing strategies and improve return on investment (ROI).\n-   Provide feedback from the field to continuously improve and shape local marketing strategies.\n\n### Qualifications\n-   Bachelor's or Master's degree in Marketing with 6-8 years of marketing experience and a proven track record in campaign execution and partner collaboration.\n-   Strong ties to the gastronomy scene in South and Central Germany (e.g., through previous roles in food-tech, e-commerce/marketplace, hospitality, FMCG, or lifestyle/urban marketing) are a significant plus.\n-   Demonstrated strategic thinking combined with a results-oriented mindset.\n-   Hands-on attitude: comfortable moving from strategy to execution, whether coordinating a photo shoot, setting up a pop-up activation, or meeting partners face-to-face.\n-   Native German speaking and business fluent in English.\n-   Compliance awareness and adaptability in a dynamic marketing landscape.\n-   Willingness to travel regularly in South and Central Germany, and to Berlin HQ on a monthly basis.\n-   Bonus: Previous experience in sales or account management is a strong plus.\n\n### Author's Take\nThis is a truly exciting and impactful role for a seasoned marketing professional passionate about local gastronomy and driving tangible results. Wolt offers a unique blend of strategic autonomy and hands-on execution, allowing you to deeply influence the growth of restaurant partners across a significant region in Germany. If you thrive in a fast-paced, collaborative, and empowering environment where your entrepreneurial spirit is celebrated, and you're eager to build something exceptional, this opportunity provides immediate impact and excellent professional growth within a globally scaling tech company. The flexible working hours, hybrid model, and dog-friendly office culture further enhance the appeal of joining Wolt's dynamic and inclusive team.

@@ -9,66 +9,66 @@ postedDate: '2025-11-28T14:31:46.000Z'
 expirationDate: null
 tags:
   - IT
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/tco-global-gmbh/it-administrator-it-techniker-it-servicetechniker-in-teilzeit-hamburg-143145
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a supportive and growth-oriented environment with a strong
+  emphasis on work-life balance, offering flexible hours, remote work options,
+  and continuous learning opportunities. Its flat hierarchy promotes quick
+  decision-making and a collaborative atmosphere focused on delivering reliable,
+  personal IT support.
+story_question1: >-
+  How does the team approach managing the diverse IT needs and unique challenges
+  of a varied client base, ensuring consistent, high-quality support across
+  different industries?
+story_answer1: >-
+  That's a fantastic question, and it really gets to the heart of what we do. As
+  a small, dedicated team, our approach is deeply personal. We don't just fix
+  problems; we build relationships. When a new client comes on board, we
+  dedicate time to understanding their specific operations, their pain points,
+  and their growth plans. We document everything meticulously in our Wiki – it’s
+  our collective brain, making sure that anyone on the team can step in with
+  full context. This emphasis on deep client understanding and thorough
+  documentation, combined with our flexible problem-solving, allows us to
+  deliver that reliable, tailored support. It means you’ll never have two days
+  that are exactly alike, and you’re constantly learning and adapting, which is
+  incredibly rewarding.
+story_question2: >-
+  Given the focus on continuous learning and modern technologies, what kind of
+  growth trajectory can an IT Service professional expect in this role, both in
+  terms of skill development and potential responsibilities?
+story_answer2: >-
+  Growth here isn't just a buzzword; it's built into our DNA. Because we're a
+  growing business with evolving client needs, you won't be siloed. We actively
+  encourage and fund relevant training and certifications – whether it’s deeper
+  dives into cloud solutions like Azure, advanced networking, or cybersecurity.
+  The beauty of a flat hierarchy is that your ideas matter, and your initiative
+  is rewarded. If you spot an area for improvement or a new technology that
+  could benefit our clients, you're empowered to research it, propose it, and
+  potentially even lead its implementation. You could naturally evolve into a
+  specialist in a certain tech stack, or take on more complex project management
+  tasks as we expand. We see this role as a long-term partnership, and your
+  development is crucial to our collective success.
+story_question3: >-
+  How does the company balance the autonomy required for remote and on-site
+  client support with ensuring team cohesion and knowledge sharing?
+story_answer3: >-
+  It’s a balance we actively cultivate. We trust our team members to manage
+  their schedules and client interactions effectively, especially with the
+  flexibility of remote and on-site work. Autonomy is key to personal
+  responsibility and client satisfaction. However, we ensure cohesion through
+  regular, brief check-ins – not micromanagement, but opportunities to share
+  insights, discuss challenging cases, and learn from each other. Our
+  collaborative documentation (the Wiki) is central to this; it's a living
+  repository of knowledge. We also make sure to have informal team gatherings,
+  whether virtual or in our modern office, to strengthen those bonds. It’s about
+  being independent when you need to be, but always knowing you have a strong,
+  supportive team backing you up.
 ---
-Ich bin seit über 10 Jahren als selbstständiger IT-Dienstleister in Hamburg und Umgebung tätig und betreue vor allem kleine und mittelständische Unternehmen. Mein Fokus liegt auf persönlichem, zuverlässigem IT-Support – von der Netzwerktechnik bis zur Arbeitsplatzbetreuung. Um meine Kunden weiterhin bestmöglich zu unterstützen, suche ich tatkräftige Unterstützung im Bereich IT-Service.
-
-Für diese Position suche ich eine engagierte Person in Teilzeit. Der wöchentliche Arbeitsumfang beträgt 20 - 30 Stunden und kann nach Absprache flexibel gestaltet werden.
-
-Aufgaben
---------
-
-*   Du berätst Anwender und bietest technischen Support – sowohl im 1st, 2nd als auch im 3rd Level
-*   Du analysierst und behebst Hard- und Softwareprobleme, entweder per Remote-Zugriff oder direkt vor Ort beim Kunden
-*   Du unterstützt bei der Einrichtung und Betreuung von Betriebssystemen (Windows) sowie bei der Installation neuer Hardware
-*   Du installierst und konfigurierst Standardsoftware, z. B. Microsoft 365 oder gängige Sicherheitslösungen
-*   Du pflegst und dokumentierst IT-Inventar, Netzpläne, unser Wiki sowie kundenspezifische Besonderheiten
-*   Du wirkst mit bei IT-Rollouts, Umzügen oder Systemmigrationen
-*   Du setzt aktiv unsere Sicherheits- und Datenschutzrichtlinien im täglichen IT-Betrieb um
-
-Qualifikation
--------------
-
-*   Eine abgeschlossene Ausbildung im IT-Bereich, z. B. als Fachinformatiker für Systemintegration, IT-Systemelektroniker oder eine vergleichbare Qualifikation
-*   Erfahrung im technischen Support (1st / 2nd Level oder 3rd Level) und in der Fehleranalyse
-*   Sehr gute Kenntnisse in Hard- und Software, insbesondere mit Windows-Betriebssystemen, Microsoft 365 und gängiger Peripherie
-*   Sehr gute Deutschkenntnisse in Wort und Schrift (mind. C1) – Englischkenntnisse sind von Vorteil
-*   Eine strukturierte und serviceorientierte Arbeitsweise
-*   Kenntnisse in Netzwerktechnik, insbesondere in den Bereichen TCP/IP, Router, Switches, Firewalls etc.
-*   Erfahrung mit Active Directory
-*   Erfahrung im Bereich Virtualisierung (z. B. VMware, Hyper-V)
-*   Kenntnisse in IT-Sicherheit & Backup-Lösungen
-
-**Nicht zwingend erforderlich, aber nice-to-have:**
-
-*   Führerschein Klasse B
-
-Benefits
---------
-
-Dich erwarten:
-
-*   Einen sicheren Arbeitsplatz in einem wachsenden Unternehmen mit flachen Hierarchien und kurzen Entscheidungswegen
-*   Flexible Arbeitszeitgestaltung und die Option, im Homeoffice zu arbeiten
-*   Ein barrierefreies Bürogebäude mit moderner Ausstattung
-*   Einen gut ausgestatteten Arbeitsplatz mit Laptop und Firmenhandy für Deine tägliche Arbeit
-*   Eine umfassende Einarbeitung, damit Du Dich schnell zurechtfindest
-*   Weiterbildungen und Schulungen, damit Du fachlich immer auf dem neuesten Stand bleibst
-*   Dauerbeschäftigung mit langfristiger Perspektive
-*   Eine gut ausgestattete Büroküche sowie kostenfreie Getränke für Deine Pausen
-*   Moderne Tools und Technologien, die Dir die Arbeit erleichtern
-
-**Bereit, durchzustarten?**
-
-Dann freue ich mich auf Deine Bewerbung!
-
-Schicke mir einfach Deinen Lebenslauf und ein kurzes Anschreiben mit ein paar Infos über Dich.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nAs an independent IT service provider with over 10 years of experience in Hamburg and surrounding areas, focusing on personal and reliable IT support for small and medium-sized businesses, we are seeking dedicated part-time support in IT Service. This role offers a flexible weekly workload of 20-30 hours, adaptable to your schedule.\\n\\n### Responsibilities\\n- Provide 1st, 2nd, and 3rd level technical support and user consultation.\\n- Analyze and resolve hardware and software problems via remote access or on-site at customer locations.\\n- Support the setup and maintenance of Windows operating systems and the installation of new hardware.\\n- Install and configure standard software, such as Microsoft 365 and common security solutions.\\n- Maintain and document IT inventory, network plans, our Wiki, and customer-specific details.\\n- Participate in IT rollouts, office moves, and system migrations.\\n- Actively implement our security and data protection guidelines in daily IT operations.\\n\\n### Qualifications\\n- A completed IT education, e.g., as an IT specialist for system integration, IT system electronics technician, or a comparable qualification.\\n- Experience in technical support (1st/2nd/3rd level) and troubleshooting.\\n- Excellent knowledge of hardware and software, particularly Windows operating systems, Microsoft 365, and common peripherals.\\n- Very good German language skills, both written and spoken (minimum C1 level); English skills are a plus.\\n- A structured and service-oriented work approach.\\n- Knowledge of network technology, especially TCP/IP, routers, switches, firewalls, etc.\\n- Experience with Active Directory.\\n- Experience in virtualization (e.g., VMware, Hyper-V).\\n- Knowledge of IT security & backup solutions.\\n- **Nice-to-have:** Class B driver's license.\\n\\n### Author's Take\\nThis is a fantastic opportunity for an experienced IT support professional looking for a stable, flexible, and growth-oriented part-time role. The company fosters a supportive environment that values continuous learning, work-life balance, and provides a modern, well-equipped workplace. With a focus on personal client relationships and comprehensive IT service, this dynamic position offers long-term perspectives within a growing business.
