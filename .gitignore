@@ -39,7 +39,7 @@ pnpm-debug.log*
 .vercel
 
 # Documentation (private)
-/docs/
+# /docs/
 
 # typescript
 *.tsbuildinfo
