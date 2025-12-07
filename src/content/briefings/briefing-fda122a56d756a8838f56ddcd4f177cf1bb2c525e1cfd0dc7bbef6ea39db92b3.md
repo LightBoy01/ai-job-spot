@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-fda122a56d756a8838f56ddcd4f177cf1bb2c525e1cfd0dc7bbef6ea39db92b3
 title: 'Meta-World+: An Improved, Standardized, RL Benchmark'

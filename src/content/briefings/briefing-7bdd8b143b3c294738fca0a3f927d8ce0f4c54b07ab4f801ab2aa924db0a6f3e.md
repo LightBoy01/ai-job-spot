@@ -1,8 +1,6 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-7bdd8b143b3c294738fca0a3f927d8ce0f4c54b07ab4f801ab2aa924db0a6f3e
-title: Galway medtech SymPhysis Medical awarded $1.25m grant
+title: Galway medtech SymPhysis Medical awarded 1.25m grant
 slug: briefing-7bdd8b143b3c294738fca0a3f927d8ce0f4c54b07ab4f801ab2aa924db0a6f3e
 author: Laura Varley
 publishDate: 2025-11-26T09:41:34.000Z

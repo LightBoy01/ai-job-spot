@@ -52,4 +52,22 @@ story_answer2: >-
   continuous improvement, and your fresh perspective here would be highly
   valued.
 ---
-### Description\nOur client in Munich is looking for a Head of Accounts Receivable / Head of Receivables Management (m/w/d) to take overall responsibility for their accounts receivable department and steer the entire receivables and dunning processes. This role is crucial for ensuring efficient financial operations and contributing to the company's financial health.\n\n### Responsibilities\n- Take overall responsibility for accounts receivable and steer the entire receivables and dunning processes.\n- Lead and develop your team professionally and organizationally, ensuring efficient processing of all accounts receivable transactions.\n- Monitor open items, manage incoming payments, dunning, and collection processes, ensuring structured receivables management.\n- Generate regular reports and key figures (e.g., outstanding receivables, age structure, liquidity impact) and collaborate closely with Accounting, Controlling, and Sales.\n- Optimize accounts receivable processes, implement standards and procedures, ensure compliance and legal requirements, and support month-end and year-end closings.\n\n### Qualifications\n- Hold a commercial qualification – e.g., Industrial Clerk, Tax Assistant, Office Management Clerk – or a completed degree, e.g., in Business Administration (BWL), Economics (VWL), or a comparable field.\n- Possess several years of professional experience as a (Senior) Accountant, Accounts Receivable Accountant, or in a comparable position, ideally with leadership experience.\n- Be proficient in common ERP/accounting systems and standard MS-Office programs.\n- Demonstrate strong analytical thinking, a high affinity for numbers, and work in a structured, responsible, and independent manner.\n- Have very good German language skills.\n\n### Author's Take\nThis is a fantastic opportunity for an experienced accounts receivable professional looking to take on a leadership role with significant responsibility. The company offers a supportive environment with a strong emphasis on work-life balance, professional development, and team spirit, all within a centrally located Munich office. If you're ready to lead a vital financial function and drive continuous improvement, this role is for you.
+### Description
+Our client in Munich is looking for a Head of Accounts Receivable / Head of Receivables Management (m/w/d) to take overall responsibility for their accounts receivable department and steer the entire receivables and dunning processes. This role is crucial for ensuring efficient financial operations and contributing to the company's financial health.
+
+### Responsibilities
+- Take overall responsibility for accounts receivable and steer the entire receivables and dunning processes.
+- Lead and develop your team professionally and organizationally, ensuring efficient processing of all accounts receivable transactions.
+- Monitor open items, manage incoming payments, dunning, and collection processes, ensuring structured receivables management.
+- Generate regular reports and key figures (e.g., outstanding receivables, age structure, liquidity impact) and collaborate closely with Accounting, Controlling, and Sales.
+- Optimize accounts receivable processes, implement standards and procedures, ensure compliance and legal requirements, and support month-end and year-end closings.
+
+### Qualifications
+- Hold a commercial qualification – e.g., Industrial Clerk, Tax Assistant, Office Management Clerk – or a completed degree, e.g., in Business Administration (BWL), Economics (VWL), or a comparable field.
+- Possess several years of professional experience as a (Senior) Accountant, Accounts Receivable Accountant, or in a comparable position, ideally with leadership experience.
+- Be proficient in common ERP/accounting systems and standard MS-Office programs.
+- Demonstrate strong analytical thinking, a high affinity for numbers, and work in a structured, responsible, and independent manner.
+- Have very good German language skills.
+
+### Author's Take
+This is a fantastic opportunity for an experienced accounts receivable professional looking to take on a leadership role with significant responsibility. The company offers a supportive environment with a strong emphasis on work-life balance, professional development, and team spirit, all within a centrally located Munich office. If you're ready to lead a vital financial function and drive continuous improvement, this role is for you.

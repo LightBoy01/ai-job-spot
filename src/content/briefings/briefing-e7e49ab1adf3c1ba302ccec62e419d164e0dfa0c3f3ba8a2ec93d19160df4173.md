@@ -1,7 +1,7 @@
 ---
 id: briefing-e7e49ab1adf3c1ba302ccec62e419d164e0dfa0c3f3ba8a2ec93d19160df4173
 title: >-
-  How Stephen Wilkes’ Day to Night Photos Capture Wildlife In an Entirely
+  How Stephen Wilkes' Day to Night Photos Capture Wildlife In an Entirely
   Different Way
 slug: briefing-e7e49ab1adf3c1ba302ccec62e419d164e0dfa0c3f3ba8a2ec93d19160df4173
 author: Jeremy Gray

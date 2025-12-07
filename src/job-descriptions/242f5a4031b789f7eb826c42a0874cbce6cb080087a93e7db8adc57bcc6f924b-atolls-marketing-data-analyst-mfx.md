@@ -61,4 +61,32 @@ story_answer2: >-
   collaborative environment to make that happen. We truly believe in empowering
   you to become a specialist in your field.
 ---
-### Description\nAtolls is the world's largest community-driven shopping platform, active in 20+ markets, helping millions make smarter spending decisions. We are seeking a Marketing Data Analyst to join our Data Analytics team in Munich. This role is pivotal in driving data-driven marketing strategies for customer acquisition and retention across our diverse product portfolio. You will leverage strong analytical skills and marketing domain expertise to deliver actionable insights that directly impact how millions of consumers interact with our platforms, ensuring smart, fair, and rewarding choices.\n\nAtolls values professional and personal growth, offering a supportive culture, generous vacation, flexible hybrid work, learning budgets, mental health coaching, and opportunities for global collaboration and sabbaticals.\n\n### Responsibilities\n- Design, execute, and analyze A/B and multivariate tests to optimize marketing campaigns.\n- Analyze customer acquisition funnels across multiple channels and products.\n- Design and implement comprehensive marketing attribution models to accurately measure channel effectiveness.\n- Work closely with data engineering teams to ensure data quality and availability.\n- Perform statistical modeling to understand customer behavior patterns and marketing impact.\n- Conduct deep-dive analyses on campaign performance, identifying optimization opportunities.\n- Support strategic planning initiatives with data-driven insights and forecasts.\n\n### Qualifications\n- **3-5 years of marketing analytics experience** with proven success in acquisition and retention analytics.\n- Experience working in multi-product or multi-market environments.\n- Background in e-commerce, digital marketing, or other customer-focused industries.\n- **Advanced SQL proficiency** including complex queries, CTEs, window functions, and database optimization.\n- **Expert-level Python** for data transformation, modeling, and automation.\n- Experience with **Git** or similar version control tools and collaborative workflows.\n\n**Bonus Points:**\n- Hands-on Experience Building Marketing Attribution Models.\n- Customer Retention / Lifecycle Analytics Experience (LTV, churn, cohorts).\n- Experience with Causal Inference / Incrementality Testing.\n\n### Author's Take\nThis is an exciting Mid-Senior Marketing Data Analyst role for someone passionate about leveraging data to drive real-world marketing impact at a global scale. With 3-5 years of experience, you'll be empowered to design and implement sophisticated analytical solutions, from A/B testing to advanced attribution modeling, directly shaping customer acquisition and retention strategies across 20+ markets. Atolls offers a compelling culture that prioritizes employee well-being, growth, and work-life balance through flexible hybrid work, generous vacation, and robust learning opportunities. If you thrive in a collaborative, data-rich environment and possess expert-level SQL and Python skills, this role provides significant ownership and a clear path for professional development within a supportive, inclusive team.
+### Description
+Atolls is the world's largest community-driven shopping platform, active in 20+ markets, helping millions make smarter spending decisions. We are seeking a Marketing Data Analyst to join our Data Analytics team in Munich. This role is pivotal in driving data-driven marketing strategies for customer acquisition and retention across our diverse product portfolio. You will leverage strong analytical skills and marketing domain expertise to deliver actionable insights that directly impact how millions of consumers interact with our platforms, ensuring smart, fair, and rewarding choices.
+
+Atolls values professional and personal growth, offering a supportive culture, generous vacation, flexible hybrid work, learning budgets, mental health coaching, and opportunities for global collaboration and sabbaticals.
+
+### Responsibilities
+- Design, execute, and analyze A/B and multivariate tests to optimize marketing campaigns.
+- Analyze customer acquisition funnels across multiple channels and products.
+- Design and implement comprehensive marketing attribution models to accurately measure channel effectiveness.
+- Work closely with data engineering teams to ensure data quality and availability.
+- Perform statistical modeling to understand customer behavior patterns and marketing impact.
+- Conduct deep-dive analyses on campaign performance, identifying optimization opportunities.
+- Support strategic planning initiatives with data-driven insights and forecasts.
+
+### Qualifications
+- **3-5 years of marketing analytics experience** with proven success in acquisition and retention analytics.
+- Experience working in multi-product or multi-market environments.
+- Background in e-commerce, digital marketing, or other customer-focused industries.
+- **Advanced SQL proficiency** including complex queries, CTEs, window functions, and database optimization.
+- **Expert-level Python** for data transformation, modeling, and automation.
+- Experience with **Git** or similar version control tools and collaborative workflows.
+
+**Bonus Points:**
+- Hands-on Experience Building Marketing Attribution Models.
+- Customer Retention / Lifecycle Analytics Experience (LTV, churn, cohorts).
+- Experience with Causal Inference / Incrementality Testing.
+
+### Author's Take
+This is an exciting Mid-Senior Marketing Data Analyst role for someone passionate about leveraging data to drive real-world marketing impact at a global scale. With 3-5 years of experience, you'll be empowered to design and implement sophisticated analytical solutions, from A/B testing to advanced attribution modeling, directly shaping customer acquisition and retention strategies across 20+ markets. Atolls offers a compelling culture that prioritizes employee well-being, growth, and work-life balance through flexible hybrid work, generous vacation, and robust learning opportunities. If you thrive in a collaborative, data-rich environment and possess expert-level SQL and Python skills, this role provides significant ownership and a clear path for professional development within a supportive, inclusive team.

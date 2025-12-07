@@ -77,4 +77,30 @@ story_answer3: >-
   bereitzustellen. Hier kannst du wirklich wachsen und deine Expertise
   kontinuierlich ausbauen.
 ---
-### Description\nBei TZAMPAS suchen wir einen vielseitigen Online-Grafik-Allrounder, der unser Marketing-A-Team verstärkt. In dieser Rolle gestaltest du nicht nur mit, sondern entscheidest, setzt um und schaffst echten Mehrwert für unsere Marke. Du entwickelst vielfältiges Grafikmaterial, idealerweise auch Videos und Animationen, für unsere digitalen Kanäle und begleitest aktiv die Weiterentwicklung unseres Corporate Designs – online wie offline – um eine konsistente und moderne Markenidentität zu gewährleisten.\n\n### Responsibilities\n- Gestaltung von Social-Media-Grafiken, insbesondere für Instagram.\n- Erstellung und Optimierung von statischen Meta Ads.\n- Aufbau von Landingpages in Shopify.\n- Grafische Unterstützung bei CRM-/E-Mail-Kampagnen (Klaviyo).\n- UI/UX-Optimierung unseres Online-Shops (Shopify).\n- Unterstützung bei kleineren Print-/Handel-/Merch-Projekten.\n- Packaging Design.\n- Weiterentwicklung unseres Brand Designs und der Corporate Identity.\n\n### Qualifications\nUm in dieser Rolle erfolgreich zu sein, bist du eine wichtige Schnittstelle für viele Marketingprojekte und zeichnest dich durch Struktur, Zuverlässigkeit und Priorisierungsfähigkeit aus. Darüber hinaus bringst du mit:\n- Ein ausgeprägtes Interesse an Natur, Sinn für Qualität und Freude an Outdoor-Aktivitäten.\n- Starkes Marken- und Designverständnis.\n- Mehrjährige Erfahrung im Online-Marketing-Umfeld (z.B. Webdesign, UI/UX, Performance Marketing, Social Media).\n- Sehr gute Kenntnisse in Adobe Photoshop, Illustrator und InDesign.\n- Keine Berührungsängste mit Canva.\n- Grundkenntnisse in HTML/CSS.\n- Erfahrung mit Website-Buildern, idealerweise Shopify.\n- Sehr gute Deutschkenntnisse in Wort und Schrift.\n- Bonus: Foto- und Videoerfahrung inklusive Nachbearbeitung.\n\n### Author's Take\nDiese Position bietet eine hervorragende Gelegenheit für einen proaktiven und kreativen Grafik-Profi, der eine spürbare Wirkung erzielen möchte. Das Unternehmen TZAMPAS legt Wert auf selbstständiges Arbeiten, persönliche Verantwortung und bietet ein dynamisches Umfeld mit kurzen Entscheidungswegen. Besonders attraktiv sind die flexible Arbeitsgestaltung (Büro in Berlin oder Homeoffice) und die Chance, an der Weiterentwicklung einer authentischen, plant-based Marke mitzuwirken. Wer tiefer in Ernährungs-, Sport- und Gesundheitsthemen eintauchen und eine engagierte Community mitgestalten möchte, findet hier ein wertschätzendes Team und spannende fachliche Entwicklungsmöglichkeiten.
+### Description
+Bei TZAMPAS suchen wir einen vielseitigen Online-Grafik-Allrounder, der unser Marketing-A-Team verstärkt. In dieser Rolle gestaltest du nicht nur mit, sondern entscheidest, setzt um und schaffst echten Mehrwert für unsere Marke. Du entwickelst vielfältiges Grafikmaterial, idealerweise auch Videos und Animationen, für unsere digitalen Kanäle und begleitest aktiv die Weiterentwicklung unseres Corporate Designs – online wie offline – um eine konsistente und moderne Markenidentität zu gewährleisten.
+
+### Responsibilities
+- Gestaltung von Social-Media-Grafiken, insbesondere für Instagram.
+- Erstellung und Optimierung von statischen Meta Ads.
+- Aufbau von Landingpages in Shopify.
+- Grafische Unterstützung bei CRM-/E-Mail-Kampagnen (Klaviyo).
+- UI/UX-Optimierung unseres Online-Shops (Shopify).
+- Unterstützung bei kleineren Print-/Handel-/Merch-Projekten.
+- Packaging Design.
+- Weiterentwicklung unseres Brand Designs und der Corporate Identity.
+
+### Qualifications
+Um in dieser Rolle erfolgreich zu sein, bist du eine wichtige Schnittstelle für viele Marketingprojekte und zeichnest dich durch Struktur, Zuverlässigkeit und Priorisierungsfähigkeit aus. Darüber hinaus bringst du mit:
+- Ein ausgeprägtes Interesse an Natur, Sinn für Qualität und Freude an Outdoor-Aktivitäten.
+- Starkes Marken- und Designverständnis.
+- Mehrjährige Erfahrung im Online-Marketing-Umfeld (z.B. Webdesign, UI/UX, Performance Marketing, Social Media).
+- Sehr gute Kenntnisse in Adobe Photoshop, Illustrator und InDesign.
+- Keine Berührungsängste mit Canva.
+- Grundkenntnisse in HTML/CSS.
+- Erfahrung mit Website-Buildern, idealerweise Shopify.
+- Sehr gute Deutschkenntnisse in Wort und Schrift.
+- Bonus: Foto- und Videoerfahrung inklusive Nachbearbeitung.
+
+### Author's Take
+Diese Position bietet eine hervorragende Gelegenheit für einen proaktiven und kreativen Grafik-Profi, der eine spürbare Wirkung erzielen möchte. Das Unternehmen TZAMPAS legt Wert auf selbstständiges Arbeiten, persönliche Verantwortung und bietet ein dynamisches Umfeld mit kurzen Entscheidungswegen. Besonders attraktiv sind die flexible Arbeitsgestaltung (Büro in Berlin oder Homeoffice) und die Chance, an der Weiterentwicklung einer authentischen, plant-based Marke mitzuwirken. Wer tiefer in Ernährungs-, Sport- und Gesundheitsthemen eintauchen und eine engagierte Community mitgestalten möchte, findet hier ein wertschätzendes Team und spannende fachliche Entwicklungsmöglichkeiten.

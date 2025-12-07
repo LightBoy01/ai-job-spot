@@ -10,58 +10,67 @@ expirationDate: null
 tags:
   - Remote
   - IT
-status: published
-jobLevel: Mid-Senior
-employeeRole: Individual Contributor
+status: pending_review
+jobLevel: null
+employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/bootsschulex-gmbh/wordpress-frontend-entwickler-mit-auge-fur-design-m-w-d-rheinfelden-193194
 companyLogoUrl: null
-companyCulture: >-
-  BootsschuleX offers a 100% remote, flexible work environment within a small,
-  focused team, emphasizing autonomy and direct impact. The culture fosters
-  individual responsibility, creative input, and continuous growth, valuing
-  modern approaches over rigid corporate structures.
-story_question1: >-
-  Given the direct influence on product, website, and campaigns, how does this
-  role specifically contribute to BootsschuleX's aggressive growth targets and
-  user experience improvements?
-story_answer1: >-
-  Here at BootsschuleX, you're not just coding; you're shaping the future of
-  online boating education. Imagine launching a new landing page or optimizing a
-  WooCommerce checkout – the impact is immediate and measurable. Our growth
-  isn't just a number; it's thousands of new students getting their licenses
-  because of the seamless, intuitive experience you've crafted. You'll literally
-  see your work translate into increased conversions and happier learners,
-  driving our mission forward every single day. It's incredibly rewarding to
-  have that direct line from your ideas to our success.
-story_question2: >-
-  With a fully remote setup and emphasis on autonomous work, how does the team
-  ensure cohesive development and maintain those 'kurze Entscheidungswegen'
-  (short decision paths) while fostering individual contribution and growth?
-story_answer2: >-
-  Working remotely here isn't about isolation; it's about empowerment. We thrive
-  on trust and clear communication. Even though we're distributed, our small,
-  focused team means you're always connected. We use modern collaboration tools
-  to ensure everyone's on the same page, and those 'short decision paths' come
-  naturally because there are no layers of bureaucracy. If you have an idea that
-  improves our product or process, you bring it directly to the table, often
-  with the founders. This setup not only fosters incredible individual growth
-  but also ensures we move fast and stay agile as a company.
-story_question3: >-
-  The job description mentions an evolving tech stack including JavaScript,
-  TypeScript, PHP, and Python. How does BootsschuleX support continuous learning
-  and the integration of new technologies for its developers?
-story_answer3: >-
-  We're all about staying cutting-edge, especially when it comes to our tech.
-  While you'll definitely deepen your expertise in WordPress, Elementor, and the
-  core frontend stack, we actively encourage exploring and integrating new
-  solutions. For instance, if you see a more efficient way to handle an API
-  integration with Python or optimize a JavaScript component, you're empowered
-  to propose and implement it. We value proactive learning and provide resources
-  for skill development, whether it's through online courses or internal
-  knowledge sharing. The goal is always to improve, and your curiosity is a huge
-  asset here.
 ---
-### Description\nBootsschuleX is a leading online boating school in Germany, serving thousands of participants annually and collaborating with over 100 partner schools. We combine modern e-learning with clear growth targets and data-driven performance marketing. We offer a 100% remote work environment within a small, focused team, characterized by short decision paths and direct influence on product, website, and campaigns. If you thrive on taking responsibility and prefer a modern, digital setting over rigid corporate structures, you'll feel right at home with us.\n\n### Responsibilities\nYou will be responsible for the technical and visual evolution of our entire WordPress landscape. This includes creating and maintaining our website, landing pages, and funnels, setting up new pages with Elementor, and overseeing not only the technical implementation but also the layout, structure, and design. You will work closely with management and marketing to quickly and cleanly launch actions, campaigns, and tests. Additionally, you will handle backend adjustments as needed, such as for interfaces or existing functionalities.\n\nSpecifically, your tasks will include:\n- Creating and adapting pages and templates in WordPress and with Elementor\n- Implementing designs and your own ideas using HTML, CSS, and JavaScript\n- Developing extensions and functions in PHP within the WordPress context\n- Making backend adjustments, such as API integrations or modifications to existing systems\n\nFurthermore, you will optimize our WooCommerce product pages and checkout flow for usability, conversion, and performance. You will ensure that all pages function flawlessly on desktop, tablet, and smartphone, continuously improve website loading times and stability, and analyze and resolve bugs during operation.\n\n### Qualifications\nYou're a great fit if you bring practical web development experience and feel at home in the WordPress ecosystem. While you don't need to be a pure backend developer, you should be capable of navigating our existing backend confidently. We currently work with JavaScript and individual API components in Python there.\n\nEspecially important to us are:\n- 2 to 4 years of experience in frontend development, ideally with a focus on WordPress projects\n- Very good knowledge of HTML5 and CSS3 (including Flexbox, Grid, and responsive design)\n- Practical experience with JavaScript and TypeScript in the frontend\n- Proficient use of WordPress, especially theme development, child themes, hooks, and template structure\n- Initial or good experience with Elementor, or the willingness to quickly and independently learn it\n- Basic knowledge of PHP in the WordPress context, e.g., for custom functions, shortcodes, or template adjustments\n- Experience with WooCommerce or the willingness to quickly learn it\n- A strong eye for design, typography, and UX: you recognize when something isn't cohesive and can improve it\n- Structured and independent work style in a remote environment, including reliable team communication\n- Very good German language skills (written and spoken), English skills for documentation and tools\n- Solid experience with backend tasks, especially JavaScript in the backend area, and confident handling of REST APIs\n- Ideally, initial experience with Python in an API environment, or the willingness to learn our existing Python components\n\nA formal degree (apprenticeship, Bachelor's, Master's, etc.) is a plus but not crucial for us. Your practical skills, portfolio, and eagerness to drive BootsschuleX forward with your code and ideas are more important.\n\n### Author's Take\nThis is an outstanding opportunity for a dedicated Frontend Developer passionate about WordPress and user experience to make a significant impact in a rapidly growing, fully remote online education company. You'll gain extensive autonomy, directly influencing product development and business growth within a small, agile team. The culture values independent work, creative input, and offers flexible hours, along with unique perks like free boating licenses. It's a chance to truly own your projects and see your contributions drive tangible success, all while working in a modern, supportive environment. No prior boating experience or license is required – just your talent and enthusiasm!
+BootsschuleX ist eine spezialisierte Online Bootsschule für den amtlichen Sportbootführerschein mit mehreren tausend Teilnehmerinnen und Teilnehmern pro Jahr und über 100 Partnerschulen in ganz Deutschland. Wir kombinieren modernes E Learning, klare Wachstumsziele und datengetriebenes Performance Marketing. Bei uns arbeitest du zu 100 Prozent remote in einem kleinen, fokussierten Team mit kurzen Entscheidungswegen und direktem Einfluss auf Produkt, Website und Kampagnen. Wenn du Verantwortung übernehmen möchtest und lieber in einer modernen, digitalen Umgebung arbeitest statt in einer starren Konzernstruktur, bist du bei uns genau richtig.
+
+Aufgaben
+--------
+
+Du bist verantwortlich für die technische und visuelle Weiterentwicklung unserer kompletten WordPress Landschaft. Du erstellst und pflegst unsere Website, Landingpages und Funnels, setzt neue Seiten mit Elementor auf und übernimmst dabei nicht nur die technische Umsetzung, sondern auch Layout, Struktur und Design. Dabei arbeitest du eng mit Geschäftsführung und Marketing zusammen, um Aktionen, Kampagnen und Tests schnell und sauber live zu bringen. Zusätzlich übernimmst du bei Bedarf Anpassungen im Backend, zum Beispiel bei Schnittstellen oder bestehenden Funktionen.
+
+Konkret gehören dazu unter anderem:
+
+*   Erstellung und Anpassung von Seiten und Templates in WordPress und mit Elementor
+*   Umsetzung von Designs und eigenen Ideen mit HTML, CSS und JavaScript
+*   Entwicklung von Erweiterungen und Funktionen in PHP im WordPress Kontext
+*   Anpassungen im Backend, zum Beispiel API Anbindungen oder Arbeiten am bestehenden System
+
+Außerdem optimierst du unsere WooCommerce Produktseiten und den Checkout in Bezug auf Usability, Conversion und Performance. Du stellst sicher, dass alle Seiten auf Desktop, Tablet und Smartphone einwandfrei funktionieren, verbesserst kontinuierlich Ladezeiten und Stabilität der Website und analysierst sowie behebst Bugs im laufenden Betrieb.
+
+Qualifikation
+-------------
+
+Du passt gut zu uns, wenn du bereits praktische Erfahrung in der Webentwicklung mitbringst und dich im WordPress Umfeld zuhause fühlst. Du musst kein reiner Backend Entwickler sein, solltest aber in der Lage sein, dich sicher in unserem bestehenden Backend zurechtzufinden. Aktuell arbeiten wir dort mit JavaScript und einzelnen API Komponenten in Python.
+
+Wichtig sind für uns insbesondere:
+
+*   2 bis 4 Jahre Erfahrung in der Frontend Entwicklung, idealerweise mit Fokus auf WordPress Projekten
+*   Sehr gute Kenntnisse in HTML5 und CSS3 (inklusive Flexbox, Grid und responsivem Design)
+*   Praxis im Umgang mit JavaScript und TypeScript im Frontend
+*   Sicherer Umgang mit WordPress, insbesondere Theme Entwicklung, Child Themes, Hooks und Template Struktur
+*   Erste oder gute Erfahrung mit Elementor oder die Bereitschaft, dich zügig und eigenständig einzuarbeiten
+*   Grundkenntnisse in PHP im WordPress Kontext, zum Beispiel für eigene Funktionen, Shortcodes oder Template Anpassungen
+*   Erfahrung mit WooCommerce oder die Bereitschaft, dich dort schnell einzuarbeiten
+*   Ausgeprägtes Auge für Design, Typografie und UX: du erkennst, wenn etwas nicht stimmig wirkt und kannst es verbessern
+*   Strukturierte und eigenständige Arbeitsweise im Remote Umfeld, inklusive zuverlässiger Kommunikation im Team
+*   Sehr gute Deutschkenntnisse in Wort und Schrift, Englischkenntnisse für Dokumentationen und Tools
+*   Solide Erfahrung mit Backend Arbeiten, insbesondere mit JavaScript im Backend Bereich und sicherer Umgang mit REST APIs
+*   Idealerweise erste Erfahrung mit Python im API Umfeld oder Bereitschaft, dich in unsere bestehenden Python Komponenten einzuarbeiten
+
+Formaler Abschluss (Ausbildung, Bachelor, Master etc.) ist ein Plus, aber für uns nicht entscheidend. Wichtiger sind deine praktischen Skills, dein Portfolio und dass du Lust hast, BootsschuleX mit deinem Code und deinen Ideen weiter nach vorne zu bringen.
+
+Benefits
+--------
+
+*   Voll remote mit flexiblen Arbeitszeiten – du arbeitest von dort, wo du am produktivsten bist
+*   Kostenlose Bootsführerscheine für dich
+*   Alle Bootsführerscheine für Friends and Family zum Selbstkostenpreis
+*   Raum für eigene Ideen und echte Gestaltungsmöglichkeiten statt starrer Vorgaben
+*   Direkte Zusammenarbeit mit der Geschäftsführung und spürbarer Einfluss auf Produkt, Website und Umsatz
+*   Moderne Arbeitsumgebung mit aktuellem Tech Stack rund um WordPress, WooCommerce, JavaScript, TypeScript und Python
+*   Eigenverantwortliches Arbeiten in einem kleinen, fokussierten Team ohne Konzernstrukturen
+*   Langfristige Perspektive in einem wachsenden digitalen Unternehmen im Freizeit und Wassersportbereich
+
+Wenn du Lust hast, eine wachsende Online Bootsschule mit deinem Code und deinen Ideen aktiv mitzugestalten, freuen wir uns auf deine Bewerbung. Schick uns einfach deinen Lebenslauf, ein paar Referenzen oder Projektbeispiele und deine Gehaltsvorstellung. Wir melden uns zeitnah bei dir und lernen uns in einem ersten, lockeren Gespräch kennen.
+
+P.S. es ist KEINE Erfahrung im Wassersport nötig oder gar ein Führerschein.
+
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

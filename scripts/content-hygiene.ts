@@ -19,6 +19,11 @@ function generateContentHash(content: string): string {
   return crypto.createHash('sha256').update(normalizeContent(content)).digest('hex');
 }
 
+function cleanFilePreamble(content: string): string {
+  // Remove leading HTML comments (like auto-generated warnings) and whitespace
+  return content.replace(/^\s*<!--[\s\S]*?-->\s*/, '').trimStart();
+}
+
 // --- Configuration ---
 
 const CONFIG = {
@@ -161,12 +166,21 @@ async function sanitizeFiles(contentType: ContentType) {
 
       const filePath = path.join(config.dir, file);
       try {
-        const fileContent = await fs.readFile(filePath, 'utf8');
+        let fileContent = await fs.readFile(filePath, 'utf8');
+        
+        // 0. Pre-cleaning: Remove broken preambles (like HTML comments before frontmatter)
+        const contentWithoutPreamble = cleanFilePreamble(fileContent);
+        let hasChanges = false;
+
+        if (contentWithoutPreamble !== fileContent) {
+            fileContent = contentWithoutPreamble;
+            hasChanges = true;
+        }
+
         const { data: frontmatter, content } = matter(fileContent);
 
         let currentFrontmatter = { ...frontmatter };
         let currentContent = content;
-        let hasChanges = false;
 
         // Apply automatic title corrections
         const { correctedFrontmatter, hasChanges: titleCorrectionsMade } = applyTitleCorrections(currentFrontmatter);
@@ -191,6 +205,14 @@ async function sanitizeFiles(contentType: ContentType) {
             } catch (e) { /* Ignore */ }
             cleanedValue = DOMPurify.sanitize(cleanedValue, { USE_PROFILES: { html: true } })
               .replace(/<[^>]+>/g, '').trim();
+            
+            // Normalize Unicode in frontmatter
+            cleanedValue = cleanedValue
+                .replace(/[\u2013\u2014]/g, '-')
+                .replace(/[\u2018\u2019]/g, "'")
+                .replace(/[\u201C\u201D]/g, '"')
+                .replace(/\u2026/g, '...');
+
             if (cleanedValue !== value) hasChanges = true;
             sanitizedFrontmatter[key] = cleanedValue;
           } else {
@@ -201,10 +223,30 @@ async function sanitizeFiles(contentType: ContentType) {
         // Sanitize Body Content
         let cleanedContent = currentContent;
         if (currentContent && currentContent.trim() !== '') {
-            const newCleanedContent = DOMPurify.sanitize(currentContent, { USE_PROFILES: { html: true } });
-            if (newCleanedContent !== currentContent) {
+            // 1. DOMPurify (HTML Sanitization)
+            cleanedContent = DOMPurify.sanitize(currentContent, { USE_PROFILES: { html: true } });
+
+            // 2. Remove Placeholders (Lorem Ipsum, [insert...])
+            const placeholderRegex = /lorem ipsum|\[insert.*?\]/ig;
+            if (placeholderRegex.test(cleanedContent)) {
+                cleanedContent = cleanedContent.replace(placeholderRegex, '');
+            }
+
+            // 3. Convert literal '\n' to actual newlines
+            cleanedContent = cleanedContent.replace(/\\n/g, '\n');
+
+            // 4. Fix excessive newlines (max 2 consecutive newlines)
+            cleanedContent = cleanedContent.replace(/\n{3,}/g, '\n\n');
+
+            // 5. Normalize Unicode Punctuation to ASCII
+            cleanedContent = cleanedContent
+                .replace(/[\u2013\u2014]/g, '-') // En-dash, Em-dash -> Hyphen
+                .replace(/[\u2018\u2019]/g, "'") // Smart single quotes -> '
+                .replace(/[\u201C\u201D]/g, '"') // Smart double quotes -> "
+                .replace(/\u2026/g, '...');      // Ellipsis -> ...
+
+            if (cleanedContent !== currentContent) {
                 hasChanges = true;
-                cleanedContent = newCleanedContent;
             }
         }
 
@@ -232,6 +274,7 @@ async function sanitizeFiles(contentType: ContentType) {
   } catch (e) {
       if ((e as NodeJS.ErrnoException).code !== 'ENOENT') {
           console.error(`Error during sanitization for ${contentType}:`, (e as Error).message);
+          throw e;
       }
   }
   console.log('----------------------------------\n');
@@ -271,7 +314,8 @@ async function archiveFiles(contentType: ContentType, isDryRun: boolean) {
       const fileInfo: Partial<FileInfo> = { filePath, baseName: file };
 
       try {
-        const fileContent = await fs.readFile(filePath, 'utf8');
+        let fileContent = await fs.readFile(filePath, 'utf8');
+        fileContent = cleanFilePreamble(fileContent); // Ensure frontmatter is readable
         const { data, content } = matter(fileContent);
         fileInfo.frontmatter = data;
 
@@ -401,6 +445,7 @@ async function archiveFiles(contentType: ContentType, isDryRun: boolean) {
   } catch (e) {
       if ((e as NodeJS.ErrnoException).code !== 'ENOENT') {
         console.error(`Error during archival for ${contentType}:`, (e as Error).message);
+        throw e;
       }
   }
 }
@@ -418,6 +463,7 @@ export async function runHygiene(contentType: ContentType, isDryRun: boolean) {
     await archiveFiles(contentType, isDryRun);
   } catch (error) {
     console.error(`An unexpected error occurred in main for ${contentType}:`, (error as Error).message);
+    process.exit(1);
   }
 }
 

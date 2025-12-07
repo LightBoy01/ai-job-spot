@@ -17,7 +17,7 @@ tags:
   - VC Fund
 excerpt: >-
   Today, Coinvest Capital, the NATO Innovation Fund (NIF), Depo Ventures, BSV
-  Ventures, Balnord, and New North Ventures — six VC funds actively investing in
-  dual-use and defence — together with market-i
+  Ventures, Balnord, and New North Ventures - six VC funds actively investing in
+  dual-use and defence - together with market-i
 ---
-Today, Coinvest Capital, the NATO Innovation Fund (NIF), Depo Ventures, BSV Ventures, Balnord, and New North Ventures — six VC funds actively investing in dual-use and defence — together with market-i...
+Today, Coinvest Capital, the NATO Innovation Fund (NIF), Depo Ventures, BSV Ventures, Balnord, and New North Ventures - six VC funds actively investing in dual-use and defence - together with market-i...

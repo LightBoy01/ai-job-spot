@@ -73,4 +73,22 @@ story_answer3: >-
   constantly elevate the candidate experience and refine our integration
   journey.
 ---
-### Description\nAs WTE Charkos, we operate language schools in India, training skilled professionals, particularly in nursing, both linguistically and professionally for a career in Germany. Once trained, we connect these candidates with German employers nationwide. This role focuses on supporting candidates with the swift and effective completion of administrative processes and, crucially, ensuring their successful new start in Germany once relocation begins.\n\n### Responsibilities\n*   Serve as the main point of contact for our candidates and clients regarding all administrative processes related to professional recognition, visas, and relocation.\n*   Support candidates and employers to ensure a smooth job start in Germany.\n*   Ensure all data is accurate in our systems and manage candidate procedures.\n*   Communicate with all involved parties, including authorities, as needed.\n*   Organize travel, pick up candidates from the airport, and introduce them to their new home, including their apartment, how public transport works, where to shop, etc.\n*   Administratively organize the candidates' start in Germany, including SIM cards, bank accounts, and visits to authorities.\n\n### Qualifications\n*   Possess relevant professional experience in project and integration management, ideally with international nursing staff.\n*   Demonstrate high reliability and accuracy in your work.\n*   Bring a high degree of empathy.\n*   Be authentically enthusiastic about providing people with the best possible start in Germany.\n\n### Author's Take\nThis is a deeply impactful role for someone passionate about directly improving the lives of numerous people and contributing to solving Germany's skilled worker shortage. It offers the unique opportunity to travel across Germany, personally welcome candidates, and work in a great, young, and ambitious team. With super flexible working hours and a remote office culture, WTE Charkos is a modern employer that values both high impact and employee well-being, making this an ideal position for an empathetic and organized individual.
+### Description
+As WTE Charkos, we operate language schools in India, training skilled professionals, particularly in nursing, both linguistically and professionally for a career in Germany. Once trained, we connect these candidates with German employers nationwide. This role focuses on supporting candidates with the swift and effective completion of administrative processes and, crucially, ensuring their successful new start in Germany once relocation begins.
+
+### Responsibilities
+*   Serve as the main point of contact for our candidates and clients regarding all administrative processes related to professional recognition, visas, and relocation.
+*   Support candidates and employers to ensure a smooth job start in Germany.
+*   Ensure all data is accurate in our systems and manage candidate procedures.
+*   Communicate with all involved parties, including authorities, as needed.
+*   Organize travel, pick up candidates from the airport, and introduce them to their new home, including their apartment, how public transport works, where to shop, etc.
+*   Administratively organize the candidates' start in Germany, including SIM cards, bank accounts, and visits to authorities.
+
+### Qualifications
+*   Possess relevant professional experience in project and integration management, ideally with international nursing staff.
+*   Demonstrate high reliability and accuracy in your work.
+*   Bring a high degree of empathy.
+*   Be authentically enthusiastic about providing people with the best possible start in Germany.
+
+### Author's Take
+This is a deeply impactful role for someone passionate about directly improving the lives of numerous people and contributing to solving Germany's skilled worker shortage. It offers the unique opportunity to travel across Germany, personally welcome candidates, and work in a great, young, and ambitious team. With super flexible working hours and a remote office culture, WTE Charkos is a modern employer that values both high impact and employee well-being, making this an ideal position for an empathetic and organized individual.

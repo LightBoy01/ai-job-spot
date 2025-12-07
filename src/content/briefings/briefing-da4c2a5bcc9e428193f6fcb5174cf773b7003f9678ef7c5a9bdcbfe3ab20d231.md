@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-da4c2a5bcc9e428193f6fcb5174cf773b7003f9678ef7c5a9bdcbfe3ab20d231
 title: Diversity Has Always Been There in Your Visual Autoregressive Models

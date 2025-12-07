@@ -73,4 +73,32 @@ story_answer3: >-
   can excel professionally while also enjoying everything this beautiful region
   has to offer, contributing to a truly happy and motivated team.
 ---
-### Description\nDORST TECHNOLOGIES is an internationally active, mid-sized mechanical engineering company recognized as a technology leader in presstechnical powder forming of metal, ceramic, and special materials. We provide cutting-edge solutions for a wide range of applications and industries. We are looking for bright, dedicated minds with an open perspective, whether you are experienced, a career changer, or just starting your professional life. We offer a diverse range of interesting tasks, professional roles, and training opportunities, providing long-term career perspectives. Enjoy working and living in unique, inspiring landscapes with high recreational value, located south of Munich and in the Bavarian Forest.\n\n### Responsibilities\n- Processing of customer orders, considering function, costs, and deadlines.\n- Order, detail, and variant construction/design.\n- Creation of offer drawings, circuit diagrams, and foundation plans.\n- New and further development of presses, adaptors, tools, systems, and molds, also considering standardization and common part usage.\n- Project planning, execution, and tracking.\n- Support for sales during the offer phase of projects by developing concepts for 3D presentation, including cost estimation.\n- Customer consultation in-house and on-site.\n- Service support in-house and on-site.\n- Calculation of components, assemblies, and systems using calculation software and FEM software.\n\n### Qualifications\n- Master's degree (m/f/d) in Mechanical Engineering or a comparable field of study.\n- Dipl.-Ing. (m/f/d) (FH, TH, Uni) in Mechanical Engineering or a comparable field of study.\n- Bachelor's degree (m/f/d) in Mechanical Engineering or a comparable field of study.\n- Technician (m/f/d) in Mechanical Engineering or comparable qualification.\n- Proficiency in CAD 3D.\n- Experience with SAP (Project Builder, Material Master and Bill of Materials module, Service module).\n- Proficient in MS-Office.\n- Fluent in English.\n- Knowledge of process engineering techniques.\n- Knowledge of control engineering.\n- Skills in moderation and presentation techniques.\n\n### Author's Take\nThis is an exceptional opportunity for an ambitious engineer to join a technology leader in a critical and innovative field. The role offers a perfect blend of hands-on design, project management, and direct customer interaction, allowing you to significantly impact product development and client success. DORST TECHNOLOGIES fosters a supportive and motivated team culture, prioritizing work-life balance with flexible hours and an attractive location in picturesque Bavaria. With a strong commitment to long-term career development and a comprehensive benefits package, this position is ideal for those seeking a challenging yet rewarding professional journey.
+### Description
+DORST TECHNOLOGIES is an internationally active, mid-sized mechanical engineering company recognized as a technology leader in presstechnical powder forming of metal, ceramic, and special materials. We provide cutting-edge solutions for a wide range of applications and industries. We are looking for bright, dedicated minds with an open perspective, whether you are experienced, a career changer, or just starting your professional life. We offer a diverse range of interesting tasks, professional roles, and training opportunities, providing long-term career perspectives. Enjoy working and living in unique, inspiring landscapes with high recreational value, located south of Munich and in the Bavarian Forest.
+
+### Responsibilities
+- Processing of customer orders, considering function, costs, and deadlines.
+- Order, detail, and variant construction/design.
+- Creation of offer drawings, circuit diagrams, and foundation plans.
+- New and further development of presses, adaptors, tools, systems, and molds, also considering standardization and common part usage.
+- Project planning, execution, and tracking.
+- Support for sales during the offer phase of projects by developing concepts for 3D presentation, including cost estimation.
+- Customer consultation in-house and on-site.
+- Service support in-house and on-site.
+- Calculation of components, assemblies, and systems using calculation software and FEM software.
+
+### Qualifications
+- Master's degree (m/f/d) in Mechanical Engineering or a comparable field of study.
+- Dipl.-Ing. (m/f/d) (FH, TH, Uni) in Mechanical Engineering or a comparable field of study.
+- Bachelor's degree (m/f/d) in Mechanical Engineering or a comparable field of study.
+- Technician (m/f/d) in Mechanical Engineering or comparable qualification.
+- Proficiency in CAD 3D.
+- Experience with SAP (Project Builder, Material Master and Bill of Materials module, Service module).
+- Proficient in MS-Office.
+- Fluent in English.
+- Knowledge of process engineering techniques.
+- Knowledge of control engineering.
+- Skills in moderation and presentation techniques.
+
+### Author's Take
+This is an exceptional opportunity for an ambitious engineer to join a technology leader in a critical and innovative field. The role offers a perfect blend of hands-on design, project management, and direct customer interaction, allowing you to significantly impact product development and client success. DORST TECHNOLOGIES fosters a supportive and motivated team culture, prioritizing work-life balance with flexible hours and an attractive location in picturesque Bavaria. With a strong commitment to long-term career development and a comprehensive benefits package, this position is ideal for those seeking a challenging yet rewarding professional journey.

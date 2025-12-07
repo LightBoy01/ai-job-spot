@@ -11,7 +11,6 @@ import { Controller } from 'react-hook-form';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { JobPostingSchema, JobFormData } from '@/lib/validationSchemas';
-import crypto from 'crypto';
 
 const AddNewJob: React.FC = () => {
   const router = useRouter();
@@ -98,7 +97,7 @@ const AddNewJob: React.FC = () => {
               preferredQualifications: data.preferredQualifications ? data.preferredQualifications.split('\n').filter(p => p.trim() !== '') : [],
               excerpt: data.description ? data.description.replace(/<[^>]+>/g, '').substring(0, 160) + '...' : '',
               status: data.status || 'draft',
-              id: crypto.randomBytes(16).toString('hex'),
+              id: self.crypto.randomUUID().replace(/-/g, ''),
             };            // Calculate completeness score before submission
             const completenessScore = calculateJobCompleteness(jobDataForSubmission);
       

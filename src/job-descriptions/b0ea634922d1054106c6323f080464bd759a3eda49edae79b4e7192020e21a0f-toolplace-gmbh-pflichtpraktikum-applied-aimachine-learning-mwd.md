@@ -61,4 +61,24 @@ story_answer2: >-
   We believe true innovation often comes from challenging established norms, and
   we equip you to do just that.
 ---
-### Description\nAt TOOLPLACE GmbH, we are digitizing procurement in the plastics industry, making it more efficient, sustainable, and future-proof. Our vision: an AI-powered B2B platform that rethinks supplier search, RFQ processes, and project management.\n\nWe are looking for an Applied AI / Machine Learning Intern with real drive to further develop our AI components.\n\n### Responsibilities\n- Development and evaluation of ML/NLP models (e.g., for search, matching, or classification problems).\n- Work with LLMs (e.g., OpenAI, Claude, open source models) for developing AI-powered features.\n- Preprocessing and analysis of structured and unstructured data.\n- Integration of AI models into our web platform (with support from our developers).\n- Development of AI components for the analysis and classification of technical data – especially 3D models.\n\n### Qualifications\n- Studies in Computer Science, Data Science, Mathematics or similar (at least 3rd semester).\n- First experience with Machine Learning, NLP or generative AI (e.g., through projects, university, or personal experiments).\n- Knowledge of Python and common ML frameworks (e.g., scikit-learn, LangChain, OpenAI SDK, Transformers).\n- Interest in AI assistants, semantic search, and pragmatic AI development.\n- You work independently and are eager to make a real impact.\n\n### Author's Take\nThis is an outstanding opportunity for an ambitious student eager to dive deep into applied AI and machine learning within a cutting-edge B2B platform. TOOLPLACE GmbH offers a vibrant environment where innovation is encouraged, and your contributions will have a direct, tangible impact on digitizing the plastics industry. With flexible working hours, hybrid options, and close mentorship from experienced founders and developers, you'll find ample room for personal growth and to experiment with your own ideas. If you're passionate about solving real-world problems with AI, this internship provides a unique launchpad for your career.
+### Description
+At TOOLPLACE GmbH, we are digitizing procurement in the plastics industry, making it more efficient, sustainable, and future-proof. Our vision: an AI-powered B2B platform that rethinks supplier search, RFQ processes, and project management.
+
+We are looking for an Applied AI / Machine Learning Intern with real drive to further develop our AI components.
+
+### Responsibilities
+- Development and evaluation of ML/NLP models (e.g., for search, matching, or classification problems).
+- Work with LLMs (e.g., OpenAI, Claude, open source models) for developing AI-powered features.
+- Preprocessing and analysis of structured and unstructured data.
+- Integration of AI models into our web platform (with support from our developers).
+- Development of AI components for the analysis and classification of technical data – especially 3D models.
+
+### Qualifications
+- Studies in Computer Science, Data Science, Mathematics or similar (at least 3rd semester).
+- First experience with Machine Learning, NLP or generative AI (e.g., through projects, university, or personal experiments).
+- Knowledge of Python and common ML frameworks (e.g., scikit-learn, LangChain, OpenAI SDK, Transformers).
+- Interest in AI assistants, semantic search, and pragmatic AI development.
+- You work independently and are eager to make a real impact.
+
+### Author's Take
+This is an outstanding opportunity for an ambitious student eager to dive deep into applied AI and machine learning within a cutting-edge B2B platform. TOOLPLACE GmbH offers a vibrant environment where innovation is encouraged, and your contributions will have a direct, tangible impact on digitizing the plastics industry. With flexible working hours, hybrid options, and close mentorship from experienced founders and developers, you'll find ample room for personal growth and to experiment with your own ideas. If you're passionate about solving real-world problems with AI, this internship provides a unique launchpad for your career.

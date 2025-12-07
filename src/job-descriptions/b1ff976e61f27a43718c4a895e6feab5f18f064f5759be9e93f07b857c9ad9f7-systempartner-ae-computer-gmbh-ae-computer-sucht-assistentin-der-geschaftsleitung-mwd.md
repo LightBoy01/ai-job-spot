@@ -54,4 +54,24 @@ story_answer2: >-
   work-life balance effectively, ensuring everyone can contribute their best
   while maintaining their well-being. It’s about trust and results.
 ---
-### Description\nAE-Computer Bonn is a modern IT service provider that supports private and business customers with all aspects of computers, networks, and digital solutions. We are seeking a dedicated Assistant to the Management (m/f/d) to strengthen our team. This role is crucial for ensuring smooth operations and directly supporting the leadership in a dynamic and growing company known for its friendly team and flexible work conditions.\n\n### Responsibilities\n- Provide general organizational and administrative support to the management.\n- Coordinate appointments, meetings, and internal processes.\n- Prepare documents, presentations, and evaluations.\n- Communicate with customers, partners, and service providers.\n- Support smaller projects and daily operational tasks.\n\n### Qualifications\n- Completed commercial training or a comparable qualification.\n- Structured, reliable, and independent working style.\n- Friendly demeanor and service-oriented approach.\n- Very good German language skills, both written and spoken.\n- Proficient use of Office programs (Word, Excel, Outlook).\n- IT knowledge is not strictly required, but an affinity for technical topics is advantageous.\n- We also offer opportunities to career changers who possess relevant experience in this professional field.\n\n### Author's Take\nThis is a fantastic opportunity for an organized and proactive individual looking for a central role in a thriving IT company. You'll gain direct exposure to business leadership and contribute significantly to daily operations and strategic initiatives. The company stands out with its supportive, motivated team, short decision-making paths, and a genuine commitment to work-life balance through flexible working conditions. Plus, the option of a company car for private use is a generous perk. If you thrive in a dynamic environment and value direct impact, this role offers both growth and a great culture.
+### Description
+AE-Computer Bonn is a modern IT service provider that supports private and business customers with all aspects of computers, networks, and digital solutions. We are seeking a dedicated Assistant to the Management (m/f/d) to strengthen our team. This role is crucial for ensuring smooth operations and directly supporting the leadership in a dynamic and growing company known for its friendly team and flexible work conditions.
+
+### Responsibilities
+- Provide general organizational and administrative support to the management.
+- Coordinate appointments, meetings, and internal processes.
+- Prepare documents, presentations, and evaluations.
+- Communicate with customers, partners, and service providers.
+- Support smaller projects and daily operational tasks.
+
+### Qualifications
+- Completed commercial training or a comparable qualification.
+- Structured, reliable, and independent working style.
+- Friendly demeanor and service-oriented approach.
+- Very good German language skills, both written and spoken.
+- Proficient use of Office programs (Word, Excel, Outlook).
+- IT knowledge is not strictly required, but an affinity for technical topics is advantageous.
+- We also offer opportunities to career changers who possess relevant experience in this professional field.
+
+### Author's Take
+This is a fantastic opportunity for an organized and proactive individual looking for a central role in a thriving IT company. You'll gain direct exposure to business leadership and contribute significantly to daily operations and strategic initiatives. The company stands out with its supportive, motivated team, short decision-making paths, and a genuine commitment to work-life balance through flexible working conditions. Plus, the option of a company car for private use is a generous perk. If you thrive in a dynamic environment and value direct impact, this role offers both growth and a great culture.

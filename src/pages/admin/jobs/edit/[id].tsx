@@ -216,6 +216,79 @@ const EditJobPage: React.FC<EditJobProps> = ({ job }) => {
               </div>
             </div>
 
+            {/* --- Trust & Verification Section --- */}
+            <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5">
+              <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">
+                Trust & Verification
+              </h2>
+              <div className="grid grid-cols-1 gap-8">
+                <div className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg border border-neutral-200">
+                  <div>
+                    <h3 className="font-semibold text-neutral-800">Link Verification</h3>
+                    <p className="text-sm text-neutral-600 mt-1">
+                      Manually verify that the application link is still active.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={async () => {
+                      const link = control._formValues.applicationLink;
+                      if (!link) {
+                        toast.error('Please enter an application link first.');
+                        return;
+                      }
+                      const toastId = toast.loading('Verifying link...');
+                      try {
+                        const now = new Date().toISOString();
+                        
+                        // Update form state
+                        reset({ 
+                            ...control._formValues, 
+                            verificationDate: now.split('T')[0],
+                        });
+                        
+                        toast.success('Link marked as verified! The date has been updated.', { id: toastId });
+                      } catch (error) {
+                        toast.error('Verification failed', { id: toastId });
+                      }
+                    }}
+                    className="px-4 py-2 bg-secondary/10 text-secondary-dark font-semibold rounded-md hover:bg-secondary/20 transition-colors"
+                  >
+                    Verify Link Now
+                  </button>
+                </div>
+
+                <FormField
+                  id="source"
+                  label="Source (e.g., 'Company Career Page', 'LinkedIn')"
+                  name="source"
+                  type="text"
+                  register={register}
+                  error={errors.source}
+                />
+                <FormField
+                  id="sourceUrl"
+                  label="Source URL (Where did you find this?)"
+                  name="sourceUrl"
+                  type="url"
+                  register={register}
+                  error={errors.sourceUrl}
+                />
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <FormField
+                    id="verificationDate"
+                    label="Last Verified Date"
+                    name="verificationDate"
+                    type="date"
+                    register={register}
+                    error={errors.verificationDate}
+                    />
+                </div>
+
+              </div>
+            </div>
+
             {/* --- Job Content Section --- */}
             <div className="bg-white p-8 rounded-xl shadow-sm border border-black/5">
               <h2 className="text-2xl font-serif font-semibold text-primary-dark border-b border-neutral-200 pb-4 mb-8">

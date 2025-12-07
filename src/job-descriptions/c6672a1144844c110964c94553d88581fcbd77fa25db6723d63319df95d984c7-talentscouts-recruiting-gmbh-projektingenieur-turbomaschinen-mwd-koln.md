@@ -78,4 +78,36 @@ story_answer3: >-
   eager to learn, this is definitely a place where you'll thrive and grow your
   expertise.
 ---
-### Description\nThis position is for a **Mechanical Engineer (m/f/d)** located in the Cologne area, working for one of Talentscouts' clients specializing in **special machinery construction**.\n\nTalentscouts is a young, dynamic recruitment agency established in 2017, committed to creating \"IDEAL MATCHES\" by connecting engineers and technical experts with suitable companies. They partner with renowned mid-sized companies and international corporations in plant engineering, mechanical engineering, and automotive sectors.\n\nAs a Project Engineer, you will play a central role in developing cutting-edge turbomachines and expansion turbines, managing projects from the initial order through to delivery, assembly, and commissioning for national and international clients.\n\n### Responsibilities\n*   Develop turbomachines and expansion turbines in accordance with internal standards, customer specifications, and international regulations.\n*   Serve as the primary technical point of contact within the project team for national and international customers.\n*   Hold a central position coordinating with internal interfaces such as sales, development, and production.\n*   Manage and complete projects comprehensively from order inception to final delivery, remaining a key contact during assembly and commissioning.\n*   Coordinate deadlines, specify various plant components, create bills of materials, and ensure thorough project documentation.\n*   Facilitate cross-functional collaboration and coordinate all involved interfaces.\n*   Utilize digital systems (e.g., SAP, PLM system) and apply diverse regulatory frameworks for pressure vessels, machine protection, and explosion protection.\n*   Operate within an innovative environment, actively contributing to the optimization processes for highly complex systems.\n\n### Qualifications\n*   A completed university degree (FH/TH) in Mechanical Engineering (Bachelor or Master) or a qualified Technician (m/f/d) with relevant professional experience.\n*   Preferred focus areas include turbomachinery or fluid processes.\n*   Ideally, you bring prior experience in project handling and management.\n*   Possess solid knowledge in the field of fluid machinery.\n*   Proficient in common MS Office applications.\n*   Excellent spoken and written German and good English language skills; additional foreign language skills are a plus.\n*   A strong sense of responsibility and a high degree of autonomy in your work.\n*   Demonstrated strong communication skills in interactions with internal and external customers.\n*   A team player who can think outside the box.\n*   Resilient during intense work periods and capable of prioritizing tasks effectively.\n*   Curious, open-minded, receptive to new ideas, and eager for continuous learning.\n*   Willingness to undertake occasional national and international business travel.\n\n### Author's Take\nThis is a compelling `Mid-Senior` Project Engineer role for a Mechanical Engineer passionate about turbomachinery. It offers a comprehensive project ownership experience, from design to commissioning, within an innovative client environment in special machinery construction. The emphasis on international clients and complex systems provides significant technical challenges and growth opportunities. The hiring company values autonomy, teamwork, and continuous learning, supported by attractive benefits such as flexible working hours, substantial vacation, and clear development paths. This role is ideal for a proactive and globally-minded engineer eager to make a tangible impact on high-tech projects.
+### Description
+This position is for a **Mechanical Engineer (m/f/d)** located in the Cologne area, working for one of Talentscouts' clients specializing in **special machinery construction**.
+
+Talentscouts is a young, dynamic recruitment agency established in 2017, committed to creating \"IDEAL MATCHES\" by connecting engineers and technical experts with suitable companies. They partner with renowned mid-sized companies and international corporations in plant engineering, mechanical engineering, and automotive sectors.
+
+As a Project Engineer, you will play a central role in developing cutting-edge turbomachines and expansion turbines, managing projects from the initial order through to delivery, assembly, and commissioning for national and international clients.
+
+### Responsibilities
+*   Develop turbomachines and expansion turbines in accordance with internal standards, customer specifications, and international regulations.
+*   Serve as the primary technical point of contact within the project team for national and international customers.
+*   Hold a central position coordinating with internal interfaces such as sales, development, and production.
+*   Manage and complete projects comprehensively from order inception to final delivery, remaining a key contact during assembly and commissioning.
+*   Coordinate deadlines, specify various plant components, create bills of materials, and ensure thorough project documentation.
+*   Facilitate cross-functional collaboration and coordinate all involved interfaces.
+*   Utilize digital systems (e.g., SAP, PLM system) and apply diverse regulatory frameworks for pressure vessels, machine protection, and explosion protection.
+*   Operate within an innovative environment, actively contributing to the optimization processes for highly complex systems.
+
+### Qualifications
+*   A completed university degree (FH/TH) in Mechanical Engineering (Bachelor or Master) or a qualified Technician (m/f/d) with relevant professional experience.
+*   Preferred focus areas include turbomachinery or fluid processes.
+*   Ideally, you bring prior experience in project handling and management.
+*   Possess solid knowledge in the field of fluid machinery.
+*   Proficient in common MS Office applications.
+*   Excellent spoken and written German and good English language skills; additional foreign language skills are a plus.
+*   A strong sense of responsibility and a high degree of autonomy in your work.
+*   Demonstrated strong communication skills in interactions with internal and external customers.
+*   A team player who can think outside the box.
+*   Resilient during intense work periods and capable of prioritizing tasks effectively.
+*   Curious, open-minded, receptive to new ideas, and eager for continuous learning.
+*   Willingness to undertake occasional national and international business travel.
+
+### Author's Take
+This is a compelling `Mid-Senior` Project Engineer role for a Mechanical Engineer passionate about turbomachinery. It offers a comprehensive project ownership experience, from design to commissioning, within an innovative client environment in special machinery construction. The emphasis on international clients and complex systems provides significant technical challenges and growth opportunities. The hiring company values autonomy, teamwork, and continuous learning, supported by attractive benefits such as flexible working hours, substantial vacation, and clear development paths. This role is ideal for a proactive and globally-minded engineer eager to make a tangible impact on high-tech projects.

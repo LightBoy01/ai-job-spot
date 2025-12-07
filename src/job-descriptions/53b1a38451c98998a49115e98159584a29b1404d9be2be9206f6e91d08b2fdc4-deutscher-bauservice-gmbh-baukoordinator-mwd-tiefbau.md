@@ -50,4 +50,27 @@ story_answer2: >-
   new technologies and methods, and there's always someone to brainstorm with or
   learn from.
 ---
-### Description\nDo you value quality and safety on civil engineering construction sites? Do you enjoy serving as an interface between clients, municipalities, and contractors? Then you've come to the right place!\n\nWe succeed by acting as a solution-oriented and innovative team. Join our motivated team and grow with us!\n\n### Responsibilities\n- You are responsible for the construction site from technical execution to acceptance.\n- You are responsible for legal compliance on construction sites and adherence to construction plans.\n- You coordinate and lead construction meetings and keep minutes.\n- You create and review measurements, ensuring the efficient and economical use of construction materials and equipment.\n- You always keep an eye on quality and construction progress and document the work.\n- You manage and coordinate external contractors and verify their measurements.\n- You support the application for permits and communication with authorities.\n\n### Qualifications\n- You are a certified Foreman or Technician (m/f/d), have a Master's in Road or Civil Engineering, are a Civil Engineer (m/f/d), or possess a comparable education/degree, e.g., in Horticulture and Landscape Construction.\n- You already have many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.\n- You have proficient MS Office skills.\n- You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\n- You have excellent German language skills and at least a Class B driver's license.\n- Willingness to travel (not on weekends) is required.\n\n### Author's Take\nThis role is ideal for an experienced civil engineering professional passionate about ensuring project quality and safety. The company fosters a collaborative, solution-oriented, and innovative team environment with a \\\"startup flair.\\\" They offer excellent benefits, including a company car, flexible working hours, mobile working options, and numerous social events, all while promoting a healthy work-life balance by not requiring weekend travel. This is a chance to take full responsibility for exciting projects within a supportive and dynamic team.
+### Description
+Do you value quality and safety on civil engineering construction sites? Do you enjoy serving as an interface between clients, municipalities, and contractors? Then you've come to the right place!
+
+We succeed by acting as a solution-oriented and innovative team. Join our motivated team and grow with us!
+
+### Responsibilities
+- You are responsible for the construction site from technical execution to acceptance.
+- You are responsible for legal compliance on construction sites and adherence to construction plans.
+- You coordinate and lead construction meetings and keep minutes.
+- You create and review measurements, ensuring the efficient and economical use of construction materials and equipment.
+- You always keep an eye on quality and construction progress and document the work.
+- You manage and coordinate external contractors and verify their measurements.
+- You support the application for permits and communication with authorities.
+
+### Qualifications
+- You are a certified Foreman or Technician (m/f/d), have a Master's in Road or Civil Engineering, are a Civil Engineer (m/f/d), or possess a comparable education/degree, e.g., in Horticulture and Landscape Construction.
+- You already have many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.
+- You have proficient MS Office skills.
+- You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).
+- You have excellent German language skills and at least a Class B driver's license.
+- Willingness to travel (not on weekends) is required.
+
+### Author's Take
+This role is ideal for an experienced civil engineering professional passionate about ensuring project quality and safety. The company fosters a collaborative, solution-oriented, and innovative team environment with a \\\"startup flair.\\\" They offer excellent benefits, including a company car, flexible working hours, mobile working options, and numerous social events, all while promoting a healthy work-life balance by not requiring weekend travel. This is a chance to take full responsibility for exciting projects within a supportive and dynamic team.

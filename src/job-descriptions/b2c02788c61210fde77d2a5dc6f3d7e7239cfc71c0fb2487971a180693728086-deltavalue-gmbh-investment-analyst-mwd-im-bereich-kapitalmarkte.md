@@ -51,4 +51,28 @@ story_answer2: >-
   our collective success. It's challenging, yes, but incredibly rewarding to see
   yourself and your colleagues constantly evolving.
 ---
-### Description\nDeltaValue GmbH is a leading provider of capital market education and strategies, guiding hundreds of clients annually across Germany, Austria, and Switzerland. As an Investment Analyst (m/f/d), you will be a crucial part of our team, supporting research processes, enhancing our product offerings, structuring client portfolios, and evaluating specific trading ideas in equity, options, and futures markets. You will also engage directly with clients to support the implementation of our strategies.\n\n### Responsibilities\n*   Conduct regular equity screenings and company analyses.\n*   Manage and support our existing strategies in equity, options, and futures trading.\n*   Assist clients with portfolio structuring and asset allocation.\n*   Provide technical and didactic support to our client base regarding the implementation of our strategies.\n*   Create presentations, reports, evaluations, checklists, and guides for clients using standard office applications.\n*   Continuously develop your own knowledge and skills across all areas of capital markets.\n\n### Qualifications\n*   Possess a quick comprehension and a strong sense of precision.\n*   Ability to follow existing processes and execute them reliably.\n*   High motivation to consistently deliver your best for our clients.\n*   Maintain a professional demeanor and stylish appearance.\n*   Fluent German, both written and spoken (negotiation level).\n*   Demonstrable experience in personal capital investment on the stock market.\n*   A degree in Finance or Asset Management is advantageous.\n*   Experience in customer support is advantageous.\n\n### Author's Take\nThis Investment Analyst role at DeltaValue GmbH offers a compelling opportunity for individuals passionate about capital markets and client empowerment. The company stands out by offering a secure, long-term growth path with a truly competitive and uncapped salary potential, acknowledging that individual expertise is the key to collective success.\n\nYou'll thrive in a positive, collegiate atmosphere that actively promotes collaboration and continuous learning, transforming you into a market expert. The fully digitalized work environment ensures efficient processes, freeing you to focus on high-impact tasks. With the flexibility of remote work and a centrally located office in Essen, DeltaValue demonstrates a commitment to modern work-life balance and employee well-being. This is an ideal position for someone who values direct impact, continuous personal development, and a supportive, forward-thinking employer.
+### Description
+DeltaValue GmbH is a leading provider of capital market education and strategies, guiding hundreds of clients annually across Germany, Austria, and Switzerland. As an Investment Analyst (m/f/d), you will be a crucial part of our team, supporting research processes, enhancing our product offerings, structuring client portfolios, and evaluating specific trading ideas in equity, options, and futures markets. You will also engage directly with clients to support the implementation of our strategies.
+
+### Responsibilities
+*   Conduct regular equity screenings and company analyses.
+*   Manage and support our existing strategies in equity, options, and futures trading.
+*   Assist clients with portfolio structuring and asset allocation.
+*   Provide technical and didactic support to our client base regarding the implementation of our strategies.
+*   Create presentations, reports, evaluations, checklists, and guides for clients using standard office applications.
+*   Continuously develop your own knowledge and skills across all areas of capital markets.
+
+### Qualifications
+*   Possess a quick comprehension and a strong sense of precision.
+*   Ability to follow existing processes and execute them reliably.
+*   High motivation to consistently deliver your best for our clients.
+*   Maintain a professional demeanor and stylish appearance.
+*   Fluent German, both written and spoken (negotiation level).
+*   Demonstrable experience in personal capital investment on the stock market.
+*   A degree in Finance or Asset Management is advantageous.
+*   Experience in customer support is advantageous.
+
+### Author's Take
+This Investment Analyst role at DeltaValue GmbH offers a compelling opportunity for individuals passionate about capital markets and client empowerment. The company stands out by offering a secure, long-term growth path with a truly competitive and uncapped salary potential, acknowledging that individual expertise is the key to collective success.
+
+You'll thrive in a positive, collegiate atmosphere that actively promotes collaboration and continuous learning, transforming you into a market expert. The fully digitalized work environment ensures efficient processes, freeing you to focus on high-impact tasks. With the flexibility of remote work and a centrally located office in Essen, DeltaValue demonstrates a commitment to modern work-life balance and employee well-being. This is an ideal position for someone who values direct impact, continuous personal development, and a supportive, forward-thinking employer.

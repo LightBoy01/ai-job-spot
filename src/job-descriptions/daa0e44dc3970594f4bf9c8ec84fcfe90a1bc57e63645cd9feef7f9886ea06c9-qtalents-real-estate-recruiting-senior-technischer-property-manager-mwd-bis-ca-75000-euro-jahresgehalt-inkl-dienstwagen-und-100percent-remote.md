@@ -1,8 +1,8 @@
 ---
 id: daa0e44dc3970594f4bf9c8ec84fcfe90a1bc57e63645cd9feef7f9886ea06c9
 title: >-
-  (Senior) Technischer Property Manager (m/w/d) bis ca. 75.000 € Jahresgehalt
-  inkl. Dienstwagen und 100% Remote
+  (Senior) Technischer Property Manager (m/w/d) bis ca. 75.000  Jahresgehalt
+  inkl. Dienstwagen und ...
 company: QTalents - Real Estate Recruiting
 location: Leipzig
 applicationLink: >-
@@ -64,4 +64,31 @@ story_answer3: >-
   internal talent, and many of our current leaders started in roles just like
   this one.
 ---
-### Description\nAre you looking for a new challenge in Technical Property Management and wish to develop yourself further at a rising and crisis-proof company in the real estate sector? Then we have an attractive position with 100% mobile work for you:\n\nFor one of our top clients, we are seeking a (Senior) Technical Property Manager (m/w/d) to expand their team for the Saxony/Berlin/Brandenburg region, managing primarily commercial properties in a high-growth market segment. This is a 100% remote role with a company car.\n\nOur client is a renowned supra-regional company that manages residential and commercial properties across Europe, primarily in the constantly growing healthcare market. In this flourishing sector, the company holds a pioneering role and acts as a significant partner for institutional investors interested in infrastructural projects. Within Germany, the company currently employs around 100 talented individuals and continues to grow.\n\n### Responsibilities\n*   Technical management of predominantly commercial properties in your area of operation.\n*   Responsible for planning and supervising minor maintenance, modernization, and conversion measures.\n*   Budget creation and monitoring.\n*   Conducting tenders, obtaining and reviewing offers, awarding contracts, and supervising and accepting construction works.\n*   Managing and monitoring the deployment of external service providers.\n*   Responsibility for the maintenance and compliance with legal requirements for technical building equipment.\n*   Tracking defects and warranty claims.\n*   Managing subcontractor services.\n*   Collaboration with Commercial Property Management.\n\n### Qualifications\n*   Completed vocational training or university degree with a technical focus, or a comparable qualification.\n*   At least several years of professional experience in technical property management (commercial properties).\n*   Expertise in technical real estate management.\n*   Proficient IT skills (MS Word and MS Excel).\n*   Willingness to travel for property inspections and residency, for example, in the Saxony/Saxony-Anhalt/Berlin/Brandenburg region or surrounding areas.\n*   Driving license.\n\n### Author's Take\nThis is a full-time, permanent position offering 100% remote work and a company car (also for private use), ensuring excellent work-life balance and flexibility. The company boasts a friendly working atmosphere, considerable scope for design, and a varied range of tasks. With very good development opportunities, modern structures, and flat hierarchies in a successful and growing company environment, this role provides an ideal platform for career advancement. The salary range is competitive, up to approximately €75,000 gross annually, depending on experience and qualifications, including the company car. This opportunity is facilitated by a specialized headhunting agency that guarantees discreet and confidential direct placement without any cost to the candidate.
+### Description
+Are you looking for a new challenge in Technical Property Management and wish to develop yourself further at a rising and crisis-proof company in the real estate sector? Then we have an attractive position with 100% mobile work for you:
+
+For one of our top clients, we are seeking a (Senior) Technical Property Manager (m/w/d) to expand their team for the Saxony/Berlin/Brandenburg region, managing primarily commercial properties in a high-growth market segment. This is a 100% remote role with a company car.
+
+Our client is a renowned supra-regional company that manages residential and commercial properties across Europe, primarily in the constantly growing healthcare market. In this flourishing sector, the company holds a pioneering role and acts as a significant partner for institutional investors interested in infrastructural projects. Within Germany, the company currently employs around 100 talented individuals and continues to grow.
+
+### Responsibilities
+*   Technical management of predominantly commercial properties in your area of operation.
+*   Responsible for planning and supervising minor maintenance, modernization, and conversion measures.
+*   Budget creation and monitoring.
+*   Conducting tenders, obtaining and reviewing offers, awarding contracts, and supervising and accepting construction works.
+*   Managing and monitoring the deployment of external service providers.
+*   Responsibility for the maintenance and compliance with legal requirements for technical building equipment.
+*   Tracking defects and warranty claims.
+*   Managing subcontractor services.
+*   Collaboration with Commercial Property Management.
+
+### Qualifications
+*   Completed vocational training or university degree with a technical focus, or a comparable qualification.
+*   At least several years of professional experience in technical property management (commercial properties).
+*   Expertise in technical real estate management.
+*   Proficient IT skills (MS Word and MS Excel).
+*   Willingness to travel for property inspections and residency, for example, in the Saxony/Saxony-Anhalt/Berlin/Brandenburg region or surrounding areas.
+*   Driving license.
+
+### Author's Take
+This is a full-time, permanent position offering 100% remote work and a company car (also for private use), ensuring excellent work-life balance and flexibility. The company boasts a friendly working atmosphere, considerable scope for design, and a varied range of tasks. With very good development opportunities, modern structures, and flat hierarchies in a successful and growing company environment, this role provides an ideal platform for career advancement. The salary range is competitive, up to approximately €75,000 gross annually, depending on experience and qualifications, including the company car. This opportunity is facilitated by a specialized headhunting agency that guarantees discreet and confidential direct placement without any cost to the candidate.

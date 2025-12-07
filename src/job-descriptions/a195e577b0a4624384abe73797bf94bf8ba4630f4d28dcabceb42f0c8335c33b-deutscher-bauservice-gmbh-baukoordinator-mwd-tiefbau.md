@@ -69,4 +69,25 @@ story_answer3: >-
   enjoy life outside of work. We believe a well-supported team is a
   high-performing team.
 ---
-### Description\\nThis role is for an experienced and dedicated Civil Engineering Site Manager who thrives on ensuring quality and safety on construction sites. You will serve as the crucial interface between clients, municipalities, and external civil engineering contractors, taking full responsibility for projects from technical execution to final acceptance. If you are a solution-oriented team player with a passion for innovation in civil engineering, this is your opportunity to join a motivated team and make a significant impact.\\n\\n### Responsibilities\\n- Take full responsibility for the construction site, from technical execution to acceptance.\\n- Ensure compliance with legal regulations and construction plans on all sites.\\n- Coordinate and lead site meetings, meticulously keeping minutes.\\n- Create and review measurements/quantities, ensuring the efficient and economical use of materials and equipment.\\n- Continuously monitor quality and construction progress, documenting all work thoroughly.\\n- Manage and coordinate external contractors, verifying their measurements/quantities.\\n- Assist with permit applications and facilitate communication with authorities.\\n\\n### Qualifications\\n- Certified Foreman (Polier) or Technician (m/f/d), Master Craftsman in road or civil engineering, or Civil Engineer (m/f/d) or a comparable education/degree (e.g., in horticulture and landscape construction).\\n- Many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.\\n- Proficient in MS Office.\\n- Knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\\n- Very good German language skills and at least a Class B driver's license.\\n- Willingness to travel (not on weekends) is required.\\n\\n### Author's Take\\nThis is an exciting opportunity for a highly responsible and experienced civil engineering professional to take ownership of diverse construction projects. The company values teamwork, innovation, and offers a dynamic 'start-up flair' culture combined with excellent benefits like a company car, flexible working, and comprehensive well-being programs. If you're looking for a role where you can make a tangible impact and grow professionally in a supportive environment, this position offers a great blend of challenge and reward.
+### Description\
+This role is for an experienced and dedicated Civil Engineering Site Manager who thrives on ensuring quality and safety on construction sites. You will serve as the crucial interface between clients, municipalities, and external civil engineering contractors, taking full responsibility for projects from technical execution to final acceptance. If you are a solution-oriented team player with a passion for innovation in civil engineering, this is your opportunity to join a motivated team and make a significant impact.\
+\
+### Responsibilities\
+- Take full responsibility for the construction site, from technical execution to acceptance.\
+- Ensure compliance with legal regulations and construction plans on all sites.\
+- Coordinate and lead site meetings, meticulously keeping minutes.\
+- Create and review measurements/quantities, ensuring the efficient and economical use of materials and equipment.\
+- Continuously monitor quality and construction progress, documenting all work thoroughly.\
+- Manage and coordinate external contractors, verifying their measurements/quantities.\
+- Assist with permit applications and facilitate communication with authorities.\
+\
+### Qualifications\
+- Certified Foreman (Polier) or Technician (m/f/d), Master Craftsman in road or civil engineering, or Civil Engineer (m/f/d) or a comparable education/degree (e.g., in horticulture and landscape construction).\
+- Many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.\
+- Proficient in MS Office.\
+- Knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\
+- Very good German language skills and at least a Class B driver's license.\
+- Willingness to travel (not on weekends) is required.\
+\
+### Author's Take\
+This is an exciting opportunity for a highly responsible and experienced civil engineering professional to take ownership of diverse construction projects. The company values teamwork, innovation, and offers a dynamic 'start-up flair' culture combined with excellent benefits like a company car, flexible working, and comprehensive well-being programs. If you're looking for a role where you can make a tangible impact and grow professionally in a supportive environment, this position offers a great blend of challenge and reward.

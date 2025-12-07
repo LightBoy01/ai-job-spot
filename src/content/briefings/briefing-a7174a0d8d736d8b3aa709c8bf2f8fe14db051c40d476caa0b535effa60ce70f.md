@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-a7174a0d8d736d8b3aa709c8bf2f8fe14db051c40d476caa0b535effa60ce70f
 title: 'NaturalReasoning: Reasoning in the Wild with 2.8M Challenging Questions'

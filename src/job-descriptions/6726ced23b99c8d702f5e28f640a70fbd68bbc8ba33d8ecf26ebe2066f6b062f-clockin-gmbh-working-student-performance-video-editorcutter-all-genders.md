@@ -53,4 +53,23 @@ story_answer2: >-
   our team members push boundaries and surprise us with innovative ways to
   engage our audience, especially when adapting creator and UGC material.
 ---
-### Description\nThis role is critical for boosting our video output for YouTube and social ads. You will transform raw material into high-performing short videos, significantly strengthening our marketing efforts. With your keen sense for storytelling, you will turn ideas into compelling content.\n\n### Responsibilities\n- Edit short, high-performance videos for paid channels and optimize them for various formats.\n- Plan and implement variations for A/B tests, including different hooks, thumbnails, or end cards.\n- Independently adapt creator and UGC raw material for 1:1, 9:16, and 16:9 formats.\n- Integrate smaller animations or motion graphics elements into your edits.\n- Ensure the rapid conversion of briefings into finished content.\n\n### Qualifications\n- Proficiency with common editing tools such as Premiere, Final Cut, or DaVinci Resolve.\n- First experiences in post-production and a good sense for storytelling, timing, and social media formats.\n- First experiences in motion graphics with After Effects or Resolve Fusion.\n- Ability to quickly translate briefings into clear, high-performing video outputs.\n- High iteration speed and a focus on pragmatic, impact-oriented results.\n- Enjoy close collaboration with marketing, design, and creative teams as a proactive team player.\n\n### Author's Take\nThis is an exciting opportunity for a talented Junior Video Editor who thrives in a fast-paced, data-driven environment. If you enjoy seeing the direct impact of your creative work on marketing performance, love to experiment, and are a proactive team player, you'll find a supportive and dynamic home here. The emphasis on A/B testing and quick iteration means constant learning and visible results for your efforts.
+### Description
+This role is critical for boosting our video output for YouTube and social ads. You will transform raw material into high-performing short videos, significantly strengthening our marketing efforts. With your keen sense for storytelling, you will turn ideas into compelling content.
+
+### Responsibilities
+- Edit short, high-performance videos for paid channels and optimize them for various formats.
+- Plan and implement variations for A/B tests, including different hooks, thumbnails, or end cards.
+- Independently adapt creator and UGC raw material for 1:1, 9:16, and 16:9 formats.
+- Integrate smaller animations or motion graphics elements into your edits.
+- Ensure the rapid conversion of briefings into finished content.
+
+### Qualifications
+- Proficiency with common editing tools such as Premiere, Final Cut, or DaVinci Resolve.
+- First experiences in post-production and a good sense for storytelling, timing, and social media formats.
+- First experiences in motion graphics with After Effects or Resolve Fusion.
+- Ability to quickly translate briefings into clear, high-performing video outputs.
+- High iteration speed and a focus on pragmatic, impact-oriented results.
+- Enjoy close collaboration with marketing, design, and creative teams as a proactive team player.
+
+### Author's Take
+This is an exciting opportunity for a talented Junior Video Editor who thrives in a fast-paced, data-driven environment. If you enjoy seeing the direct impact of your creative work on marketing performance, love to experiment, and are a proactive team player, you'll find a supportive and dynamic home here. The emphasis on A/B testing and quick iteration means constant learning and visible results for your efforts.

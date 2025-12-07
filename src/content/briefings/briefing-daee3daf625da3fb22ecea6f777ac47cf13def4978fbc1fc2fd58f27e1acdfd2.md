@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-daee3daf625da3fb22ecea6f777ac47cf13def4978fbc1fc2fd58f27e1acdfd2
 title: >-
   Statistical physics analysis of graph neural networks: Approaching optimality
-  in the contextual stochastic block model
+  in the contextual s...
 slug: briefing-daee3daf625da3fb22ecea6f777ac47cf13def4978fbc1fc2fd58f27e1acdfd2
 author: 'O. Duranthon, L. Zdeborov\''a'
 publishDate: 2025-11-24T05:00:00.000Z

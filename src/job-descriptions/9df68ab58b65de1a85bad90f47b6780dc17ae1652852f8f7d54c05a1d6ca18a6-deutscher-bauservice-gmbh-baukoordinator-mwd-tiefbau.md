@@ -65,4 +65,44 @@ story_answer3: >-
   being present and impactful during the week, then fully recharging for your
   personal life.
 ---
-### Description\nAre quality and safety on civil engineering construction sites important to you? Do you enjoy being the interface between clients, municipalities, and contracted civil engineering companies?\n\nThen you've come to the right place!\n\nWe are successful because we act as a team, solution-oriented and innovatively. Become part of our motivated team and take off with us! This challenging role involves full responsibility for construction projects from technical execution to final acceptance, ensuring legal compliance and smooth coordination across all stakeholders.\n\n### Responsibilities\n*   You are responsible for the construction site from technical execution to acceptance.\n*   You are responsible for legal compliance on the construction sites and for adherence to construction plans.\n*   You coordinate and lead construction meetings and keep minutes.\n*   You create and check measurements, and ensure the efficient and economical use of building materials and construction equipment.\n*   You always keep an eye on quality and construction progress, and document the work.\n*   You manage and coordinate contracted external companies and check their measurements.\n*   You assist with permit applications and communication with authorities.\n\n### Qualifications\n*   You are a certified foreman (Polier) or technician, have a master's degree in road or civil engineering, or are a civil engineer, or possess a comparable education/degree, e.g., in horticulture and landscape construction.\n*   You already have many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.\n*   You have solid MS Office skills.\n*   You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\n*   You have very good German language skills and at least a Class B driving license.\n*   Willingness to travel (not on weekends) is a prerequisite.\n\n### Author's Take\nThis is an excellent opportunity for an experienced and proactive civil engineering professional to take on significant responsibility in project management and coordination. The company cultivates a collaborative, innovative, and highly motivated team culture with a refreshing \"start-up flair.\" They clearly value their employees, offering a comprehensive benefits package designed to support work-life balance, professional growth, and overall well-being. These benefits include:\n\n*   Company car (with private use)\n*   Flexible working hours (depending on the field)\n*   Recreation allowance\n*   Expenses/increased meal allowances\n*   Accommodation booking and payment handled directly by our Travel Management\n*   Mobile working (depending on the field)\n*   Company pension scheme\n*   Company bike leasing\n*   Company fitness program (Hansefit)\n*   Corporate Benefits\n*   Many joint events and activities\n*   Company with start-up flair\n\nIf you're looking for a role where your expertise is truly impactful and you're supported by a forward-thinking team, this could be your next step. We look forward to YOU!
+### Description
+Are quality and safety on civil engineering construction sites important to you? Do you enjoy being the interface between clients, municipalities, and contracted civil engineering companies?
+
+Then you've come to the right place!
+
+We are successful because we act as a team, solution-oriented and innovatively. Become part of our motivated team and take off with us! This challenging role involves full responsibility for construction projects from technical execution to final acceptance, ensuring legal compliance and smooth coordination across all stakeholders.
+
+### Responsibilities
+*   You are responsible for the construction site from technical execution to acceptance.
+*   You are responsible for legal compliance on the construction sites and for adherence to construction plans.
+*   You coordinate and lead construction meetings and keep minutes.
+*   You create and check measurements, and ensure the efficient and economical use of building materials and construction equipment.
+*   You always keep an eye on quality and construction progress, and document the work.
+*   You manage and coordinate contracted external companies and check their measurements.
+*   You assist with permit applications and communication with authorities.
+
+### Qualifications
+*   You are a certified foreman (Polier) or technician, have a master's degree in road or civil engineering, or are a civil engineer, or possess a comparable education/degree, e.g., in horticulture and landscape construction.
+*   You already have many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.
+*   You have solid MS Office skills.
+*   You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).
+*   You have very good German language skills and at least a Class B driving license.
+*   Willingness to travel (not on weekends) is a prerequisite.
+
+### Author's Take
+This is an excellent opportunity for an experienced and proactive civil engineering professional to take on significant responsibility in project management and coordination. The company cultivates a collaborative, innovative, and highly motivated team culture with a refreshing \"start-up flair.\" They clearly value their employees, offering a comprehensive benefits package designed to support work-life balance, professional growth, and overall well-being. These benefits include:
+
+*   Company car (with private use)
+*   Flexible working hours (depending on the field)
+*   Recreation allowance
+*   Expenses/increased meal allowances
+*   Accommodation booking and payment handled directly by our Travel Management
+*   Mobile working (depending on the field)
+*   Company pension scheme
+*   Company bike leasing
+*   Company fitness program (Hansefit)
+*   Corporate Benefits
+*   Many joint events and activities
+*   Company with start-up flair
+
+If you're looking for a role where your expertise is truly impactful and you're supported by a forward-thinking team, this could be your next step. We look forward to YOU!

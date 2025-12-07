@@ -55,4 +55,25 @@ story_answer2: >-
   pilot it. Your experience and fresh perspective are exactly what we look for
   to keep us at the forefront of the industry.
 ---
-### Description\nThis role is for a dedicated and experienced Construction Supervisor in civil engineering, passionate about quality and safety on construction sites. You will serve as the crucial interface between clients, municipalities, and external civil engineering companies, ensuring projects run smoothly from technical execution to final acceptance. Join our motivated and innovative team that thrives on collaborative, solution-oriented approaches.\n\n### Responsibilities\n*   Take full responsibility for the construction site, from technical execution to final acceptance.\n*   Ensure legal compliance on construction sites and adherence to construction plans.\n*   Coordinate and lead site meetings, maintaining accurate protocols.\n*   Prepare and review quantity surveys (Aufmaße), ensuring the efficient and economical use of construction materials and equipment.\n*   Monitor quality and construction progress consistently, documenting all work.\n*   Manage and coordinate external contractors, verifying their quantity surveys.\n*   Support the application for permits and communicate effectively with authorities.\n\n### Qualifications\n*   A certified Foreman (Polier), Technician (m/f/d), Master Craftsman in Road or Civil Engineering, or a Civil Engineer (m/f/d), or a comparable education/degree, e.g., in in Horticulture and Landscaping.\n*   Possess many years of professional experience in civil engineering, road construction, or comparably in horticulture and landscaping.\n*   Proficient in MS Office applications.\n*   Knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\n*   Excellent German language skills and at least a Class B driving license.\n*   Willingness to travel is required (not on weekends).\n\n### Author's Take\nThis is a pivotal Senior Lead role for an experienced civil engineering professional who thrives on responsibility, coordination, and ensuring high standards of quality and safety. The company offers a dynamic \"startup flair\" environment with strong team collaboration, flexible work arrangements, and excellent benefits, including a company car for private use. If you're a proactive problem-solver with a knack for managing complex projects and external stakeholders, and value a supportive culture with opportunities for innovation, this role offers significant impact and growth.
+### Description
+This role is for a dedicated and experienced Construction Supervisor in civil engineering, passionate about quality and safety on construction sites. You will serve as the crucial interface between clients, municipalities, and external civil engineering companies, ensuring projects run smoothly from technical execution to final acceptance. Join our motivated and innovative team that thrives on collaborative, solution-oriented approaches.
+
+### Responsibilities
+*   Take full responsibility for the construction site, from technical execution to final acceptance.
+*   Ensure legal compliance on construction sites and adherence to construction plans.
+*   Coordinate and lead site meetings, maintaining accurate protocols.
+*   Prepare and review quantity surveys (Aufmaße), ensuring the efficient and economical use of construction materials and equipment.
+*   Monitor quality and construction progress consistently, documenting all work.
+*   Manage and coordinate external contractors, verifying their quantity surveys.
+*   Support the application for permits and communicate effectively with authorities.
+
+### Qualifications
+*   A certified Foreman (Polier), Technician (m/f/d), Master Craftsman in Road or Civil Engineering, or a Civil Engineer (m/f/d), or a comparable education/degree, e.g., in in Horticulture and Landscaping.
+*   Possess many years of professional experience in civil engineering, road construction, or comparably in horticulture and landscaping.
+*   Proficient in MS Office applications.
+*   Knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).
+*   Excellent German language skills and at least a Class B driving license.
+*   Willingness to travel is required (not on weekends).
+
+### Author's Take
+This is a pivotal Senior Lead role for an experienced civil engineering professional who thrives on responsibility, coordination, and ensuring high standards of quality and safety. The company offers a dynamic \"startup flair\" environment with strong team collaboration, flexible work arrangements, and excellent benefits, including a company car for private use. If you're a proactive problem-solver with a knack for managing complex projects and external stakeholders, and value a supportive culture with opportunities for innovation, this role offers significant impact and growth.

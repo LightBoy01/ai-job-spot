@@ -74,4 +74,27 @@ story_answer3: >-
   empowering everyone to think outside the box and embrace new technologies to
   deliver better, more efficient results for our clients and the community.
 ---
-### Description\nAre quality and safety on civil engineering construction sites important to you? Do you enjoy serving as a crucial interface between clients, municipalities, and commissioned civil engineering companies?\n\nThen you are exactly right with us! We are successful because we act as a team, solution-oriented and innovative. Become part of our motivated team and take off with us!\n\n### Responsibilities\n- You are responsible for the construction site from technical execution to acceptance.\n- You are responsible for legal compliance on construction sites and adherence to building plans.\n- You coordinate and lead site meetings and keep minutes.\n- You prepare and check measurements and ensure the efficient and economical use of building materials and construction equipment.\n- You always monitor quality and construction progress and document the work.\n- You manage and coordinate commissioned external companies and check their measurements.\n- You assist with permit applications and communication with authorities.\n\n### Qualifications\n- You are a certified foreman (Polier) or technician (m/f/d), have a master craftsman (Meister) in road or civil engineering, or are a civil engineer (m/f/d), or possess a comparable education/degree, e.g., in horticulture and landscape construction.\n- You already have many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.\n- You have solid MS Office skills.\n- You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).\n- You have very good German language skills and at least a Class B driver's license.\n- Willingness to travel (not on weekends) is required.\n\n### Author's Take\nThis is an exciting opportunity for an experienced civil engineering professional to take on significant responsibility in a dynamic and supportive team environment. The comprehensive benefits package, including a company car, flexible working options, and numerous company events, underscores the company's commitment to employee well-being and a vibrant workplace culture with a \"start-up flair\". This role offers the chance to make a tangible impact on projects while enjoying strong team collaboration and professional growth.
+### Description
+Are quality and safety on civil engineering construction sites important to you? Do you enjoy serving as a crucial interface between clients, municipalities, and commissioned civil engineering companies?
+
+Then you are exactly right with us! We are successful because we act as a team, solution-oriented and innovative. Become part of our motivated team and take off with us!
+
+### Responsibilities
+- You are responsible for the construction site from technical execution to acceptance.
+- You are responsible for legal compliance on construction sites and adherence to building plans.
+- You coordinate and lead site meetings and keep minutes.
+- You prepare and check measurements and ensure the efficient and economical use of building materials and construction equipment.
+- You always monitor quality and construction progress and document the work.
+- You manage and coordinate commissioned external companies and check their measurements.
+- You assist with permit applications and communication with authorities.
+
+### Qualifications
+- You are a certified foreman (Polier) or technician (m/f/d), have a master craftsman (Meister) in road or civil engineering, or are a civil engineer (m/f/d), or possess a comparable education/degree, e.g., in horticulture and landscape construction.
+- You already have many years of professional experience in civil engineering and road construction, or comparably in horticulture and landscape construction.
+- You have solid MS Office skills.
+- You bring knowledge of relevant regulations (DIN18300, ZTV, RSA21, VOB).
+- You have very good German language skills and at least a Class B driver's license.
+- Willingness to travel (not on weekends) is required.
+
+### Author's Take
+This is an exciting opportunity for an experienced civil engineering professional to take on significant responsibility in a dynamic and supportive team environment. The comprehensive benefits package, including a company car, flexible working options, and numerous company events, underscores the company's commitment to employee well-being and a vibrant workplace culture with a \"start-up flair\". This role offers the chance to make a tangible impact on projects while enjoying strong team collaboration and professional growth.

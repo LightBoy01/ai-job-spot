@@ -53,4 +53,24 @@ story_answer2: >-
   This openness to new methods means our work remains cutting-edge, and we're
   always learning, which is a big part of why I enjoy working here.
 ---
-### Description\nJoin a strong renewable energy company based in Mainz, Germany, that develops solar and wind energy projects across the country. As a Technical Drafter (m/f/d), you will be a creative mind, full of ideas for a green future, supporting the technical planning team. You will be responsible for planning new projects and creating infrastructure profiles for access roads, trenches, and clearance areas. Occasional visits to construction sites to monitor progress are also part of the role, requiring some willingness to travel.\n\n### Responsibilities\n- Plan and draw longitudinal and transverse profiles of infrastructure for wind and photovoltaic parks.\n- Process planning documents for renewable energy projects.\n- Create necessary documents for design, approval, and execution planning.\n- Accompany construction measures on site.\n- Act as an interface to project development and the construction department.\n- Support with the calculation of yield forecasts and losses, and with process optimization.\n\n### Qualifications\n- Completed technical-planning or drafting education, for example, in surveying, construction planning, spatial and transport planning, or similar.\n- At least 3 years of professional experience in a comparable position.\n- Good knowledge of GIS programs, CAD programs, and coordinate systems.\n- Preferably experience in surveying, road, and foundation construction.\n- Team player, creative, and well-organized.\n- Driver's license and willingness to travel for occasional on-site support of construction measures.\n\n### Author's Take\nThis is an excellent opportunity for a Mid-Senior Technical Drafter to join a thriving renewable energy company. The role offers a chance to make a tangible impact on sustainable projects from conception to execution. The company clearly values its employees, offering a permanent full-time position, competitive compensation, exceptional work-life balance with flexible hours and remote work options, generous vacation (30 days), and a strong commitment to professional development through paid training. It's an ideal fit for someone passionate about green energy, collaborative work, and continuous learning.
+### Description
+Join a strong renewable energy company based in Mainz, Germany, that develops solar and wind energy projects across the country. As a Technical Drafter (m/f/d), you will be a creative mind, full of ideas for a green future, supporting the technical planning team. You will be responsible for planning new projects and creating infrastructure profiles for access roads, trenches, and clearance areas. Occasional visits to construction sites to monitor progress are also part of the role, requiring some willingness to travel.
+
+### Responsibilities
+- Plan and draw longitudinal and transverse profiles of infrastructure for wind and photovoltaic parks.
+- Process planning documents for renewable energy projects.
+- Create necessary documents for design, approval, and execution planning.
+- Accompany construction measures on site.
+- Act as an interface to project development and the construction department.
+- Support with the calculation of yield forecasts and losses, and with process optimization.
+
+### Qualifications
+- Completed technical-planning or drafting education, for example, in surveying, construction planning, spatial and transport planning, or similar.
+- At least 3 years of professional experience in a comparable position.
+- Good knowledge of GIS programs, CAD programs, and coordinate systems.
+- Preferably experience in surveying, road, and foundation construction.
+- Team player, creative, and well-organized.
+- Driver's license and willingness to travel for occasional on-site support of construction measures.
+
+### Author's Take
+This is an excellent opportunity for a Mid-Senior Technical Drafter to join a thriving renewable energy company. The role offers a chance to make a tangible impact on sustainable projects from conception to execution. The company clearly values its employees, offering a permanent full-time position, competitive compensation, exceptional work-life balance with flexible hours and remote work options, generous vacation (30 days), and a strong commitment to professional development through paid training. It's an ideal fit for someone passionate about green energy, collaborative work, and continuous learning.

@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-fa1e4c848f924dc430b8ebdf8e8dedea4999ea2dd9e3d5e6f9179fab5708a589
 title: Dual Teacher-Student Learning for Semi-supervised Medical Image Segmentation

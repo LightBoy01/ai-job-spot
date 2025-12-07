@@ -72,4 +72,50 @@ story_answer3: >-
   performance, mentorship, and a genuine desire to take on more responsibility,
   all within a company that invests in your future.
 ---
-### Description\\nThe Korus Group is a mid-sized, internationally operating company specializing in high-quality interior finishing, commercial renovations, and professional project management. Renowned for quality, innovation, and reliability, we deliver tailor-made solutions with precision, efficiency, and a focus on sustainability.\\n\\nAs an **HKLS Construction Technician / Project Technician / Project Manager (m/w/d)**, you will take responsibility for the technical planning, implementation, and steering of our projects in heating, climate, ventilation, and sanitary systems. You will work closely with clients, internal teams, and subcontractors, ensuring quality, deadlines, and budget targets are met. This position requires readiness to travel, strong communication skills, a precise and independent working style, as well as fluent German and good English skills.\\n\\n### Responsibilities\\n**Project Planning**\\n*   Creation of technical concepts in the HKLS sector\\n*   Design, calculation, and planning of heating, climate, ventilation, and sanitary systems\\n*   Project preparation, including technical documentation\\n\\n**Implementation & Monitoring**\\n*   Steering of project progress on-site\\n*   Coordination of assembly teams and subcontractors\\n*   Ensuring quality and standard-compliant execution (regulations, standards, TGA guidelines)\\n\\n**Budget & Schedule Management**\\n*   Responsibility for costs, resources, and schedule targets throughout the entire project duration\\n*   Ongoing monitoring and reporting\\n\\n**Client & Team Management**\\n*   Technical support for clients and project partners\\n*   Coordination with internal departments (planning, purchasing, construction management)\\n*   Promotion of successful collaboration among all project participants\\n\\n**Technical Expertise**\\n*   Application of profound technical knowledge in HKLS planning and design\\n*   Technical evaluation of offers, concepts, and solutions\\n*   Support during commissioning, testing, and handover\\n\\n### Qualifications\\n*   Completed education as an HKLS Technician, TGA Technician, Building Services Technician, Master Craftsman, or Engineer (m/w/d)\\n*   Experience in the planning, design, or realization of HKLS systems\\n*   Knowledge of relevant norms, guidelines, and technical standards\\n*   Organizational talent, technical competence, and a structured working style\\n*   Strong communication skills in dealing with clients, teams, and subcontractors\\n*   Ideally, project experience (site coordination or project management)\\n*   Good German and English language skills\\n*   Willingness to travel (Mon–Thu / project-dependent, approx. 1–2 assignments per month)\\n*   Class B driving license\\n*   Independent, structured, and solution-oriented working style\\n*   Team player, strong communication skills, and high sense of responsibility\\n\\n### Author's Take\\nThis is a highly impactful role within the Korus Group, an international company known for its commitment to quality and innovative project solutions in interior finishing and building services. The position offers an exciting opportunity for an experienced HKLS professional to lead diverse projects across a spectrum of technical solutions and elegant designs, with significant autonomy and responsibility.\\n\\nThe company clearly values its people over profit, fostering a strong team environment with fair compensation, including an attractive salary, bonus, and expenses. You'll benefit from a straightforward, anti-bureaucratic culture that prioritizes meaningful work and empowers you to make decisions. With 27 days of vacation, modern work tools, and clear paths for professional development into construction or project management, Korus Group offers a stable, supportive, and growth-oriented environment where diversity is celebrated. If you're looking for a role where your expertise drives tangible results in varied and challenging projects, this is an excellent opportunity.
+### Description\
+The Korus Group is a mid-sized, internationally operating company specializing in high-quality interior finishing, commercial renovations, and professional project management. Renowned for quality, innovation, and reliability, we deliver tailor-made solutions with precision, efficiency, and a focus on sustainability.\
+\
+As an **HKLS Construction Technician / Project Technician / Project Manager (m/w/d)**, you will take responsibility for the technical planning, implementation, and steering of our projects in heating, climate, ventilation, and sanitary systems. You will work closely with clients, internal teams, and subcontractors, ensuring quality, deadlines, and budget targets are met. This position requires readiness to travel, strong communication skills, a precise and independent working style, as well as fluent German and good English skills.\
+\
+### Responsibilities\
+**Project Planning**\
+*   Creation of technical concepts in the HKLS sector\
+*   Design, calculation, and planning of heating, climate, ventilation, and sanitary systems\
+*   Project preparation, including technical documentation\
+\
+**Implementation & Monitoring**\
+*   Steering of project progress on-site\
+*   Coordination of assembly teams and subcontractors\
+*   Ensuring quality and standard-compliant execution (regulations, standards, TGA guidelines)\
+\
+**Budget & Schedule Management**\
+*   Responsibility for costs, resources, and schedule targets throughout the entire project duration\
+*   Ongoing monitoring and reporting\
+\
+**Client & Team Management**\
+*   Technical support for clients and project partners\
+*   Coordination with internal departments (planning, purchasing, construction management)\
+*   Promotion of successful collaboration among all project participants\
+\
+**Technical Expertise**\
+*   Application of profound technical knowledge in HKLS planning and design\
+*   Technical evaluation of offers, concepts, and solutions\
+*   Support during commissioning, testing, and handover\
+\
+### Qualifications\
+*   Completed education as an HKLS Technician, TGA Technician, Building Services Technician, Master Craftsman, or Engineer (m/w/d)\
+*   Experience in the planning, design, or realization of HKLS systems\
+*   Knowledge of relevant norms, guidelines, and technical standards\
+*   Organizational talent, technical competence, and a structured working style\
+*   Strong communication skills in dealing with clients, teams, and subcontractors\
+*   Ideally, project experience (site coordination or project management)\
+*   Good German and English language skills\
+*   Willingness to travel (Mon–Thu / project-dependent, approx. 1–2 assignments per month)\
+*   Class B driving license\
+*   Independent, structured, and solution-oriented working style\
+*   Team player, strong communication skills, and high sense of responsibility\
+\
+### Author's Take\
+This is a highly impactful role within the Korus Group, an international company known for its commitment to quality and innovative project solutions in interior finishing and building services. The position offers an exciting opportunity for an experienced HKLS professional to lead diverse projects across a spectrum of technical solutions and elegant designs, with significant autonomy and responsibility.\
+\
+The company clearly values its people over profit, fostering a strong team environment with fair compensation, including an attractive salary, bonus, and expenses. You'll benefit from a straightforward, anti-bureaucratic culture that prioritizes meaningful work and empowers you to make decisions. With 27 days of vacation, modern work tools, and clear paths for professional development into construction or project management, Korus Group offers a stable, supportive, and growth-oriented environment where diversity is celebrated. If you're looking for a role where your expertise drives tangible results in varied and challenging projects, this is an excellent opportunity.

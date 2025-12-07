@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-60b3d92d271deea684b5cc0ea146bb056dabf4bcac72ce202d74e193b422fd7e
 title: A review of the Trezor Safe 5 hardware cryptocurrency wallet
@@ -9,7 +7,7 @@ publishDate: 2025-11-16T16:32:49.000Z
 contentType: briefing
 sourceName: TechTalks
 originalUrl: >-
-  https://bdtechtalks.com/2025/11/16/trezor-safe-5-review/?utm_source=rss&utm_medium=rss&utm_campaign=trezor-safe-5-review
+  https://bdtechtalks.com/2025/11/16/trezor-safe-5-review/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=trezor-safe-5-review
 status: pending_review
 tags:
   - Reviews

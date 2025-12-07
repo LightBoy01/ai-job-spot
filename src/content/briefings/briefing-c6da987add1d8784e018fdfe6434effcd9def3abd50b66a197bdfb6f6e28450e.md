@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-c6da987add1d8784e018fdfe6434effcd9def3abd50b66a197bdfb6f6e28450e
 title: Forward Networks Appoints Bobby Condon as Chief Revenue Officer
@@ -7,7 +5,7 @@ slug: briefing-c6da987add1d8784e018fdfe6434effcd9def3abd50b66a197bdfb6f6e28450e
 author: PR Newswire
 publishDate: 2025-11-27T09:45:00.000Z
 contentType: briefing
-sourceName: AI – AI-TechPark
+sourceName: AI - AI-TechPark
 originalUrl: >-
   https://ai-techpark.com/forward-networks-appoints-bobby-condon-as-chief-revenue-officer/
 status: pending_review

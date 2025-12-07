@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-8c9a90ac9802daf49caf46be03e1ae1cd3567fcc43cb268c58b8ec3c4860f1e1
 title: 'Role-SynthCLIP: A Role Play Driven Diverse Synthetic Data Approach'

@@ -6,19 +6,24 @@ service cloud.firestore {
       return request.auth != null && request.auth.token.admin == true;
     }
 
+    // Function to check if the user is the owner of the document
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
     // Jobs collection rules
     match /jobs/{jobId} {
-      // Allow read access to anyone
-      allow read: if true;
+      // Public can only read published jobs. Admins can read all.
+      allow read: if (resource.data.status == 'published') || isAdmin();
 
       // Allow create, update, delete only if the user is an admin
       allow create, update, delete: if isAdmin();
     }
 
-    // Articles collection rules (assuming similar admin access)
+    // Articles collection rules
     match /articles/{articleId} {
-      // Allow read access to anyone
-      allow read: if true;
+      // Public can only read published articles. Admins can read all.
+      allow read: if (resource.data.status == 'published') || isAdmin();
 
       // Allow create, update, delete only if the user is an admin
       allow create, update, delete: if isAdmin();
@@ -26,11 +31,22 @@ service cloud.firestore {
 
     // Aggregated articles collection rules
     match /aggregatedArticles/{articleId} {
-      // Allow read access to anyone
-      allow read: if true;
+      // Public can only read published aggregated articles. Admins can read all.
+      allow read: if (resource.data.status == 'published') || isAdmin();
 
       // Disallow all writes
       allow write: if false;
+    }
+
+    // User profiles
+    match /users/{userId} {
+      // Users can read and write their own profile. Admins can do everything.
+      allow read, write: if isOwner(userId) || isAdmin();
+    }
+
+    // Sources collection (for internal config)
+    match /sources/{sourceId} {
+        allow read, write: if isAdmin();
     }
 
     // Default deny all reads and writes to any other collections

@@ -70,4 +70,23 @@ story_answer3: >-
   development to your ambitions, ensuring you're building valuable, sought-after
   skills for your career.
 ---
-### Description\nAs a full-service digital marketing freelancer, I support self-employed individuals and businesses in gaining online visibility. Due to an increasing number of projects, I'm looking for someone to support me and dive into real client projects.\n\n### Responsibilities\n- Create social media posts, reels, stories, and small graphics.\n- Collaborate on WordPress websites (mostly using page builders).\n- Conduct keyword research with Google Search Console and Sistrix.\n- Prepare and integrate blog articles.\n- Perform small website updates and corrections.\n- Support Meta and Google Ads campaigns.\n- Conduct small analyses using Analytics, Search Console, and Social Insights.\n\n### Qualifications\n- Interest in social media and online marketing.\n- Creativity, enjoyment of experimenting, and good language skills.\n- Reliability and eagerness to learn new things.\n- Basic knowledge of Canva and WordPress.\n\n### Author's Take\nThis is a fantastic entry-level opportunity to gain hands-on experience in diverse digital marketing projects with real clients. You'll be working directly with an experienced freelancer in a very small, collaborative, and incredibly flexible remote environment. This role offers full autonomy over your schedule, no office constraints, and a direct path to learning professional processes in web design, SEO, and social media. The emphasis is on learning by doing, contributing your own ideas, and continuous growth, with access to further training and online courses provided after a certain period to truly deepen your skills. It's an ideal setup for someone eager to learn, experiment, and make a tangible impact in a supportive, uncomplicated work setting.
+### Description
+As a full-service digital marketing freelancer, I support self-employed individuals and businesses in gaining online visibility. Due to an increasing number of projects, I'm looking for someone to support me and dive into real client projects.
+
+### Responsibilities
+- Create social media posts, reels, stories, and small graphics.
+- Collaborate on WordPress websites (mostly using page builders).
+- Conduct keyword research with Google Search Console and Sistrix.
+- Prepare and integrate blog articles.
+- Perform small website updates and corrections.
+- Support Meta and Google Ads campaigns.
+- Conduct small analyses using Analytics, Search Console, and Social Insights.
+
+### Qualifications
+- Interest in social media and online marketing.
+- Creativity, enjoyment of experimenting, and good language skills.
+- Reliability and eagerness to learn new things.
+- Basic knowledge of Canva and WordPress.
+
+### Author's Take
+This is a fantastic entry-level opportunity to gain hands-on experience in diverse digital marketing projects with real clients. You'll be working directly with an experienced freelancer in a very small, collaborative, and incredibly flexible remote environment. This role offers full autonomy over your schedule, no office constraints, and a direct path to learning professional processes in web design, SEO, and social media. The emphasis is on learning by doing, contributing your own ideas, and continuous growth, with access to further training and online courses provided after a certain period to truly deepen your skills. It's an ideal setup for someone eager to learn, experiment, and make a tangible impact in a supportive, uncomplicated work setting.

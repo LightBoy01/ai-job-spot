@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-bd7a0f7e9ce6b7e7b02328eae59dc7a2bfdd0e488d9115f30f95e9e8db1c57b6
 title: 'Autoencoding Dynamics: Topological Limitations and Capabilities'

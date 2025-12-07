@@ -170,6 +170,7 @@ export async function getArticles(
   if (searchTerm && searchTerm.trim() !== '') {
     q = query(
       articlesCollectionRef,
+      where('status', '==', 'published'),
       where('title', '>=', searchTerm),
       where('title', '<=', searchTerm + '\uf8ff'),
       orderBy('title', 'asc'),
@@ -178,6 +179,7 @@ export async function getArticles(
   } else {
     q = query(
       articlesCollectionRef,
+      where('status', '==', 'published'),
       orderBy('volumeNo', 'desc'),
       orderBy('issueNo', 'desc')
     );
@@ -319,26 +321,25 @@ export async function getArticlesByTag(
 }
 
 export async function getAllTags(): Promise<string[]> {
-  const jobsSnapshot = await getDocs(collection(db, 'jobs'));
-  const articlesSnapshot = await getDocs(collection(db, 'articles'));
-
-  const tags = new Set<string>();
-
-  jobsSnapshot.forEach((doc) => {
-    const data = doc.data();
-    if (data.tags) {
-      data.tags.forEach((tag: string) => tags.add(tag));
-    }
-  });
-
-  articlesSnapshot.forEach((doc) => {
-    const data = doc.data();
-    if (data.tags) {
-      data.tags.forEach((tag: string) => tags.add(tag));
-    }
-  });
-
-  return Array.from(tags);
+  // TODO: Implement a dedicated 'metadata' document in Firestore that aggregates all tags.
+  // Scanning all documents (jobs + articles) is too expensive and causes RESOURCE_EXHAUSTED errors.
+  // For now, returning a static list of popular tags to ensure build stability.
+  return [
+    'Machine Learning',
+    'Deep Learning',
+    'Natural Language Processing',
+    'Computer Vision',
+    'Generative AI',
+    'Remote',
+    'Python',
+    'Data Scientist',
+    'AI Engineer',
+    'Software Engineer',
+    'Product Manager',
+    'Startup',
+    'Research',
+    'Robotics'
+  ];
 }
 
 export async function getAggregatedArticles(

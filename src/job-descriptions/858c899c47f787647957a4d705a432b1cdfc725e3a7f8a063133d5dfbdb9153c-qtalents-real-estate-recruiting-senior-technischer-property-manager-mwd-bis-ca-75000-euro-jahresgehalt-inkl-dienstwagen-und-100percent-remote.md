@@ -1,8 +1,8 @@
 ---
 id: 858c899c47f787647957a4d705a432b1cdfc725e3a7f8a063133d5dfbdb9153c
 title: >-
-  (Senior) Technischer Property Manager (m/w/d) bis ca. 75.000 € Jahresgehalt
-  inkl. Dienstwagen und 100% Remote
+  (Senior) Technischer Property Manager (m/w/d) bis ca. 75.000  Jahresgehalt
+  inkl. Dienstwagen und ...
 company: QTalents - Real Estate Recruiting
 location: Berlin
 applicationLink: >-
@@ -59,4 +59,28 @@ story_answer2: >-
   support from colleagues and specialists to confidently tackle these specific
   demands and uphold our reputation for excellence in this vital sector.
 ---
-### Description\nThis is an exciting opportunity for a (Senior) Technical Property Manager to join a growing, crisis-proof real estate company, specializing in commercial properties within the expanding healthcare market. Our client is a renowned, interregional company managing residential and commercial properties across Europe, particularly focusing on infrastructure projects for institutional investors. With approximately 100 talented employees in Germany and continuous growth, the company offers a 100% remote position with a company car, servicing the Saxony/Berlin/Brandenburg region. This role provides an attractive path for career development within a modern, successful environment.\n\n### Responsibilities\n- Technical management of predominantly commercial properties within your assigned region.\n- Responsible for planning and supervising minor maintenance, modernization, and conversion measures.\n- Budget creation and monitoring.\n- Conducting tenders, obtaining and reviewing offers, awarding contracts, and overseeing construction and acceptance.\n- Controlling and monitoring the deployment of external service providers.\n- Responsibility for maintenance and compliance with legal requirements for technical building equipment.\n- Tracking defects and warranty claims.\n- Managing subcontractor services.\n- Collaborating with Commercial Property Management.\n\n### Qualifications\n- Completed vocational training or university degree with a technical focus, or a comparable qualification.\n- You have at least several years of professional experience in the technical management of real estate (commercial properties).\n- Expertise in technical real estate management.\n- Proficient IT skills (MS Word and MS Excel).\n- Willingness to travel for property inspections and residing, for example, in the Saxony/Saxony-Anhalt/Berlin/Brandenburg region or surrounding area.\n- Driving license.\n- You possess reliable IT skills.\n\n### Author's Take\nThis is a truly compelling role for an experienced Technical Property Manager looking for autonomy and growth in a stable, forward-thinking company. The 100% remote work model, combined with a company car (for private use!), offers unparalleled flexibility and work-life balance. You'll be contributing to a critical sector, the healthcare market, for a market leader with modern structures and flat hierarchies. The clear path for development, 30 days of vacation, and supportive atmosphere make this a standout opportunity for anyone seeking a long-term, impactful career in technical property management.
+### Description
+This is an exciting opportunity for a (Senior) Technical Property Manager to join a growing, crisis-proof real estate company, specializing in commercial properties within the expanding healthcare market. Our client is a renowned, interregional company managing residential and commercial properties across Europe, particularly focusing on infrastructure projects for institutional investors. With approximately 100 talented employees in Germany and continuous growth, the company offers a 100% remote position with a company car, servicing the Saxony/Berlin/Brandenburg region. This role provides an attractive path for career development within a modern, successful environment.
+
+### Responsibilities
+- Technical management of predominantly commercial properties within your assigned region.
+- Responsible for planning and supervising minor maintenance, modernization, and conversion measures.
+- Budget creation and monitoring.
+- Conducting tenders, obtaining and reviewing offers, awarding contracts, and overseeing construction and acceptance.
+- Controlling and monitoring the deployment of external service providers.
+- Responsibility for maintenance and compliance with legal requirements for technical building equipment.
+- Tracking defects and warranty claims.
+- Managing subcontractor services.
+- Collaborating with Commercial Property Management.
+
+### Qualifications
+- Completed vocational training or university degree with a technical focus, or a comparable qualification.
+- You have at least several years of professional experience in the technical management of real estate (commercial properties).
+- Expertise in technical real estate management.
+- Proficient IT skills (MS Word and MS Excel).
+- Willingness to travel for property inspections and residing, for example, in the Saxony/Saxony-Anhalt/Berlin/Brandenburg region or surrounding area.
+- Driving license.
+- You possess reliable IT skills.
+
+### Author's Take
+This is a truly compelling role for an experienced Technical Property Manager looking for autonomy and growth in a stable, forward-thinking company. The 100% remote work model, combined with a company car (for private use!), offers unparalleled flexibility and work-life balance. You'll be contributing to a critical sector, the healthcare market, for a market leader with modern structures and flat hierarchies. The clear path for development, 30 days of vacation, and supportive atmosphere make this a standout opportunity for anyone seeking a long-term, impactful career in technical property management.

@@ -4,8 +4,8 @@ title: SAP/IT Talent Sourcer (m/w/d)
 company: Recruit 121 Group
 location: Düsseldorf
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/recruit-121-group/sap-it-talent-sourcer-dusseldorf-160675
-postedDate: '2025-11-05T15:01:11.000Z'
+  https://www.arbeitnow.com/jobs/companies/recruit-121-group/sap-it-talent-sourcer-dusseldorf-326818
+postedDate: '2025-11-28T11:01:43.000Z'
 expirationDate: null
 tags:
   - Remote
@@ -16,94 +16,61 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/recruit-121-group/sap-it-talent-sourcer-dusseldorf-160675
+  https://www.arbeitnow.com/jobs/companies/recruit-121-group/sap-it-talent-sourcer-dusseldorf-326818
 companyLogoUrl: null
 companyCulture: >-
-  This company cultivates a highly flexible and supportive culture, evident in
-  its fully remote work model, generous vacation, and 'Workation' opportunities.
-  It prioritizes strong team collaboration, continuous learning, and clear
-  professional growth paths within a thriving, well-regarded SAP community.
+  The company thrives on continuous growth and success within the SAP consulting
+  space, fostered by a supportive team, flat hierarchies, and modern tools
+  including AI. It offers significant career development, excellent work-life
+  balance through full remote work and workation options, and values
+  collaboration and a proactive approach.
 story_question1: >-
-  In a market where many agencies face headwinds, what specific strategies or
-  unique strengths enable your SAP-focused consultancy to consistently achieve
-  strong growth, and how does a Talent Sourcer directly contribute to and
-  benefit from this success?
+  Given the company's significant growth in a competitive market, how does the
+  SAP Talent Sourcer role directly contribute to sustaining this momentum and
+  ensuring we attract the best SAP experts?
 story_answer1: >-
-  That's a fantastic question, and it really gets to the heart of what makes us
-  tick. Many agencies are generalists, but we've carved out a deep niche
-  specifically in SAP, which is a highly specialized and resilient market. Our
-  success isn't just about market demand; it's built on years of cultivating
-  genuine relationships and earning an outstanding reputation within the SAP
-  world. We're known for quality, not quantity. As a Talent Sourcer here, you're
-  not just finding résumés; you're the scout on the front lines, identifying the
-  rare gems that our clients desperately need. You're directly contributing to
-  our reputation by bringing in top-tier talent, and you get to operate in a
-  positive, growth-oriented environment where your efforts translate directly
-  into team success and uncapped personal earning potential. It’s incredibly
-  rewarding to be part of a company that’s thriving when others are struggling.
+  Oh, it's absolutely crucial! Think of it this way: our recruiters are closing
+  deals, but *we* are the ones fueling their pipeline with top-tier SAP talent.
+  In a market where everyone's vying for the same experts, finding and engaging
+  those truly exceptional individuals is our secret sauce. When I identify a
+  candidate who's a perfect fit, not just skill-wise but culturally, and our
+  team successfully places them, I know I've directly contributed to our
+  clients' success and, in turn, our company's impressive growth. It's
+  incredibly rewarding to be the engine behind that success, especially with the
+  support of our cutting-edge AI tools and a team that genuinely celebrates
+  every win.
 story_question2: >-
-  The job description mentions utilizing the latest tools, including AI, and
-  clear development opportunities. How are these advanced technologies
-  practically integrated into the daily sourcing workflow to enhance efficiency
-  and candidate experience, and what distinct career paths are genuinely
-  available for a successful Sourcer?
+  With the emphasis on modern and AI tools, how are these integrated into the
+  daily sourcing workflow, and what kind of impact have they had on efficiency
+  and success rates for talent acquisition?
 story_answer2: >-
-  We’re really excited about how we integrate technology here. It's not just
-  buzzwords; we actively use AI tools to automate repetitive tasks, analyze
-  market trends, and even help craft initial outreach messages, freeing you up
-  to focus on what matters most: building genuine connections. Imagine having an
-  assistant that sifts through mountains of data so you can concentrate on
-  engaging with the best SAP professionals. This approach makes your work more
-  efficient and allows for a more personalized candidate experience, which is
-  crucial for our brand. In terms of career paths, we're very transparent. A
-  successful Talent Sourcer can definitely grow into a Senior Sourcer role,
-  taking on more complex searches and mentoring others. Alternatively, for those
-  who want to broaden their scope, there's a clear path to becoming a 360°
-  Recruiter, managing the entire client and candidate lifecycle. We invest in
-  your learning and provide the training and support you need to choose and
-  excel on your chosen path.
+  That's a fantastic question, and it's something we're really proud of. We're
+  not just saying "modern tools"; we're living it. From advanced LinkedIn
+  Recruiter features to specialized AI tools that help us identify passive
+  candidates and automate initial outreach, these aren't just gadgets – they're
+  game-changers. For instance, our AI helps us sift through vast amounts of data
+  much faster, allowing us to focus our human touch on meaningful interactions.
+  It's like having a superpower that frees us from tedious tasks and lets us be
+  more strategic and personal. This integration has significantly boosted our
+  efficiency, reduced time-to-hire, and allowed us to uncover hidden gems we
+  might have otherwise missed, ultimately leading to higher quality placements
+  and happier candidates.
 story_question3: >-
-  Working fully remote within Germany, how does the team ensure strong internal
-  communication, a sense of camaraderie, and continuous professional
-  development, especially given the collaborative nature of building talent
-  pools and maintaining high quality standards?
+  Considering the fully remote setup and 'Workation' benefit, what mechanisms
+  are in place to ensure strong team cohesion, continuous learning, and
+  opportunities for professional growth despite the distributed nature of the
+  team?
 story_answer3: >-
-  That’s a critical question for any remote-first company, and we've put a lot
-  of thought into it. While we're fully remote, we're far from isolated. We
-  maintain a very supportive and communicative team environment through daily
-  stand-ups, regular virtual team meetings, and dedicated Slack channels where
-  we share successes, challenges, and best practices. We also encourage informal
-  'virtual coffee breaks' and team-building activities to foster camaraderie.
-  For professional development, beyond the clear career paths, we offer access
-  to continuous training resources and peer-to-peer learning sessions. Our flat
-  hierarchies mean everyone’s voice is heard, and we collaborate closely on
-  strategy and specific talent pools. This ensures that even remotely, you feel
-  deeply connected to the team, are continuously learning, and are fully
-  supported in delivering the high-quality results our clients expect.
+  It's true, we're fully remote and even encourage Workations, but that doesn't
+  mean we're isolated! Our flat hierarchies and supportive team culture are key.
+  We have regular virtual check-ins, collaborative project channels, and even
+  informal virtual coffee breaks to keep us connected. For professional growth,
+  there are clear development paths – whether you want to move into 360°
+  recruiting or specialize as a Senior Sourcer. We also invest in continuous
+  learning, sharing best practices, and experimenting with new sourcing
+  strategies. The 'Workation' isn't just a perk; it's a testament to our trust
+  in our team and our belief that flexibility fosters creativity and well-being.
+  It actually enhances our ability to bring diverse perspectives and energy to
+  our collective goals.
 ---
-### Description
-
-Join our thriving SAP recruitment team, serving the DACH region! While many recruitment agencies are struggling with challenging market conditions, we continue to grow. As a specialized SAP recruitment consultancy, we have built an excellent reputation and successfully collaborate with leading companies in the SAP world.
-
-Our order books are strong, which is why we are expanding our Sourcing Team for permanent placements in the DACH region. We are looking for motivated **SAP Talent Sourcers** who know how to find, engage, and retain top SAP experts long-term. This is a full-time, permanent position, offered fully remote within Germany.
-
-### Responsibilities
-
-*   Work closely with our SAP Recruiters to build talent pools across various SAP modules and regions.
-*   Actively identify and approach SAP professionals via LinkedIn Recruiter, Boolean Search, job boards, and professional networks.
-*   Pre-qualify and select candidates for permanent positions and project assignments.
-*   Build and maintain long-term relationships with SAP specialists.
-
-### Qualifications
-
-*   2–3 years of experience in Talent Sourcing, ideally within the IT or SAP environment.
-*   Proficient use of LinkedIn Recruiter and modern sourcing methodologies.
-*   Strong communication skills in both German and English.
-*   Independent and proactive work style with a high standard for quality.
-*   Team spirit, eagerness to learn, and a passion for success.
-
-### Author's Take
-
-This is an exceptional opportunity to join a specialized SAP recruitment consultancy that is not just surviving but thriving and expanding in a competitive market. The company boasts a strong reputation within the SAP community and a robust pipeline of client needs.
-
-For a motivated SAP Talent Sourcer with 2-3 years of experience, this role offers unparalleled flexibility with fully remote work within Germany and even "Workation" options within the EU. You'll benefit from 30 days of annual leave, uncapped commission potential, and access to the latest sourcing tools, including AI, designed to streamline your daily tasks. The culture is characterized by flat hierarchies, a supportive team, and a clear commitment to professional growth, offering defined paths towards becoming a 360° Recruiter or a Senior Sourcer. If you're looking for an impactful role within a successful, forward-thinking, and employee-centric organization, this position offers a compelling package.
+### Description\\nThis specialized SAP consultancy is experiencing significant growth despite challenging market conditions, thanks to its strong reputation and successful partnerships with leading companies in the SAP ecosystem. To support this momentum, the company is expanding its Sourcing team for permanent placements within the DACH region. We are looking for motivated SAP Talent Sourcers who are adept at identifying, engaging, and retaining top-tier SAP professionals. This full-time, permanent position offers the flexibility of fully remote work from anywhere in Germany.\\n\\n### Responsibilities\\n- Close collaboration with SAP Recruiters to build talent pools across various modules and regions.\\n- Proactive identification and outreach to SAP specialists using LinkedIn Recruiter, Boolean Search, job boards, and professional networks.\\n- Pre-selection and qualification of candidates for permanent positions and project assignments.\\n- Building and nurturing long-term relationships with SAP specialists.\\n\\n### Qualifications\\n- 2-3 years of experience in Talent Sourcing, ideally within the IT or SAP environment.\\n- Proficiency in using LinkedIn Recruiter and modern sourcing methodologies.\\n- Strong communication skills in both German and English.\\n- Independent and proactive work style with a high standard for quality.\\n- Demonstrated team spirit, eagerness to learn, and enthusiasm for achieving success.\\n\\n### Author's Take\\nThis is an exceptional opportunity for an experienced SAP Talent Sourcer to join a thriving, specialized consultancy that values innovation and employee well-being. The role offers full remote flexibility, attractive benefits including 30 days of holiday and \\\"Workation\\\" options, and significant career development paths within a supportive team environment. The chance to work with cutting-edge tools, including AI, and uncapped commission makes this a highly appealing prospect for those looking to make a substantial impact in the SAP recruiting space.

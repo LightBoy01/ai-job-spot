@@ -71,4 +71,22 @@ story_answer3: >-
   ownership and allows for more innovative, truly tailored solutions, which is a
   hallmark of BRÜGGEN ENGINEERING.
 ---
-### Description\\nBRÜGGEN ENGINEERING is seeking an **SPS Programmer (w/m/d)** to become a key figure in the world of automation and robotics. Based in Aschaffenburg, this role offers a career that merges technical innovation with precise execution. You will be instrumental in developing and implementing tailored SPS controls and automation solutions for complex systems, contributing to cutting-edge projects in automation technology.\\n\\n### Responsibilities\\n- Develop, implement, and commission customized SPS controls for complex automation systems using Siemens S7, TIA Portal, and CoDeSys.\\n- Create individual SPS programs and visualizations precisely tailored to client requirements.\\n- Draft detailed specification sheets, including concept proposals for program structures and automation solutions.\\n- Actively support offer calculation and serve as a central interface for technical discussions with customers and suppliers.\\n- Ensure successful national and international commissioning of automation systems for seamless functionality.\\n- Create operating manuals and independently analyze and resolve malfunctions and errors (troubleshooting).\\n\\n### Qualifications\\n- Completed degree in Automation Technology, Robotics, or advanced technician training in Mechanical Engineering with relevant professional experience, or comparable qualification.\\n- Several years of professional experience in a similar position, ideally in special machine construction, robotics, or automation technology.\\n- Strong knowledge in control technology programming with Siemens S7, TIA Portal, and WinCC flexible. Basic knowledge in robot programming is advantageous.\\n- Fluent in German and English (written and spoken) and willingness to travel internationally for project support.\\n\\n### Author's Take\\nThis is an outstanding opportunity for a dedicated SPS Programmer eager to contribute to cutting-edge automation and robotics projects. BRÜGGEN ENGINEERING offers a supportive and dynamic team environment focused on continuous learning and personal growth. The role promises engaging challenges with advanced technologies and significant international exposure, making it ideal for those seeking to make a tangible impact in a forward-thinking company.
+### Description\
+BRÜGGEN ENGINEERING is seeking an **SPS Programmer (w/m/d)** to become a key figure in the world of automation and robotics. Based in Aschaffenburg, this role offers a career that merges technical innovation with precise execution. You will be instrumental in developing and implementing tailored SPS controls and automation solutions for complex systems, contributing to cutting-edge projects in automation technology.\
+\
+### Responsibilities\
+- Develop, implement, and commission customized SPS controls for complex automation systems using Siemens S7, TIA Portal, and CoDeSys.\
+- Create individual SPS programs and visualizations precisely tailored to client requirements.\
+- Draft detailed specification sheets, including concept proposals for program structures and automation solutions.\
+- Actively support offer calculation and serve as a central interface for technical discussions with customers and suppliers.\
+- Ensure successful national and international commissioning of automation systems for seamless functionality.\
+- Create operating manuals and independently analyze and resolve malfunctions and errors (troubleshooting).\
+\
+### Qualifications\
+- Completed degree in Automation Technology, Robotics, or advanced technician training in Mechanical Engineering with relevant professional experience, or comparable qualification.\
+- Several years of professional experience in a similar position, ideally in special machine construction, robotics, or automation technology.\
+- Strong knowledge in control technology programming with Siemens S7, TIA Portal, and WinCC flexible. Basic knowledge in robot programming is advantageous.\
+- Fluent in German and English (written and spoken) and willingness to travel internationally for project support.\
+\
+### Author's Take\
+This is an outstanding opportunity for a dedicated SPS Programmer eager to contribute to cutting-edge automation and robotics projects. BRÜGGEN ENGINEERING offers a supportive and dynamic team environment focused on continuous learning and personal growth. The role promises engaging challenges with advanced technologies and significant international exposure, making it ideal for those seeking to make a tangible impact in a forward-thinking company.

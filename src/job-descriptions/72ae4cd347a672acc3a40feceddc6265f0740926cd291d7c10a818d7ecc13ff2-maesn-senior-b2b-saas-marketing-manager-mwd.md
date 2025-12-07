@@ -60,4 +60,35 @@ story_answer2: >-
   growth and key to our long-term vision of becoming a central interoperability
   builder in Europe.
 ---
-### Description\nMaesn provides a single Unified API, enabling software teams globally to instantly access numerous financial systems, from Datev to Netsuite and SAP. This empowers SaaS providers, from rapidly growing startups to international tech corporations, to save months of development time, accelerate growth, and boost retention.\n\nWe are an ambitious team, backed by renowned investors and experienced advisors, on a mission to become a central building block for interoperability in Europe.\n\nMarketing at Maesn is not a traditional marketing job. You'll be at the heart of an Infra-SaaS product deeply embedded in the technical ecosystem, engaging with a genuine developer, product, and partnerships audience. Operating in a rapidly expanding market (Integrations Layer + API Economy), Maesn is strategically positioned at the intersection of AI Agents, Automation, and Enterprise Interoperability. This role offers the unique opportunity to build a brand that gains relevance daily, contributing to the very foundation of modern software architecture as companies increasingly seek simplified integration solutions.\n\n### Responsibilities\n- Develop, own, and execute the content calendar across blog, LinkedIn, newsletters, and events.\n- Manage our CMS (e.g., Webflow) and create new landing pages.\n- Produce and publish social media content for both founder and company pages.\n- Coordinate with potential external copywriters and designers.\n- Create and maintain case studies, one-pagers, and sales materials.\n- Prepare and communicate product updates and launches.\n- Plan our presence at industry events, trade fairs, and conferences.\n- Build and maintain a simple, clear analytics dashboard.\n- Collaborate closely with our SEO and Paid advisors.\n- Spar with the Founder on high-quality content and strategic positioning.\n\n### Qualifications\n- 2-3 years of experience in B2B Marketing, ideally within SaaS, Tech, or API products.\n- Excellent German and English language skills.\n- Strong instinct for storytelling, structure, and clear, technical communication.\n- Experience with CMS (Webflow), CRM/Automation (HubSpot), and Analytics (GA4).\n- Ability to independently drive projects and manage deadlines effectively.\n- Keen interest in technical products, developer target audiences, and the API Economy.\n- Enjoy close collaboration in the office (3 days/week in Düsseldorf).\n- Proficient in Figma/Canva.\n- **Nice to have:** Lottie animations, experience with social video content, and a tech affinity for AI/Automation ecosystems.\n\n### Author's Take\nThis is a truly exciting opportunity for a driven marketing professional to make a significant impact in a key role at an ambitious and international SaaS startup. You'll work hand-in-hand with the Founder, Product, and Partnerships teams, ensuring direct visibility and impact from your contributions. The role offers substantial creative freedom in shaping Maesn's positioning and content strategy, backed by support from experienced advisors in SEO, Paid, and strategic marketing. Beyond a competitive salary and long-term incentives (VSOP), you'll benefit from a modern co-working environment in Düsseldorf, flexible remote days, team offsites, and a strong company culture. If you're passionate about marketing and want to build the future of interoperability, this role offers a unique chance to be at the forefront of modern software architecture.
+### Description
+Maesn provides a single Unified API, enabling software teams globally to instantly access numerous financial systems, from Datev to Netsuite and SAP. This empowers SaaS providers, from rapidly growing startups to international tech corporations, to save months of development time, accelerate growth, and boost retention.
+
+We are an ambitious team, backed by renowned investors and experienced advisors, on a mission to become a central building block for interoperability in Europe.
+
+Marketing at Maesn is not a traditional marketing job. You'll be at the heart of an Infra-SaaS product deeply embedded in the technical ecosystem, engaging with a genuine developer, product, and partnerships audience. Operating in a rapidly expanding market (Integrations Layer + API Economy), Maesn is strategically positioned at the intersection of AI Agents, Automation, and Enterprise Interoperability. This role offers the unique opportunity to build a brand that gains relevance daily, contributing to the very foundation of modern software architecture as companies increasingly seek simplified integration solutions.
+
+### Responsibilities
+- Develop, own, and execute the content calendar across blog, LinkedIn, newsletters, and events.
+- Manage our CMS (e.g., Webflow) and create new landing pages.
+- Produce and publish social media content for both founder and company pages.
+- Coordinate with potential external copywriters and designers.
+- Create and maintain case studies, one-pagers, and sales materials.
+- Prepare and communicate product updates and launches.
+- Plan our presence at industry events, trade fairs, and conferences.
+- Build and maintain a simple, clear analytics dashboard.
+- Collaborate closely with our SEO and Paid advisors.
+- Spar with the Founder on high-quality content and strategic positioning.
+
+### Qualifications
+- 2-3 years of experience in B2B Marketing, ideally within SaaS, Tech, or API products.
+- Excellent German and English language skills.
+- Strong instinct for storytelling, structure, and clear, technical communication.
+- Experience with CMS (Webflow), CRM/Automation (HubSpot), and Analytics (GA4).
+- Ability to independently drive projects and manage deadlines effectively.
+- Keen interest in technical products, developer target audiences, and the API Economy.
+- Enjoy close collaboration in the office (3 days/week in Düsseldorf).
+- Proficient in Figma/Canva.
+- **Nice to have:** Lottie animations, experience with social video content, and a tech affinity for AI/Automation ecosystems.
+
+### Author's Take
+This is a truly exciting opportunity for a driven marketing professional to make a significant impact in a key role at an ambitious and international SaaS startup. You'll work hand-in-hand with the Founder, Product, and Partnerships teams, ensuring direct visibility and impact from your contributions. The role offers substantial creative freedom in shaping Maesn's positioning and content strategy, backed by support from experienced advisors in SEO, Paid, and strategic marketing. Beyond a competitive salary and long-term incentives (VSOP), you'll benefit from a modern co-working environment in Düsseldorf, flexible remote days, team offsites, and a strong company culture. If you're passionate about marketing and want to build the future of interoperability, this role offers a unique chance to be at the forefront of modern software architecture.

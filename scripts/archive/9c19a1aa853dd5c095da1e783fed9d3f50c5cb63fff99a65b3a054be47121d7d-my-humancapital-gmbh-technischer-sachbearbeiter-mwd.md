@@ -4,8 +4,8 @@ title: Technischer Sachbearbeiter (m/w/d)
 company: MY Humancapital GmbH
 location: Augsburg
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/technischer-sachbearbeiter-augsburg-203026
-postedDate: '2025-11-07T01:34:09.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/technischer-sachbearbeiter-augsburg-319456
+postedDate: '2025-11-28T01:34:52.000Z'
 expirationDate: null
 tags:
   - Building
@@ -17,43 +17,47 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/technischer-sachbearbeiter-augsburg-203026
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/technischer-sachbearbeiter-augsburg-319456
 companyLogoUrl: null
 companyCulture: >-
-  The company fosters a supportive environment with a strong emphasis on
-  work-life balance through flexible hours, encourages collaboration with
-  various stakeholders, and is committed to employee growth and development
-  through extensive training opportunities.
+  The company fosters a supportive and growth-oriented environment, prioritizing
+  employee well-being with flexible working hours and a clear path for
+  professional development. Collaboration is key in a modern setting with
+  state-of-the-art equipment.
 story_question1: >-
-  Given the role's focus on coordinating maintenance and ensuring smooth
-  technical operations, what's a recent example where this position
-  significantly contributed to overcoming a critical technical challenge or
-  improving efficiency for the organization?
+  Given the breadth of coordination required for technical maintenance and
+  projects, what's the most challenging aspect of ensuring timely and
+  high-quality execution, and how does the team typically navigate those
+  challenges?
 story_answer1: >-
-  Oh, absolutely! Just last month, we had a critical HVAC system unexpectedly
-  fail in one of our core facilities. The technical Sachbearbeiter quickly
-  jumped into action. They coordinated with our internal facility team, brought
-  in an external specialist, and managed to source a crucial part within hours.
-  Their clear communication with everyone – from the users impacted to the
-  senior management – ensured minimal disruption. What really stood out was how
-  they kept all stakeholders informed, ensuring the repair was done efficiently
-  and preventing a much larger operational headache. It truly highlights how
-  central this role is to keeping our operations running seamlessly.
+  That's a great question, and it really gets to the heart of this role. The
+  biggest challenge often lies in juggling multiple moving parts – internal
+  stakeholders, external service providers, and unexpected issues that can pop
+  up during a repair or a small construction project. It's like being a
+  conductor for a technical orchestra! What I've found incredibly helpful here
+  is our commitment to clear communication and proactive planning. We have
+  established processes for documentation and follow-up, and there's a strong
+  culture of support. If you hit a roadblock, you're not alone; you can always
+  tap into the expertise of your colleagues or the department experts during our
+  regular coordination meetings. It’s about being agile and having a strong
+  support network to keep everything on track, ensuring our facilities run
+  smoothly for everyone.
 story_question2: >-
-  The description mentions 'numerous training and development opportunities' and
-  'professional onboarding.' Could you elaborate on how a new Technical
-  Administrator would be supported in their growth, especially if they aim to
-  specialize in a particular area like facility management systems or project
-  coordination?
+  Beyond the day-to-day coordination, what opportunities are there for a
+  Technical Administrator to contribute to process improvements or implement
+  innovative solutions within the maintenance and facility management scope?
 story_answer2: >-
-  We take onboarding very seriously here. A new Technical Administrator doesn't
-  just get thrown in; they're welcomed by a dedicated mentor from the
-  department's expert team who guides them through our systems and processes.
-  For growth, it's quite flexible. If someone shows an aptitude for, say,
-  optimizing our use of AiBATROS or leading small facility projects, we actively
-  support that. We have internal workshops, external certifications, and even
-  cross-departmental project opportunities. The goal is really to empower our
-  team members to carve out their own path and become specialists in areas
-  they're passionate about, all while contributing to our overall efficiency.
+  That's an excellent point! While the core of the role is maintaining
+  operational excellence, we absolutely encourage our team members to look for
+  ways to make things better. For example, we recently had a Technical
+  Administrator suggest a new way to track recurring maintenance tasks using an
+  improved spreadsheet system, which significantly streamlined our planning.
+  Another colleague explored different vendor options for a specific repair
+  service, leading to both cost savings and better response times. With our
+  modern environment and emphasis on continuous development, you're encouraged
+  to bring your ideas forward. If you spot an inefficiency or a potential for
+  improvement, there's a clear path to discuss it, propose a solution, and
+  often, even lead its implementation. Your practical insights from being on the
+  ground are incredibly valuable to us.
 ---
-### Description\nThis role as a Technical Administrator (m/w/d) in Augsburg involves the crucial coordination and organization of maintenance and servicing activities. You will be instrumental in ensuring the smooth operation of technical infrastructure by managing service providers, overseeing smaller construction and repair projects, and maintaining clear communication channels with internal departments, external partners, and users. This position offers a modern work environment, professional onboarding, flexible hours, and significant opportunities for further development within a centrally located company.\n\n### Responsibilities\n*   Betreuung und Organisation von Instandhaltungs- und Wartungsmaßnahmen\n*   Koordinieren interner und externer Dienstleister\n*   Begleiten kleinerer Bau- und Reparaturmaßnahmen und Sicherstellen der termingerechten Umsetzung\n*   Übernehmen der Kommunikation mit internen Fachbereichen, externen Partnern sowie Nutzerinnen und Nutzern\n*   Durchführen von Vor-Ort-Terminen, Dokumentieren von Ergebnissen und Ableiten notwendiger Maßnahmen\n*   Bearbeiten von Aufträgen und Rechnungen zur Sicherstellung eines reibungslosen Ablaufs im technischen Bereich\n\n### Qualifications\n*   Abgeschlossene technische oder kaufmännische Ausbildung mit technischem Schwerpunkt (z. B. Techniker, Meister, Immobilienkaufmann/-frau oder vergleichbare Qualifikation)\n*   Erfahrung in der Organisation und Begleitung technischer Maßnahmen, idealerweise im Bereich Instandhaltung, Bau oder Facility Management\n*   Versiert in IT-Standardanwendungen wie MS Office; Kenntnisse in SAP und AiBATROS wünschenswert\n*   Selbstständige, strukturierte und zuverlässige Arbeitsweise sowie Organisations- und Kommunikationstalent\n*   Sichere Deutschkenntnisse in Wort und Schrift\n\n### Author's Take\nThis is an excellent opportunity for an organized and communicative individual with a technical background to play a pivotal role in maintaining and improving a company's technical infrastructure. The emphasis on flexible work hours, professional onboarding, and extensive development opportunities indicates a supportive and growth-oriented employer. It's ideal for someone who thrives on coordination, problem-solving, and contributing to operational efficiency in a modern work environment.
+### Description\nOn behalf of our partner company in Augsburg, we are looking for a **Technical Administrator (m/f/d)** to join their team as soon as possible. In this pivotal role, you will be responsible for the comprehensive organization and supervision of maintenance and servicing activities, ensuring smooth technical operations and communication across various stakeholders.\n\n### Responsibilities\n- Manage and organize maintenance and servicing measures.\n- Coordinate internal and external service providers, oversee minor construction and repair work, and ensure timely execution.\n- Handle communication with internal departments, external partners, and users.\n- Conduct on-site appointments, document results, and derive necessary actions.\n- Process orders and invoices, contributing to seamless technical operations.\n\n### Qualifications\n- Completed technical or commercial education with a technical focus (e.g., technician, master craftsman, real estate specialist, or comparable qualification).\n- Experience in organizing and supervising technical measures, ideally in maintenance, construction, or facility management.\n- Proficiency in standard IT applications such as MS Office; knowledge of SAP and AiBATROS is desirable.\n- Ability to work independently, in a structured, and reliable manner, coupled with strong organizational and communication skills.\n- Excellent German language skills, both written and spoken.\n\n### Author's Take\nThis is a fantastic opportunity for a diligent and organized Technical Administrator to join a dynamic company in the heart of Augsburg. The role offers a great blend of coordination, technical oversight, and communication, making it ideal for someone who thrives in a hands-on administrative capacity. The company strongly supports work-life balance with flexible 39-hour weeks and provides a professional onboarding process, a modern work environment with up-to-date equipment, and numerous opportunities for further training and career development. If you're looking for a role where your organizational talents are truly valued and you can continuously grow, this position is worth exploring.

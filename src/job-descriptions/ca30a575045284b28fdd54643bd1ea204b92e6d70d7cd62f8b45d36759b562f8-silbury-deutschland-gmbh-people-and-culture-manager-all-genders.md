@@ -54,4 +54,46 @@ story_answer2: >-
   voices within Silbury. We don't just talk about community; we actively build
   it, and the P&C role is at the heart of that construction.
 ---
-### Description\nAs a People & Culture Manager at Silbury, you are more than just HR – you are a key shaper of a work environment where people can grow and the company thrives. You will develop teams, culture, and structures, working closely with management to drive the evolution of the People & Culture domain. Your mission is to create an environment that fosters both humanity and professional growth.\n\n### Responsibilities\n**Recruiting & Talent Acquisition – Bringing the right people into the company**\n- End-to-end recruiting for technical and non-technical roles.\n- Active sourcing via LinkedIn, GitHub, and relevant communities.\n- Building modern recruiting strategies and talent pipelines.\n- Designing an appreciative, efficient interview process.\n- Strengthening our Employer Brand in collaboration with Marketing.\n\n**People & Culture – Developing people, teams, and organizations**\n- Trusted sparring partner for employees, leaders, and management.\n- Shaping the entire employee lifecycle – from onboarding to offboarding.\n- Conceiving and implementing learning formats, trainings, and development paths.\n- Moderating feedback and perspective discussions.\n- Shaping our culture, e.g., through team formats, barcamps, or values work.\n- Taking area responsibility and developing the People & Culture domain.\n\n**HR Operations & Process Design – Bringing in structure and professionalism**\n- Contract management and personnel administration.\n- Coordination with external payroll office/tax consultancy.\n- Further development of our HR processes, guidelines, and standards.\n- Support with employment law topics and compliance.\n- Creation of qualified employment references.\n\n### Qualifications\n**Professional Strengths**\n- Experience in People & Culture, HR, or Talent Management.\n- Proven track record in recruiting and active sourcing.\n- Business acumen and understanding of economic contexts.\n- Ability to strategically and operationally design HR processes.\n- Strong communication skills at all levels.\n- Experience in organizational, cultural, or change management topics is a plus.\n\n**Personal Strengths**\n- Empathy, composure, and enthusiasm for people.\n- Structured, proactive working style.\n- Independence and sense of responsibility.\n- Enjoyment of exchange with employees, leaders, and management.\n\n### Author's Take\nThis is a pivotal role for an empathetic and strategic People & Culture professional eager to shape a growing company's human-centric environment. Silbury offers a collaborative culture with flexible work, strong growth opportunities through continuous learning, and a chance to directly influence organizational development alongside leadership. Ideal for someone passionate about fostering both individual well-being and collective success.
+### Description
+As a People & Culture Manager at Silbury, you are more than just HR – you are a key shaper of a work environment where people can grow and the company thrives. You will develop teams, culture, and structures, working closely with management to drive the evolution of the People & Culture domain. Your mission is to create an environment that fosters both humanity and professional growth.
+
+### Responsibilities
+**Recruiting & Talent Acquisition – Bringing the right people into the company**
+- End-to-end recruiting for technical and non-technical roles.
+- Active sourcing via LinkedIn, GitHub, and relevant communities.
+- Building modern recruiting strategies and talent pipelines.
+- Designing an appreciative, efficient interview process.
+- Strengthening our Employer Brand in collaboration with Marketing.
+
+**People & Culture – Developing people, teams, and organizations**
+- Trusted sparring partner for employees, leaders, and management.
+- Shaping the entire employee lifecycle – from onboarding to offboarding.
+- Conceiving and implementing learning formats, trainings, and development paths.
+- Moderating feedback and perspective discussions.
+- Shaping our culture, e.g., through team formats, barcamps, or values work.
+- Taking area responsibility and developing the People & Culture domain.
+
+**HR Operations & Process Design – Bringing in structure and professionalism**
+- Contract management and personnel administration.
+- Coordination with external payroll office/tax consultancy.
+- Further development of our HR processes, guidelines, and standards.
+- Support with employment law topics and compliance.
+- Creation of qualified employment references.
+
+### Qualifications
+**Professional Strengths**
+- Experience in People & Culture, HR, or Talent Management.
+- Proven track record in recruiting and active sourcing.
+- Business acumen and understanding of economic contexts.
+- Ability to strategically and operationally design HR processes.
+- Strong communication skills at all levels.
+- Experience in organizational, cultural, or change management topics is a plus.
+
+**Personal Strengths**
+- Empathy, composure, and enthusiasm for people.
+- Structured, proactive working style.
+- Independence and sense of responsibility.
+- Enjoyment of exchange with employees, leaders, and management.
+
+### Author's Take
+This is a pivotal role for an empathetic and strategic People & Culture professional eager to shape a growing company's human-centric environment. Silbury offers a collaborative culture with flexible work, strong growth opportunities through continuous learning, and a chance to directly influence organizational development alongside leadership. Ideal for someone passionate about fostering both individual well-being and collective success.

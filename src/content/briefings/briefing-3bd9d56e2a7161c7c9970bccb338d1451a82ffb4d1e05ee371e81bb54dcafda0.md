@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-3bd9d56e2a7161c7c9970bccb338d1451a82ffb4d1e05ee371e81bb54dcafda0
 title: A Vector Symbolic Approach to Multiple Instance Learning

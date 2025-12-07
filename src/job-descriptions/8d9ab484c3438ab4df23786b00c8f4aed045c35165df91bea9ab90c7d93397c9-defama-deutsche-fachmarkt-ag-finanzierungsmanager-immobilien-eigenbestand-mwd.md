@@ -80,4 +80,30 @@ story_answer3: >-
   members, fostering a sense of ownership and continuous improvement that's
   crucial for our agility in the market.
 ---
-### Description\nWe are looking for a **Real Estate Financing Manager (m/f/d)** to join us as soon as possible. In this pivotal role, you will act as a professional interface with banks and actively acquire new financing partners for our projects, with a special focus on retail centers. This position can also temporarily be filled by an INTERIM EXPERT.\n\nWe pride ourselves on being hands-on, pragmatic, and unpretentious. While performance is important, it's not everything; we seek colleagues with dedication and heart. An \"elbow mentality\" or a \"corporate careerist\" would not thrive in our team-oriented environment. We value proactive individuals who are ready to contribute their ideas and drive processes forward.\n\n### Responsibilities\n- Expand and maintain our robust network of banks, savings banks, and other financing institutions.\n- Actively acquire new financing partners, especially for the acquisition of retail centers.\n- Structure, prepare, and present financing inquiries.\n- Independently negotiate terms, financing structures, and loan agreements.\n- Analyze financing offers, including profitability and risk assessment.\n- Collaborate closely with the board and acquisition team for optimal financing of respective retail properties.\n- Continuously monitor the market in commercial and retail real estate, as well as financing trends.\n\n### Qualifications\n- Completed degree in Finance, Real Estate Management, Business Administration, or an equivalent qualification.\n- Several years of experience in real estate financing, ideally in the commercial sector or with retail properties.\n- Deep understanding of various financing models, cash flow structures, acquisition processes, and accounting principles.\n- Excellent Excel skills.\n- Communicative, negotiation-savvy personality with a strong understanding of networking.\n- High self-motivation, structured working style, and entrepreneurial thinking.\n- Hands-on mentality, a proactive doer.\n\n### Author's Take\nThis is a truly engaging opportunity for a seasoned Real Estate Financing Manager to make a significant impact within a company that genuinely values its employees. The role offers substantial autonomy in network building and negotiation, directly influencing the company's growth in the commercial property sector.\n\nWhat truly sets this employer apart is its exceptional commitment to employee well-being and a supportive culture. They actively live work-life balance through flexible working models, home office options, and unique benefits like paid time off for sick children without a doctor's note, and even your birthday as a free day. The company fosters a collaborative environment where ideas are encouraged and supported, far removed from any corporate \"elbow mentality.\" If you're a hands-on professional seeking a role where your contributions are recognized and your personal life is respected, this could be an excellent fit.
+### Description
+We are looking for a **Real Estate Financing Manager (m/f/d)** to join us as soon as possible. In this pivotal role, you will act as a professional interface with banks and actively acquire new financing partners for our projects, with a special focus on retail centers. This position can also temporarily be filled by an INTERIM EXPERT.
+
+We pride ourselves on being hands-on, pragmatic, and unpretentious. While performance is important, it's not everything; we seek colleagues with dedication and heart. An \"elbow mentality\" or a \"corporate careerist\" would not thrive in our team-oriented environment. We value proactive individuals who are ready to contribute their ideas and drive processes forward.
+
+### Responsibilities
+- Expand and maintain our robust network of banks, savings banks, and other financing institutions.
+- Actively acquire new financing partners, especially for the acquisition of retail centers.
+- Structure, prepare, and present financing inquiries.
+- Independently negotiate terms, financing structures, and loan agreements.
+- Analyze financing offers, including profitability and risk assessment.
+- Collaborate closely with the board and acquisition team for optimal financing of respective retail properties.
+- Continuously monitor the market in commercial and retail real estate, as well as financing trends.
+
+### Qualifications
+- Completed degree in Finance, Real Estate Management, Business Administration, or an equivalent qualification.
+- Several years of experience in real estate financing, ideally in the commercial sector or with retail properties.
+- Deep understanding of various financing models, cash flow structures, acquisition processes, and accounting principles.
+- Excellent Excel skills.
+- Communicative, negotiation-savvy personality with a strong understanding of networking.
+- High self-motivation, structured working style, and entrepreneurial thinking.
+- Hands-on mentality, a proactive doer.
+
+### Author's Take
+This is a truly engaging opportunity for a seasoned Real Estate Financing Manager to make a significant impact within a company that genuinely values its employees. The role offers substantial autonomy in network building and negotiation, directly influencing the company's growth in the commercial property sector.
+
+What truly sets this employer apart is its exceptional commitment to employee well-being and a supportive culture. They actively live work-life balance through flexible working models, home office options, and unique benefits like paid time off for sick children without a doctor's note, and even your birthday as a free day. The company fosters a collaborative environment where ideas are encouraged and supported, far removed from any corporate \"elbow mentality.\" If you're a hands-on professional seeking a role where your contributions are recognized and your personal life is respected, this could be an excellent fit.

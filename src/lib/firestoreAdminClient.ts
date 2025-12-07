@@ -15,6 +15,18 @@ const convertTimestampToDate = (
   return undefined;
 };
 
+// Helper function to convert Firestore Verification Event to JS Object
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const convertVerificationEvent = (event: any): any | null => {
+  if (!event || !event.date) return null;
+  return {
+    date: convertTimestampToDate(event.date)!,
+    type: event.type,
+    verifier: event.verifier ?? null,
+    note: event.note ?? null,
+  };
+};
+
 // Helper function to process job data from the Admin SDK
 const processJobData = (
   docSnap: admin.firestore.DocumentSnapshot
@@ -45,6 +57,7 @@ const processJobData = (
     source: data?.source || null,
     sourceUrl: data?.sourceUrl || null,
     verificationDate: convertTimestampToDate(data?.verificationDate),
+    verificationHistory: data?.verificationHistory?.map(convertVerificationEvent).filter(Boolean) || [],
     story_question1: data?.story_question1 || null,
     story_answer1: data?.story_answer1 || null,
     story_question2: data?.story_question2 || null,
@@ -52,6 +65,7 @@ const processJobData = (
     story_question3: data?.story_question3 || null,
     story_answer3: data?.story_answer3 || null,
     companyCulture: data?.companyCulture || null,
+    relatedArticleIds: data?.relatedArticleIds || [],
   } as JobPosting;
 };
 
@@ -80,6 +94,7 @@ const processArticleData = (
     sourceName: data?.sourceName || null,
     originalUrl: data?.originalUrl || null,
     hub: data?.hub || null,
+    relatedJobIds: data?.relatedJobIds || [],
   } as Article;
 };
 
@@ -215,11 +230,59 @@ export async function getRelevantArticles(
     const querySnapshot = await q.get();
     const articles = querySnapshot.docs
       .map(processArticleData)
-      .filter((article) => article.id !== currentArticleId);
+      .filter((article: Article) => article.id !== currentArticleId);
 
     return articles.slice(0, limit);
   } catch (error) {
     console.error('Error fetching relevant articles:', error);
+    return [];
+  }
+}
+
+export async function getArticlesByIds(ids: string[]): Promise<Article[]> {
+  if (!ids || ids.length === 0) {
+    return [];
+  }
+
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    // Firestore 'in' queries are limited to 10 items.
+    // Since our MAX_RELATED is 3, this is safe.
+    // If ids.length > 10, we'd need to batch this.
+    const refs = ids.map(id => adminDb.collection('articles').where('slug', '==', id).limit(1));
+    const snapshots = await Promise.all(refs.map(q => q.get()));
+    
+    const articles: Article[] = [];
+    snapshots.forEach(snap => {
+      if (!snap.empty) {
+        articles.push(processArticleData(snap.docs[0]));
+      }
+    });
+
+    return articles;
+  } catch (error) {
+    console.error('Error fetching articles by IDs:', error);
+    return [];
+  }
+}
+
+export async function getJobsByIds(ids: string[]): Promise<JobPosting[]> {
+  if (!ids || ids.length === 0) {
+    return [];
+  }
+
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    // Using getAll for direct document IDs is more efficient than queries
+    const refs = ids.map(id => adminDb.collection('jobs').doc(id));
+    const snapshots = await adminDb.getAll(...refs);
+    
+    return snapshots
+      .filter(doc => doc.exists)
+      .map(processJobData);
+
+  } catch (error) {
+    console.error('Error fetching jobs by IDs:', error);
     return [];
   }
 }

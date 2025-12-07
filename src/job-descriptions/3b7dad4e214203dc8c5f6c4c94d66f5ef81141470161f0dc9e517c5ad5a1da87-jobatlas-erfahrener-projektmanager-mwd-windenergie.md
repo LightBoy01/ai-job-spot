@@ -72,4 +72,26 @@ story_answer3: >-
   collaborative approach ensures our projects are not only technically sound but
   also politically viable and socially accepted, truly making a difference.
 ---
-### Description\nAre you an expert in renewable energies? Then we need your power!\n\nJoin a strong renewable energy company that implements solar and wind plants nationwide. Based in Hannover, this company is dedicated to developing the vision of an emission-free future. As an experienced Project Manager for Wind Energy, you will be a vital part of this pioneering vision, guiding large wind projects from planning to implementation and ensuring their smooth execution.\n\n### Responsibilities\n- You are responsible for project development and its execution until the completion of wind farms.\n- You conduct analyses, forecasts, and site securing.\n- You create planning concepts and commission necessary expert reports.\n- You contractually secure the land and accompany approval procedures.\n- You regularly exchange information about the project status and politically support them.\n\n### Qualifications\n- Several years of relevant professional experience in a comparable position.\n- Completed studies in Renewable Energies or a comparable field.\n- Practical experience in applying project management tools.\n- Very good German and good English language skills.\n- Proficient in MS Office.\n- You work reliably both independently and in a team.\n- Driving license and willingness to travel for business.\n\n### Author's Take\nThis is an exciting opportunity for a seasoned Project Manager passionate about wind energy to contribute to a sustainable future. The company offers a robust, regularly adjusted salary, flexible working hours, and the option for mobile work. Employees benefit from 30 vacation days, paid training and further education, and a modern office environment with daily fresh fruit, coffee, and tea. Additional perks include contributions to capital-forming benefits, a pension fund, and tax-free benefits, making this a truly supportive and forward-thinking workplace.
+### Description
+Are you an expert in renewable energies? Then we need your power!
+
+Join a strong renewable energy company that implements solar and wind plants nationwide. Based in Hannover, this company is dedicated to developing the vision of an emission-free future. As an experienced Project Manager for Wind Energy, you will be a vital part of this pioneering vision, guiding large wind projects from planning to implementation and ensuring their smooth execution.
+
+### Responsibilities
+- You are responsible for project development and its execution until the completion of wind farms.
+- You conduct analyses, forecasts, and site securing.
+- You create planning concepts and commission necessary expert reports.
+- You contractually secure the land and accompany approval procedures.
+- You regularly exchange information about the project status and politically support them.
+
+### Qualifications
+- Several years of relevant professional experience in a comparable position.
+- Completed studies in Renewable Energies or a comparable field.
+- Practical experience in applying project management tools.
+- Very good German and good English language skills.
+- Proficient in MS Office.
+- You work reliably both independently and in a team.
+- Driving license and willingness to travel for business.
+
+### Author's Take
+This is an exciting opportunity for a seasoned Project Manager passionate about wind energy to contribute to a sustainable future. The company offers a robust, regularly adjusted salary, flexible working hours, and the option for mobile work. Employees benefit from 30 vacation days, paid training and further education, and a modern office environment with daily fresh fruit, coffee, and tea. Additional perks include contributions to capital-forming benefits, a pension fund, and tax-free benefits, making this a truly supportive and forward-thinking workplace.

@@ -4,8 +4,8 @@ title: IT Administrator (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/it-administrator-munich-201019
-postedDate: '2025-11-07T01:34:06.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/it-administrator-munich-143479
+postedDate: '2025-11-28T01:34:49.000Z'
 expirationDate: null
 tags:
   - Information Systems
@@ -15,84 +15,45 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/it-administrator-munich-201019
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/it-administrator-munich-143479
 companyLogoUrl: null
 companyCulture: >-
-  Our company fosters a supportive and growth-oriented culture, emphasizing
-  continuous learning and development through internal opportunities. We promote
-  a dynamic and collaborative environment with flat hierarchies and short
-  decision-making processes, ensuring appreciative teamwork and a strong focus
-  on employee well-being with ergonomic workspaces and health programs.
+  The company fosters a supportive, collaborative, and growth-oriented
+  environment with flat hierarchies and a strong focus on employee well-being
+  and development. New team members can expect comprehensive onboarding and a
+  dynamic work setting.
 story_question1: >-
-  How does this role contribute to the strategic goal of enhancing data security
-  and operational efficiency through automation, and what are the key challenges
-  you foresee in implementing new solutions?
+  How does this role contribute to the fundamental stability and continuous
+  operation of the company's IT systems, especially regarding data integrity and
+  security?
 story_answer1: >-
-  That's a fantastic question and really hits the core of what we do. From my
-  perspective, this role is absolutely critical. Imagine the sheer volume of
-  data we manage; ensuring its integrity and availability isn't just a technical
-  task, it's the bedrock of our operations. The IT Administrator isn't just
-  'backing up data'; they're safeguarding our institutional knowledge and
-  ensuring business continuity. The automation aspect? That's where we move from
-  reactive to proactive. You'll be identifying bottlenecks and designing
-  solutions that free up our teams, allowing them to focus on innovation rather
-  than repetitive tasks. It's challenging, yes, especially with evolving threats
-  and the need for seamless integration, but the impact you'll have on our
-  overall efficiency and security posture is immense and deeply valued here.
+  Ah, the unsung hero of the digital age! As an IT Administrator here, you're
+  truly at the core of our operational resilience. Imagine the company as a
+  bustling city; your role ensures the water and electricity – our critical data
+  – never stop flowing, and are always safe. Every data backup, every meticulous
+  check of archive media, isn't just a task; it's a safeguard. We're talking
+  about ensuring business continuity, protecting sensitive information, and
+  ultimately, building the trust our clients place in us. It's challenging, yes,
+  staying ahead of potential issues and constantly refining our processes, but
+  the satisfaction of knowing you're protecting the company's digital heart is
+  immense. You're not just maintaining systems; you're safeguarding our future.
 story_question2: >-
-  The job description mentions development opportunities and a strong team
-  spirit. Can you elaborate on how a new IT Administrator would be supported in
-  their professional growth and integrated into the team?
+  Given the emphasis on development and a dynamic environment, what
+  opportunities exist for an IT Administrator to evolve their skills and
+  contribute to broader technical innovations, particularly in automation?
 story_answer2: >-
-  Absolutely! We truly believe in nurturing our talent. When you join us, you're
-  not just thrown into the deep end. Your experienced colleagues will be your
-  first point of contact, guiding you through our systems and processes during
-  your onboarding. Beyond that initial phase, we have a robust internal
-  development program. Whether it's specialized training in new SAP modules,
-  advanced cybersecurity courses, or project management certifications, we
-  encourage and fund continuous learning. As for team integration, it's very
-  organic. We operate with flat hierarchies, which means your ideas are heard,
-  and decisions are made collaboratively. There's a genuine spirit of mutual
-  support; everyone is willing to lend a hand. We celebrate successes together
-  and tackle challenges as a unit, ensuring you feel like a valued member from
-  day one.
-story_question3: >-
-  How does the dynamic environment mentioned in the benefits section translate
-  into the day-to-day work of an IT Administrator, especially concerning new
-  technologies and evolving system requirements?
-story_answer3: >-
-  That's a great point about our dynamic environment. For an IT Administrator,
-  it means your role is never static – and that's precisely what makes it
-  exciting! We're constantly evaluating and integrating new technologies to
-  improve our infrastructure, enhance security, and streamline processes. This
-  isn't just about maintaining the status quo; it's about proactively adapting.
-  You'll be exposed to cutting-edge solutions, participate in pilot projects,
-  and have the opportunity to research and recommend tools that can make a real
-  difference. For instance, when a new data protection regulation emerges or a
-  more efficient backup solution becomes available, you'll be at the forefront
-  of implementing those changes. It keeps things fresh, ensures you're always
-  learning, and allows you to truly shape the technological landscape of our
-  company. It's challenging in the best way possible, constantly pushing us to
-  innovate.
+  That's an excellent question, and it touches upon one of our core values:
+  growth. While your day-to-day will involve crucial maintenance and
+  documentation, we actively encourage our IT Administrators to look beyond
+  routine. Remember the mention of developing automation solutions? That's a
+  prime example. We don't just want you to keep the lights on; we want you to
+  make them brighter and more efficient. You'll have access to various internal
+  training and development programs, and more importantly, the freedom to
+  explore and propose new tools or approaches. Our flat hierarchies mean your
+  ideas aren't lost in bureaucracy; they're heard, discussed, and often
+  implemented. Many of our current automation scripts and efficiency boosts
+  started as an 'I wonder if...' idea from someone in your role. It's a dynamic
+  environment where continuous learning isn't just a benefit, it's part of our
+  DNA.
 ---
-### Description
-Our partner company is seeking a dedicated **IT Administrator (m/w/d)** to join their team at the earliest possible date. This role is pivotal in ensuring the stability, security, and efficiency of IT systems through diligent data management, documentation, and the development of automation solutions. You will be instrumental in maintaining the integrity of our digital assets and contributing to a proactive IT environment.
-
-### Responsibilities
-As an IT Administrator, your key responsibilities will include:
-*   Monitoring and executing data backups for all critical IT systems.
-*   Ensuring comprehensive documentation and diligent logging of all relevant processes and incidents.
-*   Managing the transfer of data carriers, including meticulous documentation for exchanges with external data centers and regular reorganization.
-*   Routinely checking and verifying the readability and completeness of archive media.
-*   Archiving documents within our SAP systems.
-*   Proactively developing and implementing solutions to automate operational processes, enhancing efficiency and reducing manual effort.
-
-### Qualifications
-To succeed in this role, you should possess:
-*   A completed degree in computer science or a comparable qualification.
-*   Ideally, several years of professional experience in SAP system administration or data backup management.
-*   Strong analytical abilities and excellent communication skills, coupled with a high degree of customer and service orientation.
-*   Very good proficiency in both German and English, both written and spoken.
-
-### Author's Take
-This IT Administrator role offers a fantastic opportunity for an experienced professional who is passionate about data integrity, system security, and process automation. The company clearly values its employees, offering a supportive onboarding process, a strong focus on health and well-being with ergonomic workspaces, and numerous internal development opportunities. You'll thrive in a dynamic environment characterized by exciting and varied tasks, flat hierarchies, quick decision-making, and a truly collaborative team spirit. If you're looking to make a tangible impact, grow your skills, and contribute to a forward-thinking organization, this could be your next exciting career step. Your expertise in data backup and automation will be highly valued in this appreciative and versatile setting.
+### Description\nWe are seeking an **IT Administrator (m/f/d)** for our partner company. In this crucial role, you will be responsible for the monitoring and execution of data backups for IT systems, comprehensive documentation, and the transfer and management of data carriers. Your responsibilities also include maintaining archive media, archiving documents in SAP, and contributing to the development of automation solutions for operational processes.\n\n### Responsibilities\n- Monitoring and executing data backups for IT systems.\n- Holistic documentation and logging of IT processes.\n- Managing the transfer of data carriers, including documentation for exchange with external data centers and regular reorganization.\n- Maintaining and checking the readability and completeness of archive media.\n- Archiving documents within SAP.\n- Developing solutions for the automation of operational processes.\n\n### Qualifications\n- Completed degree in Computer Science or a comparable qualification.\n- Ideally, several years of experience in SAP system administration or data backup.\n- Strong analytical and communication skills, coupled with high customer and service orientation.\n- Very good command of German and English.\n\n### Author's Take\nThis is an essential Mid-Senior IT Administrator role focused on maintaining critical data integrity and operational efficiency. The company offers a highly supportive environment with experienced colleagues for onboarding, numerous development opportunities, and a dynamic work culture. You'll thrive here if you appreciate flat hierarchies, quick decision-making, and collaborative teamwork, all while having the chance to contribute to impactful automation projects and ensure the digital backbone of the organization.

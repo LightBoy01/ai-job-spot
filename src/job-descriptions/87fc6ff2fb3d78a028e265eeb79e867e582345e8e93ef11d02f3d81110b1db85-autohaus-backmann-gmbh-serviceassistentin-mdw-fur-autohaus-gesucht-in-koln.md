@@ -64,4 +64,22 @@ story_answer3: >-
   is to always find a way to make the customer feel heard and valued, even when
   things don't go perfectly.
 ---
-### Description\nAutohaus Bäckmann has been a competent automotive dealer in the Cologne region for over 45 years, specializing in Mazda mobility and serving as a Suzuki service partner. Our team of 25 employees is passionate, future-oriented, and always acts with both employee and customer satisfaction in mind. We are looking for a dedicated individual to support our workshop team at our Cologne location, ensuring excellent customer service and smooth operational flow.\n\n### Responsibilities\n- Welcome and attend to our customers in the service area.\n- Schedule and coordinate appointments for repairs and maintenance.\n- Prepare accurate cost estimates for services and repairs.\n- Ensure high levels of customer satisfaction throughout the service process.\n\n### Qualifications\n- Completed commercial or technical training is desirable.\n- Proven experience in customer service, ideally within a car dealership environment.\n- Good knowledge of common IT software and systems relevant to customer service.\n- A high degree of customer orientation and service awareness is essential.\n- Strong team player with excellent communication skills and organizational talent.\n- Possess a valid Class B driver's license.\n\n### Author's Take\nThis role at Autohaus Bäckmann offers a fantastic opportunity to join a long-established and respected automotive dealer in Cologne. You'll be a key part of a motivated, supportive team that values both customer satisfaction and employee well-being. With a secure job, comprehensive onboarding, regular training, a pleasant work environment, and attractive social benefits, this position is ideal for someone passionate about customer service in the automotive industry looking for a stable and growth-oriented environment. If you thrive in a collaborative setting and enjoy making a direct impact on customer experience, this is a great next step for your career.
+### Description
+Autohaus Bäckmann has been a competent automotive dealer in the Cologne region for over 45 years, specializing in Mazda mobility and serving as a Suzuki service partner. Our team of 25 employees is passionate, future-oriented, and always acts with both employee and customer satisfaction in mind. We are looking for a dedicated individual to support our workshop team at our Cologne location, ensuring excellent customer service and smooth operational flow.
+
+### Responsibilities
+- Welcome and attend to our customers in the service area.
+- Schedule and coordinate appointments for repairs and maintenance.
+- Prepare accurate cost estimates for services and repairs.
+- Ensure high levels of customer satisfaction throughout the service process.
+
+### Qualifications
+- Completed commercial or technical training is desirable.
+- Proven experience in customer service, ideally within a car dealership environment.
+- Good knowledge of common IT software and systems relevant to customer service.
+- A high degree of customer orientation and service awareness is essential.
+- Strong team player with excellent communication skills and organizational talent.
+- Possess a valid Class B driver's license.
+
+### Author's Take
+This role at Autohaus Bäckmann offers a fantastic opportunity to join a long-established and respected automotive dealer in Cologne. You'll be a key part of a motivated, supportive team that values both customer satisfaction and employee well-being. With a secure job, comprehensive onboarding, regular training, a pleasant work environment, and attractive social benefits, this position is ideal for someone passionate about customer service in the automotive industry looking for a stable and growth-oriented environment. If you thrive in a collaborative setting and enjoy making a direct impact on customer experience, this is a great next step for your career.

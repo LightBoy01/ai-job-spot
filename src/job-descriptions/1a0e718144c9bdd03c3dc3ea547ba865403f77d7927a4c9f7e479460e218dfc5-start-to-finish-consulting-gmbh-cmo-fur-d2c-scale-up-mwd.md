@@ -84,4 +84,25 @@ story_answer3: >-
   tech hubs. It's about building a global brand with a distinctive, authentic
   northern European foundation.
 ---
-### Description\\nStart to Finish is a leading recruiting boutique for E-commerce startups in the DACH region, partnering with rapidly growing companies like Snocks, Seller X, and Pets Deli to fill key positions.\\n\\nOur client is a fast-growing D2C brand that has already acquired hundreds of thousands of customers and is on track for mid-9-digit revenues. As the CMO, you will join a dynamic, international team aiming to scale the brand globally.\\n\\n### Responsibilities\\nAs CMO, you will take overall responsibility for:\\n- Performance Marketing, Influencer, Creative, CRM & Brand strategies.\\n- Developing and implementing scalable cross-channel marketing strategies.\\n- Team leadership: Managing a small but growing team of marketing specialists and external agencies.\\n- Expansion: Guiding the brand into new European markets and, long-term, the USA.\\n- Results & KPIs: Continuously optimizing and reporting on ROAS, CAC, LTV, CM3.\\n- Hands-on Leadership: Reviewing ads, funnels, and reports, leading your team by example.\\n\\n### Qualifications\\n- Experience in scale-ups with at least 8-figure revenues.\\n- Several years of experience in a leading marketing position.\\n- D2C background (Food, Beauty, Lifestyle, Health, etc. – all relevant).\\n- Ability to scale growth through Performance Marketing.\\n\\n### Author's Take\\nThis is an exceptional C-level opportunity for a visionary CMO to drive global expansion for a high-growth D2C brand. You'll have significant strategic influence, reporting directly to management, and the chance to build and lead a rapidly expanding international team. The role offers attractive compensation with a variable bonus component and access to external coaching and international best practices, all within a modern office in Hamburg or Kiel. It's perfect for a hands-on leader passionate about scaling brands to international success.
+### Description\
+Start to Finish is a leading recruiting boutique for E-commerce startups in the DACH region, partnering with rapidly growing companies like Snocks, Seller X, and Pets Deli to fill key positions.\
+\
+Our client is a fast-growing D2C brand that has already acquired hundreds of thousands of customers and is on track for mid-9-digit revenues. As the CMO, you will join a dynamic, international team aiming to scale the brand globally.\
+\
+### Responsibilities\
+As CMO, you will take overall responsibility for:\
+- Performance Marketing, Influencer, Creative, CRM & Brand strategies.\
+- Developing and implementing scalable cross-channel marketing strategies.\
+- Team leadership: Managing a small but growing team of marketing specialists and external agencies.\
+- Expansion: Guiding the brand into new European markets and, long-term, the USA.\
+- Results & KPIs: Continuously optimizing and reporting on ROAS, CAC, LTV, CM3.\
+- Hands-on Leadership: Reviewing ads, funnels, and reports, leading your team by example.\
+\
+### Qualifications\
+- Experience in scale-ups with at least 8-figure revenues.\
+- Several years of experience in a leading marketing position.\
+- D2C background (Food, Beauty, Lifestyle, Health, etc. – all relevant).\
+- Ability to scale growth through Performance Marketing.\
+\
+### Author's Take\
+This is an exceptional C-level opportunity for a visionary CMO to drive global expansion for a high-growth D2C brand. You'll have significant strategic influence, reporting directly to management, and the chance to build and lead a rapidly expanding international team. The role offers attractive compensation with a variable bonus component and access to external coaching and international best practices, all within a modern office in Hamburg or Kiel. It's perfect for a hands-on leader passionate about scaling brands to international success.

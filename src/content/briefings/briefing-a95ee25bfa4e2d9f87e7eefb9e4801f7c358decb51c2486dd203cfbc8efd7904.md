@@ -7,7 +7,7 @@ publishDate: 2025-11-06T09:00:00.000Z
 contentType: briefing
 sourceName: InfoQ
 originalUrl: >-
-  https://www.infoq.com/articles/training-data-preprocessing-for-text-to-video-models/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering
+  https://www.infoq.com/articles/training-data-preprocessing-for-text-to-video-models/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI,+ML+&+Data+Engineering
 status: pending_review
 tags:
   - Machine Learning

@@ -4,49 +4,52 @@ title: Tax Manager im Reporting (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/tax-manager-im-reporting-munich-132144
-postedDate: '2025-11-07T01:34:15.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/tax-manager-im-reporting-munich-329449
+postedDate: '2025-11-28T01:34:54.000Z'
 expirationDate: null
 tags:
   - Controlling
 status: published
-jobLevel: Mid-Senior
+jobLevel: Senior
 employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/tax-manager-im-reporting-munich-132144
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/tax-manager-im-reporting-munich-329449
 companyLogoUrl: null
 companyCulture: >-
-  The company fosters a supportive, trusting, and collaborative environment with
-  a strong emphasis on work-life balance, continuous professional development,
-  and employee well-being, providing a modern and health-conscious workplace.
+  The company fosters a supportive and trusting work environment with a
+  "Du-Kultur" and a strong emphasis on positive collaboration. Employees benefit
+  from excellent work-life balance through flexible hours and home office,
+  alongside numerous opportunities for professional and personal growth.
 story_question1: >-
-  Beyond the core reporting tasks, how does the Tax Manager role directly
-  influence the company's financial strategy and decision-making, particularly
-  concerning international transactions?
+  Given the dynamic nature of international tax regulations and the company's
+  global presence, how does this role strategically contribute to optimizing the
+  group's tax position and ensuring compliance across various jurisdictions?
 story_answer1: >-
-  From my perspective, this isn't just about crunching numbers; it's about being
-  a strategic partner. Our reporting isn't a standalone task; it directly
-  informs critical business decisions, especially during company transactions.
-  You'll be the one analyzing the ripple effect on our tax positions,
-  identifying optimization opportunities, and ultimately helping shape our
-  financial future. There's a real sense of impact here, and management
-  genuinely trusts your expertise to guide us through complex tax landscapes,
-  both domestically and internationally.
+  As a Tax Manager here, you're not just crunching numbers; you're truly at the
+  heart of our financial strategy. I remember a few months ago, we were
+  navigating a complex new IFRS requirement across several subsidiaries. It was
+  challenging, but by proactively identifying optimization opportunities and
+  coordinating closely with our international teams, we managed to streamline
+  our reporting significantly. The trust from leadership to tackle these
+  challenges, coupled with a highly collaborative ‘Du-Kultur’ where everyone
+  openly shares ideas, makes a tangible difference. You genuinely see the impact
+  of your work on our global financial health and compliance, and there's always
+  support for you to grow through these experiences.
 story_question2: >-
-  Given the emphasis on a positive, trusting culture and extensive development
-  opportunities, what tangible avenues exist for a Tax Manager to not only grow
-  their expertise but also contribute to process improvements within the team?
+  Beyond the core reporting tasks, what opportunities exist for this role to
+  drive process improvements or leverage new technologies in tax accounting to
+  enhance efficiency and accuracy?
 story_answer2: >-
-  What I love about working here is the genuine investment in our growth. As a
-  Tax Manager, you're not just executing; you're actively encouraged to evolve
-  and innovate. We're always looking for ways to optimize our tax planning and
-  reporting, and your analytical insights will be crucial. Whether it's
-  streamlining workflows, integrating new tools, or taking on more complex
-  international projects, the leadership actively supports initiatives that
-  enhance our efficiency and deepen your expertise. It's a collaborative space
-  where your ideas are valued, and your development path is tailored to your
-  ambitions.
+  That's a fantastic question, and it speaks to our culture of continuous
+  improvement. While the foundational reporting is crucial, we're always looking
+  for ways to innovate. Just last year, one of our Tax Managers led an
+  initiative to partially automate some of our quarterly review processes using
+  new software, freeing up significant time for more strategic analysis. The
+  company actively encourages us to explore and propose ideas for efficiency
+  gains, and they invest in the tools and training needed. It's rewarding to not
+  only maintain our high standards but also to actively shape how we work,
+  ensuring we're always at the forefront of tax accounting practices.
 ---
-### Description\nOur partner company is seeking a dedicated Tax Manager for Reporting (m/w/d) to join their team as soon as possible. This role is central to coordinating group-wide tax reporting, ensuring compliance, and contributing to strategic tax planning within an international context.\n\n### Responsibilities\n- Coordination of group-wide tax reporting and execution of audits and reviews.\n- Determination of group taxes according to IFRS within quarterly, annual, and consolidated financial statements, including the preparation of appendix disclosures.\n- Tax planning, identification of optimization opportunities, and execution of variance analyses.\n- Processing of tax issues in company transactions and analysis of their impact on group tax positions.\n- Central contact person for communication with domestic and foreign group companies as well as with auditors.\n\n### Qualifications\n- A completed degree in economics with a focus on auditing, accounting, or taxation.\n- Ideally, extensive professional experience in Tax Accounting & Reporting.\n- Profound knowledge of accounting according to IFRS and HGB, as well as tax law.\n- Strong analytical thinking and a structured way of working.\n- Fluent German and English skills complete your profile.\n\n### Author's Take\nThis is a fantastic opportunity for an experienced Tax Manager looking to make a significant impact within a supportive and forward-thinking organization. The company deeply values employee well-being and professional growth, offering an excellent work-life balance through flexible hours and home office options. You'll thrive in a positive, trusting \"Du-Kultur\" workplace where leadership actively encourages continuous learning and development. Beyond core responsibilities, you'll benefit from a modern work environment, comprehensive health management including sport offerings and massages, exclusive employee discounts, and a top-notch canteen. This role isn't just a job; it's a chance to grow your career in a company that genuinely invests in its people.
+### Description\nOur partner company is seeking a dedicated **Tax Manager for Reporting (m/w/d)** to join their team as soon as possible. In this pivotal role, you will be instrumental in coordinating group-wide tax reporting, ensuring compliance, and optimizing tax positions for international and domestic operations. You will act as a central point of contact for all tax-related matters, contributing significantly to the company's financial integrity and strategic planning.\n\n### Responsibilities\n- Coordinate group-wide tax reporting and conduct audits and reviews.\n- Determine group taxes according to IFRS within quarterly, annual, and consolidated financial statements, including the preparation of annex disclosures.\n- Perform tax planning, identify optimization opportunities, and conduct deviation analyses.\n- Handle tax issues related to corporate transactions and analyze their impact on group tax positions.\n- Serve as the central point of contact for communication with domestic and international group companies, as well as with auditors.\n\n### Qualifications\n- Completed studies in economics with a focus on auditing, accounting, or taxation.\n- Ideally, extensive professional experience in tax accounting & reporting.\n- Sound knowledge of accounting according to IFRS and HGB, as well as tax law.\n- Analytical thinking and a structured way of working.\n- Proficient German and English language skills.\n\n### Author's Take\nThis is an outstanding opportunity for an experienced Tax professional to take on a highly impactful role within a company that truly values its employees. The comprehensive benefits package highlights a strong commitment to **work-life balance** with flexible hours and home office options, a **positive and trusting work culture** (\"Du-Kultur\"), and significant **personal and professional development opportunities**. Furthermore, the modern work environment, health management programs (including JobRad and massages), and exclusive employee discounts demonstrate a holistic approach to employee well-being. This role is ideal for someone looking to combine their tax expertise with a supportive, growth-oriented, and dynamic organization.

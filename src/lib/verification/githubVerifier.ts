@@ -73,7 +73,7 @@ export function analyzeGithubPortfolio(repos: GithubRepoSummary[], userId: strin
   
   const aiRepos = repos.filter(repo => {
     // 1. Check topics
-    const hasAiTopic = repo.topics.some(topic => aiTopics.includes(topic.toLowerCase()));
+    const hasAiTopic = repo.topics.some((topic: string) => aiTopics.includes(topic.toLowerCase()));
     // 2. Check description keywords (simple heuristic)
     const hasAiDescription = repo.description && aiTopics.some(keyword => repo.description?.toLowerCase().includes(keyword));
     // 3. Relaxed MVP Check: Just being Python isn't enough, but let's be generous if it's Python + "bot" or "data"

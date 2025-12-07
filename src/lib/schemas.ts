@@ -18,6 +18,7 @@ export const articleSchema = z.object({
   author_take_answer1: z.string().nullable().optional(),
   author_take_question2: z.string().nullable().optional(),
   author_take_answer2: z.string().nullable().optional(),
+  relatedJobIds: z.array(z.string()).optional(),
   contentBody: z.string().nullable().optional(),
 });
 
@@ -38,6 +39,14 @@ export const jobSchema = z.object({
   source: z.string().nullable().optional(),
   sourceUrl: z.string().url().nullable().optional(),
   verificationDate: z.union([z.date(), z.string().pipe(z.coerce.date())]).nullable().optional(),
+  verificationHistory: z.array(
+    z.object({
+      date: z.union([z.date(), z.string().pipe(z.coerce.date())]),
+      type: z.enum(['automated', 'manual', 'crowdsourced']),
+      verifier: z.string().optional(),
+      note: z.string().optional(),
+    })
+  ).optional(),
   glassdoorLink: z.string().url().nullable().optional(),
   crunchbaseLink: z.string().url().nullable().optional(),
   companyLogoUrl: z.string().nullable().optional(),
@@ -54,4 +63,5 @@ export const jobSchema = z.object({
   story_answer3: z.string().optional(),
   companyCulture: z.string().optional(),
   tweetableDescription: z.string().optional(),
+  relatedArticleIds: z.array(z.string()).optional(),
 });

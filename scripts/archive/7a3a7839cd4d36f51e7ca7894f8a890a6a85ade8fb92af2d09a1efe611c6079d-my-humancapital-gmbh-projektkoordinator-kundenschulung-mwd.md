@@ -4,8 +4,8 @@ title: Projektkoordinator Kundenschulung (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/projektkoordinator-kundenschulung-munich-84868
-postedDate: '2025-11-07T14:02:08.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/projektkoordinator-kundenschulung-munich-284904
+postedDate: '2025-11-28T01:35:01.000Z'
 expirationDate: null
 tags:
   - Project Management
@@ -15,63 +15,56 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/projektkoordinator-kundenschulung-munich-84868
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/projektkoordinator-kundenschulung-munich-284904
 companyLogoUrl: null
 companyCulture: >-
-  The company fosters an appreciative and collaborative 'Du' culture,
-  emphasizing flexible working hours for work-life balance. As a market leader,
-  it offers crisis security and numerous opportunities for further training and
-  development.
+  The company fosters a supportive and collaborative 'Du-culture' with a strong
+  emphasis on work-life balance through flexible hours. It provides excellent
+  opportunities for professional growth and development within a secure,
+  market-leading environment.
 story_question1: >-
-  As a central communication interface and coordinator for customer training,
-  what's the most challenging aspect of ensuring a seamless and positive
-  experience for participants, especially when dealing with unforeseen
-  logistical hurdles or diverse participant needs?
+  How does this role directly contribute to the success and satisfaction of the
+  customer training programs, and what kind of impact can a coordinator make in
+  ensuring a seamless experience?
 story_answer1: >-
-  Oh, that's a great question! Being the central point for participants,
-  trainers, and project leads means you're really the 'glue' that holds
-  everything together. The biggest challenge, but also the most rewarding part,
-  is anticipating and swiftly resolving those little unexpected bumps – maybe a
-  change in room availability, or a participant needing extra support. Our
-  'Du-Kultur' truly shines here; there's such a strong sense of trust and
-  positive collaboration. When a snag appears, everyone jumps in to help, and
-  because we prioritize open communication, we often turn potential problems
-  into opportunities to impress. Seeing a participant leave with a smile, having
-  genuinely learned and felt supported, that's the real win, and it's a
-  testament to our team spirit and commitment to continuous improvement.
+  You know, as a Project Coordinator here, you're really the heartbeat of our
+  customer training. While the project leads set the strategy, *you're* the one
+  making sure everything runs like a well-oiled machine on the ground. From the
+  moment participants arrive, you're their go-to person, ensuring their
+  experience is smooth and positive. You're catching potential issues before
+  they become problems, and your insights are crucial for refining future
+  courses. It's incredibly rewarding to see satisfied customers leave, knowing
+  you've played a direct role in their success and our company's reputation for
+  excellence.
 story_question2: >-
-  The job description mentions 'numerous further training and development
-  opportunities.' Could you share an example of how a Project Coordinator in
-  Customer Training might leverage these opportunities to grow within the
-  company, perhaps into a more specialized or leadership role?
+  Given the strong emphasis on an appreciative and trusting work culture, how
+  does the team practically support each other, especially when managing
+  unexpected challenges or adapting to new training requirements?
 story_answer2: >-
-  Absolutely! Growth is a big deal here. For a Project Coordinator, the path
-  isn't strictly linear. For instance, we've had coordinators who, after
-  mastering the operational aspects, showed a real knack for curriculum
-  development and later transitioned into a more content-focused role within the
-  training department. Others have developed expertise in a specific product
-  line and become lead trainers or even moved into project management roles
-  overseeing larger training initiatives. The 'Weiterentwicklung' isn't just
-  about courses; it's about actively identifying your strengths, and the company
-  genuinely invests in nurturing those. Our leaders trust us, and they encourage
-  us to explore where our talents can best contribute to our market-leading
-  position. It's truly empowering.
+  Our 'Du-Kultur' isn't just a buzzword; it's how we genuinely operate. When
+  things get hectic, or a new training program requires quick adjustments,
+  there's an immediate sense of collective responsibility. We openly
+  communicate, share insights, and jump in to help wherever needed – whether
+  it's coordinating logistics or troubleshooting on the fly. Our leadership
+  truly trusts us to manage our tasks and proactively address issues, which
+  fosters a huge sense of ownership and reduces unnecessary stress. It feels
+  like we're all in this together, constantly learning and improving, which
+  makes every day genuinely collaborative.
 story_question3: >-
-  As a market leader, security and reliability are key. How does the
-  'Projektkoordinator Kundenschulung' role directly contribute to maintaining
-  the company's reputation for excellence and reliability with its customers,
-  beyond just delivering training?
+  What are the most significant opportunities for personal and professional
+  growth within this role, especially concerning the "numerous training and
+  development opportunities" mentioned?
 story_answer3: >-
-  That's a fantastic observation! It's true, being a market leader means our
-  customers expect nothing less than perfection, and the Project Coordinator is
-  absolutely critical to that. Beyond simply organizing courses, we're the
-  direct face of the company during these crucial training interactions. By
-  meticulously ensuring smooth logistics, professional participant care, and
-  quick problem resolution – essentially, anticipating needs before they even
-  arise – we reinforce that image of reliability and excellence. Every positive
-  training experience builds trust, strengthens customer loyalty, and ultimately
-  solidifies our position as the go-to expert. We're not just delivering
-  training; we're delivering on our brand promise, ensuring our customers feel
-  valued and confident in their investment with a true market leader.
+  The growth opportunities here are fantastic, and frankly, a huge reason I'm
+  still thriving. As a coordinator, you're exposed to so many facets of our
+  operations – from detailed course planning to international logistics. This
+  broad exposure naturally builds a strong foundation. But beyond that, the
+  company actively invests in us. We have access to various internal and
+  external training programs, whether it's deepening our SAP expertise, honing
+  project management skills, or even developing leadership potential. If you
+  show initiative and a desire to learn, there's a clear path to take on more
+  responsibility, specialize, or even move into project management yourself.
+  It's a place where continuous learning isn't just encouraged, it's expected
+  and fully supported.
 ---
-### Description\nOn behalf of our partner company in northern Munich, we are looking for you as soon as possible as **\"Project Coordinator Customer Training (m/f/d)\"**. This role is a unique opportunity to join a market-leading company known for its crisis security, modern work environment, and supportive culture, offering attractive compensation under the IG Metall collective agreement and excellent development opportunities.\n\n### Responsibilities\n- Support project management in course preparation, document, and material creation.\n- Take on organizational tasks in planning and conducting courses.\n- On-site support for participants according to contractual requirements.\n- Report needs and requirements to project management.\n- Serve as the central communication interface between participants, trainers, and project management.\n- Ensure a smooth course flow on-site.\n- Record and forward problems and optimization potential.\n- Assist with scheduling and resource coordination (rooms, materials, equipment).\n- Manage participant documents and create status overviews and checklists.\n- Support logistics and travel organization (nationwide/international).\n\n### Qualifications\n- Completed technical vocational training, preferably supplemented by a master craftsman further training.\n- Ideally, you have already gained professional experience in customer training.\n- You have very good ERP knowledge, ideally in SAP R/3, and are proficient in common MS Office programs.\n- You work in an organized, responsible manner and have a high degree of accuracy in processing orders and inventories.\n- You bring a willingness to travel and a valid car driver's license.\n- Fluent German and English language skills distinguish you.\n\n### Author's Take\nThis is an excellent opportunity for an organized and responsible individual with a technical background and a passion for customer training. The role offers a vital position in coordinating training programs for a market leader, ensuring smooth operations and participant satisfaction. With flexible working hours, an appreciative 'Du-Kultur', and extensive further development opportunities, the company truly values its employees. The comprehensive benefits under the IG Metall collective agreement further enhance the attractiveness of this secure and modern work environment. If you thrive in a collaborative setting and enjoy being a central point of contact, this role offers significant impact and growth.
+### Description\\nOur partner company in North Munich is seeking a **Project Coordinator for Customer Training (m/f/d)** to start as soon as possible. This role is crucial for ensuring the smooth execution and high quality of customer training programs, working closely with project management, trainers, and participants.\\n\\n### Responsibilities\\n- Support project management with course preparation and the creation of documents and materials.\\n- Take ownership of organizational tasks in the planning and execution of training courses.\\n- Provide on-site support to participants, ensuring compliance with contractual requirements.\\n- Report requirements and demands to project management.\\n- Act as the central communication interface between participants, trainers, and project management.\\n- Ensure the seamless on-site operation of courses.\\n- Record and forward any problems or potential for optimization.\\n- Assist with scheduling and the coordination of resources (rooms, materials, equipment).\\n- Manage participant documents and create status overviews and checklists.\\n- Provide support for logistics and travel organization (nationwide/international).\\n\\n### Qualifications\\n- Completed technical vocational training, preferably supplemented by a master craftsman qualification.\\n- Ideally, professional experience gained in customer training.\\n- Very good ERP knowledge, ideally in SAP R/3, and proficient in common MS Office programs.\\n- Demonstrated organizational skills, responsibility, and a high degree of accuracy in processing orders and inventories.\\n- Willingness to travel and possession of a valid driver's license.\\n- Fluent in both German and English.\\n\\n### Author's Take\\nThis is an excellent opportunity for an organized and responsible individual to join a market-leading company that deeply values its employees. The role offers a supportive 'Du-Kultur' environment with flexible working hours for a healthy work-life balance, competitive remuneration under the IG Metall collective agreement, and significant job security. Furthermore, the company is committed to professional growth, providing numerous training and development opportunities in a modern work setting. If you're looking to make a tangible impact in customer training within a forward-thinking and appreciative team, this position is worth exploring.

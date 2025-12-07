@@ -75,4 +75,26 @@ story_answer3: >-
   focus on employee well-being, including access to confidential counseling
   services.
 ---
-### Description\nJoin FlixTrain's dedicated training team and play a pivotal role in shaping the future of railway travel. As a Trainer, you will professionally prepare our train staff and drivers for their operational duties, ensuring the highest standards of safety, efficiency, and service quality. This role offers the opportunity to make a tangible impact in a dynamic environment, contributing directly to the professionalism of our frontline personnel through practical, on-site trainings across major German cities.\n\n### Responsibilities\n- Organize and lead on-site trainings for train assistants, conductors, and train drivers.\n- Develop and update training materials, with a focus on digital learning formats.\n- Independently conduct instructions and refresher courses in accordance with current regulations.\n- Prepare and deliver theoretical and practical teaching units.\n- Create and analyze learning success controls to ensure training quality.\n- Document and reflect on teaching results for continuous improvement.\n- Collaborate closely with other trainers to further develop standards and content.\n\n### Qualifications\n- Completed railway-specific training with a minimum of 3 years of professional experience in the railway sector.\n- Valid train driving license for at least 2 years.\n- Proven experience as a trainer, instructor, or examiner for train personnel.\n- High willingness to travel and flexibility for Germany-wide assignments, including overnight stays.\n- Proficient in MS Office and an interest in digital learning formats.\n- Very good German language skills (at least C1 level).\n- Strong teamwork skills, social competence, and excellent communication abilities.\n\n### Author's Take\nThis is a fantastic Mid-Senior level opportunity for an experienced railway professional with a passion for teaching and a proven track record as a trainer. FlixTrain offers a dynamic and supportive environment where your expertise directly contributes to operational safety and service quality. The role emphasizes continuous learning, digital innovation in training, and collaboration within a growing company. While requiring significant travel, the company provides excellent benefits, including hybrid work options, extensive development programs, and a strong focus on employee well-being and growth. If you're looking to make a significant impact and help shape the next generation of railway professionals, this role is for you.
+### Description
+Join FlixTrain's dedicated training team and play a pivotal role in shaping the future of railway travel. As a Trainer, you will professionally prepare our train staff and drivers for their operational duties, ensuring the highest standards of safety, efficiency, and service quality. This role offers the opportunity to make a tangible impact in a dynamic environment, contributing directly to the professionalism of our frontline personnel through practical, on-site trainings across major German cities.
+
+### Responsibilities
+- Organize and lead on-site trainings for train assistants, conductors, and train drivers.
+- Develop and update training materials, with a focus on digital learning formats.
+- Independently conduct instructions and refresher courses in accordance with current regulations.
+- Prepare and deliver theoretical and practical teaching units.
+- Create and analyze learning success controls to ensure training quality.
+- Document and reflect on teaching results for continuous improvement.
+- Collaborate closely with other trainers to further develop standards and content.
+
+### Qualifications
+- Completed railway-specific training with a minimum of 3 years of professional experience in the railway sector.
+- Valid train driving license for at least 2 years.
+- Proven experience as a trainer, instructor, or examiner for train personnel.
+- High willingness to travel and flexibility for Germany-wide assignments, including overnight stays.
+- Proficient in MS Office and an interest in digital learning formats.
+- Very good German language skills (at least C1 level).
+- Strong teamwork skills, social competence, and excellent communication abilities.
+
+### Author's Take
+This is a fantastic Mid-Senior level opportunity for an experienced railway professional with a passion for teaching and a proven track record as a trainer. FlixTrain offers a dynamic and supportive environment where your expertise directly contributes to operational safety and service quality. The role emphasizes continuous learning, digital innovation in training, and collaboration within a growing company. While requiring significant travel, the company provides excellent benefits, including hybrid work options, extensive development programs, and a strong focus on employee well-being and growth. If you're looking to make a significant impact and help shape the next generation of railway professionals, this role is for you.

@@ -64,4 +64,29 @@ story_answer3: >-
   knowledge flows freely, and everyone feels supported, regardless of their
   physical location on a given day.
 ---
-### Description\nAs a Go / Golang Backend Developer, you will work on exciting large customer projects – either in-house or directly at the client. Your primary responsibility will be to develop modern, high-performance backend services and integrate them into demanding IT landscapes. While Golang is your main tool, you'll also work with complementary technologies such as Java / Spring Boot, JavaScript, React, Angular, or Node.js, depending on the specific project requirements.\n\n### Responsibilities\n- **Backend Development**:\n    - Develop and further enhance Go-based backend services.\n    - Design robust Microservices and APIs (REST, gRPC).\n    - Develop and integrate database-driven applications.\n- **Quality & Stability**:\n    - Write comprehensive tests and conduct code reviews.\n    - Ensure robust logging, monitoring, and system stability.\n    - Support deployment processes and CI/CD pipelines.\n- **Teamwork**:\n    - Collaborate effectively with fellow developers, architects, and business departments.\n    - Contribute to translating complex business requirements into clear technical solutions.\n\n### Qualifications\n- Minimum of 2 years of professional experience with Golang.\n- Knowledge of Java/Spring Boot, React, Angular, or Node.js is a significant advantage.\n- Proven experience with both relational and NoSQL databases.\n- Familiarity with containerization technologies like Docker and Kubernetes, and ideally cloud environments.\n- Very good proficiency in both German and English.\n- A strong passion for new technologies, excellent team spirit, and a hands-on mentality.\n\n### Author's Take\nThis is a fantastic opportunity for a motivated Go Backend Developer to join a vibrant team in Fürth. You'll be working on impactful projects for major clients, with a strong emphasis on modern technologies and robust system design. The company fosters a highly collaborative and welcoming culture, prioritizing flexible working hours to support work-life balance and providing ample opportunities for continuous learning and professional development through open knowledge exchange and mutual support. If you're looking for a role where you can make a real difference and grow within a friendly, supportive environment, this is it.
+### Description
+As a Go / Golang Backend Developer, you will work on exciting large customer projects – either in-house or directly at the client. Your primary responsibility will be to develop modern, high-performance backend services and integrate them into demanding IT landscapes. While Golang is your main tool, you'll also work with complementary technologies such as Java / Spring Boot, JavaScript, React, Angular, or Node.js, depending on the specific project requirements.
+
+### Responsibilities
+- **Backend Development**:
+    - Develop and further enhance Go-based backend services.
+    - Design robust Microservices and APIs (REST, gRPC).
+    - Develop and integrate database-driven applications.
+- **Quality & Stability**:
+    - Write comprehensive tests and conduct code reviews.
+    - Ensure robust logging, monitoring, and system stability.
+    - Support deployment processes and CI/CD pipelines.
+- **Teamwork**:
+    - Collaborate effectively with fellow developers, architects, and business departments.
+    - Contribute to translating complex business requirements into clear technical solutions.
+
+### Qualifications
+- Minimum of 2 years of professional experience with Golang.
+- Knowledge of Java/Spring Boot, React, Angular, or Node.js is a significant advantage.
+- Proven experience with both relational and NoSQL databases.
+- Familiarity with containerization technologies like Docker and Kubernetes, and ideally cloud environments.
+- Very good proficiency in both German and English.
+- A strong passion for new technologies, excellent team spirit, and a hands-on mentality.
+
+### Author's Take
+This is a fantastic opportunity for a motivated Go Backend Developer to join a vibrant team in Fürth. You'll be working on impactful projects for major clients, with a strong emphasis on modern technologies and robust system design. The company fosters a highly collaborative and welcoming culture, prioritizing flexible working hours to support work-life balance and providing ample opportunities for continuous learning and professional development through open knowledge exchange and mutual support. If you're looking for a role where you can make a real difference and grow within a friendly, supportive environment, this is it.

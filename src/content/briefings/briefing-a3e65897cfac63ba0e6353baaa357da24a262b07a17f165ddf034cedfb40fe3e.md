@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-a3e65897cfac63ba0e6353baaa357da24a262b07a17f165ddf034cedfb40fe3e
 title: >-
   How to Evaluate Retrieval Quality in RAG Pipelines (part 2): Mean Reciprocal
-  Rank (MRR) and Average Precision (AP)
+  Rank (MRR) and Avera...
 slug: briefing-a3e65897cfac63ba0e6353baaa357da24a262b07a17f165ddf034cedfb40fe3e
 author: Maria Mouschoutzi
 publishDate: 2025-11-05T20:41:24.000Z

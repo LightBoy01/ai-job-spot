@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-bf2b2671cba0c4e49e4ffcfbdb809dafc3c6afe3cafab4006bcf126957ba5e81
 title: 'Spotify to raise US prices in first quarter of next year, report says'
@@ -13,7 +11,7 @@ originalUrl: >-
 status: pending_review
 tags:
   - Apps
-  - Media & Entertainment
+  - Media &amp; Entertainment
   - Spotify
   - music streaming
   - In Brief

@@ -78,4 +78,24 @@ story_answer3: >-
   their contributions were so valuable. We invest in you because we believe your
   growth directly contributes to our collective success.
 ---
-### Description\nJoin LIGANOVA's Graphic Services team in Stuttgart as a Junior Graphic Designer (all genders). This is a temporary, 2-year position covering parental leave. You will contribute to the development and implementation of graphic concepts, layouts, and key visuals for a diverse range of international clients, working within interdisciplinary project teams.\n\n### Responsibilities\n- Support the development and implementation of graphic concepts, layouts, and key visuals for various international clients.\n- Contribute your expertise, hands-on mentality, and ownership to project success in interdisciplinary teams, from creating flyers to designing large shop windows or exhibition stands.\n- Assist with final artwork/data creation for print and web applications, communicating with suppliers and service providers.\n- Work on region-specific layouts and create various assets in up to 80 languages.\n- In close coordination with the team, create aesthetic and understandable graphics, and professionally prepare presentations, guidelines, and assembly instructions.\n- Contribute to an innovative and efficient workday with your affinity for AI tools and automation.\n\n### Qualifications\n- Successfully completed training in media design (Digital & Print) or a degree in graphic/communication design.\n- Proficient in Adobe Creative Suite (InDesign, Photoshop, Illustrator) and experienced in using AI tools.\n- Very good knowledge of typography and initial experience with corporate identity (CI) guidelines.\n- Strong design sense, an eye for color, and good technical understanding.\n- Highly organized, structured, and possess a quick grasp of new concepts.\n- Confident communication skills in both German and English.\n\n### Author's Take\nThis is a fantastic opportunity for a budding Junior Graphic Designer to gain significant international experience within a dynamic agency. Despite being a 2-year parental leave cover, the role offers exposure to diverse projects, cutting-edge AI tools, and a truly inclusive, sustainability-focused culture that champions personal growth. It's a chance to build a robust portfolio while contributing to a globally impactful team, making it valuable experience for any aspiring creative.
+### Description
+Join LIGANOVA's Graphic Services team in Stuttgart as a Junior Graphic Designer (all genders). This is a temporary, 2-year position covering parental leave. You will contribute to the development and implementation of graphic concepts, layouts, and key visuals for a diverse range of international clients, working within interdisciplinary project teams.
+
+### Responsibilities
+- Support the development and implementation of graphic concepts, layouts, and key visuals for various international clients.
+- Contribute your expertise, hands-on mentality, and ownership to project success in interdisciplinary teams, from creating flyers to designing large shop windows or exhibition stands.
+- Assist with final artwork/data creation for print and web applications, communicating with suppliers and service providers.
+- Work on region-specific layouts and create various assets in up to 80 languages.
+- In close coordination with the team, create aesthetic and understandable graphics, and professionally prepare presentations, guidelines, and assembly instructions.
+- Contribute to an innovative and efficient workday with your affinity for AI tools and automation.
+
+### Qualifications
+- Successfully completed training in media design (Digital & Print) or a degree in graphic/communication design.
+- Proficient in Adobe Creative Suite (InDesign, Photoshop, Illustrator) and experienced in using AI tools.
+- Very good knowledge of typography and initial experience with corporate identity (CI) guidelines.
+- Strong design sense, an eye for color, and good technical understanding.
+- Highly organized, structured, and possess a quick grasp of new concepts.
+- Confident communication skills in both German and English.
+
+### Author's Take
+This is a fantastic opportunity for a budding Junior Graphic Designer to gain significant international experience within a dynamic agency. Despite being a 2-year parental leave cover, the role offers exposure to diverse projects, cutting-edge AI tools, and a truly inclusive, sustainability-focused culture that champions personal growth. It's a chance to build a robust portfolio while contributing to a globally impactful team, making it valuable experience for any aspiring creative.

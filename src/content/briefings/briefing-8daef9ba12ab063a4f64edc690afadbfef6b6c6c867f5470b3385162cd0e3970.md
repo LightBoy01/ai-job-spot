@@ -15,7 +15,7 @@ tags:
   - Business / Artificial Intelligence
   - Security / National Security
 excerpt: >-
-  A federal prosecutor alleged that one defendant boasted that his father “had
-  engaged in similar business for the Chinese Communist Party.”
+  A federal prosecutor alleged that one defendant boasted that his father "had
+  engaged in similar business for the Chinese Communist Party."
 ---
-A federal prosecutor alleged that one defendant boasted that his father “had engaged in similar business for the Chinese Communist Party.”
+A federal prosecutor alleged that one defendant boasted that his father "had engaged in similar business for the Chinese Communist Party."

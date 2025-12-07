@@ -49,7 +49,14 @@ story_answer3: >-
   better. Your work will streamline operations, improve the customer experience,
   and ultimately contribute to the morale and welfare of the military community.
 sourceUrl: null
-verificationDate: '2025-09-22T16:53:14.306Z'
+verificationDate: '2025-10-05T14:00:00.000Z'
+verificationHistory:
+  - date: 2025-09-22T16:53:14.306Z
+    type: automated
+    verifier: System
+  - date: 2025-10-05T14:00:00.000Z
+    type: manual
+    verifier: Admin
 ---
 AAFES is seeking an AI Architect to be responsible for the architectural design, development, and deployment of the Exchange’s AI systems. This role involves evaluating new tools, translating business requirements into scalable AI solutions, and providing technical leadership to a team.
 ### Responsibilities

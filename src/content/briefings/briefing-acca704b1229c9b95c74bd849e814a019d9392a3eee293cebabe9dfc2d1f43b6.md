@@ -16,9 +16,9 @@ tags:
   - google
   - open-source
 excerpt: >-
-  Why splitting AI into a “Thinker” and “Talker” could change everything we know
+  Why splitting AI into a "Thinker" and "Talker" could change everything we know
   about multimodal intelligence.
 
   Continue reading on Towards AI »
 ---
-<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://pub.towardsai.net/qwen3-omni-the-ai-that-can-think-see-hear-and-talk-within-234ms-c59eb9ce1de2?source=rss----98111c9905da---4"><img src="https://cdn-images-1.medium.com/max/2600/0*B062PrWppGSkuCum" width="2600"></a></p><p class="medium-feed-snippet">Why splitting AI into a “Thinker” and “Talker” could change everything we know about multimodal intelligence.</p><p class="medium-feed-link"><a href="https://pub.towardsai.net/qwen3-omni-the-ai-that-can-think-see-hear-and-talk-within-234ms-c59eb9ce1de2?source=rss----98111c9905da---4">Continue reading on Towards AI »</a></p></div>
+<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://pub.towardsai.net/qwen3-omni-the-ai-that-can-think-see-hear-and-talk-within-234ms-c59eb9ce1de2?source=rss----98111c9905da---4"><img src="https://cdn-images-1.medium.com/max/2600/0*B062PrWppGSkuCum" width="2600"></a></p><p class="medium-feed-snippet">Why splitting AI into a "Thinker" and "Talker" could change everything we know about multimodal intelligence.</p><p class="medium-feed-link"><a href="https://pub.towardsai.net/qwen3-omni-the-ai-that-can-think-see-hear-and-talk-within-234ms-c59eb9ce1de2?source=rss----98111c9905da---4">Continue reading on Towards AI »</a></p></div>

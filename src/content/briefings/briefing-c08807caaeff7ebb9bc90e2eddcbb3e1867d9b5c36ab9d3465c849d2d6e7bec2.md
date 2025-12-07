@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-c08807caaeff7ebb9bc90e2eddcbb3e1867d9b5c36ab9d3465c849d2d6e7bec2
 title: Real Noise Decoupling for Hyperspectral Image Denoising

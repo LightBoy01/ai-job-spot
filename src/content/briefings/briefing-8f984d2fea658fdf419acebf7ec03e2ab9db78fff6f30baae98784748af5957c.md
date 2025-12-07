@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-8f984d2fea658fdf419acebf7ec03e2ab9db78fff6f30baae98784748af5957c
 title: >-
@@ -18,8 +16,8 @@ tags:
   - se-tech
   - se-stackoverflow
 excerpt: >-
-  Today at Microsoft Ignite, we’re showcasing the next step in our evolution:
-  Stack Overflow for Teams is now Stack Internal. It’s the next phase of our
+  Today at Microsoft Ignite, we're showcasing the next step in our evolution:
+  Stack Overflow for Teams is now Stack Internal. It's the next phase of our
   enterprise knowledge platform, reimagined for the
 ---
-Today at Microsoft Ignite, we’re showcasing the next step in our evolution: Stack Overflow for Teams is now Stack Internal. It’s the next phase of our enterprise knowledge platform, reimagined for the AI era. 
+Today at Microsoft Ignite, we're showcasing the next step in our evolution: Stack Overflow for Teams is now Stack Internal. It's the next phase of our enterprise knowledge platform, reimagined for the AI era. 

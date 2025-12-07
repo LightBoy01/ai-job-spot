@@ -10,10 +10,10 @@ originalUrl: 'https://www.r-bloggers.com/2025/11/acidification/'
 status: pending_review
 tags:
   - R bloggers
-excerpt: "Coral bleaching at Heron Island – CC BY by The Ocean Agency / XL Catlin Seaview Survey / Richard Vevers\nDay 20 of 30DayMapChallenge: «\_Water\_» (previously).\n\n\n\nContinue reading: Acidification"
+excerpt: "Coral bleaching at Heron Island - CC BY by The Ocean Agency / XL Catlin Seaview Survey / Richard Vevers\nDay 20 of 30DayMapChallenge: «\_Water\_» (previously).\n\n\n\nContinue reading: Acidification"
 ---
 <div style="width:60%; display: inline-block; float:left;">
-<p>Coral bleaching at Heron Island – CC BY by The Ocean Agency / XL Catlin Seaview Survey / Richard Vevers</p>
+<p>Coral bleaching at Heron Island - CC BY by The Ocean Agency / XL Catlin Seaview Survey / Richard Vevers</p>
 <p>Day 20 of 30DayMapChallenge: «&nbsp;Water&nbsp;» (previously).<br>
 Global ocean acidification mean sea water pH trend map from Multi-Observ...</p></div>
 <div style="width: 40%; display: inline-block; float:right;"></div>

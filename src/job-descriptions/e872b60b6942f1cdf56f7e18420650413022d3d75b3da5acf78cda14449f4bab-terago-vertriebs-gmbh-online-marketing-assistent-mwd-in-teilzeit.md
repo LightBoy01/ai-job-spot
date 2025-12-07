@@ -55,4 +55,28 @@ story_answer2: >-
   is valued, and we all help each other grow, ensuring our skills stay sharp and
   our team dynamic remains vibrant.
 ---
-### Description\nTerago Vertriebs GmbH specializes in selling senior living properties to capital investors. We are part of a corporate group that is active nationwide in the acquisition, development, operation, and sale of care facilities.\n\nFor our office in the heart of Munich, we are looking for a technically skilled and personally engaging **Online Marketing Assistant (m/f/d) in part-time.** This role offers a unique opportunity to apply your digital marketing expertise in a dynamic and growing company within a socially relevant market segment.\n\n### Responsibilities\n*   Planning, implementation, and optimization of performance campaigns (Google Ads, Meta Ads, retargeting).\n*   Independent analysis, tracking, and reporting of campaign performance.\n*   Implementing measures to increase visibility and reach.\n*   Managing our social media channels (e.g., Facebook, Instagram).\n*   Supporting the setup and optimization of marketing automation workflows and email campaigns.\n*   Creating videos and advertisements for marketing our properties, potentially in collaboration with external partners and agencies.\n*   Building trust elements: e.g., in the form of customer reviews and testimonials.\n*   Close coordination and collaboration with our offline marketing team.\n*   Interest in AI and, if applicable, initial experience with it, is a plus.\n\n### Qualifications\n*   Completed degree in Marketing, Communications, (Digital) Media, or a comparable education.\n*   At least 2 years of professional experience in online marketing, with a focus on performance marketing.\n*   Strong communication skills and excellent verbal and written expression.\n*   Experience in real estate or capital investments is a plus.\n*   Independent and team-oriented working style.\n\n### Author's Take\nThis is an excellent opportunity for a Junior Online Marketing professional looking for a part-time role with significant flexibility and impact. Terago Vertriebs GmbH offers a supportive environment where your ideas are valued, and your personal development is actively encouraged through continuous learning. The chance to work on performance marketing, social media, and content creation for a niche market like senior living properties, combined with a central Munich location and a genuinely collaborative team, makes this a highly attractive position for those seeking growth and work-life balance.
+### Description
+Terago Vertriebs GmbH specializes in selling senior living properties to capital investors. We are part of a corporate group that is active nationwide in the acquisition, development, operation, and sale of care facilities.
+
+For our office in the heart of Munich, we are looking for a technically skilled and personally engaging **Online Marketing Assistant (m/f/d) in part-time.** This role offers a unique opportunity to apply your digital marketing expertise in a dynamic and growing company within a socially relevant market segment.
+
+### Responsibilities
+*   Planning, implementation, and optimization of performance campaigns (Google Ads, Meta Ads, retargeting).
+*   Independent analysis, tracking, and reporting of campaign performance.
+*   Implementing measures to increase visibility and reach.
+*   Managing our social media channels (e.g., Facebook, Instagram).
+*   Supporting the setup and optimization of marketing automation workflows and email campaigns.
+*   Creating videos and advertisements for marketing our properties, potentially in collaboration with external partners and agencies.
+*   Building trust elements: e.g., in the form of customer reviews and testimonials.
+*   Close coordination and collaboration with our offline marketing team.
+*   Interest in AI and, if applicable, initial experience with it, is a plus.
+
+### Qualifications
+*   Completed degree in Marketing, Communications, (Digital) Media, or a comparable education.
+*   At least 2 years of professional experience in online marketing, with a focus on performance marketing.
+*   Strong communication skills and excellent verbal and written expression.
+*   Experience in real estate or capital investments is a plus.
+*   Independent and team-oriented working style.
+
+### Author's Take
+This is an excellent opportunity for a Junior Online Marketing professional looking for a part-time role with significant flexibility and impact. Terago Vertriebs GmbH offers a supportive environment where your ideas are valued, and your personal development is actively encouraged through continuous learning. The chance to work on performance marketing, social media, and content creation for a niche market like senior living properties, combined with a central Munich location and a genuinely collaborative team, makes this a highly attractive position for those seeking growth and work-life balance.

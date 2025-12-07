@@ -4,8 +4,8 @@ title: Referent für Außenwirtschaftsrecht (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/referent-fur-aussenwirtschaftsrecht-munich-491566
-postedDate: '2025-11-07T01:34:04.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/referent-fur-aussenwirtschaftsrecht-munich-174172
+postedDate: '2025-11-28T01:34:48.000Z'
 expirationDate: null
 tags:
   - Compliance
@@ -16,78 +16,51 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/referent-fur-aussenwirtschaftsrecht-munich-491566
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/referent-fur-aussenwirtschaftsrecht-munich-174172
 companyLogoUrl: null
 companyCulture: >-
-  The company fosters a collaborative and trusting environment with a strong
-  emphasis on work-life balance through flexible hours and provides ample
-  opportunities for professional growth and development. An informal 'Du-Kultur'
-  promotes positive interactions and trust among colleagues and leadership.
+  The company fosters a supportive and collaborative environment with a strong
+  emphasis on work-life balance through flexible hours and a culture of trust.
+  It promotes continuous learning and offers significant opportunities for
+  professional growth and development within a secure, market-leading research
+  institution.
 story_question1: >-
-  How does this role directly contribute to the institute's mission and ensure
-  its compliance in a complex global research landscape?
+  How does this role contribute to the strategic development of the
+  institution's compliance structure, particularly in a scientific context?
 story_answer1: >-
-  Our institute thrives on groundbreaking research that often transcends
-  national borders. As a Specialist in Foreign Trade Law, you're not just
-  interpreting regulations; you're safeguarding our ability to innovate
-  globally. I remember a project where a crucial international collaboration was
-  at risk due to nuanced export control issues. Your expertise would be pivotal
-  in navigating such complexities, enabling our researchers to continue their
-  work without unnecessary hurdles, ensuring we remain a leader while always
-  acting ethically and legally. It’s about being an enabler of science, not just
-  a gatekeeper.
+  You know, what really makes this role stand out is its central position in
+  shaping our institution's future compliance. You're not just executing; you're
+  actively building and refining our risk-oriented, science-focused compliance
+  framework from the ground up. Imagine creating the very guidelines and
+  training that ensure our cutting-edge research stays compliant with complex
+  export controls. It’s about safeguarding our innovation and reputation, making
+  sure our brilliant minds can focus on discovery while you handle the intricate
+  legal landscape. The impact is huge, directly protecting our ability to
+  collaborate internationally and push the boundaries of science.
 story_question2: >-
-  Given the interdisciplinary nature of the research institute, how does this
-  role ensure effective collaboration with various internal stakeholders and
-  external authorities to maintain robust compliance?
+  How does the institution ensure a positive collaborative environment,
+  especially given the technical and legal complexities of the role?
 story_answer2: >-
-  Collaboration is at the heart of everything we do. Our 'Du-Kultur' isn't just
-  a formality; it fosters an environment where reaching out to colleagues in
-  Zoll or Einkauf feels natural and unbureaucratic. You'll be the central point
-  of contact, not just for advice, but for building bridges. I've seen firsthand
-  how your ability to translate complex legal requirements into practical,
-  understandable guidance for diverse teams, from scientists to procurement
-  specialists, makes a real difference. Plus, our established relationships with
-  authorities and consultants mean you’ll have a strong network to lean on,
-  making your collaborative efforts even more impactful and our compliance
-  structure truly robust.
+  It's all about our 'Du-Kultur' and the palpable trust from leadership. Despite
+  the complex legal topics, we maintain a very open and approachable atmosphere.
+  The team values positive interaction above all else. You'll find yourself
+  working closely with various internal departments like customs and purchasing,
+  and even external authorities, but always with a spirit of mutual respect and
+  problem-solving. We actively encourage knowledge sharing and support, ensuring
+  that even when facing challenging legal assessments, you're never alone. It’s
+  a place where collaboration truly feels like a supportive partnership.
 story_question3: >-
-  What unique challenges or opportunities arise from applying export control and
-  foreign trade law specifically within a leading research institute, as opposed
-  to a purely commercial entity?
+  How are professional development and a healthy work-life balance supported
+  within this demanding field?
 story_answer3: >-
-  Working within a research institute like ours offers a fascinating twist to
-  foreign trade law. Unlike a commercial enterprise, our 'products' are often
-  intellectual property, knowledge, and highly specialized equipment used for
-  scientific discovery. This means the legal challenges are often less about
-  standard goods and more about the flow of information, dual-use technologies
-  in a scientific context, and international research collaborations. It’s a
-  dynamic field where you’re constantly learning, adapting to new scientific
-  advancements, and developing bespoke compliance solutions. This isn't just
-  about ticking boxes; it's about pioneering legal frameworks that support
-  cutting-edge science, offering unparalleled intellectual stimulation and
-  continuous professional growth.
+  That's one of our core strengths here! We understand that continuous learning
+  is vital, especially in a field as dynamic as international trade law. We
+  offer numerous further training and development opportunities, ensuring you
+  can always grow your expertise. And crucially, we truly live by our
+  'Work-Life-Balance' commitment. With flexible working hours and a standard
+  39-hour week, you have the autonomy to manage your time effectively. Being in
+  the heart of Munich with great transport links also helps. It's about
+  empowering you to excel professionally without compromising your personal
+  well-being – a rare but cherished balance in a demanding research environment.
 ---
-### Description
-
-On behalf of our partner company in Munich, a leading research institute, we are looking for you to join us as soon as possible as a **Specialist for Foreign Trade Law (m/f/d)**. This pivotal role involves contributing to the development and refinement of a risk-oriented, science-focused compliance structure within a dynamic and modern work environment. You will be instrumental in ensuring the institute's adherence to international regulations, enabling its groundbreaking research to continue seamlessly across global borders.
-
-### Responsibilities
-
-*   As a **Specialist for Foreign Trade Law (m/f/d)**, you will participate in the establishment and continuous development of a risk-oriented, science-related compliance structure.
-*   You will create, update, and standardize guidelines, templates, recommendations, and checklists for practical application.
-*   You will provide support in evaluating issues related to export control and foreign trade law.
-*   You will conceive and conduct training and awareness measures for employees.
-*   Furthermore, you will collaborate with internal interfaces (e.g., customs, procurement, etc.) as well as external contacts such as authorities and consultants.
-
-### Qualifications
-
-*   You hold a completed degree (e.g., in Economics, Law, or Social Sciences) or a comparable qualification.
-*   You possess knowledge of foreign trade law, export control law, and ideally, in the compliance sector.
-*   Ideally, you bring a basic technical understanding and experience in creating and conducting target-group-oriented training sessions.
-*   Strong communication skills, teamwork ability, analytical thinking, and a solution-oriented and structured approach complete your legal profile.
-*   You are distinguished by very good German language skills.
-
-### Author's Take
-
-This is an exceptional opportunity for a dedicated legal professional to make a significant impact within a renowned research institution. You'll benefit from a supportive and appreciative work culture, characterized by a 'Du-Kultur' (informal address) and strong trust from leadership, fostering a positive collective spirit. The role offers excellent work-life balance with flexible working hours within a 39-hour week, and a prime central Munich location with superb public transport connections. As a market leader, the institute provides unparalleled job security and a modern working environment equipped with the latest technology. Furthermore, the company is deeply committed to employee development, offering numerous opportunities for further education and career advancement. This position truly combines intellectual challenge with a highly desirable professional setting.
+### Description\nOn behalf of our partner company in Munich, a leading research institute, we are looking for a **Specialist for Foreign Trade Law (m/f/d)** to join as soon as possible. In this pivotal role, you will contribute to building and developing a robust, risk-oriented, and science-related compliance structure.\n\n### Responsibilities\n*   Actively participate in the establishment and further development of a risk-oriented, science-related compliance structure.\n*   Create, update, and standardize guidelines, templates, recommendations, and checklists for practical application.\n*   Provide support in the assessment of issues related to export control and foreign trade law.\n*   Design and conduct training sessions and awareness measures for employees.\n*   Collaborate with internal interfaces (e.g., customs, purchasing) as well as external contacts such as authorities and consultants.\n\n### Qualifications\n*   A completed degree (e.g., Business, Law, or Social Sciences) or a comparable qualification.\n*   Demonstrated knowledge of foreign trade law, export control law, and ideally, experience in the compliance sector.\n*   Ideally, a basic technical understanding and experience in creating and conducting target-group-oriented training sessions.\n*   Strong communication skills, teamwork ability, analytical thinking, and a solution-oriented, structured approach complete your legal profile.\n*   Excellent German language skills are required.\n\n### Author's Take\nThis is an exceptional opportunity for a dedicated legal specialist to join a leading, crisis-proof research institute in the heart of Munich. The role offers not only a modern work environment with state-of-the-art equipment but also a strong emphasis on employee well-being. Expect a supportive, trusting culture with a \"Du-Kultur\" (informal address) and flexible 39-hour work week to ensure a healthy work-life balance. Furthermore, the company actively invests in its employees' growth through numerous further education and development opportunities. If you're looking to make a significant impact in a secure, forward-thinking organization that values its people, this role is a perfect fit.

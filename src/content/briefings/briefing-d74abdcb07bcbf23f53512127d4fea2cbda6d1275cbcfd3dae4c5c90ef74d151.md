@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-d74abdcb07bcbf23f53512127d4fea2cbda6d1275cbcfd3dae4c5c90ef74d151
 title: A benchmark multimodal oro-dental dataset for large vision-language models

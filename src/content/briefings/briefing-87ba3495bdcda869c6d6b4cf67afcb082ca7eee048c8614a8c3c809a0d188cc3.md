@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-87ba3495bdcda869c6d6b4cf67afcb082ca7eee048c8614a8c3c809a0d188cc3
 title: >-
   Splines-Based Feature Importance in Kolmogorov-Arnold Networks: A Framework
-  for Supervised Tabular Data Dimensionality Reduction
+  for Supervised Tabula...
 slug: briefing-87ba3495bdcda869c6d6b4cf67afcb082ca7eee048c8614a8c3c809a0d188cc3
 author: 'Ange-Cl\''ement Akazan, Verlon Roel Mbingui'
 publishDate: 2025-11-24T05:00:00.000Z

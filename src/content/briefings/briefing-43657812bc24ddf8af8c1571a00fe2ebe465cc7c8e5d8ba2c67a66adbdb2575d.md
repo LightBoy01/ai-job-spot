@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-43657812bc24ddf8af8c1571a00fe2ebe465cc7c8e5d8ba2c67a66adbdb2575d
 title: Do LLMs produce texts with "human-like" lexical diversity?

@@ -56,4 +56,26 @@ story_answer2: >-
   lead to a job, because that goodwill reflects directly on our company culture
   and future talent acquisition.
 ---
-### Description\nWe are looking for immediate support in **HR / Recruiting** on a mini-job or part-time basis. If you have experience in personnel search, enjoy working with people, and are confident on social media, you are the perfect fit for us. This role is crucial for our growing team, ensuring a smooth and efficient recruitment process from initial contact to interview scheduling.\n\n### Responsibilities\n- Creating and posting **job advertisements** on online platforms (e.g., Kleinanzeigen, Facebook, job portals).\n- Reviewing applications and conducting an initial pre-selection of candidates.\n- Responding to messages and inquiries from applicants (via email, chat, or phone).\n- Organizing appointments for phone and on-site job interviews.\n- Conducting short phone interviews (basic questions, initial assessment, taking notes).\n- Supporting on-site interviews (welcoming candidates, checking documents, recording data).\n- Maintaining a simple candidate list (e.g., in Excel or a similar tool).\n- General support in the HR office with minor organizational tasks.\n\n### Qualifications\n- Professional experience in recruiting / HR (e.g., in candidate selection, personnel search, or personnel disposition).\n- Good German language skills in spoken and written word.\n- Confident use of social media (e.g., Facebook, Instagram, Kleinanzeigen).\n- Friendly, open, and reliable manner in dealing with people.\n- Reliable, structured, and independent way of working.\n- Basic PC skills (email, files, simple lists/tables).\n\n### Author's Take\nThis is an excellent opportunity for an organized and people-oriented individual to contribute significantly to a growing company's HR efforts. The role offers flexible working hours and a supportive environment, making it ideal for those seeking part-time engagement with real impact. You'll be a key player in shaping the candidate experience and helping the company scale by finding the right talent.
+### Description
+We are looking for immediate support in **HR / Recruiting** on a mini-job or part-time basis. If you have experience in personnel search, enjoy working with people, and are confident on social media, you are the perfect fit for us. This role is crucial for our growing team, ensuring a smooth and efficient recruitment process from initial contact to interview scheduling.
+
+### Responsibilities
+- Creating and posting **job advertisements** on online platforms (e.g., Kleinanzeigen, Facebook, job portals).
+- Reviewing applications and conducting an initial pre-selection of candidates.
+- Responding to messages and inquiries from applicants (via email, chat, or phone).
+- Organizing appointments for phone and on-site job interviews.
+- Conducting short phone interviews (basic questions, initial assessment, taking notes).
+- Supporting on-site interviews (welcoming candidates, checking documents, recording data).
+- Maintaining a simple candidate list (e.g., in Excel or a similar tool).
+- General support in the HR office with minor organizational tasks.
+
+### Qualifications
+- Professional experience in recruiting / HR (e.g., in candidate selection, personnel search, or personnel disposition).
+- Good German language skills in spoken and written word.
+- Confident use of social media (e.g., Facebook, Instagram, Kleinanzeigen).
+- Friendly, open, and reliable manner in dealing with people.
+- Reliable, structured, and independent way of working.
+- Basic PC skills (email, files, simple lists/tables).
+
+### Author's Take
+This is an excellent opportunity for an organized and people-oriented individual to contribute significantly to a growing company's HR efforts. The role offers flexible working hours and a supportive environment, making it ideal for those seeking part-time engagement with real impact. You'll be a key player in shaping the candidate experience and helping the company scale by finding the right talent.

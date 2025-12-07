@@ -51,4 +51,22 @@ story_answer2: >-
   reliable, detail-oriented, and also enjoys being part of a vibrant team will
   find a perfect fit here and grow immensely.
 ---
-### Description\ntectake is a dynamic e-commerce company with a broad and steadily growing product range for living, household, leisure, and hobby. Through continuous optimization, we continue our successful development both nationally and internationally. To drive this success and rapid growth in the coming years, we are looking for a part-time assistant or working student in Marketing with a focus on Graphics / Design (m/f/d) for our location in Höchberg (Würzburg). This role offers an opportunity to join a company that values a supportive, open, and collaborative work environment, promoting work-life balance with flexible hours, office dogs, team events, and various benefits for employee well-being and growth.\n\n### Responsibilities\n- Preparing image files for our Digital Asset Management platform.\n- Uploading and organizing images and digital content on our Digital Asset Management platform.\n- Supporting the marketing team in designing and adapting graphics for various digital content (newsletters, online shop, ad banners, promotional materials) in daily business.\n- Providing project support.\n- Handling data and creating print-ready PDF files.\n- Gaining insights into other areas of marketing, graphics, and photography.\n\n### Qualifications\n- Ideally, a current degree program in Digital Media, Communication Design, Media and Communication Sciences, Design, or Photography.\n- Experience and solid knowledge in using Adobe Creative Cloud programs, especially Photoshop, Illustrator, and InDesign.\n- An independent and goal-oriented working style.\n- A structured and reliable approach.\n\n### Author's Take\nThis is an excellent entry-level opportunity for a student or part-time worker passionate about graphic design and digital media. tectake offers a highly supportive and engaging work environment, evident through their extensive list of benefits, including flexible hours, office dogs, team-building activities, and support for further education. You'll gain practical experience with core marketing assets and the Adobe Creative Cloud suite, directly contributing to the visual identity of a rapidly growing e-commerce brand. The emphasis on quick decision-making and an open culture suggests a dynamic place to learn and grow.
+### Description
+tectake is a dynamic e-commerce company with a broad and steadily growing product range for living, household, leisure, and hobby. Through continuous optimization, we continue our successful development both nationally and internationally. To drive this success and rapid growth in the coming years, we are looking for a part-time assistant or working student in Marketing with a focus on Graphics / Design (m/f/d) for our location in Höchberg (Würzburg). This role offers an opportunity to join a company that values a supportive, open, and collaborative work environment, promoting work-life balance with flexible hours, office dogs, team events, and various benefits for employee well-being and growth.
+
+### Responsibilities
+- Preparing image files for our Digital Asset Management platform.
+- Uploading and organizing images and digital content on our Digital Asset Management platform.
+- Supporting the marketing team in designing and adapting graphics for various digital content (newsletters, online shop, ad banners, promotional materials) in daily business.
+- Providing project support.
+- Handling data and creating print-ready PDF files.
+- Gaining insights into other areas of marketing, graphics, and photography.
+
+### Qualifications
+- Ideally, a current degree program in Digital Media, Communication Design, Media and Communication Sciences, Design, or Photography.
+- Experience and solid knowledge in using Adobe Creative Cloud programs, especially Photoshop, Illustrator, and InDesign.
+- An independent and goal-oriented working style.
+- A structured and reliable approach.
+
+### Author's Take
+This is an excellent entry-level opportunity for a student or part-time worker passionate about graphic design and digital media. tectake offers a highly supportive and engaging work environment, evident through their extensive list of benefits, including flexible hours, office dogs, team-building activities, and support for further education. You'll gain practical experience with core marketing assets and the Adobe Creative Cloud suite, directly contributing to the visual identity of a rapidly growing e-commerce brand. The emphasis on quick decision-making and an open culture suggests a dynamic place to learn and grow.

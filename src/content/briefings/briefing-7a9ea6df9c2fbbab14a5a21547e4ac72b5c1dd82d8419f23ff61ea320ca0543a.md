@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-7a9ea6df9c2fbbab14a5a21547e4ac72b5c1dd82d8419f23ff61ea320ca0543a
 title: Conformal Prediction Adaptive to Unknown Subpopulation Shifts

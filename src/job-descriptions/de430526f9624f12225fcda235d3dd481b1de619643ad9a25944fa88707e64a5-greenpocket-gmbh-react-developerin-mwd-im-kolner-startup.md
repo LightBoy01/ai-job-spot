@@ -76,4 +76,48 @@ story_answer3: >-
   towards a sustainable future, and that common purpose drives our collaboration
   and keeps us connected, no matter where we're working from.
 ---
-### Description\nDo you want to be more than just a byte in the data sea? Do you want to passionately take responsibility in agile teams and actively contribute with us to drive the climate transition? Then we should definitely get to know each other!\n\n**About Us**\nAs an agile, green startup and specialist in energy management and visualization software, we actively participate in shaping a sustainable, climate-neutral future. Our mission is to make energy consumption management so simple with intuitive, AI-driven software that it becomes a matter of course for everyone – whether businesses or private households – and enables energy providers and corporate customers to effectively reduce both energy consumption and their CO2 footprint. With our currently 35 talented colleagues, we are turning the digitalization of the energy industry into a real opportunity.\n\nAs part of a motivated and innovative team, you will be responsible for the future of sustainable energy management. An excellent and sustainable product begins with a clear idea and vision. As a Software Developer, you will be involved in all steps of your product's lifecycle and will refine the product development strategy with our product management and architects. High standards, precision, and critical questioning begin for you even before coding.\n\n**OUR TECHNOLOGY STACK**\n*   Kotlin, Spring, Java\n*   TypeScript, React, Redux, Recoil\n*   Jest, React Testing Library, Gauge & Taiko\n*   REST, OpenAPI\n*   SASS, CSS Modules\n*   Python, Pandas, NumPy\n*   IntelliJ IDEA, VS Code\n*   git, Maven, webpack\n*   GitOps, Gitlab CI, Argo CD\n*   PostgreSQL & TimescaleDB, MariaDB\n*   Jupyter Notebook\n*   Kubernetes, Helm, Kafka, Docker\n\n### Responsibilities\n*   Together with the development team, Product Owners, and UX/UI designers, you drive the continuous development of our SaaS solutions (especially microservices).\n*   You continuously design, test, maintain, and improve the software, both independently and within your team.\n*   You advise Product Management on technical questions and discuss functional and technical requirements and their implementation with them and the specialist department.\n*   In the DevOps area, you increasingly take co-responsibility in architecture, programming, and testing.\n*   Through pair programming, code reviews, and prototyping, you continuously develop not only our products but also yourself.\n*   You regularly exchange ideas with our agile and interdisciplinary teams within \"DevComs\" or our Architecture Board.\n*   You look beyond your own horizons, realize your ideas in monthly GreenDays, and have the opportunity to bring these ideas into product development.\n\n### Qualifications\n*   You have successfully completed your studies in the IT field or have a comparable education that convinces us.\n*   Furthermore, you already bring initial experience as a Software Developer, ideally in a SaaS environment.\n*   You have initial practical experience with microservices and cloud infrastructures.\n*   You shine with extensive JavaScript/TypeScript knowledge, ideally in a React context. Alternatively, you score with very good Java or Kotlin know-how and experience with SpringBoot.\n*   You are familiar with the use of standard tools, especially in an agile environment, such as JIRA and Confluence for controlling and documenting development.\n*   As a creative, analytically thinking mind, you enjoy new technologies and bring a good quality awareness.\n*   You embody the startup mentality, are motivated, and like to tackle things directly.\n*   You have good German and very good English language skills.\n\n### Author's Take\nThis is an exciting opportunity for a Junior Software Developer who wants to make a tangible impact on climate change within an agile, innovative, and green startup. The company fosters a highly collaborative environment with a strong emphasis on continuous learning and professional development, evident through coaching, pair programming, and dedicated 'DevComs.'\n\nWhat truly sets this role apart are the exceptional benefits and culture. You'll enjoy flexible working hours, home office options, and a permanent contract. The unique monthly 'GreenDay' allows you to pursue your own innovative ideas, fostering personal growth and direct contribution to product development. Recognized as a \"Top-Company 2025,\" the organization boasts a startup atmosphere with flat hierarchies, plenty of creative freedom, and a commitment to transparency, from weekly meetings to daily Kicker tournaments and a fun office vibe. If you're driven by purpose, enjoy a dynamic team, and want to continuously develop your skills while fighting for a sustainable future, this role offers an ideal platform.
+### Description
+Do you want to be more than just a byte in the data sea? Do you want to passionately take responsibility in agile teams and actively contribute with us to drive the climate transition? Then we should definitely get to know each other!
+
+**About Us**
+As an agile, green startup and specialist in energy management and visualization software, we actively participate in shaping a sustainable, climate-neutral future. Our mission is to make energy consumption management so simple with intuitive, AI-driven software that it becomes a matter of course for everyone – whether businesses or private households – and enables energy providers and corporate customers to effectively reduce both energy consumption and their CO2 footprint. With our currently 35 talented colleagues, we are turning the digitalization of the energy industry into a real opportunity.
+
+As part of a motivated and innovative team, you will be responsible for the future of sustainable energy management. An excellent and sustainable product begins with a clear idea and vision. As a Software Developer, you will be involved in all steps of your product's lifecycle and will refine the product development strategy with our product management and architects. High standards, precision, and critical questioning begin for you even before coding.
+
+**OUR TECHNOLOGY STACK**
+*   Kotlin, Spring, Java
+*   TypeScript, React, Redux, Recoil
+*   Jest, React Testing Library, Gauge & Taiko
+*   REST, OpenAPI
+*   SASS, CSS Modules
+*   Python, Pandas, NumPy
+*   IntelliJ IDEA, VS Code
+*   git, Maven, webpack
+*   GitOps, Gitlab CI, Argo CD
+*   PostgreSQL & TimescaleDB, MariaDB
+*   Jupyter Notebook
+*   Kubernetes, Helm, Kafka, Docker
+
+### Responsibilities
+*   Together with the development team, Product Owners, and UX/UI designers, you drive the continuous development of our SaaS solutions (especially microservices).
+*   You continuously design, test, maintain, and improve the software, both independently and within your team.
+*   You advise Product Management on technical questions and discuss functional and technical requirements and their implementation with them and the specialist department.
+*   In the DevOps area, you increasingly take co-responsibility in architecture, programming, and testing.
+*   Through pair programming, code reviews, and prototyping, you continuously develop not only our products but also yourself.
+*   You regularly exchange ideas with our agile and interdisciplinary teams within \"DevComs\" or our Architecture Board.
+*   You look beyond your own horizons, realize your ideas in monthly GreenDays, and have the opportunity to bring these ideas into product development.
+
+### Qualifications
+*   You have successfully completed your studies in the IT field or have a comparable education that convinces us.
+*   Furthermore, you already bring initial experience as a Software Developer, ideally in a SaaS environment.
+*   You have initial practical experience with microservices and cloud infrastructures.
+*   You shine with extensive JavaScript/TypeScript knowledge, ideally in a React context. Alternatively, you score with very good Java or Kotlin know-how and experience with SpringBoot.
+*   You are familiar with the use of standard tools, especially in an agile environment, such as JIRA and Confluence for controlling and documenting development.
+*   As a creative, analytically thinking mind, you enjoy new technologies and bring a good quality awareness.
+*   You embody the startup mentality, are motivated, and like to tackle things directly.
+*   You have good German and very good English language skills.
+
+### Author's Take
+This is an exciting opportunity for a Junior Software Developer who wants to make a tangible impact on climate change within an agile, innovative, and green startup. The company fosters a highly collaborative environment with a strong emphasis on continuous learning and professional development, evident through coaching, pair programming, and dedicated 'DevComs.'
+
+What truly sets this role apart are the exceptional benefits and culture. You'll enjoy flexible working hours, home office options, and a permanent contract. The unique monthly 'GreenDay' allows you to pursue your own innovative ideas, fostering personal growth and direct contribution to product development. Recognized as a \"Top-Company 2025,\" the organization boasts a startup atmosphere with flat hierarchies, plenty of creative freedom, and a commitment to transparency, from weekly meetings to daily Kicker tournaments and a fun office vibe. If you're driven by purpose, enjoy a dynamic team, and want to continuously develop your skills while fighting for a sustainable future, this role offers an ideal platform.

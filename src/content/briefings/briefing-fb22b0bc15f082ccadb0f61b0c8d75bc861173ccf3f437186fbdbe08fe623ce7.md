@@ -15,7 +15,7 @@ tags:
   - Artificial Intelligence
   - Llm
   - Tds Features
-excerpt: "When we encounter a new technology — say,\_LLM applications\_— some of us tend to jump right in, sleeves rolled up, impatient to start tinkering. Others prefer a more cautious approach: reading a few re"
+excerpt: "When we encounter a new technology - say,\_LLM applications\_- some of us tend to jump right in, sleeves rolled up, impatient to start tinkering. Others prefer a more cautious approach: reading a few re"
 ---
-<p>When we encounter a new technology — say,&nbsp;LLM applications&nbsp;— some of us tend to jump right in, sleeves rolled up, impatient to start tinkering. Others prefer a more cautious approach: reading a few relevant research papers, or browsing through a bunch of blog posts, with the goal of understanding the context in which these tools […]</p>
+<p>When we encounter a new technology - say,&nbsp;LLM applications&nbsp;- some of us tend to jump right in, sleeves rolled up, impatient to start tinkering. Others prefer a more cautious approach: reading a few relevant research papers, or browsing through a bunch of blog posts, with the goal of understanding the context in which these tools [...]</p>
 <p>The post <a href="https://towardsdatascience.com/tds-newsletter-the-theory-and-practice-of-using-ai-effectively/">TDS Newsletter: The Theory and Practice of Using AI Effectively</a> appeared first on <a href="https://towardsdatascience.com">Towards Data Science</a>.</p>

@@ -54,4 +54,24 @@ story_answer2: >-
   isn't lost as we grow, and that our teams remain agile and connected. It's
   about building the infrastructure for our future impact.
 ---
-### Description\nfeld.energy is a pioneering company combining agriculture and energy generation through innovative Agri-Photovoltaics, enabling dual land use for food production and clean energy. We are shaping the energy transition in rural areas – sustainably, economically, and future-oriented. As Chief of Staff (m/w/d), you will be the right hand to the founders, serving as the central interface between management, the team, and external partners. Your mission is to ensure strategic initiatives are executed, projects reach their goals, and the right priorities are pursued.\n\n### Responsibilities\n- Close collaboration with the founders on strategy, prioritization, and decision-making.\n- Project management for key initiatives (e.g., new locations, investor projects, cooperations).\n- Preparation and follow-up of meetings, KPIs, and decision-making processes.\n- Communication interface between management, team, and external stakeholders (investors, partners).\n- Analysis of market and company data, creation of presentations & reports.\n- Development and optimization of internal processes & tools.\n\n### Qualifications\n- Completed degree in Business, Engineering, Politics, or a comparable field.\n- Professional experience in a startup environment, consulting, project management, or business development.\n- Strong organizational skills & structured way of working.\n- Excellent communication and analytical skills.\n- Enjoy taking hands-on responsibility and working in a young, dynamic environment.\n- Interest in renewable energies, agriculture, and sustainability.\n\n### Author's Take\nThis is a pivotal Chief of Staff role at feld.energy, offering the unique opportunity to work directly alongside the founders in a dynamic and impact-driven environment. If you're passionate about renewable energy, agriculture, and sustainability, and thrive on driving strategic initiatives from conception to execution, this position provides significant autonomy and a chance to make a tangible difference in shaping the energy transition. The company values collaboration, innovation, and offers a flexible hybrid work model, competitive benefits like 27 days of leave, and regular team events to celebrate successes.
+### Description
+feld.energy is a pioneering company combining agriculture and energy generation through innovative Agri-Photovoltaics, enabling dual land use for food production and clean energy. We are shaping the energy transition in rural areas – sustainably, economically, and future-oriented. As Chief of Staff (m/w/d), you will be the right hand to the founders, serving as the central interface between management, the team, and external partners. Your mission is to ensure strategic initiatives are executed, projects reach their goals, and the right priorities are pursued.
+
+### Responsibilities
+- Close collaboration with the founders on strategy, prioritization, and decision-making.
+- Project management for key initiatives (e.g., new locations, investor projects, cooperations).
+- Preparation and follow-up of meetings, KPIs, and decision-making processes.
+- Communication interface between management, team, and external stakeholders (investors, partners).
+- Analysis of market and company data, creation of presentations & reports.
+- Development and optimization of internal processes & tools.
+
+### Qualifications
+- Completed degree in Business, Engineering, Politics, or a comparable field.
+- Professional experience in a startup environment, consulting, project management, or business development.
+- Strong organizational skills & structured way of working.
+- Excellent communication and analytical skills.
+- Enjoy taking hands-on responsibility and working in a young, dynamic environment.
+- Interest in renewable energies, agriculture, and sustainability.
+
+### Author's Take
+This is a pivotal Chief of Staff role at feld.energy, offering the unique opportunity to work directly alongside the founders in a dynamic and impact-driven environment. If you're passionate about renewable energy, agriculture, and sustainability, and thrive on driving strategic initiatives from conception to execution, this position provides significant autonomy and a chance to make a tangible difference in shaping the energy transition. The company values collaboration, innovation, and offers a flexible hybrid work model, competitive benefits like 27 days of leave, and regular team events to celebrate successes.

@@ -1,8 +1,6 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-bd62b32572ab9b1607d0fd9354fffb9fde3f2bff407c10276ecfffa3707f4b81
-title: Microsoft’s AI chatbot Copilot leaves WhatsApp on January 15
+title: Microsoft's AI chatbot Copilot leaves WhatsApp on January 15
 slug: briefing-bd62b32572ab9b1607d0fd9354fffb9fde3f2bff407c10276ecfffa3707f4b81
 author: Sarah Perez
 publishDate: 2025-11-25T17:11:55.000Z

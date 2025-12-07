@@ -80,4 +80,4 @@ Benefits
 
 Wenn du das Fundament, die Erfahrung und den Hunger hast, unser Vertriebssystem auf das nächste Level zu heben, möchten wir dich kennenlernen. Bewirb dich jetzt!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

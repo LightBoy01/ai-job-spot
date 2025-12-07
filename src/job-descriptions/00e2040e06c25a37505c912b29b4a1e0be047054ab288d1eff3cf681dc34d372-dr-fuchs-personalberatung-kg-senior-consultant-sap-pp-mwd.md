@@ -54,4 +54,22 @@ story_answer2: >-
   colleagues. It’s not just about completing projects; it’s about growing your
   expertise and shaping your career path within a global network.
 ---
-### Description\nAre you passionate about modernizing production processes and guiding companies through their SAP S/4HANA transformation? This exciting position offers you the opportunity to leverage your expertise in challenging international projects. Our client is a globally leading consulting firm with over 340,000 employees across more than 50 countries, dedicated to empowering businesses across all sectors with cutting-edge ERP solutions and shaping their digital future with SAP S/4HANA.\n\n### Responsibilities\n*   Analyze complex business requirements and translate them into efficient, SAP-supported processes.\n*   Design, customize, and continuously enhance the SAP Production Planning (PP) module.\n*   Actively participate in critical S/4HANA transformation and implementation projects.\n*   Develop comprehensive functional concepts and provide steadfast support during testing, cutover, and Go-Live phases.\n*   Collaborate closely with diverse international project teams to achieve seamless project delivery.\n\n### Qualifications\n*   A minimum of 5 years of significant project experience within the SAP PP environment.\n*   Profound expertise in SAP customizing and robust process design capabilities.\n*   Desirable experience in SAP S/4HANA transformation or migration projects.\n*   Possess an analytical, structured, and highly solution-oriented approach to problem-solving.\n*   Excellent proficiency in both German and English, coupled with a willingness to travel for client engagements.\n\n### Author's Take\nThis is a highly impactful role for a seasoned SAP PP consultant looking to drive significant digital transformations for international clients. The opportunity to work on complex S/4HANA projects within a global consulting powerhouse offers unparalleled professional growth. The company clearly values its employees, providing flexible work options, a supportive international culture, and continuous learning opportunities, making it an ideal environment for those who thrive on challenge and collaboration.
+### Description
+Are you passionate about modernizing production processes and guiding companies through their SAP S/4HANA transformation? This exciting position offers you the opportunity to leverage your expertise in challenging international projects. Our client is a globally leading consulting firm with over 340,000 employees across more than 50 countries, dedicated to empowering businesses across all sectors with cutting-edge ERP solutions and shaping their digital future with SAP S/4HANA.
+
+### Responsibilities
+*   Analyze complex business requirements and translate them into efficient, SAP-supported processes.
+*   Design, customize, and continuously enhance the SAP Production Planning (PP) module.
+*   Actively participate in critical S/4HANA transformation and implementation projects.
+*   Develop comprehensive functional concepts and provide steadfast support during testing, cutover, and Go-Live phases.
+*   Collaborate closely with diverse international project teams to achieve seamless project delivery.
+
+### Qualifications
+*   A minimum of 5 years of significant project experience within the SAP PP environment.
+*   Profound expertise in SAP customizing and robust process design capabilities.
+*   Desirable experience in SAP S/4HANA transformation or migration projects.
+*   Possess an analytical, structured, and highly solution-oriented approach to problem-solving.
+*   Excellent proficiency in both German and English, coupled with a willingness to travel for client engagements.
+
+### Author's Take
+This is a highly impactful role for a seasoned SAP PP consultant looking to drive significant digital transformations for international clients. The opportunity to work on complex S/4HANA projects within a global consulting powerhouse offers unparalleled professional growth. The company clearly values its employees, providing flexible work options, a supportive international culture, and continuous learning opportunities, making it an ideal environment for those who thrive on challenge and collaboration.

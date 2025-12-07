@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-7c49cc6c4cbc31455b5cb8e7ed2a395ce2ff48efd50eac77c8acfa9d8213be3b
 title: Prototype Selection Using Topological Data Analysis

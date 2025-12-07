@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-3bef4b6622eaaf12edcc21dc59398d6a8ac8c1201de112f34df6bc7aee4e499c
 title: Quantum Boltzmann Machines for Sample-Efficient Reinforcement Learning

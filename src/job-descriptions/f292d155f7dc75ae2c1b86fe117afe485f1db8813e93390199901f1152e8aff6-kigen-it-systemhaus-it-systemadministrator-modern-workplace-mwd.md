@@ -73,4 +73,30 @@ story_answer3: >-
   Entwicklungsgespräche, um deine Ziele und unsere Unternehmensbedürfnisse
   abzugleichen und einen maßgeschneiderten Karriereweg zu planen.
 ---
-### Description\nReady for your future in the Modern Workplace? Perfect - because we are shaping the IT future of our customers with an ambitious team of reliable, personable individuals. We foster a company culture characterized by trust, fairness, and genuine professional development. We embrace an open, constructive approach to mistakes, provide modern work equipment, ensure appreciative communication, and maintain a team that sticks together. We share a passion for new technologies and a genuine interest in working with you to discover which solutions from our manufacturers (including Microsoft, Sophos, Synology) create real added value. We offer a supportive corporate culture and a remote-first approach, allowing flexible choice between office, home office, or customer appointments. There's ample room for your ideas and active participation, fostering collaboration that creates meaning and focuses on results. We are dedicated to your professional growth through internal and external training and clear development perspectives.\n\n### Responsibilities\n- Independent support, administration, and further development of modern workplace solutions (Microsoft 365, Intune, Entra ID).\n- Analysis, processing, and resolution of incidents in 2nd-level support.\n- Supporting our business customers with the introduction, securing, and operation of modern IT workplace solutions.\n- Participation in the planning & configuration of Windows-based networks.\n- Optimization of existing IT infrastructures and collaboration on migration and rollout projects.\n- On-site customer appointments in the Stuttgart area.\n\n### Qualifications\nYour educational background is secondary – what matters is your passion for IT and **2-3 years of relevant professional experience**, for example as:\n- IT Supporter\n- IT Specialist for System Integration\n- IT Administrator\nAdditionally, you should master the following:\n- Very good knowledge of Windows and Mac environments.\n- Profound knowledge of server and network technology.\n- Confident handling of TCP/IP, DNS, DHCP, routing, LAN/WLAN, and firewalls.\n- High customer orientation and self-initiative.\n- Structured, reliable way of working and sense of responsibility.\n- Interest in current technological developments.\n- Optimal: initial experience in the field of cybersecurity.\n\n### Author's Take\nThis is an exciting Mid-Senior level opportunity for an IT Administrator or System Integrator with 2-3 years of experience, looking to specialize in modern workplace solutions with a strong focus on Microsoft technologies. The company emphasizes a remote-first, flexible work environment and invests heavily in employee development through training and clear career paths. It's ideal for someone who is passionate about IT, customer-oriented, and thrives in a collaborative culture that values trust and continuous improvement. The role combines hands-on support with strategic project involvement, offering a dynamic and impactful position within a supportive team.
+### Description
+Ready for your future in the Modern Workplace? Perfect - because we are shaping the IT future of our customers with an ambitious team of reliable, personable individuals. We foster a company culture characterized by trust, fairness, and genuine professional development. We embrace an open, constructive approach to mistakes, provide modern work equipment, ensure appreciative communication, and maintain a team that sticks together. We share a passion for new technologies and a genuine interest in working with you to discover which solutions from our manufacturers (including Microsoft, Sophos, Synology) create real added value. We offer a supportive corporate culture and a remote-first approach, allowing flexible choice between office, home office, or customer appointments. There's ample room for your ideas and active participation, fostering collaboration that creates meaning and focuses on results. We are dedicated to your professional growth through internal and external training and clear development perspectives.
+
+### Responsibilities
+- Independent support, administration, and further development of modern workplace solutions (Microsoft 365, Intune, Entra ID).
+- Analysis, processing, and resolution of incidents in 2nd-level support.
+- Supporting our business customers with the introduction, securing, and operation of modern IT workplace solutions.
+- Participation in the planning & configuration of Windows-based networks.
+- Optimization of existing IT infrastructures and collaboration on migration and rollout projects.
+- On-site customer appointments in the Stuttgart area.
+
+### Qualifications
+Your educational background is secondary – what matters is your passion for IT and **2-3 years of relevant professional experience**, for example as:
+- IT Supporter
+- IT Specialist for System Integration
+- IT Administrator
+Additionally, you should master the following:
+- Very good knowledge of Windows and Mac environments.
+- Profound knowledge of server and network technology.
+- Confident handling of TCP/IP, DNS, DHCP, routing, LAN/WLAN, and firewalls.
+- High customer orientation and self-initiative.
+- Structured, reliable way of working and sense of responsibility.
+- Interest in current technological developments.
+- Optimal: initial experience in the field of cybersecurity.
+
+### Author's Take
+This is an exciting Mid-Senior level opportunity for an IT Administrator or System Integrator with 2-3 years of experience, looking to specialize in modern workplace solutions with a strong focus on Microsoft technologies. The company emphasizes a remote-first, flexible work environment and invests heavily in employee development through training and clear career paths. It's ideal for someone who is passionate about IT, customer-oriented, and thrives in a collaborative culture that values trust and continuous improvement. The role combines hands-on support with strategic project involvement, offering a dynamic and impactful position within a supportive team.

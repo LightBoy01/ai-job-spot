@@ -85,8 +85,6 @@ excerpt: >-
 
 </div>
 
-
-
 <p>This kind of structure lets you use <code>begins_with</code>, <code>between</code>, and greater than/less than operators to retrieve related groups of data. You can use your partition key and query for all data related to King County, Washington (where Amazon's HQ is) by querying for a sort key beginning with <code>usa#northwest#wa#king#</code> (USA for the country, Northwest for the region, WA meaning Washington state, and King meaning King County). Note that I included the <code>#</code> at the end of the value, which prevents us from picking up extra values due to partial matches.</p>
 
 <p>By combining these ideas, you can have multiple formats for sort keys in the same table. I had one application with a single DynamoDB table containing 12-15 different item types. We had numerous organizations in the same table, with their organization ID as the partition key and sort keys such as <code>organization</code>, <code>user#[user guid]#detail</code>, <code>user#[user guid]#permissions</code>, and more.</p>
@@ -122,8 +120,6 @@ excerpt: >-
 
 </div>
 
-
-
 <p>You define the attributes on your GSI and use your item as-is, without extra concatenation.<br>
 </p>
 
@@ -140,8 +136,6 @@ excerpt: >-
 </code></pre>
 
 </div>
-
-
 
 <p>You are limited to four attributes in the partition key and four attributes in the sort key. This applies only to global secondary indexes (GSIs). It is not available for your base table or local secondary indexes (LSIs).</p>
 

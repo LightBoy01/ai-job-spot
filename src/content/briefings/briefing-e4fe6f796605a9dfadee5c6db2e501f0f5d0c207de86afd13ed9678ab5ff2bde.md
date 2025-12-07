@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-e4fe6f796605a9dfadee5c6db2e501f0f5d0c207de86afd13ed9678ab5ff2bde
 title: >-
   Closed-Form Beta Distribution Estimation from Sparse Statistics with Random
-  Forest Implicit Regularization
+  Forest Implicit Regul...
 slug: briefing-e4fe6f796605a9dfadee5c6db2e501f0f5d0c207de86afd13ed9678ab5ff2bde
 author: Jonathan R. Landers
 publishDate: 2025-11-10T05:00:00.000Z

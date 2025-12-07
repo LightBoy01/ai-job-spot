@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-41f709cacab2f740faacc1af84f21ac9dc4c3ec80ed80dd8a8f31bd72a430755
 title: Improving Latent Reasoning in LLMs via Soft Concept Mixing

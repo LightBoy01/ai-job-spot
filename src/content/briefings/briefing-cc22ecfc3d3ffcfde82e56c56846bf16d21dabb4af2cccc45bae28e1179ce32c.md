@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-cc22ecfc3d3ffcfde82e56c56846bf16d21dabb4af2cccc45bae28e1179ce32c
 title: Airbus orders software fix to thousands of planes due to solar radiation risk
@@ -16,8 +14,8 @@ tags:
   - a320
   - airbus
 excerpt: >-
-  The company said it’s taking action because “analysis of a recent event
+  The company said it's taking action because "analysis of a recent event
   involving an A320 Family aircraft has revealed that intense solar radiation
   may corrupt data critical to the functioning of flig
 ---
-The company said it’s taking action because “analysis of a recent event involving an A320 Family aircraft has revealed that intense solar radiation may corrupt data critical to the functioning of flight controls.”
+The company said it's taking action because "analysis of a recent event involving an A320 Family aircraft has revealed that intense solar radiation may corrupt data critical to the functioning of flight controls."

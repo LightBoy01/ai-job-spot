@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-b9cbb7e7c3aadaca15bd9b947b1623278eda18c1746fb403c6de4e32e6ac6dd2
 title: 'DSeq-JEPA: Discriminative Sequential Joint-Embedding Predictive Architecture'

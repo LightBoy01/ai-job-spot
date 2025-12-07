@@ -54,4 +54,23 @@ story_answer2: >-
   understand life happens, and we want to create an environment where you can
   thrive both professionally and personally.
 ---
-### Description\nVysible communication specializes in making communication truly \"visible\" for doctor's offices – focusing on what is essential, real, clear, and simple. As a strategic consulting and marketing agency, we offer a broad spectrum of marketing solutions, supported by a dedicated team of internal and external experts. We are looking for an administrative professional to ensure our back-office operations run smoothly, allowing our consultants to focus on their core mission.\n\n### Responsibilities\n- Recording and managing documents (Belegerfassung)\n- Handling dunning processes (Mahnwesen)\n- Collaborating closely with our tax advisor (Steuerberater)\n- Preparing VAT pre-registrations (Ust-Voranmeldung)\n- Scheduling appointments (Terminvereinbarungen)\n- Managing print processes and handling (Druckabwicklung)\n\n### Qualifications\n- Proven experience in bookkeeping and document management\n- Experience in an administrative or assistant role\n- Familiarity with collaborating with tax advisors\n- A reliable and structured approach to work\n- Preferably, experience working within a marketing agency environment\n\n### Author's Take\nThis is a fantastic opportunity for a diligent and organized administrative professional to join a dynamic and creative marketing agency that genuinely values clarity and simplicity. While the core tasks are administrative, this role is crucial to supporting the overall efficiency and strategic goals of Vysible communication. The company offers a supportive environment with ample opportunities for personal and professional development, a flexible hybrid working model, and a chance to collaborate with a great team. If you thrive on keeping things organized and enjoy being an indispensable part of a vibrant team, this role offers significant impact in a company focused on meaningful communication.
+### Description
+Vysible communication specializes in making communication truly \"visible\" for doctor's offices – focusing on what is essential, real, clear, and simple. As a strategic consulting and marketing agency, we offer a broad spectrum of marketing solutions, supported by a dedicated team of internal and external experts. We are looking for an administrative professional to ensure our back-office operations run smoothly, allowing our consultants to focus on their core mission.
+
+### Responsibilities
+- Recording and managing documents (Belegerfassung)
+- Handling dunning processes (Mahnwesen)
+- Collaborating closely with our tax advisor (Steuerberater)
+- Preparing VAT pre-registrations (Ust-Voranmeldung)
+- Scheduling appointments (Terminvereinbarungen)
+- Managing print processes and handling (Druckabwicklung)
+
+### Qualifications
+- Proven experience in bookkeeping and document management
+- Experience in an administrative or assistant role
+- Familiarity with collaborating with tax advisors
+- A reliable and structured approach to work
+- Preferably, experience working within a marketing agency environment
+
+### Author's Take
+This is a fantastic opportunity for a diligent and organized administrative professional to join a dynamic and creative marketing agency that genuinely values clarity and simplicity. While the core tasks are administrative, this role is crucial to supporting the overall efficiency and strategic goals of Vysible communication. The company offers a supportive environment with ample opportunities for personal and professional development, a flexible hybrid working model, and a chance to collaborate with a great team. If you thrive on keeping things organized and enjoy being an indispensable part of a vibrant team, this role offers significant impact in a company focused on meaningful communication.

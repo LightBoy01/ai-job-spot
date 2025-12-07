@@ -180,8 +180,6 @@ excerpt: >-
 
 </div>
 
-
-
 <p><strong>Why this matters</strong>:</p>
 
 <ul>
@@ -238,8 +236,6 @@ excerpt: >-
 
 </div>
 
-
-
 <h3>
   
   
@@ -262,8 +258,6 @@ excerpt: >-
 
 </div>
 
-
-
 <p><strong>2. Full-Text Matching (pg_trgm)</strong>:<br>
 </p>
 
@@ -276,8 +270,6 @@ excerpt: >-
 </code></pre>
 
 </div>
-
-
 
 <p><strong>3. Combined Power</strong>:<br>
 </p>
@@ -295,8 +287,6 @@ excerpt: >-
 </code></pre>
 
 </div>
-
-
 
 <p>This hybrid approach catches both:</p>
 
@@ -324,8 +314,6 @@ excerpt: >-
 
 </div>
 
-
-
 <p><strong>Fork Deletion</strong>:<br>
 </p>
 
@@ -335,8 +323,6 @@ excerpt: >-
 
 </div>
 
-
-
 <p><strong>Snapshot Creation</strong> (for caching):<br>
 </p>
 
@@ -345,8 +331,6 @@ excerpt: >-
 </code></pre>
 
 </div>
-
-
 
 <p><strong>Implementation</strong> (Windows-compatible):<br>
 </p>
@@ -370,8 +354,6 @@ excerpt: >-
 
 </div>
 
-
-
 <h3>
   
   
@@ -391,8 +373,6 @@ Merged to main → Fork deleted
 
 </div>
 
-
-
 <p><strong>2. Caching with forks</strong>:<br>
 </p>
 
@@ -411,8 +391,6 @@ Merged to main → Fork deleted
 
 </div>
 
-
-
 <p><strong>3. Snapshot preservation</strong>:<br>
 </p>
 
@@ -424,8 +402,6 @@ Merged to main → Fork deleted
 </code></pre>
 
 </div>
-
-
 
 <h3>
   
@@ -530,8 +506,6 @@ Merged to main → Fork deleted
 
 </div>
 
-
-
 <p>This pattern works perfectly and maintains async compatibility.</p>
 
 <p><strong>2. Fork Lifecycle Management</strong></p>
@@ -557,8 +531,6 @@ Merged to main → Fork deleted
 
 </div>
 
-
-
 <p><strong>Fix</strong>: Always specify encoding:<br>
 </p>
 
@@ -567,8 +539,6 @@ Merged to main → Fork deleted
 </code></pre>
 
 </div>
-
-
 
 <p>The <code>errors='replace'</code> ensures non-UTF-8 bytes don't crash the process.</p>
 
@@ -592,8 +562,6 @@ Merged to main → Fork deleted
 
 </div>
 
-
-
 <p>Each agent gets its own fork, merging results upstream. This would showcase Tiger's fork merge capabilities even more dramatically.</p>
 
 <p><strong>2. Historical Analysis with Snapshots</strong></p>
@@ -614,8 +582,6 @@ Merged to main → Fork deleted
 
 </div>
 
-
-
 <p>This would enable "quality regression detection" - alerting when a website's content quality degrades.</p>
 
 <p><strong>3. Collaborative Filtering</strong></p>
@@ -634,8 +600,6 @@ Merged to main → Fork deleted
 
 </div>
 
-
-
 <p>Build a recommendation system: "Users who flagged this as slop also flagged..."</p>
 
 <h3>
@@ -651,7 +615,4 @@ Merged to main → Fork deleted
 <p><strong>Key insight</strong>: Database forks are to agent coordination what Git is to code collaboration. Cheap, disposable, mergeable isolation that enables fearless experimentation.</p>
 
 <p><strong>Thank you Tiger team</strong> for building something genuinely innovative. Agentic Postgres isn't just faster Postgres - it's a new way of thinking about data and agents.</p>
-
-
-
 

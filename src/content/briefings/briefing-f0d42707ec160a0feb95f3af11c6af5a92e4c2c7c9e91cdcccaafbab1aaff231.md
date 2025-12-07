@@ -1,8 +1,6 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-f0d42707ec160a0feb95f3af11c6af5a92e4c2c7c9e91cdcccaafbab1aaff231
-title: ‘Kill Bill’ May Have a Future in Animation
+title: '''Kill Bill'' May Have a Future in Animation'
 slug: briefing-f0d42707ec160a0feb95f3af11c6af5a92e4c2c7c9e91cdcccaafbab1aaff231
 author: Justin Carter
 publishDate: 2025-11-30T17:25:55.000Z

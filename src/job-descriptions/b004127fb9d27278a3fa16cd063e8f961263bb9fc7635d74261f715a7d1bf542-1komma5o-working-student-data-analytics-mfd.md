@@ -67,4 +67,24 @@ story_answer3: >-
   company-wide events. It's about building a connected community, not just a
   collection of remote workers.
 ---
-### Description\n1KOMMA5° is building Germany's largest one-stop-shop for the sale, installation, and services related to solar, heat pumps, electricity, and charging infrastructure, all interconnected. We are looking for a Data Analytics Working Student to join our Business Intelligence team and help push 1KOMMA5° towards becoming a truly data-driven organization. In this role, you will support the development of a central data architecture for ingesting, transforming, and analyzing data from our global operational business, thereby creating insights for stakeholders across the organization.\n\n### Responsibilities\n- Build end-to-end data pipelines to ensure overall data availability.\n- Independently develop analyses, dashboards, and reports in Looker.\n- Contribute to the assurance of data integrity and reliability.\n- Support the development of the Virtual Assembly Line, a strategic instrument for real-time monitoring across our whole value chain.\n\n### Qualifications\n- Currently enrolled at a university, contributing 20 hours per week.\n- Studying Data Science, Computer Science, Information Systems, Industrial Engineering, Business Analytics, or a comparable STEM course of studies.\n- Comfortable with SQL, Python, and ideally Git.\n- Ideally, some experience working with large amounts of data (e.g., ingestion, in-warehouse transformations, data modeling).\n- First experience with BI tools is a plus.\n- An effective communicator, looking forward to much interaction with team members and stakeholders.\n- Bring a proactive attitude and don't forget to have fun at work.\n- Very good written and spoken German and English skills.\n\n### Author's Take\nThis is an excellent entry-level opportunity for a university student passionate about data analytics and renewable energy. You'll join a dynamic, international team at a thriving scale-up, gaining hands-on experience in building data architecture and contributing directly to the \"energy transition\". The role offers significant learning opportunities from smart colleagues, direct access to decision-makers, and a clear path to potential full-time employment, all within a flexible remote-first (Germany-wide) environment that prioritizes work-life balance through benefits like EGYM Wellpass.
+### Description
+1KOMMA5° is building Germany's largest one-stop-shop for the sale, installation, and services related to solar, heat pumps, electricity, and charging infrastructure, all interconnected. We are looking for a Data Analytics Working Student to join our Business Intelligence team and help push 1KOMMA5° towards becoming a truly data-driven organization. In this role, you will support the development of a central data architecture for ingesting, transforming, and analyzing data from our global operational business, thereby creating insights for stakeholders across the organization.
+
+### Responsibilities
+- Build end-to-end data pipelines to ensure overall data availability.
+- Independently develop analyses, dashboards, and reports in Looker.
+- Contribute to the assurance of data integrity and reliability.
+- Support the development of the Virtual Assembly Line, a strategic instrument for real-time monitoring across our whole value chain.
+
+### Qualifications
+- Currently enrolled at a university, contributing 20 hours per week.
+- Studying Data Science, Computer Science, Information Systems, Industrial Engineering, Business Analytics, or a comparable STEM course of studies.
+- Comfortable with SQL, Python, and ideally Git.
+- Ideally, some experience working with large amounts of data (e.g., ingestion, in-warehouse transformations, data modeling).
+- First experience with BI tools is a plus.
+- An effective communicator, looking forward to much interaction with team members and stakeholders.
+- Bring a proactive attitude and don't forget to have fun at work.
+- Very good written and spoken German and English skills.
+
+### Author's Take
+This is an excellent entry-level opportunity for a university student passionate about data analytics and renewable energy. You'll join a dynamic, international team at a thriving scale-up, gaining hands-on experience in building data architecture and contributing directly to the \"energy transition\". The role offers significant learning opportunities from smart colleagues, direct access to decision-makers, and a clear path to potential full-time employment, all within a flexible remote-first (Germany-wide) environment that prioritizes work-life balance through benefits like EGYM Wellpass.

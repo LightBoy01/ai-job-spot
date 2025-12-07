@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-cb7593bfd5609f58ffccb9046cc0cbdf0cbc9a543ddf805c32bb872d10e54d20
 title: Sublinear iterations can suffice even for DDPMs

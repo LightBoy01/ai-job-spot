@@ -70,4 +70,32 @@ story_answer3: >-
   and sharpened, setting you up for significant career progression within the
   company.
 ---
-### Description\nDo you want to unleash your creative ideas in the ads sector and actively shape the performance of high-budget campaigns? Then spized is the right place for you!\n\nWe are an emerging company with 59 employees, specializing in the production of customizable sportswear. We are looking for you to join us as a Paid Social Creative Strategist starting January 2026.\n\nIn this role, you will develop creative ads, bring teams together, optimize processes, and ensure that ideas are successfully implemented from conception to international execution. As a Paid Social Creative Strategist, you should bring 1-3 years of experience and enjoy a relaxed and sporty work atmosphere.\n\n### Responsibilities\nAs our Paid Social Creative Strategist, you will perfectly integrate Media Buying, Content Production, and Editing to elevate creative quantity, quality, and variation to the next level. Your key responsibilities include:\n\n*   **Creativity:** Developing high-performing creatives, aligning them with campaign goals, and actively contributing your creative ideas through visual briefings and scripts.\n*   **Interface Function:** Coordinating collaboration between production and content teams, and optimizing creative strategies as well as individual creatives and content pieces together with the PPC team.\n*   **Process Management:** Ensuring and optimizing internal pre- and post-production processes, and managing creatives in internal databases.\n*   **Copywriting:** Crafting concise and compelling ad texts that achieve high conversion rates.\n*   **Content Briefings:** Planning and coordinating briefings for monthly Content Days and weekly Ad-Shootings.\n*   **Internationalization:** Translating and adapting existing briefings for current and new markets.\n\n### Qualifications\nTo succeed in this role, you should bring:\n\n*   1-3 years of practical experience in marketing or media design, with a passion for creative execution and continuous optimization through testing.\n*   Fundamental knowledge of performance marketing and content production.\n*   Familiarity with Meta Ads Manager.\n*   Excellent German and English language skills – additional languages are a plus!\n*   Proven track record of successfully implementing content shootings and demonstrating measurable results.\n*   A deep understanding of target-group-oriented creatives across various platforms.\n\n### Author's Take\nThis is a fantastic opportunity for a driven individual to make a significant impact at spized, an emerging company in the customizable sportswear sector. The role of Paid Social Creative Strategist is central to blending creativity with performance, offering the chance to work on high-budget international campaigns. You'll join a motivated team of 'A-players' in a relaxed, sporty atmosphere, enjoying modern Apple equipment in a great Ehrenfeld office, flexible working hours, home office, and even workation possibilities. The company truly values its employees, offering regular team events, a buddy program for smooth onboarding, bike leasing, employee discounts, and additional benefits. If you're ready to shape global creative strategies and thrive in a dynamic, supportive environment, spized is eager to meet you!
+### Description
+Do you want to unleash your creative ideas in the ads sector and actively shape the performance of high-budget campaigns? Then spized is the right place for you!
+
+We are an emerging company with 59 employees, specializing in the production of customizable sportswear. We are looking for you to join us as a Paid Social Creative Strategist starting January 2026.
+
+In this role, you will develop creative ads, bring teams together, optimize processes, and ensure that ideas are successfully implemented from conception to international execution. As a Paid Social Creative Strategist, you should bring 1-3 years of experience and enjoy a relaxed and sporty work atmosphere.
+
+### Responsibilities
+As our Paid Social Creative Strategist, you will perfectly integrate Media Buying, Content Production, and Editing to elevate creative quantity, quality, and variation to the next level. Your key responsibilities include:
+
+*   **Creativity:** Developing high-performing creatives, aligning them with campaign goals, and actively contributing your creative ideas through visual briefings and scripts.
+*   **Interface Function:** Coordinating collaboration between production and content teams, and optimizing creative strategies as well as individual creatives and content pieces together with the PPC team.
+*   **Process Management:** Ensuring and optimizing internal pre- and post-production processes, and managing creatives in internal databases.
+*   **Copywriting:** Crafting concise and compelling ad texts that achieve high conversion rates.
+*   **Content Briefings:** Planning and coordinating briefings for monthly Content Days and weekly Ad-Shootings.
+*   **Internationalization:** Translating and adapting existing briefings for current and new markets.
+
+### Qualifications
+To succeed in this role, you should bring:
+
+*   1-3 years of practical experience in marketing or media design, with a passion for creative execution and continuous optimization through testing.
+*   Fundamental knowledge of performance marketing and content production.
+*   Familiarity with Meta Ads Manager.
+*   Excellent German and English language skills – additional languages are a plus!
+*   Proven track record of successfully implementing content shootings and demonstrating measurable results.
+*   A deep understanding of target-group-oriented creatives across various platforms.
+
+### Author's Take
+This is a fantastic opportunity for a driven individual to make a significant impact at spized, an emerging company in the customizable sportswear sector. The role of Paid Social Creative Strategist is central to blending creativity with performance, offering the chance to work on high-budget international campaigns. You'll join a motivated team of 'A-players' in a relaxed, sporty atmosphere, enjoying modern Apple equipment in a great Ehrenfeld office, flexible working hours, home office, and even workation possibilities. The company truly values its employees, offering regular team events, a buddy program for smooth onboarding, bike leasing, employee discounts, and additional benefits. If you're ready to shape global creative strategies and thrive in a dynamic, supportive environment, spized is eager to meet you!

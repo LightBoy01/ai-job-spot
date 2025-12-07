@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-c693bca90cb0e8d5428f9d965cb1b95a8eece94635d44b6bc82c34dc4ae8fabe
 title: >-
   DReX: Pure Vision Fusion of Self-Supervised and Convolutional Representations
-  for Image Complexity Prediction
+  for Image Complexit...
 slug: briefing-c693bca90cb0e8d5428f9d965cb1b95a8eece94635d44b6bc82c34dc4ae8fabe
 author: 'Jonathan Skaza, Parsa Madinei, Ziqi Wen, Miguel Eckstein'
 publishDate: 2025-11-24T05:00:00.000Z

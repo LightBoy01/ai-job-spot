@@ -51,4 +51,27 @@ story_answer2: >-
   insights forward and actively contribute to our success story, laying a strong
   foundation for future specialization.
 ---
-### Description\nWelcome to ONLINE NetCom! As a modern system house specializing in IT infrastructure, cyber security, cloud solutions, telephony, security technology, and digital networking, we support our clients in operating their systems securely, efficiently, and future-proof.\n\nTo continue developing and implementing powerful IT solutions, we are looking for motivated junior talents who are interested in technology, digitalization, and modern IT processes. If you enjoy IT, love solving problems, and want to understand how systems work together – then this apprenticeship is perfect for you.\n\nIn our team, with an average age under 30, you can expect modern structures, flat hierarchies, and real development opportunities. Exciting projects, strong team spirit, and the chance to shape a professional future in a high-demand industry await you.\n\n### Responsibilities\n*   You plan, install, and configure complex IT systems.\n*   You advise our customers on their IT infrastructure and assist with technical questions.\n*   You ensure the availability and functionality of our business customers' IT systems.\n*   You support our customers via first and second-level support and take over fast, structured problem-solving – remotely or on-site.\n*   You accompany and support customers in the digitalization of their processes and IT environments.\n\n### Qualifications\n*   You have successfully completed your (technical) high school diploma or have a good secondary school leaving certificate (Real-/Hauptschulabschluss).\n*   You work process- and solution-oriented and enjoy mastering technical challenges.\n*   You enjoy customer contact and can explain technical content clearly.\n*   You are a team player, reliable, and work carefully.\n*   You communicate clearly, friendly, and professionally.\n*   You possess a Class B driving license or plan to acquire one soon.\n\n### Author's Take\nThis apprenticeship at ONLINE NetCom offers a high-quality start in the IT industry. With varied tasks, regular feedback, and strong prospects for permanent employment, it’s designed for growth. The company prides itself on a supportive, young team culture with flat hierarchies, offering extensive internal and external training. Perks like company cars, free drinks (including after-work beers), employee discounts, and team events highlight a vibrant and engaging work environment. This is an excellent opportunity for motivated individuals to actively shape a future in a high-demand field, starting August 1, 2026.
+### Description
+Welcome to ONLINE NetCom! As a modern system house specializing in IT infrastructure, cyber security, cloud solutions, telephony, security technology, and digital networking, we support our clients in operating their systems securely, efficiently, and future-proof.
+
+To continue developing and implementing powerful IT solutions, we are looking for motivated junior talents who are interested in technology, digitalization, and modern IT processes. If you enjoy IT, love solving problems, and want to understand how systems work together – then this apprenticeship is perfect for you.
+
+In our team, with an average age under 30, you can expect modern structures, flat hierarchies, and real development opportunities. Exciting projects, strong team spirit, and the chance to shape a professional future in a high-demand industry await you.
+
+### Responsibilities
+*   You plan, install, and configure complex IT systems.
+*   You advise our customers on their IT infrastructure and assist with technical questions.
+*   You ensure the availability and functionality of our business customers' IT systems.
+*   You support our customers via first and second-level support and take over fast, structured problem-solving – remotely or on-site.
+*   You accompany and support customers in the digitalization of their processes and IT environments.
+
+### Qualifications
+*   You have successfully completed your (technical) high school diploma or have a good secondary school leaving certificate (Real-/Hauptschulabschluss).
+*   You work process- and solution-oriented and enjoy mastering technical challenges.
+*   You enjoy customer contact and can explain technical content clearly.
+*   You are a team player, reliable, and work carefully.
+*   You communicate clearly, friendly, and professionally.
+*   You possess a Class B driving license or plan to acquire one soon.
+
+### Author's Take
+This apprenticeship at ONLINE NetCom offers a high-quality start in the IT industry. With varied tasks, regular feedback, and strong prospects for permanent employment, it’s designed for growth. The company prides itself on a supportive, young team culture with flat hierarchies, offering extensive internal and external training. Perks like company cars, free drinks (including after-work beers), employee discounts, and team events highlight a vibrant and engaging work environment. This is an excellent opportunity for motivated individuals to actively shape a future in a high-demand field, starting August 1, 2026.

@@ -7,7 +7,7 @@ publishDate: 2025-11-23T16:58:00.000Z
 contentType: briefing
 sourceName: InfoQ
 originalUrl: >-
-  https://www.infoq.com/news/2025/11/google-bigtable-tiered-storage/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering
+  https://www.infoq.com/news/2025/11/google-bigtable-tiered-storage/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI,+ML+&+Data+Engineering
 status: pending_review
 tags:
   - Google Cloud

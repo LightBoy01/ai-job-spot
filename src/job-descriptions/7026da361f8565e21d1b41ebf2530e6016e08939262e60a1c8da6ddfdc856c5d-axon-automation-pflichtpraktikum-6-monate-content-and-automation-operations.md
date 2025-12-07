@@ -57,4 +57,38 @@ story_answer2: >-
   strong foundation of knowledge and experienced feedback. It's about empowering
   you to lead, backed by a team that genuinely wants to see you grow.
 ---
-### Description\nAxon Automation is a young company dedicated to helping e-commerce businesses optimize processes, automate workflows, and elevate their operations to the next level.\n\nWe are currently building an extensive Automation Knowledge Hub, comprising playbooks, guides, templates, and resources, designed to help our customers work more efficiently.\n\nWe are looking for a motivated, structured, and creative individual who is eager to delve deep into topics such as automation, AI, business operations, content, and web design. You will work closely with the founder and be a central part of building our new Axon Automation Hub.\n\n### Responsibilities\n- Research and prepare content related to automation, AI, n8n, e-commerce operations, and modern workflows.\n- Create structured draft texts (guides, playbooks, templates, checklists).\n- Contribute to the development of our content hub (e.g., in Webflow or Notion).\n- Maintain and structure CMS areas.\n- Prepare visual assets (screenshots, illustrations, diagrams).\n- Prepare templates (Google Sheets, PDFs, prompt collections).\n- Support in the creation of case studies & best practices.\n- Conduct quality and functional checks within the hub.\n- Assist in project management (documentation, task structuring, progress overviews).\n\n**Optional based on interest:**\n- Contribute to simple automation workflows (e.g., n8n).\n- Support with social media content (LinkedIn).\n- Contribute to internal process documentation.\n\n### Qualifications\n- Mandatory internship as part of your studies (minimum 6 months).\n- Interest in AI, automation, digitalization, or e-commerce.\n- Structured and reliable working style.\n- Very good written communication skills in German.\n- Enjoyment of writing, researching, and preparing knowledge.\n- Affinity for clean design and good user experience.\n- Desire to take responsibility and work independently.\n- Bonus: Initial experience in Webflow, Notion, Figma, or n8n (not a must!).\n\n### Author's Take\nThis is an exciting entry-level opportunity for someone passionate about the intersection of content, automation, and AI within the e-commerce space. The direct collaboration with the founder promises a steep learning curve and high ownership, allowing the intern to make a significant, visible impact by building a core part of Axon Automation's offering. The emphasis on flexible work, remote options, and modern tools highlights a supportive and forward-thinking environment. It's an ideal role for individuals looking to gain hands-on experience, develop strong research and content creation skills, and contribute to meaningful projects in a dynamic startup culture. The bonus structure, offering a €600 completion bonus after 6 months and a €400 performance bonus, provides an additional incentive for dedication and achievement.
+### Description
+Axon Automation is a young company dedicated to helping e-commerce businesses optimize processes, automate workflows, and elevate their operations to the next level.
+
+We are currently building an extensive Automation Knowledge Hub, comprising playbooks, guides, templates, and resources, designed to help our customers work more efficiently.
+
+We are looking for a motivated, structured, and creative individual who is eager to delve deep into topics such as automation, AI, business operations, content, and web design. You will work closely with the founder and be a central part of building our new Axon Automation Hub.
+
+### Responsibilities
+- Research and prepare content related to automation, AI, n8n, e-commerce operations, and modern workflows.
+- Create structured draft texts (guides, playbooks, templates, checklists).
+- Contribute to the development of our content hub (e.g., in Webflow or Notion).
+- Maintain and structure CMS areas.
+- Prepare visual assets (screenshots, illustrations, diagrams).
+- Prepare templates (Google Sheets, PDFs, prompt collections).
+- Support in the creation of case studies & best practices.
+- Conduct quality and functional checks within the hub.
+- Assist in project management (documentation, task structuring, progress overviews).
+
+**Optional based on interest:**
+- Contribute to simple automation workflows (e.g., n8n).
+- Support with social media content (LinkedIn).
+- Contribute to internal process documentation.
+
+### Qualifications
+- Mandatory internship as part of your studies (minimum 6 months).
+- Interest in AI, automation, digitalization, or e-commerce.
+- Structured and reliable working style.
+- Very good written communication skills in German.
+- Enjoyment of writing, researching, and preparing knowledge.
+- Affinity for clean design and good user experience.
+- Desire to take responsibility and work independently.
+- Bonus: Initial experience in Webflow, Notion, Figma, or n8n (not a must!).
+
+### Author's Take
+This is an exciting entry-level opportunity for someone passionate about the intersection of content, automation, and AI within the e-commerce space. The direct collaboration with the founder promises a steep learning curve and high ownership, allowing the intern to make a significant, visible impact by building a core part of Axon Automation's offering. The emphasis on flexible work, remote options, and modern tools highlights a supportive and forward-thinking environment. It's an ideal role for individuals looking to gain hands-on experience, develop strong research and content creation skills, and contribute to meaningful projects in a dynamic startup culture. The bonus structure, offering a €600 completion bonus after 6 months and a €400 performance bonus, provides an additional incentive for dedication and achievement.

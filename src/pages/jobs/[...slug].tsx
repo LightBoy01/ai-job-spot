@@ -130,6 +130,11 @@ export const getStaticProps: GetStaticProps<ProgrammaticJobPageProps, IParams> =
       postedDate: postedDate ? postedDate.toISOString() : null,
       expirationDate: expirationDate ? expirationDate.toISOString() : null,
       verificationDate: job.verificationDate?.toDate()?.toISOString() ?? null,
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      verificationHistory: job.verificationHistory?.map((e: any) => ({
+         ...e,
+         date: e.date.toDate().toISOString(),
+      })) || [],
       isNew: postedDate ? now.getTime() - postedDate.getTime() < NEW_JOB_THRESHOLD_MS : false,
     });
     return acc;

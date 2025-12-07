@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-65f0e0f9d70f1c28c5aabf93b36d348ece1713df21fe5d5c1fa6adcee551b4b9
 title: DINOv3 with RetinaNet Head for Object Detection

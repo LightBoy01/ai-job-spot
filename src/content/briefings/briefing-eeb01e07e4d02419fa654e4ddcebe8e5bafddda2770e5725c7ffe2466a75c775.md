@@ -1,7 +1,7 @@
 ---
 id: briefing-eeb01e07e4d02419fa654e4ddcebe8e5bafddda2770e5725c7ffe2466a75c775
 title: >-
-  Blue Origin will ‘move heaven and Earth’ to help NASA reach the Moon faster,
+  Blue Origin will 'move heaven and Earth' to help NASA reach the Moon faster,
   CEO says
 slug: briefing-eeb01e07e4d02419fa654e4ddcebe8e5bafddda2770e5725c7ffe2466a75c775
 author: Eric Berger

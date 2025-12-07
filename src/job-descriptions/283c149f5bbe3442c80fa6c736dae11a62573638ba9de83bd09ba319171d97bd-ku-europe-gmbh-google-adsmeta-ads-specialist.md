@@ -66,4 +66,35 @@ story_answer3: >-
   specialists to own their domain, providing autonomy but also a safety net when
   needed. Your success is our success.
 ---
-### Description\nWe are a fast-growing D2C company managing our own brands and distribution center, selling exclusively under private labels. Our strong focus is on performance-driven growth, operational efficiency, and international scaling, operating with a fast-paced, adaptive, and data-backed decision-making approach to deliver the best customer experience.\n\nThis role seeks an experienced Google & Meta Ads Specialist to lead and optimize our paid advertising efforts across Google Ads and Facebook Ads. You will be responsible for creating strategy, managing campaign budgets, implementing tracking solutions, and driving measurable growth using a data-driven approach.\n\n### Responsibilities\n- Plan, manage, and optimize Google Ads and Facebook Ads campaigns to achieve KPIs such as ROAS, CPA, and CTR.\n- Conduct keyword research, audience targeting, ad creation, and A/B testing.\n- Implement and monitor tracking solutions including Google Tag Manager, Conversion Tracking, Pixels, and Server-Side Tracking.\n- Analyze campaign performance, build reports, and provide actionable insights for continuous improvement.\n- Identify opportunities to scale winning campaigns and improve underperforming ones.\n- Collaborate with content and design teams to develop high-performing creatives.\n- Stay updated on the latest trends, tools, and best practices in digital advertising.\n\n### Qualifications\n**Required:**\n- Minimum 5 years of proven experience managing high-performance Google Ads and Facebook Ads campaigns.\n- Managed an annual ad budget of at least USD $2M (please only apply if this requirement is met).\n- Strong expertise in conversion tracking setup and analytics platforms (Google Analytics, Meta Analytics, etc.).\n- Solid understanding of campaign optimization techniques and key performance metrics.\n- Excellent analytical skills with the ability to identify issues and solve problems effectively.\n- Ability to work independently, manage multiple campaigns simultaneously, and meet deadlines.\n- Excellent English communication skills.\n- This is a full-time, exclusive position; we are not considering freelancers who manage multiple clients.\n\n**Nice to Have:**\n- Experience with other ad platforms (TikTok Ads, LinkedIn Ads, etc.).\n- Knowledge of server-side tracking and advanced attribution models.\n- Background in D2C/eCommerce marketing.\n\n### Author's Take\nThis is a fantastic opportunity for a highly experienced and results-driven Google & Meta Ads Specialist to make a significant impact within a rapidly growing, remote-first D2C company. With a substantial budget to manage and a clear focus on performance, this role offers considerable autonomy and direct influence on the company's international scaling efforts. The emphasis on independent work, combined with generous paid leave and strong potential for professional growth, makes it ideal for a self-starter looking for a long-term, impactful individual contributor role in a dynamic environment.
+### Description
+We are a fast-growing D2C company managing our own brands and distribution center, selling exclusively under private labels. Our strong focus is on performance-driven growth, operational efficiency, and international scaling, operating with a fast-paced, adaptive, and data-backed decision-making approach to deliver the best customer experience.
+
+This role seeks an experienced Google & Meta Ads Specialist to lead and optimize our paid advertising efforts across Google Ads and Facebook Ads. You will be responsible for creating strategy, managing campaign budgets, implementing tracking solutions, and driving measurable growth using a data-driven approach.
+
+### Responsibilities
+- Plan, manage, and optimize Google Ads and Facebook Ads campaigns to achieve KPIs such as ROAS, CPA, and CTR.
+- Conduct keyword research, audience targeting, ad creation, and A/B testing.
+- Implement and monitor tracking solutions including Google Tag Manager, Conversion Tracking, Pixels, and Server-Side Tracking.
+- Analyze campaign performance, build reports, and provide actionable insights for continuous improvement.
+- Identify opportunities to scale winning campaigns and improve underperforming ones.
+- Collaborate with content and design teams to develop high-performing creatives.
+- Stay updated on the latest trends, tools, and best practices in digital advertising.
+
+### Qualifications
+**Required:**
+- Minimum 5 years of proven experience managing high-performance Google Ads and Facebook Ads campaigns.
+- Managed an annual ad budget of at least USD $2M (please only apply if this requirement is met).
+- Strong expertise in conversion tracking setup and analytics platforms (Google Analytics, Meta Analytics, etc.).
+- Solid understanding of campaign optimization techniques and key performance metrics.
+- Excellent analytical skills with the ability to identify issues and solve problems effectively.
+- Ability to work independently, manage multiple campaigns simultaneously, and meet deadlines.
+- Excellent English communication skills.
+- This is a full-time, exclusive position; we are not considering freelancers who manage multiple clients.
+
+**Nice to Have:**
+- Experience with other ad platforms (TikTok Ads, LinkedIn Ads, etc.).
+- Knowledge of server-side tracking and advanced attribution models.
+- Background in D2C/eCommerce marketing.
+
+### Author's Take
+This is a fantastic opportunity for a highly experienced and results-driven Google & Meta Ads Specialist to make a significant impact within a rapidly growing, remote-first D2C company. With a substantial budget to manage and a clear focus on performance, this role offers considerable autonomy and direct influence on the company's international scaling efforts. The emphasis on independent work, combined with generous paid leave and strong potential for professional growth, makes it ideal for a self-starter looking for a long-term, impactful individual contributor role in a dynamic environment.

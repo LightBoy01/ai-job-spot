@@ -17,5 +17,5 @@ excerpt: >-
   Ideally, caregivers can get a clearer pictur
 ---
 Healthcare providers in the U.S. are taking steps toward a more comprehensive approach to care delivery that helps patients throughout a continuum of care.
-Ideally, caregivers can get a clearer picture into someone’s readmission journey, for instance, with the help of accessible, relevant data. That way, care is not siloed within the hospital but connected across primary care, pharmacies, specialties, behavioral health and more, even including nontraditional services that impact health such as help with food access and housing.
-To improve the sharing of health information and bring it into…
+Ideally, caregivers can get a clearer picture into someone's readmission journey, for instance, with the help of accessible, relevant data. That way, care is not siloed within the hospital but connected across primary care, pharmacies, specialties, behavioral health and more, even including nontraditional services that impact health such as help with food access and housing.
+To improve the sharing of health information and bring it into...

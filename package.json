@@ -20,7 +20,7 @@
     "pipeline:briefings:dry-run": "rm -rf dist && ./node_modules/.bin/tsc --project tsconfig.pipeline.json && node dist/src/data-pipeline/main.js briefings --dry-run",
     "pipeline:reprocess-dlq": "./node_modules/.bin/tsc --project tsconfig.pipeline.json && node dist/data-pipeline/reprocess-dlq.js",
     "seed": "npm run seed:build",
-    "seed:build": "tsc --project tsconfig.seed.json && node dist/seedFirestore.js",
+    "seed:build": "node --loader ts-node/esm --experimental-specifier-resolution=node seedFirestore.ts",
     "test": "jest --testPathIgnorePatterns=__tests__/pages/api --testPathIgnorePatterns=src/components/Footer.test.tsx",
     "test:api": "jest --config=jest.config.api.cjs __tests__/pages/api",
     "test:scripts": "jest __tests__/scripts",
@@ -59,7 +59,9 @@
     "tweet:dry-run": "tsc --project tsconfig.scripts.json && node dist/scripts/post-to-twitter.js",
     "set-api-key": "ts-node scripts/set-api-key.cts",
     "backfill:completeness": "ts-node -r tsconfig-paths/register scripts/backfillCompletenessScore.ts",
-    "backfill:completeness:dry-run": "ts-node -r tsconfig-paths/register scripts/backfillCompletenessScore.ts --dry-run"
+    "backfill:verification": "node --loader ts-node/esm --experimental-specifier-resolution=node scripts/backfill-verification.ts",
+    "backfill:completeness:dry-run": "ts-node -r tsconfig-paths/register scripts/backfillCompletenessScore.ts --dry-run",
+    "aggregate:roles": "node --loader ts-node/esm --experimental-specifier-resolution=node scripts/aggregate-roles.ts"
   },
   "dependencies": {
     "@babel/runtime": "^7.28.4",

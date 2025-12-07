@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-f50ca6003afcb6d30cf6e6f8591d8da99181bea05c8fd0bb0a9b64470bfddbfc
 title: Ambient Noise Full Waveform Inversion with Neural Operators

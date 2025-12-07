@@ -34,6 +34,15 @@ export interface JobPosting {
   story_answer3?: string | null;
   companyCulture?: string | null;
   verificationDate?: Date | null;
+  verificationHistory?: VerificationEvent[] | null;
+  relatedArticleIds?: string[];
+}
+
+export interface VerificationEvent {
+  date: Date;
+  type: 'automated' | 'manual' | 'crowdsourced';
+  verifier?: string; // e.g., "admin-bot", "user-report"
+  note?: string;
 }
 
 export type FirestoreJobPosting = Omit<
@@ -44,6 +53,7 @@ export type FirestoreJobPosting = Omit<
   | 'jobLevel'
   | 'employeeRole'
   | 'verificationDate'
+  | 'verificationHistory'
 > & {
   postedDate: admin.firestore.Timestamp;
   expirationDate?: admin.firestore.Timestamp | null;
@@ -51,7 +61,15 @@ export type FirestoreJobPosting = Omit<
   jobLevel?: string | null;
   employeeRole?: string | null;
   verificationDate?: admin.firestore.Timestamp | null;
+  verificationHistory?: FirestoreVerificationEvent[] | null;
 };
+
+export interface FirestoreVerificationEvent {
+  date: admin.firestore.Timestamp;
+  type: 'automated' | 'manual' | 'crowdsourced';
+  verifier?: string;
+  note?: string;
+}
 
 export interface Article {
   id?: string;
@@ -75,6 +93,7 @@ export interface Article {
   author_take_answer1?: string | null;
   author_take_question2?: string | null;
   author_take_answer2?: string | null;
+  relatedJobIds?: string[];
 }
 
 export type FirestoreArticle = Omit<Article, 'publishDate'> & {
@@ -85,15 +104,23 @@ export type FirestoreArticle = Omit<Article, 'publishDate'> & {
   author_take_answer2?: string | null;
 };
 
+export interface SerializedVerificationEvent {
+  date: string;
+  type: 'automated' | 'manual' | 'crowdsourced';
+  verifier?: string | null;
+  note?: string | null;
+}
+
 // For server-side rendering, where Timestamps are serialized
 export interface SerializedJobPosting
   extends Omit<
     JobPosting,
-    'postedDate' | 'expirationDate' | 'verificationDate'
+    'postedDate' | 'expirationDate' | 'verificationDate' | 'verificationHistory'
   > {
   postedDate: string | null;
   expirationDate: string | null;
   verificationDate?: string | null;
+  verificationHistory?: SerializedVerificationEvent[] | null;
   isNew?: boolean;
   isFeatured?: boolean; // Added isFeatured
   story_question1?: string | null;

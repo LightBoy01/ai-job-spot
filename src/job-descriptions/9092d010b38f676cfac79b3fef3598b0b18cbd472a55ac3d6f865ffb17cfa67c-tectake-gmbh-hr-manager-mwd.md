@@ -52,4 +52,32 @@ story_answer2: >-
   there to ensure you have everything you need to succeed, both professionally
   and personally.
 ---
-### Description\\ntectake is a dynamic e-commerce company with a broad and steadily growing product range around living, household, leisure, and hobbies. Through continuous optimization, we continue our successful development both nationally and internationally. To drive this success and the rapid growth of recent years into the future, we are looking for an **HR Manager (m/f/d)** in full-time for our headquarters in Igersheim.\\n\\nYou can look forward to:\\n- **Office Dogs** – A relaxed and harmonious work environment thanks to animal companions\\n- **Corporate Benefits** – Attractive employee discounts and benefits on our product range\\n- **Family, friends and career** – Flexible working hours and a modern workplace for optimal work-life balance\\n- **Team spirit** – Joint sports events and team events to strengthen cohesion\\n- **More Benefits** – Support for further training and teambuilding, ergonomic workstations, company health care, and fast decision-making processes in an open corporate culture. Additionally, we offer free catering options.\\n\\n### Responsibilities\\n- Taking overall operational and strategic responsibility for the Human Resources department.\\n- Central contact person for all HR-related and labor law questions.\\n- Responsibility for the further development of the HR strategy for attracting skilled workers and for sustainable employee retention.\\n- Introduction and management of HR tools for further digitalization and to support HR work.\\n- Preparation and analysis of HR data and personnel costs.\\n\\n### Qualifications\\n- Completed degree with a focus on HR, Law, or Business Administration.\\n- Several years of professional experience and initial leadership responsibility in Human Resources within an internationally active company.\\n- Profound knowledge of all aspects of labor and and social security law.\\n- Strong analytical skills for generating relevant HR key figures, and for developing and implementing solutions to foster positive changes.\\n- Very good German and English language skills, both written and spoken.\\n- Experience in developing modern HR concepts and in implementing innovative HR tools.\\n- High communication skills and empathy in dealing with different hierarchical levels.\\n- Confident demeanor, hands-on mentality, persuasiveness, and strong negotiation skills.\\n\\n### Author's Take\\nThis is an excellent opportunity for a proactive and experienced HR professional to take on a pivotal strategic role within a rapidly growing international e-commerce company. The role offers overall responsibility for HR, emphasizing strategic development and digitalization, combined with a supportive culture that values work-life balance, continuous learning, and strong team cohesion. If you're looking to make a significant impact and shape the future of HR in a dynamic environment, this role at tectake is for you.
+### Description\
+tectake is a dynamic e-commerce company with a broad and steadily growing product range around living, household, leisure, and hobbies. Through continuous optimization, we continue our successful development both nationally and internationally. To drive this success and the rapid growth of recent years into the future, we are looking for an **HR Manager (m/f/d)** in full-time for our headquarters in Igersheim.\
+\
+You can look forward to:\
+- **Office Dogs** – A relaxed and harmonious work environment thanks to animal companions\
+- **Corporate Benefits** – Attractive employee discounts and benefits on our product range\
+- **Family, friends and career** – Flexible working hours and a modern workplace for optimal work-life balance\
+- **Team spirit** – Joint sports events and team events to strengthen cohesion\
+- **More Benefits** – Support for further training and teambuilding, ergonomic workstations, company health care, and fast decision-making processes in an open corporate culture. Additionally, we offer free catering options.\
+\
+### Responsibilities\
+- Taking overall operational and strategic responsibility for the Human Resources department.\
+- Central contact person for all HR-related and labor law questions.\
+- Responsibility for the further development of the HR strategy for attracting skilled workers and for sustainable employee retention.\
+- Introduction and management of HR tools for further digitalization and to support HR work.\
+- Preparation and analysis of HR data and personnel costs.\
+\
+### Qualifications\
+- Completed degree with a focus on HR, Law, or Business Administration.\
+- Several years of professional experience and initial leadership responsibility in Human Resources within an internationally active company.\
+- Profound knowledge of all aspects of labor and and social security law.\
+- Strong analytical skills for generating relevant HR key figures, and for developing and implementing solutions to foster positive changes.\
+- Very good German and English language skills, both written and spoken.\
+- Experience in developing modern HR concepts and in implementing innovative HR tools.\
+- High communication skills and empathy in dealing with different hierarchical levels.\
+- Confident demeanor, hands-on mentality, persuasiveness, and strong negotiation skills.\
+\
+### Author's Take\
+This is an excellent opportunity for a proactive and experienced HR professional to take on a pivotal strategic role within a rapidly growing international e-commerce company. The role offers overall responsibility for HR, emphasizing strategic development and digitalization, combined with a supportive culture that values work-life balance, continuous learning, and strong team cohesion. If you're looking to make a significant impact and shape the future of HR in a dynamic environment, this role at tectake is for you.

@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-cf7004fdad442ca20899eccec2d39ab6d45ffdfa9bad488d49651febec01cdb3
 title: Are we about to pop the humanoid robot bubble?
@@ -16,8 +14,8 @@ tags:
   - Humanoid
   - robot
 excerpt: >-
-  Engineers are still struggling with basics like giving robots hands that don’t
-  crush everything they touch, or making bodies that don’t fall over when they
+  Engineers are still struggling with basics like giving robots hands that don't
+  crush everything they touch, or making bodies that don't fall over when they
   pick up a box.
 ---
-Engineers are still struggling with basics like giving robots hands that don’t crush everything they touch, or making bodies that don’t fall over when they pick up a box.
+Engineers are still struggling with basics like giving robots hands that don't crush everything they touch, or making bodies that don't fall over when they pick up a box.

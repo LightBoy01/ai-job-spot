@@ -66,4 +66,30 @@ story_answer3: >-
   all about mutual trust and respecting everyone's personal life, which helps
   create a stress-free and productive environment for everyone.
 ---
-### Description\nWe are immediately seeking support in **HR / Recruiting** on a **Minijob or Part-time basis**. If you enjoy working with people, speak **Turkish**, and are proficient in **Social Media**, this job could be a great fit for you – even if your German isn't perfect.\n\n**Benefits include:**\n*   Flexible working hours by arrangement.\n*   Direct contact with management and short decision-making paths.\n*   A collegiate, respectful team environment.\n\n### Responsibilities\n*   Creating and posting **Job Ads / Vacancies** on online platforms (e.g., Kleinanzeigen, Facebook, online portals).\n*   Responding to messages and inquiries from applicants (via chat, email, or phone).\n*   Coordinating appointments for phone and on-site interviews.\n*   Conducting short phone interviews with candidates (asking basic questions, noting down information).\n*   Supporting on-site job interviews (greeting, checking documents, recording data).\n*   Maintaining a simple candidate list (e.g., Excel or similar tools).\n*   General support in the HR office for small organizational tasks.\n\n### Qualifications\n*   Very good **Turkish language skills**, as many applicants and employees speak Turkish.\n*   **Basic German** is sufficient – what's important is that you are motivated and eager to learn.\n*   Proficient in using **Social Media** (e.g., Facebook, Instagram, Kleinanzeigen).\n*   Friendly, open personality and enjoys communication.\n*   Reliable, structured, and independent working style.\n*   Basic PC skills (email, simple lists, files).\n\n### Author's Take\nThis is a fantastic entry-level or junior opportunity for someone eager to start a career in HR and recruiting, especially if you possess strong Turkish language skills and social media proficiency. The role offers excellent flexibility, direct exposure to management, and a supportive team environment. It's a chance to make a tangible impact by helping the company connect with diverse talent and grow, all while learning and developing valuable professional skills.
+### Description
+We are immediately seeking support in **HR / Recruiting** on a **Minijob or Part-time basis**. If you enjoy working with people, speak **Turkish**, and are proficient in **Social Media**, this job could be a great fit for you – even if your German isn't perfect.
+
+**Benefits include:**
+*   Flexible working hours by arrangement.
+*   Direct contact with management and short decision-making paths.
+*   A collegiate, respectful team environment.
+
+### Responsibilities
+*   Creating and posting **Job Ads / Vacancies** on online platforms (e.g., Kleinanzeigen, Facebook, online portals).
+*   Responding to messages and inquiries from applicants (via chat, email, or phone).
+*   Coordinating appointments for phone and on-site interviews.
+*   Conducting short phone interviews with candidates (asking basic questions, noting down information).
+*   Supporting on-site job interviews (greeting, checking documents, recording data).
+*   Maintaining a simple candidate list (e.g., Excel or similar tools).
+*   General support in the HR office for small organizational tasks.
+
+### Qualifications
+*   Very good **Turkish language skills**, as many applicants and employees speak Turkish.
+*   **Basic German** is sufficient – what's important is that you are motivated and eager to learn.
+*   Proficient in using **Social Media** (e.g., Facebook, Instagram, Kleinanzeigen).
+*   Friendly, open personality and enjoys communication.
+*   Reliable, structured, and independent working style.
+*   Basic PC skills (email, simple lists, files).
+
+### Author's Take
+This is a fantastic entry-level or junior opportunity for someone eager to start a career in HR and recruiting, especially if you possess strong Turkish language skills and social media proficiency. The role offers excellent flexibility, direct exposure to management, and a supportive team environment. It's a chance to make a tangible impact by helping the company connect with diverse talent and grow, all while learning and developing valuable professional skills.

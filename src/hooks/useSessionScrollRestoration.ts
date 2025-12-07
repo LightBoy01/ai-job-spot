@@ -52,28 +52,33 @@ export function useSessionScrollRestoration<T>({
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const savedScrollPos = sessionStorage.getItem(config.scrollPosKey);
-      if (savedScrollPos) {
+      
+      // Only attempt to scroll if there was a saved position and it's more than a screen down
+      if (savedScrollPos && parseInt(savedScrollPos, 10) > window.innerHeight) {
         const targetScroll = parseInt(savedScrollPos, 10);
         let attempts = 0;
-        const maxAttempts = 10; // Try for ~1 second (10 * 100ms)
+        const maxAttempts = 30; // Increased patience: try for ~3 seconds
 
         const attemptScroll = () => {
-          // Check if the document is tall enough to scroll to the target
-          const currentHeight = document.documentElement.scrollHeight;
-          const viewportHeight = window.innerHeight;
-          
-          // If we can scroll to the target, or if we are at the bottom of the page
-          if (currentHeight >= targetScroll + viewportHeight || attempts >= maxAttempts) {
-            window.scrollTo(0, targetScroll);
+          attempts++;
+          // Check if the document is tall enough to scroll to the target.
+          // Or give up if we've tried too many times.
+          if (document.documentElement.scrollHeight >= targetScroll || attempts >= maxAttempts) {
+            window.scrollTo({ top: targetScroll, behavior: 'auto' });
+            
+            // Once we've successfully scrolled (or given up), clear all keys for this config
             sessionStorage.removeItem(config.scrollPosKey);
+            sessionStorage.removeItem(config.listKey);
+            sessionStorage.removeItem(config.lastDocIdKey);
+            sessionStorage.removeItem(config.hasMoreKey);
           } else {
-            attempts++;
-            setTimeout(attemptScroll, 100); // Retry in 100ms
+            // If not tall enough, wait and try again.
+            setTimeout(attemptScroll, 100);
           }
         };
 
-        // Start the attempt loop
-        setTimeout(attemptScroll, 0);
+        // Start the first attempt after a short delay to allow initial render.
+        setTimeout(attemptScroll, 100);
       }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps

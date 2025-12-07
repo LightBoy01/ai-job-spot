@@ -56,4 +56,47 @@ story_answer2: >-
   empower educators and democratize access to personalized learning, making a
   tangible difference in higher education.
 ---
-### Description\nacemate is building the leading AI learning & teaching platform for higher education institutions. We have strong traction, secured funding and are entering an exciting growth phase. We're looking for a passionate **Full-Stack Developer (Working Student)** to drive our product forward and help us scale.\n\n**About acemate:**\nFounded less than a year ago, acemate has quickly become Germany's leading AI learning platform for universities, trusted by top-tier institutions across three countries, including TU Munich, WHU and the Association of German Chambers of Commerce and Industry (DIHK).\n*   **Our Mission:** Democratizing access to personalized learning. We don't believe that AI will replace educators. Instead, we empower them to design and deliver personalized learning experiences at scale.\n*   **Our Growth:** We've raised pre-seed funding and are growing rapidly. While we focus on higher education today, we're already expanding into new regions and markets.\n*   **Our Culture:** We're a young, driven team passionate about tackling the toughest challenges in education. We embrace builder culture and minimize scheduled meetings for ad-hoc discussions and maximized focus on coding and creating. We value in-person work in Berlin but offer flexibility.\n\n### Responsibilities\nYour role will evolve based on your strengths and interests, spanning both product development and technical infrastructure. As a core team member, you'll have significant influence on product decisions, technical architecture and overall strategy.\n\n**Product Development:**\n*   Build new features and enhance existing ones, working closely with Paul and Emile.\n*   Listen to users and translate feedback into product improvements.\n\n**Technical Leadership:**\n*   Ensure robustness and scalability as we grow.\n*   Continuously improve AI toolchains to leverage the latest AI advancements.\n*   Work with cutting-edge technology built largely on Cloudflare and Google Cloud.\n\n**Examples of what you might build:**\n*   Duolingo-inspired daily quiz system to engage students with university content.\n*   Complex AI pipelines that extract textual and visual content from diverse documents and embed topics in knowledge graphs.\n*   Custom authorization engine to handle growing complexity across different institutional settings.\n\n**Tech Stack:**\n*   **Frontend:** TypeScript, Next.js, Tailwind CSS\n*   **Database:** Supabase (PostgreSQL)\n*   **Infrastructure:** Cloudflare (Workers, Pages, Workflows, R2, KV), Google Cloud (Gemini, Cloud Run)\n*   **Tools:** Sentry, Langfuse, PostHog, Stripe\n\nDon't worry if you're not familiar with everything from the start. We believe in your ability to learn fast and adapt to new frameworks and tools as we go.\n\n### Qualifications\n**What We're Looking For:**\n*   **Ownership mindset:** You think like a founder and treat the product like it's yours.\n*   **Commitment to excellence:** You're driven to go above and beyond when it matters.\n*   **Curiosity and adaptability:** Eager to learn new technologies and stay open to innovation.\n*   **Balanced AI approach:** You knew how to code before Cursor and AI tools, but understand how to leverage them effectively.\n*   **Availability:** You're enrolled at a university and available for at least the next 12 months.\n\n### Author's Take\nThis is an exceptional opportunity for an ambitious Full-Stack Developer (Working Student) to join acemate, a rapidly growing AI education platform, and make a significant impact from day one. The role offers high autonomy, direct influence on product and technical strategy, and a steep learning curve within a \"builder\" culture that prioritizes coding and creation over excessive meetings. If you're a driven student with an ownership mindset, eager to tackle complex challenges, and contribute meaningfully to democratizing personalized learning, this flexible and supportive team environment in Berlin is ideal.
+### Description
+acemate is building the leading AI learning & teaching platform for higher education institutions. We have strong traction, secured funding and are entering an exciting growth phase. We're looking for a passionate **Full-Stack Developer (Working Student)** to drive our product forward and help us scale.
+
+**About acemate:**
+Founded less than a year ago, acemate has quickly become Germany's leading AI learning platform for universities, trusted by top-tier institutions across three countries, including TU Munich, WHU and the Association of German Chambers of Commerce and Industry (DIHK).
+*   **Our Mission:** Democratizing access to personalized learning. We don't believe that AI will replace educators. Instead, we empower them to design and deliver personalized learning experiences at scale.
+*   **Our Growth:** We've raised pre-seed funding and are growing rapidly. While we focus on higher education today, we're already expanding into new regions and markets.
+*   **Our Culture:** We're a young, driven team passionate about tackling the toughest challenges in education. We embrace builder culture and minimize scheduled meetings for ad-hoc discussions and maximized focus on coding and creating. We value in-person work in Berlin but offer flexibility.
+
+### Responsibilities
+Your role will evolve based on your strengths and interests, spanning both product development and technical infrastructure. As a core team member, you'll have significant influence on product decisions, technical architecture and overall strategy.
+
+**Product Development:**
+*   Build new features and enhance existing ones, working closely with Paul and Emile.
+*   Listen to users and translate feedback into product improvements.
+
+**Technical Leadership:**
+*   Ensure robustness and scalability as we grow.
+*   Continuously improve AI toolchains to leverage the latest AI advancements.
+*   Work with cutting-edge technology built largely on Cloudflare and Google Cloud.
+
+**Examples of what you might build:**
+*   Duolingo-inspired daily quiz system to engage students with university content.
+*   Complex AI pipelines that extract textual and visual content from diverse documents and embed topics in knowledge graphs.
+*   Custom authorization engine to handle growing complexity across different institutional settings.
+
+**Tech Stack:**
+*   **Frontend:** TypeScript, Next.js, Tailwind CSS
+*   **Database:** Supabase (PostgreSQL)
+*   **Infrastructure:** Cloudflare (Workers, Pages, Workflows, R2, KV), Google Cloud (Gemini, Cloud Run)
+*   **Tools:** Sentry, Langfuse, PostHog, Stripe
+
+Don't worry if you're not familiar with everything from the start. We believe in your ability to learn fast and adapt to new frameworks and tools as we go.
+
+### Qualifications
+**What We're Looking For:**
+*   **Ownership mindset:** You think like a founder and treat the product like it's yours.
+*   **Commitment to excellence:** You're driven to go above and beyond when it matters.
+*   **Curiosity and adaptability:** Eager to learn new technologies and stay open to innovation.
+*   **Balanced AI approach:** You knew how to code before Cursor and AI tools, but understand how to leverage them effectively.
+*   **Availability:** You're enrolled at a university and available for at least the next 12 months.
+
+### Author's Take
+This is an exceptional opportunity for an ambitious Full-Stack Developer (Working Student) to join acemate, a rapidly growing AI education platform, and make a significant impact from day one. The role offers high autonomy, direct influence on product and technical strategy, and a steep learning curve within a \"builder\" culture that prioritizes coding and creation over excessive meetings. If you're a driven student with an ownership mindset, eager to tackle complex challenges, and contribute meaningfully to democratizing personalized learning, this flexible and supportive team environment in Berlin is ideal.

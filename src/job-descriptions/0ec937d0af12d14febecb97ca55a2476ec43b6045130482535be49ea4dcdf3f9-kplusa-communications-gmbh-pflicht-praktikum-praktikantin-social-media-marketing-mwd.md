@@ -64,4 +64,32 @@ story_answer3: >-
   to truly innovative and impactful results for our clients, and it's exactly
   the kind of initiative we love to see.
 ---
-### Description\nAre you ready for your next challenge in social media marketing? Then we are exactly the right fit for you!\n\nKplusA Communications GmbH is an event agency for personal brands and medium-sized companies. We make brands tangible and help our clients achieve more sales, more employees, and stronger branding through our own business events. With the help of our large network, we advise and create individual event concepts for our customers.\n\nWe are looking for a dedicated intern to support us in the planning and implementation of various social media activities. As part of our team, you will receive the unique opportunity to gain valuable practical experience.\n\n### Responsibilities\n*   Participate in writing social media posts, especially for LinkedIn.\n*   Edit short videos, e.g., Reels or YouTube videos.\n*   Assist in the creation and implementation of content for our brand appearances.\n*   Collaborate on the development of content for our company account.\n*   General support in social media and marketing.\n\n### Qualifications\n*   You enjoy creative work with video and have initial editing experience (e.g., with CapCut, Adobe Premiere, or similar tools).\n*   You are interested in social media, especially Instagram and LinkedIn.\n*   You have a good sense of visual language, trends, and concise formulations.\n*   You like to work independently, are reliable, and curious about new tools and formats.\n*   You don't have to be a professional – it's important that you are eager to try things out and grow with us.\n*   Proficient in common MS-Office applications.\n*   Good communication skills and team spirit.\n*   Organizational talent and creativity.\n*   Enjoy interacting with people.\n\n### Author's Take\nThis is a fantastic entry-level internship opportunity at KplusA Communications GmbH for anyone passionate about social media and video content. You'll gain hands-on experience in a dynamic event agency, contributing to real client projects and learning industry best practices. The company offers a modern culture with strong team cohesion and a commitment to employee development through internal training. Plus, you'll receive attractive benefits like a subsidy for public transport or parking, and work in a well-connected Düsseldorf location. If you're eager to learn, creative, and ready to make an impact, this role is for you.\n\nP.S. To show you've thoroughly read the job description, please include \"Social Media ist super\" in your application's additional comments field.
+### Description
+Are you ready for your next challenge in social media marketing? Then we are exactly the right fit for you!
+
+KplusA Communications GmbH is an event agency for personal brands and medium-sized companies. We make brands tangible and help our clients achieve more sales, more employees, and stronger branding through our own business events. With the help of our large network, we advise and create individual event concepts for our customers.
+
+We are looking for a dedicated intern to support us in the planning and implementation of various social media activities. As part of our team, you will receive the unique opportunity to gain valuable practical experience.
+
+### Responsibilities
+*   Participate in writing social media posts, especially for LinkedIn.
+*   Edit short videos, e.g., Reels or YouTube videos.
+*   Assist in the creation and implementation of content for our brand appearances.
+*   Collaborate on the development of content for our company account.
+*   General support in social media and marketing.
+
+### Qualifications
+*   You enjoy creative work with video and have initial editing experience (e.g., with CapCut, Adobe Premiere, or similar tools).
+*   You are interested in social media, especially Instagram and LinkedIn.
+*   You have a good sense of visual language, trends, and concise formulations.
+*   You like to work independently, are reliable, and curious about new tools and formats.
+*   You don't have to be a professional – it's important that you are eager to try things out and grow with us.
+*   Proficient in common MS-Office applications.
+*   Good communication skills and team spirit.
+*   Organizational talent and creativity.
+*   Enjoy interacting with people.
+
+### Author's Take
+This is a fantastic entry-level internship opportunity at KplusA Communications GmbH for anyone passionate about social media and video content. You'll gain hands-on experience in a dynamic event agency, contributing to real client projects and learning industry best practices. The company offers a modern culture with strong team cohesion and a commitment to employee development through internal training. Plus, you'll receive attractive benefits like a subsidy for public transport or parking, and work in a well-connected Düsseldorf location. If you're eager to learn, creative, and ready to make an impact, this role is for you.
+
+P.S. To show you've thoroughly read the job description, please include \"Social Media ist super\" in your application's additional comments field.

@@ -57,4 +57,32 @@ story_answer2: >-
   development, ensuring your career path here is as dynamic and fulfilling as
   our company's journey.
 ---
-### Description\\nThe Bernsteinreiter group comprises 4 experience horse farms with holiday parks on the Baltic Sea, featuring a total of 700 horses/ponies, 1000 beds in holiday apartments, houses, hotels, as well as a natural campsite, petting zoos, play worlds, farm kitchens, and restaurants. Approximately 180 employees across 40 different professions form the Bernsteinreiter team.\\n\\nWe are seeking a **modern Financial Accountant** to expand our team, responsible for the accommodation and gastronomy businesses within the Bernsteinreiter Group. This is a varied position offering many personal development opportunities within a modern, continuously growing team. Currently, the most important task involves the automation of accounting processes, enabling the Financial Accountant to also act as a Controller.\\n\\n### Responsibilities\\n- Digitalization and automation of Bernsteinreiter accounting, maintenance of the digital system landscape with necessary interfaces.\\n- Preparation of ongoing monthly financial accounting by reading data from digital systems.\\n- Efficiency enhancement through targeted controlling.\\n- Account assignment and booking of receipts.\\n- Open item accounting (debtors, creditors).\\n- Rental agreement administration.\\n- Cash management (online cash register).\\n- Fixed asset accounting.\\n- Reconciliation of intercompany accounts (especially within the firm group), cash in transit, loans, and ongoing contracts.\\n- Preparation or submission of monthly VAT pre-registration.\\n- Processing of grant applications and settlements, creation of cost plans.\\n- Support of third-party providers (travel agencies, Booking, Expedia, Kurzurlaub, etc.).\\n\\n### Qualifications\\n- Digital talent.\\n- Relevant professional qualification in the industry.\\n- Experience in financial and payroll accounting with common systems, as well as in grant acquisition and processing.\\n- Ability to work independently and goal-oriented.\\n- Driver's license.\\n- Personal strengths: Sense of responsibility, flexibility, resilience, friendliness, commitment, motivation/willingness to perform, independent work.\\n\\n### Author's Take\\nThis is a fantastic opportunity for a digitally-savvy Financial Accountant looking to make a significant impact within a unique and rapidly evolving leisure group. The role offers a stimulating blend of traditional accounting with a strong focus on automation and controlling, positioning you at the heart of strategic financial decision-making. You'll join a motivated and friendly team in a modern workplace where others vacation, with excellent personal development and continuous training opportunities. The Bernsteinreiter group prides itself on its innovative spirit, openly embracing new ideas and challenges with an uncomplicated and unconventional approach. If you're eager to transform financial processes and thrive in a dynamic, growth-oriented environment, this is the place for you.
+### Description\
+The Bernsteinreiter group comprises 4 experience horse farms with holiday parks on the Baltic Sea, featuring a total of 700 horses/ponies, 1000 beds in holiday apartments, houses, hotels, as well as a natural campsite, petting zoos, play worlds, farm kitchens, and restaurants. Approximately 180 employees across 40 different professions form the Bernsteinreiter team.\
+\
+We are seeking a **modern Financial Accountant** to expand our team, responsible for the accommodation and gastronomy businesses within the Bernsteinreiter Group. This is a varied position offering many personal development opportunities within a modern, continuously growing team. Currently, the most important task involves the automation of accounting processes, enabling the Financial Accountant to also act as a Controller.\
+\
+### Responsibilities\
+- Digitalization and automation of Bernsteinreiter accounting, maintenance of the digital system landscape with necessary interfaces.\
+- Preparation of ongoing monthly financial accounting by reading data from digital systems.\
+- Efficiency enhancement through targeted controlling.\
+- Account assignment and booking of receipts.\
+- Open item accounting (debtors, creditors).\
+- Rental agreement administration.\
+- Cash management (online cash register).\
+- Fixed asset accounting.\
+- Reconciliation of intercompany accounts (especially within the firm group), cash in transit, loans, and ongoing contracts.\
+- Preparation or submission of monthly VAT pre-registration.\
+- Processing of grant applications and settlements, creation of cost plans.\
+- Support of third-party providers (travel agencies, Booking, Expedia, Kurzurlaub, etc.).\
+\
+### Qualifications\
+- Digital talent.\
+- Relevant professional qualification in the industry.\
+- Experience in financial and payroll accounting with common systems, as well as in grant acquisition and processing.\
+- Ability to work independently and goal-oriented.\
+- Driver's license.\
+- Personal strengths: Sense of responsibility, flexibility, resilience, friendliness, commitment, motivation/willingness to perform, independent work.\
+\
+### Author's Take\
+This is a fantastic opportunity for a digitally-savvy Financial Accountant looking to make a significant impact within a unique and rapidly evolving leisure group. The role offers a stimulating blend of traditional accounting with a strong focus on automation and controlling, positioning you at the heart of strategic financial decision-making. You'll join a motivated and friendly team in a modern workplace where others vacation, with excellent personal development and continuous training opportunities. The Bernsteinreiter group prides itself on its innovative spirit, openly embracing new ideas and challenges with an uncomplicated and unconventional approach. If you're eager to transform financial processes and thrive in a dynamic, growth-oriented environment, this is the place for you.

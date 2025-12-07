@@ -57,4 +57,32 @@ story_answer2: >-
   about empowering our team to build better, faster, and smarter, and it
   reflects our open-minded, technology-driven culture.
 ---
-### Description\nWe develop modern traffic measurement systems and associated web applications, spanning from embedded devices in the field to cloud-based platforms for management and visualization. Our software solutions seamlessly connect hardware, communication, and user interfaces into an integrated overall system.\n\nThis is an opportunity to work on real, technically challenging products, offering a unique combination of frontend, backend, and system integration. You'll have the chance to actively modernize and help shape existing systems within a technology-agnostic company culture that focuses on automation and AI-supported development. We offer flexible working hours, a modern toolchain, and remote options.\n\n### Responsibilities\n- Develop and maintain our web-based application running directly on an embedded Linux system.\n- Perform full-stack development with Python/Django and React for embedded web applications.\n- Collaborate closely with embedded and system developers to ensure seamless interaction between UI and system components.\n- Further develop our web-based platforms for managing, analyzing, and controlling traffic measurement systems.\n- Engage in full-stack development with Python/Django and React for cloud and web platforms.\n- Contribute to the gradual modernization and further development of existing applications.\n- Strategically utilize modern development tools and environments (e.g., containerization, cloud environments) and AI-supported development.\n- Ensure the maintainability and scalability of solutions.\n- Actively use modern AI tools (e.g., Claude Code, ChatGPT) to improve code, documentation, and development processes.\n- Maintain close collaboration with colleagues from embedded, web, and system architecture domains.\n\n### Qualifications\n- Several years of professional experience as a Full-Stack Developer.\n- Excellent knowledge of Python and Django.\n- Profound experience with React in frontend development.\n- Solid understanding of Linux environments, ideally also in an embedded context.\n- Experience with cloud technologies and modern development environments (e.g., Docker, AWS).\n- Proficient use of AI-supported development tools (e.g., Claude Code, ChatGPT) or willingness to actively use them.\n- Demonstrate initiative, strong teamwork skills, and enthusiasm for applying new technologies.\n- Excellent German and English language skills.\n\n### Author's Take\nThis is an exceptional opportunity for a Senior Full-Stack Developer who thrives on complexity and innovation. You'll play a pivotal role in bridging embedded systems with scalable cloud platforms, actively contributing to the modernization of critical infrastructure. The company's commitment to cutting-edge technologies, including AI tools, combined with a flexible and collaborative culture, makes this a truly dynamic environment. If you're passionate about end-to-end solutions, continuous learning, and making a tangible impact on real-world products, this role offers significant scope for growth and influence.
+### Description
+We develop modern traffic measurement systems and associated web applications, spanning from embedded devices in the field to cloud-based platforms for management and visualization. Our software solutions seamlessly connect hardware, communication, and user interfaces into an integrated overall system.
+
+This is an opportunity to work on real, technically challenging products, offering a unique combination of frontend, backend, and system integration. You'll have the chance to actively modernize and help shape existing systems within a technology-agnostic company culture that focuses on automation and AI-supported development. We offer flexible working hours, a modern toolchain, and remote options.
+
+### Responsibilities
+- Develop and maintain our web-based application running directly on an embedded Linux system.
+- Perform full-stack development with Python/Django and React for embedded web applications.
+- Collaborate closely with embedded and system developers to ensure seamless interaction between UI and system components.
+- Further develop our web-based platforms for managing, analyzing, and controlling traffic measurement systems.
+- Engage in full-stack development with Python/Django and React for cloud and web platforms.
+- Contribute to the gradual modernization and further development of existing applications.
+- Strategically utilize modern development tools and environments (e.g., containerization, cloud environments) and AI-supported development.
+- Ensure the maintainability and scalability of solutions.
+- Actively use modern AI tools (e.g., Claude Code, ChatGPT) to improve code, documentation, and development processes.
+- Maintain close collaboration with colleagues from embedded, web, and system architecture domains.
+
+### Qualifications
+- Several years of professional experience as a Full-Stack Developer.
+- Excellent knowledge of Python and Django.
+- Profound experience with React in frontend development.
+- Solid understanding of Linux environments, ideally also in an embedded context.
+- Experience with cloud technologies and modern development environments (e.g., Docker, AWS).
+- Proficient use of AI-supported development tools (e.g., Claude Code, ChatGPT) or willingness to actively use them.
+- Demonstrate initiative, strong teamwork skills, and enthusiasm for applying new technologies.
+- Excellent German and English language skills.
+
+### Author's Take
+This is an exceptional opportunity for a Senior Full-Stack Developer who thrives on complexity and innovation. You'll play a pivotal role in bridging embedded systems with scalable cloud platforms, actively contributing to the modernization of critical infrastructure. The company's commitment to cutting-edge technologies, including AI tools, combined with a flexible and collaborative culture, makes this a truly dynamic environment. If you're passionate about end-to-end solutions, continuous learning, and making a tangible impact on real-world products, this role offers significant scope for growth and influence.

@@ -68,4 +68,27 @@ story_answer3: >-
   your contributions are highly valued. We make sure you feel like a vital part
   of the team, whether you're in the office or working remotely.
 ---
-### Description\\nWikimedia Deutschland e.V., a non-profit association founded in 2004 by active Wikipedia volunteers, consists of over 110,000 members and 190 full-time Mitarbeiter\\\\*innen. They are seeking a Werkstudent\\\\*in Kommunikation (all genders) to join their Communication Team in Berlin.\\n\\nThis is a part-time position (18-20 hours/week), limited to 2 years, with a start date of February 1, 2026, or earlier. The role operates on a hybrid model, requiring weekly presence at their Berlin office.\\n\\nThe Communication Team manages all external communication, including owned channels and traditional press work. Their mission is to provide a platform for Wiki-Communities in the wider public and enhance the brand and visibility of Wikipedia and Wikidata. The team is described as diverse, creative, and eager to discover and share new stories.\\n\\n### Responsibilities\\n*   Support the team, primarily in content management for the company's website CMS and social media channels.\\n*   Independently manage the creation of the weekly press distributor list.\\n*   Handle organizational tasks, such as logistics for promotional materials and ordering business cards.\\n*   Participate in team meetings and editorial conferences as time permits.\\n\\n### Qualifications\\n*   Currently enrolled as a Student\\\\*in in a relevant field such as Communication, Public Relations, German Studies, Linguistics, Language Sciences, or a similar area.\\n*   Demonstrated interest in language, communication, and various media formats and channels.\\n*   Interest in topics related to Free Knowledge; initial experience in an NGO, non-profit organization, or association is a plus.\\n*   Possess initial experience with Content Management Systems (CMS) or a strong willingness to learn, along with a good understanding of social media.\\n*   Enjoys working collaboratively in a team, is organized, and reliable in task management.\\n*   Fluent in spoken and written German, with good English skills.\\n*   Availability to be present in the Berlin office on Thursdays (for team meetings) and ideally one to two additional days.\\n\\n### Author's Take\\nThis is an excellent entry-level opportunity for a student passionate about communication and the mission of 'Free Knowledge' within a renowned non-profit organization. Wikimedia Deutschland offers a supportive, hybrid work environment where you can gain invaluable practical experience in content management, social media, and press relations. The role is ideal for someone looking to contribute meaningfully, develop professional skills, and be part of a diverse and collaborative team dedicated to making a global impact.
+### Description\
+Wikimedia Deutschland e.V., a non-profit association founded in 2004 by active Wikipedia volunteers, consists of over 110,000 members and 190 full-time Mitarbeiter\\\\*innen. They are seeking a Werkstudent\\\\*in Kommunikation (all genders) to join their Communication Team in Berlin.\
+\
+This is a part-time position (18-20 hours/week), limited to 2 years, with a start date of February 1, 2026, or earlier. The role operates on a hybrid model, requiring weekly presence at their Berlin office.\
+\
+The Communication Team manages all external communication, including owned channels and traditional press work. Their mission is to provide a platform for Wiki-Communities in the wider public and enhance the brand and visibility of Wikipedia and Wikidata. The team is described as diverse, creative, and eager to discover and share new stories.\
+\
+### Responsibilities\
+*   Support the team, primarily in content management for the company's website CMS and social media channels.\
+*   Independently manage the creation of the weekly press distributor list.\
+*   Handle organizational tasks, such as logistics for promotional materials and ordering business cards.\
+*   Participate in team meetings and editorial conferences as time permits.\
+\
+### Qualifications\
+*   Currently enrolled as a Student\\\\*in in a relevant field such as Communication, Public Relations, German Studies, Linguistics, Language Sciences, or a similar area.\
+*   Demonstrated interest in language, communication, and various media formats and channels.\
+*   Interest in topics related to Free Knowledge; initial experience in an NGO, non-profit organization, or association is a plus.\
+*   Possess initial experience with Content Management Systems (CMS) or a strong willingness to learn, along with a good understanding of social media.\
+*   Enjoys working collaboratively in a team, is organized, and reliable in task management.\
+*   Fluent in spoken and written German, with good English skills.\
+*   Availability to be present in the Berlin office on Thursdays (for team meetings) and ideally one to two additional days.\
+\
+### Author's Take\
+This is an excellent entry-level opportunity for a student passionate about communication and the mission of 'Free Knowledge' within a renowned non-profit organization. Wikimedia Deutschland offers a supportive, hybrid work environment where you can gain invaluable practical experience in content management, social media, and press relations. The role is ideal for someone looking to contribute meaningfully, develop professional skills, and be part of a diverse and collaborative team dedicated to making a global impact.

@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-5d146fd1b42b3f85d1c6d62173c98d259e2ac635c4ada5fbb202df387eba1aef
 title: >-
   Automobile demand forecasting: Spatiotemporal and hierarchical modeling, life
-  cycle dynamics, and user-generated online information
+  cycle dynamics, and...
 slug: briefing-5d146fd1b42b3f85d1c6d62173c98d259e2ac635c4ada5fbb202df387eba1aef
 author: 'Tom Nahrendorf, Stefan Minner, Helfried Binder, Richard Zinck'
 publishDate: 2025-11-24T05:00:00.000Z

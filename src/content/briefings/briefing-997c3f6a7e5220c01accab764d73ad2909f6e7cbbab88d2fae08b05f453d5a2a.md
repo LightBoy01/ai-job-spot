@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-997c3f6a7e5220c01accab764d73ad2909f6e7cbbab88d2fae08b05f453d5a2a
 title: 'LoRAQuant: Mixed-Precision Quantization of LoRA to Ultra-Low Bits'

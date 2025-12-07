@@ -70,4 +70,27 @@ story_answer3: >-
   predictive of future trends. We believe Digital Signage is the future, and
   we're committed to leading it.
 ---
-### Description\\nBLITZEN develops, operates, and scales digital advertising and information networks at the Point of Sale. As a Managed Signage agency, we offer everything from complete packages to individual services in this area. Our specialists in technology, creation, and operations manage a nationwide network with over 14,000 devices.\\n\\nYou will be the linchpin of our B2B marketing: Together with our external B2B marketing agency, you will develop concepts and campaigns that showcase what BLITZEN stands for – and why our solutions make a real difference. You will ensure that our messages are clear, creative, and impactful across relevant channels. In doing so, you will bring your own ideas, try new things, and introduce fresh perspectives. An interdisciplinary team of motion designers, web developers, videographers, designers, and communication experts will support you in the implementation.\\n\\n### Responsibilities\\n- (Co-)Conception and coordination of the marketing strategy\\n- Building and managing communication and sales channels\\n- Implementing campaigns for lead generation and brand building\\n- Collaborating with internal and external content creators\\n- Editing and managing content (use cases, landing pages, whitepapers, social media)\\n- Monitoring and reporting relevant KPIs\\n- Organizing industry appearances, assisting with events and customer formats\\n\\n### Qualifications\\n- At least three years of professional experience in B2B marketing, ideally in a technology-oriented environment (e.g., SaaS, IT, system integration, agency)\\n- Experience collaborating with agencies and internal creative teams\\n- Strategic thinking combined with a hands-on mentality\\n- Strong writing style and a keen eye for visual language & brand impact\\n- Bonus: Experience in marketing complex technical solutions requiring explanation\\n- Native speaker level German language skills\\n\\n### Author's Take\\nThis is a truly impactful role for a B2B Marketing professional looking to make their mark. BLITZEN offers a dynamic, agile environment where your contributions directly shape the company's growth in the exciting field of Digital Signage. You'll benefit from short decision-making paths, full leadership support, and the collaboration of strong in-house teams. The company fosters a culture of innovation, providing genuine opportunities to bring your ideas to life. Plus, with flexible working hours (hybrid/remote options), 28 days of vacation, and an innovative environment in Berlin-Kreuzberg, it's designed to support both professional development and work-life balance. If you're passionate about marketing and eager to drive real change in a growing tech company, this is an excellent opportunity.
+### Description\
+BLITZEN develops, operates, and scales digital advertising and information networks at the Point of Sale. As a Managed Signage agency, we offer everything from complete packages to individual services in this area. Our specialists in technology, creation, and operations manage a nationwide network with over 14,000 devices.\
+\
+You will be the linchpin of our B2B marketing: Together with our external B2B marketing agency, you will develop concepts and campaigns that showcase what BLITZEN stands for – and why our solutions make a real difference. You will ensure that our messages are clear, creative, and impactful across relevant channels. In doing so, you will bring your own ideas, try new things, and introduce fresh perspectives. An interdisciplinary team of motion designers, web developers, videographers, designers, and communication experts will support you in the implementation.\
+\
+### Responsibilities\
+- (Co-)Conception and coordination of the marketing strategy\
+- Building and managing communication and sales channels\
+- Implementing campaigns for lead generation and brand building\
+- Collaborating with internal and external content creators\
+- Editing and managing content (use cases, landing pages, whitepapers, social media)\
+- Monitoring and reporting relevant KPIs\
+- Organizing industry appearances, assisting with events and customer formats\
+\
+### Qualifications\
+- At least three years of professional experience in B2B marketing, ideally in a technology-oriented environment (e.g., SaaS, IT, system integration, agency)\
+- Experience collaborating with agencies and internal creative teams\
+- Strategic thinking combined with a hands-on mentality\
+- Strong writing style and a keen eye for visual language & brand impact\
+- Bonus: Experience in marketing complex technical solutions requiring explanation\
+- Native speaker level German language skills\
+\
+### Author's Take\
+This is a truly impactful role for a B2B Marketing professional looking to make their mark. BLITZEN offers a dynamic, agile environment where your contributions directly shape the company's growth in the exciting field of Digital Signage. You'll benefit from short decision-making paths, full leadership support, and the collaboration of strong in-house teams. The company fosters a culture of innovation, providing genuine opportunities to bring your ideas to life. Plus, with flexible working hours (hybrid/remote options), 28 days of vacation, and an innovative environment in Berlin-Kreuzberg, it's designed to support both professional development and work-life balance. If you're passionate about marketing and eager to drive real change in a growing tech company, this is an excellent opportunity.

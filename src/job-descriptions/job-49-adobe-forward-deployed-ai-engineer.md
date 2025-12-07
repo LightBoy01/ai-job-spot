@@ -23,7 +23,14 @@ source: Adobe Careers
 companyLogoUrl: >-
   https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Adobe_Corporate_logo.svg/2560px-Adobe_Corporate_logo.svg.png
 sourceUrl: null
-verificationDate: '2025-09-22T16:53:14.267Z'
+verificationDate: '2025-10-06T09:30:00.000Z'
+verificationHistory:
+  - date: 2025-09-22T16:53:14.267Z
+    type: automated
+    verifier: System
+  - date: 2025-10-06T09:30:00.000Z
+    type: automated
+    verifier: LinkChecker-Bot
 ---
 Join our “DevOps for Content” revolution as we partner with global brands and agencies to transform their end-to-end creative workflows – from ideation to activation – to deliver AI-powered content services with speed, scale, and governance. Through an AI-first experimentation approach and deep expertise in both first-party and third-party AI models, we develop new applications, platforms, and scalable patterns that unlock the GenAI-powered Content Supply Chain.
 As a Forward Deployed AI Engineer, you will own the end-to-end development and launch of GenAI applications through Adobe and third-party generative models. You are an AI native who will embed directly into customer teams to spin up proof points in days and co-develop features that enhance customer value.

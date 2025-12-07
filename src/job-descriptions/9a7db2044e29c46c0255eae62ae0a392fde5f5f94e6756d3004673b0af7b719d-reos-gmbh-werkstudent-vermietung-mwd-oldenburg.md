@@ -68,4 +68,21 @@ story_answer3: >-
   resources and a supportive environment to help you become a real estate
   expert.
 ---
-### Description\nThis role is for a dedicated and customer-focused individual passionate about real estate, digitalization, and sustainability. As a key on-site contact, you will manage property operations, facilitate tenant relations from first contact to contract signing, and actively contribute to marketing vacant units and new projects. This is an excellent opportunity for a student in the real estate sector looking to gain hands-on experience in a dynamic and supportive environment.\n\n### Responsibilities\n*   Act as the central local contact person for the care and administration of our properties.\n*   Professionally coordinate and conduct tenant move-ins, move-outs, and apartment viewings.\n*   Guide prospective tenants from their initial contact through to the successful signing of their contract.\n*   Manage the marketing of vacant rental units and new construction projects on relevant online portals.\n*   Take responsibility for the creation and quality assurance of compelling and informative exposés.\n\n### Qualifications\n*   Currently enrolled in a university program, preferably with a focus on real estate.\n*   Demonstrates a high degree of customer and service orientation, maintaining a courteous and prudent demeanor even in challenging situations.\n*   Enthusiastic about topics such as digitalization, the real estate industry, and sustainability.\n*   Possesses very good communication skills and expressiveness in German, along with good English language skills.\n\n### Author's Take\nThis is an exceptional entry-level opportunity for a motivated student eager to kickstart their career in real estate. The company clearly values its employees, offering a flexible remote-first approach (within Germany), comprehensive well-being programs, and significant investment in professional development. Their strong emphasis on collaboration, innovation, and customer success, combined with a supportive team culture and modern perks, makes this a vibrant place to learn and grow. If you're ready to make a tangible impact and develop your skills in a forward-thinking environment, this role is for you.
+### Description
+This role is for a dedicated and customer-focused individual passionate about real estate, digitalization, and sustainability. As a key on-site contact, you will manage property operations, facilitate tenant relations from first contact to contract signing, and actively contribute to marketing vacant units and new projects. This is an excellent opportunity for a student in the real estate sector looking to gain hands-on experience in a dynamic and supportive environment.
+
+### Responsibilities
+*   Act as the central local contact person for the care and administration of our properties.
+*   Professionally coordinate and conduct tenant move-ins, move-outs, and apartment viewings.
+*   Guide prospective tenants from their initial contact through to the successful signing of their contract.
+*   Manage the marketing of vacant rental units and new construction projects on relevant online portals.
+*   Take responsibility for the creation and quality assurance of compelling and informative exposés.
+
+### Qualifications
+*   Currently enrolled in a university program, preferably with a focus on real estate.
+*   Demonstrates a high degree of customer and service orientation, maintaining a courteous and prudent demeanor even in challenging situations.
+*   Enthusiastic about topics such as digitalization, the real estate industry, and sustainability.
+*   Possesses very good communication skills and expressiveness in German, along with good English language skills.
+
+### Author's Take
+This is an exceptional entry-level opportunity for a motivated student eager to kickstart their career in real estate. The company clearly values its employees, offering a flexible remote-first approach (within Germany), comprehensive well-being programs, and significant investment in professional development. Their strong emphasis on collaboration, innovation, and customer success, combined with a supportive team culture and modern perks, makes this a vibrant place to learn and grow. If you're ready to make a tangible impact and develop your skills in a forward-thinking environment, this role is for you.

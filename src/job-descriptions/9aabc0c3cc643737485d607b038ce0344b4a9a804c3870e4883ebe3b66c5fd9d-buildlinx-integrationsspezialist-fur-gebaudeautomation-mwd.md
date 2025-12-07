@@ -49,4 +49,32 @@ story_answer2: >-
   influence how we evolve, making your mark on both the company and the broader
   mission.
 ---
-### Description\nBuildlinX is revolutionizing building automation to fundamentally change and decarbonize building operations, which are responsible for 30% of global CO2 emissions. We are one of Northern Germany's fastest-growing young companies without external investors, currently with 20 employees.\n\nEven if your profile doesn't match 100%, we encourage you to apply! We value passion for automation and a willingness to develop, not just perfection. If you are enthusiastic about innovative technologies, we look forward to your application!\n\n### Responsibilities\nAt BuildlinX, you will implement our solutions in real building automation projects, either independently or with external partners. Your tasks include:\n- **Project Work:** Independently manage projects from requirements gathering, reviewing planning documents, conducting site visits, implementation, minor hardware adjustments, to final acceptance.\n- **Knowledge Transfer:** Train external partners in using our solution, contribute to training materials, and clarify questions regarding planning documents.\n- **System Analysis:** Analyze and revise existing building automation software solutions based on documentation or source code to enable targeted and smart modernization.\n\n### Qualifications\nWe are looking for someone with:\n- Completed vocational training as an **Electronics Technician for Energy and Building Technology**, **Automation Technology**, **Industrial Engineering**, **Electrician**, **Mechatronics Engineer** (specializing in building technology), or a similar qualification.\n- You are a fully qualified **Electrician** (\"Elektrofachkraft\"), not just for specific tasks.\n- Experience with **programmable logic controllers** (preferably Codesys).\n- A combination of **interpersonal skills** and **practical craftsmanship**.\n- German language skills at least at C1 level.\n- **Driver's license** Class B.\n\n**Bonus points for:**\n- Bachelor's or Master's degree in Automation, Electrical, or Information Technology.\n- Master Craftsman's certificate (\"Meisterbrief\") or Technician qualification in a relevant field.\n- Experience in building automation (e.g., bus systems like BACnet, KNX, Modbus).\n\nWe are not looking for theorists or pure desk technicians. You must be hands-on and ready to tackle practical challenges.\n\n### Author's Take\nThis role at BuildlinX offers a unique opportunity to make a tangible impact by actively contributing to sustainable building practices. You'll join a fast-growing, highly collaborative, and supportive team where flat hierarchies and short decision paths mean real responsibility and the chance to shape the company's future. With projects focused exclusively on Northern Germany, you'll avoid lengthy travel and enjoy a better work-life balance, all while being part of a team that feels more like a family. It's a chance to grow professionally, apply hands-on skills, and see the direct results of your efforts in decarbonizing our environment.
+### Description
+BuildlinX is revolutionizing building automation to fundamentally change and decarbonize building operations, which are responsible for 30% of global CO2 emissions. We are one of Northern Germany's fastest-growing young companies without external investors, currently with 20 employees.
+
+Even if your profile doesn't match 100%, we encourage you to apply! We value passion for automation and a willingness to develop, not just perfection. If you are enthusiastic about innovative technologies, we look forward to your application!
+
+### Responsibilities
+At BuildlinX, you will implement our solutions in real building automation projects, either independently or with external partners. Your tasks include:
+- **Project Work:** Independently manage projects from requirements gathering, reviewing planning documents, conducting site visits, implementation, minor hardware adjustments, to final acceptance.
+- **Knowledge Transfer:** Train external partners in using our solution, contribute to training materials, and clarify questions regarding planning documents.
+- **System Analysis:** Analyze and revise existing building automation software solutions based on documentation or source code to enable targeted and smart modernization.
+
+### Qualifications
+We are looking for someone with:
+- Completed vocational training as an **Electronics Technician for Energy and Building Technology**, **Automation Technology**, **Industrial Engineering**, **Electrician**, **Mechatronics Engineer** (specializing in building technology), or a similar qualification.
+- You are a fully qualified **Electrician** (\"Elektrofachkraft\"), not just for specific tasks.
+- Experience with **programmable logic controllers** (preferably Codesys).
+- A combination of **interpersonal skills** and **practical craftsmanship**.
+- German language skills at least at C1 level.
+- **Driver's license** Class B.
+
+**Bonus points for:**
+- Bachelor's or Master's degree in Automation, Electrical, or Information Technology.
+- Master Craftsman's certificate (\"Meisterbrief\") or Technician qualification in a relevant field.
+- Experience in building automation (e.g., bus systems like BACnet, KNX, Modbus).
+
+We are not looking for theorists or pure desk technicians. You must be hands-on and ready to tackle practical challenges.
+
+### Author's Take
+This role at BuildlinX offers a unique opportunity to make a tangible impact by actively contributing to sustainable building practices. You'll join a fast-growing, highly collaborative, and supportive team where flat hierarchies and short decision paths mean real responsibility and the chance to shape the company's future. With projects focused exclusively on Northern Germany, you'll avoid lengthy travel and enjoy a better work-life balance, all while being part of a team that feels more like a family. It's a chance to grow professionally, apply hands-on skills, and see the direct results of your efforts in decarbonizing our environment.

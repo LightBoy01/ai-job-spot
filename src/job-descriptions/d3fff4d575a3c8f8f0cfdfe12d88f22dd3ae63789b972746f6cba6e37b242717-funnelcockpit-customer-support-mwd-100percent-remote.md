@@ -51,4 +51,29 @@ story_answer2: >-
   hierarchies genuinely mean your voice is heard, and opportunities to learn and
   expand your skills are abundant.
 ---
-### Description\nFunnelCockpit is an innovative software company on a mission to build the best all-in-one marketing tool for small and medium-sized businesses. To support our growth, we are looking for a Customer Support specialist to help our clients successfully use FunnelCockpit daily – friendly, solution-oriented, and with technical understanding.\n\nWe operate as a remote-first team, offering 100% home office work with the option to use a co-working space. Collaboration is facilitated through modern tools like Slack for communication, Linear for task and ticket management, and Intercom for direct customer contact. We foster an environment where ideas and questions are openly welcomed, allowing for creative exchange. You'll receive intensive onboarding and be supported by a personal mentor from day one.\n\n### Responsibilities\n- Provide friendly, solution-oriented written customer support via Intercom.\n- Document customer inquiries in Linear and collaborate closely with our product and development teams.\n- Test new features and actively contribute to improving our Knowledge Base and AI features.\n- Relay customer feedback to contribute to the continuous improvement of FunnelCockpit.\n- Proactively bring in your own ideas and work autonomously – this is expressly encouraged.\n\n### Qualifications\n**Your Profile**\n- Proven experience in customer service, ideally in a digital environment (e.g., SaaS, e-commerce, IT support).\n- Fluent in German and English; English is required for communication with our international development team.\n- Strong technical understanding and comfort with learning new tools.\n- Solution-first, courteous, and highly solution-oriented.\n- Reliable, structured, and capable of working independently in a home office setting.\n\n**Nice to Have**\n- Experience with other marketing tools or landing page/funnel builders.\n- Familiarity with SEO & Performance Marketing (e.g., Facebook Ads, Google Ads).\n\n### Author's Take\nThis is an excellent opportunity for a proactive customer support professional to join a growing, remote-first SaaS company. FunnelCockpit offers a supportive environment with strong mentorship, flexible working hours (main time between 9:00 and 18:00), flat hierarchies, and a genuine \"Du-Kultur\" (informal culture). You'll have opportunities to influence product development, contribute to new features, and actively shape the company's offerings. With a fully equipped home office, optional co-working space, and regular team events, it's an attractive role for someone looking to make a tangible impact and grow their career in a dynamic, innovative setting.
+### Description
+FunnelCockpit is an innovative software company on a mission to build the best all-in-one marketing tool for small and medium-sized businesses. To support our growth, we are looking for a Customer Support specialist to help our clients successfully use FunnelCockpit daily – friendly, solution-oriented, and with technical understanding.
+
+We operate as a remote-first team, offering 100% home office work with the option to use a co-working space. Collaboration is facilitated through modern tools like Slack for communication, Linear for task and ticket management, and Intercom for direct customer contact. We foster an environment where ideas and questions are openly welcomed, allowing for creative exchange. You'll receive intensive onboarding and be supported by a personal mentor from day one.
+
+### Responsibilities
+- Provide friendly, solution-oriented written customer support via Intercom.
+- Document customer inquiries in Linear and collaborate closely with our product and development teams.
+- Test new features and actively contribute to improving our Knowledge Base and AI features.
+- Relay customer feedback to contribute to the continuous improvement of FunnelCockpit.
+- Proactively bring in your own ideas and work autonomously – this is expressly encouraged.
+
+### Qualifications
+**Your Profile**
+- Proven experience in customer service, ideally in a digital environment (e.g., SaaS, e-commerce, IT support).
+- Fluent in German and English; English is required for communication with our international development team.
+- Strong technical understanding and comfort with learning new tools.
+- Solution-first, courteous, and highly solution-oriented.
+- Reliable, structured, and capable of working independently in a home office setting.
+
+**Nice to Have**
+- Experience with other marketing tools or landing page/funnel builders.
+- Familiarity with SEO & Performance Marketing (e.g., Facebook Ads, Google Ads).
+
+### Author's Take
+This is an excellent opportunity for a proactive customer support professional to join a growing, remote-first SaaS company. FunnelCockpit offers a supportive environment with strong mentorship, flexible working hours (main time between 9:00 and 18:00), flat hierarchies, and a genuine \"Du-Kultur\" (informal culture). You'll have opportunities to influence product development, contribute to new features, and actively shape the company's offerings. With a fully equipped home office, optional co-working space, and regular team events, it's an attractive role for someone looking to make a tangible impact and grow their career in a dynamic, innovative setting.

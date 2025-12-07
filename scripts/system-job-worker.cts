@@ -1,103 +1,83 @@
-const { getFirebaseAdmin } = require('../src/lib/firebaseAdmin.cts');
-import { exec } from 'child_process';
-import { promisify } from 'util';
+const { getFirebaseAdmin, admin } = require('../src/lib/firebaseAdmin');
+const { exec } = require('child_process');
+const util = require('util');
+const execPromise = util.promisify(exec);
 
-const execAsync = promisify(exec);
+const SYSTEM_JOBS_COLLECTION = 'system_jobs';
 
 /**
- * Maps a safe, predefined task name to the actual shell command to be executed.
- * This is a critical security measure to prevent command injection.
+ * Executes a single pending system job from the Firestore queue.
  */
-function getCommandForTask(taskName: string, isDryRun: boolean): string | null {
-  const commandMap: Record<string, string> = {
-    ENRICH_JOBS: 'ts-node scripts/ops.ts --run=enrich --type=jobs',
-    ENRICH_BRIEFINGS: 'ts-node scripts/ops.ts --run=enrich --type=briefings',
-    RUN_HYGIENE: 'ts-node scripts/ops.ts --run=hygiene',
-    RUN_SEED: 'ts-node scripts/ops.ts --run=seed',
-  };
-  
-  const command = commandMap[taskName];
-  if (!command) return null;
-
-  return isDryRun ? `${command} --dry-run` : command;
-}
-
-async function runSystemJob() {
-  console.log('[Worker] Starting system job worker...');
+async function processSystemJob() {
+  console.log('System Job Worker: Checking for pending jobs...');
   const { adminDb } = await getFirebaseAdmin();
-  const jobsCollection = adminDb.collection('system_jobs');
+  const jobsRef = adminDb.collection(SYSTEM_JOBS_COLLECTION);
 
-  // 1. Find a pending job
-  const pendingJobsSnapshot = await jobsCollection
+  // Find a pending job
+  const pendingJobsSnapshot = await jobsRef
     .where('status', '==', 'pending')
-    .orderBy('createdAt')
+    .orderBy('createdAt', 'asc')
     .limit(1)
     .get();
 
   if (pendingJobsSnapshot.empty) {
-    console.log("[Worker] No pending jobs found. Exiting.");
+    console.log('System Job Worker: No pending jobs found.');
     return;
   }
 
   const jobDoc = pendingJobsSnapshot.docs[0];
+  const jobId = jobDoc.id;
   const jobData = jobDoc.data();
-  const { jobId, taskName, isDryRun = false } = jobData;
+  const jobRef = jobDoc.ref;
 
-  console.log(`[Worker] Found pending job: ${jobId} (${taskName}) - Dry Run: ${isDryRun}`);
+  console.log(`System Job Worker: Found job [${jobId}], task [${jobData.taskName}]. Locking...`);
 
   try {
-    // 2. Lock the job by updating its status to 'running'
-    await jobDoc.ref.update({
+    // Lock the job to prevent other workers from picking it up
+    await jobRef.update({
       status: 'running',
-      updatedAt: new Date(),
-      outputLogs: `[${new Date().toISOString()}] Worker picked up job. Starting execution... (Dry Run: ${isDryRun})`
+      startedAt: admin.firestore.FieldValue.serverTimestamp(),
     });
 
-    // 3. Get the command and execute it
-    const command = getCommandForTask(taskName, isDryRun);
-    if (!command) {
-      throw new Error(`No command found for task: ${taskName}`);
-    }
+    console.log(`System Job Worker: Executing [${jobData.taskName}]...`);
 
-    console.log(`[Worker] Executing command: ${command}`);
-    const { stdout, stderr } = await execAsync(command);
+    const command = `node scripts/ops.cts --run=${jobData.taskName}`;
+    const { stdout, stderr } = await execPromise(command);
 
-    const output = `STDOUT:\n${stdout}\n\nSTDERR:\n${stderr}`.trim();
-    console.log(`[Worker] Command executed for job ${jobId}. Output captured.`);
+    console.log(`System Job Worker: [${jobData.taskName}] finished.`);
 
-    // 4. Update job to 'completed' on success
-    await jobDoc.ref.update({
+    // Job succeeded
+    await jobRef.update({
       status: 'completed',
-      updatedAt: new Date(),
-      completedAt: new Date(),
-      outputLogs: `[${new Date().toISOString()}] Job completed successfully. (Dry Run: ${isDryRun})\n\n${output}`
+      finishedAt: admin.firestore.FieldValue.serverTimestamp(),
+      stdout: stdout || '',
+      stderr: stderr || '',
     });
+    console.log(`System Job Worker: Job [${jobId}] completed successfully.`);
 
-    console.log(`[Worker] Job ${jobId} marked as completed.`);
-
-  } catch (error: any) {
-    console.error(`[Worker] Error processing job ${jobId}:`, error);
-    const errorMessage = error.message || 'An unknown error occurred';
-    const errorOutput = error.stdout || '';
-    const errorStderr = error.stderr || '';
-
-    // 5. Update job to 'failed' on error
-    await jobDoc.ref.update({
+  } catch (error) {
+    console.error(`System Job Worker: Job [${jobId}] failed.`);
+    console.error(error);
+    
+    // Job failed
+    await jobRef.update({
       status: 'failed',
-      updatedAt: new Date(),
-      completedAt: new Date(),
-      outputLogs: `[${new Date().toISOString()}] Job failed. (Dry Run: ${isDryRun})\n\nERROR: ${errorMessage}\n\nSTDOUT:\n${errorOutput}\n\nSTDERR:\n${errorStderr}`
+      finishedAt: admin.firestore.FieldValue.serverTimestamp(),
+      error: error.message || 'Unknown error',
+      stdout: error.stdout || '',
+      stderr: error.stderr || '',
     });
-    console.log(`[Worker] Job ${jobId} marked as failed.`);
   }
 }
 
-// --- EXECUTION BLOCK ---
-runSystemJob()
-  .then(() => {
-    process.exit(0);
-  })
-  .catch((error) => {
-    console.error("A critical, unhandled error occurred in the system job worker:", error);
-    process.exit(1);
-  });
+if (require.main === module) {
+    processSystemJob()
+    .then(() => {
+        console.log('System Job Worker: Run finished.');
+        process.exit(0);
+    })
+    .catch(err => {
+        console.error('System Job Worker: Unhandled error in main execution.', err);
+        process.exit(1);
+    });
+}

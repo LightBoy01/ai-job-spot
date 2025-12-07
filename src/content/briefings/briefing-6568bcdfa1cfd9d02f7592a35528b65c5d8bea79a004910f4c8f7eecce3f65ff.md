@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-6568bcdfa1cfd9d02f7592a35528b65c5d8bea79a004910f4c8f7eecce3f65ff
 title: 'Video-R4: Reinforcing Text-Rich Video Reasoning with Visual Rumination'

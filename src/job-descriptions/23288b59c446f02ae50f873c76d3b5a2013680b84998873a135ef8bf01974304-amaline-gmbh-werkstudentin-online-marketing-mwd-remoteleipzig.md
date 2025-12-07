@@ -73,4 +73,30 @@ story_answer3: >-
   fostering an environment where everyone feels heard, valued, and part of
   something bigger, regardless of where they're working that day.
 ---
-### Description\nIf you have a knack for numbers, are passionate about online marketing, and enjoy working in a young, flexible team, we are looking for you immediately to join our dynamic e-commerce marketing team. You'll take on responsibility from day one in a positive, motivated environment that values continuous learning and offers excellent career growth opportunities.\n\n### Responsibilities\n- Manage Amazon accounts for our production and e-commerce clients.\n- Set up and optimize Amazon, Google, Bing, and YouTube advertising campaigns.\n- Conduct keyword research and market analysis to prepare new campaigns.\n- Optimize websites for search engines like Google and AI models like ChatGPT.\n- Optimize conversion-focused landing pages and online shops.\n- Plan and execute promotions and sales campaigns.\n- Onboard new marketing channels, including tracking implementation.\n- Analyze websites and products using Google Analytics and Microsoft Clarity, providing actionable recommendations.\n- Create briefings for other stakeholders (IT, graphics, text, etc.) and review results.\n- Perform overall portfolio analysis and optimization to increase ROAS.\n- Handle additional tasks with a strong focus on e-commerce marketing.\n\n### Qualifications\n- Advanced knowledge of Microsoft Excel and other Office applications.\n- Ideally, experience in managing Amazon accounts, Google Ads, website creation, or social media presences.\n- A love for challenges and the ambition to grow every day, bringing this enthusiasm to your work.\n- A high degree of independence and personal responsibility.\n- A solution-oriented approach, confidently mastering tricky situations.\n- The ability to independently gather information and share your knowledge with others.\n- Friendliness and self-confidence in dealing with customers and business partners are natural for you.\n\n### Author's Take\nThis is an exceptional opportunity for an enthusiastic individual looking to make a significant impact in e-commerce marketing. The company offers a supportive, flexible, and highly motivated work environment, emphasizing early responsibility and clear career progression. With perks like flexible home office options, performance-based bonuses, and even optional coworking trips to Barcelona, it's clear they invest in their team's well-being and growth. If you're eager to learn, take initiative, and contribute to client success from day one, don't hesitate – apply now and send something creative along with your CV!
+### Description
+If you have a knack for numbers, are passionate about online marketing, and enjoy working in a young, flexible team, we are looking for you immediately to join our dynamic e-commerce marketing team. You'll take on responsibility from day one in a positive, motivated environment that values continuous learning and offers excellent career growth opportunities.
+
+### Responsibilities
+- Manage Amazon accounts for our production and e-commerce clients.
+- Set up and optimize Amazon, Google, Bing, and YouTube advertising campaigns.
+- Conduct keyword research and market analysis to prepare new campaigns.
+- Optimize websites for search engines like Google and AI models like ChatGPT.
+- Optimize conversion-focused landing pages and online shops.
+- Plan and execute promotions and sales campaigns.
+- Onboard new marketing channels, including tracking implementation.
+- Analyze websites and products using Google Analytics and Microsoft Clarity, providing actionable recommendations.
+- Create briefings for other stakeholders (IT, graphics, text, etc.) and review results.
+- Perform overall portfolio analysis and optimization to increase ROAS.
+- Handle additional tasks with a strong focus on e-commerce marketing.
+
+### Qualifications
+- Advanced knowledge of Microsoft Excel and other Office applications.
+- Ideally, experience in managing Amazon accounts, Google Ads, website creation, or social media presences.
+- A love for challenges and the ambition to grow every day, bringing this enthusiasm to your work.
+- A high degree of independence and personal responsibility.
+- A solution-oriented approach, confidently mastering tricky situations.
+- The ability to independently gather information and share your knowledge with others.
+- Friendliness and self-confidence in dealing with customers and business partners are natural for you.
+
+### Author's Take
+This is an exceptional opportunity for an enthusiastic individual looking to make a significant impact in e-commerce marketing. The company offers a supportive, flexible, and highly motivated work environment, emphasizing early responsibility and clear career progression. With perks like flexible home office options, performance-based bonuses, and even optional coworking trips to Barcelona, it's clear they invest in their team's well-being and growth. If you're eager to learn, take initiative, and contribute to client success from day one, don't hesitate – apply now and send something creative along with your CV!

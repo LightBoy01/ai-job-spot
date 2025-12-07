@@ -3,8 +3,13 @@ import {
   getArticles,
   getArticleBySlug,
   getJobsByTag,
+  getJobsByIds,
 } from '@/lib/firestoreAdminClient';
-import { SerializedArticle, SerializedJobPosting } from '@/lib/types';
+import {
+  SerializedArticle,
+  SerializedJobPosting,
+  JobPosting,
+} from '@/lib/types';
 import Head from 'next/head';
 import { formatDate } from '@/lib/dateUtils';
 import Link from 'next/link';
@@ -69,7 +74,39 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
   }
 
   const authorBio = authors[article.author] || null;
-  const { jobs: relevantJobs } = await getJobsByTag(article.tags || [], 5); // Fetch 5 relevant jobs based on the article's tags
+
+  const serializeJobs = (jobs: JobPosting[]): SerializedJobPosting[] => {
+    return jobs.map((job) => ({
+      ...job,
+      postedDate: job.postedDate ? new Date(job.postedDate).toISOString() : null,
+      expirationDate: job.expirationDate
+        ? new Date(job.expirationDate).toISOString()
+        : null,
+      verificationDate: job.verificationDate
+        ? new Date(job.verificationDate).toISOString()
+        : null,
+      verificationHistory:
+        job.verificationHistory?.map((e) => ({
+          date: new Date(e.date).toISOString(),
+          type: e.type,
+          verifier: e.verifier ?? null,
+          note: e.note ?? null,
+        })) || [],
+    }));
+  };
+  
+  let relevantJobs: SerializedJobPosting[] = [];
+
+  if (article.relatedJobIds && article.relatedJobIds.length > 0) {
+    const jobs = await getJobsByIds(article.relatedJobIds);
+    relevantJobs = serializeJobs(jobs);
+  }
+
+  // Fallback if no pre-computed relationships exist
+  if (relevantJobs.length === 0) {
+    const { jobs } = await getJobsByTag(article.tags || [], 5);
+    relevantJobs = serializeJobs(jobs);
+  }
 
   return {
     props: {
@@ -85,16 +122,7 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
         author_take_answer2: article.author_take_answer2 || null,
       } as SerializedArticle,
       authorBio,
-      relevantJobs: relevantJobs.map((job) => ({
-        ...job,
-        postedDate: job.postedDate ? job.postedDate.toISOString() : null,
-        expirationDate: job.expirationDate
-          ? job.expirationDate.toISOString()
-          : null,
-        verificationDate: job.verificationDate
-          ? job.verificationDate.toISOString()
-          : null,
-      })),
+      relevantJobs,
     },
     revalidate: 60,
   };

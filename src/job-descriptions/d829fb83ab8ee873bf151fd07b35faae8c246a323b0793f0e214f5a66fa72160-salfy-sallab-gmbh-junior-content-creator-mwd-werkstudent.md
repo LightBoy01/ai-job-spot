@@ -51,4 +51,46 @@ story_answer2: >-
   a hybrid model to foster collaboration, ensuring you always feel connected and
   supported as you visibly shape our external communication.
 ---
-### Description\nSalfy is Germany's #1 HR-Tech platform for employee benefits, simplifying and automating tax-free benefits for companies to save HR teams time and offer employees greater monthly appreciation and net income. Serving clients across fashion, retail, tech, gastronomy, and SMEs, Salfy fosters a flexible, pragmatic, visionary, and team-oriented culture, embracing mistakes as part of growth.\n\nAs a Junior Content Creator, you will be the heart of Salfy's communication, responsible for building our brand voice, storytelling, and trust. You will achieve this by creating high-quality content that delights customers, supports sales efforts, builds reach, and establishes Salfy as a thought leader in employee benefits. This role involves close collaboration with management, sales, marketing, and our performance freelancer. We are looking for someone passionate about writing and eager to learn quickly, ready to take our content to the next level.\n\nThe company offers a dynamic environment with flexible working hours, hybrid work options (office + remote), modern work tools (Mac, Canva/Figma, Zoho), and significant autonomy from day one. You will have high visibility, directly shaping external communication, and benefit from professional sparring with leadership.\n\n### Responsibilities\nYour main focus will be on content production, but you will also contribute significantly to sales support and broader marketing and communication initiatives:\n\n**Content Production:**\n- Write magazine articles on topics such as benefits, HR, payroll tax, and the modern world of work.\n- Create compelling use cases and case studies.\n- Develop and design engaging social media posts, with a strong focus on LinkedIn.\n\n**Sales Support:**\n- Create pitch materials, presentations and one-pagers.\n- Prepare captivating stories for outbound campaigns and email sequences.\n\n**Marketing & Communication:**\n- Produce monthly email newsletters.\n- Write and optimize website text, including landing pages and blog content.\n- Conduct research on HR, tax, and benefit backgrounds to inform content.\n- Develop micro-content, including hooks, copy, and headlines for paid advertisements.\n\n### Qualifications\nWe are looking for someone who loves writing and is a quick learner, even if you don't master everything yet.\n\n**Essential:**\n- A strong passion for writing, content creation, and storytelling.\n- Excellent written communication skills in German.\n- Initial professional experience gained through studies, internships, personal projects, or social media work.\n- A genuine interest in HR topics, the modern working world, or tax-related subjects (willingness to learn is key).\n- Demonstrated creativity, a structured approach to work, and reliability.\n\n**Bonus Points for Experience with:**\n- LinkedIn content strategy.\n- Newsletter tools.\n- Design tools like Canva or Figma.\n- Content Management Systems like WordPress.\n\n### Author's Take\nThis is an exciting opportunity for a German-speaking Junior Content Creator to join Salfy, a leading HR-Tech company in Germany. The role offers significant autonomy and visibility, allowing you to truly shape the company's external voice and thought leadership. With a clear emphasis on learning and growth within a supportive, flexible, and innovative culture, this position is ideal for someone passionate about impactful content and eager to develop their skills in a fast-paced environment. The hybrid work model and commitment to modern tools underline Salfy's progressive approach to employee well-being and productivity.
+### Description
+Salfy is Germany's #1 HR-Tech platform for employee benefits, simplifying and automating tax-free benefits for companies to save HR teams time and offer employees greater monthly appreciation and net income. Serving clients across fashion, retail, tech, gastronomy, and SMEs, Salfy fosters a flexible, pragmatic, visionary, and team-oriented culture, embracing mistakes as part of growth.
+
+As a Junior Content Creator, you will be the heart of Salfy's communication, responsible for building our brand voice, storytelling, and trust. You will achieve this by creating high-quality content that delights customers, supports sales efforts, builds reach, and establishes Salfy as a thought leader in employee benefits. This role involves close collaboration with management, sales, marketing, and our performance freelancer. We are looking for someone passionate about writing and eager to learn quickly, ready to take our content to the next level.
+
+The company offers a dynamic environment with flexible working hours, hybrid work options (office + remote), modern work tools (Mac, Canva/Figma, Zoho), and significant autonomy from day one. You will have high visibility, directly shaping external communication, and benefit from professional sparring with leadership.
+
+### Responsibilities
+Your main focus will be on content production, but you will also contribute significantly to sales support and broader marketing and communication initiatives:
+
+**Content Production:**
+- Write magazine articles on topics such as benefits, HR, payroll tax, and the modern world of work.
+- Create compelling use cases and case studies.
+- Develop and design engaging social media posts, with a strong focus on LinkedIn.
+
+**Sales Support:**
+- Create pitch materials, presentations and one-pagers.
+- Prepare captivating stories for outbound campaigns and email sequences.
+
+**Marketing & Communication:**
+- Produce monthly email newsletters.
+- Write and optimize website text, including landing pages and blog content.
+- Conduct research on HR, tax, and benefit backgrounds to inform content.
+- Develop micro-content, including hooks, copy, and headlines for paid advertisements.
+
+### Qualifications
+We are looking for someone who loves writing and is a quick learner, even if you don't master everything yet.
+
+**Essential:**
+- A strong passion for writing, content creation, and storytelling.
+- Excellent written communication skills in German.
+- Initial professional experience gained through studies, internships, personal projects, or social media work.
+- A genuine interest in HR topics, the modern working world, or tax-related subjects (willingness to learn is key).
+- Demonstrated creativity, a structured approach to work, and reliability.
+
+**Bonus Points for Experience with:**
+- LinkedIn content strategy.
+- Newsletter tools.
+- Design tools like Canva or Figma.
+- Content Management Systems like WordPress.
+
+### Author's Take
+This is an exciting opportunity for a German-speaking Junior Content Creator to join Salfy, a leading HR-Tech company in Germany. The role offers significant autonomy and visibility, allowing you to truly shape the company's external voice and thought leadership. With a clear emphasis on learning and growth within a supportive, flexible, and innovative culture, this position is ideal for someone passionate about impactful content and eager to develop their skills in a fast-paced environment. The hybrid work model and commitment to modern tools underline Salfy's progressive approach to employee well-being and productivity.

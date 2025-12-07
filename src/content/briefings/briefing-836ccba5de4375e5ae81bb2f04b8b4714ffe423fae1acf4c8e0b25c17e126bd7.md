@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-836ccba5de4375e5ae81bb2f04b8b4714ffe423fae1acf4c8e0b25c17e126bd7
 title: 'When Data Falls Short: Grokking Below the Critical Threshold'

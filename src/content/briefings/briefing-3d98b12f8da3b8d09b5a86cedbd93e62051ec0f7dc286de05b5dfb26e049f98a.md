@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-3d98b12f8da3b8d09b5a86cedbd93e62051ec0f7dc286de05b5dfb26e049f98a
 title: 'From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers'

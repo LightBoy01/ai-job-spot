@@ -1,23 +1,84 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { getFirebaseAdmin, admin } from './src/lib/firebaseAdmin.js';
+import * as dotenv from 'dotenv';
+import path from 'path';
+
+// Load environment variables from .env.local if it exists, otherwise .env
+dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+dotenv.config({ path: path.resolve(process.cwd(), '.env') });
+
+import { getFirebaseAdmin, admin } from './src/lib/firebaseAdmin';
 import { marked } from 'marked';
 import fs from 'fs/promises';
-import path from 'path';
 import matter from 'gray-matter';
 import DOMPurify from 'isomorphic-dompurify';
 import { z } from 'zod';
-import { articleSchema, jobSchema } from './src/lib/schemas.js';
-import { calculateArticleCompleteness, calculateJobCompleteness } from './src/lib/completenessScore.js';
-import { parseJobMarkdownFromContent } from './scripts/utils/job-markdown-parser.js';
+import { articleSchema, jobSchema } from './src/lib/schemas';
+import { calculateArticleCompleteness, calculateJobCompleteness } from './src/lib/completenessScore';
+import { parseJobMarkdownFromContent } from './scripts/utils/job-markdown-parser';
 
 type Article = z.infer<typeof articleSchema>;
 type Job = z.infer<typeof jobSchema>;
 import {
   notifyBatch,
-} from './scripts/indexing_api_client.js';
+} from './scripts/indexing_api_client';
 
 const SITE_URL = 'https://www.aijobspot.online';
 const isDryRun = process.argv.includes('--dry-run');
+
+/**
+ * Calculates and assigns related content IDs based on tag intersection.
+ * Modifies the objects in place.
+ */
+function calculateRelationships(jobs: Job[], articles: Article[]) {
+  const MAX_RELATED = 3;
+
+  // 1. For each Job, find related Articles
+  for (const job of jobs) {
+    if (!job.tags || job.tags.length === 0) {
+      job.relatedArticleIds = [];
+      continue;
+    }
+
+    const scoredArticles = articles.map(article => {
+      if (!article.tags || article.tags.length === 0) return { id: article.slug, score: 0 };
+      
+      const intersection = job.tags!.filter(t => article.tags!.includes(t));
+      return { id: article.slug, score: intersection.length };
+    });
+
+    // Sort by score (desc), then take top N
+    const topArticles = scoredArticles
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, MAX_RELATED)
+      .map(item => item.id);
+
+    job.relatedArticleIds = topArticles;
+  }
+
+  // 2. For each Article, find related Jobs
+  for (const article of articles) {
+    if (!article.tags || article.tags.length === 0) {
+      article.relatedJobIds = [];
+      continue;
+    }
+
+    const scoredJobs = jobs.map(job => {
+      if (!job.tags || job.tags.length === 0) return { id: job.id, score: 0 };
+
+      const intersection = article.tags!.filter(t => job.tags!.includes(t));
+      return { id: job.id, score: intersection.length };
+    });
+
+    const topJobs = scoredJobs
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, MAX_RELATED)
+      .map(item => item.id);
+
+    article.relatedJobIds = topJobs;
+  }
+}
 
 /**
  * Seeds the 'sources' collection from the local JSON config file.
@@ -147,7 +208,12 @@ export async function processDirectory(
       const { data, content } = matter(fileContent);
 
       // --- Common processing ---
-      const plainTextContent = content.replace(/\n/g, ' ').replace(/(\*\*|\*|_|`|\[|\]|\(|\)|#)/g, '');
+      // 1. Sanitize Content: Replace literal '\n' with actual newlines
+      let processedContent = content.replace(/\\n/g, '\n');
+      // 2. Sanitize Content: Fix excessive newlines
+      processedContent = processedContent.replace(/\n{3,}/g, '\n\n');
+      
+      const plainTextContent = processedContent.replace(/(\*\*|\*|_|`|\[|\]|\(|\)|#)/g, '');
       data.excerpt = plainTextContent.substring(0, 160);
 
       for (const key in data) {
@@ -170,11 +236,11 @@ export async function processDirectory(
         }
 
         const finalData: Partial<Job> = { ...data };
-        const parsedMarkdown = await parseJobMarkdownFromContent(content);
+        const parsedMarkdown = await parseJobMarkdownFromContent(processedContent);
         Object.assign(finalData, parsedMarkdown);
 
         if (!finalData.tweetableDescription) {
-            const paragraphs = content.split('\n\n');
+            const paragraphs = processedContent.split('\n\n');
             let firstParagraph = '';
             for (const p of paragraphs) {
                 if (p.trim() !== '' && !p.trim().startsWith('#')) {
@@ -197,11 +263,26 @@ export async function processDirectory(
         }
 
       } else { // It's an article
+        // Editorials (in src/articles) default to published if status is missing.
+        // Briefings (in src/content/briefings) require explicit published status.
+        const isBriefing = directoryPath.includes(path.join('src', 'content', 'briefings'));
+        
+        if (!data.status) {
+            if (!isBriefing) {
+                data.status = 'published';
+            }
+        }
+
+        if (data.status !== 'published') {
+          console.log(`[SKIPPING] Article/Briefing ${file} is not published (status: ${data.status || 'undefined'}).`);
+          continue;
+        }
+
         const finalData: Partial<Article> = { ...data };
         
-        let processedContent = content.replace(/\ \[\[Internal Link: (.*?)\]\]/g, (match, linkText) => `<a href="/articles/${linkText.toLowerCase().replace(/\s+/g, '-')}" class="text-secondary-dark hover:underline">${linkText}</a>`);
-        processedContent = processedContent.replace(/\ \[\[External Link: (.*?)\ \]/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-secondary-dark hover:underline">$1</a>');
-        finalData.contentBody = DOMPurify.sanitize(await marked(processedContent));
+        let contentWithLinks = processedContent.replace(/\ \[\[Internal Link: (.*?)\]\]/g, (match, linkText) => `<a href="/articles/${linkText.toLowerCase().replace(/\s+/g, '-')}" class="text-secondary-dark hover:underline">${linkText}</a>`);
+        contentWithLinks = contentWithLinks.replace(/\ \[\[External Link: (.*?)\ \]/g, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-secondary-dark hover:underline">$1</a>');
+        finalData.contentBody = DOMPurify.sanitize(await marked(contentWithLinks));
 
         if (directoryPath.includes(path.join('src', 'content', 'briefings'))) {
           const fileNameWithoutExt = path.parse(file).name;
@@ -356,26 +437,34 @@ export async function revalidatePaths(paths: string[]) {
     return;
   }
 
-  const revalidationPromises = paths.map((path) =>
-    fetch(`${SITE_URL}/api/revalidate`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ secret, path }),
-    })
-      .then(async (res) => {
-        const body = await res.json();
-        if (res.ok) {
-          console.log(`[REVALIDATED] ${path}: Status ${res.status}`, body);
-        } else {
-          console.error(`[REVALIDATION FAILED] for ${path}: Status ${res.status}`, body);
-        }
-      })
-      .catch((err) => {
-        console.error(`[REVALIDATION FAILED] for ${path}:`, err);
-      })
-  );
+  const BATCH_SIZE = 50;
+  console.log(`Starting on-demand revalidation for ${paths.length} paths (Batch size: ${BATCH_SIZE})...`);
 
-  await Promise.all(revalidationPromises);
+  for (let i = 0; i < paths.length; i += BATCH_SIZE) {
+    const batch = paths.slice(i, i + BATCH_SIZE);
+    console.log(`Revalidating batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(paths.length / BATCH_SIZE)}...`);
+
+    const revalidationPromises = batch.map((path) =>
+        fetch(`${SITE_URL}/api/revalidate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ secret, path }),
+        })
+        .then(async (res) => {
+            const body = await res.json();
+            if (res.ok) {
+            // console.log(`[REVALIDATED] ${path}`); // Reduce noise
+            } else {
+            console.error(`[REVALIDATION FAILED] for ${path}: Status ${res.status}`, body);
+            }
+        })
+        .catch((err) => {
+            console.error(`[REVALIDATION FAILED] for ${path}:`, err);
+        })
+    );
+
+    await Promise.all(revalidationPromises);
+  }
   console.log('On-demand revalidation process complete.');
 }
 
@@ -421,6 +510,11 @@ export async function seedFirestore() {
   const processedEditorials = (await processDirectory(articlesDir, 'articles')) as Article[];
   const processedBriefings = (await processDirectory(briefingsDir, 'articles')) as Article[]; // Processed as articles
   const processedArticles = [...processedEditorials, ...processedBriefings];
+
+  // --- RELATIONSHIP CALCULATION ---
+  console.log('Calculating content relationships...');
+  calculateRelationships(processedJobs as Job[], processedArticles as Article[]);
+  // --------------------------------
 
   const localJobIds = new Set(processedJobs.map((j: Job) => j.id).filter(Boolean));
   const localArticleSlugs = new Set(processedArticles.map((a: Article) => a.slug).filter(Boolean));

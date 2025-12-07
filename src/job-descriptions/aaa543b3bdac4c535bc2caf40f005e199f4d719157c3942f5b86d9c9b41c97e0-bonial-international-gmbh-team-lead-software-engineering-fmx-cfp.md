@@ -76,4 +76,42 @@ story_answer3: >-
   participate in our community, fostering those vital relationships that fuel
   our collective success and enjoyment.
 ---
-### Description\nBonial is a leading digital advertising partner for offline businesses, part of Axel Springer SE, disrupting the retail landscape as the leading \"Drive to Store\" partner in Germany and France. Through platforms like \"kaufDA\" and \"MeinProspekt,\" we connect millions of users with their favorite shops and brands, driving real impact daily.\n\nWe are in an exciting growth phase, scaling fast and transforming retail discovery. At Bonial, we thrive in a high-performance, fast-paced environment fueled by motivated, results-driven individuals passionate about making a difference.\n\nThe Client Facing Platforms department builds systems that enable Operations Managers to create content and manage campaigns for clients effectively and at scale. Within this, the Traffic Management team focuses on effective campaign fulfillment by providing the right tools, solutions, and automation to achieve the best results for users and clients.\n\nSome of the technologies we use include: Java, Python, PostgreSQL, diverse AWS services, Spring Boot, Kubernetes, Terraform, Spinnaker.\n\n### Responsibilities\n- Lead a team of talented engineers.\n- Work closely with Product & Development teams to build easy-to-maintain and scalable solutions.\n- Ensure product/system availability, quality of service, stability, compliance, and security.\n- Maintain a reliable on-call process and participate in the rotation.\n- Ensure technical decisions are timely, peer-reviewed, and challenged.\n- Coordinate projects, ensure quality standards, and develop products in cooperation with other departments.\n- Foster the growth of team members.\n- Maintain and improve team performance and quality of life.\n- Create a healthy team culture and transparent communication.\n- Provide coaching and counseling via mentoring and one-to-one meetings.\n- Build a culture of trust within the team.\n- Manage individual performance, set expectations, and provide continuous feedback.\n- Identify improvement opportunities and help the team reach goals.\n- Act as a delivery manager, ensuring projects are delivered on time and resolving blockers.\n\n### Qualifications\n- Experience in leading a team or ambition to lead a team.\n- Proven experience as a software engineer.\n- Willingness to work with both Java and Python (expertise required for one).\n- Agile mindset and experience with modern development practices.\n- A constructive, helpful mindset, enjoying a functional developer support role.\n- A strong sense of ownership and integrity.\n- Leader leader mindset (understanding everyone is a leader in their own scope).\n- Strong communication skills:\n  - Ability to explain complex domains or systems to non-technical people.\n  - Ability to clearly transmit vision and ideas.\n\n### Author's Take\nThis is an exciting Lead Engineer role at Bonial, a company at the forefront of retail digitalization. You'll be instrumental in shaping the technical direction and delivery of critical client-facing platforms, specifically within Traffic Management. The culture emphasizes high performance, continuous development, and strong support for employee well-being, offering flexible working, comprehensive benefits, and a vibrant social environment. This role is perfect for an experienced software engineer with a 'Leader leader mindset' who is passionate about both technical excellence and fostering team growth in a dynamic, impactful setting. Bonial's commitment to diversity, development, and flexibility makes it an attractive place for those looking to make a significant impact.
+### Description
+Bonial is a leading digital advertising partner for offline businesses, part of Axel Springer SE, disrupting the retail landscape as the leading \"Drive to Store\" partner in Germany and France. Through platforms like \"kaufDA\" and \"MeinProspekt,\" we connect millions of users with their favorite shops and brands, driving real impact daily.
+
+We are in an exciting growth phase, scaling fast and transforming retail discovery. At Bonial, we thrive in a high-performance, fast-paced environment fueled by motivated, results-driven individuals passionate about making a difference.
+
+The Client Facing Platforms department builds systems that enable Operations Managers to create content and manage campaigns for clients effectively and at scale. Within this, the Traffic Management team focuses on effective campaign fulfillment by providing the right tools, solutions, and automation to achieve the best results for users and clients.
+
+Some of the technologies we use include: Java, Python, PostgreSQL, diverse AWS services, Spring Boot, Kubernetes, Terraform, Spinnaker.
+
+### Responsibilities
+- Lead a team of talented engineers.
+- Work closely with Product & Development teams to build easy-to-maintain and scalable solutions.
+- Ensure product/system availability, quality of service, stability, compliance, and security.
+- Maintain a reliable on-call process and participate in the rotation.
+- Ensure technical decisions are timely, peer-reviewed, and challenged.
+- Coordinate projects, ensure quality standards, and develop products in cooperation with other departments.
+- Foster the growth of team members.
+- Maintain and improve team performance and quality of life.
+- Create a healthy team culture and transparent communication.
+- Provide coaching and counseling via mentoring and one-to-one meetings.
+- Build a culture of trust within the team.
+- Manage individual performance, set expectations, and provide continuous feedback.
+- Identify improvement opportunities and help the team reach goals.
+- Act as a delivery manager, ensuring projects are delivered on time and resolving blockers.
+
+### Qualifications
+- Experience in leading a team or ambition to lead a team.
+- Proven experience as a software engineer.
+- Willingness to work with both Java and Python (expertise required for one).
+- Agile mindset and experience with modern development practices.
+- A constructive, helpful mindset, enjoying a functional developer support role.
+- A strong sense of ownership and integrity.
+- Leader leader mindset (understanding everyone is a leader in their own scope).
+- Strong communication skills:
+  - Ability to explain complex domains or systems to non-technical people.
+  - Ability to clearly transmit vision and ideas.
+
+### Author's Take
+This is an exciting Lead Engineer role at Bonial, a company at the forefront of retail digitalization. You'll be instrumental in shaping the technical direction and delivery of critical client-facing platforms, specifically within Traffic Management. The culture emphasizes high performance, continuous development, and strong support for employee well-being, offering flexible working, comprehensive benefits, and a vibrant social environment. This role is perfect for an experienced software engineer with a 'Leader leader mindset' who is passionate about both technical excellence and fostering team growth in a dynamic, impactful setting. Bonial's commitment to diversity, development, and flexibility makes it an attractive place for those looking to make a significant impact.

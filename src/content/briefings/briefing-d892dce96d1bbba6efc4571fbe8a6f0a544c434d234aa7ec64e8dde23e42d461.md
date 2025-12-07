@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-d892dce96d1bbba6efc4571fbe8a6f0a544c434d234aa7ec64e8dde23e42d461
 title: Crafting Imperceptible On-Manifold Adversarial Attacks for Tabular Data

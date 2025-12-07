@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-fe4a82f43cd4e2e7e5ec7ae5d63ad9d9f1530840e0f8aabb9d26e6c2dbfef24c
 title: Selective Rotary Position Embedding

@@ -77,4 +77,53 @@ story_answer3: >-
   adaptation, ensuring high-quality, tailor-made solutions for every project.
   This blend keeps the work incredibly engaging and intellectually stimulating.
 ---
-### Description\\nOur company specializes in helping businesses migrate their CAD and PLM data to modern platforms such as **Siemens NX, Solid Edge, and Teamcenter**. We leverage the leading technology of **Elysium CADfeature** to ensure high-quality, associative, and automated transfer of parametric models, features, and drawings. We are looking for colleagues who are passionate about contributing to demanding data migrations, whether they come from a CAD, construction, or IT background. This is a unique opportunity to grow into a highly specialized field with significant impact.\\n\\n### Responsibilities\\n*   **1. Execution of CAD-/PLM-Migrations**\\n    *   Analysis of existing CAD data (Creo, SolidWorks, Inventor, CATIA, among others)\\n    *   Preparation and execution of migrations with **Elysium CADfeature**\\n    *   Validation of feature recognition, parameters, sketches, and dependencies\\n    *   Automated batch conversion of large datasets\\n    *   Quality assurance and reconciliation of results\\n*   **2. Technical Support & Error Analysis**\\n    *   Identifying and resolving migration errors\\n    *   Troubleshooting of CADfeature processes\\n    *   Interpretation of log files and mapping rules\\n    *   Coordination with clients regarding problems and requirements\\n*   **3. CAD-/ PLM-Configuration**\\n    *   Setting up CADfeature environments\\n    *   Mapping of feature types, parameters, material tables, etc.\\n    *   Optional: Teamcenter, NX, or PLM-specific settings\\n*   **4. Documentation & Knowledge Transfer**\\n    *   Documentation of migration results\\n    *   Creation of best-practice methods\\n    *   Training of internal colleagues and clients\\n\\n### Qualifications\\nDoes one of these combinations apply to you? Perfect!\\n\\n**Option A – CAD Background**\\n*   Experience in **Creo, SolidWorks, NX, Inventor, or CATIA**\\n*   Understanding of parametric modeling, sketches, and dependencies\\n*   High IT affinity & interest in automation\\n\\n**Option B – IT Background**\\n*   Experience with **scripts, automation, or data migrations**\\n*   Knowledge of Windows/Linux servers, batch processes\\n*   Interest in thoroughly familiarizing yourself with CAD systems\\n\\n**Option C – Engineering/Construction + Curiosity**\\n*   Technical education or experience in product development\\n*   Enjoyment of systematic problems and complex data structures\\n*   Readiness to grow into a rare specialization\\n\\n**Additional Plus Points (nice to have):**\\n*   Experience with **Elysium CADfeature**\\n*   Basic knowledge in **Teamcenter, NX, or PLM processes**\\n*   SQL-/Python-/VB-skills\\n*   Experience in CAD data quality assurance\\n\\n### Author's Take\\nThis role offers an exciting opportunity to work in a highly specialized niche, with a direct impact where every successful migration saves companies millions. You'll gain deep, in-demand expertise in CAD, PLM, and automation through diverse customer projects across industries like automotive and mechanical engineering. Ideal for those who thrive on \"Technology + Structure + Problem Solving,\" the company strongly supports continuous learning through onboarding with Elysium CADfeature, live projects, further education, and certifications. Benefit from close collaboration with experts, hybrid work, and flexible hours, ensuring long-term development in a stimulating environment.
+### Description\
+Our company specializes in helping businesses migrate their CAD and PLM data to modern platforms such as **Siemens NX, Solid Edge, and Teamcenter**. We leverage the leading technology of **Elysium CADfeature** to ensure high-quality, associative, and automated transfer of parametric models, features, and drawings. We are looking for colleagues who are passionate about contributing to demanding data migrations, whether they come from a CAD, construction, or IT background. This is a unique opportunity to grow into a highly specialized field with significant impact.\
+\
+### Responsibilities\
+*   **1. Execution of CAD-/PLM-Migrations**\
+    *   Analysis of existing CAD data (Creo, SolidWorks, Inventor, CATIA, among others)\
+    *   Preparation and execution of migrations with **Elysium CADfeature**\
+    *   Validation of feature recognition, parameters, sketches, and dependencies\
+    *   Automated batch conversion of large datasets\
+    *   Quality assurance and reconciliation of results\
+*   **2. Technical Support & Error Analysis**\
+    *   Identifying and resolving migration errors\
+    *   Troubleshooting of CADfeature processes\
+    *   Interpretation of log files and mapping rules\
+    *   Coordination with clients regarding problems and requirements\
+*   **3. CAD-/ PLM-Configuration**\
+    *   Setting up CADfeature environments\
+    *   Mapping of feature types, parameters, material tables, etc.\
+    *   Optional: Teamcenter, NX, or PLM-specific settings\
+*   **4. Documentation & Knowledge Transfer**\
+    *   Documentation of migration results\
+    *   Creation of best-practice methods\
+    *   Training of internal colleagues and clients\
+\
+### Qualifications\
+Does one of these combinations apply to you? Perfect!\
+\
+**Option A – CAD Background**\
+*   Experience in **Creo, SolidWorks, NX, Inventor, or CATIA**\
+*   Understanding of parametric modeling, sketches, and dependencies\
+*   High IT affinity & interest in automation\
+\
+**Option B – IT Background**\
+*   Experience with **scripts, automation, or data migrations**\
+*   Knowledge of Windows/Linux servers, batch processes\
+*   Interest in thoroughly familiarizing yourself with CAD systems\
+\
+**Option C – Engineering/Construction + Curiosity**\
+*   Technical education or experience in product development\
+*   Enjoyment of systematic problems and complex data structures\
+*   Readiness to grow into a rare specialization\
+\
+**Additional Plus Points (nice to have):**\
+*   Experience with **Elysium CADfeature**\
+*   Basic knowledge in **Teamcenter, NX, or PLM processes**\
+*   SQL-/Python-/VB-skills\
+*   Experience in CAD data quality assurance\
+\
+### Author's Take\
+This role offers an exciting opportunity to work in a highly specialized niche, with a direct impact where every successful migration saves companies millions. You'll gain deep, in-demand expertise in CAD, PLM, and automation through diverse customer projects across industries like automotive and mechanical engineering. Ideal for those who thrive on \"Technology + Structure + Problem Solving,\" the company strongly supports continuous learning through onboarding with Elysium CADfeature, live projects, further education, and certifications. Benefit from close collaboration with experts, hybrid work, and flexible hours, ensuring long-term development in a stimulating environment.

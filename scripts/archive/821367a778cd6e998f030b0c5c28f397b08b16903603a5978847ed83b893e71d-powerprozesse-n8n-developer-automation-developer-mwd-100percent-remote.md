@@ -4,8 +4,8 @@ title: n8n Developer / Automation Developer (m/w/d) 100% remote
 company: Powerprozesse
 location: Worms
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/powerprozesse/n8n-developer-automation-developer-100-remote-worms-41924
-postedDate: '2025-11-07T10:20:11.000Z'
+  https://www.arbeitnow.com/jobs/companies/powerprozesse/n8n-developer-automation-developer-100-remote-worms-23021
+postedDate: '2025-11-28T08:20:12.000Z'
 expirationDate: null
 tags:
   - Information technology
@@ -13,70 +13,55 @@ tags:
 status: published
 jobLevel: Junior
 employeeRole: Individual Contributor
-salaryRange: 3.000 - 6.000 Euro per month (brutto)
+salaryRange: 3.000 - 6.000 Euro pro Monat (brutto)
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/powerprozesse/n8n-developer-automation-developer-100-remote-worms-41924
+  https://www.arbeitnow.com/jobs/companies/powerprozesse/n8n-developer-automation-developer-100-remote-worms-23021
 companyLogoUrl: null
 companyCulture: >-
-  The company fosters a collaborative, familial, and supportive remote
-  environment, strongly emphasizing long-term personal and professional growth
-  through challenging automation projects and offering excellent work-life
-  balance with flexible hours.
+  The company offers a 100% remote, flexible work environment with a strong
+  emphasis on long-term growth and personal development. The culture is
+  described as collegial, familial, and collaborative, encouraging mutual
+  support and high performance.
 story_question1: >-
-  Considering the diverse technical literacy of clients like property management
-  companies, how does Powerprozesse approach client education and change
-  management to ensure successful adoption and long-term benefit from your
-  sophisticated n8n and AI automations?
+  Given the focus on delivering tangible relief to clients through automation,
+  can you describe a particularly challenging client problem you've tackled with
+  n8n, and what was the ultimate impact on their business?
 story_answer1: >-
-  This role is all about being a translator and an innovator. When we bring a
-  new n8n or AI automation to a client, especially in traditional sectors like
-  property management, it's never just about plugging in a solution. It's about
-  understanding their world, speaking their language, and gently guiding them
-  towards a more efficient future. Our "Erklärvideos" (explanatory videos) are a
-  big part of that, but it goes deeper. We focus on showing them the tangible
-  relief, the time saved, the headaches avoided. Imagine a property manager who
-  used to spend hours manually processing damage reports – now, they see an
-  AI-driven system instantly categorize, notify, and dispatch. The "aha!" moment
-  is powerful. We build trust by delivering visible results and providing
-  continuous support, ensuring they don't just adopt the tech but truly embrace
-  the new, streamlined way of working. It’s immensely rewarding to see that
-  transformation unfold.
+  Absolutely! I remember a property management company struggling with
+  overwhelming damage reports. Their process was entirely manual, leading to
+  delays and frustration. We built an n8n workflow that automatically processed
+  incoming reports, used AI for initial analysis, assigned the right craftsman,
+  and notified the tenant—all without human intervention. The client was
+  ecstatic; it freed up their team significantly and improved tenant
+  satisfaction. It really showed me how much of a difference our work makes, not
+  just in efficiency, but in easing people's daily burdens.
 story_question2: >-
-  Working 100% remotely and tackling complex, often unique automation puzzles,
-  how does the team maintain a strong sense of collaboration and ensure
-  continuous learning and knowledge sharing amongst individual contributors?
+  For someone new to n8n or low-code automation, how does Powerprozesse support
+  continuous learning and skill development to ensure long-term career growth
+  within the company?
 story_answer2: >-
-  It's true, we're spread across Germany and beyond, but our remote setup
-  actually strengthens our collaboration in unique ways. We're a tight-knit,
-  'familiär' bunch, as the description says, and we actively cultivate that.
-  Think of it like a virtual huddle where everyone's contributing their piece to
-  a complex puzzle. We have regular syncs, dedicated channels for
-  problem-solving, and an open culture where no question is too basic. Because
-  each automation is a "kleines Puzzle," we often lean on each other for
-  creative brainstorming or troubleshooting. New team members, even those
-  learning n8n from scratch, get an incredible amount of support. We believe in
-  peer-to-peer learning and celebrating each other's breakthroughs, big or
-  small. This mutual motivation ensures that even while working independently,
-  you always feel part of a collective driving towards being Germany's top
-  digital process agency.
+  That's a fantastic question, and it's something we pride ourselves on. When I
+  joined, I wasn't an n8n guru, but the team's support was incredible. We have
+  dedicated training resources, collaborative problem-solving sessions, and a
+  culture where everyone is eager to share knowledge. Beyond n8n, we encourage
+  exploring advanced AI tools like LLMs and even other platforms like make.com
+  or VAPI. Our goal is for everyone to become a true expert, not just in their
+  day-to-day tasks, but in shaping the future of automation with us. You're
+  never alone in your learning journey here.
 story_question3: >-
-  The company aims to expand beyond property management and dive deeper into
-  advanced AI/ML applications like KI-Voicebots and RAG-Vektordatenbanken. What
-  opportunities exist for individual contributors to specialize or lead
-  initiatives in these emerging areas as Powerprozesse grows?
+  With a 100% remote setup and a goal to become Germany's most successful
+  digital process agency, how does Powerprozesse maintain a strong team
+  connection and a cohesive vision across the distributed team?
 story_answer3: >-
-  This is where it gets really exciting! Our expansion isn't just about new
-  industries; it's about pushing the boundaries of what automation and AI can
-  do. We explicitly offer the chance to learn and work with cutting-edge tools
-  beyond n8n and make.com, like VAPI for voicebots or RAG databases. As an
-  individual contributor here, you're not just a cog in the machine; you're an
-  innovator. If you show a passion for a particular area, whether it's advanced
-  LLM integration or developing a new AI agent, we actively encourage and
-  support that specialization. We’re constantly on the lookout for future
-  experts and leaders from within our ranks. Imagine leading a pilot project for
-  a new voicebot solution for a completely different industry – that's the kind
-  of opportunity that awaits. Your growth truly dictates our growth, and we
-  invest heavily in that.
+  It's true, we're fully remote, and that offers incredible flexibility. But
+  we're also very intentional about fostering connection. We have regular
+  virtual coffee breaks, dedicated communication channels, and project
+  collaboration tools that keep us in sync. What truly makes a difference,
+  though, are our optional in-person team events in Germany and Europe. These
+  aren't just work meetings; they're opportunities to build genuine camaraderie,
+  share ideas informally, and recharge our collective vision. It feels like a
+  family, even when we're miles apart, all working towards that shared goal of
+  transforming businesses with smart processes.
 ---
-### Description\nPowerprozesse is seeking a Low-Code Automation Developer to join their rapidly growing, 100% remote team. We are looking for developers experienced with n8n, or IT-savvy career changers eager to learn n8n, to create powerful Low-Code automations for our clients. If you love finding simple solutions for complex problems and have an affinity for digital processes, Artificial Intelligence, and automation, you are an ideal fit for us. Our goal is to become Germany's most successful Digital Process Agency, initially focusing on digitizing and automating processes for property management companies, with plans to expand into other industries long-term. We offer a secure, fully remote role with excellent opportunities for growth and development.\n\n### Responsibilities\nAs an Automation Developer, your key responsibilities will include:\n- Analyzing client business processes and developing suitable automation ideas.\n- Implementing these ideas using n8n (you'll learn the necessary fundamentals in a few weeks, even without prior programming knowledge). Every automation you build significantly streamlines client operations, bringing tangible relief.\n- Example automation for a property management company: \"Damage report received\" > \"AI analysis\" > \"Responsible tradesperson dispatched\" > \"Tenant notified\".\n- Planning and introducing new SaaS applications for our clients.\n- Connecting software solutions via APIs/interfaces.\n- Conducting kickoffs and meetings with clients.\n- Recording explanatory videos for user training.\n- Providing user support, error analysis, and troubleshooting.\n\n### Qualifications\nTo be successful in this role, you should possess:\n- A degree in Business Informatics / Computer Science, a certified IT specialist qualification, or programming knowledge.\n- Technical understanding and strong problem-solving skills.\n- The ability to handle performance pressure effectively.\n- Quick comprehension and a disciplined work ethic.\n- Solid English language skills for seamless team communication.\n- Residence in Germany or a timezone with a maximum of ±2 hours difference from GMT+2.\n- Prior experience with tools like n8n, Make.com, or Zapier is an advantage, but not required.\n- Programming knowledge (e.g., JavaScript or Python) is also an advantage, but not required.\n\n### Author's Take\nThis is an exceptional opportunity for an aspiring or junior automation specialist to join a dynamic, future-oriented company at the forefront of AI and Low-Code automation. Powerprozesse offers a truly supportive and collaborative 100% remote environment with flexible working hours and 30 days of holiday, prioritizing long-term growth and employee well-being. You'll work on exciting, puzzle-like projects, gaining expertise in cutting-edge tools like n8n, Make.com, and LLMs (e.g., OpenAI), with opportunities to explore advanced AI topics like voicebots and RAG databases. The commitment to job security (indefinite contracts) and strong career progression, coupled with attractive benefits like an ETF company pension with a monthly contribution, makes this a highly rewarding and future-proof role for proactive individuals eager to make a tangible impact.
+### Description\nWe are looking for developers with n8n experience or IT-affine career changers who are eager to learn n8n to create low-code automations for our clients. Do you love finding simple solutions for complex problems? Do you have an affinity for digital processes, Artificial Intelligence & automation? Then you fit perfectly into this job profile and are ideally suited for our steadily growing team.\n\nAt Powerprozesse, we work together every day to become the most successful Digital Process Agency in Germany. Initially, we focus primarily on the digitalization & automation of property management, but in the long term, we will expand our focus to other industries. With us, you work 100% REMOTE – but you are welcome to visit us in our office in Worms or get to know us at team events in Germany or Europe.\n\nThis role offers exciting tasks where every AI automation is like a creative puzzle. You'll work mainly with n8n and sometimes make.com, learning how to build simple to highly complex automations, including integrating LLMs like OpenAI. On request, you can also explore other areas like AI voicebots with VAPI or AI agents with RAG vector databases. We offer a secure job with the goal of long-term growth and permanent employment, excellent career opportunities, 30 vacation days, and flexible working hours. Our team fosters a collegial and familial atmosphere where everyone pulls together, motivates each other to achieve peak performance, and grows personally. We also provide an ETF company pension with a 50 Euro monthly subsidy.\n\nYou're the right fit if you not only want to enjoy the \"freedom part\" of a remote position but are eager to get stuck in and grow with us long-term. If you're excited about a great job in automation & AI, we look forward to your application!\n\n### Responsibilities\nYou will analyze our clients' business processes and then develop suitable automation ideas. Subsequently, you will implement these with n8n – you will learn the necessary basics in a few weeks, even without programming knowledge. Every automation you build relieves the on-site team of a task – creating noticeable relief for which the client will thank you.\n\nHere's a concrete example of an automation for a property management company: \"Damage report received\" > \"AI analysis\" > \"Responsible craftsman assigned\" > \"Tenant notified\".\n\nFurthermore, you are responsible for:\n- Planning and introducing new SaaS applications for our clients.\n- Connecting software solutions via interfaces.\n- Kickoffs and meetings with clients.\n- Recording explanatory videos for user training.\n- User support, error analysis & troubleshooting.\n\n### Qualifications\n- Completed degree in Business Informatics / Computer Science, IT specialist training, or programming skills.\n- Technical understanding & problem-solving skills.\n- Good handling of performance pressure.\n- Quick comprehension & disciplined work style.\n- Solid English skills for uncomplicated team communication.\n- Residence in Germany or within a time zone with a maximum ±2 hour difference from GMT+2.\n- Prior knowledge of tools like n8n, Make.com, or Zapier is an advantage but not required.\n- Programming skills, e.g., with JavaScript or Python, are also an advantage but not required.\n\n### Author's Take\nThis role offers a unique opportunity for individuals, including career changers, passionate about automation and AI to make a tangible impact by simplifying complex client processes. With 100% remote work, flexible hours, and a highly collaborative, familial culture, Powerprozesse is committed to long-term employee growth and development, ensuring a secure and future-proof career path in a rapidly evolving field.

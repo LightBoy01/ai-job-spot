@@ -66,4 +66,21 @@ story_answer3: >-
   tight-knit unit driving a shared vision forward. Your input isn't just valued;
   it's essential for our collective success.
 ---
-### Description\nStart to Finish is a leading recruiting boutique specializing in connecting ambitious startups and growth companies, such as Snocks, Seller X, and Mellow Noir, with top talent for key positions. We are proud to be the #1 recruiting partner for e-commerce startups in the DACH region, with over 100 satisfied clients. Our client for this exciting opportunity is a rapidly growing Direct-to-Consumer (D2C) brand in the Health & Supplements sector, eager to find a dedicated Native Ads Specialist to join their expanding team.\n\n### Responsibilities\n- Conception, implementation, and optimization of Native Ads campaigns.\n- Copywriting and storytelling, specifically tailored for Direct Response Marketing.\n- Creative experimentation to test, scale, and continuously improve our ad performance.\n- Deep engagement with the product and target audience to craft authentic and compelling content.\n\n### Qualifications\n- Foundational understanding of marketing principles and proven experience with Native Ads.\n- A blend of creative and analytical skills: ability to write engaging copy, manage complex campaigns, and interpret performance data.\n- Prior experience or a strong affinity for the Supplements, Beauty, or Direct Response Marketing industries.\n- A genuine passion for impactful storytelling and performance-driven marketing.\n- High degree of initiative and self-motivation to dive deep into understanding our products and target demographics.\n\n### Author's Take\nThis is a fantastic opportunity for a driven Native Ads Specialist to make a significant impact at a fast-growing D2C brand. The role offers the unique chance to directly contribute to the scaling of marketing efforts, leveraging your creative and analytical skills in a dynamic environment. With a fully remote setup and regular team events, the company fosters a flexible yet collaborative culture, ideal for someone who thrives on ownership and seeing tangible results. If you're passionate about health, storytelling, and performance marketing, and want to join a company where your work directly fuels growth, this role is for you.
+### Description
+Start to Finish is a leading recruiting boutique specializing in connecting ambitious startups and growth companies, such as Snocks, Seller X, and Mellow Noir, with top talent for key positions. We are proud to be the #1 recruiting partner for e-commerce startups in the DACH region, with over 100 satisfied clients. Our client for this exciting opportunity is a rapidly growing Direct-to-Consumer (D2C) brand in the Health & Supplements sector, eager to find a dedicated Native Ads Specialist to join their expanding team.
+
+### Responsibilities
+- Conception, implementation, and optimization of Native Ads campaigns.
+- Copywriting and storytelling, specifically tailored for Direct Response Marketing.
+- Creative experimentation to test, scale, and continuously improve our ad performance.
+- Deep engagement with the product and target audience to craft authentic and compelling content.
+
+### Qualifications
+- Foundational understanding of marketing principles and proven experience with Native Ads.
+- A blend of creative and analytical skills: ability to write engaging copy, manage complex campaigns, and interpret performance data.
+- Prior experience or a strong affinity for the Supplements, Beauty, or Direct Response Marketing industries.
+- A genuine passion for impactful storytelling and performance-driven marketing.
+- High degree of initiative and self-motivation to dive deep into understanding our products and target demographics.
+
+### Author's Take
+This is a fantastic opportunity for a driven Native Ads Specialist to make a significant impact at a fast-growing D2C brand. The role offers the unique chance to directly contribute to the scaling of marketing efforts, leveraging your creative and analytical skills in a dynamic environment. With a fully remote setup and regular team events, the company fosters a flexible yet collaborative culture, ideal for someone who thrives on ownership and seeing tangible results. If you're passionate about health, storytelling, and performance marketing, and want to join a company where your work directly fuels growth, this role is for you.

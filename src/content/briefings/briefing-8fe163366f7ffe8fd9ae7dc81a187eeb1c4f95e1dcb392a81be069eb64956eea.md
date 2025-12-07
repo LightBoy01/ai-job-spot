@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-8fe163366f7ffe8fd9ae7dc81a187eeb1c4f95e1dcb392a81be069eb64956eea
 title: Act On Real-Time Insights With A Consumer Intelligence Platform
@@ -23,4 +21,4 @@ excerpt: >-
   leverage real-time insights to better understand their customers (current and
   prospective), refine their marketing and prod
 ---
-Consumer intelligence platforms help marketing and consumer insights leaders leverage real-time insights to better understand their customers (current and prospective), refine their marketing and product strategy, and monitor and manage their brand’s reputation. Learn some of the top use cases for these platforms in this preview of our new report, The Consumer Intelligence Platforms Landscape, Q4 2025.
+Consumer intelligence platforms help marketing and consumer insights leaders leverage real-time insights to better understand their customers (current and prospective), refine their marketing and product strategy, and monitor and manage their brand's reputation. Learn some of the top use cases for these platforms in this preview of our new report,&nbsp;The Consumer Intelligence Platforms Landscape, Q4 2025.

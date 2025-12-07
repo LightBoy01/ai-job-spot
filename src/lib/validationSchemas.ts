@@ -110,6 +110,8 @@ export const JobPostingSchema = z
     source: optionalString,
     sourceUrl: optionalUrl,
     verificationDate: z.string().nullable().optional(), // Keep as string for form input
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    verificationHistory: z.any().optional(),
     glassdoorLink: optionalUrl,
     crunchbaseLink: optionalUrl,
     story_question1: z.string().min(1, 'Human Context Question is required when providing an answer.').optional().nullable(),
@@ -142,6 +144,7 @@ export const JobPostingSchema = z
     }
   );
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type JobFormData = {
   id?: string;
   title: string;

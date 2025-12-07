@@ -62,4 +62,26 @@ story_answer2: >-
   products and markets, but the very leadership fabric of our organization,
   ensuring our strategic objectives are met through empowered and capable teams.
 ---
-### Description\nDo you want to actively shape a company in a future-oriented industry and lead it into the next development phase? Then an **entrepreneurial leadership role** with great creative freedom awaits you here. In this role as CEO with a software focus, you will be responsible for the **strategic direction, market development, and product development in the software sector** in a dynamic environment with strong pressure to change. This position offers a unique opportunity to make a significant impact.\n\n### Responsibilities\n- Overall responsibility for **strategy, growth, and implementation** of central company goals.\n- Further development of the **sales model**, from direct business to partner strategies.\n- Strengthen positioning and visibility within the energy sector and **modernize the software product offering**.\n- Leadership and **development of the second management level**.\n- Management of **transformation and efficiency processes**.\n- Close collaboration with internal stakeholders and driving innovation.\n- Building and maintaining a robust industry network.\n\n### Qualifications\n- Several years of experience in a **leading position**, e.g., as Managing Director, Division Head, or Sales Director.\n- In-depth industry experience with **software/service providers in the energy sector**.\n- Proven success in **developing and expanding markets, customers, and sales teams**.\n- Entrepreneurial thinking, results orientation, and strong implementation skills.\n- Experience in **change management** and strategic transformation.\n- Communicative, authentic leadership personality with decisiveness.\n- Fluent German and good business English.\n\n### Author's Take\nThis is a pivotal, permanent leadership role offering significant influence in a future-oriented industry. The company boasts a modern culture with flat hierarchies, considerable creative freedom, and a strong team spirit, fostering innovation and new strategies. You'll benefit from an attractive overall package, including a bonus and a company car for private use, plus a long-term perspective with an equity-like model. The role also supports work-life balance with 1-2 days of home office per week. If you're a strategic visionary eager to shape, rather than just administer, and thrive in a dynamic, impactful environment, this opportunity is ideal. The company looks forward to discussing further details personally.
+### Description
+Do you want to actively shape a company in a future-oriented industry and lead it into the next development phase? Then an **entrepreneurial leadership role** with great creative freedom awaits you here. In this role as CEO with a software focus, you will be responsible for the **strategic direction, market development, and product development in the software sector** in a dynamic environment with strong pressure to change. This position offers a unique opportunity to make a significant impact.
+
+### Responsibilities
+- Overall responsibility for **strategy, growth, and implementation** of central company goals.
+- Further development of the **sales model**, from direct business to partner strategies.
+- Strengthen positioning and visibility within the energy sector and **modernize the software product offering**.
+- Leadership and **development of the second management level**.
+- Management of **transformation and efficiency processes**.
+- Close collaboration with internal stakeholders and driving innovation.
+- Building and maintaining a robust industry network.
+
+### Qualifications
+- Several years of experience in a **leading position**, e.g., as Managing Director, Division Head, or Sales Director.
+- In-depth industry experience with **software/service providers in the energy sector**.
+- Proven success in **developing and expanding markets, customers, and sales teams**.
+- Entrepreneurial thinking, results orientation, and strong implementation skills.
+- Experience in **change management** and strategic transformation.
+- Communicative, authentic leadership personality with decisiveness.
+- Fluent German and good business English.
+
+### Author's Take
+This is a pivotal, permanent leadership role offering significant influence in a future-oriented industry. The company boasts a modern culture with flat hierarchies, considerable creative freedom, and a strong team spirit, fostering innovation and new strategies. You'll benefit from an attractive overall package, including a bonus and a company car for private use, plus a long-term perspective with an equity-like model. The role also supports work-life balance with 1-2 days of home office per week. If you're a strategic visionary eager to shape, rather than just administer, and thrive in a dynamic, impactful environment, this opportunity is ideal. The company looks forward to discussing further details personally.

@@ -15,5 +15,5 @@ excerpt: >-
   words that come to mind when healthcare IT leaders describe artificial
   intelligence success. While healthcare often falls beh
 ---
-Value, transparency, security, scalability and reliability are some of the words that come to mind when healthcare IT leaders describe artificial intelligence success. While healthcare often falls behind other industries in technology adoption, it’s one of the top industries implementing AI tools. In fact, it’s one of the top three industries in the use of agentic AI, according to a recent McKinsey survey.
-However, just adopting AI isn’t enough. It has to work. Clinicians want it to reduce documentation burden while improving patient outcomes. Leadership wants it to increase productivity,…
+Value, transparency, security, scalability and reliability are some of the words that come to mind when healthcare IT leaders describe artificial intelligence success. While healthcare often falls behind other industries in technology adoption, it's one of the top industries implementing AI tools. In fact, it's one of the top three industries in the use of agentic AI, according to a recent McKinsey survey.
+However, just adopting AI isn't enough. It has to work. Clinicians want it to reduce documentation burden while improving patient outcomes. Leadership wants it to increase productivity,...

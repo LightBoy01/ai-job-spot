@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-bda19d3df9da09da74780a4b292a582f9841fb18d4bc3fdfe5c2f8acf7c0d41d
 title: 8 dynamic women to watch in the deep-tech space

@@ -59,4 +59,30 @@ story_answer2: >-
   infrastructure. It's truly a place where your ideas can help shape our
   evolution.
 ---
-### Description\nFor our client, a leading provider of high-security IT solutions that support critical operations worldwide, we are looking for an IT Infrastructure Operations Engineer. This is an exceptionally attractive opportunity to join an interdisciplinary and international team renowned for its expertise and innovation in managing mission-critical IT environments. This role goes beyond typical IT administration, offering a chance to make a significant impact within a high-stakes, cutting-edge landscape.\n\n### Responsibilities\nAs an IT Infrastructure Operations Engineer, your key responsibilities will include:\n- Contributing to, implementing, and maintaining automation processes using specialized Automation Platforms.\n- Administering and optimizing Red Hat Linux Systems, including Red Hat Satellite.\n- Managing and ensuring robust data backups with CommVault.\n- Monitoring, maintaining, and optimizing the infrastructure within the enterprise datacenter.\n- Analyzing and resolving complex issues across server, storage, and backup systems.\n- Contributing to the continuous development and evolution of the IT architecture.\n- Creating and maintaining comprehensive documentation and conducting training sessions for internal teams.\n\n### Qualifications\nTo be successful in this role, candidates should possess:\n- A Degree in Computer Science or a comparable qualification, coupled with relevant professional experience.\n- Solid knowledge of Ansible AWX and practical experience with automation processes.\n- Proven experience in Linux System Administration, preferably with Red Hat Enterprise Linux.\n- Good knowledge of Red Hat Satellite.\n- Willingness to perform regular on-call duty shifts outside of standard office hours.\n- Experience in backup administration, specifically using CommVault.\n- Hands-on experience in operating enterprise datacenters and high-availability solutions.\n- Knowledge of network administration and security concepts is considered a valuable plus.\n- A structured and independent working style, combined with strong team spirit, problem-solving skills, and a service-oriented mindset.\n\n### Author's Take\nThis is an outstanding opportunity for a dedicated IT Infrastructure Operations Engineer to thrive within a high-security, mission-critical environment. The role offers a perfect blend of hands-on technical work with automation, Linux, and backup systems, coupled with strategic contributions to IT architecture. With a motivated team, flat hierarchies, flexible working hours, and strong emphasis on continuous learning and certifications, this position is ideal for someone looking to grow their expertise and make a tangible impact in supporting critical global operations. The company values innovation, collaboration, and offers a supportive environment for professional development.
+### Description
+For our client, a leading provider of high-security IT solutions that support critical operations worldwide, we are looking for an IT Infrastructure Operations Engineer. This is an exceptionally attractive opportunity to join an interdisciplinary and international team renowned for its expertise and innovation in managing mission-critical IT environments. This role goes beyond typical IT administration, offering a chance to make a significant impact within a high-stakes, cutting-edge landscape.
+
+### Responsibilities
+As an IT Infrastructure Operations Engineer, your key responsibilities will include:
+- Contributing to, implementing, and maintaining automation processes using specialized Automation Platforms.
+- Administering and optimizing Red Hat Linux Systems, including Red Hat Satellite.
+- Managing and ensuring robust data backups with CommVault.
+- Monitoring, maintaining, and optimizing the infrastructure within the enterprise datacenter.
+- Analyzing and resolving complex issues across server, storage, and backup systems.
+- Contributing to the continuous development and evolution of the IT architecture.
+- Creating and maintaining comprehensive documentation and conducting training sessions for internal teams.
+
+### Qualifications
+To be successful in this role, candidates should possess:
+- A Degree in Computer Science or a comparable qualification, coupled with relevant professional experience.
+- Solid knowledge of Ansible AWX and practical experience with automation processes.
+- Proven experience in Linux System Administration, preferably with Red Hat Enterprise Linux.
+- Good knowledge of Red Hat Satellite.
+- Willingness to perform regular on-call duty shifts outside of standard office hours.
+- Experience in backup administration, specifically using CommVault.
+- Hands-on experience in operating enterprise datacenters and high-availability solutions.
+- Knowledge of network administration and security concepts is considered a valuable plus.
+- A structured and independent working style, combined with strong team spirit, problem-solving skills, and a service-oriented mindset.
+
+### Author's Take
+This is an outstanding opportunity for a dedicated IT Infrastructure Operations Engineer to thrive within a high-security, mission-critical environment. The role offers a perfect blend of hands-on technical work with automation, Linux, and backup systems, coupled with strategic contributions to IT architecture. With a motivated team, flat hierarchies, flexible working hours, and strong emphasis on continuous learning and certifications, this position is ideal for someone looking to grow their expertise and make a tangible impact in supporting critical global operations. The company values innovation, collaboration, and offers a supportive environment for professional development.

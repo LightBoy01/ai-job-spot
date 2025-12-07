@@ -77,4 +77,27 @@ story_answer3: >-
   your personal well-being, because we believe a well-rested team is a highly
   effective one.
 ---
-### Description\nJoin a successful consulting firm actively contributing to Germany's energy transition by developing its own wind and PV projects. This is a crucial role for a Senior Project Manager who will take overall responsibility for a project portfolio, covering the entire development lifecycle of renewable energy parks. You will play a pivotal role in establishing renewable energies in Germany for the coming years.\n\n### Responsibilities\n*   Hold overall responsibility for a project portfolio covering the entire development cycle: land acquisition, commissioning studies, optimal layout and wind turbine type analysis, permit application, and post-permit follow-up.\n*   Prepare and oversee permitting procedures according to BImSchG.\n*   Undertake regular travel to potential wind and PV park locations.\n*   Manage stakeholders throughout the development cycle.\n*   Prepare decisions for the management board with corresponding reporting.\n*   Monitor projects regarding time, budget, and quality.\n*   Manage project risks.\n\n### Qualifications\n*   Successfully completed studies in Geography, Engineering, Economics, or comparable qualifications/professional experience.\n*   Several years of professional experience in project development, preferably in the wind or PV industry with a focus on permitting planning.\n*   In-depth knowledge of the economic and legal framework conditions for wind energy, especially in planning law (BauGB, BImSchG, ROG, EEG, TA Lärm, BNatSchG, WindBG, etc.).\n*   Experience in dealing with landowners, service providers, permitting authorities, and municipalities.\n*   Experience in using geographical information systems (GIS) in the context of wind and PV parks.\n*   Proficient application skills in MS-Office are an advantage.\n*   Negotiation-level German language skills (written and spoken).\n*   Willingness to travel and possession of a German driver's license Class B.\n\n### Author's Take\nThis is a highly impactful Senior Project Manager role for an individual passionate about driving Germany's renewable energy transition. The company offers a vibrant \"start-up flair\" culture with strong emphasis on flexibility, mobile working, and employee well-being through a range of attractive benefits. With overall responsibility for project portfolios from inception to permit, this position offers significant autonomy and the chance to make a tangible difference in a crucial growth sector. It's ideal for a seasoned professional with deep regulatory knowledge in renewable energy project development.
+### Description
+Join a successful consulting firm actively contributing to Germany's energy transition by developing its own wind and PV projects. This is a crucial role for a Senior Project Manager who will take overall responsibility for a project portfolio, covering the entire development lifecycle of renewable energy parks. You will play a pivotal role in establishing renewable energies in Germany for the coming years.
+
+### Responsibilities
+*   Hold overall responsibility for a project portfolio covering the entire development cycle: land acquisition, commissioning studies, optimal layout and wind turbine type analysis, permit application, and post-permit follow-up.
+*   Prepare and oversee permitting procedures according to BImSchG.
+*   Undertake regular travel to potential wind and PV park locations.
+*   Manage stakeholders throughout the development cycle.
+*   Prepare decisions for the management board with corresponding reporting.
+*   Monitor projects regarding time, budget, and quality.
+*   Manage project risks.
+
+### Qualifications
+*   Successfully completed studies in Geography, Engineering, Economics, or comparable qualifications/professional experience.
+*   Several years of professional experience in project development, preferably in the wind or PV industry with a focus on permitting planning.
+*   In-depth knowledge of the economic and legal framework conditions for wind energy, especially in planning law (BauGB, BImSchG, ROG, EEG, TA Lärm, BNatSchG, WindBG, etc.).
+*   Experience in dealing with landowners, service providers, permitting authorities, and municipalities.
+*   Experience in using geographical information systems (GIS) in the context of wind and PV parks.
+*   Proficient application skills in MS-Office are an advantage.
+*   Negotiation-level German language skills (written and spoken).
+*   Willingness to travel and possession of a German driver's license Class B.
+
+### Author's Take
+This is a highly impactful Senior Project Manager role for an individual passionate about driving Germany's renewable energy transition. The company offers a vibrant \"start-up flair\" culture with strong emphasis on flexibility, mobile working, and employee well-being through a range of attractive benefits. With overall responsibility for project portfolios from inception to permit, this position offers significant autonomy and the chance to make a tangible difference in a crucial growth sector. It's ideal for a seasoned professional with deep regulatory knowledge in renewable energy project development.

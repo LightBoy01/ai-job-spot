@@ -59,4 +59,25 @@ story_answer2: >-
   advanced automation techniques, ensuring you're always challenged and
   developing cutting-edge skills.
 ---
-### Description\nWe are looking for a Tester Python (SIL 2) (m/f/d) for a project. This role involves acting as an interface between an agile development team and stakeholders, planning and executing test activities, and supporting the test automation chain. The project is focused on a safety-critical environment within the railway industry. This is a temporary employment contract (Arbeitnehmerüberlassung) for 12 months, with a possibility of extension, located in Braunschweig, offering a hybrid work model (2 days office/3 days remote possible). The start date is as soon as possible.\n\n### Responsibilities\n- Act as an interface between the agile development team and stakeholders.\n- Support the agile team in planning test activities, including the selection of test approach, methods, and scope.\n- Apply agile principles and methodologies throughout the entire testing process.\n- Create test specifications, test cases, test suites, and test reports.\n- Plan, perform, and evaluate laboratory and field tests.\n- Support the development and maintenance of the test automation chain.\n- Support business stakeholders in defining understandable and testable user stories and acceptance criteria.\n\n### Qualifications\n- University degree in Computer Science, Electrical Engineering, Software Engineering, or a comparable field.\n- Experience in testing with Python, ideally in a safety-critical environment (SIL 2).\n- Very good knowledge of test methodologies, verification/validation processes, and documentation standards.\n- Experience in the railway industry.\n- Knowledge of agile methods (Scrum, Kanban).\n- Good German and English language skills.\n\n### Author's Take\nThis is a highly specialized and impactful role for a Python Tester with a strong background in safety-critical systems, particularly within the railway sector. The emphasis on agile methodologies and active participation in test automation development suggests a dynamic environment where an individual contributor can significantly influence product quality and safety. The hybrid work model offers a good balance between collaboration and flexibility. It's an excellent opportunity for someone looking to apply their expertise in a high-stakes, technically challenging domain with a clear focus on real-world impact.
+### Description
+We are looking for a Tester Python (SIL 2) (m/f/d) for a project. This role involves acting as an interface between an agile development team and stakeholders, planning and executing test activities, and supporting the test automation chain. The project is focused on a safety-critical environment within the railway industry. This is a temporary employment contract (Arbeitnehmerüberlassung) for 12 months, with a possibility of extension, located in Braunschweig, offering a hybrid work model (2 days office/3 days remote possible). The start date is as soon as possible.
+
+### Responsibilities
+- Act as an interface between the agile development team and stakeholders.
+- Support the agile team in planning test activities, including the selection of test approach, methods, and scope.
+- Apply agile principles and methodologies throughout the entire testing process.
+- Create test specifications, test cases, test suites, and test reports.
+- Plan, perform, and evaluate laboratory and field tests.
+- Support the development and maintenance of the test automation chain.
+- Support business stakeholders in defining understandable and testable user stories and acceptance criteria.
+
+### Qualifications
+- University degree in Computer Science, Electrical Engineering, Software Engineering, or a comparable field.
+- Experience in testing with Python, ideally in a safety-critical environment (SIL 2).
+- Very good knowledge of test methodologies, verification/validation processes, and documentation standards.
+- Experience in the railway industry.
+- Knowledge of agile methods (Scrum, Kanban).
+- Good German and English language skills.
+
+### Author's Take
+This is a highly specialized and impactful role for a Python Tester with a strong background in safety-critical systems, particularly within the railway sector. The emphasis on agile methodologies and active participation in test automation development suggests a dynamic environment where an individual contributor can significantly influence product quality and safety. The hybrid work model offers a good balance between collaboration and flexibility. It's an excellent opportunity for someone looking to apply their expertise in a high-stakes, technically challenging domain with a clear focus on real-world impact.

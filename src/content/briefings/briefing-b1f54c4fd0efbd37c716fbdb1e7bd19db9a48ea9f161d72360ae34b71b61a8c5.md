@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-b1f54c4fd0efbd37c716fbdb1e7bd19db9a48ea9f161d72360ae34b71b61a8c5
 title: >-
   Cyst-X: A Federated AI System Outperforms Clinical Guidelines to Detect
-  Pancreatic Cancer Precursors and Reduce Unnecessary Surgery
+  Pancreatic Cancer Precurs...
 slug: briefing-b1f54c4fd0efbd37c716fbdb1e7bd19db9a48ea9f161d72360ae34b71b61a8c5
 author: >-
   Hongyi Pan, Gorkem Durak, Elif Keles, Deniz Seyithanoglu, Zheyuan Zhang, Alpay

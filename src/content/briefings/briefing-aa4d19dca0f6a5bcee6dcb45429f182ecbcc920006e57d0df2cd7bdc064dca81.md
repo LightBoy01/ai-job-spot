@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-aa4d19dca0f6a5bcee6dcb45429f182ecbcc920006e57d0df2cd7bdc064dca81
 title: >-
   OmniPT: Unleashing the Potential of Large Vision Language Models for
-  Pedestrian Tracking and Understanding
+  Pedestrian Tracking and Unde...
 slug: briefing-aa4d19dca0f6a5bcee6dcb45429f182ecbcc920006e57d0df2cd7bdc064dca81
 author: 'Teng Fu, Mengyang Zhao, Ke Niu, Kaixin Peng, Bin Li'
 publishDate: 2025-11-24T05:00:00.000Z

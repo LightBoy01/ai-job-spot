@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-f25b3d3bfa26be9d7fc5cd27422ff84065ec8486af7eed53beac53ffbaadea12
 title: >-
   MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple Depth
-  Views in Multi-Room Environments
+  Views in Multi-Room ...
 slug: briefing-f25b3d3bfa26be9d7fc5cd27422ff84065ec8486af7eed53beac53ffbaadea12
 author: >-
   Zhixuan Liu, Haokun Zhu, Rui Chen, Jonathan Francis, Soonmin Hwang, Ji Zhang,

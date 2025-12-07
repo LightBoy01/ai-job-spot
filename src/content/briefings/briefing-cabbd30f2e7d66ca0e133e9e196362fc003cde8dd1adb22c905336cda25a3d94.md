@@ -1,6 +1,6 @@
 ---
 id: briefing-cabbd30f2e7d66ca0e133e9e196362fc003cde8dd1adb22c905336cda25a3d94
-title: Elon Musk wins $1 trillion Tesla pay vote despite “part-time CEO” criticism
+title: Elon Musk wins 1 trillion Tesla pay vote despite "part-time CEO" criticism
 slug: briefing-cabbd30f2e7d66ca0e133e9e196362fc003cde8dd1adb22c905336cda25a3d94
 author: Jon Brodkin
 publishDate: 2025-11-06T22:05:55.000Z

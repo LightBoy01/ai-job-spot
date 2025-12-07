@@ -60,4 +60,29 @@ story_answer2: >-
   really value engineers who can not only identify problems but also envision
   and build the solutions.
 ---
-### Description\\nAre you passionate about technology? So are we! To strengthen our expert team for our client in the radio and communications industry, we are looking for a Qualification Test Engineer (m/f/x) for Avionics Software Defined Radios in a permanent position with K-tronik. We look forward to getting to know you personally – and working together with passion and team spirit on exciting projects and pioneering technologies.\\n\\n### Responsibilities\\n*   Conduct qualification tests (EMC and environmental simulation) to ensure the function and data integrity of our latest generation military radios.\\n*   Create qualification procedures.\\n*   Design, commission, and automate test setups to verify the function and data integrity of our airborne radios.\\n*   Create customer-ready qualification test procedures and reports.\\n*   Participate in the planning and control of qualification test campaigns.\\n*   Consider all quality assurance measures according to R&S standards, aviation norms, and customer requirements.\\n*   Control and maintain internal and external test reports.\\n*   Creative problem-solving in case of identified device and system problems.\\n\\n### Qualifications\\n*   Completed studies / technician training / vocational training with relevant professional experience in electrical engineering, telecommunications, or a comparable field.\\n*   Experience in preparing, conducting, and evaluating test and measurement tasks.\\n*   Knowledge in the conception and setup of test environments, and their automation (e.g., Python), for product testing.\\n*   Knowledge of civil and military standards for avionics radios (e.g., RTCA/DO160, MIL-STD-461 & 810) is an advantage.\\n*   Knowledge in radio transmission procedures – ideally in airborne radio – is an advantage.\\n*   Characterized by a precise working method.\\n*   Demonstrate an independent, dedicated, and team-oriented work style, along with a proactive, communicative nature.\\n*   Willingness to travel occasionally.\\n*   Good written and spoken German and English skills complete your profile.\\n\\n### Author's Take\\nThis is an excellent opportunity for a dedicated Qualification Test Engineer to join an expert team working on critical avionics software-defined radios. K-tronik offers a highly supportive and collaborative environment, recognized as a Kununu TOP Company. With flexible working hours, generous vacation, continuous learning, and 360° employee support, this role emphasizes work-life balance and professional growth. If you are passionate about precision testing, automation, and working on impactful, cutting-edge technology in a friendly team, this role is for you.
+### Description\
+Are you passionate about technology? So are we! To strengthen our expert team for our client in the radio and communications industry, we are looking for a Qualification Test Engineer (m/f/x) for Avionics Software Defined Radios in a permanent position with K-tronik. We look forward to getting to know you personally – and working together with passion and team spirit on exciting projects and pioneering technologies.\
+\
+### Responsibilities\
+*   Conduct qualification tests (EMC and environmental simulation) to ensure the function and data integrity of our latest generation military radios.\
+*   Create qualification procedures.\
+*   Design, commission, and automate test setups to verify the function and data integrity of our airborne radios.\
+*   Create customer-ready qualification test procedures and reports.\
+*   Participate in the planning and control of qualification test campaigns.\
+*   Consider all quality assurance measures according to R&S standards, aviation norms, and customer requirements.\
+*   Control and maintain internal and external test reports.\
+*   Creative problem-solving in case of identified device and system problems.\
+\
+### Qualifications\
+*   Completed studies / technician training / vocational training with relevant professional experience in electrical engineering, telecommunications, or a comparable field.\
+*   Experience in preparing, conducting, and evaluating test and measurement tasks.\
+*   Knowledge in the conception and setup of test environments, and their automation (e.g., Python), for product testing.\
+*   Knowledge of civil and military standards for avionics radios (e.g., RTCA/DO160, MIL-STD-461 & 810) is an advantage.\
+*   Knowledge in radio transmission procedures – ideally in airborne radio – is an advantage.\
+*   Characterized by a precise working method.\
+*   Demonstrate an independent, dedicated, and team-oriented work style, along with a proactive, communicative nature.\
+*   Willingness to travel occasionally.\
+*   Good written and spoken German and English skills complete your profile.\
+\
+### Author's Take\
+This is an excellent opportunity for a dedicated Qualification Test Engineer to join an expert team working on critical avionics software-defined radios. K-tronik offers a highly supportive and collaborative environment, recognized as a Kununu TOP Company. With flexible working hours, generous vacation, continuous learning, and 360° employee support, this role emphasizes work-life balance and professional growth. If you are passionate about precision testing, automation, and working on impactful, cutting-edge technology in a friendly team, this role is for you.

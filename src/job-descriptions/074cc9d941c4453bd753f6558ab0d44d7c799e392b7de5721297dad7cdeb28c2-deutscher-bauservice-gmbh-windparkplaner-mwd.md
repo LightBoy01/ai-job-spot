@@ -76,4 +76,46 @@ story_answer3: >-
   approvals efficiently, and ensure every project moves forward with community
   support.
 ---
-### Description\nWe are currently rapidly developing into a leading provider of services for engineering firms and civil engineering companies. To further expand our existing projects and project areas, we are looking for experienced support.\n\nDo you plan wind turbines faster than the wind? Are you keen to participate in the planning of large, nationwide wind power projects? Have you already gained experience in project management, are you practice-oriented, and do you keep an overview even in stressful situations?\n\nThen you are exactly right with us! Apply today and support our team!\n\nWe offer:\n*   Flexible working hours\n*   Mobile working\n*   Recreational allowance\n*   Company pension scheme\n*   Company bike leasing\n*   Company fitness program (Hansefit)\n*   Full catering in the office\n*   Corporate benefits\n*   Many joint events and activities\n*   A company with a start-up flair\n\nWe look forward to YOU!\n\n### Responsibilities\n*   Responsibility for wind energy projects from consultation to contract closing\n*   Creation of site plans, concepts, and planning variants for potential wind farms, including development concepts\n*   Support and consultation for customers\n*   Drafting and approval planning for wind farm projects\n*   Technical assessment of projects considering legal regulations and the planning steps required for obtaining approval\n*   Preparation of approval applications\n*   Point of contact for approval authorities and experts, as well as for customers and technical questions\n*   Presentations in municipal councils and at public meetings\n*   Processing of information material for customers\n*   Management of technical documents and project documentation\n\n### Qualifications\n*   Completed degree in Architecture, Geography, Renewable Energies, Civil Engineering, or a completed apprenticeship as a technical draughtsman with relevant professional experience, or a similar qualification\n*   You are an organizational talent and team player and enjoy taking responsibility\n*   Experience in customer support and dealing with approval authorities is desirable\n*   Excellent communication skills and negotiation abilities\n*   Experience with CAD or GIS programs, ideally already experience with programs like WindPRO and Windographer\n*   Good MS Office skills\n\n### Author's Take\nThis is an exciting Mid-Senior level opportunity for a seasoned project manager or planner passionate about renewable energy. The role offers significant responsibility in shaping large-scale wind power projects across Germany, from initial concept to final approval. The company fosters a dynamic, start-up-like environment with strong emphasis on flexibility, professional growth, and team collaboration, evident through its comprehensive benefits and diverse events. It's a chance to make a tangible impact on sustainable energy development within a supportive and forward-thinking team.
+### Description
+We are currently rapidly developing into a leading provider of services for engineering firms and civil engineering companies. To further expand our existing projects and project areas, we are looking for experienced support.
+
+Do you plan wind turbines faster than the wind? Are you keen to participate in the planning of large, nationwide wind power projects? Have you already gained experience in project management, are you practice-oriented, and do you keep an overview even in stressful situations?
+
+Then you are exactly right with us! Apply today and support our team!
+
+We offer:
+*   Flexible working hours
+*   Mobile working
+*   Recreational allowance
+*   Company pension scheme
+*   Company bike leasing
+*   Company fitness program (Hansefit)
+*   Full catering in the office
+*   Corporate benefits
+*   Many joint events and activities
+*   A company with a start-up flair
+
+We look forward to YOU!
+
+### Responsibilities
+*   Responsibility for wind energy projects from consultation to contract closing
+*   Creation of site plans, concepts, and planning variants for potential wind farms, including development concepts
+*   Support and consultation for customers
+*   Drafting and approval planning for wind farm projects
+*   Technical assessment of projects considering legal regulations and the planning steps required for obtaining approval
+*   Preparation of approval applications
+*   Point of contact for approval authorities and experts, as well as for customers and technical questions
+*   Presentations in municipal councils and at public meetings
+*   Processing of information material for customers
+*   Management of technical documents and project documentation
+
+### Qualifications
+*   Completed degree in Architecture, Geography, Renewable Energies, Civil Engineering, or a completed apprenticeship as a technical draughtsman with relevant professional experience, or a similar qualification
+*   You are an organizational talent and team player and enjoy taking responsibility
+*   Experience in customer support and dealing with approval authorities is desirable
+*   Excellent communication skills and negotiation abilities
+*   Experience with CAD or GIS programs, ideally already experience with programs like WindPRO and Windographer
+*   Good MS Office skills
+
+### Author's Take
+This is an exciting Mid-Senior level opportunity for a seasoned project manager or planner passionate about renewable energy. The role offers significant responsibility in shaping large-scale wind power projects across Germany, from initial concept to final approval. The company fosters a dynamic, start-up-like environment with strong emphasis on flexibility, professional growth, and team collaboration, evident through its comprehensive benefits and diverse events. It's a chance to make a tangible impact on sustainable energy development within a supportive and forward-thinking team.

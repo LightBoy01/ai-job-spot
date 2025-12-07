@@ -63,4 +63,30 @@ story_answer3: >-
   initial skeptics into supporters. It’s about building relationships and trust,
   which is something we truly value here.
 ---
-### Description\nWe are currently experiencing rapid growth, evolving into a leading service provider for engineering and civil engineering companies. To further expand our existing projects and project areas, we are seeking experienced support.\n\nAre you passionate about planning large, nationwide wind power projects? Do you have experience in project management, are you practical, and can you maintain an overview even in stressful situations? If so, you've come to the right place! Join us and contribute to a sustainable future.\n\n### Responsibilities\n- Take responsibility for wind energy projects from initial consultation to contract completion.\n- Create site plans, concepts, and planning variants for potential wind farms, including development concepts.\n- Provide support and consultation to clients.\n- Execute design and approval planning for wind farm projects.\n- Technically assess projects, considering legal regulations and necessary planning steps for obtaining approvals.\n- Prepare and submit approval applications.\n- Act as the primary contact for approval authorities, experts, clients, and for all technical inquiries.\n- Deliver presentations in municipal councils and at citizen assemblies.\n- Process informational materials for clients.\n- Manage technical documents and project documentation.\n\n### Qualifications\n- A completed degree in Architecture, Geography, Renewable Energies, Civil Engineering, or a completed apprenticeship as a Construction Draftsman with relevant professional experience, or an equivalent qualification.\n- An organizational talent and team player who enjoys taking responsibility.\n- Desirable: Experience in customer support and dealing with approval authorities.\n- Very good articulation and negotiation skills.\n- Experience with CAD or GIS programs; ideally, prior experience with WindPRO and Windographer.\n- Good MS-Office proficiency.\n\n### Author's Take\nThis is an exceptional opportunity for an experienced project professional to make a significant impact in Germany's rapidly growing wind energy sector. The company's commitment to sustainability is matched by its vibrant, start-up-like culture, offering flexible work arrangements, comprehensive benefits (including mobile work, company pension, fitness programs, and full catering), and numerous team events. If you're looking for a role where you can own projects from start to finish, engage with diverse stakeholders, and contribute directly to a greener future, all within a supportive and dynamic environment, this role is for you.
+### Description
+We are currently experiencing rapid growth, evolving into a leading service provider for engineering and civil engineering companies. To further expand our existing projects and project areas, we are seeking experienced support.
+
+Are you passionate about planning large, nationwide wind power projects? Do you have experience in project management, are you practical, and can you maintain an overview even in stressful situations? If so, you've come to the right place! Join us and contribute to a sustainable future.
+
+### Responsibilities
+- Take responsibility for wind energy projects from initial consultation to contract completion.
+- Create site plans, concepts, and planning variants for potential wind farms, including development concepts.
+- Provide support and consultation to clients.
+- Execute design and approval planning for wind farm projects.
+- Technically assess projects, considering legal regulations and necessary planning steps for obtaining approvals.
+- Prepare and submit approval applications.
+- Act as the primary contact for approval authorities, experts, clients, and for all technical inquiries.
+- Deliver presentations in municipal councils and at citizen assemblies.
+- Process informational materials for clients.
+- Manage technical documents and project documentation.
+
+### Qualifications
+- A completed degree in Architecture, Geography, Renewable Energies, Civil Engineering, or a completed apprenticeship as a Construction Draftsman with relevant professional experience, or an equivalent qualification.
+- An organizational talent and team player who enjoys taking responsibility.
+- Desirable: Experience in customer support and dealing with approval authorities.
+- Very good articulation and negotiation skills.
+- Experience with CAD or GIS programs; ideally, prior experience with WindPRO and Windographer.
+- Good MS-Office proficiency.
+
+### Author's Take
+This is an exceptional opportunity for an experienced project professional to make a significant impact in Germany's rapidly growing wind energy sector. The company's commitment to sustainability is matched by its vibrant, start-up-like culture, offering flexible work arrangements, comprehensive benefits (including mobile work, company pension, fitness programs, and full catering), and numerous team events. If you're looking for a role where you can own projects from start to finish, engage with diverse stakeholders, and contribute directly to a greener future, all within a supportive and dynamic environment, this role is for you.

@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-90e796a96b979e5c9bea46fcfb7e0e3ed0ed82fa7a2b1c0295b1c1b3714defdd
 title: >-

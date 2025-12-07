@@ -86,11 +86,17 @@ export async function notifyBatch(
   const auth = await getAuthenticatedClient();
   if (!auth) return;
 
-  const boundary = `----${Date.now()}----`;
-  const body = urls
-    .map(url => {
-      const content = JSON.stringify({ url, type });
-      return `--${boundary}
+  // Google Indexing API batch limit is 100 items per request
+  const BATCH_SIZE = 100;
+  
+  for (let i = 0; i < urls.length; i += BATCH_SIZE) {
+    const chunk = urls.slice(i, i + BATCH_SIZE);
+    const boundary = `----${Date.now()}----`;
+    
+    const body = chunk
+      .map(url => {
+        const content = JSON.stringify({ url, type });
+        return `--${boundary}
 Content-Type: application/http
 Content-Transfer-Encoding: binary
 Content-ID: <${url}>
@@ -99,37 +105,38 @@ POST /v3/urlNotifications:publish
 Content-Type: application/json
 
 ${content}`;
-    })
-    .join('\n') + `\n--${boundary}--`;
+      })
+      .join('\n') + `\n--${boundary}--`;
 
-  try {
-    const token = await auth.getAccessToken();
-    const response = await fetch(INDEXING_API_BATCH_ENDPOINT, {
-      method: 'POST',
-      headers: {
-        'Content-Type': `multipart/mixed; boundary=${boundary}`,
-        Authorization: `Bearer ${token.token}`,
-      },
-      body: body,
-    });
+    try {
+      console.log(`[Indexing API] Sending batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(urls.length / BATCH_SIZE)} (${chunk.length} items)...`);
+      const token = await auth.getAccessToken();
+      const response = await fetch(INDEXING_API_BATCH_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': `multipart/mixed; boundary=${boundary}`,
+          Authorization: `Bearer ${token.token}`,
+        },
+        body: body,
+      });
 
-    if (response.ok) {
-      console.log(
-        `[Indexing API] Successfully sent batch notification for ${urls.length} URLs of type ${type}.`
-      );
-      // Optionally, you can process the multipart response here if needed
-    } else {
-      const errorContent = await response.text();
+      if (response.ok) {
+        console.log(
+          `[Indexing API] Batch ${Math.floor(i / BATCH_SIZE) + 1} successful.`
+        );
+      } else {
+        const errorContent = await response.text();
+        console.error(
+          `[Indexing API] Error sending batch ${Math.floor(i / BATCH_SIZE) + 1}. Status: ${response.status}, Response:`,
+          errorContent
+        );
+      }
+    } catch (error) {
       console.error(
-        `[Indexing API] Error sending batch notification. Status: ${response.status}, Response:`,
-        errorContent
+        `[Indexing API] Exception while sending batch ${Math.floor(i / BATCH_SIZE) + 1}:`,
+        error
       );
     }
-  } catch (error) {
-    console.error(
-      `[Indexing API] Exception while sending batch notification:`,
-      error
-    );
   }
 }
 

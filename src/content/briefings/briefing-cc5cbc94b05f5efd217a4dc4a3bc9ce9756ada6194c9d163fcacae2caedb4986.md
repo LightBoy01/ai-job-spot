@@ -17,10 +17,10 @@ tags:
   - Synthetic Data
 excerpt: >-
   Discover how nonparametric conditional distributions unify regression,
-  classification, and synthetic data generation—without assuming functional
+  classification, and synthetic data generation-without assuming functional
   forms.
 
   The post Why Nonparametric Models Deserve a Seco
 ---
-<p>Discover how nonparametric conditional distributions unify regression, classification, and synthetic data generation—without assuming functional forms.</p>
+<p>Discover how nonparametric conditional distributions unify regression, classification, and synthetic data generation-without assuming functional forms.</p>
 <p>The post <a href="https://towardsdatascience.com/why-nonparametric-models-deserve-a-second-look/">Why Nonparametric Models Deserve a Second Look</a> appeared first on <a href="https://towardsdatascience.com">Towards Data Science</a>.</p>

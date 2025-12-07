@@ -66,4 +66,63 @@ story_answer3: >-
   heard, and your career path can truly be shaped by your aspirations. It's
   about thriving, not just working.
 ---
-### Description\nIRIS is a data-driven, client-focused media, market research, and consulting company specialized in the sport business, helping national and international clients maximize their investments.\n\nThey are looking for a Finance Manager who not only manages numbers but understands and utilizes them. This role is responsible for clean, efficient accounting and involvement in all central controlling topics, from reporting to planning. If you combine operational precision with analytical thinking and want to make a real impact in the sport business, this is for you.\n\n**Company Overview:**\n*   **Locations:** Karlsruhe & Cologne\n*   **Employees:** 65\n*   **Industry:** Sport business\n*   **Areas:** Market & Media Research | Marketing & Sponsoring | Business Intelligence | Digital Services\n*   **Clients:** International and national companies, associations, clubs, marketers\n*   **Expertise:** Intelligent, individual, and high-quality research products for clients who share a passion for professional sports.\n\n**Job Details:**\n*   **Position:** Finance Manager (w/m/d)\n*   **Start Date:** Immediately\n*   **Employment:** Permanent & Full-time (40h / week)\n*   **Work Location:** Karlsruhe & Cologne & Remote\n*   **Salary:** Qualification-dependent & performance-oriented\n*   **Bonuses:** Individual gratification models\n*   **Vacation:** 28 days / year\n*   **Travel:** No\n\n### Responsibilities\n*   Management of ongoing financial accounting (accounts receivable, accounts payable, bank, cash)\n*   Independent preparation of monthly financial statements and reconciliation of all relevant financial positions\n*   Operational budget planning and forecasting, as well as reporting\n*   Ensuring data quality and continuous optimization of financial processes\n*   Creation of evaluations, reports, and KPI analyses to support decision-making\n*   Assistance in the preparation of annual financial statements together with our tax consultant\n*   Assistance with payroll accounting\n*   Contact person for customers, suppliers, and partners in the finance department\n*   Maintenance and further development of digital tools, processes, and standards in the finance and controlling area\n\n### Qualifications\n**Education & Experience:**\n*   Completed commercial training or a degree with a focus on accounting or finance\n*   Good technical knowledge and initial practical experience in accounting\n*   Experience with DATEV (or comparable software) desirable\n*   Very proficient in MS Office, especially Excel and PowerPoint\n\n**Skills & Personality:**\n*   Hands-on mentality and independent, structured way of working\n*   Analytical thinking and a strong understanding of numbers, structures, and interrelationships\n*   A high degree of reliability, commitment, and team spirit\n*   Fluent German and English (at least C1 level)\n*   Committed and independent\n*   Proactive and responsible\n*   Positive and enthusiastic\n*   Team-oriented and communicative\n*   Goal and performance-oriented\n\n### Author's Take\nIRIS offers a dynamic role as a Finance Manager within the exciting sport business sector, emphasizing direct impact and operational excellence. The company prides itself on a culture of **team spirit, personal responsibility, and continuous learning**, supported by flat hierarchies and open communication.\n\nEmployees benefit from a supportive team (engaging, helpful, international, multicultural, with an open-door policy) and management that fosters \"Führung auf Augenhöhe\" (leadership at eye level).\n\nWork-life balance is supported by **flexible working hours and remote work options**, along with a comprehensive onboarding and personal development program. The modern offices in Karlsruhe and Cologne are sport-themed and well-connected.\n\nAdditional **benefits** include extensive IT equipment, subsidies for public transport (Deutschlandticket) or a Jobrad, and various corporate discounts. This role is ideal for someone looking to blend financial expertise with a passion for sports in a growth-oriented, collaborative environment. The company also explicitly welcomes applications from people with disabilities, highlighting their commitment to diversity.
+### Description
+IRIS is a data-driven, client-focused media, market research, and consulting company specialized in the sport business, helping national and international clients maximize their investments.
+
+They are looking for a Finance Manager who not only manages numbers but understands and utilizes them. This role is responsible for clean, efficient accounting and involvement in all central controlling topics, from reporting to planning. If you combine operational precision with analytical thinking and want to make a real impact in the sport business, this is for you.
+
+**Company Overview:**
+*   **Locations:** Karlsruhe & Cologne
+*   **Employees:** 65
+*   **Industry:** Sport business
+*   **Areas:** Market & Media Research | Marketing & Sponsoring | Business Intelligence | Digital Services
+*   **Clients:** International and national companies, associations, clubs, marketers
+*   **Expertise:** Intelligent, individual, and high-quality research products for clients who share a passion for professional sports.
+
+**Job Details:**
+*   **Position:** Finance Manager (w/m/d)
+*   **Start Date:** Immediately
+*   **Employment:** Permanent & Full-time (40h / week)
+*   **Work Location:** Karlsruhe & Cologne & Remote
+*   **Salary:** Qualification-dependent & performance-oriented
+*   **Bonuses:** Individual gratification models
+*   **Vacation:** 28 days / year
+*   **Travel:** No
+
+### Responsibilities
+*   Management of ongoing financial accounting (accounts receivable, accounts payable, bank, cash)
+*   Independent preparation of monthly financial statements and reconciliation of all relevant financial positions
+*   Operational budget planning and forecasting, as well as reporting
+*   Ensuring data quality and continuous optimization of financial processes
+*   Creation of evaluations, reports, and KPI analyses to support decision-making
+*   Assistance in the preparation of annual financial statements together with our tax consultant
+*   Assistance with payroll accounting
+*   Contact person for customers, suppliers, and partners in the finance department
+*   Maintenance and further development of digital tools, processes, and standards in the finance and controlling area
+
+### Qualifications
+**Education & Experience:**
+*   Completed commercial training or a degree with a focus on accounting or finance
+*   Good technical knowledge and initial practical experience in accounting
+*   Experience with DATEV (or comparable software) desirable
+*   Very proficient in MS Office, especially Excel and PowerPoint
+
+**Skills & Personality:**
+*   Hands-on mentality and independent, structured way of working
+*   Analytical thinking and a strong understanding of numbers, structures, and interrelationships
+*   A high degree of reliability, commitment, and team spirit
+*   Fluent German and English (at least C1 level)
+*   Committed and independent
+*   Proactive and responsible
+*   Positive and enthusiastic
+*   Team-oriented and communicative
+*   Goal and performance-oriented
+
+### Author's Take
+IRIS offers a dynamic role as a Finance Manager within the exciting sport business sector, emphasizing direct impact and operational excellence. The company prides itself on a culture of **team spirit, personal responsibility, and continuous learning**, supported by flat hierarchies and open communication.
+
+Employees benefit from a supportive team (engaging, helpful, international, multicultural, with an open-door policy) and management that fosters \"Führung auf Augenhöhe\" (leadership at eye level).
+
+Work-life balance is supported by **flexible working hours and remote work options**, along with a comprehensive onboarding and personal development program. The modern offices in Karlsruhe and Cologne are sport-themed and well-connected.
+
+Additional **benefits** include extensive IT equipment, subsidies for public transport (Deutschlandticket) or a Jobrad, and various corporate discounts. This role is ideal for someone looking to blend financial expertise with a passion for sports in a growth-oriented, collaborative environment. The company also explicitly welcomes applications from people with disabilities, highlighting their commitment to diversity.

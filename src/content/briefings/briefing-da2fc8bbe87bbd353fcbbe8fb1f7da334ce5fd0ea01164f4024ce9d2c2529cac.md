@@ -1,8 +1,6 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-da2fc8bbe87bbd353fcbbe8fb1f7da334ce5fd0ea01164f4024ce9d2c2529cac
-title: Rad Power Bikes’ batteries receive major fire risk warning
+title: Rad Power Bikes' batteries receive major fire risk warning
 slug: briefing-da2fc8bbe87bbd353fcbbe8fb1f7da334ce5fd0ea01164f4024ce9d2c2529cac
 author: Sean O'Kane
 publishDate: 2025-11-24T21:28:27.000Z

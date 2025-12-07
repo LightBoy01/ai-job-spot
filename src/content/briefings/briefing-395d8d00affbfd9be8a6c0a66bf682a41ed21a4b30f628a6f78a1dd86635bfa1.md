@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-395d8d00affbfd9be8a6c0a66bf682a41ed21a4b30f628a6f78a1dd86635bfa1
 title: 'LoKO: Low-Rank Kalman Optimizer for Online Fine-Tuning of Large Models'

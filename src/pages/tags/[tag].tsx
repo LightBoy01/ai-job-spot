@@ -7,6 +7,7 @@ import { getAllTags, getJobsByTag, getArticlesByTag } from '@/lib/firestoreClien
 import { SerializedArticleSummary, SerializedJobSummary } from '@/lib/types';
 import AdContainer from '@/components/AdContainer';
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useSessionScrollRestoration, getInitialStateFromSession, ScrollRestorationConfig } from '@/hooks/useSessionScrollRestoration';
 
 interface TagPageProps {
   tag: string;
@@ -16,21 +17,42 @@ interface TagPageProps {
   lastArticleDocId: string | null;
 }
 
+const tagScrollConfig = (tag: string): { jobs: ScrollRestorationConfig, articles: ScrollRestorationConfig } => ({
+    jobs: {
+        listKey: `tagJobs-${tag}`,
+        lastDocIdKey: `tagJobsLastDoc-${tag}`,
+        hasMoreKey: `tagJobsHasMore-${tag}`,
+        scrollPosKey: `tagJobsScrollPos-${tag}`,
+    },
+    articles: {
+        listKey: `tagArticles-${tag}`,
+        lastDocIdKey: `tagArticlesLastDoc-${tag}`,
+        hasMoreKey: `tagArticlesHasMore-${tag}`,
+        scrollPosKey: `tagArticlesScrollPos-${tag}`,
+    }
+});
+
 const TagPage: NextPage<TagPageProps> = ({
   tag,
   initialJobs,
   initialArticles,
-  lastJobDocId,
-  lastArticleDocId,
+  lastJobDocId: staticLastJobDocId,
+  lastArticleDocId: staticLastArticleDocId,
 }) => {
-  const [displayedJobs, setDisplayedJobs] = useState<SerializedJobSummary[]>(initialJobs);
-  const [displayedArticles, setDisplayedArticles] = useState(initialArticles);
+    const config = tagScrollConfig(tag);
+
+    const { initialItems: sessionJobs, initialLastDocId: sessionLastJobDocId, initialHasMore: sessionHasMoreJobs } = getInitialStateFromSession<SerializedJobSummary>(config.jobs);
+    const { initialItems: sessionArticles, initialLastDocId: sessionLastArticleDocId, initialHasMore: sessionHasMoreArticles } = getInitialStateFromSession<SerializedArticleSummary>(config.articles);
+
+
+  const [displayedJobs, setDisplayedJobs] = useState<SerializedJobSummary[]>(sessionJobs || initialJobs);
+  const [displayedArticles, setDisplayedArticles] = useState(sessionArticles || initialArticles);
   const [loadingJobs, setLoadingJobs] = useState(false);
   const [loadingArticles, setLoadingArticles] = useState(false);
-  const [hasMoreJobs, setHasMoreJobs] = useState(true);
-  const [hasMoreArticles, setHasMoreArticles] = useState(true);
-  const [lastJobDocIdState, setLastJobDocIdState] = useState(lastJobDocId);
-  const [lastArticleDocIdState, setLastArticleDocIdState] = useState(lastArticleDocId);
+  const [hasMoreJobs, setHasMoreJobs] = useState(sessionHasMoreJobs !== null ? sessionHasMoreJobs : true);
+  const [hasMoreArticles, setHasMoreArticles] = useState(sessionHasMoreArticles !== null ? sessionHasMoreArticles : true);
+  const [lastJobDocIdState, setLastJobDocIdState] = useState(sessionLastJobDocId || staticLastJobDocId);
+  const [lastArticleDocIdState, setLastArticleDocIdState] = useState(sessionLastArticleDocId || staticLastArticleDocId);
 
   const jobLoader = useRef(null);
   const articleLoader = useRef(null);
@@ -123,6 +145,21 @@ const TagPage: NextPage<TagPageProps> = ({
     };
   }, [fetchMoreArticles]);
 
+  // Apply session restoration for both lists
+  useSessionScrollRestoration({
+    items: displayedJobs,
+    lastDocId: lastJobDocIdState,
+    hasMore: hasMoreJobs,
+    config: config.jobs,
+  });
+
+  useSessionScrollRestoration({
+      items: displayedArticles,
+      lastDocId: lastArticleDocIdState,
+      hasMore: hasMoreArticles,
+      config: config.articles
+  });
+
   return (
     <Layout>
       <Head>
@@ -214,12 +251,9 @@ const TagPage: NextPage<TagPageProps> = ({
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const tags = await getAllTags();
-  const paths = tags.map((tag) => ({
-    params: { tag },
-  }));
-
-  return { paths, fallback: 'blocking' };
+  // Optimization: Do not pre-render any tag pages to save build time and database quota.
+  // Pages will be generated on-demand via fallback: 'blocking'.
+  return { paths: [], fallback: 'blocking' };
 };
 
 export const getStaticProps: GetStaticProps<

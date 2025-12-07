@@ -13,7 +13,7 @@ tags:
   - Economics
   - Nancy Pelosi
 excerpt: >-
-  Nancy Pelosi’s trades over the years have been so good that a startup was
+  Nancy Pelosi's trades over the years have been so good that a startup was
   created to allow investors to directly mirror her portfolio.
 ---
-Nancy Pelosi’s trades over the years have been so good that a startup was created to allow investors to directly mirror her portfolio.&nbsp;
+Nancy Pelosi's trades over the years have been so good that a startup was created to allow investors to directly mirror her portfolio.&nbsp;

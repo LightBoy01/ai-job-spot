@@ -52,4 +52,25 @@ story_answer2: >-
   lines, to ensure new solutions genuinely improve our workflows and support our
   mission to innovate.
 ---
-### Description\nForget the boring 9-to-5 job! We are recruiting on behalf of an established leader in the German healthcare sector. This company shapes the future of patient care and now needs you as an expert for its financial foundation.\n\nYou will take on the crucial accounting function for one of their significant subsidiaries located in the Heidelberg region.\n\nThis role offers exceptional flexibility with a true hybrid structure: 3 days per week from home office and 2 days on-site in Heidelberg. It's also in a crisis-proof industry, providing a secure harbor with long-term perspectives in a system-relevant environment.\n\n### Responsibilities\n- Independently prepare monthly and quarterly financial statements according to HGB (German Commercial Code) and play a leading role in annual closings.\n- Prepare ad-hoc reports for business steering.\n- Be responsible for the preparation and submission of VAT pre-registrations and annual declarations.\n- Prepare quarterly liquidity planning.\n- Actively contribute to the continuous improvement of existing processes and the introduction of new digital tools.\n\n### Qualifications\n- Completed commercial training and further education as a Finance / Balance Sheet Accountant.\n- Several years of professional experience in financial accounting and sound knowledge of preparing financial statements according to HGB.\n- Good knowledge of E+S Financial Accounting or SAP S/4HANA, and proficient in MS 365.\n- Highly independent, conscientious work ethic, and enthusiasm for process optimization.\n\n### Author's Take\nThis is an exceptional opportunity for an experienced Finance / Balance Sheet Accountant seeking a highly autonomous and flexible role within a stable and critical sector. The true hybrid work model (3 days remote, 2 days on-site in Heidelberg) offers a rare blend of work-life balance and team collaboration. The company fosters an environment of trust, ambition, and responsibility, evidenced by strong benefits like a company-funded pension, 30 days holiday, and continuous professional development. If you thrive on independent work, process improvement, and want to contribute to the financial health of a vital healthcare entity, this role offers both security and significant impact.
+### Description
+Forget the boring 9-to-5 job! We are recruiting on behalf of an established leader in the German healthcare sector. This company shapes the future of patient care and now needs you as an expert for its financial foundation.
+
+You will take on the crucial accounting function for one of their significant subsidiaries located in the Heidelberg region.
+
+This role offers exceptional flexibility with a true hybrid structure: 3 days per week from home office and 2 days on-site in Heidelberg. It's also in a crisis-proof industry, providing a secure harbor with long-term perspectives in a system-relevant environment.
+
+### Responsibilities
+- Independently prepare monthly and quarterly financial statements according to HGB (German Commercial Code) and play a leading role in annual closings.
+- Prepare ad-hoc reports for business steering.
+- Be responsible for the preparation and submission of VAT pre-registrations and annual declarations.
+- Prepare quarterly liquidity planning.
+- Actively contribute to the continuous improvement of existing processes and the introduction of new digital tools.
+
+### Qualifications
+- Completed commercial training and further education as a Finance / Balance Sheet Accountant.
+- Several years of professional experience in financial accounting and sound knowledge of preparing financial statements according to HGB.
+- Good knowledge of E+S Financial Accounting or SAP S/4HANA, and proficient in MS 365.
+- Highly independent, conscientious work ethic, and enthusiasm for process optimization.
+
+### Author's Take
+This is an exceptional opportunity for an experienced Finance / Balance Sheet Accountant seeking a highly autonomous and flexible role within a stable and critical sector. The true hybrid work model (3 days remote, 2 days on-site in Heidelberg) offers a rare blend of work-life balance and team collaboration. The company fosters an environment of trust, ambition, and responsibility, evidenced by strong benefits like a company-funded pension, 30 days holiday, and continuous professional development. If you thrive on independent work, process improvement, and want to contribute to the financial health of a vital healthcare entity, this role offers both security and significant impact.

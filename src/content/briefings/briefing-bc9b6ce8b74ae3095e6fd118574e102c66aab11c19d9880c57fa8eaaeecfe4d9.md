@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-bc9b6ce8b74ae3095e6fd118574e102c66aab11c19d9880c57fa8eaaeecfe4d9
 title: >-
   Better audio representations are more brain-like: linking model-brain
-  alignment with performance in downstream auditory tasks
+  alignment with performance ...
 slug: briefing-bc9b6ce8b74ae3095e6fd118574e102c66aab11c19d9880c57fa8eaaeecfe4d9
 author: 'Leonardo Pepino, Pablo Riera, Juan Kamienkowski, Luciana Ferrer'
 publishDate: 2025-11-24T05:00:00.000Z

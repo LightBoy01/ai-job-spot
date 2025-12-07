@@ -4,7 +4,6 @@ import { GetServerSideProps } from 'next';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
 import useAuth from '@/hooks/useAuth';
-import { getPendingJobs } from '@/lib/firestoreClient';
 import { useState, useCallback } from 'react';
 import ConfirmationModal from '@/components/ConfirmationModal';
 
@@ -168,23 +167,34 @@ export const getServerSideProps: GetServerSideProps<
   AdminReviewsProps
 > = async () => {
   try {
-    const jobs = await getPendingJobs();
+    const { getFirebaseAdmin } = await import('@/lib/firebaseAdmin');
+    const { adminDb } = await getFirebaseAdmin();
+    
+    const jobsSnapshot = await adminDb
+        .collection('jobs')
+        .where('status', '==', 'pending_review')
+        .orderBy('postedDate', 'desc')
+        .get();
+
+    const jobs = jobsSnapshot.docs.map(doc => {
+        const data = doc.data();
+        return {
+            id: doc.id,
+            ...data,
+            postedDate: data.postedDate?.toDate?.() || new Date(data.postedDate),
+            expirationDate: data.expirationDate?.toDate?.() || (data.expirationDate ? new Date(data.expirationDate) : null),
+        };
+    });
+
     const serializedJobs = jobs.map((job) => {
       const { postedDate, expirationDate, ...rest } = job;
       return {
         ...rest,
-        postedDate: postedDate
-          ? 'toDate' in postedDate
-            ? (postedDate as { toDate: () => Date }).toDate().toISOString()
-            : new Date(postedDate).toISOString()
-          : null,
-        expirationDate: expirationDate
-          ? 'toDate' in expirationDate
-            ? (expirationDate as { toDate: () => Date }).toDate().toISOString()
-            : new Date(expirationDate).toISOString()
-          : null,
+        postedDate: postedDate ? postedDate.toISOString() : null,
+        expirationDate: expirationDate ? expirationDate.toISOString() : null,
       };
     });
+    
     return {
       props: {
         initialJobs: serializedJobs as unknown as SerializedJobPosting[],

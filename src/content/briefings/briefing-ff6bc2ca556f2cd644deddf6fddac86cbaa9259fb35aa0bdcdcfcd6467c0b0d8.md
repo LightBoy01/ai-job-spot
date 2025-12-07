@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-ff6bc2ca556f2cd644deddf6fddac86cbaa9259fb35aa0bdcdcfcd6467c0b0d8
 title: Less Greedy Equivalence Search

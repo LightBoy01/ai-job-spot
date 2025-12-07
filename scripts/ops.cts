@@ -3,6 +3,7 @@ const { seedFirestore } = require('../seedFirestore.cts');
 const { runHygiene } = require('./content-hygiene.cts');
 const { enrichJobs } = require('./enrich_jobs.cts');
 const { enrichBriefings } = require('./enrich_briefings.cts');
+const { aggregateCommonRoles } = require('./aggregate-roles.cts');
 
 async function main() {
   const args = minimist(process.argv.slice(2));
@@ -12,7 +13,7 @@ async function main() {
 
   if (!operation) {
     console.error('Error: Please specify an operation to run with --run=[operation]');
-    console.error('Available operations: seed, hygiene, enrich');
+    console.error('Available operations: seed, hygiene, enrich, aggregate-roles');
     process.exit(1);
   }
 
@@ -56,9 +57,13 @@ async function main() {
       }
       break;
 
+    case 'aggregate-roles':
+        await aggregateCommonRoles();
+        break;
+
     default:
       console.error(`Error: Unknown operation '${operation}'.`);
-      console.error('Available operations: seed, hygiene, enrich');
+      console.error('Available operations: seed, hygiene, enrich, aggregate-roles');
       process.exit(1);
   }
 

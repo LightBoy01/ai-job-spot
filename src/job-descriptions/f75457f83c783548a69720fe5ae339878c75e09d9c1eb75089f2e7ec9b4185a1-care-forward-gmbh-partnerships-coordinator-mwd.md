@@ -74,4 +74,4 @@ _Care Forward unterstützt Diversität auf der ganzen Welt und sucht Mitarbeiter
 
 **Bei Interesse an dieser Stelle, freuen wir uns über Deine Bewerbung!**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

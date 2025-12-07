@@ -56,4 +56,46 @@ story_answer2: >-
   where the best ideas, often those stemming directly from client needs, find
   fertile ground to grow and ultimately improve our global offering.
 ---
-### Description\nAt **Paymentology**, we are revolutionizing the payments landscape as the first truly global issuer-processor. We equip banks and fintechs with advanced, multi-cloud technology and expert talent to launch and manage Mastercard and Visa cards at scale across more than 60 countries, distinguished by our real-time data, unmatched scalability, and flexible processing options.\n\nWe are seeking a **Senior Account Manager** to take comprehensive ownership of our key client relationships. In this high-impact role, you will oversee performance, retention, and strategic growth across a diverse global portfolio. Acting as the primary point of contact, you will efficiently address client needs, drive satisfaction, and foster long-term success. Success in this role requires close collaboration with internal teams, leveraging data-driven insights to guide decisions, and proactively identifying opportunities for upselling and expansion. This is an exceptional opportunity for an experienced client relationship professional with a strategic growth mindset who thrives in a fast-paced fintech environment and is eager to make a meaningful impact across global markets.\n\n### Responsibilities\n*   Understand the unique needs and goals of each client.\n*   Monitor and analyze client account performance, ensuring issues are addressed proactively.\n*   Act as the primary point of contact for client issues or concerns.\n*   Maintain oversight of client Zendesk tickets and escalate as necessary.\n*   Coordinate with internal teams to resolve client issues promptly and effectively.\n*   Develop and execute annual client success plans aligned to business objectives.\n*   Identify opportunities for upselling additional services or features.\n*   Assist with contract renewals and negotiations to drive retention and satisfaction.\n*   Use data analytics to assess performance and recommend improvements.\n*   Report regularly on KPIs and client health metrics.\n*   Advocate for clients internally to influence improvements in products and services.\n*   Collaborate with global Account Managers to ensure consistency in client experience.\n*   Maintain accurate records of client communications, billing, and contractual obligations.\n*   Provide clients with resources and training to maximize service value.\n*   Communicate regularly with clients via calls, emails, and on-site visits where applicable.\n\n### Qualifications\n*   **Experience & Education:**\n    *   Higher education preferred in Management, Marketing, or Business (or equivalent work experience).\n    *   5–7 years of experience in account management, sales, or customer success supporting enterprise-level clients in fintech or SaaS companies.\n    *   Proven experience in the payments industry and adept stakeholder management.\n    *   Demonstrated success working in a dynamic, fast-changing environment with a global mindset.\n    *   Experience in an industry operating on a 24/7 basis is advantageous.\n*   **Skills & Attributes:**\n    *   Strong sense of urgency and responsiveness to client needs.\n    *   Ability to grasp new technologies and a keen interest in fintech and payment innovation.\n    *   Exceptional time management and multitasking skills to manage multiple clients across time zones.\n    *   Resilient mindset with the ability to work under pressure and focus on successful outcomes.\n    *   Excellent analytical and data interpretation skills.\n    *   Strong negotiation and communication skills, both written and verbal.\n    *   Attention to detail and a customer-centric approach.\n    *   Fluency in English and French (German and Spanish would be a plus).\n*   **Travel:**\n    *   Ability to travel 10% - 20% of the time.\n\n### Author's Take\nThis **Senior Account Manager** role at Paymentology offers an outstanding opportunity for an accomplished professional to thrive in the dynamic and rapidly expanding global payments sector. The position emphasizes strategic ownership of client relationships, driving growth, and leveraging data for impact, making it ideal for someone who enjoys a challenge and directly influences business outcomes. Paymentology's culture, which champions belonging, diversity, and continuous growth within a supportive, forward-thinking environment, is particularly appealing. The requirement for 5-7 years of experience with enterprise clients, coupled with a global mindset and multilingual capabilities (English and French essential), underscores the seniority and international scope of this high-impact role. The specified travel requirement further highlights the engagement expected with a diverse, global client base.
+### Description
+At **Paymentology**, we are revolutionizing the payments landscape as the first truly global issuer-processor. We equip banks and fintechs with advanced, multi-cloud technology and expert talent to launch and manage Mastercard and Visa cards at scale across more than 60 countries, distinguished by our real-time data, unmatched scalability, and flexible processing options.
+
+We are seeking a **Senior Account Manager** to take comprehensive ownership of our key client relationships. In this high-impact role, you will oversee performance, retention, and strategic growth across a diverse global portfolio. Acting as the primary point of contact, you will efficiently address client needs, drive satisfaction, and foster long-term success. Success in this role requires close collaboration with internal teams, leveraging data-driven insights to guide decisions, and proactively identifying opportunities for upselling and expansion. This is an exceptional opportunity for an experienced client relationship professional with a strategic growth mindset who thrives in a fast-paced fintech environment and is eager to make a meaningful impact across global markets.
+
+### Responsibilities
+*   Understand the unique needs and goals of each client.
+*   Monitor and analyze client account performance, ensuring issues are addressed proactively.
+*   Act as the primary point of contact for client issues or concerns.
+*   Maintain oversight of client Zendesk tickets and escalate as necessary.
+*   Coordinate with internal teams to resolve client issues promptly and effectively.
+*   Develop and execute annual client success plans aligned to business objectives.
+*   Identify opportunities for upselling additional services or features.
+*   Assist with contract renewals and negotiations to drive retention and satisfaction.
+*   Use data analytics to assess performance and recommend improvements.
+*   Report regularly on KPIs and client health metrics.
+*   Advocate for clients internally to influence improvements in products and services.
+*   Collaborate with global Account Managers to ensure consistency in client experience.
+*   Maintain accurate records of client communications, billing, and contractual obligations.
+*   Provide clients with resources and training to maximize service value.
+*   Communicate regularly with clients via calls, emails, and on-site visits where applicable.
+
+### Qualifications
+*   **Experience & Education:**
+    *   Higher education preferred in Management, Marketing, or Business (or equivalent work experience).
+    *   5–7 years of experience in account management, sales, or customer success supporting enterprise-level clients in fintech or SaaS companies.
+    *   Proven experience in the payments industry and adept stakeholder management.
+    *   Demonstrated success working in a dynamic, fast-changing environment with a global mindset.
+    *   Experience in an industry operating on a 24/7 basis is advantageous.
+*   **Skills & Attributes:**
+    *   Strong sense of urgency and responsiveness to client needs.
+    *   Ability to grasp new technologies and a keen interest in fintech and payment innovation.
+    *   Exceptional time management and multitasking skills to manage multiple clients across time zones.
+    *   Resilient mindset with the ability to work under pressure and focus on successful outcomes.
+    *   Excellent analytical and data interpretation skills.
+    *   Strong negotiation and communication skills, both written and verbal.
+    *   Attention to detail and a customer-centric approach.
+    *   Fluency in English and French (German and Spanish would be a plus).
+*   **Travel:**
+    *   Ability to travel 10% - 20% of the time.
+
+### Author's Take
+This **Senior Account Manager** role at Paymentology offers an outstanding opportunity for an accomplished professional to thrive in the dynamic and rapidly expanding global payments sector. The position emphasizes strategic ownership of client relationships, driving growth, and leveraging data for impact, making it ideal for someone who enjoys a challenge and directly influences business outcomes. Paymentology's culture, which champions belonging, diversity, and continuous growth within a supportive, forward-thinking environment, is particularly appealing. The requirement for 5-7 years of experience with enterprise clients, coupled with a global mindset and multilingual capabilities (English and French essential), underscores the seniority and international scope of this high-impact role. The specified travel requirement further highlights the engagement expected with a diverse, global client base.

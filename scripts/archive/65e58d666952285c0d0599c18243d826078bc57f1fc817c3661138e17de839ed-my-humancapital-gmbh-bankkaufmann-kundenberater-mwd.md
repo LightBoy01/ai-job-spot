@@ -4,8 +4,8 @@ title: Bankkaufmann / Kundenberater (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/bankkaufmann-kundenberater-munich-331877
-postedDate: '2025-11-07T01:34:14.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/bankkaufmann-kundenberater-munich-19008
+postedDate: '2025-11-28T01:34:54.000Z'
 expirationDate: null
 tags:
   - Private Banking
@@ -15,73 +15,46 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/bankkaufmann-kundenberater-munich-331877
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/bankkaufmann-kundenberater-munich-19008
 companyLogoUrl: null
 companyCulture: >-
-  Our partner company fosters a supportive and collaborative environment,
-  emphasized by a 'Du-Kultur' and trust from leadership, promoting a healthy
-  work-life balance through flexible and hybrid work options. They are committed
-  to long-term employee growth, offering numerous development opportunities.
+  The company fosters a supportive and collaborative environment with a focus on
+  work-life balance through flexible hours and home office. It also prioritizes
+  employee growth and continuous learning, marked by a trusting 'Du-Kultur' and
+  a positive team spirit.
 story_question1: >-
-  Beyond typical transactions, how does this role empower a Bank Clerk /
-  Customer Advisor to truly build lasting client relationships and contribute to
-  tailored financial success, especially when integrating digital solutions?
+  How does the team ensure that the tailored financial solutions truly meet
+  diverse client needs, and what's the most rewarding aspect of building those
+  long-term relationships?
 story_answer1: >-
-  It's truly rewarding here. We don't just process accounts; we become trusted
-  advisors. I remember a client who was hesitant about digital banking. By
-  understanding their needs and patiently guiding them through our new online
-  tools, we not only optimized their finances but also built a stronger
-  relationship. Management genuinely trusts us to find those personalized
-  solutions, and they encourage us to bring ideas for process improvements,
-  making us feel like an integral part of the bank's evolution, not just cogs in
-  a machine. It's about genuine impact.
+  Here, it's all about truly listening. We don't just push products; we build
+  relationships. The most rewarding part? Seeing a client achieve their dream,
+  whether it's buying a home or securing their retirement, all because of the
+  personalized plan we built together. It's a genuine partnership, and our
+  collaborative, supportive culture ensures everyone has the resources and
+  knowledge to make that happen.
 story_question2: >-
-  Given the emphasis on client acquisition and sales targets, how does the
-  company ensure that advisors can balance these goals with the promised
-  flexible working hours and work-life balance, including the home office
-  option?
+  With the mention of contributing to digitalization and process optimization,
+  how does an individual contributor in this role actively shape these changes,
+  and what kind of support is provided for innovative ideas?
 story_answer2: >-
-  That's a great question, and it's something I truly appreciate about working
-  here. While we do have ambitious sales targets, the emphasis is always on
-  quality relationships over volume. The flexible hours and home office option
-  aren't just perks; they're embedded in how we work. We're trusted to manage
-  our time effectively, and there's strong peer support. Our leadership focuses
-  on providing the tools and training we need, rather than micromanaging. It's a
-  collaborative effort to hit targets, and they genuinely encourage us to use
-  our flexibility to maintain a healthy personal life. It feels like a
-  partnership.
+  It's fantastic because our ideas genuinely matter. We're on the front lines,
+  so our insights into what works best for clients and internal processes are
+  highly valued. We're encouraged to bring forward suggestions, test new
+  approaches, and really influence how we leverage technology to improve
+  customer service. The leadership trusts us, and there are always opportunities
+  to learn new skills and drive these modernizations forward.
 story_question3: >-
-  The role mentions contributing to digitalization and process optimization. Can
-  you elaborate on how individual advisors' insights are gathered and
-  implemented to enhance customer service and internal operations?
+  The job description highlights a strong focus on work-life balance with
+  flexible hours and home office. How is this truly embodied day-to-day, and
+  what support mechanisms are in place to ensure advisors can maintain this
+  balance while excelling in their client responsibilities?
 story_answer3: >-
-  Absolutely! This is one of the most exciting aspects. Our department actively
-  seeks input from us, the frontline advisors, because we're the ones who truly
-  understand client pain points and operational bottlenecks. We have regular
-  brainstorming sessions, and there's a direct channel to share ideas for
-  improving digital tools or streamlining processes. I personally saw a
-  suggestion I made about simplifying a specific application form get
-  implemented, significantly reducing client wait times. It's incredibly
-  motivating to know your insights directly contribute to a more modern and
-  efficient banking experience for everyone, and it really fuels our
-  professional development.
+  It's not just a perk, it's built into our culture. Our flexible hours aren't
+  just theoretical; they're practiced daily, allowing us to manage personal
+  commitments while still providing top-notch service. The home office option
+  genuinely helps, and crucially, our team leaders trust us to manage our time
+  effectively. It means we come to work energized, ready to focus on our
+  clients, knowing our well-being is genuinely supported.
 ---
-### Description
-On behalf of our partner company in Munich, we are looking for a **Bank Clerk / Customer Advisor (m/f/d)** to join their team as soon as possible. In this pivotal role, you will be responsible for comprehensively advising and supporting private and corporate clients on all matters related to financing, investments, retirement planning, and payment transactions, building and nurturing long-term relationships.
-
-### Responsibilities
-*   As a Bank Clerk / Customer Advisor (m/f/d), you will advise and support private and corporate clients on all questions regarding financing, investments, retirement planning, and payment transactions.
-*   You will identify individual customer needs and develop tailored financial solutions to build and strengthen long-term customer relationships.
-*   You will conduct account consultations, investment discussions, and credit applications, expertly guiding your clients through all phases of banking business.
-*   Furthermore, you will actively participate in customer acquisition, existing client care, and sales campaigns to achieve sales targets.
-*   You will contribute your expertise to digitalization topics and process optimizations in customer service to ensure modern and efficient workflows.
-
-### Qualifications
-*   You have completed vocational training as a Bank Clerk (m/f/d), Financial Assistant (m/f/d), Savings Bank Clerk (m/f/d), or possess a comparable qualification in finance.
-*   You have sound knowledge in private customer business, financial consulting, credit, and investment products.
-*   Ideally, you already have experience in customer consulting at a bank or savings bank.
-*   You impress with a confident, friendly demeanor, strong service orientation, and enjoyment in dealing with people.
-*   Excellent German language skills are essential.
-
-### Author's Take
-This is a fantastic opportunity for a dedicated financial professional to join a forward-thinking bank in the heart of Munich. The company prides itself on a supportive and collaborative \"Du-Kultur\" where trust from leadership is paramount. You'll benefit from excellent work-life balance initiatives, including flexible working hours and the option for home office, alongside a commitment to your long-term growth through extensive training and development programs. Work in a modern environment with state-of-the-art equipment and contribute to shaping the future of banking through digitalization. If you are passionate about building lasting client relationships and thrive in a dynamic, appreciative culture, this role offers a secure, permanent position with significant impact.
+### Description\\nIm Auftrag unseres Partnerunternehmens in München suchen wir Sie zum nächstmöglichen Zeitpunkt als Bankkaufmann / Kundenberater (m/w/d). In dieser Rolle betreuen und beraten Sie Privat- und Firmenkunden in allen Fragen rund um Finanzierung, Geldanlage, Vorsorge und Zahlungsverkehr. Ihr Ziel ist es, individuelle Kundenbedürfnisse zu erkennen und maßgeschneiderte Finanzlösungen zu entwickeln, um langfristige Kundenbeziehungen aufzubauen und zu festigen.\\n\\n### Responsibilities\\n*   Durchführung von Kontoberatungen, Anlagegesprächen und Kreditanträgen und Begleitung der Kunden durch alle Phasen des Bankgeschäfts.\\n*   Aktive Mitwirkung bei der Kundenakquise, Bestandskundenpflege und bei Vertriebsaktionen zur Erreichung der Vertriebsziele.\\n*   Einbringung der Expertise in Digitalisierungsthemen und Prozessoptimierungen im Kundenservice, um moderne und effiziente Abläufe zu gewährleisten.\\n\\n### Qualifications\\n*   Abgeschlossene Ausbildung als Bankkaufmann (m/w/d), Finanzassistent (m/w/d), Sparkassenkaufmann (m/w/d) oder eine vergleichbare Qualifikation im Finanzwesen.\\n*   Fundierte Kenntnisse in den Bereichen Privatkundengeschäft, Finanzberatung, Kreditwesen und Anlageprodukten.\\n*   Idealerweise Erfahrung in der Kundenberatung einer Bank oder Sparkasse.\\n*   Sicheres, freundliches Auftreten, eine ausgeprägte Serviceorientierung und Freude am Umgang mit Menschen.\\n*   Sehr gute Deutschkenntnisse.\\n\\n### Author's Take\\nThis is an excellent opportunity for a dedicated financial professional to join a supportive and forward-thinking bank in Munich. The role offers a chance to build deep client relationships and genuinely impact their financial well-being, supported by a culture that values collaboration, trust (evidenced by the \\\"Du-Kultur\\\" and trust from leadership), and individual growth through numerous development opportunities. With flexible working arrangements, a modern environment, and a commitment to continuous development, it's a role that truly invests in its people for the long term. The central location and possibility for home office further enhance the work-life balance offered.

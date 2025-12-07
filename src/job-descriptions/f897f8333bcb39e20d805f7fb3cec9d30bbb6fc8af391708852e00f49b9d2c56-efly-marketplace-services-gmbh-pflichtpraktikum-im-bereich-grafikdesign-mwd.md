@@ -4,53 +4,60 @@ title: Pflichtpraktikum im Bereich Grafikdesign (m/w/d)
 company: eFLY Marketplace Services GmbH
 location: Stuttgart
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/pflichtpraktikum-im-bereich-grafikdesign-stuttgart-415625
-postedDate: '2025-11-26T07:31:39.000Z'
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/pflichtpraktikum-im-bereich-grafikdesign-stuttgart-109079
+postedDate: '2025-12-01T14:31:47.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: published
-jobLevel: Entry-Level
-employeeRole: Individual Contributor
+status: pending_review
+jobLevel: null
+employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/pflichtpraktikum-im-bereich-grafikdesign-stuttgart-415625
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/pflichtpraktikum-im-bereich-grafikdesign-stuttgart-109079
 companyLogoUrl: null
-companyCulture: >-
-  The company fosters a flexible hybrid work environment that values creative
-  freedom and open communication. It offers significant growth opportunities
-  through training and workshops, promoting a supportive and collaborative team
-  culture where innovative ideas are encouraged.
-story_question1: >-
-  Als Praktikant, wie wird meine Arbeit konkret dazu beitragen, die Marken
-  unserer Kunden auf Plattformen wie Amazon wirklich hervorzuheben, und welche
-  Lernmöglichkeiten gibt es dabei?
-story_answer1: >-
-  Stell dir vor, du entwickelst visuelle Konzepte, die direkt auf Millionen von
-  Amazon-Kunden wirken. Wir sehen dich nicht als bloße Hilfskraft, sondern als
-  vollwertiges Teammitglied. Dein Beitrag ist entscheidend, um unsere Kunden auf
-  Amazon optimal zu präsentieren und deren Conversion-Raten zu steigern. Du
-  wirst direkt mit erfahrenen Designern und Marketing-Experten zusammenarbeiten,
-  dein Portfolio aufbauen und siehst, wie deine Designs messbare Ergebnisse
-  erzielen. Wir legen Wert darauf, dass du nicht nur lernst, sondern auch deine
-  eigenen kreativen Ideen einbringst und umsetzt – das ist es, was unser Team
-  wirklich ausmacht und uns gemeinsam weiterbringt.
-story_question2: >-
-  Wie funktioniert die Zusammenarbeit zwischen dem Design-Team und den Account
-  Management- sowie Performance Marketing-Teams, um sicherzustellen, dass die
-  erstellten Designs sowohl ästhetisch ansprechend als auch strategisch effektiv
-  sind?
-story_answer2: >-
-  Die Abstimmung zwischen unseren Teams ist der Schlüssel zu unserem Erfolg. Als
-  Grafikdesigner bist du mittendrin: Du arbeitest eng mit den Account Managern
-  zusammen, um die genauen Kundenbedürfnisse und Markenrichtlinien zu verstehen.
-  Gleichzeitig bist du im engen Austausch mit dem Performance Marketing Team, um
-  zu gewährleisten, dass deine Designs nicht nur gut aussehen, sondern auch die
-  bestmögliche Performance auf Amazon erzielen – sei es durch höhere Klickraten
-  bei Bannern oder eine bessere Lesbarkeit von A+ Content. Dieser synergetische
-  Ansatz, bei dem Design und Strategie Hand in Hand gehen, ist unglaublich
-  bereichernd und sorgt dafür, dass wir immer die besten Ergebnisse für unsere
-  Kunden liefern können.
 ---
-### Description\nWe are looking for you for an exciting **internship in graphic design** to support our team in developing creative and appealing designs for our clients. You will create visual concepts for various channels and ensure that our clients' brands are convincingly presented on platforms like Amazon. You will develop individual graphics and layouts, optimize existing designs, and work closely with internal teams and clients to professionally implement their ideas.\n\nJoin a supportive and creative team in a flexible hybrid work model, benefiting from creative freedom and extensive development opportunities.\n\n### Responsibilities\n- **Amazon Design:** Support in creating visual content for Amazon, including product images, A+ Content, advertising banners, and infographics to optimize conversion rates.\n- **Brand Identity:** Contribute to the development and maintenance of consistent brand identities for our clients through creative and innovative design concepts.\n- **Optimization:** Collaborate with the Account Management and Performance Marketing Team to ensure that designs support strategic goals and increase visibility on Amazon.\n- **Trend Monitoring:** Actively research design trends and best practices to consistently deliver current and relevant designs for Amazon.\n- **Feedback Management:** Adapt designs based on client feedback and specific platform requirements.\n\n### Qualifications\n- **Studies:** You are an enrolled student in graphic design or a related field.\n- **Creativity:** You bring strong creative skills and have initial practical experience in graphic design, ideally complemented by a portfolio showcasing your work.\n- **Technical Skills:** You are proficient in common graphic design programs such as Adobe Creative Suite (Photoshop, Illustrator, InDesign).\n- **Communication Skills:** Good verbal and written communication skills in German and English to clearly present ideas and concepts.\n- **Detail Orientation:** High attention to detail and the ability to deliver high-quality designs while adhering to deadlines.\n- **Interest in E-Commerce:** Basic knowledge of platforms like Amazon and their design requirements is an advantage.\n\n### Author's Take\nThis is a fantastic entry-level opportunity for a passionate graphic design student looking to gain hands-on experience in a dynamic e-commerce environment. The hybrid work model, creative freedom, and focus on continuous development make it an ideal place to grow your skills. You'll work with a supportive and creative team, utilizing modern tools and software, and directly impact client success on Amazon. If you're eager to learn, contribute your creativity, and make a tangible difference, this internship offers a truly enriching experience.\n\nCheck out their recent workation in Portugal [here](https://www.youtube.com/watch?v=dXcSIfU1zKw) and connect with them on [LinkedIn](https://www.linkedin.com/company/66918950/).\n
+Wir suchen dich für ein spannendes **Praktikum im Grafikdesign**, um unser Team bei der Entwicklung kreativer und ansprechender Designs für unsere Kunden zu unterstützen. Du wirst visuelle Konzepte für verschiedene Kanäle gestalten und dafür sorgen, dass die Marken unserer Kunden auf Plattformen wie Amazon überzeugend präsentiert werden. Dabei entwickelst du individuelle Grafiken und Layouts, optimierst bestehende Designs und arbeitest eng mit internen Teams sowie Kunden zusammen, um ihre Vorstellungen professionell umzusetzen.
+
+Aufgaben
+--------
+
+**Aufgabenbereiche:**
+
+*   **Amazon-Design:** Unterstützung bei der Erstellung von visuellen Inhalten für Amazon, einschließlich Produktbildern, A+ Content, Werbebannern und Infografiken zur Optimierung der Conversion-Rate.
+*   **Markenidentität:** Mitwirkung bei der Entwicklung und Pflege konsistenter Markenidentitäten für unsere Kunden durch kreative und innovative Designkonzepte.
+*   **Optimierung:** Zusammenarbeit mit dem Account Management und dem Performance Marketing Team, um sicherzustellen, dass die Designs strategische Ziele unterstützen und die Sichtbarkeit auf Amazon erhöhen.
+*   **Trendbeobachtung:** Aktive Recherche von Design Trends und Best Practices, um stets aktuelle und relevante Designs für Amazon zu liefern‍.
+*   **Feedback-Management:** Anpassung von Designs basierend auf Kundenfeedback und den spezifischen Anforderungen der Plattform.
+
+Qualifikation
+-------------
+
+*   **Studium:** Du bist immatrikulierte/r Student/in im Bereich Grafikdesign oder einem verwandten Studiengang.
+*   **Kreativität:** Du bringst ausgeprägte kreative Fähigkeiten mit und hast erste praktische Erfahrungen im Grafikdesign, idealerweise ergänzt durch ein Portfolio, das deine Arbeiten zeigt.
+*   **Technische Kenntnisse:** Du bist sicher im Umgang mit gängigen Grafik Design-Programmen wie Adobe Creative Suite (Photoshop, Illustrator, InDesign).
+*   **Kommunikationsstärke:** Gute mündliche und schriftliche Kommunikationsfähigkeiten in Deutsch und Englisch, um Ideen und Konzepte klar zu präsentieren.
+*   **Detailorientierung:** Hohe Aufmerksamkeit für Details und die Fähigkeit, qualitativ hochwertige Designs unter Einhaltung von Deadlines zu liefern.‍
+*   **Interesse an E-Commerce:** Grundkenntnisse über Plattformen wie Amazon und deren Anforderungen an Design sind von Vorteil.
+
+Benefits
+--------
+
+*   **Hybrides Arbeitsmodell:** Kombination aus Home Office und Büroarbeit für mehr Flexibilität.
+*   **Kreative Freiräume:** Raum für eigene Ideen und innovative Projekte im Bereich Grafikdesign.
+*   **Weiterentwicklungsmöglichkeiten:** Zugang zu Schulungen und Workshops, um deine Design-Fähigkeiten auszubauen.
+*   **Teamkultur:** Ein unterstützendes und kreatives Team mit offener Kommunikationskultur.‍
+*   **Moderne Ausstattung:** Du arbeitest mit professionellen Tools und der neuesten Design-Software.
+
+Überzeuge dich selbst und mache einen Abstecher zu unserer letzten Workation in Portugal:  
+[https://www.youtube.com/watch?v=dXcSIfU1zKw](https://www.youtube.com/watch?v=dXcSIfU1zKw)
+
+**Hier geht's zu unseren Social Media Accounts:**
+
+*   LinkedIn eFLY: [https://www.linkedin.com/company/66918950/](https://www.linkedin.com/company/66918950/)
+*   LinkedIn Moritz: [https://www.linkedin.com/in/moritz-heller-ab1310183/](https://www.linkedin.com/in/moritz-heller-ab1310183/)
+
+**Wir freuen uns auf Dich!** 🤗
+
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

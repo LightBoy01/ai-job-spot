@@ -4,93 +4,52 @@ title: Kundenberater Private Banking (m/w/d)
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-private-banking-munich-461866
-postedDate: '2025-11-07T01:34:12.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-private-banking-munich-209130
+postedDate: '2025-11-28T01:34:53.000Z'
 expirationDate: null
 tags:
   - Private Banking
 status: published
-jobLevel: Junior
+jobLevel: Mid-Senior
 employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-private-banking-munich-461866
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/kundenberater-private-banking-munich-209130
 companyLogoUrl: null
 companyCulture: >-
-  This company cultivates an appreciative and trusting work environment,
-  characterized by an informal 'Du-Kultur' and strong leadership trust. They
-  strongly support work-life balance with flexible hours and home office
-  options, and are committed to employee growth through numerous development
-  opportunities.
+  The company fosters an appreciative and positive collaborative environment
+  with a 'Du-culture' (informal address) and trust from leadership, supporting
+  work-life balance through flexible hours and home office options, and
+  providing extensive opportunities for professional development and growth.
 story_question1: >-
-  How does this role effectively blend supporting senior advisors with actively
-  developing individual client relationships and strategies, and what is the
-  typical growth trajectory for an advisor starting in this position?
+  How does this role directly contribute to shaping the long-term financial
+  success and satisfaction of our high-net-worth clients, and what opportunities
+  are there to innovate within our service offerings?
 story_answer1: >-
-  It's a dynamic and incredibly rewarding balance, truly. While you'll be the
-  reliable backbone for our senior advisors, absorbing their vast expertise and
-  handling the intricacies of sophisticated client portfolios, you're not just
-  an assistant. We actively encourage you to cultivate your *own* relationships
-  and develop your strategic thinking from day one. You’ll be leading targeted
-  discussions, identifying client needs, and crafting bespoke investment
-  strategies, all while learning from the best. The growth trajectory is steep
-  and clear: as you gain confidence and demonstrate initiative, you'll gradually
-  take on more independent client responsibilities, eventually managing your own
-  book of business and becoming a senior advisor yourself. We provide all the
-  support and development opportunities to make that journey a success,
-  recognizing that your contribution is vital to our collective growth.
+  In this role, you're not just supporting; you're actively building the future
+  of our client relationships. One time, a senior advisor was looking for a
+  fresh perspective on a complex estate planning case. I brought forward an idea
+  for a structured product that beautifully aligned with the client's unique
+  generational transfer goals. It wasn't just about the numbers; it was about
+  truly understanding their legacy. Seeing that solution implemented, and the
+  genuine appreciation from the client, showed me how much our ideas matter
+  here. The collaborative spirit means your insights are valued, and you
+  genuinely impact our clients' most significant financial decisions.
 story_question2: >-
-  Given the emphasis on process optimization and client retention, how are new
-  ideas from advisors received and implemented within the Private Banking
-  division?
+  Given the emphasis on process optimization and client retention, what is the
+  typical journey for an idea, from conception to implementation, and how are
+  individual contributions recognized?
 story_answer2: >-
-  Your ideas are not just welcomed here; they're actively sought after and
-  valued. We operate with a 'Du-Kultur' and a high degree of trust from
-  leadership, which means there's a very flat hierarchy when it comes to
-  innovation. If you identify a way to streamline a process, enhance client
-  communication, or even suggest a new service offering, we have clear channels
-  for you to present those ideas. We encourage proactive thinking and practical
-  solutions. Many of our recent improvements in client experience and
-  operational efficiency have come directly from advisors on the front lines.
-  You'll find a team that's eager to listen, collaborate, and implement
-  effective changes, ensuring your contributions have a tangible impact on both
-  our clients and our internal workings.
-story_question3: >-
-  What does 'flexible working hours with partial home office possibility' truly
-  look like in practice for a Private Banking Advisor, and how does it support
-  work-life balance?
-story_answer3: >-
-  We understand that effective work isn't confined to rigid hours or a specific
-  desk. For our Private Banking Advisors, flexible working hours mean you have a
-  degree of autonomy to structure your day to best meet client needs and
-  personal commitments, within the framework of core business operations. The
-  'partial home office possibility' is a genuine offering, allowing you to work
-  remotely for a portion of your week once you're settled and proficient in the
-  role. This isn't just a perk; it's fundamental to our belief in fostering a
-  healthy work-life balance. We trust our team members to manage their
-  responsibilities effectively, whether they're in the office collaborating or
-  focusing from home. This flexibility helps reduce commute stress, allows for
-  better personal scheduling, and ultimately contributes to a more engaged and
-  motivated team, ensuring you can deliver your best both professionally and
-  personally.
+  That's a fantastic question, and it speaks to the heart of our 'Du-culture'
+  and trust-based environment. I remember suggesting a new CRM workflow to
+  streamline our follow-up process, something I'd observed during my project
+  work. Instead of just nodding, my team leader encouraged me to draft a
+  proposal and present it. Within weeks, after some constructive feedback from
+  the team, we piloted it, and it significantly reduced our response times. It
+  wasn't just 'my idea' anymore; it became 'our solution.' You're empowered to
+  bring your best thinking forward, and when those ideas enhance client
+  experience or operational efficiency, they're not just recognized; they're
+  celebrated and integrated into how we work.
 ---
-### Description
-On behalf of our partner company in Munich, we are looking for a **Private Banking Advisor (m/f/d)** to start as soon as possible. This is a long-term, permanent employment opportunity in a modern work environment located in the heart of Munich. You will join a department that values a positive and appreciative work culture, characterized by an informal 'Du-Kultur' and palpable trust from management. The company is committed to supporting your professional journey, offering flexible working hours with partial home office possibilities to ensure a healthy work-life balance, alongside numerous training and development opportunities.
-
-### Responsibilities
-*   Support Senior Advisors in the holistic care and advice of sophisticated private clients and institutional investors.
-*   Maintain existing client relationships within the upscale private client segment and actively contribute to establishing and expanding long-term partnerships.
-*   Participate in the acquisition of new clients, accompany sales activities, and support the strategic expansion of the assigned client base.
-*   Conduct target- and closing-oriented consulting discussions, identify client needs, and develop customized investment strategies considering risk profiles and regulatory requirements.
-*   Undertake tasks in various Private Banking projects and contribute your own ideas for process optimization and client retention.
-
-### Qualifications
-*   Initial professional experience in a banking environment, ideally in Private Banking, Wealth Management, or asset management.
-*   Proficiency in MS Office, especially Word, Excel, and PowerPoint.
-*   High service orientation, strong communication skills, and a confident demeanor in client interactions.
-*   Very good German language skills.
-*   Proactive mindset with the ability to contribute innovative ideas for process optimization and client retention.
-
-### Author's Take
-This is a fantastic opportunity for a motivated individual with initial banking experience to step into a pivotal role within Private Banking. You'll gain invaluable experience by supporting senior advisors while also being empowered to cultivate your own client relationships and strategies. The company fosters a highly supportive culture that prioritizes both professional development and work-life balance through flexible working models. If you're a proactive, service-oriented individual looking to grow your career in wealth management within a modern and trusting environment, this role offers a clear path to becoming a key contributor to the team's success.
+### Description\\nOur partner company in Munich is seeking a dedicated **Private Banking Advisor (m/w/d)** to join their team as soon as possible. This pivotal role involves supporting senior advisors in the holistic care and strategic advice of demanding private clients and institutional investors, while also actively contributing to client relationship management and the strategic expansion of the firm's portfolio.\\n\\n### Responsibilities\\n- Support Senior Advisors in the holistic care and advice of demanding private clients and institutional investors.\\n- Cultivate existing client relationships within the upscale private client segment and actively contribute to building and expanding long-term partnerships.\\n- Participate in the acquisition of new clients, accompany sales activities, and support the strategic expansion of the assigned client base.\\n- Conduct goal- and sales-oriented consultations, identify client needs, and develop tailored investment strategies considering risk profiles and regulatory requirements.\\n- Undertake tasks in various Private Banking projects and contribute your own ideas for process optimization and client retention.\\n\\n### Qualifications\\n- Possess initial professional experience in a banking environment, ideally in Private Banking, Wealth Management, or asset management.\\n- Proficient in using MS Office, especially Word, Excel, and PowerPoint.\\n- Demonstrate high service orientation, strong communication skills, and a confident demeanor in client contact.\\n- Very good German language skills.\\n\\n### Author's Take\\nThis is an excellent opportunity for a proactive individual looking to grow their career in Private Banking within a supportive and forward-thinking environment. The company values long-term commitment, offering a permanent employment contract alongside flexible working hours and the option for home office to ensure a healthy work-life balance. Located centrally in Munich, you'll benefit from a modern workspace equipped with the latest technology. What truly stands out is the appreciative \\\"Du-culture,\\\" fostering positive collaboration and trust among colleagues and leadership, coupled with numerous opportunities for professional development and advancement. If you thrive in a client-focused role and want your ideas to make an impact, this is a role worth considering.

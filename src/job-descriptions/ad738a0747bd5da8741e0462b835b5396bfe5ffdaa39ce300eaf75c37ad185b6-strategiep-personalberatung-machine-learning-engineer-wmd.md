@@ -59,4 +59,24 @@ story_answer2: >-
   just a fun outing; it's a testament to how much we value connection and
   recharging together.
 ---
-### Description\\nOur client is an owner-managed, medium-sized company based in the district of Oldenburg, Germany. With a 60-member team, they develop innovative software solutions for category management, trade marketing, and sales control, serving prominent clients in retail and branded goods such as Coca-Cola, Mondelez, and REWE. They are known for their willingness to explore new approaches and perspectives to stay at the forefront of the industry. They are seeking a passionate Machine Learning Engineer (m/f/d) to contribute to modern AI solutions.\\n\\n### Responsibilities\\n- Conduct prototyping based on real data to expand and optimize existing solutions.\\n- Further develop selected prototypes that show significant potential.\\n- Ensure optimal alignment between requirements and solutions, working closely with end-users.\\n- Analyze Big Data to gain deep insights and derive maximum value from extensive datasets.\\n- Conceive and develop advanced Machine Learning algorithms to create more efficient and intelligent software solutions.\\n- Contribute your own ideas within an autonomous and supportive work environment.\\n\\n### Qualifications\\n- A completed degree in Computer Science, Business Informatics, or a comparable qualification.\\n- Initial professional experience in the field of Machine Learning.\\n- A strong desire to work in a dynamic and evolving environment.\\n- Enjoyment of project-based work and embracing new challenges.\\n- Good knowledge of Python and SQL, and ideally Django.\\n- Experience with various Machine Learning frameworks, such as Keras, PyTorch, or TensorFlow.\\n\\n### Author's Take\\nThis is a fantastic opportunity for a Junior Machine Learning Engineer eager to make a tangible impact in an innovative and supportive environment. The company offers exposure to high-profile clients and exciting projects, with a strong emphasis on continuous learning and giving engineers autonomy to shape solutions. Beyond the technical work, the culture stands out with its commitment to employee well-being, offering flexible hours, extensive benefits (including a fitness room, yoga, and a yearly sailing trip), and a genuinely friendly, family-like atmosphere. If you're looking for a long-term role where your contributions are valued and your growth is supported, this role in the Oldenburg region comes highly recommended.
+### Description\
+Our client is an owner-managed, medium-sized company based in the district of Oldenburg, Germany. With a 60-member team, they develop innovative software solutions for category management, trade marketing, and sales control, serving prominent clients in retail and branded goods such as Coca-Cola, Mondelez, and REWE. They are known for their willingness to explore new approaches and perspectives to stay at the forefront of the industry. They are seeking a passionate Machine Learning Engineer (m/f/d) to contribute to modern AI solutions.\
+\
+### Responsibilities\
+- Conduct prototyping based on real data to expand and optimize existing solutions.\
+- Further develop selected prototypes that show significant potential.\
+- Ensure optimal alignment between requirements and solutions, working closely with end-users.\
+- Analyze Big Data to gain deep insights and derive maximum value from extensive datasets.\
+- Conceive and develop advanced Machine Learning algorithms to create more efficient and intelligent software solutions.\
+- Contribute your own ideas within an autonomous and supportive work environment.\
+\
+### Qualifications\
+- A completed degree in Computer Science, Business Informatics, or a comparable qualification.\
+- Initial professional experience in the field of Machine Learning.\
+- A strong desire to work in a dynamic and evolving environment.\
+- Enjoyment of project-based work and embracing new challenges.\
+- Good knowledge of Python and SQL, and ideally Django.\
+- Experience with various Machine Learning frameworks, such as Keras, PyTorch, or TensorFlow.\
+\
+### Author's Take\
+This is a fantastic opportunity for a Junior Machine Learning Engineer eager to make a tangible impact in an innovative and supportive environment. The company offers exposure to high-profile clients and exciting projects, with a strong emphasis on continuous learning and giving engineers autonomy to shape solutions. Beyond the technical work, the culture stands out with its commitment to employee well-being, offering flexible hours, extensive benefits (including a fitness room, yoga, and a yearly sailing trip), and a genuinely friendly, family-like atmosphere. If you're looking for a long-term role where your contributions are valued and your growth is supported, this role in the Oldenburg region comes highly recommended.

@@ -56,4 +56,26 @@ story_answer2: >-
   sharing to ensure everyone stays connected and grows together, celebrating
   successes and tackling challenges as a united front.
 ---
-### Description\nfeld.energy is more than just a company – we are a movement! We empower farmers and landowners to intelligently combine agriculture and energy production. With our innovative Agri-Photovoltaic solutions, we enable dual land use for food production and clean energy, thus shaping the energy transition in rural areas sustainably, economically, and with a future-oriented approach.\n\nAs Chief of Staff (m/w/d), you will be the right hand to the founders and the central interface between management, the team, and external partners. Your mission is to ensure that strategic initiatives are implemented, projects reach their goals, and the right priorities are pursued.\n\n### Responsibilities\n- Close collaboration with the founders on strategy, prioritization, and decision-making.\n- Project management for key initiatives (e.g., new locations, investor projects, cooperations).\n- Preparation and follow-up of meetings, KPIs, and decision processes.\n- Serve as the communication interface between management, the team, and external stakeholders (investors, partners).\n- Analyze market and company data, and prepare presentations & reports.\n- Develop and optimize internal processes & tools.\n\n### Qualifications\n- Completed studies in economics, engineering, politics, or a comparable field.\n- Professional experience in a startup environment, consulting, project management, or business development.\n- Strong organizational skills & a structured working methodology.\n- Excellent communication and analytical skills.\n- Enjoy taking hands-on responsibility and thriving in a young, dynamic environment.\n- Demonstrated interest in renewable energies, agriculture, and sustainability.\n\n### Author's Take\nThis is an exceptional opportunity for an ambitious and strategically minded individual to directly impact the growth and mission of a pioneering company in sustainable agriculture and renewable energy. As Chief of Staff, you'll gain unparalleled exposure to high-level strategic decision-making, working hand-in-hand with the founders. The role offers significant autonomy, a dynamic hybrid work environment, and a culture deeply committed to innovation, collaboration, and sustainability. If you're passionate about making a tangible difference in the energy transition and thrive in a fast-paced, hands-on setting, feld.energy offers a key position to shape the future.
+### Description
+feld.energy is more than just a company – we are a movement! We empower farmers and landowners to intelligently combine agriculture and energy production. With our innovative Agri-Photovoltaic solutions, we enable dual land use for food production and clean energy, thus shaping the energy transition in rural areas sustainably, economically, and with a future-oriented approach.
+
+As Chief of Staff (m/w/d), you will be the right hand to the founders and the central interface between management, the team, and external partners. Your mission is to ensure that strategic initiatives are implemented, projects reach their goals, and the right priorities are pursued.
+
+### Responsibilities
+- Close collaboration with the founders on strategy, prioritization, and decision-making.
+- Project management for key initiatives (e.g., new locations, investor projects, cooperations).
+- Preparation and follow-up of meetings, KPIs, and decision processes.
+- Serve as the communication interface between management, the team, and external stakeholders (investors, partners).
+- Analyze market and company data, and prepare presentations & reports.
+- Develop and optimize internal processes & tools.
+
+### Qualifications
+- Completed studies in economics, engineering, politics, or a comparable field.
+- Professional experience in a startup environment, consulting, project management, or business development.
+- Strong organizational skills & a structured working methodology.
+- Excellent communication and analytical skills.
+- Enjoy taking hands-on responsibility and thriving in a young, dynamic environment.
+- Demonstrated interest in renewable energies, agriculture, and sustainability.
+
+### Author's Take
+This is an exceptional opportunity for an ambitious and strategically minded individual to directly impact the growth and mission of a pioneering company in sustainable agriculture and renewable energy. As Chief of Staff, you'll gain unparalleled exposure to high-level strategic decision-making, working hand-in-hand with the founders. The role offers significant autonomy, a dynamic hybrid work environment, and a culture deeply committed to innovation, collaboration, and sustainability. If you're passionate about making a tangible difference in the energy transition and thrive in a fast-paced, hands-on setting, feld.energy offers a key position to shape the future.

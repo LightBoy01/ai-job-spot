@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-45b9f7d4b73b29cfd57d12cdaafde9eb2d05341bbd0a704d07f17bd37d9d02a4
 title: >-
   Data Efficiency and Transfer Robustness in Biomedical Image Segmentation: A
-  Study of Redundancy and Forgetting with Cellpose
+  Study of Redundancy a...
 slug: briefing-45b9f7d4b73b29cfd57d12cdaafde9eb2d05341bbd0a704d07f17bd37d9d02a4
 author: 'Shuo Zhao, Jianxu Chen'
 publishDate: 2025-11-10T05:00:00.000Z

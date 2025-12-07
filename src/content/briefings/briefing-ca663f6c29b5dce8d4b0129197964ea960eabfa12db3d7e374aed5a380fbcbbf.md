@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-ca663f6c29b5dce8d4b0129197964ea960eabfa12db3d7e374aed5a380fbcbbf
 title: >-
@@ -15,6 +13,6 @@ originalUrl: >-
 status: pending_review
 tags:
   - The Download
-excerpt: "This is today’s edition of\_The Download,\_our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why the for-profit race into solar geoengineering is bad for s"
+excerpt: "This is today's edition of\_The Download,\_our weekday newsletter that provides a daily dose of what's going on in the world of technology. Why the for-profit race into solar geoengineering is bad for s"
 ---
-This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why the for-profit race into solar geoengineering is bad for science and public trust —David Keith is the professor of geophysical sciences at the University of Chicago and Daniele Visioni is an assistant&#8230;
+This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why the for-profit race into solar geoengineering is bad for science and public trust -David Keith is the professor of geophysical sciences at the University of Chicago and Daniele Visioni is an assistant&#8230;

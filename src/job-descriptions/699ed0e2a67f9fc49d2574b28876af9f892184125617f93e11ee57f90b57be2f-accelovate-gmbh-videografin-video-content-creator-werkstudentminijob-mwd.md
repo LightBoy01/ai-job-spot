@@ -52,4 +52,20 @@ story_answer2: >-
   from their insights. The goal is for you to eventually own entire content
   series and drive creative initiatives.
 ---
-### Description\nAccelovate GmbH is a young, dynamic company focused on digital content and innovative projects. We are seeking a talented Video Editor to help elevate our social media presence with high-quality video content. This role is crucial in shaping our brand's visual storytelling across various platforms.\n\n### Responsibilities\n- Record video content for our social media channels (e.g., Reels, Shorts, Feed Posts).\n- Review, sort, and structurally organize recorded material.\n- Pre-edit videos (rough cut, selection of the best scenes).\n- Independently edit complete videos, including simple adaptations for different platforms.\n\n### Qualifications\n- First practical experience in video editing (e.g., with Adobe Premiere Pro, DaVinci Resolve, or similar programs).\n- Confident handling of a camera (e.g., DSLR/mirrorless) and an eye for visual composition.\n- Interest in social media formats and enjoyment of co-creating content.\n- Reliable, structured way of working, and a desire to take on more responsibility in editing long-term.\n\n### Author's Take\nThis is an excellent opportunity for a budding Video Editor passionate about social media to join a vibrant, growth-oriented company. Accelovate offers a supportive environment with flexible working hours, remote options, and ample creative freedom. With a young, motivated team and flat hierarchies, you'll have significant influence and clear pathways for personal and professional development, making it an ideal place to kickstart and grow your career in digital content creation.
+### Description
+Accelovate GmbH is a young, dynamic company focused on digital content and innovative projects. We are seeking a talented Video Editor to help elevate our social media presence with high-quality video content. This role is crucial in shaping our brand's visual storytelling across various platforms.
+
+### Responsibilities
+- Record video content for our social media channels (e.g., Reels, Shorts, Feed Posts).
+- Review, sort, and structurally organize recorded material.
+- Pre-edit videos (rough cut, selection of the best scenes).
+- Independently edit complete videos, including simple adaptations for different platforms.
+
+### Qualifications
+- First practical experience in video editing (e.g., with Adobe Premiere Pro, DaVinci Resolve, or similar programs).
+- Confident handling of a camera (e.g., DSLR/mirrorless) and an eye for visual composition.
+- Interest in social media formats and enjoyment of co-creating content.
+- Reliable, structured way of working, and a desire to take on more responsibility in editing long-term.
+
+### Author's Take
+This is an excellent opportunity for a budding Video Editor passionate about social media to join a vibrant, growth-oriented company. Accelovate offers a supportive environment with flexible working hours, remote options, and ample creative freedom. With a young, motivated team and flat hierarchies, you'll have significant influence and clear pathways for personal and professional development, making it an ideal place to kickstart and grow your career in digital content creation.

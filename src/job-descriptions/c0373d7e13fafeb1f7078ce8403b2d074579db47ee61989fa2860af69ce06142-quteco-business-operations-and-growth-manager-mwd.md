@@ -76,4 +76,28 @@ story_answer3: >-
   long-term. Your well-being is crucial for your ability to contribute
   creatively and strategically.
 ---
-### Description\nQuteco GmbH is a growing IT and consulting company based in Stuttgart. We combine SAP, IT, and legal consulting (NIS2, GDPR, EU AI Act) to support mid-sized companies and corporations with their digitalization and compliance projects. We are looking for an individual to work directly with our CEO and actively shape the development of our company.\n\n### Responsibilities\n- Coordinate projects, partners, and internal processes\n- Structure tasks, priorities, and deadlines\n- Prepare documents, presentations, and offers\n- Provide operational support for NIS2, AI Act, SAP, and IT projects\n- Contribute to building our tele-business and partner network\n- Initial contact with potential clients & scheduling appointments\n- Research leads, tenders, and new business opportunities\n- Support in marketing (whitepapers, website, LinkedIn)\n- Maintain and organize our Microsoft 365 environment (Planner, SharePoint, Teams)\n\n### Qualifications\n- 2-6 years of experience in Operations, Project Management, Consulting, or Business Development\n- Structured working style, quick comprehension, and a high sense of responsibility\n- Strong communication skills (written & verbal)\n- Hands-on mentality and entrepreneurial thinking\n- Excellent German language skills\n- Bonus: Experience with Microsoft 365 or process organization\n- No fear of new topics (SAP, IT, Legal – you'll learn everything with us)\n\n### Author's Take\nThis is an exceptional opportunity for an ambitious, hands-on professional to make a significant impact at a rapidly growing IT and consulting firm. Working directly with the CEO, you'll have unparalleled autonomy and influence in shaping the company's strategic direction, with a clear path to becoming a Chief of Staff. The role offers a diverse range of responsibilities across cutting-edge tech and compliance, supported by a dynamic culture that values growth, flexibility, and direct contribution. If you thrive on responsibility, enjoy broad challenges, and want to truly build something from the ground up, this role offers immense potential for professional development and a highly competitive compensation package.
+### Description
+Quteco GmbH is a growing IT and consulting company based in Stuttgart. We combine SAP, IT, and legal consulting (NIS2, GDPR, EU AI Act) to support mid-sized companies and corporations with their digitalization and compliance projects. We are looking for an individual to work directly with our CEO and actively shape the development of our company.
+
+### Responsibilities
+- Coordinate projects, partners, and internal processes
+- Structure tasks, priorities, and deadlines
+- Prepare documents, presentations, and offers
+- Provide operational support for NIS2, AI Act, SAP, and IT projects
+- Contribute to building our tele-business and partner network
+- Initial contact with potential clients & scheduling appointments
+- Research leads, tenders, and new business opportunities
+- Support in marketing (whitepapers, website, LinkedIn)
+- Maintain and organize our Microsoft 365 environment (Planner, SharePoint, Teams)
+
+### Qualifications
+- 2-6 years of experience in Operations, Project Management, Consulting, or Business Development
+- Structured working style, quick comprehension, and a high sense of responsibility
+- Strong communication skills (written & verbal)
+- Hands-on mentality and entrepreneurial thinking
+- Excellent German language skills
+- Bonus: Experience with Microsoft 365 or process organization
+- No fear of new topics (SAP, IT, Legal – you'll learn everything with us)
+
+### Author's Take
+This is an exceptional opportunity for an ambitious, hands-on professional to make a significant impact at a rapidly growing IT and consulting firm. Working directly with the CEO, you'll have unparalleled autonomy and influence in shaping the company's strategic direction, with a clear path to becoming a Chief of Staff. The role offers a diverse range of responsibilities across cutting-edge tech and compliance, supported by a dynamic culture that values growth, flexibility, and direct contribution. If you thrive on responsibility, enjoy broad challenges, and want to truly build something from the ground up, this role offers immense potential for professional development and a highly competitive compensation package.

@@ -66,4 +66,26 @@ story_answer3: >-
   AI development, system administration, or process automation, aligning with
   your passions and our business needs as we grow.
 ---
-### Description\nReady for your first own projects? Grab your laptop and join us! We are looking for a Working Student (m/f/d) for IT & Infrastructure – right in the thick of it, not just watching from the sidelines. This role offers the unique chance to actively shape our digital landscape, working on meaningful projects from IT administration and tool management to advanced automation and AI initiatives. You'll be instrumental in integrating key platforms and optimizing processes, all within a supportive and agile environment.\n\n### Responsibilities\n- Manage IT administration tasks and tools, contributing to our overall digitalization strategy.\n- Actively contribute ideas to improve our infrastructure and digital solutions.\n- Assist in the integration of crucial platforms such as CRM, booking systems, and payment services.\n- Engage in projects focused on automation and Artificial Intelligence, making a tangible impact.\n- Analyze existing processes and develop smart digital solutions for optimization.\n- Bring structure and organization to our digital initiatives.\n- Collaborate effectively within a strong team, bringing your own innovative ideas to the table.\n\n### Qualifications\n- Currently enrolled in studies (e.g., computer science, IT, business informatics or similar field).\n- A passion for digital topics and new technologies, coupled with a curious and open mindset.\n- Eagerness to learn programming and acquire new skills.\n- A proactive individual who wants to make a real impact and take responsibility, rather than just observing or following.\n- Strong organizational skills with a relaxed and adaptable approach.\n- A team player who enjoys collaboration and is keen to contribute innovative ideas.\n- Basic understanding or strong interest in IT administration, tools, and digital processes.\n\n### Author's Take\nThis is an exceptional opportunity for a motivated working student to gain genuine hands-on experience and make a significant impact from day one. flex living offers a vibrant culture defined by flat hierarchies, quick decision-making, and a strong team spirit. With flexible working hours, home office options, and a clear commitment to personal and professional development, this role provides an ideal environment to grow your skills in IT, automation, and AI. If you're eager to contribute your ideas, shape real projects, and be part of an agile, forward-thinking team, this is the perfect launchpad for your career.
+### Description
+Ready for your first own projects? Grab your laptop and join us! We are looking for a Working Student (m/f/d) for IT & Infrastructure – right in the thick of it, not just watching from the sidelines. This role offers the unique chance to actively shape our digital landscape, working on meaningful projects from IT administration and tool management to advanced automation and AI initiatives. You'll be instrumental in integrating key platforms and optimizing processes, all within a supportive and agile environment.
+
+### Responsibilities
+- Manage IT administration tasks and tools, contributing to our overall digitalization strategy.
+- Actively contribute ideas to improve our infrastructure and digital solutions.
+- Assist in the integration of crucial platforms such as CRM, booking systems, and payment services.
+- Engage in projects focused on automation and Artificial Intelligence, making a tangible impact.
+- Analyze existing processes and develop smart digital solutions for optimization.
+- Bring structure and organization to our digital initiatives.
+- Collaborate effectively within a strong team, bringing your own innovative ideas to the table.
+
+### Qualifications
+- Currently enrolled in studies (e.g., computer science, IT, business informatics or similar field).
+- A passion for digital topics and new technologies, coupled with a curious and open mindset.
+- Eagerness to learn programming and acquire new skills.
+- A proactive individual who wants to make a real impact and take responsibility, rather than just observing or following.
+- Strong organizational skills with a relaxed and adaptable approach.
+- A team player who enjoys collaboration and is keen to contribute innovative ideas.
+- Basic understanding or strong interest in IT administration, tools, and digital processes.
+
+### Author's Take
+This is an exceptional opportunity for a motivated working student to gain genuine hands-on experience and make a significant impact from day one. flex living offers a vibrant culture defined by flat hierarchies, quick decision-making, and a strong team spirit. With flexible working hours, home office options, and a clear commitment to personal and professional development, this role provides an ideal environment to grow your skills in IT, automation, and AI. If you're eager to contribute your ideas, shape real projects, and be part of an agile, forward-thinking team, this is the perfect launchpad for your career.

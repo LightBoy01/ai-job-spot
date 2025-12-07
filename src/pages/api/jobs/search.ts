@@ -5,6 +5,7 @@ import { z } from 'zod';
 
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { isErrorWithMessage } from '@/lib/utils';
+import { SerializedJobPosting } from '@/lib/types';
 
 // Define the schema for query parameter validation
 const searchSchema = z.object({
@@ -88,24 +89,33 @@ export default async function handler(
     if (jobLevel) {
       query = query.where('jobLevel', '==', jobLevel);
     }
-    if (tags) {
-      const tagsArray = tags
-        .split(',')
-        .map((tag) => tag.trim())
-        .filter((t) => t);
-      if (tagsArray.length > 0) {
-        query = query.where('tags', 'array-contains-any', tagsArray);
-      }
-    }
+
+    // Firestore limitation: You can only have one 'array-contains' or 'array-contains-any' clause per query.
+    // We prioritize 'keywords' (search term) for the DB query if present, as it's likely more selective for search intent.
+    // If both are present, we filter by tags in memory.
+    
+    let inMemoryTagsFilter: string[] | null = null;
+    const tagsArray = tags
+        ? tags.split(',').map((tag) => tag.trim()).filter((t) => t)
+        : [];
 
     if (searchTerm) {
       const keywords = searchTerm
         .toLowerCase()
         .split(' ')
         .filter((k) => k);
+      
       if (keywords.length > 0) {
         query = query.where('keywords', 'array-contains-any', keywords);
       }
+
+      // If we also have tags, we must filter in memory later
+      if (tagsArray.length > 0) {
+        inMemoryTagsFilter = tagsArray;
+      }
+    } else if (tagsArray.length > 0) {
+      // Only tags are present, so use them in the query
+      query = query.where('tags', 'array-contains-any', tagsArray);
     }
 
     // Always order by completenessScore as the primary sort criterion, then by postedDate
@@ -124,10 +134,29 @@ export default async function handler(
       }
     }
 
-    query = query.limit(limit);
+    // If we are doing in-memory filtering, we should fetch more documents to ensure we have enough after filtering
+    // This is a simple heuristic.
+    const queryLimit = inMemoryTagsFilter ? limit * 2 : limit;
+    query = query.limit(queryLimit);
 
     const snapshot = await query.get();
-    const jobs = snapshot.docs.map(serializeJob);
+    let jobs = snapshot.docs.map(serializeJob) as unknown as SerializedJobPosting[];
+
+    // Apply in-memory filters if needed
+    if (inMemoryTagsFilter) {
+      // TS inference helper: job is strictly typed now
+      jobs = jobs.filter((job) => {
+        if (!job.tags || !Array.isArray(job.tags)) return false;
+        // array-contains-any logic: true if any of the filter tags are in the job tags
+        return job.tags.some((tag: string) => inMemoryTagsFilter!.includes(tag));
+      });
+      
+      // Re-slice to respect the original limit
+      if (jobs.length > limit) {
+        jobs = jobs.slice(0, limit);
+      }
+    }
+
     const lastVisible =
       snapshot.docs.length > 0
         ? snapshot.docs[snapshot.docs.length - 1]

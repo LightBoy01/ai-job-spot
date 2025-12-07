@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-ff9ada6bf30487e8215cb1a3025ab8ba4bca26535f8dabbc0a9bc7f068ce434b
 title: 'The Finer the Better: Towards Granular-aware Open-set Domain Generalization'

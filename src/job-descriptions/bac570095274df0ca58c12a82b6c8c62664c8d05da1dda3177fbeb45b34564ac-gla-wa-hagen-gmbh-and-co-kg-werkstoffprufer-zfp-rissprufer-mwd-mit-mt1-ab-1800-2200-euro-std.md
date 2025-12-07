@@ -1,6 +1,6 @@
 ---
 id: bac570095274df0ca58c12a82b6c8c62664c8d05da1dda3177fbeb45b34564ac
-title: 'Werkstoffprüfer ZfP / Rissprüfer (m/w/d) mit MT1 - ab 18,00 - 22,00 € Std.'
+title: 'Werkstoffprüfer ZfP / Rissprüfer (m/w/d) mit MT1 - ab 18,00 - 22,00  Std.'
 company: Gla-Wa Hagen GmbH & Co. KG
 location: Hagen
 applicationLink: >-
@@ -60,4 +60,26 @@ story_answer2: >-
   It's a role that demands intense focus and precision, where your keen judgment
   directly upholds the client's reputation for reliability and safety.
 ---
-### Description\\nStart your career with **Gla-Wa** and leverage the benefits of temporary employment to advance your professional path! Gla-Wa GmbH is a modern and reliable HR service provider that connects qualified employees with renowned companies. At Gla-Wa, you are our focus: we want you to bring your strengths, gain new experiences, and develop genuine professional perspectives.\\n\\nFor our client in Hagen, we are looking for a Rissprüfer (m/w/d) for forged parts with MT1 qualification.\\n\\n### Responsibilities\\n*   Conduct magnetic particle crack testing (MT, Level 1) on forged parts.\\n*   Prepare, mark, and test workpieces thoroughly.\\n*   Perform visual inspections and meticulously document all test results.\\n*   Operate and maintain testing equipment and MT systems.\\n*   Ensure strict adherence to all quality and safety regulations.\\n\\n### Qualifications\\n*   Possess a valid MT1 certificate (Magnetic Particle Testing Level 1).\\n*   Experience in materials testing or quality assurance is desirable.\\n*   Knowledge of forged parts or metal processing procedures is advantageous.\\n*   Demonstrate a careful, reliable, and quality-conscious working approach.\\n*   Willingness to work in a shift model.\\n*   Be a team player with a strong sense of responsibility.\\n*   Professional experience in Non-Destructive Testing (NDT) or general materials testing.\\n\\n### Author's Take\\nThis is an excellent opportunity for a certified MT1 Rissprüfer seeking a stable and supportive work environment. Gla-Wa GmbH acts as a strong partner, offering not just a competitive hourly wage starting at €18.00, but also comprehensive social benefits, including holiday and Christmas bonuses, and personalized support. The role provides a valuable chance to work with a renowned regional client in Hagen, with clear prospects for long-term employment and potential direct takeover, making it an ideal stepping stone for career growth in quality assurance and materials testing.
+### Description\
+Start your career with **Gla-Wa** and leverage the benefits of temporary employment to advance your professional path! Gla-Wa GmbH is a modern and reliable HR service provider that connects qualified employees with renowned companies. At Gla-Wa, you are our focus: we want you to bring your strengths, gain new experiences, and develop genuine professional perspectives.\
+\
+For our client in Hagen, we are looking for a Rissprüfer (m/w/d) for forged parts with MT1 qualification.\
+\
+### Responsibilities\
+*   Conduct magnetic particle crack testing (MT, Level 1) on forged parts.\
+*   Prepare, mark, and test workpieces thoroughly.\
+*   Perform visual inspections and meticulously document all test results.\
+*   Operate and maintain testing equipment and MT systems.\
+*   Ensure strict adherence to all quality and safety regulations.\
+\
+### Qualifications\
+*   Possess a valid MT1 certificate (Magnetic Particle Testing Level 1).\
+*   Experience in materials testing or quality assurance is desirable.\
+*   Knowledge of forged parts or metal processing procedures is advantageous.\
+*   Demonstrate a careful, reliable, and quality-conscious working approach.\
+*   Willingness to work in a shift model.\
+*   Be a team player with a strong sense of responsibility.\
+*   Professional experience in Non-Destructive Testing (NDT) or general materials testing.\
+\
+### Author's Take\
+This is an excellent opportunity for a certified MT1 Rissprüfer seeking a stable and supportive work environment. Gla-Wa GmbH acts as a strong partner, offering not just a competitive hourly wage starting at €18.00, but also comprehensive social benefits, including holiday and Christmas bonuses, and personalized support. The role provides a valuable chance to work with a renowned regional client in Hagen, with clear prospects for long-term employment and potential direct takeover, making it an ideal stepping stone for career growth in quality assurance and materials testing.

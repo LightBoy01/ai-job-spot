@@ -86,4 +86,39 @@ story_answer3: >-
   expertise and leadership capabilities. We believe in empowering you to shape
   your own journey and make a lasting impact.
 ---
-### Description\nNexun is a rapidly growing platform for the development of renewable energy projects, active across Spain, France, Germany, Italy, Poland, and Austria. Supported by *Marguerite*, a leading pan-European infrastructure fund, our mission is to actively accelerate the energy transition and make a sustainable contribution to reducing CO₂ emissions. Join our diverse, international team and shape projects that have a positive impact on communities and the environment throughout Europe.\n\nAt Nexun, we empower our team to actively shape the transformation to a low-carbon economy. You can expect a modern, international, and dynamic work environment with flexible working hours, hybrid work options, and attractive, performance-based compensation. We value diversity, collaboration, and continuous professional growth, offering effective projects, comprehensive onboarding, and development opportunities. Your work counts here; actively shape the future of renewable energies in a flexible, modern, and inspiring environment.\n\n### Responsibilities\n**Project Development**\n*   Develop ground-mounted photovoltaic (PV) projects and Battery Energy Storage Systems (BESS) from site identification to construction readiness.\n*   Identify, evaluate, and acquire suitable sites.\n*   Lead and coordinate necessary rezoning, land-use planning, and approval procedures.\n*   Obtain grid capacities, connection conditions, and grid compatibility assessments from grid operators.\n*   Ensure project readiness in compliance with all technical, legal, and economic requirements.\n\n**Land Acquisition**\n*   Support and coordinate the search, evaluation, and securing of suitable land.\n*   Prepare and conduct contract negotiations with landowners in coordination with the legal department.\n*   Present projects and negotiate with municipalities.\n\n**Stakeholder Management**\n*   Build and maintain contacts with authorities, grid operators, municipalities, planners, consultants, and other stakeholders.\n*   Manage external consultants and project developers.\n\n**Economic Responsibility**\n*   Create, control, and report budgets (with management support).\n*   Support financing and PPA negotiations.\n\n### Qualifications\n*   Completed degree in engineering, environmental technology, energy or industrial engineering, or comparable qualification.\n*   Professional experience in the development of renewable energy projects and a good network.\n*   Knowledge of relevant legal, technical, and regulatory frameworks.\n*   Structured, analytical, and solution-oriented work style with a high degree of personal responsibility.\n*   Very good negotiation skills, convincing demeanor, and intuition for interlocutors.\n*   Fluent in German and very good English, both written and spoken, and high willingness to travel.\n\n### Author's Take\nThis is an exceptional opportunity for a seasoned Project Developer to make a tangible impact on the energy transition across Europe. Nexun offers a dynamic, international, and highly supportive environment that values autonomy, professional growth, and work-life balance. If you are passionate about renewable energies, thrive in a collaborative culture, and want your work to genuinely contribute to a sustainable future, this role provides the platform to achieve significant milestones.
+### Description
+Nexun is a rapidly growing platform for the development of renewable energy projects, active across Spain, France, Germany, Italy, Poland, and Austria. Supported by *Marguerite*, a leading pan-European infrastructure fund, our mission is to actively accelerate the energy transition and make a sustainable contribution to reducing CO₂ emissions. Join our diverse, international team and shape projects that have a positive impact on communities and the environment throughout Europe.
+
+At Nexun, we empower our team to actively shape the transformation to a low-carbon economy. You can expect a modern, international, and dynamic work environment with flexible working hours, hybrid work options, and attractive, performance-based compensation. We value diversity, collaboration, and continuous professional growth, offering effective projects, comprehensive onboarding, and development opportunities. Your work counts here; actively shape the future of renewable energies in a flexible, modern, and inspiring environment.
+
+### Responsibilities
+**Project Development**
+*   Develop ground-mounted photovoltaic (PV) projects and Battery Energy Storage Systems (BESS) from site identification to construction readiness.
+*   Identify, evaluate, and acquire suitable sites.
+*   Lead and coordinate necessary rezoning, land-use planning, and approval procedures.
+*   Obtain grid capacities, connection conditions, and grid compatibility assessments from grid operators.
+*   Ensure project readiness in compliance with all technical, legal, and economic requirements.
+
+**Land Acquisition**
+*   Support and coordinate the search, evaluation, and securing of suitable land.
+*   Prepare and conduct contract negotiations with landowners in coordination with the legal department.
+*   Present projects and negotiate with municipalities.
+
+**Stakeholder Management**
+*   Build and maintain contacts with authorities, grid operators, municipalities, planners, consultants, and other stakeholders.
+*   Manage external consultants and project developers.
+
+**Economic Responsibility**
+*   Create, control, and report budgets (with management support).
+*   Support financing and PPA negotiations.
+
+### Qualifications
+*   Completed degree in engineering, environmental technology, energy or industrial engineering, or comparable qualification.
+*   Professional experience in the development of renewable energy projects and a good network.
+*   Knowledge of relevant legal, technical, and regulatory frameworks.
+*   Structured, analytical, and solution-oriented work style with a high degree of personal responsibility.
+*   Very good negotiation skills, convincing demeanor, and intuition for interlocutors.
+*   Fluent in German and very good English, both written and spoken, and high willingness to travel.
+
+### Author's Take
+This is an exceptional opportunity for a seasoned Project Developer to make a tangible impact on the energy transition across Europe. Nexun offers a dynamic, international, and highly supportive environment that values autonomy, professional growth, and work-life balance. If you are passionate about renewable energies, thrive in a collaborative culture, and want your work to genuinely contribute to a sustainable future, this role provides the platform to achieve significant milestones.

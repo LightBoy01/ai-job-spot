@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-5b5ef206f7e12b69917c088cd84b4cda6a4acf9eb3d511d84e9236aa72ecada9
 title: Simulating Misinformation Vulnerabilities With Agent Personas

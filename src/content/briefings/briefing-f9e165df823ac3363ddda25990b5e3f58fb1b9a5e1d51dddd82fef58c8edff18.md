@@ -1,8 +1,6 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-f9e165df823ac3363ddda25990b5e3f58fb1b9a5e1d51dddd82fef58c8edff18
-title: '$\mathbf{S^2LM}$: Towards Semantic Steganography via Large Language Models'
+title: '\mathbf{S^2LM}: Towards Semantic Steganography via Large Language Models'
 slug: briefing-f9e165df823ac3363ddda25990b5e3f58fb1b9a5e1d51dddd82fef58c8edff18
 author: 'Huanqi Wu, Huangbiao Xu, Runfeng Xie, Jiaxin Cai, Kaixin Zhang, Xiao Ke'
 publishDate: 2025-11-10T05:00:00.000Z

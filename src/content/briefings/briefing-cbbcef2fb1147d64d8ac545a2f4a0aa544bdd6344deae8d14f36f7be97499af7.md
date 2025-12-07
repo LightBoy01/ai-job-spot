@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-cbbcef2fb1147d64d8ac545a2f4a0aa544bdd6344deae8d14f36f7be97499af7
 title: 'EETnet: a CNN for Gaze Detection and Tracking for Smart-Eyewear'

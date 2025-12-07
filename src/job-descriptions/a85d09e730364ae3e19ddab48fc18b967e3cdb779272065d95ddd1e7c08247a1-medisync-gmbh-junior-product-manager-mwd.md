@@ -51,4 +51,30 @@ story_answer2: >-
   learning environment where everyone is invested in each other's success and
   continuous development.
 ---
-### Description\nMediSync is a young, rapidly growing Health-Tech company based in Cologne, built for a reality where medical documentation should no longer be the ultimate adversary in daily clinic and practice life.\n\nOur AI-powered platform automates doctor-patient documentation, structures clinical information, and intelligently integrates it into existing systems. The goal is clear: **Relieve doctors. Protect personnel. Increase quality of care.**\n\nWe are looking for a motivated Junior Product Manager to join our team and contribute to the evolution of our innovative platform, directly impacting the healthcare sector.\n\n### Responsibilities\n- Support the further development of our AI-powered documentation platform.\n- Conduct user interviews with doctors and practice teams to identify requirements.\n- Collaborate on the creation of MVPs and functional feature concepts.\n- Write and maintain tickets and support backlog management.\n- Work closely with Engineering, Design, and Customer Success teams.\n- Support testing, quality controls, and feature launches.\n- Analyze usage data and derive optimization potential.\n\n### Qualifications\n- Initial experience in Product Management (internship, working student position, or 1–2 years of professional experience).\n- Ideally, basic knowledge of the healthcare system or interest in medical processes.\n- Analytical thinking, structured way of working, and quick comprehension.\n- High degree of reliability and and self-initiative.\n- Enjoy close collaboration with users and development teams.\n- Basic knowledge of agile methodologies (Scrum, Kanban, etc.).\n- Excellent German and good English language skills.\n\n### Author's Take\nThis is an exceptional opportunity for a motivated individual looking to make a significant impact in the Health-Tech space. MediSync offers a dynamic environment where your work directly contributes to improving the daily lives of medical professionals. With flat hierarchies, flexible work options, and a strong emphasis on personal development and ownership, it's a perfect place to grow your product management career while being part of an open, loyal, and appreciative team culture.
+### Description
+MediSync is a young, rapidly growing Health-Tech company based in Cologne, built for a reality where medical documentation should no longer be the ultimate adversary in daily clinic and practice life.
+
+Our AI-powered platform automates doctor-patient documentation, structures clinical information, and intelligently integrates it into existing systems. The goal is clear: **Relieve doctors. Protect personnel. Increase quality of care.**
+
+We are looking for a motivated Junior Product Manager to join our team and contribute to the evolution of our innovative platform, directly impacting the healthcare sector.
+
+### Responsibilities
+- Support the further development of our AI-powered documentation platform.
+- Conduct user interviews with doctors and practice teams to identify requirements.
+- Collaborate on the creation of MVPs and functional feature concepts.
+- Write and maintain tickets and support backlog management.
+- Work closely with Engineering, Design, and Customer Success teams.
+- Support testing, quality controls, and feature launches.
+- Analyze usage data and derive optimization potential.
+
+### Qualifications
+- Initial experience in Product Management (internship, working student position, or 1–2 years of professional experience).
+- Ideally, basic knowledge of the healthcare system or interest in medical processes.
+- Analytical thinking, structured way of working, and quick comprehension.
+- High degree of reliability and and self-initiative.
+- Enjoy close collaboration with users and development teams.
+- Basic knowledge of agile methodologies (Scrum, Kanban, etc.).
+- Excellent German and good English language skills.
+
+### Author's Take
+This is an exceptional opportunity for a motivated individual looking to make a significant impact in the Health-Tech space. MediSync offers a dynamic environment where your work directly contributes to improving the daily lives of medical professionals. With flat hierarchies, flexible work options, and a strong emphasis on personal development and ownership, it's a perfect place to grow your product management career while being part of an open, loyal, and appreciative team culture.

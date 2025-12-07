@@ -39,7 +39,7 @@ const careerGraph: Record<string, { title: string; nextSteps: string[] }> = {
   },
 };
 
-// Helper to find jobs matching a role key
+// Helper to find jobs matching a role key using a scoring system
 const findJobsForRole = (
   roleKey: string,
   allJobs: FirestoreJobPosting[]
@@ -47,14 +47,54 @@ const findJobsForRole = (
   const roleTitle = careerGraph[roleKey]?.title.toLowerCase();
   if (!roleTitle) return [];
 
-  // Improved keyword-based matching.
   const keywords = roleTitle.split(' ').filter(k => k !== '/' && k !== '&' && k !== '-');
+  const seniorityTerms = ['senior', 'lead', 'principal', 'staff', 'manager'];
 
-  return allJobs.filter((job) => {
+  const scoredJobs = allJobs.map(job => {
     const jobTitleLower = job.title.toLowerCase();
-    // Ensure all keywords are present in the job title
-    return keywords.every(keyword => jobTitleLower.includes(keyword));
+    let score = 0;
+
+    // Keyword scoring
+    const matchedKeywords = new Set<string>();
+    keywords.forEach(keyword => {
+      if (jobTitleLower.includes(keyword)) {
+        score += 10;
+        matchedKeywords.add(keyword);
+      }
+    });
+
+    // Bonus for matching all keywords
+    if (matchedKeywords.size === keywords.length) {
+      score += 20;
+    }
+
+    // Seniority bonus
+    const roleSeniority = keywords.find(k => seniorityTerms.includes(k));
+    const jobTitleSeniority = seniorityTerms.find(term => jobTitleLower.includes(term));
+    const jobLevelSeniority = seniorityTerms.find(term => job.jobLevel?.toLowerCase().includes(term));
+
+    if (roleSeniority) {
+      if (roleSeniority === jobTitleSeniority) {
+        score += 30; // Exact seniority match in title
+      }
+      if (roleSeniority === jobLevelSeniority) {
+        score += 30; // Exact seniority match in jobLevel
+      }
+    }
+    
+    // Add a small score for having a job level at all
+    if (job.jobLevel) {
+        score += 5;
+    }
+
+    return { job, score };
   });
+
+  // Filter out jobs with a low score and sort by score
+  return scoredJobs
+    .filter(item => item.score > 10)
+    .sort((a, b) => b.score - a.score)
+    .map(item => item.job);
 };
 
 // Helper to get top skills from a list of jobs

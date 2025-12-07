@@ -1,10 +1,8 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-bb3b5a2ea67a16f34c4b2f0d6d3b5d636f04befc29afb55afea6b51ea29f8381
 title: >-
   Neural at ArchEHR-QA 2025: Agentic Prompt Optimization for Evidence-Grounded
-  Clinical Question Answering
+  Clinical Question An...
 slug: briefing-bb3b5a2ea67a16f34c4b2f0d6d3b5d636f04befc29afb55afea6b51ea29f8381
 author: >-
   Sai Prasanna Teja Reddy Bogireddy, Abrar Majeedi, Viswanatha Reddy Gajjala,

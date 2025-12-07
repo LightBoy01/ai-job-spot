@@ -4,8 +4,8 @@ title: Controller (m/w/d) im Öffentlichen Dienst
 company: MY Humancapital GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/controller-im-offentlichen-dienst-munich-270034
-postedDate: '2025-11-07T01:33:59.000Z'
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/controller-im-offentlichen-dienst-munich-223941
+postedDate: '2025-11-28T01:34:45.000Z'
 expirationDate: null
 tags:
   - Controlling
@@ -15,78 +15,61 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/controller-im-offentlichen-dienst-munich-270034
+  https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/controller-im-offentlichen-dienst-munich-223941
 companyLogoUrl: null
 companyCulture: >-
-  The client, operating in the public service, fosters a culture that
-  prioritizes meticulous financial control, adherence to guidelines, and
-  strategic support for management. It offers a stable and structured
-  environment where precision and analytical thinking are highly valued,
-  contributing directly to operational and strategic decisions.
+  The public service environment values precision, analytical rigor, and a
+  supportive contribution to organizational leadership. It fosters a structured
+  approach to financial management, emphasizing adherence to guidelines, fiscal
+  responsibility, and transparency while offering opportunities for professional
+  growth.
 story_question1: >-
-  How does a Controller in Public Service contribute beyond just numbers and
-  compliance?
+  Given the specific nature of public service, what are some of the unique
+  challenges a Controller might encounter, especially when supporting strategic
+  and operational decisions, and how is success measured in this context?
 story_answer1: >-
-  Working as a Controller in the public service here is incredibly impactful,
-  even if it might seem like just numbers from the outside. You're not just
-  crunching figures; you're directly influencing how public funds are allocated
-  and ensuring every decision aligns with our mission. I've seen firsthand how
-  our budget planning and compliance checks prevent waste and ensure resources
-  go where they're needed most, ultimately serving the community. It's about
-  providing the clear, reliable data that enables our leadership to make
-  informed choices for the benefit of all citizens.
+  Working as a Controller in public service definitely has its nuances. It's not
+  just about crunching numbers; it's deeply about understanding and navigating
+  the specific regulations and public mandates that frame our financial
+  decisions. The biggest challenge, but also the most rewarding part, is
+  supporting leadership in making strategic choices that truly serve the public
+  good, often with tighter budget constraints than the private sector. Success
+  here isn't just about financial efficiency; it's about ensuring fiscal
+  responsibility, transparency, and seeing your analyses directly influence
+  impactful, publicly beneficial decisions. There's a strong emphasis on
+  accuracy and adherence to guidelines, but within that, a profound sense of
+  purpose.
 story_question2: >-
-  Given the structured nature of public service, what opportunities exist for
-  personal and professional growth for a Controller?
+  How does collaboration function within the team and across departments,
+  particularly in the process of preparing various financial statements and
+  conducting internal controls? What are the key avenues for a Junior Controller
+  to develop and grow in this role?
 story_answer2: >-
-  Many people join us, especially with initial experience as a Junior
-  Controller, and find a clear path for development. While it's a structured
-  public service environment, there's a constant need to adapt to new
-  regulations and economic landscapes. You'll gain deep insights into various
-  public sectors, enhance your strategic advisory skills, and even delve into
-  specialized areas like financial modeling or compliance auditing. The exposure
-  to different departments and the direct interaction with management mean
-  you're always learning and expanding your expertise, shaping you into a
-  well-rounded financial expert within the public sector.
+  Collaboration is absolutely key here, especially when we're preparing for
+  monthly or annual closures. We work closely across departments, from
+  accounting to various operational units, to gather all the necessary data and
+  ensure everything is aligned. As a Junior Controller, you won't just be handed
+  tasks; you'll be actively involved, learning from experienced colleagues.
+  There's a strong culture of mentorship, and we encourage continuous learning,
+  whether it's deepening your SAP skills or taking on more complex analytical
+  projects. The public service environment offers a stable path for professional
+  development, allowing you to truly grow your expertise in financial management
+  and strategic support, making a tangible difference.
 story_question3: >-
-  How important is effective communication in this analytical role, especially
-  when advising non-financial stakeholders?
+  The job description mentions 'process-oriented and analytical thinking.' Can
+  you elaborate on what this looks like in practice for this role, and how it
+  directly contributes to the overall success and efficiency of the department?
 story_answer3: >-
-  It's absolutely critical. While the role demands strong analytical skills to
-  dissect complex financial data, those insights are only valuable if they can
-  be clearly communicated. As a Controller, you're the bridge between raw
-  numbers and actionable strategies for our leadership. I spend a significant
-  amount of my time translating financial reports into understandable
-  narratives, explaining the 'why' behind the figures, and advising on potential
-  implications. It's not just about presenting data; it's about influencing
-  decisions, and that requires strong communication, persuasion, and the ability
-  to simplify complexity for non-financial stakeholders.
+  For us, 'process-oriented thinking' means always looking at how we can
+  optimize our financial workflows and ensure compliance efficiently. It’s about
+  more than just reporting numbers; it's about understanding the 'why' behind
+  them and identifying areas for improvement in our operational sequences.
+  Analytical thinking, on the other hand, is crucial for translating complex
+  financial data into actionable insights for management. Whether it's
+  forecasting budgets or conducting internal audits, your ability to dissect
+  information, identify trends, and present clear, data-driven recommendations
+  directly impacts our ability to manage resources effectively and make sound,
+  timely decisions for the public entity. It's truly at the heart of what makes
+  our controlling department successful and forward-looking.
 ---
-### Description
-
-On behalf of our client in Munich, we are seeking a dedicated **Controller (m/f/d)** to join their team in the **Public Service** sector as soon as possible. This role is crucial for organizing and executing business economic measures within a vital public institution.
-
-### Responsibilities
-
-*   Organize and execute business economic measures.
-*   Support management in strategic and operational decisions.
-*   Create, plan, control, and monitor budgets, including regular forecasts.
-*   Conduct internal controls and audits to ensure compliance with guidelines.
-*   Assist in the preparation of monthly, quarterly, and annual financial statements.
-*   Perform cost center and cost unit accounting.
-
-### Qualifications
-
-*   A completed commercial apprenticeship (e.g., Bank Clerk, Office Clerk, Tax Assistant) or a degree in business/economics.
-*   Ideally, initial professional experience as a Junior Controller or Accountant.
-*   Demonstrated process-oriented and analytical thinking, paired with strong communication skills.
-*   Initial experience with SAP is an advantage.
-*   Proficient in MS-Office packages.
-
-### Author's Take
-
-This position offers an excellent opportunity for an aspiring or early-career Controller to make a significant impact within the public service sector in Munich. The role is foundational, focusing on core controlling tasks such as budgeting, forecasting, and ensuring financial compliance. Given the public service context, precision, adherence to guidelines, and a strong sense of responsibility are paramount.
-
-Candidates with a background as a Junior Controller or Accountant, coupled with strong analytical and communication skills, will thrive here. The direct involvement in supporting strategic and operational decisions provides a unique chance for professional development. The recruiting agency, MHC, emphasizes a supportive and cost-free process, making this an accessible opportunity for suitable candidates looking for stability and a meaningful career. If you're looking to apply your financial expertise to benefit the community in a structured environment, this role is worth exploring.
-
-For inquiries, **Simon Schneider** can be reached at **089 954 287 111**.
+### Description\nMHC, a specialized recruitment agency, is seeking a **Controller (m/f/d) for the Public Service** sector on behalf of a key client in Munich. This role offers the opportunity to join a stable environment where your financial expertise directly supports strategic decisions within a public entity, contributing to the efficient organization and execution of business management measures.\n\n### Responsibilities\n- Organize and execute business management measures.\n- Support management in strategic and operational decisions.\n- Create, plan, control, and monitor budgets, as well as regular forecasts.\n- Conduct internal controls and audits to ensure compliance with guidelines.\n- Assist with the preparation of monthly, quarterly, and annual financial statements.\n- Perform cost center and cost unit accounting.\n\n### Qualifications\n- Completed commercial training (e.g., bank clerk, office clerk, tax assistant) or a degree in economics.\n- Ideally, first professional experience as a Junior Controller or accountant.\n- Process-oriented and analytical thinking coupled with strong communication skills.\n- Initial SAP experience is an advantage.\n- Proficient in MS-Office packages.\n\n### Author's Take\nThis is an excellent opportunity for an aspiring financial professional with initial experience in controlling or accounting to make a significant impact in the public sector. The role emphasizes analytical thinking, precision, and collaboration, offering a stable environment for professional growth within a public entity in Munich. If you are looking for a role where your financial acumen supports strategic public service initiatives, this position is a compelling choice. MHC is ready to guide you through the application process efficiently. For further inquiries, please contact Simon Schneider at 089 954 287 111.

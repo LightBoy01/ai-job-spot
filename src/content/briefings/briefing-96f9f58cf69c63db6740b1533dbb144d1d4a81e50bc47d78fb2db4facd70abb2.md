@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-96f9f58cf69c63db6740b1533dbb144d1d4a81e50bc47d78fb2db4facd70abb2
 title: RNN(p) for Power Consumption Forecasting

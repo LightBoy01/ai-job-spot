@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-c46fe7b049fad5025d09a7eb2800aa332a3ea9aa3bebcd0ecfc0970db93e5598
 title: '"Genesis Mission" to pool US data for AI models'

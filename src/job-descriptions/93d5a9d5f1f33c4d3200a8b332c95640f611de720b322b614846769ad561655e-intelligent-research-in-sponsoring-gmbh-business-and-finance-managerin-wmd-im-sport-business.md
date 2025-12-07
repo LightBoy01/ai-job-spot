@@ -68,4 +68,72 @@ story_answer3: >-
   challenges and directly influence company direction, really shaping your
   career path with us.
 ---
-### Description\n**Data-Driven, Client-Focused, Individual – that's the IRIS way.** As a market research and consulting company, we support our national and international clients in the sports business to jointly get the best out of their investments.\n\nAre you passionate about the synergy of innovation & financial performance, assertive, and excited about a thrilling job in the sports business?! Then you've come to the right place! We are looking for a Business & Finance Manager (all genders) to enrich our team with their skills and personality as soon as possible.\n\n**OUR COMPANY**\n*   **Locations**: Karlsruhe & Cologne\n*   **Employee Count**: 65\n*   **Industry**: Sports Business\n*   **Sector**: Market & Media Research | Marketing & Sponsoring | Business Intelligence | Digital Services\n*   **Clients**: International and national companies, associations, clubs, marketers\n*   **Expertise**: Intelligent, individual, and high-quality research products for clients who share our passion for professional sports.\n*   **Company Culture**: Team spirit, personal responsibility, feedback culture, willingness to learn and develop, performance, and a will to win. Leadership at eye level, agile decision-making.\n\n**YOUR JOB**\n*   **Position**: Business & Finance Manager (all genders)\n*   **Start Date**: Immediately\n*   **Employment**: Permanent & Full-time (40h/week)\n*   **Location**: Karlsruhe & Cologne; partially remote\n*   **Salary**: Qualification-dependent & performance-oriented\n*   **Bonuses**: Individual bonus models\n*   **Vacation**: 28 days/year | Travel: None\n\n**HOW WE WORK**\nOur company culture thrives on clear and open communication, flat hierarchies, and a strong sense of community. We enable everyone to work independently with significant responsibility, backed by strong support from their team and superiors.\n\n**OUR LOCATIONS AND OFFICES**\nCologne Ehrenfeld and Karlsruhe Durlach: Both offices have good connections to the motorway and public transport. The theme of sports is present everywhere in our offices – in the decoration and in our interactions. All desks are shared and individually booked for the workday via a system.\n\n**YOUR BENEFITS**\n*   Flexible working hours and remote work options\n*   Onboarding program & personal development concept\n*   Extensive IT equipment for on-site and home office work\n*   Subsidy for Deutschlandticket or Jobrad\n*   Numerous discounts on various brands via our Corporate Benefit Program\n\n### Responsibilities\n*   Steering and further development of strategic operational and financial topics.\n*   Planning and implementation of operational cost and process structures, their continuous development, and tracking of initiated measures with responsible parties.\n*   Creation, analysis, and interpretation of business and financial reports, including evaluation of central company KPIs.\n*   Budgeting, forecasting, and multi-year planning.\n*   Performing product cost calculations and business cases to support decision-making.\n*   Sparring partner for executives, the management board, investors, banks, and tax advisors on financial and process-relevant issues.\n*   Assistance in the preparation of annual financial statements together with our tax advisor.\n*   Deployment of digital solutions and generative AI to improve reporting and analysis processes, as well as continuous standardization and further development of structures and tools.\n\n### Qualifications\n**Education & Experience**\n*   Successfully completed studies in industrial engineering, economics (with a focus on finance & controlling), business informatics, MBA, or comparable.\n*   Several years of professional experience in process optimization or finance.\n\n**Skills**\n*   Proficient in financial models, budgeting, and forecasting methods.\n*   Proficient in various BI tools and AI-based analysis and productivity tools.\n*   Strong persuasiveness, analytical and strategic thinking.\n*   Strong detail and deadline orientation.\n*   Hands-on mentality and independent, self-structured work.\n*   Fluent German and English (min. C1 level).\n\n**Personality**\n*   Assertive and reliable\n*   Pragmatic and innovative\n*   Self-reliant and proactive\n*   Goal- and performance-oriented\n*   Positive and enthusiastic\n*   Communicative and team-oriented\n\n### Author's Take\nThis is an exciting Senior Business & Finance Manager opportunity within the dynamic sports business, offering significant strategic influence and direct engagement with leadership. IRIS provides a highly collaborative environment with flat hierarchies, a strong focus on personal development, and excellent work-life balance through flexible and remote work options. It's ideal for a proactive, analytical professional eager to drive financial performance and operational excellence, leveraging cutting-edge digital tools and AI.
+### Description
+**Data-Driven, Client-Focused, Individual – that's the IRIS way.** As a market research and consulting company, we support our national and international clients in the sports business to jointly get the best out of their investments.
+
+Are you passionate about the synergy of innovation & financial performance, assertive, and excited about a thrilling job in the sports business?! Then you've come to the right place! We are looking for a Business & Finance Manager (all genders) to enrich our team with their skills and personality as soon as possible.
+
+**OUR COMPANY**
+*   **Locations**: Karlsruhe & Cologne
+*   **Employee Count**: 65
+*   **Industry**: Sports Business
+*   **Sector**: Market & Media Research | Marketing & Sponsoring | Business Intelligence | Digital Services
+*   **Clients**: International and national companies, associations, clubs, marketers
+*   **Expertise**: Intelligent, individual, and high-quality research products for clients who share our passion for professional sports.
+*   **Company Culture**: Team spirit, personal responsibility, feedback culture, willingness to learn and develop, performance, and a will to win. Leadership at eye level, agile decision-making.
+
+**YOUR JOB**
+*   **Position**: Business & Finance Manager (all genders)
+*   **Start Date**: Immediately
+*   **Employment**: Permanent & Full-time (40h/week)
+*   **Location**: Karlsruhe & Cologne; partially remote
+*   **Salary**: Qualification-dependent & performance-oriented
+*   **Bonuses**: Individual bonus models
+*   **Vacation**: 28 days/year | Travel: None
+
+**HOW WE WORK**
+Our company culture thrives on clear and open communication, flat hierarchies, and a strong sense of community. We enable everyone to work independently with significant responsibility, backed by strong support from their team and superiors.
+
+**OUR LOCATIONS AND OFFICES**
+Cologne Ehrenfeld and Karlsruhe Durlach: Both offices have good connections to the motorway and public transport. The theme of sports is present everywhere in our offices – in the decoration and in our interactions. All desks are shared and individually booked for the workday via a system.
+
+**YOUR BENEFITS**
+*   Flexible working hours and remote work options
+*   Onboarding program & personal development concept
+*   Extensive IT equipment for on-site and home office work
+*   Subsidy for Deutschlandticket or Jobrad
+*   Numerous discounts on various brands via our Corporate Benefit Program
+
+### Responsibilities
+*   Steering and further development of strategic operational and financial topics.
+*   Planning and implementation of operational cost and process structures, their continuous development, and tracking of initiated measures with responsible parties.
+*   Creation, analysis, and interpretation of business and financial reports, including evaluation of central company KPIs.
+*   Budgeting, forecasting, and multi-year planning.
+*   Performing product cost calculations and business cases to support decision-making.
+*   Sparring partner for executives, the management board, investors, banks, and tax advisors on financial and process-relevant issues.
+*   Assistance in the preparation of annual financial statements together with our tax advisor.
+*   Deployment of digital solutions and generative AI to improve reporting and analysis processes, as well as continuous standardization and further development of structures and tools.
+
+### Qualifications
+**Education & Experience**
+*   Successfully completed studies in industrial engineering, economics (with a focus on finance & controlling), business informatics, MBA, or comparable.
+*   Several years of professional experience in process optimization or finance.
+
+**Skills**
+*   Proficient in financial models, budgeting, and forecasting methods.
+*   Proficient in various BI tools and AI-based analysis and productivity tools.
+*   Strong persuasiveness, analytical and strategic thinking.
+*   Strong detail and deadline orientation.
+*   Hands-on mentality and independent, self-structured work.
+*   Fluent German and English (min. C1 level).
+
+**Personality**
+*   Assertive and reliable
+*   Pragmatic and innovative
+*   Self-reliant and proactive
+*   Goal- and performance-oriented
+*   Positive and enthusiastic
+*   Communicative and team-oriented
+
+### Author's Take
+This is an exciting Senior Business & Finance Manager opportunity within the dynamic sports business, offering significant strategic influence and direct engagement with leadership. IRIS provides a highly collaborative environment with flat hierarchies, a strong focus on personal development, and excellent work-life balance through flexible and remote work options. It's ideal for a proactive, analytical professional eager to drive financial performance and operational excellence, leveraging cutting-edge digital tools and AI.

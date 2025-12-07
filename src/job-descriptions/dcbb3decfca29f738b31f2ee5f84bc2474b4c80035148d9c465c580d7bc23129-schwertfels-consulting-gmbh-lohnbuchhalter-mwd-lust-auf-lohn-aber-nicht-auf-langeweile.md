@@ -54,4 +54,33 @@ story_answer2: >-
   leading client advisory projects. It's a journey we encourage and invest in,
   ensuring your career here is dynamic and rewarding.
 ---
-### Description\nAre you passionate about payroll accounting, but without dusty filing cabinets and rigid structures?\n\nOur client is a modern, digitally oriented tax firm that understands excellent payroll accounting is more than just processing numbers. Here, you work with people, not just client numbers. The environment is open, appreciative, flexible, and offers genuine development prospects.\n\n**Why this firm is different:**\n*   Fully digitized payroll processes – modern tools instead of paperwork.\n*   Flexible working – home office, flexitime, trust instead of control.\n*   Strong focus on continuous development – internal payroll workshops, training, support for specializations.\n*   Palpable team culture – short communication paths, genuine collaboration, transparent communication.\n*   Demanding client structure – mid-sized companies, start-ups, growth-oriented businesses.\n*   Secure job with the agility of a modern service provider.\n\n### Responsibilities\n*   Conduct monthly payroll and salary accounting for clients across various industries.\n*   Communicate with clients as a peer – you are the primary contact person, not just an executor.\n*   Act as a contact person for labor law, social security, and wage tax questions.\n*   Manage digital interfaces and tools (DATEV, cloud applications).\n*   Contribute to the further development of digital payroll processes.\n*   Optional: Provide consulting on benefits, company pension schemes (BAV), compensation models, or digitalization.\n\n### Qualifications\n*   Solid experience in payroll and salary accounting.\n*   Proficient in DATEV or comparable software.\n*   Enjoy providing competent advice to clients.\n*   Openness to digital processes and interest in continuous professional development.\n*   Team spirit, reliability, and a professional standard for your work.\n\n### Author's Take\nThis role offers an exciting opportunity for a skilled payroll specialist looking to thrive in a forward-thinking, digital environment. The firm stands out with its commitment to flexibility, professional growth, and a genuinely collaborative team culture. You'll work with advanced tools, engage directly with diverse clients, and have the freedom to specialize and develop your expertise. If you value a supportive workplace that champions work-life balance, continuous learning, and where your contributions are truly valued, this is an excellent fit.
+### Description
+Are you passionate about payroll accounting, but without dusty filing cabinets and rigid structures?
+
+Our client is a modern, digitally oriented tax firm that understands excellent payroll accounting is more than just processing numbers. Here, you work with people, not just client numbers. The environment is open, appreciative, flexible, and offers genuine development prospects.
+
+**Why this firm is different:**
+*   Fully digitized payroll processes – modern tools instead of paperwork.
+*   Flexible working – home office, flexitime, trust instead of control.
+*   Strong focus on continuous development – internal payroll workshops, training, support for specializations.
+*   Palpable team culture – short communication paths, genuine collaboration, transparent communication.
+*   Demanding client structure – mid-sized companies, start-ups, growth-oriented businesses.
+*   Secure job with the agility of a modern service provider.
+
+### Responsibilities
+*   Conduct monthly payroll and salary accounting for clients across various industries.
+*   Communicate with clients as a peer – you are the primary contact person, not just an executor.
+*   Act as a contact person for labor law, social security, and wage tax questions.
+*   Manage digital interfaces and tools (DATEV, cloud applications).
+*   Contribute to the further development of digital payroll processes.
+*   Optional: Provide consulting on benefits, company pension schemes (BAV), compensation models, or digitalization.
+
+### Qualifications
+*   Solid experience in payroll and salary accounting.
+*   Proficient in DATEV or comparable software.
+*   Enjoy providing competent advice to clients.
+*   Openness to digital processes and interest in continuous professional development.
+*   Team spirit, reliability, and a professional standard for your work.
+
+### Author's Take
+This role offers an exciting opportunity for a skilled payroll specialist looking to thrive in a forward-thinking, digital environment. The firm stands out with its commitment to flexibility, professional growth, and a genuinely collaborative team culture. You'll work with advanced tools, engage directly with diverse clients, and have the freedom to specialize and develop your expertise. If you value a supportive workplace that champions work-life balance, continuous learning, and where your contributions are truly valued, this is an excellent fit.

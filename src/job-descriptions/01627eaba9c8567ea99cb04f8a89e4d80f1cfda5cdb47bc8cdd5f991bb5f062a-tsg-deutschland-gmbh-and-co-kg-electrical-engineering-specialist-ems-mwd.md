@@ -52,4 +52,31 @@ story_answer2: >-
   responsibilities, whether it's diving deeper into PV or BESS integration, or
   even exploring roles in other TSG branches. Your development is truly valued.
 ---
-### Description\nTSG Deutschland GmbH & Co. KG, a subsidiary of the TSG Group Paris with over 6,500 employees across 30 countries, is a key partner in the mobility sector. The company provides eco-friendly solutions, high-quality products, and services in tank technology, electromobility, refrigeration/HVAC, heating/payment systems, transformers, solar, and alternative fuels. With comprehensive consulting and a nationwide presence supported by 1,300 employees across Germany, TSG ensures successful customer support.\n\nAs an Electrical Engineering Specialist, you will leverage your expertise to ensure the efficiency and reliability of our technologies. If you are passionate about technology and mobility and wish to work in a future-oriented company, TSG invites you to become part of its group and actively shape the future of mobility.\n\n### Responsibilities\n- Conduct staging and initial configuration of Beckhoff-based EMS systems.\n- Perform remote commissioning.\n- Apply and further develop our web-based configuration tool with MQTT connectivity.\n- Provide technical support for EMS installations as part of 1st & 2nd-level support.\n- Analyze and troubleshoot technical faults (e.g., communication with charging stations, PV, BESS).\n- Parameterize new locations (e.g., number of charging stations, storage sizes, PV connection).\n- Collaborate with software and hardware developers on tests and rollouts.\n- Manage CI/CD Pipeline and Release Management.\n- Document configurations and contribute to standardization efforts.\n\n### Qualifications\n- Completed vocational training or a degree in Electrical Engineering, Automation Technology, or Energy Technology.\n- Practical experience with industrial or building automation systems.\n- Familiarity with Modbus TCP/IP, MQTT, and IP-based communication.\n- Basic network knowledge including IP configuration, VPN, and routers (e.g., Teltonika).\n- Ability to perform structured troubleshooting in complex systems.\n- Independent, self-reliant, and solution-oriented working style.\n- Proficiency in English, both written and spoken.\n- Proficiency in German, both written and spoken.\n\n### Author's Take\nThis is a solid technical role for an Electrical Engineering Specialist who wants to contribute directly to the rapidly growing field of electromobility. TSG Deutschland offers the stability of a large international group combined with a \"startup atmosphere\" that encourages innovation and personal development. The hybrid work model and commitment to continuous training highlight a strong focus on employee well-being and growth. If you thrive on solving complex technical challenges in a supportive, collaborative, and future-oriented environment, this role provides an excellent platform to make a tangible impact on sustainable mobility.
+### Description
+TSG Deutschland GmbH & Co. KG, a subsidiary of the TSG Group Paris with over 6,500 employees across 30 countries, is a key partner in the mobility sector. The company provides eco-friendly solutions, high-quality products, and services in tank technology, electromobility, refrigeration/HVAC, heating/payment systems, transformers, solar, and alternative fuels. With comprehensive consulting and a nationwide presence supported by 1,300 employees across Germany, TSG ensures successful customer support.
+
+As an Electrical Engineering Specialist, you will leverage your expertise to ensure the efficiency and reliability of our technologies. If you are passionate about technology and mobility and wish to work in a future-oriented company, TSG invites you to become part of its group and actively shape the future of mobility.
+
+### Responsibilities
+- Conduct staging and initial configuration of Beckhoff-based EMS systems.
+- Perform remote commissioning.
+- Apply and further develop our web-based configuration tool with MQTT connectivity.
+- Provide technical support for EMS installations as part of 1st & 2nd-level support.
+- Analyze and troubleshoot technical faults (e.g., communication with charging stations, PV, BESS).
+- Parameterize new locations (e.g., number of charging stations, storage sizes, PV connection).
+- Collaborate with software and hardware developers on tests and rollouts.
+- Manage CI/CD Pipeline and Release Management.
+- Document configurations and contribute to standardization efforts.
+
+### Qualifications
+- Completed vocational training or a degree in Electrical Engineering, Automation Technology, or Energy Technology.
+- Practical experience with industrial or building automation systems.
+- Familiarity with Modbus TCP/IP, MQTT, and IP-based communication.
+- Basic network knowledge including IP configuration, VPN, and routers (e.g., Teltonika).
+- Ability to perform structured troubleshooting in complex systems.
+- Independent, self-reliant, and solution-oriented working style.
+- Proficiency in English, both written and spoken.
+- Proficiency in German, both written and spoken.
+
+### Author's Take
+This is a solid technical role for an Electrical Engineering Specialist who wants to contribute directly to the rapidly growing field of electromobility. TSG Deutschland offers the stability of a large international group combined with a \"startup atmosphere\" that encourages innovation and personal development. The hybrid work model and commitment to continuous training highlight a strong focus on employee well-being and growth. If you thrive on solving complex technical challenges in a supportive, collaborative, and future-oriented environment, this role provides an excellent platform to make a tangible impact on sustainable mobility.

@@ -4,6 +4,7 @@ import {
   getJobs,
   getJobById,
   getRelevantArticles,
+  getArticlesByIds,
 } from '@/lib/firestoreAdminClient';
 import { SerializedJobPosting, SerializedArticle } from '@/lib/types';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
@@ -433,17 +434,39 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                           </div>
                         </li>
                       )}
-                      {job.verificationDate && (
+                      
+                      {job.verificationHistory && job.verificationHistory.length > 0 ? (
                         <li className="grid grid-cols-[auto,1fr] gap-x-3 items-start">
                           <Icon name="calendar" className="h-5 w-5 mt-0.5 text-secondary" />
                           <div>
-                            <strong className="font-semibold">Last Verified:</strong>
-                            <span className="ml-2 font-medium">
-                              {formatDate(job.verificationDate)}
-                            </span>
+                            <strong className="font-semibold">Verification History:</strong>
+                            <ul className="mt-2 space-y-2 border-l-2 border-secondary/30 pl-3">
+                              {job.verificationHistory.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 3).map((event, idx) => (
+                                <li key={idx} className="text-xs text-neutral-600">
+                                  <div className="font-medium text-neutral-800">{formatDate(event.date)}</div>
+                                  <div className="text-neutral-500">
+                                    Verified via <span className="font-semibold text-secondary-dark">{event.type}</span> check
+                                    {event.verifier ? ` by ${event.verifier}` : ''}
+                                  </div>
+                                </li>
+                              ))}
+                            </ul>
                           </div>
                         </li>
+                      ) : (
+                        job.verificationDate && (
+                          <li className="grid grid-cols-[auto,1fr] gap-x-3 items-start">
+                            <Icon name="calendar" className="h-5 w-5 mt-0.5 text-secondary" />
+                            <div>
+                              <strong className="font-semibold">Last Verified:</strong>
+                              <span className="ml-2 font-medium">
+                                {formatDate(job.verificationDate)}
+                              </span>
+                            </div>
+                          </li>
+                        )
                       )}
+
                       {job.sourceUrl && (
                         <li className="grid grid-cols-[auto,1fr] gap-x-3 items-start">
                           <Icon name="source" className="h-5 w-5 mt-0.5 text-secondary" />
@@ -461,6 +484,16 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                         </li>
                       )}
                     </ul>
+
+                    <div className="mt-6 pt-4 border-t border-secondary/20">
+                      <button
+                        onClick={() => window.open(`mailto:support@aijobspot.com?subject=Report Closed Job: ${job.id}&body=I found an issue with this job listing: ${process.env.NEXT_PUBLIC_SITE_URL}/jobs/${job.id}`, '_blank')}
+                        className="text-xs text-neutral-500 hover:text-red-600 flex items-center transition-colors group"
+                      >
+                        <Icon name="flag" className="h-4 w-4 mr-1.5 group-hover:text-red-600" />
+                        Report this job as closed or incorrect
+                      </button>
+                    </div>
                   </div>
                 </section>
               )}
@@ -552,7 +585,28 @@ export const getStaticProps: GetStaticProps<
     return { notFound: true };
   }
 
-  const relevantArticles = await getRelevantArticles(job.tags || [], job.id!);
+  let relevantArticles: SerializedArticle[] = [];
+
+  if (job.relatedArticleIds && job.relatedArticleIds.length > 0) {
+    const articles = await getArticlesByIds(job.relatedArticleIds);
+    relevantArticles = articles.map((article) => ({
+      ...article,
+      publishDate: article.publishDate ? article.publishDate.toISOString() : '',
+      issueNo: article.issueNo ?? null,
+      volumeNo: article.volumeNo ?? null,
+    }));
+  }
+  
+  // Fallback if no pre-computed relationships exist
+  if (relevantArticles.length === 0) {
+    const articles = await getRelevantArticles(job.tags || [], job.id!);
+    relevantArticles = articles.map((article) => ({
+      ...article,
+      publishDate: article.publishDate ? article.publishDate.toISOString() : '',
+      issueNo: article.issueNo ?? null,
+      volumeNo: article.volumeNo ?? null,
+    }));
+  }
 
   // Ensure all data is correctly serialized and defaulted
   const serializedJob: SerializedJobPosting = {
@@ -565,6 +619,12 @@ export const getStaticProps: GetStaticProps<
     verificationDate: job.verificationDate
       ? job.verificationDate.toISOString()
       : null,
+    verificationHistory: job.verificationHistory?.map(event => ({
+      date: event.date.toISOString(),
+      type: event.type,
+      verifier: event.verifier ?? null,
+      note: event.note ?? null,
+    })) ?? [],
     salaryRange: job.salaryRange ?? null,
     tags: job.tags ?? [],
     description: job.description ?? '',
@@ -588,9 +648,7 @@ export const getStaticProps: GetStaticProps<
   };
 
   if (id === '01118332cc3aeb166f1c5fcc027578db4d57a573ecfd96289b632e14fad2c42a') {
-    console.log('--- DEBUG START: JOB HTML ---');
-    console.log(serializedJob.description);
-    console.log('--- DEBUG END: JOB HTML ---');
+    // Debug block removed
   }
 
   return {
@@ -598,9 +656,7 @@ export const getStaticProps: GetStaticProps<
       job: serializedJob,
       relevantArticles: relevantArticles.map((article) => ({
         ...article,
-        publishDate: article.publishDate
-          ? article.publishDate.toISOString()
-          : '',
+        publishDate: article.publishDate ?? '',
         issueNo: article.issueNo ?? null,
         volumeNo: article.volumeNo ?? null,
       })),

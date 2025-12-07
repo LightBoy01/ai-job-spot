@@ -6,8 +6,8 @@ title: >-
 company: Powerprozesse
 location: Worms
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/powerprozesse/automation-developer-n8n-zapier-make-power-automate-100-remote-worms-25794
-postedDate: '2025-11-07T10:20:11.000Z'
+  https://www.arbeitnow.com/jobs/companies/powerprozesse/automation-developer-n8n-zapier-make-power-automate-100-remote-worms-461936
+postedDate: '2025-11-28T08:20:12.000Z'
 expirationDate: null
 tags:
   - Information technology
@@ -15,67 +15,64 @@ tags:
 status: published
 jobLevel: Mid-Senior
 employeeRole: Individual Contributor
-salaryRange: '$4,000 - $5,500 EUR per month (gross)'
+salaryRange: 4.000 - 5.500 Euro brutto pro Monat
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/powerprozesse/automation-developer-n8n-zapier-make-power-automate-100-remote-worms-25794
+  https://www.arbeitnow.com/jobs/companies/powerprozesse/automation-developer-n8n-zapier-make-power-automate-100-remote-worms-461936
 companyLogoUrl: null
 companyCulture: >-
-  Powerprozesse cultivates a highly collaborative and supportive remote-first
-  culture, emphasizing long-term growth, mutual motivation, and personal
-  development. They offer excellent work-life balance through flexible hours and
-  30 vacation days, ensuring a collegial and family-like atmosphere.
+  Powerprozesse fosters a highly collaborative and familial remote work
+  environment where mutual support and personal growth are prioritized. The
+  company is committed to long-term employee development and offers significant
+  career advancement opportunities in a future-proof field.
 story_question1: >-
-  Given the focus on delivering 'tangible relief' to clients through automation,
-  how do you ensure the solutions truly meet their needs and what's the most
-  challenging aspect of identifying and implementing the right automation for a
-  client's unique business process?
+  Given the rapid evolution of AI and low-code technologies, what are the
+  primary challenges an AI Developer faces in identifying and implementing new
+  automation opportunities for diverse clients, and how does the company support
+  continuous learning and adaptation?
 story_answer1: >-
-  That's a fantastic question, and it gets right to the heart of what we do.
-  When a new client comes to us, it's like a puzzle. We don't just jump into
-  building; we deeply analyze their existing workflows, often sitting with them
-  to truly understand the pain points. The magic really happens in translating
-  those nuanced, often manual steps into a clean, efficient automation. The
-  biggest challenge? It's rarely technical. It's often helping clients
-  articulate their true needs, sometimes even challenging their existing
-  assumptions about how things 'have to be done'. But when you see their faces
-  light up because we've taken a repetitive, soul-crushing task off their plate,
-  that's when you know you've made a real difference. It’s incredibly rewarding
-  to not just build, but to genuinely transform their day-to-day operations and
-  free them up for more meaningful work.
+  That's a fantastic question, and it really gets to the heart of what we do
+  here. The biggest challenge, but also the most rewarding part, is translating
+  complex client needs into elegant, low-code automation solutions. Each
+  client's process is unique, and sometimes it's like solving a puzzle where the
+  pieces are constantly shifting. But that's where our culture truly shines. We
+  don't just throw you into the deep end; we provide extensive training on tools
+  like n8n and make.com, and we actively encourage exploring cutting-edge AI
+  integrations like LLMs. Our team is incredibly supportive – if you hit a wall,
+  someone is always there to brainstorm with you. It’s a continuous learning
+  journey, and we see every challenge as an opportunity to innovate and grow
+  together.
 story_question2: >-
-  The job description highlights a significant opportunity for learning and
-  growth, especially with new AI and automation tools. What does the structured
-  or informal learning path look like for a new developer, and how does the team
-  support continuous upskilling in such a rapidly evolving field?
+  How does Powerprozesse measure the real-world impact of the automations an AI
+  Developer builds for clients, and what opportunities are there to directly see
+  the value created?
 story_answer2: >-
-  We're big believers in continuous learning, especially in AI and automation,
-  where things move at lightning speed. For new team members, we have a robust
-  onboarding that quickly gets you up to speed on n8n and make.com – you'll be
-  building your first automations in weeks. Beyond that, it's a mix of hands-on
-  project work, access to courses, and a strong culture of knowledge sharing. We
-  have dedicated time for experimenting with new tools, and senior team members
-  are always happy to mentor. We also regularly host internal workshops on new
-  LLM integrations or advanced techniques. The idea is that everyone contributes
-  to our collective knowledge, and we actively encourage exploring new avenues
-  like KI-Voicebots or RAG-Vektordatenbanken. This isn't just about 'doing the
-  job'; it's about evolving into a true expert in the field, with a clear path
-  to leadership if that's your ambition.
+  Measuring impact is crucial for us, and it's something we celebrate! When you
+  build an automation, you're not just writing code; you're directly freeing up
+  a client's team from tedious, repetitive tasks. We often receive direct
+  feedback, sometimes even heartfelt thanks, from our clients because they
+  immediately feel the relief and efficiency your work brings. Imagine a
+  property manager who no longer has to manually process every damage report –
+  your automation handles it seamlessly, from AI analysis to contractor
+  assignment. Seeing that tangible relief and improved workflow is incredibly
+  motivating. Plus, as we expand into new industries, you'll be at the forefront
+  of defining how these impacts are measured and communicated, ensuring your
+  contributions are always recognized.
 story_question3: >-
-  With a 100% remote work model, how does Powerprozesse foster its 'collegial
-  and familiar' team atmosphere and ensure effective collaboration and cohesion
-  among team members scattered across Germany or Europe?
+  With a 100% remote setup, how does Powerprozesse ensure a strong sense of team
+  cohesion and foster personal connections among colleagues, especially given
+  the emphasis on a 'familial' atmosphere?
 story_answer3: >-
-  It's true, we're 100% remote, but we're far from isolated. We consciously put
-  effort into maintaining our strong team bond. Beyond daily stand-ups and
-  project syncs, we use video calls extensively – not just for work, but for
-  virtual coffee breaks and team lunches. We have dedicated communication
-  channels for informal chats and celebrate wins, big and small, together.
-  Crucially, we organize regular in-person team events in Germany and even
-  Europe, which are fantastic opportunities to connect, share ideas, and build
-  those personal relationships that are so vital. It’s a deliberate blend of
-  digital connectivity and meaningful physical meetups that keeps our family
-  spirit alive and ensures everyone feels connected, supported, and part of
-  something bigger.
+  Ah, the remote culture question! It's true, we're 100% remote, which offers
+  incredible flexibility, but we actively combat the feeling of isolation. We
+  truly believe in our 'familial' atmosphere. This means regular virtual coffee
+  breaks, dedicated slack channels for non-work chatter, and lively online team
+  events. Beyond the screen, we organize in-person team events across Germany
+  and even Europe. These aren't just work retreats; they're genuine
+  opportunities to connect, share laughs, and build those personal bonds that
+  make coming to 'work' (even if it's from your home office) feel like being
+  part of something bigger. We actively encourage everyone to contribute to our
+  collective well-being and ensure no one feels like just another cog in the
+  machine.
 ---
-### Description\nPowerprozesse is seeking dedicated AI Developers to plan and build low-code automations for clients, working 100% remotely. No prior automation experience is necessary, as you'll acquire the essential skills within weeks using modern low-code tools. This role offers the chance to analyze client business processes, develop innovative automation ideas, and implement solutions that provide tangible relief and efficiency. Initially focusing on real estate management, the company aims to become Germany's leading digital process agency and expand into other sectors. Powerprozesse values long-term growth, offering a secure, permanent position within a future-proof industry. You'll join a team with a strong collegial and familiar atmosphere, promoting mutual motivation and personal development.\n\nFor example, a simple automation for a property management company might involve: “Damage report received” > “AI analysis” > “Responsible craftsman commissioned” > “Tenant notified.”\n\n### Responsibilities\n*   Analyze client business processes and develop suitable automation ideas.\n*   Implement automation solutions using modern low-code tools (e.g., n8n, make.com), including integration of LLMs like OpenAI.\n*   Plan and introduce new SaaS applications for clients.\n*   Connect software solutions via interfaces.\n*   Conduct kickoffs and meetings with clients.\n*   Record explainer videos for user training.\n*   Provide user support, error analysis, and troubleshooting.\n\n### Qualifications\n*   A completed degree in Computer Science or Business Informatics, professional experience as a developer, or an IT specialist qualification.\n*   Affinity for digital processes, Artificial Intelligence, and automation.\n*   Strong technical understanding and problem-solving skills.\n*   Ability to handle performance pressure effectively.\n*   Quick comprehension and a disciplined work approach.\n*   Solid English skills for seamless team communication.\n*   Residency in Germany or a timezone within ±2 hours of GMT+2.\n*   Prior knowledge with tools like n8n, Make.com, or Zapier is advantageous but not required.\n*   Programming skills (e.g., JavaScript or Python) are also advantageous but not required.\n\n### Author's Take\nThis is an outstanding opportunity for an AI Developer passionate about leveraging low-code and AI to create significant client impact. Powerprozesse offers a 100% remote, stable, and highly supportive environment with excellent opportunities for learning, professional growth, and career advancement into expert or leadership roles. The company's commitment to continuous skill development in emerging technologies, combined with a truly collegial culture and strong work-life balance benefits, makes this role particularly appealing for those looking to build a long-term career in a dynamic and future-proof field.
+### Description\\nPowerprozesse is looking for AI Developers to plan and create low-code automations for our clients. This is a 100% remote position, and no prior automation experience is necessary, as we will provide comprehensive training. You'll analyze client business processes, develop innovative automation ideas, and implement them using modern low-code tools. Each automation you build directly relieves clients of manual tasks, creating tangible value and efficiency.\\n\\n### Responsibilities\\n*   Analyze customer business processes and develop suitable automation ideas.\\n*   Implement automations using modern low-code tools like n8n and Make.com, including the integration of LLMs (e.g., OpenAI) and other AI agents (e.g., VAPI voicebots, RAG vector databases).\\n*   Plan and introduce new SaaS applications for clients.\\n*   Connect software solutions via interfaces.\\n*   Conduct kick-offs and meetings with clients.\\n*   Record explanatory videos for user training.\\n*   Provide user support, error analysis, and troubleshooting.\\n\\n### Qualifications\\n*   A completed degree in Computer Science/IT, a vocational qualification as an IT specialist, or equivalent professional experience as a developer.\\n*   A strong affinity for digital processes, Artificial Intelligence, and automation.\\n*   Technical understanding and problem-solving skills.\\n*   Ability to perform effectively under pressure.\\n*   Quick comprehension and a disciplined working style.\\n*   Solid English skills for seamless team communication.\\n*   Residency in Germany or a timezone with a maximum \\u00b12 hour difference to GMT+2.\\n*   Prior knowledge of tools like n8n, Make.com, or Zapier is advantageous but not mandatory.\\n*   Programming skills (e.g., JavaScript or Python) are also beneficial but not mandatory.\\n\\n### Author's Take\\nThis is an exciting opportunity for individuals passionate about AI and automation to join a fast-growing digital process agency. Powerprozesse offers a 100% remote, secure, and flexible work environment with a strong emphasis on continuous learning and career growth. The company prides itself on a highly collaborative and familial atmosphere, where mutual support and personal development are paramount. You'll be tackling challenging \\\"puzzles\\\" with cutting-edge low-code and AI tools, directly impacting client efficiency. With excellent compensation, 30 days of vacation, flexible hours, and an ETF company pension with a monthly subsidy, this role promises not just a job, but a long-term career in a future-proof field. Powerprozesse is looking for motivated individuals eager to grow and contribute to their ambitious goal of becoming Germany's leading digital process agency.

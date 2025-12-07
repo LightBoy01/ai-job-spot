@@ -1,5 +1,3 @@
-<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
-
 ---
 id: briefing-3d31b4ec6f1b6fb2ba5e09f0f685f423c5968be347b9a0cbd6fa8a3d878fd9c1
 title: Do Vision-Language Models Understand Visual Persuasiveness?

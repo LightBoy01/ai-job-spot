@@ -16,7 +16,7 @@ excerpt: >-
   Hello Windows Insiders, today we are releasing Windows 11 Insider Preview
   Build 28000 to the Canary Channel.
 
-  What’s new in Build 28000
+  What's new in Build 28000
 
   [General]
 
@@ -25,7 +25,7 @@ excerpt: >-
   The post Announcing Windows 11 Insider Preview B
 ---
 <p>Hello Windows Insiders, today we are releasing <strong>Windows 11 Insider Preview </strong><strong>Build 28000 </strong>to the Canary Channel.</p>
-<h2><strong>What’s new in Build 28000</strong></h2>
+<h2><strong>What's new in Build 28000</strong></h2>
 <h3><strong>[General]</strong></h3>
 <ul>
 <li>This u<br>

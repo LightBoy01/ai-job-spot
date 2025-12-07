@@ -11,7 +11,7 @@ status: pending_review
 tags:
   - Business / Regulation
 excerpt: >-
-  The Trump administration’s pressure on European regulators is having an
+  The Trump administration's pressure on European regulators is having an
   impact, with fewer restrictions on Big Tech and canceled measures.
 ---
-The Trump administration’s pressure on European regulators is having an impact, with fewer restrictions on Big Tech and canceled measures.
+The Trump administration's pressure on European regulators is having an impact, with fewer restrictions on Big Tech and canceled measures.

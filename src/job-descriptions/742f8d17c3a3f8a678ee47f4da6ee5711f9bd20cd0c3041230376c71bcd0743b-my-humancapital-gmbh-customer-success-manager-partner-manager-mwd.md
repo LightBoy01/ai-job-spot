@@ -62,4 +62,22 @@ story_answer3: >-
   transparent. We believe a strong team connection underpins our success,
   whether we're in the office or working remotely.
 ---
-### Description\nOur partner company in Munich is seeking a **Customer Success Manager / Partner Manager (m/w/d)** to join their team as soon as possible. In this central role, you will be responsible for nurturing and expanding long-term B2B partnerships within the financial industry, acting as a crucial link between marketing, sales, and product development.\n\n### Responsibilities\n*   Manage a fixed portfolio of existing B2B partners in the financial sector.\n*   Strengthen and foster the expansion and maintenance of collaborations and long-term partnerships with institutions, brokers, issuers, and asset managers.\n*   Steer and optimize campaigns for certificates, ETFs, and other financial products, taking on a central marketing role.\n*   Act as a connecting interface between Marketing, Sales, and Product to ensure a smooth flow of information and work.\n*   Continuously develop existing cooperations through insightful performance reports, structured partner feedback, and the identification of new potentials.\n\n### Qualifications\n*   A degree or training in Marketing, Media, Business Administration, or a comparable qualification.\n*   Experience in campaign management, media sales, or working with B2B partners, e.g., as a Partner Manager (m/w/d) or Customer Success Manager (m/w/d).\n*   Interest in the financial market, capital market, trading, and stock exchange environment, ideally with own trading experience.\n*   Structured, self-driven work style and excellent communication and teamwork skills.\n*   Very good German language skills.\n\n### Author's Take\nThis is an excellent opportunity for an experienced Customer Success or Partner Manager looking for a long-term role within the dynamic financial sector. The company truly values its employees, offering a fantastic work-life balance through flexible working hours and home office options. You'll thrive in a supportive team environment characterized by flat hierarchies, quick decision-making, and regular company events. Furthermore, the commitment to continuous professional development and modern technical equipment underscores a forward-thinking and employee-centric culture. This role is perfect for someone who is proactive, enjoys building strong relationships, and is eager to make a tangible impact.
+### Description
+Our partner company in Munich is seeking a **Customer Success Manager / Partner Manager (m/w/d)** to join their team as soon as possible. In this central role, you will be responsible for nurturing and expanding long-term B2B partnerships within the financial industry, acting as a crucial link between marketing, sales, and product development.
+
+### Responsibilities
+*   Manage a fixed portfolio of existing B2B partners in the financial sector.
+*   Strengthen and foster the expansion and maintenance of collaborations and long-term partnerships with institutions, brokers, issuers, and asset managers.
+*   Steer and optimize campaigns for certificates, ETFs, and other financial products, taking on a central marketing role.
+*   Act as a connecting interface between Marketing, Sales, and Product to ensure a smooth flow of information and work.
+*   Continuously develop existing cooperations through insightful performance reports, structured partner feedback, and the identification of new potentials.
+
+### Qualifications
+*   A degree or training in Marketing, Media, Business Administration, or a comparable qualification.
+*   Experience in campaign management, media sales, or working with B2B partners, e.g., as a Partner Manager (m/w/d) or Customer Success Manager (m/w/d).
+*   Interest in the financial market, capital market, trading, and stock exchange environment, ideally with own trading experience.
+*   Structured, self-driven work style and excellent communication and teamwork skills.
+*   Very good German language skills.
+
+### Author's Take
+This is an excellent opportunity for an experienced Customer Success or Partner Manager looking for a long-term role within the dynamic financial sector. The company truly values its employees, offering a fantastic work-life balance through flexible working hours and home office options. You'll thrive in a supportive team environment characterized by flat hierarchies, quick decision-making, and regular company events. Furthermore, the commitment to continuous professional development and modern technical equipment underscores a forward-thinking and employee-centric culture. This role is perfect for someone who is proactive, enjoys building strong relationships, and is eager to make a tangible impact.

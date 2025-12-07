@@ -71,4 +71,29 @@ story_answer3: >-
   being independent when you need to be, but always knowing you have a strong,
   supportive team backing you up.
 ---
-### Description\\nAs an independent IT service provider with over 10 years of experience in Hamburg and surrounding areas, focusing on personal and reliable IT support for small and medium-sized businesses, we are seeking dedicated part-time support in IT Service. This role offers a flexible weekly workload of 20-30 hours, adaptable to your schedule.\\n\\n### Responsibilities\\n- Provide 1st, 2nd, and 3rd level technical support and user consultation.\\n- Analyze and resolve hardware and software problems via remote access or on-site at customer locations.\\n- Support the setup and maintenance of Windows operating systems and the installation of new hardware.\\n- Install and configure standard software, such as Microsoft 365 and common security solutions.\\n- Maintain and document IT inventory, network plans, our Wiki, and customer-specific details.\\n- Participate in IT rollouts, office moves, and system migrations.\\n- Actively implement our security and data protection guidelines in daily IT operations.\\n\\n### Qualifications\\n- A completed IT education, e.g., as an IT specialist for system integration, IT system electronics technician, or a comparable qualification.\\n- Experience in technical support (1st/2nd/3rd level) and troubleshooting.\\n- Excellent knowledge of hardware and software, particularly Windows operating systems, Microsoft 365, and common peripherals.\\n- Very good German language skills, both written and spoken (minimum C1 level); English skills are a plus.\\n- A structured and service-oriented work approach.\\n- Knowledge of network technology, especially TCP/IP, routers, switches, firewalls, etc.\\n- Experience with Active Directory.\\n- Experience in virtualization (e.g., VMware, Hyper-V).\\n- Knowledge of IT security & backup solutions.\\n- **Nice-to-have:** Class B driver's license.\\n\\n### Author's Take\\nThis is a fantastic opportunity for an experienced IT support professional looking for a stable, flexible, and growth-oriented part-time role. The company fosters a supportive environment that values continuous learning, work-life balance, and provides a modern, well-equipped workplace. With a focus on personal client relationships and comprehensive IT service, this dynamic position offers long-term perspectives within a growing business.
+### Description\
+As an independent IT service provider with over 10 years of experience in Hamburg and surrounding areas, focusing on personal and reliable IT support for small and medium-sized businesses, we are seeking dedicated part-time support in IT Service. This role offers a flexible weekly workload of 20-30 hours, adaptable to your schedule.\
+\
+### Responsibilities\
+- Provide 1st, 2nd, and 3rd level technical support and user consultation.\
+- Analyze and resolve hardware and software problems via remote access or on-site at customer locations.\
+- Support the setup and maintenance of Windows operating systems and the installation of new hardware.\
+- Install and configure standard software, such as Microsoft 365 and common security solutions.\
+- Maintain and document IT inventory, network plans, our Wiki, and customer-specific details.\
+- Participate in IT rollouts, office moves, and system migrations.\
+- Actively implement our security and data protection guidelines in daily IT operations.\
+\
+### Qualifications\
+- A completed IT education, e.g., as an IT specialist for system integration, IT system electronics technician, or a comparable qualification.\
+- Experience in technical support (1st/2nd/3rd level) and troubleshooting.\
+- Excellent knowledge of hardware and software, particularly Windows operating systems, Microsoft 365, and common peripherals.\
+- Very good German language skills, both written and spoken (minimum C1 level); English skills are a plus.\
+- A structured and service-oriented work approach.\
+- Knowledge of network technology, especially TCP/IP, routers, switches, firewalls, etc.\
+- Experience with Active Directory.\
+- Experience in virtualization (e.g., VMware, Hyper-V).\
+- Knowledge of IT security & backup solutions.\
+- **Nice-to-have:** Class B driver's license.\
+\
+### Author's Take\
+This is a fantastic opportunity for an experienced IT support professional looking for a stable, flexible, and growth-oriented part-time role. The company fosters a supportive environment that values continuous learning, work-life balance, and provides a modern, well-equipped workplace. With a focus on personal client relationships and comprehensive IT service, this dynamic position offers long-term perspectives within a growing business.

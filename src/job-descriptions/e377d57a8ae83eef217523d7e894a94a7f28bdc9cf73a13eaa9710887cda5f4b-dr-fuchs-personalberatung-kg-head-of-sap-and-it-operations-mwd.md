@@ -72,4 +72,25 @@ story_answer3: >-
   agile, security-conscious, and data-driven mindset across the entire
   organization, which is a powerful legacy to leave.
 ---
-### Description\nThis is a strategic leadership role for an experienced IT professional to take overall responsibility for modernizing and operating central SAP systems and infrastructure within an international mechanical engineering company. The company is undergoing a significant S/4HANA transformation, comprehensively realigning and modernizing its SAP, infrastructure, and security operations globally. This position offers high visibility and significant scope for shaping the future IT landscape.\n\n### Responsibilities\n- Overall responsibility for stable, secure SAP and IT operations at international locations.\n- Ensuring the availability of infrastructure, platforms, and SAP systems.\n- Further development of IT security, including the expansion of a Cyber Defense Center.\n- Introduction of modern network and security architectures (e.g., SASE).\n- Management of complex projects in infrastructure, security, and SAP operations.\n- Leadership and development of an international team, including department heads.\n- Management of IT service providers and Managed Service models.\n\n### Qualifications\n- Several years of leadership experience in global IT and SAP operations.\n- Profound knowledge of SAP operations, lifecycle management, and IT infrastructure.\n- Experience in building security architectures and Cyber Defense structures.\n- Competencies in network, server, and database technologies.\n- Practical experience with Managed Services, Near-/Offshoring, and projects in the S/4HANA environment.\n- Entrepreneurial thinking, strong communication skills, business-fluent German and English.\n\n### Author's Take\nThis is a highly impactful Director-level role for an experienced IT leader who thrives on strategic transformation and leading global teams. It offers a unique opportunity to modernize the core IT and SAP landscape of an international company, leveraging cutting-edge technologies like S/4HANA and SASE. With flexible working arrangements, international growth opportunities, and direct involvement in shaping the company's digital future, this position is ideal for someone seeking significant visibility and autonomy.
+### Description
+This is a strategic leadership role for an experienced IT professional to take overall responsibility for modernizing and operating central SAP systems and infrastructure within an international mechanical engineering company. The company is undergoing a significant S/4HANA transformation, comprehensively realigning and modernizing its SAP, infrastructure, and security operations globally. This position offers high visibility and significant scope for shaping the future IT landscape.
+
+### Responsibilities
+- Overall responsibility for stable, secure SAP and IT operations at international locations.
+- Ensuring the availability of infrastructure, platforms, and SAP systems.
+- Further development of IT security, including the expansion of a Cyber Defense Center.
+- Introduction of modern network and security architectures (e.g., SASE).
+- Management of complex projects in infrastructure, security, and SAP operations.
+- Leadership and development of an international team, including department heads.
+- Management of IT service providers and Managed Service models.
+
+### Qualifications
+- Several years of leadership experience in global IT and SAP operations.
+- Profound knowledge of SAP operations, lifecycle management, and IT infrastructure.
+- Experience in building security architectures and Cyber Defense structures.
+- Competencies in network, server, and database technologies.
+- Practical experience with Managed Services, Near-/Offshoring, and projects in the S/4HANA environment.
+- Entrepreneurial thinking, strong communication skills, business-fluent German and English.
+
+### Author's Take
+This is a highly impactful Director-level role for an experienced IT leader who thrives on strategic transformation and leading global teams. It offers a unique opportunity to modernize the core IT and SAP landscape of an international company, leveraging cutting-edge technologies like S/4HANA and SASE. With flexible working arrangements, international growth opportunities, and direct involvement in shaping the company's digital future, this position is ideal for someone seeking significant visibility and autonomy.

@@ -58,4 +58,28 @@ story_answer2: >-
   It's not just about doing the job today; it’s about growing with the company
   for tomorrow.
 ---
-### Description\nWelcome to Classen Group, one of the largest laminate manufacturers globally, internationally leading with its \"Made in Germany\" products. With approximately 2,000 employees across Classen Industries and Fiberboard in Baruth, we pride ourselves on strong team spirit, high quality awareness, and shared success. We are looking for an Energy Plant Operator to join our team, playing a crucial role in operating, monitoring, and maintaining our energy facilities to ensure smooth production.\n\n### Responsibilities\n- Operation, control, and monitoring of the energy plant.\n- Observation and control of key data from operational malfunctions.\n- Execution of regular control rounds/inspections.\n- Performing inspection, maintenance, and repair work during both operation and plant shutdowns.\n- Execution of cleaning tasks within the plant.\n- Supporting power plant masters in instructing and controlling external service providers.\n- Documenting all work in the shift logbook / machine logbook.\n- Proper handover/takeover of the workplace during shift changes.\n\n### Qualifications\n- Completed technical vocational training in an industrial or crafts field.\n- Boiler operator (Kesselwärter) training is an advantage.\n- High sense of responsibility and safety awareness.\n- Very conscientious and responsible work ethic.\n- Technical competence, diligence, independence, strong teamwork ability, resilience, and flexibility.\n- Basic IT skills (Word, Excel).\n- Willingness to undergo further training for operationally necessary qualifications.\n- Willingness to work in a shift system.\n\n### Author's Take\nThis is an excellent opportunity to join Classen Group, a stable and growing family-owned company that truly values its employees. As an Energy Plant Operator, you'll hold a vital role in maintaining the core operations of a leading international manufacturer. The benefits package is particularly attractive for shift workers, offering generous allowances for nights, weekends, and holidays, plus additional rest days and holiday entitlements above the legal minimum, guaranteeing two free weekends in a 4-shift model. The company also supports work-life balance with subsidies for childcare and wealth-building contributions. Beyond the immediate remuneration, Classen Group is committed to employee development, offering continuous training and opportunities for professional growth. With attractive employee discounts, corporate benefits, and JobRad leasing, this role provides not just a job, but a comprehensive package for long-term career satisfaction within a supportive team environment.
+### Description
+Welcome to Classen Group, one of the largest laminate manufacturers globally, internationally leading with its \"Made in Germany\" products. With approximately 2,000 employees across Classen Industries and Fiberboard in Baruth, we pride ourselves on strong team spirit, high quality awareness, and shared success. We are looking for an Energy Plant Operator to join our team, playing a crucial role in operating, monitoring, and maintaining our energy facilities to ensure smooth production.
+
+### Responsibilities
+- Operation, control, and monitoring of the energy plant.
+- Observation and control of key data from operational malfunctions.
+- Execution of regular control rounds/inspections.
+- Performing inspection, maintenance, and repair work during both operation and plant shutdowns.
+- Execution of cleaning tasks within the plant.
+- Supporting power plant masters in instructing and controlling external service providers.
+- Documenting all work in the shift logbook / machine logbook.
+- Proper handover/takeover of the workplace during shift changes.
+
+### Qualifications
+- Completed technical vocational training in an industrial or crafts field.
+- Boiler operator (Kesselwärter) training is an advantage.
+- High sense of responsibility and safety awareness.
+- Very conscientious and responsible work ethic.
+- Technical competence, diligence, independence, strong teamwork ability, resilience, and flexibility.
+- Basic IT skills (Word, Excel).
+- Willingness to undergo further training for operationally necessary qualifications.
+- Willingness to work in a shift system.
+
+### Author's Take
+This is an excellent opportunity to join Classen Group, a stable and growing family-owned company that truly values its employees. As an Energy Plant Operator, you'll hold a vital role in maintaining the core operations of a leading international manufacturer. The benefits package is particularly attractive for shift workers, offering generous allowances for nights, weekends, and holidays, plus additional rest days and holiday entitlements above the legal minimum, guaranteeing two free weekends in a 4-shift model. The company also supports work-life balance with subsidies for childcare and wealth-building contributions. Beyond the immediate remuneration, Classen Group is committed to employee development, offering continuous training and opportunities for professional growth. With attractive employee discounts, corporate benefits, and JobRad leasing, this role provides not just a job, but a comprehensive package for long-term career satisfaction within a supportive team environment.

@@ -76,4 +76,27 @@ story_answer3: >-
   them will be key to unlocking their full potential and ensuring our pre-press
   department remains at the forefront of the industry.
 ---
-### Description\nOur company is a high-performing and innovative full-service provider specializing in **flexographic, offset, and digital printing**. We combine traditional craftsmanship with state-of-the-art technology and serve a broad customer base from industry, trade, and agencies. To strengthen and further develop our pre-press department, we are immediately seeking a dedicated **Head of Pre-press**.\n\n### Responsibilities\n- Technical and organizational leadership of the pre-press department\n- Coordination, planning, and control of daily production processes\n- Ensuring smooth data preparation for flexo, offset, and digital printing\n- Further development of deployed **software solutions, workflows, and automations**\n- Interface management between **pre-press, e-commerce, webshop, and administration**\n- Training, motivation, and development of the team\n- Close collaboration with sales, production, and IT for continuous process optimization\n- Quality management and ensuring color and print standards\n\n### Qualifications\n- Completed vocational training or degree in **print technology, media design, or media technology**\n- Several years of professional experience in **pre-press in flexo printing**, ideally with leadership responsibility\n- Sound knowledge of common **pre-press and workflow systems** (z. B. Hybrid Software, Adobe Creative Suite, Enfocus, Esko, or similar)\n- Experience with **data management, web-to-print systems**, and **e-commerce interfaces** is a plus\n- Strong technical, methodical, and social competence\n- Excellent organizational skills, communication ability, and solution-oriented thinking\n- Willingness to actively shape processes and lead the team into the future\n\n### Author's Take\nThis is an exceptional opportunity for a seasoned pre-press professional to take on a pivotal leadership role within an innovative printing company. You'll be instrumental in driving digital transformation, blending traditional expertise with cutting-edge technology. The role offers significant scope for strategic input, team development, and process optimization. You'll join a dedicated and collaborative team, benefit from modern equipment, and receive performance-based compensation along with attractive social benefits. If you're passionate about leading change and fostering growth in a dynamic environment, this role offers a rewarding career path.
+### Description
+Our company is a high-performing and innovative full-service provider specializing in **flexographic, offset, and digital printing**. We combine traditional craftsmanship with state-of-the-art technology and serve a broad customer base from industry, trade, and agencies. To strengthen and further develop our pre-press department, we are immediately seeking a dedicated **Head of Pre-press**.
+
+### Responsibilities
+- Technical and organizational leadership of the pre-press department
+- Coordination, planning, and control of daily production processes
+- Ensuring smooth data preparation for flexo, offset, and digital printing
+- Further development of deployed **software solutions, workflows, and automations**
+- Interface management between **pre-press, e-commerce, webshop, and administration**
+- Training, motivation, and development of the team
+- Close collaboration with sales, production, and IT for continuous process optimization
+- Quality management and ensuring color and print standards
+
+### Qualifications
+- Completed vocational training or degree in **print technology, media design, or media technology**
+- Several years of professional experience in **pre-press in flexo printing**, ideally with leadership responsibility
+- Sound knowledge of common **pre-press and workflow systems** (z. B. Hybrid Software, Adobe Creative Suite, Enfocus, Esko, or similar)
+- Experience with **data management, web-to-print systems**, and **e-commerce interfaces** is a plus
+- Strong technical, methodical, and social competence
+- Excellent organizational skills, communication ability, and solution-oriented thinking
+- Willingness to actively shape processes and lead the team into the future
+
+### Author's Take
+This is an exceptional opportunity for a seasoned pre-press professional to take on a pivotal leadership role within an innovative printing company. You'll be instrumental in driving digital transformation, blending traditional expertise with cutting-edge technology. The role offers significant scope for strategic input, team development, and process optimization. You'll join a dedicated and collaborative team, benefit from modern equipment, and receive performance-based compensation along with attractive social benefits. If you're passionate about leading change and fostering growth in a dynamic environment, this role offers a rewarding career path.
