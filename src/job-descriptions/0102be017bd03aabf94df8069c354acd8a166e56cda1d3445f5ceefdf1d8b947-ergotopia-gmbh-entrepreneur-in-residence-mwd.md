@@ -9,48 +9,51 @@ postedDate: '2025-12-10T10:29:04.000Z'
 expirationDate: null
 tags:
   - Business Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Lead
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ergotopia-gmbh/entrepreneur-in-residence-darmstadt-79929
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters an entrepreneurial, growth-oriented environment with
+  significant autonomy. It prioritizes personal development through strong
+  feedback and dedicated budgets, cultivates team cohesion with regular events,
+  and supports work-life balance through flexible hours, hybrid work, generous
+  leave, and workation options.
+story_question1: >-
+  What's the most significant entrepreneurial challenge you envision for the
+  Entrepreneur in Residence in building this new lighting brand from the ground
+  up, and how does the company empower them to overcome it?
+story_answer1: >-
+  Look, building a brand from scratch is never easy. The biggest challenge for
+  our Entrepreneur in Residence will be navigating that initial uncertainty –
+  identifying the sweet spot in the market, rapidly iterating on go-to-market
+  strategies, and then scaling it into a multi-million-euro business. But that's
+  precisely where the magic happens. We're not looking for someone to follow a
+  playbook; we're giving them the entire sandbox. They get full ownership,
+  direct reporting to the CEO, and the freedom to test, learn, and adapt. Our
+  culture is all about trust and providing the resources – whether it's our
+  existing infrastructure, a dedicated development budget, or a highly
+  supportive team – so they can truly embody that founder mindset and turn this
+  vision into a shining reality.
+story_question2: >-
+  How does the company balance the intense, founder-like responsibility of this
+  role with its stated commitment to employee well-being and flexible work
+  arrangements?
+story_answer2: >-
+  That's a fantastic question, and it's something we genuinely prioritize. While
+  the Entrepreneur in Residence role demands significant drive and a 'hands-on'
+  approach, we understand that sustained success comes from a healthy, balanced
+  individual. Our 'hybrid culture,' 30 days of vacation, and 'Workation' option
+  aren't just buzzwords; they're embedded in how we operate. We believe in
+  empowering our people to manage their time effectively, knowing that trust and
+  results are more important than clock-watching. Plus, our comprehensive
+  wellbeing benefits, from ergonomic office setups to personal development
+  budgets and team events, are designed to ensure that even while you're
+  building a new brand, you're also building yourself up, supported by a team
+  that genuinely cares.
 ---
-Du brennst für Markenaufbau, E-Commerce und strategisches Wachstum? Du willst nicht nur mitarbeiten, sondern unternehmerisch Verantwortung übernehmen? Dann bist du bei uns genau richtig! Als **Entrepreneur in Residence (m/w/d)** bist Du Herz, Hirn und Stimme unserer neuen Leuchtenbrand. Du verantwortest die Markteinführung wie ein Gründer, mit dem Ziel, daraus ein profitables Business mit echter Strahlkraft zu formen.
-
-Aufgaben
---------
-
-*   **eCommerce Go-to-Market:** Du verantwortest die operative und strategische Markteinführung unserer neuen Lighting Solution inklusive Brand Vision, Positionierung und Go To Market Execution.
-*   **D2C & B2B-Exekution:** Du testest skalierbare Vertriebskanäle, steuerst E-Commerce-Aktivitäten und baust erste strategische B2B-Partnerschaften auf.
-*   **Brand Trust & Awareness:** Du sorgst durch Kooperationen, Testberichte, Testimonial-Strategien und Thought-Leadership-Content für Vertrauen und Sichtbarkeit.
-*   **Sales Validierung & Skalierung:** Du führst Markt- und Vertriebstests durch, zeigst skalierbare Wachstumspfade auf und bereitest alles für eine Multi Mio. € Umsatz-Skalierung vor.
-*   **Projekt-Ownership:** Du orchestrierst alle operativen und strategischen Aktivitäten crossfunktional – von Logistik über Marketing bis hin zu Partnerverhandlungen.
-*   **Hands-on Markenaufbau:** Du bist Herz, Hirn und Stimme der neuen Brand – und übernimmst Verantwortung wie ein Gründer.
-
-Qualifikation
--------------
-
-*   Du bringst erste Erfahrung aus hochdynamischen Umfeldern mit – ob durch eigene Gründung, den Aufbau einer Marke oder durch relevante Stationen in wachstumsstarken Start-ups, Venture Building oder Top-Beratungen.
-*   Du überzeugst durch ein echtes Founder-Mindset, denkst unternehmerisch, handelst eigenverantwortlich und treibst die Brand mit analytischer Exzellenz, smarten Herangehensweisen, Hartnäckigkeit und voller Energie voran.
-*   Du bewegst dich sicher im Spannungsfeld zwischen langfristiger Vision und kurzfristigem Execution-Push.
-*   Du bist ein Wachstumsarchitekt mit Vertriebs-Gen: Du verstehst Sales und B2B-Partnerschaften als Spielfeld für Skalierung und überzeugst durch starke Verhandlungsfähigkeiten.
-*   Du vereinst ein starkes Growth-Marketing-Mindset und E-Commerce Know-how mit einem feinen Gespür für hochwertigen Markenaufbau.
-*   Du kommunizierst klar und überzeugend – auf Deutsch verhandlungssicher, auf Englisch souverän. Reisebereitschaft bringst du mit, um Partnerschaften persönlich zum Erfolg zu führen.
-
-Benefits
---------
-
-*   **Entrepreneurship:** Du gestaltest eine Marke, die du wie ein Gründer führst – mit voller Ownership, CEO Reporting und direkter Verantwortung für Wachstum und Erfolg
-*   **Ein Job mit Sinn:** Dein Beitrag auf dem Weg zu unserer Vision, die (Arbeits)-Welt “happy, healthy & productive” zu gestalten
-*   **Wachstum**: Die Chance, deine Karriere in einem der wachstumsstärksten Office Furniture E-Commerce Start-Ups Deutschlands auf das nächste Level zu heben
-*   **Persönliche Entwicklung:** Eine starke Feedbackkultur sowie ein monatliches Personal-Development-Budget von 50,00 Euro inklusive optionalem Bookbeat und Blinkist Abo, um dich in deinem Wachstum zu unterstützen
-*   **Wertschätzung:** Ein Team, welches wirklich ein Team ist. Company-Events, Afterwork Get Together sowie Teamevent-Budget auf Abteilungsebene - Spaß garantiert! Validiert durch Office Vibe und [Kununu](https://www.kununu.com/de/ergotopia1)
-*   **Wellbeing**: Büroausstattung mit ergonomischen Büromöbeln, Klimaanlage, Office Dog Policy sowie Snacks & Getränke
-*   **Zusatzleistungen:** Edenred-Card mit monatlich 50,00 Euro steuerfreiem Sachbezug oder die Option auf einen EGYM Wellpass
-*   **Vergünstigungen**: Mitarbeiterrabatt auf unser Portfolio - auch für Friends & Family sowie exklusive Rabatte durch einen Corporate Benefits Zugang
-*   **Individuelle Flexibilität:** Flexible Arbeitszeiten, Hybridkultur (Office, Home Office), 30 Tage Urlaub und Workation Option, um die Welt zu entdecken
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAre you passionate about brand building, e-commerce, and strategic growth? Do you want to take on entrepreneurial responsibility instead of just contributing? Then you are exactly right with us! As an **Entrepreneur in Residence (m/w/d)**, you are the heart, brain, and voice of our new lighting brand. You are responsible for the market launch like a founder, with the goal of shaping it into a profitable business with real radiance and impact.\n\n### Responsibilities\n- **eCommerce Go-to-Market:** You are responsible for the operational and strategic market launch of our new Lighting Solution, including brand vision, positioning, and Go-To-Market execution.\n- **D2C & B2B Execution:** You test scalable sales channels, manage e-commerce activities, and build initial strategic B2B partnerships.\n- **Brand Trust & Awareness:** You ensure trust and visibility through cooperations, reviews, testimonial strategies, and thought-leadership content.\n- **Sales Validation & Scaling:** You conduct market and sales tests, identify scalable growth paths, and prepare everything for multi-million euro revenue scaling.\n- **Project Ownership:** You orchestrate all operational and strategic cross-functional activities – from logistics and marketing to partner negotiations.\n- **Hands-on Brand Building:** You are the heart, brain, and voice of the new brand – and take responsibility like a founder.\n\n### Qualifications\n- You bring initial experience from highly dynamic environments – be it through your own startup, building a brand, or relevant positions in fast-growing startups, venture building, or top consultancies.\n- You impress with a genuine founder mindset, think entrepreneurially, act autonomously, and drive the brand forward with analytical excellence, smart approaches, persistence, and full energy.\n- You navigate confidently between long-term vision and short-term execution push.\n- You are a growth architect with a sales gene: You understand sales and B2B partnerships as a playing field for scaling and convince with strong negotiation skills.\n- You combine a strong growth marketing mindset and e-commerce know-how with a fine sense for high-quality brand building.\n- You communicate clearly and persuasively – fluent in German, proficient in English. You are willing to travel to personally lead partnerships to success.\n\n### Author's Take\nThis is a truly exceptional and highly entrepreneurial opportunity for a visionary individual to build a new brand from the ground up within a thriving e-commerce startup. The role offers unparalleled autonomy, with full ownership and direct reporting to the CEO, empowering a true founder mindset. Coupled with a strong emphasis on personal development, a supportive team culture, and generous flexibility (including hybrid work, 30 days of leave, and \"Workation\" options), this position is ideal for someone ready to drive significant impact and shape their career trajectory.

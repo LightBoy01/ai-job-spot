@@ -9,51 +9,73 @@ postedDate: '2025-12-10T13:02:31.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/tam-akademie/performance-marketing-manager-berlin-480669
 companyLogoUrl: null
+companyCulture: >-
+  This company fosters an empowering, humorous, and appreciative team
+  environment with flat hierarchies, emphasizing collaboration and shared
+  success. They prioritize individual growth with tailored learning
+  opportunities, offer hybrid work flexibility, and a range of benefits
+  including a meaningful business focus.
+story_question1: >-
+  How does the company balance the need for data-driven decisions in performance
+  marketing with fostering creativity and innovation, especially when working to
+  take TAM-Marketing to the next level?
+story_answer1: >-
+  That’s a fantastic question, and it really gets to the heart of how we
+  operate. While we’re incredibly data-driven – it’s literally in our DNA to
+  analyze CRM insights and optimize campaigns – we also know that truly
+  groundbreaking marketing needs a spark of creativity. Our flat hierarchies
+  aren't just a buzzword; they mean everyone’s ideas are genuinely heard and
+  encouraged. We’ve found the sweet spot by using data to pinpoint opportunities
+  and then empowering the team to brainstorm innovative solutions. For example,
+  a recent campaign started with a deep dive into user behavior, but the unique
+  messaging and visual approach came from an open ideation session. The result?
+  Record-breaking lead qualification! It’s this blend of rigorous analysis and
+  creative freedom that makes our TAM-Marketing truly special, and you’ll be at
+  the forefront of shaping that.
+story_question2: >-
+  The job mentions working closely with both the Content/Social Media team and
+  the Sales team. Can you describe a typical cross-functional project and how
+  collaboration ensures seamless lead generation and qualification?
+story_answer2: >-
+  Absolutely! Cross-functional collaboration is non-negotiable for us. Imagine a
+  new product feature or service launch: it often starts with our marketing team
+  developing a comprehensive strategy for lead generation. We'd then sit down
+  with the Content and Social Media team to align on messaging, creatives, and
+  distribution across channels. Crucially, we also bring in Sales early on. They
+  provide invaluable insights into prospect pain points and what resonates with
+  them in discovery calls. For instance, we recently launched a new webinar
+  series. Marketing identified the target audience, Content crafted compelling
+  narratives, and Sales helped fine-tune the lead qualification questions in
+  HubSpot. The continuous feedback loop meant we could quickly adjust our
+  outreach and nurture flows, ensuring Sales received highly qualified leads
+  ready for conversion. It’s a true team effort, making sure no lead falls
+  through the cracks and everyone is aligned on the customer journey.
+story_question3: >-
+  The benefits mention 'individual opportunities for further education and
+  training' and 'We want you to grow!'. Could you elaborate on how these growth
+  opportunities are tailored and what kind of support a new team member could
+  expect for their professional development?
+story_answer3: >-
+  We genuinely mean it when we say 'We want you to grow!' For us, it’s not just
+  about ticking a box; it’s about empowering you to become the best version of
+  yourself. From day one, we'll work with you to understand your career
+  aspirations and identify areas where you want to deepen your expertise. This
+  could range from specific certifications in HubSpot or advanced analytics, to
+  attending industry conferences, or even mentorship opportunities with our
+  experienced team leads. For example, one of our recent hires expressed
+  interest in delving deeper into AI-driven marketing automation. We co-created
+  a learning path that included online courses, dedicated project work, and
+  regular check-ins with our Head of Marketing. The idea is to provide both the
+  resources and the dedicated time for you to learn and apply new skills,
+  ensuring your development directly impacts both your career and our collective
+  success.
 ---
-Aufgaben
---------
-
-Du baust Marketing Funnels und Flywheels zur Leadgenerierung und konzipierst Lead-Nurturing, Landingpages und CRM-Prozesse, insbesondere in HubSpot.
-
-*   Du optimierst bestehende Marketingkampagnen und entwickelst datengetriebene Ansätze zur Verbesserung der Customer Journey.
-*   Du übernimmst die operative Umsetzung von Ad-Kampagnen in Zusammenarbeit mit unserem Content- und Social-Media-Team.
-*   Du analysierst unsere CRM-Daten, leitest Optimierungspotenziale ab und entwickelst daraus sowohl CRM-Optimierungen als auch innovative Marketingstrategien.
-*   Du verantwortest und entwickelst das Performance Marketing, insbesondere SEA, Paid Social und andere bezahlte Kanäle, analysierst Kampagnenergebnisse und optimierst diese zur maximalen Generierung und Qualifizierung von Leads.
-*   Du arbeitest eng mit dem Sales-Team zusammen, um eine durchgängige Lead-Generierung und Qualifizierung sicherzustellen.Du baust Marketing Funnels und Flywheels zur Leadgenerierung und konzipierst Lead-Nurturing, Landingpages und CRM-Prozesse, insbesondere in HubSpot.
-*   Du optimierst bestehende Marketingkampagnen und entwickelst datengetriebene Ansätze zur Verbesserung der Customer Journey.
-*   Du übernimmst die operative Umsetzung von Ad-Kampagnen in Zusammenarbeit mit unserem Content- und Social-Media-Team.
-*   Du analysierst unsere CRM-Daten, leitest Optimierungspotenziale ab und entwickelst daraus sowohl CRM-Optimierungen als auch innovative Marketingstrategien.
-*   Du verantwortest und entwickelst das Performance Marketing, insbesondere SEA, Paid Social und andere bezahlte Kanäle, analysierst Kampagnenergebnisse und optimierst diese zur maximalen Generierung und Qualifizierung von Leads.
-*   Du arbeitest eng mit dem Sales-Team zusammen, um eine durchgängige Lead-Generierung und Qualifizierung sicherzustellen.
-
-Qualifikation
--------------
-
-*   Du hast bereits praktische Erfahrungen im Aufbau von Marketing Funnels, Leadgenerierung und CRM-Strategien sammeln können und/oder hast extrem Bock, dich dort weiterzuentwickeln.
-*   Du kennst dich richtig gut mit HubSpot aus und hast vielleicht sogar Erfahrung mit Salesforce.
-*   Du hast fundierte Kenntnisse im Performance Marketing, insbesondere in SEA, Paid Social und weiteren bezahlten Kanälen.
-*   Du bist strukturiert, analytisch und liebst es, datengetriebene Entscheidungen zu treffen. Trotzdem fehlt es dir nicht an Kreativität und Umsetzungsstärke!
-*   Du übernimmst Verantwortung, arbeitest eigenständig und hast Lust, mit uns das TAM-Marketing aufs nächste Level zu heben.
-*   Du denkst strategisch und operativ, packst gerne mit an und hast Freude daran, gemeinsam im Team große Ziele zu erreichen!
-*   Du bist einfach eine heftige Maschine in deinem Job und hast Bock, Großes zu erschaffen.
-
-Benefits
---------
-
-*   Das TAMtastischste Team ever mit einer befähigenden, humorvollen und wertschätzenden Atmosphäre.
-*   Ein sinnstiftendes, nachhaltiges Geschäftsfeld rund um die Themen moderne Führung, Unternehmertum und New Work.
-*   Ein grandioses Office in Kreuzberg und trotzdem auch die Möglichkeit, teils hybrid aus dem Homeoffice heraus zu arbeiten.
-*   Individuelle Möglichkeiten der Fort- und Weiterbildung. We want you to grow!
-*   Den witzigsten Head of Marketing ganz Berlins (also, das Sagen safe auch andere) und das, was bei anderen „flache Hierarchien“ heißt.
-*   Drinks & Lunch for free, Zugang zu Mental Health Angeboten von nilo.health, UrbanSports Mitgliedschaft, Workation Villa in Spanien, BVG Karte und das ganze TAMTAM.
-*   Ein Champions-League-TAMily-Team und Wortwitze ohne Ende!
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nThis role is central to driving growth by building and optimizing comprehensive marketing funnels and flywheels. You will be instrumental in designing lead nurturing strategies, creating effective landing pages, and refining CRM processes, primarily utilizing HubSpot. Your expertise will directly impact lead generation, qualification, and the overall customer journey.\n\n### Responsibilities\n- Design and build robust marketing funnels and flywheels, including lead nurturing programs, landing pages, and CRM processes, with a strong focus on HubSpot.\n- Continuously optimize existing marketing campaigns and develop data-driven strategies to enhance the customer journey.\n- Oversee the operational execution of ad campaigns, collaborating closely with the Content and Social Media teams.\n- Analyze CRM data to identify optimization potentials, subsequently developing both CRM enhancements and innovative marketing strategies.\n- Take ownership of and further develop Performance Marketing efforts, specifically SEA, Paid Social, and other paid channels, analyzing campaign results to maximize lead generation and qualification.\n- Partner closely with the Sales team to ensure a seamless and continuous process for lead generation and qualification.\n\n### Qualifications\n- Proven practical experience in building marketing funnels, lead generation, and CRM strategies, with a strong drive to further develop in these areas.\n- Excellent proficiency in HubSpot, with additional experience in Salesforce being a plus.\n- Demonstrated expertise in Performance Marketing, including SEA, Paid Social, and other paid channels.\n- A structured, analytical mindset with a passion for data-driven decision-making, coupled with strong creativity and execution power.\n- Ability to take initiative, work independently, and a strong desire to elevate TAM Marketing to the next level.\n- Strategic and operational thinker who enjoys hands-on work and collaborating with a team to achieve ambitious goals.\n- An exceptionally skilled and passionate professional eager to create significant impact.\n\n### Author's Take\nThis is an exciting opportunity for a results-driven Marketing Funnel & Performance Manager who thrives in a dynamic, supportive, and growth-oriented environment. The company truly invests in its team, offering individual development opportunities, a hybrid work model, and a vibrant office culture. You'll be empowered with significant responsibility to shape lead generation and performance marketing, working alongside a \"TAMtastic\" team that values humor, appreciation, and shared success. If you're a \"heavy machine\" with a passion for data-driven marketing and want to make a tangible impact, this role is for you!

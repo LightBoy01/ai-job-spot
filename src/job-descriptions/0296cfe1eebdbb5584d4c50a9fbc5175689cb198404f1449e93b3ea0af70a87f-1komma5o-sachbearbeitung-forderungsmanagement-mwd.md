@@ -9,53 +9,52 @@ postedDate: '2025-12-10T19:29:03.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/1komma50/forderungsmanager-hamburg-90018
 companyLogoUrl: null
+companyCulture: >-
+  1KOMMA5° fosters a dynamic, fast-growing environment with flat hierarchies,
+  emphasizing individual autonomy, strong impact on a sustainable mission, and
+  continuous development. The culture promotes close collaboration across
+  departments while offering flexibility through remote work options and
+  benefits supporting work-life balance and personal well-being.
+story_question1: >-
+  Given 1KOMMA5°'s rapid growth and ambitious mission to build Europe's leading
+  energy software platform, how does the role of a Forderungsmanager*in directly
+  contribute to balancing this rapid expansion with ensuring financial stability
+  and customer satisfaction?
+story_answer1: >-
+  It's fascinating, really. When you're growing as fast as we are, every euro
+  counts, especially when you're building a virtual power plant for Europe. As a
+  Forderungsmanager*in, you're not just collecting payments; you're the backbone
+  of our financial health. Think of it: stable cash flow means we can invest
+  more into Heartbeat, bring more innovative energy solutions to customers, and
+  expand faster. We work really closely with customers, not just chasing
+  invoices, but understanding their situations and finding solutions. It’s about
+  building trust, even when money is involved. Your decisions directly impact
+  our ability to scale sustainably and fulfill our climate mission. It's a
+  tangible impact you feel every day.
+story_question2: >-
+  The description mentions supporting the 'Weiterentwicklung unserer internen
+  Prozesse im Forderungs- und Mahnwesen.' Can you share an example of how an
+  individual in this role has made a significant impact on improving these
+  critical financial processes?
+story_answer2: >-
+  Absolutely! One of the coolest aspects of this role is that you're not just
+  executing; you're actively shaping how we operate. For instance, we recently
+  had a new team member identify a recurring bottleneck in our payment
+  reconciliation process that was causing delays and friction with both our
+  operations team and customers. They took the initiative to map out the entire
+  workflow, proposing a simple integration tweak between our CRM and financial
+  system. After some discussions with Finance and IT, we implemented it, and it
+  drastically reduced our processing time and improved data accuracy. Now, our
+  Buchhaltung team can focus on more complex tasks, and customers get quicker
+  resolutions. This isn't a 'set-it-and-forget-it' role; it’s about continuous
+  improvement and having the freedom to drive those changes.
 ---
-1KOMMA5°
---------
-
-Bei **1KOMMA5°** bauen wir Europas führende Energie-Software-Plattform **“Heartbeat”** und schaffen so ein **virtuelles Kraftwerk**, das Photovoltaik, Stromspeicher, Wärmepumpen und Ladesäulen der Kunden verknüpft und so die Rentabilität vernetzter Kundenanlagen deutlich erhöht. Wir bieten Kunden zudem einen "**One-Stop-Shop"** für den Kauf und die Installation individueller und intelligenter Energie-Systemlösungen, damit jeder Haushalt schnell und professionell klimaneutral wohnen, heizen und mobil sein kann. Gleichzeitig arbeiten wir in unserer Technologie-Sparte an der Weiterentwicklung und dem Ausbau der Heartbeat-Software, um Kunden **weltweit** mit dem Strommarkt zu vernetzen und so immer den **günstigsten und saubersten Stromtarif** anbieten zu können.
-
-**Hast du Lust, die Energierevolution mit uns anzugehen? Dann bewirb dich jetzt und werde Teil unserer Mission!**
-
-Deine Position
---------------
-
-Als Forderungsmanager\*in bist du ein entscheidender Bestandteil unseres Corporate-Finance-Bereichs und übernimmst die Verantwortung für ein effizientes, transparentes und professionelles Forderungsmanagement. Du arbeitest eng mit Finance, Buchhaltung, Operations und unseren Kund:innen zusammen und stellst sicher, dass Zahlungsströme stabil bleiben und Risiken früh erkannt werden.
-
-*   Du führst die aktive Kommunikation mit Kund:innen – telefonisch und schriftlich – zur Klärung offener Forderungen und zur Einleitung konstruktiver Lösungen.
-*   Du analysierst Einzelfälle, bewertest Zahlungsstände und identifizierst Risiko- sowie Handlungsbedarfe.
-*   Du stellst eine saubere, aktuelle und vollständige Datenbasis sicher – sowohl im CRM als auch im Finanzsystem.
-*   Du arbeitest eng mit Buchhaltung, Finance und Operations zusammen, um komplexe Sachverhalte aufzulösen und Entscheidungen vorzubereiten.
-*   Du unterstützt die Weiterentwicklung unserer internen Prozesse im Forderungs- und Mahnwesen und trägst aktiv zur Professionalisierung der Organisation bei.
-
-Dein Profil
------------
-
-*   Du verfügst über einen Hintergrund im Bereich Buchhaltung, Rechnungswesen oder Controlling.
-*   Idealerweise bringst du Erfahrung aus dem Bauumfeld, Handwerk oder ähnlichen projektorientierten Branchen mit.
-*   Du arbeitest sicher mit CRM-Tools und legst höchsten Wert auf Datenqualität und Struktur.
-*   Du kommunizierst klar, verbindlich und serviceorientiert – auch in herausfordernden Situationen.
-*   Deine Deutschkenntnisse entsprechen Muttersprachniveau (C2), Englisch wird nur selten benötigt.
-*   Du arbeitest eigenständig, strukturiert und findest pragmatische Lösungen, die Finance und Operations voranbringen.
-
-Benefits
---------
-
-*   Du hast die Möglichkeit in unseren **brandneuen** Büros in der **Hamburger Innenstadt,** **Berlin** &**München** zu arbeiten und/oder **remote**
-*   Nutze dein **technisches Equipment** auch abseits der Arbeit in deiner **Freizeit**
-*   Du bist Teil eines **schnell wachsenden Unternehmens** mit viel **Entwicklungspotenzi** **al**, wo du **eigenständig** etwas aufbauen kannst und deinen Impact spürst
-*   Bewege dich in **flachen Hierarchien**, übernimm schon während deiner Einarbeitung **Verantwortung** und arbeite direkt mit Teilen des Managements zusammen
-*   Mit deiner Arbeit unterstützt du den Megatrend **“Energie- und Mobilitätswende”** und leistest einen **konkreten Beitrag** zum **nachhaltigen** Umbau unserer Energie-Infrastruktur
-*   Sei aktiv und nutze das Angebot von über 7.600 Sportpartnern mit dem **EGYM-Wellpass**
-*   Ob Citybike oder E-Bike – mit unserem **Jobrad-Leasing** bleibst du flexibel und bist umweltfreundlich unterwegs
-*   Profitiere von **Benefits & Rabatten** durch Futurebens
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\n1KOMMA5° is at the forefront of the energy revolution, building \"Heartbeat,\" Europe's leading energy software platform. This virtual power plant connects photovoltaic systems, electricity storage, heat pumps, and charging stations, significantly increasing the profitability of connected customer installations. The company also offers a \"One-Stop-Shop\" for individuals to purchase and install intelligent energy system solutions, enabling every household to become climate-neutral. In its technology division, 1KOMMA5° is expanding the Heartbeat software globally to connect customers with the electricity market, offering the cheapest and cleanest tariffs.\n\nAs an Accounts Receivable Manager (Forderungsmanager*in), you will be a crucial part of the Corporate Finance department, responsible for efficient, transparent, and professional accounts receivable management. You will collaborate closely with Finance, Accounting, Operations, and customers to ensure stable cash flows and early risk detection, contributing directly to the company's rapid growth and sustainable mission.\n\n### Responsibilities\n- Actively communicate with customers – both by phone and and in writing – to clarify open receivables and initiate constructive solutions.\n- Analyze individual cases, evaluate payment statuses, and identify risks and necessary actions.\n- Ensure a clean, up-to-date, and complete database in both the CRM and financial systems.\n- Collaborate closely with Accounting, Finance, and Operations to resolve complex issues and prepare decisions.\n- Support the further development of internal processes in accounts receivable and dunning, actively contributing to the professionalization of the organization.\n\n### Qualifications\n- Background in accounting, finance, or controlling.\n- Ideally, experience from the construction, craft, or similar project-oriented industries.\n- Proficient in CRM tools and a strong commitment to data quality and structure.\n- Clear, reliable, and service-oriented communication skills – even in challenging situations.\n- Native-level German language skills (C2), English is rarely required.\n- Ability to work independently, structured, and find pragmatic solutions that advance Finance and Operations.\n\n### Author's Take\nThis is an exceptional opportunity for an Accounts Receivable professional looking to make a significant impact within a rapidly growing, mission-driven company. 1KOMMA5° offers a dynamic environment where your contributions directly support the energy and mobility transition. With flat hierarchies, extensive development potential, and the chance to shape processes, you'll find ample autonomy and responsibility. The company values individual initiative and provides flexibility with remote work options, modern offices, and benefits like EGYM-Wellpass and Jobrad leasing, fostering a supportive and engaging culture. If you're passionate about sustainability and thrive in a collaborative, fast-paced setting, this role offers a unique chance to grow professionally while contributing to a greener future.
