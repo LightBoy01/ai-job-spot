@@ -8,6 +8,7 @@ import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 // Define the schema for query parameter validation
 const searchSchema = z.object({
   filter: z.enum(['editorial', 'briefing']).optional(), // New filter for content type
+  hub: z.string().optional(), // Filter by thematic hub
   limit: z.coerce.number().int().positive().max(50).optional().default(10), // Page size
   q: z.string().max(100).optional().default(''), // Search query
   startAfter: z.string().max(100).optional(), // Firestore document ID for pagination
@@ -53,6 +54,7 @@ export default async function handler(
 
     const {
       filter,
+      hub,
       limit,
       q: searchTerm,
       startAfter: startAfterId,
@@ -68,6 +70,10 @@ export default async function handler(
     // Apply filters
     if (filter) {
       query = query.where('contentType', '==', filter);
+    }
+    if (hub) {
+      // Hubs are stored in lowercase in the database
+      query = query.where('hub', '==', hub.toLowerCase());
     }
     if (searchTerm) {
       // Firestore requires the first orderBy to be on the field used in an inequality filter.

@@ -4,8 +4,8 @@ title: Founders Associate (m/w/d)
 company: sqanit GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/sqanit-gmbh/founders-associate-munich-421879
-postedDate: '2025-12-01T09:31:51.000Z'
+  https://www.arbeitnow.com/jobs/companies/sqanit-gmbh/founders-associate-munich-299602
+postedDate: '2025-12-10T14:59:03.000Z'
 expirationDate: null
 tags:
   - Distribution Marketing
@@ -15,16 +15,16 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/sqanit-gmbh/founders-associate-munich-421879
+  https://www.arbeitnow.com/jobs/companies/sqanit-gmbh/founders-associate-munich-299602
 companyLogoUrl: null
 ---
-**Wir sind Status Quo Breaker, Game Changer und Kunden-Helden!**
+sqanit ist die führende Service-Management-Plattform, die After-Sales und Assetmanagement neu definiert – ein echtes „CRM für Produkte“. Wir verbinden Marken direkt mit ihren Endkunden über digitale Zwillinge, kontextbasierte Self-Services, AR-Support und nahtloses Ticketing. Unsere Lösung ist live bei Fortune-500-Konzernen in den USA und Europa, mit Schwerpunkt auf MedTech.
 
-Mit unserer Service-Management-Plattform **Sqanit** verändern wir den Servicemarkt nachhaltig und wollen als führendes Ökosystem eine exzellente Dienstleistung für alle Businesspartner und Endkunden auf der Welt ermöglichen.
+Hinter sqanit steht Christian Hieronimi – Serial Founder mit zwei erfolgreichen Exits und Track Record als Investor in Healthcare- und Deep-Tech.
 
-Wir definieren neu, wie Unternehmen digitale Produktpässe und Produktlebenszyklus-Erfahrungen verwalten und nutzen. Unsere SaaS-Plattform ermöglicht es Unternehmen, die Kundenbindung zu stärken, Abläufe zu optimieren und regulatorischen Anforderungen stets einen Schritt voraus zu sein.
+Wir bauen ein globales Category Leader-Produkt, das Millionen physischer Produkte digital macht und den Digital Product Passport (DPP) zur Realität werden lässt.
 
-Als wachsendes B2B-SaaS-Startup suchen wir einen talentierten und vielseitigen **Founders Associate**, der Teil unseres dynamischen Teams wird.
+Kurz: High-Impact B2B SaaS, echte Enterprise-Traction, ambitioniertes Team und die Geschwindigkeit eines Scale-ups.
 
 Aufgaben
 --------
@@ -75,7 +75,7 @@ Qualifikation
 *   Fließendes Deutsch und Englisch in Wort & Schrift.
 *   Selbstbewusstes, professionelles Auftreten im Kundenkontakt - schriftlich wie mündlich.
 *   Strukturierte und klare Arbeitsweise, hohe Zuverlässigkeit, hoher Anspruch an Qualität.
-*   Starke Hands-on Mentalität: Du denkst nicht nur mit, du setzt um.
+*   Starke Hands-on Mentalität: Du denkst nicht nur mit, Du setzt um.
 *   Hohe intrinsische Motivation, Dinge voranzutreiben und Ambitionen in Ergebnisse zu verwandeln.
 *   Hohe Eigenständigkeit im Aufbau von Inhalten (Sales, Website, Blog), wenn diese für Pipeline oder Partnerkommunikation notwendig sind.
 *   Ganzheitliches Business-Verständnis - vom Markt bis zur Entscheidungslogik eines Kunden.
@@ -83,7 +83,7 @@ Qualifikation
 **Persönlichkeit**
 
 *   Du fühlst dich in High-Ownership-Umgebungen wohl.
-*   Du suchst ein Umfeld, in dem du echten Hebel hast - keine Hierarchien, keine Bürokratie.
+*   Du suchst ein Umfeld, in dem Du echten Hebel hast - keine Hierarchien, keine Bürokratie.
 *   Du hast Energie, Drive und Ambition.
 *   Du willst gestalten statt verwalten.
 *   Du möchtest Verantwortung übernehmen - früh, sichtbar und mit großem Einfluss.
@@ -110,9 +110,9 @@ Benefits
 
 Die Rolle bietet die Gelegenheit, ein skalierendes SaaS-Geschäft in einer entscheidenden Phase mitzugestalten - mit sichtbarem Einfluss auf Wachstum, Marktpräsenz und Go-to-Market-Struktur.
 
-**Bewirb dich**
+**Bewirb Dich**
 
-Wenn du Verantwortung suchst, gestalten willst und Impact liebst, dann ist dies deine Rolle. Bewirb Dich noch heute mit Deinen vollständigen Bewerbungsunterlagen unter Angabe Deines frühestmöglichen Eintrittstermins und Deiner Gehaltsvorstellung.
+Wenn Du Verantwortung suchst, gestalten willst und Impact liebst, dann ist dies Deine Rolle. Bewirb Dich noch heute mit Deinen vollständigen Bewerbungsunterlagen unter Angabe Deines frühestmöglichen Eintrittstermins und Deiner Gehaltsvorstellung.
 
 Wir freuen uns auf Dich!
 

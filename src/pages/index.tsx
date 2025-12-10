@@ -2,19 +2,24 @@ import React, { useState, useCallback } from 'react';
 import Layout from '@/components/Layout';
 import JobCard from '@/components/JobCard';
 import AdContainer from '@/components/AdContainer';
-import { getJobs } from '@/lib/firestoreClient';
+import { getJobsServer } from '@/lib/firestoreServer';
 import { SerializedJobPosting } from '@/lib/types';
 import { NEW_JOB_THRESHOLD_MS, JOB_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useSessionScrollRestoration, getInitialStateFromSession, ScrollRestorationConfig } from '@/hooks/useSessionScrollRestoration';
 import JobSearchBar from '@/components/JobSearchBar';
+import Pagination from '@/components/Pagination';
+import { smoothScrollToTop } from '@/lib/utils';
 
 const jobScrollConfig: ScrollRestorationConfig = {
   listKey: 'jobListingJobs',
   lastDocIdKey: 'jobListingLastDocId',
   hasMoreKey: 'jobListingHasMore',
   scrollPosKey: 'jobListingScrollPos',
+  pageKey: 'jobListingPage',
+  pageCursorsKey: 'jobListingPageCursors',
+  filtersKey: 'jobListingFilters',
 };
 
 interface HomeProps {
@@ -77,6 +82,9 @@ export default function Home({
     initialItems: sessionJobs,
     initialLastDocId: sessionLastDocId,
     initialHasMore: sessionHasMore,
+    initialPage,
+    initialPageCursors,
+    initialFilters,
   } = getInitialStateFromSession<SerializedJobPosting>(jobScrollConfig);
 
   const [displayedJobs, setDisplayedJobs] = useState<SerializedJobPosting[]>(
@@ -89,12 +97,16 @@ export default function Home({
   const [lastDocId, setLastDocId] = useState<string | null>(
     sessionLastDocId || staticLastDocId
   );
+  
+  // Pagination State
+  const [page, setPage] = useState<number>(initialPage);
+  const [pageCursors, setPageCursors] = useState<(string | null)[]>(initialPageCursors);
+
   const isFetching = React.useRef(false);
-  const [activeFilters, setActiveFilters] = useState({ query: '', location: '', jobLevel: '', tags: '', sortOrder: 'desc' });
+  const [activeFilters, setActiveFilters] = useState(initialFilters || { query: '', location: '', jobLevel: '', tags: '', sortOrder: 'desc' });
 
   const fetchAndDisplayJobs = useCallback(async (
-    startAfterId: string | null,
-    append: boolean = false, // Whether to append to existing jobs or replace
+    cursor: string | null,
     filters: { query: string; location: string; jobLevel: string; tags: string; sortOrder: string }
   ) => {
     if (isFetching.current) return;
@@ -104,7 +116,7 @@ export default function Home({
     const searchParams = new URLSearchParams({
       limit: String(JOB_FETCH_LIMIT),
     });
-    if (startAfterId) searchParams.append('startAfter', startAfterId);
+    if (cursor) searchParams.append('startAfter', cursor);
     if (filters.query) searchParams.append('q', filters.query);
     if (filters.location) searchParams.append('location', filters.location);
     if (filters.jobLevel) searchParams.append('jobLevel', filters.jobLevel);
@@ -117,64 +129,88 @@ export default function Home({
 
       const { jobs: newFetchedJobs = [], lastVisible: newLastVisible } = await response.json();
 
-      setDisplayedJobs((prevJobs) => {
-        if (append) {
-          const existingIds = new Set(prevJobs.map((j) => j.id));
-          const uniqueNewJobs = newFetchedJobs.filter((j: SerializedJobPosting) => !existingIds.has(j.id));
-          return [...prevJobs, ...uniqueNewJobs];
-        } else {
-          return newFetchedJobs;
-        }
-      });
+      setDisplayedJobs(newFetchedJobs);
       setLastDocId(newLastVisible);
-      setHasMore(newFetchedJobs.length === JOB_FETCH_LIMIT); // If we got less than limit, no more pages
+      setHasMore(newFetchedJobs.length === JOB_FETCH_LIMIT);
     } catch (error) {
       console.error('Error fetching jobs:', error);
       setHasMore(false);
-      if (!append) setDisplayedJobs([]); // Clear jobs on error if not appending
+      setDisplayedJobs([]); 
     } finally {
       setLoading(false);
       isFetching.current = false;
+      // Scroll to top of list when page changes
+      smoothScrollToTop(1200); // Gentle 1.2s scroll
     }
   }, []);
 
+  const handleNextPage = useCallback(() => {
+    if (!lastDocId) return;
+    
+    // Save current cursor stack
+    setPageCursors((prev) => [...prev, lastDocId]);
+    setPage((prev) => prev + 1);
+    
+    fetchAndDisplayJobs(lastDocId, activeFilters);
+  }, [lastDocId, fetchAndDisplayJobs, activeFilters]);
+
+  const handlePrevPage = useCallback(() => {
+    if (page <= 1) return;
+
+    // Get the cursor for the previous page (index = page - 2 because page is 1-based and we want the cursor that STARTED the previous page)
+    // Actually, to fetch Page (N-1), we need the cursor that was at the end of Page (N-2).
+    // pageCursors[0] = null (start of Page 1)
+    // pageCursors[1] = end of Page 1 (start of Page 2)
+    // If we are on Page 2, we want to go to Page 1. Start cursor is pageCursors[0] (null).
+    // If we are on Page 3, we want to go to Page 2. Start cursor is pageCursors[1].
+    // So for new page P_new = P_current - 1, we want pageCursors[P_new - 1].
+    
+    const newPage = page - 1;
+    const prevCursor = pageCursors[newPage - 1]; // Because page is 1-based
+
+    setPageCursors((prev) => prev.slice(0, -1)); // Remove the last cursor (current page start)
+    setPage(newPage);
+    
+    fetchAndDisplayJobs(prevCursor, activeFilters);
+  }, [page, pageCursors, fetchAndDisplayJobs, activeFilters]);
+
   const handleFilterChange = useCallback((filters: { query: string; location: string; jobLevel: string; tags: string; sortOrder: string }) => {
+    // Prevent resetting state if filters haven't actually changed (e.g. on initial mount)
+    const hasChanged = 
+      filters.query !== activeFilters.query ||
+      filters.location !== activeFilters.location ||
+      filters.jobLevel !== activeFilters.jobLevel ||
+      filters.tags !== activeFilters.tags ||
+      filters.sortOrder !== activeFilters.sortOrder;
+
+    if (!hasChanged) return;
+
     setActiveFilters(filters);
+    
+    // Reset pagination on filter change
+    setPage(1);
+    setPageCursors([null]);
+
     const areFiltersActive = filters.query || filters.location || filters.jobLevel || filters.tags || filters.sortOrder !== 'desc';
+    
     if (areFiltersActive) {
-      fetchAndDisplayJobs(null, false, filters);
+      fetchAndDisplayJobs(null, filters);
     } else {
       // Reset to initial static jobs if all filters are cleared
       setDisplayedJobs(staticJobs);
       setLastDocId(staticLastDocId);
-      setHasMore(true); // Assume more if resetting to initial static jobs
+      setHasMore(true);
     }
-  }, [fetchAndDisplayJobs, staticJobs, staticLastDocId]);
-
-  const loader = React.useRef(null);
-
-  const handleObserver = React.useCallback((entries: IntersectionObserverEntry[]) => {
-    const target = entries[0];
-    if (target.isIntersecting && hasMore && !loading) {
-      fetchAndDisplayJobs(lastDocId, true, activeFilters);
-    }
-  }, [hasMore, loading, lastDocId, activeFilters, fetchAndDisplayJobs]);
-
-  React.useEffect(() => {
-    const option = {
-      root: null,
-      rootMargin: "20px",
-      threshold: 0
-    };
-    const observer = new IntersectionObserver(handleObserver, option);
-    if (loader.current) observer.observe(loader.current);
-  }, [handleObserver]);
+  }, [fetchAndDisplayJobs, staticJobs, staticLastDocId, activeFilters]);
 
   // Handle saving state to session storage on route change
   useSessionScrollRestoration({
     items: displayedJobs,
     lastDocId,
     hasMore,
+    page,
+    pageCursors,
+    activeFilters,
     config: jobScrollConfig,
   });
 
@@ -203,6 +239,7 @@ export default function Home({
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={process.env.NEXT_PUBLIC_SITE_URL} />
+        <link rel="canonical" href={process.env.NEXT_PUBLIC_SITE_URL} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -215,7 +252,10 @@ export default function Home({
         <h1 className="page-title text-4xl sm:text-5xl md:text-6xl mb-4">
           AI Job Opportunities
         </h1>
-        <JobSearchBar onFilterChange={handleFilterChange} />
+        <JobSearchBar 
+          initialFilters={initialFilters}
+          onFilterChange={handleFilterChange} 
+        />
         {displayedJobs.length === 0 && !loading ? (
           <p className="text-center text-neutral-600 font-serif text-lg">
             No job postings found. Please check back later or refine your search.
@@ -239,15 +279,16 @@ export default function Home({
             ))}
           </div>
         )}
-        <div className="text-center mt-12 h-10">
-            {loading && <p className="text-neutral-500 font-sans">Loading more jobs...</p>}
-            {!hasMore && displayedJobs.length > 0 && (
-                <p className="text-neutral-600 font-serif text-lg pt-8 border-t border-neutral-200">
-                You&apos;ve reached the end of the job listings.
-                </p>
-            )}
-            <div ref={loader} />
-        </div>
+        
+        {/* Pagination Controls */}
+        <Pagination
+          currentPage={page}
+          hasPrevious={page > 1}
+          hasNext={hasMore}
+          onPrevious={handlePrevPage}
+          onNext={handleNextPage}
+          isLoading={loading}
+        />
       </div>
     </Layout>
   );
@@ -256,7 +297,7 @@ export default function Home({
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   let lastDocId: string | null = null;
   try {
-    const { jobs, lastVisible } = await getJobs(JOB_FETCH_LIMIT);
+    const { jobs, lastVisible } = await getJobsServer(JOB_FETCH_LIMIT);
 
     const rawJobs = jobs.map((job) => ({
       ...job,

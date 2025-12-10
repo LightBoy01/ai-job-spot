@@ -1,7 +1,8 @@
 name: Post to Social Media
 
-# Temporarily disabled by commenting out the 'on' trigger.
 on:
+  schedule:
+    - cron: '0 */6 * * *' # Run every 6 hours
   workflow_dispatch: # Allows manual triggering
 
 jobs:

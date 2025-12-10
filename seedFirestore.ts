@@ -380,7 +380,7 @@ async function upsertInBatches(
   collectionName: 'jobs' | 'articles'
 ): Promise<string[]> {
     const urlsUpserted: string[] = [];
-    const batchSize = 400;
+    const batchSize = 100;
     console.log(`Found ${items.length} ${collectionName} to process for upsert...`);
 
     for (let i = 0; i < items.length; i += batchSize) {
@@ -510,6 +510,28 @@ export async function seedFirestore() {
   const processedEditorials = (await processDirectory(articlesDir, 'articles')) as Article[];
   const processedBriefings = (await processDirectory(briefingsDir, 'articles')) as Article[]; // Processed as articles
   const processedArticles = [...processedEditorials, ...processedBriefings];
+
+  // --- TAG AGGREGATION ---
+  console.log('Aggregating tags...');
+  const allTagsSet = new Set<string>();
+  
+  processedJobs.forEach(job => {
+    job.tags?.forEach(tag => allTagsSet.add(tag));
+  });
+  
+  processedArticles.forEach(article => {
+    article.tags?.forEach(tag => allTagsSet.add(tag));
+  });
+
+  const allTags = Array.from(allTagsSet).filter(Boolean).sort();
+  
+  if (!isDryRun) {
+      await db.collection('metadata').doc('tags').set({ allTags }, { merge: true });
+      console.log(`Successfully seeded ${allTags.length} unique tags to metadata/tags.`);
+  } else {
+      console.log(`[DRY RUN] Would seed ${allTags.length} unique tags to metadata/tags:`, allTags.slice(0, 10), '...');
+  }
+  // -----------------------
 
   // --- RELATIONSHIP CALCULATION ---
   console.log('Calculating content relationships...');

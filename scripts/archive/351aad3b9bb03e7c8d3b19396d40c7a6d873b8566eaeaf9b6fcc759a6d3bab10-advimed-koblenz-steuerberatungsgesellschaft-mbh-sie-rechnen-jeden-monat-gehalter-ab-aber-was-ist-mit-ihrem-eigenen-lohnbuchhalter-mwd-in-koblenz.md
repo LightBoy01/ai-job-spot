@@ -6,8 +6,8 @@ title: >-
 company: ADVIMED Koblenz Steuerberatungsgesellschaft mbH
 location: Koblenz
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/advimed-koblenz-steuerberatungsgesellschaft-mbh/sie-rechnen-jeden-monat-gehalter-ab-aber-was-ist-mit-ihrem-eigenen-lohnbuchhalter-in-koblenz-356593
-postedDate: '2025-11-24T08:01:45.000Z'
+  https://www.arbeitnow.com/jobs/companies/advimed-koblenz-steuerberatungsgesellschaft-mbh/sie-rechnen-jeden-monat-gehalter-ab-aber-was-ist-mit-ihrem-eigenen-lohnbuchhalter-in-koblenz-13203
+postedDate: '2025-12-01T08:01:53.000Z'
 expirationDate: null
 tags:
   - Finance
@@ -17,7 +17,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/advimed-koblenz-steuerberatungsgesellschaft-mbh/sie-rechnen-jeden-monat-gehalter-ab-aber-was-ist-mit-ihrem-eigenen-lohnbuchhalter-in-koblenz-356593
+  https://www.arbeitnow.com/jobs/companies/advimed-koblenz-steuerberatungsgesellschaft-mbh/sie-rechnen-jeden-monat-gehalter-ab-aber-was-ist-mit-ihrem-eigenen-lohnbuchhalter-in-koblenz-13203
 companyLogoUrl: null
 ---
 Liebe Bewerberin, lieber Bewerber,
@@ -93,4 +93,4 @@ Schreiben Sie uns einfach eine kurze Nachricht – wir freuen uns auf Sie und Ih
 
 Viele Grüße aus Koblenz
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

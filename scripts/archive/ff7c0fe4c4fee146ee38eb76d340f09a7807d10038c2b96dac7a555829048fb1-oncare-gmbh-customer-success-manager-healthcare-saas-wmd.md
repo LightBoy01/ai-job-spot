@@ -4,8 +4,8 @@ title: Customer Success Manager - Healthcare SaaS (w/m/d)
 company: ONCARE GmbH
 location: Munich
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/oncare-gmbh/customer-success-manager-healthcare-saas-munich-262448
-postedDate: '2025-11-21T16:01:45.000Z'
+  https://www.arbeitnow.com/jobs/companies/oncare-gmbh/customer-success-manager-healthcare-saas-munich-413868
+postedDate: '2025-12-01T15:31:56.000Z'
 expirationDate: null
 tags:
   - Customer Service
@@ -15,18 +15,24 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/oncare-gmbh/customer-success-manager-healthcare-saas-munich-262448
+  https://www.arbeitnow.com/jobs/companies/oncare-gmbh/customer-success-manager-healthcare-saas-munich-413868
 companyLogoUrl: null
 ---
-**Gestalte die Zukunft der Gesundheitsversorgung mit uns!**
+Bei **myoncare** gestalten wir nicht nur Software –
 
-Mit **myoncare** bauen wir ein führendes Gesundheits-Ökosystem, das Patienten weltweit die beste Versorgung ermöglicht. Wir vernetzen alle Akteure im System, bündeln bisher getrennte Lösungen in einer Plattform und setzen dabei auf Sicherheit, Transparenz und den Menschen im Mittelpunkt.
+wir bauen ein internationales **Gesundheits-Ökosystem**, das Versorgung neu definiert.
 
-Wenn Du Lust hast, **innovativ zu arbeiten, neue Wege zu gehen und Projekte mit echter Wirkung** zu gestalten, dann bist Du bei uns genau richtig.
+Unsere Plattform verbindet Patienten, Kliniken, Ärzte und Partner in einem einzigen, intelligenten System und schafft damit etwas, das es so noch nie gab: **kontinuierliche, datensichere und personalisierte Betreuung rund um die Uhr.**
 
-Erlebe und gestalte die digitale Revolution des Gesundheitswesens hautnah als unser(e) neue(r)
+Damit unsere Software sicher, zuverlässig und wirkungsvoll im klinischen Alltag eingesetzt werden kann, ist ein exzellenter Support unverzichtbar.
 
-**Customer Success Manager (w/m/d).**
+Du begeisterst dich dafür, technische Anfragen strukturiert zu bearbeiten, Prozesse weiterzuentwickeln, Qualität sicherzustellen und das Erlebnis unserer Kunden und Anwender nachhaltig positiv zu gestalten – dann bist du bei uns genau richtig.
+
+Wenn du Lust hast, echte Veränderung voranzutreiben, Verantwortung zu übernehmen und an Produkten zu arbeiten, die jeden Tag einen Unterschied machen, dann wirst du dich bei uns zuhause fühlen.
+
+Gestalte eine der spannendsten Transformationsphasen im Digital Health Bereich aktiv als unser(e) neue(r)
+
+**Customer Success Manager - Healthcare SaaS (w/m/d).**
 
 Aufgaben
 --------
@@ -55,11 +61,12 @@ Benefits
 --------
 
 *   Wettbewerbsfähiges Gehalt mit leistungsorientierten Entwicklungsmöglichkeiten
-*   Zentrales Büro mit vielfältigen Lunch-Möglichkeiten
+*   Zentrales Büro mit vielfältigen Lunch-Optionen in unmittelbarer Umgebung
 *   Zusammenarbeit in einem internationalen Team - profitiere vom Austausch mit Kolleg:innen aus aller Welt
 *   Kaffee- und Tee-Flat
 *   Wechselnde Mitarbeiterrabatte
-*   Wertvolle Networking-Möglichkeiten mit unseren Schwesterunternehmen (sqanit & CONVIEN) zur Unterstützung deiner beruflichen Weiterentwicklung
+*   Hochwertige Networking-Möglichkeiten mit unseren Schwesterunternehmen sqanit (digitale Plattformlösungen) und CONVIEN (Meeting- & Travel-Optimierung) zur Unterstützung deiner beruflichen Weiterentwicklung
+*   Direkter Kontakt zu Entscheidungsträgern und flache Hierarchien
 
 Trage zur Digitalisierung des Gesundheitswesens bei und mache mit uns den visionären Schritt in die Zukunft!
 
@@ -69,4 +76,4 @@ Wir freuen uns auf Dich!
 
 Bitte beachte die Datenschutzbestimmungen auf unserer Homepage!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

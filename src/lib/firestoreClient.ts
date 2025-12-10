@@ -286,6 +286,78 @@ export async function getJobsByTag(
   return { jobs, lastVisible };
 }
 
+export async function getJobsByLocation(
+  location: string,
+  limit?: number,
+  startAfterDoc?: DocumentSnapshot
+): Promise<{ jobs: JobPosting[]; lastVisible: DocumentSnapshot | null }> {
+  if (!location) {
+    return { jobs: [], lastVisible: null };
+  }
+
+  const jobsCollectionRef = collection(db, 'jobs');
+  let q = query(
+    jobsCollectionRef,
+    where('status', '==', 'published'),
+    where('location', '==', location),
+    orderBy('postedDate', 'desc')
+  );
+
+  if (startAfterDoc) {
+    q = query(q, startAfter(startAfterDoc));
+  }
+
+  if (limit) {
+    q = query(q, limitTo(limit));
+  }
+
+  const querySnapshot = await getDocs(q);
+  const jobs = querySnapshot.docs.map(processJobData);
+  const lastVisible =
+    querySnapshot.docs.length > 0
+      ? querySnapshot.docs[querySnapshot.docs.length - 1]
+      : null;
+
+  return { jobs, lastVisible };
+}
+
+export async function getJobsByTagAndLocation(
+  tag: string,
+  location: string,
+  limit?: number,
+  startAfterDoc?: DocumentSnapshot
+): Promise<{ jobs: JobPosting[]; lastVisible: DocumentSnapshot | null }> {
+  if (!tag || !location) {
+    return { jobs: [], lastVisible: null };
+  }
+
+  const jobsCollectionRef = collection(db, 'jobs');
+  let q = query(
+    jobsCollectionRef,
+    where('status', '==', 'published'),
+    where('location', '==', location),
+    where('tags', 'array-contains', tag),
+    orderBy('postedDate', 'desc')
+  );
+
+  if (startAfterDoc) {
+    q = query(q, startAfter(startAfterDoc));
+  }
+
+  if (limit) {
+    q = query(q, limitTo(limit));
+  }
+
+  const querySnapshot = await getDocs(q);
+  const jobs = querySnapshot.docs.map(processJobData);
+  const lastVisible =
+    querySnapshot.docs.length > 0
+      ? querySnapshot.docs[querySnapshot.docs.length - 1]
+      : null;
+
+  return { jobs, lastVisible };
+}
+
 export async function getArticlesByTag(
   tags: string[],
   limit?: number,
@@ -298,6 +370,7 @@ export async function getArticlesByTag(
   const articlesCollectionRef = collection(db, 'articles');
   let q = query(
     articlesCollectionRef,
+    where('status', '==', 'published'),
     where('tags', 'array-contains-any', tags),
     orderBy('publishDate', 'desc')
   );
@@ -320,10 +393,57 @@ export async function getArticlesByTag(
   return { articles, lastVisible };
 }
 
+export async function getArticlesByHub(
+  hub: string,
+  limit?: number,
+  startAfterDoc?: DocumentSnapshot
+): Promise<{ articles: Article[]; lastVisible: DocumentSnapshot | null }> {
+  if (!hub) {
+    return { articles: [], lastVisible: null };
+  }
+
+  const articlesCollectionRef = collection(db, 'articles');
+  let q = query(
+    articlesCollectionRef,
+    where('status', '==', 'published'),
+    where('hub', '==', hub.toLowerCase()),
+    orderBy('publishDate', 'desc')
+  );
+
+  if (startAfterDoc) {
+    q = query(q, startAfter(startAfterDoc));
+  }
+
+  if (limit) {
+    q = query(q, limitTo(limit));
+  }
+
+  const querySnapshot = await getDocs(q);
+  const articles = querySnapshot.docs.map(processArticleData);
+  const lastVisible =
+    querySnapshot.docs.length > 0
+      ? querySnapshot.docs[querySnapshot.docs.length - 1]
+      : null;
+
+  return { articles, lastVisible };
+}
+
 export async function getAllTags(): Promise<string[]> {
-  // TODO: Implement a dedicated 'metadata' document in Firestore that aggregates all tags.
-  // Scanning all documents (jobs + articles) is too expensive and causes RESOURCE_EXHAUSTED errors.
-  // For now, returning a static list of popular tags to ensure build stability.
+  try {
+    const docRef = doc(db, 'metadata', 'tags');
+    const docSnap = await getDoc(docRef);
+
+    if (docSnap.exists()) {
+      const data = docSnap.data();
+      if (data && Array.isArray(data.allTags)) {
+        return data.allTags as string[];
+      }
+    }
+  } catch (error) {
+    console.error('Error fetching tags from metadata:', error);
+  }
+
+  // Fallback if metadata is missing or fetch fails
   return [
     'Machine Learning',
     'Deep Learning',

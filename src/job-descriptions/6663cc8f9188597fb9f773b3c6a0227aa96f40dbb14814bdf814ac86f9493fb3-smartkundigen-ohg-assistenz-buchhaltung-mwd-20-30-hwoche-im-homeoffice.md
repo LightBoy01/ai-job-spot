@@ -4,8 +4,8 @@ title: Assistenz Buchhaltung (m/w/d) 20-30 h/Woche im Homeoffice
 company: smartkündigen OHG
 location: Neuss
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/assistenz-buchhaltung-20-30-h-woche-im-homeoffice-neuss-255568
-postedDate: '2025-12-01T07:32:09.000Z'
+  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/assistenz-buchhaltung-20-30-h-woche-im-homeoffice-neuss-339451
+postedDate: '2025-12-10T07:32:02.000Z'
 expirationDate: null
 tags:
   - Remote
@@ -16,7 +16,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/assistenz-buchhaltung-20-30-h-woche-im-homeoffice-neuss-255568
+  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/assistenz-buchhaltung-20-30-h-woche-im-homeoffice-neuss-339451
 companyLogoUrl: null
 ---
 smartkündigen OHG ist ein erfolgreicher Kündigungsdienstleister mit einem dynamischen Team und einer angenehmen Arbeitsatmosphäre. Zur Verstärkung unseres Teams suchen wir eine motivierte Teilzeitkraft (m/w/d) im Bereich Buchhaltung.
@@ -57,4 +57,4 @@ Senden Sie Ihre vollständigen Unterlagen gerne an uns zu.
 
 Wir freuen uns darauf, von Ihnen zu hören!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

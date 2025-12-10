@@ -6,7 +6,6 @@ import Layout from '@/components/Layout';
 import apiHandler, {
   CareerPathResponse,
 } from '@/pages/api/tools/career-simulator';
-import commonRolesApiHandler from '@/pages/api/jobs/common-roles';
 import { NextApiRequest, NextApiResponse } from 'next';
 
 type Role = { key: string; title: string };
@@ -62,23 +61,23 @@ const CareerSimulatorPage: NextPage<CareerSimulatorPageProps> = ({
   const renderResult = () => {
     if (isLoading) {
       return (
-        <div className="text-center p-10">
-            <p className="text-lg text-neutral-600">Simulating your career path...</p>
-            {/* You can add a spinner here */}
+        <div className="flex flex-col items-center justify-center p-20">
+            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
+            <p className="mt-4 text-lg text-neutral-600 font-serif italic">Analyzing career pathways...</p>
         </div>
       )
     }
 
     if (error) {
-      return <p className="text-red-500 text-center">{error}</p>;
+      return <p className="text-red-500 text-center p-10 bg-red-50 rounded-lg border border-red-100">{error}</p>;
     }
 
     if (!data) {
       return (
-        <div className="text-center p-10 bg-neutral-50 rounded-lg">
-            <h3 className="text-xl font-semibold text-neutral-700">Your Future Awaits</h3>
-            <p className="mt-2 text-neutral-500">
-            Select a role to see your potential career path.
+        <div className="text-center p-16 bg-neutral-50/50 rounded-xl border border-neutral-200/60 dashed-border">
+            <h3 className="text-2xl font-serif text-primary-dark mb-2">Your Future Awaits</h3>
+            <p className="text-neutral-500">
+            Select a role above to reveal your potential career trajectory.
             </p>
         </div>
       );
@@ -86,50 +85,64 @@ const CareerSimulatorPage: NextPage<CareerSimulatorPageProps> = ({
 
     return (
       <div className="mt-12">
-        <div className="relative border-l-2 border-primary/20 pl-8">
-            {/* Current Role Marker */}
-            <div className="mb-12 relative">
-                <div className="absolute -left-[3.2rem] top-1 w-8 h-8 bg-primary rounded-full border-4 border-white flex items-center justify-center">
-                    <span className="text-white font-bold">1</span>
+        <div className="relative border-l-2 border-primary/20 pl-8 ml-4 md:ml-10 space-y-16">
+            {/* Origin Point */}
+            <div className="relative">
+                <div className="absolute -left-[2.9rem] top-1 w-10 h-10 bg-primary-dark rounded-full border-4 border-white shadow-md flex items-center justify-center z-10">
+                    <span className="text-white font-bold text-sm">1</span>
                 </div>
-                <h2 className="text-2xl font-serif font-bold text-primary-dark">Current Role: {data.currentRole.title}</h2>
-                <p className="text-neutral-500">This is your starting point.</p>
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-neutral-100">
+                    <h2 className="text-2xl font-serif font-bold text-primary-dark">Current Role: {data.currentRole.title}</h2>
+                    <p className="text-neutral-500 mt-1">Starting Point</p>
+                </div>
             </div>
 
             {/* Next Steps */}
             {data.nextSteps.map((step, index) => (
-            <div key={step.role} className="mb-12 relative">
-                <div className="absolute -left-[3.2rem] top-1 w-8 h-8 bg-secondary rounded-full border-4 border-white flex items-center justify-center">
-                    <span className="text-white font-bold">{index + 2}</span>
+            <div key={step.role} className="relative">
+                <div className="absolute -left-[2.9rem] top-1 w-10 h-10 bg-secondary rounded-full border-4 border-white shadow-md flex items-center justify-center z-10">
+                    <span className="text-white font-bold text-sm">{index + 2}</span>
                 </div>
-                <div className="bg-white shadow-lg rounded-lg p-6 border border-neutral-200/80">
-                    <h3 className="text-2xl font-serif font-bold text-secondary-dark mb-4">
-                        Next Step: {step.title}
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                
+                {/* Connector Line Cover for last item to stop line going down */}
+                {index === data.nextSteps.length - 1 && (
+                    <div className="absolute -left-[2.1rem] top-10 bottom-0 w-1 bg-white z-0 h-full"></div>
+                )}
+
+                <div className="bg-white shadow-xl shadow-neutral-100/50 rounded-xl p-8 border border-neutral-200/60 transition-all duration-300 hover:border-secondary/30 hover:shadow-2xl">
+                    <div className="flex flex-col md:flex-row md:items-center justify-between mb-6">
+                         <h3 className="text-2xl sm:text-3xl font-serif font-bold text-secondary-dark">
+                            Next Step: {step.title}
+                        </h3>
+                        <span className="inline-block px-3 py-1 bg-green-50 text-green-700 text-xs font-semibold rounded-full mt-2 md:mt-0 w-fit">
+                            Recommended Path
+                        </span>
+                    </div>
+                   
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
                         <div>
-                            <h4 className="text-lg font-semibold mb-3 flex items-center text-neutral-800">
-                                <svg className="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
-                                Common Skills
+                            <h4 className="text-lg font-semibold mb-4 flex items-center text-primary-dark border-b border-neutral-100 pb-2">
+                                <svg className="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                                Key Skills to Acquire
                             </h4>
                             {step.commonSkills.length > 0 ? (
-                            <ul className="space-y-2">
+                            <div className="flex flex-wrap gap-2">
                                 {step.commonSkills.map((skill) => (
-                                <li key={skill} className="capitalize bg-secondary/10 text-secondary-dark px-3 py-1 rounded-md text-sm font-medium inline-block mr-2 mb-2">
+                                <span key={skill} className="px-3 py-1.5 bg-neutral-100 text-neutral-700 text-sm font-medium rounded-md border border-neutral-200">
                                     {skill}
-                                </li>
+                                </span>
                                 ))}
-                            </ul>
+                            </div>
                             ) : (
-                            <p className="text-sm text-neutral-500">
-                                Not enough data to determine common skills.
+                            <p className="text-sm text-neutral-500 italic">
+                                Data gathering in progress for this role.
                             </p>
                             )}
                         </div>
                         <div>
-                            <h4 className="text-lg font-semibold mb-3 flex items-center text-neutral-800">
+                            <h4 className="text-lg font-semibold mb-4 flex items-center text-primary-dark border-b border-neutral-100 pb-2">
                                 <svg className="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                                Relevant Jobs
+                                Open Opportunities
                             </h4>
                             {step.relevantJobs.length > 0 ? (
                             <ul className="space-y-3">
@@ -137,17 +150,17 @@ const CareerSimulatorPage: NextPage<CareerSimulatorPageProps> = ({
                                 <li key={job.id}>
                                     <Link
                                     href={`/jobs/${job.id}`}
-                                    className="group"
+                                    className="group block p-3 bg-neutral-50 hover:bg-white border border-transparent hover:border-secondary/20 rounded-lg transition-colors"
                                     >
-                                    <span className="font-semibold text-primary group-hover:underline">{job.title}</span>
-                                    <span className="text-neutral-500"> at {job.company}</span>
+                                    <div className="font-semibold text-primary group-hover:text-secondary-dark transition-colors">{job.title}</div>
+                                    <div className="text-sm text-neutral-500">{job.company} • {job.location}</div>
                                     </Link>
                                 </li>
                                 ))}
                             </ul>
                             ) : (
-                            <p className="text-sm text-neutral-500">
-                                No specific jobs found for this path right now.
+                            <p className="text-sm text-neutral-500 italic">
+                                No specific openings matching this exact title right now.
                             </p>
                             )}
                         </div>
@@ -229,18 +242,18 @@ export const getServerSideProps: GetServerSideProps<
   };
 
   try {
-    // 1. Fetch the list of common roles
-    const rolesReq = { method: 'GET' } as NextApiRequest;
+    // 1. Fetch the list of valid roles from the simulator API itself
+    const rolesReq = { query: { listRoles: 'true' }, method: 'GET' } as unknown as NextApiRequest;
     const rolesRes = createMockRes();
-    await commonRolesApiHandler(rolesReq, rolesRes);
+    await apiHandler(rolesReq, rolesRes);
     const { statusCode: rolesStatus, data: rolesData } = rolesRes._getData();
     
     const typedRolesData = rolesData as { roles: Role[] };
     if (rolesStatus !== 200 || !typedRolesData?.roles) {
-      throw new Error('Failed to fetch common roles.');
+      throw new Error('Failed to fetch simulator roles.');
     }
     const initialRoles = typedRolesData.roles;
-    const initialRole = initialRoles[0]?.key || 'ai_ml_engineer';
+    const initialRole = initialRoles[0]?.key || 'software_engineer';
 
     // 2. Fetch the initial career path data for the first role
     const careerReq = { query: { role: initialRole }, method: 'GET' } as unknown as NextApiRequest;
@@ -266,7 +279,7 @@ export const getServerSideProps: GetServerSideProps<
     return {
       props: {
         initialData: null,
-        initialRole: 'ai_ml_engineer',
+        initialRole: 'software_engineer',
         initialRoles: [],
         error: err.message || 'An unexpected error occurred.',
       },

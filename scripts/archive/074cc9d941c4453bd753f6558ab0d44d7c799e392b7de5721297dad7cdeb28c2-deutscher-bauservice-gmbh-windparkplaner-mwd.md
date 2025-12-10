@@ -4,65 +4,118 @@ title: Windparkplaner (m/w/d)
 company: Deutscher Bauservice GmbH
 location: Molbergen
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/windparkplaner-molbergen-187906
-postedDate: '2025-11-06T12:31:32.000Z'
+  https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/windparkplaner-molbergen-285566
+postedDate: '2025-11-28T16:32:07.000Z'
 expirationDate: null
 tags:
   - Project Management
 status: published
-jobLevel: Senior
+jobLevel: Mid-Senior
 employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/windparkplaner-molbergen-187906
+  https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/windparkplaner-molbergen-285566
 companyLogoUrl: null
-description: >-
-  Description\nWe are a rapidly developing, leading provider of services for
-  engineering and civil engineering companies, seeking experienced support to
-  expand our existing projects and project areas. If you are a seasoned project
-  manager passionate about wind power, thrive in dynamic environments, and excel
-  at maintaining an overview even under pressure, we invite you to join our
-  team! This role offers the chance to participate in planning large, nationwide
-  wind power projects.\n\nAs part of our team, you'll also enjoy a range of
-  attractive benefits designed to support your well-being and professional
-  growth, reflecting our start-up flair:\n*   Flexible working hours\n*   Mobile
-  working (remote work options)\n*   Recreational allowance\n*   Company pension
-  scheme\n*   Company bike leasing\n*   Company fitness program (Hansefit)\n*  
-  Full catering in the office\n*   Corporate Benefits\n*   Many shared events
-  and activities\n\n### Responsibilities\n- Take responsibility for wind energy
-  projects from initial consultation through to contract completion.\n- Create
-  site plans, concepts, and planning variants for potential wind farms,
-  including comprehensive development concepts.\n- Provide expert customer care
-  and consultation.\n- Oversee draft and approval planning for wind farm
-  projects.\n- Conduct technical assessments of projects, ensuring compliance
-  with legal regulations and necessary planning steps for approval.\n- Prepare
-  and submit all required approval applications.\n- Serve as the primary point
-  of contact for approval authorities, experts, customers, and for all technical
-  inquiries.\n- Deliver compelling presentations in municipal councils and at
-  citizen assemblies.\n- Process and disseminate information material for
-  customers.\n- Manage all technical documents and project documentation
-  throughout the project lifecycle.\n\n### Qualifications\n- A completed degree
-  in Architecture, Geography, Renewable Energies, Civil Engineering, or a
-  completed apprenticeship as a technical draughtsman with relevant professional
-  experience, or a similar qualification.\n- Proven organizational talent, a
-  collaborative team player, and a proactive approach to taking on
-  responsibility.\n- Desirable experience in customer service and dealing
-  effectively with approval authorities.\n- Excellent communication skills and
-  strong negotiation expertise.\n- Experience with CAD or GIS programs, ideally
-  including specialized software like WindPRO and Windographer.\n- Proficiency
-  in MS-Office applications.\n\n### Author's Take\nThis is a fantastic
-  opportunity for an experienced Project Planner to make a significant impact in
-  the wind power sector within a rapidly growing company. The role emphasizes
-  individual responsibility, customer interaction, and navigating complex
-  regulatory environments, ensuring a dynamic and challenging experience. Our
-  \"start-up flair\" combined with flexible work options and social benefits
-  highlights an employee-centric culture that prioritizes work-life balance,
-  collaboration, and continuous development. We're looking for self-starters
-  with a passion for sustainable energy and strong communication skills to
-  engage with diverse stakeholders. This is a chance to contribute directly to
-  Germany's energy transition.
-responsibilities: []
-qualifications: []
+companyCulture: >-
+  The company cultivates a dynamic, growth-oriented culture with a start-up
+  flair, focusing on significant impact in renewable energy. It prioritizes
+  work-life balance through flexible and mobile working options, fosters
+  collaboration via team events, and encourages personal growth by entrusting
+  employees with substantial project responsibility.
+story_question1: >-
+  Given the company's rapid growth and the ambition to become a leading provider
+  in wind energy services, how does this specific role contribute to scaling our
+  projects effectively, and what are the biggest challenges in expanding our
+  national wind park portfolio?
+story_answer1: >-
+  That’s an excellent question, and it gets right to the heart of what makes
+  this role so impactful. As we rapidly expand, your contribution is crucial for
+  translating ambitious visions into tangible wind parks. You'll be taking
+  ownership of projects from initial concept to final approval, directly shaping
+  the energy landscape. The biggest challenge, and also the most rewarding
+  aspect, is navigating the complex regulatory frameworks and diverse
+  stakeholder expectations across different regions in Germany. But you won't be
+  alone; our start-up culture means we're agile, collaborative, and constantly
+  learning from each other, ensuring we overcome these hurdles as a unified
+  team. You'll see the direct impact of your work powering homes and industries,
+  which is incredibly motivating.
+story_question2: >-
+  With the rapid advancements in renewable energy technology and planning tools,
+  how does the team stay at the forefront, and what opportunities are there for
+  this role to influence the adoption of new, innovative planning methodologies
+  or software?
+story_answer2: >-
+  Innovation is truly in our DNA. We pride ourselves on having a 'start-up
+  flair,' which means we’re always looking for better, smarter ways to do
+  things. The team actively explores and experiments with cutting-edge tools and
+  methodologies. For this role, your expertise with CAD/GIS and specialized wind
+  energy software like WindPRO and Windographer is highly valued, but we don't
+  stop there. We encourage every team member to bring forward new ideas, whether
+  it's a novel approach to site analysis or a new software solution that could
+  streamline our approval processes. You'll have the autonomy and support to
+  research, propose, and even pilot new technologies, directly influencing how
+  we push the boundaries of efficiency and effectiveness in wind park
+  development.
+story_question3: >-
+  This role involves significant interaction with diverse stakeholders,
+  including clients, permitting authorities, and local communities. How does the
+  company support its project managers in navigating complex negotiations and
+  ensuring successful project buy-in across all parties?
+story_answer3: >-
+  Managing diverse stakeholder expectations is certainly one of the most
+  intricate parts of the job, and it’s where our collaborative spirit truly
+  shines. We understand that effective communication and negotiation are key to
+  successful project realization. Internally, we foster an environment where
+  colleagues openly share experiences and best practices from challenging
+  negotiations. We also provide ongoing professional development opportunities
+  focused on stakeholder engagement and conflict resolution. Crucially, you’re
+  never left to handle difficult situations alone; there’s always a senior
+  expert or manager ready to offer guidance and support. Our goal is to empower
+  you with the tools and collective wisdom to build strong relationships, secure
+  approvals efficiently, and ensure every project moves forward with community
+  support.
 ---
-### Description\nWe are a rapidly developing, leading provider of services for engineering and civil engineering companies, seeking experienced support to expand our existing projects and project areas. If you are a seasoned project manager passionate about wind power, thrive in dynamic environments, and excel at maintaining an overview even under pressure, we invite you to join our team! This role offers the chance to participate in planning large, nationwide wind power projects.\n\nAs part of our team, you'll also enjoy a range of attractive benefits designed to support your well-being and professional growth, reflecting our start-up flair:\n*   Flexible working hours\n*   Mobile working (remote work options)\n*   Recreational allowance\n*   Company pension scheme\n*   Company bike leasing\n*   Company fitness program (Hansefit)\n*   Full catering in the office\n*   Corporate Benefits\n*   Many shared events and activities\n\n### Responsibilities\n- Take responsibility for wind energy projects from initial consultation through to contract completion.\n- Create site plans, concepts, and planning variants for potential wind farms, including comprehensive development concepts.\n- Provide expert customer care and consultation.\n- Oversee draft and approval planning for wind farm projects.\n- Conduct technical assessments of projects, ensuring compliance with legal regulations and necessary planning steps for approval.\n- Prepare and submit all required approval applications.\n- Serve as the primary point of contact for approval authorities, experts, customers, and for all technical inquiries.\n- Deliver compelling presentations in municipal councils and at citizen assemblies.\n- Process and disseminate information material for customers.\n- Manage all technical documents and project documentation throughout the project lifecycle.\n\n### Qualifications\n- A completed degree in Architecture, Geography, Renewable Energies, Civil Engineering, or a completed apprenticeship as a technical draughtsman with relevant professional experience, or a similar qualification.\n- Proven organizational talent, a collaborative team player, and a proactive approach to taking on responsibility.\n- Desirable experience in customer service and dealing effectively with approval authorities.\n- Excellent communication skills and strong negotiation expertise.\n- Experience with CAD or GIS programs, ideally including specialized software like WindPRO and Windographer.\n- Proficiency in MS-Office applications.\n\n### Author's Take\nThis is a fantastic opportunity for an experienced Project Planner to make a significant impact in the wind power sector within a rapidly growing company. The role emphasizes individual responsibility, customer interaction, and navigating complex regulatory environments, ensuring a dynamic and challenging experience. Our \\\"start-up flair\\\" combined with flexible work options and social benefits highlights an employee-centric culture that prioritizes work-life balance, collaboration, and continuous development. We're looking for self-starters with a passion for sustainable energy and strong communication skills to engage with diverse stakeholders. This is a chance to contribute directly to Germany's energy transition.
+### Description
+We are currently rapidly developing into a leading provider of services for engineering firms and civil engineering companies. To further expand our existing projects and project areas, we are looking for experienced support.
+
+Do you plan wind turbines faster than the wind? Are you keen to participate in the planning of large, nationwide wind power projects? Have you already gained experience in project management, are you practice-oriented, and do you keep an overview even in stressful situations?
+
+Then you are exactly right with us! Apply today and support our team!
+
+We offer:
+*   Flexible working hours
+*   Mobile working
+*   Recreational allowance
+*   Company pension scheme
+*   Company bike leasing
+*   Company fitness program (Hansefit)
+*   Full catering in the office
+*   Corporate benefits
+*   Many joint events and activities
+*   A company with a start-up flair
+
+We look forward to YOU!
+
+### Responsibilities
+*   Responsibility for wind energy projects from consultation to contract closing
+*   Creation of site plans, concepts, and planning variants for potential wind farms, including development concepts
+*   Support and consultation for customers
+*   Drafting and approval planning for wind farm projects
+*   Technical assessment of projects considering legal regulations and the planning steps required for obtaining approval
+*   Preparation of approval applications
+*   Point of contact for approval authorities and experts, as well as for customers and technical questions
+*   Presentations in municipal councils and at public meetings
+*   Processing of information material for customers
+*   Management of technical documents and project documentation
+
+### Qualifications
+*   Completed degree in Architecture, Geography, Renewable Energies, Civil Engineering, or a completed apprenticeship as a technical draughtsman with relevant professional experience, or a similar qualification
+*   You are an organizational talent and team player and enjoy taking responsibility
+*   Experience in customer support and dealing with approval authorities is desirable
+*   Excellent communication skills and negotiation abilities
+*   Experience with CAD or GIS programs, ideally already experience with programs like WindPRO and Windographer
+*   Good MS Office skills
+
+### Author's Take
+This is an exciting Mid-Senior level opportunity for a seasoned project manager or planner passionate about renewable energy. The role offers significant responsibility in shaping large-scale wind power projects across Germany, from initial concept to final approval. The company fosters a dynamic, start-up-like environment with strong emphasis on flexibility, professional growth, and team collaboration, evident through its comprehensive benefits and diverse events. It's a chance to make a tangible impact on sustainable energy development within a supportive and forward-thinking team.

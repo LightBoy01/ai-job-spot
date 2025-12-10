@@ -6,8 +6,8 @@ title: >-
 company: NRT Niederrheinische Treuhand GmbH
 location: Duisburg
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/nrt-niederrheinische-treuhand-gmbh/wirtschaftsprufer-prufungsleiter-verantwortung-ubernehmen-zukunft-gestalten-duisburg-20977
-postedDate: '2025-11-24T08:31:51.000Z'
+  https://www.arbeitnow.com/jobs/companies/nrt-niederrheinische-treuhand-gmbh/wirtschaftsprufer-prufungsleiter-verantwortung-ubernehmen-zukunft-gestalten-duisburg-380198
+postedDate: '2025-12-01T08:01:55.000Z'
 expirationDate: null
 tags:
   - Auditor
@@ -17,7 +17,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/nrt-niederrheinische-treuhand-gmbh/wirtschaftsprufer-prufungsleiter-verantwortung-ubernehmen-zukunft-gestalten-duisburg-20977
+  https://www.arbeitnow.com/jobs/companies/nrt-niederrheinische-treuhand-gmbh/wirtschaftsprufer-prufungsleiter-verantwortung-ubernehmen-zukunft-gestalten-duisburg-380198
 companyLogoUrl: null
 ---
 Sie möchten anspruchsvolle Prüfungsmandate betreuen und suchen ein Team, das Wert auf fachliche Exzellenz und kollegiales Miteinander legt? Dann könnte das hier genau passen.  
@@ -77,4 +77,4 @@ Benefits
 
 Bitte senden Sie uns Ihren Lebenslauf zu. Wir werden uns innerhalb von 24 Stunden bei Ihnen melden. Wir freuen uns darauf, Sie kennenzulernen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

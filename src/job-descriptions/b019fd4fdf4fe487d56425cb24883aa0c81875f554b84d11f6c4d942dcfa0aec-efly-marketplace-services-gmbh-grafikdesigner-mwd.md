@@ -4,8 +4,8 @@ title: Grafikdesigner (m/w/d)
 company: eFLY Marketplace Services GmbH
 location: Stuttgart
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/grafikdesigner-stuttgart-326345
-postedDate: '2025-12-01T14:31:46.000Z'
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/grafikdesigner-stuttgart-111932
+postedDate: '2025-12-08T15:02:27.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/grafikdesigner-stuttgart-326345
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/grafikdesigner-stuttgart-111932
 companyLogoUrl: null
 ---
 Wir haben auch kein Bock mehr auf glattgebügelte Stellenbeschreibungen,weshalb du diese unbedingt lesen solltest ‼️

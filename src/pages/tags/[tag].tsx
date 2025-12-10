@@ -3,11 +3,13 @@ import Head from 'next/head';
 import Layout from '@/components/Layout';
 import JobCard from '@/components/JobCard';
 import ArticleCard from '@/components/ArticleCard';
-import { getAllTags, getJobsByTag, getArticlesByTag } from '@/lib/firestoreClient';
+import { getJobsByTag, getArticlesByTag } from '@/lib/firestoreClient';
 import { SerializedArticleSummary, SerializedJobSummary } from '@/lib/types';
 import AdContainer from '@/components/AdContainer';
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { useSessionScrollRestoration, getInitialStateFromSession, ScrollRestorationConfig } from '@/hooks/useSessionScrollRestoration';
+import { smoothScrollToTop } from '@/lib/utils';
+import Pagination from '@/components/Pagination';
 
 interface TagPageProps {
   tag: string;
@@ -23,12 +25,18 @@ const tagScrollConfig = (tag: string): { jobs: ScrollRestorationConfig, articles
         lastDocIdKey: `tagJobsLastDoc-${tag}`,
         hasMoreKey: `tagJobsHasMore-${tag}`,
         scrollPosKey: `tagJobsScrollPos-${tag}`,
+        pageKey: `tagJobsPage-${tag}`,
+        pageCursorsKey: `tagJobsPageCursors-${tag}`,
+        filtersKey: `tagJobsFilters-${tag}`,
     },
     articles: {
         listKey: `tagArticles-${tag}`,
         lastDocIdKey: `tagArticlesLastDoc-${tag}`,
         hasMoreKey: `tagArticlesHasMore-${tag}`,
         scrollPosKey: `tagArticlesScrollPos-${tag}`,
+        pageKey: `tagArticlesPage-${tag}`,
+        pageCursorsKey: `tagArticlesPageCursors-${tag}`,
+        filtersKey: `tagArticlesFilters-${tag}`,
     }
 });
 
@@ -41,36 +49,58 @@ const TagPage: NextPage<TagPageProps> = ({
 }) => {
     const config = tagScrollConfig(tag);
 
-    const { initialItems: sessionJobs, initialLastDocId: sessionLastJobDocId, initialHasMore: sessionHasMoreJobs } = getInitialStateFromSession<SerializedJobSummary>(config.jobs);
-    const { initialItems: sessionArticles, initialLastDocId: sessionLastArticleDocId, initialHasMore: sessionHasMoreArticles } = getInitialStateFromSession<SerializedArticleSummary>(config.articles);
+    const { 
+        initialItems: sessionJobs, 
+        initialLastDocId: sessionLastJobDocId, 
+        initialHasMore: sessionHasMoreJobs,
+        initialPage: initialJobPage,
+        initialPageCursors: initialJobPageCursors,
+    } = getInitialStateFromSession<SerializedJobSummary>(config.jobs);
+
+    const { 
+        initialItems: sessionArticles, 
+        initialLastDocId: sessionLastArticleDocId, 
+        initialHasMore: sessionHasMoreArticles,
+        initialPage: initialArticlePage,
+        initialPageCursors: initialArticlePageCursors,
+    } = getInitialStateFromSession<SerializedArticleSummary>(config.articles);
 
 
   const [displayedJobs, setDisplayedJobs] = useState<SerializedJobSummary[]>(sessionJobs || initialJobs);
   const [displayedArticles, setDisplayedArticles] = useState(sessionArticles || initialArticles);
+  
   const [loadingJobs, setLoadingJobs] = useState(false);
   const [loadingArticles, setLoadingArticles] = useState(false);
+  
   const [hasMoreJobs, setHasMoreJobs] = useState(sessionHasMoreJobs !== null ? sessionHasMoreJobs : true);
   const [hasMoreArticles, setHasMoreArticles] = useState(sessionHasMoreArticles !== null ? sessionHasMoreArticles : true);
+  
   const [lastJobDocIdState, setLastJobDocIdState] = useState(sessionLastJobDocId || staticLastJobDocId);
   const [lastArticleDocIdState, setLastArticleDocIdState] = useState(sessionLastArticleDocId || staticLastArticleDocId);
 
-  const jobLoader = useRef(null);
-  const articleLoader = useRef(null);
+  // Pagination State for Jobs
+  const [jobPage, setJobPage] = useState<number>(initialJobPage);
+  const [jobCursors, setJobCursors] = useState<(string | null)[]>(initialJobPageCursors);
 
-  const fetchMoreJobs = useCallback(async () => {
-    if (loadingJobs || !hasMoreJobs) return;
+  // Pagination State for Articles
+  const [articlePage, setArticlePage] = useState<number>(initialArticlePage);
+  const [articleCursors, setArticleCursors] = useState<(string | null)[]>(initialArticlePageCursors);
+
+  const fetchJobs = useCallback(async (cursor: string | null) => {
+    if (loadingJobs) return;
     setLoadingJobs(true);
 
     try {
       const response = await fetch(
-        `/api/tags/jobs/paginate?tag=${tag}&startAfter=${lastJobDocIdState || ''}`
+        `/api/tags/jobs/paginate?tag=${tag}&startAfter=${cursor || ''}`
       );
       const data = await response.json();
 
       if (data.jobs.length === 0) {
         setHasMoreJobs(false);
+        setDisplayedJobs([]);
       } else {
-        setDisplayedJobs((prev) => [...prev, ...data.jobs]);
+        setDisplayedJobs(data.jobs);
         setLastJobDocIdState(data.lastVisible);
       }
     } catch (error) {
@@ -78,23 +108,25 @@ const TagPage: NextPage<TagPageProps> = ({
       setHasMoreJobs(false);
     } finally {
       setLoadingJobs(false);
+      smoothScrollToTop(1200);
     }
-  }, [loadingJobs, hasMoreJobs, lastJobDocIdState, tag]);
+  }, [loadingJobs, tag]);
 
-  const fetchMoreArticles = useCallback(async () => {
-    if (loadingArticles || !hasMoreArticles) return;
+  const fetchArticles = useCallback(async (cursor: string | null) => {
+    if (loadingArticles) return;
     setLoadingArticles(true);
 
     try {
       const response = await fetch(
-        `/api/tags/articles/paginate?tag=${tag}&startAfter=${lastArticleDocIdState || ''}`
+        `/api/tags/articles/paginate?tag=${tag}&startAfter=${cursor || ''}`
       );
       const data = await response.json();
 
       if (data.articles.length === 0) {
         setHasMoreArticles(false);
+        setDisplayedArticles([]);
       } else {
-        setDisplayedArticles((prev) => [...prev, ...data.articles]);
+        setDisplayedArticles(data.articles);
         setLastArticleDocIdState(data.lastVisible);
       }
     } catch (error) {
@@ -102,54 +134,51 @@ const TagPage: NextPage<TagPageProps> = ({
       setHasMoreArticles(false);
     } finally {
       setLoadingArticles(false);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  }, [loadingArticles, hasMoreArticles, lastArticleDocIdState, tag]);
+  }, [loadingArticles, tag]);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          fetchMoreJobs();
-        }
-      },
-      { threshold: 1 }
-    );
-    const currentJobLoader = jobLoader.current;
-    if (currentJobLoader) {
-      observer.observe(currentJobLoader);
-    }
-    return () => {
-      if (currentJobLoader) {
-        observer.unobserve(currentJobLoader);
-      }
-    };
-  }, [fetchMoreJobs]);
+  const handleNextJobPage = useCallback(() => {
+      if (!lastJobDocIdState) return;
+      setJobCursors(prev => [...prev, lastJobDocIdState]);
+      setJobPage(prev => prev + 1);
+      fetchJobs(lastJobDocIdState);
+  }, [lastJobDocIdState, fetchJobs]);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          fetchMoreArticles();
-        }
-      },
-      { threshold: 1 }
-    );
-    const currentArticleLoader = articleLoader.current;
-    if (currentArticleLoader) {
-      observer.observe(currentArticleLoader);
-    }
-    return () => {
-      if (currentArticleLoader) {
-        observer.unobserve(currentArticleLoader);
-      }
-    };
-  }, [fetchMoreArticles]);
+  const handlePrevJobPage = useCallback(() => {
+      if (jobPage <= 1) return;
+      const newPage = jobPage - 1;
+      const prevCursor = jobCursors[newPage - 1];
+      setJobCursors(prev => prev.slice(0, -1));
+      setJobPage(newPage);
+      fetchJobs(prevCursor);
+  }, [jobPage, jobCursors, fetchJobs]);
+
+  const handleNextArticlePage = useCallback(() => {
+      if (!lastArticleDocIdState) return;
+      setArticleCursors(prev => [...prev, lastArticleDocIdState]);
+      setArticlePage(prev => prev + 1);
+      fetchArticles(lastArticleDocIdState);
+  }, [lastArticleDocIdState, fetchArticles]);
+
+  const handlePrevArticlePage = useCallback(() => {
+      if (articlePage <= 1) return;
+      const newPage = articlePage - 1;
+      const prevCursor = articleCursors[newPage - 1];
+      setArticleCursors(prev => prev.slice(0, -1));
+      setArticlePage(newPage);
+      fetchArticles(prevCursor);
+  }, [articlePage, articleCursors, fetchArticles]);
+
 
   // Apply session restoration for both lists
   useSessionScrollRestoration({
     items: displayedJobs,
     lastDocId: lastJobDocIdState,
     hasMore: hasMoreJobs,
+    page: jobPage,
+    pageCursors: jobCursors,
+    activeFilters: null, 
     config: config.jobs,
   });
 
@@ -157,6 +186,9 @@ const TagPage: NextPage<TagPageProps> = ({
       items: displayedArticles,
       lastDocId: lastArticleDocIdState,
       hasMore: hasMoreArticles,
+      page: articlePage,
+      pageCursors: articleCursors,
+      activeFilters: null,
       config: config.articles
   });
 
@@ -192,17 +224,15 @@ const TagPage: NextPage<TagPageProps> = ({
               <p className="text-neutral-600 mt-2 max-w-md mx-auto">There are currently no open positions for this tag. Please check back later or explore our other hubs.</p>
             </div>
           )}
-          {loadingJobs && (
-            <p className="text-center text-neutral-600 mt-8">
-              Loading more jobs...
-            </p>
-          )}
-          {!hasMoreJobs && displayedJobs.length > 0 && (
-            <p className="text-center text-neutral-600 font-serif text-lg mt-8 pt-8 border-t border-neutral-200">
-              You&apos;ve reached the end of the job listings for this tag.
-            </p>
-          )}
-          <div ref={jobLoader} className="h-1"></div>
+          
+          <Pagination
+            currentPage={jobPage}
+            hasPrevious={jobPage > 1}
+            hasNext={hasMoreJobs}
+            onPrevious={handlePrevJobPage}
+            onNext={handleNextJobPage}
+            isLoading={loadingJobs}
+          />
         </div>
         <div className="my-12">
           <AdContainer
@@ -228,17 +258,15 @@ const TagPage: NextPage<TagPageProps> = ({
               <p className="text-neutral-600 mt-2 max-w-md mx-auto">There are currently no articles or briefings for this tag. Please check back later or explore our other hubs.</p>
             </div>
           )}
-          {loadingArticles && (
-            <p className="text-center text-neutral-600 mt-8">
-              Loading more articles...
-            </p>
-          )}
-          {!hasMoreArticles && displayedArticles.length > 0 && (
-            <p className="text-center text-neutral-600 font-serif text-lg mt-8 pt-8 border-t border-neutral-200">
-              You&apos;ve reached the end of the article listings for this tag.
-            </p>
-          )}
-          <div ref={articleLoader} className="h-1"></div>
+          
+           <Pagination
+            currentPage={articlePage}
+            hasPrevious={articlePage > 1}
+            hasNext={hasMoreArticles}
+            onPrevious={handlePrevArticlePage}
+            onNext={handleNextArticlePage}
+            isLoading={loadingArticles}
+          />
         </div>
         <div className="my-12">
           <AdContainer

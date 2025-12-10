@@ -8,35 +8,97 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 
 // --- Hardcoded Career Graph for MVP ---
 const careerGraph: Record<string, { title: string; nextSteps: string[] }> = {
+  // Entry Level / General
+  software_engineer: {
+    title: 'Software Engineer',
+    nextSteps: ['ai_ml_engineer', 'data_scientist', 'backend_engineer_ai', 'senior_software_engineer'],
+  },
+  data_analyst: {
+    title: 'Data Analyst',
+    nextSteps: ['data_scientist', 'business_intelligence_engineer', 'ai_product_manager'],
+  },
+  junior_developer: {
+    title: 'Junior Developer',
+    nextSteps: ['software_engineer', 'prompt_engineer'],
+  },
+
+  // Specialized AI Roles
   ai_ml_engineer: {
     title: 'AI / Machine Learning Engineer',
-    nextSteps: ['senior_ai_ml_engineer', 'lead_ai_ml_engineer'],
+    nextSteps: ['senior_ai_ml_engineer', 'computer_vision_engineer', 'nlp_engineer', 'mlops_engineer'],
   },
   data_scientist: {
     title: 'Data Scientist',
-    nextSteps: ['senior_data_scientist', 'ai_ml_engineer'],
+    nextSteps: ['senior_data_scientist', 'applied_scientist', 'ai_research_scientist'],
   },
-  software_engineer: {
-    title: 'Software Engineer',
-    nextSteps: ['ai_ml_engineer', 'senior_software_engineer'],
+  prompt_engineer: {
+    title: 'Prompt Engineer',
+    nextSteps: ['ai_interaction_designer', 'llm_application_developer'],
   },
-  // Define the target roles as well
+  backend_engineer_ai: {
+    title: 'Backend Engineer (AI Systems)',
+    nextSteps: ['distributed_systems_engineer', 'mlops_engineer', 'ai_architect'],
+  },
+
+  // Domain Specific
+  nlp_engineer: {
+    title: 'NLP Engineer',
+    nextSteps: ['senior_nlp_engineer', 'llm_specialist'],
+  },
+  computer_vision_engineer: {
+    title: 'Computer Vision Engineer',
+    nextSteps: ['senior_computer_vision_engineer', 'robotics_engineer'],
+  },
+  mlops_engineer: {
+    title: 'MLOps Engineer',
+    nextSteps: ['senior_mlops_engineer', 'ai_platform_engineer', 'ai_architect'],
+  },
+
+  // Advanced / Leadership
   senior_ai_ml_engineer: {
     title: 'Senior AI / ML Engineer',
-    nextSteps: [], // End of this path for MVP
-  },
-  lead_ai_ml_engineer: {
-    title: 'Lead AI / ML Engineer',
-    nextSteps: [],
+    nextSteps: ['lead_ai_ml_engineer', 'ai_architect', 'engineering_manager_ai'],
   },
   senior_data_scientist: {
     title: 'Senior Data Scientist',
-    nextSteps: [],
+    nextSteps: ['lead_data_scientist', 'chief_data_officer'],
   },
-  senior_software_engineer: {
-    title: 'Senior Software Engineer',
-    nextSteps: [],
+  ai_architect: {
+    title: 'AI Architect',
+    nextSteps: ['chief_ai_officer', 'cto'],
   },
+  ai_product_manager: {
+    title: 'AI Product Manager',
+    nextSteps: ['senior_ai_product_manager', 'director_of_product_ai'],
+  },
+  ai_research_scientist: {
+    title: 'AI Research Scientist',
+    nextSteps: ['senior_research_scientist', 'principal_research_scientist'],
+  },
+  
+  // Terminal / Senior Management (MVP ends here)
+  lead_ai_ml_engineer: { title: 'Lead AI / ML Engineer', nextSteps: [] },
+  lead_data_scientist: { title: 'Lead Data Scientist', nextSteps: [] },
+  senior_software_engineer: { title: 'Senior Software Engineer', nextSteps: [] },
+  senior_nlp_engineer: { title: 'Senior NLP Engineer', nextSteps: [] },
+  llm_specialist: { title: 'LLM Specialist', nextSteps: [] },
+  senior_computer_vision_engineer: { title: 'Senior Computer Vision Engineer', nextSteps: [] },
+  robotics_engineer: { title: 'Robotics Engineer', nextSteps: [] },
+  senior_mlops_engineer: { title: 'Senior MLOps Engineer', nextSteps: [] },
+  ai_platform_engineer: { title: 'AI Platform Engineer', nextSteps: [] },
+  engineering_manager_ai: { title: 'Engineering Manager (AI)', nextSteps: [] },
+  chief_data_officer: { title: 'Chief Data Officer', nextSteps: [] },
+  chief_ai_officer: { title: 'Chief AI Officer', nextSteps: [] },
+  cto: { title: 'Chief Technology Officer', nextSteps: [] },
+  senior_ai_product_manager: { title: 'Senior AI Product Manager', nextSteps: [] },
+  director_of_product_ai: { title: 'Director of Product (AI)', nextSteps: [] },
+  senior_research_scientist: { title: 'Senior Research Scientist', nextSteps: [] },
+  principal_research_scientist: { title: 'Principal Research Scientist', nextSteps: [] },
+  ai_interaction_designer: { title: 'AI Interaction Designer', nextSteps: [] },
+  llm_application_developer: { title: 'LLM Application Developer', nextSteps: [] },
+  distributed_systems_engineer: { title: 'Distributed Systems Engineer', nextSteps: [] },
+  applied_scientist: { title: 'Applied Scientist', nextSteps: [] },
+  business_intelligence_engineer: { title: 'Business Intelligence Engineer', nextSteps: [] },
 };
 
 // Helper to find jobs matching a role key using a scoring system
@@ -128,13 +190,27 @@ export interface CareerPathResponse {
   nextSteps: CareerPathStep[];
 }
 
+// Helper to get all available roles
+export const getCareerGraphRoles = () => {
+  return Object.entries(careerGraph).map(([key, value]) => ({
+    key,
+    title: value.title,
+  })).sort((a, b) => a.title.localeCompare(b.title));
+};
+
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<CareerPathResponse | { message: string }>
+  res: NextApiResponse<CareerPathResponse | { message: string } | { roles: { key: string; title: string }[] }>
 ) {
   if (req.method !== 'GET') {
     res.setHeader('Allow', ['GET']);
     return res.status(405).end(`Method ${req.method} Not Allowed`);
+  }
+
+  // Handle request for list of roles
+  if (req.query.listRoles === 'true') {
+     res.setHeader('Cache-Control', 'public, s-maxage=86400');
+     return res.status(200).json({ roles: getCareerGraphRoles() });
   }
 
   const { role } = req.query;

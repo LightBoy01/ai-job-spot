@@ -1,13 +1,13 @@
 ---
 id: f477ba9ebf9b8576649a35035183dc215b960540caec69bc9ea01124348f57ad
 title: >-
-  Minijob (bis zu 35€/Std.): Werde Englischlehrer und sei dein eigener Boss
+  Minijob (bis zu 35/Std.): Werde Englischlehrer und sei dein eigener Boss
   (w/m/d)
 company: Nachhilfeunterricht
 location: Berlin
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/nachhilfeunterricht/minijob-bis-zu-35eur-std-werde-englischlehrer-und-sei-dein-eigener-boss-berlin-433479
-postedDate: '2025-11-07T09:01:18.000Z'
+  https://www.arbeitnow.com/jobs/companies/nachhilfeunterricht/minijob-bis-zu-35eur-std-werde-englischlehrer-und-sei-dein-eigener-boss-berlin-441721
+postedDate: '2025-12-01T13:31:50.000Z'
 expirationDate: null
 tags:
   - Remote
@@ -19,7 +19,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/nachhilfeunterricht/minijob-bis-zu-35eur-std-werde-englischlehrer-und-sei-dein-eigener-boss-berlin-433479
+  https://www.arbeitnow.com/jobs/companies/nachhilfeunterricht/minijob-bis-zu-35eur-std-werde-englischlehrer-und-sei-dein-eigener-boss-berlin-441721
 companyLogoUrl: null
 ---
 Suchst du einen Job mit flexiblen Arbeitszeiten, bei dem du von zu Hause aus etwas dazuverdienen kannst? Werde Mitglied bei _Nachhilfeunterricht_, der führenden Plattform für Nachhilfeunterricht, der zu der Unternehmensgruppe _GoStudent_ gehört, und beginne Nachhilfe zu geben. Wenn du die englische Sprache beherrschst, ist das deine Chance!

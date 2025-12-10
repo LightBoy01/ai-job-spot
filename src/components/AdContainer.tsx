@@ -20,20 +20,22 @@ const AdContainer = ({ slot }: AdContainerProps) => {
   const isProduction = process.env.NODE_ENV === 'production';
 
   return (
-    <div className="ad-container">
-      <div className="text-center text-xs text-neutral-400 font-serif tracking-widest uppercase mb-2">
+    <div className="w-full flex flex-col items-center my-8">
+      <div className="text-[10px] text-neutral-400 font-serif tracking-widest uppercase mb-2 opacity-60">
         Advertisement
       </div>
       {isProduction ? (
-        <Adsense
-          key={slot}
-          adSlot={slot}
-          dataAdFormat="auto"
-          dataFullWidthResponsive={true}
-        />
+        <div className="min-h-[250px] w-full flex justify-center bg-transparent">
+          <Adsense
+            key={slot}
+            adSlot={slot}
+            dataAdFormat="auto"
+            dataFullWidthResponsive={true}
+          />
+        </div>
       ) : (
-        <div className="w-full h-60 bg-neutral-100 flex items-center justify-center rounded-md">
-          <span className="text-neutral-400 text-sm">Ad Placeholder (Dev Mode)</span>
+        <div className="w-[300px] h-[250px] border border-neutral-200 bg-neutral-50/30 flex items-center justify-center rounded-sm">
+          <span className="text-neutral-400 text-xs font-serif italic">Ad Placeholder</span>
         </div>
       )}
     </div>

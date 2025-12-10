@@ -6,8 +6,8 @@ title: >-
 company: ADVIMED Koblenz Steuerberatungsgesellschaft mbH
 location: Koblenz
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/advimed-koblenz-steuerberatungsgesellschaft-mbh/sie-haben-einen-soliden-job-wie-schade-fur-sie-steuerfachangestellte-remote-oder-in-koblenz-465879
-postedDate: '2025-11-24T08:01:48.000Z'
+  https://www.arbeitnow.com/jobs/companies/advimed-koblenz-steuerberatungsgesellschaft-mbh/sie-haben-einen-soliden-job-wie-schade-fur-sie-steuerfachangestellte-remote-oder-in-koblenz-5784
+postedDate: '2025-12-01T08:01:53.000Z'
 expirationDate: null
 tags:
   - Finance
@@ -17,7 +17,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/advimed-koblenz-steuerberatungsgesellschaft-mbh/sie-haben-einen-soliden-job-wie-schade-fur-sie-steuerfachangestellte-remote-oder-in-koblenz-465879
+  https://www.arbeitnow.com/jobs/companies/advimed-koblenz-steuerberatungsgesellschaft-mbh/sie-haben-einen-soliden-job-wie-schade-fur-sie-steuerfachangestellte-remote-oder-in-koblenz-5784
 companyLogoUrl: null
 ---
 Liebe Bewerberin, lieber Bewerber,

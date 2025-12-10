@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "GRPC_NODE_ONLY_WEB_CHANNEL=1 next dev",
     "dev:css": "tailwindcss -i ./src/styles/globals.css -o ./src/styles/main.css --watch",
-    "build": "NODE_OPTIONS='--max-old-space-size=4096' GRPC_NODE_ONLY_WEB_CHANNEL=1 next build",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' GRPC_NODE_ONLY_WEB_CHANNEL=1 next build --webpack",
     "start": "next start",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -98,14 +98,15 @@
     "markdown-table-parser": "^1.0.0",
     "marked": "^16.2.0",
     "micro": "^10.0.1",
-    "next": "^15.5.3",
+    "next": "^16.0.7",
     "nodemailer": "^7.0.5",
+    "octokit": "^5.0.5",
     "p-retry": "^7.1.0",
     "p-throttle": "^8.0.0",
     "pino": "^10.0.0",
     "playwright": "^1.55.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
     "react-hook-form": "^7.63.0",
     "react-hot-toast": "^2.6.0",
     "react-quill": "^2.0.0",
@@ -133,7 +134,7 @@
     "chalk": "^5.6.0",
     "dotenv": "^17.2.3",
     "eslint": "^9.35.0",
-    "eslint-config-next": "^15.4.6",
+    "eslint-config-next": "^16.0.7",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-security": "^3.0.1",
     "jest": "^30.0.5",
@@ -151,6 +152,10 @@
     "whatwg-fetch": "^3.6.20"
   },
   "overrides": {
-    "quill": "^2.0.0"
+    "quill": "^2.0.0",
+    "react-quill": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
   }
 }

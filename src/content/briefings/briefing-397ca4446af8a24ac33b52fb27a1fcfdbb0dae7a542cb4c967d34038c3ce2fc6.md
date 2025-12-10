@@ -1,8 +1,10 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-397ca4446af8a24ac33b52fb27a1fcfdbb0dae7a542cb4c967d34038c3ce2fc6
 title: >-
-  Review of  "Exploring metaphors of AI: visualisations, narratives and
-  perception"
+  Review of  “Exploring metaphors of AI: visualisations, narratives and
+  perception”
 slug: briefing-397ca4446af8a24ac33b52fb27a1fcfdbb0dae7a542cb4c967d34038c3ce2fc6
 author: Cinzia Pusceddu
 publishDate: 2025-11-17T09:28:33.000Z

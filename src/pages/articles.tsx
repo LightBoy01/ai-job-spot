@@ -4,11 +4,13 @@ import Head from 'next/head';
 import Layout from '@/components/Layout';
 import ArticleCard from '@/components/ArticleCard';
 import AdContainer from '@/components/AdContainer';
-import { getArticles } from '@/lib/firestoreClient';
+import { getArticlesServer } from '@/lib/firestoreServer';
 import { SerializedArticleSummary } from '@/lib/types';
-import { ARTICLE_FETCH_LIMIT } from '@/lib/constants';
+import { ARTICLE_FETCH_LIMIT, HUBS } from '@/lib/constants';
 import { GetStaticProps } from 'next';
 import { useSessionScrollRestoration, getInitialStateFromSession, ScrollRestorationConfig } from '@/hooks/useSessionScrollRestoration';
+import Pagination from '@/components/Pagination';
+import { smoothScrollToTop } from '@/lib/utils';
 
 interface ArticlesProps {
   initialArticles: SerializedArticleSummary[];
@@ -20,6 +22,9 @@ const articleScrollConfig: ScrollRestorationConfig = {
   lastDocIdKey: 'articleListingLastDocId',
   hasMoreKey: 'articleListingHasMore',
   scrollPosKey: 'articleListingScrollPos',
+  pageKey: 'articleListingPage',
+  pageCursorsKey: 'articleListingPageCursors',
+  filtersKey: 'articleListingFilters',
 };
 
 export default function Articles({ 
@@ -32,6 +37,9 @@ export default function Articles({
     initialItems: sessionArticles,
     initialLastDocId: sessionLastDocId,
     initialHasMore: sessionHasMore,
+    initialPage,
+    initialPageCursors,
+    initialFilters,
   } = getInitialStateFromSession<SerializedArticleSummary>(articleScrollConfig);
 
   // State management
@@ -39,48 +47,83 @@ export default function Articles({
   const [lastDocId, setLastDocId] = useState(sessionLastDocId || initialLastDocId);
   const [hasMore, setHasMore] = useState(sessionHasMore !== null ? sessionHasMore : initialArticles.length === ARTICLE_FETCH_LIMIT);
   const [loading, setLoading] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState(initialFilters?.query || '');
   const isFetching = useRef(false);
   const [isMounted, setIsMounted] = useState(false);
+
+  // Pagination State
+  const [page, setPage] = useState<number>(initialPage);
+  const [pageCursors, setPageCursors] = useState<(string | null)[]>(initialPageCursors);
 
   useEffect(() => {
     setIsMounted(true);
   }, []);
 
   const handleFilterChange = (newFilter: 'all' | 'editorial' | 'briefing') => {
+    if (newFilter === (router.query.filter || 'all')) return;
+    
+    setPage(1);
+    setPageCursors([null]);
+    
+    // reset hub when changing type filter? No, they can coexist.
+    // Actually, let's keep them orthogonal.
+    
+    const query = { ...router.query };
+    if (newFilter === 'all') {
+        delete query.filter;
+    } else {
+        query.filter = newFilter;
+    }
+
     router.push({
       pathname: router.pathname,
-      query: { ...router.query, filter: newFilter },
+      query,
     }, undefined, { shallow: true });
   };
+
+  const handleHubChange = (newHub: string | null) => {
+    const currentHub = router.query.hub;
+    if (newHub === currentHub) return;
+
+    setPage(1);
+    setPageCursors([null]);
+
+    const query = { ...router.query };
+    if (newHub) {
+        query.hub = newHub;
+    } else {
+        delete query.hub;
+    }
+
+    router.push({
+        pathname: router.pathname,
+        query,
+    }, undefined, { shallow: true });
+  }
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
   };
 
-  // Hook for saving and restoring state
-  useSessionScrollRestoration({
-    items: displayedArticles,
-    lastDocId,
-    hasMore,
-    config: articleScrollConfig,
-  });
-
-  // Derived state for filtering
+  // Derived state for filters
   const filter = (router.query.filter === 'editorial' || router.query.filter === 'briefing')
     ? router.query.filter
     : 'all';
+  
+  const currentHub = typeof router.query.hub === 'string' ? router.query.hub : null;
 
   // Data fetching logic
-  const fetchArticles = useCallback(async (query: string, startAfterId: string | null, currentFilter: 'all' | 'editorial' | 'briefing') => {
+  const fetchArticles = useCallback(async (query: string, cursor: string | null, currentFilter: 'all' | 'editorial' | 'briefing', hub: string | null) => {
     if (isFetching.current) return;
     isFetching.current = true;
     setLoading(true);
-    const isNewSearch = startAfterId === null;
-
-    const searchParams = new URLSearchParams({ q: query, startAfter: startAfterId || '', limit: String(ARTICLE_FETCH_LIMIT) });
+    
+    const searchParams = new URLSearchParams({ q: query, startAfter: cursor || '', limit: String(ARTICLE_FETCH_LIMIT) });
     if (currentFilter && currentFilter !== 'all') {
       searchParams.append('filter', currentFilter);
+    }
+    if (hub) {
+        searchParams.append('hub', hub);
     }
 
     try {
@@ -89,53 +132,89 @@ export default function Articles({
       const { articles: newFetchedArticles, lastVisible: newLastVisible } = await response.json();
 
       setHasMore(newFetchedArticles.length === ARTICLE_FETCH_LIMIT);
-      setDisplayedArticles(prev => isNewSearch ? newFetchedArticles : [...prev, ...newFetchedArticles.filter((a: SerializedArticleSummary) => !prev.find((p: SerializedArticleSummary) => p.id === a.id))]);
+      setDisplayedArticles(newFetchedArticles);
       setLastDocId(newLastVisible);
     } catch (error) {
       console.error('Error fetching articles:', error);
       setHasMore(false);
+      setDisplayedArticles([]);
     } finally {
       setLoading(false);
       isFetching.current = false;
+      smoothScrollToTop(1200); // Gentle 1.2s scroll
     }
   }, []);
 
-  // Effect to trigger fetch on search/filter change
+  const handleNextPage = useCallback(() => {
+    if (!lastDocId) return;
+    setPageCursors((prev) => [...prev, lastDocId]);
+    setPage((prev) => prev + 1);
+    fetchArticles(searchQuery, lastDocId, filter, currentHub);
+  }, [lastDocId, fetchArticles, searchQuery, filter, currentHub]);
+
+  const handlePrevPage = useCallback(() => {
+    if (page <= 1) return;
+    const newPage = page - 1;
+    const prevCursor = pageCursors[newPage - 1];
+    setPageCursors((prev) => prev.slice(0, -1));
+    setPage(newPage);
+    fetchArticles(searchQuery, prevCursor, filter, currentHub);
+  }, [page, pageCursors, fetchArticles, searchQuery, filter, currentHub]);
+
+  // Effect to trigger fetch on search/filter/hub change
+  const prevFilterRef = useRef(filter);
+  const prevQueryRef = useRef(searchQuery);
+  const prevHubRef = useRef(currentHub);
+
   useEffect(() => {
-    const handler = setTimeout(() => fetchArticles(searchQuery, null, filter), 500);
-    return () => clearTimeout(handler);
-  }, [searchQuery, filter, fetchArticles]);
+      const handler = setTimeout(() => {
+          const filterChanged = prevFilterRef.current !== filter;
+          const queryChanged = prevQueryRef.current !== searchQuery;
+          const hubChanged = prevHubRef.current !== currentHub;
 
-  const loader = useRef(null);
-
-  const handleObserver = useCallback((entries: IntersectionObserverEntry[]) => {
-    const target = entries[0];
-    if (target.isIntersecting && hasMore && !loading) {
-      fetchArticles(searchQuery, lastDocId, filter);
-    }
-  }, [hasMore, loading, searchQuery, lastDocId, filter, fetchArticles]);
-
-  useEffect(() => {
-    const option = {
-      root: null,
-      rootMargin: "20px",
-      threshold: 0
-    };
-    const observer = new IntersectionObserver(handleObserver, option);
-    if (loader.current) observer.observe(loader.current);
-  }, [handleObserver]);
-
-
+          if (filterChanged || queryChanged || hubChanged) {
+              setPage(1);
+              setPageCursors([null]);
+              fetchArticles(searchQuery, null, filter, currentHub);
+              
+              prevFilterRef.current = filter;
+              prevQueryRef.current = searchQuery;
+              prevHubRef.current = currentHub;
+          }
+      }, 500);
+      
+      return () => clearTimeout(handler);
+  }, [filter, searchQuery, currentHub, fetchArticles]);
 
   // Button styles
-  const getButtonClass = (buttonFilter: 'all' | 'editorial' | 'briefing') => {
+  const getButtonClass = (isActive: boolean) => {
     const baseClass = "px-6 py-3 rounded-lg font-semibold transition-colors font-sans tracking-wide";
-    if (filter === buttonFilter) {
+    if (isActive) {
       return `${baseClass} bg-primary text-white shadow-md`;
     } else {
       return `${baseClass} bg-neutral-cream/60 text-primary-dark/80 hover:bg-primary/10 hover:text-primary-dark`;
     }
   };
+
+  const getHubChipClass = (isActive: boolean) => {
+      const baseClass = "px-4 py-2 rounded-full text-sm font-medium transition-colors border";
+      if (isActive) {
+          return `${baseClass} bg-secondary text-primary-dark border-secondary shadow-sm`;
+      } else {
+          return `${baseClass} bg-white text-neutral-600 border-neutral-200 hover:border-secondary hover:text-secondary-dark`;
+      }
+  }
+
+  // Hook for saving and restoring state
+  useSessionScrollRestoration({
+    items: displayedArticles,
+    lastDocId,
+    hasMore,
+    page,
+    pageCursors,
+    activeFilters: { query: searchQuery, filter, hub: currentHub },
+    config: articleScrollConfig,
+  });
 
   return (
     <Layout>
@@ -145,21 +224,37 @@ export default function Articles({
       </Head>
       <div className="container mx-auto px-4 py-12 font-serif">
         <h1 className="page-title mb-6">Insights & Musings</h1>
-        <p className="text-xl text-neutral-600 mb-12 text-center max-w-2xl mx-auto font-sans">
+        <p className="text-xl text-neutral-600 mb-8 text-center max-w-2xl mx-auto font-sans">
           Delve into our curated collection of articles and guides on the evolving landscape of AI careers and technology.
         </p>
         
-        <div className="mb-12 flex flex-col items-center"> 
-          <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-            <button onClick={() => handleFilterChange('all')} className={getButtonClass('all')}>All Content</button>
-            <button onClick={() => handleFilterChange('editorial')} className={getButtonClass('editorial')}>Editorials</button>
-            <button onClick={() => handleFilterChange('briefing')} className={getButtonClass('briefing')}>Curated Briefings</button>
-            <div className="cursor-pointer" title="Editorials are original content from AI Job Spot. Briefings are curated summaries of external articles with links to the source.">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-neutral-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
+        <div className="mb-12 flex flex-col items-center space-y-6"> 
+          {/* Main Filters */}
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <button onClick={() => handleFilterChange('all')} className={getButtonClass(filter === 'all')}>All Content</button>
+            <button onClick={() => handleFilterChange('editorial')} className={getButtonClass(filter === 'editorial')}>Editorials</button>
+            <button onClick={() => handleFilterChange('briefing')} className={getButtonClass(filter === 'briefing')}>Curated Briefings</button>
           </div>
+
+          {/* Hub Filters */}
+          <div className="flex flex-wrap items-center justify-center gap-3 max-w-4xl">
+             <button 
+                onClick={() => handleHubChange(null)}
+                className={getHubChipClass(currentHub === null)}
+             >
+                 All Topics
+             </button>
+             {HUBS.map(hub => (
+                 <button
+                    key={hub}
+                    onClick={() => handleHubChange(hub)}
+                    className={getHubChipClass(currentHub === hub)}
+                 >
+                     {hub}
+                 </button>
+             ))}
+          </div>
+
           <input
             type="text"
             placeholder="Search by title, author, or tags..."
@@ -201,13 +296,14 @@ export default function Articles({
           </div>
         )}
 
-        <div className="text-center mt-12 h-10">
-          {loading && <p className="text-neutral-500 font-sans">Loading more articles...</p>}
-          {!hasMore && displayedArticles.length > 0 && (
-            <p className="text-neutral-600 font-serif text-lg pt-8 border-t border-neutral-200">You&apos;ve reached the end of the article listings.</p>
-          )}
-          <div ref={loader} />
-        </div>
+        <Pagination 
+            currentPage={page}
+            hasPrevious={page > 1}
+            hasNext={hasMore}
+            onPrevious={handlePrevPage}
+            onNext={handleNextPage}
+            isLoading={loading}
+        />
       </div>
     </Layout>
   );
@@ -215,7 +311,7 @@ export default function Articles({
 
 export const getStaticProps: GetStaticProps<ArticlesProps> = async () => {
   try {
-    const { articles, lastVisible } = await getArticles(ARTICLE_FETCH_LIMIT);
+    const { articles, lastVisible } = await getArticlesServer(ARTICLE_FETCH_LIMIT);
     return {
       props: {
         initialArticles: articles.map((article) => ({

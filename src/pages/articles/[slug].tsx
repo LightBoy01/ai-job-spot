@@ -55,6 +55,35 @@ const generateArticleSchema = (article: SerializedArticle) => {
   };
 };
 
+const generateBreadcrumbSchema = (article: SerializedArticle) => {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aijobspot.online';
+  
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Articles',
+        item: `${siteUrl}/articles`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: article.title,
+        item: `${siteUrl}/articles/${article.slug}`,
+      },
+    ],
+  };
+};
+
 export async function getStaticPaths() {
   const { articles } = await getArticles(100); // Fetch only 100 recent articles for static generation
   const paths = articles.map((article) => ({
@@ -195,6 +224,12 @@ export default function ArticlePage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(generateArticleSchema(article)),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateBreadcrumbSchema(article)),
           }}
         />
       </Head>

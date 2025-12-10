@@ -4,8 +4,8 @@ title: Projektentwickler (m/w/d) für erneuerbare Energien
 company: Deutscher Bauservice GmbH
 location: Molbergen
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/projektentwickler-fur-erneuerbare-energien-molbergen-448622
-postedDate: '2025-11-06T12:31:31.000Z'
+  https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/projektentwickler-fur-erneuerbare-energien-molbergen-399537
+postedDate: '2025-11-28T16:32:08.000Z'
 expirationDate: null
 tags:
   - Power Engineering and Environmental Engineering
@@ -15,52 +15,89 @@ employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/projektentwickler-fur-erneuerbare-energien-molbergen-448622
+  https://www.arbeitnow.com/jobs/companies/deutscher-bauservice-gmbh/projektentwickler-fur-erneuerbare-energien-molbergen-399537
 companyLogoUrl: null
-description: >-
-  Description\nJoin a successful consulting firm at the forefront of Germany's
-  renewable energy transition. We don't just advise; we actively develop and
-  realize our own wind and solar (PV) projects by securing land and guiding them
-  through the entire development cycle. We're seeking a dedicated Project
-  Manager to take overall responsibility for a diverse project portfolio, making
-  a tangible contribution to Germany's sustainable future.\n\n###
-  Responsibilities\n*   Hold overall responsibility for a project portfolio,
-  covering the complete development lifecycle: from land acquisition,
-  commissioning of studies, and analysis of optimal layouts and wind turbine
-  types, to permit applications and post-permit follow-up.\n*   Prepare and
-  accompany approval procedures, specifically those according to the Federal
-  Immission Control Act (BImSchG).\n*   Regularly travel to prospective wind and
-  PV park locations.\n*   Manage stakeholders effectively throughout the entire
-  project development cycle.\n*   Prepare detailed reports and decision-making
-  documents for the management board.\n*   Monitor project progress rigorously
-  concerning time, budget, and quality standards.\n*   Proactively identify and
-  manage project risks to ensure successful outcomes.\n\n### Qualifications\n*  
-  A successfully completed degree in Geography, Engineering, Economics, or a
-  comparable qualification or professional experience.\n*   Several years of
-  professional experience in project development, ideally within the wind or PV
-  industry, with a strong focus on approval planning.\n*   In-depth knowledge of
-  the economic and legal frameworks pertinent to wind energy, particularly in
-  planning law (e.g., BauGB, BImSchG, ROG, EEG, TA Lärm, BNatSchG, WindBG).\n*  
-  Demonstrable experience in engaging with landowners, external service
-  providers, regulatory authorities, and local municipalities.\n*   Proficiency
-  in using geographical information systems (GIS) for wind and PV park
-  contexts.\n*   Solid application skills in MS-Office are advantageous.\n*  
-  Fluent German language skills, both written and spoken, are essential.\n*  
-  Willingness to travel and possession of a German Class B driver's
-  license.\n\n### Author's Take\nThis is an exceptional opportunity for a
-  seasoned Project Manager passionate about renewable energy to make a
-  significant impact. You'll join a company that combines the agility and
-  innovative spirit of a start-up with the stability of a successful consulting
-  firm actively developing its own projects. The role offers overall
-  responsibility for challenging projects from conception to completion,
-  allowing you to directly shape Germany's energy landscape. The culture
-  prioritizes work-life balance through flexible and mobile working options,
-  fosters collaboration with numerous team events, and provides a supportive
-  environment with extensive benefits like a company pension, fitness programs,
-  and full office catering. If you thrive in a dynamic, impactful role where
-  your expertise directly contributes to a sustainable future, this is the place
-  for you.
-responsibilities: []
-qualifications: []
+companyCulture: >-
+  The company fosters a flexible and supportive environment, offering benefits
+  like remote work, flexible hours, wellness programs, and full office catering.
+  It emphasizes collaboration and engagement through team events, with a
+  "start-up flair" that encourages proactive contributions and professional
+  growth in the renewable energy sector.
+story_question1: >-
+  Given the 'Gesamtverantwortung' for an entire project portfolio, what's the
+  most significant strategic challenge a Project Manager might face in
+  optimizing project layouts and securing permits, especially considering the
+  evolving regulatory landscape for wind and PV energy in Germany?
+story_answer1: >-
+  That's a fantastic question, and it gets right to the heart of what makes this
+  role so impactful. The biggest strategic challenge definitely lies in
+  navigating the complex interplay between securing optimal project layouts,
+  often in collaboration with various stakeholders, and meticulously managing
+  the evolving BImSchG permitting process. It's not just about compliance; it's
+  about anticipating future regulatory shifts and proactively incorporating them
+  into our development strategy. We empower our Project Managers with the
+  autonomy to make critical decisions, backed by our collaborative team and
+  access to the latest market insights. Success here means not just getting
+  projects approved, but ensuring they are robust, sustainable, and truly
+  contribute to Germany's energy transition, making a tangible difference with
+  every megawatt we bring online.
+story_question2: >-
+  The job description mentions 'Unternehmen mit Start-up-Flair' and 'viele
+  gemeinsame Events'. How does this culture translate into day-to-day
+  collaboration and support for individual growth, especially when tackling
+  complex project development challenges?
+story_answer2: >-
+  Our 'start-up flair' isn't just a buzzword; it's genuinely embedded in how we
+  operate. It means a flat hierarchy where your ideas are heard, and we
+  encourage proactive problem-solving. On a daily basis, this translates into
+  cross-functional teams openly sharing knowledge, whether it's legal insights
+  for permitting or technical details for site analysis. We face challenges
+  together, leveraging each other's expertise during our regular check-ins and
+  informal brainstorming sessions. For individual growth, it means you're
+  constantly learning from diverse projects and supported by a team that
+  genuinely wants to see you succeed, often with mentorship from seasoned
+  experts. The 'viele gemeinsame Events' aren't just for fun; they build the
+  strong bonds that make our collaboration so effective and enjoyable, fostering
+  a true sense of belonging and shared mission.
+story_question3: >-
+  Given the significant travel to potential wind and PV park locations, how does
+  the company ensure that Project Managers maintain a healthy work-life balance
+  while still driving project success?
+story_answer3: >-
+  We absolutely understand that project development involves on-site presence,
+  and we're very intentional about ensuring our team remains energized and
+  balanced. Our flexible working hours and mobile work options are key here. We
+  trust our Project Managers to manage their schedules efficiently, combining
+  site visits with remote work and office time. The focus is on results, not
+  rigid hours. We also prioritize equipping you with the best tools and support
+  to make travel as productive and comfortable as possible, minimizing
+  unnecessary trips. Plus, benefits like company fitness and full catering when
+  in the office are designed to make your time at headquarters truly
+  restorative. It's about empowering you to deliver impact while maintaining
+  your personal well-being, because we believe a well-rested team is a highly
+  effective one.
 ---
-### Description\nJoin a successful consulting firm at the forefront of Germany's renewable energy transition. We don't just advise; we actively develop and realize our own wind and solar (PV) projects by securing land and guiding them through the entire development cycle. We're seeking a dedicated Project Manager to take overall responsibility for a diverse project portfolio, making a tangible contribution to Germany's sustainable future.\n\n### Responsibilities\n*   Hold overall responsibility for a project portfolio, covering the complete development lifecycle: from land acquisition, commissioning of studies, and analysis of optimal layouts and wind turbine types, to permit applications and post-permit follow-up.\n*   Prepare and accompany approval procedures, specifically those according to the Federal Immission Control Act (BImSchG).\n*   Regularly travel to prospective wind and PV park locations.\n*   Manage stakeholders effectively throughout the entire project development cycle.\n*   Prepare detailed reports and decision-making documents for the management board.\n*   Monitor project progress rigorously concerning time, budget, and quality standards.\n*   Proactively identify and manage project risks to ensure successful outcomes.\n\n### Qualifications\n*   A successfully completed degree in Geography, Engineering, Economics, or a comparable qualification or professional experience.\n*   Several years of professional experience in project development, ideally within the wind or PV industry, with a strong focus on approval planning.\n*   In-depth knowledge of the economic and legal frameworks pertinent to wind energy, particularly in planning law (e.g., BauGB, BImSchG, ROG, EEG, TA Lärm, BNatSchG, WindBG).\n*   Demonstrable experience in engaging with landowners, external service providers, regulatory authorities, and local municipalities.\n*   Proficiency in using geographical information systems (GIS) for wind and PV park contexts.\n*   Solid application skills in MS-Office are advantageous.\n*   Fluent German language skills, both written and spoken, are essential.\n*   Willingness to travel and possession of a German Class B driver's license.\n\n### Author's Take\nThis is an exceptional opportunity for a seasoned Project Manager passionate about renewable energy to make a significant impact. You'll join a company that combines the agility and innovative spirit of a start-up with the stability of a successful consulting firm actively developing its own projects. The role offers overall responsibility for challenging projects from conception to completion, allowing you to directly shape Germany's energy landscape. The culture prioritizes work-life balance through flexible and mobile working options, fosters collaboration with numerous team events, and provides a supportive environment with extensive benefits like a company pension, fitness programs, and full office catering. If you thrive in a dynamic, impactful role where your expertise directly contributes to a sustainable future, this is the place for you.
+### Description
+Join a successful consulting firm actively contributing to Germany's energy transition by developing its own wind and PV projects. This is a crucial role for a Senior Project Manager who will take overall responsibility for a project portfolio, covering the entire development lifecycle of renewable energy parks. You will play a pivotal role in establishing renewable energies in Germany for the coming years.
+
+### Responsibilities
+*   Hold overall responsibility for a project portfolio covering the entire development cycle: land acquisition, commissioning studies, optimal layout and wind turbine type analysis, permit application, and post-permit follow-up.
+*   Prepare and oversee permitting procedures according to BImSchG.
+*   Undertake regular travel to potential wind and PV park locations.
+*   Manage stakeholders throughout the development cycle.
+*   Prepare decisions for the management board with corresponding reporting.
+*   Monitor projects regarding time, budget, and quality.
+*   Manage project risks.
+
+### Qualifications
+*   Successfully completed studies in Geography, Engineering, Economics, or comparable qualifications/professional experience.
+*   Several years of professional experience in project development, preferably in the wind or PV industry with a focus on permitting planning.
+*   In-depth knowledge of the economic and legal framework conditions for wind energy, especially in planning law (BauGB, BImSchG, ROG, EEG, TA Lärm, BNatSchG, WindBG, etc.).
+*   Experience in dealing with landowners, service providers, permitting authorities, and municipalities.
+*   Experience in using geographical information systems (GIS) in the context of wind and PV parks.
+*   Proficient application skills in MS-Office are an advantage.
+*   Negotiation-level German language skills (written and spoken).
+*   Willingness to travel and possession of a German driver's license Class B.
+
+### Author's Take
+This is a highly impactful Senior Project Manager role for an individual passionate about driving Germany's renewable energy transition. The company offers a vibrant \"start-up flair\" culture with strong emphasis on flexibility, mobile working, and employee well-being through a range of attractive benefits. With overall responsibility for project portfolios from inception to permit, this position offers significant autonomy and the chance to make a tangible difference in a crucial growth sector. It's ideal for a seasoned professional with deep regulatory knowledge in renewable energy project development.

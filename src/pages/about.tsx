@@ -1,6 +1,7 @@
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import Logo from '@/components/Logo';
+import AdContainer from '@/components/AdContainer';
 
 const About: React.FC = () => {
   return (
@@ -49,6 +50,9 @@ const About: React.FC = () => {
             <p>We are at a pivotal moment in history. The rise of AI is not just a technological shift; it is a strategic one. It changes the rules of professional value creation.</p>
             <p>We created AI Job Spot to be the definitive resource for those who intend to win in this new era. The future belongs not to those who compete with machines, but to those who can out-think the competition with superior strategy. Our goal is to provide the insights, the frameworks, and the opportunities to help you do just that.</p>
             <p>Thank you for being part of our community.</p>
+          </div>
+          <div className="mt-12">
+             <AdContainer slot={process.env.NEXT_PUBLIC_ADSENSE_ARTICLE_CONTENT_SLOT || ''} />
           </div>
         </div>
       </div>

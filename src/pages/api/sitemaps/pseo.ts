@@ -3,6 +3,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { getFirebaseAdmin } from '@/lib/firebaseAdmin';
 import { FirestoreJobPosting } from '@/lib/types';
 import { PSEO_MIN_JOB_COUNT } from '@/lib/constants';
+import { getAllToolSlugs } from '@/lib/tools';
 
 const WEBSITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aijobspot.online';
 
@@ -37,7 +38,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     for (const skill of uniqueSkills) {
       const count = jobs.filter(j => j.tags?.includes(skill)).length;
       if (count >= PSEO_MIN_JOB_COUNT) {
-        validUrls.add(`${WEBSITE_URL}/jobs/skill/${encodeURIComponent(skill.toLowerCase())}`);
+        // Point to the existing tags page which serves as the skill hub
+        validUrls.add(`${WEBSITE_URL}/tags/${encodeURIComponent(skill.toLowerCase())}`);
       }
     }
     for (const location of uniqueLocations) {
@@ -56,6 +58,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         }
       }
     }
+
+    // 3. Tool Hub URLs
+    const toolSlugs = getAllToolSlugs();
+    for (const slug of toolSlugs) {
+        validUrls.add(`${WEBSITE_URL}/tools/${slug}`);
+    }
+
+    // 4. Static Tool Pages
+    validUrls.add(`${WEBSITE_URL}/tools`);
+    validUrls.add(`${WEBSITE_URL}/tools/career-simulator`);
 
     for (const url of validUrls) {
       sitemapXml += createSitemapEntry(url, lastModified);

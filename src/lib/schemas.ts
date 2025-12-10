@@ -20,6 +20,7 @@ export const articleSchema = z.object({
   author_take_answer2: z.string().nullable().optional(),
   relatedJobIds: z.array(z.string()).optional(),
   contentBody: z.string().nullable().optional(),
+  status: z.string().optional(),
 });
 
 export const jobSchema = z.object({

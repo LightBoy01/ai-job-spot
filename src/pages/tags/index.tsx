@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '@/components/Layout';
 import { getAllTags } from '@/lib/firestoreClient';
+import AdContainer from '@/components/AdContainer';
 
 interface TagsPageProps {
   tags: string[];
@@ -44,6 +45,9 @@ const TagsPage: NextPage<TagsPageProps> = ({ tags }) => {
           ) : (
             <p className="text-neutral-600">No thematic hubs found yet.</p>
           )}
+        </div>
+        <div className="mt-12">
+           <AdContainer slot={process.env.NEXT_PUBLIC_ADSENSE_SIDEBAR_SLOT || ''} />
         </div>
       </div>
     </Layout>

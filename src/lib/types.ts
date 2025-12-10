@@ -87,6 +87,7 @@ export interface Article {
   volumeNo: number;
   hub?: string | null;
   imageUrl?: string | null;
+  status?: string;
 
   // Optional fields for author Q&A
   author_take_question1?: string | null;

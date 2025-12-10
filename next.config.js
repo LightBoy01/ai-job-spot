@@ -3,8 +3,13 @@ const nextConfig = {
   outputFileTracingRoot: process.cwd(),
   reactStrictMode: true,
   images: {
-
     domains: ['localhost', 'aijobspot.online'],
+    localPatterns: [
+      {
+        pathname: '/api/image-proxy',
+        search: '',
+      },
+    ],
   },
   async headers() {
     const cspHeader = `

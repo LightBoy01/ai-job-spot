@@ -1,3 +1,5 @@
+<!-- WARNING: AUTO-GENERATED FILE. DO NOT EDIT. -->
+
 ---
 id: briefing-5a02d54989868a0dd08fe58cc0d71c0eb1c95eec4287fafbd5be9a157dff0b84
 title: >-
@@ -18,9 +20,9 @@ tags:
 excerpt: >-
   The Indian government has issued a directive to manufacturers to pre-install
   the Sanchar Saathi app on all mobile phones in the Country. Here's what you
-  need to know about it. What's the [...]
+  need to know about it. What's the […]
 
   Thank you
 ---
-<p>The Indian government has issued a directive to manufacturers to pre-install the Sanchar Saathi app on all mobile phones in the Country. Here's what you need to know about it. What's the [...]</p>
+<p>The Indian government has issued a directive to manufacturers to pre-install the Sanchar Saathi app on all mobile phones in the Country. Here's what you need to know about it. What's the […]</p>
 <p>Thank you for being a Ghacks reader. The post <a href="https://www.ghacks.net/2025/12/02/india-asks-apple-google-and-android-oems-to-preload-sanchar-saathi-app-on-all-phones/" data-wpel-link="internal">India asks Apple, Google and Android OEMs to preload Sanchar Saathi app on all phones</a> appeared first on <a href="https://www.ghacks.net" data-wpel-link="internal">gHacks Technology News</a>.</p>

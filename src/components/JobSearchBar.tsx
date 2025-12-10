@@ -15,18 +15,24 @@ const FilterPill: React.FC<FilterPillProps> = ({ label, onRemove }) => (
 );
 
 interface JobSearchBarProps {
+  initialFilters?: { query: string; location: string; jobLevel: string; tags: string; sortOrder: string } | null;
   onFilterChange: (filters: { query: string; location: string; jobLevel: string; tags: string; sortOrder: string }) => void;
 }
 
-const JobSearchBar: React.FC<JobSearchBarProps> = ({ onFilterChange }) => {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [locationFilter, setLocationFilter] = useState('');
-  const [jobLevelFilter, setJobLevelFilter] = useState('');
-  const [tagsFilter, setTagsFilter] = useState('');
-  const [sortOrder, setSortOrder] = useState('desc');
-  const [showFilters, setShowFilters] = useState(false);
+const JobSearchBar: React.FC<JobSearchBarProps> = ({ initialFilters, onFilterChange }) => {
+  const [searchQuery, setSearchQuery] = useState(initialFilters?.query || '');
+  const [locationFilter, setLocationFilter] = useState(initialFilters?.location || '');
+  const [jobLevelFilter, setJobLevelFilter] = useState(initialFilters?.jobLevel || '');
+  const [tagsFilter, setTagsFilter] = useState(initialFilters?.tags || '');
+  const [sortOrder, setSortOrder] = useState(initialFilters?.sortOrder || 'desc');
+  const [showFilters, setShowFilters] = useState(!!(initialFilters?.location || initialFilters?.jobLevel || initialFilters?.tags));
 
   useEffect(() => {
+    // Only trigger if the filters have actually changed from the initial values
+    // OR if we are just interacting. 
+    // We don't want to fire immediately on mount if the parent passed them in, 
+    // unless we want to confirm the search.
+    // Actually, simple debounce is fine as long as we don't cause a loop.
     const delayDebounceFn = setTimeout(() => {
       onFilterChange({ query: searchQuery, location: locationFilter, jobLevel: jobLevelFilter, tags: tagsFilter, sortOrder });
     }, 500); // Debounce for 500ms

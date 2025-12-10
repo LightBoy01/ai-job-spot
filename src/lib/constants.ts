@@ -9,3 +9,10 @@ export const ARTICLE_FETCH_LIMIT = 9;
 
 // The minimum number of jobs a pSEO page must have to be considered for indexing.
 export const PSEO_MIN_JOB_COUNT = 3;
+
+export const HUBS = [
+  'Mental Models & Frameworks',
+  'Career & Professional Strategy',
+  'The Human Advantage',
+  'AI & The World'
+];

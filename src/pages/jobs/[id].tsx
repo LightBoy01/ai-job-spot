@@ -108,6 +108,35 @@ const generateJobPostingSchema = (job: SerializedJobPosting) => {
   };
 };
 
+const generateBreadcrumbSchema = (job: SerializedJobPosting) => {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aijobspot.online';
+  
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Jobs',
+        item: siteUrl, // Currently our home is the jobs list
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: job.title,
+        item: `${siteUrl}/jobs/${job.id}`,
+      },
+    ],
+  };
+};
+
 const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -176,6 +205,12 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(generateJobPostingSchema(job)),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateBreadcrumbSchema(job)),
           }}
         />
       </Head>

@@ -1,6 +1,7 @@
 import Layout from '../components/Layout';
 import Head from 'next/head';
 import React, { useState } from 'react';
+import AdContainer from '@/components/AdContainer';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -158,6 +159,9 @@ const Contact: React.FC = () => {
               contact@aijobspot.com
             </a>
           </p>
+        </div>
+        <div className="mt-8">
+            <AdContainer slot={process.env.NEXT_PUBLIC_ADSENSE_SIDEBAR_SLOT || ''} />
         </div>
       </div>
     </Layout>

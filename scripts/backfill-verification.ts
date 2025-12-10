@@ -6,7 +6,7 @@ import * as admin from 'firebase-admin';
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 
-import { getFirebaseAdmin } from '../src/lib/firebaseAdmin';
+import { getFirebaseAdmin } from '../src/lib/firebaseAdmin.js';
 
 /**
  * A one-time script to backfill `verificationHistory` for existing jobs.

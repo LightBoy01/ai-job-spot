@@ -50,6 +50,7 @@ export default async function handler(
 
     let articlesQuery: Query = adminDb
       .collection('articles')
+      .where('status', '==', 'published')
       .where('tags', 'array-contains', tag)
       .orderBy('publishDate', 'desc');
 

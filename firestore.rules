@@ -49,6 +49,12 @@ service cloud.firestore {
         allow read, write: if isAdmin();
     }
 
+    // Metadata collection (for aggregated tags, etc.)
+    match /metadata/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
     // Default deny all reads and writes to any other collections
     match /{document=**} {
       allow read, write: if false;

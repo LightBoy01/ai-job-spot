@@ -7,12 +7,20 @@ export interface ScrollRestorationConfig {
   lastDocIdKey: string;
   hasMoreKey: string;
   scrollPosKey: string;
+  // New keys for pagination and filters
+  pageKey: string;
+  pageCursorsKey: string;
+  filtersKey: string;
 }
 
 interface UseSessionScrollRestorationProps<T> {
   items: T[];
   lastDocId: string | null;
   hasMore: boolean;
+  // New props
+  page: number;
+  pageCursors: (string | null)[];
+  activeFilters: any;
   config: ScrollRestorationConfig;
 }
 
@@ -25,6 +33,9 @@ export function useSessionScrollRestoration<T>({
   items,
   lastDocId,
   hasMore,
+  page,
+  pageCursors,
+  activeFilters,
   config,
 }: UseSessionScrollRestorationProps<T>) {
   const router = useRouter();
@@ -39,6 +50,11 @@ export function useSessionScrollRestoration<T>({
       sessionStorage.setItem(config.lastDocIdKey, lastDocId || '');
       sessionStorage.setItem(config.hasMoreKey, JSON.stringify(hasMore));
       sessionStorage.setItem(config.scrollPosKey, window.scrollY.toString());
+      
+      // Save new state
+      sessionStorage.setItem(config.pageKey, page.toString());
+      sessionStorage.setItem(config.pageCursorsKey, JSON.stringify(pageCursors));
+      sessionStorage.setItem(config.filtersKey, JSON.stringify(activeFilters));
     };
 
     router.events.on('routeChangeStart', handleRouteChangeStart);
@@ -46,7 +62,7 @@ export function useSessionScrollRestoration<T>({
     return () => {
       router.events.off('routeChangeStart', handleRouteChangeStart);
     };
-  }, [items, lastDocId, hasMore, router, config]);
+  }, [items, lastDocId, hasMore, page, pageCursors, activeFilters, router, config]);
 
   // Effect for RESTORING scroll position on mount
   useEffect(() => {
@@ -71,6 +87,9 @@ export function useSessionScrollRestoration<T>({
             sessionStorage.removeItem(config.listKey);
             sessionStorage.removeItem(config.lastDocIdKey);
             sessionStorage.removeItem(config.hasMoreKey);
+            sessionStorage.removeItem(config.pageKey);
+            sessionStorage.removeItem(config.pageCursorsKey);
+            sessionStorage.removeItem(config.filtersKey);
           } else {
             // If not tall enough, wait and try again.
             setTimeout(attemptScroll, 100);
@@ -96,6 +115,9 @@ export const getInitialStateFromSession = <T>(config: ScrollRestorationConfig) =
       initialItems: null,
       initialLastDocId: null,
       initialHasMore: null,
+      initialPage: 1,
+      initialPageCursors: [null],
+      initialFilters: null,
     };
   }
 
@@ -103,11 +125,17 @@ export const getInitialStateFromSession = <T>(config: ScrollRestorationConfig) =
     const savedItems = sessionStorage.getItem(config.listKey);
     const savedLastDocId = sessionStorage.getItem(config.lastDocIdKey);
     const savedHasMore = sessionStorage.getItem(config.hasMoreKey);
+    const savedPage = sessionStorage.getItem(config.pageKey);
+    const savedPageCursors = sessionStorage.getItem(config.pageCursorsKey);
+    const savedFilters = sessionStorage.getItem(config.filtersKey);
 
     return {
       initialItems: savedItems ? (JSON.parse(savedItems) as T[]) : null,
       initialLastDocId: savedLastDocId,
       initialHasMore: savedHasMore ? JSON.parse(savedHasMore) : null,
+      initialPage: savedPage ? parseInt(savedPage, 10) : 1,
+      initialPageCursors: savedPageCursors ? JSON.parse(savedPageCursors) : [null],
+      initialFilters: savedFilters ? JSON.parse(savedFilters) : null,
     };
   } catch (e) {
     console.warn('Failed to restore session state:', e);
@@ -115,6 +143,9 @@ export const getInitialStateFromSession = <T>(config: ScrollRestorationConfig) =
       initialItems: null,
       initialLastDocId: null,
       initialHasMore: null,
+      initialPage: 1,
+      initialPageCursors: [null],
+      initialFilters: null,
     };
   }
 };

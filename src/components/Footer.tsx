@@ -36,12 +36,42 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/tags" className="text-neutral-300 hover:text-secondary transition-colors">
-                  Thematic Hubs
+                  Browse All Topics
+                </Link>
+              </li>
+              <li>
+                <Link href="/hubs/mental models & frameworks" className="text-neutral-300 hover:text-secondary transition-colors">
+                  Mental Models
+                </Link>
+              </li>
+              <li>
+                <Link href="/hubs/career & professional strategy" className="text-neutral-300 hover:text-secondary transition-colors">
+                  Career Strategy
+                </Link>
+              </li>
+              <li>
+                <Link href="/hubs/the human advantage" className="text-neutral-300 hover:text-secondary transition-colors">
+                  Human Advantage
+                </Link>
+              </li>
+              <li>
+                <Link href="/hubs/ai & the world" className="text-neutral-300 hover:text-secondary transition-colors">
+                  AI & The World
+                </Link>
+              </li>
+              <li>
+                <Link href="/tools" className="text-neutral-300 hover:text-secondary transition-colors">
+                  AI Tools & Resources
                 </Link>
               </li>
               <li>
                 <Link href="/post-a-job" className="text-neutral-300 hover:text-secondary transition-colors">
                   Post a Job
+                </Link>
+              </li>
+              <li>
+                <Link href="/share" className="text-neutral-300 hover:text-secondary transition-colors">
+                  Widgets & API
                 </Link>
               </li>
             </ul>
@@ -71,6 +101,11 @@ const Footer = () => {
               <li>
                 <Link href="/terms" className="text-neutral-300 hover:text-secondary transition-colors">
                   Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link href="/advertise" className="text-neutral-400 hover:text-secondary-light transition-colors text-xs mt-2 block opacity-80">
+                  Advertise with Us
                 </Link>
               </li>
             </ul>
