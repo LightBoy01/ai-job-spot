@@ -56,4 +56,4 @@ Benefits
 *   **Flexibilität bei der Arbeit**: Passe deine Arbeitszeiten deinen Bedürfnissen an und genieße die Möglichkeit, remote zu arbeiten + **25 Tage Urlaub**
 *   **Marketing Netzwerk**: Finde mit uns deinen Einstieg in die Marketing Szene, lerne von Experten und baue dein berufliches Netzwerk mit Top Leuten aus der Marketing Szene aus.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -56,4 +56,4 @@ Möchtest du Teil dieses innovativen Teams werden und die digitale Zukunft aktiv
 *   **Gesundheit & Mobilität**: Jobticket, Bikeleasing, vergünstigte Fitness- & Wellnessangebote in deiner Stadt
 *   **Team & Office-Life**: Sommer- & Weihnachtsfeiern, regelmäßige Teamtreffen, Office in Kassel mit hundefreundlichen Arbeitsplätzen
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -59,4 +59,4 @@ Sollten Sie Fragen zu dieser spannenden Position haben, können Sie uns direkt t
 *   **CAPERA Gruppe:** Standort Bielefeld – Personalberatung, Andrea Förster und Cornelia Dettmer
 *   **Tel.:** 0521 430 601 91 oder 052143060192, auch abends oder am Wochenende
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

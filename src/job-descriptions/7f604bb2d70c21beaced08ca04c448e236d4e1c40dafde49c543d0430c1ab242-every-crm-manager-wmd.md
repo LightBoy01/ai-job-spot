@@ -64,4 +64,4 @@ Das bieten wir dir
 *   Office ist Standard, aber du kannst dir flexibel und unbegrenzt remote Tage einplanen
 *   Saftige Discounts für Dich und deine Friends in unserem Online-Shop
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

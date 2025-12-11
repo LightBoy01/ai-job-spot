@@ -68,4 +68,4 @@ Benefits
 *   Für das Mobile Arbeiten stellen wir Ihnen einen Dienstlaptop zur Verfügung und Sie erhalten ein Diensthandy, auch zur privaten Nutzung.
 *   Wir bieten unseren Mitarbeitenden attraktive Sozialleistungen, wie betriebliche Altersvorsorge, Essengeldzuschuss, die Übernahme der kompletten Kita-Gebühren für alle Kinder, Jobticket, Jobbike, betriebliches Gesundheitsmanagement, kostenfreie Parkmöglichkeiten u.v.m.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

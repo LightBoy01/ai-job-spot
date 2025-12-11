@@ -62,4 +62,4 @@ Möchtest du die Zukunft in einem technologieaffinen Unternehmen mit flachen Hie
 
 Bereit für die Herausforderung? Wir freuen uns darauf, dich kennenzulernen!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

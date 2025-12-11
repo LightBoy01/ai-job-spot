@@ -68,4 +68,4 @@ Benefits
 
 In your cover letter, we’d love to hear about your personal interests, what drives you, why this role feels like the right fit — and most importantly, why Omnisent.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

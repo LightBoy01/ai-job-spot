@@ -70,4 +70,4 @@ Benefits
 *   Fortbildungen, persönliche Entwicklungsmöglichkeiten – und ja, auch Büro-Kater-Content gehört dazu
 *   Ein Arbeitsumfeld, das Wert auf Teamgeist, Freude und regionale Identität legt
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -62,4 +62,4 @@ Susanne Fischer aus unserem Team People & Organisation freut sich auf Deine Bewe
 
 Bewerbungen bitte inklusive Gehaltsvorstellung sowie Deinem frühestmöglichen Startdatum.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

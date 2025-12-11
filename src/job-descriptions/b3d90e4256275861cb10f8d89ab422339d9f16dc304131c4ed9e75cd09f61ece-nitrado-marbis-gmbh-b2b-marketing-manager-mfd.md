@@ -67,4 +67,4 @@ Your benefits
 **Modern Workspaces:** Our office infrastructure offers state-of-the-art workspaces with ergonomic design for your comfort and health.  
 **Corporate Culture and Values:** You become part of a positive corporate culture that embraces values such as diversity and inclusion.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

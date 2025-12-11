@@ -35,4 +35,4 @@ Was wir dir bieten
 *   **Enge Begleitung durch erfahrene Consultants** - kontinuierliches Lernen im Projektalltag
 *   **Offene, wertschätzende Teamkultur** mit flachen Hierarchien
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

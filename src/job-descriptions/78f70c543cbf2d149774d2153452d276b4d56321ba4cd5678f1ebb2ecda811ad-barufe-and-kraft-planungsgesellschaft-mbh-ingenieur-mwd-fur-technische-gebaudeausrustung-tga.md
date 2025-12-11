@@ -57,4 +57,4 @@ Benefits
 
 Haben wir Ihr Interesse geweckt? Dann freuen wir uns darauf, Sie kennenzulernen! Senden Sie uns einfach Ihre Bewerbung – wir melden uns zeitnah bei Ihnen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

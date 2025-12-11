@@ -76,4 +76,4 @@ Benefits
 
 Wir freuen uns darauf, dich kennenzulernen! Wir freuen uns auf deine Bewerbung mit aussagekräftigen Unterlagen unter Angabe des frühestmöglichen Eintrittstermins, sowie Deinen Gehaltsvorstellung. Falls Du schon etwas vorzuzeigen hast, gerne auch Link oder Screenshot mit dabei. Bitte kein aufwendiges Anschreiben, via Call können wir uns gerne kennenlernen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -126,4 +126,4 @@ Benefits
 *   A high-performance engineering culture grounded in pragmatism, clarity, and continuous improvement.
 *   Work alongside experienced engineers, platform architects, and a strong cross-functional leadership team.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

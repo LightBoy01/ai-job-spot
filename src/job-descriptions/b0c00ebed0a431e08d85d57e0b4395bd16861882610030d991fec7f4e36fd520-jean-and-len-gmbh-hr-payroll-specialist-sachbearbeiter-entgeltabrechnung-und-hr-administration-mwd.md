@@ -69,4 +69,4 @@ Benefits
 
 Klingt interessant? Dann schick‘ uns Deine Bewerbung über unserer Bewerbungstool (oder alternativ an jobs@jeanlen .de) und nenne uns neben Deinen Stärken, Kenntnissen und Erfahrungen auch Deine Gehaltsvorstellungen sowie Deinen frühestmöglichen Starttermin. **Wir freuen uns schon auf Dich!**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

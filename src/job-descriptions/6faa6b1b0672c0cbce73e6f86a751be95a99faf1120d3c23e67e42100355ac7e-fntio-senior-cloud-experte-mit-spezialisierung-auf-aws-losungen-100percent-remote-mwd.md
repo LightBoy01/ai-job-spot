@@ -55,4 +55,4 @@ Benefits
 
 Wenn Du eine herausfordernde Position in einem zukunftsorientierten Unternehmen suchst und Deine Expertise einsetzen möchtest, um einen echten Unterschied zu machen, dann freuen wir uns auf Deine Bewerbung. Bei FNTIO hast Du die Möglichkeit, innovative Lösungen zu entwickeln und Unternehmen auf ihrem Weg in die Cloud-Welt zu begleiten. Gestalte mit uns die Technologie von morgen – wir freuen uns auf Dich!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

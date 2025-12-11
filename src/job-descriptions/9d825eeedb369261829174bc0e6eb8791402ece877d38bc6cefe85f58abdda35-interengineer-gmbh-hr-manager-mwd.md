@@ -77,4 +77,4 @@ Benefits
 
 Werden Sie Teil von InterEngineer und lassen uns gemeinsam eine sichere Zukunft schaffen!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -72,4 +72,4 @@ Betriebliche Weiterbildung
 
 Alternativ kannst du uns deine Bewerbungsunterlagen auch gerne per E-Mail zusenden oder dich einfach telefonisch mit mir, Jan Agatha (Kanzleiinhaber), in Verbindung setzen, damit wir uns vorab kennenlernen können. Melde dich gerne unter 06232/6493-14.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

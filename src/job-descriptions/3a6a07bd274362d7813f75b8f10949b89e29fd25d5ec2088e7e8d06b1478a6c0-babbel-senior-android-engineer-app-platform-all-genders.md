@@ -65,4 +65,4 @@ Please note that our company’s operating language is English, so you will need
 
 _As part of our ongoing journey towards building a diverse, equitable and inclusive company, we welcome everyone to apply, especially those individuals who are underrepresented in tech. We are a learning company, inside and out, and we encourage you to apply even if you do not fit all the technical requirements - all candidates are assessed based on skills, qualifications and on our business needs. Please state your pronouns in your application, and let us know if you’d like to be addressed by a name other than the one appearing on your official documents. If you have a disability or special need, feel welcome to inform us, so that we can provide you with the proper assistance in the application process._
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

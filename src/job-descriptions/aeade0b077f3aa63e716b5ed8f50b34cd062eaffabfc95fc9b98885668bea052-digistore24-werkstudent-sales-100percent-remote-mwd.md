@@ -96,4 +96,4 @@ Uns interessiert, welcher Mensch hinter dem Papier steckt.
 
 \=> Also, Mut-Mütze auf, Handy in die Hand und los geht's... es muss nicht perfekt sein, trau dich einfach :)
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -84,4 +84,4 @@ Benefits
 We are looking for builders ready for an ambitious journey. Expect tough challenges, plenty feedback, constant change, on-call duty and frequent deployments. In return you're getting lots of opportunity to grow, the smartest people you have worked with on your team and recognition for doing your best work.  
 If you need clarity on every task, avoid ambiguity at all costs, or prefer established processes over figuring things out - this isn't the place. But if you're energized by zero-to-one building, thrive when shipping fast matters more than perfection, and want ownership over following playbooks, Apply Now!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

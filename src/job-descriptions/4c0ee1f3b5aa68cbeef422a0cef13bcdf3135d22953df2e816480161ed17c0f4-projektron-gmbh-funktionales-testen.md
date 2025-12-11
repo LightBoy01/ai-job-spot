@@ -62,4 +62,4 @@ Benefits
 
 Die Projektron GmbH bietet zukunftsweisende, an Chancengleichheit orientierte Personalpolitik, die mit dem **_BestPersZertifikat_**, dem **_BestPersAward,_** dem **_TOTAL-E-QUALITY-Prädikat_** dem Preis Unternehmen für Familie sowie von **_Great Place to Work_** ausgezeichnet ist. Wir setzen uns für Chancengleichheit im Beruf ein und ermuntern Frauen, sich zu bewerben.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

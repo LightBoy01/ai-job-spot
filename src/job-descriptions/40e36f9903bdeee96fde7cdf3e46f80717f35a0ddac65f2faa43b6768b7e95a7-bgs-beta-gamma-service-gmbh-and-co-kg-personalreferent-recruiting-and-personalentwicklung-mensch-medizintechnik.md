@@ -89,4 +89,4 @@ Sind Sie der passende Mensch für uns und neugierig auf die Stelle geworden? Es 
 
 Ihre Fragen sind alle beantwortet? Dann freuen wir uns über Ihre Bewerbung (Lebenslauf und Zeugnisse).
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

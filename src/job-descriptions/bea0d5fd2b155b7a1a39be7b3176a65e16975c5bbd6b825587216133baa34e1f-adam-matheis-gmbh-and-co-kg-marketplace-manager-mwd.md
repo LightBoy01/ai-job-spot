@@ -43,4 +43,4 @@ Was bringst du mit?
 *   Du fühlst dich wohl im Austausch mit Partnern, Dienstleistern und internen Teams.
 *   Du sprichst sehr gutes Deutsch und gutes Englisch, jede weitere Sprache ist gern gesehen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

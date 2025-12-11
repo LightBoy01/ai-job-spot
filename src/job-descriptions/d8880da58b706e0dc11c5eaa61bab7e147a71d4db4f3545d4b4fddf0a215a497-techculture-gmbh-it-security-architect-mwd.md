@@ -52,4 +52,4 @@ In der Rolle als IT-Security Architect (m/w/d) wirst du Teil dieses hochkritisch
 
 Du bist interessiert? Dann freuen wir uns über deine Bewerbungsunterlagen und stehen dir bei Fragen in einem ersten Gespräch zur Verfügung.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

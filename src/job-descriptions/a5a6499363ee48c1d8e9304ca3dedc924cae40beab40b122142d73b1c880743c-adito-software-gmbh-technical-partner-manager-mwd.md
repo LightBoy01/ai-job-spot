@@ -72,4 +72,4 @@ Benefits
 *   Eine strukturierte Einarbeitung in unser Customizing und Training-on-the-Job
 *   Ein Umfeld, das Lösungen und Zusammenarbeit über Hierarchien stellt
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

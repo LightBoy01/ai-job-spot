@@ -69,4 +69,4 @@ Move + Smile Immobilienentwicklung und Beratungsgesellschaft GmbH
 
 Stuttgarter Str. 41/1 | 71254 Ditzingen| 0711 – 820 99 555
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

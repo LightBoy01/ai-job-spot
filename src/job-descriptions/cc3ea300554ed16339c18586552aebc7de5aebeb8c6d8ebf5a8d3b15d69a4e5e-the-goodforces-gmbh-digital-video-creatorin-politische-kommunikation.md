@@ -91,4 +91,4 @@ Zeig uns, was du kannst! Wähle Arbeitsproben, auf die du wirklich stolz bist. D
 
 Wir freuen uns insbesondere über Bewerbungen von Frauen, intergeschlechtlichen, nicht-binären und trans Personen, von Black, Indigenous und People of Color sowie von Menschen mit Behinderung. Nutze bei Rückfragen gern das Frage-Tool von Join!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -38,4 +38,4 @@ Requirements
 
 Join Seceda as an Account Advisor and elevate your career by driving success in a dynamic, innovative environment. Be part of a team that values growth and excellence.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

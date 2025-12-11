@@ -54,4 +54,4 @@ Wir arbeiten mit Unity, VS Code, GitLab, Adobe Software, 3ds Max und Blender.
 
 Unsere Projekte bieten viele Herausforderungen, die es zu lösen gilt! Raum zur persönlichen Weiterentwicklung ist vorhanden. Interesse an neuen Technologien und besseren Workflows erwünscht!Das trifft auf dich zu und du hast Lust, Teil unseres Teams zu werden? Dann freuen wir uns auf deine Aussagekräftige Bewerbung!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

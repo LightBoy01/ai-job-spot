@@ -70,4 +70,4 @@ Bereit für den nächsten Karriereschritt? Dann bewirb dich jetzt und werde Teil
 
 Deine Bewerbung kannst du gern auf Deutsch oder Englisch einreichen – ganz wie du magst. **Bitte füge eine kurze Erklärung hinzu, warum du dich für diese Position bei meshcloud interessierst.**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

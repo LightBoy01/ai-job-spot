@@ -53,4 +53,4 @@ Conductor LLC is an equal opportunity employer. We celebrate diversity and are c
 
 Conductor does not discriminate against any employee or applicant on the basis of race, color, ancestry, national origin, religion or religious creed, mental or physical disability, medical condition, genetic information, sex (including pregnancy, childbirth, and related medical conditions), sexual orientation, gender identity, gender expression, age, marital status, military or veteran status, or other characteristics protected by state or federal law or local ordinance.  In addition, it is the policy of Conductor to provide reasonable accommodation to qualified employees who have protected disabilities to the extent required by applicable laws, regulations and ordinances where a particular employee works.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

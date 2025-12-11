@@ -75,4 +75,4 @@ Wir möchten diesen Weg gerne gemeinsam mit dir gehen und zusammen weiter wachse
 
 Wenn dich das anspricht, freuen wir uns auf deine Bewerbung.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -65,4 +65,4 @@ Kommunikationsstärke: Du kannst komplexe Daten so aufbereiten, dass auch Kolleg
 
 Neugier und Lernbereitschaft: Die Online-Marketing-Welt dreht sich schnell. Du hast Lust, neue Trends (wie KI im Marketing) auszuprobieren und dich stetig weiterzuentwickeln.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

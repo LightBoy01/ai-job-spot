@@ -38,4 +38,4 @@ Benefits
 
 Klingt spannend? Wir freuen uns über ein kurzes **Loom-Video (ca. 60 Sekunden),** in dem du dich vorstellst, etwas über deine Erfahrung erzählst und deine Verfügbarkeit nennst. **Alternativ kannst du uns auch gerne einfach deinen Lebenslauf mit ein paar Sätzen zu dir schicken.**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

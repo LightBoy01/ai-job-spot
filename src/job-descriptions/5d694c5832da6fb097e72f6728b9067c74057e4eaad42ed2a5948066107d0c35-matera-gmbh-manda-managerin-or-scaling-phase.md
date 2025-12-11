@@ -61,4 +61,4 @@ Unsere Mission bei Matera ist es, Wohnungseigentümer\*innen glücklich zu mache
 
 Hast du Lust die Skalierung des deutschen Marktes mit uns gemeinsam anzugehen? **Dann bewirb dich jetzt!:)**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -61,4 +61,4 @@ Benefits
 Wer Grafik primär als ästhetische Spielwiese sieht, wird hier nicht glücklich.  
 Diese Rolle ist eine Mischung aus **Designer, Creative-Tüftler und Performance-Denker**. Du gestaltest nicht für “schön” – du gestaltest für Wirkung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -45,4 +45,4 @@ Qualifikation
 *   Hohes Maß an Diskretion, Integrität und Kommunikationsstärke im Umgang mit sensiblen Daten und Führungskräften
 *   Verhandlungssichere Deutsch- und Englischkenntnisse
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

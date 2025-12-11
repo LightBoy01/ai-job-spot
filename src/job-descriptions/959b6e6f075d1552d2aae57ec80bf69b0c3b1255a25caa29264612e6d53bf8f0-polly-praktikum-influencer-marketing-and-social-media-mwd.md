@@ -66,4 +66,4 @@ Benefits
 
 🚀 Das klingt spannend für Dich und Du hast Lust, das Wachstum von POLLY mitzugestalten? Dann freuen wir uns auf Deine Bewerbung!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

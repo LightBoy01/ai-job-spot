@@ -63,4 +63,4 @@ Wir möchten, dass es für dich unkompliziert ist!
 
 Unsere Recruiting Expertin Bianca Just freut sich auf deinen Lebenslauf (max. 5 MB) mit Angabe deiner Gehaltsvorstellung sowie deinem Wunscheintrittstermin.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

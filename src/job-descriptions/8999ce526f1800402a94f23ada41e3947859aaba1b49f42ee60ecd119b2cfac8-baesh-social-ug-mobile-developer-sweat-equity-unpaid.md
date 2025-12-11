@@ -58,4 +58,4 @@ Benefits
 
 If you'd like to get to know us, just drop us a CV or a message, and we’ll set up a intro call. We’re looking forward to meeting you!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

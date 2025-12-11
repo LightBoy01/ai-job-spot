@@ -75,4 +75,4 @@ Der **Erfolg von UCAMBIO** basiert nicht nur auf der stetigen Eröffnung neuer F
 
 Bei Fragen steht dir **Frau Isabel Günther** gerne zur Verfügung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

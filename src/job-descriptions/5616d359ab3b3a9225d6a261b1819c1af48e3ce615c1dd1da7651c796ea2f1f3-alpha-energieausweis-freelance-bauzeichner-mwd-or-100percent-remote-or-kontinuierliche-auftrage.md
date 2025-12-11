@@ -52,4 +52,4 @@ Bewirb dich auch **ohne Anschreiben** – ein kurzer Überblick über deine Erfa
 
 👉 Oder sende uns eine Sprachnachricht per WhatsApp an **+49 160 91353668** – wir melden uns!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

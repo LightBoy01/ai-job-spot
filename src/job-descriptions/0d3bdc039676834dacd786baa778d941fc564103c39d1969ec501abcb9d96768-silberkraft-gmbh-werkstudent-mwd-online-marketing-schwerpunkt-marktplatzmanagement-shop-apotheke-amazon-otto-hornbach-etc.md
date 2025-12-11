@@ -55,4 +55,4 @@ Benefits
 *   Flexibles Arbeiten, moderne Tools, flache Hierarchien
 *   100% remote
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

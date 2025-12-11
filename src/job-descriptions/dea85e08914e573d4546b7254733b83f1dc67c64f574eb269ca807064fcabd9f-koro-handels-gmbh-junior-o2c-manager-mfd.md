@@ -59,4 +59,4 @@ Sounds good?
 
 Then apply with your application documents (**letter of motivation and CV**) via the application form on our website. We are looking for real team members – let us know who you are and what motivates you!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

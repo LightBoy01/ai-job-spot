@@ -4,8 +4,8 @@ title: Entgeltabrechner / Personalmitarbeiter (w/m/d) mit Homeoffice-Anteil
 company: Fischer & Partner Gesellschaft für Personal mbH
 location: Pforzheim
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/fischer-partner-gesellschaft-fur-personal-mbh/entgeltabrechner-personalmitarbeiter-mit-homeoffice-anteil-pforzheim-4123
-postedDate: '2025-12-08T13:32:16.000Z'
+  https://www.arbeitnow.com/jobs/companies/fischer-partner-gesellschaft-fur-personal-mbh/entgeltabrechner-personalmitarbeiter-mit-homeoffice-anteil-pforzheim-43794
+postedDate: '2025-12-10T14:02:02.000Z'
 expirationDate: null
 tags:
   - Compensation and Benefits
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/fischer-partner-gesellschaft-fur-personal-mbh/entgeltabrechner-personalmitarbeiter-mit-homeoffice-anteil-pforzheim-4123
+  https://www.arbeitnow.com/jobs/companies/fischer-partner-gesellschaft-fur-personal-mbh/entgeltabrechner-personalmitarbeiter-mit-homeoffice-anteil-pforzheim-43794
 companyLogoUrl: null
 ---
 Für ein gesundes und produzierendes Unternehmen mit ca. 300 Mitarbeitenden im Raum Pforzheim suchen wir Sie zum nächstmöglichen Zeitpunkt als
@@ -74,4 +74,4 @@ Auf Themen wie Entgeltabrechnung, Lohnabrechnung, Gehaltsabrechnung sind wir sei
 
 **Unser Qualitätsversprechen**: Wir beantworten jede Bewerbung sehr zuverlässig innerhalb von max. drei Werktagen, i.d.R. schneller. Wenn Sie also nach drei Werktagen nichts von uns gehört haben, kann es technische Gründe dafür geben. Bitte haken Sie in diesem Fall bei uns nach.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

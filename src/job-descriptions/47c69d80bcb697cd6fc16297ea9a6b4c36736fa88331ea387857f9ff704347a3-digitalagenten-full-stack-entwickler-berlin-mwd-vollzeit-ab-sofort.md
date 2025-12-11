@@ -85,4 +85,4 @@ Darüber hinaus bieten wir in Kooperation mit der HWR Berlin die Möglichkeit ei
 
 Wir freuen uns auch über Initiativbewerbungen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

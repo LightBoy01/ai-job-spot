@@ -64,4 +64,4 @@ Reichen Sie Ihre Unterlagen einfach über das Bewerbungsformular ein – oder ko
 Sascha Pascal Sternheimer | Leiter technische Personalvermittlung  
 Franke + Pahl GmbH | Berzeliusstrasse 87 | 22113 Hamburg
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

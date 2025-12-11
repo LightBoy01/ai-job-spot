@@ -7,7 +7,7 @@ company: OrgaControl GmbH
 location: Gieleroth
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/orgacontrol-gmbh/mitarbeiterin-vertrieb-und-marketing-schwerpunkt-marketing-und-vertriebsunterstutzung-gieleroth-356965
-postedDate: '2025-12-10T15:59:02.000Z'
+postedDate: '2025-12-11T04:29:03.000Z'
 expirationDate: null
 tags:
   - Distribution Marketing
@@ -75,7 +75,7 @@ Benefits
 
 **Benefits**
 
-Unbefristete Teil-/Vollzeitstelle
+Unbefristete Teilzeitstelle
 
 *   Eine abwechslungsreiche Tätigkeit an der Schnittstelle von Design und Technik
 *   Arbeit an Produkten, die von Kindern weltweit genutzt werden

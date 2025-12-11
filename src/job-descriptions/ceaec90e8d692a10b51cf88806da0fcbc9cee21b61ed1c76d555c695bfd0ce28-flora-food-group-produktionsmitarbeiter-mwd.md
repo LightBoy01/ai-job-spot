@@ -69,4 +69,4 @@ _Flora Food Group is an employer committed to diversity and inclusion in the wor
 
 _No personal characteristics should be a barrier to joining Flora Food Group. We prohibit discrimination and harassment based on race, color, sex, religion, sexual orientation, national origin, disability, genetic information, pregnancy, or other personal characteristics._ 
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

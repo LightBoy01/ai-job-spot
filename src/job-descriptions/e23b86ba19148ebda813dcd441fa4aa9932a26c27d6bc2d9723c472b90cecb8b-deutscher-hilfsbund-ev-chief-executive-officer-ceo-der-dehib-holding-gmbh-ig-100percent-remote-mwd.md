@@ -70,4 +70,4 @@ Benefits
 
 Die Tätigkeit beginnt ohne Fixgehalt, da die DEHIB-Gruppe sich in einer frühen Entwicklungsphase befindet. Die Vergütung wächst parallel zum strukturellen und wirtschaftlichen Fortschritt der Holding, zu dem Sie beitragen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

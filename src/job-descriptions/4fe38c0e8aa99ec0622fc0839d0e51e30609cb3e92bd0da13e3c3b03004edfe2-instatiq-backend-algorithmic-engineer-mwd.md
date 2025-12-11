@@ -70,4 +70,4 @@ Haben wir dein Interesse geweckt? Dann freuen wir uns auf deine aussagekräftige
 
 Deine Ansprechpartnerin ist Frau Aylin Sen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

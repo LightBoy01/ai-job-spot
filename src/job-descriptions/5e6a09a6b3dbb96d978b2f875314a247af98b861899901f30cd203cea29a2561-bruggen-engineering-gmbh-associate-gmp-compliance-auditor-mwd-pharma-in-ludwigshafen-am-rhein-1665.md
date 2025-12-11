@@ -57,4 +57,4 @@ Angabe Ihres frühesten Starttermins und Ihrer Gehaltsvorstellung.
 Ihr Ansprechpartner für Ihre Bewerbung ist:  
 Herr Dipl.-W.-Ing. Thorsten Schermann
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -58,4 +58,4 @@ Dein zukünftiger Arbeitsplatz
 *   Mobile Office und die Möglichkeit bis zu zwei Wochen im Jahr aus dem EU-Ausland zu arbeiten
 *   Regelmäßige Firmenfeiern und gerne auch an Freitagen ein Bier nach Vier mit den Kollegen
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

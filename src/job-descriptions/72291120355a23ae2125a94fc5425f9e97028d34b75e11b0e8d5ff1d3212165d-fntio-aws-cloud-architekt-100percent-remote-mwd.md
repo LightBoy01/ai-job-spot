@@ -63,4 +63,4 @@ Benefits
 
 Mach mit bei FNTIO, einem führenden Unternehmen in der Softwareentwicklung! Als AWS Cloud Architekt (M/W/D) gestaltest du die Zukunft der Cloud-Technologie. Bewirb dich jetzt!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

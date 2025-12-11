@@ -58,4 +58,4 @@ Du kennst es: Manche Anzeigen liest man und merkt sofort, ob ein Wechsel sich lo
 
 Wenn Dich diese Mischung aus Verantwortung, Teamgeist und technischer Tiefe anspricht, dann lass uns sprechen. Ein kurzes Signal reicht. Wir melden uns schnell – und klären gemeinsam, ob dies Dein nächster Schritt ist.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

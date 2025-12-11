@@ -60,4 +60,4 @@ Benefits
 *   Du bringst Finanzbildung in die Apps von Millionen Nutzer:innen, z. B. durch **White-Label-Integrationen in Banking-Apps**.
 *   Du bist Teil eines Teams, das auf User-Feedback, Geschwindigkeit und Impact setzt – und mit Weltklasse-Engagement-KPIs arbeitet
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

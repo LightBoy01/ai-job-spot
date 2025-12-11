@@ -63,4 +63,4 @@ Klingt das gut für Dich?
 
 Dann schicke uns Deinen Lebenslauf zu. Und wenn Du magst schreibst Du uns, warum genau Du perfekt in unser Team passt. Wir melden uns dann umgehend bei Dir.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

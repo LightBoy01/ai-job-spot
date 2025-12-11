@@ -66,4 +66,4 @@ Dann freuen wir uns auf Deine Bewerbung!
 _PS: Wir glauben an kollaborative Teams statt starre Hierarchien._  
 _Wenn Du lieber gestaltest als verwaltest, bist Du bei uns genau richtig._
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

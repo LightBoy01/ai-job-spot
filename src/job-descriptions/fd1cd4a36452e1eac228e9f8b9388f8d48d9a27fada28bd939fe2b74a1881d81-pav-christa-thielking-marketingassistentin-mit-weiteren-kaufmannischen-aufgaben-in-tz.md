@@ -59,4 +59,4 @@ Sie können sich in dieser **interessanten und abwechslungsreichen Tätigkeit** 
 
 **Frau Thielking** wird sich kurzfristig bei Ihnen melden und bei Eignung einen Termin für ein erstes Onlinegespräch mit Ihnen führen. Das Folgegespräch findet dann vor Ort beim Arbeitgeber statt.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
