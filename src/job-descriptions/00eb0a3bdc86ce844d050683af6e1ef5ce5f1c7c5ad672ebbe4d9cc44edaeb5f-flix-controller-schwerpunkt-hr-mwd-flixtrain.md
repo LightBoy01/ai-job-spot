@@ -8,56 +8,54 @@ applicationLink: >-
 postedDate: '2025-12-11T07:45:15.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/flix/controller-schwerpunkt-hr-flixtrain-berlin-98863
 companyLogoUrl: null
+companyCulture: >-
+  FlixTrain fosters a dynamic, supportive environment valuing individual impact,
+  continuous learning, and work-life balance through hybrid models. The company
+  emphasizes collaboration across departments to drive data-driven strategies
+  and sustainable growth, offering excellent benefits and development
+  opportunities.
+story_question1: >-
+  What is the most challenging aspect of integrating data from various
+  departments (HR, Finance, Leadership) into a cohesive People Strategy, and how
+  does this role ensure these insights lead to tangible business impact?
+story_answer1: >-
+  That's a fantastic question, and it gets right to the heart of what makes this
+  role so pivotal. The biggest challenge is definitely bridging the gap between
+  raw data and actionable strategic decisions across HR, Finance, and
+  Leadership. You see, each department has its own perspective and metrics. This
+  role is like the translator and architect – taking disparate numbers,
+  identifying the patterns, forecasting the implications, and then crafting a
+  clear, compelling narrative that leadership can use to make informed choices.
+  For instance, transforming complex FTE plans or personnel costs into a
+  transparent management report directly influences our hiring plans and budget
+  allocations, ensuring we're not just growing, but growing sustainably and
+  smartly. It's about empowering our leaders with the clarity they need to make
+  data-driven decisions that genuinely impact our long-term success.
+story_question2: >-
+  Beyond the core responsibilities, how does FlixTrain actively support the
+  professional growth and well-being of its employees, particularly in a role
+  that requires deep analytical focus?
+story_answer2: >-
+  It's not just about the numbers; it's about the people behind them. We
+  recognize that roles requiring deep analytical focus can be intense, which is
+  why FlixTrain invests heavily in both professional development and holistic
+  well-being. From day one, you'll have access to our comprehensive 'Lernen &
+  Entwicklung' programs, including language courses, expert training sessions,
+  and a robust Mentoring-Programm where you can connect with seasoned
+  colleagues. This isn't just theory; it's about practical application and
+  career acceleration. For your well-being, our hybrid work model offers
+  flexibility, allowing up to 60 days of remote work annually, balanced with a
+  vibrant office culture for collaboration and team bonding. Plus, we provide
+  extensive health and well-being services, including confidential counseling,
+  stress management, and even benefits for up to four family members. We truly
+  believe that a supported, growing employee is an engaged and impactful one.
 ---
-Bei FlixTrain bieten wir sichere Arbeitsplätze mit überdurchschnittlicher Bezahlung und tollen Zusatzleistungen. Du hast die Möglichkeit, dich in einem dynamischen Umfeld weiterzuentwickeln, in dem dein Einfluss wirklich zählt.
-
-Gestalte die Zukunft unserer People-Strategie – mit Zahlen, die den Unterschied machen.  
-Als Teil unseres People Teams bist Du die Schnittstelle zwischen HR, Finance und Leadership – und sorgst dafür, dass wir unsere People-Agenda faktenbasiert, transparent und wirkungsvoll steuern. Ob FTE-Planung, Personalkosten, zentrale HR-KPIs oder Management-Reporting: Du verwandelst Daten in klare Entscheidungen und schaffst damit die Grundlage für nachhaltiges Wachstum und smarte Personalstrategien.
-
-**Über die Rolle**
-
-*   Übernimm die **strategische FTE- und Personalkostenplanung** – von Budget bis Forecasting – und halte unsere Ziele im Blick.
-*   Steuere das **HR-Reporting** mit klaren Soll-Ist-Vergleichen, Abweichungsanalysen und Management-tauglichen Insights.
-*   Entwickle **Reports & Dashboards** in Excel/Power BI, die Prozesse automatisieren und Entscheidungen beschleunigen.
-*   Analysiere **Headcount-, Bewegungs- und Planstellendaten** und bringe sie in Einklang mit unserem Hiring-Plan.
-*   **Unterstütze die operativen Einheiten** bei Crewplanung und Trainingsmanagement durch belastbare Daten und Analyse
-*   Arbeite eng mit **Finance, Payroll** **und** **Crewplanung** zusammen, um unsere Personalbedarfe zu analysieren und eine fundierte Datenbasis sicherzustellen
-*   Erstelle und pflege **Personalkostensätze** für die Linienergebnisberechnung und entwickle zentrale HR-Kennzahlen weiter
-
-**Über Dich**
-
-*   Abgeschlossenes Studium in Betriebswirtschaft, Controlling, Wirtschaftsinformatik oder einer vergleichbaren Fachrichtung.
-*   Mindestens 3–5 Jahre Erfahrung im HR- oder Finanzcontrolling mit nachweisbarer Verantwortung für Planung, Forecasts und Reporting.
-*   Sehr gute Excel-Skills sowie Erfahrung mit Power BI oder ähnlichen BI-Tools für Management-Dashboards.
-*   Sicher im Umgang mit HR- und Finanzsystemen (z. B. Workday, SAP SuccessFactors, Payroll-Systeme); SQL-Grundkenntnisse von Vorteil.
-*   Analytisches Denken und hohe Zahlenaffinität kombiniert mit einer strukturierten, lösungsorientierten Arbeitsweise.
-*   Verhandlungsichere Deutsch- und sehr gute Englischkenntnisse und in der Lage, komplexe Themen klar und adressatengerecht zu vermitteln.
-
-_Bei uns zählt der Blick auf das Ganze – auch wenn du nicht alle Anforderungen zu 100 % erfüllst, aber dennoch glaubst, etwas bewegen zu können, freuen wir uns auf deine Bewerbung!_ 
-
-**Was Wir Bieten**
-
-*   **Reisevorteile:** 12 kostenlose Flix-Gutscheine + 12 Rabattgutscheine für Freunde & Familie.
-*   **Arbeiten von Überall:** Je nach Rolle kannst du bis zu 60 Tage pro Jahr von einem anderen Standort aus arbeiten.
-*   **Hybrides Arbeitsmodell:** Wir sind ein Unternehmen mit Bürokultur, bieten jedoch Flexibilität, um Arbeit und Leben in Einklang zu bringen.
-*   **Gesundheits- und Wohlfühlangebote:** Zugang zu vertraulichen Einzelberatungen, Kursen und Stressbewältigungsmaßnahmen – für dich und bis zu vier Familienangehörige.
-*   **Lernen & Entwicklung:** Nutze Sprachkurse, Schulungen und Experten-Sessions, um deine Fähigkeiten auszubauen.
-*   **Mentoring-Programm:** Vernetze dich mit erfahrenen Kollegen, um Einblicke zu gewinnen und deine Karriere zu beschleunigen.
-
-* * *
-
-**Warum Teil von Flix werden?** 
-
-Bei Flix konzentrieren wir uns darauf, Reisen einfach, sicher und erschwinglich zu gestalten – sowohl für unsere Passagiere als auch für unsere Mitarbeiter. Hier geht es schnell voran, und es gibt viel Raum, etwas zu bewegen. Wir wachsen und entwickeln uns täglich weiter und suchen Menschen, die bereit sind, sich einzubringen und die Art und Weise, wie wir arbeiten, mitzugestalten. 
-
-Wenn du einen Job suchst, in dem du wachsen und etwas bewirken kannst, dann bist du bei FlixTrain genau richtig. Hier kannst du Teil eines Teams werden, in dem dein Beitrag zählt und du deine Reise selbst gestalten kannst! 
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nAt FlixTrain, we offer secure jobs with above-average pay and excellent benefits in a dynamic environment where your influence truly matters. We are seeking a highly analytical and strategic individual to shape the future of our People Strategy through data-driven insights. As a key member of our People Team, you will serve as the crucial interface between HR, Finance, and Leadership, ensuring our People Agenda is managed fact-based, transparently, and effectively. Your expertise in FTE planning, personnel costs, central HR KPIs, and management reporting will be instrumental in transforming complex data into clear, actionable decisions, thereby laying the foundation for sustainable growth and smart HR strategies. We are a fast-paced company focused on making travel simple, safe, and affordable, constantly evolving and offering ample opportunities to make an impact and shape your own career journey.\n\n### Responsibilities\n*   Take ownership of **strategic FTE and personnel cost planning** – from budget to forecasting – keeping our goals in focus.\n*   Manage **HR reporting** with clear actual-vs-target comparisons, variance analyses, and management-ready insights.\n*   Develop **reports & dashboards** in Excel/Power BI to automate processes and accelerate decision-making.\n*   Analyze **headcount, movement, and position data**, aligning them with our hiring plan.\n*   **Support operational units** in crew planning and training management through reliable data and analysis.\n*   Collaborate closely with **Finance, Payroll, and Crew Planning** to analyze personnel requirements and ensure a robust data basis.\n*   Create and maintain **personnel cost rates** for line item profit calculation and further develop central HR key figures.\n\n### Qualifications\n*   Completed degree in Business Administration, Controlling, Business Informatics, or a comparable field.\n*   At least 3–5 years of experience in HR or Financial Controlling with proven responsibility for planning, forecasts, and reporting.\n*   Excellent Excel skills and experience with Power BI or similar BI tools for management dashboards.\n*   Proficient in HR and financial systems (e.g., Workday, SAP SuccessFactors, payroll systems); basic SQL knowledge is a plus.\n*   Analytical thinking and strong affinity for numbers combined with a structured, solution-oriented working style.\n*   Negotiation-level German and very good English skills, able to communicate complex topics clearly and appropriately for the audience.\n*   *Note: If you don't meet 100% of the requirements but believe you can make an impact, we encourage you to apply!*\n\n### Author's Take\nThis is a pivotal Mid-Senior level Individual Contributor role at FlixTrain, perfectly suited for a highly analytical professional with a strong background in HR or Financial Controlling. The position offers significant influence in shaping the company's People Strategy by translating complex data into strategic insights for leadership. FlixTrain emphasizes a supportive and dynamic culture, offering above-average compensation, excellent benefits including travel vouchers, a hybrid work model (up to 60 remote days/year), and robust learning and development opportunities like language courses and a mentoring program. The company values growth, impact, and a balanced approach to work, actively encouraging candidates who may not tick every box but bring a strong desire to contribute and evolve within a fast-paced environment. This is an excellent opportunity to truly make a difference in a growing international company.

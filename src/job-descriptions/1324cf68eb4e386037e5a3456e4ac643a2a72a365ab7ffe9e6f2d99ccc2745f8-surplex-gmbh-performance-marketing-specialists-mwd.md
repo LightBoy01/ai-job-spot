@@ -9,88 +9,61 @@ postedDate: '2025-12-08T16:01:53.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/surplex-gmbh/performance-marketing-specialists-berlin-244663
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a collaborative, open, and growth-oriented culture with
+  significant autonomy for individual contributors. It emphasizes work-life
+  balance through generous vacation and workation policies, supported by a
+  strong focus on continuous learning and professional development.
+story_question1: >-
+  Given the focus on building out the international marketing team and shaping
+  the entire lifecycle of the growth engine, what are the primary strategic
+  objectives for Performance Marketing in the next 12-18 months, and what
+  challenges might a specialist encounter in achieving them?
+story_answer1: >-
+  As a specialist here, you're not just executing; you're truly building. Our
+  main goal is to establish a robust, data-driven performance marketing
+  framework across Continental Europe, directly supporting our rapid
+  international expansion. The biggest challenge? Integrating our diverse
+  regional needs into a cohesive global strategy, all while maintaining the
+  agility to experiment and innovate. But that's where the excitement lies!
+  You'll have significant freedom to design and implement your ideas, backed by
+  leadership that trusts your expertise and a supportive international team
+  ready to collaborate.
+story_question2: >-
+  The text emphasizes a 'hands-on mentality' and the company's critical role in
+  supporting industrial companies through change. How does the Performance
+  Marketing team directly contribute to TBAuctions' mission of reliable value
+  preservation and resource efficiency for industrial goods, beyond just
+  generating leads?
+story_answer2: >-
+  Our work here goes far beyond just driving clicks; it's about connecting the
+  right industrial assets with the right buyers globally, ensuring efficient
+  value preservation and resource reuse. Through our precise targeting and
+  data-driven campaigns, we facilitate the entire lifecycle of industrial goods.
+  When an automotive manufacturer liquidates a plant, for example, our campaigns
+  ensure those valuable machines find new homes, preventing waste and supporting
+  new ventures. You're directly contributing to a sustainable economy by
+  optimizing this crucial connection.
+story_question3: >-
+  With the mention of an 'open culture,' growth opportunities, and direct access
+  to the CMO, how does TBAuctions support the continuous professional
+  development and career progression for Performance Marketing Specialists?
+story_answer3: >-
+  Our open culture isn't just a buzzword; it's how we operate. Because you're
+  working directly with the CMO Continental and an international team, you gain
+  immense exposure to strategic decision-making. We actively encourage
+  'intrapreneurship' – if you spot an opportunity, you're empowered to pursue
+  it. Plus, with dedicated budget for further education, workation options for
+  diverse experiences, and a team that values knowledge sharing, your growth
+  path isn't rigid. It's about empowering you to shape your own expertise and
+  advance within a rapidly expanding international group.
 ---
-_Die CMO Continental von TBAuctions stellt Paid Social und Paid Search & Display Specialists als Teil des Performance Marketings ein:_
---------------------------------------------------------------------------------------------------------------------------------------
-
-Nah am Puls der Industrie-Auktionen
------------------------------------
-
-Wie Du, ist Surplex der Ansprechpartner, wenn es um Wachstum und Wandel geht. Der Werterhalt von Industriegütern, Ressourcenschonung und Zuverlässigkeit ist das, was uns mit unseren Kunden antreibt. Damit TBAuctions noch besser wird, werden Performance Marketing Experten für den Aufbau des internationalen Marketing-Teams in Düsseldorf eingestellt.
-
-Data-driven durch eigene Analysten
-----------------------------------
-
-Tbauctions ist Industrie-Dienstleistungs- und Auktionshaus -- führend in Europa. Surplex - Am Puls der Zeit, im Jahr 1999 als digitale Plattform in Düsseldorf gegründet und heute Teil der TBAuctions Gruppe mit Standorten in 16 europäischen Ländern. Kunden schätzen das Dienstleistungsportfolio und weltweite Netzwerk.
-
-TBAuctions ist dort anzutreffen, wenn es bei Industrie-Unternehmen um Wandel und Entwicklung dreht: Ob Werksverlegung eines Autombilherstellers, -auflassung oder Erneuerung des Bestands im Mittelstand.
-
-_“Wenn ein Automobilhersteller einen Standort verlegt, ist Expertise und Professionalität gefragt um zielgerichtet Mehrwerte für unsere Kunden zu schaffen.“_
-
-*   Tim Krämer, Director Operations
-
-Unternehmen verlassen sich in kritischen Situationen auf TBAuctions, dafür ist Zuverlässigkeit und Substanz essentiell. Durch die Neuausrichtung für den Aufbau regionaler Konzepte, benötigt TBAuctions Performance-Spezialisten mit hands-on Mentalität.
-
-International mit Experten auf Group Level unterwegs
-----------------------------------------------------
-
-In dieser Position steht das initiale Konzept, die Realisierung und Verzahnung von Vertrieb und Marketing für die digital Plattform im Mittelpunkt. Du hast die Chance den gesamten Lebenszyklus von der Konzeption, Team-Aufbau – im internationalen Kontext, jedoch zentral in Düsseldorf -- bis hin zur Optimierung einer belastbaren Wachstums-Engine -- mitzugestalten.
-
-Wachse im Team, erhalte Support von internationalen Kollegen, und stelle analytische Fähigkeiten und Eigeninitiative für das gemeinsame Ziel unter Beweis.
-
-Als Direct zum CMO Continental (mit Sitz in Düsseldorf) erhältst Du sowohl die Freiräume für Analyse und Experimente, als auch das Back-up und die Unterstützung, damit Du in Deinem Thema erfolgreich bist.
-
-_"Wir arbeiten im Team mit sehr hohen Freiheitsgraden. Daher ist diese Position ideal für Gestalter, die den Willen mitbringen, Entscheidungen zu treffen.“_
-
-\-Sophie Bischoff, CMO Continental
-
-Die Teams arbeiten übergreifend an Lösungen: Ob Vertrieb oder Kundenservice, der Kunde steht im Mittelpunkt und der gemeinsame Erfolg.
-
-Wenn Du Teil einer offenen Kultur sein willst, und den Grundstein für Wachstum und Arbeitsfreude legen möchtest, erwartet Dich jetzt Deine Gelegenheit.
-
-Neues Team und Mitstreiter in der Gruppe international
-------------------------------------------------------
-
-Das Marketing für Continental wird in Düsseldorf neu-aufgebaut. Für den Bereich **Performance Marketing** werden Experten für die Bereiche gesucht:
-
-Paid Search Specialist:
------------------------
-
-Du bringst solide 3-5 Jahre Erfahrungen aus dem Performance Marketing mit, in Google Ads & Display? Performance steht im Mittelpunkt und Marketplace Advertising ist Dir nicht fremd? Nehme noch heute Kontakt zu Deinem Ansprechpartner (siehe unten) auf!
-
-Paid Social Specialist:
------------------------
-
-Du entwickelst kreative Paid Social Konzepte strukturiert und ergebnisorientiert. Der LinkedIn Campaign & Meta Manager sind Dir vertraut? 2-4 Jahre Erfahrung bringst Du mit?
-
-Erfahre im nächsten Schritt die Details zum Unternehmen, das Team und Deinen Möglichkeiten!
-
-Was wir dir bieten 🥳
----------------------
-
-*   Unabhängige und abwechslungsreiche Rolle in einem unternehmerischen und innovativen Unternehmen
-*   Berufsunfähigkeitsversicherung und eine Gruppenunfallversicherung
-*   30 Urlaubstage
-*   Ein modernes Office mit einer Menge Parkplätzen
-*   Bis zu 30 Tage Workation im Jahr
-*   Weiterbildungsmöglichkeiten
-*   Weitere Benefits wie Zuschüsse für Urban Sports Club, Deutschlandticket, Jobrad und mehr
-
-Das ist Surplex
----------------
-
-Surplex ist seit über 25 Jahren eines der führenden Industrie-Auktionshäuser Europas und handelt weltweit mit gebrauchten Maschinen und Industrieanlagen. Unser engagiertes Team mit über 200 Mitarbeitenden arbeitet sowohl an unserem Hauptsitz in Düsseldorf als auch in 15 Niederlassungen in ganz Europa. Seit August 2024 sind wir Teil von TBAuctions – der führenden europäischen Multi-Brand-Plattform für digitale B2B-Auktionen gebrauchter Güter mit über 1.200 Mitarbeitenden. Innerhalb dieser Struktur verantworten wir die kontinentale Division und bringen unsere Expertise in den internationalen Markt ein.
-
-Bei Surplex verbinden wir die Vorteile des modernen Online-Handels mit persönlichem, klassischem Kundenservice. Wir begleiten unsere Kund:innen durch alle Schritte des Kauf- und Verkaufsprozesses, bieten maßgeschneiderte Lösungen und sorgen für höchste Zufriedenheit.
-
-**Werde Teil unseres Teams und gestalte mit uns die Zukunft des Gebrauchtmaschinenhandels!**
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nSurplex, as part of TBAuctions, is a leading European B2B industrial auction house operating across 16 countries. They are currently expanding their international marketing team in Düsseldorf and are seeking dedicated Performance Marketing Specialists for both Paid Social and Paid Search & Display. This critical role involves shaping the entire lifecycle of digital marketing efforts, from initial concept to team building and optimization of a robust growth engine. Reporting directly to the CMO Continental, you will enjoy significant autonomy, analytical freedom, and robust support to drive success in a dynamic, international environment focused on value preservation and resource efficiency.\n\n### Responsibilities\n- Conceptualize, realize, and integrate performance marketing strategies (Paid Search & Display or Paid Social) for digital platforms.\n- Drive the full lifecycle from strategy to optimization to build a resilient growth engine within an international context.\n- Leverage analytical skills and take initiative to make data-driven decisions and conduct experiments.\n- Collaborate cross-functionally with sales and customer service teams to achieve shared goals.\n- **For Paid Search Specialists:** Manage Google Ads & Display campaigns with a strong performance focus; familiarity with Marketplace Advertising is a plus.\n- **For Paid Social Specialists:** Develop creative, structured, and results-oriented Paid Social concepts, proficient in LinkedIn Campaign Manager and Meta Manager.\n\n### Qualifications\n- **General Requirements:**\n  - A hands-on mentality and a proactive approach to decision-making.\n  - Strong analytical abilities and a data-driven mindset.\n  - A collaborative spirit, eager to work within a diverse, international team.\n- **For Paid Search Specialist:**\n  - 3-5 years of solid experience in Performance Marketing.\n  - Proven expertise in Google Ads & Display.\n  - Strong focus on performance metrics.\n  - Familiarity with Marketplace Advertising is preferred.\n- **For Paid Social Specialist:**\n  - 2-4 years of experience in Performance Marketing.\n  - Demonstrated ability to develop creative and results-oriented Paid Social concepts.\n  - Proficiency with LinkedIn Campaign Manager and Meta Manager.\n\n### Author's Take\nThis is a truly exciting opportunity for a seasoned Performance Marketing Specialist to make a tangible impact by helping build and scale the digital marketing function for a leading European industrial auction house. The role offers an exceptional degree of autonomy, direct access to the CMO Continental, and the chance to work within a supportive, international team environment. TBAuctions fosters an open, collaborative, and growth-oriented culture, offering excellent benefits such as 30 vacation days, up to 30 days of 'Workation' per year, and strong professional development opportunities. It's an ideal fit for proactive 'shapers' who thrive on making decisions and want to drive significant growth in a dynamic, purposeful industry.
