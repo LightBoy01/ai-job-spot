@@ -63,4 +63,4 @@ Wir freuen uns auf Ihre Kontaktaufnahme!
 **Ihr direkter Ansprechpartner bei Wavestone**  
 Selma Halilovic  
 Telefon: 00498945599290  
-E-Mail: Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+E-Mail: Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

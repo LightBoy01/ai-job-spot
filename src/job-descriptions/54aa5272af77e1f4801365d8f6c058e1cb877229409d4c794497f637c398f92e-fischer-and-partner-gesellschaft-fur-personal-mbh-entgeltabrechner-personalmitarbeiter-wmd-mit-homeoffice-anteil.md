@@ -74,4 +74,4 @@ Auf Themen wie Entgeltabrechnung, Lohnabrechnung, Gehaltsabrechnung sind wir sei
 
 **Unser Qualitätsversprechen**: Wir beantworten jede Bewerbung sehr zuverlässig innerhalb von max. drei Werktagen, i.d.R. schneller. Wenn Sie also nach drei Werktagen nichts von uns gehört haben, kann es technische Gründe dafür geben. Bitte haken Sie in diesem Fall bei uns nach.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

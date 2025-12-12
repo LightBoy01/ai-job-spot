@@ -62,4 +62,4 @@ Wir prüfen Ihr Profil vertraulich und geben Ihnen gern einen transparenten Einb
 
 Bereit für den nächsten Schritt?
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

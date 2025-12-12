@@ -90,4 +90,4 @@ Hinter der AchtBerlin stehen Gründer aus Kultur und Wirtschaft, die mit Leidens
 
 Durch das Kennenlernen unterschiedlicher Perspektiven und neuer Ideen wollen wir Verbindungen schaffen und unsere Mission ins Leben übertragen: Inspire to create.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

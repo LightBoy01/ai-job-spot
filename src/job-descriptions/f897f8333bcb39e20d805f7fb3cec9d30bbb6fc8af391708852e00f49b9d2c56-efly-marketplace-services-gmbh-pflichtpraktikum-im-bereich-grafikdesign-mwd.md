@@ -4,8 +4,8 @@ title: Pflichtpraktikum im Bereich Grafikdesign (m/w/d)
 company: eFLY Marketplace Services GmbH
 location: Stuttgart
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/pflichtpraktikum-im-bereich-grafikdesign-stuttgart-341394
-postedDate: '2025-12-08T15:02:29.000Z'
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/pflichtpraktikum-im-bereich-grafikdesign-stuttgart-277750
+postedDate: '2025-12-12T08:02:04.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/pflichtpraktikum-im-bereich-grafikdesign-stuttgart-341394
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/pflichtpraktikum-im-bereich-grafikdesign-stuttgart-277750
 companyLogoUrl: null
 ---
 Wir suchen dich für ein spannendes **Praktikum im Grafikdesign**, um unser Team bei der Entwicklung kreativer und ansprechender Designs für unsere Kunden zu unterstützen. Du wirst visuelle Konzepte für verschiedene Kanäle gestalten und dafür sorgen, dass die Marken unserer Kunden auf Plattformen wie Amazon überzeugend präsentiert werden. Dabei entwickelst du individuelle Grafiken und Layouts, optimierst bestehende Designs und arbeitest eng mit internen Teams sowie Kunden zusammen, um ihre Vorstellungen professionell umzusetzen.

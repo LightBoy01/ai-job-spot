@@ -48,4 +48,4 @@ Qualifikation
 *   Saubere, nachverfolgbare Arbeitsweise und Erfahrung mit Coding- und Architektur-Standards
 *   Kenntnisse im regulierten Umfeld (Bank/Finance) von Vorteil
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

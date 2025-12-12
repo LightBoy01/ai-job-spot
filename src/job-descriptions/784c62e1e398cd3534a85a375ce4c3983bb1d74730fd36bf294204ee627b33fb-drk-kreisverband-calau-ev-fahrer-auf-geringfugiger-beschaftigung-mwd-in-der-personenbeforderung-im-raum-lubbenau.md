@@ -41,4 +41,4 @@ Qualifikation
 
 Wir freuen uns auf Ihre Bewerbung und das persönliche Gespräch. Bewerben Sie sich am besten per Mail oder postalisch: DRK-Kreisverband Calau e.V., Am Friedhof 4, 03205 Calau
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

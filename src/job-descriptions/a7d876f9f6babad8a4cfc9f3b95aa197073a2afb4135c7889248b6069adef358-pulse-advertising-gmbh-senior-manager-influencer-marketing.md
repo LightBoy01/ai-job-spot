@@ -5,7 +5,7 @@ company: Pulse Advertising GmbH
 location: Berlin
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/pulse-advertising-gmbh/senior-manager-influencer-marketing-berlin-12266
-postedDate: '2025-12-10T14:01:51.000Z'
+postedDate: '2025-12-11T15:29:03.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
@@ -31,20 +31,23 @@ You have a passion for influencer marketing and want to take your career to the 
 Your tasks
 ----------
 
-*   You independently manage large scale social media campaigns for our clients, develop creative ideas and bring them to life
-*   You communicate with clients and service providers and take the lead in event planning and management
-*   You analyze trends and prepare internal and external reports and evaluations
-*   Together with management you further develop the strategic direction and processes of the influencer marketing department
-*   You lead your own team and foster its continued development
+*   You independently manage large scale and high complexity social media campaigns for our clients, develop creative ideas and bring them to life
+*   You collaborate with Strategy, Creative and other internal services while communicating with clients and external partners to ensure seamless project delivery
+*   You identify procedural and functional challenges, develop solutions and improve productivity, efficiency and alignment across teams
+*   You analyze trends, prepare internal and external reports and contribute to strategic decision making
+*   You consistently bring creative and innovative approaches that drive Pulse’s business forward
+*   You take accountability for performance, lead your own team and support its continued development while shaping the strategic direction of the influencer marketing department
 
 Your skills
 -----------
 
 *   Driven. Passionate. Diverse. Equal. These are qualities you cherish
 *   You have at least 5 years of experience in the social media field including a minimum of 3 years in influencer marketing
-*   You enjoy working with numbers and love both project management and emotional storytelling
+*   You have strong analytical and strategic decision making skills and enjoy working with numbers
+*   You love both project management and emotional storytelling
 *   You are a true team player with a strong hands on mentality
 *   You approach new challenges with a positive attitude and know how to motivate your team
+*   You are fluent in German and English
 
 Our Benefits
 ------------
@@ -61,4 +64,4 @@ Your application
 
 Exactly what you’ve been looking for then show us how much PULSE POWER you’ve got and send us your application.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -66,4 +66,4 @@ Leiterin HR Management
 
 Telefon: +49 30 75 444 741 28
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

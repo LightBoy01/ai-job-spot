@@ -54,4 +54,4 @@ Wir freuen uns auf die Zusendung Ihrer aussagekräftigen Unterlagen!
 
 Gerne steht Ihnen bei Rückfragen Herr Constantin Bock unter 0351-835 2018 zur Verfügung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

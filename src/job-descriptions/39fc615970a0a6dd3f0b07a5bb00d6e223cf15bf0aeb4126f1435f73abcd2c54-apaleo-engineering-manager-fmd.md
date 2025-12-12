@@ -64,4 +64,4 @@ As an Engineering Manager, you'll drive **people leadership, delivery, strat
 
 We are proud to be an Equal Opportunity and Affirmative Action Employer, committed to fostering a diverse, inclusive, and welcoming workplace. We encourage applications from individuals of all backgrounds, regardless of race, color, religion, gender identity or expression, sex, national origin, age, marital status, disability, or any other characteristic protected by applicable law. Your personal data will be handled with the utmost care and in compliance with GDPR and relevant data protection regulations. We celebrate differences and believe that diversity enriches our team and drives innovation.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -73,4 +73,4 @@ Wenn du beim Lesen mehrmals genickt hast und dir denkst „Genau so will ich arb
 
 Wir freuen uns auf deine Bewerbung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

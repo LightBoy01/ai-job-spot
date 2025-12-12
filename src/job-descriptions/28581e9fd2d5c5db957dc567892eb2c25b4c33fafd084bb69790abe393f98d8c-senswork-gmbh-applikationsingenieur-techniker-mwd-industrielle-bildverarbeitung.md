@@ -45,4 +45,4 @@ Dein Profil:
 *   Interesse an der Mitarbeit in Projekten
 *   Idealerweise: Kenntnisse im Bereich Kameratechnik/Bildverarbeitung/Automatisierung
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

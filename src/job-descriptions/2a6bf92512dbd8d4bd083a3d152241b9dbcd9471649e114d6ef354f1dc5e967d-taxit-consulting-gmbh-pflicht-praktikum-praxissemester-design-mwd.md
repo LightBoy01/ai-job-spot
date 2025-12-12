@@ -79,4 +79,4 @@ Es gibt Chancen im Leben, die man nicht verpassen sollte. Das ist eine davon. Sc
 
 Wir freuen uns auf deine Bewerbung und melden uns zeitnah bei dir. 🚀
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

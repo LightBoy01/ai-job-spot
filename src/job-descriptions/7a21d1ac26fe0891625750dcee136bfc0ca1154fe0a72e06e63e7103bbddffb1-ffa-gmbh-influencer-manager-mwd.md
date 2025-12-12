@@ -5,7 +5,7 @@ company: FFA GmbH
 location: Berlin
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/ffa-gmbh/influencer-manager-berlin-371671
-postedDate: '2025-12-10T14:32:02.000Z'
+postedDate: '2025-12-11T16:29:02.000Z'
 expirationDate: null
 tags:
   - Social Media Manager
@@ -66,7 +66,7 @@ Benefits
 --------
 
 *   **Attraktive Vergütung:** Bei uns zählen nicht Alter oder Ausbildung, sondern dein Einsatz und der Mehrwert, den du schaffst. Du erhältst ein sehr attraktives Gehalt.
-*   **Flexible Arbeitszeiten & 100 % Remote:** Bei uns gibt es keinen festen 9-to-5-Job – du entscheidest selbst, wann und wo du deine Arbeit erledigst. Du genießt maximale Freiheit und Flexibilität.
+*   **Flexible Arbeitszeiten:** Gleitzeit ohne Kernarbeitszeiten – du gestaltest deinen Arbeitstag eigenverantwortlich im Rahmen unserer Teamabstimmungen.
 *   **Persönliches & fachliches Wachstum:** Wir unterstützen dich dabei, dich zu einem der besten in deinem Fach zu entwickeln. Egal, ob durch Online-Kurse, Workshops oder individuelle Coachings – bei uns kannst du dich fachlich und persönlich weiterentwickeln.
 *   **Supplemente aus unserem Shop:** Als Teil unseres Teams darfst du dich jeden Monat über Produkte aus unserem Online-Shop freuen – z. B. Protein-Shakes, Riegel oder andere Supplements, die dir den Alltag versüßen. Team-Events & echte Gemeinschaft: Zweimal im Jahr kommen wir alle zusammen – an inspirierenden Orten, um gemeinsam zu wachsen, uns auszutauschen und neue Ideen zu entwickeln.
 
@@ -74,4 +74,4 @@ Interesse geweckt? Wir freuen uns über deine Bewerbung!
 
 **Bitte bewerbe dich mit Angabe deiner Gehaltsvorstellung und deinem möglichen Startdatum.**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

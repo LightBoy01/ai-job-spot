@@ -69,4 +69,4 @@ Wir freuen uns darauf, mehr über Dich und Deine Talente zu erfahren.
 
 **SHARE YOUR TALENT!**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

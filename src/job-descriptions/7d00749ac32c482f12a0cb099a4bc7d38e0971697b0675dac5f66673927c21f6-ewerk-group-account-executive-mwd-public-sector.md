@@ -57,4 +57,4 @@ Deine Aufgabe: Du identifizierst Chancen in Ausschreibungen, gestaltest Lösunge
 
 EWERK lebt von Vielfalt. Wir freuen uns über Bewerbungen von Menschen mit ganz verschiedenen Geschichten und Perspektiven. Alle personenbezogenen Formulierungen in der Stellenanzeige sind daher geschlechtsneutral zu betrachten. Potenzial ist bei uns willkommen, unabhängig von Identität oder Hintergrund.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

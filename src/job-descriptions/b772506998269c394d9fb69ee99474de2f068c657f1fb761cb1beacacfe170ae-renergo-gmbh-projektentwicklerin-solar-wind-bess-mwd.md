@@ -5,7 +5,7 @@ company: Renergo GmbH
 location: Heidenheim
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/renergo-gmbh/projektentwickler-in-solar-wind-bess-heidenheim-208536
-postedDate: '2025-12-11T08:01:48.000Z'
+postedDate: '2025-12-11T12:29:03.000Z'
 expirationDate: null
 tags:
   - Remote
@@ -41,7 +41,7 @@ Qualifikation
 -------------
 
 *   Du verfügst über eine ein abgeschlossenes Studium mit technischer oder betriebswirtschaftlicher Richtung oder eine vergleichbare Qualifikation, idealerweise im Bereich Erneuerbarer Energien
-*   Du hast du bereits Erfahrung in der Projektentwicklung und dem Projektmanagement im Bereich der erneuerbaren Energie d.h. Freiflächen-PV, Windenergie oder Batteriespeicher
+*   Du hast bereits Erfahrung in der Projektentwicklung und dem Projektmanagement im Bereich der erneuerbaren Energie d.h. Freiflächen-PV, Windenergie oder Batteriespeicher
 *   Du hast ein weitreichendes Wissen im Bereich energiewirtschaftlicher Fragestellungen und des EEG.
 *   Eine strukturierte und selbstständige Arbeitsweise zeichnet Dich aus
 *   Du bist eine kommunikative Persönlichkeit mit freundlichem Auftreten
@@ -61,4 +61,4 @@ Benefits
 *   Individuell zugeschnittene Weiterbildungsmöglichkeiten & Entwicklungsmöglichkeiten
 *   Sinnvolle Arbeit in einer aufstrebenden Branche: Lass uns gemeinsam etwas gegen den Klimawandel tun!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

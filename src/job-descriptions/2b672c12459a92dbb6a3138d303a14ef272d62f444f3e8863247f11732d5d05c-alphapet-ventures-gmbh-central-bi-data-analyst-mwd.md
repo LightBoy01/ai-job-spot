@@ -66,4 +66,4 @@ Interested ?
 
 We look forward to receiving your application — including your cover letter, CV, your earliest possible start date, and your salary expectations.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

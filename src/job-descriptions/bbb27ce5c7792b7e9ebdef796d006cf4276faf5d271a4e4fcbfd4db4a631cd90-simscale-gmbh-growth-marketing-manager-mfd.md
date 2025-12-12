@@ -63,4 +63,4 @@ What you can expect from us
 
 At SimScale, we look beyond borders and hire great talent from all parts of the world. With our team consisting of people from various backgrounds, we truly embrace diversity and encourage everyone to be themselves. We are unified by curiosity, dedication and our team spirit! As an equal opportunity employer, we acknowledge that our employees have different aspirations and career goals, and therefore are committed to create a diverse environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. A copy of SimScale's full recruiting guideline can be made available on request. Kindly let us know how you would like to be addressed and whether you have specific requirements for the interview.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -112,4 +112,4 @@ Our team of 600 comes from all corners of the world; we drive things forward col
 
 \*At rebuy all people are welcome and supported! We would like to talk, regardless of age, disability, national and social origin, skin color, religion, gender identity and sexual orientation. Just be who you are.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

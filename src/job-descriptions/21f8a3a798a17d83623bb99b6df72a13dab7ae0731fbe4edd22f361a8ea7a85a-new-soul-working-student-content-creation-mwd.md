@@ -5,7 +5,7 @@ company: New Soul
 location: Berlin
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/new-soul/working-student-content-creation-berlin-294660
-postedDate: '2025-12-11T05:59:02.000Z'
+postedDate: '2025-12-12T07:29:03.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
@@ -34,7 +34,7 @@ Warum New soul?
 *   **Entwicklung:** Du arbeitest eng mit einem dynamischen Gründerteam zusammen, erhältst eine steile Lernkurve und profitierst von einem agilen Umfeld mit viel Raum für persönliche wie fachliche Weiterentwicklung.
 *   **Arbeitsplatz:** Ein modernes, schönes Büro im Herzen des Kollwitz-Kiez sowie regelmäßige Team-Events.
 *   **Selfcare:** Genieße die beste Massage der Stadt – mit 50 % Rabatt in allen new:soul Studios.
-*   **Vergütung:** Ein attraktives Gehaltspaket, das deinen Beitrag und deinen Impact fair widerspiegelt.
+*   Vergütung: Ein attraktives Gehaltspaket, das deinen Beitrag und deinen Impact fair widerspiegelt.
 
 Das bringst du mit
 ------------------

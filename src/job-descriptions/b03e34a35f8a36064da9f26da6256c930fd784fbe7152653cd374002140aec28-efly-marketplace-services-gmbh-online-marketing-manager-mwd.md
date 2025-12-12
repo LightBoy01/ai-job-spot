@@ -4,8 +4,8 @@ title: Online Marketing Manager (m/w/d)
 company: eFLY Marketplace Services GmbH
 location: Stuttgart
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/online-marketing-manager-stuttgart-186563
-postedDate: '2025-12-08T15:02:26.000Z'
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/online-marketing-manager-stuttgart-386242
+postedDate: '2025-12-12T08:32:07.000Z'
 expirationDate: null
 tags:
   - Marketing Manager
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/online-marketing-manager-stuttgart-186563
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/online-marketing-manager-stuttgart-386242
 companyLogoUrl: null
 ---
 In der Rolle des **Online Marketing Managers** kalkulierst und steuerst du die Werbebudgets unserer Kunden. Ziel ist es die bestmögliche Sichtbarkeit mit einem vorgegebenen Budget zu erreichen. Um die Fortschritte der Arbeit auch dem Kunden zu übermitteln, werden regelmäßig Auswertungen erstellt. Auch die Positionierung der Produkte an gewünschten Werbeplätzen spielt hierbei eine große Rolle.🚀
@@ -60,4 +60,4 @@ Benefits
 
 **Wir freuen uns auf Dich! 🤗**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

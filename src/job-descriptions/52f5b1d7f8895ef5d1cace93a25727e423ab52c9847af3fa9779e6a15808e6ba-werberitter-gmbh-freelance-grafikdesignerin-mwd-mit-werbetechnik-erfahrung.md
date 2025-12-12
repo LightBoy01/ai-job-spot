@@ -70,4 +70,4 @@ Dann freuen wir uns auf Deine Bewerbung, gerne mit einigen relevanten Referenzen
 
 Vielfalt und Chancengleichheit sind bei uns selbstverständlich. Wir freuen uns über Bewerbungen unabhängig von Geschlecht, Nationalität, ethnischer Herkunft, Religion, Behinderung, sexueller Orientierung oder Alter.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

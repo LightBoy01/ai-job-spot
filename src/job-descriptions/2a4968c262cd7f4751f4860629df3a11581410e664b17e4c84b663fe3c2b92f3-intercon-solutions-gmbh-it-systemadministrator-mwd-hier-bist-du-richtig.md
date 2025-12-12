@@ -5,7 +5,7 @@ company: Intercon Solutions GmbH
 location: Bielefeld
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/intercon-solutions-gmbh/it-systemadministrator-hier-bist-du-richtig-bielefeld-67482
-postedDate: '2025-12-09T20:02:02.000Z'
+postedDate: '2025-12-11T22:59:03.000Z'
 expirationDate: null
 tags:
   - System and Network Administration
@@ -64,4 +64,4 @@ Klingt spannend?
 
 Dann bewirb dich noch heute!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

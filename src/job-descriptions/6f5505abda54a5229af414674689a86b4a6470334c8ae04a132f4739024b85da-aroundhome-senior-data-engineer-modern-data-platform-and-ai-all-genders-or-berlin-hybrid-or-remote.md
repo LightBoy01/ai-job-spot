@@ -72,4 +72,4 @@ What we offer
 
 **Teamspirit // Stay connected:** What drives us is our sense of community. That's why we celebrate our Company Day once a month in our office at Potsdamer Platz, where everyone gets together in person. In addition to a comprehensive update of our C-Board, the main focus is on togetherness and the exchange of ideas over lunch and dinner together.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

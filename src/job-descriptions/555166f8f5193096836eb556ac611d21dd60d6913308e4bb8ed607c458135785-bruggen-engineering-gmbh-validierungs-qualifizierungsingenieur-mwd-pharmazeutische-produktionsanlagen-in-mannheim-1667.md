@@ -7,10 +7,12 @@ company: BRÜGGEN ENGINEERING GmbH
 location: Mannheim
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/bruggen-engineering-gmbh/validierungs-qualifizierungsingenieur-pharmazeutische-produktionsanlagen-in-mannheim-1667-17951
-postedDate: '2025-12-11T07:32:04.000Z'
+postedDate: '2025-12-11T11:59:04.000Z'
 expirationDate: null
 tags:
-  - Quality Management
+  - Building
+  - Supply
+  - Safety Services Engineering
 status: pending_review
 jobLevel: null
 employeeRole: null

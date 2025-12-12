@@ -93,4 +93,4 @@ Noch nicht genug Infos? Das könnte ein Auszug aus einem typischen Tag sein:
 
 Bitte schau dir die Werte WIRKLICH genau an. Bist du bereit diese zu leben?
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

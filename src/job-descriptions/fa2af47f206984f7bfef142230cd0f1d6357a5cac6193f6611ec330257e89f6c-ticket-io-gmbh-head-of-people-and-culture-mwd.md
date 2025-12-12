@@ -60,4 +60,4 @@ Hast du Lust, das Wachstum von ticket i/O aktiv mitzugestalten? Dann freuen wir 
 Wir sind gespannt auf deine Bewerbung!  
 Dein Team von ticket i/O
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

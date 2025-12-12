@@ -4,8 +4,8 @@ title: Praktikum im Rahmen einer Umschulung (Marketing oder E-Commerce) (m/w/d)
 company: eFLY Marketplace Services GmbH
 location: Stuttgart
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/praktikum-im-rahmen-einer-umschulung-marketing-oder-e-commerce-stuttgart-62814
-postedDate: '2025-12-08T15:02:25.000Z'
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/praktikum-im-rahmen-einer-umschulung-marketing-oder-e-commerce-stuttgart-273632
+postedDate: '2025-12-12T08:32:07.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/praktikum-im-rahmen-einer-umschulung-marketing-oder-e-commerce-stuttgart-62814
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/praktikum-im-rahmen-einer-umschulung-marketing-oder-e-commerce-stuttgart-273632
 companyLogoUrl: null
 ---
 In der Rolle des **Marketing Managers** kalkulierst und steuerst du die Werbebudgets unserer Kunden. Ziel ist es die bestmögliche Sichtbarkeit mit einem vorgegebenen Budget zu erreichen. Um die Fortschritte der Arbeit auch dem Kunden zu übermitteln, werden regelmäßig Auswertungen erstellt. Auch die Positionierung der Produkte an gewünschten Werbeplätzen spielt hierbei eine große Rolle.🚀
@@ -59,4 +59,4 @@ Benefits
 
 **Wir freuen uns auf Dich!** 🤗
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

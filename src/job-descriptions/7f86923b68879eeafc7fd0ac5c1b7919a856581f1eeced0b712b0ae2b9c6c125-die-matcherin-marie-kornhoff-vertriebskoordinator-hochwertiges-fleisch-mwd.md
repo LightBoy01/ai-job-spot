@@ -70,4 +70,4 @@ Benefits
 
 Ich durfte einen tiefen Einblick in das Unternehmen bekommen und war angetan von dem Geist, der dort herrscht. Final mittags auf ein äußerst leckeres Steak aus hochwertigem Fleisch eingeladen worden zu sein, hat mich vollends überzeugt. Allerdings wird man hier sicher nur glücklich, wenn man sich voll und ganz einbringt. Damit ist NICHT gemeint, dass man Überstunden macht; damit ist gemeint, dass man sich förmlich in das Unternehmen und seine Themen verlieben muss und es eine Herzensangelegenheit ist, den Vertrieb zu gestalten.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

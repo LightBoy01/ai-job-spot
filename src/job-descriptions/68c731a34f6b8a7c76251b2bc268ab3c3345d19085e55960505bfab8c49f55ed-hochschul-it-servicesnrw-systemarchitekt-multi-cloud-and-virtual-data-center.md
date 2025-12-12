@@ -74,4 +74,4 @@ Der Aufbau des Unternehmens HITS.NRW wird durch das Land Nordrhein-Westfalen gef
 
 Bei der Durchführung des Bewerbungsprozesses unterstützt unser Partner Workfive GmbH, Paderborn, Deutschland
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

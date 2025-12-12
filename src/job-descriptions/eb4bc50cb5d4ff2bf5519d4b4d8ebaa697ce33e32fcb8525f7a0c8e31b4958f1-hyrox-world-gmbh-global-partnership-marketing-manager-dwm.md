@@ -82,4 +82,4 @@ Then we look forward to receiving your application. Simply upload your CV as a P
 
 We are committed to creating an inclusive and respectful work environment. All qualified applicants will receive consideration for employment without regard to ethnicity, color, religion, gender, gender identity or expression, sexual orientation, national origin, disability, age, or any other protected characteristic. We value diversity and are committed to fostering equal opportunity for all.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

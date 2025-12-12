@@ -4,8 +4,8 @@ title: Catalog Manager - E-Commerce & Marktplätze (m/w/d)
 company: eFLY Marketplace Services GmbH
 location: Stuttgart
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/catalog-manager-e-commerce-marktplatze-stuttgart-274192
-postedDate: '2025-12-08T15:31:59.000Z'
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/catalog-manager-e-commerce-marktplatze-stuttgart-256336
+postedDate: '2025-12-12T08:02:03.000Z'
 expirationDate: null
 tags:
   - IT
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/catalog-manager-e-commerce-marktplatze-stuttgart-274192
+  https://www.arbeitnow.com/jobs/companies/efly-marketplace-services-gmbh/catalog-manager-e-commerce-marktplatze-stuttgart-256336
 companyLogoUrl: null
 ---
 Wir suchen dich als **Catalog Manager**, um unsere Produktdaten auf Amazon und weiteren Marktplätzen präzise zu betreuen und kontinuierlich zu optimieren. Du analysierst technische und administrative Herausforderungen, entwickelst passende Lösungen und sorgst dafür, dass die Katalog- und Prozessstrukturen unserer Kunden reibungslos funktionieren. Dabei arbeitest du eng mit Supportteams, internen Abteilungen und Kunden zusammen, erkennst potenzielle Probleme frühzeitig und leitest proaktive Maßnahmen ein, um stabile Abläufe, starke Performance und nachhaltiges Wachstum sicherzustellen.
@@ -60,4 +60,4 @@ Benefits
 
 **Come fly with us – bei der eFLY.**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

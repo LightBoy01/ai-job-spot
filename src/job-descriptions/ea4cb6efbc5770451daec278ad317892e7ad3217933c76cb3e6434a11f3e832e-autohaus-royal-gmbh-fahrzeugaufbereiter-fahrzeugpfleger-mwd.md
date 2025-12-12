@@ -56,4 +56,4 @@ Werde Teil unseres engagierten Teams und bringe Dein technisches Know-how ein, u
 
 \_\_
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

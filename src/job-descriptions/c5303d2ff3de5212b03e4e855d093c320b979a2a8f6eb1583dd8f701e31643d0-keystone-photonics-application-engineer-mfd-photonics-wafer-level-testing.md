@@ -5,7 +5,7 @@ company: Keystone Photonics
 location: Karlsruhe
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/keystone-photonics/application-engineer-photonics-wafer-level-testing-karlsruhe-61559
-postedDate: '2025-12-10T18:59:03.000Z'
+postedDate: '2025-12-11T11:59:04.000Z'
 expirationDate: null
 tags:
   - Project Management
@@ -23,8 +23,6 @@ At Keystone, we are shaping the future of photonics wafer-level testing. As a pi
 We are looking for an Application Engineer to join our customer solutions team in Karlsruhe. In this role, you will focus on understanding customer requirements and translating them into a final product. Your responsibilities will include optical design, handling RMAs, and developing customized quality control capabilities in response to specific customer requests.
 
 You will act as the interface between the customer and the production team to ensure a smooth transition of application engineering projects into volumetric production, which directly influences the success of the company. You will have access to a cleanroom environment equipped with optical setups and 3D laser printing systems, and you will work closely with the R&D and production teams.
-
-~
 
 Tasks
 -----
@@ -55,4 +53,4 @@ Benefits
 *   Competitive salary and bonus structure
 *   Opportunities to participate in professional events and conferences
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

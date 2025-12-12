@@ -82,4 +82,4 @@ Bewirb Dich gleich mit Deinem Lebenslauf und Erfahrungsnachweisen.
 Hast Du Fragen?  
 Unser Team der Personalgewinnung erreichst Du unter +49 (0)30 259 28 99 69.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

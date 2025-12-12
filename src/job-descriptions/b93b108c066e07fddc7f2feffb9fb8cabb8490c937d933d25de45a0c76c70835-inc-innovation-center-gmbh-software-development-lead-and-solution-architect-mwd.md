@@ -57,4 +57,4 @@ Benefits
 
 Sie möchten nicht nur über Innovation sprechen, sondern sie aktiv gestalten – technisch, strategisch und mit echtem Einfluss? Dann freuen wir uns auf Ihre Bewerbung und darauf, gemeinsam mit Ihnen digitale Zukunftsprojekte Wirklichkeit werden zu lassen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

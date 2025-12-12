@@ -87,4 +87,4 @@ an uns. Wir freuen uns auf Dich und Deinen frischen Wind im Team.
 
 Luisa Schulze vom NORSAN-Team
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

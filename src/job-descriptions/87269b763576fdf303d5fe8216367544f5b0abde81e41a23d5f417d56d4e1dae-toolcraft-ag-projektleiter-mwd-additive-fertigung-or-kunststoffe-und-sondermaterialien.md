@@ -66,4 +66,4 @@ Du findest dich in der Beschreibung wieder und hast Lust, Teil unserer Erfolgsge
 
 Dann freuen wir uns auf deine aussagekräftige Bewerbung (Anschreiben, Lebenslauf und Zeugnisse).
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

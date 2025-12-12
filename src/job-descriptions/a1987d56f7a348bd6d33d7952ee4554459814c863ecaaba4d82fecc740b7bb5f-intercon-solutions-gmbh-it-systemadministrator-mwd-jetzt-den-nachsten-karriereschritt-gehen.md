@@ -66,4 +66,4 @@ Dann sende uns einfach deinen Lebenslauf - Anschreiben nicht nötig.
 
 Wir melden uns kurzfristig und finden gemeinsam heraus, welche unserer offenen Positionen am besten zu dir passt.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

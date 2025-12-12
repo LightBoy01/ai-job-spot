@@ -4,7 +4,7 @@ title: Architekt (f/m/d)
 company: alago
 location: Munich
 applicationLink: 'https://www.arbeitnow.com/jobs/companies/alago/architekt-munich-111777'
-postedDate: '2025-12-11T09:01:55.000Z'
+postedDate: '2025-12-11T13:29:02.000Z'
 expirationDate: null
 tags:
   - Software Development
@@ -25,7 +25,7 @@ Heute haben wir schon 20 Kunden und eine Finanzierung von über **1 Mio. €.** 
 Aufgaben
 --------
 
-**Customer Success (≈ 70%)**
+**1\. Customer Success (≈ 70%)**
 
 Deine Aufgabe ist es, deine Projekterfahrung zu nutzen, um unseren Kunden (Generalplaner, Projektsteuerer, Bauherren) den Nutzen von alago klar zu vermitteln – und sie sicher durch die Einführung und Anwendung unseres Werkzeugs zu begleiten.
 
@@ -41,7 +41,7 @@ Deine Aufgabe ist es, deine Projekterfahrung zu nutzen, um unseren Kunden (Gener
 *   Wie Software bei Baukunden implementiert wird – von der ersten Einrichtung bis zur erfolgreichen Nutzung im Projektteam.
 *   Wie du Vertrauen aufbaust und stabile Arbeitsbeziehungen schaffst, auch mit erfahrenen Senior-Projektleitern.
 
-**Produktentwicklung (≈ 30%)**
+**2\. Produktentwicklung (≈ 30%)**
 
 Neben der Kundenarbeit übernimmst du interne Projekte – und kannst dabei deine technischen Fähigkeiten erweitern.
 
@@ -75,9 +75,9 @@ Wir suchen eine **vielseitige Persönlichkeit** mit einem **starken Skillset** u
 
 **Starke Pluspunkte**
 
-*   Erfahrung in **kundenorientierten Rollen** (z. B. Vertrieb, Marketing, Beratung oder Customer Success).
-*   Erfahrung in **Start-ups oder schnell wachsenden Unternehmen** (inkl. Top-Management- oder Technologieberatung).
-*   Praktische Mitarbeit bei **Softwareeinführungen, Integrationen** oder **Prozessveränderungen**.
+*   Erfahrung in kundenorientierten Rollen (z. B. Vertrieb, Marketing, Beratung oder Customer Success).
+*   Erfahrung in Start-ups oder schnell wachsenden Unternehmen (inkl. Top-Management- oder Technologieberatung).
+*   Praktische Mitarbeit bei Softwareeinführungen, Integrationen oder Prozessveränderungen.
 
 🎯 **Persönliche Erfahrung**
 
@@ -139,4 +139,4 @@ Dieser Tag gibt dir ein gutes Gefühl für die tatsächliche Arbeit bei alago �
 
 Du erhältst innerhalb von **24 Stunden** Rückmeldung. Wenn es für beide Seiten passt – freuen wir uns sehr auf die Zusammenarbeit! 🎉
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

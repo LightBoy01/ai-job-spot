@@ -54,4 +54,4 @@ Wenn du in einem technologieaffinen Unternehmen mit flachen Hierarchien die Zuku
 
 Bereit für diese Herausforderung? Wir freuen uns darauf, dich kennenzulernen!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

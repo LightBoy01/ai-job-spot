@@ -58,4 +58,4 @@ Dilara Yildiz
 
 Tel: +49 (0) 2152 9925 742 | Direct: +44 (0) 7441 391 555 | **Mobile: +44 7884 312 066**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

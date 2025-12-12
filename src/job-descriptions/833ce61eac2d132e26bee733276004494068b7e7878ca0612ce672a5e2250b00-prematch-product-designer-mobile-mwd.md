@@ -97,4 +97,4 @@ Alles was wir brauchen ist dein aktueller CV (wir mögen es easy!) Weitere Infos
 
 Wir sind alle sehr entspannt - daher starte gerne direkt mit dem “Du”! Wir können es kaum erwarten, mehr über dich zu erfahren!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

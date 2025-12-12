@@ -61,4 +61,4 @@ Benefits
 
 Melden Sie sich bitte direkt unter +49 176 23327061 oder senden Sie Ihre Bewerbung und wir melden uns zeitnah bei Ihnen für ein erstes Kennenlernen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -70,4 +70,4 @@ Dann freuen wir uns auf deine Bewerbung!
 
 Schick uns gerne deinen Lebenslauf und ein kurzes Anschreiben. Wir freuen uns darauf, dich kennenzulernen!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

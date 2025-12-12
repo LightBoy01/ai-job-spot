@@ -74,4 +74,4 @@ Kurze Kommunikationswege, flache Hierarchien, hilfsbereite Kolleg/innen
 **Weitere Benefits:**  
 Teamevents, Weihnachtsfeier, Sommerfest, vergünstigte Angebote (z. B. Reisen, E-Commerce, Bekleidung, Verträge)
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -5,7 +5,7 @@ company: LeadTable (Katiba Technology GmbH)
 location: Kempten
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/leadtable-katiba-technology-gmbh/fullstack-entwickler-kempten-335983
-postedDate: '2025-12-11T09:32:05.000Z'
+postedDate: '2025-12-11T18:29:02.000Z'
 expirationDate: null
 tags:
   - Software Development

@@ -14,9 +14,9 @@ originalUrl: >-
   https://techcrunch.com/2025/12/10/google-is-testing-ai-powered-article-overviews-on-select-publications-google-news-pages/
 status: pending_review
 tags:
+  - Media & Entertainment
   - AI
   - Apps
-  - Media & Entertainment
   - Google
   - Google News
 excerpt: >-

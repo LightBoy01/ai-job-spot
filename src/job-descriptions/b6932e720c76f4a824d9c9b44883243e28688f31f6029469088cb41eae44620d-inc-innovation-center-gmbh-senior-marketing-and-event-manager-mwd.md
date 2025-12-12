@@ -60,4 +60,4 @@ Sie möchten Marketing und Kommunikation aktiv mitgestalten, innovative Technolo
 
 Dann freuen wir uns auf Ihre Bewerbung und darauf, gemeinsam mit Ihnen die Zukunft des INC Innovation Centers erlebbar zu machen!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

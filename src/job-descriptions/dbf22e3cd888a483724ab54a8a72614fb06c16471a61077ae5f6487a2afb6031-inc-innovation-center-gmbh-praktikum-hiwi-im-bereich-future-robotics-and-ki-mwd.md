@@ -57,4 +57,4 @@ Benefits
 
 Sie möchten die Zukunft der Robotik aktiv mitgestalten und Ihre wissenschaftliche Arbeit praxisnah im Innovationsumfeld umsetzen? Dann freuen wir uns auf Ihre Bewerbung und darauf, gemeinsam mit Ihnen Zukunftstechnologien in die Praxis zu bringen!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -6,8 +6,8 @@ title: >-
 company: Riverstate Premium Recruiting
 location: München-Flughafen
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/riverstate-premium-recruiting/senior-projektleiter-ingenieurgeologie-bis-zu-120000-eur-bonus-dienstwagen-munchen-flughafen-86839
-postedDate: '2025-12-08T15:32:02.000Z'
+  https://www.arbeitnow.com/jobs/companies/riverstate-premium-recruiting/senior-projektleiter-ingenieurgeologie-bis-zu-120000-eur-bonus-dienstwagen-munchen-flughafen-262401
+postedDate: '2025-12-09T10:01:53.000Z'
 expirationDate: null
 tags:
   - Power Engineering and Environmental Engineering
@@ -17,7 +17,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/riverstate-premium-recruiting/senior-projektleiter-ingenieurgeologie-bis-zu-120000-eur-bonus-dienstwagen-munchen-flughafen-86839
+  https://www.arbeitnow.com/jobs/companies/riverstate-premium-recruiting/senior-projektleiter-ingenieurgeologie-bis-zu-120000-eur-bonus-dienstwagen-munchen-flughafen-262401
 companyLogoUrl: null
 ---
 Sie leiten gerne spannende Großprojekte mit hoher Sichtbarkeit und Marktpräsenz und denken Ingenieurgeologie in der ganzen fachlichen Breite? Dann sind Sie hier richtig!
@@ -55,7 +55,7 @@ Benefits
 --------
 
 *   **Top-Konditionen:** Für Ihre Verantwortung und Expertise erhalten Sie ein attraktives Jahresgehalt von bis zu 120.000 € sowie einen Bonus. Ein Dienstwagen zur privaten Nutzung, ein Firmenlaptop und -handy, 30 Urlaubstage, betriebliche Altersvorsorge (50 % AG-Anteil), ein Wellpass-Zugang und viele weitere Benefits runden das Gesamtpaket ab.
-*   **Weiterentwicklung:** Sie gestalten Ihre persönliche Karriere mit! Ihrer fachlichen Expertenkarriere sind keine Grenzen gesetzt und Sie entscheiden mit, wohin es im Detail gehen soll. Eine hohe Vergütung ist garantiert und optional erhalten Sie auch eine Prokura oder Unternehmensbeteiligung. Sie wollen bauvorlagenberechtigter Ingenieur oder beratender Ingenieur werden? Auch hierbei werden Sie unterstützt.
+*   **Weiterentwicklung:** Sie gestalten Ihre persönliche Karriere mit! Ihrer fachlichen Expertenkarriere sind keine Grenzen gesetzt und Sie entscheiden mit, wohin es im Detail gehen soll. Eine hohe Vergütung ist garantiert und optional erhalten Sie auch eine Prokura oder Unternehmensbeteiligung.
 *   **Führungsrolle:** Sie steigen als Senior Projektleiter in ein spezialisiertes 15-köpfiges Team ein – mit direkter Verantwortung für komplexe Großprojekte und aktiver Mitgestaltung des Tagesgeschäft. Sie arbeiten Hand in Hand mit der Geschäftsleitung zusammen und werden strategisch wie operativ in alle Themen einbezogen.
 *   **Projekte mit Relevanz:** Ob Tunnel, Bahn, Energie oder Hochwasserschutz – Sie arbeiten an technisch anspruchsvollen Bauvorhaben mit echter gesellschaftlicher Wirkung. Von der Gründungsberatung bis zur Tunnelüberwachung bringen Sie Ihr Wissen dort ein, wo es zählt.
 

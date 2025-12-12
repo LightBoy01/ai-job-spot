@@ -54,4 +54,4 @@ Benefits
 
 Für weitere Fragen stehen Ihnen Jana Schaadt (06174-9619-320) oder Jochen Markgraf (06174-9619-230) gerne zur Verfügung.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

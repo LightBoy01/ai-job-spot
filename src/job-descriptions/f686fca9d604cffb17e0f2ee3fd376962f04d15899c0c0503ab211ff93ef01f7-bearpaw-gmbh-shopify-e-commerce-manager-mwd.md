@@ -118,6 +118,6 @@ Wir sind **Buckle & Seam**, eine Social-Impact-Marke, die Ledertaschen und -acce
 
 Wir investieren **3 % unseres Nettoumsatzes** in Bildungsinitiativen und in unser Schulprojekt, die **AMN School**. Unser Fokus liegt darauf, die Geschichte unserer Kunden zu erzählen, denn wir glauben, dass jeder Mensch etwas Einzigartiges zu bieten hat. Gemeinsam schaffen wir eine Gemeinschaft, die Erfolgsgeschichten verfolgt, erreicht und teilt.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
 
 **

@@ -58,4 +58,4 @@ Benefits
 
 Du möchtest ein Teil von HelloAgile werden und mit uns wachsen? Schreib uns!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

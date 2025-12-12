@@ -9,70 +9,62 @@ postedDate: '2025-12-11T07:02:23.000Z'
 expirationDate: null
 tags:
   - IT
-status: published
-jobLevel: Mid-Senior
-employeeRole: Individual Contributor
-salaryRange: '€45,000 - €50,000'
+status: pending_review
+jobLevel: null
+employeeRole: null
+salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/univativ-gmbh/it-helpdesk-engineer-fokus-anwenderbetreuung-infrastruktur-wiesbaden-179688
 companyLogoUrl: null
-companyCulture: >-
-  The company fosters a supportive and inspiring culture that prioritizes
-  employee development, offering extensive training and diverse project exposure
-  to build expertise and professional networks. It emphasizes collaboration and
-  active participation in shaping IT processes.
-story_question1: >-
-  Given the focus on active process shaping and working with innovative
-  application systems, how does this First-Level Support role directly
-  contribute to the client's IT strategy and overall user satisfaction beyond
-  just resolving immediate issues?
-story_answer1: >-
-  That's an excellent question, and it really gets to the heart of what makes
-  this role exciting. While you're on the front lines, expertly resolving user
-  issues, your impact stretches much further. By diligently documenting
-  solutions, identifying recurring problems, and actively participating in
-  rollouts, you're not just fixing things – you're providing invaluable data and
-  insights that directly inform our Second-Level team and our client's IT
-  strategy development. You're the eyes and ears, spotting trends and advocating
-  for improvements that enhance the entire user experience and contribute to the
-  evolution of innovative systems. We see our First-Level Support as essential
-  partners in driving efficiency and positive change, not just reactive problem
-  solvers. It's a place where your voice truly matters in shaping the future of
-  IT.
-story_question2: >-
-  The job description highlights extensive training and the opportunity to work
-  on diverse projects with various clients. Can you elaborate on how a
-  successful individual in this role might leverage these opportunities to
-  advance their career within univativ or with its clients?
-story_answer2: >-
-  Absolutely! This is where univativ truly shines. As you engage with different
-  clients and tackle varied IT environments, you're not just gaining experience;
-  you're building a unique portfolio of skills and a robust professional
-  network. We actively encourage our team members to take advantage of our
-  e-academy, certifications, and individualized training to deepen their
-  expertise in areas like advanced ITIL processes, cybersecurity, or specific
-  vendor technologies. Many of our project specialists, starting in a role like
-  this, transition into Second-Level Support, IT consulting, or even specialized
-  project management roles within our organization or directly with our clients.
-  Your career path here isn't linear; it's a dynamic journey shaped by your
-  ambition and the diverse opportunities we provide.
-story_question3: >-
-  The description mentions 'Deine Karriere ist unsere Mission.' How does
-  univativ foster this mission in practice, particularly regarding team
-  collaboration and work-life balance for project-based roles?
-story_answer3: >-
-  That phrase, 'Your career is our mission,' is something we genuinely live by.
-  For us, it means actively investing in your growth, not just assigning you to
-  tasks. You'll find a strong sense of camaraderie within our project teams,
-  where knowledge sharing is encouraged, and experienced colleagues are always
-  ready to mentor. We understand that project-based work can be dynamic, so we
-  strive for clear communication on project scope and expectations to ensure a
-  sustainable pace. While demanding at times, we are very conscious of
-  preventing burnout, promoting healthy working hours, and supporting personal
-  development outside of immediate project deliverables. Our internal support
-  teams are also there to ensure you feel connected and supported throughout
-  your assignments, fostering a balance that allows you to thrive both
-  professionally and personally.
 ---
-### Description\nunivativ is a dedicated project and personnel service provider focused on connecting talented individuals with exciting opportunities at renowned companies. Your career development is central to their mission. This role offers the chance to apply your expertise in user and client consultation, leveraging your knowledge of common databases and servers within IT support projects. As part of a team working with a client in the IT industry focused on developing and implementing IT strategies, you will actively contribute to realizing innovative application systems and shaping IT processes. This is a long-term position, based in Wiesbaden, with an option for extension, offering a competitive annual salary between €45,000 and €50,000. It’s an ideal fit for a seasoned professional looking to evolve within an an inspiring company culture.\n\n### Responsibilities\n- Independently resolve requests and incidents within First-Level Support and escalate complex cases to Second-Level Support.\n- Manage user accounts, group policies, and access rights within Active Directory.\n- Systematically document solutions and recurring processes in the ticket system.\n- Actively participate in hardware and software rollouts, ensuring smooth commissioning and operation.\n- Provide expert advice to colleagues on various IT questions and promote best practices for system usage.\n\n### Qualifications\n- At least 3 years of experience with operating processes according to ITIL or ITSM.\n- At least 3 years of experience in an IT Service Desk environment.\n- At least 3 years of experience in user and client support.\n- At least 3 years of experience in incident, problem, change, release, and availability management processes according to ITIL/ITSM, utilizing a ticket system (e.g., BMC Remedy).\n- At least 3 years of experience in the installation and setup of IT clients (notebooks, PCs, tablets, etc.) as well as IT server systems.\n- At least 3 years of experience in managing file storage systems.\n- At least 3 years of experience with Microsoft Active Directory.\n- Proficiency in MS Office 365, MS Office 2021 ff., and Adobe products.\n- Familiarity with complex IT structures (e.g., more than 2 procedures, over 10 specialized applications, more than 2 locations).\n- At least 3 years of experience with current operating systems (e.g., Microsoft Server 2016 ff. or Linux derivatives like Ubuntu or SUSE).\n- Experience with Microsoft Hyper-V, Windows Terminal Server (Remote Desktop Services), and Citrix environments.\n- Professional experience within the IT environment of public clients.\n- At least 3 years of experience in creating and reviewing documentation.\n- Good German language skills (written and spoken) and sufficient English skills to confidently use manufacturer information or specialized online forums.\n- Good knowledge of IT security according to BSI guidelines.\n\n### Author's Take\nThis role at univativ presents an excellent opportunity for a highly motivated IT Support professional eager to expand their expertise beyond conventional First-Level tasks. While the header mentions \"Berufseinsteiger\" (career starter), the extensive \"at least 3 years of experience\" requirements across various technical and process domains clearly indicate a need for a Mid-Senior level candidate. The company's strong emphasis on continuous learning, certifications, and diverse project exposure means this isn't just a job but a significant career accelerator. You'll not only resolve issues but also actively contribute to shaping IT strategies and building an impressive professional network across different clients. The competitive salary and prime Wiesbaden location further enhance the appeal of this growth-oriented position.
+**Baldmöglichst, Langfristig, mit Option auf Verlängerung | 40 Stunden pro Woche | Wiesbaden | IT-Branche | Berufserfahrener, Berufseinsteiger | 45000 bis 50000 € im Jahr | Projekt-ID A202551012\_5S**
+
+univativ ist ein Projekt- und Personaldienstleister, der Studenten und Absolventen spannende Jobs bei renommierten Unternehmen bietet. Deine Karriere ist unsere Mission, denn Deine Entwicklung liegt uns am Herzen.
+
+Egal welche Störung beim Anwender auftritt, Du kennst die passende Lösung? Wenn Du Erfahrungen in der Anwender- und Kundenberatung hast und Kenntnisse der gängigen Datenbanken und Server mitbringst, sind unsere Projekte im IT-Support genau das Richtige für Dich.
+
+Unser Kunde ist aus der IT-Branche und hat sein Geschäftsfeld auf die Entwicklung und Implementierung von IT-Strategien ausgerichtet. Dein Projekteinsatz ermöglicht es Dir, an der neuesten Informationstechnologie mitzuarbeiten und gemeinsam innovative Anwendungssysteme zu realisieren. Wenn Du auf der Suche nach einem Job bist, bei dem Du Prozesse aktiv mitgestalten kannst, dann bist Du bei uns genau richtig! Bewirb Dich jetzt und werde Teil einer inspirierenden Unternehmenskultur.
+
+Aufgaben
+--------
+
+*   Im Rahmen des First-Level-Supports löst du eigenständig Anfragen und Störungen und leitest komplexere Fälle an den Second-Level weiter.
+*   Du verwaltest Benutzerkonten, Gruppenrichtlinien und Zugriffsrechte in Active Directory.
+*   Die Dokumentation von Lösungen und wiederkehrenden Prozessen im Ticketsystem gehört zu deinem festen Arbeitsablauf.
+*   Bei Hardware- und Software-Rollouts bist du aktiv eingebunden und stellst eine reibungslose Inbetriebnahme sicher.
+*   Zusätzlich berätst du Kolleg:innen in IT-Fragen und vermittelst Best Practices im Umgang mit Systemen.
+
+Qualifikation
+-------------
+
+*   Du hast mindestens 3 Jahre Erfahrung mit Betriebsprozessen nach ITIL bzw. ITSM.
+*   Du verfügst über mindestens 3 Jahre Erfahrung im IT-Service Desk.
+*   Du bringst mindestens 3 Jahre Erfahrung im Anwender- und Clientsupport mit.
+*   Du hast mindestens 3 Jahre Erfahrung in den Betriebsprozessen des Incident-, Problem-, Change-, Release- und Availability-Managements nach ITIL/ITSM, unterstützt durch ein Ticket-System (z. B. BMC Remedy).
+*   Du hast mindestens 3 Jahre Erfahrung in der Installation und Einrichtung von IT-Clients (Notebooks, PCs, Tablets etc.) sowie IT-Serversystemen.
+*   Du kannst auf mindestens 3 Jahre Erfahrung im Verwalten von Dateiablagesystemen verweisen.
+*   Du hast mindestens 3 Jahre Erfahrung mit Microsoft Active Directory.
+*   Du arbeitest sicher mit MS Office 365, MS Office 2021 ff. und Adobe-Produkten.
+*   Du kennst dich mit komplexen IT-Strukturen aus (mehr als 2 Verfahren, über 10 Fachanwendungen, mehr als 2 Standorte).
+*   Du hast mindestens 3 Jahre Erfahrung mit aktuellen Betriebssystemen (Microsoft Server 2016 ff. oder Linux-Derivaten wie Ubuntu oder SUSE).
+*   Du verfügst über Erfahrungen mit Microsoft Hyper-V, Windows Terminal Server (Remote Desktop Services) und Citrix-Umgebungen.
+*   Du bringst Berufserfahrung im IT-Umfeld öffentlicher Auftraggeber mit.
+*   Du hast mindestens 3 Jahre Erfahrung in der Erstellung und Prüfung von Dokumentationen.
+*   Du verfügst über gute Deutschkenntnisse in Wort und Schrift sowie Englischkenntnisse, um Herstellerinformationen oder Internet-Fachforen sicher zu nutzen.
+*   Du besitzt gute Kenntnisse im Bereich IT-Sicherheit gemäß BSI.
+
+Benefits
+--------
+
+*   Ein Jahreslohn zwischen 45000 € und 50000 €
+*   Durch eine sehr gute Anbindung an die öffentlichen Verkehrsmittel, ist Dein Arbeitsort ideal zu erreichen
+*   Wir bilden Dich zum Experten aus und bieten Dir vielfältige Weiterbildungsmöglichkeiten on und off the Job an (z.B. verschiedene Zertifizierungen, univativ e-academy und individuelle Weiterbildungen
+*   Auf Dich wartet die Möglichkeit, Dich durch abwechslungsreiche Projekte bei verschiedenen Kunden persönlich und beruflich weiterzuentwickeln
+*   Mit uns sammelst Du Erfahrung und baust durch verschiedene Projekte Dein berufliches Netzwerk bei verschiedenen Kunden auf
+
+**Wir konnten Dein Interesse wecken? Klasse!**
+
+Wir freuen uns auf Deine Bewerbung
+
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

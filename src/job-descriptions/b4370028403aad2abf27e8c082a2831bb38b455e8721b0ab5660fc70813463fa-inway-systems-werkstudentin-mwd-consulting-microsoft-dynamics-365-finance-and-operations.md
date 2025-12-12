@@ -57,4 +57,4 @@ Wir freuen uns auf Ihre aussagekräftigen Bewerbungsunterlagen!
 
 Bei Rückfragen stehen wir Ihnen gerne unter Tel.: 0731-880073-0 zur Verfügung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -114,4 +114,4 @@ Unsere Mitarbeiter:innen erhalten eine faire Vergütung und zusätzliche Benefit
 
 Dann bewerbe Dich noch heute und werde schon bald ein Teil des Teams!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
