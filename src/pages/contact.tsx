@@ -37,6 +37,10 @@ const Contact: React.FC = () => {
 
       if (!response.ok) {
         const errorData = await response.json();
+        if (errorData.details) {
+          const details = Object.values(errorData.details).flat().join(' ');
+          throw new Error(details);
+        }
         throw new Error(errorData.error || 'Failed to send message.');
       }
 
@@ -153,10 +157,10 @@ const Contact: React.FC = () => {
           <p className="text-center text-neutral-600 text-sm mt-6">
             Alternatively, you can reach us directly at:{' '}
             <a
-              href="mailto:contact@aijobspot.com"
+              href="mailto:contact@aijobspot.online"
               className="text-secondary-dark hover:underline"
             >
-              contact@aijobspot.com
+              contact@aijobspot.online
             </a>
           </p>
         </div>

@@ -286,3 +286,58 @@ export async function getJobsByIds(ids: string[]): Promise<JobPosting[]> {
     return [];
   }
 }
+
+export async function getSalaryStats(title: string): Promise<{ min: number; max: number; avg: number; count: number; currency: string } | null> {
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    // Simple normalization: "Senior Machine Learning Engineer" -> "Machine Learning Engineer"
+    // This helps broaden the search for better stats.
+    const normalizedTitle = title.replace(/Senior |Junior |Lead |Principal |Staff /i, '').trim();
+
+    const jobsRef = adminDb.collection('jobs');
+    const q = jobsRef
+      .where('status', '==', 'published')
+      .where('title', '>=', normalizedTitle)
+      .where('title', '<=', normalizedTitle + '\uf8ff')
+      .limit(50); // Limit sample size for performance
+
+    const snapshot = await q.get();
+    
+    if (snapshot.empty) {
+      return null;
+    }
+
+    const salaries: number[] = [];
+    let currency = 'USD';
+
+    snapshot.docs.forEach(doc => {
+      const data = doc.data();
+      if (data.salaryRange) {
+        // Extract numbers. Matches "$150,000 - $200,000" or "150k"
+        const numbers = data.salaryRange.match(/\d+/g)?.map(Number);
+        if (numbers && numbers.length > 0) {
+           // Heuristic: If it's small (e.g. 150), assume 'k' (150,000)
+           const val = numbers[0] < 1000 ? numbers[0] * 1000 : numbers[0];
+           // Simple validation to exclude outliers (e.g. hourly rates like $50)
+           if (val > 10000) { 
+             salaries.push(val);
+           }
+        }
+      }
+    });
+
+    if (salaries.length === 0) {
+      return null;
+    }
+
+    const min = Math.min(...salaries);
+    const max = Math.max(...salaries);
+    const avg = Math.round(salaries.reduce((a, b) => a + b, 0) / salaries.length);
+
+    return { min, max, avg, count: salaries.length, currency };
+
+  } catch (error) {
+    console.error('Error calculating salary stats:', error);
+    return null;
+  }
+}

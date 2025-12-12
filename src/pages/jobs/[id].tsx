@@ -5,6 +5,7 @@ import {
   getJobById,
   getRelevantArticles,
   getArticlesByIds,
+  getSalaryStats,
 } from '@/lib/firestoreAdminClient';
 import { SerializedJobPosting, SerializedArticle } from '@/lib/types';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
@@ -20,10 +21,19 @@ import ConfirmationModal from '@/components/ConfirmationModal';
 import DOMPurify from 'isomorphic-dompurify';
 import Icon from '@/components/Icon';
 import Breadcrumbs, { Breadcrumb } from '@/components/Breadcrumbs';
+import SalaryInsights from '@/components/SalaryInsights';
 
 interface JobDetailsProps {
   job: SerializedJobPosting;
   relevantArticles: SerializedArticle[];
+  salaryStats?: {
+    min: number;
+    max: number;
+    avg: number;
+    count: number;
+    currency: string;
+  } | null;
+  currentJobSalaryValue?: number | null;
 }
 
 const generateJobPostingSchema = (job: SerializedJobPosting) => {
@@ -137,7 +147,7 @@ const generateBreadcrumbSchema = (job: SerializedJobPosting) => {
   };
 };
 
-const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
+const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles, salaryStats, currentJobSalaryValue }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleApplyClick = () => {
@@ -285,6 +295,9 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles }) => {
                   )}
                 </div>
               </header>
+
+              {/* Salary Insights */}
+              <SalaryInsights insight={salaryStats || null} currentJobSalary={currentJobSalaryValue} />
 
               {/* Story Behind the Role */}
               <section className="my-12 md:my-16">
@@ -682,6 +695,24 @@ export const getStaticProps: GetStaticProps<
     companyCulture: job.companyCulture ?? null,
   };
 
+  const salaryStats = await getSalaryStats(job.title);
+
+  let currentJobSalaryValue = null;
+  if (job.salaryRange) {
+    const numbers = job.salaryRange.match(/\d+/g)?.map(Number);
+    if (numbers && numbers.length > 0) {
+      // Handle "150k" case: if value < 1000, assume k.
+      const val = numbers[0] < 1000 ? numbers[0] * 1000 : numbers[0];
+      // If range, take avg
+      if (numbers.length > 1) {
+        const val2 = numbers[1] < 1000 ? numbers[1] * 1000 : numbers[1];
+        currentJobSalaryValue = (val + val2) / 2;
+      } else {
+        currentJobSalaryValue = val;
+      }
+    }
+  }
+
   if (id === '01118332cc3aeb166f1c5fcc027578db4d57a573ecfd96289b632e14fad2c42a') {
     // Debug block removed
   }
@@ -695,6 +726,8 @@ export const getStaticProps: GetStaticProps<
         issueNo: article.issueNo ?? null,
         volumeNo: article.volumeNo ?? null,
       })),
+      salaryStats: salaryStats || null,
+      currentJobSalaryValue,
     },
     revalidate: 60, // Re-generate the page every 60 seconds
   };
