@@ -9,117 +9,52 @@ postedDate: '2025-12-11T14:59:02.000Z'
 expirationDate: null
 tags:
   - Online Marketing
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/more-profit-gmbh/social-media-marketing-manager-content-creator-oderwitz-27698
 companyLogoUrl: null
+companyCulture: >-
+  More Profit GmbH offers a highly flexible and supportive environment,
+  emphasizing work-life balance with part-time remote options. The culture
+  promotes open communication, strong team collaboration, and significant growth
+  opportunities through continuous learning, creative freedom, and direct
+  involvement in brand strategy.
+story_question1: >-
+  Given that More Profit GmbH operates in the specialized field of beverage
+  dispensing technology, what's the biggest creative challenge in making our
+  brand visually engaging and compelling on social media, and how does this role
+  directly contribute to overcoming it?
+story_answer1: >-
+  That's a fantastic question! You know, when I first started here, I wondered
+  the same thing. People might think 'beverage tech' isn't inherently 'sexy' for
+  social media, but that's precisely the exciting challenge this role tackles.
+  Our 'Social Media & Marketing Creator' isn't just posting pretty pictures;
+  they're transforming technical efficiency into relatable stories of quality,
+  reliability, and modern service for our gastronomy clients. Think about
+  showing the craft behind a perfectly poured beer, the innovation in our
+  systems, or the passionate people behind the scenes. This role is about seeing
+  the narrative in the details, translating our commitment to 'Technik, die
+  funktioniert – Service, der begeistert' into viral-worthy content. It’s a
+  chance to truly define our visual voice and show the world how we're making a
+  real difference for businesses.
+story_question2: >-
+  How does More Profit GmbH balance giving its creators creative autonomy and
+  the freedom to experiment with new trends, while also ensuring alignment with
+  overarching marketing goals and brand identity?
+story_answer2: >-
+  It's all about trust and collaboration here. We hire creative people because
+  we want their fresh perspectives and trend-setting ideas. There's a strong
+  emphasis on 'eigene Projekte & viel Gestaltungsspielraum' – that's not just
+  lip service. We encourage you to test new formats and adapt trends, truly own
+  your projects. But this freedom comes with a clear understanding of our brand
+  ethos and strategic goals, which you'll help shape! We have regular, direct
+  communication channels where we openly discuss ideas, give honest feedback,
+  and ensure everyone's on the same page. It’s a dynamic interplay where your
+  creative genius is valued, and together, we refine it to amplify our brand's
+  message effectively. You're not just executing; you're co-creating our future.
 ---
-Teilzeit | Unbefristet | Remote & flexible Einsätze vor Ort
-
-Die More Profit GmbH ist ein junges, wachstumsorientiertes Unternehmen in Oderwitz/Sachsen, das moderne Schank- und Zapftechnik installiert und betreut. Wir arbeiten jeden Tag daran, Gastronomieprozesse effizienter, verlässlicher und nachhaltiger zu gestalten. Unser Anspruch ist klar: Technik, die funktioniert – Service, der begeistert – Menschen, die etwas bewegen wollen.
-
-Damit unsere Lösungen sichtbar werden, suchen wir jemanden, der unsere Marke kreativ stärkt und Social Media & Marketing modern vorantreibt.
-
-Aufgaben
---------
-
-**Deine Aufgaben – kreativ, digital, hands-on**
-
-SOCIAL MEDIA
-
-*   Entwicklung und Produktion von Content (Fotos, Videos, Reels)
-*   Planung & Veröffentlichung unserer Beiträge (Meta, TikTok, YouTube, LinkedIn)
-*   Community-Management
-*   Umsetzung kleiner Kampagnen & Format-Tests
-*   Performance-Auswertung & Optimierung
-
-MARKETING
-
-*   Newsletter-Erstellung
-*   Unterstützung bei Werbeanzeigen (Meta Ads)
-*   Foto- & Videobearbeitung
-*   Gestaltung visueller Inhalte (Website, Präsentationen, Recruiting)
-*   Mitarbeit an Marketingstrategie & Markenentwicklung
-
-CONTENTPRODUKTION
-
-*   Video- & Fotoaufnahmen im Unternehmen
-*   Außentermine bei Kunden (bundesweit – gelegentlich, nicht regelmäßig)
-*   Entwicklung neuer visueller Ideen & Formate
-
-**Dein Einsatzgebiet – flexibel im Einsatz & modern**
-
-Du arbeitest überwiegend remote und kommst für Contentproduktion und Abstimmungen regelmäßig zu uns vor Ort. Außentermine kommen vor, sind aber nicht die Regel.
-
-Qualifikation
--------------
-
-**Dein Profil – kreativ, selbstbewusst & digital**
-
-Fachliche Voraussetzungen
-
-*   Du hast nachweisbare Erfahrung als Social Media Creator und produzierst souverän Shortform-Content, Reels und Videostorys, die Aufmerksamkeit erzeugen.
-*   Sicher im Umgang mit gängigen Tools zur Content-Erstellung (z. B. Canva, CapCut oder vergleichbare Software)
-*   Kenntnisse in Foto-/Videobearbeitung
-*   Auge für starke Bilder & Storytelling
-
-Persönliche Eigenschaften
-
-*   Offenes, kommunikatives Auftreten
-*   Entscheidungsfreude & proaktives Arbeiten
-*   Struktur & Zuverlässigkeit im Workflow
-*   Qualitätsbewusstsein & Mitdenken
-*   Trendgespür & kreative Ideen
-*   Eigenständiges Arbeiten & Ownership
-
-Was du mitbringen solltest
-
-*   Punktuelle Reisebereitschaft für Contentdrehs
-*   Sorgfältige, eigenständige Arbeitsweise
-*   Offenheit für neue Tools & Formate
-
-Benefits
---------
-
-**Unser Angebot – wertschätzend, langfristig, modern**
-
-Arbeitsbedingungen
-
-*   20-Stunden-Woche, flexible Zeiten
-*   Remote-Work + regelmäßige Treffen
-*   Profi-Equipment (Kamera, Laptop, Licht, Mikrofon)
-*   Du bekommst hochwertige Tools für Content Creation, Planung und Analyse, damit deine Arbeit richtig gut aussieht.
-
-Weiterentwicklung
-
-*   Zugang zu Social-Media- & Marketing-Weiterbildungen
-*   Eigene Projekte & viel Gestaltungsspielraum
-*   Mitarbeit an Markenentwicklung & Strategie
-*   Wenn du gerne neue Formate testest, Trends adaptierst und innovative Ideen ins Marketing bringst, bist du bei uns genau richtig.
-
-Team & Zusammenarbeit
-
-*   Junges, offenes Team
-*   Wir arbeiten auf Augenhöhe, geben ehrliches Feedback und feiern Erfolge gemeinsam.
-*   Direkte Kommunikation
-*   Raum für kreative Ideen
-
-Stabilität & Sicherheit
-
-*   Unbefristeter Vertrag
-*   Wachsendes Unternehmen mit klaren Strukturen
-
-**Dein nächster Schritt**
-
-Wenn du Social Media liebst und Marketing mit Leben füllst, freuen wir uns auf deine Bewerbung.
-
-**Arbeitsproben (sehr gerne gesehen):**  
-Links zu Reels, Videos, Bildern, Projekten oder eigenen Channels helfen uns, dein kreatives Profil besser einzuschätzen – sind aber kein Muss.
-
-Ein Anschreiben ist nicht notwendig – dein Lebenslauf reicht.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nMore Profit GmbH, based in Oderwitz/Sachsen, specializes in installing and maintaining modern beverage dispensing and tapping technology, aiming to make gastronomy processes more efficient, reliable, and sustainable. They are seeking a creative Social Media & Marketing Creator to strengthen their brand visibility and drive modern marketing efforts. This role offers a unique opportunity to shape the company's public image through engaging digital content.\n\n### Responsibilities\n- **SOCIAL MEDIA**\n    - Developing and producing content (photos, videos, reels).\n    - Planning & publishing posts (Meta, TikTok, YouTube, LinkedIn).\n    - Community management.\n    - Implementing small campaigns & format tests.\n    - Performance evaluation & optimization.\n- **MARKETING**\n    - Newsletter creation.\n    - Supporting advertising campaigns (Meta Ads).\n    - Photo & video editing.\n    - Designing visual content (website, presentations, recruiting).\n    - Collaborating on marketing strategy & brand development.\n- **CONTENT PRODUCTION**\n    - Video & photo shoots within the company.\n    - Occasional on-site customer appointments nationwide.\n    - Developing new visual ideas & formats.\n- **FLEXIBLE DEPLOYMENT**\n    - Primarily remote work with regular on-site visits for content production and coordination.\n    - Occasional, non-regular external appointments.\n\n### Qualifications\n- **TECHNICAL SKILLS**\n    - Proven experience as a Social Media Creator, confidently producing attention-grabbing short-form content, reels, and video stories.\n    - Proficient in common content creation tools (e.g., Canva, CapCut or similar software).\n    - Knowledge of photo/video editing.\n    - A keen eye for strong visuals & storytelling.\n- **PERSONAL ATTRIBUTES**\n    - Open, communicative demeanor.\n    - Decisiveness & proactive work ethic.\n    - Structured & reliable workflow.\n    - Quality consciousness & critical thinking.\n    - Trend awareness & creative ideas.\n    - Independent work & ownership.\n- **REQUIREMENTS**\n    - Occasional willingness to travel for content shoots.\n    - Meticulous, independent working style.\n    - Openness to new tools & formats.\n\n### Author's Take\nThis is an exceptional opportunity for a creative and proactive Social Media & Marketing Creator to make a significant impact within a growing company. More Profit GmbH offers a flexible, part-time (20 hours/week) remote role with a permanent contract, valuing work-life balance and professional growth. You'll have significant creative freedom, access to professional equipment and further education, and the chance to contribute directly to brand strategy. The culture is collaborative and open, encouraging new ideas and celebrating shared successes. If you're passionate about digital storytelling and eager to shape a brand's presence in a specialized industry, this role provides an ideal platform to thrive and innovate.

@@ -8,56 +8,54 @@ applicationLink: >-
 postedDate: '2025-12-11T14:45:11.000Z'
 expirationDate: null
 tags: []
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/wolt-english/junior-account-manager-retail-berlin-377363
 companyLogoUrl: null
+companyCulture: >-
+  Wolt offers a fast-paced, challenging, and entrepreneurial culture where
+  employees are encouraged to learn, build, and ship. It thrives on a 'startup'
+  environment of constant change and fun, emphasizing growth opportunities and a
+  strong commitment to diversity and inclusion.
+story_question1: >-
+  How does an Account Manager directly contribute to Wolt's broader vision of
+  expanding beyond food delivery and digitally enabling local businesses?
+story_answer1: >-
+  You know, when I first joined, I was struck by how much we're truly changing
+  the game for local commerce. As an Account Manager, you're not just hitting
+  targets; you're the direct link between Wolt's innovative platform and
+  brick-and-mortar stores eager to embrace the digital age. Imagine taking a
+  local flower shop, for instance, that thought online delivery was too complex.
+  You guide them, show them the data-driven growth, help them optimize their
+  inventory on our platform, and suddenly, they're reaching a whole new customer
+  base. It's incredibly rewarding to see that direct impact – not just on their
+  sales, but on their entire business model. The startup energy here means we're
+  constantly iterating, and your insights from partner relationships directly
+  influence how we evolve the platform. It's challenging, sure, but seeing a
+  local business flourish because of your work, and knowing you're building a
+  new era of retail delivery from the ground up? That's what makes every day
+  exciting.
+story_question2: >-
+  Given the 'startup environment' and constant change, what kind of support
+  system exists for Account Managers to navigate challenges and ensure
+  successful partner relationships?
+story_answer2: >-
+  It’s true, we’re moving at light speed, and things are always evolving –
+  that’s the thrill of it! But 'startup environment' doesn't mean you're on your
+  own. We have a very collaborative setup. For instance, when you're tackling a
+  new project to drive efficiency or solve a product data challenge with a
+  partner, you're not just isolated. You're working closely with our marketing
+  team for campaigns, and there's a strong culture of peer support where we
+  share best practices and problem-solve together. Plus, our leadership
+  genuinely encourages taking ownership and diving deep, but they're also highly
+  accessible for guidance. We regularly have check-ins and dedicated sessions to
+  discuss complex partner scenarios. It's about empowering you to lead, but
+  always having a safety net and a team to brainstorm with. The constant change
+  is less about chaos and more about agile growth, with everyone pushing each
+  other forward.
 ---
-About Wolt
-----------
-
-At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.  
-  
-Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.
-
-Role background
----------------
-
-Wolt is a technology company that makes it incredibly easy to discover and get the best restaurants, grocery stores and other local shops delivered to home or to the office. Our local commerce platform makes it easy for customers to order whatever they need on one app, for merchants to make additional sales, and for couriers to make meaningful earnings flexibly. To enable this, Wolt develops a wide range of technologies from local commerce platform to retail software and financial solutions, as well as operates its own grocery stores under the brand Wolt Market. Wolt was founded in 2014 and joined forces with DoorDash in 2022. DoorDash operates in 27 countries today, 23 of which are with the Wolt product and brand. 
-
-However, food delivery was just the start. We don't want to just satisfy our customers' hunger, but to deliver a wide variety of products and expand our platform to supermarkets, flowers, toys, books and other exciting products, all referred to as Retail. Your job starts when the retail partner has signed the contract and has been onboarded to Wolt's platform. As a Retail Account Manager, you're responsible for managing and developing your portfolio of our key retail partners in Germany. We're looking for someone with a genuine passion for establishing relationships and improving key business metrics to create results for Wolt, the retail partners, and ultimately the customers. In doing that, you need to have good problem-solving skills, a commercial mindset and a strong passion to deliver exceptional service. If you want to use those skills to digitally enable local brick & mortar stores, you have come to the right place!  
-  
-On a personal note, it goes without saying that you're a team player and willing to get your hands dirty as we build this relatively new area of our business in Germany. This also means that you must thrive in the 'start-up' environment where constant change means there is  always lots to get your teeth into!   
-
-What you will be doing
-----------------------
-
-*   Owning the overall partner relationship and driving growth with our retail partners by improving their performance through data driven consultation
-*   Identifying the focus area in your portfolio and invest into high-potential partnerships
-*   Drive forward operational improvement with your partners to ensure that together we are delivering the best experience for Wolt's end customers
-*   Engage partners in growth conversations (i.e. adding more stores to Wolt across Germany, increasing same-store sales, improving profitability, expanding with new brands, category management and maximizing product inventory on Wolt etc)
-*   Working closely together with the marketing team to plan and execute campaigns together with retail partners
-*   Take ownership for projects that help us evolve our retail business. Project goals may vary from driving efficiency over ensuring legal compliance to solving challenges with product data.
-*   Getting your hands dirty: we're developing a lot from scratch and you will help to bring structure in how we support our partners
-
-Our humble expectation
-----------------------
-
-*   Bachelor or higher degree and job experience with account and/or category management (2-3 years) with a strong drive to grow and develop in this field
-*   Fluent in German and English is a must to connect with our partners
-*   Excellent interpersonal skills with the ability to adapt the tone to suit the audience
-*   Commercial mindset with very good analytical and problem-solving skills
-*   Structured, detailed, proactive and service-oriented
-*   High sense of ownership and ambition to go beyond the obvious
-*   Experience in retail and/or with e-commerce and marketplaces is an advantage
-
-Our Commitment to Diversity and Inclusion
------------------------------------------
-
-We're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nWolt is a technology company specializing in local commerce, rapidly expanding beyond food delivery to encompass a wide range of retail products. After joining forces with DoorDash in 2022, Wolt operates in over 500 cities across 30 countries. This Retail Account Manager role is crucial for their expansion in Germany, focusing on managing and developing a portfolio of key retail partners. The ideal candidate will establish strong relationships, drive growth through data-driven consultation, and enable local brick-and-mortar stores to thrive in the digital marketplace. This position is for a self-starter who thrives in a dynamic, 'startup' environment, eager to build and bring structure to a relatively new and exciting area of the business.\n\n### Responsibilities\n- Own the overall partner relationship and drive growth with retail partners by improving their performance through data-driven consultation.\n- Identify focus areas in your portfolio and invest in high-potential partnerships.\n- Drive operational improvement with partners to ensure the best experience for Wolt's end customers.\n- Engage partners in growth conversations (e.g., adding more stores, increasing same-store sales, improving profitability, expanding with new brands, category management, maximizing product inventory).\n- Work closely with the marketing team to plan and execute campaigns with retail partners.\n- Take ownership of projects to evolve the retail business, focusing on efficiency, legal compliance, or product data challenges.\n- Get hands-on: help develop processes and bring structure to partner support in a fast-growing area.\n\n### Qualifications\n- Bachelor's or higher degree and 2-3 years of job experience in account and/or category management with a strong drive to grow.\n- Fluent in both German and English is mandatory to connect with partners.\n- Excellent interpersonal skills with the ability to adapt tone to suit the audience.\n- Commercial mindset with strong analytical and problem-solving skills.\n- Structured, detailed, proactive, and service-oriented approach.\n- High sense of ownership and ambition to go beyond the obvious.\n- Experience in retail and/or with e-commerce and marketplaces is an advantage.\n\n### Author's Take\nThis is an exceptional opportunity for a driven Retail Account Manager to make a significant impact at Wolt, a rapidly expanding global tech company. You'll be at the forefront of their retail expansion in Germany, directly contributing to the digital transformation of local businesses. The role promises a challenging yet highly rewarding \"startup\" environment where you'll learn, build, and ship more than most, enjoying significant autonomy and project ownership. If you're a proactive, commercially-minded individual passionate about building relationships and delivering tangible results in a fast-paced, diverse, and inclusive culture, this role offers a truly exciting \"ride of your life.\"
