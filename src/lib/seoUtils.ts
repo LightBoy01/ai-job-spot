@@ -4,8 +4,9 @@ import { SerializedJobPosting } from './types.js';
 export interface SalaryInsight {
   min: number;
   max: number;
-  average: number;
+  avg: number;
   count: number;
+  currency: string;
 }
 
 /**
@@ -42,14 +43,15 @@ export const calculateSalaryInsights = (jobs: SerializedJobPosting[]): SalaryIns
 
   const min = Math.min(...salaries);
   const max = Math.max(...salaries);
-  const average = salaries.reduce((sum, salary) => sum + salary, 0) / salaries.length;
+  const avg = salaries.reduce((sum, salary) => sum + salary, 0) / salaries.length;
   const count = salaries.length;
 
   return {
     min,
     max,
-    average,
+    avg,
     count,
+    currency: 'USD',
   };
 };
 

@@ -2,7 +2,7 @@ export interface ToolMetadata {
   slug: string;
   name: string;
   description: string;
-  category: 'Agentic AI' | 'Vector Database' | 'Generative Art' | 'LLM Framework' | 'Inference' | 'Other';
+  category: 'Agentic AI' | 'Vector Database' | 'Generative Art' | 'LLM Framework' | 'Inference' | 'Infrastructure' | 'Observability' | 'Other';
   relatedTags: string[]; // For backfill jobs
   whyLearn?: string;
   avgSalary?: string;
