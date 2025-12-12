@@ -4,8 +4,8 @@ title: 'Teilzeitkraft Buchhaltung (m/w/d) - Remote, 20-30 Stunden/Woche'
 company: smartkündigen OHG
 location: Neuss
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/teilzeitkraft-buchhaltung-remote-20-30-stunden-woche-neuss-251395
-postedDate: '2025-12-10T07:32:02.000Z'
+  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/teilzeitkraft-buchhaltung-remote-20-30-stunden-woche-neuss-275396
+postedDate: '2025-12-12T07:03:23.000Z'
 expirationDate: null
 tags:
   - Remote
@@ -16,7 +16,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/teilzeitkraft-buchhaltung-remote-20-30-stunden-woche-neuss-251395
+  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/teilzeitkraft-buchhaltung-remote-20-30-stunden-woche-neuss-275396
 companyLogoUrl: null
 ---
 smartkündigen OHG ist ein erfolgreicher Kündigungsdienstleister mit einem dynamischen Team und einer angenehmen Arbeitsatmosphäre. Zur Verstärkung unseres Teams suchen wir eine motivierte Teilzeitkraft (m/w/d) im Bereich Buchhaltung.

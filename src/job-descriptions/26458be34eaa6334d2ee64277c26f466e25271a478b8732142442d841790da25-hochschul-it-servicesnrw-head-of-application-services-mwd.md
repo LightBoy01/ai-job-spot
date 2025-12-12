@@ -73,4 +73,4 @@ Der Aufbau des Unternehmens HITS.NRW wird durch das Land Nordrhein-Westfalen gef
 
 **Hochschul-IT-Services.nrw KöR, Speditionstraße 2, 40221 Düsseldorf**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

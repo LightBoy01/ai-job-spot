@@ -88,4 +88,4 @@ Benefits
 *   **Modernes, digitales Arbeitsumfeld:** Wir denken KfZ-Prüfung neu - von digitalem Hol und Bring Service über Echtzeit Daten an der Prüfstelle.
 *   Bewirb dich jetzt und gestalte die Mobilität von morgen!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

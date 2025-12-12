@@ -52,4 +52,4 @@ Wir bieten ein Arbeitsumfeld, das von jungen Kolleg:innen und flachen Hierarchie
 
 Wichtig sind uns vor allem echte Begeisterung und Engagement für die Sache. Wenn du mit uns die Social-Media-Welt an unserem Standort in Mainz oder Hamburg erobern möchtest, freuen wir uns auf deine Bewerbung inkl. Gehaltsvorstellung. Hast du noch Fragen? Dann melde dich gerne.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

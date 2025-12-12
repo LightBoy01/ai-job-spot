@@ -117,4 +117,4 @@ inspirierenden Netzwerk
 
 Werde Brand Manager:in in einem dynamischen Team, das Marken neu definiert. Gestalte die Zukunft des Merchandise mit uns. Bewirb dich jetzt!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

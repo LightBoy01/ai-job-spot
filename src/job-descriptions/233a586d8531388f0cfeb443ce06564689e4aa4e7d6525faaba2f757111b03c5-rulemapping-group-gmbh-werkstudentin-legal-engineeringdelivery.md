@@ -53,4 +53,4 @@ Bist du bereit, Teil eines innovativen Teams zu werden und die Zukunft mitzugest
 
 Wir freuen uns darauf, dich kennenzulernen und gemeinsam Großes zu erreichen!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

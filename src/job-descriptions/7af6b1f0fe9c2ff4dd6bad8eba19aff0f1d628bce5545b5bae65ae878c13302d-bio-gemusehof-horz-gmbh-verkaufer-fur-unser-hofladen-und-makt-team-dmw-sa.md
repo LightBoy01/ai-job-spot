@@ -69,4 +69,4 @@ Benefits
 
 Werde Teil unseres Teams! Verkaufe frisches Bio-Gemüse und erlebe die Vielfalt direkt vom Hof. Bewirb dich jetzt als Verkäufer (d/m/w) für Hofladen und Markt-Team in Filderstadt.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

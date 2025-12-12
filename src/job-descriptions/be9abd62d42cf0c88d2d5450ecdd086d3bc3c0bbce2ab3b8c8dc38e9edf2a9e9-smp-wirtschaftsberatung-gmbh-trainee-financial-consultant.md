@@ -62,4 +62,4 @@ Benefits
 *   Online-Schulungen mit IHK-zertifiziertem Abschluss (§34d, §34f)
 *   Karrierechancen als Führungskraft oder Fachspezialist
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -84,4 +84,4 @@ As a **Business Development Representative for the DACH region**, you'll be at 
 We welcome collaborators with their diverse perspectives and experiences to power us forward. These often far exceed conventional job requirements and help us create a culture of continuous learning. If you're ready to join a global leader powering digital transformation for 450+ of the world's most innovative retailers and B2B organizations, we strongly encourage you to apply to any of our roles, even if you think you're not an exact match.  
 We may use Artificial Intelligence (AI) solutions to help streamline our hiring process, including screening applications, analyzing resumes, and assessing responses. While AI helps us work efficiently, all final hiring decisions are made by humans. For more information, visit our _[AI Guidelines for Candidates and Interviews](https://info.mirakl.com/ai-guidelines-for-candidates-and-interviews)__._
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -97,4 +97,4 @@ Benefits
 
 GC is an equal opportunity employer that evaluates applicants regardless of origin, nationality, gender, age, or disability. We welcome candidates from diverse backgrounds and actively promote diversity in our workforce.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

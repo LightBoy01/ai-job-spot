@@ -71,4 +71,4 @@ Benefits
 *   Wir stellen dir ein persönliches Weiterbildungsbudget zur Verfügung
 *   Vollzeitstelle & Führungsposition in naher Zukunft möglich
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

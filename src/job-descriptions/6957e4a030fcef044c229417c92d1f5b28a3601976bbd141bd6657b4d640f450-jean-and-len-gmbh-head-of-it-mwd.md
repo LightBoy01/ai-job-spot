@@ -83,4 +83,4 @@ Klingt interessant? Dann schick‘ uns Deine Bewerbung an ----- nenne uns neben 
 
 **Wir freuen uns schon auf Dich!**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -69,4 +69,4 @@ Benefits
 *   **Your Job Bike |** Take advantage of our bike leasing program for greater mobility and a more sustainable commute.
 *   **Stay Healthy |** Benefit from a private supplementary insurance policy we have arranged especially for you.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

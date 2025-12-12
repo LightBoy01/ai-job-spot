@@ -56,4 +56,4 @@ Arbeitsverträge werden nach Bestehen der Probezeit in der Regel unbefristet abg
 
 Wir freuen uns auf Ihre qualifizierte Bewerbung unter Angabe Ihrer Gehaltsvorstellung und des frühestmöglichen Eintrittstermins.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

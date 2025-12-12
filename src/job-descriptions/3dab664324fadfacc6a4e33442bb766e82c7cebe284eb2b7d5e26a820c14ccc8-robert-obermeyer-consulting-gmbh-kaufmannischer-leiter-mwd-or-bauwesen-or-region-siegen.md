@@ -52,4 +52,4 @@ Benefits
 
 Gestalten Sie die Zukunft und bewerben Sie sich jetzt als **kaufmännischer Leiter** **(m/w/d)** für ein etabliertes Bauunternehmen in der Region Siegen!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -48,4 +48,4 @@ Ob Strategie, Videoproduktion, Schnitt, Upload oder Community Management – wir
 
 Bewirb dich als **Werkstudent (m/w/d) Human Resources** bei ENKIME!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

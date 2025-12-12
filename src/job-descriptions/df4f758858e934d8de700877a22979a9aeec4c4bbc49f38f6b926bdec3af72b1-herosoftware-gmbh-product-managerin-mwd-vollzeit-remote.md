@@ -70,4 +70,4 @@ Spaß - wenn du bis hier gelesen hast, sollten wir sprechen.
 
 _PS: Bitte duze uns in deinem Anschreiben_
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -87,4 +87,4 @@ Wir lassen dich nicht alleine! Wir legen höchsten Wert auf eine umfassende Eina
 **Weitere Benefits:**  
 Teamevents, Weihnachtsfeier, Sommerfest, vergünstigte Angebote (z. B. Reisen, E-Commerce, Bekleidung, Verträge)
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

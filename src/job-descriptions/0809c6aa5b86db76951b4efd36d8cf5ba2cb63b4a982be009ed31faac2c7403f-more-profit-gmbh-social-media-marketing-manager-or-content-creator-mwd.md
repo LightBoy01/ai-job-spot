@@ -122,4 +122,4 @@ Links zu Reels, Videos, Bildern, Projekten oder eigenen Channels helfen uns, dei
 
 Ein Anschreiben ist nicht notwendig – dein Lebenslauf reicht.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -76,4 +76,4 @@ Why is Softr the best place to work
 \- Our customers love Softr (1M+ users and growing)! A daily dose of customer love and positive feedback that rewards your work.  
 \- Backed by the best - we are well-resourced, profitable, and backed by best investors, like FirstMark Capital and the world’s best angel investors like \[Gokul Rajaram\]([https://www.linkedin.com/in/gokulrajaram1/](https://www.linkedin.com/in/gokulrajaram1/)), \[Scott Belsky\]([https://www.linkedin.com/in/scottbelsky/](https://www.linkedin.com/in/scottbelsky/)), \[Brian Balfour\]([https://www.linkedin.com/in/bbalfour/](https://www.linkedin.com/in/bbalfour/)), \[Cristina Cordova\]([https://www.linkedin.com/in/cristinajcordova/](https://www.linkedin.com/in/cristinajcordova/)) and more
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -41,4 +41,4 @@ Qualifikation
 
 Werden Sie Teil von OMIT Acoustics GmbH und gestalten Sie innovative Schallschutzlösungen „Made in Germany“. Bewerben Sie sich als Vertrieb Außendienst (m/w/d) und fördern Sie moderne Arbeitswelten.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

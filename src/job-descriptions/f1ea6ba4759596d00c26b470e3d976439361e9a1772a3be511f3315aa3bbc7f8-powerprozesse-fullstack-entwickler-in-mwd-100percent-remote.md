@@ -84,4 +84,4 @@ Weiterentwicklungs- und Aufstiegsmöglichkeiten in den nächsten Jahren sind vor
 *   Vorkenntnisse mit Tools mit n8n ist von Vorteil aber nicht notwendig
     
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -67,4 +67,4 @@ Prior experience in an office environment, volunteer leadership, or project coor
 
 Please note that you need to be located in Germany or Greece, you need to have a valid enrollment from a university and a valid working visa.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

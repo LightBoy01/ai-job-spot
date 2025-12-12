@@ -79,4 +79,4 @@ Wenn du Lust hast, eine wachsende Online Bootsschule mit deinem Code und deinen 
 
 P.S. es ist KEINE Erfahrung im Wassersport nötig oder gar ein Führerschein.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

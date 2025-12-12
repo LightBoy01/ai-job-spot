@@ -73,4 +73,4 @@ Wenn du Lust hast, echte Praxiserfahrung im Consulting zu sammeln, von erfahrene
 
 **Bitte sende uns deinen Lebenslauf und ein kurzes Anschreiben, in dem du uns zeigst, was dich antreibt und warum du glaubst, dass du gut zu uns passt.** Deine Ansprechpartnerin ist Maya Meineke. Sie freut sich auf deine Bewerbung und steht dir bei Fragen gerne zur Verfügung.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -57,4 +57,4 @@ Benefits
 
 Wenn du Lust hast, unsere Markenwelt mitzugestalten und deine Kreativität täglich auszuleben, freuen wir uns sehr auf deine Bewerbung! Bitte sende uns dein Portfolio oder Beispiele deines bisherigen Contents direkt mit.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -50,4 +50,4 @@ Bitte gib bei Deiner Bewerbung an, wie viele Stunden pro Woche Du verfügbar wä
 
 Wir freuen uns auf Deine Bewerbung!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

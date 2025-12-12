@@ -73,4 +73,4 @@ Tel.: +49 (221) 9978 3106-33
 Innsbrucker Ring 15  
 81673 München
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

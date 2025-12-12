@@ -60,4 +60,4 @@ _Bei uns bist du Teil eines wachsenden & motivierten Teams sein und kannst die Z
 *   Vorteile wie Lunch & Learn Sessions und steuerfreie Zulagen
 *   Regelmäßiges Feedback und Planung deiner Karriereentwicklung
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

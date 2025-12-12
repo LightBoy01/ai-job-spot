@@ -139,4 +139,4 @@ Dieser Tag gibt dir ein gutes Gefühl für die tatsächliche Arbeit bei alago �
 
 Du erhältst innerhalb von **24 Stunden** Rückmeldung. Wenn es für beide Seiten passt – freuen wir uns sehr auf die Zusammenarbeit! 🎉
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

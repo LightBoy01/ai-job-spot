@@ -69,4 +69,4 @@ Mobil: +49 152 51652114
 
 LinkedIn: BIMraum
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

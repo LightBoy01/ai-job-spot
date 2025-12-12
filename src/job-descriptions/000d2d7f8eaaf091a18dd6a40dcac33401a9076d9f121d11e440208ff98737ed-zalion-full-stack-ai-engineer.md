@@ -67,4 +67,4 @@ Benefits
 *   Large Language Models (LLMs) and AI infrastructure (evaluation, tracing, guardrails)
 *   Whatever the **future** brings that helps us ship faster and better
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

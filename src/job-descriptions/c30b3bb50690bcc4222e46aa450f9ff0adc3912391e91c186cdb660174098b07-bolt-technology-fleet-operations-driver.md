@@ -109,4 +109,4 @@ Experience is great, but what we really look for is drive, intelligence, and int
 
 #LI-Hybrid
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

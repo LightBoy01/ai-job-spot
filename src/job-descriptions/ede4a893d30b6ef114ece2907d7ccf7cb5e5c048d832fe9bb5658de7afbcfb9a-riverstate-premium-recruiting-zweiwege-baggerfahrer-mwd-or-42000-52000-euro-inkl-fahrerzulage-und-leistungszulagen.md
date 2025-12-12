@@ -60,4 +60,4 @@ Unsere Beratung ist für Sie völlig kostenlos. Falls Sie Fragen haben, erreiche
 
 \# Zweiwegebaggerfahrer # Zweiwege Baggerfahrer # Baggerfahrer Schiene # Baggerfahrer Bahn # Zweiwegebagger Bediener # Gleisbaumaschinenführer # Eisenbahnfahrzeugführer # Triebfahrzeugführer Bagger # Baggerführer Schiene # Gleisbau Baggerfahrer # Zweiwege Baggerführer # Baumaschinenführer Gleisbau # Baugeräteführer Schiene # Baggerfahrer Oberleitungsbau # Eisenbahnbaumaschinenführer # Baggerfahrer Tiefbau Schiene # Baugeräteführer Zweiwegebagger # Rangierfahrten Baggerfahrer # Maschinenführer Gleisbau # Baggerfahrer Fahrleitungsbau
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -63,4 +63,4 @@ Wie gehts weiter?
 
 Wenn du dich hier wiederfindest, freuen wir uns über deine Bewerbung – egal, ob du aktiv suchst oder nur mal reinschnuppern möchtest. Nach einem ersten Gespräch schauen wir gemeinsam, ob, wann und wie wir weitermachen. Und wenn der Zeitpunkt später perfekt ist, sind wir alle schon vorbereitet :)
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

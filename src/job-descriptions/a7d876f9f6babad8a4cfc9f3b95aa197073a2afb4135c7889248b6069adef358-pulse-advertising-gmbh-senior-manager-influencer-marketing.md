@@ -64,4 +64,4 @@ Your application
 
 Exactly what you’ve been looking for then show us how much PULSE POWER you’ve got and send us your application.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

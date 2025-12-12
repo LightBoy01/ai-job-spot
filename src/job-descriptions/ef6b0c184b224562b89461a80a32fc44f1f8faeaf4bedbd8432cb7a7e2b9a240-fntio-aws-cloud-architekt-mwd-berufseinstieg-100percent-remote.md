@@ -53,4 +53,4 @@ Werde Teil unseres innovativen Teams und gestalte die Zukunft der Cloud-Technolo
 
 **Wichtiger Hinweis:** Wir akzeptieren keine Vorschläge von Drittanbietern oder Vermittlungsagenturen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

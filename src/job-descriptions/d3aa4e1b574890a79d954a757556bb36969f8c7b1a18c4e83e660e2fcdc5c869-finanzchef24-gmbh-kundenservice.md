@@ -59,4 +59,4 @@ Bewirb dich ganz einfach über unser Bewerbungsformular oder per Mail an Bei Fra
 
 #makeithappen – wir freuen uns darauf, dich kennenzulernen! Mehr zu uns und unserer Arbeit erfährst du auf unserer Website (Über uns und Team).
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

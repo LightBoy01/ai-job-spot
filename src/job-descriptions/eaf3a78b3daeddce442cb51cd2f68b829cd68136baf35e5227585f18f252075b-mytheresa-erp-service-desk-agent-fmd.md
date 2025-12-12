@@ -71,4 +71,4 @@ Since January 2021 we are a listed company on the New York Stock Exchange. More 
 
 Creating a strong as well as a diverse and inclusive team is essential for Mytheresa. For us your expertise and motivation matter more than your individual walk of life. Mytheresa ensures a fast and equal hiring process.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

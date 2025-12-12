@@ -66,4 +66,4 @@ Wenn du Lust hast, tief in AWS, Microservices und moderne Softwarearchitektur ei
 
 Bereit für deinen nächsten Entwicklungssprung? Los geht’s! 🚀
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -81,4 +81,4 @@ Benefits
 
 👉 **Bereit, den nächsten Karriereschritt zu gehen?** Dann bewirb Dich jetzt und werde Teil unseres Teams – gemeinsam gestalten wir die digitale Zukunft.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

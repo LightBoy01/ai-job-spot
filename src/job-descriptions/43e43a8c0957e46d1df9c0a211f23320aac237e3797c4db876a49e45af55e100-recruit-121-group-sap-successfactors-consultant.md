@@ -62,4 +62,4 @@ Benefits
 
 👉 Wenn du Lust hast, deine Karriere im Bereich SAP HCM / SuccessFactors auf das nächste Level zu bringen, freuen wir uns auf deine Bewerbung!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

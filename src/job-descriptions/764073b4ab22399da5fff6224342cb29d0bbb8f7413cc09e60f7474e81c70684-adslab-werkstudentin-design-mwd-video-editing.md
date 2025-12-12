@@ -58,4 +58,4 @@ Benefits
 
 adslab ist ein Team aus 12 Paid-Social-Spezialist:innen im Berliner Akazienkiez. Wir unterstützen Unternehmen dabei, mit Performance Marketing profitabel zu wachsen – also mit datengetriebenen Social Ads, die messbar neue Kund:innen gewinnen. Im Office arbeiten wir mit Apple-Equipment, klaren Prozessen und einer Kultur, in der Verantwortungsübernahme und gute Umsetzung im Mittelpunkt stehen.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

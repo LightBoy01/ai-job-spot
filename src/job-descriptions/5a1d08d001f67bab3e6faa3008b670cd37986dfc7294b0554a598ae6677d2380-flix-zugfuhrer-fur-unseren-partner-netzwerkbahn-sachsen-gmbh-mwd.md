@@ -56,4 +56,4 @@ Die Netzwerkbahn Sachsen GmbH ist ein junges, deutschlandweit tätiges Eisenbahn
 
 Du möchtest gemeinsam mit der Netzwerkbahn Sachsen durchstarten? Dann komm an Bord  und bewirb Dich jetzt. Wir freuen uns von Dir zu hören!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

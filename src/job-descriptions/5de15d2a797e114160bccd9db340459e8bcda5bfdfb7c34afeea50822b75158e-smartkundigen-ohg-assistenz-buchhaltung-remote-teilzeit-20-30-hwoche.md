@@ -4,8 +4,8 @@ title: 'Assistenz Buchhaltung (Remote, Teilzeit 20-30 h/Woche)'
 company: smartkündigen OHG
 location: Neuss
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/assistenz-buchhaltung-remote-teilzeit-20-30-h-woche-neuss-226517
-postedDate: '2025-12-10T07:32:01.000Z'
+  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/assistenz-buchhaltung-remote-teilzeit-20-30-h-woche-neuss-463496
+postedDate: '2025-12-12T07:03:22.000Z'
 expirationDate: null
 tags:
   - Remote
@@ -16,7 +16,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/assistenz-buchhaltung-remote-teilzeit-20-30-h-woche-neuss-226517
+  https://www.arbeitnow.com/jobs/companies/smartkundigen-ohg/assistenz-buchhaltung-remote-teilzeit-20-30-h-woche-neuss-463496
 companyLogoUrl: null
 ---
 smartkündigen OHG ist ein erfolgreicher Kündigungsdienstleister mit einem dynamischen Team und einer angenehmen Arbeitsatmosphäre. Zur Verstärkung unseres Teams suchen wir eine motivierte Teilzeitkraft (m/w/d) im Bereich Buchhaltung.

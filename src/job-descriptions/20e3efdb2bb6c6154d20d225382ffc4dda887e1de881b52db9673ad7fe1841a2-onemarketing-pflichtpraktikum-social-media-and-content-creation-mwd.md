@@ -52,4 +52,4 @@ Benefits
 
 Hinweis ! Es handelt sich um ein **Pflichtpraktikum im Rahmen des Studiums**, das **unbezahlt** ist.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

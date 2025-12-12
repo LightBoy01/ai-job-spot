@@ -69,4 +69,4 @@ Diese Vollzeitstelle ist hybrid mit Standort in Bayern oder Baden-WÃ¼rttemberg â
 Bist du bereit, die Energiewende in der Landwirtschaft mitzugestalten?  
 Dann freuen wir uns auf deine Bewerbung!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
