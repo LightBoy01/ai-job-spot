@@ -6,6 +6,7 @@ import {
   getRelevantArticles,
   getArticlesByIds,
   getSalaryStats,
+  getRelatedSkills,
 } from '@/lib/firestoreAdminClient';
 import { SerializedJobPosting, SerializedArticle } from '@/lib/types';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
@@ -22,6 +23,7 @@ import DOMPurify from 'isomorphic-dompurify';
 import Icon from '@/components/Icon';
 import Breadcrumbs, { Breadcrumb } from '@/components/Breadcrumbs';
 import SalaryInsights from '@/components/SalaryInsights';
+import RelatedSkills from '@/components/RelatedSkills';
 
 interface JobDetailsProps {
   job: SerializedJobPosting;
@@ -34,6 +36,7 @@ interface JobDetailsProps {
     currency: string;
   } | null;
   currentJobSalaryValue?: number | null;
+  relatedSkills: { type: 'skill' | 'location'; value: string }[];
 }
 
 const generateJobPostingSchema = (job: SerializedJobPosting) => {
@@ -147,7 +150,7 @@ const generateBreadcrumbSchema = (job: SerializedJobPosting) => {
   };
 };
 
-const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles, salaryStats, currentJobSalaryValue }) => {
+const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles, salaryStats, currentJobSalaryValue, relatedSkills }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleApplyClick = () => {
@@ -298,6 +301,9 @@ const JobDetails: NextPage<JobDetailsProps> = ({ job, relevantArticles, salarySt
 
               {/* Salary Insights */}
               <SalaryInsights insight={salaryStats || null} currentJobSalary={currentJobSalaryValue} />
+              
+              {/* Related Skills */}
+              <RelatedSkills skills={relatedSkills} currentSkill={job.tags[0]} />
 
               {/* Story Behind the Role */}
               <section className="my-12 md:my-16">
@@ -713,6 +719,8 @@ export const getStaticProps: GetStaticProps<
     }
   }
 
+  const relatedSkills = await getRelatedSkills(job.tags || []);
+
   if (id === '01118332cc3aeb166f1c5fcc027578db4d57a573ecfd96289b632e14fad2c42a') {
     // Debug block removed
   }
@@ -728,6 +736,7 @@ export const getStaticProps: GetStaticProps<
       })),
       salaryStats: salaryStats || null,
       currentJobSalaryValue,
+      relatedSkills,
     },
     revalidate: 60, // Re-generate the page every 60 seconds
   };

@@ -341,3 +341,50 @@ export async function getSalaryStats(title: string): Promise<{ min: number; max:
     return null;
   }
 }
+
+export async function getRelatedSkills(tags: string[], limit = 10): Promise<{ type: 'skill' | 'location'; value: string }[]> {
+  if (!tags || tags.length === 0) return [];
+
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    // Query jobs that have at least one of the matching tags
+    // Firestore 'array-contains-any' is limited to 10 values
+    const searchTags = tags.slice(0, 10);
+    
+    const jobsRef = adminDb.collection('jobs');
+    const q = jobsRef
+      .where('status', '==', 'published')
+      .where('tags', 'array-contains-any', searchTags)
+      .limit(20); // Analyze 20 similar jobs
+
+    const snapshot = await q.get();
+    
+    if (snapshot.empty) return [];
+
+    const tagFrequency: Record<string, number> = {};
+    const inputTagsSet = new Set(tags.map(t => t.toLowerCase()));
+
+    snapshot.docs.forEach(doc => {
+      const jobTags = doc.data().tags || [];
+      jobTags.forEach((tag: string) => {
+        const lowerTag = tag.toLowerCase();
+        // Exclude the tags we already searched for (to show *related* skills, not same skills)
+        if (!inputTagsSet.has(lowerTag)) {
+           tagFrequency[tag] = (tagFrequency[tag] || 0) + 1;
+        }
+      });
+    });
+
+    // Sort by frequency
+    const sortedTags = Object.entries(tagFrequency)
+      .sort(([, a], [, b]) => b - a)
+      .slice(0, limit)
+      .map(([tag]) => ({ type: 'skill' as const, value: tag }));
+
+    return sortedTags;
+
+  } catch (error) {
+    console.error('Error fetching related skills:', error);
+    return [];
+  }
+}

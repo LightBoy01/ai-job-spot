@@ -109,14 +109,14 @@ export async function enrichJobData(jobContent: string): Promise<EnrichedJobData
       1.  **frontmatterFields**: An object containing these exact keys:
           - "jobLevel": Infer the job level. Choose one of: ["Entry-Level", "Junior", "Mid-Senior", "Senior", "Lead", "Principal", "Director", "Executive"]. If unsure, use null.
           - "employeeRole": Infer the employee role. Choose one of: ["Individual Contributor", "Manager", "Lead"]. If unsure, use null.
-          - "salaryRange": If a salary is mentioned, extract it as a string (e.g., "$150,000 - $200,000"). If not mentioned, use null.
+          - "salaryRange": If a salary is mentioned, extract it as a string (e.g., "$150,000 - $200,000"). If not mentioned, use null. DO NOT guess.
           - "companyCulture": Based on the text, infer the company culture in 1-2 sentences. Focus on work-life balance, collaboration, and growth opportunities. If unsure, use null.
-          - "story_question1": Generate an insightful question a candidate might ask about the role's impact or challenges.
-          - "story_answer1": Provide a compelling, narrative-style answer to story_question1, revealing the role's impact and the company culture, framed as if an insider is sharing their perspective.
-          - "story_question2": Generate a second insightful question. If not applicable, use null.
-          - "story_answer2": Provide a compelling, narrative-style answer to story_question2. If not applicable, use null.
-          - "story_question3": (Optional) Generate a third insightful question. If not applicable, use null.
-          - "story_answer3": (Optional) Provide a compelling, narrative-style answer to story_question3. If not applicable, use null.
+          - "story_question1": Generate ONE single, critical "Hook" question. What is the #1 most interesting challenge or opportunity in this specific role? (e.g. "How will this role shape the future of X?").
+          - "story_answer1": Provide a concise, punchy answer (max 3 sentences). Sell the role's impact. Avoid corporate fluff.
+          - "story_question2": (Strictly Optional) Only generate if there is a *distinct* secondary angle not covered by Q1. Otherwise null.
+          - "story_answer2": (Strictly Optional) Concise answer (max 2 sentences). Otherwise null.
+          - "story_question3": (Strictly Optional) Rarely needed. Use null unless this is a C-level role with complex requirements.
+          - "story_answer3": (Strictly Optional) Use null.
 
       2.  **markdownBody**: A single string containing the full, rewritten job description in well-formatted Markdown. It MUST include the following sections using '###' headers:
           - ### Description
