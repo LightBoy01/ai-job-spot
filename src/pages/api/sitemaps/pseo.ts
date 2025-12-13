@@ -26,36 +26,58 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       jobs.push(doc.data() as FirestoreJobPosting);
     });
 
-    const uniqueSkills = [...new Set(jobs.flatMap(job => job.tags || []))];
-    const uniqueLocations = [...new Set(jobs.map(job => job.location).filter(Boolean))];
+    // Optimize counting using Maps (O(N) complexity)
+    const skillCounts = new Map<string, number>();
+    const locationCounts = new Map<string, number>();
+    const skillLocationCounts = new Map<string, number>();
+
+    jobs.forEach(job => {
+      const jobTags = job.tags || [];
+      const jobLocation = job.location;
+
+      // Count Skills
+      jobTags.forEach(tag => {
+        skillCounts.set(tag, (skillCounts.get(tag) || 0) + 1);
+
+        // Count Skill + Location combinations
+        if (jobLocation) {
+          // Use a delimiter that won't appear in normal text, e.g., '|||'
+          const comboKey = `${tag}|||${jobLocation}`;
+          skillLocationCounts.set(comboKey, (skillLocationCounts.get(comboKey) || 0) + 1);
+        }
+      });
+
+      // Count Locations
+      if (jobLocation) {
+        locationCounts.set(jobLocation, (locationCounts.get(jobLocation) || 0) + 1);
+      }
+    });
 
     const lastModified = new Date().toISOString();
     let sitemapXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 
     const validUrls = new Set<string>();
 
-    // 1. Single Dimension URLs
-    for (const skill of uniqueSkills) {
-      const count = jobs.filter(j => j.tags?.includes(skill)).length;
+    // 1. Single Dimension URLs (Skills)
+    for (const [skill, count] of skillCounts.entries()) {
       if (count >= PSEO_MIN_JOB_COUNT) {
-        // Point to the existing tags page which serves as the skill hub
-        validUrls.add(`${WEBSITE_URL}/tags/${encodeURIComponent(skill.toLowerCase())}`);
+        // Use exact casing from DB to ensure Firestore matches
+        validUrls.add(`${WEBSITE_URL}/tags/${encodeURIComponent(skill)}`);
       }
     }
-    for (const location of uniqueLocations) {
-      const count = jobs.filter(j => j.location === location).length;
+
+    // Single Dimension URLs (Locations)
+    for (const [location, count] of locationCounts.entries()) {
       if (count >= PSEO_MIN_JOB_COUNT) {
-        validUrls.add(`${WEBSITE_URL}/jobs/location/${encodeURIComponent(location)}`);
+         validUrls.add(`${WEBSITE_URL}/jobs/location/${encodeURIComponent(location)}`);
       }
     }
 
     // 2. Multi-Dimension URLs (skill + location)
-    for (const skill of uniqueSkills) {
-      for (const location of uniqueLocations) {
-        const count = jobs.filter(j => j.tags?.includes(skill) && j.location === location).length;
-        if (count >= PSEO_MIN_JOB_COUNT) {
-          validUrls.add(`${WEBSITE_URL}/jobs/skill/${encodeURIComponent(skill.toLowerCase())}/location/${encodeURIComponent(location)}`);
-        }
+    for (const [comboKey, count] of skillLocationCounts.entries()) {
+      if (count >= PSEO_MIN_JOB_COUNT) {
+        const [skill, location] = comboKey.split('|||');
+        validUrls.add(`${WEBSITE_URL}/jobs/skill/${encodeURIComponent(skill)}/location/${encodeURIComponent(location)}`);
       }
     }
 
