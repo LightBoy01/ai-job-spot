@@ -16,8 +16,8 @@ status: pending_review
 tags:
   - Media & Entertainment
   - AI
-  - Disney
   - Google
+  - Disney
   - In Brief
 excerpt: >-
   Disney is accusing the tech giant of unauthorized distribution of its

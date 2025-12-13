@@ -58,4 +58,4 @@ Wenn du die nötigen Fähigkeiten mitbringst und Lust hast mich bei einem meiner
 Ich freue mich auf die Zusammenarbeit  
 _Jennifer Tettenborn_
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

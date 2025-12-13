@@ -60,4 +60,4 @@ Benefits
 
 Dann senden Sie uns bitte Ihre aussagekräftigen Bewerbungsunterlagen mit Auflistung Ihrer IT-Kenntnisse über unser Bewerbungsformular. Klicken Sie dafür unten auf den grünen Button ‚Jetzt bewerben‘. Wir freuen uns auf Sie.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

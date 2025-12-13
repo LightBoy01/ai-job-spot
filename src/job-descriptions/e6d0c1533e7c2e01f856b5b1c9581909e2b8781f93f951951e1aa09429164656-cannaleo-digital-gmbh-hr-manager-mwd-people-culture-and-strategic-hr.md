@@ -94,4 +94,4 @@ Benefits
 
 Wenn du Lust hast, Menschen und Organisationen gleichermaßen weiterzuentwickeln und die Zukunft eines wachsenden Unternehmens mitzugestalten, freuen wir uns sehr darauf, dich kennenzulernen!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

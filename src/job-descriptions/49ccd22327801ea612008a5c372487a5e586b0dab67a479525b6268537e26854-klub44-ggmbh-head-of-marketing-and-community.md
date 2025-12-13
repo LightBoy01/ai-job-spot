@@ -5,7 +5,7 @@ company: Klub44 gGmbH
 location: Berlin
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/klub44-ggmbh/head-of-marketing-community-berlin-494951
-postedDate: '2025-12-11T18:01:58.000Z'
+postedDate: '2025-12-12T11:29:03.000Z'
 expirationDate: null
 tags:
   - Software Development
@@ -23,8 +23,6 @@ _Job Description is in German, as the Job requires proficiency in German languag
 Klub44 ist ein gemeinnütziges EdTech mit dem Ziel, die Potenzialentfaltung junger Menschen über gemeinsame Erfahrungen zu fördern und die Schul-und Berufsbildung radikal zu transformieren.
 
 Mit der Klub-App ermöglichen wir Jugendlichen einen chancengerechten Zugang zu kostenfreien Freizeit- und Berufsorientierungsangeboten. Außerschulische Locations - z. B. Jugendclubs, Makerspaces, Orte der kulturellen Bildung - können auf unserer Plattform ihre Angebote direkt und digital an Jugendliche kommunizieren.
-
-Neben der Klub-App haben wir zwei weitere Geschäftsbereiche: Klub für Schule & Klub für Berufung, die jeweils eigenständige Geschäftsmodelle haben.
 
 _Wir ermutigen ausdrücklich Menschen aller Geschlechter, Religionen und sexuellen Orientierungen dazu, sich bei uns zu bewerben!_
 
@@ -98,4 +96,4 @@ Unser Werte zur gemeinsamen Zusammenarbeit nach innen und außen sind:
 *   Spielerisch
 *   Ehrlich
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

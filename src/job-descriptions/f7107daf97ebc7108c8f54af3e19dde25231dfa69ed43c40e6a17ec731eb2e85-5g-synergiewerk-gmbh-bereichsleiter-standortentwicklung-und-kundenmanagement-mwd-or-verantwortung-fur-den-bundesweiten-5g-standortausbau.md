@@ -68,4 +68,4 @@ Benefits
 *   **Moderne Arbeitsweise und professionelle Strukturen:** Du arbeitest mit den neusten Tools, klaren Prozessen und einem Team, das technologisch und organisatorisch auf hohem Niveau agiert.
 *   **Ein Umfeld, das Vertrauen schenkt:** Wir setzen auf Eigenverantwortung, Transparenz und direkte Kommunikation. Du kannst arbeiten, wie es für dich und deine Aufgaben am besten funktioniert, und wirst als Fachperson ernst genommen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

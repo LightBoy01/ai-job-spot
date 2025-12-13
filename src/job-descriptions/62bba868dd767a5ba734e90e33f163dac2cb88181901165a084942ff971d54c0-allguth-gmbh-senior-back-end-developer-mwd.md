@@ -92,4 +92,4 @@ Bitte senden Sie die vollständigen Bewerbungsunterlagen an Allguth GmbH, Frau L
 
 \*Die kununu-Auszeichnung unserer Allguth GmbH zum „Top Arbeitgeber 2026“ finden Sie z.B. hier: [https://www.kununu.com/de/allguth2.](https://www.kununu.com/de/allguth2)
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

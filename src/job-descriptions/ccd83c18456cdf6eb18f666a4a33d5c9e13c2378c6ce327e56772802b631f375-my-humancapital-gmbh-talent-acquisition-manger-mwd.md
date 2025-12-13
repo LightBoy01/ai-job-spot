@@ -78,4 +78,4 @@ Neben einer erfolgreich abgeschlossenen Ausbildung oder Studium bringst Du ideal
 
 **Du möchtest Teil der Erfolgsgeschichte werden?** Dann freuen wir uns auf Deine Bewerbung. Sende uns einfach Deinen Lebenslauf zu. Auf ein Anschreiben kannst Du gerne verzichten. Für Rückfragen steht Dir **Franzi Wild** gerne unter **089 954 287 – 104** zur Verfügung.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -55,4 +55,4 @@ Benefits
 
 Werden Sie Teil eines dynamischen Teams und gestalten Sie gemeinsam mit uns die Energiewende! Bei uns haben Sie die Möglichkeit, Ihre Ideen einzubringen und aktiv an spannenden Herausforderungen zu arbeiten.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

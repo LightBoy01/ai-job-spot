@@ -87,4 +87,4 @@ Weiterentwicklungs- und Aufstiegsmöglichkeiten in den nächsten Jahren sind vor
 *   Auch Programmierkenntnisse z.b. mit JavaScript oder Python sind von Vorteil, aber nicht notwendig
     
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

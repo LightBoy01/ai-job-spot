@@ -65,4 +65,4 @@ Während wir weiter international wachsen, hast du die Chance, einen echten Unte
 
 Wenn du bereit bist, über dich hinauszuwachsen und deine Reise bei uns zu starten, dann ist Flix genau der richtige Ort für dich!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

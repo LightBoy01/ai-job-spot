@@ -73,4 +73,4 @@ Benefits
 
 **Du erkennst dich und deine Fähigkeiten in der Stellenbeschreibung wieder? Zusätzlich hat Hypofriend als Arbeitgeber dein Interesse geweckt? Dann freuen wir uns auf deine aussagekräftige Bewerbung.**
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

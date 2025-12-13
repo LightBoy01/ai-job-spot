@@ -57,4 +57,4 @@ Senden Sie Ihre vollständigen Unterlagen gerne an uns zu.
 
 Wir freuen uns darauf, von Ihnen zu hören!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -77,4 +77,4 @@ Du hast bei uns die Freiheit, gemeinsam Gutes zu gestalten. Das bedeutet:
 
 Bewirb dich jetzt, wenn du dich von diesen Core Values angesprochen fühlst und werde Teil unseres Teams! Wir freuen uns auf dich.
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

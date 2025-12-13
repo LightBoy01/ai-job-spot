@@ -16,10 +16,10 @@ status: pending_review
 tags:
   - AI
   - Apps
-  - ai apps
   - Chrome
   - Google
   - web apps
+  - ai apps
 excerpt: >-
   Google Labs is testing a product that will work with your browser tabs to make
   web apps for you.

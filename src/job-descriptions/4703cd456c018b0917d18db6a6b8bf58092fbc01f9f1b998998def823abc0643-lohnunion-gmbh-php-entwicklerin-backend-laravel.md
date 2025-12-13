@@ -119,4 +119,4 @@ Für weitere Informationen schau auch gerne auf unserer Website vorbei!
 HR Managerin LOHNunion  
 Tel: 0431 5300 51-21
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

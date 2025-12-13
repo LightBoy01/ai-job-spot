@@ -66,4 +66,4 @@ Benefits
 *   **Essenszuschuß** bei Nutzung von **every-foods**
 *   **Zugang** zu **Probonio** und **Corporate Benefits**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

@@ -4,8 +4,8 @@ title: Customer Care Representative | Scaling Phase
 company: Matera GmbH
 location: Berlin
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/matera-gmbh/customer-care-representative-scaling-phase-berlin-286920
-postedDate: '2025-12-10T08:31:38.000Z'
+  https://www.arbeitnow.com/jobs/companies/matera-gmbh/customer-care-representative-scaling-phase-berlin-155224
+postedDate: '2025-12-12T10:02:09.000Z'
 expirationDate: null
 tags:
   - Customer Service
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/matera-gmbh/customer-care-representative-scaling-phase-berlin-286920
+  https://www.arbeitnow.com/jobs/companies/matera-gmbh/customer-care-representative-scaling-phase-berlin-155224
 companyLogoUrl: null
 ---
 **In a nutshell:**

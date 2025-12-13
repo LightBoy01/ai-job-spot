@@ -5,7 +5,7 @@ company: dailyTalents
 location: Wuppertal
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/dailytalents/technische-leitung-it-operations-wuppertal-bucs-it-gmbh-173028
-postedDate: '2025-12-12T09:31:57.000Z'
+postedDate: '2025-12-12T14:29:03.000Z'
 expirationDate: null
 tags:
   - IT
@@ -48,7 +48,7 @@ Benefits
 *   Flexible Arbeitszeiten ohne Kernarbeitszeit
 *   Moderne, offene Arbeitsumgebung & starke Teamkultur
 *   Regelmäßige Team- und Firmen-Events
-*   Strukturierter Bewerbungsprozess & persönliches Onboarding
+*   2000 EUR individuelles Fortbildungsbudget zur freien Verfügung
 
 **Wir freuen uns auf deine Bewerbung!**
 
@@ -56,4 +56,4 @@ Klingt nach deinem nächsten Karriereschritt?
 
 Dann bewirb dich jetzt und werde Teil eines Teams, das Technologie & Menschen wirklich zusammenbringt.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

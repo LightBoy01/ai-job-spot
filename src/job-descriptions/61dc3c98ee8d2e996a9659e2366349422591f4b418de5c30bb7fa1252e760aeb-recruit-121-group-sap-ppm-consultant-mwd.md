@@ -69,4 +69,4 @@ Klingt interessant?
 
 Dann freue ich mich auf deine Bewerbung!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

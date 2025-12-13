@@ -74,4 +74,4 @@ Bitte teile uns mit:
 **P.S.** Du möchtest deine Projekt-, Bachelor- oder Masterarbeit im Unternehmen schreiben?  
 Super! Wir sind immer offen für neue Themen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

@@ -53,4 +53,4 @@ Dein Winning Deal
 *   **Die Werte:** Wir punkten mit einer **offenen, authentischen Kultur** und einem **leistungsstarken** sowie **humorvollen Team**, das sich schon jetzt darauf freut, mit dir **mutige** **Entscheidungen** zu treffen und**n** **eue Wege** zu gehen, die uns zu **nachhaltigen** **Erfolgen** führen.
 *   **Deine Chance:** Bei uns hast du vom ersten Tag an die Möglichkeit, **Verantwortung**zu übernehmen,**Innovationen** voranzutreiben und gemeinsam mit einem Team aus**Expert:innen**das Unternehmen und dich **weiterzuentwickeln** **.**
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

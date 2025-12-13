@@ -60,4 +60,4 @@ Lust, mit uns außergewöhnliche Markenerlebnisse zu gestalten?
 
 Wir sind auf deine aussagekräftige Bewerbung (inkl. Portfolio und Konditionen) gespannt und freuen uns dich kennenzulernen.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

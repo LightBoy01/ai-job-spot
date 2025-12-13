@@ -4,75 +4,62 @@ title: Investment Analyst (m/w/d) im Bereich Kapitalmärkte
 company: DeltaValue GmbH
 location: Essen
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/deltavalue-gmbh/investment-analyst-im-bereich-kapitalmarkte-essen-477393
-postedDate: '2025-11-28T10:01:47.000Z'
+  https://www.arbeitnow.com/jobs/companies/deltavalue-gmbh/investment-analyst-im-bereich-kapitalmarkte-essen-82610
+postedDate: '2025-12-12T10:32:31.000Z'
 expirationDate: null
 tags:
   - Asset
   - Fonds Management
-status: published
-jobLevel: Mid-Senior
-employeeRole: Individual Contributor
+status: pending_review
+jobLevel: null
+employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/deltavalue-gmbh/investment-analyst-im-bereich-kapitalmarkte-essen-477393
+  https://www.arbeitnow.com/jobs/companies/deltavalue-gmbh/investment-analyst-im-bereich-kapitalmarkte-essen-82610
 companyLogoUrl: null
-companyCulture: >-
-  DeltaValue fosters a highly collaborative and collegiate work environment,
-  emphasizing continuous personal and professional growth through regular
-  training. They prioritize work-life balance by offering flexible remote work
-  options and ensure efficient workflows through a fully digitalized operational
-  structure.
-story_question1: >-
-  How does an Investment Analyst at DeltaValue directly contribute to empowering
-  clients and shaping the evolution of your capital market strategies?
-story_answer1: >-
-  Here at DeltaValue, being an Investment Analyst means you're not just
-  crunching numbers; you're at the forefront of client empowerment. We're a
-  team, and your sharp analyses and insights directly inform the strategies we
-  develop, helping our clients navigate complex markets with confidence. Seeing
-  our customers succeed because of the guidance we provide, which is underpinned
-  by your rigorous research and thoughtful portfolio structuring, is incredibly
-  rewarding. It's a continuous feedback loop: client needs drive our innovation,
-  and your contributions are essential to both.
-story_question2: >-
-  With DeltaValue's commitment to continuous learning and a unique approach to
-  compensation, how does the company cultivate a high-performance culture that
-  truly supports individual growth and expertise in such a dynamic industry?
-story_answer2: >-
-  That's a fantastic question and truly touches on the heart of DeltaValue. We
-  believe that exceptional results come from exceptional people, and that means
-  investing in them. Our "unlimited" compensation isn't just a tagline; it's a
-  reflection of our belief that your value grows with your expertise. We foster
-  this through regular, tailored training, encouraging you to become a true
-  expert. The market is always moving, so we empower you with the resources and
-  autonomy to stay ahead, knowing that your personal development directly fuels
-  our collective success. It's challenging, yes, but incredibly rewarding to see
-  yourself and your colleagues constantly evolving.
 ---
-### Description
-DeltaValue GmbH is a leading provider of capital market education and strategies, guiding hundreds of clients annually across Germany, Austria, and Switzerland. As an Investment Analyst (m/f/d), you will be a crucial part of our team, supporting research processes, enhancing our product offerings, structuring client portfolios, and evaluating specific trading ideas in equity, options, and futures markets. You will also engage directly with clients to support the implementation of our strategies.
+Wir als DeltaValue GmbH suchen neue Teammitglieder (m/w/d) als Investment Analyst im Bereich Kapitalmärkte.
 
-### Responsibilities
-*   Conduct regular equity screenings and company analyses.
-*   Manage and support our existing strategies in equity, options, and futures trading.
-*   Assist clients with portfolio structuring and asset allocation.
-*   Provide technical and didactic support to our client base regarding the implementation of our strategies.
-*   Create presentations, reports, evaluations, checklists, and guides for clients using standard office applications.
-*   Continuously develop your own knowledge and skills across all areas of capital markets.
+Als Investment Analyst (m/w/d) unterstützt du unsere Research-Prozesse, die Betreuung und Weiterentwicklung unserer Produkte, die Strukturierung von Kundenportfolios und Evaluierung konkreter Handelsideen in den Bereichen Aktien-, Options- und Futurehandel. Darüberhinaus stehst du im Austausch mit unseren Kunden zur Unterstützung unserer Strategien.
 
-### Qualifications
-*   Possess a quick comprehension and a strong sense of precision.
-*   Ability to follow existing processes and execute them reliably.
-*   High motivation to consistently deliver your best for our clients.
-*   Maintain a professional demeanor and stylish appearance.
-*   Fluent German, both written and spoken (negotiation level).
-*   Demonstrable experience in personal capital investment on the stock market.
-*   A degree in Finance or Asset Management is advantageous.
-*   Experience in customer support is advantageous.
+Als staatlich geprüftes und zugelassenes Ausbildungsunternehmen vermitteln wir unseren Kunden Wissen rund um die erfolgreiche Kapitalanlage. Jährlich begleiten wir hunderte Kunden aus Deutschland, Österreich und der Schweiz auf diesem Weg und sind damit einer der führenden Anbieter.
 
-### Author's Take
-This Investment Analyst role at DeltaValue GmbH offers a compelling opportunity for individuals passionate about capital markets and client empowerment. The company stands out by offering a secure, long-term growth path with a truly competitive and uncapped salary potential, acknowledging that individual expertise is the key to collective success.
+Aufgaben
+--------
 
-You'll thrive in a positive, collegiate atmosphere that actively promotes collaboration and continuous learning, transforming you into a market expert. The fully digitalized work environment ensures efficient processes, freeing you to focus on high-impact tasks. With the flexibility of remote work and a centrally located office in Essen, DeltaValue demonstrates a commitment to modern work-life balance and employee well-being. This is an ideal position for someone who values direct impact, continuous personal development, and a supportive, forward-thinking employer.
+*   Erstellung regelmäßiger Aktienscreenings und Unternehmensanalysen
+*   Betreuung unserer Strategien in den Bereichen Aktien-, Options-, und Futurehandel
+*   Unterstützung unserer Kunden bei der Portfoliostrukturierung und Assetallokation
+*   Betreuung unseres Kundenstammes bei technischen und didaktischen Fragen rund um die Umsetzung unserer Strategien
+*   Erstellung von Präsentationen, Reports, Auswertungen, Checklisten und Leitfäden für Kunden mit gängigen Office-Anwendungen
+*   Kontinuierliche Weiterentwicklung des eigenen Wissens und eigener Fähigkeiten im Gesamtbereich "Kapitalmärkte"
+
+Qualifikation
+-------------
+
+*   Schnelle Auffassungsgabe und ausgeprägtes Gespür für Präzision
+*   Die Fähigkeit, bestehenden Prozessen zu folgen und diese zuverlässig auszuführen
+*   Motivation, jeden Tag für unsere Kunden dein Bestes zu geben
+*   Professionelles Auftreten sowie stilsicheres Erscheinungsbild
+*   Verhandlungssicheres Deutsch in Wort und Schrift
+*   Erfahrungen in der eigenen Kapitalanlage an der Börse
+*   Abgeschlossenes Studium in den Bereichen Finance oder Asset Management von Vorteil
+*   Erfahrungen in der Kundenbetreuung von Vorteil
+
+Benefits
+--------
+
+*   **Sicherer Arbeitsplatz:** Wir bieten das Potenzial, gemeinsam langfristig zu wachsen.
+*   **Gute Bezahlung und Karrierechancen:** Gute Arbeit wird mit guter Bezahlung entlohnt. Dein Gehalt ist explizit nicht auf das Niveau begrenzt, das in der Branche üblich ist.
+*   **Positive Arbeitsatmosphäre:** Unser Team begeistert täglich unsere Kunden aufs Neue. Dies ist nur mit einer positiven Atmosphäre im Team möglich. Daher herrscht bei uns ein kollegiales Verhältnis, welches wir aktiv fördern.
+*   **Vollständig digitalisiertes Unternehmen:** Keine unnötigen Abläufe und bürokratische Hürden. Bei uns findest du ein digitalisiertes Unternehmen, das dir reibungslose Arbeitsabläufe ermöglicht.
+*   **Remote-Arbeit möglich:** Hohe Flexibilität durch die Möglichkeit vor Ort in unserem Büro in Essen oder dem Home Office arbeiten zu können.
+*   **Kontinuierliche Weiterbildung:** Persönliches Wachstum ist uns sehr wichtig. Daher bieten wir dir auf Wunsch regelmäßige Weiterbildungen in den verschiedensten Bereichen - damit du langfristig zum Experten in deinem Bereich werden kannst.
+*   **Zentrales Büro & Fahrtkostenzuschüsse:** Zentrale Lage und optimale Verkehrsanbindung, auch für Pendler. Wir beteiligen uns auf Wunsch auch an den Fahrtkosten. Unser Büro ist zentral in Essen und nur wenige Meter vom Limbecker Platz entfernt.
+
+Exzellentes sowie zielorientiertes Arbeiten, ein gutes Arbeitsklima und eine Tätigkeit, mit der du etwas bewirkst, sind genau dein Ding?
+
+Du suchst einen zuverlässigen Arbeitgeber, der gleichzeitig Raum für individuelles Wachstum bietet? Dann bewirb dich jetzt!
+
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

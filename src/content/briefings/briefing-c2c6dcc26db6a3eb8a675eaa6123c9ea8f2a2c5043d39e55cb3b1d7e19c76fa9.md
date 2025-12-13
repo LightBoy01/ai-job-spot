@@ -14,7 +14,9 @@ originalUrl: >-
   https://techcrunch.com/2025/12/11/stanfords-star-reporter-takes-on-silicon-valleys-money-soaked-startup-culture/
 status: pending_review
 tags:
+  - Media & Entertainment
   - Venture
+  - Theo Baker
 excerpt: >-
   His reporting on a Stanford University president put Theo Baker on the map,
   but his upcoming book may cement his reputation as the rare young journalist

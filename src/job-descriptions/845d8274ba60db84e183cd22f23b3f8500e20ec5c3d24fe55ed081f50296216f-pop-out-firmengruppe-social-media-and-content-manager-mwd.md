@@ -80,4 +80,4 @@ Benefits
 
 Wir freuen uns über Bewerbungen von Menschen aller Geschlechter, Altersgruppen, kulturellen Hintergründe, sexuellen Orientierungen & Identitäten. Bei uns zählt Vielfalt – und wir fördern ein Arbeitsumfeld, in dem jede Person respektiert, wertgeschätzt & willkommen ist! 🤝
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

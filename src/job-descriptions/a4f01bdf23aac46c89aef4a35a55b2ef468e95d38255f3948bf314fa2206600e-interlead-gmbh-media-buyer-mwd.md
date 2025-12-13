@@ -77,4 +77,4 @@ Das sind unsere Werte
 *   Ergebnisse: Wir arbeiten flexibel, aber verlässlich. Bei uns steht Freiheit in Einklang mit Ergebnisorientierung und Eigenverantwortung.
 *   Vertrauen: Wir gehen offen mit Zahlen, Stärken und Schwächen um und machen das, was für die Firma richtig ist ("Ego zurück").
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

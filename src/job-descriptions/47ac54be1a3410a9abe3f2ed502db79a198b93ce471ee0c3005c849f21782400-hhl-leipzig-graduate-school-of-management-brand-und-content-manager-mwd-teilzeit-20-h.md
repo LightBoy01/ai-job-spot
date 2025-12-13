@@ -5,7 +5,7 @@ company: HHL Leipzig Graduate School of Management
 location: Leipzig
 applicationLink: >-
   https://www.arbeitnow.com/jobs/companies/hhl-leipzig-graduate-school-of-management/brand-und-content-manager-teilzeit-20-h-leipzig-438908
-postedDate: '2025-12-12T08:01:57.000Z'
+postedDate: '2025-12-12T12:29:03.000Z'
 expirationDate: null
 tags:
   - Marketing and Communication
@@ -25,7 +25,7 @@ Aufgaben
 
 **Brand Management:**
 
-Du arbeitest aktiv an der Weiterentwicklung unserer Marke mit und bist verantwortlich für die operative Umsetzung von Maßnahmen wie Standortbranding, Pflege von Designvorlagen, Printprodukten und Offline-Kampagnen. Außerdem verantwortest du eigenständig den Betrieb unseres Merchandise-Shops und sorgst für ein konsistentes, konformes Markenrlebnis.
+Du arbeitest aktiv an der Weiterentwicklung unserer Marke mit und bist verantwortlich für die operative Umsetzung von Maßnahmen wie Standortbranding, Pflege von Designvorlagen, Printprodukten und Offline-Kampagnen. Außerdem verantwortest du eigenständig den Betrieb unseres Merchandise-Shops und sorgst für ein konsistentes, konformes Markenerlebnis.
 
 **Content Management:**
 

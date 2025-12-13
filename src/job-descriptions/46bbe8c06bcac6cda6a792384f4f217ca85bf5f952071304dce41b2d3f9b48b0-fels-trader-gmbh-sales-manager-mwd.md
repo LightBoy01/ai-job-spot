@@ -60,4 +60,4 @@ Was wir bieten:
 *   30 Tage Urlaub und alle drei Jahre zusätzlich ein Monat bezahlten Sonderurlaub
 *   Homeoffice-Optionen zur Förderung einer modernen Work-Life-Balance
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

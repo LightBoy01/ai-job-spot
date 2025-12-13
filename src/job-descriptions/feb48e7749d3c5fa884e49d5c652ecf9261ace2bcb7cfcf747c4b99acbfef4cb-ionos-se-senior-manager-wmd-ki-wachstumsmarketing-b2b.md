@@ -73,4 +73,4 @@ IONOS ist der führende europäische Digitalisierungs-Partner für kleine und mi
 
 Wir wertschätzen Vielfalt und begrüßen alle Bewerbungen – unabhängig von z. B. Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion, Behinderung, Alter sowie sexueller Orientierung und Identität, körperlichen Merkmalen, Familienstand oder einem anderen sachfremden Kriterium nach geltendem Recht.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

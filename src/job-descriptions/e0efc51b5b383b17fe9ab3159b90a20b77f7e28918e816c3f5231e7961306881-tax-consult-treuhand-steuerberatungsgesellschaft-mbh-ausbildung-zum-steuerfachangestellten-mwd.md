@@ -40,4 +40,4 @@ Qualifikation
 
 Starte deine Karriere in einer innovativen Steuerkanzlei! Werde Teil unseres Teams und erlebe Steuerberatung neu. Bewirb dich jetzt als Ausbildung zum Steuerfachangestellter (m/w/d)! 🚀
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

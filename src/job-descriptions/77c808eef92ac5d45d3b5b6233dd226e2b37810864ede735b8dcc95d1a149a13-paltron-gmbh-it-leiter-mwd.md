@@ -60,4 +60,4 @@ Ihre Unterlagen können Sie uns direkt über den Button "Jetzt bewerben" schnell
 
 Wir freuen uns darauf, Sie kennenzulernen!
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

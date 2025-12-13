@@ -57,4 +57,4 @@ Die **Netzwerkbahn Sachsen GmbH (NeS)** ist ein junges, deutschlandweit tätiges
 Du möchtest gemeinsam mit der Netzwerkbahn Sachsen durchstarten?  
 Dann komm an Bord und bewirb Dich jetzt. Wir freuen uns von Dir zu hören! 
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

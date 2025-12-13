@@ -60,4 +60,4 @@ Bei Flix konzentrieren wir uns darauf, Reisen einfach, sicher und erschwinglich 
 
 Wenn du einen Job suchst, in dem du wachsen und etwas bewirken kannst, dann bist du bei FlixTrain genau richtig. Hier kannst du Teil eines Teams werden, in dem dein Beitrag zählt und du deine Reise selbst gestalten kannst! 
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

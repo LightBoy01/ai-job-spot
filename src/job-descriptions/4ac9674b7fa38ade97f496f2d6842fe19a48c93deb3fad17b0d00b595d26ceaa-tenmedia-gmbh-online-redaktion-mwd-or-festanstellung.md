@@ -82,4 +82,4 @@ Weydingerstraße 14 - 16
 
 Tel: +49 30 5 490 650-0 | Fax: +49 30 5 490 650-79 | Ust-Id: DE285186723 | Geschäftsführer: Rami Jabr | Amtsgericht Charlottenburg - HRB: 141523
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow

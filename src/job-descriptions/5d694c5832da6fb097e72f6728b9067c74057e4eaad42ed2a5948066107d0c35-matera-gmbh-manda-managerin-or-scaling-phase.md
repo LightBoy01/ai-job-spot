@@ -4,8 +4,8 @@ title: M&A Manager*in | Scaling Phase
 company: Matera GmbH
 location: Berlin
 applicationLink: >-
-  https://www.arbeitnow.com/jobs/companies/matera-gmbh/ma-managerin-scaling-phase-berlin-33987
-postedDate: '2025-12-10T08:31:32.000Z'
+  https://www.arbeitnow.com/jobs/companies/matera-gmbh/ma-managerin-scaling-phase-berlin-255615
+postedDate: '2025-12-12T10:02:08.000Z'
 expirationDate: null
 tags:
   - Mergers & Acquisitions
@@ -15,7 +15,7 @@ employeeRole: null
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
-  https://www.arbeitnow.com/jobs/companies/matera-gmbh/ma-managerin-scaling-phase-berlin-33987
+  https://www.arbeitnow.com/jobs/companies/matera-gmbh/ma-managerin-scaling-phase-berlin-255615
 companyLogoUrl: null
 ---
 **In a nutshell:**

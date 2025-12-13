@@ -79,4 +79,4 @@ Besuchen Sie unsere Website und erfahren Sie mehr über unser Franchise-System.
 
 Kontaktieren Sie uns heute noch und finden Sie heraus, wie Sie Ihr eigenes Pflegehelden Franchise starten können. Lassen Sie uns gemeinsam mehr Familien helfen und die Pflegebranche zum Besseren verändern!
 
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow

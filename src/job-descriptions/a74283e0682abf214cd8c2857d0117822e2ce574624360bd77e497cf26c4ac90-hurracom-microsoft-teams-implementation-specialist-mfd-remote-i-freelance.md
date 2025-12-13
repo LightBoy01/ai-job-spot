@@ -79,4 +79,4 @@ Requirements
 
 ⚠️ When applying, please include your **CV or portfolio** _and_ a **short 2–3 minute introduction video** (in English) telling us briefly about your experience with Microsoft Teams integrations.
 
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
