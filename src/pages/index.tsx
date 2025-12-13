@@ -3,6 +3,7 @@ import Layout from '@/components/Layout';
 import JobCard from '@/components/JobCard';
 import AdContainer from '@/components/AdContainer';
 import { getJobsServer } from '@/lib/firestoreServer';
+import { getTopMetadata } from '@/lib/firestoreAdminClient';
 import { SerializedJobPosting } from '@/lib/types';
 import { NEW_JOB_THRESHOLD_MS, JOB_FETCH_LIMIT } from '@/lib/constants';
 import { GetStaticProps } from 'next';
@@ -11,6 +12,7 @@ import { useSessionScrollRestoration, getInitialStateFromSession, ScrollRestorat
 import JobSearchBar from '@/components/JobSearchBar';
 import Pagination from '@/components/Pagination';
 import { smoothScrollToTop } from '@/lib/utils';
+import BrowseBy from '@/components/BrowseBy';
 
 const jobScrollConfig: ScrollRestorationConfig = {
   listKey: 'jobListingJobs',
@@ -25,6 +27,8 @@ const jobScrollConfig: ScrollRestorationConfig = {
 interface HomeProps {
   initialJobs: SerializedJobPosting[];
   lastDocId: string | null;
+  topTags: string[];
+  topLocations: string[];
 }
 
 const generateJobListSchema = (jobs: SerializedJobPosting[]) => {
@@ -77,6 +81,8 @@ const generateJobListSchema = (jobs: SerializedJobPosting[]) => {
 export default function Home({
   initialJobs: staticJobs,
   lastDocId: staticLastDocId,
+  topTags,
+  topLocations,
 }: HomeProps) {
   const {
     initialItems: sessionJobs,
@@ -289,6 +295,9 @@ export default function Home({
           onNext={handleNextPage}
           isLoading={loading}
         />
+
+        {/* pSEO Internal Linking Section */}
+        <BrowseBy topTags={topTags} topLocations={topLocations} />
       </div>
     </Layout>
   );
@@ -296,6 +305,8 @@ export default function Home({
 
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   let lastDocId: string | null = null;
+  const { tags, locations } = await getTopMetadata();
+
   try {
     const { jobs, lastVisible } = await getJobsServer(JOB_FETCH_LIMIT);
 
@@ -330,6 +341,8 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
       props: {
         initialJobs: filteredJobs,
         lastDocId,
+        topTags: tags,
+        topLocations: locations,
       },
       revalidate: 60,
     };
@@ -339,6 +352,8 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
       props: {
         initialJobs: [],
         lastDocId: null,
+        topTags: tags,
+        topLocations: locations,
       },
       revalidate: 60,
     };

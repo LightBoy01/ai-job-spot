@@ -108,15 +108,16 @@ const LocationPage: NextPage<LocationPageProps> = ({
         <title>{`AI Jobs in ${location} | AI Job Spot`}</title>
         <meta
           name="description"
-          content={`Find the latest AI, Machine Learning, and Data Science jobs in ${location}.`}
+          content={`Find the best AI and Machine Learning jobs in ${location}. Browse curated local opportunities for developers, researchers, and data scientists.`}
         />
+        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}/jobs/location/${encodeURIComponent(location)}`} />
       </Head>
       <div className="max-w-6xl mx-auto px-4 py-12 text-center">
         <h1 className="page-title text-4xl sm:text-5xl md:text-6xl mb-4">
           AI Jobs in {location}
         </h1>
         <p className="mt-2 text-lg text-neutral-600 font-sans max-w-2xl mx-auto">
-          Explore the latest opportunities in Artificial Intelligence and Machine Learning located in {location}.
+          Your gateway to the thriving AI career market in {location}. Discover top-tier opportunities near you.
         </p>
         <div className="mt-12 text-left">
           {displayedJobs.length > 0 ? (

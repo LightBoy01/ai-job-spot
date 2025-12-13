@@ -198,15 +198,16 @@ const TagPage: NextPage<TagPageProps> = ({
         <title>{`Content tagged with "${tag}" | AI Job Spot`}</title>
         <meta
           name="description"
-          content={`Find the latest jobs and articles related to ${tag}.`}
+          content={`Explore top ${tag} jobs and articles. Your #1 resource for ${tag} careers in the AI industry.`}
         />
+        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}/tags/${encodeURIComponent(tag)}`} />
       </Head>
       <div className="max-w-6xl mx-auto px-4 py-12 text-center">
         <h1 className="page-title text-4xl sm:text-5xl md:text-6xl mb-4">
           #{tag}
         </h1>
         <p className="mt-2 text-lg text-neutral-600 font-sans max-w-2xl mx-auto">
-          A curated collection of jobs and articles related to &quot;{tag}&quot;. Explore the opportunities and insights shaping this domain.
+          Discover the latest {tag} job opportunities and expert insights. Curated for professionals shaping the future of AI.
         </p>
         <div className="mt-12 text-left">
           <h2 className="text-3xl font-serif font-bold text-primary-dark mb-6">

@@ -391,3 +391,53 @@ export async function getRelatedSkills(tags: string[], limit = 10): Promise<{ ty
     return [];
   }
 }
+
+export async function getTopMetadata(): Promise<{ tags: string[]; locations: string[] }> {
+  try {
+    const { adminDb } = await getFirebaseAdmin();
+    // Fetch last 100 jobs to analyze trends
+    const snapshot = await adminDb.collection('jobs')
+      .where('status', '==', 'published')
+      .orderBy('postedDate', 'desc')
+      .limit(100)
+      .get();
+
+    const tagCounts: Record<string, number> = {};
+    const locationCounts: Record<string, number> = {};
+
+    snapshot.docs.forEach(doc => {
+      const data = doc.data();
+      
+      // Count Tags
+      if (Array.isArray(data.tags)) {
+        data.tags.forEach((tag: string) => {
+          tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+        });
+      }
+
+      // Count Locations (simple string frequency)
+      if (data.location && typeof data.location === 'string') {
+        const loc = data.location.trim();
+        // Maybe simplify locations here if needed (e.g. "Berlin, Germany" -> "Berlin")
+        // For now, use raw string but trim
+        locationCounts[loc] = (locationCounts[loc] || 0) + 1;
+      }
+    });
+
+    const sortedTags = Object.entries(tagCounts)
+      .sort(([, a], [, b]) => b - a)
+      .slice(0, 20)
+      .map(([tag]) => tag);
+
+    const sortedLocations = Object.entries(locationCounts)
+      .sort(([, a], [, b]) => b - a)
+      .slice(0, 10)
+      .map(([loc]) => loc);
+
+    return { tags: sortedTags, locations: sortedLocations };
+
+  } catch (error) {
+    console.error('Error fetching top metadata:', error);
+    return { tags: [], locations: [] };
+  }
+}
