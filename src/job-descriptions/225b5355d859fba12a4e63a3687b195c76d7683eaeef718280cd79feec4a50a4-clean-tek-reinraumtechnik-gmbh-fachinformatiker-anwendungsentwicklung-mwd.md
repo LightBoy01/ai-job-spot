@@ -9,58 +9,34 @@ postedDate: '2025-12-12T10:32:27.000Z'
 expirationDate: null
 tags:
   - Software Development
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/clean-tek-reinraumtechnik-gmbh/fachinformatiker-anwendungsentwicklung-renningen-263919
 companyLogoUrl: null
+companyCulture: >-
+  clean-tek fosters a collaborative and dynamic work environment with flat
+  hierarchies, emphasizing teamwork and individual responsibility. Employees can
+  expect significant growth opportunities in a stable, expanding market,
+  supported by a positive culture and various benefits promoting work-life
+  balance.
+story_question1: >-
+  How will you drive the digital transformation of cleanroom technology through
+  innovative ERP solutions?
+story_answer1: >-
+  This role puts you at the heart of developing and optimizing critical ERP
+  software for leading players in the pharma, med-tech, and biotech industries.
+  You'll directly contribute to the efficiency and modernization of high-tech
+  cleanroom systems, making a tangible impact on a future-proof market.
+story_question2: >-
+  What is the unique synergy of developing robust applications while also
+  ensuring seamless IT operations?
+story_answer2: >-
+  You'll bridge the gap between software innovation and practical IT support,
+  gaining a holistic understanding and influencing the entire tech stack from
+  concept to user support.
 ---
-clean-tek ist ein namhaftes und international ausgerichtetes, mittelständisches Unternehmen mit Sitz in Renningen bei Stuttgart. Wir planen, bauen und realisieren moderne und leistungsfähige Reinraumsysteme mit hohem Individualisierungsgrad im industriellen Maßstab.
-
-Bei uns erwartet Sie ein spannendes und dynamisches Tätigkeitsfeld in einem zukunftssicheren Markt. Unser Kundenstamm besteht im Wesentlichen aus namhaften Unternehmen der Pharmaindustrie, Medizintechnik oder Biotechnologie. Ebenso sind wir in der Lebensmitteltechnik und Elektronikindustrie tätig. Dank unserer langjährigen Kundenstruktur und dem Engagement unserer Mitarbeiter können wir ein deutlich überdurchschnittliches Unternehmenswachstum verzeichnen.
-
-Aufgaben
---------
-
-*   Konzeption, Entwicklung und Optimierung von ERP-Software Anwendungen (Web-Apps, Datenbanksysteme o.ä.).
-*   Analyse von Anforderungen in enger Abstimmung mit internen Fachabteilungen.
-*   Programmierung mit relevanten Technologien (z.B. C++, Microsoft AL, VBA HTML, Python, Java o.ä.).
-*   Integration und Anpassung bestehender IT-Systeme und Erweiterungen.
-*   Qualitätssicherung durch Testing und Dokumentation der entwickelten Anwendungen.
-*   1st Level Support für interne IT-Fragen und Störungen.
-*   Betreuung der IT-Infrastruktur, inklusive Hardware-Management (PCs, Laptops, Drucker) und grundlegender Netzwerkthemen.
-*   Betreuung, Beratung und Schulung von Anwendern und Kollegen.
-*   Nutzung moderner Entwicklungswerkzeuge und Methoden (z.B. GitHub, agile Methoden).
-
-Qualifikation
--------------
-
-*   **Ausbildung:** Abgeschlossene Ausbildung als Fachinformatiker:in in der Fachrichtung Anwendungsentwicklung oder eine vergleichbare Qualifikation.
-*   **Erfahrungen und Know-how:** Sie sind sicher im Umgang mit gängigen Programmiersprachen und Webtechnologien (z. B. C++, Microsoft AL, VBA HTML, Python, Java). Sie bringen Erfahrungen in der Datenbankverwaltung (z.B. SQL, MySQL, PostgreSQL) mit und haben ein grundlegendes Verständnis für IT-Infrastruktur. Erste Berührungspunkte mit agilen Entwicklungsmethoden sind von Vorteil. Sehr gute Deutschkenntnisse in Wort und Schrift sowie gute Englischkenntnisse runden Ihr Profil ab.
-*   **Persönlichkeit und Arbeitsweise:** Sie zeichnen sich durch ein analytisches Denkvermögen sowie eine strukturierte, sorgfältige, lösungsorientierte und teamfähige Arbeitsweise aus. Sie bringen eine hohe Serviceorientierung und gute Kommunikationsfähigkeiten mit.
-*   **Begeisterung:** Sie besitzen eine ausgeprägte „hands-on-Mentalität“ und haben eine Leidenschaft für neue Technologien und digitale Trends.
-
-Benefits
---------
-
-*   Eine spannende und eigenverantwortliche Aufgabe
-*   Kurze Entscheidungswege durch flache Hierarchien
-*   Motivierte Teams und eine positive Unternehmenskultur
-*   Dynamische, stark wachsende Unternehmensentwicklung
-*   Eine unbefristete Festanstellung in Verbindung mit einem sicheren Arbeitsplatz
-*   Attraktive leistungsorientierte Vergütung
-*   Moderne Hardware mit Office 365
-*   Beteiligung an Vermögenswirksamen Leistungen
-*   Kantine in unmittelbarer Nähe
-*   Mit ÖPNV sehr gut erreichbar
-*   Mehr von Ihrem Geld: Mit Corporate Benefits sowie JobRad Leasing
-*   Regelmäßigen Teamevents ‒ vom Sommerfest bis zur Weihnachtsfeier
-
-**Werden Sie Teil unseres Teams!**
-
-Wir freuen uns auf Ihre vollständigen Bewerbungsunterlagen mit Angabe des nächstmöglichen Eintrittstermins sowie Ihrer Gehaltsvorstellung. Unser Versprechen: Aufgrund unseres 3-stufigen Personalauswahlprozesses werden Sie innerhalb von 4 Wochen Teil unseres Teams.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nclean-tek is a renowned, internationally oriented, medium-sized company based in Renningen near Stuttgart. We plan, build, and realize modern and high-performance cleanroom systems with a high degree of individualization on an industrial scale. You can expect an exciting and dynamic field of activity in a future-proof market. Our customer base primarily consists of well-known companies in the pharmaceutical, medical technology, and biotechnology industries, as well as the food technology and electronics industries. Thanks to our long-standing customer structure and the commitment of our employees, we are experiencing significantly above-average company growth.\n\n### Responsibilities\n- Conceive, develop, and optimize ERP software applications (web apps, database systems, etc.).\n- Analyze requirements in close coordination with internal departments.\n- Program with relevant technologies (e.g., C++, Microsoft AL, VBA HTML, Python, Java, etc.).\n- Integrate and adapt existing IT systems and extensions.\n- Ensure quality through testing and documentation of developed applications.\n- Provide 1st Level Support for internal IT inquiries and disruptions.\n- Manage IT infrastructure, including hardware (PCs, laptops, printers) and fundamental network topics.\n- Support, advise, and train users and colleagues.\n- Utilize modern development tools and methods (e.g., GitHub, agile methods).\n\n### Qualifications\n- **Education:** Completed vocational training as an IT specialist specializing in application development, or a comparable qualification.\n- **Experience and Know-how:** Proficient in common programming languages and web technologies (e.g., C++, Microsoft AL, VBA HTML, Python, Java). Experience in database management (e.g., SQL, MySQL, PostgreSQL) and a basic understanding of IT infrastructure. Initial exposure to agile development methods is a plus. Very good German language skills (written and spoken) and good English skills complete your profile.\n- **Personality and Working Style:** Characterized by analytical thinking, a structured, diligent, solution-oriented, and team-player approach. High service orientation and good communication skills.\n- **Enthusiasm:** Possess a strong \"hands-on mentality\" and a passion for new technologies and digital trends.\n\n### Author's Take\nThis is an excellent opportunity for an IT specialist who thrives on both software development and hands-on IT infrastructure management within a high-tech industrial environment. clean-tek offers a stable, rapidly growing workplace with flat hierarchies, allowing for significant individual responsibility and impact. With attractive benefits like corporate discounts, job bike leasing, and regular team events, coupled with a supportive culture and a quick 4-week hiring process, this role promises a rewarding career path in a vital industry.
