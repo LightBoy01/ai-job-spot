@@ -75,17 +75,17 @@ const JobSearchBar: React.FC<JobSearchBarProps> = ({ initialFilters, onFilterCha
           </svg>
         </div>
       </div>
-      <div className="w-full max-w-lg flex items-center justify-center space-x-4 mt-4">
+      <div className="w-full max-w-lg flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
         <button
           onClick={() => setShowFilters(!showFilters)}
-          className="text-sm text-primary-dark hover:text-secondary-dark font-semibold transition-colors font-sans"
+          className="text-sm text-primary-dark border border-primary-dark/20 bg-white/50 px-4 py-2 rounded-full hover:bg-primary-dark hover:text-white hover:border-primary-dark transition-all duration-300 font-semibold font-sans shadow-sm"
         >
           {showFilters ? 'Hide Advanced Filters' : 'Show Advanced Filters'}
         </button>
         {(searchQuery || locationFilter || jobLevelFilter || tagsFilter) && (
           <button
             onClick={handleClearFilters}
-            className="text-sm text-red-600 hover:text-red-800 font-semibold transition-colors font-sans"
+            className="text-sm text-red-600 border border-red-200 bg-red-50 px-4 py-2 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 font-semibold font-sans shadow-sm"
           >
             Clear Filters
           </button>
@@ -93,10 +93,10 @@ const JobSearchBar: React.FC<JobSearchBarProps> = ({ initialFilters, onFilterCha
         <select
           value={sortOrder}
           onChange={(e) => setSortOrder(e.target.value)}
-          className="text-sm text-primary-dark bg-neutral-cream/70 border-2 border-primary-dark/20 rounded-md focus:ring-2 focus:ring-secondary focus:border-secondary transition-all"
+          className="text-sm text-primary-dark bg-neutral-cream/70 border-2 border-primary-dark/20 rounded-md px-3 py-2 focus:ring-2 focus:ring-secondary focus:border-secondary transition-all cursor-pointer"
         >
-          <option value="desc">Newest</option>
-          <option value="asc">Oldest</option>
+          <option value="desc">Newest First</option>
+          <option value="asc">Oldest First</option>
         </select>
       </div>
 

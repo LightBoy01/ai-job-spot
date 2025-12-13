@@ -31,7 +31,7 @@ const JobCard = React.memo(({ job }: JobCardProps) => {
     <Link
       href={`/jobs/${id}`}
       passHref
-      className={`block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden h-full flex flex-col
+      className={`block bg-white p-6 rounded-lg shadow-md hover:shadow-xl active:scale-[0.98] transition-all duration-300 ease-in-out cursor-pointer relative overflow-hidden h-full flex flex-col
         ${isFeatured ? 'border-2 border-amber-500 ring-2 ring-amber-300' : 'border border-neutral-200/80 hover:border-secondary/50'}`}>
       {isNew && (
         <span className="absolute top-0 right-0 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">

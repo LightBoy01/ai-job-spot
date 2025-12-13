@@ -299,6 +299,8 @@ export async function getSalaryStats(title: string): Promise<{ min: number; max:
       .where('status', '==', 'published')
       .where('title', '>=', normalizedTitle)
       .where('title', '<=', normalizedTitle + '\uf8ff')
+      .orderBy('title')
+      .orderBy('postedDate', 'desc')
       .limit(50); // Limit sample size for performance
 
     const snapshot = await q.get();
@@ -355,6 +357,7 @@ export async function getRelatedSkills(tags: string[], limit = 10): Promise<{ ty
     const q = jobsRef
       .where('status', '==', 'published')
       .where('tags', 'array-contains-any', searchTags)
+      .orderBy('postedDate', 'desc')
       .limit(20); // Analyze 20 similar jobs
 
     const snapshot = await q.get();
