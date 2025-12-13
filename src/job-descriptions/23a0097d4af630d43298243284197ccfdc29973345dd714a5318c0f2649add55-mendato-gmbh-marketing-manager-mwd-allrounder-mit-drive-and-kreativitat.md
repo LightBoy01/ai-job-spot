@@ -9,82 +9,33 @@ postedDate: '2025-12-11T11:31:58.000Z'
 expirationDate: null
 tags:
   - Marketing Manager
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
+salaryRange: 42.000 – 55.000 € Jahr
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/mendato-gmbh/marketing-manager-allrounder-mit-drive-kreativitat-berlin-428675
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a creative and motivating team environment with
+  significant room for maneuver. It prioritizes work-life balance through
+  flexible hours, home office options, and wellness benefits, alongside strong
+  support for continuous learning and professional development.
+story_question1: >-
+  How will you leverage creative marketing to drive the digital transformation
+  of the building cleaning industry?
+story_answer1: >-
+  You'll be the driving force behind our brand's growth, shaping our online
+  presence and content strategy to attract more businesses to our innovative
+  software. Your creativity will directly impact how we help an entire industry
+  become smarter and more efficient.
+story_question2: >-
+  Beyond content creation, how will you strategically optimize campaigns to
+  maximize impact?
+story_answer2: >-
+  You'll go beyond crafting engaging content, supporting the strategic
+  deployment of ads and organic content to directly contribute to lead
+  generation and business growth.
 ---
-Wir helfen Gebäudereinigern, ihr Geschäft zu digitalisieren und effizienter zu gestalten. Mit unserer Software sorgen wir dafür, dass Personalplanung, Rechnungsstellung, Zeiterfassung und Controlling einfacher und smarter funktionieren.
-
-Damit immer mehr Unternehmen von unseren Lösungen profitieren, setzen wir auf **kreatives, strategisches Marketing** – und genau hier **kommst du ins Spiel!**
-
-Als **Marketing Manager (m/w/d)** bist du dafür verantwortlich, unsere Marke weiterzuentwickeln, unsere Social-Media-Kanäle strategisch zu betreuen und hochwertigen Content zu erstellen.
-
-Aufgaben
---------
-
-**\- Social Media Management** – Planung, Betreuung und Ausbau unserer Kanäle (Instagram, TikTok, LinkedIn) mit gezielten Strategien & ansprechendem Content
-
-**\- Content Creation** – Entwicklung von kreativem Video-, Bild- & Text-Content für Social Media, Website & Marketingkampagnen
-
-**\- Videobearbeitung & Schnitt** – Erstellung und Bearbeitung von Videos mit **Adobe Premiere, After Effects oder vergleichbaren Tools**
-
-**\- Bildbearbeitung & Grafikdesign** – Gestaltung von ansprechenden Social-Media-Posts, Werbematerialien & Website-Elementen mit **Photoshop, Canva oder ähnlichen Programmen**
-
-**\- Copywriting** – Verfassen von Social-Media-Texten, Werbeanzeigen, Blogartikeln & Newslettern
-
-**\- Event-Marketing** – Begleitung von Messen & Offline-Events mit Content-Produktion und Live-Berichterstattung
-
-**\- Lead-Generierung & Kampagnenoptimierung** – Unterstützung bei der strategischen Aussteuerung von Ads & organischem Content
-
-Qualifikation
--------------
-
-\- Erfahrung in **Social Media Management & Content Creation**
-
-\- Kenntnisse in **Videobearbeitung & Bildbearbeitung** (Adobe Premiere, Photoshop, Canva etc.)
-
-**\- Kreativität & ein gutes Gespür für Trends** in der digitalen Welt
-
-\- Erfahrung im **Copywriting** – du kannst ansprechende & zielgruppengerechte Texte formulieren
-
-\- Selbstständige & **strukturierte Arbeitsweise** – du hast deine Projekte im Griff
-
-**\- Wohnsitz in Berlin** (1-2 Tage Homeoffice möglich)
-
-Benefits
---------
-
-**\- Attraktives Gehalt:** 42.000 – 55.000 € Jahr
-
-**\- 26 Tage Urlaub**, steigt jedes Jahr um einen Tag
-
-**\- Komplette Ausstattung:** Laptop, Software & Firmenhandy inklusive
-
-**\- Flexible Arbeitszeiten & Homeoffice:** Bis zu **2 Tage pro Woche**
-
-**\- Weiterbildung & Entwicklungsmöglichkeiten** – du kannst dich in verschiedene Bereiche weiterentwickeln
-
-**\- Ein kreatives & motiviertes Team** mit viel Gestaltungsspielraum
-
-**\- Urban Sports Club Mitgliedschaft** für deine Work-Life-Balance
-
-**\- Zuschuss zum Deutschlandticket**, damit du flexibel unterwegs bist
-
-**\- Zentrales Büro mitten in Friedrichshain – schnell & einfach erreichbar**
-
-**Bewerbungsprozess**
-
-**1\. Telefonisches Erstgespräch** – Wir lernen uns kennen & klären erste Fragen
-
-**2\. Zoom-Call mit deinem zukünftigen Teamlead** – Besprechung deiner Aufgaben & Erwartungen
-
-**3\. Persönliches Treffen in Berlin** – Lerne das Team & unser Büro kennen
-
-**4\. Willkommen im Team!** Jetzt bewerben – wir freuen uns auf dich!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\\nWe help building cleaning companies digitize and make their business more efficient. With our software, personnel planning, invoicing, time tracking, and controlling work easier and smarter.\\n\\nTo ensure more and more companies benefit from our solutions, we rely on creative, strategic marketing – and that's exactly where you come in! As a Marketing Manager (m/w/d), you are responsible for further developing our brand, strategically managing our social media channels, and creating high-quality content.\\n\\n### Responsibilities\\n- Social Media Management – Planning, managing, and expanding our channels (Instagram, TikTok, LinkedIn) with targeted strategies & engaging content.\\n- Content Creation – Developing creative video, image & text content for social media, website & marketing campaigns.\\n- Video Editing & Production – Creating and editing videos with Adobe Premiere, After Effects or comparable tools.\\n- Image Editing & Graphic Design – Designing engaging social media posts, advertising materials & website elements with Photoshop, Canva or similar programs.\\n- Copywriting – Writing social media texts, advertisements, blog articles & newsletters.\\n- Event Marketing – Supporting trade fairs & offline events with content production and live reporting.\\n- Lead Generation & Campaign Optimization – Assisting with the strategic steering of ads & organic content.\\n\\n### Qualifications\\n- Experience in Social Media Management & Content Creation.\\n- Knowledge in Video Editing & Image Editing (Adobe Premiere, Photoshop, Canva etc.).\\n- Creativity & a good sense for trends in the digital world.\\n- Experience in Copywriting – you can formulate engaging & target-group-oriented texts.\\n- Independent & structured way of working – you have your projects under control.\\n- Residence in Berlin (1-2 days home office possible).\\n\\n### Author's Take\\nThis is an exciting Mid-Senior Marketing Manager role for a creative and strategic individual looking to make a direct impact on a company's growth within the digitalization sector. You'll have significant autonomy (\"Gestaltungsspielraum\") in shaping the brand's online presence and content strategy. The company offers a supportive environment with flexible working hours, professional development opportunities, and a strong focus on work-life balance through benefits like Urban Sports Club and a central Berlin office location. If you thrive in a dynamic, creative team and want to drive tangible results, this role is for you.

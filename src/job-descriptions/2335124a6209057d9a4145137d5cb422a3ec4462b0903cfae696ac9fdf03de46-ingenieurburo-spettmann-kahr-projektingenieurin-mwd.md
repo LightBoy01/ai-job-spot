@@ -9,50 +9,26 @@ postedDate: '2025-12-11T06:33:47.000Z'
 expirationDate: null
 tags:
   - Project Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/ingenieurburo-spettmann-kahr/projektingenieurin-lippstadt-77299
 companyLogoUrl: null
+companyCulture: >-
+  SPETTMANN + KAHR fosters a culture of professional growth and innovation,
+  offering diverse career chances and a flexible work environment with home
+  office options. Collaboration is key in their stable, team-oriented setting,
+  where employees contribute to shaping critical infrastructure projects.
+story_question1: >-
+  How will you steer critical infrastructure projects and shape the future of
+  German mobility?
+story_answer1: >-
+  You'll be instrumental in guiding complex infrastructure projects from concept
+  to completion, ensuring technical precision and innovation. Your work will
+  directly contribute to building the mobility networks of tomorrow, making a
+  tangible impact on society.
 ---
-Das ist **SPETTMANN + KAHR**: Mit mehr als 150 Mitarbeitenden an sechs Standorten ist SPETTMANN + KAHR ein führendes Ingenieurbüro, das sich auf die Planung anspruchsvoller Infrastrukturprojekte spezialisiert hat. Unsere Expertise reicht von Verkehrsanlagen und Bahnbau, Bauüberwachung, Projektmanagement über Ingenieurbau, Hochbau, TGA bis hin zu Umwelt und Vermessung. Als langjähriger Auftragnehmer der Deutschen Bahn prägen wir die Mobilität von morgen – mit technischer Präzision und innovativer Planung.
-
-Wir sind **SPETTMANN + KAHR** – und mit Dir im Team wollen wir noch mehr werden. **Bewirb Dich jetzt!**
-
-Du möchtest die Zukunft der deutschen Infrastruktur mitgestalten? Dann verstärke uns jetzt als
-
-**Projektingenieur:in (m/w/d)**
-
-Aufgaben
---------
-
-*   Du bist für die Mitarbeit und Steuerung von Projekten gemäß AHO in allen Projektstufen und Handlungsbereichen verantwortlich
-*   Du agierst als Berater:in des Projektleiters und koordinierst alle Projektbeteiligten – intern sowie extern
-*   Eine vollumfängliche Projektdokumentation ist dir wichtig und du sorgst dafür, dass alle Unterlagen in den Projektmanagementsystemen stets aktuell und gepflegt sind
-*   Du hast die Projektziele immer im Blick und kontrollierst deren Einhaltung in terminlicher und wirtschaftlicher Hinsicht
-*   Eigenverantwortlich arbeitest du eng mit anderen Fachbereichen zusammen
-
-Qualifikation
--------------
-
-*   Du hast ein abgeschlossenes Studium im Bauingenieurwesen oder eine vergleichbare Qualifikation
-*   Idealerweise bringst du erste Berufserfahrung im Bauprojektmanagement sowie Kenntnisse in den Bereichen VOB und HOAI mit – gerne geben wir auch engagierten Berufseinsteigern eine Chance
-*   Ein hohes Maß an Engagement, eine selbstständige, strukturierte und teamorientierte Arbeitsweise ist für dich selbstverständlich
-*   Sichere Kenntnisse und ein geübter Umgang mit einschlägigen EDV-Programmen runden dein Profil ab
-
-Benefits
---------
-
-*   Vielseitige und abwechslungsreiche Infrastrukturprojekte
-*   Eine leistungsgerechte Vergütung sowie ein 13. Gehalt
-*   Vielfältige Karrierechancen zur individuellen Weiterentwicklung
-*   Die Möglichkeit aus dem Büro als auch aus dem Homeoffice zu arbeiten
-*   Eine sichere und unbefristete Festanstellung
-*   Diverse Mitarbeitervorteile über Corporate Benefits, Business Bike, vermögenswirksame Leistungen und gesundheitsfördernde Maßnahmen
-
-Wir haben dein Interesse geweckt? Dann bewirb dich jetzt und schicke uns deine aussagekräftigen Bewerbungsunterlagen.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nSPETTMANN + KAHR is a leading engineering firm with over 150 employees across six locations, specializing in the planning of demanding infrastructure projects. Our expertise spans traffic systems, railway construction, construction supervision, project management, structural engineering, building construction, technical building equipment (TGA), environmental engineering, and surveying. As a long-standing contractor for Deutsche Bahn, we actively shape the future of mobility through technical precision and innovative planning.\n\nJoin our team as a Project Engineer (m/w/d) and help us build the future of German infrastructure.\n\n### Responsibilities\n- Collaborate on and steer projects in accordance with AHO across all project stages and action areas.\n- Act as an advisor to the project manager and coordinate all project stakeholders, both internal and external.\n- Ensure comprehensive project documentation, maintaining up-to-date and well-managed records in project management systems.\n- Keep project goals in sight, controlling adherence to deadlines and economic targets.\n- Work autonomously and closely with other specialist departments.\n\n### Qualifications\n- Completed degree in civil engineering or a comparable qualification.\n- Ideally, initial professional experience in construction project management and knowledge of VOB (German Construction Contract Procedures) and HOAI (Fee Structure for Architects and Engineers); enthusiastic career starters are also welcome.\n- A high degree of commitment, an independent, structured, and team-oriented working style.\n- Proficient knowledge and skilled use of relevant IT programs.\n\n### Author's Take\nThis is an excellent opportunity for a Project Engineer to join SPETTMANN + KAHR, a leading engineering firm shaping Germany's infrastructure. The role offers significant responsibility in project steering and coordination, with a focus on impact and innovation. You'll benefit from a stable, permanent position, attractive compensation including a 13th salary, and ample career development opportunities, all within a flexible work environment that includes home office options.
