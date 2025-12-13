@@ -15,8 +15,8 @@ const nextConfig = {
     const cspHeader = `
       default-src 'self';
       connect-src 'self' https://*.firebaseio.com https://www.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com;
-      script-src 'self' https://www.googletagmanager.com https://apis.google.com https://www.google-analytics.com https://connect.facebook.net https://www.gstatic.com/firebasejs/ https://*.firebaseio.com;
-      style-src 'self' https://fonts.googleapis.com;
+      script-src 'self' https://www.googletagmanager.com https://apis.google.com https://www.google-analytics.com https://connect.facebook.net https://www.gstatic.com/firebasejs/ https://*.firebaseio.com https://pagead2.googlesyndication.com;
+      style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
       img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com https://lh3.googleusercontent.com;
       font-src 'self' https://fonts.gstatic.com;
       frame-src 'self' https://*.firebaseapp.com;
