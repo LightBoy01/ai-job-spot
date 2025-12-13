@@ -12,67 +12,32 @@ expirationDate: null
 tags:
   - Directors
   - Chief Executives
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Senior
+employeeRole: Lead
+salaryRange: '$90,000 - $130,000'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/taxtalentede/steuerberater-in-jena-auf-wunsch-mit-partnerperspektive-gesucht-mindestens-90000eur-436310
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a positive, collaborative environment with strong team
+  cohesion and regular events. Employees are valued financially and personally,
+  benefiting from extensive growth and partnership opportunities, flexible
+  working hours, and support for further education.
+story_question1: >-
+  How can you leverage your tax expertise and leadership potential to shape your
+  career path towards partnership in a forward-thinking firm?
+story_answer1: >-
+  This role offers the unique chance to customize your responsibilities, pursue
+  a partnership track, and benefit from exceptional compensation and growth, all
+  within a modern, supportive environment.
+story_question2: >-
+  Beyond the role, what unique advantages does TaxTalente offer to simplify your
+  job search?
+story_answer2: >-
+  TaxTalente provides discreet, anonymous job matching, handles salary
+  negotiations, and pre-screens opportunities, ensuring a seamless and efficient
+  path to your ideal role without wasted effort.
 ---
-TaxTalente ist die Nr. 1 Job-Matching Plattform für Jobsuchende in der Steuerberatung.
-
-Sie suchen eine positive berufliche Veränderung? Sie möchten den nächsten Schritt in Ihrer Karriere gehen und streben möglicherweise sogar eine Partnerschaft in einer zukunftsorientierten Kanzlei an? Sie möchten endlich wieder in einem positiven Arbeitsumfeld arbeiten, in dem Sie finanziell und persönlich wertgeschätzt werden? Sie suchen nach Tätigkeiten, die Sie auch wirklich weiterbringen?
-
-Sofern Sie sich in mindestens einem der genannten Punkte wiederfinden, sollten Sie sich bei uns melden. Wir haben die attraktivsten Arbeitgeber der Steuerberatungsbranche in unserem Netzwerk und bringen zusammen, was zusammengehört. Grenzenlose Entwicklungschancen mit Partnermöglichkeiten, vielschichtige Tätigkeitsbereiche, Gehälter wie in der Industrie und vieles mehr – melden Sie sich bei uns und wir unterstützen Sie auf Ihrem weiteren Karriereweg!
-
-Derzeit suchen wir nach einem Steuerberater (m/w/d) für eine unserer Partner-Kanzleien in Jena.
-
-Bei **Rückfragen** kannst du dich gerne **jederzeit** (auch nach deinem Feierabend) direkt telefonisch an **Herrn Becker-Koch** über folgende Nummer wenden: **015901431130**
-
-Aufgaben
---------
-
-Wir bringen zusammen, was zusammengehört. Dabei spielt das passende Tätigkeitsprofil natürlich eine entscheidende Rolle. Bei unserer Partnerkanzlei können Sie sich Ihren Aufgabenbereich auf Basis Ihrer persönlichen Stärken und Schwächen selbst zusammenstellen.
-
-*   **Erstellung** und Review von **Jahresabschlüssen**
-*   **Erstellung** von **Steuererklärungen** für Personen- und Kapitalgesellschaften
-*   **Steuerliche Sonderberatungsprojekte** auf Basis **individueller Qualifikationen**B. in den Bereichen der Erbschaftsteuer oder des Umwandlungssteuerrechts
-*   **Begleitung** von **Betriebsprüfungen**
-*   Teamleitung und **Personalverantwortung** (optional)
-*   **Weitere** individuell **wählbare Tätigkeitsbereiche**, die Ihnen Freude bringen
-
-Qualifikation
--------------
-
-Am Ende sollte es für beide Seiten passen. Deshalb wäre es gut, wenn Sie sich in den folgenden Punkten wiederfinden.
-
-*   **Kommunikative Art** und Freude am Austausch mit Mandanten
-*   **Sorgfältige**, effiziente und **gewissenhafte Arbeitsweise**
-*   Offen für eine **digitale Arbeitsweise**
-*   **Führungsverständnis** und **Verantwortungsbewusstsein** gegenüber Mitarbeitern (optional)
-*   Ein erfolgreich abgeschlossenes **Steuerberaterexamen**
-*   **Leidenschaft** für **steuerliche Themen**
-
-Benefits
---------
-
-Sie haben genug von 0815 Benefits, von denen Sie nicht wirklich profitieren? Dann sollten Sie einen Blick auf die nachfolgenden Benefits werfen.
-
-*   Außerordentliche Vergütung von **90.000 € bis 130.000 €** / Jahr, auf Wunsch auch **Partnerperspektive**
-*   **Flexible** Gestaltung der **Arbeitszeiten** sowie die Option auf **Home-Office**
-*   **Nettolohnoptimierung** mit monatlichen 50,00€ Sachbezugsgutscheinen
-*   Umfangreiche Unterstützung bei **Weiterbildungsmaßnahmen** wie z.B. Fachberater Qualifikationen
-*   **Modernste Ausstattung** mit digitalen Prozessen
-*   **Starker Teamzusammenhalt** und regelmäßige Teamevents
-
-Schnell, unkompliziert und effizient Ihren Traumjob finden – ein Versprechen an Sie, dass wir aufgrund unseres selektiven, breit gefächerten und deutschlandweiten Kanzleinetzwerks halten werden. lhre Vorteile mit uns auf einen Blick:
-
-*   Sie führen **keine unsinnigen Bewerbungsgespräche** mehr, bei denen Sie während des Bewerbungsprozesses merken, dass es (bspw. wegen des Gehalts) sowieso nicht passt - wir klären vor Ihrem Bewerbungsgespräch all Ihre mit uns besprochenen Kriterien mit der Kanzlei ab.
-*   **Wir führen Ihre Gehaltsverhandlungen** und kennen die Gehaltsstrukturen der Branche dabei bestens.
-*   **100% Anonymität** – solange Sie uns nicht das „Go“ geben und einem Kennenlernen mit Ihrem neuen potentiellen Arbeitgeber zustimmen, erfährt niemand von Ihrem Namen oder Ihren bisherigen Arbeitgebern – Ihre Ihnen wichtigen Kriterien können wir auch zunächst anonym mit unseren Partnerkanzleien klären.
-*   **Attraktive Kanzleien** – die Kanzleien in unserem breit gefächerten Kanzleinetzwerk sind selektiv ausgewählt und heben sich klar von “normalen” Kanzleien ab (z.B. hinsichtlich der Vergütung, Benefits, Hierarchien, Digitalisierungsgrad, Ausstattung etc.).
-*   Und das Beste: Unser gesamter Service ist **unverbindlich und völlig kostenfrei** für Sie.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nTaxTalente is seeking a qualified Tax Consultant (Steuerberater m/w/d) for one of its partner law firms in Jena, Germany. This is an exceptional opportunity for professionals looking for a significant career change, aiming for partnership, and seeking a positive, appreciative work environment with substantial financial and personal growth. The role offers the unique flexibility to tailor your area of responsibility based on your individual strengths, with limitless development opportunities and industry-comparable salaries. TaxTalente connects top talent with attractive employers in the tax consulting sector, ensuring a perfect match. Enjoy modern amenities, strong team cohesion, and a clear path to partnership.\n\n### Responsibilities\nWe bring together what belongs together. The right job profile plays a decisive role. At our partner firm, you can customize your area of responsibility based on your personal strengths and weaknesses.\n- Preparation and review of annual financial statements.\n- Preparation of tax declarations for partnerships and corporations.\n- Special tax consulting projects based on individual qualifications, e.g., in inheritance tax or transformation tax law.\n- Support for tax audits.\n- Team leadership and personnel responsibility (optional).\n- Further individually selectable activities that you enjoy.\n\n### Qualifications\nFor a mutually beneficial fit, we are looking for candidates who possess:\n- Communicative nature and enjoyment of client interaction.\n- Careful, efficient, and conscientious working style.\n- Openness to digital working methods.\n- Understanding of leadership and a sense of responsibility towards employees (optional).\n- Successfully completed Tax Consultant exam (Steuerberaterexamen).\n- Passion for tax-related topics.\n\n### Author's Take\nThis is an outstanding opportunity for an experienced Tax Consultant seeking not just a job, but a career trajectory with significant growth and partnership potential. The role offers unparalleled flexibility in task design, exceptional compensation, and a supportive, modern work environment with strong team cohesion and work-life balance options like home office. The support from TaxTalente is a major differentiator, offering anonymous application processes, salary negotiation support, and pre-vetted opportunities, ensuring a highly efficient and successful job search tailored to your specific criteria. This role is ideal for someone passionate about tax, ready for leadership, and aiming for the very top of their profession.

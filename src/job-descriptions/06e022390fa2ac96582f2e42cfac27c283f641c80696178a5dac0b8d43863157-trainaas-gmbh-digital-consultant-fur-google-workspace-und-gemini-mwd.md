@@ -10,51 +10,34 @@ expirationDate: null
 tags:
   - Consulting
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Lead
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/trainaas-gmbh/digital-consultant-fur-google-workspace-und-gemini-marburg-346969
 companyLogoUrl: null
+companyCulture: >-
+  Trainaas fosters a dynamic, collaborative, and customer-centric environment,
+  strongly emphasizing continuous learning and professional growth through
+  programs like their Train-the-Trainer initiative. They offer flexibility with
+  full/part-time options and build team cohesion through regular in-person
+  coworking and social events.
+story_question1: >-
+  How can you empower users and lead a team to drive impactful digital adoption
+  for major platforms like Google Workspace and Gemini?
+story_answer1: >-
+  This role offers a unique opportunity to lead crucial change management
+  initiatives, directly enabling users to master new digital tools while shaping
+  training programs and guiding a dedicated team. You'll be at the forefront of
+  digital transformation.
+story_question2: >-
+  What impact can you make on a growing company's internal development and
+  training excellence?
+story_answer2: >-
+  You'll not only deliver high-impact training but also help refine the
+  company's educational offerings, benefiting from and contributing to a strong
+  culture of continuous learning and team growth.
 ---
-Wir sind Trainaas - ein Unternehmen aus dem Raum Marburg. Unsere Aufgabe ist es, Menschen in der Digitalisierung zu befähigen und zu begleiten. Denn eine Software ist nur so gut, wie der Anwender, der sie nutzt. Unser Schwerpunkt ist das begleitende Change Management bei Softwareeinführungen. Dabei kooperieren wir z.B. mit Google und Microsoft Partner und weiteren Herstellern.
-
-Aufgaben
---------
-
-*   Du unterstützt Google Workspace und Gemini Rollouts durch Change Management und stehst im direkten Kontakt mit unseren Kunden
-*   Du befähigst Nutzer - praxisnah, locker und verständlich
-*   Du managst unser Google Workspace Team
-*   Du hilfst unser Trainingsangebot weiterzuentwickeln - bring deine Ideen ein!
-
-Du kennst dich noch nicht perfekt mit Google Workspace aus? Kein Problem! Wir bilden dich mit unserem Train-the-Trainer Programm aus, solange du motiviert bist und Lust hast.
-
-Qualifikation
--------------
-
-*   Du hast min 2 Jahr Berufserfahrung mit einem Faible für digitales Arbeiten
-*   Google Workspace ist kein Neuland für dich - du nutzt es im Studium oder Alltag
-*   Du kannst Wissen locker vermitteln und hast Spaß daran, anderen etwas beizubringen
-*   Du bist kommunikativ, kreativ und hast Lust, mit uns zu wachsen
-*   Du sprichst und schreibst Englisch und hast kein Problem im regelmäßigen Kundenkontakt zu sein
-
-Benefits
---------
-
-Zeitmodell: Vollzeit oder Teilzeit (mind. 20 Std.)
-
-Beginn: Ab wann kannst du?
-
-Bezahlung: vernünftig und leistungsorientiert
-
-Arbeitsort: Homeoffice (Raum Mittelhessen) und vor Ort bei Kunden
-
-Als Team treffen wir uns regelmäßig zu gemeinsamen Coworking mit anschließendem AfterWork. Bei diesen Treffen wird hart gearbeitet und gemeinsam das Team entwickelt. Die Kosten werden für dich übernommen.
-
-_Du wirst Teil eines dynamischen, jungen Teams, das kundenzentriert und komplett digital arbeitet_
-
-Für Fragen kannst du uns gerne kontaktieren oder uns deine Bewerbung direkt per E-Mail zusenden: siehe Kontaktdaten links
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nTrainaas, located in the Marburg area, specializes in empowering individuals and guiding them through digital transformation, focusing on change management for software implementations. We partner with leading providers like Google and Microsoft. This role offers the chance to join a dynamic, young, customer-centric, and fully digital team. Even if you're not a Google Workspace expert, we offer a comprehensive Train-the-Trainer program to support your growth, as long as you bring motivation and eagerness. We value work-life balance with flexible full-time or part-time (min. 20 hrs) models, offer fair, performance-based compensation, and promote a collaborative environment with regular in-person coworking sessions and AfterWork events to foster team development, with costs covered.\n\n### Responsibilities\n- Support Google Workspace and Gemini rollouts through change management and direct customer contact.\n- Empower users in a practical, relaxed, and understandable manner.\n- Manage our Google Workspace Team.\n- Help further develop our training offerings – bring your ideas!\n\n### Qualifications\n- You have at least 2 years of professional experience with a passion for digital work.\n- Google Workspace is not new territory for you – you use it in your studies or daily life.\n- You can convey knowledge in a relaxed way and enjoy teaching others.\n- You are communicative, creative, and eager to grow with us.\n- You speak and write English and have no problem with regular customer contact.\n\n### Author's Take\nThis is an excellent opportunity for a proactive individual passionate about digital transformation and user empowerment. The blend of direct client interaction, team leadership, and content development, coupled with a strong emphasis on continuous learning through a dedicated \"Train-the-Trainer\" program, makes this a high-impact role within a flexible and supportive team culture. Ideal for someone who thrives on teaching, managing, and innovating in the digital space.

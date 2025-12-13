@@ -9,70 +9,33 @@ postedDate: '2025-12-12T13:01:56.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/jobbusters-gmbh/weg-buchhalter-zahlengeist-mit-herz-gesucht-stuttgart-469751
 companyLogoUrl: null
+companyCulture: >-
+  A supportive, family-oriented company that values digital efficiency, offers
+  significant flexibility with remote work options, and provides clear
+  opportunities for professional growth within a collaborative and ambitious
+  team environment.
+story_question1: >-
+  How will you leverage your expertise in WEG accounting to independently manage
+  a substantial portfolio with cutting-edge digital tools?
+story_answer1: >-
+  You will be the trusted financial backbone for a significant number of
+  property owner communities, driving efficiency through digital processes and
+  ensuring financial clarity for all stakeholders, directly contributing to the
+  company's continued growth and success.
+story_question2: >-
+  Beyond the numbers, how will you find your perfect work-life balance and
+  cultivate your career within this innovative environment?
+story_answer2: >-
+  After onboarding, you'll enjoy predominantly remote work, coupled with ongoing
+  training and a long-term career path within a forward-thinking, expanding
+  company, all while being part of a supportive team.
 ---
-Mit Ihrem scharfen Spürsinn für WEG-Buchhaltung und Ihrer freundlichen, bodenständigen Art sind Sie für Kolleginnen, Kollegen und Eigentümer ein vertrauensvoller Ansprechpartner – fast wie ein guter Hausgeist, der stets zur Stelle ist, wenn Klarheit in die Zahlenwelt gebracht werden muss.
-
-Unser Kunde – ein traditionsreiches, familiengeführtes Immobilienunternehmen mit über 45 Jahren Erfahrung im Raum München – sucht genau Sie, um die Buchhaltung seiner Eigentümergemeinschaften zu betreuen. Hier spukt man nicht ziellos durch Aktenordner: Stattdessen erwartet Sie eine strukturierte, moderne Arbeitswelt mit digitalem Flair und flachen Hierarchien, in der neue Ideen gerne willkommen geheißen werden.
-
-Sie können den Großteil Ihrer Arbeit bequem aus dem Homeoffice erledigen, aber vielleicht zieht es Sie hin und wieder auch ins neue Büro-Loft in München-Allach – ein inspirierender Ort im „The Malt“, wo Teamgeist und Kaffeeduft gleichermaßen durch die Gänge wehen.
-
-Unser Kunde betreut aktuell rund 7.500 Wohnungen in etwa 85 Anwesen – genug Raum also, um Ihre Fähigkeiten als Zahlenflüsterer voll zu entfalten.
-
-**Bereit, Ihren Platz im Reich der Zahlengeister einzunehmen?** Dann freuen wir uns auf Ihre Bewerbung!
-
-Aufgaben
---------
-
-*   Sie betreuen nur wenige große Wohnanlagen und werden jederzeit durch Ihre Kollegen und die Geschäftsleitung unterstützt.
-*   Durch Ihren geschickten Umgang mit Zahlen erstellen Sie die Abrechnungen und Wirtschaftspläne mit Leichtigkeit und kümmern sich zuverlässig um Zahlungseingänge, den Einzug der Vorauszahlungen und die laufende Buchhaltung.
-*   Digitale, ausgefeilte Arbeitsabläufe unterstützen Ihre Arbeit effizient und zielgerichtet.
-*   Sie wickeln selbständig die Buchhaltung und den Zahlungsverkehr für die durch Sie betreuten Eigentümergemeinschaften ab.
-*   Ein ausgefeiltes, digitales Dokumentenmanagementsystem unterstützt Sie dabei.
-*   Sie erstellen eigenständig die Abrechnungen und Wirtschaftspläne.
-*   Sie bereiten die Belegprüfungen vor.
-*   Sie sind der Ansprechpartner für die WEG-Verwalter, Beiräte und Eigentümer der durch Sie betreuten Eigentümergemeinschaften in und um München in allen Buchhaltungsangelegenheiten
-
-Qualifikation
--------------
-
-**Was wir suchen:**
-
-Menschen, die **über den Tellerrand** hinausdenken. Persönlichkeiten mit klarem Blick für Risiken und Chancen. Und den Anspruch, in einem Umfeld zu arbeiten, das genauso ambitioniert ist wie sie selbst.
-
-*   Ihrer Erfahrung in der WEG-Buchhaltung,
-*   Ihr eigenständiges, verantwortungsvolles Handeln und strukturiertes Arbeiten
-*   Ihrer Liebe zu Zahlen und Ihre Genauigkeit,
-*   Ihre Teamplayer-Fähigkeiten und Ihre Bereitschaft Verantwortung zu übernehmen,
-*   Ihrer IT-Affinität
-*   Anforderungen an den Bewerber, Grundkenntnisse: Wohnungseigentumsrecht
-*   Erweiterte Kenntnisse: Immobilienverwaltung
-
-Benefits
---------
-
-**Was dich erwartet:**
-
-*   Eine zentrale Rolle in einem systemrelevanten Institut
-*   Ein professionelles Umfeld mit höchsten Qualitätsansprüchen
-*   Die Möglichkeit, deine analytischen Fähigkeiten auf Premium-Niveau einzusetzen
-*   Eine unbefristete Position in direkter Festanstellung mit langfristiger Perspektive in einem stark expandierenden, zukunftsorientierten und innovativen Unternehmen
-*   Eine leistungsgerechte Vergütung, zudem zahlreiche soziale Leistungen
-*   Sie betreuen nur wenige, große Eigentümergemeinschaften und können sich auf diese konzentrieren.
-*   Ein motiviertes Back-Office-Team übernimmt für Sie Routinearbeiten.
-*   Wir unterstützen Sie jederzeit mit Rat und Tat und bieten vielfältige Weiterbildungsmöglichkeiten.
-*   Sie arbeiten - nach einer Einarbeitungszeit - auf Wunsch überwiegend im Homeoffice, können aber auch jederzeit Ihren modernen Arbeitsplatz in München nutzen.
-*   Auf Sie wartet ein angenehmes Arbeitsklima in einem sympathischen, motivierten Team
-
-**Du willst Teil von etwas Großem werden – und dabei selbst wachsen?**
-
-Dann bewirb dich jetzt exklusiv über die **JOBBUSTERS®**, deinem Partner für Karrieren im Immobiliensektor.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nWith your keen sense for WEG (homeowners' association) accounting and your friendly, down-to-earth manner, you will be a trusted point of contact for colleagues and owners – almost like a benevolent spirit, always there when clarity is needed in the world of numbers.\\n\\nOur client – a traditional, family-run real estate company with over 45 years of experience in the Munich area – is looking for you to manage the accounting for their homeowners' associations. Here, you won't aimlessly ghost through file folders: Instead, a structured, modern work environment with a digital flair and flat hierarchies awaits you, where new ideas are always welcome.\\n\\nYou can comfortably complete most of your work from home, but perhaps you'll occasionally be drawn to the new office loft in Munich-Allach – an inspiring place in \"The Malt,\" where team spirit and coffee aroma waft equally through the halls. Our client currently manages around 7,500 apartments in approximately 85 properties – ample scope to fully develop your skills as a numbers whisperer.\\n\\n**What awaits you:**\\n- A central role in an important institution.\\n- A professional environment with the highest quality standards.\\n- The opportunity to apply your analytical skills at a premium level.\\n- An unlimited, permanent position with long-term prospects in a rapidly expanding, future-oriented, and innovative company.\\n- Performance-based compensation, plus numerous social benefits.\\n- You will manage only a few, large homeowners' associations, allowing you to concentrate fully on them.\\n- A motivated back-office team will handle routine tasks for you.\\n- We support you at all times with advice and action, offering diverse training opportunities.\\n- After an onboarding period, you can primarily work from home if desired, but can also use your modern workplace in Munich at any time.\\n- An pleasant working atmosphere awaits you in a friendly, motivated team.\\n\\n### Responsibilities\\n- Manage a select number of large residential complexes and receive constant support from colleagues and management.\\n- With your skillful handling of numbers, effortlessly create statements and economic plans.\\n- Reliably manage incoming payments, advance payment collections, and ongoing accounting.\\n- Independently handle accounting and payment transactions for the homeowners' associations under your care.\\n- Prepare document verifications.\\n- Be the point of contact for WEG administrators, advisory boards, and owners of the homeowners' associations you manage in and around Munich for all accounting matters.\\n- Leverage sophisticated digital workflows and a digital document management system to support your work efficiently and purposefully.\\n\\n### Qualifications\\n**What we are looking for:**\\nIndividuals who think outside the box. Personalities with a clear view of risks and opportunities. And the ambition to work in an environment as ambitious as they are.\\n\\n- Experience in WEG accounting.\\n- Independent, responsible action and structured work.\\n- A love for numbers and accuracy.\\n- Team player skills and a willingness to take on responsibility.\\n- IT affinity.\\n- Basic knowledge of Condominium Law (Wohnungseigentumsrecht).\\n- Advanced knowledge of Real Estate Management.\\n\\n### Author's Take\\nThis role is ideal for an experienced WEG Accountant seeking autonomy, digital efficiency, and strong team support within a respected, family-run company. The significant remote work option, combined with clear growth paths and a modern work environment, makes it particularly attractive for those who value flexibility and professional development.

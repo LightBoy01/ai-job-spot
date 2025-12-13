@@ -9,46 +9,32 @@ postedDate: '2025-12-12T01:35:07.000Z'
 expirationDate: null
 tags:
   - Private Banking
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Junior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/my-humancapital-gmbh/privatkundenberater-kundenberater-bank-frankfurt-413296
 companyLogoUrl: null
+companyCulture: >-
+  The company offers a supportive 'Du-Kultur' with a focus on work-life balance,
+  evidenced by 32 days of holiday. It provides significant opportunities for
+  professional development and fosters strong internal collaboration in a
+  modern, secure environment.
+story_question1: >-
+  How will you drive client satisfaction and business growth by delivering
+  holistic financial advice in a modern, digital landscape?
+story_answer1: >-
+  You will be instrumental in building and expanding a dedicated client
+  portfolio, leveraging both personal and digital channels to create tailored
+  financial strategies and ensure lasting client success.
+story_question2: >-
+  How will your insights contribute to the evolution of digital advisory
+  processes and client engagement?
+story_answer2: >-
+  You'll actively participate in optimizing client experiences through modern
+  tools and digital channels, directly shaping the future of financial
+  consultation and process improvement.
 ---
-Im Auftrag unseres Partnerunternehmens in Frankfurt am Main suchen wir Sie zum nächstmöglichen Zeitpunkt als **„Privatkundenberater / Kundenberater Bank (m/w/d)“.**
-
-**Aufgaben**
-------------
-
-*   Als **Privatkundenberater / Kundenberater Bank (m/w/d)** übernehmen Sie die ganzheitliche Betreuung eines festen Kundenstamms – persönlich, telefonisch & digital
-*   Dabei beraten Sie Ihre Kunden zu Girokonten, Krediten, Geldanlagen, Wertpapieranlagen und Vorsorgeprodukten und entwickeln individuelle Finanzpläne
-*   Sie sind verantwortlich für aktive Neukundenakquise und Ausbau bestehender Kundenbeziehungen, abgestimmt auf deren finanzielle Ziele
-*   Zusätzlich gestalten Sie zielgruppenorientierte Marketingaktionen mit, nutzen moderne Beratungstools und digitale Kanäle, um Beratungserlebnisse zu optimieren
-*   Sie dokumentieren Beratungsgespräche und Ergebnisse sorgfältig, arbeiten eng mit internen Teams zusammen und tragen zur Weiterentwicklung der Beratungsprozesse bei
-
-**Qualifikation**
------------------
-
-*   Sie bringen eine Ausbildung als Bankkaufmann (m/w/d) oder eine vergleichbare Qualifikation mit, z. B. Finanzberater (m/w/d), Kundenberater Bank (m/w/d), Kaufmann für Versicherungen und Finanzen (m/w/d)
-*   Sie verfügen über erste Berufserfahrung in der Privatkundenberatung bzw. im Bankvertrieb – idealerweise auch mit Wertpapier- und Kreditprodukten
-*   Sie haben gute Kenntnisse bezüglich Kontenführung, digitalen Beratungsformaten und idealerweise Erfahrung mit Finanz- & Beratungstools
-*   Sie zeichnen sich durch Vertriebstalent, Kommunikationsstärke, Kundenorientierung sowie eine lösungsorientierte und strukturierte Arbeitsweise aus
-*   Sehr gute Deutschkenntnisse zeichnen Sie aus
-
-**Benefits**
-------------
-
-*   **Langfristige Jobmöglichkeit:** Das Unternehmen sucht langfristige Unterstützung im Rahmen einer unbefristeten Festanstellung
-*   **Work-Life-Balance:** Freuen Sie sich auf mehr Zeit für Sie im Rahmen von 32 Tagen Urlaub
-*   **Fahrtkostenzuschuss:** Nutzen Sie das Deutschlandticket zum vergünstigten Preis
-*   **Wertschätzende Arbeitskultur:** Die Abteilung legt großen Wert auf ein positives Miteinander. Sie erwartet eine Du-Kultur und ein spürbares Vertrauen der Führungskräfte
-*   **Krisensicherheit beim Marktführer**: Kaum ein Unternehmen bietet eine derartige Sicherheit wie dieses
-*   **Modernes Umfeld**: Sie erwartet eine moderne Arbeitsumgebung, mit neuesten Gerätschaften
-*   **Weiterentwicklung**: Das Unternehmen bietet zahlreiche Weiterbildungs- und Entwicklungsmöglichkeiten
-
-Sie finden das Stellenprofil interessant? Dann freuen wir uns auf Ihre Bewerbung. Senden Sie uns Ihre Unterlagen. Für Rückfragen steht Ihnen **Simon Schneider** gerne unter 089 954 287 111 zur Verfügung.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nOn behalf of our partner company in Frankfurt am Main, we are looking for a **\\\"Private Client Advisor / Bank Client Advisor (m/w/d)\\\"** to join them as soon as possible. In this role, you will be responsible for the holistic support of a fixed client base, active new client acquisition, and the development of personalized financial plans within a modern, digital environment.\n\n### Responsibilities\n- Holistically manage a fixed client portfolio – in-person, by phone, and digitally.\n- Advise clients on current accounts, loans, investments, securities, and pension products, developing individual financial plans.\n- Take responsibility for active new client acquisition and the expansion of existing client relationships, aligned with their financial goals.\n- Contribute to target-group-oriented marketing campaigns and leverage modern advisory tools and digital channels to optimize the advisory experience.\n- Meticulously document consultations and results, collaborate closely with internal teams, and contribute to the further development of advisory processes.\n\n### Qualifications\n- Completed apprenticeship as a bank clerk (m/w/d) or a comparable qualification, e.g., financial advisor (m/w/d), bank client advisor (m/w/d), insurance and finance clerk (m/w/d).\n- Initial professional experience in private client advisory or bank sales – ideally also with securities and credit products.\n- Good knowledge of account management, digital advisory formats, and ideally experience with financial & advisory tools.\n- Demonstrated sales talent, strong communication skills, customer orientation, and a solution-oriented, structured way of working.\n- Excellent German language skills.\n\n### Author's Take\nThis is a compelling opportunity for a motivated individual with initial banking experience to join a market leader in a permanent position. The role offers a comprehensive client advisory experience, combining traditional and digital channels. With 32 days of holiday, subsidized public transport, and a supportive \\\"Du-Kultur\\\" that values collaboration and trust, the company demonstrates a strong commitment to employee well-being and work-life balance. Ample development opportunities in a modern environment ensure continuous professional growth and long-term career stability.

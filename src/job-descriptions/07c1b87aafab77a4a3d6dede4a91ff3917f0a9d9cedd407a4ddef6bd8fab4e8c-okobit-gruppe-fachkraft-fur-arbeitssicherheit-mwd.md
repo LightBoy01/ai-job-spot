@@ -9,58 +9,35 @@ postedDate: '2025-12-12T19:59:02.000Z'
 expirationDate: null
 tags:
   - Power Engineering and Environmental Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/okobit-gruppe/fachkraft-fur-arbeitssicherheit-fohren-304106
 companyLogoUrl: null
+companyCulture: >-
+  The ÖKOBIT Group fosters a family-friendly and collaborative environment with
+  flexible working hours, flat hierarchies, and a strong focus on employee
+  development through training and career opportunities. They prioritize
+  work-life balance and a collegial atmosphere, offering various social
+  benefits.
+story_question1: >-
+  How will your expertise ensure the safety and compliance of cutting-edge
+  biogas and biomethane projects across Europe?
+story_answer1: >-
+  This pivotal role places you at the forefront of renewable energy
+  infrastructure development, directly impacting the well-being of teams working
+  on vital projects. Your actions will ensure adherence to critical safety
+  standards, mitigating risks and fostering a secure environment for innovation.
+story_question2: >-
+  What unique challenges and rewards come with leading safety initiatives across
+  diverse European construction sites?
+story_answer2: >-
+  You'll navigate varying national regulations and cultural contexts, applying
+  your safety expertise in dynamic international settings. This offers a chance
+  to broaden your professional horizon and make a tangible impact on global
+  safety standards.
 ---
-Die ÖKOBIT Group steht für innovative Lösungen in der Energie- und Verfahrenstechnik mit Fokus auf Biogaserzeugung und -nutzung. Wir planen und bauen Biogas- und Biomethananlagen in ganz Europa, entwickeln elektrotechnische Lösungen für die kommunale Wasserwirtschaft und betreuen Netzersatzanlagen in kritischer Infrastruktur.
-
-Für den weiteren Ausbau unseres Teams suchen wir zum nächstmöglichen Zeitpunkt eine motivierte Persönlichkeit als:
-
-**Fachkraft für Arbeitssicherheit (m/w/d)**
-
-am Standort Föhren
-
-Aufgaben
---------
-
-*   Verantwortung für die Organisation, Umsetzung und Überwachung der  
-    Arbeitssicherheit auf unseren Baustellen in Deutschland und Europa
-*   Sicherstellung der Einhaltung nationaler und europäischer Sicherheits- und Gesundheitsvorschriften
-*   Durchführung von Unterweisungen, Sicherheitsbriefings und Schulungen
-*   Erstellung und Pflege von Gefährdungsbeurteilungen, Betriebsanweisungen sowie Sicherheitsplänen
-*   Durchführung regelmäßiger Sicherheitsbegehungen und Audits
-*   Kommunikation mit Behörden, Kunden und Projektleitungen zu allen Themen der Arbeitssicherheit
-
-Qualifikation
--------------
-
-*   Abgeschlossene Ausbildung zur Fachkraft für Arbeitssicherheit oder vergleichbare Qualifikation
-*   Berufserfahrung im internationalen Baustellenumfeld, idealerweise im Anlagen- oder Industriebau
-*   Fundierte Kenntnisse der relevanten EU-Richtlinien sowie nationaler Arbeitsschutzbestimmungen
-*   Bereitschaft zu projektbezogenen Auslandseinsätzen innerhalb Europas
-*   Selbstständige, strukturierte und lösungsorientierte Arbeitsweise
-*   Sicherer Umgang mit MS Office
-*   Sehr gute Deutsch- und Englischkenntnisse, weitere Sprachen sind von Vorteil
-
-Benefits
---------
-
-*   Überdurchschnittliche Vergütung, betriebliche Altersvorsorge und betriebliche Krankenversicherung
-*   Flexible Arbeitszeiten, familienfreundliches Umfeld und Ferienprogramm für Kinder
-*   Einen modernen Arbeitsplatz und kostenlose Berufsbekleidung
-*   Schulungen und Entwicklungsmöglichkeiten zur Förderung deiner Fähigkeiten und Karriere
-*   Kollegiales Betriebsklima, flache Hierarchien, Betriebsausflüge und Firmenfeiern
-
-Du bist bereit für den nächsten Schritt?
-
-Dann sende uns deine Bewerbung (mit Lebenslauf, Gehaltsvorstellung und frühestmöglichem Eintrittstermin) per E-Mail an **[www.oekobit-biogas.com/karriere](http://www.oekobit-biogas.com/karriere)**
-
-Offene Fragen beantwortet Dir gerne: Susanne Bauerfeld, Tel. 06502-9385955
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nThe ÖKOBIT Group is a leader in innovative energy and process technology, specializing in biogas production and utilization. They plan and construct biogas and biomethane plants throughout Europe, develop electrotechnical solutions for municipal water management, and oversee backup power systems in critical infrastructure. For the further expansion of their team, they are seeking a highly motivated **Occupational Safety Specialist (m/w/d)** based at their Föhren location.\n\n### Responsibilities\n- Take responsibility for the organization, implementation, and monitoring of occupational safety on our construction sites in Germany and Europe.\n- Ensure compliance with national and European safety and health regulations.\n- Conduct instructions, safety briefings, and training sessions.\n- Create and maintain hazard assessments, operating instructions, and safety plans.\n- Perform regular safety inspections and audits.\n- Communicate with authorities, clients, and project management on all occupational safety matters.\n\n### Qualifications\n- Completed training as an Occupational Safety Specialist or a comparable qualification.\n- Professional experience in an international construction site environment, ideally in plant or industrial construction.\n- Sound knowledge of relevant EU directives and national occupational safety regulations.\n- Willingness to undertake project-related assignments abroad within Europe.\n- Independent, structured, and solution-oriented working style.\n- Proficient in MS Office.\n- Very good German and English skills; additional languages are an advantage.\n\n### Author's Take\nThis is a pivotal role for an experienced safety specialist eager to make a significant impact across diverse European construction projects in the renewable energy sector. ÖKOBIT offers an attractive compensation package, including above-average remuneration, flexible working arrangements, and a supportive, family-friendly culture focused on professional development and collaboration. This opportunity provides excellent international exposure and a chance to truly shape safety standards in a growing industry.

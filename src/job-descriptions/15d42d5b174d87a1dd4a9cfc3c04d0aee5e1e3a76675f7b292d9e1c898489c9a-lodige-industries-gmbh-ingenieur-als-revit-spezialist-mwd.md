@@ -9,56 +9,26 @@ postedDate: '2025-12-12T12:31:52.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/lodige-industries-gmbh/ingenieur-als-revit-spezialist-paderborn-198177
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters an open, family-like culture with flat hierarchies and
+  flexible working arrangements, including remote work. It emphasizes long-term
+  employee development through comprehensive onboarding and continuous learning
+  opportunities.
+story_question1: >-
+  How will your Revit expertise transform global airport logistics
+  infrastructure for a world market leader?
+story_answer1: >-
+  As a Revit Specialist, you'll be instrumental in modeling and planning
+  cutting-edge air cargo facilities, integrating complex logistics requirements
+  into BIM processes. Your work will directly enhance efficiency and innovation
+  for a global leader, shaping the future of airport logistics worldwide.
 ---
-Zur Verstärkung unseres Teams suchen wir, nach erfolgreicher Einarbeitung am Standort in Warburg-Scherfede, für den **Standort in Paderborn** einen qualifizierten und engagierten Ingenieur als **Revit Spezialist (m/w/d).**
-
-**Lödige Industries** mit **Hauptsitz in Warburg (NRW)** ist mit **mehr als 1.300 Mitarbeitern** und Tochterunternehmen in Europa, Asien, Amerika, Australien und dem Nahen Osten einer der **weltweit führenden Anbieter von Logistiksystemen und Aufzugslösungen**. Seit mehr als **70 Jahren** bieten wir zuverlässige Lösungen für ein breites Branchenspektrum und sind **Weltmarktführer im Bereich Flughafenlogistik.**
-
-Aufgaben
---------
-
-*   Modellierung und Planung von Luftfrachtanlagen und -infrastruktur in Revit
-*   Unterstützung bei der Entwicklung von Konzepten und Entwürfen für die Logistikplanung
-*   Erstellung von 3D-Modellen und CAD-Zeichnungen zur Optimierung von Flugzeug-Ladebereichen, Lagerhallen und Frachtverarbeitungszentren
-*   Zusammenarbeit mit Architekten, Ingenieuren und Projektmanagern zur Gewährleistung der erfolgreichen Umsetzung von Air Cargo-Projekten
-*   Durchführung von Machbarkeitsstudien und simulationsbasierten Analysen
-*   Integration von spezifischen Luftfrachtanforderungen in die BIM (Building Information Modeling)-Prozesse
-*   Optimierung von Planungsprozessen und Sicherstellung der Einhaltung von Vorschriften und Standards
-
-Qualifikation
--------------
-
-*   Abgeschlossenes Studium im Bereich Architektur, Bauingenieurwesen oder eine vergleichbare Qualifikation
-*   Tiefgehende Erfahrung im Umgang mit Autodesk Revit, insbesondere in der Modellierung von Infrastrukturprojekten
-*   Gute Kenntnisse in BIM (Building Information Modeling) und CAD-Software
-*   Erfahrung in der Planung von Logistik- oder Luftfrachtinfrastruktur von Vorteil
-*   Ausgeprägte analytische Fähigkeiten und eine lösungsorientierte Denkweise
-*   Gute bis sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift
-*   Gelegentliche Dienstreisen zu den Projekten
-
-Benefits
---------
-
-*   **Arbeiten beim Global Player:** Werde Teil unserer modernen internationalen Unternehmensgruppe, die weltweit für ihre fördertechnischen Lösungen aus den Bereichen „Car Park“, „Airport Logistics“, „Production Logistics“ und „Lift Solutions“ bekannt ist.
-*   **LIFT. INSPIRE.:** Tauche ein in eine Welt voller spannender Projekte mit deiner persönlichen Karriere bei Lödige – Gestalten Deine Zukunft aktiv mit!
-*   **Offene und familiäre Unternehmenskultur:** Erlebe flache Hierarchien und schnelle Entscheidungswege.
-*   **Einarbeitung und langfristige Entwicklung:** Profitiere von einer umfassenden Einarbeitung und von Weiterbildungs- und Entwicklungsmöglichkeiten, die Deine Karriere langfristig fördern.
-*   **Attraktive Vergütung:** Genieße eine transparente Bezahlung nach dem Tarifvertrag der M+E NRW, 30 Tage Urlaub, Urlaubs- und Weihnachtsgeld und vielem mehr.
-*   **Flexible Arbeitszeiten und mobiles Arbeiten:** Gestalte deinen Arbeitsalltag flexibel und profitiere von der Möglichkeit, auch mobil zu arbeiten.
-*   **Betriebliche Altersvorsorge und Firmenfitness:** Auf Wunsch unterstützen wir Dich bei deiner Altersvorsorge und bieten dir Zugang zu Firmenfitnessprogrammen (z.B. Hansefit, Firmenläufe, etc.).
-
-**Haben wir Dich überzeugt?**
-
-Dann freuen wir uns auf Deine aussagefähige Bewerbung, die Du uns bitte mit Angabe des frühestmöglichen Eintrittstermins sowie deiner Einkommenserwartung zusendest.
-
-Für weitere Informationen steht Dir **Frau Toremans** unter der Telefon-Nr. **05251 / 6830-364** gerne zur Verfügung.
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nJoin Lödige Industries, a global leader in logistics systems and elevator solutions, and the world market leader in airport logistics. We are seeking a dedicated Revit Specialist (m/f/d) to join our team in Paderborn, contributing to innovative air cargo infrastructure projects worldwide, after initial onboarding in Warburg-Scherfede.\n\n### Responsibilities\n- Modeling and planning of air freight systems and infrastructure in Revit\n- Support in the development of concepts and designs for logistics planning\n- Creation of 3D models and CAD drawings for optimizing aircraft loading areas, warehouses, and cargo processing centers\n- Collaboration with architects, engineers, and project managers to ensure successful implementation of air cargo projects\n- Execution of feasibility studies and simulation-based analyses\n- Integration of specific air freight requirements into BIM (Building Information Modeling) processes\n- Optimization of planning processes and ensuring compliance with regulations and standards\n\n### Qualifications\n- Completed degree in architecture, civil engineering, or a comparable qualification\n- In-depth experience with Autodesk Revit, especially in modeling infrastructure projects\n- Good knowledge of BIM (Building Information Modeling) and CAD software\n- Experience in planning logistics or air freight infrastructure is a plus\n- Strong analytical skills and a solution-oriented mindset\n- Good to very good German and English language skills, both written and spoken\n- Occasional business trips to project sites\n\n### Author's Take\nThis role offers a unique opportunity for a Revit Specialist to contribute to complex, global air cargo infrastructure projects for Lödige Industries, a world market leader. You will benefit from comprehensive onboarding, continuous development opportunities, flexible working hours including remote work options, and an attractive compensation package based on the M+E NRW collective agreement (including 30 days holiday, vacation, and Christmas bonuses). The company fosters a supportive, family-like culture with flat hierarchies, and also provides access to company fitness programs and a company pension scheme.

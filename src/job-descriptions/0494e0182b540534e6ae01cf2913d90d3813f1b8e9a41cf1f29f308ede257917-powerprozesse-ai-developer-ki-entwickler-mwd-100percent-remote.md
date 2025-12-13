@@ -10,80 +10,26 @@ expirationDate: null
 tags:
   - Information technology
   - professional
-status: pending_review
-jobLevel: null
-employeeRole: null
-salaryRange: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
+salaryRange: '€4,000 - €5,500 per month (gross)'
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/powerprozesse/ai-developer-ki-entwickler-100-remote-worms-456217
 companyLogoUrl: null
+companyCulture: >-
+  Powerprozesse fosters a remote-first, growth-oriented environment focused on
+  long-term employee development and stability. They emphasize flexible work,
+  good compensation, and opportunities for career advancement in a future-proof
+  industry, encouraging a proactive and collaborative approach.
+story_question1: >-
+  How can you leverage cutting-edge AI and automation to revolutionize a
+  traditional industry and scale an agency rapidly?
+story_answer1: >-
+  You'll be at the forefront of digitalizing and automating processes for a
+  specialized market, building robust systems with modern tools, and laying the
+  groundwork for the company's expansion into new sectors. Your work will
+  directly drive efficiency and growth, making a tangible impact from day one.
 ---
-![](https://recruitee-main.s3.eu-central-1.amazonaws.com/uploads/ht8h75lo2o/Slice_6.png)
-
-Du hast Erfahrung mit digitalen Themen und kennst dich mit Low-Code-/No-Code-Lösungen sowie API-Tools wie n8n oder [Make.com](http://Make.com) aus – oder bist in der Lage, dich schnell und eigenständig einzuarbeiten? Dann ist unser Stelle im Bereich Softwareentwickung genau das richtige für dich.
-
-Als KI-Entwickler (m/w/d) gestaltest und automatisierst du unsere Prozesse mit modernen Tools. Du sorgst dafür, dass Systeme ineinandergreifen, Datenflüsse reibungslos funktionieren und unsere Abläufe noch effizienter werden.
-
-**Aufgabengebiete:**
-
-*   Automatisierung unserer Geschäftsprozesse mit No-Code / Low-Code Tools wie n8n, Zapier, Make
-    
-*   Aufbau, Pflege und Verwaltung von Airtable-Datenbanken
-    
-*   Entwicklung von Front-Ends und Interfaces mit No-Code / Low-Code-Tools
-    
-
-*   Planung, Umsetzung und Implementierung von neuen Geschäftsprozessen
-    
-*   Dokumentation & Konzeption von digitalen Geschäftsprozessen
-    
-*   Anwenderschulung & -betreuung
-    
-
-**Über Powerprozesse:**
-
-Wir bei Powerprozesse arbeiten jeden Tag gemeinsam daran, die erfolgreichste Digitale Prozessagentur in Deutschland zu werden. Zunächst konzentrieren wir uns vor allem auf die **Digitalisierung & Automatisierung von Hausverwaltungen**, werden aber langfristig unseren Fokus auch auf andere Branchen erweitern. Bei uns arbeitest du **100% REMOTE** – du kannst uns aber gerne in unserem Büro in Worms besuchen oder uns auf Teamevents in Deutschland oder Europa kennenlernen.
-
-Du bist bei uns richtig, wenn du nicht nur den “Freiheitspart” einer Remote-Stelle genießen willst, sondern Lust hast anzupacken und langfristig mit uns zu wachsen. Wenn du also Lust auf einen tollen Job im Bereich Automatisierung & KI hast, freuen wir uns sehr auf deine Bewerbung!
-
-Weitere Informationen zu unserem Unternehmen findest du auf www.powerprozesse.de.
-
-**Gehalt: 4.000 bis 5.500 Euro pro Monat (brutto)**  
-Weiterentwicklungs- und Aufstiegsmöglichkeiten in den nächsten Jahren sind vorhanden.
-
-**Wir bieten dir:**
-
-*   **100% Remote Arbeit**: Arbeite von überall in Deutschland aus, ggf. sogar innerhalb von Europa
-    
-*   **Sicherer Arbeitsplatz:** Jede Person, die wir einstellen, soll langfristig mit uns wachsen. Das Ziel jeder Einstellung ist eine unbefristete Übernahme.
-    
-*   **Gute Vergütung & Karrierechancen:** Über die nächsten Jahre werden wir weiter wachsen und expandieren. Dazu benötigen wir weitere Experten und/oder Führungskräfte.
-    
-*   **Zukunftssicheres Themengebiet:** Wie du weißt, haben die Themen KI & Automatisierung in den letzten Jahren stark an Bedeutung gewonnen. Gerade in wirtschaftlich schwierigen Zeiten ist Effizienz durch smarte Automatisierungslösungen gefragter denn je und Fachkräfte in diesem Bereich werden überall gebraucht – Jobsicherheit garantiert.
-    
-*   **ETF-Betriebsrente mit 50 Euro Zuschuss pro Monat**
-    
-*   **30 Urlaubstage**
-    
-*   **Flexible Arbeitszeiten**
-    
-
-*   abgeschlossenes Wirtschaftsinformatik- / Informatikstudium, Fachinformatiker-Ausbildung oder Programmierkenntnisse
-    
-*   Technisches Verständnis & Problemlösungskompetenz
-    
-*   Guter Umgang mit Leistungsdruck
-    
-*   Schnelle Auffassungsgabe & disziplinierte Arbeitsweise
-    
-*   Solide Englischkenntnisse, für die unkomplizierte Kommunikation im Team
-    
-*   Wohnort in Deutschland oder in einer Zeitzone mit maximal ±2 Stunden Unterschied zu GMT+2
-    
-*   Vorkenntnisse mit Tools wie **n8n** (oder [Make.com](http://Make.com) und Zapier) sind von Vorteil, aber nicht notwendig
-    
-*   Auch Programmierkenntnisse z.b. mit JavaScript oder Python sind von Vorteil, aber nicht notwendig
-    
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\\nAs an AI Developer (m/f/d) at Powerprozesse, you will shape and automate business processes using modern Low-Code/No-Code solutions and API tools like n8n or Make.com. You will ensure systems integrate seamlessly, data flows smoothly, and operations become more efficient. Powerprozesse aims to become Germany's most successful Digital Process Agency, initially focusing on the digitalization and automation of property management companies, with plans to expand into other industries. This is a 100% remote position, offering the flexibility to work from anywhere while being part of a team that values proactive growth and long-term commitment.\\n\\n### Responsibilities\\n- Automate business processes with No-Code / Low-Code tools like n8n, Zapier, Make\\n- Build, maintain, and manage Airtable databases\\n- Develop front-ends and interfaces with No-Code / Low-Code tools\\n- Plan, implement, and deploy new business processes\\n- Document and conceptualize digital business processes\\n- Provide user training and support\\n\\n### Qualifications\\n- Completed degree in Business Informatics / Computer Science, a certified IT specialist apprenticeship, or programming knowledge\\n- Technical understanding and problem-solving skills\\n- Ability to handle performance pressure well\\n- Quick comprehension and disciplined work ethic\\n- Solid English skills for uncomplicated team communication\\n- Residence in Germany or a timezone with a maximum of ±2 hours difference to GMT+2\\n- Prior experience with tools like n8n (or Make.com and Zapier) is advantageous but not required\\n- Programming skills (e.g., with JavaScript or Python) are also advantageous but not required\\n\\n### Author's Take\\nThis is an excellent opportunity for an AI and automation enthusiast to join a fast-growing, 100% remote agency with ambitious goals. You'll gain a secure, long-term position with competitive compensation, flexible hours, 30 days of vacation, and significant career advancement potential in a future-proof field. The company is committed to employee growth, offering an ETF company pension and regular team events, making it ideal for those eager to make a tangible impact and grow alongside a market leader.

@@ -9,71 +9,33 @@ postedDate: '2025-12-12T14:59:03.000Z'
 expirationDate: null
 tags:
   - Engineering
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/deutsche-reihenhaus-ag/tga-planer-versorgungsingenieur-cologne-149695
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters an exceptional work-life balance, highlighted by a 4-day
+  work week, generous vacation, and home office flexibility. It emphasizes a
+  supportive, family-like culture that values continuous learning, teamwork, and
+  employee well-being.
+story_question1: >-
+  How can you revolutionize housing technology by setting the master standards
+  for industrial-scale residential construction?
+story_answer1: >-
+  This role offers a unique chance to define nationwide technical standards for
+  750 new homes annually. You'll drive efficiency, quality, and innovation,
+  moving away from improvisation to create scalable, sustainable housing
+  solutions for thousands.
+story_question2: >-
+  Beyond technical innovation, what makes this role truly unique for your
+  personal well-being?
+story_answer2: >-
+  Enjoy an unparalleled work-life balance with a guaranteed 4-day week, 6 weeks
+  of vacation, and home office flexibility, ensuring you have ample time for
+  recovery and personal pursuits.
 ---
-**Bringen Sie Technik in Serie**
-
-In der TGA wird oft improvisiert – bei uns wird standardisiert. Die Deutsche Reihenhaus baut 750 Wohneinheiten pro Jahr mit industrieller Präzision. Wir suchen am Standort Köln oder Kaiserslautern einen Kopf, der die Haustechnik für unsere Serienprodukte (Reihenhaus/Doppelhaus) strategisch plant und optimiert.
-
-Statt von Baustelle zu Baustelle zu hetzen, entwickeln Sie bei uns die **Master-Standards**, die bundesweit funktionieren. Wenn Sie Lust auf TGA mit System, echte  
-Innovation im Detail und eine revolutionäre Work-Life-Balance haben, ist das Ihr neuer Job.
-
-Aufgaben
---------
-
-**Der Standard-Setzer für Haustechnik** Sie arbeiten projektunabhängig. Das heißt: Ihre Planung ist die Blaupause für hunderte Wohneinheiten.
-
-*   **Systemplanung:** Sie planen die TGA-Gewerke termin-, kosten- und qualitätsgerecht als Grundlage für unsere bundesweiten Projekte.
-*   **Standardisierung:** Sie pflegen und aktualisieren die **Master-Ausschreibungsunterlagen**. Ihre Detaillösungen sorgen dafür, dass auf der Baustelle alles passt.
-*   **Einkauf & Wirtschaftlichkeit:**  
-    Sie unterstützen bei der Verhandlung von Rahmenverträgen, pflegen  
-    Herstellkosten und optimieren unsere Produkte fortlaufend technisch und  
-    kaufmännisch.
-*   **Qualitätssicherung:** Sie definieren Qualitätsziele und stellen sicher, dass unsere TGA-Lösungen den Preis- und Leistungszielen entsprechen.
-
-Qualifikation
--------------
-
-Sie sind ein:e TGA-Spezialist:in mit dem Blick für das große Ganze – egal ob aus der Theorie oder der Praxis kommend.
-
-*   **Hintergrund:** Sie haben ein Studium der **Versorgungstechnik** absolviert ODER sind **staatlich geprüfte:r Techniker:in / Meister:in** mit fundierter Planungserfahrung.
-*   **Mindset:** Sie denken in Prozessen und Standards. Sie wollen nicht jedes Mal das Rad neu erfinden, sondern das perfekte Rad konstruieren.
-*   **Skills:** Sie sind fit in **AVA-Software** (Ausschreibung), **CAD** und MS Office. Sie können Kosten kalkulieren und technische Details lösen.
-*   **Persönlichkeit:**  
-    Sie verhandeln geschickt mit Herstellern (Rahmenverträge), arbeiten  
-    strukturiert und sind ein echter Teamplayer in unserer Planungsgruppe.
-
-Benefits
---------
-
-Wir fordern Leistung, aber wir geben auch viel zurück. Bei uns erwartet Sie ein Umfeld, in dem der Mensch zählt:
-
-*   **Freiraum & Zeit:** Genießen Sie unsere echte **4-Tage-Woche**:  
-    Sie arbeiten 36 Stunden an 4 Tagen (i.d.R. Mo–Do) und haben 3 Tage  
-    frei. Dazu gibt es die Möglichkeit, einen Tag pro Woche im Homeoffice zu  
-    arbeiten.
-*   **Erholung:** Wir bieten Ihnen **6 Wochen Urlaub** (24 Tage auf Basis der 4-Tage-Woche), der sich mit der Betriebszugehörigkeit noch erhöht.
-*   **Wertschätzung & Vergütung:**  
-    Freuen Sie sich auf eine attraktive Vergütung inklusive Teilnahme an  
-    unserem Bonusprogramm, einen unbefristeten Arbeitsvertrag und eine  
-    wertschätzende Kultur im Familienunternehmen.
-*   **Entwicklung & Zukunft:**  
-    Wir bieten eine systematische Einarbeitung, ein Mentorenprogramm und  
-    vielfältige Möglichkeiten zur internen und externen Weiterbildung.
-*   **Mobilität & Gesundheit:**  
-    Profitieren Sie von Benefits wie BusinessBike-Leasing,  
-    Gesundheitsvorsorge, modernen Arbeitsumgebungen und gemeinsamen  
-    Teamreisen & Events.
-
-Die Deutsche Reihenhaus AG revolutioniert das Eigenheim mit einem intelligenten, seriellen Baukonzept, das höchste Qualität mit attraktiven Preisen verbindet. Wir schaffen klimafreundliche Wohnparks mit 100% regenerativer Energieversorgung und revitalisieren brachliegende Flächen in Ihrer Nähe.
-
-Ein durchdachtes Zuhause, das von der Planung bis zur Fertigstellung perfekt zu Ihnen und der Umwelt passt.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nJoin Deutsche Reihenhaus, a pioneer revolutionizing residential construction with an industrial approach, building 750 high-quality, standardized homes annually. We are seeking a strategic mind to plan and optimize the building services (TGA) for our serial products, either at our Cologne or Kaiserslautern location. This role moves beyond site-specific improvisation, focusing on developing master standards that will be implemented nationwide. If you're passionate about systematic TGA, true innovation, and a revolutionary work-life balance, this is your next career step. Our company is committed to creating climate-friendly housing parks with 100% renewable energy, revitalizing brownfield sites.\n\n### Responsibilities\n**The Standard-Setter for Building Services** In this project-independent role, your plans will serve as the blueprint for hundreds of residential units.\n\n*   **System Planning**: Plan TGA trades to meet deadlines, cost, and quality standards, forming the basis for our nationwide projects.\n*   **Standardization**: Maintain and update master tender documents. Your detailed solutions ensure seamless execution on construction sites.\n*   **Purchasing & Profitability**: Support framework contract negotiations, manage manufacturing costs, and continuously optimize our products technically and commercially.\n*   **Quality Assurance**: Define quality objectives and ensure our TGA solutions meet defined price and performance targets.\n\n### Qualifications\nWe're looking for a TGA specialist with a holistic perspective, whether from theory or practice.\n\n*   **Background**: You hold a degree in **Building Services Engineering** OR are a **state-certified Technician / Master** with profound planning experience.\n*   **Mindset**: You think in processes and standards, striving to construct the perfect wheel rather than reinventing it every time.\n*   **Skills**: Proficient in **AVA software** (tendering), **CAD**, and MS Office. Capable of cost calculation and solving complex technical details.\n*   **Personality**: You are skilled in negotiating with manufacturers (framework contracts), work in a structured manner, and are a true team player within our planning group.\n\n### Author's Take\nThis is an outstanding opportunity for an experienced TGA professional who thrives on strategic impact and standardization rather than ad-hoc project work. The role promises significant influence over company-wide technical direction, backed by an exceptional benefits package, including a 4-day work week, 6 weeks of vacation, and a supportive culture focused on growth and employee well-being. It's a chance to build a legacy, literally, in a family-owned company committed to sustainability and innovation.

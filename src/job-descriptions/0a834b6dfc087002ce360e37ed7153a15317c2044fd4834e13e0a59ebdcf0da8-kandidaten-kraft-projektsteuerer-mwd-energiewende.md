@@ -9,53 +9,30 @@ postedDate: '2025-12-12T12:31:47.000Z'
 expirationDate: null
 tags:
   - Project Management
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Mid-Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/kandidaten-kraft/projektsteuerer-energiewende-cologne-240596
 companyLogoUrl: null
+companyCulture: >-
+  The company fosters a culture of professional growth and empowerment, offering
+  significant flexibility (remote work, flexible hours) and emphasizing the
+  meaningful impact of their work on sustainable energy and infrastructure.
+story_question1: >-
+  How will your project management skills directly accelerate Germany's energy
+  transition initiatives?
+story_answer1: >-
+  You'll be a key player in the Project Management Office for major energy
+  sector projects, directly influencing the successful delivery of sustainable
+  infrastructure. Your work ensures these critical initiatives stay on track, on
+  budget, and on quality, making a tangible difference.
+story_question2: How will this role expand your global project management expertise?
+story_answer2: >-
+  You'll gain exposure to international projects and diverse teams within a
+  leading global engineering consultancy, fostering your long-term career growth
+  in a truly international context.
 ---
-Unser Mandant ist eines der führenden unabhängigen Ingenieur- und Beratungsunternehmen in Deutschland. Das Unternehmen beschäftigt weltweit über 2.000 Mitarbeitende, darunter Ingenieure, Ökonomen und Berater, die interdisziplinär an Projekten arbeiten.
-
-Das Unternehmen ist spezialisiert auf Beratungs- und Planungsdienstleistungen in den Bereichen Energie, Infrastruktur, Umwelt, Wasser und IT. Ein besonderer Fokus liegt dabei auf Projekten, die die Energiewende und nachhaltige Infrastruktur fördern.
-
-Als global agierendes Unternehmen kombiniert unser Mandant lokale Präsenz mit internationaler Expertise und bietet seinen Mitarbeitenden herausragende Entwicklungsmöglichkeiten, ein modernes Arbeitsumfeld sowie flexible Arbeitsmodelle. Mit über 100 Jahren Erfahrung verbindet das Unternehmen technologische Innovationskraft mit einer klaren Ausrichtung auf Zukunftsthemen.
-
-Aufgaben
---------
-
-*   Eigenverantwortliche Mitarbeit im Projektsteuerungsteam (PMO) für Großprojekte im Energiesektor und der Energiewende (z.B. Stromversorgung o.ä.)
-*   Unterstützung der Gesamtprojektleitung durch Übernahme von Aufgaben in den Bereichen Terminplanung und Terminkontrolle, Kosten-, Risiko-, Änderungsmanagement
-*   Stetige Teamentwicklung der interdisziplinären Projektorganisation (durch Meetings, Veranstaltungen und Workshops)
-*   Koordination der internen und externen Projektbeteiligten
-*   Sicherstellung einer termin- und qualitätsgerechten Leistungserbringung unter Berücksichtigung der Kostenplanung
-*   Unterstützung bei der Überwachung von Auftragnehmern (u.a. Fachplaner und Bauunternehmen)
-*   Dokumentenkontrolle (Prüfen von Vertragsleistungen, Organisation von Ablagesystemen etc.)
-
-Qualifikation
--------------
-
-*   Erfolgreich abgeschlossenes Studium mit Schwerpunkt in Technik, Umwelt oder Wirtschaft (z.B. Wirtschaftsingenieurwesen, Bauingenieurwesen, Maschinenbau, Umweltschutz, Geographie) oder vergleichbar
-*   2-6 Berufserfahrung im Bereich Projektsteuerung oder Projektmanagement
-*   Sehr gute Kenntnisse in Deutsch und Englisch
-*   Sehr gute analytische Fähigkeiten zum Erkennen, Analysieren und Zusammenfassen komplexer Sachverhalte
-*   Kenntnisse der Terminplanungssoftware MS Project oder Primavera P6
-*   Teamplayer mit dem Interesse, langfristig Gesamtverantwortung in lokalen als auch internationalen Projekten zu übernehmen
-
-Benefits
---------
-
-Gestaltungsspielraum und Eigenverantwortung: Arbeiten Sie mit hoher Flexibilität und gestalten Sie Projekte eigenständig
-
-Karriereentwicklung: Umfassende Weiterbildungen, moderne Tools und die Möglichkeit, sich in einem global führenden Unternehmen weiterzuentwickeln
-
-Flexibilität: Mobile Arbeitsmöglichkeiten, flexible Arbeitszeiten, attraktives Gleitzeitmodell und 30 Urlaubstage
-
-Sinnhaftigkeit: Werden Sie Teil eines Teams, das maßgeblich zur Entwicklung der Energieinfrastruktur beiträgt
-
-Wir freuen uns über Ihre Bewerbung!
-
-Find [Jobs in Germany](https://www.arbeitnow.com/) on Arbeitnow
+### Description\nJoin one of Germany's leading independent engineering and consulting firms, a global entity with over 2,000 interdisciplinary experts. Specializing in energy, infrastructure, environment, water, and IT, the company focuses on projects promoting the energy transition and sustainable infrastructure. With over a century of experience, they combine technological innovation with a clear future orientation.\n\nThis role offers significant scope for autonomy and personal responsibility, excellent career development opportunities through comprehensive training and modern tools, and exceptional flexibility including mobile work, flexible hours, attractive flextime models, and 30 days of annual leave. You will be part of a team making a meaningful contribution to the development of critical energy infrastructure.\n\n### Responsibilities\n*   Autonomous collaboration within the Project Steering Team (PMO) for large-scale projects in the energy sector and energy transition (e.g., power supply)\n*   Support overall project management by taking on tasks in scheduling, schedule control, cost, risk, and change management\n*   Continuous team development of the interdisciplinary project organization through meetings, events, and workshops\n*   Coordination of internal and external project stakeholders\n*   Ensure timely and quality performance delivery, considering cost planning\n*   Support in monitoring contractors (e.g., specialist planners and construction companies)\n*   Document control (checking contractual services, organizing filing systems, etc.)\n\n### Qualifications\n*   Successfully completed degree with a focus on technology, environment, or economics (e.g., industrial engineering, civil engineering, mechanical engineering, environmental protection, geography) or comparable\n*   2-6 years of professional experience in project steering or project management\n*   Excellent knowledge of German and English\n*   Very good analytical skills for identifying, analyzing, and summarizing complex issues\n*   Knowledge of scheduling software MS Project or Primavera P6\n*   Team player with an interest in taking on overall responsibility in both local and international projects long-term\n\n### Author's Take\nThis is an excellent Mid-Senior role for a project management professional eager to make a direct impact on Germany's energy transition. The company offers a strong culture of autonomy, continuous development, and work-life balance through flexible working models, all within a globally recognized engineering consultancy.

@@ -9,80 +9,32 @@ postedDate: '2025-12-12T11:01:57.000Z'
 expirationDate: null
 tags:
   - Finance
-status: pending_review
-jobLevel: null
-employeeRole: null
+status: published
+jobLevel: Senior
+employeeRole: Individual Contributor
 salaryRange: null
 source: arbeitnow
 sourceUrl: >-
   https://www.arbeitnow.com/jobs/companies/prime-hr-agentur/bilanzbuchhalter-home-office-cologne-32641
 companyLogoUrl: null
+companyCulture: >-
+  This company fosters a dynamic and supportive culture, prioritizing
+  exceptional work-life balance through extensive flexibility and generous
+  benefits. It strongly encourages professional growth, innovation, and
+  collaborative teamwork within a modern, attractive environment.
+story_question1: >-
+  How can you leverage your financial expertise to shape the future of an
+  innovative real estate investor's accounting processes?
+story_answer1: >-
+  This is your chance to actively redefine financial strategies and systems for
+  a leading, sustainable real estate investor, directly impacting their
+  innovative growth and operational excellence.
+story_question2: >-
+  Beyond the numbers, how will you thrive in a culture that champions both
+  professional growth and personal well-being?
+story_answer2: >-
+  Join a dynamic team where flexible work, extensive benefits, and continuous
+  learning opportunities ensure you achieve both career fulfillment and an
+  excellent work-life balance.
 ---
-Im Rahmen unserer vertrauensvollen, langfristigen Zusammenarbeit mit einer erfolgreichen, renommierten Unternehmensgruppe suchen wir für diesen zuverlässigen Partner in unbefristeter, sicherer Festanstellung einen erfahrenen, kompetenten **Bilanzbuchhalter (m/w/d)** mit einem breitgefächerten und abwechslungsreichen Aufgabenbereich.
-
-Bei unserem Kunden handelt es sich um einen deutschlandweit etablierten, angesehenen Immobilieninvestor, der durch seine innovative und nachhaltige Marktposition überzeugt.
-
-Mit einer sehr guten und zentralen Verkehrsanbindung (inklusive eigener, großzügiger Parkplatzmöglichkeiten) ist eine optimale Erreichbarkeit garantiert. Zudem kannst du auf eine flexible, mehrtägige Home-Office-Option zurückgreifen, die dir eine angenehme Work-Life-Balance ermöglicht.
-
-Hier erhältst du als engagierter Experte im Bereich der Bilanzierung die einzigartige Chance, dich im Rahmen der vielfältigen, spannenden Entwicklungsmöglichkeiten durch eine gewachsene, dynamische Unternehmensmarke weiterzuentwickeln und gleichzeitig das innovative, zukunftsorientierte Rechnungswesen eines angesehenen Vorzeigeunternehmens aktiv mitzugestalten.
-
-Nutze ebenfalls die großartige Chance, Teil dieses erfolgreichen, inspirierenden Teams zu werden und profitiere von abwechslungsreichen, herausfordernden Aufgaben sowie umfangreichen Gestaltungsmöglichkeiten in deinem eigenen Aufgabenbereich. Zudem erwarten dich flexible, familienfreundliche Arbeitszeiten, soziale Social Days und ein aufgeschlossenes, vielfältiges Team in einer modernen, attraktiven Arbeitsumgebung.
-
-Aufgaben
---------
-
-*   Bearbeitung eines breitgefächerten Aufgabenfeldes in der Bilanzbuchhaltung
-*   Erstellung von Monats-, Quartals- und Jahresabschlüssen nach HGB mit Unterstützung des Teams
-*   Unterstützung bei vorbereitenden Tätigkeiten für Konzernabschlüsse der Muttergesellschaft im Rahmen eines Teams
-*   Aktives Mitwirken bei spannenden Projektthemen im Rechnungswesen
-*   Bearbeitung und Kontierung der Geschäftsvorfälle und Prozessoptimierungen in diesem Bereich
-*   Koordinierung und Überwachung der Kreditoren-, Debitoren- und Anlagebuchhaltung
-*   Intercompany-Abstimmungen und Abwicklung des Zahlungsverkehrs
-*   Erstellung der Umsatzsteuervoranmeldungen, der zusammenfassenden Meldungen und der statistischen Meldungen
-*   Mitarbeit bei Projekten zur Prozessgestaltung, u.a. bei der Weiterentwicklung der ERP-Software
-*   Beteiligung an der Weiterentwicklung von Richtlinien und deren Umsetzung sowie steuerlichen Themen
-*   Enge Zusammenarbeit mit der Geschäftsführung und externen Beratern (z.B. Wirtschaftsprüfern, Betriebsprüfern)
-
-Qualifikation
--------------
-
-**Was wir suchen:**
-
-Menschen, die **über den Tellerrand** hinausdenken. Persönlichkeiten mit klarem Blick für Risiken und Chancen. Und den Anspruch, in einem Umfeld zu arbeiten, das genauso ambitioniert ist wie sie selbst.
-
-*   Kaufmännische Ausbildung oder (betriebs-)wirtschaftliches Studium
-*   Gerne relevante Weiterbildungen, z.B. Geprüfter Bilanzbuchhalter (IHK) oder Steuerfachwirt, etc.,
-*   Einschlägige Berufserfahrung im Rechnungswesen
-*   Erfahrung in den beschriebenen Aufgabenfeldern
-*   Erfahrung mit einem ERP-System
-*   Teamfähigkeit und selbstständige Arbeitsweise
-
-Benefits
---------
-
-**Was dich erwartet:**
-
-*   Eine zentrale Rolle in einem systemrelevanten Institut
-*   Ein professionelles Umfeld mit höchsten Qualitätsansprüchen
-*   Die Möglichkeit, deine analytischen Fähigkeiten auf Premium-Niveau einzusetzen
-*   **100% flexible Arbeitszeiten, inklusive Homeoffice-Möglichkeit**
-*   **30 Tage Urlaub** und zusätzlich **betriebliche Feiertage**
-*   **Gesundheitsprogramme**: Sportzuschüsse, ergonomische Arbeitsplätze
-*   **Betriebliche Altersvorsorge** mit überdurchschnittlichem Beitrag
-*   **Verpflegung**: Kostenlose Getränke, Obstkorb und wöchentliche Mahlzeiten
-*   **Mitarbeiter-Events**: Regelmäßige Teamevents und Networking-Möglichkeiten
-*   **Fort- und Weiterbildungen** – Wir unterstützen Ihre fachliche und persönliche Entwicklung
-
-**Ein attraktives Gehaltspaket** – mit der Möglichkeit zur jährlichen Anpassung
-
-**Eine angenehme Arbeitsatmosphäre** – in einem modernen Büro mit Top-Ausstattung
-
-**Karriereperspektiven** – Individuelle Entwicklungsmöglichkeiten in einem wachsenden Unternehmen
-
-**Work-Life-Balance** – Vereinbarkeit von Beruf und Familie durch flexible Arbeitszeiten und Homeoffice
-
-**Du willst Teil von etwas Großem werden – und dabei selbst wachsen?**
-
-Dann bewirb dich jetzt exklusiv über die **PRIME HR Agentur®**, deinem Partner für Premium-Karrieren im Finanzsektor.
-
-Find more [English Speaking Jobs in Germany](https://www.arbeitnow.com/english-speaking-jobs) on Arbeitnow
+### Description\nWe are seeking an experienced and competent **Bilanzbuchhalter (m/w/d)** for a prominent and successful real estate investor known for its innovative and sustainable market position across Germany. This role offers a unique opportunity to actively shape the future-oriented accounting of a leading company while benefiting from diverse development paths within a dynamic brand. You'll join an inspiring team, tackling challenging tasks with significant scope for personal contribution. The company provides a modern, attractive work environment with excellent central accessibility (including ample parking), and strongly promotes work-life balance through flexible, family-friendly working hours, extensive home office options (up to 100% flexibility), and 30 days of vacation plus additional company holidays. Employees also enjoy comprehensive benefits including health programs, a generous company pension, complimentary refreshments and meals, regular team events, and robust support for professional and personal development. This position is a permanent, secure employment opportunity, offering a central role within a professional setting and an attractive salary package with annual adjustments.\n\n### Responsibilities\n* Handling a wide range of tasks in financial accounting\n* Preparation of monthly, quarterly, and annual financial statements according to HGB, with team support\n* Assisting with preparatory activities for consolidated financial statements of the parent company within a team\n* Active participation in exciting accounting projects\n* Processing and posting business transactions and optimizing processes in this area\n* Coordinating and monitoring accounts payable, accounts receivable, and asset accounting\n* Intercompany reconciliations and managing payment transactions\n* Preparation of VAT pre-registrations, recapitulative statements, and statistical reports\n* Collaboration on process design projects, including the further development of ERP software\n* Involvement in the development and implementation of guidelines and tax-related matters\n* Close collaboration with management and external consultants (e.g., auditors, tax auditors)\n\n### Qualifications\n* Commercial training or (business) economics degree\n* Relevant further qualifications, e.g., Certified Financial Accountant (IHK) or Tax Specialist\n* Relevant professional experience in accounting\n* Experience in the described areas of responsibility\n* Experience with an ERP system\n* Team player with an independent working style\n\n### Author's Take\nThis is an outstanding opportunity for a Senior Financial Accountant (Bilanzbuchhalter) who thrives on both operational excellence and strategic involvement. The role promises significant influence over critical accounting processes and system enhancements within a reputable and forward-thinking real estate investor. With an exceptional commitment to work-life balance, flexible working arrangements, and comprehensive benefits, the company clearly values its employees. This position is ideal for a proactive, experienced professional eager to contribute to innovation, collaborate closely with leadership, and continue their professional development in a truly supportive environment.
