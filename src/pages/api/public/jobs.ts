@@ -30,7 +30,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     const { adminDb } = await getFirebaseAdmin();
-    const limit = Number(req.query.limit) || 5;
+    // Cap the limit to 50 to prevent quota abuse
+    const maxLimit = 50;
+    const requestedLimit = Number(req.query.limit) || 5;
+    const limit = Math.min(requestedLimit, maxLimit);
     const tag = req.query.tag as string;
 
     let query = adminDb.collection('jobs')
@@ -46,6 +49,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const jobs = snapshot.docs.map(doc => {
       const data = doc.data();
+      // Safely handle date conversion
+      const postedDateIso = data.postedDate && typeof data.postedDate.toDate === 'function' 
+        ? data.postedDate.toDate().toISOString() 
+        : new Date().toISOString(); // Fallback if missing
+
       return {
         id: doc.id,
         title: data.title,
@@ -53,7 +61,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         location: data.location,
         // We construct the absolute URL so the link works anywhere
         url: `https://aijobspot.online/jobs/${doc.id}?ref=widget`,
-        postedDate: data.postedDate.toDate().toISOString(),
+        postedDate: postedDateIso,
         salaryRange: data.salaryRange || null
       };
     });
